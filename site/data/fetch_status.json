@@ -1,19 +1,93 @@
 {
-  "last_attempt_utc": "2026-10-26T22:56:22.708232+00:00",
-  "status": "error",
-  "queries_ok": 0,
-  "queries_total": 8,
-  "new_urls": 0,
-  "retained_urls": 0,
-  "empty_categories": [],
+  "last_attempt_utc": "2026-10-26T23:15:42.424765Z",
+  "sources": {
+    "google_news_rss": {
+      "ok": 12,
+      "total": 12
+    },
+    "gdelt_doc2": {
+      "ok": 1,
+      "total": 2
+    }
+  },
+  "profiles": {
+    "military": {
+      "status": "ok",
+      "articles": 19,
+      "new": 19
+    },
+    "diplomacy": {
+      "status": "ok",
+      "articles": 25,
+      "new": 22
+    },
+    "government": {
+      "status": "ok",
+      "articles": 34,
+      "new": 33
+    },
+    "markets": {
+      "status": "ok",
+      "articles": 4,
+      "new": 4
+    },
+    "energy": {
+      "status": "ok",
+      "articles": 17,
+      "new": 17
+    },
+    "trade": {
+      "status": "ok",
+      "articles": 10,
+      "new": 6
+    },
+    "business": {
+      "status": "ok",
+      "articles": 9,
+      "new": 7
+    },
+    "economy": {
+      "status": "ok",
+      "articles": 1,
+      "new": 1
+    },
+    "iran-fa": {
+      "status": "ok",
+      "articles": 0,
+      "new": 0
+    },
+    "china-zh": {
+      "status": "ok",
+      "articles": 41,
+      "new": 41
+    },
+    "pakistan-en": {
+      "status": "ok",
+      "articles": 38,
+      "new": 31
+    },
+    "gulf-ar": {
+      "status": "ok",
+      "articles": 48,
+      "new": 48
+    },
+    "gdelt-iran": {
+      "status": "ok",
+      "articles": 40,
+      "new": 40
+    },
+    "gdelt-hormuz": {
+      "status": "error",
+      "error": "HTTP 429 Too Many Requests",
+      "articles": 0
+    }
+  },
   "errors": {
-    "Militair & veiligheid": "HTTP 429 Too Many Requests",
-    "Politiek & diplomatie": "GDELT returned no articles field; fields: ",
-    "Overheden & crisismaatregelen": "GDELT returned no articles field; fields: ",
-    "Financiële markten": "GDELT returned no articles field; fields: ",
-    "Energie & grondstoffen": "HTTP 429 Too Many Requests",
-    "Wereldhandel & logistiek": "GDELT returned no articles field; fields: ",
-    "Bedrijfsleven & investeringen": "HTTP 429 Too Many Requests",
-    "Economie & samenleving": "HTTP 429 Too Many Requests"
-  }
+    "gdelt-hormuz": "HTTP 429 Too Many Requests"
+  },
+  "new_urls": 269,
+  "retained_urls": 269,
+  "queries_ok": 13,
+  "queries_total": 14,
+  "status": "partial"
 }
