@@ -1,9 +1,13 @@
 {
-  "status": "not_started",
-  "last_attempt_utc": null,
-  "queries_ok": 0,
+  "last_attempt_utc": "2026-10-26T22:49:49.383187+00:00",
+  "status": "partial",
+  "queries_ok": 5,
   "queries_total": 8,
   "new_urls": 0,
   "retained_urls": 0,
-  "errors": {}
+  "errors": {
+    "Militair & veiligheid": "HTTP Error 429: Too Many Requests",
+    "Energie & grondstoffen": "HTTP Error 429: Too Many Requests",
+    "Bedrijfsleven & investeringen": "HTTP Error 429: Too Many Requests"
+  }
 }
