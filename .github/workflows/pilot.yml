@@ -1,8 +1,14 @@
-name: CRISIS GDELT pilot
+name: CRISIS Intelligence news pilot
 on:
   workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'site/index.html'
+      - '.github/workflows/**'
+      - 'README.md'
   schedule:
     - cron: '17 */6 * * *'
 permissions:
@@ -11,7 +17,7 @@ permissions:
   id-token: write
 concurrency:
   group: crisis-pilot
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   update-and-publish:
     runs-on: ubuntu-latest
@@ -21,15 +27,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Collect GDELT news candidates
+      - name: Run offline collection tests
+        run: python -m unittest discover -s tests -v
+      - name: Collect GDELT and RSS candidate news
         run: python scripts/collect.py
-      - name: Commit updated news archive
+      - name: Commit updated candidate archive
         run: |
           git config user.name "crisis-intelligence-bot"
           git config user.email "crisis-intelligence-bot@users.noreply.github.com"
           git add site/data/articles.json site/data/fetch_status.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update GDELT candidate articles"
+            git commit -m "Update collected news candidates"
+            git pull --rebase origin main
             git push
           fi
       - uses: actions/configure-pages@v5
