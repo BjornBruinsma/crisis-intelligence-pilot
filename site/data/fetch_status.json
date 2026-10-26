@@ -1,13 +1,19 @@
 {
-  "last_attempt_utc": "2026-10-26T22:49:49.383187+00:00",
-  "status": "partial",
-  "queries_ok": 5,
+  "last_attempt_utc": "2026-10-26T22:56:22.708232+00:00",
+  "status": "error",
+  "queries_ok": 0,
   "queries_total": 8,
   "new_urls": 0,
   "retained_urls": 0,
+  "empty_categories": [],
   "errors": {
-    "Militair & veiligheid": "HTTP Error 429: Too Many Requests",
-    "Energie & grondstoffen": "HTTP Error 429: Too Many Requests",
-    "Bedrijfsleven & investeringen": "HTTP Error 429: Too Many Requests"
+    "Militair & veiligheid": "HTTP 429 Too Many Requests",
+    "Politiek & diplomatie": "GDELT returned no articles field; fields: ",
+    "Overheden & crisismaatregelen": "GDELT returned no articles field; fields: ",
+    "Financiële markten": "GDELT returned no articles field; fields: ",
+    "Energie & grondstoffen": "HTTP 429 Too Many Requests",
+    "Wereldhandel & logistiek": "GDELT returned no articles field; fields: ",
+    "Bedrijfsleven & investeringen": "HTTP 429 Too Many Requests",
+    "Economie & samenleving": "HTTP 429 Too Many Requests"
   }
 }
