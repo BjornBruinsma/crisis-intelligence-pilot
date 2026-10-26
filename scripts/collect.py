@@ -35,7 +35,7 @@ def fetch(query):
 
 def seen(s):
     s=str(s or "")
-    if re.fullmatch(r"\\d{8}T\\d{6}Z?",s):
+    if re.fullmatch(r"\d{8}T\d{6}Z?",s):
         return s[:4]+"-"+s[4:6]+"-"+s[6:8]+"T"+s[9:11]+":"+s[11:13]+":"+s[13:15]+"Z"
     return s
 
