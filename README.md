@@ -1,31 +1,55 @@
-# CRISIS Intelligence — GDELT pilot 0.2
+# CRISIS Intelligence — onderzoeks-pilot 0.3
 
-Publieke researchpilot rond Iran, regionale escalatie en de wereldeconomie.
+Automatische **nieuwsdetectie**, nog **geen geverifieerde gebeurtenisregistratie of oorlogskansvoorspeller**.
 
-## Wat doet dit project?
-- GitHub Actions verzamelt elke zes uur nieuwe GDELT DOC 2.0 artikelverwijzingen in acht thematische categorieën.
-- Het dashboard toont per nieuwsartikel titel, eerste waarneming, brondomein, land en categorie.
-- Berichten zijn *ongeverifieerd*. De risicometers blijven op "geen beoordeling" totdat we een onafhankelijke broncontrole en scoremethodiek hebben.
-- Doublures worden voorlopig alleen op URL samengevoegd. Semantische clustering ontbreekt.
-- De dataset is openbaar; geen vertrouwelijke info of secrets aan toevoegen.
+[Dashboard](https://bjornbruinsma.github.io/crisis-intelligence-pilot/) · [Automatische runs](https://github.com/BjornBruinsma/crisis-intelligence-pilot/actions)
 
-## Live zetten
-1. GitHub → Settings → Pages → Build and deployment → **GitHub Actions**.
-2. GitHub → Actions → **CRISIS GDELT pilot** → **Run workflow**.
-3. Controleer of de workflow succesvol draait en of `site/data/fetch_status.json` is geactualiseerd.
-4. De Pages URL staat bij Settings → Pages. Vaak: https://bjornbruinsma.github.io/crisis-intelligence-pilot/
+## Vaste werkwijze
 
-GitHub kan geplande runs vertragen. De openbare GDELT API kan tijdelijk onbereikbaar zijn.
+1. Iedere zes uur leest `scripts/collect.py` twaalf experimentele Google Nieuws RSS-zoekfeeds en twee brede GDELT DOC 2.0-zoekopdrachten uit.
+2. De twaalf RSS-profielen zijn acht thema's plus vier regionale zoekvensters: Iran (Perzisch), China (Chinees), Pakistan en Golfstaten (Arabisch).
+3. De verzamelde **artikelmetadata** (kop, link, bron, datum, zoekprofiel) worden aan `site/data/articles.json` toegevoegd, met alleen exacte feed-items samengevoegd. Geen volledige artikelteksten.
+4. `site/data/fetch_status.json` registreert per bron/profiel fouten en aantallen. Een mislukte zoekopdracht telt niet als 'geen nieuws'.
+5. Het publieke dashboard publiceert via GitHub Pages. De drie hoofdmeters blijven op **geen beoordeling**.
+6. In de volgende fase worden nieuwsartikelen gegroepeerd tot gebeurtenissen, geverifieerd tegen primaire bronnen en van onderbouwde en gedateerde scores voorzien.
 
-## Onderzoeksthema's
-1. Militair & veiligheid
-2. Politiek & diplomatie
-3. Overheden & crisismaatregelen
-4. Financiële markten
-5. Energie & grondstoffen
-6. Wereldhandel & logistiek
-7. Bedrijfsleven & investeringen
-8. Economie & samenleving
+## Acht categorieën
 
-## Wat nog ontbreekt
-Verificatie tegen primaire bronnen, gebeurtenisclustering, historische signalenscores, financiële marktfeeds, scorekalibratie en private hosting. GDELT is een detectiekanaal, geen bewijs van een werkelijke militaire operatie.
+- Militair & veiligheid
+- Politiek & diplomatie
+- Overheden & crisismaatregelen
+- Financiële markten
+- Energie & grondstoffen
+- Wereldhandel & logistiek
+- Bedrijfsleven & investeringen
+- Economie & samenleving
+
+**Vier regionale zoekvensters** zijn aanvullend op deze categorieën en mogen niet verward worden met herkomst: een Chinese zoekfeed betekent niet automatisch dat een artikel uit China komt.
+
+## Publicatie
+
+De Actions-workflow `.github/workflows/pilot.yml` draait gepland op 00:17, 06:17, 12:17 en 18:17 UTC (GitHub kan schema's vertragen). Ook kan handmatig worden gestart via **Actions → CRISIS Intelligence news pilot → Run workflow**.
+
+De workflow voert eerst `python -m unittest discover -s tests -v` uit, verzamelt nieuws, commit de statusgegevens en publiceert `site/` naar GitHub Pages. Nieuwsscores worden niet automatisch bijgewerkt.
+
+## Operationele grenzen en eerlijkheid
+
+- Google Nieuws RSS is een niet officieel als ontwikkelaars-API aangeboden feed en kan veranderen, artikelen ontbreken of verzoeken weigeren. Alleen testen met beperkte frequentie; vóór commercieel of grootschalig gebruik de voorwaarden en licenties vaststellen.
+- De publieke GDELT DOC-API geeft in onze cloudomgeving soms HTTP 429. Daarom blijven er slechts twee brede GDELT-vragen over.
+- Google RSS-links verwijzen vaak eerst naar Google Nieuws in plaats van direct naar de uitgever.
+- Hetzelfde voorval kan door meerdere bronnen zijn beschreven. De huidige implementatie filtert **alleen exacte items** binnen een kanaal. Dit is geen gevalideerde gebeurtenisdeduplicatie.
+- 'Geen artikelen' is **geen** bewijs dat er niets gebeurt.
+- Noch GDELT noch Google Nieuws biedt informatie over geheime militaire besluiten. Eenzijdige selectie, censuur en propaganda zijn bekende risico's.
+- Deze repository is openbaar; plaats geen vertrouwelijke documenten of sleutels in de code of het publicatiearchief.
+
+## Volgende test
+
+Laat de verzamelaar een paar keer draaien en beoordeel:
+1. Aantal geslaagde feeds per kanaal
+2. Netto nieuwe artikelen per 24 uur
+3. Niet-westerse taaldekking
+4. Hoeveel verschillende gebeurtenissen versus herpublicaties
+5. Uitsluiten van niet-relevante artikelen
+6. Of bronlinks handmatig te controleren zijn
+
+Pas daarna gaan we indicatoren en de drie meters voeden.
