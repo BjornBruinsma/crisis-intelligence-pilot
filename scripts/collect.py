@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Public GDELT DOC article candidates, not verified events or war probabilities."""
-import datetime as dt, json, re, time, urllib.parse, urllib.request
+import datetime as dt, json, re, time, urllib.parse, urllib.request, urllib.error
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]/"site"/"data"
@@ -23,14 +23,27 @@ def fetch(query):
     params=urllib.parse.urlencode(dict(query=query,mode="artlist",format="json",sort="datedesc",maxrecords=50,timespan="12h"))
     url="https://api.gdeltproject.org/api/v2/doc/doc?"+params
     err=""
-    for attempt in range(3):
+    for attempt in range(4):
         try:
-            with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"CRISIS-Intelligence-Pilot/0.2"}),timeout=30) as resp:
+            with urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"CRISIS-Intelligence-Pilot/0.2"}),timeout=45) as resp:
                 obj=json.loads(resp.read(4000000))
-            return obj.get("articles",[]),None
+            if not isinstance(obj,dict):
+                return [],"Unexpected GDELT response structure"
+            if "articles" not in obj:
+                return [],"GDELT returned no articles field; fields: "+",".join(obj.keys())[:120]
+            return obj["articles"],None
+        except urllib.error.HTTPError as exc:
+            err="HTTP "+str(exc.code)+" "+str(exc.reason)
+            if exc.code==429 and attempt<3:
+                retry=exc.headers.get("Retry-After","")
+                try: wait=min(90,max(12,int(retry)))
+                except (ValueError,TypeError): wait=12*(attempt+1)
+                time.sleep(wait)
+            elif attempt<3:
+                time.sleep(5*(attempt+1))
         except Exception as exc:
             err=str(exc)[:180]
-            if attempt<2: time.sleep(2*(attempt+1))
+            if attempt<3: time.sleep(5*(attempt+1))
     return [],err
 
 def seen(s):
@@ -44,13 +57,14 @@ def main():
     article_file=ROOT/"articles.json"
     before=read(article_file,{"articles":[]}).get("articles",[])
     by_url={x["url"]:x for x in before if isinstance(x,dict) and x.get("url")}
-    errors={}; added=0; success=0
+    errors={}; empty_categories=[]; added=0; success=0
     for category,query in QUERIES.items():
         records,error=fetch(query)
         if error:
             errors[category]=error
             continue
         success+=1
+        if not records: empty_categories.append(category)
         for item in records:
             url=str(item.get("url",""))
             if not url.startswith(("https://","http://")): continue
@@ -59,7 +73,7 @@ def main():
                 by_url[url]=dict(url=url,title=str(item.get("title") or "Zonder titel")[:350],first_seen=seen(item.get("seendate")),language=item.get("language",""),domain=item.get("domain",""),sourcecountry=item.get("sourcecountry",""),topic=[category],review_status="unverified")
             elif category not in by_url[url].setdefault("topic",[]):
                 by_url[url]["topic"].append(category)
-        time.sleep(1)
+        time.sleep(8)
     cutoff=now-dt.timedelta(days=31)
     def is_recent(x):
         try:
@@ -68,7 +82,7 @@ def main():
     saved=sorted((x for x in by_url.values() if is_recent(x)),key=lambda x:x.get("first_seen",""),reverse=True)[:12000]
     if success:
         article_file.write_text(json.dumps(dict(source="GDELT DOC 2.0 ArticleList",description="Unverified candidate news articles, not confirmed incidents",last_success_utc=now.isoformat(),articles=saved),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    (ROOT/"fetch_status.json").write_text(json.dumps(dict(last_attempt_utc=now.isoformat(),status="ok" if success==len(QUERIES) else ("partial" if success else "error"),queries_ok=success,queries_total=len(QUERIES),new_urls=added,retained_urls=len(saved),errors=errors),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"GDELT {success}/{len(QUERIES)} success, {added} new URLs")
+    (ROOT/"fetch_status.json").write_text(json.dumps(dict(last_attempt_utc=now.isoformat(),status="ok" if success==len(QUERIES) else ("partial" if success else "error"),queries_ok=success,queries_total=len(QUERIES),new_urls=added,retained_urls=len(saved),empty_categories=empty_categories,errors=errors),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    print(f"GDELT {success}/{len(QUERIES)} queries completed, {added} new URLs, {len(empty_categories)} empty query results, {len(errors)} errors")
 
 if __name__=="__main__": main()
