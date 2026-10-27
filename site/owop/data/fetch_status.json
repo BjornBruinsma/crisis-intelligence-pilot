@@ -1,82 +1,75 @@
 {
-  "last_attempt_utc": "2026-10-27T12:05:04.919419Z",
+  "last_attempt_utc": "2026-10-27T12:09:45.118862Z",
   "profiles": {
     "nature-en": {
       "status": "ok",
-      "articles": 11,
-      "new": 11
+      "articles": 100,
+      "new": 100
     },
     "health-en": {
       "status": "ok",
-      "articles": 3,
-      "new": 3
+      "articles": 57,
+      "new": 57
     },
     "science-en": {
       "status": "ok",
-      "articles": 3,
-      "new": 3
+      "articles": 31,
+      "new": 31
     },
     "people-en": {
       "status": "ok",
-      "articles": 0,
-      "new": 0
+      "articles": 100,
+      "new": 95
     },
     "progress-en": {
       "status": "ok",
-      "articles": 0,
-      "new": 0
+      "articles": 26,
+      "new": 26
     },
     "energy-en": {
       "status": "ok",
-      "articles": 0,
-      "new": 0
+      "articles": 26,
+      "new": 26
     },
     "spanish": {
       "status": "ok",
-      "articles": 0,
-      "new": 0
+      "articles": 100,
+      "new": 100
     },
     "portuguese": {
       "status": "ok",
-      "articles": 0,
-      "new": 0
+      "articles": 100,
+      "new": 100
     },
     "french": {
       "status": "ok",
-      "articles": 0,
-      "new": 0
+      "articles": 100,
+      "new": 100
     },
     "indonesia": {
       "status": "ok",
-      "articles": 0,
-      "new": 0
+      "articles": 100,
+      "new": 100
     },
     "russian": {
       "status": "ok",
-      "articles": 0,
-      "new": 0
+      "articles": 100,
+      "new": 100
     },
     "arabic": {
       "status": "ok",
-      "articles": 0,
-      "new": 0
+      "articles": 100,
+      "new": 100
     },
     "china": {
       "status": "ok",
-      "articles": 0,
-      "new": 0
-    },
-    "gdelt-progress": {
-      "status": "ok",
-      "articles": 60,
-      "new": 60
+      "articles": 97,
+      "new": 97
     }
   },
   "errors": {
-    "gdelt-conservation": "HTTP 429 Too Many Requests",
-    "gdelt-health": "HTTP 429 Too Many Requests",
-    "gdelt-community": "HTTP 429 Too Many Requests"
+    "gdelt-positive-radar": "HTTP 429 Too Many Requests"
   },
-  "new_urls": 77,
-  "retained_urls": 77
+  "new_urls": 1032,
+  "retained_urls": 1109
 }
