@@ -60,21 +60,18 @@ def shortlist(groups, count=LIMIT):
     categories = THEMES + [REGIONAL]
     output = []
     chosen = set()
-    # Round robin prevents the highest-volume RSS language from dominating.
-    for i in range(count):
-        picked = None
-        for move in range(len(categories)):
-            category = categories[(i + move) % len(categories)]
-            for g in groups_by_theme[category]:
-                if g.get("key") not in chosen:
-                    picked = g
-                    break
-            if picked:
-                break
-        if not picked:
-            break
-        chosen.add(picked["key"])
-        output.append({
+    # True round robin prevents the highest-volume search locale from
+    # dominating while still filling unused category slots.
+    while len(output) < count:
+        made_progress = False
+        for category in categories:
+            picked = next((g for g in groups_by_theme[category]
+                           if g.get("key") not in chosen), None)
+            if picked is None:
+                continue
+            made_progress = True
+            chosen.add(picked["key"])
+            output.append({
             "id": picked["key"],
             "headline_claim": picked["title"],
             "discovered_via": classify(picked),
@@ -102,7 +99,11 @@ def shortlist(groups, count=LIMIT):
                 }
                 for a in (picked.get("articles") or [])[:15]
             ],
-        })
+            })
+            if len(output) >= count:
+                break
+        if not made_progress:
+            break
     return output
 
 
