@@ -35,6 +35,8 @@ jobs:
         run: python scripts/build_static.py
       - name: Build editorial review queue (unverified headline groups)
         run: python scripts/triage.py
+      - name: Build 25-item verification desk
+        run: python scripts/build_verification.py
       - name: Commit updated candidate archive
         run: |
           git config user.name "crisis-intelligence-bot"
@@ -44,7 +46,7 @@ jobs:
           # instead of rebasing a data commit and risking JSON merge conflicts.
           git fetch origin main
           git reset --mixed origin/main
-          git add site/data/articles.json site/data/fetch_status.json site/news.html site/review.html site/data/review_queue.json
+          git add site/data/articles.json site/data/fetch_status.json site/news.html site/review.html site/data/review_queue.json site/verify.html site/data/verification_candidates.json
           if ! git diff --cached --quiet; then
             git commit -m "Update collected news candidates"
             git push origin HEAD:main
