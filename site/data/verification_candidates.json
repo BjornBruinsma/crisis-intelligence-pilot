@@ -1,16 +1,47 @@
 {
   "description": "Manually reviewable headline claims; no event verification, no risk scoring",
-  "source_generated_from": "2026-10-27T12:57:25.661358Z",
-  "source_groups_count": 493,
+  "source_generated_from": "2026-10-27T16:48:24.729209Z",
+  "source_groups_count": 515,
   "selection_method": "Category-balanced high/medium editorial candidates; NOT trained or calibrated",
   "candidates": [
     {
-      "id": "c46d8429e9a1b8",
-      "headline_claim": "Iran Expands Tanker Blockade Beyond Hormuz - https://houseofsaud.com/",
+      "id": "bb36d5c966614c",
+      "headline_claim": "Yemen’s Houthis claim missile attack on Saudi Arabia’s Ras Tanura oil refinery - Anadolu Ajansı",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
-        "Militair & veiligheid",
-        "Wereldhandel & logistiek"
+        "Militair & veiligheid"
+      ],
+      "publication_day": "2026-10-27",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "article_count": 1,
+      "publisher_names": [
+        "anadolu ajansı"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "Yemen’s Houthis claim missile attack on Saudi Arabia’s Ras Tanura oil refinery - Anadolu Ajansı",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHM3MEkyOW9YM0FRZ2I2RTRPVFVldzJLc0gwSUtBWDgwMEVPbm50eGJ6bFhyUEVOMnRMS0dFcTRZOWxIREtJNEdXcFJFTEFPTEdHNFlJbXZsdUI5TWh3cjRQRjQ1elhremxfY3FndGttR2xoOGsxNlBLZzJjRHV1UTZsM2xRU0FOczdXTVlGQTZPeW5HWmN5ZHNPRU5VT2ZUMVB2RHlNRmFBbXNWc01sbDlqTnJlZXhwWklVaVhvRmI?oc=5",
+          "publisher": "Anadolu Ajansı",
+          "published_at": "2026-10-27T13:30:03Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
+      "id": "7c2b74dd0eb649",
+      "headline_claim": "Saudi Cabinet Reviews Tehran Talks That Ended Without Ceasefire - https://houseofsaud.com/",
+      "discovered_via": "Politiek & diplomatie",
+      "other_search_labels": [
+        "Politiek & diplomatie"
       ],
       "publication_day": "2026-10-27",
       "publication_day_is_event_date": false,
@@ -29,42 +60,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran Expands Tanker Blockade Beyond Hormuz - https://houseofsaud.com/",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSWNxOWtxVTZ3d3VxOE5SNVpRUWpXZmd1aTZqRzVlTEZfUVlBazhwTmZuVm5pM012YTR2V0pUdXNaQUg1NnV3amo4VGhjQko3WlBsb1hIM1ZhSFJzamtfajdsZFdiUEpPdXRWR1VneThNbkxiOXg3WEZtTVNYZlloRjI5ZGk?oc=5",
+          "title": "Saudi Cabinet Reviews Tehran Talks That Ended Without Ceasefire - https://houseofsaud.com/",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tN0RoNUxtcVNCMWF2R0ZlUWlCRHlPREZHZW5IRFVJbVotYl9BRlRkd0M0aTJzbXB0S2c0REozbWV5UUVrV3Bpa3J6dU5OSHpxbnFOTXppS2Q4RTJ3YzU1N1pqSlNaNEVCelMwbVltS3EySVE?oc=5",
           "publisher": "https://houseofsaud.com/",
-          "published_at": "2026-10-27T01:29:53Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
-      "id": "f0c60ab309af78",
-      "headline_claim": "$1 Billion for Peace? Report Says Saudi Arabia Turned to Iran for Houthi Ceasefire Deal - Dainik Jagran MP CG",
-      "discovered_via": "Politiek & diplomatie",
-      "other_search_labels": [
-        "Politiek & diplomatie"
-      ],
-      "publication_day": "2026-10-27",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
-      "publisher_names": [
-        "dainik jagran mp cg"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "$1 Billion for Peace? Report Says Saudi Arabia Turned to Iran for Houthi Ceasefire Deal - Dainik Jagran MP CG",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdXQ3ZlNPVVhHT0dxNEFDNkVteFNoaGxvTmNYd1VOU1ZTeDJKUlJLU2NVWkdpeElndHkzNVNZRzByVE0wNVFqVlI3bUZJMUZhM1JYQ3lQT3JvZndCUXVCZ0E5UWo3RDdjTl9zd3ZyYjgteGFGdDRYaHpraHJKWFUwRHQzUWl0aHNhY0lmY1Rrc3ptR1ZsT0dvUVJSWUZYeFRpYUN3X2Y4Y0J1YkdwaHFWMC05MGxjQ2ZOTkY0?oc=5",
-          "publisher": "Dainik Jagran MP CG",
-          "published_at": "2026-10-27T08:19:25Z",
+          "published_at": "2026-10-27T15:40:05Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -255,8 +254,8 @@
       ]
     },
     {
-      "id": "d90ef66d2701b8",
-      "headline_claim": "US struggles to evacuate American personnel from facilities under fire in Iraq: Officials - ABC News - Breaking News, Latest News and Videos",
+      "id": "e50f908e22b3e2",
+      "headline_claim": "Middle East latest: Saudi Arabia intercepts Houthi missiles fired at Riyadh - The National",
       "discovered_via": "Bedrijfsleven & investeringen",
       "other_search_labels": [
         "Bedrijfsleven & investeringen"
@@ -267,7 +266,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "abc news - breaking news, latest news and videos"
+        "the national"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -278,10 +277,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "US struggles to evacuate American personnel from facilities under fire in Iraq: Officials - ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ2xXd2hHS1U1dzZkQmtROFo0RktSVDJVX1d2ZktEYzkxU291Z1ZoLW1ORDVGUTFSaDNRdm9JZDlIa1BaZEZoVHJkU01pVWlRZmRTYUdsclpFaUpWQWlYUU8xS2FiSlk2TEVFaUZ6dHU1ZzFEN2tDbDd3NHd6alNWdnNVRlgzLTN3SkZ6dkVldU1QcGtaWVJhZl9TdDV0TXR3MDNpXzlfVGNJblRsc29NNDQ4dXfSAboBQVVfeXFMTWFydS1pLTR0TEhnN1VndnRfZTJVazNlbnVpaGpZZFBLb3IycVhzUVdxQkJ6akozMXdRc3N6V0pnOW5GYVNoRDJJbkY3c0RpTDRYdU8yd0FES1gyREM4eG83R3lLQlZTRFktUFBJUG5hR184clg0OHFrVTY4UW1rTWgxX3E3RXcyTWR0V1E0aE9pajdJaEtVN0IzZDhmRkVFc3VzanViNGppdnZFZEl2eFY3N2VXc0FkZjBn?oc=5",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "published_at": "2026-10-27T05:59:49Z",
+          "title": "Middle East latest: Saudi Arabia intercepts Houthi missiles fired at Riyadh - The National",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmN6SzJtQ0JYM2gwc3RFSmQ5V3lFTFVfbk04VEdnUXJDcVRZTE90aDVfSUhvVzFUOExCT0FNd2h5MFFjMlltY3dwd2JUc3ZtM1R6RXRXdldlMUZBSnZrR1pteE4yeGd2Vi1saWwySzh3MTJFQWpsNGFNQ1NQWFRPMmtkMkE4Uko4LUZaZTdUMWFQOWFqRXhSZ0k1ZWVPcmhpc1FXZ0FaYVBxRWFuTkNydzF3?oc=5",
+          "publisher": "The National",
+          "published_at": "2026-10-27T13:17:15Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -351,11 +350,12 @@
       ]
     },
     {
-      "id": "8531165218c52e",
-      "headline_claim": "As Iran is 'pummeled' by US-Israeli strikes, observers say Tehran's determination appears unwavering - ABC News - Breaking News, Latest News and Videos",
+      "id": "c46d8429e9a1b8",
+      "headline_claim": "Iran Expands Tanker Blockade Beyond Hormuz - https://houseofsaud.com/",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
-        "Militair & veiligheid"
+        "Militair & veiligheid",
+        "Wereldhandel & logistiek"
       ],
       "publication_day": "2026-10-27",
       "publication_day_is_event_date": false,
@@ -363,7 +363,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "abc news - breaking news, latest news and videos"
+        "https://houseofsaud.com/"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -374,17 +374,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "As Iran is 'pummeled' by US-Israeli strikes, observers say Tehran's determination appears unwavering - ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdk9EMVdMbEltSk80SVFOb05sT3JBdUVqQ0RqWjc2NnVfYm5BbE9CS2JDTzRiZEw1YVpYaHlJcFlFQjk5SVdKNWY1NFh1RXdJSGtrNGUyWC16a3d2cTgyQkNvdTBWdDVRVFBZdlM5X1Jkb0hyaG9tWDMzM0RCR1JnemVKM1dkV1Jva1ZlSnFoSDl0TXY0LWJqUFZzOVhjZTVBaGVFUkRQZ2ttQmRnSTEzdEtPY1NVMVFh0gG-AUFVX3lxTE85dUVPTVI4RmZSTGdrQ0tvVXJxUXZzMWx0VTExZzhwdUtFSEdYM085eTRGT0piS1FFdm9mU1R0OUEyei1DYXllY054YXZINDUybFZMTHJiZFJkRURCMmN3cmhOMWJPUGYxdlBrWnJucEFwa3p4cjItS0NhU0N1TDdteW9BN0JzN001MVBqblZQMVcxNkd6Vm95NzRNUTZDRGJfZHdCeHR3dC0zZWZERHphelpOS3Fobi1WenRSaWc?oc=5",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "published_at": "2026-10-27T00:46:19Z",
+          "title": "Iran Expands Tanker Blockade Beyond Hormuz - https://houseofsaud.com/",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSWNxOWtxVTZ3d3VxOE5SNVpRUWpXZmd1aTZqRzVlTEZfUVlBazhwTmZuVm5pM012YTR2V0pUdXNaQUg1NnV3amo4VGhjQko3WlBsb1hIM1ZhSFJzamtfajdsZFdiUEpPdXRWR1VneThNbkxiOXg3WEZtTVNYZlloRjI5ZGk?oc=5",
+          "publisher": "https://houseofsaud.com/",
+          "published_at": "2026-10-27T01:29:53Z",
           "source_provider": "google_news_rss"
         }
       ]
     },
     {
-      "id": "8406a8c8b9cb22",
-      "headline_claim": "Saudi Arabia reportedly offers Houthis $1 billion for ceasefire in Iran-brokered deal - Kalinga TV",
+      "id": "d463ffa7b00ffc",
+      "headline_claim": "With Munir at negotiating table, Saudi Arabia offers $1 billion to Houthis for peace - India Today",
       "discovered_via": "Politiek & diplomatie",
       "other_search_labels": [
         "Politiek & diplomatie"
@@ -395,7 +395,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "kalinga tv"
+        "india today"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -406,10 +406,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Saudi Arabia reportedly offers Houthis $1 billion for ceasefire in Iran-brokered deal - Kalinga TV",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQakNESGw5UG9kMHFuVVM3X0xrb0NHcm03LW50RFJYLXJjbHBmVG5aa0hvQjYtXzV6c0ZaVU9iMFZYYkJDZ2lMVXlVai04eGtCazlhT2hVbTZGSEg5SV9tcE52SXRrRFk4ckpwQjdSNjcxcXZrenZJT1VwNHpmeHI1eVQ0cEdwV1lUblNvNjh1Nm94MXg5NnJRa0dtSUVvRzVKNDdsSlppeU5JRmM2c1o5Ym9MYw?oc=5",
-          "publisher": "Kalinga TV",
-          "published_at": "2026-10-27T08:12:59Z",
+          "title": "With Munir at negotiating table, Saudi Arabia offers $1 billion to Houthis for peace - India Today",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdWc1ZTk2ajlTWS1TOF9SdEZDaTFPTVhaWG5xMlEwc1JUM0xkZjU2dzJZb3BlUUxtb1NfRWtMTWZVMzB0SmR6cVZnV0NIN1FLbC0tRGRaMzVkcngxdWJRMHJKenhuWkpxRHBkTkZVZWE4T1VVQjRYMmZodUhxYTJGaTdiemJKcGY2cDFOelpoVjZCajhuQ0Utai1Pc2FKMVFwQmsxbnYtMFp1YmxXRW5lU0JuUzV1VWZsZnJDZ2N4eTRESlF2eVdxazgyc2tmSC1mQURHaHFFRVFtOEQw0gHcAUFVX3lxTE11ZzVlOTZqOVNZLVM4X1J0RkNpMU9NWFpYbnEyUTBzUlQzTGRmNTZ3MllvcGVRTG1vU19Fa0xNZlUzMHRKZHpxVmdXQ0g3UUtsLS1EZFozNWRyeDF1YlEwckp6eG5aSnFEcGRORlVlYThPVVVCNFgyZmh1SHFhMkZpN2J6YkpwZjZwMU56WmhWNkJqOG5DRS1qLU9zYUoxUXBCazFudi0wWnVibFdFbmVTQm5TNXVVZmxmckNnY3h5NERKUXZ5V3FrODJza2ZILWZBREdocUVFUW04RDA?oc=5",
+          "publisher": "India Today",
+          "published_at": "2026-10-27T13:20:28Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -560,19 +560,19 @@
       ]
     },
     {
-      "id": "992b042060e1a4",
-      "headline_claim": "2027 Saudi Arabia Dakar race cancelled amid Middle East unrest - Yahoo Sports",
+      "id": "d90ef66d2701b8",
+      "headline_claim": "US struggles to evacuate American personnel from facilities under fire in Iraq: Officials - ABC News - Breaking News, Latest News and Videos",
       "discovered_via": "Bedrijfsleven & investeringen",
       "other_search_labels": [
         "Bedrijfsleven & investeringen"
       ],
-      "publication_day": "2026-10-25",
+      "publication_day": "2026-10-27",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "yahoo sports"
+        "abc news - breaking news, latest news and videos"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -583,10 +583,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "2027 Saudi Arabia Dakar race cancelled amid Middle East unrest - Yahoo Sports",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMU1UbU1jUFFBRm9iLXh4VHY5RTFudU1tRHl0Z0wza293SC1OWXg4UGY0d1dPNUk1VVNGbjhqX0k2cVFSWUhuZ2lIeFp2R1ZETVVJTHVCbE40TjJBTWRsaUw4UUZSbzRrT1VyUUZSbUw5X081WFB3RThXd09ZNDJNXzdEcw?oc=5",
-          "publisher": "Yahoo Sports",
-          "published_at": "2026-10-25T14:45:00Z",
+          "title": "US struggles to evacuate American personnel from facilities under fire in Iraq: Officials - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ2xXd2hHS1U1dzZkQmtROFo0RktSVDJVX1d2ZktEYzkxU291Z1ZoLW1ORDVGUTFSaDNRdm9JZDlIa1BaZEZoVHJkU01pVWlRZmRTYUdsclpFaUpWQWlYUU8xS2FiSlk2TEVFaUZ6dHU1ZzFEN2tDbDd3NHd6alNWdnNVRlgzLTN3SkZ6dkVldU1QcGtaWVJhZl9TdDV0TXR3MDNpXzlfVGNJblRsc29NNDQ4dXfSAboBQVVfeXFMTWFydS1pLTR0TEhnN1VndnRfZTJVazNlbnVpaGpZZFBLb3IycVhzUVdxQkJ6akozMXdRc3N6V0pnOW5GYVNoRDJJbkY3c0RpTDRYdU8yd0FES1gyREM4eG83R3lLQlZTRFktUFBJUG5hR184clg0OHFrVTY4UW1rTWgxX3E3RXcyTWR0V1E0aE9pajdJaEtVN0IzZDhmRkVFc3VzanViNGppdnZFZEl2eFY3N2VXc0FkZjBn?oc=5",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "published_at": "2026-10-27T05:59:49Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -624,19 +624,19 @@
       ]
     },
     {
-      "id": "44eb862776f60a",
-      "headline_claim": "US military says it is striking Iran in response to attack on civilian vessel in Strait of Hormuz - Head Topics",
+      "id": "8531165218c52e",
+      "headline_claim": "As Iran is 'pummeled' by US-Israeli strikes, observers say Tehran's determination appears unwavering - ABC News - Breaking News, Latest News and Videos",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
       ],
-      "publication_day": "2026-10-26",
+      "publication_day": "2026-10-27",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "head topics"
+        "abc news - breaking news, latest news and videos"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -647,17 +647,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "US military says it is striking Iran in response to attack on civilian vessel in Strait of Hormuz - Head Topics",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcmJHZElTRHFxTkRqWnh3a09MMlpKMDFFTnFOb0hzY0R3UmtleFhyRnZaQzBpT0J2WkRnOUpXOEtCNGt6UGtnalV1d3VQMWdWLThvUUhuS0NrZllhcmpYX1FXVzdJcW5PVVItLW40NWZYYWd3YmpSVFpLdjd3cERwdGt0alRna1pLLU01aU9faEdpbmFvZXVYdFVUMUN5Mk0?oc=5",
-          "publisher": "Head Topics",
-          "published_at": "2026-10-26T17:39:04Z",
+          "title": "As Iran is 'pummeled' by US-Israeli strikes, observers say Tehran's determination appears unwavering - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdk9EMVdMbEltSk80SVFOb05sT3JBdUVqQ0RqWjc2NnVfYm5BbE9CS2JDTzRiZEw1YVpYaHlJcFlFQjk5SVdKNWY1NFh1RXdJSGtrNGUyWC16a3d2cTgyQkNvdTBWdDVRVFBZdlM5X1Jkb0hyaG9tWDMzM0RCR1JnemVKM1dkV1Jva1ZlSnFoSDl0TXY0LWJqUFZzOVhjZTVBaGVFUkRQZ2ttQmRnSTEzdEtPY1NVMVFh0gG-AUFVX3lxTE85dUVPTVI4RmZSTGdrQ0tvVXJxUXZzMWx0VTExZzhwdUtFSEdYM085eTRGT0piS1FFdm9mU1R0OUEyei1DYXllY054YXZINDUybFZMTHJiZFJkRURCMmN3cmhOMWJPUGYxdlBrWnJucEFwa3p4cjItS0NhU0N1TDdteW9BN0JzN001MVBqblZQMVcxNkd6Vm95NzRNUTZDRGJfZHdCeHR3dC0zZWZERHphelpOS3Fobi1WenRSaWc?oc=5",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "published_at": "2026-10-27T00:46:19Z",
           "source_provider": "google_news_rss"
         }
       ]
     },
     {
-      "id": "6e798d1fa30ef1",
-      "headline_claim": "Saudi Arabia offered $1B to Houthis for Iran-brokered ceasefire: Report - NewsBytes",
+      "id": "f0c60ab309af78",
+      "headline_claim": "$1 Billion for Peace? Report Says Saudi Arabia Turned to Iran for Houthi Ceasefire Deal - Dainik Jagran MP CG",
       "discovered_via": "Politiek & diplomatie",
       "other_search_labels": [
         "Politiek & diplomatie"
@@ -668,7 +668,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "newsbytes"
+        "dainik jagran mp cg"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -679,10 +679,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Saudi Arabia offered $1B to Houthis for Iran-brokered ceasefire: Report - NewsBytes",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNnFzYW91QThZRktFMk0tZ0YxUEtJNU15blA2WUlYRkNjOFRac25jU21JYVg4SzZId1EweVpndVpOa0ZKMTc5a0VXeU1LMHFMNmdNS3V0bzc3aXNvLXdrQVNoTkNNUHloRHpxQTQ3b3hkZWtFWXB0VHBoTWVlc0hFcGtuWmFhTDE2SW1qTFVZYkg?oc=5",
-          "publisher": "NewsBytes",
-          "published_at": "2026-10-27T06:06:39Z",
+          "title": "$1 Billion for Peace? Report Says Saudi Arabia Turned to Iran for Houthi Ceasefire Deal - Dainik Jagran MP CG",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdXQ3ZlNPVVhHT0dxNEFDNkVteFNoaGxvTmNYd1VOU1ZTeDJKUlJLU2NVWkdpeElndHkzNVNZRzByVE0wNVFqVlI3bUZJMUZhM1JYQ3lQT3JvZndCUXVCZ0E5UWo3RDdjTl9zd3ZyYjgteGFGdDRYaHpraHJKWFUwRHQzUWl0aHNhY0lmY1Rrc3ptR1ZsT0dvUVJSWUZYeFRpYUN3X2Y4Y0J1YkdwaHFWMC05MGxjQ2ZOTkY0?oc=5",
+          "publisher": "Dainik Jagran MP CG",
+          "published_at": "2026-10-27T08:19:25Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -818,19 +818,19 @@
       ]
     },
     {
-      "id": "4510ee9e786bc2",
-      "headline_claim": "Middle East Tourism Faces Renewed Aviation and Security Pressures in October 2026 as Missile Threats, Flight Cancellations and Jordan Shooting Hit Confidence - Avi-Go",
+      "id": "3bde413355a47a",
+      "headline_claim": "Saudi Aramco orders Dhahran headquarters evacuation as Houthi attacks intensify - NST Online",
       "discovered_via": "Bedrijfsleven & investeringen",
       "other_search_labels": [
         "Bedrijfsleven & investeringen"
       ],
-      "publication_day": "2026-10-25",
+      "publication_day": "2026-10-26",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "avi-go"
+        "nst online"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -841,10 +841,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Middle East Tourism Faces Renewed Aviation and Security Pressures in October 2026 as Missile Threats, Flight Cancellations and Jordan Shooting Hit Confidence - Avi-Go",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nVGk5dHdHQzZFczBBbC1XVVZWeUVTX19IelNpZEhZaF9FUlEwQnhxeEtQWjhBTmlyZ2xZQWRkM0JuOWpSMjNkWjhhbF9iSlh3T2tZZ2MtWHR4My1FWDQ3MXY1QmdFOW9UbFJ5UENMUk1xd3M?oc=5",
-          "publisher": "Avi-Go",
-          "published_at": "2026-10-25T04:54:38Z",
+          "title": "Saudi Aramco orders Dhahran headquarters evacuation as Houthi attacks intensify - NST Online",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWVY5bG1JQUt0Z0p4c3N6TThHeGZ0d0FJZER2YVFWM2lmRkQ0Z3AycTBtWUdHeWU3TC02SWlzOGN4em1fSC1xLXVua0htM1doUXg4NmRWTndIQmtlaUlNcWFIalNzQmNCejJLajFqdzNLUHhsbzlNeXloTjFJb0tDVXBzWkFpMFJza3M4Si00ZUJfb2tlRW9PSHQzR0IzM3JmQl9SSk9HMFc1bXVNeEVZLVFtTHZsNWl30gG-AUFVX3lxTFBYVzBLSzNaV3l5UEh2NjRiaFdsVTdsakloSjVDTFpEWXRTZFl6V0RNcnR6UkI1T1paVGtvV09YTHB0bHpSR0dSNVNFWjV3eG9wekhxMmxhS1ZsLWVEQzBFTldBT3hWUHI4OTI2VFA2RGhtazBuUGtSbVh4Szcxd0NZR3BTTjJIY3AwZ29WYWNabW5OM3lBU1FQSUFYSE96d25WYjFSRC0tT2ZGVWlwV1Fpd3hXQkVCZUo1ZEVhWHc?oc=5",
+          "publisher": "NST Online",
+          "published_at": "2026-10-26T03:00:00Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -882,8 +882,8 @@
       ]
     },
     {
-      "id": "82615ec115252b",
-      "headline_claim": "Egypt authorises military support for Saudi Arabia as Houthi militia attacks escalate - TRT World",
+      "id": "52470b559d9522",
+      "headline_claim": "U.S. Strikes Three Iranian Oil Tankers After Missile Attacks on Navy Warships - EnergyNow.com",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
@@ -894,7 +894,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "trt world"
+        "energynow.com"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -905,10 +905,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Egypt authorises military support for Saudi Arabia as Houthi militia attacks escalate - TRT World",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pRHF1cXFkRzRMd2FsNmZfWEFfdGdCdTV4RER3QkF1bkR0SEQ2cjN0dmV6SzB4Y2xDM1V4WVdhUTQ0Nm1kczdTTzBDZV9rbzVUbVdn?oc=5",
-          "publisher": "TRT World",
-          "published_at": "2026-10-26T14:36:47Z",
+          "title": "U.S. Strikes Three Iranian Oil Tankers After Missile Attacks on Navy Warships - EnergyNow.com",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQY2lyX3Y1elMtUnAwckgtald6MDYxRlNaNjVRbjdvWmZBcTd6aXN5dEpBT3hfMzV0VHNtTWRUMU9KZm1zb1lHajJreE05NXRzN2VYQTBiMzdNRGhhR0V1dGdyT3dOUFE5UmgxZmNrdkx1NGhfTUJCV3pQQUNZdU5KTERteDhUQmlYdkI3djNsZFpSdklHRERvSTg1UDJvTW1QSVEwemdQbk1YR1k?oc=5",
+          "publisher": "EnergyNow.com",
+          "published_at": "2026-10-26T21:14:24Z",
           "source_provider": "google_news_rss"
         }
       ]

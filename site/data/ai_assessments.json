@@ -1,12 +1,17 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-27T12:58:30.101616Z",
-  "status": "not_configured",
-  "model": null,
+  "last_attempt_utc": "2026-10-27T16:49:29.999672Z",
+  "status": "partial",
+  "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
-  "last_error": null,
+  "last_error": "HTTPError: HTTP Error 429: Too Many Requests",
   "active_reviewed": 0,
   "active_total": 25,
   "assessments": {},
-  "usage_by_day": {}
+  "usage_by_day": {
+    "2026-10-27": {
+      "requests": 1,
+      "total_tokens": 0
+    }
+  }
 }
