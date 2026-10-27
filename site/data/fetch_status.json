@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-10-26T23:15:42.424765Z",
+  "last_attempt_utc": "2026-10-27T00:59:31.802464Z",
   "sources": {
     "google_news_rss": {
       "ok": 12,
@@ -13,38 +13,38 @@
   "profiles": {
     "military": {
       "status": "ok",
-      "articles": 19,
-      "new": 19
+      "articles": 20,
+      "new": 3
     },
     "diplomacy": {
       "status": "ok",
-      "articles": 25,
-      "new": 22
+      "articles": 27,
+      "new": 3
     },
     "government": {
       "status": "ok",
-      "articles": 34,
-      "new": 33
+      "articles": 24,
+      "new": 2
     },
     "markets": {
       "status": "ok",
       "articles": 4,
-      "new": 4
+      "new": 0
     },
     "energy": {
       "status": "ok",
-      "articles": 17,
-      "new": 17
+      "articles": 42,
+      "new": 24
     },
     "trade": {
       "status": "ok",
       "articles": 10,
-      "new": 6
+      "new": 0
     },
     "business": {
       "status": "ok",
-      "articles": 9,
-      "new": 7
+      "articles": 10,
+      "new": 0
     },
     "economy": {
       "status": "ok",
@@ -58,35 +58,35 @@
     },
     "china-zh": {
       "status": "ok",
-      "articles": 41,
-      "new": 41
+      "articles": 18,
+      "new": 7
     },
     "pakistan-en": {
       "status": "ok",
-      "articles": 38,
-      "new": 31
+      "articles": 16,
+      "new": 3
     },
     "gulf-ar": {
       "status": "ok",
       "articles": 48,
-      "new": 48
+      "new": 1
     },
     "gdelt-iran": {
-      "status": "ok",
-      "articles": 40,
-      "new": 40
-    },
-    "gdelt-hormuz": {
       "status": "error",
       "error": "HTTP 429 Too Many Requests",
       "articles": 0
+    },
+    "gdelt-hormuz": {
+      "status": "ok",
+      "articles": 40,
+      "new": 38
     }
   },
   "errors": {
-    "gdelt-hormuz": "HTTP 429 Too Many Requests"
+    "gdelt-iran": "HTTP 429 Too Many Requests"
   },
-  "new_urls": 269,
-  "retained_urls": 269,
+  "new_urls": 82,
+  "retained_urls": 351,
   "queries_ok": 13,
   "queries_total": 14,
   "status": "partial"
