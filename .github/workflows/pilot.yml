@@ -31,11 +31,13 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Collect GDELT and RSS candidate news
         run: python scripts/collect.py
+      - name: Build static browsable news archive
+        run: python scripts/build_static.py
       - name: Commit updated candidate archive
         run: |
           git config user.name "crisis-intelligence-bot"
           git config user.email "crisis-intelligence-bot@users.noreply.github.com"
-          git add site/data/articles.json site/data/fetch_status.json
+          git add site/data/articles.json site/data/fetch_status.json site/news.html
           if ! git diff --cached --quiet; then
             git commit -m "Update collected news candidates"
             git pull --rebase origin main
