@@ -22,27 +22,26 @@ ROOT.mkdir(parents=True, exist_ok=True)
 UA = "OWOP-News-Pilot/0.1 (public-source-monitor)"
 MAX_AGE_DAYS = 14
 
+# Broad OR searches are intentional: AI performs the strict editorial filtering later.
 PROFILES = [
-    ("nature-en", "Nature", "wildlife conservation restored recovery community when:2d", "en-US", "US", "US:en"),
-    ("health-en", "Health", 'medical breakthrough treatment recovery "good news" when:2d', "en-US", "US", "US:en"),
-    ("science-en", "Science", "scientists breakthrough discovery improves solution when:2d", "en-US", "US", "US:en"),
-    ("people-en", "People", "community volunteers helping restored rescued opened when:2d", "en-US", "US", "US:en"),
-    ("progress-en", "Progress", "poverty declined mortality fell access improved education record when:2d", "en-US", "US", "US:en"),
-    ("energy-en", "Climate & Energy", "renewable energy record battery clean energy breakthrough when:2d", "en-US", "US", "US:en"),
-    ("spanish", "Mundo hispano", "comunidad restauración conservación avance voluntarios buenas noticias when:2d", "es", "ES", "ES:es"),
-    ("portuguese", "Mundo lusófono", "comunidade restauração conservação avanço voluntários boas notícias when:2d", "pt-BR", "BR", "BR:pt-419"),
-    ("french", "Monde francophone", "communauté restauration conservation progrès bénévoles bonne nouvelle when:2d", "fr", "FR", "FR:fr"),
-    ("indonesia", "Indonesia", "komunitas konservasi pemulihan relawan kemajuan kabar baik when:2d", "id", "ID", "ID:id"),
-    ("russian", "Русскоязычные источники", "восстановили экология волонтеры спасли улучшение хорошие новости when:2d", "ru", "RU", "RU:ru"),
-    ("arabic", "مصادر عربية", "مبادرة مجتمع إنقاذ استعادة تحسن تطوع أخبار جيدة when:2d", "ar", "SA", "SA:ar"),
-    ("china", "中文来源", "社区 保护 恢复 志愿者 改善 突破 好消息 when:2d", "zh-CN", "CN", "CN:zh-Hans"),
+    ("nature-en", "Nature", "(conservation OR restored OR recovery OR rescued OR biodiversity) when:2d", "en-US", "US", "US:en"),
+    ("health-en", "Health", "(breakthrough OR recovered OR treatment OR survival OR cured) health when:2d", "en-US", "US", "US:en"),
+    ("science-en", "Science", "(breakthrough OR discovery OR innovation OR solution) science when:2d", "en-US", "US", "US:en"),
+    ("people-en", "People", "(volunteers OR community OR rescued OR rebuilt OR helped) when:2d", "en-US", "US", "US:en"),
+    ("progress-en", "Progress", "(declined OR improved OR reduced OR expanded OR record) (poverty OR mortality OR education OR access) when:2d", "en-US", "US", "US:en"),
+    ("energy-en", "Climate & Energy", "(renewable OR battery OR solar OR wind OR clean energy) (record OR breakthrough OR expansion) when:2d", "en-US", "US", "US:en"),
+    ("spanish", "Mundo hispano", "(restauración OR conservación OR voluntarios OR recuperación OR avance OR rescate) when:2d", "es", "ES", "ES:es"),
+    ("portuguese", "Mundo lusófono", "(restauração OR conservação OR voluntários OR recuperação OR avanço OR resgate) when:2d", "pt-BR", "BR", "BR:pt-419"),
+    ("french", "Monde francophone", "(restauration OR conservation OR bénévoles OR rétablissement OR progrès OR sauvetage) when:2d", "fr", "FR", "FR:fr"),
+    ("indonesia", "Indonesia", "(konservasi OR pemulihan OR relawan OR kemajuan OR penyelamatan OR berhasil) when:2d", "id", "ID", "ID:id"),
+    ("russian", "Русскоязычные источники", "(восстановили OR волонтеры OR спасли OR улучшение OR восстановление OR экология) when:2d", "ru", "RU", "RU:ru"),
+    ("arabic", "مصادر عربية", "(إنقاذ OR استعادة OR تحسن OR تطوع OR مبادرة OR حماية) when:2d", "ar", "SA", "SA:ar"),
+    ("china", "中文来源", "(保护 OR 恢复 OR 志愿者 OR 改善 OR 突破 OR 救援) when:2d", "zh-CN", "CN", "CN:zh-Hans"),
 ]
 
+# GDELT's public DOC endpoint is rate-limited in Actions; use one broad radar call.
 GDELT_QUERIES = [
-    ("gdelt-conservation", '(conservation OR restored OR recovery OR rescued) tone>1'),
-    ("gdelt-health", '(breakthrough OR recovery OR treatment) tone>1'),
-    ("gdelt-community", '(community OR volunteers OR initiative) tone>1'),
-    ("gdelt-progress", '(improved OR declined OR record OR progress) tone>1'),
+    ("gdelt-positive-radar", '(conservation OR restored OR recovery OR rescued OR breakthrough OR volunteers OR improved) tone>1'),
 ]
 
 
