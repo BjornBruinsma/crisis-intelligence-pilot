@@ -50,11 +50,14 @@ jobs:
       - name: Install OpenAI SDK for OWOP editorial board
         run: python -m pip install --quiet "openai>=2.0.0"
       - name: Run autonomous OWOP AI editorial board
+        id: owop_editorial
+        continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OWOP_MODEL: gpt-6-luna
         run: python scripts/owop_editorial.py
       - name: Build OWOP pilot feed
+        if: steps.owop_editorial.outcome == 'success'
         run: python scripts/owop_build.py
 
       - name: Commit updated candidate archive
