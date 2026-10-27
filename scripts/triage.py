@@ -211,7 +211,7 @@ x.hidden=!!p.value&&x.dataset.priority!==p.value;}};</script>
 
 def main():
     feed = load(DATA / "articles.json", {"articles": []})
-    articles = list(feed.get("articles") or [])[-MAX_CANDIDATES:]
+    articles = list(feed.get("articles") or [])[:MAX_CANDIDATES]
     groups = cluster_articles(articles)
     priorities = collections.Counter(g["priority"] for g in groups)
     stats = {"article_count":len(articles), "group_count":len(groups),
