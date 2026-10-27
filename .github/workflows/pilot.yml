@@ -7,8 +7,10 @@ on:
       - 'scripts/**'
       - 'tests/**'
       - 'site/index.html'
+      - 'site/owop/**'
       - '.github/workflows/**'
       - 'README.md'
+      - 'OWOP_PILOT.md'
   schedule:
     - cron: '17 */6 * * *'
 permissions:
@@ -29,6 +31,7 @@ jobs:
           python-version: '3.12'
       - name: Run offline collection tests
         run: python -m unittest discover -s tests -v
+
       - name: Collect GDELT and RSS candidate news
         run: python scripts/collect.py
       - name: Build static browsable news archive
@@ -42,6 +45,19 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           AI_MODEL: gpt-4o-mini
         run: python scripts/ai_assess.py
+
+      - name: Collect OWOP multilingual candidate news
+        run: python scripts/owop_collect.py
+      - name: Install OpenAI SDK for OWOP editorial board
+        run: python -m pip install --quiet "openai>=2.0.0"
+      - name: Run autonomous OWOP AI editorial board
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OWOP_MODEL: gpt-6-luna
+        run: python scripts/owop_editorial.py
+      - name: Build OWOP pilot feed
+        run: python scripts/owop_build.py
+
       - name: Commit updated candidate archive
         run: |
           git config user.name "crisis-intelligence-bot"
@@ -51,7 +67,7 @@ jobs:
           # instead of rebasing a data commit and risking JSON merge conflicts.
           git fetch origin main
           git reset --mixed origin/main
-          git add site/data/articles.json site/data/fetch_status.json site/news.html site/review.html site/data/review_queue.json site/verify.html site/data/verification_candidates.json site/ai.html site/data/ai_assessments.json
+          git add site/data/articles.json site/data/fetch_status.json site/news.html site/review.html site/data/review_queue.json site/verify.html site/data/verification_candidates.json site/ai.html site/data/ai_assessments.json site/owop
           if ! git diff --cached --quiet; then
             git commit -m "Update collected news candidates"
             git push origin HEAD:main
