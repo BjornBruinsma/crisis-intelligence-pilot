@@ -37,11 +37,15 @@ jobs:
         run: |
           git config user.name "crisis-intelligence-bot"
           git config user.email "crisis-intelligence-bot@users.noreply.github.com"
+          # GitHub may receive a new commit while collection is running.
+          # Keep generated working files and restage them against the latest remote HEAD,
+          # instead of rebasing a data commit and risking JSON merge conflicts.
+          git fetch origin main
+          git reset --mixed origin/main
           git add site/data/articles.json site/data/fetch_status.json site/news.html
           if ! git diff --cached --quiet; then
             git commit -m "Update collected news candidates"
-            git pull --rebase origin main
-            git push
+            git push origin HEAD:main
           fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
