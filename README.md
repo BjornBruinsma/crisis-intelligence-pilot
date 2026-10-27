@@ -1,4 +1,4 @@
-# CRISIS Intelligence — onderzoeks-pilot 0.3
+# CRISIS Intelligence — onderzoeks-pilot 0.4
 
 Automatische **nieuwsdetectie**, nog **geen geverifieerde gebeurtenisregistratie of oorlogskansvoorspeller**.
 
@@ -53,3 +53,25 @@ Laat de verzamelaar een paar keer draaien en beoordeel:
 6. Of bronlinks handmatig te controleren zijn
 
 Pas daarna gaan we indicatoren en de drie meters voeden.
+
+## Automatische AI-redactie (optioneel, zonder handmatig nieuws lezen)
+
+- Na nieuwsverzameling en de 25-kandidatenlijst draait `scripts/ai_assess.py`.
+- De AI classificeert alleen de **kopclaims**: relevantie, onderwerpsoort, mogelijke escalatie/de-escalatie, redactionele urgentie en een korte uitleg in het Nederlands.
+- Resultaat: [AI Nieuwsredactie](https://bjornbruinsma.github.io/crisis-intelligence-pilot/ai.html), met bronlinks en expliciet het label **niet geverifieerd**.
+- Er wordt **geen** bericht automatisch tot een bewezen gebeurtenis verheven, en er worden **geen** oorlogskanspercentages gepubliceerd.
+- Zonder API-sleutel draait de AI-redactie in `not_configured`-modus en worden geen betaalde aanroepen gedaan.
+
+### Eenmalige activatie — privé API-sleutel
+
+1. Open [OpenAI API keys](https://platform.openai.com/api-keys). Maak een API-account/project en sleutel voor de pilot. ChatGPT Plus is **niet** hetzelfde abonnement als de API: API-gebruik heeft eigen facturatie.
+2. Stel een klein budget/limiet en meldingen in bij de API-provider.
+3. Open [GitHub Actions secrets](https://github.com/BjornBruinsma/crisis-intelligence-pilot/settings/secrets/actions), klik **New repository secret**, en zet:
+   - Name: `OPENAI_API_KEY`
+   - Secret: de sleutel uit je API-project
+4. **Stuur de sleutel nooit in deze chat**, zet hem nooit in code of een publieke JSON, en gebruik nooit een persoonlijke token met bredere rechten.
+5. Ga naar [Actions](https://github.com/BjornBruinsma/crisis-intelligence-pilot/actions/workflows/pilot.yml), kies **Run workflow**. De reguliere runs zullen dezelfde sleutel daarna automatisch gebruiken.
+
+Techniek: momenteel `gpt-4o-mini` via Chat Completions (JSON), met maximaal 25 actuele kandidaten per zes uur, 5 per aanvraag, maximaal **6 API-aanvragen per workflow-run** en **24 aanvragen per UTC-dag**, met caching van eerder beoordeelde kandidaat-ID's. Mislukte API-aanroepen worden als fout getoond, niet stilzwijgend als een correcte beoordeling. Kosten hangen af van het daadwerkelijke tokenverbruik en providerprijzen.
+
+**Belangrijke beperking:** het model leest in deze fase krantenkoppen en metadata, geen volledige artikelen of officiële primaire documenten. De AI beoordeelt prioriteit en aannemelijkheid van een *nieuwsclaim*, niet de waarheid van die claim. Meertalige gebeurtenisclustering, volwaardige factchecking en historische voorspellingskalibratie zijn latere uitbreidingen.
