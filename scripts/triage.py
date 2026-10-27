@@ -22,11 +22,10 @@ ACTION_WORDS = [
     "deploy", "mobiliz", "bomb", "missile", "drone", "attack", "airstrike",
     "strike", "ceasefire", "negotiat", "sanction", "mediati", "agreement",
     "suspend", "cancel", "halt", "blockade", "closed", "closure", "shut",
-    "pipeline", "tanker", "refiner", "oil supply", "insurance", "premium",
-    "military", "naval", "ultimatum", "threaten", "production",
-    "停火", "袭击", "军事", "谈判", "撤离", "航母", "石油", "导弹",
+    "ultimatum", "threaten", "threatened", "seize", "seized",
+    "停火", "袭击", "谈判", "撤离", "导弹",
     "هجوم", "ضربة", "صواريخ", "إجلاء", "محادثات", "وقف إطلاق النار",
-    "تهديد", "النفط", "إيران", "السعودية", "جنگ", "حمله", "توافق",
+    "تهديد", "جنگ", "حمله", "توافق",
 ]
 RELEVANT_WORDS = [
     "iran", "hormuz", "tehran", "israel", "saudi", "riyadh", "houthis",
