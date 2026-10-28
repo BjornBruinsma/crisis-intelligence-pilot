@@ -13,6 +13,7 @@ on:
       - 'scripts/event_cluster.py'
       - 'scripts/quality_report.py'
       - 'scripts/signals.py'
+      - 'scripts/claim_verify.py'
       - 'tests/test_collect.py'
       - 'tests/test_ai_assess.py'
       - 'tests/test_event_research.py'
@@ -20,6 +21,7 @@ on:
       - 'tests/test_pairwise_cluster.py'
       - 'tests/test_quality_report.py'
       - 'tests/test_signals.py'
+      - 'tests/test_claim_verify.py'
       - 'site/index.html'
       - '.github/workflows/pilot.yml'
       - 'README.md'
@@ -64,6 +66,11 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EVENT_AI_MODEL: gpt-4o-mini
         run: python scripts/event_cluster.py
+      - name: Discover original official documents for selected claims
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CLAIM_VERIFY_MODEL: gpt-4o-mini
+        run: python scripts/claim_verify.py
       - name: Publish quality metrics
         run: python scripts/quality_report.py
       - name: Publish evidence-aware signals, never probabilities
@@ -75,7 +82,7 @@ jobs:
           for attempt in 1 2 3; do
             git fetch origin main
             git reset --mixed origin/main
-            git add site/data/articles.json site/data/fetch_status.json site/news.html site/review.html site/data/review_queue.json site/verify.html site/data/verification_candidates.json site/ai.html site/data/ai_assessments.json site/data/primary_sources.json site/data/event_candidates.json site/events.html site/quality.html site/data/quality_report.json site/signals.html site/data/signals.json site/data/signal_history.json
+            git add site/data/articles.json site/data/fetch_status.json site/news.html site/review.html site/data/review_queue.json site/verify.html site/data/verification_candidates.json site/ai.html site/data/ai_assessments.json site/data/primary_sources.json site/data/event_candidates.json site/events.html site/quality.html site/data/quality_report.json site/signals.html site/data/signals.json site/data/signal_history.json site/claims.html site/data/claim_research.json
             if git diff --cached --quiet; then
               echo "No CRISIS data changes."
               exit 0
