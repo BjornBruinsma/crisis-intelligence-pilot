@@ -4,12 +4,25 @@ on:
   push:
     branches: [main]
     paths:
-      - 'scripts/**'
-      - 'tests/**'
+      - 'scripts/collect.py'
+      - 'scripts/build_static.py'
+      - 'scripts/triage.py'
+      - 'scripts/build_verification.py'
+      - 'scripts/ai_assess.py'
+      - 'scripts/primary_sources.py'
+      - 'scripts/event_cluster.py'
+      - 'scripts/quality_report.py'
+      - 'scripts/signals.py'
+      - 'tests/test_collect.py'
+      - 'tests/test_ai_assess.py'
+      - 'tests/test_event_research.py'
+      - 'tests/test_event_audit.py'
+      - 'tests/test_pairwise_cluster.py'
+      - 'tests/test_quality_report.py'
+      - 'tests/test_signals.py'
       - 'site/index.html'
-      - '.github/workflows/**'
+      - '.github/workflows/pilot.yml'
       - 'README.md'
-      - 'OWOP_PILOT.md'
   schedule:
     - cron: '17 */6 * * *'
 permissions:
@@ -17,86 +30,87 @@ permissions:
   pages: write
   id-token: write
 concurrency:
-  group: crisis-pilot
+  group: crisis-research-update
   cancel-in-progress: true
 jobs:
-  update-and-publish:
+  update-crisis:
     runs-on: ubuntu-latest
-    environment: github-pages
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run offline collection tests
+      - name: Run offline collection and research tests
         run: python -m unittest discover -s tests -v
-
       - name: Collect GDELT and RSS candidate news
         run: python scripts/collect.py
       - name: Build static browsable news archive
         run: python scripts/build_static.py
-      - name: Build editorial review queue (unverified headline groups)
+      - name: Build editorial review queue
         run: python scripts/triage.py
       - name: Build 25-item verification desk
         run: python scripts/build_verification.py
-      - name: AI editorial assessment (optional, usage-capped)
+      - name: AI editorial assessment (usage-capped)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           AI_MODEL: gpt-4o-mini
         run: python scripts/ai_assess.py
-
       - name: Collect official primary-source publications
         run: python scripts/primary_sources.py
-      - name: Cluster claims and match official evidence (usage-capped)
+      - name: Cluster claims and compare official text (usage-capped)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EVENT_AI_MODEL: gpt-4o-mini
         run: python scripts/event_cluster.py
-
-      - name: Publish automated quality metrics
+      - name: Publish quality metrics
         run: python scripts/quality_report.py
-
-      - name: Collect OWOP multilingual candidate news
-        run: python scripts/owop_collect.py
-      - name: Install OpenAI SDK for OWOP editorial board
-        run: python -m pip install --quiet "openai>=2.0.0"
-      - name: Run autonomous OWOP AI editorial board
-        id: owop_editorial
-        continue-on-error: true
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OWOP_MODEL: gpt-4o-mini
-        run: python scripts/owop_editorial.py
-      - name: Verify strongest OWOP stories with live web search
-        id: owop_verify
-        if: steps.owop_editorial.outcome == 'success'
-        continue-on-error: true
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OWOP_SEARCH_MODEL: gpt-5-search-api
-          OWOP_RESPONSES_SEARCH_MODEL: gpt-6-luna
-          OWOP_VERIFY_MODEL: gpt-4o-mini
-        run: python scripts/owop_verify.py
-      - name: Build OWOP pilot feed
-        if: steps.owop_editorial.outcome == 'success'
-        run: python scripts/owop_build.py
-
-      - name: Commit updated candidate archive
+      - name: Publish evidence-aware signals, never probabilities
+        run: python scripts/signals.py
+      - name: Commit CRISIS files with bounded conflict retries
         run: |
           git config user.name "crisis-intelligence-bot"
           git config user.email "crisis-intelligence-bot@users.noreply.github.com"
-          # GitHub may receive a new commit while collection is running.
-          # Keep generated working files and restage them against the latest remote HEAD,
-          # instead of rebasing a data commit and risking JSON merge conflicts.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --mixed origin/main
+            git add site/data/articles.json site/data/fetch_status.json site/news.html site/review.html site/data/review_queue.json site/verify.html site/data/verification_candidates.json site/ai.html site/data/ai_assessments.json site/data/primary_sources.json site/data/event_candidates.json site/events.html site/quality.html site/data/quality_report.json site/signals.html site/data/signals.json site/data/signal_history.json
+            if git diff --cached --quiet; then
+              echo "No CRISIS data changes."
+              exit 0
+            fi
+            git commit -m "Update CRISIS candidate news and research"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Unable to push after three attempts."
+              exit 1
+            fi
+            git reset --soft HEAD~1
+            sleep 4
+          done
+  publish-pages:
+    needs: update-crisis
+    runs-on: ubuntu-latest
+    concurrency:
+      group: crisis-shared-github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Deploy latest combined CRISIS and OWOP site
+        run: |
           git fetch origin main
-          git reset --mixed origin/main
-          git add site/data/articles.json site/data/fetch_status.json site/news.html site/review.html site/data/review_queue.json site/verify.html site/data/verification_candidates.json site/ai.html site/data/ai_assessments.json site/owop site/data/primary_sources.json site/data/event_candidates.json site/events.html site/quality.html site/data/quality_report.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Update collected news candidates"
-            git push origin HEAD:main
-          fi
+          git reset --hard origin/main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - uses: actions/deploy-pages@v4
+      - id: deployment
+        uses: actions/deploy-pages@v4
