@@ -61,6 +61,10 @@ def main():
                         for r in active_claim_evidence if r)
     conflicting_count=sum(any(m.get("relation")=="conflicting_statement" for m in r.get("official_matches") or [])
                          for r in active_claim_evidence if r)
+    source_success=sum(int(r.get("documents_fetched",0))>0 for r in active_claim_evidence if r)
+    search_unavailable=sum(r.get("search_status")=="unavailable" for r in active_claim_evidence if r)
+    govuk_success=sum((r.get("search_providers") or {}).get("govuk_official_search")=="ok"
+                      for r in active_claim_evidence if r)
     model_metric=events.get("clustering_metrics") or {}
     report={
       "generated_at_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
@@ -85,6 +89,9 @@ def main():
         "potential_contradictions":len(contradiction),
         "claim_research_checked_active":len(active_claim_evidence),
         "claim_research_status":claim_research.get("status"),
+        "claims_with_original_documents":source_success,
+        "claims_with_unavailable_search":search_unavailable,
+        "govuk_search_requests_successful":govuk_success,
         "original_document_statements_located":statement_count,
         "original_document_conflicting_statements":conflicting_count,
         "verified_events":0,
@@ -129,6 +136,9 @@ def main():
       ("Door harde contradictieregels geblokkeerd",t["rule_rejected_pairs"] if t["rule_rejected_pairs"] is not None else "Niet beschikbaar"),
       ("Bereikbare officiële bronnen",f"{t['official_sources_accessible']}/{t['official_sources_checked']}"),
       ("Claims met specifieke primaire documentcontrole",t["claim_research_checked_active"]),
+      ("Claims met origineel document opgehaald",t["claims_with_original_documents"]),
+      ("Claims met onbereikbare zoekdienst",t["claims_with_unavailable_search"]),
+      ("Succesvolle GOV.UK-bronzoekopdrachten",t["govuk_search_requests_successful"]),
       ("Ondersteunende officiële verklaringen gevonden",t["original_document_statements_located"]),
       ("Tegenstrijdige officiële verklaringen gevonden",t["original_document_conflicting_statements"]),
       ("Letterlijke officiële tekstmatches",t["official_exact_passage_matches"]),
