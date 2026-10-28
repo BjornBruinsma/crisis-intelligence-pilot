@@ -1,4 +1,4 @@
-# CRISIS Intelligence — onderzoeks-pilot 0.5
+# CRISIS Intelligence — onderzoeks-pilot 0.6
 
 Automatische **nieuwsdetectie**, nog **geen geverifieerde gebeurtenisregistratie of oorlogskansvoorspeller**.
 
@@ -90,3 +90,29 @@ De automatische GitHub-workflow doet na de AI-nieuwsselectie nu het volgende:
 Beveiliging/kosten: het openbare repository bevat nooit de API-sleutel. Het clustermodel draait op `gpt-4o-mini`. Er zijn maximaal **2 AI-aanroepen per workflowrun en 8 per UTC-dag**, met cache voor dezelfde input. Samen met de bestaande AI-redactie en het aparte OWOP-project kan extra API-gebruik plaatsvinden; bewaak het totale API-creditsaldo afzonderlijk.
 
 De officiële brondekking is beperkt en niet representatief voor alle landen en actoren. In het bijzonder betekent geen match niet dat een voorval niet is gebeurd. Meerdere koppen zijn geen onafhankelijke bevestigingen. Volwaardige verificatie vereist het lezen van specifieke officiële primaire stukken, chronologie en tegenbewijs.
+
+## Pilot 0.6: betrouwbaarheid van de AI-redactie
+
+De [kwaliteitscontrole](https://bjornbruinsma.github.io/crisis-intelligence-pilot/quality.html)
+rapporteert voortaan de technische metrics van iedere automatische ronde:
+
+- Aantal oorspronkelijke artikelen, geselecteerde claims en voorlopige gebeurtenisgroepen;
+- Hoeveel **zeer specifiek** als hetzelfde voorval aangemerkte koppen de AI samenvoegt;
+- Of alle input-IDs ongewijzigd behouden blijven en hoe vaak modelvoorstellen worden afgewezen;
+- De dekking van officiële bronnen, letterlijke tekstmatches en nog ontbrekende bevestigingen;
+- Het onderscheid tussen technische uitvoeringsstatus en **onbekende** feitelijke juistheid.
+
+De nieuwe clustermethode vraagt de AI uitsluitend om concrete *paren* van claims die dezelfde
+handeling beschrijven. Alle andere claims blijven automatisch afzonderlijk staan. Hiermee
+kan een onvolledig modelantwoord niet meer ongemerkt claim-ID's laten verdwijnen.
+Bij fouten valt de verwerking terug op afzonderlijke kandidaten en verschijnt een
+kwaliteitswaarschuwing.
+
+We publiceren **geen precisie- of recallpercentage** zonder onafhankelijk gelabelde
+testvoorbeelden. Twee krantenkoppen met dezelfde tekst zijn niet per definitie twee
+onafhankelijke bronketens, en officiële algemene reisadviezen verifiëren geen specifieke
+gebeurtenis zonder corresponderende publicatie.
+
+Het aantal AI-aanroepen voor de afzonderlijke eventlaag blijft begrensd tot maximaal
+2 per uitvoering en 8 per UTC-dag. Dit is alleen een applicatielimiet, geen financiële
+bovengrens voor het gehele OpenAI-account of de afzonderlijke OWOP-workflow.
