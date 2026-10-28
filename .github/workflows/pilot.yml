@@ -64,6 +64,14 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OWOP_MODEL: gpt-4o-mini
         run: python scripts/owop_editorial.py
+      - name: Verify strongest OWOP stories against retrieved source text
+        id: owop_verify
+        if: steps.owop_editorial.outcome == 'success'
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OWOP_VERIFY_MODEL: gpt-4o-mini
+        run: python scripts/owop_verify.py
       - name: Build OWOP pilot feed
         if: steps.owop_editorial.outcome == 'success'
         run: python scripts/owop_build.py
