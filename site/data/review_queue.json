@@ -1,15 +1,15 @@
 {
-  "generated_from": "2026-10-28T14:07:17.526803Z",
+  "generated_from": "2026-10-28T14:11:55.767832Z",
   "description": "Unverified title clusters; priority for human editorial review only",
   "stats": {
     "article_count": 600,
-    "group_count": 533,
+    "group_count": 532,
     "priority_counts": {
-      "hoog": 102,
-      "middel": 312,
-      "laag": 119
+      "hoog": 103,
+      "middel": 313,
+      "laag": 116
     },
-    "groups_with_repeated_headlines": 43,
+    "groups_with_repeated_headlines": 44,
     "note": "Conservative same-day headline similarity, not semantic event clustering"
   },
   "groups": [
@@ -449,6 +449,26 @@
           ],
           "provider": "google_news_rss",
           "review_status": "unverified"
+        },
+        {
+          "key": "9a5fa02160008ce91ea4559f",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNHd3SkpvY0VwNUtLaTU5ZlZKcE9qRTM3ZHY4aFFjUWY2T21RbFM1cEtqNXJXQlUzMU9ucUlHWTZWT3JjaW52eHZTdGZQenphUlM1V0NvOEtmeXpTNlpENUJESmMySFBGdkZ0Y3dYTkJwbmtnMWpCRmFHTWUydmtjX1d6c0Eza1R5NFZzYVYyajhWNDFReldLU0tIYUdDd0E4VUl5TEFGOU5taGQxaGpoQ0pB0gGyAUFVX3lxTE80d3dKSm9jRXA1S0tpNTlmVkpwT2pFMzdkdjhoUWNRZjZPbVFsUzVwS2o1cldCVTMxT25xSUdZNlZPcmNpbnZ4dlN0ZlB6emFSUzVXQ284S2Z5elM2WkQ1QkRKYzJIUEZ2RnRjd1hOQnBua2cxakJGYUdNZTJ2a2NfV3pzQTNrVHk0VnNhVjJqOFY0MVF6V0tTS0hhR0N3QThVSXlMQUY5Tm1oZDFoamhDSkE?oc=5",
+          "title": "Saudi-Houthi tensions flare after deadly strike on Yemen petrol station - Mathrubhumi English",
+          "publisher": "Mathrubhumi English",
+          "publisher_url": "https://english.mathrubhumi.com",
+          "domain": "english.mathrubhumi.com",
+          "first_seen": "2026-10-28T14:11:55.767832Z",
+          "published_at": "2026-10-28T11:56:12Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "government"
+          ],
+          "topic": [
+            "Overheden & crisismaatregelen"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
         }
       ],
       "day": "2026-10-28",
@@ -458,7 +478,7 @@
       "publishers": [
         "mathrubhumi english"
       ],
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "categories": [
         "Overheden & crisismaatregelen"
@@ -2119,6 +2139,46 @@
         "Militair & veiligheid"
       ],
       "key": "f507e6d141b4b1",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "How the US Navy could enforce a blockade of Iran's ports in the Strait of Hormuz - ABC News - Breaking News, Latest News and Videos",
+      "articles": [
+        {
+          "key": "298486de323a79567c1648dd",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQnhwRldOZDVBVkV6aENhR2tlSHlCcjRaZG4tcjJoVXhqU0NuTnRONF92dGdXNHJ3WEhkcG9WeUJiUEozeWRuWnZCSTA3WEVJdU8xOG82OTZLWjZnRjFPUXJIaXF1RHBjUFNmQnh5WkdzS1ZlLUs4c3NVTlY3SWJIWHdrU09kNF9DZ3ZrRS1COGt2b19sZ1VYemJZdGFjSVXSAaQBQVVfeXFMTXBJQWpjeFNwQXkybFpBOTJpMndERnB6NGtsXzV4cTRZd2FCQXdTall6aXlvdVpWZjZod05rZkZxVlpwR0c1dUdDZTBvUjhRXzcxbHh4QmxNR1dXcjJtUU4tTUR1V3ZNbUxIcDd1TXJaVEFlWnNQc0N5cXdwcEt1WGhhbDVtck8xQWZSaXY5VURIMW9JZG82TVN3REs4Q0ZXbkNYZ2M?oc=5",
+          "title": "How the US Navy could enforce a blockade of Iran's ports in the Strait of Hormuz - ABC News - Breaking News, Latest News and Videos",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "publisher_url": "https://abcnews.com",
+          "domain": "abcnews.com",
+          "first_seen": "2026-10-28T14:11:55.767832Z",
+          "published_at": "2026-10-27T06:57:37Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "abc news - breaking news, latest news and videos"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Militair & veiligheid"
+      ],
+      "key": "b2676c70878f7d",
       "review_status": "unverified_story_candidate",
       "review_order": 30
     },
@@ -5352,6 +5412,46 @@
       "review_order": 20
     },
     {
+      "title": "Iran weighs Qatari peace plan as deadline looms for US-Israel talks - Bankingnews",
+      "articles": [
+        {
+          "key": "090a9501169e9ee9bf34e183",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdXUwNWs3RDc5T29BcnY2Tk5xV3RLV3ZXUlJNVVIzQ1dCSVliS0NtdWRtbFlIbmJhbkQ1YnlYRjFjYUltaUtPSktqUDRwNUMySTVuTUNQSG1ndUVJYnMwSFByc3FCVWpZUXZGUkpGbzdiaGRxOXY0YkRKbkRvc0g1SG95SnZEV005S0FmUlVCeVNXUFY3RDJyME1Nb3dPV0YzeWlWTk9aUmM2TTdISEU4OEJ2X1hudnBfUnc?oc=5",
+          "title": "Iran weighs Qatari peace plan as deadline looms for US-Israel talks - Bankingnews",
+          "publisher": "Bankingnews",
+          "publisher_url": "https://www.bankingnews.gr",
+          "domain": "www.bankingnews.gr",
+          "first_seen": "2026-10-28T14:11:55.767832Z",
+          "published_at": "2026-10-28T13:42:59Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-28",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "bankingnews"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Politiek & diplomatie"
+      ],
+      "key": "62400de03dca13",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "The Never-Ending Cruise That Ran Into A Fuel Crisis, And What It Tells Us About The Iran War's Impact On Global Shipping - Inventiva",
       "articles": [
         {
@@ -5906,9 +6006,11 @@
           "language": "en-US",
           "sourcecountry": "",
           "discovery_profiles": [
+            "military",
             "trade"
           ],
           "topic": [
+            "Militair & veiligheid",
             "Wereldhandel & logistiek"
           ],
           "provider": "google_news_rss",
@@ -22687,126 +22789,6 @@
         "Brede GDELT-detectie"
       ],
       "key": "d79d5f7d4a2107",
-      "review_status": "unverified_story_candidate",
-      "review_order": 0
-    },
-    {
-      "title": "Tres cerebros se unen para que Cantabria sea « una fuerza científica del corazón »",
-      "articles": [
-        {
-          "key": "b4ad911150b3b54d01d8fd2c",
-          "url": "https://www.eldiariomontanes.es/cantabria/tres-cerebros-unen-cantabria-fuerza-cientifica-corazon-20261026070354-nt.html",
-          "title": "Tres cerebros se unen para que Cantabria sea « una fuerza científica del corazón »",
-          "publisher": "eldiariomontanes.es",
-          "publisher_url": "",
-          "domain": "eldiariomontanes.es",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T07:15:00Z",
-          "language": "Spanish",
-          "sourcecountry": "Spain",
-          "discovery_profiles": [
-            "gdelt-iran"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Geen duidelijk criseslement in de kop",
-      "publishers": [
-        "eldiariomontanes.es"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "3dcb7974cb88ca",
-      "review_status": "unverified_story_candidate",
-      "review_order": 0
-    },
-    {
-      "title": "Impacto tóxico da guerra do Irã em um dos mares mais únicos do planeta",
-      "articles": [
-        {
-          "key": "347a5a18f558e182a3290461",
-          "url": "https://noticias.r7.com/internacional/impacto-toxico-da-guerra-do-ira-em-um-dos-mares-mais-unicos-do-planeta-26102026/",
-          "title": "Impacto tóxico da guerra do Irã em um dos mares mais únicos do planeta",
-          "publisher": "noticias.r7.com",
-          "publisher_url": "",
-          "domain": "noticias.r7.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T07:15:00Z",
-          "language": "Portuguese",
-          "sourcecountry": "Brazil",
-          "discovery_profiles": [
-            "gdelt-iran"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Geen duidelijk criseslement in de kop",
-      "publishers": [
-        "noticias.r7.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "683efe15c3fdba",
-      "review_status": "unverified_story_candidate",
-      "review_order": 0
-    },
-    {
-      "title": "KOSPI Slides 1 . 4 % Below 5 , 500 as Foreign Selling Hits Seoul Stocks Ahead of SK Hynix and Samsung Earnings",
-      "articles": [
-        {
-          "key": "89e5229c32667a8c146c18cd",
-          "url": "https://www.ibtimes.com.au/south-korean-shares-fall-ahead-chip-earnings-1877393",
-          "title": "KOSPI Slides 1 . 4 % Below 5 , 500 as Foreign Selling Hits Seoul Stocks Ahead of SK Hynix and Samsung Earnings",
-          "publisher": "ibtimes.com.au",
-          "publisher_url": "",
-          "domain": "ibtimes.com.au",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T07:15:00Z",
-          "language": "English",
-          "sourcecountry": "Australia",
-          "discovery_profiles": [
-            "gdelt-iran"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Geen duidelijk criseslement in de kop",
-      "publishers": [
-        "ibtimes.com.au"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "f911d57f72ad39",
       "review_status": "unverified_story_candidate",
       "review_order": 0
     }

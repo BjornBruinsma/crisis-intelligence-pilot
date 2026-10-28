@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-10-28T14:08:39.220714Z",
+  "last_attempt_utc": "2026-10-28T14:13:34.703684Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 24,
-  "active_checked": 6,
-  "direct_matches": 2,
+  "active_checked": 9,
+  "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -93,7 +93,7 @@
       "event_id": "6ca00a81ad8f4e0a2e53604e",
       "checked_at": "2026-10-28T14:08:39.220662Z",
       "version": "official-original-document-v1",
-      "research_status": "official_statement_located",
+      "research_status": "related_official_material",
       "verified_event": false,
       "official_matches": [
         {
@@ -102,13 +102,14 @@
           "source_date": null,
           "retrieved_at": "2026-10-28T14:08:30.981116Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
-          "relation": "direct_statement",
+          "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage bevestigt dat Iran van plan is om locaties te targeten die geassocieerd zijn met de VS en Israël, wat de claim ondersteunt.",
-          "claim_validated_as_fact": false
+          "reason_nl": "Automatische kwaliteitscorrectie: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
         }
       ],
-      "summary_nl": "Iran heeft verklaard locaties te willen aanvallen die verbonden zijn met de VS en Israël, wat de claim over oorlog en aanvallen ondersteunt.",
+      "summary_nl": "Gerelateerde officiële tekst gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -134,7 +135,8 @@
           "source_publication_date": null,
           "text_excerpt": "You can also set up free email alerts to tell you when a company updates its details (for example, a change of director or address)."
         }
-      ]
+      ],
+      "revision_notice": "Eerdere AI-match na aanvullende controle afgewezen."
     },
     "28d01bea9fa7762f4251e7d0": {
       "event_id": "28d01bea9fa7762f4251e7d0",
@@ -184,7 +186,7 @@
       "event_id": "67160ec273191fe922f28e41",
       "checked_at": "2026-10-28T14:08:39.220691Z",
       "version": "official-original-document-v1",
-      "research_status": "official_statement_located",
+      "research_status": "related_official_material",
       "verified_event": false,
       "official_matches": [
         {
@@ -193,13 +195,14 @@
           "source_date": null,
           "retrieved_at": "2026-10-28T14:08:33.970247Z",
           "exact_quote": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia",
-          "relation": "direct_statement",
+          "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage bevestigt dat de Houthis raketten en drones hebben gelanceerd die gericht zijn op verschillende locaties in Saoedi-Arabië, wat de claim over regionale spanningen ondersteunt.",
-          "claim_validated_as_fact": false
+          "reason_nl": "Automatische kwaliteitscorrectie: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
         }
       ],
-      "summary_nl": "De Houthis hebben raketten en drones gelanceerd naar verschillende locaties in Saoedi-Arabië, wat de claim over escalatie van regionale spanningen ondersteunt.",
+      "summary_nl": "Gerelateerde officiële tekst gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -222,14 +225,146 @@
           "source_publication_date": null,
           "text_excerpt": "if advised to take shelter, stay indoors or find the nearest safe building or designated shelter. An interior stairwell or a room with as few external walls or windows as possible may provide additional protection. The greatest risk is from falling d"
         }
+      ],
+      "revision_notice": "Eerdere AI-match na aanvullende controle afgewezen."
+    },
+    "40d0ce2f0cee33fb30bf4bb7": {
+      "event_id": "40d0ce2f0cee33fb30bf4bb7",
+      "checked_at": "2026-10-28T14:13:34.703633Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/israel",
+          "original_document_title": "Israel travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-28T14:13:21.329341Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS en Israël, maar bevestigt niet specifiek een evacuatie.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/palestine",
+          "original_document_title": "Palestine travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-28T14:13:21.583235Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS en Israël, maar bevestigt niet specifiek een evacuatie.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten vermelden de intentie van Iran om Amerikaanse en Israëlische locaties te targeten, maar er is geen bevestiging van een evacuatie.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/israel",
+          "title": "Israel travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/palestine",
+          "title": "Palestine travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
+    },
+    "d1e43f5497bf77eba08d278d": {
+      "event_id": "d1e43f5497bf77eba08d278d",
+      "checked_at": "2026-10-28T14:13:34.703654Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De officiële tekst vermeldt de intentie van Iran om Amerikaanse en Israëlische locaties te targeten, maar biedt geen specifieke bevestiging van aanvallen op energie-infrastructuur.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/find-energy-certificate",
+          "title": "Find an energy certificate - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Find an energy certificate for a property in England, Wales or Northern Ireland. This includes homes, business properties and public buildings."
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/iran",
+          "title": "Iran travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The US and Israel have struck infrastructure across Iran. There are reports that suggest ports, roads, railways, bridges, energy facilities, oil production sites, water systems, and airports have been affected."
+        }
+      ]
+    },
+    "69c90524ecf2401dfa68d29a": {
+      "event_id": "69c90524ecf2401dfa68d29a",
+      "checked_at": "2026-10-28T14:13:34.703660Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-28T14:13:25.677773Z",
+          "exact_quote": "King Khalid International Airport was struck by a missile on 10 October 2026",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
+        }
+      ],
+      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 1,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "In addition to the threat from Houthi attacks, the wider context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associat"
+        }
       ]
     }
   },
   "usage_by_day": {
     "2026-10-28": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 2869
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 4865
     }
   },
   "last_error": null
