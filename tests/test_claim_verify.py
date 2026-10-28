@@ -68,6 +68,19 @@ class TestEvidence(unittest.TestCase):
                    "title":"US CENTCOM statement","published_at_from_document":"2026-10-28",
                    "retrieved_at":"2026-10-28T12:00:00Z",
                    "passages":["Military officials said they intercepted two missiles near the port."]}]}}]
+    def test_old_official_statement_cannot_support_newly_reported_incident(self):
+        case=self.sample()
+        case[0]["news_day"]="2026-10-28"
+        case[0]["discovery"]["documents"][0]["published_at_from_document"]="Sept. 8, 2026"
+        self.assertTrue(cv.source_precedes_claim_by_weeks("Sept. 8, 2026","2026-10-28"))
+        self.assertFalse(cv.source_precedes_claim_by_weeks("Oct. 25, 2026","2026-10-28"))
+        result=cv.validate_matches({"results":[{"event_id":"x","matches":[{
+            "doc_id":"doc1","passage_index":0,"relation":"direct_statement",
+            "quote":"they intercepted two missiles near the port"}]}]},case)
+        verified=result["x"]["matches"][0]
+        self.assertEqual(verified["relation"],"related_only")
+        self.assertTrue(verified["older_document_than_claim"])
+        self.assertFalse(verified["claim_validated_as_fact"])
     def test_verbatim_quote_and_provenance(self):
         payload={"results":[{"event_id":"x","summary_nl":"Bron verklaart interceptie.",
                 "matches":[{"doc_id":"doc1","passage_index":0,
