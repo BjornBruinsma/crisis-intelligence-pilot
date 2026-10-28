@@ -5,6 +5,7 @@ Only trusted government domains, not Google search result links. We retain
 short passages and URLs, never claim they verify a third-party headline.
 Errors are recorded. Pages may change and content may be unavailable.
 """
+import concurrent.futures
 import datetime as dt
 import email.utils
 import html
@@ -45,12 +46,16 @@ SOURCES=[
  ("uk_qatar","UK Foreign, Commonwealth & Development Office",
   "https://www.gov.uk/foreign-travel-advice/qatar","official_advisory"),
  ("uk_uae","UK Foreign, Commonwealth & Development Office",
-  "https://www.gov.uk/foreign-travel-advice/united-arab-emirates","official_advisory")
+  "https://www.gov.uk/foreign-travel-advice/united-arab-emirates","official_advisory"),
+ ("uae_mofa","United Arab Emirates Ministry of Foreign Affairs",
+  "https://www.mofa.gov.ae/en","official_listing"),
+ ("iran_mfa","Islamic Republic of Iran Ministry of Foreign Affairs",
+  "https://en.mfa.ir/","official_listing")
 ]
 TRUSTED_HOSTS={"www.centcom.mil","centcom.mil","www.gov.uk","gov.uk",
                "travel.state.gov","www.imo.org","imo.org","mofa.gov.pk",
                "www.fmprc.gov.cn","fmprc.gov.cn","home.treasury.gov",
-               "www.eia.gov","eia.gov"}
+               "www.eia.gov","eia.gov","www.mofa.gov.ae","mofa.gov.ae","en.mfa.ir"}
 KEYWORDS=("iran","saudi","israel","gulf","kuwait","bahrain","qatar",
           "hormuz","iraq","united arab emirates","united states",
           "middle east","evacuat","strike","military","warning","embassy",
@@ -159,21 +164,25 @@ def parse_document(item,raw):
         if len(doc["links"])>=30:break
     return doc
 
+def fetch_one(item):
+    try:
+        doc=parse_document(item,fetch(item[2]))
+        if not doc["passages"] and not doc["links"]:
+            doc["status"]="empty"
+        return doc
+    except Exception as exc:
+        # Record failures rather than turn a closed site into absence of news.
+        err=f"{type(exc).__name__}: {str(exc)[:150]}"
+        return {"id":item[0],"authority":item[1],"url":item[2],
+                "kind":item[3],"retrieved_at":now(),"status":"error",
+                "error":err,"passages":[],"links":[]}
+
 def collect():
-    docs=[];errors={}
-    for item in SOURCES:
-        try:
-            doc=parse_document(item,fetch(item[2]))
-            # Even an HTML response may be an error/login page; don't call it successful evidence.
-            if not doc["passages"] and not doc["links"]:
-                doc["status"]="empty"
-            docs.append(doc)
-        except Exception as exc:
-            err=f"{type(exc).__name__}: {str(exc)[:150]}"
-            errors[item[0]]=err
-            docs.append({"id":item[0],"authority":item[1],"url":item[2],
-                         "kind":item[3],"retrieved_at":now(),"status":"error",
-                         "error":err,"passages":[],"links":[]})
+    # These official sites have independent network latency. Fetch them in
+    # parallel with bounded workers while keeping deterministic output order.
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
+        docs=list(pool.map(fetch_one,SOURCES))
+    errors={x["id"]:x["error"] for x in docs if x["status"]=="error"}
     return {"last_attempt_utc":now(),
             "description":"Official-source texts and links, not automatic verification of events",
             "sources":docs,"errors":errors}
