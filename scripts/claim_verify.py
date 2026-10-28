@@ -128,6 +128,39 @@ def extract_official_document(url,claim):
     return {"url":url,"title":title,"published_at_from_document":meta.published,
             "passages":passages,"retrieved_at":now(),"type":"official_html"}
 
+def govuk_official_search(claim):
+    """Public GOV.UK search API provides locators, not evidence."""
+    terms=list(dict.fromkeys(words(claim)))[:5]
+    if not terms:
+        return []
+    url="https://www.gov.uk/api/search.json?"+urllib.parse.urlencode({
+        "q":" ".join(terms),"count":"12"})
+    raw,_=fetch_bytes(url,limit=550_000,timeout=14)
+    response=json.loads(raw)
+    found=[]
+    for record in (response.get("results") or [])[:12]:
+        link=str(record.get("link") or "")
+        page=urllib.parse.urljoin("https://www.gov.uk",link)
+        if not is_official_url(page):continue
+        title=str(record.get("title") or "")[:180]
+        found.append({"url":page,"title":title,"origin":"govuk_official_search",
+                      "score":score(title,claim),"published":str(record.get("public_timestamp") or "")[:30]})
+    return found
+
+def targeted_search_queries(item):
+    """Bounded issuer-specific rather than a giant OR query."""
+    title=str((item.get("headline_claims") or [""])[0])
+    terms=list(dict.fromkeys(words(title)))[:5]
+    if not terms:return []
+    low=title.lower()
+    if any(x in low for x in ("oil","energy","tanker","shipping","hormuz","gas","pipeline")):
+        domains=("imo.org","eia.gov","centcom.mil")
+    elif any(x in low for x in ("evacuat","embassy","passport","travel","stranded")):
+        domains=("gov.uk","mofa.gov.ae","mofa.gov.pk")
+    else:
+        domains=("centcom.mil","fmprc.gov.cn","mofa.gov.ae")
+    return ["site:"+domain+" "+" ".join(terms[:4]) for domain in domains]
+
 def bing_rss_search(query):
     """Search is untrusted discovery data, never considered direct evidence."""
     url=BING+"?"+urllib.parse.urlencode({"format":"rss","q":query})
@@ -163,14 +196,28 @@ def discover_documents(item,primary):
     claim=item.get("headline_claims",[""])[0]
     links=indexed_official_links(claim,primary)
     errors=[]
+    search_providers={}
     try:
-        results=bing_rss_search(query_for(item))
-        links.extend({"url":r["url"],"title":r["title"],"origin":"bing_rss",
-                      "score":score(r["title"],claim)} for r in results)
-        search_status="ok"
+        docs=govuk_official_search(claim)
+        links.extend(docs)
+        search_providers["govuk_official_search"]="ok"
     except Exception as exc:
-        search_status="unavailable"
-        errors.append("search: "+type(exc).__name__+ (f" HTTP {exc.code}" if isinstance(exc,urllib.error.HTTPError) else ""))
+        search_providers["govuk_official_search"]="error"
+        errors.append("govuk search: "+type(exc).__name__)
+    # Three issuer-specific searches instead of a single poorly performing OR query.
+    found_bing=0
+    successes=0
+    for q in targeted_search_queries(item):
+        try:
+            results=bing_rss_search(q)
+            links.extend({"url":r["url"],"title":r["title"],"origin":"bing_rss",
+                          "score":score(r["title"],claim)} for r in results)
+            found_bing+=len(results)
+            successes+=1
+        except Exception as exc:
+            errors.append("bing site search: "+type(exc).__name__)
+    search_providers["bing_issuer_queries"]="ok" if successes else "error"
+    search_status="ok" if successes or search_providers.get("govuk_official_search")=="ok" else "unavailable"
     links=sorted(links,key=lambda x:x.get("score",0),reverse=True)
     attempted=0
     docs=[]
@@ -188,7 +235,8 @@ def discover_documents(item,primary):
             docs.append(doc)
         except Exception as exc:
             errors.append("document: "+type(exc).__name__)
-    return {"search_status":search_status,"official_link_candidates":len(seen),
+    return {"search_status":search_status,"search_providers":search_providers,
+            "official_link_candidates":len(seen),
             "official_documents_fetched":len(docs),"documents":docs,
             "errors":errors[:8]}
 
@@ -386,6 +434,7 @@ def main():
             "version":VERSION,"research_status":status,"verified_event":False,
             "official_matches":matching["matches"],"summary_nl":matching["summary_nl"],
             "search_status":x["discovery"]["search_status"],
+            "search_providers":x["discovery"]["search_providers"],
             "documents_fetched":x["discovery"]["official_documents_fetched"],
             "official_link_candidates":x["discovery"]["official_link_candidates"],
             "search_errors":x["discovery"]["errors"],"ai_error":error,
