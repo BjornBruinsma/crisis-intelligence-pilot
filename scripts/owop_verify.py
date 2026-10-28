@@ -21,6 +21,7 @@ DATA = ROOT / "data"
 EDITORIAL = DATA / "editorial.json"
 OUTPUT = DATA / "verification.json"
 SEARCH_MODEL = os.getenv("OWOP_SEARCH_MODEL", "gpt-5-search-api")
+RESPONSES_SEARCH_MODEL = os.getenv("OWOP_RESPONSES_SEARCH_MODEL", "gpt-6-luna")
 VERIFY_MODEL = os.getenv("OWOP_VERIFY_MODEL", "gpt-4o-mini")
 MAX_STORIES = 8
 
@@ -57,6 +58,37 @@ def annotation_urls(message):
     return out[:12]
 
 
+def response_urls(response):
+    """Extract URL citations from a Responses API object without relying on SDK internals."""
+    try:
+        data = response.model_dump()
+    except Exception:
+        return []
+    out = []
+
+    def walk(value):
+        if isinstance(value, dict):
+            citation = value.get("url_citation")
+            if isinstance(citation, dict) and citation.get("url"):
+                url = citation.get("url")
+                title = citation.get("title") or ""
+                if not any(x.get("url") == url for x in out):
+                    out.append({"title": title, "url": url})
+            if value.get("type") == "url_citation" and value.get("url"):
+                url = value.get("url")
+                title = value.get("title") or ""
+                if not any(x.get("url") == url for x in out):
+                    out.append({"title": title, "url": url})
+            for child in value.values():
+                walk(child)
+        elif isinstance(value, list):
+            for child in value:
+                walk(child)
+
+    walk(data)
+    return out[:12]
+
+
 def search_story(client, story):
     source_hints = [
         {"publisher": s.get("publisher"), "title": s.get("title")}
@@ -86,16 +118,42 @@ Return a concise factual research note. Include concrete figures/dates only when
 supported by sources. Do not invent missing facts.
 """.strip()
 
-    completion = client.chat.completions.create(
-        model=SEARCH_MODEL,
-        web_search_options={"search_context_size": "low"},
-        messages=[{"role": "user", "content": prompt}],
-    )
-    message = completion.choices[0].message
-    return {
-        "notes": message.content or "",
-        "citations": annotation_urls(message),
-    }
+    chat_error = ""
+    try:
+        completion = client.chat.completions.create(
+            model=SEARCH_MODEL,
+            web_search_options={"search_context_size": "low"},
+            messages=[{"role": "user", "content": prompt}],
+        )
+        message = completion.choices[0].message
+        return {
+            "notes": message.content or "",
+            "citations": annotation_urls(message),
+            "backend": "chat_completions_search",
+            "model": SEARCH_MODEL,
+            "fallback_error": "",
+        }
+    except Exception as exc:
+        chat_error = f"{type(exc).__name__}: {str(exc)[:220]}"
+
+    # Fallback to the recommended Responses API web_search tool. A restricted key
+    # must include api.responses.write for this branch to succeed.
+    try:
+        response = client.responses.create(
+            model=RESPONSES_SEARCH_MODEL,
+            tools=[{"type": "web_search", "search_context_size": "low"}],
+            input=prompt,
+        )
+        return {
+            "notes": response.output_text or "",
+            "citations": response_urls(response),
+            "backend": "responses_web_search",
+            "model": RESPONSES_SEARCH_MODEL,
+            "fallback_error": chat_error,
+        }
+    except Exception as exc:
+        responses_error = f"{type(exc).__name__}: {str(exc)[:220]}"
+        raise RuntimeError(f"chat search failed [{chat_error}]; responses search failed [{responses_error}]")
 
 
 def verify_research(client, story, research):
@@ -186,7 +244,7 @@ def main():
             assessment = verify_research(client, story, research)
             search_error = ""
         except Exception as exc:
-            research = {"notes": "", "citations": []}
+            research = {"notes": "", "citations": [], "backend": "none", "model": "", "fallback_error": ""}
             assessment = {
                 "support": "unavailable",
                 "outcome_status": "unclear",
@@ -204,9 +262,11 @@ def main():
             "id": story.get("id"),
             "editorial_score": story.get("score"),
             "editorial_decision": story.get("decision"),
-            "search_model": SEARCH_MODEL,
+            "search_backend": research.get("backend") or "none",
+            "search_model": research.get("model") or SEARCH_MODEL,
             "research_notes": research.get("notes") or "",
             "citations": research.get("citations") or [],
+            "fallback_error": research.get("fallback_error") or "",
             "search_error": search_error,
             **assessment,
         })
@@ -219,6 +279,7 @@ def main():
     payload = {
         "generated_at": generated,
         "search_model": SEARCH_MODEL,
+        "responses_search_model": RESPONSES_SEARCH_MODEL,
         "verify_model": VERIFY_MODEL,
         "ai_configured": True,
         "candidate_count": len(candidates),
