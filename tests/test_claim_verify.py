@@ -63,7 +63,7 @@ class TestOfficialSourceDiscovery(unittest.TestCase):
 
 class TestEvidence(unittest.TestCase):
     def sample(self):
-        return [{"event_id":"x","claim":"Iran launches missile strikes",
+        return [{"event_id":"x","claim":"Military officials intercepted two missiles near port",
                  "discovery":{"documents":[{"id":"doc1","url":"https://www.centcom.mil/statement",
                    "title":"US CENTCOM statement","published_at_from_document":"2026-10-28",
                    "retrieved_at":"2026-10-28T12:00:00Z",
@@ -106,6 +106,45 @@ class TestEvidence(unittest.TestCase):
              "quote":"intercepted two missiles near the port"}]}]}
         out=cv.validate_matches(payload,self.sample())
         self.assertFalse(out["x"]["matches"][0]["claim_validated_as_fact"])
+
+class TestObservedFalseMatches(unittest.TestCase):
+    def test_intention_to_target_is_not_proof_of_completed_us_strikes(self):
+        match={"relation":"direct_statement",
+               "source_url":"https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+               "source_date":None,
+               "exact_quote":"Iran has stated its intention to target locations associated with the US and Israel"}
+        self.assertIsNotNone(cv.check_specific_support(
+            "Live Updates: War returns to Iran with Israel, US strikes",match))
+    def test_houthi_launches_are_not_saudi_interceptions(self):
+        match={"relation":"direct_statement",
+               "source_url":"https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+               "source_date":None,
+               "exact_quote":"the Houthis have launched missiles and drones targeting several locations in Saudi Arabia"}
+        self.assertIsNotNone(cv.check_specific_support(
+            "Regional tensions escalate as Saudi Arabia intercepts missiles, Iran warns US",match))
+    def test_repair_already_published_false_matches(self):
+        events={"events":[{"id":"a","headline_claims":[
+            "Live Updates: War returns to Iran with Israel, US strikes"]}]}
+        records={"a":{"research_status":"official_statement_located",
+            "summary_nl":"Eerdere AI noemde dit bevestigd",
+            "official_matches":[{
+                "relation":"direct_statement",
+                "source_url":"https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+                "source_date":None,
+                "exact_quote":"Iran has stated its intention to target locations associated with the US and Israel"}]}}
+        corrected=cv.recheck_saved_records(records,events)
+        self.assertEqual(corrected,1)
+        self.assertEqual(records["a"]["research_status"],"related_official_material")
+        self.assertEqual(records["a"]["official_matches"][0]["relation"],"related_only")
+        self.assertFalse(records["a"]["verified_event"])
+        self.assertIn("geen specifieke bevestiging",records["a"]["summary_nl"])
+    def test_specific_dated_original_statement_not_rejected_on_matching_action(self):
+        match={"relation":"direct_statement",
+               "source_url":"https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/123/example",
+               "source_date":"Oct. 28, 2026",
+               "exact_quote":"U.S. forces intercepted incoming missiles near the site."}
+        self.assertIsNone(cv.check_specific_support(
+            "U.S. forces intercepted incoming missiles near the site",match))
 
 class TestLimits(unittest.TestCase):
     def test_daily_claim_limit_and_expiry(self):
