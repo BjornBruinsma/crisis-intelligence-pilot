@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-28T10:51:14.956271Z",
+  "last_attempt_utc": "2026-10-28T11:41:36.420432Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -551,6 +551,22 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-28T10:51:13.956068Z"
+    },
+    "f975208e1fd059": {
+      "id": "f975208e1fd059",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "event_claim",
+      "summary_nl": "Litouwen claimt dat twee van zijn burgers zijn vastgehouden in Iran.",
+      "claimed_event_nl": "twee Litouwse burgers zijn vastgehouden in Iran",
+      "reason_nl": "Dit is relevant omdat het kan wijzen op spanningen tussen Litouwen en Iran, wat gevolgen kan hebben voor de regionale stabiliteit.",
+      "limitations_nl": "De claim is afkomstig van een enkele bron en is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T11:41:35.420189Z"
     }
   },
   "usage_by_day": {
@@ -559,8 +575,8 @@
       "total_tokens": 0
     },
     "2026-10-28": {
-      "requests": 11,
-      "total_tokens": 12217
+      "requests": 12,
+      "total_tokens": 12860
     }
   }
 }

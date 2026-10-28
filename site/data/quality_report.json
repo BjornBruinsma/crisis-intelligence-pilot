@@ -1,0 +1,72 @@
+{
+  "generated_at_utc": "2026-10-28T11:41:41.717741+00:00",
+  "definition": "Automatische procescontrole, geen wetenschappelijke validatie van gebeurteniswaarheid.",
+  "technical": {
+    "collected_articles": 778,
+    "tentative_headline_groups": 533,
+    "daily_shortlist": 25,
+    "ai_reviewed_shortlist": 25,
+    "ai_headline_status": "complete",
+    "event_research_status": "complete",
+    "event_input_claims": 24,
+    "event_groups_output": 21,
+    "multiple_claim_clusters": 3,
+    "claims_in_multiple_claim_clusters": 6,
+    "ids_retained_without_duplicates": true,
+    "official_sources_checked": 4,
+    "official_sources_accessible": 4,
+    "official_exact_passage_matches": 0,
+    "potential_direct_support_matches": 0,
+    "potential_contradictions": 0,
+    "verified_events": 0,
+    "clustering_method": "ai_pairwise_conservative",
+    "proposed_merge_pairs": 3,
+    "accepted_merge_connections": 3,
+    "rejected_merge_proposals": 0,
+    "rss_profiles_ok": 12,
+    "gdelt_queries_ok": 1
+  },
+  "source_breakdown": [
+    {
+      "authority": "US Central Command",
+      "id": "centcom_releases",
+      "status": "ok",
+      "passages": 2,
+      "links": 9
+    },
+    {
+      "authority": "UK Foreign, Commonwealth & Development Office",
+      "id": "uk_iran",
+      "status": "ok",
+      "passages": 39,
+      "links": 15
+    },
+    {
+      "authority": "UK Foreign, Commonwealth & Development Office",
+      "id": "uk_saudi",
+      "status": "ok",
+      "passages": 28,
+      "links": 15
+    },
+    {
+      "authority": "US Department of State",
+      "id": "us_advisories",
+      "status": "ok",
+      "passages": 0,
+      "links": 60
+    }
+  ],
+  "research_status_breakdown": {
+    "no_matching_primary_evidence": 21
+  },
+  "uncertainty": {
+    "true_cluster_precision": null,
+    "true_cluster_recall": null,
+    "actual_missed_events": null,
+    "verified_incident_count": null,
+    "reason": "Er ontbreekt een onafhankelijke, handmatig geannoteerde gouden testset; modelconsensus is geen grondwaarheid."
+  },
+  "warnings": [
+    "Geen specifieke officiële ondersteuning automatisch aangetroffen"
+  ]
+}

@@ -1,15 +1,15 @@
 {
-  "generated_from": "2026-10-28T10:50:05.873162Z",
+  "generated_from": "2026-10-28T11:40:27.249992Z",
   "description": "Unverified title clusters; priority for human editorial review only",
   "stats": {
     "article_count": 600,
-    "group_count": 528,
+    "group_count": 533,
     "priority_counts": {
-      "hoog": 107,
-      "middel": 327,
-      "laag": 94
+      "hoog": 99,
+      "middel": 315,
+      "laag": 119
     },
-    "groups_with_repeated_headlines": 46,
+    "groups_with_repeated_headlines": 44,
     "note": "Conservative same-day headline similarity, not semantic event clustering"
   },
   "groups": [
@@ -2156,7 +2156,8 @@
           "language": "Arabic",
           "sourcecountry": "Libya",
           "discovery_profiles": [
-            "gdelt-hormuz"
+            "gdelt-hormuz",
+            "gdelt-iran"
           ],
           "topic": [
             "Brede GDELT-detectie"
@@ -2196,7 +2197,8 @@
           "language": "English",
           "sourcecountry": "Pakistan",
           "discovery_profiles": [
-            "gdelt-hormuz"
+            "gdelt-hormuz",
+            "gdelt-iran"
           ],
           "topic": [
             "Brede GDELT-detectie"
@@ -2258,6 +2260,46 @@
         "Brede GDELT-detectie"
       ],
       "key": "12b56b6ff90da4",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "The Mideast …. 10 / 26 / 2026 … Gulf Nations Talks … Jordan attacks Syrian armed groups …. Israeli Election …",
+      "articles": [
+        {
+          "key": "d094cd1e763459a86bb0d7bc",
+          "url": "https://politicaldog101.com/2026/10/the-mideast-10-26-2026-gulf-nations-talks-jordan-syria-armed-groups-attacks-israeli-election/",
+          "title": "The Mideast …. 10 / 26 / 2026 … Gulf Nations Talks … Jordan attacks Syrian armed groups …. Israeli Election …",
+          "publisher": "politicaldog101.com",
+          "publisher_url": "",
+          "domain": "politicaldog101.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "United States",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "politicaldog101.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "11bc26669c5843",
       "review_status": "unverified_story_candidate",
       "review_order": 30
     },
@@ -4197,372 +4239,6 @@
       "review_order": 30
     },
     {
-      "title": "U.S. warns of Iran-led assassination plots, evacuates Mideast personnel - CHOSUNBIZ - Chosunbiz",
-      "articles": [
-        {
-          "key": "6da0a4e3049bdd3bbbe4dfd8",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUFMwMlZMY0tUX0JObVBUS3VHUW5iOTdxLS1ZNXB6TkRvWVFid1pUV1Q1c3oxZTZWaC1ZVkk2NHA0MnRYbG1Iejg4VDRzQ0hqWkZDa1g5enlMMTZpdVFiOW5KeE1SOHM3Z3ZMUWlHRXVUTjYtUTkxVVF3VnkxTVl0WkN1ZFJIb1padVgzWkNmb1o0bDRSeUtRVEkyaDTSAZwBQVVfeXFMT1BTMDJWTGNLVF9CTm1QVEt1R1FuYjk3cS0tWTVwek5Eb1lRYndaVFdUNXN6MWU2VmgtWVZJNjRwNDJ0WGxtSHo4OFQ0c0NIalpGQ2tYOXp5TDE2aXVRYjluSnhNUjhzN2d2TFFpR0V1VE42LVE5MVVRd1Z5MU1ZdFpDdWRSSG9aWnVYM1pDZm9aNGw0UnlLUVRJMmg0?oc=5",
-          "title": "U.S. warns of Iran-led assassination plots, evacuates Mideast personnel - CHOSUNBIZ - Chosunbiz",
-          "publisher": "Chosunbiz",
-          "publisher_url": "https://biz.chosun.com",
-          "domain": "biz.chosun.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T04:43:00Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "government"
-          ],
-          "topic": [
-            "Overheden & crisismaatregelen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "chosunbiz"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Overheden & crisismaatregelen"
-      ],
-      "key": "862549f2e1789d",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Middle East latest: Saudi Arabia hits Houthi ballistic missiles and tunnels in strikes on Yemen - The National",
-      "articles": [
-        {
-          "key": "5ec28cb73eb86a5a5520c6af",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNnVfUnYtWklMbWF4TjRLaWdIdHpPZ0h0TThQUzRsT2JNdlIxNjFLdEFQb0sxa21kMXFnLTVSUndXOUstVHR6T2kyMjJpQnd3RHFOSWdTVExKd2ZGYV82MDdpc19uOENyLWhaNlZyVEhuVU5nM3pJdTNJd0hYY3FTc0VMUmxxX3lZV2I0WUZjcw?oc=5",
-          "title": "Middle East latest: Saudi Arabia hits Houthi ballistic missiles and tunnels in strikes on Yemen - The National",
-          "publisher": "The National",
-          "publisher_url": "https://www.thenationalnews.com",
-          "domain": "www.thenationalnews.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T04:31:53Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "business",
-            "government",
-            "military"
-          ],
-          "topic": [
-            "Bedrijfsleven & investeringen",
-            "Militair & veiligheid",
-            "Overheden & crisismaatregelen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "the national"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Bedrijfsleven & investeringen",
-        "Militair & veiligheid",
-        "Overheden & crisismaatregelen"
-      ],
-      "key": "17d7aef56d6771",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Iran Fires Cruise Missile at Vessel in Hormuz; Launcher at Sirik Struck - https://houseofsaud.com/",
-      "articles": [
-        {
-          "key": "946e266ae2c68d662212fcd1",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KeDhOY1VyWXBxTE1MaDNUZDRqS2FBUW43ejdEOTlVUGlmUEJ2OWNoRy0zdkc1SUNKUnduMkJXVV8tck9Zdi1oMnBjWC1sNWNhSnBiNEZHQjdCMXAzQ01NYzBIZXk5eEo3VmZGZGNjMFg?oc=5",
-          "title": "Iran Fires Cruise Missile at Vessel in Hormuz; Launcher at Sirik Struck - https://houseofsaud.com/",
-          "publisher": "https://houseofsaud.com/",
-          "publisher_url": "https://houseofsaud.com",
-          "domain": "houseofsaud.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T04:27:55Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military"
-          ],
-          "topic": [
-            "Militair & veiligheid"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "https://houseofsaud.com/"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid"
-      ],
-      "key": "4c91b4884c3231",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Trump weighs Iran deal against renewed military strikes - Aaj English TV",
-      "articles": [
-        {
-          "key": "a86554b3ab4dee3a76d4bd7e",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaWRBTlRlY0pBcDJyOElEQnVxcndCc2huLUMtMlpaYlJ5ZGJ1VGNwWGtVSzJDVUNGaE9IM1JwU3docHpSdTBzNEV2LXIyV2p5VlFPaWlJeTQ2WDZHbF9OR1Y4Z2pVZldYT2JJcERERjlmdzVwUTRHMHhTSThGSHBBN3BVclhoVVU1emJFX1RkVEVOSmdPZlE0Sw?oc=5",
-          "title": "Trump weighs Iran deal against renewed military strikes - Aaj English TV",
-          "publisher": "Aaj English TV",
-          "publisher_url": "https://english.aaj.tv",
-          "domain": "english.aaj.tv",
-          "first_seen": "2026-10-27T06:55:48.810048Z",
-          "published_at": "2026-10-26T03:58:44Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military"
-          ],
-          "topic": [
-            "Militair & veiligheid"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "aaj english tv"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid"
-      ],
-      "key": "b73ad47ad8cec1",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Prolonged Hormuz Blockade Triggers Cost Shock, Eroding Profits Across Asian Refining, Aviation and Shipping - https://economy.ac/",
-      "articles": [
-        {
-          "key": "af3b7604b373b76031ea433e",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9BUE9weVlNbXE2NE01NE5KSFRlQzRsaE1BUG1OeHdLUXpSa3dvSV9FTEZjdVZDaGdnVnJHTWMtdDFwT3FTdE9odnlKaFZ0bkU4cmtaWTQzcw?oc=5",
-          "title": "Prolonged Hormuz Blockade Triggers Cost Shock, Eroding Profits Across Asian Refining, Aviation and Shipping - https://economy.ac/",
-          "publisher": "https://economy.ac/",
-          "publisher_url": "https://economy.ac",
-          "domain": "economy.ac",
-          "first_seen": "2026-10-27T11:30:46.797968Z",
-          "published_at": "2026-10-26T03:46:41Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "trade"
-          ],
-          "topic": [
-            "Wereldhandel & logistiek"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "https://economy.ac/"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Wereldhandel & logistiek"
-      ],
-      "key": "c6ddecb0d720f3",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Day 241 | Houthi attacks intensify as Iran tensions mount ahead of ‘Israeli’ elections - Roya News",
-      "articles": [
-        {
-          "key": "1a1ace690e207eb5e4eda5ed",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8wMlZaTXBJV1pFdzNLLWVEV2tSSTdWMEdfY2JPOXFBYkFwRVcyeEczMzMyRXJlcWZ6N2x6bUpkRTdpUHBlVDgyZg?oc=5",
-          "title": "Day 241 | Houthi attacks intensify as Iran tensions mount ahead of ‘Israeli’ elections - Roya News",
-          "publisher": "Roya News",
-          "publisher_url": "https://en.royanews.tv",
-          "domain": "en.royanews.tv",
-          "first_seen": "2026-10-27T06:55:48.810048Z",
-          "published_at": "2026-10-26T03:00:00Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military"
-          ],
-          "topic": [
-            "Militair & veiligheid"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "roya news"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid"
-      ],
-      "key": "a5840cdee70938",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Saudi Aramco orders Dhahran headquarters evacuation as Houthi attacks intensify - NST Online",
-      "articles": [
-        {
-          "key": "a59ea7972f803ef0d5a0fd64",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWVY5bG1JQUt0Z0p4c3N6TThHeGZ0d0FJZER2YVFWM2lmRkQ0Z3AycTBtWUdHeWU3TC02SWlzOGN4em1fSC1xLXVua0htM1doUXg4NmRWTndIQmtlaUlNcWFIalNzQmNCejJLajFqdzNLUHhsbzlNeXloTjFJb0tDVXBzWkFpMFJza3M4Si00ZUJfb2tlRW9PSHQzR0IzM3JmQl9SSk9HMFc1bXVNeEVZLVFtTHZsNWl30gG-AUFVX3lxTFBYVzBLSzNaV3l5UEh2NjRiaFdsVTdsakloSjVDTFpEWXRTZFl6V0RNcnR6UkI1T1paVGtvV09YTHB0bHpSR0dSNVNFWjV3eG9wekhxMmxhS1ZsLWVEQzBFTldBT3hWUHI4OTI2VFA2RGhtazBuUGtSbVh4Szcxd0NZR3BTTjJIY3AwZ29WYWNabW5OM3lBU1FQSUFYSE96d25WYjFSRC0tT2ZGVWlwV1Fpd3hXQkVCZUo1ZEVhWHc?oc=5",
-          "title": "Saudi Aramco orders Dhahran headquarters evacuation as Houthi attacks intensify - NST Online",
-          "publisher": "NST Online",
-          "publisher_url": "https://www.nst.com.my",
-          "domain": "www.nst.com.my",
-          "first_seen": "2026-10-27T16:48:24.729209Z",
-          "published_at": "2026-10-26T03:00:00Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "business"
-          ],
-          "topic": [
-            "Bedrijfsleven & investeringen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "nst online"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Bedrijfsleven & investeringen"
-      ],
-      "key": "3bde413355a47a",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "US has ‘two very different sets of intelligence reports’: Trump rules out Sunday strikes on Iran - The Times of India",
-      "articles": [
-        {
-          "key": "c3c4420bbffd34e45370e8e3",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQMklWazJzSkRWVnp6blpHNVp3MkZuQkR5NFl2eG50czBoZFM3bjBTWWluZlVYYksxMy00WWFLMllBMnl2VFQxOGY3VlhJTDdpMENObDNBV19iTDJlRmtKcTZrZEQ2VVZ1c3hhNE9TeG1yOHdOSDhUQXA2ZWwwMV94NXVFdFVzTmhrVTVRM1RFV1FzRmM2THRGRk1YQkh1aU9HQ3ZxZUwzOHlXeWlIMkhOT3VrcHpSblJSVUtCVDYydmRKdHE4SUdVakhQTkZWNUg2bzVHcW9odGpUT3Z2ZnhndWhCSGN6eEEtajcyekFMOEM2LVBZVnFv0gH8AUFVX3lxTE45S3hHNFE3ZFBKeUo3THZhcjlVbmQxalNXeWZaYWVQZ2ZRYUtwTWczMUcxOURnZnJucXQwYjYtZFViOGt3UGstN2lOZll0eEU5WlB5Y1Y0U2RkaVZSblBSbWNockllRk5zVnhSUlh4SmFCSDhURTBaM3Z0SHF0cXNvQldrMUZCSnR3cHU2MzM4UFZFY2VTY3lGbFVTTkpkSnlVNUpSTEtHVDF6SkU3STMxVXFxbGFYY0gtay1QWk4wa0l0SUd3QS1Rc1hUSjgwRTFXUTdEbmhBcV9QNG1MVVUyYmVGSmlJY3N0TXhHRjhyUTdmOFpFT2o0Q0dqMw?oc=5",
-          "title": "US has ‘two very different sets of intelligence reports’: Trump rules out Sunday strikes on Iran - The Times of India",
-          "publisher": "The Times of India",
-          "publisher_url": "https://timesofindia.indiatimes.com",
-          "domain": "timesofindia.indiatimes.com",
-          "first_seen": "2026-10-27T12:03:59.647856Z",
-          "published_at": "2026-10-26T02:54:00Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "diplomacy"
-          ],
-          "topic": [
-            "Politiek & diplomatie"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "the times of india"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Politiek & diplomatie"
-      ],
-      "key": "eb0bc1e657d690",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "US Warship Blown Up? Iran Fires Cruise Missile At Rogue Vessels; Explosions Rock Strait Of Hormuz - The Times of India",
-      "articles": [
-        {
-          "key": "97127449f6b054cfd39d2532",
-          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNUFlLNm4xWHJ4eFppMjdmWmxUVFJ0SU9pSGExYWVvZXJfcjc0REY3T0l4c0huTGVyVkpPN2g2OTdBNlFNS3c5QTBtOWw5RS1kMHgtNFI3RmFPTXgyWEhkX1NVc0NPSTQyb293ZG5CcjFOVGRyTG9KejRyMDJrendkTTdpYW5pRHNuTzluNWJhZ2t0UWVLOEE2cVRuV0F0VHNkTnJUTkxqNnp6QXItd0ZyblRRbnpBMEY4bDhSUGhtWUJZWWNNMW9ZaUpyQUlFNnlKYXF5ZklOdEZCc0tySV9LUVo2a3Q4ZWFrRTBJMW9iWFBVSkdwY1M0LWo4Mi1IRFptM2JYYUxzSdIBjAJBVV95cUxOMHUta2FLem5BTTRrcXlacmRoSWNpNHhVbHk5eHloY1JlV0VZQ2xsX1dKYWllSUxacnNuMzhmeWJkRUZlQnpfT19YdG8zM2FSLXpJaXl0VktoWUhaeWp2MFJ0OFM1dldEMmpFVlNlbHVDZVhmUXF3djFVMHBKQkoxNlJWcFh6MHd3ZEpqZDhickE2c0FDa1JWeXFSWHJielFUUGc2T1JXM2dzQUJwd1g4dlJFRWYxVjhqb0VGNXczSFE0RnIyX0lJbVQ0aDltc25zWnZYNjdaa1htTmlYQWxrYk9iZmJZVVNqWGNSTHV0dFJOVTdpQjhMdVpoU1lfdkJRLUtQWl80SlZhWExt?oc=5",
-          "title": "US Warship Blown Up? Iran Fires Cruise Missile At Rogue Vessels; Explosions Rock Strait Of Hormuz - The Times of India",
-          "publisher": "The Times of India",
-          "publisher_url": "https://timesofindia.indiatimes.com",
-          "domain": "timesofindia.indiatimes.com",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-26T02:40:15Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military"
-          ],
-          "topic": [
-            "Militair & veiligheid"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "the times of india"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid"
-      ],
-      "key": "fbdbeb6319a3bd",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
       "title": "Oil slips 1% as Iran diplomacy eases supply fears - Investify",
       "articles": [
         {
@@ -4911,6 +4587,68 @@
         "Regionaal: Golfstaten / Arabisch"
       ],
       "key": "10d175f447a8aa",
+      "review_status": "unverified_story_candidate",
+      "review_order": 21
+    },
+    {
+      "title": "Iran hosts Makkah Pact trio for rare talks",
+      "articles": [
+        {
+          "key": "2f22dfb987c106123ff113f1",
+          "url": "https://tribune.com.pk/story/2637105/iran-hosts-makkah-pact-trio-for-rare-talks",
+          "title": "Iran hosts Makkah Pact trio for rare talks",
+          "publisher": "tribune.com.pk",
+          "publisher_url": "",
+          "domain": "tribune.com.pk",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "Pakistan",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        },
+        {
+          "key": "3dbca7b68877a66e721ec626",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWFFEd1R4c21sbENJY3RhaXZDcURKUWpnUDNWWi1VQ1F0VTIyMFFLdlFfMFp2LVJsZHUyNVRMaDZCYzJVTGNGSV95aG9WTFlBXzNWd3BPdUdSMGd2NW5rU1d3cC1zaG1FS1Ztbk1tVFNqdGppMy01bEpvZnR5UEF5R21nUmtUQdIBjgFBVV95cUxOV1NlU2taM2hwYlRGWEFWNWhfT19zN05KbDNpb1NzNEZ2cUxkbjByQWlzYlJQeE5NeWZXSDM5bmszajE4d2N2eUFJOG9WNDNqa1pzRWdQRndEMlQycXhIQzN5a1pkRFl2UXBhQkoyWmtTcmE4OVFfWVZyMXlCblBNX1pkOFNQamhPQWdDaElB?oc=5",
+          "title": "Iran hosts Makkah Pact trio for rare talks - The Express Tribune",
+          "publisher": "The Express Tribune",
+          "publisher_url": "https://tribune.com.pk",
+          "domain": "tribune.com.pk",
+          "first_seen": "2026-10-27T00:59:31.802464Z",
+          "published_at": "2026-10-27T00:13:12Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "the express tribune",
+        "tribune.com.pk"
+      ],
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "Brede GDELT-detectie",
+        "Politiek & diplomatie"
+      ],
+      "key": "49d3466fdec5e6",
       "review_status": "unverified_story_candidate",
       "review_order": 21
     },
@@ -5510,67 +5248,6 @@
       "review_order": 21
     },
     {
-      "title": "رغم مخاوف نقص الإمدادات.. النفط يتراجع من أعلى مستوياته في 6 أشهر - جريدة حابي",
-      "articles": [
-        {
-          "key": "63ed0b99d45b1045ed7d4c45",
-          "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOcTJJMTg5OGtFZ2JTN283OVBYQm1oMVBsc1R5WnV0RS1nUXkxNEVJZTNVVW9WSlcyNk1ENTFPU1ZOY1B5RFRrY2FTVUNDb19TR3ItNXZrQ1JoZGxvbi1PZjlITDBKMkhLSDJFeWhmZTlCX2tvUW5wWmpHMVJqRmJJRXhlQ3pHSDhzZEpRb1ZBY0l0VDZrUHlqd1g0c191czlwa3JDY2ZOYl9BZG5GdGtIVHo2ZjNzaGFuNzlCOGtXMWVKU3BicVAxZ1c1Uzg3Z0ozczlWbDFLckJTMmhmbF9YZTJCRkNxUTRJbUQ4NV9zaVkxSjBjbjlHdTZpS2ZEdkxMeEdCWFNuNl9wZVFkc3J4Ukt6ZUNoMy1qWkNwekc2RkI1aWtXWWJUamZmOGdlUlBySXpGUk14TFlxYzYydS1KQ2N2Q2xBUTFmNG05dm1pakNVVlVi?oc=5",
-          "title": "رغم مخاوف نقص الإمدادات.. النفط يتراجع من أعلى مستوياته في 6 أشهر - جريدة حابي",
-          "publisher": "جريدة حابي",
-          "publisher_url": "https://hapijournal.com",
-          "domain": "hapijournal.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T05:49:45Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "c8de56c85a8e864a47a5589e",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE53R3hJcDBrX1I0YUl4SFJLOTBWYzlMcDlPYUdFS1ROTVZfMEFXbkNyMG0wb3dhZG9RYWRZ?oc=5",
-          "title": "النفط يتراجع من أعلى مستوياته في نحو 6 أشهر رغم مخاوف الإمدادات - Howl.Link",
-          "publisher": "Howl.Link",
-          "publisher_url": "https://t.co",
-          "domain": "t.co",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T04:30:54Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "howl.link",
-        "جريدة حابي"
-      ],
-      "article_count": 2,
-      "source_count": 2,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "7fd990b12d5ddd",
-      "review_status": "unverified_story_candidate",
-      "review_order": 21
-    },
-    {
       "title": "特朗普称将取走伊朗所有石油 占领与控制言论引争议 - 中华军事",
       "articles": [
         {
@@ -5632,37 +5309,77 @@
       "review_order": 21
     },
     {
-      "title": "السعودية وسنغافورة ترتبان لتخزين النفط الخام بدءاً من 2027 - Howl.Link",
+      "title": "UK Tightens Middle East Travel Advice Amid Rising Tensions - https://www.thetraveler.org/",
       "articles": [
         {
-          "key": "f8b908e2dab96722a6e346dc",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA1ZlZ3RV9mUlJ6Q1VEdTBfVC1SeTdSUmE1U1ZWU3pzcVctT2g1b1dGYXFNWDhjaUo2RlBZ?oc=5",
-          "title": "السعودية وسنغافورة ترتبان لتخزين النفط الخام بدءاً من 2027 - Howl.Link",
-          "publisher": "Howl.Link",
-          "publisher_url": "https://t.co",
-          "domain": "t.co",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T05:32:15Z",
-          "language": "ar",
+          "key": "334648b26aa321d479d8c135",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUnB6TFJDYk9YblEzZU5CSWJvSUFrbThNVkpHRGM1WGd3VGhWY3Z2eXVOd09naUhfb3JxUnQ4dkJldlVzQllTdEk2c3IzNGxmQ0FYbG5GVW9xTGdjRHVUMnJRai1iSlF2cWdWWjNvMHJaY25NU1hfMEZYNXBpZmNfVzd5RzFpMU5vRVJPYnNiQjdyd3c?oc=5",
+          "title": "UK Tightens Middle East Travel Advice Amid Rising Tensions - https://www.thetraveler.org/",
+          "publisher": "https://www.thetraveler.org/",
+          "publisher_url": "https://www.thetraveler.org",
+          "domain": "www.thetraveler.org",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-28T10:59:06Z",
+          "language": "en-US",
           "sourcecountry": "",
           "discovery_profiles": [
-            "gulf-ar"
+            "government"
           ],
           "topic": [
-            "Regionaal: Golfstaten / Arabisch"
+            "Overheden & crisismaatregelen"
           ],
           "provider": "google_news_rss",
           "review_status": "unverified"
         },
         {
-          "key": "d436676f304effbeb77bc78b",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5EUXYwVXpmSkU3cEdvMUNORE9YWE5FVWJVczN0ZFhYdnozVlgwWFBERDVMNDczVmE3M0hZaEpZTjE5dnJaWXc?oc=5",
-          "title": "السعودية وسنغافورة ترتبان لتخزين النفط الخام بدءاً من 2027 - الشرق الأوسط",
+          "key": "dd5a03feca99d7c5b208d52b",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb3QyMG81a3o5ZnEyRjNQOHczMkVzUE1Kek5wRF9sbVlIWEZub2RqQXNrcUExUFNQVWZZekptSWI1RldjNWFSLVZLUkdHaHQ5T1hqQWpIM0pTYWhmZGJCYTJDOXFqRmU1aklNMkhqcFhJMW1Qd1NVcVV5SzZmU05kcTg3MkVOSWtpSVFmejAyMlQ?oc=5",
+          "title": "UK Tightens Middle East Travel Advice Amid Rising Tensions - https://www.thetraveler.org/",
+          "publisher": "https://www.thetraveler.org/",
+          "publisher_url": "https://www.thetraveler.org",
+          "domain": "www.thetraveler.org",
+          "first_seen": "2026-10-28T07:07:35.023940Z",
+          "published_at": "2026-10-28T05:09:06Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "government"
+          ],
+          "topic": [
+            "Overheden & crisismaatregelen"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-28",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "thetraveler.org"
+      ],
+      "article_count": 2,
+      "source_count": 1,
+      "categories": [
+        "Overheden & crisismaatregelen"
+      ],
+      "key": "f69cc90cb14fd4",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "«قطر للطاقة» تطرح عطاء لبيع شحنة «نافتا» بمضيق هرمز - الشرق الأوسط",
+      "articles": [
+        {
+          "key": "1677c9d3e881d90e29aa8bc9",
+          "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxOQjBUNU5DdFRYZElvUnAwZ0otNlVMNkRsQlc2NEpRUkFzSXhoUVR4RFV4c1lWcUNMLVR0aVBxWWhHUkwyTEVFZkx5dWpFNGNsQVppdnhCZG0wSF8xUGV0Z2dXU29lNUhjaWJ1YmhUTnhpZ1ZzME9pd1RwNXZ0UHF6N0V6UjR3aHJLWFhQTnBENDRMWVYwUDhZeHR6U1JobVhTbERGUlBXLVZGSEczM2RZbG10TkY2Y3lGSmdLY2pCVWk1WHdhTmdta1RLMzBqOUd6YWREcFpfUjNCNU5KR1NoRHBlU0l4amgyMHd0bDNwUXhjQlc1SnQwNHhzTG12am1odFpZT2I3LUNrNE9PeGdXeGE2U1Z0LWUwZHpwSFFMSXJvY1FHLTFwVE1rWWpFSzB2TnJXZWUzSEtjMzUzczNJMk9HRlA3YU52S3IyM0RoZnhQUHMzS0NoTDVRLUU0MFJLRDlGSWUtYlZsaWhXU3NaemxfTVE2WThMT1BKc3ZVZVhnd2xEb09YT0lxQURqVzB3X29HVjB0Q1lMTlVrQTRFVUJyOXZCQmJWTUxKRlZqU3BabGNGYS1vLXdfWjVKWndsbjFzQQ?oc=5",
+          "title": "«قطر للطاقة» تطرح عطاء لبيع شحنة «نافتا» بمضيق هرمز - الشرق الأوسط",
           "publisher": "الشرق الأوسط",
           "publisher_url": "https://aawsat.com",
           "domain": "aawsat.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T04:29:00Z",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-28T10:25:27Z",
           "language": "ar",
           "sourcecountry": "",
           "discovery_profiles": [
@@ -5675,22 +5392,21 @@
           "review_status": "unverified"
         }
       ],
-      "day": "2026-10-26",
+      "day": "2026-10-28",
       "priority": "middel",
       "priority_level": 2,
       "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
       "publishers": [
-        "howl.link",
         "الشرق الأوسط"
       ],
-      "article_count": 2,
-      "source_count": 2,
+      "article_count": 1,
+      "source_count": 1,
       "categories": [
         "Regionaal: Golfstaten / Arabisch"
       ],
-      "key": "a75d6b0fee26fb",
+      "key": "8a40ad597f6666",
       "review_status": "unverified_story_candidate",
-      "review_order": 21
+      "review_order": 20
     },
     {
       "title": "Iran president calls for end to ‘neither war nor peace’ deadlock amid mounting pressure - Business Upturn",
@@ -6376,46 +6092,6 @@
         "Regionaal: Golfstaten / Arabisch"
       ],
       "key": "da6eaea5d2d9fb",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "UK Tightens Middle East Travel Advice Amid Rising Tensions - https://www.thetraveler.org/",
-      "articles": [
-        {
-          "key": "dd5a03feca99d7c5b208d52b",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb3QyMG81a3o5ZnEyRjNQOHczMkVzUE1Kek5wRF9sbVlIWEZub2RqQXNrcUExUFNQVWZZekptSWI1RldjNWFSLVZLUkdHaHQ5T1hqQWpIM0pTYWhmZGJCYTJDOXFqRmU1aklNMkhqcFhJMW1Qd1NVcVV5SzZmU05kcTg3MkVOSWtpSVFmejAyMlQ?oc=5",
-          "title": "UK Tightens Middle East Travel Advice Amid Rising Tensions - https://www.thetraveler.org/",
-          "publisher": "https://www.thetraveler.org/",
-          "publisher_url": "https://www.thetraveler.org",
-          "domain": "www.thetraveler.org",
-          "first_seen": "2026-10-28T07:07:35.023940Z",
-          "published_at": "2026-10-28T05:09:06Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "government"
-          ],
-          "topic": [
-            "Overheden & crisismaatregelen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "thetraveler.org"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Overheden & crisismaatregelen"
-      ],
-      "key": "f69cc90cb14fd4",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -7387,6 +7063,26 @@
           ],
           "provider": "google_news_rss",
           "review_status": "unverified"
+        },
+        {
+          "key": "418b3a608b76f9aeaaab63b2",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPd1BuU1B1eW4tM3FJSTlOaEhFd3lMdGd3S001WHpKU3BSZVNUamsxbktibERCc3RDSnhwN05RSmhfSFRrSFVrcFdaYUVLTGN1VTNsYjdTZG9tUkRsNFRmVFpudlpTS3F2VVcxNExvQTEzRzlsTzdhU3ZtVkNkanNwU0U1cjlRbjAzQVdrY2w0bW5IVTg4UXRsRTZnRFNHSENxZEc1c0liaXU3ZWZiQnJyYVZUQ2F2WjkzVFlyN2RlUWJkSzR3YTN5NWJDSQ?oc=5",
+          "title": "Crude Oil Prices Fall Back As Iran’s Supreme Leader Reiterates Deal Terms - TradingView",
+          "publisher": "TradingView",
+          "publisher_url": "https://es.tradingview.com",
+          "domain": "es.tradingview.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T15:58:50Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
         }
       ],
       "day": "2026-10-27",
@@ -7396,7 +7092,7 @@
       "publishers": [
         "tradingview"
       ],
-      "article_count": 2,
+      "article_count": 3,
       "source_count": 1,
       "categories": [
         "Militair & veiligheid"
@@ -8342,6 +8038,46 @@
         "Regionaal: Pakistan"
       ],
       "key": "faf4b397ac3582",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "Lithuania says two citizens detained in Iran - Iran International",
+      "articles": [
+        {
+          "key": "8918b116a697f426aabdbd92",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8wVG1hVUt2N3VhTzR6aWdxeE1wb1hyVDRfSzNJYTFjZ2hmeXBLZjhiUGxOTjR5TmdHZzBaYW9ZMFlYekRwTkFUbXBVeXhBMnFtWFE?oc=5",
+          "title": "Lithuania says two citizens detained in Iran - Iran International",
+          "publisher": "Iran International",
+          "publisher_url": "https://www.iranintl.com",
+          "domain": "www.iranintl.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T13:04:32Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "economy"
+          ],
+          "topic": [
+            "Economie & samenleving"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "iran international"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Economie & samenleving"
+      ],
+      "key": "f975208e1fd059",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -10240,7 +9976,8 @@
           "language": "Indonesian",
           "sourcecountry": "Indonesia",
           "discovery_profiles": [
-            "gdelt-hormuz"
+            "gdelt-hormuz",
+            "gdelt-iran"
           ],
           "topic": [
             "Brede GDELT-detectie"
@@ -10422,6 +10159,246 @@
         "Brede GDELT-detectie"
       ],
       "key": "8556d20702769a",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "البرلمان المصري يفوض السيسي باتخاذ إجراءات لدعم السعودية عسكريًا",
+      "articles": [
+        {
+          "key": "133f8a48ef3f245dc18b6430",
+          "url": "https://akhbarlibya24.net/2026/10/27/%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A-%D9%8A%D9%81%D9%88%D8%B6-%D8%A7%D9%84%D8%B3%D9%8A%D8%B3%D9%8A-%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
+          "title": "البرلمان المصري يفوض السيسي باتخاذ إجراءات لدعم السعودية عسكريًا",
+          "publisher": "akhbarlibya24.net",
+          "publisher_url": "",
+          "domain": "akhbarlibya24.net",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Arabic",
+          "sourcecountry": "Libya",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "akhbarlibya24.net"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "17c35e1a83d50c",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "IranAir to resume B747 Combi ops , A321 will wait - ch - aviation",
+      "articles": [
+        {
+          "key": "0d93016c90cc7068b5660b3c",
+          "url": "https://www.ch-aviation.com/news/173197-iranair-to-resume-b747-combi-ops-a321-will-wait",
+          "title": "IranAir to resume B747 Combi ops , A321 will wait - ch - aviation",
+          "publisher": "ch-aviation.com",
+          "publisher_url": "",
+          "domain": "ch-aviation.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "United States",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "ch-aviation.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "28582933ba69c1",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "Washington orders suppliers to axe Iran aircraft contracts - ch - aviation",
+      "articles": [
+        {
+          "key": "0eb3e8337056a7ddaf4ce327",
+          "url": "https://www.ch-aviation.com/news/67061-washington-orders-suppliers-to-axe-iran-aircraft-contracts",
+          "title": "Washington orders suppliers to axe Iran aircraft contracts - ch - aviation",
+          "publisher": "ch-aviation.com",
+          "publisher_url": "",
+          "domain": "ch-aviation.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "United States",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "ch-aviation.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "14e12f9e414dbf",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "Sinner to play rescheduled Saudi Six Kings",
+      "articles": [
+        {
+          "key": "95496313d2155b7c5084047e",
+          "url": "https://tribune.com.pk/story/2637150/sinner-to-play-rescheduled-saudi-six-kings",
+          "title": "Sinner to play rescheduled Saudi Six Kings",
+          "publisher": "tribune.com.pk",
+          "publisher_url": "",
+          "domain": "tribune.com.pk",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "Pakistan",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "tribune.com.pk"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "42a30da92adec0",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "SBP raises interest rate to 12 % amid Iran - US tensions and rising oil prices",
+      "articles": [
+        {
+          "key": "9c99809808a9e1bca0b05376",
+          "url": "https://www.pakistantimes.com/sbp-raises-interest-rate-to-12-amid-iran-us-tensions-and-rising-oil-prices-15846/",
+          "title": "SBP raises interest rate to 12 % amid Iran - US tensions and rising oil prices",
+          "publisher": "pakistantimes.com",
+          "publisher_url": "",
+          "domain": "pakistantimes.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "Pakistan",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "pakistantimes.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "371fc2116e8fd6",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "Qué piensa un israelí antes de votar en las elecciones más importantes de su vida :  Nos robaron la inocencia",
+      "articles": [
+        {
+          "key": "6de3f50921aa9d31d2da7467",
+          "url": "https://www.elconfidencial.com/mundo/2026-10-27/que-piensa-israeli-antes-votar-elecciones-mas-importantes_4453032/",
+          "title": "Qué piensa un israelí antes de votar en las elecciones más importantes de su vida :  Nos robaron la inocencia",
+          "publisher": "elconfidencial.com",
+          "publisher_url": "",
+          "domain": "elconfidencial.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Spanish",
+          "sourcecountry": "Spain",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "elconfidencial.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "b9fbb84f1d5022",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -11365,46 +11342,6 @@
         "Overheden & crisismaatregelen"
       ],
       "key": "2e7dff0f4b4eb2",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Iran hosts Makkah Pact trio for rare talks - The Express Tribune",
-      "articles": [
-        {
-          "key": "3dbca7b68877a66e721ec626",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWFFEd1R4c21sbENJY3RhaXZDcURKUWpnUDNWWi1VQ1F0VTIyMFFLdlFfMFp2LVJsZHUyNVRMaDZCYzJVTGNGSV95aG9WTFlBXzNWd3BPdUdSMGd2NW5rU1d3cC1zaG1FS1Ztbk1tVFNqdGppMy01bEpvZnR5UEF5R21nUmtUQdIBjgFBVV95cUxOV1NlU2taM2hwYlRGWEFWNWhfT19zN05KbDNpb1NzNEZ2cUxkbjByQWlzYlJQeE5NeWZXSDM5bmszajE4d2N2eUFJOG9WNDNqa1pzRWdQRndEMlQycXhIQzN5a1pkRFl2UXBhQkoyWmtTcmE4OVFfWVZyMXlCblBNX1pkOFNQamhPQWdDaElB?oc=5",
-          "title": "Iran hosts Makkah Pact trio for rare talks - The Express Tribune",
-          "publisher": "The Express Tribune",
-          "publisher_url": "https://tribune.com.pk",
-          "domain": "tribune.com.pk",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-27T00:13:12Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "diplomacy"
-          ],
-          "topic": [
-            "Politiek & diplomatie"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-27",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "the express tribune"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Politiek & diplomatie"
-      ],
-      "key": "49d3466fdec5e6",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -17477,6 +17414,46 @@
       "review_order": 20
     },
     {
+      "title": "رغم مخاوف نقص الإمدادات.. النفط يتراجع من أعلى مستوياته في 6 أشهر - جريدة حابي",
+      "articles": [
+        {
+          "key": "63ed0b99d45b1045ed7d4c45",
+          "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxOcTJJMTg5OGtFZ2JTN283OVBYQm1oMVBsc1R5WnV0RS1nUXkxNEVJZTNVVW9WSlcyNk1ENTFPU1ZOY1B5RFRrY2FTVUNDb19TR3ItNXZrQ1JoZGxvbi1PZjlITDBKMkhLSDJFeWhmZTlCX2tvUW5wWmpHMVJqRmJJRXhlQ3pHSDhzZEpRb1ZBY0l0VDZrUHlqd1g0c191czlwa3JDY2ZOYl9BZG5GdGtIVHo2ZjNzaGFuNzlCOGtXMWVKU3BicVAxZ1c1Uzg3Z0ozczlWbDFLckJTMmhmbF9YZTJCRkNxUTRJbUQ4NV9zaVkxSjBjbjlHdTZpS2ZEdkxMeEdCWFNuNl9wZVFkc3J4Ukt6ZUNoMy1qWkNwekc2RkI1aWtXWWJUamZmOGdlUlBySXpGUk14TFlxYzYydS1KQ2N2Q2xBUTFmNG05dm1pakNVVlVi?oc=5",
+          "title": "رغم مخاوف نقص الإمدادات.. النفط يتراجع من أعلى مستوياته في 6 أشهر - جريدة حابي",
+          "publisher": "جريدة حابي",
+          "publisher_url": "https://hapijournal.com",
+          "domain": "hapijournal.com",
+          "first_seen": "2026-10-26T23:15:42.424765Z",
+          "published_at": "2026-10-26T05:49:45Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-26",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "جريدة حابي"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "7fd990b12d5ddd",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "US Embassy in Beirut Issues New Alert as Houthi Threats Grow - https://www.thetraveler.org/",
       "articles": [
         {
@@ -17593,6 +17570,46 @@
         "Overheden & crisismaatregelen"
       ],
       "key": "2bb1d98a84c9bd",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "السعودية وسنغافورة ترتبان لتخزين النفط الخام بدءاً من 2027 - Howl.Link",
+      "articles": [
+        {
+          "key": "f8b908e2dab96722a6e346dc",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA1ZlZ3RV9mUlJ6Q1VEdTBfVC1SeTdSUmE1U1ZWU3pzcVctT2g1b1dGYXFNWDhjaUo2RlBZ?oc=5",
+          "title": "السعودية وسنغافورة ترتبان لتخزين النفط الخام بدءاً من 2027 - Howl.Link",
+          "publisher": "Howl.Link",
+          "publisher_url": "https://t.co",
+          "domain": "t.co",
+          "first_seen": "2026-10-26T23:15:42.424765Z",
+          "published_at": "2026-10-26T05:32:15Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-26",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "howl.link"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "a75d6b0fee26fb",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -17929,838 +17946,6 @@
       "review_order": 20
     },
     {
-      "title": "Saudi Arabia Singapore plan : Riyadh eyes oil storage hub from 2027 amid Hormuz disruption",
-      "articles": [
-        {
-          "key": "7c008333decac4c259554ef1",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/saudi-arabias-singapore-plan-riyadh-eyes-oil-storage-hub-from-2027-amid-hormuz-disruption/articleshow/135202643.cms",
-          "title": "Saudi Arabia Singapore plan : Riyadh eyes oil storage hub from 2027 amid Hormuz disruption",
-          "publisher": "timesofindia.indiatimes.com",
-          "publisher_url": "",
-          "domain": "timesofindia.indiatimes.com",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-26T05:00:00Z",
-          "language": "English",
-          "sourcecountry": "India",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "timesofindia.indiatimes.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "71c6a3a168c194",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "CENTCOM Reports More Than 1 . 5 Billion Barrels in Gulf Oil Exports Since June",
-      "articles": [
-        {
-          "key": "153b0fe4c809e513f262816a",
-          "url": "https://econotimes.com/CENTCOM-Reports-More-Than-1-5-Billion-Barrels-in-Gulf-Oil-Exports-Since-June-1763296",
-          "title": "CENTCOM Reports More Than 1 . 5 Billion Barrels in Gulf Oil Exports Since June",
-          "publisher": "econotimes.com",
-          "publisher_url": "",
-          "domain": "econotimes.com",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-26T05:00:00Z",
-          "language": "English",
-          "sourcecountry": "United States",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "econotimes.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "94ebf804f3c34f",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Houthi Klaim Serang Jalur Pipa Minyak Arab Saudi , Stasiun Pompa Jadi Sasaran",
-      "articles": [
-        {
-          "key": "7d370f11194613a86f646846",
-          "url": "https://www.viva.co.id/berita/dunia/1938653-houthi-klaim-serang-jalur-pipa-minyak-arab-saudi-stasiun-pompa-jadi-sasaran",
-          "title": "Houthi Klaim Serang Jalur Pipa Minyak Arab Saudi , Stasiun Pompa Jadi Sasaran",
-          "publisher": "viva.co.id",
-          "publisher_url": "",
-          "domain": "viva.co.id",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-26T05:00:00Z",
-          "language": "Indonesian",
-          "sourcecountry": "Indonesia",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "viva.co.id"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "54cec19c5b537f",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Oil declines from six - month high as traders assess Mideast risks",
-      "articles": [
-        {
-          "key": "fad325f41201b994ad2d4add",
-          "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-declines-six-month-high-traders-assess-mideast-risks",
-          "title": "Oil declines from six - month high as traders assess Mideast risks",
-          "publisher": "businesstimes.com.sg",
-          "publisher_url": "",
-          "domain": "businesstimes.com.sg",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-26T05:00:00Z",
-          "language": "English",
-          "sourcecountry": "Singapore",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "businesstimes.com.sg"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "c2c5da40863d8c",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "برنت يهبط 1.9% ليصل 114.51 دولار.. هل تهدئ الوساطة القطرية أسواق النفط؟ - بوابة المصرف",
-      "articles": [
-        {
-          "key": "ca88c329ba3697105923f663",
-          "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOSDMtM2tTS3pyNXNiRmZQaUpDbDVkVWdQaTRDNmVOSFZDRzZZRTJXWnNsS2tpSTgzeTZ6VmE2M1g2V0xNTE9BUDc0VEZDdTU4cERwR3NqRmV2WHlFLTBQYmMtTzNaNVlONEZsRG84S2EwcVRWRndEWVp6alQyNmtybDd0WWNHLUdiZEhSVWZaVXVwbE5wQjlhZXdubEpBLUg4Um9IcFRxQ05MMWZLMWM3bThucm1MOUFrWkgySUhGVnRvVENKNzV1a2dBSlNHcThoLVNuUW1BWFA1QzlickFKdzYxOExET0VyWU80VWRURVVKZ082RHpmOEpQQXdEcmlLQ3luYWpsTEhjcnRmNjhWM3hvU3pSeGsycDR3NWFlRlVkbzZQNVA0N1ByU2VwRUhWYjE0NG1DRUlNZUtIMW9QdjF0Nm5fNmxR?oc=5",
-          "title": "برنت يهبط 1.9% ليصل 114.51 دولار.. هل تهدئ الوساطة القطرية أسواق النفط؟ - بوابة المصرف",
-          "publisher": "بوابة المصرف",
-          "publisher_url": "https://www.almasraf.news",
-          "domain": "www.almasraf.news",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T04:56:45Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "بوابة المصرف"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "064cad2247910d",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "تراجع أسعار النفط اليوم الاثنين في بداية التعاملات الصباحية - Masrawy",
-      "articles": [
-        {
-          "key": "c76e45043122dc6a589b4dc1",
-          "url": "https://news.google.com/rss/articles/CBMiowRBVV95cUxNTk9MRDJIMjRzdUNRcmdZWU91N1hnQWJFV01PWnhsdmhDTlplamNBNFAyam9ESFRHSDJqZjl4NmNyZEVacDE0eEdfRkgwb183Q2VhVTNCUU15aUVod29aakM5OFA5LUlBV19HWVdZWEYxOUJYaE9CdnE0SEt2UFZUWUZYYXNQSXZMaTc0Yk9GN0ZvVlJsT0FpSFRNRlNiQkt1YkQwbC1EZ2pnMXc5bHE1ajZsZjFLdmh0ZF9uZEVDWTZPNGJxcU5uOE1jRlhDLWEtSU1LLW9NbEhGVmpLTUFEeExoeUNWZXl3dWY0M2ZPY2FTQUNYRFREWFhPVmEzMmt4N1ZiTThfeWNsNG05aXBzVHlEWjBpaDdxSWZTa1ZrZ2JEMWtvZXpTLVJReG5sNmVSZEdqV2tLNEFncTdDR3paMUV0LVFZX3JiNHU4Nmxyb0dWbmYxTTFzbmx1NGE5V09CRHNvODFPQWpVYmhoclZuMnNxVXZoanN0eUdTMkhjYk9BVzJHcWhOOGI0aGN0YmhxaThQWGIxdXpoVkNWZGUxdHNnVDJCcEpQWVhBQVRwdW1aTXNsdGc1N0dXTnozLUtSREJpa3NtbFdnT2gxdHpzYTR1TU1hWmRYUVBLWkxWeVM3NFFsT2N2TVNMckI2VkF6U3VQaGdmYk5QX2syZkl3MXpUNTVfcDJqWWRWR3J6WkxTb29pUXRUMXMwSHVJOHZCTktj0gGoBEFVX3lxTFBxRW5pdE9aeDRYT3c1ZzFaRGJaVEo5U0tneUp3RTBrU2VyaEVYcGZXRW5hb3dMdjVOUFNQVDJ2SVdXS09uMVZMYkNwSDhBUTZPWWRLSTA2RUhRblRyb2VjX0VaNzJnY3kyTlRPdmpEaDZNVmlKNHZnNkR6bGVtRkdmZ3pxTFJ4cVhUWjRkcFdqSmpabkpHMXFkSDd3aTl0Zm5aVEYtdXc2Qm9rbWhjdlVIYzlQaDlsZ3VrM3VzaTVPdzYyYVk5cUt5OElBWXJkNGdZdVdfWXZYc00zNWVjeFlmbzhmOXZCZFF3eXVlaVJpenByTHd4QWJ3UkhYOG9RbVkzaVRYSkZ2ajZ1cEdNbU9NR3VjTVNtWFBPcm5qcWhNNzhKa0NLREFlS0FmUGRmRTZ4TEc1dU53dF9fOHNGSlh5UXZHQncyUTRNR21NTC1IVUVnbnZFMndUZWNPU0EzZE5jVjhvTXZRMlA4dE5vaC0zYXRPNC1MRzdlRWxxdmMzVFRsdUg0TFlMZEQ1YnEtSzJ4RGZNN2lPU3dNY3A2a1J6czBTX0JTbk1KUUctdVB4anRCYl9CVjNIR3RFZHVmNnJXSF9RRnRxR2hmV0tOTXpYQzRaNUtMUUphMkVsSTZVQWh1cnpXcF9Ga2F4djMtNmRnR1lVWUN1MXg0OTlmWVo3NnlNUFhWZWQ3dGlENHlRcFR4YXNrWFFYQWRMVjE5Q2MxLVhkeWl0cA?oc=5",
-          "title": "تراجع أسعار النفط اليوم الاثنين في بداية التعاملات الصباحية - Masrawy",
-          "publisher": "Masrawy",
-          "publisher_url": "https://www.masrawy.com",
-          "domain": "www.masrawy.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T04:45:00Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "masrawy"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "d510c55622edad",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "حرب النفط تشتعل.. العالم يحصّن مخزوناته تحسباً للأسوأ - إرم بزنس",
-      "articles": [
-        {
-          "key": "ed99db3e71b9c9bda33d113b",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1EQnhzTDZXdmRINEowRHN2TmpPNGxuUnBaQ0FucVM4ajZqVGd3WGJ0c1AzQ0tTMGhfS0V6QlR4TDBvTmJ1V00xQk02SlhaUWhmZ05QY0N3?oc=5",
-          "title": "حرب النفط تشتعل.. العالم يحصّن مخزوناته تحسباً للأسوأ - إرم بزنس",
-          "publisher": "إرم بزنس",
-          "publisher_url": "https://www.erembusiness.com",
-          "domain": "www.erembusiness.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T04:13:34Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "إرم بزنس"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "37cfa95a872fdc",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "伊朗：除敌国外开放霍尔木兹…需与我方协调后通行 - 朝鮮日報中文版",
-      "articles": [
-        {
-          "key": "a7c9c758f2abbd0a8a81d954",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1piOGtfczM0XzFnbV9kdWI5alVGUHRJMGt0Umdra29NVzBzQmhoOFZjb0JTRkMzWG5tNG9IZnlzUmF3UDNxOE5MUGZZekc5a056MGExSld5dFZIWllsb0QxX09WV2JVN1JYTHFpeVZZVWJQZjBCa0lnTXQ0aHNOUlVNUXBvVlZ2a3lxZld3?oc=5",
-          "title": "伊朗：除敌国外开放霍尔木兹…需与我方协调后通行 - 朝鮮日報中文版",
-          "publisher": "朝鮮日報中文版",
-          "publisher_url": "https://cnnews.chosun.com",
-          "domain": "cnnews.chosun.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T04:05:20Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "朝鮮日報中文版"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "9ae4839ee91b8d",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "美军：夏季至今已助波斯湾国家经霍尔木兹海峡出口15亿桶原油 - 香港01",
-      "articles": [
-        {
-          "key": "abaf4cd56ad2ff93cfeb029f",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pYnh1c1BBeGdLNUs5cF9SSDRtOHVPNjZ4UmIwZmlvaDdFbzQyTVFpMzlWRGctS0pCbGMzeGJUR3Q5ckpyMXVIckNVamJCVGI4X2c?oc=5",
-          "title": "美军：夏季至今已助波斯湾国家经霍尔木兹海峡出口15亿桶原油 - 香港01",
-          "publisher": "香港01",
-          "publisher_url": "https://global.hk01.com",
-          "domain": "global.hk01.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T03:55:00Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "b7e713cdc0687f2a686cbb4a",
-          "url": "https://news.google.com/rss/articles/CBMitgNBVV95cUxNRkJ3OTcweV9BTFh0YWJSOXM2TUdYb1BzWFZEMm1VdHJuRkpDQ295UW1hLWZOMzBwWEstMTFuUDhuNzVXNFN0RzBLbXFNQnJsSjZ6OTlXVElTMmRxSjZzcmQxMEU2dnpBdkZzMEMySWM3UDA5cmEwUW9aVlpSRzJuN1NUV1owZ0FxMUozZVRFMk9NSmw3V201ejF6VjJ0NTN5dFRvalUxb0sxXzk3S2RRTUx2YkhJYjhOR2hXLXprMU5tS1E0ZHplR0gyOGp4TXRTNnJvaDNfUldsQWJhRXhFaElMNmNxMlVBaHlndW5oZGl6VHVpaFdINk54OHptMHZDcllUUEVneWZ2UEdtbWM3OEM5WGRYdXhLdzR0SEpCSW5iaElyWi1yYVVxbndrczE2Qkd3VkdQQ1FrZE95dEtOeDVWWElmRXhhWjJ0QkZyTGplWTV1VWdZaFdhMVlzRHU2ZUtwclJ2Z0x6VmpCQmxHUHd4YnhXVUZZMGdzSmRXWGhCWnFNdzVqUUhNakN5cGxBZnFDcTVsckRqSURlc3dwWXhuVFFFZDdfQkVWanNyeXBvdmtrcmc?oc=5",
-          "title": "美军：夏季至今已助波斯湾国家经霍尔木兹海峡出口15亿桶原油 - 香港01",
-          "publisher": "香港01",
-          "publisher_url": "https://global.hk01.com",
-          "domain": "global.hk01.com",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-26T03:55:00Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "香港01"
-      ],
-      "article_count": 2,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "e11420d43be772",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Middle East latest: Iran and Makkah defence pact countries hold talks to defuse tensions - The National",
-      "articles": [
-        {
-          "key": "e3b5432c3a70ed92fb606f14",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXpXeGJySlQxeV9XYjNxYnlSSUVtSEZibERTbTVKcG1seloyZXYyc3JvbEtUT0JtamQ1N2YtbEYxZWR4MW1CTDJrbDUyYzVhOVFocDk1RURYWl82TFZFWmxNRW1UT1EtVE1INjR1bkNrbWhZN1lPSWZtclU0VFA3SXQtdU9Kay11UWI5YzZJaUU3R3MtSnBHdg?oc=5",
-          "title": "Middle East latest: Iran and Makkah defence pact countries hold talks to defuse tensions - The National",
-          "publisher": "The National",
-          "publisher_url": "https://www.thenationalnews.com",
-          "domain": "www.thenationalnews.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T03:51:08Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "business",
-            "government",
-            "military",
-            "pakistan-en",
-            "trade"
-          ],
-          "topic": [
-            "Bedrijfsleven & investeringen",
-            "Militair & veiligheid",
-            "Overheden & crisismaatregelen",
-            "Regionaal: Pakistan",
-            "Wereldhandel & logistiek"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "the national"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Bedrijfsleven & investeringen",
-        "Militair & veiligheid",
-        "Overheden & crisismaatregelen",
-        "Regionaal: Pakistan",
-        "Wereldhandel & logistiek"
-      ],
-      "key": "60ea1149acff12",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "سنغافورة تستعد لتخزين النفط السعودي في كهوف صخرية العام المقبل - الشرق بلومبرغ",
-      "articles": [
-        {
-          "key": "caa0d23bad2630372d2b44e0",
-          "url": "https://news.google.com/rss/articles/CBMigwRBVV95cUxOWHUwcUMwM3dhb3g1a25kWkZDajJUS1VWVGZFRFNwU0Vkdkg3TzFrWTFKcmdxWEx0T2ZMeWlkbFhDdGJHNTExR3JZM1pwZ040czFyRE9iVUFNekFGbm1QVjdwUlNtdnNLOFhhYzd6eUtIY1d0RWZkbGt5Rnl0RlJtTmpFZEVjNVJvMklwN0NqZ2xKYlJmVmFRQlNvc3FwcFhZSkEzZDFYZlgxald5QlhSc1hVcGl5SGZIQVdQZXJ0NTF2dXZBU1VQMDRaZVRLRkxVbXh4WENFVkJFMGRyenRxOWZmMU1seS1wSS00d1pWQXpZbWoxWDVrOU11T282R0laamltX0JKNlNsZkQ2ME5sa0NYTHBFNHNRekdVVTl2MnJFa19YdG9GeDhDOW9INXYxM1dNY1R5aWlyYUVLOFBTQk9JT0F0WDdyMXItSlMxOGk0SkY4UElHYm1yRkRkZG5OeV9sYzZYUEtQRHJfM3BwWVMtX19nd2RTQU1wX0MzZUpjOE9ZdzBvaFdXREZSMU52QVVkUTF5Wmg0V1VOQWs2bWZvZDktWkk4X2ZRelhmU3FxTTRJdFNtQ0tSWVRLR3ZfblFEV2FwXzVJV0lGeTQ4dkZYMFlXU2pDd0hpcnZLc3plOFVHX3pUTnBxdG9FY0U4c2xPa3NIQXNRaG83NkJ2dmU4cw?oc=5",
-          "title": "سنغافورة تستعد لتخزين النفط السعودي في كهوف صخرية العام المقبل - الشرق بلومبرغ",
-          "publisher": "الشرق بلومبرغ",
-          "publisher_url": "https://asharqbusiness.com",
-          "domain": "asharqbusiness.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T03:01:42Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "الشرق بلومبرغ"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "86ec19a183b63b",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "中国油轮在霍尔木兹海峡附近遇袭…美伊冲突后首次 - 朝鮮日報中文版",
-      "articles": [
-        {
-          "key": "7780a4a95f16fc5319d3b0e9",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNm42QS1Sa21QdE9pUWRSN1NJdmI3TXQzRjhJVHpBSTR1TmtJdGU3Q1lTTU9fOXl5MUVVRHFxZVQyazRRNEFTQ3M1MENiZ2tkd1JJaXlCY2ZxX25aWEcwd0ZnZjF4ajhYYldIVEdtTnpFNk9TV3N4SWU3YlVMWHloMEZuSVJQSUg5eTQ1RTVQcEtObTNYX3BHaWVlQjJwRk5w?oc=5",
-          "title": "中国油轮在霍尔木兹海峡附近遇袭…美伊冲突后首次 - 朝鮮日報中文版",
-          "publisher": "朝鮮日報中文版",
-          "publisher_url": "https://cnnews.chosun.com",
-          "domain": "cnnews.chosun.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T03:01:16Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "朝鮮日報中文版"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "d45411ab210884",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "霍尔木兹海峡超级油轮触雷！ICE布油冲击110美元，中国海油大涨超4%，油气ETF汇添富(159309)标的指数涨近2%！原油市场热潮再起 - 新浪财经",
-      "articles": [
-        {
-          "key": "ec5309281f2c3d2d46424378",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9HTWZmWmRaZlFleHFaZnV3anFxcGF2SUdqRC0yYUZibXBmSmFnYmdPNk10VnhtOTBzaHRMN2l1SFZtWUJuT0ZZOHl6Uy1mV0NVcTdLbFBNNUV6TXIwOVdreDFlVmFjR0VwbTdIVENZRVlLcUZqM1lhTg?oc=5",
-          "title": "霍尔木兹海峡超级油轮触雷！ICE布油冲击110美元，中国海油大涨超4%，油气ETF汇添富(159309)标的指数涨近2%！原油市场热潮再起 - 新浪财经",
-          "publisher": "新浪财经",
-          "publisher_url": "https://finance.sina.com.cn",
-          "domain": "finance.sina.com.cn",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T02:58:43Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "新浪财经"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "f77cef939f0865",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "霍尔木兹之后曼德海峡再告急，两大全球能源命脉遭遇连环锁 - 财联社",
-      "articles": [
-        {
-          "key": "d857fff1ab308ea2a7a32164",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ZbDdnRkxvbHpTOEFFVHE1VUoyUnp4Rk9mWkJ2RXlYRzhTWndaRGxadXBVc0xpM0pxY2p2MDBJcFJKYUN6RE1fTA?oc=5",
-          "title": "霍尔木兹之后曼德海峡再告急，两大全球能源命脉遭遇连环锁 - 财联社",
-          "publisher": "财联社",
-          "publisher_url": "https://www.cls.cn",
-          "domain": "www.cls.cn",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T02:53:33Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "财联社"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "9312bbc8170865",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "美国表示，已通过霍尔木兹海峡促进了超过15亿桶石油的出口。 - Vietnam.vn",
-      "articles": [
-        {
-          "key": "78429f014e59fd8e34e2349a",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWjlINGhlc1QwWmZlRmdSdGRvQ1RNbEdXZ0xqRGp1TlZETlpwT0VNZFZKV09VdW1pRVQycHJnU0ZNdnlOMWg4NGp2d0ViT0VMOTZfTzVfRVlHcGdaa09IRkR3ZUZrWVNkT1Myb01pcS0zcW1zb190ZGdpejlTN2xWanJMWnpKYURMQlRoRVpGYmN3dUttb2FRQjNxcU9iNmg2Z1E?oc=5",
-          "title": "美国表示，已通过霍尔木兹海峡促进了超过15亿桶石油的出口。 - Vietnam.vn",
-          "publisher": "Vietnam.vn",
-          "publisher_url": "https://www.vietnam.vn",
-          "domain": "www.vietnam.vn",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T02:38:33Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "vietnam.vn"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "c2fd8f0e4132d5",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - Aaj English TV",
-      "articles": [
-        {
-          "key": "0142ec84e4e1a71cd86ff2ca",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZNkROUDZZakFua2JTVEc2RGFYTXA3U1o4aXdIZDdKQmJRWkpKNlB5b01RUnpUREQyelZVNnlCSmZhTTFzUGc2aVdndGdhQQ?oc=5",
-          "title": "Iran has detailed plans to hit Gulf undersea cables if war resumes, officials say - Aaj English TV",
-          "publisher": "Aaj English TV",
-          "publisher_url": "https://english.aaj.tv",
-          "domain": "english.aaj.tv",
-          "first_seen": "2026-10-27T12:03:59.647856Z",
-          "published_at": "2026-10-26T02:35:47Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military"
-          ],
-          "topic": [
-            "Militair & veiligheid"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "aaj english tv"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid"
-      ],
-      "key": "3a70a5d42c57d9",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "On Iran war, Trump weighs two options: 'make a deal' or 'finish it off' - The Economic Times",
-      "articles": [
-        {
-          "key": "abce1b647efd795c306cfa40",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYmxMNnlRdno3bHBUU3RHUkJGdWJSWlA4Z19MRnNoUEJlSVZXSmtUY2lXNGRWTldhVHBzWWVGaWE4aks1ZjBvczZsT3ZqUmhKeThKSHdvejJyMmd3NkFRd3NCNE9DR3d6OV9hYXN1N0w0akxMR2ZVY19VNFlrclV3RU5kZzZLYS1rbmFkVTdVdkd6OVdhX04wZjY0el9zN21mUWpwX19OTjlYN3ZoeFEyNlpHVmV3NlV2MnlvN3d6ZFdJNWJIa1pTX3hVV2zSAdIBQVVfeXFMTjhzc3pTRmNFZ001UXVIaHlsaFpkdTkxcmg0c2xaRVFiWUhQSEFJQjJ6UkJVU2g4dzNzOGdhSlZaREJvVjZhb3RGazNvMUtVcXhCWUZ2WTVtbzV0cFN1ejFBVk9uaGY4bWt5ZTZ6ZnY3SXJ6Q3U5NkxVZWJVdkV2ekFnQzZpLXlWNDExcm4ydDZkSzFRU2JmZW9mb3Mzdll2VHVRekl5QjBqTTg1bjJ2cW5zTk1vMnFLM2xySGVZdElNd19QN3hoRHFvNUROcnE1N19n?oc=5",
-          "title": "On Iran war, Trump weighs two options: 'make a deal' or 'finish it off' - The Economic Times",
-          "publisher": "The Economic Times",
-          "publisher_url": "https://m.economictimes.com",
-          "domain": "m.economictimes.com",
-          "first_seen": "2026-10-27T06:55:48.810048Z",
-          "published_at": "2026-10-26T01:50:20Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military"
-          ],
-          "topic": [
-            "Militair & veiligheid"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "the economic times"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid"
-      ],
-      "key": "fca59c0ff25911",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "世界新闻 10 月 26 日：泽连斯基确认三方会晤；美国帮助通过霍尔木兹海峡运输 15 亿桶石油。 - Vietnam.vn",
-      "articles": [
-        {
-          "key": "a4b34c008ece76011dabce98",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT2x0Sjl0dGYwRFRMX0UxMVctR0djNHRPNFdmLTJWWC00Y3dXS0lXWGxIWi1NeFFfQ0FIckZHTHU5Vnc2VlFDUHp5NkhnbU55ZEpBd3ZEenMxZzFEZU1SYzdiNWh3SkZ3WW5jS3BWR0xCMHFHRGtpVHJidjh0ZEdaYXBiNE5TV0UzWFJCRFprbHVjX0MtcDlTMjlBT29oRnNCQkJDbWE2TkUxRU5GN2w4amIwOVV2OGhHSHJOaWJUVmw?oc=5",
-          "title": "世界新闻 10 月 26 日：泽连斯基确认三方会晤；美国帮助通过霍尔木兹海峡运输 15 亿桶石油。 - Vietnam.vn",
-          "publisher": "Vietnam.vn",
-          "publisher_url": "https://www.vietnam.vn",
-          "domain": "www.vietnam.vn",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T01:24:51Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "vietnam.vn"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "21b152ca064a9f",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Charter flights set to return stranded Americans as travelers scramble amid Iran war, State Dept. says - ABC News - Breaking News, Latest News and Videos",
-      "articles": [
-        {
-          "key": "0757f46a5756e4652e68cf49",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVkZpX2xlcC1KUHpTMTFIUHZfT0V3YVhvYXZwWVViX0JScVlTbmg2RUpuZlhuZHVMcG14M0VMWnNRQTlYV3JjTDdWTG00NE1MOUxMTUZ4SjFiNGRGcW5qaXhNTFF3V1hBem55U1ZDdVIwZ1VOTW14YUIyMS1rOVNwQzQzQXFtTFNWX1JRbXh0bFJtQ1BRVW54YWY1VU91LS15UUhOMzhwajh6QdIBrwFBVV95cUxQNmNNbDhjYUtIVU1VbzhNT3VIdFRaODNRdGFyR0tOSDMtUWh3cVpLQ1lSc3FVbUR3NzV2bkpYdEdFTjl2VTVHQ00xVzI5TFBlVDFuS2dZdWxnVUxKUkYta2RqejdxX2YyaEJCY2JPR08zOWVYSzdscUdUaGM3b0U1akJqMUJpWE0wc1c5UzRpdUtQeC1GZzNvdVp0bTVzWkk3U3M3alN1SFV3NEtQclRr?oc=5",
-          "title": "Charter flights set to return stranded Americans as travelers scramble amid Iran war, State Dept. says - ABC News - Breaking News, Latest News and Videos",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "publisher_url": "https://abcnews.com",
-          "domain": "abcnews.com",
-          "first_seen": "2026-10-27T06:55:48.810048Z",
-          "published_at": "2026-10-26T00:58:40Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "government"
-          ],
-          "topic": [
-            "Overheden & crisismaatregelen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "abc news - breaking news, latest news and videos"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Overheden & crisismaatregelen"
-      ],
-      "key": "deba53a80326dd",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "美国称助海湾国家经霍峡出口15亿桶石油 - 马来西亚东方日报",
-      "articles": [
-        {
-          "key": "adc5256004cdc18964833b9d",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SWkdidndMNm85c21kSXd4VE1Db1ZIZDhweG5vc1Y3TndrUUxCNFRtVi1pTTJtem9BTHlhSWNmaWpNbndZTlppZnBWQ0cxRHYxZVltRW4wZjRMSkgxclJfZl9Vd241NGVLQklzUEdvLVhUVWU2NUdmcg?oc=5",
-          "title": "美国称助海湾国家经霍峡出口15亿桶石油 - 马来西亚东方日报",
-          "publisher": "马来西亚东方日报",
-          "publisher_url": "https://www.orientaldaily.com.my",
-          "domain": "www.orientaldaily.com.my",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T00:41:00Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "马来西亚东方日报"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "330035dba2aab4",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
       "title": "Russia, Ukraine begin localised ceasefire to allow for humanitarian operation in Oleshky - Business Recorder",
       "articles": [
         {
@@ -18961,6 +18146,67 @@
       "review_order": 10
     },
     {
+      "title": "Sensex falls over 300 points , Nifty slips below 22 , 690 as crude prices hover near USD 115",
+      "articles": [
+        {
+          "key": "00633d8b9c19488ed6237cfc",
+          "url": "http://www.myanmarnews.net/news/279399205/sensex-falls-over-300-points-nifty-slips-below-22690-as-crude-prices-hover-near-usd-115",
+          "title": "Sensex falls over 300 points , Nifty slips below 22 , 690 as crude prices hover near USD 115",
+          "publisher": "myanmarnews.net",
+          "publisher_url": "",
+          "domain": "myanmarnews.net",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "Myanmar",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        },
+        {
+          "key": "16c2db6cc0c8ccf1e892dc19",
+          "url": "http://www.milwaukeesun.com/news/279399205/sensex-falls-over-300-points-nifty-slips-below-22690-as-crude-prices-hover-near-usd-115",
+          "title": "Sensex falls over 300 points , Nifty slips below 22 , 690 as crude prices hover near USD 115",
+          "publisher": "milwaukeesun.com",
+          "publisher_url": "",
+          "domain": "milwaukeesun.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "United States",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "milwaukeesun.com",
+        "myanmarnews.net"
+      ],
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "d61e805c09c2a4",
+      "review_status": "unverified_story_candidate",
+      "review_order": 1
+    },
+    {
       "title": "Halloween Candy Sales Dip Amid Economic Challenges",
       "articles": [
         {
@@ -19018,67 +18264,6 @@
         "Brede GDELT-detectie"
       ],
       "key": "553501c3146b45",
-      "review_status": "unverified_story_candidate",
-      "review_order": 1
-    },
-    {
-      "title": "France's debt woes in focus as ECB meets - Hürriyet Daily News",
-      "articles": [
-        {
-          "key": "8f100cc39873290ae45cee3c",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcHgzbzlneGZ6TktCbWVwOVRHYXFhejhaQ1Q2LXRTaXVrWk5XMUl3OGRlYm5kTnQ0djFOeEVVbjJ1d0RlX1VESC15ZkpZdE00WEZMTjM4QXlTX01LUHZNbXJjSmNSaTg5OTVmWlpVQXNEeEotV05ZbzluVDlfbzlXV3VRaGR1RXk2QTJTNg?oc=5",
-          "title": "France's debt woes in focus as ECB meets - Hürriyet Daily News",
-          "publisher": "Hürriyet Daily News",
-          "publisher_url": "https://www.hurriyetdailynews.com",
-          "domain": "www.hurriyetdailynews.com",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-26T03:05:02Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "economy"
-          ],
-          "topic": [
-            "Economie & samenleving"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "39c7a490a48a65da85f2bbb1",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03eThJWVZna2hqWVFhX081OHptZlBBVjNER1lBQTlDYkRRM2g2dVZQUjB3SU1SVXhqSmg2bkd2dm9xQ2ZNVnVYc3AtZ2tyLVJm?oc=5",
-          "title": "France's debt woes in focus as ECB meets - Bangladesh Sangbad Sangstha (BSS)",
-          "publisher": "Bangladesh Sangbad Sangstha (BSS)",
-          "publisher_url": "https://www.bssnews.net",
-          "domain": "www.bssnews.net",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T02:33:06Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "economy"
-          ],
-          "topic": [
-            "Economie & samenleving"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Geen duidelijk criseslement in de kop",
-      "publishers": [
-        "bangladesh sangbad sangstha (bss)",
-        "hürriyet daily news"
-      ],
-      "article_count": 2,
-      "source_count": 2,
-      "categories": [
-        "Economie & samenleving"
-      ],
-      "key": "a8dbcc5f29a957",
       "review_status": "unverified_story_candidate",
       "review_order": 1
     },
@@ -19999,6 +19184,1086 @@
         "Brede GDELT-detectie"
       ],
       "key": "f83b902f1d676d",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Asian Markets Trade Mixed",
+      "articles": [
+        {
+          "key": "57222c9545ad325cc2dad725",
+          "url": "https://www.rttnews.com/3703088/asian-markets-trade-mixed.aspx",
+          "title": "Asian Markets Trade Mixed",
+          "publisher": "rttnews.com",
+          "publisher_url": "",
+          "domain": "rttnews.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "United States",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "rttnews.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "90748cdab8b37b",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "전쟁 · 관세 청구서 받아든 유권자 ... 트럼프 외교 심판대 올라 [ 11 · 3 중간선거 … 미국의 선택은 ]( 3 )",
+      "articles": [
+        {
+          "key": "e57abe34afc09aacc9d0e6ed",
+          "url": "https://www.fnnews.com/news/202610241838147461",
+          "title": "전쟁 · 관세 청구서 받아든 유권자 ... 트럼프 외교 심판대 올라 [ 11 · 3 중간선거 … 미국의 선택은 ]( 3 )",
+          "publisher": "fnnews.com",
+          "publisher_url": "",
+          "domain": "fnnews.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Korean",
+          "sourcecountry": "South Korea",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "fnnews.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "7bef270f6c83cb",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "US consumer sentiment near record low as inflation fears persist",
+      "articles": [
+        {
+          "key": "8bfbe652f0d2e559c23b6375",
+          "url": "http://www.myanmarnews.net/news/279395118/us-consumer-sentiment-near-record-low-as-inflation-fears-persist",
+          "title": "US consumer sentiment near record low as inflation fears persist",
+          "publisher": "myanmarnews.net",
+          "publisher_url": "",
+          "domain": "myanmarnews.net",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "Myanmar",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "myanmarnews.net"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "7e232da50e68ce",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "La izquierda se aferra a la victoria de Lula para pelear por otra remontada",
+      "articles": [
+        {
+          "key": "514cde410e55ba6b1bd6e048",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-27/la-izquierda-se-aferra-a-la-victoria-de-lula-para-pelear-por-otra-remontada.html",
+          "title": "La izquierda se aferra a la victoria de Lula para pelear por otra remontada",
+          "publisher": "elpais.com",
+          "publisher_url": "",
+          "domain": "elpais.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Spanish",
+          "sourcecountry": "Spain",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "elpais.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "1e1c6b426711ff",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Ισραήλ : Στις κάλπες 7 , 3 εκατ . πολίτες για τις πρώτες βουλευτικές εκλογές μετά την επίθεση της Χαμάς",
+      "articles": [
+        {
+          "key": "29a7cb41f8537bbfe8878ed6",
+          "url": "https://www.madata.gr/epikairotita/politics/990130-israil-stis-kalpes-7-3-ekat-polites-gia-tis-protes-voyleytikes-ekloges-meta-tin-epithesi-tis-chamas.html",
+          "title": "Ισραήλ : Στις κάλπες 7 , 3 εκατ . πολίτες για τις πρώτες βουλευτικές εκλογές μετά την επίθεση της Χαμάς",
+          "publisher": "madata.gr",
+          "publisher_url": "",
+          "domain": "madata.gr",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Greek",
+          "sourcecountry": "Greece",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "madata.gr"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "3433eacdfb5bf2",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Jaime Martínez Porro , dirigente de Die Linke :  Sin la calle , la izquierda nunca gana . No podemos fiarlo todo al BOE  | Internacional",
+      "articles": [
+        {
+          "key": "0b5d6e0b263acf52224a896f",
+          "url": "https://elpais.com/internacional/2026-10-27/jaime-martinez-porro-dirigente-de-die-linke-sin-la-calle-la-izquierda-nunca-gana-no-podemos-fiarlo-todo-al-boe.html",
+          "title": "Jaime Martínez Porro , dirigente de Die Linke :  Sin la calle , la izquierda nunca gana . No podemos fiarlo todo al BOE  | Internacional",
+          "publisher": "elpais.com",
+          "publisher_url": "",
+          "domain": "elpais.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Spanish",
+          "sourcecountry": "Spain",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "elpais.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "1a8a02042d5dee",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Gold Silver Price Fall Update 27 October 2026 ; एवढी डिमांड असूनही सोने दरात घसरणीचा ट्रेंड , चांदीची किंमत धडामl ; धनत्रयोदशी - दिवाळीपूर्वी ग्राहकांमध्ये आनंदी आनंद !",
+      "articles": [
+        {
+          "key": "697ad2ad84e34a848f0662dc",
+          "url": "https://maharashtratimes.com/business/business-news/gold-prices-downward-trend-continues-silver-rates-plummet-brings-great-cheers-to-customers-ahead-of-diwali/articleshow/135223682.cms",
+          "title": "Gold Silver Price Fall Update 27 October 2026 ; एवढी डिमांड असूनही सोने दरात घसरणीचा ट्रेंड , चांदीची किंमत धडामl ; धनत्रयोदशी - दिवाळीपूर्वी ग्राहकांमध्ये आनंदी आनंद !",
+          "publisher": "maharashtratimes.com",
+          "publisher_url": "",
+          "domain": "maharashtratimes.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Marathi",
+          "sourcecountry": "India",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "maharashtratimes.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "664d9aa9ad7de7",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Εκλογές στο Ισραήλ : Τι διακυβεύεται στις κάλπες και πότε αναμένονται τα πρώτα αποτελέσματα – Ποιοι οι αντίπαλοι Νετανιάχου",
+      "articles": [
+        {
+          "key": "8d3029c46a07e483e1a5abb0",
+          "url": "https://www.inewsgr.com/27/ekloges-sto-israil-ti-diakyvevetai-stis-kalpes-kai-pote-anamenontai-ta-prota-apotelesmata--poioi-oi-antipaloi-netaniachou.htm",
+          "title": "Εκλογές στο Ισραήλ : Τι διακυβεύεται στις κάλπες και πότε αναμένονται τα πρώτα αποτελέσματα – Ποιοι οι αντίπαλοι Νετανιάχου",
+          "publisher": "inewsgr.com",
+          "publisher_url": "",
+          "domain": "inewsgr.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Greek",
+          "sourcecountry": "Greece",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "inewsgr.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "9eb813b79c7882",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Trump campaigns in Mississippi",
+      "articles": [
+        {
+          "key": "582a8901325fe612ec263ade",
+          "url": "https://www.gulfcoastnewsnow.com/article/trump-campaigns-mississippi-midterms/74254270",
+          "title": "Trump campaigns in Mississippi",
+          "publisher": "gulfcoastnewsnow.com",
+          "publisher_url": "",
+          "domain": "gulfcoastnewsnow.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "gulfcoastnewsnow.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "10a74e5772a6fb",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "US consumer sentiment stays near record low in October",
+      "articles": [
+        {
+          "key": "4a79bbd55d863fb83c39b461",
+          "url": "http://www.milwaukeesun.com/news/279395118/us-consumer-sentiment-stays-near-record-low-in-october",
+          "title": "US consumer sentiment stays near record low in October",
+          "publisher": "milwaukeesun.com",
+          "publisher_url": "",
+          "domain": "milwaukeesun.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "United States",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "milwaukeesun.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "7dacb0d5c95b67",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Mekke ve Bedr İttifakı  nda müthiş genişleme hamleleri - Günlük Yazarlar Haberleri",
+      "articles": [
+        {
+          "key": "b42bb13c642316a8141db675",
+          "url": "https://www.yeniasir.com.tr/yazarlar/bulent-erandac/2026/10/27/mekke-ve-bedr-ittifakinda-muthis-genisleme-hamleleri",
+          "title": "Mekke ve Bedr İttifakı  nda müthiş genişleme hamleleri - Günlük Yazarlar Haberleri",
+          "publisher": "yeniasir.com.tr",
+          "publisher_url": "",
+          "domain": "yeniasir.com.tr",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Turkish",
+          "sourcecountry": "Turkey",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "yeniasir.com.tr"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "9ca90ea3f06f01",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Ισραήλ : Η ώρα της κρίσης για τον Νετανιάχου – Στις κάλπες 7 , 3 εκατ . ψηφοφόροι",
+      "articles": [
+        {
+          "key": "e34e3f43f2d9e1ec25a5b0b9",
+          "url": "https://www.politis.com.cy/politis-news/kosmos/1058537/israil-h-wra-tis-krisis-ghia-ton-netaniakhoy-stis-kalpes-73-ekat-psifoforoi",
+          "title": "Ισραήλ : Η ώρα της κρίσης για τον Νετανιάχου – Στις κάλπες 7 , 3 εκατ . ψηφοφόροι",
+          "publisher": "politis.com.cy",
+          "publisher_url": "",
+          "domain": "politis.com.cy",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Greek",
+          "sourcecountry": "Cyprus",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "politis.com.cy"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "ae9ce1afd45c0a",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Εκλογές στο Ισραήλ : Στις κάλπες 7 , 3 εκατομμύρια ψηφοφόροι",
+      "articles": [
+        {
+          "key": "55424135ce772901515dc14f",
+          "url": "https://www.madata.gr/epikairotita/politics/990122-ekloges-sto-israil-stis-kalpes-7-3-ekatommyria-psifoforoi.html",
+          "title": "Εκλογές στο Ισραήλ : Στις κάλπες 7 , 3 εκατομμύρια ψηφοφόροι",
+          "publisher": "madata.gr",
+          "publisher_url": "",
+          "domain": "madata.gr",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Greek",
+          "sourcecountry": "Greece",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "madata.gr"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "eee5c0eb16289a",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Turbo VPN Expands Global Desktop Network with 42 New Server Locations",
+      "articles": [
+        {
+          "key": "5c0eaa0ab36606333a9c0779",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69941548-turbo-vpn-expands-global-desktop-network-with-42-new-server-locations-008.htm",
+          "title": "Turbo VPN Expands Global Desktop Network with 42 New Server Locations",
+          "publisher": "finanznachrichten.de",
+          "publisher_url": "",
+          "domain": "finanznachrichten.de",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "Germany",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "finanznachrichten.de"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "89c2056ef120b0",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "중국 9월 공업이익 14 . 4 % 폭증 … 내수 침체 속  첨단 제조업  홀로 독주",
+      "articles": [
+        {
+          "key": "9e472313db6757af5ea382e9",
+          "url": "https://www.fnnews.com/news/202610271220538112",
+          "title": "중국 9월 공업이익 14 . 4 % 폭증 … 내수 침체 속  첨단 제조업  홀로 독주",
+          "publisher": "fnnews.com",
+          "publisher_url": "",
+          "domain": "fnnews.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Korean",
+          "sourcecountry": "South Korea",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "fnnews.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "f8df9ebd4e2b17",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "The Anti - Bibi Candidate who Has Netanyahu on His Heels",
+      "articles": [
+        {
+          "key": "258db9bbdb4720200c4d4093",
+          "url": "https://drudge.com/news/295181/anti-bibi-candidate-has-netanyahu",
+          "title": "The Anti - Bibi Candidate who Has Netanyahu on His Heels",
+          "publisher": "drudge.com",
+          "publisher_url": "",
+          "domain": "drudge.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "United States",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "drudge.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "197a64315b0170",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "פרשנות | חרב מונחת על צווארו של נתניהו , והיא יכולה לשמש את איזנקוט - בחירות 2026",
+      "articles": [
+        {
+          "key": "9e4ae1477e1dee41f4fad513",
+          "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article/.premium/000001a1-79b9-d682-a7af-79bf4a6e0000",
+          "title": "פרשנות | חרב מונחת על צווארו של נתניהו , והיא יכולה לשמש את איזנקוט - בחירות 2026",
+          "publisher": "haaretz.co.il",
+          "publisher_url": "",
+          "domain": "haaretz.co.il",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Hebrew",
+          "sourcecountry": "Israel",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "haaretz.co.il"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "9ac4b721b5d20c",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Посол Ирана в Москве назвал природный газ осью энергетической стабильности :: Новости дня / ВЗГЛЯД",
+      "articles": [
+        {
+          "key": "b4115ca9286c9a14b4e968b1",
+          "url": "https://vz.ru/news/2026/10/27/1468272.html",
+          "title": "Посол Ирана в Москве назвал природный газ осью энергетической стабильности :: Новости дня / ВЗГЛЯД",
+          "publisher": "vz.ru",
+          "publisher_url": "",
+          "domain": "vz.ru",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Russian",
+          "sourcecountry": "Russia",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "vz.ru"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "6a6553644eb2b7",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "IBM Introduces Identity and Control for AI Agents , Securing Frontier Intelligence for the Enterprise",
+      "articles": [
+        {
+          "key": "2901049a2d3f563a822c9a71",
+          "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69941475-ibm-introduces-identity-and-control-for-ai-agents-securing-frontier-intelligence-for-the-enterprise-008.htm",
+          "title": "IBM Introduces Identity and Control for AI Agents , Securing Frontier Intelligence for the Enterprise",
+          "publisher": "finanznachrichten.de",
+          "publisher_url": "",
+          "domain": "finanznachrichten.de",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "Germany",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "finanznachrichten.de"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "17d42dbb545546",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "פרשנות | גם אם יפסיד , נתניהו עלול לסכל את חילופי השלטון . לגוש השינוי אסור להתמהמה - בחירות 2026",
+      "articles": [
+        {
+          "key": "640c471e149bb10bc29f8106",
+          "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article/.highlight/000001a1-792e-dfb9-a5a9-fb2f5bf80000",
+          "title": "פרשנות | גם אם יפסיד , נתניהו עלול לסכל את חילופי השלטון . לגוש השינוי אסור להתמהמה - בחירות 2026",
+          "publisher": "haaretz.co.il",
+          "publisher_url": "",
+          "domain": "haaretz.co.il",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Hebrew",
+          "sourcecountry": "Israel",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "haaretz.co.il"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "794d6b72af027f",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "かすむ米兵21人の死 、 不満はガソリン高騰へ 「 戦争しない 」 はずが [ アメリカ中間選挙 ][ 米 ・ イスラエルのイラン攻撃 イラン情勢 ][ トランプ再来 ]： 朝日新聞",
+      "articles": [
+        {
+          "key": "cbad3f9edb9f4149c999b10d",
+          "url": "https://www.asahi.com/articles/ASVBR5R6BVBRUHBI003M.html",
+          "title": "かすむ米兵21人の死 、 不満はガソリン高騰へ 「 戦争しない 」 はずが [ アメリカ中間選挙 ][ 米 ・ イスラエルのイラン攻撃 イラン情勢 ][ トランプ再来 ]： 朝日新聞",
+          "publisher": "asahi.com",
+          "publisher_url": "",
+          "domain": "asahi.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Japanese",
+          "sourcecountry": "Japan",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "asahi.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "8c0be8f20ced01",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "האזרחים נהרו לקלפיות להעיף את מנהיג הימין לאלף אלפי עזאזל . היום תורנו - דעות",
+      "articles": [
+        {
+          "key": "9619e559107246e4a5772afa",
+          "url": "https://www.haaretz.co.il/opinions/2026-10-27/ty-article-opinion/.highlight/000001a1-7933-dd27-a1ef-fb738e9f0000",
+          "title": "האזרחים נהרו לקלפיות להעיף את מנהיג הימין לאלף אלפי עזאזל . היום תורנו - דעות",
+          "publisher": "haaretz.co.il",
+          "publisher_url": "",
+          "domain": "haaretz.co.il",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Hebrew",
+          "sourcecountry": "Israel",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "haaretz.co.il"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "c4bddaa093c095",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "פרשנות | סוד ההצלחה של נתניהו הוא המלחמה על החיים . כעת גם בגוש השינוי מבינים זאת - בחירות 2026",
+      "articles": [
+        {
+          "key": "97a317983b2fa47b7b815ffa",
+          "url": "https://www.haaretz.co.il/news/elections/2026-10-27/ty-article/.premium/000001a1-79ce-db0e-a7e7-ffcf03120000",
+          "title": "פרשנות | סוד ההצלחה של נתניהו הוא המלחמה על החיים . כעת גם בגוש השינוי מבינים זאת - בחירות 2026",
+          "publisher": "haaretz.co.il",
+          "publisher_url": "",
+          "domain": "haaretz.co.il",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Hebrew",
+          "sourcecountry": "Israel",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "haaretz.co.il"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "b8a86adf68355d",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Indian Shares Marginally Lower In Early Trade ; IT Stocks Underperform",
+      "articles": [
+        {
+          "key": "4b9411b3a943ccc01c966a2a",
+          "url": "https://www.rttnews.com/3703096/indian-shares-marginally-lower-in-early-trade-it-stocks-underperform.aspx",
+          "title": "Indian Shares Marginally Lower In Early Trade ; IT Stocks Underperform",
+          "publisher": "rttnews.com",
+          "publisher_url": "",
+          "domain": "rttnews.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "United States",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "rttnews.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "6a314da63b63ae",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Kutxabank lanza un fondo  tech  de 125 M con Talde Gestión y foco en robótica , chips y aeroespacial",
+      "articles": [
+        {
+          "key": "837268332fbd83a9735784b3",
+          "url": "https://www.elconfidencial.com/mercados/2026-10-27/kutxabank-fondo-tecnologico-talde-robotica-chips-aeroespacial_4453074/",
+          "title": "Kutxabank lanza un fondo  tech  de 125 M con Talde Gestión y foco en robótica , chips y aeroespacial",
+          "publisher": "elconfidencial.com",
+          "publisher_url": "",
+          "domain": "elconfidencial.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Spanish",
+          "sourcecountry": "Spain",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "elconfidencial.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "aa28915dd7031b",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Family of Gilbert toddler plans legal action ; AZ governor candidates make final pitch | Nightly Roundup",
+      "articles": [
+        {
+          "key": "4de9aeeeb8478d5c1a5cdd52",
+          "url": "https://www.fox10phoenix.com/news/family-gilbert-toddler-plans-legal-action-az-governor-candidates-make-final-pitch-nightly-roundup",
+          "title": "Family of Gilbert toddler plans legal action ; AZ governor candidates make final pitch | Nightly Roundup",
+          "publisher": "fox10phoenix.com",
+          "publisher_url": "",
+          "domain": "fox10phoenix.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "English",
+          "sourcecountry": "United States",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "fox10phoenix.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "676d40d0e813a4",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "Ferrovial activa la búsqueda de socio para su campus de centros de datos de 1 . 000 M",
+      "articles": [
+        {
+          "key": "8a9d82264a4832e95167725b",
+          "url": "https://www.elconfidencial.com/empresas/2026-10-27/ferrovial-socio-campus-centros-datos-millones_4453370/",
+          "title": "Ferrovial activa la búsqueda de socio para su campus de centros de datos de 1 . 000 M",
+          "publisher": "elconfidencial.com",
+          "publisher_url": "",
+          "domain": "elconfidencial.com",
+          "first_seen": "2026-10-28T11:40:27.249992Z",
+          "published_at": "2026-10-27T05:15:00Z",
+          "language": "Spanish",
+          "sourcecountry": "Spain",
+          "discovery_profiles": [
+            "gdelt-iran"
+          ],
+          "topic": [
+            "Brede GDELT-detectie"
+          ],
+          "provider": "gdelt_doc2",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "elconfidencial.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Brede GDELT-detectie"
+      ],
+      "key": "ffcd89629f7518",
       "review_status": "unverified_story_candidate",
       "review_order": 0
     },
@@ -22560,186 +22825,6 @@
         "Regionaal: China / Chinees"
       ],
       "key": "9f8a1e932b1b7d",
-      "review_status": "unverified_story_candidate",
-      "review_order": 0
-    },
-    {
-      "title": "为何原油供应增加，油价却降不下来？ - 华尔街见闻",
-      "articles": [
-        {
-          "key": "9db826a58b52710fc94089d5",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5BcW5xUl8zOTN4dTdycWV4d25GQ2R2d2V3LXdVakVGTlZQUTh6ZVE2NmZKSVU5MGdBQkdVQ3l2ek9yZm04NDkyVDdPejAyTFpHUk5r?oc=5",
-          "title": "为何原油供应增加，油价却降不下来？ - 华尔街见闻",
-          "publisher": "华尔街见闻",
-          "publisher_url": "https://wallstreetcn.com",
-          "domain": "wallstreetcn.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T04:12:16Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Geen duidelijk criseslement in de kop",
-      "publishers": [
-        "华尔街见闻"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "272c941a362a98",
-      "review_status": "unverified_story_candidate",
-      "review_order": 0
-    },
-    {
-      "title": "华泰期货：宏观超级周来临，关注价格波动风险 - 新浪财经",
-      "articles": [
-        {
-          "key": "b213ce800dba5f6ff9be502f",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdGlqa2pIQWhxeC1NaldBdGhjejlrd25zbjRuWW9BN21EekhTSWVPSlp3WXVCWXlqR1VzZzUtRm1ReHphVEhsdlp0WmlQalhDWWxjUzBvYmREeHFUREc1Um9BRXM5U3pNRHdzLW9ic05NUHlrTk1VLW1xTkk2RUswc3NVc0NKUHpzNEhsbkJJRldhd0hoVkZCRVFueFgtX29lM1hDWUlqNFJaT3NYbE5za0FUOFIzVU9aQ29oRE1UcWwzZFF2cl9qbUNKdGp6dm8wWGdmYTFWenNKalVpSldGNTJka1I?oc=5",
-          "title": "华泰期货：宏观超级周来临，关注价格波动风险 - 新浪财经",
-          "publisher": "新浪财经",
-          "publisher_url": "https://finance.sina.com.cn",
-          "domain": "finance.sina.com.cn",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-26T01:21:16Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "5377bea5a6b751f4bfe479fc",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPYVc1TmhMZmcydnBLal9XTFQtZjlvcmpHbTJtdlQ2Ykl1SDhabUlaWlh0b3E0MGsxbk05SlRvampCWDdjc0lXejBWcHJ2MzdPdGJVUkF4S1dlWUhOZ1IzYV9DYm5mTURtYW5JRWF1TWpOWXRTaXdCejRnUXhveXhhRU45MjNIMThzSzdBeGIzcGl4TF9IX1NmbkdlelZDeHE5U0VHSG96Skkya3l4d3ZFWl9JZmxqVXVGNzFDVGFCdHpOXzJNX3hMZFdGV0tvYkxPaHlsb29UWTRMYVFIaXVZLUx1Uk4?oc=5",
-          "title": "华泰期货：宏观超级周来临，关注价格波动风险 - 新浪财经",
-          "publisher": "新浪财经",
-          "publisher_url": "https://finance.sina.com.cn",
-          "domain": "finance.sina.com.cn",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-26T01:21:16Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "beeb21efe484315c7968ce09",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQSDQ2ZnRmY0xpVldEOEJwckQtSGlUM0ZkWXFCQ3U4TEJwZUVNUzkxUHpNTEZmYjhhREl3a1AtaGplblFuZnd4bHhQMEI3UHZyLUtHck1GOTdXSGJUSjQ1RW1RaUlDcFlOWUVHcGR6S1Zhem1USDY1VU9tTy1fNFhPTklLYnNUdEJLYTdVRnZJU1drQTlCLXlyaDhHeDdGak0xbnlhdEc5VkVlaHh5RTdoWjFWSHZWeXQyS2tDaGotVkZqQ3BDTkpMbkhzTnRIXzFveVIxbjVFVktDam8zRmpCM1ZR?oc=5",
-          "title": "华泰期货：宏观超级周来临，关注价格波动风险 - 新浪财经",
-          "publisher": "新浪财经",
-          "publisher_url": "https://finance.sina.com.cn",
-          "domain": "finance.sina.com.cn",
-          "first_seen": "2026-10-27T06:55:48.810048Z",
-          "published_at": "2026-10-26T01:21:16Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "3c71b1db05c19c2f6f3567e7",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSk1CRUlnNWZfS1NBNU5DN1dJVVJXekhsV2ZJYWV2QlM0aVRwWjhFS0lPcENkYXZibUlLS2Vmc0FFM2RObjFCS0lKT1dqQ1R0cU44c2ltX3FCWkR0RmI4cC1pdGlBTnV4N1BIN3JaVUd5QjdSOTRfSFZfcjh5dmphbnktQXNxcGdxcS1tdUc5Vko5UTF3Yzhwb1RmazFzUkFKWTRtTE1RNkJpM2JILWkyQnZNN1NaSV9wb3Q2d2JDLVhaLTg2ZzZ5Q0t3T0tmMk1mTFRxaFA2SzN2RFFBanMzWUN1Z0E?oc=5",
-          "title": "华泰期货：宏观超级周来临，关注价格波动风险 - 新浪财经",
-          "publisher": "新浪财经",
-          "publisher_url": "https://finance.sina.com.cn",
-          "domain": "finance.sina.com.cn",
-          "first_seen": "2026-10-27T07:44:28.709217Z",
-          "published_at": "2026-10-26T01:21:16Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "d58f9d800d933313f9b2e7b6",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdFFYOU5WQkdnWG9HdnBjRzR6aXpHaHFtVzh6VTljUWxsSGZSVVl0YUNxMEEyV1J6dkVFbTdhMUZxSUZYZmdyY085OXg2SllMbzVvRUJ1NnVFbXdrbDczSzNROENyM0RjR2VVMjd0ZWdsb2F3WmJ4V01hX2t5X1RHUGhsY3NCYTlYX2k3cWlrWGFaUGVWYUN3cGVXMzZfelB2OS1Rb1RNbG1ZUld5LTVfaURfYzhmUWcyMFdpOUhySEdoelRnamgwNXByUWI4ZzdTcnFybjl3WU1CY0wtdldYdkE2enc?oc=5",
-          "title": "华泰期货：宏观超级周来临，关注价格波动风险 - 新浪财经",
-          "publisher": "新浪财经",
-          "publisher_url": "https://finance.sina.com.cn",
-          "domain": "finance.sina.com.cn",
-          "first_seen": "2026-10-27T09:18:36.217250Z",
-          "published_at": "2026-10-26T01:21:16Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "91a4a72aece91c3e5f80941c",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSldObWRvNi04TkpmS0ExVHV5SlZhd0ZXTVR0N01ZT3JqVnVPdDhkMnRPMFE5Sy1EU0Iyd3k2YXM2bUJsZzdvWUZGTG9uMkZMRm5ZX044cVMyUHU4UEhwRzBVYlY0Y3RpeWM0b0t2MmNWck9JOGVzYWdnVWxlRWotdGtsU3BTRWxZTVpuSXhmY3F5LXFrTEsyMzVkMjdMZkgtNHFDODgwUWVZOXBVVmZXQmxCQ0pSQzlxMm1mbVJCTEZZS0hmY25HR3NOOGJZajRpcXhtQkoxWVJISjhES3QzVkxNVng?oc=5",
-          "title": "华泰期货：宏观超级周来临，关注价格波动风险 - 新浪财经",
-          "publisher": "新浪财经",
-          "publisher_url": "https://finance.sina.com.cn",
-          "domain": "finance.sina.com.cn",
-          "first_seen": "2026-10-27T11:30:46.797968Z",
-          "published_at": "2026-10-26T01:21:16Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-26",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Geen duidelijk criseslement in de kop",
-      "publishers": [
-        "新浪财经"
-      ],
-      "article_count": 6,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "8576a2fd19c770",
       "review_status": "unverified_story_candidate",
       "review_order": 0
     }
