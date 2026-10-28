@@ -32,6 +32,35 @@ class TestSourceSafety(unittest.TestCase):
             with self.assertRaises(ValueError):
                 cv.extract_official_document("https://www.centcom.mil/test","Iran launches missile strikes")
 
+class TestOfficialSourceDiscovery(unittest.TestCase):
+    def test_govuk_search_api_returns_only_official_document_links(self):
+        payload={"results":[
+            {"title":"British government statement on Iran missile attacks",
+             "link":"/government/news/iran-missile-statement","public_timestamp":"2026-10-28T07:00:00Z"},
+            {"title":"Spoofed government report",
+             "link":"https://gov.uk.attacker.org/misleading-report"},
+            {"title":"Another official statement","link":"/government/news/another-statement"}]}
+        with patch.object(cv,"fetch_bytes",return_value=(json.dumps(payload).encode(),"application/json")):
+            links=cv.govuk_official_search("Iran missile attacks")
+        self.assertEqual(len(links),2)
+        self.assertEqual(links[0]["origin"],"govuk_official_search")
+        self.assertTrue(all(link["url"].startswith("https://www.gov.uk/") for link in links))
+    def test_issuer_search_limited_and_targeted(self):
+        oil=cv.targeted_search_queries({"headline_claims":["Oil price tanker collision in Hormuz"]})
+        evacuate=cv.targeted_search_queries({"headline_claims":["Embassy evacuation in Kuwait"]})
+        self.assertEqual(len(oil),3)
+        self.assertTrue(any("imo.org" in x for x in oil))
+        self.assertTrue(any("mofa.gov.ae" in x for x in evacuate))
+    def test_search_provider_failure_is_not_false_news(self):
+        item={"headline_claims":["Oil tanker attacked near Hormuz"]}
+        primary={"sources":[]}
+        with patch.object(cv,"govuk_official_search",side_effect=TimeoutError("down")), \
+             patch.object(cv,"bing_rss_search",side_effect=TimeoutError("down")):
+            output=cv.discover_documents(item,primary)
+        self.assertEqual(output["search_status"],"unavailable")
+        self.assertEqual(output["official_documents_fetched"],0)
+        self.assertTrue(output["errors"])
+
 class TestEvidence(unittest.TestCase):
     def sample(self):
         return [{"event_id":"x","claim":"Iran launches missile strikes",
