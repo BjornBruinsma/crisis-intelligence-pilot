@@ -29,6 +29,7 @@ def main():
     events=read(DATA/"event_candidates.json",{"events":[]})
     sources=read(DATA/"primary_sources.json",{"sources":[]})
     source_status=read(DATA/"fetch_status.json",{})
+    claim_research=read(DATA/"claim_research.json",{"records":{}})
     articles=feed.get("articles") or []
     groups=queue.get("groups") or []
     selected=selection.get("candidates") or []
@@ -54,6 +55,12 @@ def main():
     if failed:issues.append("Officiële bronnen onvolledig: "+", ".join(map(str,failed)))
     match_verified=sum(x.get("verified_event") is True for x in output)
     if match_verified:issues.append("VEILIGHEIDSFOUT: kandidaat ten onrechte als bevestigd gemarkeerd")
+    claim_records=claim_research.get("records") or {}
+    active_claim_evidence=[claim_records.get(x.get("id")) for x in output if x.get("id") in claim_records]
+    statement_count=sum(any(m.get("relation")=="direct_statement" for m in r.get("official_matches") or [])
+                        for r in active_claim_evidence if r)
+    conflicting_count=sum(any(m.get("relation")=="conflicting_statement" for m in r.get("official_matches") or [])
+                         for r in active_claim_evidence if r)
     model_metric=events.get("clustering_metrics") or {}
     report={
       "generated_at_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
@@ -76,6 +83,10 @@ def main():
         "official_exact_passage_matches":len(matched),
         "potential_direct_support_matches":len(direct),
         "potential_contradictions":len(contradiction),
+        "claim_research_checked_active":len(active_claim_evidence),
+        "claim_research_status":claim_research.get("status"),
+        "original_document_statements_located":statement_count,
+        "original_document_conflicting_statements":conflicting_count,
         "verified_events":0,
         "clustering_method":events.get("clustering_method") or "unknown",
         "proposed_merge_pairs":model_metric.get("model_pair_proposals"),
@@ -117,6 +128,9 @@ def main():
       ("Door tweede AI-controle goedgekeurd",t["auditor_approved_pairs"] if t["auditor_approved_pairs"] is not None else "Niet beschikbaar"),
       ("Door harde contradictieregels geblokkeerd",t["rule_rejected_pairs"] if t["rule_rejected_pairs"] is not None else "Niet beschikbaar"),
       ("Bereikbare officiële bronnen",f"{t['official_sources_accessible']}/{t['official_sources_checked']}"),
+      ("Claims met specifieke primaire documentcontrole",t["claim_research_checked_active"]),
+      ("Ondersteunende officiële verklaringen gevonden",t["original_document_statements_located"]),
+      ("Tegenstrijdige officiële verklaringen gevonden",t["original_document_conflicting_statements"]),
       ("Letterlijke officiële tekstmatches",t["official_exact_passage_matches"]),
       ("Mogelijk direct ondersteunende passages",t["potential_direct_support_matches"]),
     ]
