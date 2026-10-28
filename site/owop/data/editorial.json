@@ -1,10 +1,1550 @@
 {
-  "generated_at": "2026-10-27T12:59:15.779601Z",
-  "model": "gpt-6-luna",
-  "ai_configured": false,
+  "generated_at": "2026-10-28T08:58:09.674700Z",
+  "model": "gpt-4o-mini",
+  "ai_configured": true,
   "candidate_groups": 80,
-  "message": "Set OPENAI_API_KEY GitHub secret to enable AI editorial review.",
-  "stories": [],
-  "reserves": [],
-  "rejected": []
+  "published_count": 15,
+  "reserve_count": 1,
+  "rejected_count": 0,
+  "stories": [
+    {
+      "id": "4ca93b696e10c1",
+      "score": 90,
+      "decision": "publish",
+      "category": "Health",
+      "country": "Global",
+      "headline_en": "Doctors saved a newborn with a rare brain vessel condition.",
+      "summary_en": "Medical professionals successfully treated a newborn with a rare condition.",
+      "why_good": "Doctors saved a newborn with a rare condition.",
+      "confidence": "high",
+      "editor_note": "Showcases significant healthcare achievement.",
+      "source_count": 2,
+      "sources": [
+        {
+          "publisher": "Вечерние ведомости",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd3NNaklKU0JreDRCbnpxOTdOQmJ6V2JWcXpPZ3IzdzlRZnhuVWlXMkxGT0ZtNC1yajZQd2dpR2dDV09sVVl3VFlRd2N5aDNRbDl6bTVIM081b3d6bW95TGxsMEZ6SXVGUXNVb2RpNy1leHlJTVE0eWVNRXZ0NVJnNnpvTXNXTWJOWUR6bTduZXJacVV0SmpxYkV3R3B5eTRrRFozdFpOd1BESlNKLUJOZW1aTTEzSzNqWG1sV3dR0gHDAUFVX3lxTE14MkVpaG9tYW93RnV1bG0wbTRlTFFWYjg2R19UT2lnNHNIR05Bdk9aNnZRSFlId3VLdUJNbl9JRTJyVmhIajFyX3paLWRNUXlqZXRsNFRyM0phbU41aVhOVW9CVEx3aUFRWDBjb0xwSlBKdGE1XzAxUDREb3NKb3JKQ1lmbEZ2bjFLbkpOTVpRUU1hZTVrTGtzOVd2bmt0c0NiaTA0WWpmUmtkYlZVZDBrV0o5MlNWN19OcjFPNk9WZDBtWQ?oc=5",
+          "title": "Свердловские врачи спасли новорождённого с редкой патологией сосудов мозга - Вечерние ведомости"
+        },
+        {
+          "publisher": "РИА Новый День",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54SVRfZGVUaHpWUUE4Q0NiSGdReEprYVMwVWs2d3RlMmxFeDR3aFM0Qm5kZEFRdENnRGNGWFJ1NGhZbUUwZE12NktuNWFoVEt5X1I1aXZWajhWdw?oc=5",
+          "title": "Свердловские врачи спасли новорожденного с редкой патологией сосудов - РИА Новый День"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "a19cf2556f5c45",
+      "score": 90,
+      "decision": "publish",
+      "category": "Health",
+      "country": "Global",
+      "headline_en": "Doctors saved a newborn with a dangerous brain defect.",
+      "summary_en": "A newborn with a dangerous condition was successfully treated by doctors.",
+      "why_good": "Successful medical intervention for a newborn.",
+      "confidence": "high",
+      "editor_note": "Demonstrates significant healthcare progress.",
+      "source_count": 2,
+      "sources": [
+        {
+          "publisher": "«Уральский рабочий»",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtY0laY01jQXk2R0UxNFQtOVFVU25aVWNSUlpBbmVOVVFHa0JsckU3QnZxT21TWG9xMWk4enRpWXJsVUUxV25KWTd2ZGZhd0NQTWZUUkI2YmI4SlB0blVyWXhSMDNOd2YxNnNuZWU2WQ?oc=5",
+          "title": "Свердловские врачи спасли новорожденного с опасным пороком сосудов мозга - «Уральский рабочий»"
+        },
+        {
+          "publisher": "ФедералПресс",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYX3dWQ0w4T3NnZldTNnpTTUFfYWhsalBzTDJhT1lhTnhlcWlBZTczTGNuU0FBQ09PTDROcVVnRUNTTjZkeXdVX0V0c19xOWR2dEtWT1Rn?oc=5",
+          "title": "Свердловские врачи спасли новорожденного с редким пороком сосудов мозга - ФедералПресс"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "9e19eb322a4cc3",
+      "score": 90,
+      "decision": "publish",
+      "category": "Nature",
+      "country": "Global",
+      "headline_en": "Successful rescue of protected wildlife indicates measurable conservation efforts.",
+      "summary_en": "A protected wild animal was successfully rescued.",
+      "why_good": "Successful rescue of protected wildlife indicates measurable conservation efforts.",
+      "confidence": "high",
+      "editor_note": "Highlights conservation success.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1IM0FPY3UzcnZkeDdQd2xCeURTaUJCYVdwYmlVWjdWVDlwSHNhYnBGeElHNVJqNkRFMTBKNFNCbkNSVS16R3daMUdmc0Eza2FNTm1FV1JOZjFtUHZNRHFZYldjVWwzb3pYSkNfR1VLeUpXS05BM21uRQ?oc=5",
+          "title": "黑龙江呼玛县成功救助国家二级保护野生动物貉 - 新浪财经"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "720ffa3d9d99af",
+      "score": 80,
+      "decision": "publish",
+      "category": "Nature",
+      "country": "Global",
+      "headline_en": "Wetland recognized as a world-class nature reserve.",
+      "summary_en": "A wetland in the Beijing-Tianjin-Hebei region has been recognized as a top conservation area.",
+      "why_good": "Wetland recognized as a world-class nature reserve.",
+      "confidence": "high",
+      "editor_note": "Significant environmental achievement.",
+      "source_count": 2,
+      "sources": [
+        {
+          "publisher": "紫荆网",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTndiUWFUblNvaUwwZFNXY2FIZ1NHQUhiODhpSHBybExwS2VqRHRHcDV1SDJWSDZlMXY2SnJpa2U0S3htTTFSUFZqQ3QzMXVKZ3dJYkkxUHlQNGNyVmRNcERScTBzeng2TTFheDhpQnJoeEtkVU5MRXdVS3R2T2lSYlZ2ajlsMnRINU1mSWhtQm5SRS1m?oc=5",
+          "title": "野鸭湖湿地成为京津冀首个“世界最佳自然保护地” - 紫荆网"
+        },
+        {
+          "publisher": "北京市人民政府门户网站",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91Zm54XzgzY3NzWGN3NjF2UTdkejczT2lvV1kyMWhZV2Y5QWtBMmp0d2FaQ0thd0ZqVUtoQlhhUS1qM2RDRVBGRWxNRlktRzZsaHFJQmdibGhEZ2RyR2JuRnd1SGNWSmlMZTVnd1hDdmdPYlJ5QUt6UGtyN1JYUzg?oc=5",
+          "title": "野鸭湖湿地成为京津冀首个“世界最佳自然保护地” - 北京市人民政府门户网站"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "6c378e53f811bd",
+      "score": 80,
+      "decision": "publish",
+      "category": "Climate & Energy",
+      "country": "Global",
+      "headline_en": "Wind and solar capacity exceeds 2 billion kW.",
+      "summary_en": "China's renewable energy capacity has surpassed 2 billion kilowatts.",
+      "why_good": "Significant increase in renewable energy capacity.",
+      "confidence": "high",
+      "editor_note": "Indicates measurable progress in renewable energy.",
+      "source_count": 2,
+      "sources": [
+        {
+          "publisher": "凤凰网",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QUDFPSnE5ekpjNTFLOHk3X3NSN29hcmpBTXgzdy1hX2VOYWlaV1JQR0NYa1B5SzB2MEgzLUFONnFKNTZ4NGxvaE8wZnk?oc=5",
+          "title": "我国风电光伏累计装机容量突破20亿千瓦 - 凤凰网"
+        },
+        {
+          "publisher": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBGUVNfWm5PMFhYYlRYTllmaGdlaXh2cGlJVjkyNWZFX1drMGs0TG1yMU1pX1FVSHdDaFBfdnEyVHlXakhUWlZCdC1BU3R0QkxvdnJ5R29qbmF2OGd5TWtVbVVQU05QMXNVZjN3SkVENXp4OEFkT2Y3SA?oc=5",
+          "title": "我国风电光伏累计装机容量突破20亿千瓦 - 新浪财经"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "83fd920550ddfe",
+      "score": 80,
+      "decision": "publish",
+      "category": "Progress",
+      "country": "Global",
+      "headline_en": "Emergency response time significantly improved.",
+      "summary_en": "Emergency response times have been notably reduced.",
+      "why_good": "Improvement in emergency response time.",
+      "confidence": "high",
+      "editor_note": "Indicates measurable success in emergency services.",
+      "source_count": 2,
+      "sources": [
+        {
+          "publisher": "凤凰网山东",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9Zb3hnZU9LNWt3T1dROGVJaDY0M2VZYXhLNGVsNG1HamFldW1nNU84LU8zYjJEcnRibE40X0J3TVNYVWwzWEF0YzBB?oc=5",
+          "title": "揭秘山东高速救援“分钟级”速度：从抬起手机到救援正式启动只需16秒 - 凤凰网山东"
+        },
+        {
+          "publisher": "新黄河",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1XX3F4Y2k2cmdrNmFmd242TkZfNTgtQTZfanBINEVBREtPV3Q0SmV2SFBjOTZuY0lpSmFKdi1hRE5jX0p6MmxOYkhwQVIzdTQtTUx1TGNtbWUwT3o2Vmx3?oc=5",
+          "title": "揭秘山东高速救援“分钟级”速度：从抬起手机到救援正式启动只需16秒 - 新黄河"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "41d31c2d964724",
+      "score": 80,
+      "decision": "publish",
+      "category": "Community",
+      "country": "Global",
+      "headline_en": "Significant recovery funding allocated for community support.",
+      "summary_en": "Over $101 million in recovery funding has been allocated for North Carolina.",
+      "why_good": "Funding for recovery efforts is a measurable achievement.",
+      "confidence": "high",
+      "editor_note": "Supports community rebuilding efforts.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "The Avery Journal-Times",
+          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZEM2QnRZZzhEWHUzbG9adWlkTVY0TkJOdXhQU2hBMEdPMWNJX1NqZTZYV0RaMGp1SVBicDRFNU5hXzZnd2d4elpNU2c2UjlUNnFSWkRUN1NjRnhyTGVZdTdfSWdSZUNLa21zTFJGaGhIS0JhLVRtRXJra1FwcmlRT0p1UkI0a2NEM1RGMWRPNWtwYVpfRndYTF9LczUtbmJwQ2dpaHZRUHNvZkFlbjdjZ0tuZmE0TzAzYlV3TzBYTzZHeE5ubEM4WXhRVW5PMmxzQVIzZ2lnbWw5UDVLRlpURFdoM25ndWFpcHA2VUhkUzRVNWIyWW9v?oc=5",
+          "title": "Banner Elk among recovery funding recipients of more than $101M for North Carolina - The Avery Journal-Times"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "b7644c7c8fd62e",
+      "score": 80,
+      "decision": "publish",
+      "category": "Progress",
+      "country": "Indonesia",
+      "headline_en": "Financial institution recognized for achievements.",
+      "summary_en": "A financial institution received multiple awards for its performance.",
+      "why_good": "Recognition of financial institutions indicates measurable success.",
+      "confidence": "high",
+      "editor_note": "Highlights achievements in the financial sector.",
+      "source_count": 2,
+      "sources": [
+        {
+          "publisher": "ANTARA News",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN1FFQ3BpMzRNWmtucDIxdThFZHR5cl9JYy03RFFjLWNpUmtwM0xEUl9sTUlSSVlfaDdldV8wVWkycjAzTEpZVHhVU0pjci0zYXR6TlpIaEdSc2EtM19KOXB3R3dxUmtIQVNjNlVRYVJtZVJnUlE0MXAyZnZBV3pEYjVGbUpBaENmZXhxcHZGUVhNSlMyeUhuMVRtbXRWY0hOb0F1YWZITjdvcThuWExhSUhRNjA3WTdQTS1NUNIBvAFBVV95cUxQN1FFQ3BpMzRNWmtucDIxdThFZHR5cl9JYy03RFFjLWNpUmtwM0xEUl9sTUlSSVlfaDdldV8wVWkycjAzTEpZVHhVU0pjci0zYXR6TlpIaEdSc2EtM19KOXB3R3dxUmtIQVNjNlVRYVJtZVJnUlE0MXAyZnZBV3pEYjVGbUpBaENmZXhxcHZGUVhNSlMyeUhuMVRtbXRWY0hOb0F1YWZITjdvcThuWExhSUhRNjA3WTdQTS1NUA?oc=5",
+          "title": "BRI Berhasil Raih Empat Penghargaan Top 20 Financial Institutions Award 2026 - ANTARA News"
+        },
+        {
+          "publisher": "Kumparan.com",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdmZ2VDhZZTh0MXE5cUZyZzhTczZ6MUtGbThKd21Fd3JQRkJZTEhYSkkwTWc2OFN1WFpsd09WcjhQNUMxaU4wM3RYcWtSNjlLX2ZIUDNpLXdPOF90bzhuTGNkM0tIYmpPaGJ4em1Tam1lYUJNMGo1RDlxclJOb01hZzVRVEc1RHFOZXBYaUYtLUc1NlJzZG1mRzFRSHVnWm1tZElKdnBqNzRsbEtwWEM5Y2IyY1VpWlRHdkgyeEdXdEx1dllxRnfSAc4BQVVfeXFMTjFpalpBN3FZRk4wSjBzVjFnOXIwRkNaUEdZUUQtSXZvUm1KRTNGakc4WHdFdU5heXd5VDNqM3c0QnBNX1d3VXd5NFlKSkhGOFF2YWVnMGVqN3RjLVBqV0JLRUtHYjQyN0FHMmVpSTRoV3FpS1Q4LTRWMWhhWGhLbTBYdU9oY3ktNEd2T2R4MGdXaDRkR3JnQzBfeFpLcnk3VkxlU3JoWExZTmhkZmQ1M18xQXdiWkpOUF9RVFRSVkJPLVd2VVNLZkZaM011VWc?oc=5",
+          "title": "BRI Berhasil Raih Empat Penghargaan di Top 20 Financial Institutions Award 2026 - kumparan.com - Kumparan.com"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "d962fcb2722726",
+      "score": 80,
+      "decision": "publish",
+      "category": "Community",
+      "country": "Global",
+      "headline_en": "Environmental action campaign results reported.",
+      "summary_en": "Results from an international environmental action campaign have been shared.",
+      "why_good": "Environmental action campaign shows measurable progress.",
+      "confidence": "high",
+      "editor_note": "Highlights community engagement in environmental efforts.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "Газета \"Местное время\"",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ieUtmUjNXVHNlX09VUFpBakkyZ2JfUUs2MUVheUpiZGEzVHNRalJZanJVZFFTbGdxMHoyZXVKdDhYRGY4TlM0TA?oc=5",
+          "title": "В Югре подвели результаты XXIII Международной экологической акции «Спасти и сохранить - Газета \"Местное время\""
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "fa44d7f32ae497",
+      "score": 80,
+      "decision": "publish",
+      "category": "People",
+      "country": "Global",
+      "headline_en": "Children rescued from occupation, promoting safety.",
+      "summary_en": "Nineteen children were rescued from a dangerous situation.",
+      "why_good": "Rescue of children from occupation is a significant achievement.",
+      "confidence": "high",
+      "editor_note": "Demonstrates humanitarian progress.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "Новини про права людини",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdk1IQmtuVTM3Q1RVRURhRWlqX00xUERuak10OFljQ2RTWjVuUUhtWm9GVFlQb0NiR09iWmJES0ZiZzZ2SUtwODB2UGNBenNzUU9ONF9mRF9LYnZ0TVc5TkQ0cXdtV21UNHk0WGtvcnh5anBLLWRkNERNYUxFSnktVlpJV3RvTmtORlpsc2JEVUZDSmJZM2szQXVxYVR4cWtfMFM0ZHlOdnp2VG8?oc=5",
+          "title": "Угрозы, пропаганда и милитаризация: 19 украинских детей спасли из оккупации - Новини про права людини"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "9c0f59f2f53e86",
+      "score": 80,
+      "decision": "publish",
+      "category": "Community",
+      "country": "Global",
+      "headline_en": "Winter clothing initiative supports vulnerable populations.",
+      "summary_en": "A winter clothing initiative has provided support to those in need.",
+      "why_good": "Winter clothing initiative for Gaza indicates measurable humanitarian support.",
+      "confidence": "high",
+      "editor_note": "Highlights community support for vulnerable groups.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "صوت الإمارات",
+          "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPbFEtRHZFU3BORDVucXlFdHpuems3a2ItZkpPbXFuejk3a3ZzU2ZOMWRGdUsxb0p2S3NNQ3hqSjhRbVlZNWpyYnNreHlmZGcwU2YzWUdGaWlmZ3ZUNHZDa1R3S3NLOEN0aFpNN25rc0xuRDdLc0RaeXBWUllROHJWYURtRjM2YTVXYWYxam1aelpMWFNaX2Z3aWRtMUFkMmxKekJvOUwwTW9HZUVKOU41S3NkS3VISFpwakF5MzFlQXNsU0phQUhSZXZrSU5BeFBQcTNqU3pWZ0kxREVQUU1kN3M3Sk95QUZMN0ZDakQwR1UtQmNNdE5KVnItNFNHNmg1OW1BdlVscW9zWnk1M1hfaHVfdVVUS2VTTHljS3d5alNiMjkxNE5Kb1NuMlBCcXJUd0VUbXhjTjEwUEY5RjJaODZlMlJUSC1zTVhyN2F5N1F3ek1McmY4LWV5N2xXdw?oc=5",
+          "title": "الفارس الشهم 3.. وقف \"سعيد بن زايد\" يقدم 10 آلاف حقيبة ضمن مبادرة \"كسوة الشتاء\" لغزة - صوت الإمارات"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "313dc58f215af0",
+      "score": 80,
+      "decision": "publish",
+      "category": "Community",
+      "country": "Global",
+      "headline_en": "Financial literacy initiative benefits thousands of trainees.",
+      "summary_en": "A financial literacy initiative has positively impacted many trainees.",
+      "why_good": "Financial literacy initiative shows measurable progress.",
+      "confidence": "high",
+      "editor_note": "Indicates community support for financial education.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "جريدة الرياض",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9Ld3JLYmp1UlVVdjJuUk12UmZQbW1SeklWb2ZfeXpxV2stYU5IVW5vMUVtN0RxZjJEZkdnaFVmUUJSRmJUbE5R?oc=5",
+          "title": "9 آلاف متدرب بتقنية الأحساء يستفيدون من مبادرة البنوك السعودية لتعزيز الوعي المالي - جريدة الرياض"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "b1ccb0b0c82d55",
+      "score": 80,
+      "decision": "publish",
+      "category": "Community",
+      "country": "Global",
+      "headline_en": "Electricity restored to multiple communities.",
+      "summary_en": "Restoration of electricity has been completed in several areas.",
+      "why_good": "Restoration of electricity indicates measurable improvement in community services.",
+      "confidence": "high",
+      "editor_note": "Supports essential services for communities.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "Телеканал Енисей",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ia2lSZ1JvTm9wTk11UmVYaDhhRUJWZG1fYjBKSUxmQzZaVUZBUlUzSS1Xek9OZ0pGYndtaWF4eW1LcEdGSTF1WldKOWVQUzQ?oc=5",
+          "title": "Электричество восстановили в 14 населенных пунктах края - Телеканал Енисей"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "c421926eef3149",
+      "score": 80,
+      "decision": "publish",
+      "category": "Nature",
+      "country": "Indonesia",
+      "headline_en": "Support for orangutan rehabilitation in Kalimantan.",
+      "summary_en": "Efforts to rehabilitate orangutans in Kalimantan are being supported.",
+      "why_good": "Support for orangutan rehabilitation indicates measurable conservation efforts.",
+      "confidence": "high",
+      "editor_note": "Highlights conservation initiatives.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "www.relawannusantara.id",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMG9DRTItNWdWT01EalF2YVBScjczM2xNQkNpdHY1TllGYTZ4bmJjbmxwMjVTcU1qWGNnU0ExQUlQbUJQR1dJWEhZM21ERGlZaF9wX0o0RnlnNTVTRWpubnNlUklXNTZNd2x1dS1kM1JBUXN4RWdZbHlUQlRKaDNldUg5VGNWRVRzYnBfUTFjRQ?oc=5",
+          "title": "Dukung Rehabilitasi Orangutan Kalimantan, Bantuan Pakan Disalurkan melalui YIARI - www.relawannusantara.id"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "0102cc9824d57a",
+      "score": 80,
+      "decision": "publish",
+      "category": "Nature",
+      "country": "Indonesia",
+      "headline_en": "New eco-tourism initiative promotes conservation.",
+      "summary_en": "An eco-tourism initiative has been launched to support conservation efforts.",
+      "why_good": "New eco-tourism initiative indicates measurable progress in conservation efforts.",
+      "confidence": "high",
+      "editor_note": "Supports environmental sustainability.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "Pakuan Raya",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaGZPV3VGd1lqdzZ6VU9CZGdrR3F3MjQ0dlA2R0QyM3dsdmpGakhETGdXZzZ3SUdVaWpyN05Ma2pWNEpDeGV0MGV6T3kySlVvUGhSQ0c1NlAyMm1FbHItVElBTEVSdGZqUlZRMXdRWGhfbkdSR3Z3Tk0ySlJVUXI0eUtLT2pRVi1IUlZiZ1hvSFBjUVNvU2hDV0VhWnZ4MDQzSlI3VDBEaXZfTDV1dzVPRGMzVDFrUTNOa0o4?oc=5",
+          "title": "EIGER Nature Resmi Dibuka di Megamendung, Hadirkan Ekowisata Berbasis Petualangan dan Konservasi - Pakuan Raya"
+        }
+      ],
+      "published_date": "2026-10-28"
+    }
+  ],
+  "reserves": [
+    {
+      "id": "bb3cf0ead5b5b0",
+      "score": 70,
+      "decision": "reserve",
+      "category": "Community",
+      "country": "Global",
+      "headline_en": "New flight route enhances travel options.",
+      "summary_en": "A new flight route has been established to improve connectivity.",
+      "why_good": "Restoration of flight routes is a measurable improvement.",
+      "confidence": "medium",
+      "editor_note": "Indicates progress in transportation connectivity.",
+      "source_count": 2,
+      "sources": [
+        {
+          "publisher": "21财经",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQi1WZ3c2RVowTXNGWWEzeE9pMmtCZFROc2paZEhvdElfNkJ2V0RDVmlkcmFhSS0wT19xNGVpU05mOGJpSUVFRl9vVDVlNVpOd0ZHNGhGZFlaU2kzM1NFTEdVSnYwZ0o3c1c3d3BLdDJDcjZtS1ZoNkRhUkRoNXVTZlpvWktwQWdFc2NwWTJJRQ?oc=5",
+          "title": "珠海恢复直飞武夷山航线，大湾区赴闽北茶旅再添空中通道 - 21财经"
+        },
+        {
+          "publisher": "搜狐网",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVl9YOWpsRUlHOEJ1a3FsVmhjVlFHRTROYmVXOXVuSGF0LXJHcmZaS0xBZjhxMFZ5U3FFbGtsWHVaWmJtXzlpeGpxQlhoV2M1V1NISS1KMEZORHVUVk5NRU9EQUQ2Q2ZRZHBPa2tsRkRaNXNMRnNlVnlMbmZCZEtUSmJCdEt1RjlxSXR2VA?oc=5",
+          "title": "珠海恢复直飞武夷山航线，大湾区赴闽北茶旅再添空中通道 - 搜狐网"
+        }
+      ],
+      "published_date": "2026-10-28"
+    }
+  ],
+  "rejected": [],
+  "panel_reviews": {
+    "good_news": {
+      "reviews": [
+        {
+          "id": "e3a25e8bf2b7f4",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "a2c099a462e4ee",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "474a56f49f2f84",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "720ffa3d9d99af",
+          "score": 80,
+          "reason": "Wetland recognized as a world-class nature reserve."
+        },
+        {
+          "id": "6c378e53f811bd",
+          "score": 80,
+          "reason": "Wind and solar capacity exceeds 2 billion kW."
+        },
+        {
+          "id": "4ca93b696e10c1",
+          "score": 90,
+          "reason": "Doctors saved a newborn with a rare brain vessel condition."
+        },
+        {
+          "id": "a19cf2556f5c45",
+          "score": 90,
+          "reason": "Doctors saved a newborn with a dangerous brain defect."
+        },
+        {
+          "id": "ef4259ae6c9299",
+          "score": 70,
+          "reason": "Cultural preservation initiative shows innovative development."
+        },
+        {
+          "id": "6cf446544950d5",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "1d6ba28ba33e7c",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "bac57e5de09a7f",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "d89927b65088fb",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "83fd920550ddfe",
+          "score": 80,
+          "reason": "Emergency response time significantly improved."
+        },
+        {
+          "id": "112a66e16d8e72",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "39c9d0e0baafb9",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "b7644c7c8fd62e",
+          "score": 80,
+          "reason": "Financial institution recognized for achievements."
+        },
+        {
+          "id": "bb3cf0ead5b5b0",
+          "score": 70,
+          "reason": "New flight route enhances travel options."
+        },
+        {
+          "id": "73f08f7da16cf9",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "8b80d5dc25b6d2",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "4a137e34d79232",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "0f18e5250b1e21",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "75576745f95edb",
+          "score": 80,
+          "reason": "Library honors conservation efforts, promoting awareness."
+        },
+        {
+          "id": "ff6b84f454334b",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "60a35eed00b227",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "0c0f527609e4c9",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "a8503b8d266b67",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "58115d282811e0",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "b8ba55cd339be2",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "1a4e03360dcf4a",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "b1ea9ba121d968",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "b59ff0bb2bade2",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "19901a9e3a6965",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "41d31c2d964724",
+          "score": 80,
+          "reason": "Significant recovery funding allocated for community support."
+        },
+        {
+          "id": "2e86bdc68c98e2",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "13da370426c5db",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "4f556dcad61411",
+          "score": 80,
+          "reason": "New initiative promotes women's scientific leadership."
+        },
+        {
+          "id": "b14ef2f49d92ad",
+          "score": 80,
+          "reason": "Kindergarteners receive savings accounts to promote financial literacy."
+        },
+        {
+          "id": "75f0167ff2a508",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "3b71633b53d454",
+          "score": 80,
+          "reason": "Significant funding allocated for post-disaster recovery."
+        },
+        {
+          "id": "adb7850a1048dd",
+          "score": 70,
+          "reason": "Students engage in environmental protection projects."
+        },
+        {
+          "id": "96e2a0ab4dcfab",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "bfecb1e92f5ad8",
+          "score": 80,
+          "reason": "Community dinner initiative supports local families."
+        },
+        {
+          "id": "df114935ba40cb",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "0102cc9824d57a",
+          "score": 80,
+          "reason": "New eco-tourism initiative promotes conservation."
+        },
+        {
+          "id": "38787d1485d913",
+          "score": 80,
+          "reason": "Research supports post-disaster recovery efforts."
+        },
+        {
+          "id": "8bb6cca7ed06dc",
+          "score": 80,
+          "reason": "Land restoration efforts reported in multiple regions."
+        },
+        {
+          "id": "35497bc8fb2a15",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "9e19eb322a4cc3",
+          "score": 80,
+          "reason": "Successful rescue of a protected wild animal."
+        },
+        {
+          "id": "13c23b07828d69",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "f0c74788894b86",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "a71b57a8356b81",
+          "score": 80,
+          "reason": "New initiative for childhood cancer awareness launched."
+        },
+        {
+          "id": "2e590455a0e4aa",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "37bb3fd4d23c35",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "4960e8b2c30738",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "44e8ee7e1cf264",
+          "score": 80,
+          "reason": "Community initiative supports local food bank."
+        },
+        {
+          "id": "7f8798e14434a8",
+          "score": 80,
+          "reason": "Cleanup of illegal dumps improves agricultural land."
+        },
+        {
+          "id": "882aaa63711868",
+          "score": 80,
+          "reason": "New recovery program opens housing for mothers and children."
+        },
+        {
+          "id": "d962fcb2722726",
+          "score": 80,
+          "reason": "Environmental action campaign results reported."
+        },
+        {
+          "id": "b22faf8e982cc7",
+          "score": 80,
+          "reason": "New recovery residence for women opens soon."
+        },
+        {
+          "id": "fa44d7f32ae497",
+          "score": 80,
+          "reason": "Children rescued from occupation, promoting safety."
+        },
+        {
+          "id": "44e8ee7e1cf264",
+          "score": 80,
+          "reason": "Community initiative supports local food bank."
+        },
+        {
+          "id": "c421926eef3149",
+          "score": 80,
+          "reason": "Support for orangutan rehabilitation in Kalimantan."
+        },
+        {
+          "id": "9c0f59f2f53e86",
+          "score": 80,
+          "reason": "Winter clothing initiative supports vulnerable populations."
+        },
+        {
+          "id": "313dc58f215af0",
+          "score": 80,
+          "reason": "Financial literacy initiative benefits thousands of trainees."
+        },
+        {
+          "id": "b1ccb0b0c82d55",
+          "score": 80,
+          "reason": "Electricity restored to multiple communities."
+        },
+        {
+          "id": "0b6dd59e8a7e70",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "0577df1d580323",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "2e35f4a797b8b5",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "853960178e90bc",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "d3d6c81c6af78d",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "cf35a0aad64dff",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "a496a59362edd2",
+          "score": 80,
+          "reason": "New biodiversity initiative launched at COP17."
+        },
+        {
+          "id": "5e9a5408801720",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "cacbc622f331d4",
+          "score": 90,
+          "reason": "Doctors saved a woman from a severe allergic reaction."
+        },
+        {
+          "id": "1c0ca99d777ec4",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "d8a715a71a3004",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "8181246718af02",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "fd917dedd3435e",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "a3dc33b3f8037c",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "8bccda8cab32a6",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        },
+        {
+          "id": "2026 ESMO | 泌尿肿瘤领域迎来哪些新突破？Highlights专场精华一文速览- 良医汇 - 肿瘤资讯",
+          "score": 20,
+          "reason": "No measurable positive development reported."
+        }
+      ]
+    },
+    "skeptic": {
+      "reviews": [
+        {
+          "id": "e3a25e8bf2b7f4",
+          "score": 20,
+          "reason": "Discusses community reaction but lacks measurable outcomes."
+        },
+        {
+          "id": "a2c099a462e4ee",
+          "score": 20,
+          "reason": "Focuses on budget discussions without concrete results."
+        },
+        {
+          "id": "474a56f49f2f84",
+          "score": 10,
+          "reason": "Political context with no verifiable positive developments."
+        },
+        {
+          "id": "720ffa3d9d99af",
+          "score": 80,
+          "reason": "Wetland recognized as a top conservation area, measurable achievement."
+        },
+        {
+          "id": "6c378e53f811bd",
+          "score": 80,
+          "reason": "Significant increase in renewable energy capacity, measurable progress."
+        },
+        {
+          "id": "4ca93b696e10c1",
+          "score": 90,
+          "reason": "Doctors saved a newborn with a rare condition, a concrete success."
+        },
+        {
+          "id": "a19cf2556f5c45",
+          "score": 90,
+          "reason": "Doctors saved a newborn with a dangerous condition, a concrete success."
+        },
+        {
+          "id": "ef4259ae6c9299",
+          "score": 30,
+          "reason": "Discusses cultural initiatives without measurable outcomes."
+        },
+        {
+          "id": "6cf446544950d5",
+          "score": 20,
+          "reason": "Focuses on awards without concrete achievements."
+        },
+        {
+          "id": "1d6ba28ba33e7c",
+          "score": 20,
+          "reason": "Discusses investigation plans without measurable results."
+        },
+        {
+          "id": "bac57e5de09a7f",
+          "score": 20,
+          "reason": "Discusses market activity without concrete outcomes."
+        },
+        {
+          "id": "d89927b65088fb",
+          "score": 10,
+          "reason": "Political context with no verifiable positive developments."
+        },
+        {
+          "id": "83fd920550ddfe",
+          "score": 80,
+          "reason": "Emergency response time improvement is a measurable success."
+        },
+        {
+          "id": "112a66e16d8e72",
+          "score": 20,
+          "reason": "Event announcement without measurable outcomes."
+        },
+        {
+          "id": "39c9d0e0baafb9",
+          "score": 20,
+          "reason": "Discusses limited progress without concrete results."
+        },
+        {
+          "id": "b7644c7c8fd62e",
+          "score": 70,
+          "reason": "Recognition of financial institutions, but lacks concrete achievements."
+        },
+        {
+          "id": "bb3cf0ead5b5b0",
+          "score": 70,
+          "reason": "Restoration of flight routes is a measurable improvement."
+        },
+        {
+          "id": "73f08f7da16cf9",
+          "score": 20,
+          "reason": "Discusses municipal plans without measurable outcomes."
+        },
+        {
+          "id": "8b80d5dc25b6d2",
+          "score": 20,
+          "reason": "Volunteer efforts mentioned but lacks measurable results."
+        },
+        {
+          "id": "4a137e34d79232",
+          "score": 20,
+          "reason": "Discusses data management without measurable outcomes."
+        },
+        {
+          "id": "0f18e5250b1e21",
+          "score": 70,
+          "reason": "Land rights recovery initiative shows measurable progress."
+        },
+        {
+          "id": "75576745f95edb",
+          "score": 80,
+          "reason": "Library honors conservation efforts, a measurable recognition."
+        },
+        {
+          "id": "ff6b84f454334b",
+          "score": 20,
+          "reason": "Discusses product recovery without measurable outcomes."
+        },
+        {
+          "id": "60a35eed00b227",
+          "score": 20,
+          "reason": "Live broadcast announcement without measurable outcomes."
+        },
+        {
+          "id": "0c0f527609e4c9",
+          "score": 20,
+          "reason": "Discusses rescue efforts without measurable outcomes."
+        },
+        {
+          "id": "a8503b8d266b67",
+          "score": 20,
+          "reason": "Discusses negotiations without measurable outcomes."
+        },
+        {
+          "id": "58115d282811e0",
+          "score": 20,
+          "reason": "Discusses commemorative messages without measurable outcomes."
+        },
+        {
+          "id": "b8ba55cd339be2",
+          "score": 20,
+          "reason": "Event announcement without measurable outcomes."
+        },
+        {
+          "id": "1a4e03360dcf4a",
+          "score": 20,
+          "reason": "Discusses financial data without measurable outcomes."
+        },
+        {
+          "id": "b1ea9ba121d968",
+          "score": 20,
+          "reason": "Discusses recovery without measurable outcomes."
+        },
+        {
+          "id": "b59ff0bb2bade2",
+          "score": 20,
+          "reason": "Discusses character development without measurable outcomes."
+        },
+        {
+          "id": "19901a9e3a6965",
+          "score": 20,
+          "reason": "Discusses consumer protection without measurable outcomes."
+        },
+        {
+          "id": "41d31c2d964724",
+          "score": 80,
+          "reason": "Funding for recovery efforts is a measurable achievement."
+        },
+        {
+          "id": "2e86bdc68c98e2",
+          "score": 70,
+          "reason": "Medical progress mentioned but lacks concrete achievements."
+        },
+        {
+          "id": "13da370426c5db",
+          "score": 20,
+          "reason": "Discusses recovery plans without measurable outcomes."
+        },
+        {
+          "id": "4f556dcad61411",
+          "score": 70,
+          "reason": "Initiative for women's leadership is a positive step but lacks measurable outcomes."
+        },
+        {
+          "id": "b14ef2f49d92ad",
+          "score": 70,
+          "reason": "Financial literacy initiative shows measurable progress."
+        },
+        {
+          "id": "75f0167ff2a508",
+          "score": 20,
+          "reason": "Discusses educational importance without measurable outcomes."
+        },
+        {
+          "id": "3b71633b53d454",
+          "score": 70,
+          "reason": "Disaster recovery funding shows measurable progress."
+        },
+        {
+          "id": "adb7850a1048dd",
+          "score": 20,
+          "reason": "Discusses environmental projects without measurable outcomes."
+        },
+        {
+          "id": "9c0f59f2f53e86",
+          "score": 70,
+          "reason": "Wildlife rescue shows measurable success."
+        },
+        {
+          "id": "9e19eb322a4cc3",
+          "score": 70,
+          "reason": "Land restoration efforts show measurable progress."
+        },
+        {
+          "id": "13c23b07828d69",
+          "score": 20,
+          "reason": "Discusses community insights without measurable outcomes."
+        },
+        {
+          "id": "f0c74788894b86",
+          "score": 20,
+          "reason": "Discusses infrastructure improvements without measurable outcomes."
+        },
+        {
+          "id": "a71b57a8356b81",
+          "score": 70,
+          "reason": "Cancer detection initiative shows measurable progress."
+        },
+        {
+          "id": "2e590455a0e4aa",
+          "score": 20,
+          "reason": "Discusses diplomatic initiatives without measurable outcomes."
+        },
+        {
+          "id": "37bb3fd4d23c35",
+          "score": 20,
+          "reason": "Discusses consumer warnings without measurable outcomes."
+        },
+        {
+          "id": "4960e8b2c30738",
+          "score": 20,
+          "reason": "Discusses community support without measurable outcomes."
+        },
+        {
+          "id": "7f8798e14434a8",
+          "score": 70,
+          "reason": "Cleanup of illegal dumps is a measurable success."
+        },
+        {
+          "id": "882aaa63711868",
+          "score": 70,
+          "reason": "Addiction recovery program opening shows measurable progress."
+        },
+        {
+          "id": "d962fcb2722726",
+          "score": 70,
+          "reason": "Women's recovery residence opening shows measurable progress."
+        },
+        {
+          "id": "fa44d7f32ae497",
+          "score": 90,
+          "reason": "Rescue of children from occupation is a significant achievement."
+        },
+        {
+          "id": "44e8ee7e1cf264",
+          "score": 70,
+          "reason": "Community anti-drug initiative shows measurable progress."
+        },
+        {
+          "id": "c421926eef3149",
+          "score": 70,
+          "reason": "Support for orangutan rehabilitation shows measurable progress."
+        },
+        {
+          "id": "9c0f59f2f53e86",
+          "score": 70,
+          "reason": "Winter clothing initiative for Gaza shows measurable impact."
+        },
+        {
+          "id": "313dc58f215af0",
+          "score": 70,
+          "reason": "Financial literacy initiative shows measurable progress."
+        },
+        {
+          "id": "b1ccb0b0c82d55",
+          "score": 70,
+          "reason": "Restoration of electricity is a measurable success."
+        },
+        {
+          "id": "0b6dd59e8a7e70",
+          "score": 20,
+          "reason": "Discusses military technology without measurable outcomes."
+        },
+        {
+          "id": "0577df1d580323",
+          "score": 20,
+          "reason": "Discusses marriage rates without measurable outcomes."
+        },
+        {
+          "id": "2e35f4a797b8b5",
+          "score": 20,
+          "reason": "Discusses participation in a championship without measurable outcomes."
+        },
+        {
+          "id": "853960178e90bc",
+          "score": 20,
+          "reason": "Discusses volunteer opportunities without measurable outcomes."
+        },
+        {
+          "id": "d3d6c81c6af78d",
+          "score": 20,
+          "reason": "Discusses emissions reduction without measurable outcomes."
+        },
+        {
+          "id": "cf35a0aad64dff",
+          "score": 20,
+          "reason": "Discusses public opinion without measurable outcomes."
+        },
+        {
+          "id": "a496a59362edd2",
+          "score": 70,
+          "reason": "EU initiatives for nature conservation show measurable progress."
+        },
+        {
+          "id": "5e9a5408801720",
+          "score": 20,
+          "reason": "Discusses stock prices without measurable outcomes."
+        },
+        {
+          "id": "cacbc622f331d4",
+          "score": 90,
+          "reason": "Medical intervention saved a woman's life, a concrete success."
+        },
+        {
+          "id": "1c0ca99d777ec4",
+          "score": 20,
+          "reason": "Discusses financial performance without measurable outcomes."
+        },
+        {
+          "id": "d8a715a71a3004",
+          "score": 20,
+          "reason": "Discusses recovery processes without measurable outcomes."
+        },
+        {
+          "id": "8181246718af02",
+          "score": 20,
+          "reason": "Discusses stock performance without measurable outcomes."
+        },
+        {
+          "id": "fd917dedd3435e",
+          "score": 20,
+          "reason": "Discusses community events without measurable outcomes."
+        },
+        {
+          "id": "a3dc33b3f8037c",
+          "score": 20,
+          "reason": "Discusses regulations without measurable outcomes."
+        },
+        {
+          "id": "8bccda8cab32a6",
+          "score": 20,
+          "reason": "Discusses medical breakthroughs without measurable outcomes."
+        },
+        {
+          "id": "c17b59ff944208",
+          "score": 70,
+          "reason": "Conservation projects show measurable progress."
+        }
+      ]
+    },
+    "owop": {
+      "reviews": [
+        {
+          "id": "e3a25e8bf2b7f4",
+          "score": 20,
+          "reason": "Community reaction to a potential sale lacks measurable positive impact."
+        },
+        {
+          "id": "a2c099a462e4ee",
+          "score": 20,
+          "reason": "Discussion on budget lacks concrete outcomes or improvements."
+        },
+        {
+          "id": "474a56f49f2f84",
+          "score": 20,
+          "reason": "Political claims without measurable positive developments."
+        },
+        {
+          "id": "720ffa3d9d99af",
+          "score": 80,
+          "reason": "Wetland recognized as a top conservation area shows measurable environmental progress."
+        },
+        {
+          "id": "6c378e53f811bd",
+          "score": 80,
+          "reason": "Significant increase in renewable energy capacity indicates measurable progress."
+        },
+        {
+          "id": "4ca93b696e10c1",
+          "score": 90,
+          "reason": "Doctors saved a newborn with a rare condition, showcasing concrete medical achievement."
+        },
+        {
+          "id": "a19cf2556f5c45",
+          "score": 90,
+          "reason": "Successful medical intervention for a newborn demonstrates significant healthcare progress."
+        },
+        {
+          "id": "ef4259ae6c9299",
+          "score": 70,
+          "reason": "Cultural preservation efforts indicate community engagement but lack measurable outcomes."
+        },
+        {
+          "id": "6cf446544950d5",
+          "score": 20,
+          "reason": "Award for handling issues lacks measurable positive developments."
+        },
+        {
+          "id": "1d6ba28ba33e7c",
+          "score": 20,
+          "reason": "Investigation into a fire lacks measurable outcomes or solutions."
+        },
+        {
+          "id": "bac57e5de09a7f",
+          "score": 20,
+          "reason": "Stock market activity does not indicate measurable societal improvement."
+        },
+        {
+          "id": "d89927b65088fb",
+          "score": 20,
+          "reason": "Political conditions do not reflect measurable positive developments."
+        },
+        {
+          "id": "83fd920550ddfe",
+          "score": 80,
+          "reason": "Rapid rescue response shows measurable improvement in emergency services."
+        },
+        {
+          "id": "112a66e16d8e72",
+          "score": 60,
+          "reason": "Volunteer event indicates community engagement but lacks measurable outcomes."
+        },
+        {
+          "id": "39c9d0e0baafb9",
+          "score": 20,
+          "reason": "Limited progress in recovery reforms lacks measurable impact."
+        },
+        {
+          "id": "b7644c7c8fd62e",
+          "score": 80,
+          "reason": "Recognition of financial institutions indicates measurable success in the sector."
+        },
+        {
+          "id": "bb3cf0ead5b5b0",
+          "score": 70,
+          "reason": "Restoration of flight routes indicates measurable improvement in connectivity."
+        },
+        {
+          "id": "73f08f7da16cf9",
+          "score": 60,
+          "reason": "Community meeting on church restoration indicates engagement but lacks measurable outcomes."
+        },
+        {
+          "id": "8b80d5dc25b6d2",
+          "score": 70,
+          "reason": "Community efforts to prepare cemetery show engagement but lack measurable impact."
+        },
+        {
+          "id": "4a137e34d79232",
+          "score": 20,
+          "reason": "Technical advice lacks measurable positive developments."
+        },
+        {
+          "id": "0f18e5250b1e21",
+          "score": 20,
+          "reason": "Legal reforms lack measurable outcomes or improvements."
+        },
+        {
+          "id": "75576745f95edb",
+          "score": 80,
+          "reason": "Library honors conservation efforts, showcasing measurable progress in environmental awareness."
+        },
+        {
+          "id": "ff6b84f454334b",
+          "score": 20,
+          "reason": "Business recovery lacks measurable societal benefits."
+        },
+        {
+          "id": "60a35eed00b227",
+          "score": 20,
+          "reason": "Local news lacks measurable positive developments."
+        },
+        {
+          "id": "0c0f527609e4c9",
+          "score": 20,
+          "reason": "Rescue from financial loss lacks measurable societal impact."
+        },
+        {
+          "id": "a8503b8d266b67",
+          "score": 20,
+          "reason": "Negotiation initiative lacks measurable outcomes."
+        },
+        {
+          "id": "58115d282811e0",
+          "score": 20,
+          "reason": "Commemoration lacks measurable positive developments."
+        },
+        {
+          "id": "b8ba55cd339be2",
+          "score": 20,
+          "reason": "Event postponement lacks measurable impact."
+        },
+        {
+          "id": "1a4e03360dcf4a",
+          "score": 20,
+          "reason": "Financial data lacks measurable societal improvements."
+        },
+        {
+          "id": "b1ea9ba121d968",
+          "score": 20,
+          "reason": "Economic recovery report lacks measurable outcomes."
+        },
+        {
+          "id": "b59ff0bb2bade2",
+          "score": 20,
+          "reason": "Commemoration lacks measurable positive developments."
+        },
+        {
+          "id": "19901a9e3a6965",
+          "score": 20,
+          "reason": "Consumer protection lacks measurable outcomes."
+        },
+        {
+          "id": "41d31c2d964724",
+          "score": 80,
+          "reason": "Funding for recovery indicates measurable support for community rebuilding."
+        },
+        {
+          "id": "2e86bdc68c98e2",
+          "score": 80,
+          "reason": "Major progress in cancer treatment indicates measurable healthcare advancements."
+        },
+        {
+          "id": "13da370426c5db",
+          "score": 20,
+          "reason": "Request for recovery plan lacks measurable outcomes."
+        },
+        {
+          "id": "4f556dcad61411",
+          "score": 80,
+          "reason": "Initiative for women's academic leadership indicates measurable progress in gender equality."
+        },
+        {
+          "id": "b14ef2f49d92ad",
+          "score": 70,
+          "reason": "Savings accounts for children indicate community support but lack measurable outcomes."
+        },
+        {
+          "id": "75f0167ff2a508",
+          "score": 20,
+          "reason": "Seminar lacks measurable positive developments."
+        },
+        {
+          "id": "3b71633b53d454",
+          "score": 80,
+          "reason": "Funding allocation for disaster recovery indicates measurable support for affected communities."
+        },
+        {
+          "id": "adb7850a1048dd",
+          "score": 70,
+          "reason": "Student projects on environmental protection indicate engagement but lack measurable outcomes."
+        },
+        {
+          "id": "96e2a0ab4dcfab",
+          "score": 20,
+          "reason": "Environmental committee meeting lacks measurable outcomes."
+        },
+        {
+          "id": "bfecb1e92f5ad8",
+          "score": 80,
+          "reason": "Community dinner initiative shows measurable support for local residents."
+        },
+        {
+          "id": "df114935ba40cb",
+          "score": 80,
+          "reason": "Tax incentives for PFAS-free data centers indicate measurable environmental protection efforts."
+        },
+        {
+          "id": "0102cc9824d57a",
+          "score": 80,
+          "reason": "New eco-tourism initiative indicates measurable progress in conservation efforts."
+        },
+        {
+          "id": "38787d1485d913",
+          "score": 80,
+          "reason": "Research on flood recovery indicates measurable support for disaster-affected areas."
+        },
+        {
+          "id": "8bb6cca7ed06dc",
+          "score": 80,
+          "reason": "Land restoration efforts indicate measurable environmental progress."
+        },
+        {
+          "id": "35497bc8fb2a15",
+          "score": 20,
+          "reason": "Industrial advancements lack measurable societal benefits."
+        },
+        {
+          "id": "9e19eb322a4cc3",
+          "score": 90,
+          "reason": "Successful rescue of protected wildlife indicates measurable conservation efforts."
+        },
+        {
+          "id": "13c23b07828d69",
+          "score": 20,
+          "reason": "Personal reflections lack measurable positive developments."
+        },
+        {
+          "id": "f0c74788894b86",
+          "score": 20,
+          "reason": "Infrastructure planning lacks measurable outcomes."
+        },
+        {
+          "id": "a71b57a8356b81",
+          "score": 80,
+          "reason": "Child cancer initiative indicates measurable healthcare advancements."
+        },
+        {
+          "id": "2e590455a0e4aa",
+          "score": 20,
+          "reason": "Negotiation initiative lacks measurable outcomes."
+        },
+        {
+          "id": "37bb3fd4d23c35",
+          "score": 20,
+          "reason": "Consumer protection warnings lack measurable outcomes."
+        },
+        {
+          "id": "4960e8b2c30738",
+          "score": 20,
+          "reason": "Volunteer call lacks measurable positive developments."
+        },
+        {
+          "id": "7f8798e14434a8",
+          "score": 80,
+          "reason": "Cleanup of illegal dumps shows measurable environmental improvement."
+        },
+        {
+          "id": "882aaa63711868",
+          "score": 80,
+          "reason": "Addiction recovery program for mothers and children indicates measurable community support."
+        },
+        {
+          "id": "d962fcb2722726",
+          "score": 80,
+          "reason": "Women's recovery residence indicates measurable support for vulnerable populations."
+        },
+        {
+          "id": "fa44d7f32ae497",
+          "score": 90,
+          "reason": "Rescue of children from occupation shows measurable humanitarian progress."
+        },
+        {
+          "id": "44e8ee7e1cf264",
+          "score": 80,
+          "reason": "Anti-drug volunteer efforts indicate measurable community engagement."
+        },
+        {
+          "id": "c421926eef3149",
+          "score": 80,
+          "reason": "Support for orangutan rehabilitation indicates measurable conservation efforts."
+        },
+        {
+          "id": "9c0f59f2f53e86",
+          "score": 80,
+          "reason": "Winter clothing initiative for Gaza indicates measurable humanitarian support."
+        },
+        {
+          "id": "313dc58f215af0",
+          "score": 80,
+          "reason": "Financial literacy initiative for trainees indicates measurable community support."
+        },
+        {
+          "id": "b1ccb0b0c82d55",
+          "score": 80,
+          "reason": "Restoration of electricity indicates measurable improvement in community services."
+        },
+        {
+          "id": "0b6dd59e8a7e70",
+          "score": 20,
+          "reason": "Political commentary lacks measurable positive developments."
+        },
+        {
+          "id": "0577df1d580323",
+          "score": 20,
+          "reason": "Speculative marriage rates lack measurable outcomes."
+        },
+        {
+          "id": "2e35f4a797b8b5",
+          "score": 20,
+          "reason": "Participation in a championship lacks measurable positive developments."
+        },
+        {
+          "id": "853960178e90bc",
+          "score": 20,
+          "reason": "Volunteer opportunity lacks measurable outcomes."
+        },
+        {
+          "id": "d3d6c81c6af78d",
+          "score": 20,
+          "reason": "Cost of emissions reduction lacks measurable outcomes."
+        },
+        {
+          "id": "cf35a0aad64dff",
+          "score": 20,
+          "reason": "Public opinion lacks measurable positive developments."
+        },
+        {
+          "id": "a496a59362edd2",
+          "score": 20,
+          "reason": "Environmental initiative lacks measurable outcomes."
+        },
+        {
+          "id": "5e9a5408801720",
+          "score": 20,
+          "reason": "Stock performance lacks measurable societal impact."
+        },
+        {
+          "id": "fd917dedd3435e",
+          "score": 20,
+          "reason": "Community meetings lack measurable outcomes."
+        },
+        {
+          "id": "a3dc33b3f8037c",
+          "score": 20,
+          "reason": "New regulations lack measurable positive developments."
+        },
+        {
+          "id": "8bccda8cab32a6",
+          "score": 20,
+          "reason": "Medical breakthroughs lack measurable outcomes."
+        },
+        {
+          "id": "c17b59ff944208",
+          "score": 20,
+          "reason": "Medical explanations lack measurable positive developments."
+        },
+        {
+          "id": "1c0ca99d777ec4",
+          "score": 20,
+          "reason": "Business performance lacks measurable societal impact."
+        }
+      ]
+    }
+  },
+  "pilot_note": "AI-only editorial pilot; headline/metadata review, not yet full-article verification."
 }
