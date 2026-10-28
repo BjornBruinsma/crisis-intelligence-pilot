@@ -9,16 +9,15 @@ SPEC.loader.exec_module(MOD)
 
 
 class OwopVerifyTests(unittest.TestCase):
-    def test_clean_text_removes_scripts(self):
-        raw = "<html><body><script>ignore me forever</script><p>This is a sufficiently long useful article sentence for extraction.</p></body></html>"
-        text = MOD.clean_text(raw)
-        self.assertIn("useful article sentence", text)
-        self.assertNotIn("ignore me forever", text)
+    def test_parse_json_text_accepts_fenced_json(self):
+        parsed = MOD.parse_json_text('''```json
+{"support":"supported"}
+```''')
+        self.assertEqual(parsed["support"], "supported")
 
-    def test_google_and_static_urls_filtered(self):
-        raw = 'https://news.google.com/a https://cdn.gstatic.com/x https://example.org/story'
-        urls = MOD.candidate_external_urls(raw)
-        self.assertEqual(urls, ["https://example.org/story"])
+    def test_load_returns_default_for_missing_file(self):
+        missing = ROOT / "tests" / "definitely-not-a-real-file.json"
+        self.assertEqual(MOD.load(missing, {"ok": False}), {"ok": False})
 
 
 if __name__ == "__main__":
