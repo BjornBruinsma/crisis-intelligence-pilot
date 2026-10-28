@@ -315,6 +315,68 @@ def source_precedes_claim_by_weeks(source_date,news_day,threshold_days=21):
     except (ValueError,TypeError,OverflowError,IndexError):
         return False
 
+def incident_action(text):
+    """Extract the main described action; a heuristic, not proof of semantics."""
+    t=str(text or "").casefold()
+    rules=(
+        ("intercept",r"\b(?:intercept\w*|shoots? down|shot down|air defen[sc]es?)\b"),
+        ("evacuate",r"\b(?:evacuat\w*|withdrawn? personnel|ordered to leave)\b"),
+        ("strike",r"\b(?:strikes?|struck|attack\w*|bomb\w*|airstrikes?|hit by drone|raid\w*)\b"),
+        ("seize",r"\b(?:seiz\w*|captur\w*)\b"),
+        ("blockade",r"\b(?:blockad\w*|closure|closed|shut down|reopen\w*)\b"),
+        ("sanction",r"\b(?:sanction\w*|restrict\w*)\b"),
+        ("warn",r"\b(?:warn\w*|threaten\w*|intend\w* to target)\b"),
+    )
+    for name,pattern in rules:
+        if re.search(pattern,t):
+            return name
+    return None
+
+def check_specific_support(claim,match):
+    """Fail-closed on known semantic mismatches in high-stakes headlines.
+
+    Quotes are *official assertions*, never independent confirmation.
+    """
+    if match.get("relation")!="direct_statement":
+        return None
+    q=str(match.get("exact_quote") or "")
+    url=str(match.get("source_url") or "")
+    claim_action=incident_action(claim)
+    quote_action=incident_action(q)
+    if "/foreign-travel-advice/" in url and not re.search(
+        r"\b(?:travel advisory|travel advice|travel warning|reisadvies)\b",
+        str(claim),re.I):
+        return "Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis."
+    if claim_action and claim_action!=quote_action:
+        return "De bronquote beschrijft een andere handeling dan de nieuwskop."
+    if claim_action in {"intercept","evacuate","strike","seize","blockade"} and not match.get("source_date"):
+        return "De officiële publicatiedatum ontbreekt voor deze specifieke gebeurtenisclaim."
+    return None
+
+def recheck_saved_records(records,events):
+    """Retroactively downgrade historic AI overclaims without new API spending."""
+    claims={e.get("id"):str((e.get("headline_claims") or [""])[0])
+            for e in (events.get("events") or [])}
+    corrected=0
+    for key,record in records.items():
+        if not isinstance(record,dict):continue
+        claim=claims.get(key)
+        if not claim:continue
+        for match in record.get("official_matches") or []:
+            reason=check_specific_support(claim,match)
+            if reason:
+                match["relation"]="related_only"
+                match["reason_nl"]="Automatische kwaliteitscorrectie: "+reason
+                match["specificity_check"]="downgraded"
+                corrected+=1
+        if record.get("research_status")=="official_statement_located" and not any(
+              m.get("relation")=="direct_statement" for m in record.get("official_matches") or []):
+            record["research_status"]="related_official_material"
+            record["summary_nl"]="Gerelateerde officiële tekst gevonden, maar geen voldoende specifieke ondersteuning van deze nieuwsclaim."
+            record["revision_notice"]="Eerdere AI-match na aanvullende controle afgewezen."
+        record["verified_event"]=False
+    return corrected
+
 def validate_matches(result,items):
     entries=result.get("results") if isinstance(result,dict) else None
     if not isinstance(entries,list):raise ValueError("No verification results")
@@ -358,7 +420,18 @@ def validate_matches(result,items):
                 )+str(match.get("explanation_nl") or "")[:300],
                 "claim_validated_as_fact":False})
             if len(accepted)>=2:break
-        out[event_id]={"matches":accepted,"summary_nl":str(entry.get("summary_nl") or "")[:420]}
+        discarded=0
+        for item in accepted:
+            explanation=check_specific_support(requested[event_id]["claim"],item)
+            if explanation:
+                item["relation"]="related_only"
+                item["reason_nl"]="Niet voldoende specifiek: "+explanation
+                item["specificity_check"]="downgraded"
+                discarded+=1
+        summary=str(entry.get("summary_nl") or "")[:420]
+        if discarded and not any(m["relation"]=="direct_statement" for m in accepted):
+            summary="Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim."
+        out[event_id]={"matches":accepted,"summary_nl":summary}
     for item in items:
         out.setdefault(item["event_id"],{"matches":[],"summary_nl":"Model gaf geen bruikbare beoordeling."})
     return out
@@ -434,6 +507,9 @@ def main():
     primary=load(DATA/"primary_sources.json",{"sources":[]})
     old=load(OUTPUT,{})
     records=dict(old.get("records") or {})
+    corrections=recheck_saved_records(records,events)
+    if corrections:
+        print(f"Corrected {corrections} overbroad official claim matches before research.")
     usage=dict(old.get("usage_by_day") or {})
     day=dt.datetime.now(dt.timezone.utc).date().isoformat()
     count=int((usage.get(day) or {}).get("claims_checked",0))
