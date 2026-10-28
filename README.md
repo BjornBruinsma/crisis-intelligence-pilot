@@ -1,4 +1,4 @@
-# CRISIS Intelligence — onderzoeks-pilot 1.0
+# CRISIS Intelligence — onderzoeks-pilot 1.0.1
 
 Automatische **nieuwsdetectie**, nog **geen geverifieerde gebeurtenisregistratie of oorlogskansvoorspeller**.
 
@@ -224,3 +224,26 @@ maximaal 3 nieuwe claims per uitvoering, 9 per UTC-dag, maximaal
 2 bezochte originele documenten per claim en 6 AI-vergelijkingsaanvragen
 per UTC-dag; zoekopdrachten naar publieke website-informatie zijn beperkt.
 De kosten zijn afzonderlijke OpenAI-API-kosten en dit is geen geldplafond.
+
+## Verificatiecorrectie na eerste live-test
+
+De eerste versie van de uitgebreide zoeklaag vond twee GOV.UK-passages die
+door het model **ten onrechte** werden aangemerkt als directe ondersteuning:
+1) een waarschuwing over *voorgenomen* Iraanse doelen bij een kop over
+*daadwerkelijke* luchtaanvallen; 2) Houthi-raketlanceringen bij een kop over
+Saoedische raketonderscheppingen. Dit zijn verschillende handelingen.
+
+Daarom moet elke AI-aanwijzing `direct_statement` nu een extra
+deterministische consistentiecontrole doorstaan: de concrete handeling in
+de nieuwskop moet overeenkomen met die in het letterlijke citaat.
+Algemene GOV.UK-reisadviezen zijn geen directe bevestiging van afzonderlijke
+militaire incidenten. Bij claims over aanvallen, onderscheppingen,
+evacuaties, blokkades of inbeslagnames is een officiële publicatiedatum
+vereist voordat een specifieke match de label `direct_statement` mag
+behouden. In alle gevallen blijft `verified_event=false`.
+
+Ook **gecachete resultaten** worden automatisch herbeoordeeld. Afgewezen
+matches worden gedowngraded naar `related_only`, met een expliciete reden
+en een aangepaste samenvatting. Nieuwe regressietests gebruiken deze echte
+foutvoorbeelden. Dit is een conservatieve, beperkte regelset en nog geen
+onfeilbare onafhankelijke waarheidscontrole.
