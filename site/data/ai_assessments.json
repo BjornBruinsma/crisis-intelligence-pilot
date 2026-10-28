@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-28T12:35:48.419353Z",
+  "last_attempt_utc": "2026-10-28T13:08:22.038384Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -599,6 +599,22 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-28T12:35:47.419102Z"
+    },
+    "e78cc32b237f4b": {
+      "id": "e78cc32b237f4b",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De Houthis roepen op tot evacuatie van de luchthaven van Aden in Jemen te midden van een escalatie.",
+      "claimed_event_nl": "Houthis roepen op tot evacuatie van de luchthaven van Aden.",
+      "reason_nl": "Deze oproep kan wijzen op een verslechtering van de situatie in de regio, wat relevant is voor de stabiliteit in de Golfregio.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron en er is geen onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T13:08:21.038176Z"
     }
   },
   "usage_by_day": {
@@ -607,8 +623,8 @@
       "total_tokens": 0
     },
     "2026-10-28": {
-      "requests": 13,
-      "total_tokens": 13791
+      "requests": 14,
+      "total_tokens": 14466
     }
   }
 }

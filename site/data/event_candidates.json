@@ -1,27 +1,25 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-10-28T12:35:57.214687Z",
-  "fingerprint": "bcce7db2344c8ded4c41bac3",
-  "status": "complete",
+  "last_attempt_utc": "2026-10-28T13:08:29.056936Z",
+  "fingerprint": "abb25c4647ae7768b8ab4efe",
+  "status": "daily_limit",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 24,
   "event_candidate_count": 24,
-  "clustering_method": "ai_pairwise_double_review",
+  "clustering_method": "singleton_fallback",
   "clustering_metrics": {
-    "model_pair_proposals": 2,
+    "model_pair_proposals": 0,
     "accepted_pair_connections": 0,
-    "rejected_pair_proposals": 2,
+    "rejected_pair_proposals": 0,
     "multi_claim_groups": 0,
     "claims_in_multi_groups": 0,
     "all_input_ids_retained": true,
     "auditor_approved_pairs": 0,
     "rule_rejected_pairs": 0,
-    "unreviewed_pair_proposals": 0,
-    "veto_examples": [],
-    "independent_auditor_ran": true
+    "independent_auditor_ran": false
   },
-  "official_sources_available": 11,
+  "official_sources_available": 12,
   "direct_official_match_count": 0,
   "events": [
     {
@@ -44,7 +42,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -70,33 +68,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "627688795838000f2f3292e8",
-      "label_nl": "Claim: US struggles to evacuate American personnel from facilities under fire in Iraq: Officials - ABC News - Breaking News, Latest News and Videos",
-      "headline_claim_ids": [
-        "d90ef66d2701b8"
-      ],
-      "headline_claims": [
-        "US struggles to evacuate American personnel from facilities under fire in Iraq: Officials - ABC News - Breaking News, Latest News and Videos"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ2xXd2hHS1U1dzZkQmtROFo0RktSVDJVX1d2ZktEYzkxU291Z1ZoLW1ORDVGUTFSaDNRdm9JZDlIa1BaZEZoVHJkU01pVWlRZmRTYUdsclpFaUpWQWlYUU8xS2FiSlk2TEVFaUZ6dHU1ZzFEN2tDbDd3NHd6alNWdnNVRlgzLTN3SkZ6dkVldU1QcGtaWVJhZl9TdDV0TXR3MDNpXzlfVGNJblRsc29NNDQ4dXfSAboBQVVfeXFMTWFydS1pLTR0TEhnN1VndnRfZTJVazNlbnVpaGpZZFBLb3IycVhzUVdxQkJ6akozMXdRc3N6V0pnOW5GYVNoRDJJbkY3c0RpTDRYdU8yd0FES1gyREM4eG83R3lLQlZTRFktUFBJUG5hR184clg0OHFrVTY4UW1rTWgxX3E3RXcyTWR0V1E0aE9pajdJaEtVN0IzZDhmRkVFc3VzanViNGppdnZFZEl2eFY3N2VXc0FkZjBn?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -122,7 +94,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -148,7 +120,33 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "627688795838000f2f3292e8",
+      "label_nl": "Claim: US struggles to evacuate American personnel from facilities under fire in Iraq: Officials - ABC News - Breaking News, Latest News and Videos",
+      "headline_claim_ids": [
+        "d90ef66d2701b8"
+      ],
+      "headline_claims": [
+        "US struggles to evacuate American personnel from facilities under fire in Iraq: Officials - ABC News - Breaking News, Latest News and Videos"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ2xXd2hHS1U1dzZkQmtROFo0RktSVDJVX1d2ZktEYzkxU291Z1ZoLW1ORDVGUTFSaDNRdm9JZDlIa1BaZEZoVHJkU01pVWlRZmRTYUdsclpFaUpWQWlYUU8xS2FiSlk2TEVFaUZ6dHU1ZzFEN2tDbDd3NHd6alNWdnNVRlgzLTN3SkZ6dkVldU1QcGtaWVJhZl9TdDV0TXR3MDNpXzlfVGNJblRsc29NNDQ4dXfSAboBQVVfeXFMTWFydS1pLTR0TEhnN1VndnRfZTJVazNlbnVpaGpZZFBLb3IycVhzUVdxQkJ6akozMXdRc3N6V0pnOW5GYVNoRDJJbkY3c0RpTDRYdU8yd0FES1gyREM4eG83R3lLQlZTRFktUFBJUG5hR184clg0OHFrVTY4UW1rTWgxX3E3RXcyTWR0V1E0aE9pajdJaEtVN0IzZDhmRkVFc3VzanViNGppdnZFZEl2eFY3N2VXc0FkZjBn?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -174,7 +172,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -200,7 +198,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -226,7 +224,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -252,7 +250,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -278,7 +276,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -309,7 +307,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -335,7 +333,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -361,7 +359,33 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "69baf7615260e828c8b95614",
+      "label_nl": "Claim: Houthis call for evacuation of Yemen’s Aden airport amid escalation - Anadolu Ajansı",
+      "headline_claim_ids": [
+        "e78cc32b237f4b"
+      ],
+      "headline_claims": [
+        "Houthis call for evacuation of Yemen’s Aden airport amid escalation - Anadolu Ajansı"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeWhsRmFITjZNdWQ1bjE2X1ZmWHdYY3Ria0htZWJBWnRadnMteHVDNzNJRlJSa2VKOExYb0NmRHRpZnBMZ3Y1V2EyZ2JRLU84M2tJcEZsMnB0eFo5dXN2djdhSEVWLXN0NFBJWk02SW9Cdy0xbU5lZExhdVFiUWZHZmw0X1JpanM4X2JDNHlIcUY2VXI5UEdfbWl0dGJ4cFFzLVN6SlVwMW1CbUFueWhSd3pB?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -387,7 +411,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -414,7 +438,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -440,7 +464,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -467,7 +491,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -493,33 +517,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "bf259e82b55634eb1f749d97",
-      "label_nl": "Claim: UK issues stark new Iran travel warning amid regional tensions - www.thetraveler.org",
-      "headline_claim_ids": [
-        "31847e787b31e8"
-      ],
-      "headline_claims": [
-        "UK issues stark new Iran travel warning amid regional tensions - www.thetraveler.org"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZWNzV1BYRk1JUThfY3dxczAzRzRubC1ZLWVjeHZLOWxhU3JqVHlmcU1sUmVESnctSUl5dmMya0NhM0RKdzlDZFpSc05ESWpCeXRVUV91cHRXNWRfRm5FRWdKMFVuS25hMnJsSjEyWEZzNVZOT3RhVlJyemNmdTF3VzlPVUZaMjBEN3NuTGl4aUhFOEhpOXc?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -545,7 +543,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -571,7 +569,33 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "bf259e82b55634eb1f749d97",
+      "label_nl": "Claim: UK issues stark new Iran travel warning amid regional tensions - www.thetraveler.org",
+      "headline_claim_ids": [
+        "31847e787b31e8"
+      ],
+      "headline_claims": [
+        "UK issues stark new Iran travel warning amid regional tensions - www.thetraveler.org"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZWNzV1BYRk1JUThfY3dxczAzRzRubC1ZLWVjeHZLOWxhU3JqVHlmcU1sUmVESnctSUl5dmMya0NhM0RKdzlDZFpSc05ESWpCeXRVUV91cHRXNWRfRm5FRWdKMFVuS25hMnJsSjEyWEZzNVZOT3RhVlJyemNmdTF3VzlPVUZaMjBEN3NuTGl4aUhFOEhpOXc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -597,33 +621,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "25b06f5131a0b04448a71217",
-      "label_nl": "Claim: Iran still producing missiles and drones, armed by Russia: report - Roya News",
-      "headline_claim_ids": [
-        "de4a023118c522"
-      ],
-      "headline_claims": [
-        "Iran still producing missiles and drones, armed by Russia: report - Roya News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb3Q0aXdNSFRpX1p1azBOQjJ2NEFXT05BNkdmZkdOa1N0THhWSTJIa3lOMllZcUJEVGhJdWpjMUFOY044RXh4RmdDc3dDYTBjTzdHWjRwRXctQzRUd1JxS19Hc1kxejdVcm1DR2VUVjlaYkNrVjhYUk96MWVXOTZFZ3QxdGYxOHRuSDZiY1FIbUE1SnQwcXRaaS1VN0xDTHJlWlozRFpn?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -649,7 +647,7 @@
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "low",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
