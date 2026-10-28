@@ -1,4 +1,4 @@
-# CRISIS Intelligence — onderzoeks-pilot 0.8
+# CRISIS Intelligence — onderzoeks-pilot 0.9
 
 Automatische **nieuwsdetectie**, nog **geen geverifieerde gebeurtenisregistratie of oorlogskansvoorspeller**.
 
@@ -153,3 +153,34 @@ gekalibreerde betrouwbaarheidsscore zonder echte labels.
 **Financiën:** de app-limieten voor het aantal AI-calls in de verschillende scripts beperken aanvragen maar zijn geen harde geldlimiet. CRISIS en OWOP delen dezelfde OpenAI API-sleutel/betaalrekening; gebruikers moeten bestedingen en automatische opwaardering in hun OpenAI-account zelf bewaken.
 
 **Vervolg na technische tests:** een gelabelde evaluatieset van echte *zelfde-gebeurtenis / andere-gebeurtenis*-paren, gerichte raadpleging van de daadwerkelijke individuele primaire documenten en historische backtesting voordat welke risicokans dan ook zichtbaar mag worden.
+
+## Pilot 0.9 — gerichte controle van oorspronkelijke documenten
+
+De AI-redactie kan nu per hooggeprioriteerde onbewezen nieuwsclaim proberen het
+**concrete oorspronkelijke officiële document** te vinden. Een openbare zoekdienst
+(Bing RSS) en de reeds opgehaalde officiële publicatielijsten worden uitsluitend
+als **vindplaats** gebruikt. Zoekresultat-snippets zijn geen bewijs.
+
+Alleen werkelijk opgehaalde HTML-documenten op vooraf toegestane overheids- en
+intergouvernementele domeinen worden aan het vergelijkingsmodel aangeboden.
+De software controleert dat elk geciteerd tekstfragment letterlijk binnen
+een aangeleverde documentpassage valt; bij onvoldoende gegevens blijft de
+status `primary_document_not_found` of `documents_found_unassessed`.
+De publicatiedatum van een document wordt opgeslagen, maar wordt nooit
+stilzwijgend tot gebeurtenisdatum verheven. Een officieel statement is
+niet automatisch onafhankelijk bewijs van de objectieve gebeurtenis.
+
+De nieuwe [claimgerichte broncontrole](https://bjornbruinsma.github.io/crisis-intelligence-pilot/claims.html)
+toont originele documenten, specifiek ondersteunende *verklaringen*, eventuele
+tegengestelde officiële verklaringen en een zoeklog. Ook het
+[kwaliteitsdashboard](https://bjornbruinsma.github.io/crisis-intelligence-pilot/quality.html)
+bevat nu de afzonderlijke claimcontrole.
+
+Kosten- en intensiteitslimieten: maximaal 3 nieuwe claims per run en 9 per
+UTC-dag, maximaal 2 origin-documenten per claim, maximaal 6 goedkope
+modelvergelijkingsaanvragen per UTC-dag. Resultaten blijven minimaal 24 uur
+in cache. Dit is een gebruikslimiet in de pilot, **geen harde limiet op
+OpenAI-accountkosten**. Bing RSS en officiële websites kunnen verzoeken
+weigeren of onvolledige zoekresultaten geven. Een negatieve zoekuitkomst
+ontkracht nooit een nieuwsclaim. Vooralsnog geen geverifieerde
+gebeurtenisregistratie, automatische risicokans of gekalibreerde inschatting.
