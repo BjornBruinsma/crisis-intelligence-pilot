@@ -19,6 +19,23 @@ class TestOfficialSources(unittest.TestCase):
         self.assertEqual(d["status"],"ok")
         self.assertTrue(any("airspace" in p for p in d["passages"]))
         self.assertTrue(d["links"][0]["url"].startswith("https://www.gov.uk/"))
+    def test_expanded_authorities_are_allowlisted_without_lookalike_domains(self):
+        self.assertTrue(sources.valid_official_url("https://mofa.gov.pk/press-releases"))
+        self.assertTrue(sources.valid_official_url("https://www.fmprc.gov.cn/eng/xw/fyrbt/lxjzh/index.html"))
+        self.assertTrue(sources.valid_official_url("https://www.imo.org/en/mediacentre/pressbriefings/default.aspx"))
+        self.assertTrue(sources.valid_official_url("https://www.mofa.gov.ae/en"))
+        self.assertTrue(sources.valid_official_url("https://en.mfa.ir/"))
+        self.assertFalse(sources.valid_official_url("https://en.mfa.ir.example.com/fake"))
+        self.assertFalse(sources.valid_official_url("https://mofa.gov.pk.attacker.org/press-releases"))
+    def test_unreachable_official_source_records_error_not_no_news(self):
+        from unittest.mock import patch
+        target=("iran_mfa","Iran MFA","https://en.mfa.ir/","official_listing")
+        with patch.object(sources,"fetch",side_effect=TimeoutError("test timeout")):
+            result=sources.fetch_one(target)
+        self.assertEqual(result["status"],"error")
+        self.assertEqual(result["id"],"iran_mfa")
+        self.assertEqual(result["links"],[])
+
     def test_rejects_unverified_feed_item_urls(self):
         record=("us_advisories","US State","https://travel.state.gov/_res/rss/TAsTWs.xml","official_rss")
         raw=b'<rss><channel><item><title>Iran Travel Advisory</title><link>https://attacker.example/advisory</link><pubDate>Wed, 28 Oct 2026 07:00:00 GMT</pubDate></item></channel></rss>'
