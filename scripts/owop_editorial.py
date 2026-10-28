@@ -20,12 +20,14 @@ DATA = ROOT / "data"
 MODEL = os.getenv("OWOP_MODEL", "gpt-4o-mini")
 MAX_ARTICLES = 700
 MAX_GROUPS = 80
-PUBLISH_THRESHOLD = 75
-RESERVE_THRESHOLD = 60
+BATCH_SIZE = 20
+PUBLISH_THRESHOLD = 78
+RESERVE_THRESHOLD = 62
 
 LOW_SIGNAL = [
     "celebrity", "horoscope", "lottery", "giveaway", "sale", "discount", "coupon",
     "match preview", "transfer rumor", "box office", "red carpet", "royal family",
+    "financial institutions award", "top 20 financial", "penghargaan", "award ceremony",
 ]
 
 
@@ -108,6 +110,7 @@ def ask(client, instruction, candidates):
     response = client.chat.completions.create(
         model=MODEL,
         temperature=0,
+        max_tokens=6000,
         response_format={"type": "json_object"},
         messages=[
             {"role": "system", "content": instruction},
@@ -117,9 +120,37 @@ def ask(client, instruction, candidates):
     return parse_json_text(response.choices[0].message.content or "")
 
 
+def batched(items, size=BATCH_SIZE):
+    for start in range(0, len(items), size):
+        yield items[start:start + size]
+
+
 def role_prompts():
     common = """
-You are evaluating candidate headlines for ONE WORLD. ONE PEOPLE. (OWOP), a non-political global news feed about real, verifiable positive developments. This is NOT a feel-good fluff site. A story should show something measurably improved, restored, solved, protected, discovered, opened, recovered, reduced, made safer, or people concretely helping others. Plans, promises, PR, vague optimism, celebrity fluff and ordinary commercial launches should score low. Do not treat governments or countries as good/bad. Judge the event, not ideology. Headlines may be in any language; understand/translate them. You only have metadata/headlines in this pilot, so penalize unverifiable certainty. Return ONLY valid JSON with shape {"reviews":[{"id":"...","score":0-100,"reason":"max 20 words"}]}. Include every candidate exactly once.
+You are evaluating candidate headlines for ONE WORLD. ONE PEOPLE. (OWOP), a non-political global news feed about real, verifiable positive developments.
+
+OWOP is NOT a generic feel-good, corporate-PR or announcement feed. Prefer completed or clearly evidenced outcomes that materially improve life, health, nature, knowledge, safety, opportunity or cooperation.
+
+Strong OWOP examples:
+- measurable recovery of a species or ecosystem
+- a real medical or scientific advance with evidence
+- a community solution already producing results
+- a meaningful decline in harm, poverty, mortality or pollution
+- people concretely helping others, with a completed outcome
+
+Usually NOT OWOP:
+- awards, rankings, prizes or corporate recognition
+- ordinary business growth, product launches, store openings or new flight routes
+- money merely pledged/allocated/announced before results exist
+- a project merely launched, planned, promised or proposed
+- marketing, tourism promotion or sponsored PR
+- celebrity fluff or isolated trivial feel-good items
+- partisan messaging or stories whose main frame is war, occupation, political conflict or government point-scoring
+- one rescued animal unless the case is unusually significant or demonstrates a broader conservation result
+
+Do not treat governments, countries or ideologies as good/bad. Judge only the concrete outcome. Headlines may be in any language; understand/translate them. You only have metadata/headlines in this pilot, so uncertainty must reduce the score. One source is never enough for "high confidence." Two articles may still repeat the same press release.
+
+Return ONLY valid JSON with shape {"reviews":[{"id":"...","score":0-100,"reason":"max 20 words"}]}. Include every candidate exactly once.
 """
     return {
         "good_news": common + "\nROLE: Good News Editor. Focus on whether a genuinely positive, interesting development appears to have happened.",
@@ -140,7 +171,16 @@ def final_decision_prompt(candidates, role_reviews):
         item["panel"] = {name: role_maps[name].get(c["id"], {}) for name in role_maps}
         combined.append(item)
     instruction = """
-You are the final editor of ONE WORLD. ONE PEOPLE. Use the three panel reviews plus the headline metadata. Decide conservatively. Publish only if the development seems genuinely positive AND sufficiently plausible from the available metadata. Reserve uncertain but promising stories. Reject fluff, PR, mere plans, partisan/political messaging, tragedy-with-a-tiny-positive-angle, or stories whose positive meaning is unclear.
+You are the final editor of ONE WORLD. ONE PEOPLE. Use the three panel reviews plus headline/source metadata and be stricter than the panel.
+
+PUBLISH only when the event appears to be a real, completed or clearly evidenced positive outcome with broad human, social, scientific, environmental or community value.
+RESERVE when promising but still too uncertain, too early, too local/trivial, or only partially evidenced.
+REJECT awards/rankings, routine corporate success, ordinary openings/routes/product launches, funding announcements without achieved results, PR, tourism marketing, partisan messaging, and stories mainly framed around war/occupation/political conflict.
+
+A plan is not an outcome. An announcement is not impact. A press release is not independent verification.
+One source can never receive high confidence.
+If two candidates clearly describe the same underlying event, publish at most one and mark the other reject as a duplicate.
+Country should be the actual place implicated by the headline when inferable; do not use Global merely because the publisher metadata lacks a country.
 
 Return ONLY valid JSON with shape:
 {"decisions":[{
@@ -149,11 +189,11 @@ Return ONLY valid JSON with shape:
   "country":"country/region if inferable, else Global",
   "headline_en":"neutral English headline, max 14 words",
   "summary_en":"original 1-2 sentence summary based ONLY on what the metadata supports; never invent facts",
-  "why_good":"one short sentence explaining the positive development",
+  "why_good":"one short sentence explaining the concrete positive outcome, or why it is not sufficient",
   "confidence":"high|medium|low",
   "editor_note":"max 25 words"
 }]}
-Include every candidate exactly once. The score is editorial confidence/fit, not moral worth.
+Include every candidate exactly once. The score measures OWOP editorial fit plus confidence, not moral worth.
 """
     return instruction, combined
 
@@ -179,11 +219,31 @@ def main():
     client = OpenAI()
     reviews = {}
     for name, prompt in role_prompts().items():
-        reviews[name] = ask(client, prompt, candidates)
+        collected = []
+        for batch in batched(candidates):
+            part = ask(client, prompt, batch)
+            collected.extend(part.get("reviews", []))
+        reviews[name] = {"reviews": collected}
 
-    instruction, combined = final_decision_prompt(candidates, reviews)
-    final = ask(client, instruction, combined)
-    decisions = {str(x.get("id")): x for x in final.get("decisions", []) if isinstance(x, dict)}
+    final_rows = []
+    for batch in batched(candidates):
+        instruction, combined = final_decision_prompt(batch, reviews)
+        part = ask(client, instruction, combined)
+        final_rows.extend(part.get("decisions", []))
+
+    decisions = {str(x.get("id")): x for x in final_rows if isinstance(x, dict) and x.get("id")}
+    for candidate in candidates:
+        if candidate["id"] not in decisions:
+            decisions[candidate["id"]] = {
+                "id": candidate["id"], "score": 0, "decision": "reject",
+                "category": "Other", "country": "Global",
+                "headline_en": candidate["headline"][:120],
+                "summary_en": "The final editor did not return a complete assessment.",
+                "why_good": "Insufficient editorial assessment.",
+                "confidence": "low",
+                "editor_note": "Automatically rejected because the AI omitted this candidate.",
+            }
+
     group_map = {g["key"]: g for g in groups}
 
     stories, reserves, rejected = [], [], []
@@ -199,6 +259,9 @@ def main():
         ]
         obj["published_date"] = g["day"]
         score = int(obj.get("score") or 0)
+        if g["source_count"] < 2 and obj.get("confidence") == "high":
+            obj["confidence"] = "medium"
+            obj["editor_note"] = (str(obj.get("editor_note") or "") + " Single-source confidence capped at medium.").strip()[:180]
         wanted = str(obj.get("decision") or "reject")
         if wanted == "publish" and score >= PUBLISH_THRESHOLD:
             stories.append(obj)
