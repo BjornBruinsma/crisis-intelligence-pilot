@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-28T12:37:24.544876Z",
+  "last_attempt_utc": "2026-10-28T12:35:48.419353Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -574,15 +574,15 @@
       "importance": "medium",
       "direction": "mixed",
       "kind": "event_claim",
-      "summary_nl": "Jordanië en Iran bespreken een duurzame wapenstilstand om de oorlog tussen de VS en Teheran te beëindigen.",
-      "claimed_event_nl": "Jordanië en Iran hebben gesprekken gevoerd over een wapenstilstand.",
-      "reason_nl": "Dit is relevant omdat het kan wijzen op diplomatieke inspanningen in een gespannen situatie.",
-      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "summary_nl": "Jordanië en Iran zouden een duurzame wapenstilstand bespreken om de oorlog tussen de VS en Teheran te beëindigen.",
+      "claimed_event_nl": "Jordanië en Iran bespreken een duurzame wapenstilstand.",
+      "reason_nl": "Dit is relevant omdat het kan wijzen op diplomatieke inspanningen om een conflict te de-escaleren.",
+      "limitations_nl": "De claim is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
       "verification_status": "not_verified_headlines_only",
       "verified_event": false,
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
-      "assessed_at": "2026-10-28T12:37:23.544652Z"
+      "assessed_at": "2026-10-28T12:35:47.419076Z"
     },
     "57417e1f4a2a9b": {
       "id": "57417e1f4a2a9b",
@@ -590,31 +590,15 @@
       "importance": "high",
       "direction": "escalation",
       "kind": "event_claim",
-      "summary_nl": "De spanningen tussen Saoedi-Arabië en de Houthi's zijn toegenomen na een dodelijke aanval op een benzinstation in Jemen.",
-      "claimed_event_nl": "Er zijn verhoogde spanningen tussen Saoedi-Arabië en de Houthi's.",
-      "reason_nl": "Dit is relevant vanwege de mogelijke impact op de regionale stabiliteit en veiligheid.",
-      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "summary_nl": "De spanningen tussen Saoedi-Arabië en de Houthi's zouden zijn toegenomen na een dodelijke aanval op een benzinstation in Jemen.",
+      "claimed_event_nl": "Saoedi-Houthi spanningen nemen toe na dodelijke aanval.",
+      "reason_nl": "Dit is relevant vanwege de mogelijke impact op de regionale stabiliteit en de gevolgen voor de olievoorziening.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron zonder onafhankelijke verificatie.",
       "verification_status": "not_verified_headlines_only",
       "verified_event": false,
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
-      "assessed_at": "2026-10-28T12:37:23.544677Z"
-    },
-    "9ed53048aba5f9": {
-      "id": "9ed53048aba5f9",
-      "relevance": "relevant",
-      "importance": "medium",
-      "direction": "escalation",
-      "kind": "event_claim",
-      "summary_nl": "Iran heeft de Qatarese vredesideeën afgewezen terwijl Trump de mogelijkheid van nieuwe aanvallen openlaat.",
-      "claimed_event_nl": "Iran heeft de vredesvoorstellen van Qatar verworpen.",
-      "reason_nl": "Dit is relevant omdat het de spanningen tussen Iran en de VS kan verhogen.",
-      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
-      "verification_status": "not_verified_headlines_only",
-      "verified_event": false,
-      "model": "gpt-4o-mini",
-      "prompt_version": "headline-evaluation-v1",
-      "assessed_at": "2026-10-28T12:37:23.544681Z"
+      "assessed_at": "2026-10-28T12:35:47.419102Z"
     }
   },
   "usage_by_day": {
@@ -624,7 +608,7 @@
     },
     "2026-10-28": {
       "requests": 13,
-      "total_tokens": 14000
+      "total_tokens": 13791
     }
   }
 }

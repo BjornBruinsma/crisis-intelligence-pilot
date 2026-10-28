@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-10-28T12:37:30.106626Z",
-  "fingerprint": "75d37ff6d65c23acf1e8b3b6",
+  "last_attempt_utc": "2026-10-28T12:35:57.214687Z",
+  "fingerprint": "bcce7db2344c8ded4c41bac3",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -9,9 +9,9 @@
   "event_candidate_count": 24,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 3,
+    "model_pair_proposals": 2,
     "accepted_pair_connections": 0,
-    "rejected_pair_proposals": 3,
+    "rejected_pair_proposals": 2,
     "multi_claim_groups": 0,
     "claims_in_multi_groups": 0,
     "all_input_ids_retained": true,
@@ -21,7 +21,7 @@
     "veto_examples": [],
     "independent_auditor_ran": true
   },
-  "official_sources_available": 12,
+  "official_sources_available": 11,
   "direct_official_match_count": 0,
   "events": [
     {
@@ -421,16 +421,16 @@
       "probability_estimate": null
     },
     {
-      "id": "d188e479fd4e7ca368003699",
-      "label_nl": "Claim: Iran rejects Qatari peace ideas as Trump leaves door open to new strikes - Iran International",
+      "id": "9060f70ab6f826606fb6d59b",
+      "label_nl": "Claim: 'A question of when do I want to end it': Trump says Iran wants deal but delays negotiations - The New Indian Express",
       "headline_claim_ids": [
-        "9ed53048aba5f9"
+        "59647d58590ba6"
       ],
       "headline_claims": [
-        "Iran rejects Qatari peace ideas as Trump leaves door open to new strikes - Iran International"
+        "'A question of when do I want to end it': Trump says Iran wants deal but delays negotiations - The New Indian Express"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BVFZRVFFNR0M1RUpBY1lVN3ZNQWVUQzRLd09aeTdsRFJvTkVta29peTVrajNWak9WTGhiUzBlR2tMdDBHRUk2UnRPRjFxU3VfeUE?oc=5"
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOHVJUVBTaHlzby05ZG8zTGt1OVhzYi1QMlRlclI0cm1qQnF4bl95eWIxcEtsOGJ6LWxUZ2lRSU9fcHlpREhfRkxubHFQV1lzZWotWWdTbTVoVVFZVEpWOWNsNVRLQ3l1S0JMT1Z5bFlNVndoa0wxSUprdThsNEcwMXJaRUxxTGhxc1czODI3V0E1T2liVDZ2MjVMV3N0bndDZTA0RjJlTmE1Q1psUk81V0JkSHA2Q0otdHVJZjlrVEJNUEd4RjEwQTdHRFMwc3pDX2M5MVlMb9IB5AFBVV95cUxPVTNyWHRzU0VqZ1AzMF9CUkhMcXlXa3NEWGtHc3A1bmw3NVR0WTd1QTYwbnM4N3lXNkpNRVRUWUtyY2VXdUZZaUc1UG9vdWhoMTBUZzVjMnlWMlRidFJhMjctRWVjUDM3TlZodjRaRzRrQVJSZV9qend0bUt1NFlrSDBVQloxc1g5Mm54VEdBcUNsR0JCeHczSGNhUXUzMnhQV0FkWVZtY2labzZoMmJlRGlPLUZGT0xYdFNhZXV3UUt1SEYyMURHb3NRbXBhdWJuMW95SVlaVGYxQktUd3BDckViRlM?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -526,16 +526,16 @@
       "probability_estimate": null
     },
     {
-      "id": "9060f70ab6f826606fb6d59b",
-      "label_nl": "Claim: 'A question of when do I want to end it': Trump says Iran wants deal but delays negotiations - The New Indian Express",
+      "id": "e979c1b95b1533692a64d99a",
+      "label_nl": "Claim: Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/",
       "headline_claim_ids": [
-        "59647d58590ba6"
+        "76f19eec7631b9"
       ],
       "headline_claims": [
-        "'A question of when do I want to end it': Trump says Iran wants deal but delays negotiations - The New Indian Express"
+        "Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOHVJUVBTaHlzby05ZG8zTGt1OVhzYi1QMlRlclI0cm1qQnF4bl95eWIxcEtsOGJ6LWxUZ2lRSU9fcHlpREhfRkxubHFQV1lzZWotWWdTbTVoVVFZVEpWOWNsNVRLQ3l1S0JMT1Z5bFlNVndoa0wxSUprdThsNEcwMXJaRUxxTGhxc1czODI3V0E1T2liVDZ2MjVMV3N0bndDZTA0RjJlTmE1Q1psUk81V0JkSHA2Q0otdHVJZjlrVEJNUEd4RjEwQTdHRFMwc3pDX2M5MVlMb9IB5AFBVV95cUxPVTNyWHRzU0VqZ1AzMF9CUkhMcXlXa3NEWGtHc3A1bmw3NVR0WTd1QTYwbnM4N3lXNkpNRVRUWUtyY2VXdUZZaUc1UG9vdWhoMTBUZzVjMnlWMlRidFJhMjctRWVjUDM3TlZodjRaRzRrQVJSZV9qend0bUt1NFlrSDBVQloxc1g5Mm54VEdBcUNsR0JCeHczSGNhUXUzMnhQV0FkWVZtY2labzZoMmJlRGlPLUZGT0xYdFNhZXV3UUt1SEYyMURHb3NRbXBhdWJuMW95SVlaVGYxQktUd3BDckViRlM?oc=5"
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pczRiQlU4M3pONTJLZ2dkYUsxYzlXSHRJcGtVZ19vcDF3Z0JCVHZQb3JjV0YyVDRjZEQzOTBKU2tkR0Fyb1BXVTllMnh5d0RCNG9HNkRNa2NiN2xkU2pHaUdyOG04T1ZhUHZtaGgxMXQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -659,7 +659,7 @@
   "usage_by_day": {
     "2026-10-28": {
       "requests": 12,
-      "total_tokens": 40987
+      "total_tokens": 40775
     }
   }
 }

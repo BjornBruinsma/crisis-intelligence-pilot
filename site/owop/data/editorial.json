@@ -1,45 +1,12 @@
 {
-  "generated_at": "2026-10-28T12:34:27.822587Z",
+  "generated_at": "2026-10-28T12:36:45.529559Z",
   "model": "gpt-4o-mini",
   "ai_configured": true,
   "candidate_groups": 80,
-  "published_count": 3,
-  "reserve_count": 2,
-  "rejected_count": 75,
+  "published_count": 2,
+  "reserve_count": 9,
+  "rejected_count": 69,
   "stories": [
-    {
-      "id": "de9004effeeaac",
-      "score": 90,
-      "decision": "publish",
-      "category": "Nature",
-      "country": "China",
-      "headline_en": "New fungal species discovered in Fujian's Tianbao Rock Reserve",
-      "summary_en": "Discovery of a new fungal species contributes to biodiversity knowledge.",
-      "why_good": "Discovery of new fungal species contributes to biodiversity.",
-      "confidence": "high",
-      "outcome_status": "completed",
-      "significance": "high",
-      "editor_note": "Significant contribution to biodiversity knowledge.",
-      "source_count": 3,
-      "sources": [
-        {
-          "publisher": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUYXc5RWUzNjNhM2p5NHNaVGRULTRwTno0RV9nelRzeDBXdWdwRkRlSlpNUk14bGtIMWZwaURzWjhxQXQ0VDVfRk00V3FIcl9mSVI5TXVpbFpHeDVXTm01OTRFUkNDbmtIekNRMXdBaHZwZjZnV25Xdg?oc=5",
-          "title": "福建永安天宝岩保护区发现大型真菌新物种“海氏暗盘菌” - 新浪财经"
-        },
-        {
-          "publisher": "中国新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PMWtYb2VjWDlMa1M5TkJhRGk2SVdlUlp6Y3AycEszLVhQT015bmIyeXdZaTIwbW1Rd0RacGxiS0t4RTYycEpkLXZGUFJBak1SclJDQ05adVhoSG9BTV9jZjN3cFpRTjRP?oc=5",
-          "title": "福建永安天宝岩保护区发现大型真菌新物种“海氏暗盘菌” - 中国新闻网"
-        },
-        {
-          "publisher": "搜狐网",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWENVSWpua21FU1FpV1Z0T0hrRko2bkZqOUlWczhlX0FTSzJBVnhqSkVTRUpxTnNWa09EOC1WaXJxdVMzcU8xUU9aTzJFS3hoSE53MVdfVWxyOU5tMkN1cGZaT29CZ0xfZUhZNzRnQzczRUFWMWhDZWZhTm9majlwZGpvQmQ0M2xu?oc=5",
-          "title": "福建永安天宝岩保护区发现大型真菌新物种“海氏暗盘菌” - 搜狐网"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
     {
       "id": "e57c98232e8e87",
       "score": 85,
@@ -47,8 +14,8 @@
       "category": "Health",
       "country": "United States",
       "headline_en": "JOY Community Center & Soup Kitchen opens unique free dental clinic",
-      "summary_en": "A new free dental clinic opens to address community health needs effectively.",
-      "why_good": "New dental clinic addresses health needs effectively.",
+      "summary_en": "New dental clinic addresses community health needs effectively.",
+      "why_good": "Innovative free dental clinic addresses community health needs.",
       "confidence": "high",
       "outcome_status": "completed",
       "significance": "high",
@@ -79,13 +46,13 @@
       "decision": "publish",
       "category": "Climate & Energy",
       "country": "China",
-      "headline_en": "China's wind and solar capacity exceeds 2 billion kilowatts",
-      "summary_en": "China achieves a significant milestone in renewable energy capacity with over 2 billion kilowatts installed.",
+      "headline_en": "China's wind and solar installed capacity exceeds 2 billion kilowatts",
+      "summary_en": "China achieves a significant milestone in renewable energy capacity.",
       "why_good": "Significant renewable energy capacity milestone achieved.",
-      "confidence": "high",
+      "confidence": "medium",
       "outcome_status": "completed",
       "significance": "high",
-      "editor_note": "Milestone indicates substantial progress in renewable energy.",
+      "editor_note": "Milestone in renewable energy capacity demonstrates progress.",
       "source_count": 5,
       "sources": [
         {
@@ -124,25 +91,99 @@
   ],
   "reserves": [
     {
-      "id": "4f556dcad61411",
+      "id": "6d894333f8b872",
+      "score": 80,
+      "decision": "reserve",
+      "category": "Nature",
+      "country": "Global",
+      "headline_en": "Disney invests $1 million in Jane Goodall’s youth conservation programme",
+      "summary_en": "Disney's significant investment in a youth conservation program indicates potential positive impact.",
+      "why_good": "Investment in conservation program shows commitment to environmental education.",
+      "confidence": "medium",
+      "outcome_status": "completed",
+      "significance": "high",
+      "editor_note": "Strong positive outcome with potential for impact. Single-source confidence capped at medium. Held for source verification.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "Blooloop",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sZzZvZnJQYVpwZjNsaW43YUdTc2tZNWQ0TnpycmJ2TGFsLWJIclloU3N1eDNMNk9rMHl6N1ZOQlBrd0FLRDdLX0s2SHExVUJENFl6aDNZNG9weWItQkJ4QTVfMDRUa1A1NXljcW9ScEFyWURheWtPWQ?oc=5",
+          "title": "Disney invests $1m in Jane Goodall’s youth conservation programme - Blooloop"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "9bcaa66e5b1988",
+      "score": 80,
+      "decision": "reserve",
+      "category": "Health",
+      "country": "Russia",
+      "headline_en": "Neurosurgeons save first grader by removing rare brain tumor",
+      "summary_en": "Neurosurgeons successfully removed a rare brain tumor from a first grader, significantly improving his health.",
+      "why_good": "Successful medical procedure demonstrates significant positive impact on a child's health.",
+      "confidence": "medium",
+      "outcome_status": "completed",
+      "significance": "medium",
+      "editor_note": "Significant health improvement for a child through successful surgery. Single-source confidence capped at medium. Held for source verification. Routine single-patient rescue held unless broader medical significance is ve",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "Сибирский Новостной",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNzkwQWszaktkTDAwbTdUSlp2TWFGVDNNQl9Vdk5iaUgxWUJqc2FMY2hmbndnZjhZbU0tX3RNbUpKcWVaenNGTjRsOTRZbkhndE9wRVlOUGVyMG1IR1g2SWd0a0VGWjhhQXBaQ2NzNWluVnhmaDlIWXprSkxsQUJOMkxLOFdSdUdCRVZiOURNODF6ZEY3OEowTGZyU25NRnpxU0xOZnYzQjc0cjdkaEU4dk5rYjBBb18xdm96UW9CNW9ienAtM05LcW1WeTlHbHE1eHVz?oc=5",
+          "title": "Новосибирские нейрохирурги спасли первоклассника, удалив из его мозга редкое образование размером с теннисный мяч – Сибирский Новостной - Сибирский Новостной"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "de9004effeeaac",
       "score": 75,
       "decision": "reserve",
-      "category": "Other",
-      "country": "United Arab Emirates",
-      "headline_en": "Khalifa University launches \"Mira\" initiative for women's leadership",
-      "summary_en": "Announcement of an initiative aimed at enhancing women's academic leadership.",
-      "why_good": "Initiative to enhance women's academic leadership shows potential for impact.",
+      "category": "Nature",
+      "country": "China",
+      "headline_en": "New fungal species discovered in Fujian's Tianbao Rock Reserve",
+      "summary_en": "Discovery of new fungal species contributes to biodiversity knowledge.",
+      "why_good": "Discovery of new fungal species contributes to biodiversity.",
       "confidence": "medium",
-      "outcome_status": "announcement",
+      "outcome_status": "completed",
       "significance": "medium",
-      "editor_note": "Potential impact but lacks evidence of results.",
+      "editor_note": "New species discovery enhances understanding of biodiversity.",
       "source_count": 3,
       "sources": [
         {
-          "publisher": "www.wam.ae",
-          "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNR3phd1BLSUVGa3V0RmJDSDdzV2ZVYXF2dUw2aEQzTXlSdkxCb3I0Y280VDBKbDV0ekdkM19fZEVRR1E1VlJod0NRN3lFcE5pZXpnU3gtdmFMYW1OMmhPNVBvbDh2clBNc0REYTZLX1lfTHZnMGRtTnZhaGtHc3pxdEF4bDJzcTRRc0FocUhCSVdRTUNzLWVqWXZjZENOaGJtQzVmUGlfTUFIRFlXLUxFNGxTNkZPcHhWVVoxTnVVNmNvTHFfanh0MTF1R0Z6eEg1ZHREVE5lUGVmQTNFNTFVRGVGQ0FzaHNzNmVpaExQV25yY2ltOXRnU3VNTnhjX3Z3eDBWX25rTnBnRkJETU1oUHNnNVF1VHpjRklOdW56eElwTFMzNlFnR2R0RXpfaDVZbnRSd1RFbjFncWZudFJ1RkFvVGpMRW9mOHg0TVExdnA0d2s1ZXdNVVRVcTliWTkxbW11WjY4d1Y1elIxdy1qeHdubmtaQnNFU0VMTXpOZw?oc=5",
-          "title": "جامعة خليفة تطلق مبادرة \"ميرا\" لتعزيز الريادة العلمية والأكاديمية للمرأة - www.wam.ae"
+          "publisher": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBUYXc5RWUzNjNhM2p5NHNaVGRULTRwTno0RV9nelRzeDBXdWdwRkRlSlpNUk14bGtIMWZwaURzWjhxQXQ0VDVfRk00V3FIcl9mSVI5TXVpbFpHeDVXTm01OTRFUkNDbmtIekNRMXdBaHZwZjZnV25Xdg?oc=5",
+          "title": "福建永安天宝岩保护区发现大型真菌新物种“海氏暗盘菌” - 新浪财经"
         },
+        {
+          "publisher": "中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PMWtYb2VjWDlMa1M5TkJhRGk2SVdlUlp6Y3AycEszLVhQT015bmIyeXdZaTIwbW1Rd0RacGxiS0t4RTYycEpkLXZGUFJBak1SclJDQ05adVhoSG9BTV9jZjN3cFpRTjRP?oc=5",
+          "title": "福建永安天宝岩保护区发现大型真菌新物种“海氏暗盘菌” - 中国新闻网"
+        },
+        {
+          "publisher": "搜狐网",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWENVSWpua21FU1FpV1Z0T0hrRko2bkZqOUlWczhlX0FTSzJBVnhqSkVTRUpxTnNWa09EOC1WaXJxdVMzcU8xUU9aTzJFS3hoSE53MVdfVWxyOU5tMkN1cGZaT29CZ0xfZUhZNzRnQzczRUFWMWhDZWZhTm9majlwZGpvQmQ0M2xu?oc=5",
+          "title": "福建永安天宝岩保护区发现大型真菌新物种“海氏暗盘菌” - 搜狐网"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "4f556dcad61411",
+      "score": 75,
+      "decision": "reserve",
+      "category": "Community",
+      "country": "Global",
+      "headline_en": "Khalifa University launches initiative for women's academic leadership",
+      "summary_en": "Khalifa University has launched an initiative aimed at enhancing women's academic leadership, showing promise for future outcomes.",
+      "why_good": "Initiative to enhance women's academic leadership shows promise for future outcomes.",
+      "confidence": "medium",
+      "outcome_status": "announcement",
+      "significance": "medium",
+      "editor_note": "Needs evidence of impact from the initiative.",
+      "source_count": 2,
+      "sources": [
         {
           "publisher": "25H",
           "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxPeXJyZERHVHlvZG10anN3MlpTbzctLXJEYTZ5Z2NvZGNTVU5tUjhlZW9YWXBJaks3Ui16OGVCN3NpNldDMHhobHF3NEg0RmJwdFFzb3NlYWliejhPTWxpbUhiY0N0R0JybC1VcjJ5a19LZTNMNTFqQXRlUzh2dWh6Ym8welkzSnpZdXlSNTA1ZmJhSW9DZTFGQjNDLUtYZHZxdHF0ajFxR284UHkzSnp6MGkyV3NZNURpYUFiWUJUclR1X0x2N1FRaVNnQXhGNU84dGdHU3AzWElaNHFrMXp0WV81QXdKR1Y3RExWeS0xT0Z2Y0pVeU5wQW5pb3Z6blR4QmthNGQzT0kwTWN3czZSUzNpek9VTEFwQ0F5N3V1LVppSElFSkZvZTlaN1VNT1VnYlRUVXRZYTBVcTFGdDZEbVNR?oc=5",
@@ -162,13 +203,13 @@
       "decision": "reserve",
       "category": "Health",
       "country": "Global",
-      "headline_en": "Holy Family awarded grant to expand student mental health support",
-      "summary_en": "Grant awarded for mental health support, indicating a positive development.",
-      "why_good": "Grant awarded for mental health support, indicating a positive development.",
+      "headline_en": "Holy Family awarded grant for mental health support",
+      "summary_en": "Holy Family has received a grant to expand mental health and recovery support for students, indicating potential positive impact.",
+      "why_good": "Grant awarded for mental health support indicates potential positive impact.",
       "confidence": "medium",
       "outcome_status": "announcement",
       "significance": "medium",
-      "editor_note": "Awaiting evidence of implementation and impact.",
+      "editor_note": "Awaiting results from the grant implementation.",
       "source_count": 2,
       "sources": [
         {
@@ -183,6 +224,98 @@
         }
       ],
       "published_date": "2026-10-28"
+    },
+    {
+      "id": "4a30fbe36944da",
+      "score": 70,
+      "decision": "reserve",
+      "category": "Health",
+      "country": "United States",
+      "headline_en": "Pegasus Treatment Center to open outpatient facility",
+      "summary_en": "Pegasus Treatment Center plans to open a luxury outpatient facility for addiction and mental health treatment, indicating potential positive impact.",
+      "why_good": "Opening of treatment center indicates potential positive impact on community health.",
+      "confidence": "medium",
+      "outcome_status": "announcement",
+      "significance": "medium",
+      "editor_note": "Awaiting results from the center's operations.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "PR Newswire",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNak9aRnVJNkp1UFhrMWx0T2RWdi12R0Yxc1JHem5URzNOVHI2cHhtcmI2Nnl2OXkxNmk1YnVOUTBfXzB6UjQ3SHB2d2VfWFBNVG41S2hMaWRnanRJUkpiTkswNS1ibEZRa2NRM1gtaVlRQmQxVDVlZnZ0MVdfSjU0LV8xNW9IazgyLUh0R2pYQ09jRGF4RmJnWHRvaHUtUmhmNXZXbXdIVWVwQU5PUUpLZjAzVFFLRW1rNWV5VVZ1aWlQXzRrVGVhamx5UVdZNTBjVFQ5MUViVDNHZ19WTTdHY2RGb2FEcXFXb1AyTHQzbllyeUlrejV2by1KT2oydw?oc=5",
+          "title": "Pegasus Treatment Center to Open Luxury Outpatient Addiction and Mental Health Treatment Center in Willingboro, NJ - PR Newswire"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "cc0c6d58321cbf",
+      "score": 70,
+      "decision": "reserve",
+      "category": "Nature",
+      "country": "Global",
+      "headline_en": "Innovative disaster recovery ideas presented by Galen M. Hair",
+      "summary_en": "Innovative ideas for disaster recovery are discussed, but no evidence of implementation is provided.",
+      "why_good": "Ideas have potential but lack evidence of real-world application.",
+      "confidence": "medium",
+      "outcome_status": "unclear",
+      "significance": "medium",
+      "editor_note": "Need evidence of implementation for publication.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "Entrepreneur",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU2ppMGxHYU1FWDdOaXlQeThsdVhqODdUclFCYmlkZXF0WDgyWk1MOFF1ckQ5TklXMDhjR2ZWNE5kaGZaZXItQ016T1JORnpnRFF2bmlCVkVRdzFZc2dsM1pWZmdISWZ4a1IxVDZTUXdvdGFtZ2JBYzdWVEhlLTlCanNUWEtzb05ra09lOTBBYWt6T19Kd2h6cWt4eDR2RnVEbWVHbFhNMFA1Zw?oc=5",
+          "title": "Galen M. Hair Is Rethinking What Disaster Recovery Can Look Like - Entrepreneur"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "0aad9c4ec5bf58",
+      "score": 70,
+      "decision": "reserve",
+      "category": "Nature",
+      "country": "Global",
+      "headline_en": "APPs Weigh Earlier TIL Referral and Recovery Support in Melanoma",
+      "summary_en": "Research discusses melanoma recovery support, but lacks specific outcomes.",
+      "why_good": "Research on melanoma recovery support indicates potential health improvement.",
+      "confidence": "medium",
+      "outcome_status": "unclear",
+      "significance": "medium",
+      "editor_note": "Potential positive outcomes in melanoma recovery support need evidence.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "Oncology Nursing News",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNkpOR1Nia3VTQUNaOEprZHBGQjBGVUFQMzNBd1EtYWVES2RHaFUwc05LVll5TFR6LUNkbWpvSUlDSVE2ZnFFZjhLV2VPNS1KOWxfSFVhNEZiS2xUTTlpWnNNdm92ZkIyR0N2R2dBNnJ1cDZSWjRhb3hZamFXRjE0a1g3V2JJVFJkWHlYcGd0Y2owSGZkNHlMNWhEeEp4Um5qbEE?oc=5",
+          "title": "APPs Weigh Earlier TIL Referral and Recovery Support in Melanoma - Oncology Nursing News"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "a142b4411d2536",
+      "score": 70,
+      "decision": "reserve",
+      "category": "Nature",
+      "country": "Global",
+      "headline_en": "WWF Details Textile Water Conservation Collaborations, Launches Forest Traceability Tool Finder",
+      "summary_en": "WWF's water conservation collaborations indicate meaningful environmental progress.",
+      "why_good": "Water conservation collaborations indicate positive environmental impact.",
+      "confidence": "medium",
+      "outcome_status": "completed",
+      "significance": "high",
+      "editor_note": "Meaningful environmental progress through WWF's initiatives. Single-source confidence capped at medium. Held for source verification.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "WWD",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSmNYY3UxM045TTFoekc4Z1liRzZ3bWphREY5VGtwX3hyaHlsSC04bVZCWTZHZGVBMU4yV2R1UTlpb3lNcXJHU3VNMG83ZDNVRUU5YlN3TEFzUU1aVFJlX1FvU21tajlTdUxXRGJ3MmRrOTRsU3E5WE9jQlotM1BLcDJRZ1VYYUhXaWUxOGI0R3ExMFB4TEEzcGx2b0RiclNyY1ltQm9mZWxscDVIcWF5OU1NbEVWcXduTnpucXFyZ3FfRW11UlNwb2h0SQ?oc=5",
+          "title": "WWF Details Textile Water Conservation Collaborations, Launches Forest Traceability Tool Finder - WWD"
+        }
+      ],
+      "published_date": "2026-10-28"
     }
   ],
   "rejected": [
@@ -193,12 +326,12 @@
       "category": "People",
       "country": "United States",
       "headline_en": "Coloradans react to Colorado Springs City Council looking to sell old community center building",
-      "summary_en": "Local reactions to a city council decision regarding a community center sale.",
+      "summary_en": "Local council decision lacks completed positive outcome.",
       "why_good": "No positive outcome or development reported.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Local council decision lacks significant positive outcome.",
+      "editor_note": "Local council decision lacks concrete positive outcome.",
       "source_count": 14,
       "sources": [
         {
@@ -241,12 +374,12 @@
       "category": "Other",
       "country": "Spain",
       "headline_en": "Rueda emphasizes rescue efforts and future investigations",
-      "summary_en": "Focus on ongoing rescue efforts without concrete outcomes reported.",
-      "why_good": "No positive outcome or development reported.",
+      "summary_en": "Focus on rescue efforts without positive outcomes.",
+      "why_good": "Focus on rescue efforts without evidence of positive outcomes.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Focus on rescue efforts without concrete outcomes.",
+      "editor_note": "Focus on rescue efforts lacks clear positive outcome.",
       "source_count": 3,
       "sources": [
         {
@@ -273,9 +406,9 @@
       "decision": "reject",
       "category": "Other",
       "country": "Saudi Arabia",
-      "headline_en": "Eastern Province launches initiative \"Today We Rise\"",
-      "summary_en": "Announcement of a new initiative without evidence of results.",
-      "why_good": "No positive outcome or development reported.",
+      "headline_en": "Eastern Province launches initiative 'Today We Rise'",
+      "summary_en": "Initiative launched without evidence of completed positive outcomes.",
+      "why_good": "No clear positive outcome reported.",
       "confidence": "high",
       "outcome_status": "announcement",
       "significance": "low",
@@ -301,56 +434,18 @@
       "published_date": "2026-10-28"
     },
     {
-      "id": "3ef88d69d5132d",
-      "score": 0,
-      "decision": "reject",
-      "category": "Other",
-      "country": "Russia",
-      "headline_en": "Yandex restores access to 96% of data on Disk",
-      "summary_en": "Yandex reports data recovery without broader implications.",
-      "why_good": "No positive outcome or development reported.",
-      "confidence": "high",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Data recovery announcement does not indicate broader significance.",
-      "source_count": 3,
-      "sources": [
-        {
-          "publisher": "Rozetked.me",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdFJzaGJJaTFGV1RDc0NTNWFvNVhqWEwtOGZaWDZjV1FDWU5nQmN2Z2NzZkpzZ3dtZ2xjWWtIYmdvQXV0YUtuaVNUa18tTE4zTGFnbVRoQ2NoV0MxOHM0eV9SUWJKUDd6YTdyMWhhX3RLRU5rYXNUek00dzBISWlKSldvVjY?oc=5",
-          "title": "«Яндекс» восстановил доступ к 96% данных на «Диске» - Rozetked.me"
-        },
-        {
-          "publisher": "CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBiNVpqa2VOeGxmVGFHeWh2aXFWX19TRUhKRDFhcUMyZnNHalhhU3l0bXB6MU9mXzE3cndYTFhyWERwa2o1ZmZFLTE5aGRQNlgzdXdocEZ2R2lMODU1aU9oS0JIM1g4WERPYmlvZkEwR241bGR5LUtV?oc=5",
-          "title": "«Яндекс» восстановил доступ к 96% данных на «Диске» - CNews.ru"
-        },
-        {
-          "publisher": "Интерфакс",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4yZ2FJYUIxLVlKWjJodFg4OFBZYWJKUk1BbVZJMkY4TU1ZRlVVTVI1enhxZXlmS2dzdTBZYlZVUVFoLTlIUTRpaWtxU1BtQ1HSAUtBVV95cUxPbUZrbzRYeE1DZzdnR0MzS1g3Q0FPNnViZUdyUTU1ci1qNmFFN2YtVXlnc18wY05kWEdVTk9oZGZRejk0SjFhSHhfcXM?oc=5",
-          "title": "\"Яндекс\" восстановил доступ к 96% данных на \"Диске\" - Интерфакс"
-        },
-        {
-          "publisher": "Интерфакс",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tRmtvNFh4TUNnN2dHQzNLWDdDQU82dWJlR3JRNTVyLWo2YUU3Zi1VeWdzXzBjTmRYR1VOT2hkZlF6OTRKMWFIeF9xc9IBS0FVX3lxTE9tRmtvNFh4TUNnN2dHQzNLWDdDQU82dWJlR3JRNTVyLWo2YUU3Zi1VeWdzXzBjTmRYR1VOT2hkZlF6OTRKMWFIeF9xcw?oc=5",
-          "title": "\"Яндекс\" восстановил доступ к 96% данных на \"Диске\" - Интерфакс"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
       "id": "bb326cf5e9bf1b",
       "score": 0,
       "decision": "reject",
       "category": "Other",
       "country": "Spain",
       "headline_en": "Castilla y León mobilizes rescue group after Toledo train accident",
-      "summary_en": "Focus on rescue mobilization without completed outcomes reported.",
-      "why_good": "No positive outcome or development reported.",
+      "summary_en": "Focus on rescue efforts without positive outcomes.",
+      "why_good": "Focus on rescue efforts without evidence of positive outcomes.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Response to train accident lacks evidence of positive outcomes.",
+      "editor_note": "Response to accident lacks evidence of positive outcome.",
       "source_count": 3,
       "sources": [
         {
@@ -378,12 +473,12 @@
       "category": "Other",
       "country": "Spain",
       "headline_en": "Aragón offers helicopters for rescue after Toledo train accident",
-      "summary_en": "Discusses helicopter support for rescue without completed outcomes.",
-      "why_good": "No positive outcome or development reported.",
+      "summary_en": "Focus on rescue efforts without positive outcomes.",
+      "why_good": "Focus on rescue efforts without evidence of positive outcomes.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Helicopter support for rescue lacks measurable positive impact.",
+      "editor_note": "Emergency response lacks clear positive results.",
       "source_count": 3,
       "sources": [
         {
@@ -410,13 +505,13 @@
       "decision": "reject",
       "category": "Other",
       "country": "Indonesia",
-      "headline_en": "Aceh police uncover 18 hectares of marijuana field",
-      "summary_en": "Reports on drug field discovery without positive impact.",
+      "headline_en": "Police uncover 18 hectares of marijuana field in Aceh Utara",
+      "summary_en": "Drug field discovery lacks broader positive implications.",
       "why_good": "No positive outcome or development reported.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Drug field discovery does not indicate a positive societal outcome.",
+      "editor_note": "Drug bust lacks broader societal impact.",
       "source_count": 2,
       "sources": [
         {
@@ -437,14 +532,14 @@
       "score": 0,
       "decision": "reject",
       "category": "Other",
-      "country": "Brazil",
+      "country": "Global",
       "headline_en": "Oil prices drop nearly $2 after Middle East negotiations advance",
-      "summary_en": "Discusses oil price changes without positive outcomes.",
+      "summary_en": "Market fluctuations do not indicate positive developments.",
       "why_good": "No positive outcome or development reported.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Market fluctuations do not represent a positive development.",
+      "editor_note": "Market fluctuations do not indicate positive developments.",
       "source_count": 2,
       "sources": [
         {
@@ -461,18 +556,46 @@
       "published_date": "2026-10-28"
     },
     {
+      "id": "493a5a2cd6ab78",
+      "score": 0,
+      "decision": "reject",
+      "category": "Other",
+      "country": "United Arab Emirates",
+      "headline_en": "Al Hamriyah Municipality distributes state flags for 'Flag for Every Home' initiative",
+      "summary_en": "Local initiative lacks evidence of meaningful impact.",
+      "why_good": "No positive outcome or development reported.",
+      "confidence": "high",
+      "outcome_status": "unclear",
+      "significance": "low",
+      "editor_note": "Local initiative lacks evidence of meaningful impact.",
+      "source_count": 2,
+      "sources": [
+        {
+          "publisher": "أخبار عجمان",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9OVVZieVlqRGtnRy1Kd0V5SVdvaVpucFJac3dwdlltb1hVSzBVQkV4eFhhN0Niam9sWnpUZjJlRXVhQUY2eGhqNmZhMW1qX292a1I4cGtZemdhNEwtcmJYaUNB?oc=5",
+          "title": "بلدية الحمرية تباشر بتوزيع أعلام الدولة ضمن مبادرتها مبادرة «علم لكل بيت» استعدادا ليوم العلم - أخبار عجمان"
+        },
+        {
+          "publisher": "Sharjah24",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01S1ZnVDZwNmFVUVlqWm9MQjc3NnduclhiUFZSa2UtZ1k5ZWdDdndXN3RKUWZpbFBaV2FBZ1lndkVMVzdUVzRTS0xNYVJ2SkVIU3I2dEJpdk9XNVM2ZkE?oc=5",
+          "title": "بلدية الحمرية تباشر بتوزيع أعلام الدولة ضمن مبادرة \"علم لكل بيت\" - Sharjah24"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
       "id": "e6b60620ddc70f",
       "score": 0,
       "decision": "reject",
       "category": "Other",
       "country": "Bahrain",
       "headline_en": "Properties participates in Tree Week initiative",
-      "summary_en": "Announces participation in tree week without evidence of impact.",
+      "summary_en": "Participation in tree week lacks evidence of positive outcomes.",
       "why_good": "No positive outcome or development reported.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Tree week initiative lacks evidence of significant impact.",
+      "editor_note": "Tree planting initiative lacks measurable outcomes.",
       "source_count": 2,
       "sources": [
         {
@@ -494,13 +617,13 @@
       "decision": "reject",
       "category": "Other",
       "country": "Spain",
-      "headline_en": "Heritage authorizes dismantling and restoration of church retable",
-      "summary_en": "Discusses restoration plans without completed outcomes.",
+      "headline_en": "Heritage authorizes dismantling and restoration of church altarpiece",
+      "summary_en": "Restoration project lacks evidence of broader community benefit.",
       "why_good": "No positive outcome or development reported.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Restoration project lacks evidence of broader community benefit.",
+      "editor_note": "Restoration project lacks evidence of broader impact.",
       "source_count": 2,
       "sources": [
         {
@@ -522,13 +645,13 @@
       "decision": "reject",
       "category": "Other",
       "country": "Oman",
-      "headline_en": "Discussion on protecting children in the digital environment",
-      "summary_en": "Focuses on a discussion without evidence of positive outcomes.",
+      "headline_en": "Dialogue on child protection in the digital environment",
+      "summary_en": "Discussion on child protection lacks evidence of actionable outcomes.",
       "why_good": "No positive outcome or development reported.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Discussion on child protection lacks concrete outcomes.",
+      "editor_note": "Discussion lacks concrete outcomes or solutions.",
       "source_count": 2,
       "sources": [
         {
@@ -550,13 +673,13 @@
       "decision": "reject",
       "category": "Nature",
       "country": "United States",
-      "headline_en": "Solani introduces recovery skincare for the overload era",
-      "summary_en": "Introduces a product without evidence of positive impact.",
+      "headline_en": "Solani Introduces Recovery Skincare for the Overload Era",
+      "summary_en": "Product introduction lacks evidence of positive impact.",
       "why_good": "No positive outcome or development reported.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Product introduction lacks evidence of positive societal impact.",
+      "editor_note": "Product introduction lacks evidence of positive impact.",
       "source_count": 2,
       "sources": [
         {
@@ -577,14 +700,14 @@
       "score": 0,
       "decision": "reject",
       "category": "Other",
-      "country": "Saudi Arabia",
-      "headline_en": "AFG Retail stock rebounds from key support levels",
-      "summary_en": "Discusses stock performance without positive outcomes.",
+      "country": "Global",
+      "headline_en": "AFG Retail stock rebounds from key support levels amid improved momentum indicators",
+      "summary_en": "Market analysis does not indicate positive developments.",
       "why_good": "No positive outcome or development reported.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Stock performance does not indicate a positive development.",
+      "editor_note": "Market analysis lacks relevance to positive developments.",
       "source_count": 2,
       "sources": [
         {
@@ -606,13 +729,13 @@
       "decision": "reject",
       "category": "Other",
       "country": "Spain",
-      "headline_en": "Experts warn AI advancement requires stronger human control",
-      "summary_en": "Discusses AI control without evidence of positive outcomes.",
+      "headline_en": "Experts warn at VLCTESTING that AI advancement requires stronger human control",
+      "summary_en": "Warnings about AI lack evidence of positive outcomes.",
       "why_good": "No positive outcome or development reported.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "AI control discussion lacks evidence of actionable outcomes.",
+      "editor_note": "Warnings about AI lack evidence of positive outcomes.",
       "source_count": 2,
       "sources": [
         {
@@ -629,46 +752,18 @@
       "published_date": "2026-10-28"
     },
     {
-      "id": "1898a453926177",
-      "score": 0,
-      "decision": "reject",
-      "category": "Other",
-      "country": "China",
-      "headline_en": "Beijing Zoo responds to panda Menglan's health status",
-      "summary_en": "Reports on panda's health without broader implications.",
-      "why_good": "No positive outcome or development reported.",
-      "confidence": "high",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Panda health update lacks broader significance.",
-      "source_count": 2,
-      "sources": [
-        {
-          "publisher": "搜狐网",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZS1wTGljWlprUzhPVU5GOUxtYTFSRThfR1J5QTc5WjZqbjQ3M1A1RksyOFZPUWVycmlxWHROdlRoM0JRRWRPdzd1SWVydURKYV9fSGdtUU5WTmtiaDRoS3h2THFvY19GLWpYbHFMcWZjZ01DVXpIUkZCQllmWkVBTWYxRHh1ek9FNk04eg?oc=5",
-          "title": "北京动物园回应大熊猫“萌兰”身体状况：已恢复外展 目前状态平稳 - 搜狐网"
-        },
-        {
-          "publisher": "川观新闻",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE00M2loeTRuOFZ5X3hVQWg5QjBxOVRIWTVpTERxcl96WFZJNkhMTTBWbzd6QnhFS0JZSFExSW9KNjNmN0NyVm5TWmJPUTlkZw?oc=5",
-          "title": "北京动物园回应大熊猫“萌兰”身体状况：已恢复外展 目前状态平稳 - 川观新闻"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
       "id": "5f89243dd37fec",
       "score": 0,
       "decision": "reject",
       "category": "Other",
       "country": "Spain",
-      "headline_en": "Castilla y León shows solidarity with Toledo after train accident",
-      "summary_en": "Discusses rescue efforts without completed outcomes.",
-      "why_good": "No positive outcome or development reported.",
+      "headline_en": "Castilla y León expresses solidarity with Toledo and sends rescue group",
+      "summary_en": "Focus on rescue efforts without positive outcomes.",
+      "why_good": "Focus on rescue efforts without evidence of positive outcomes.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Rescue group response lacks measurable positive impact.",
+      "editor_note": "Solidarity response lacks evidence of positive outcomes.",
       "source_count": 2,
       "sources": [
         {
@@ -686,17 +781,17 @@
     },
     {
       "id": "06f0162346f62f",
-      "score": 20,
+      "score": 0,
       "decision": "reject",
       "category": "Other",
-      "country": "Global",
-      "headline_en": "Castilla y León mobilizes rescue group for train accident in Toledo",
-      "summary_en": "Focuses on rescue efforts after a train accident, lacks positive outcome.",
-      "why_good": "Focuses on rescue efforts after a train accident, lacks positive outcome.",
+      "country": "Spain",
+      "headline_en": "Castilla y León mobilizes rescue group for Toledo train accident",
+      "summary_en": "Focus on rescue efforts without positive outcomes.",
+      "why_good": "Emergency response lacks evidence of positive impact.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "No positive outcomes reported.",
+      "editor_note": "Emergency response lacks evidence of positive outcomes.",
       "source_count": 2,
       "sources": [
         {
@@ -714,17 +809,17 @@
     },
     {
       "id": "6a0ba346aeab5b",
-      "score": 20,
+      "score": 0,
       "decision": "reject",
       "category": "Other",
-      "country": "Global",
-      "headline_en": "Aragón offers helicopters for train accident rescue in Toledo",
-      "summary_en": "Describes rescue efforts without evidence of positive outcomes.",
-      "why_good": "Describes rescue efforts without evidence of positive outcomes.",
+      "country": "Spain",
+      "headline_en": "Aragón offers medical helicopters for rescue after train accident in Toledo",
+      "summary_en": "Focus on rescue efforts without positive outcomes.",
+      "why_good": "Emergency response lacks evidence of positive outcomes.",
       "confidence": "high",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "No positive outcomes reported.",
+      "editor_note": "Emergency response lacks evidence of positive outcomes.",
       "source_count": 2,
       "sources": [
         {
@@ -742,17 +837,17 @@
     },
     {
       "id": "2e310247f5c5a3",
-      "score": 20,
+      "score": 50,
       "decision": "reject",
       "category": "Other",
       "country": "Global",
-      "headline_en": "Aragón provides helicopters for train accident rescue efforts",
-      "summary_en": "Similar to previous, focuses on rescue efforts without positive results.",
-      "why_good": "Similar to previous, focuses on rescue efforts without positive results.",
-      "confidence": "high",
+      "headline_en": "Aragón offers helicopters for rescue efforts in train accident",
+      "summary_en": "Aragón has provided helicopters to assist in rescue efforts following a train accident, but outcomes are not yet evident.",
+      "why_good": "Involves rescue efforts but lacks evidence of positive outcomes.",
+      "confidence": "medium",
       "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "No positive outcomes reported.",
+      "significance": "medium",
+      "editor_note": "Awaiting evidence of successful rescue outcomes.",
       "source_count": 2,
       "sources": [
         {
@@ -769,18 +864,51 @@
       "published_date": "2026-10-28"
     },
     {
-      "id": "19901a9e3a6965",
-      "score": 20,
+      "id": "3ef88d69d5132d",
+      "score": 60,
       "decision": "reject",
       "category": "Other",
       "country": "Global",
-      "headline_en": "Consumer protection measures for Black Friday discounts discussed",
-      "summary_en": "Discusses consumer protection without a clear positive outcome.",
-      "why_good": "Discusses consumer protection without a clear positive outcome.",
-      "confidence": "high",
+      "headline_en": "Yandex restores access to 96% of data on Disk",
+      "summary_en": "Yandex has restored access to a significant portion of data on its Disk service, but broader impact is unclear.",
+      "why_good": "Restoration of data access is positive but lacks broader impact evidence.",
+      "confidence": "medium",
+      "outcome_status": "completed",
+      "significance": "medium",
+      "editor_note": "Needs more context on user impact.",
+      "source_count": 2,
+      "sources": [
+        {
+          "publisher": "CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBiNVpqa2VOeGxmVGFHeWh2aXFWX19TRUhKRDFhcUMyZnNHalhhU3l0bXB6MU9mXzE3cndYTFhyWERwa2o1ZmZFLTE5aGRQNlgzdXdocEZ2R2lMODU1aU9oS0JIM1g4WERPYmlvZkEwR241bGR5LUtV?oc=5",
+          "title": "«Яндекс» восстановил доступ к 96% данных на «Диске» - CNews.ru"
+        },
+        {
+          "publisher": "Интерфакс",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4yZ2FJYUIxLVlKWjJodFg4OFBZYWJKUk1BbVZJMkY4TU1ZRlVVTVI1enhxZXlmS2dzdTBZYlZVUVFoLTlIUTRpaWtxU1BtQ1HSAUtBVV95cUxPbUZrbzRYeE1DZzdnR0MzS1g3Q0FPNnViZUdyUTU1ci1qNmFFN2YtVXlnc18wY05kWEdVTk9oZGZRejk0SjFhSHhfcXM?oc=5",
+          "title": "\"Яндекс\" восстановил доступ к 96% данных на \"Диске\" - Интерфакс"
+        },
+        {
+          "publisher": "Интерфакс",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tRmtvNFh4TUNnN2dHQzNLWDdDQU82dWJlR3JRNTVyLWo2YUU3Zi1VeWdzXzBjTmRYR1VOT2hkZlF6OTRKMWFIeF9xc9IBS0FVX3lxTE9tRmtvNFh4TUNnN2dHQzNLWDdDQU82dWJlR3JRNTVyLWo2YUU3Zi1VeWdzXzBjTmRYR1VOT2hkZlF6OTRKMWFIeF9xcw?oc=5",
+          "title": "\"Яндекс\" восстановил доступ к 96% данных на \"Диске\" - Интерфакс"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "19901a9e3a6965",
+      "score": 40,
+      "decision": "reject",
+      "category": "Other",
+      "country": "Global",
+      "headline_en": "Consumer protection agency intensifies oversight for Black Friday discounts",
+      "summary_en": "Consumer protection agency is increasing oversight to ensure genuine discounts during Black Friday, but lacks evidence of outcomes.",
+      "why_good": "Focus on consumer protection lacks evidence of concrete positive outcomes.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "No positive outcomes reported.",
+      "editor_note": "No evidence of impact on consumer rights.",
       "source_count": 2,
       "sources": [
         {
@@ -798,17 +926,17 @@
     },
     {
       "id": "1a4e03360dcf4a",
-      "score": 20,
+      "score": 50,
       "decision": "reject",
       "category": "Other",
       "country": "Global",
       "headline_en": "Debt fund size surpasses 12.6 trillion yuan",
-      "summary_en": "Financial news without evidence of positive societal impact.",
-      "why_good": "Financial news without evidence of positive societal impact.",
-      "confidence": "high",
+      "summary_en": "Financial data reported regarding debt fund size, but lacks evidence of positive societal impact.",
+      "why_good": "Financial data lacks relevance to positive human or environmental developments.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "No positive outcomes reported.",
+      "editor_note": "No societal impact reported.",
       "source_count": 2,
       "sources": [
         {
@@ -826,17 +954,17 @@
     },
     {
       "id": "561cb37d399904",
-      "score": 20,
+      "score": 30,
       "decision": "reject",
       "category": "People",
-      "country": "Global",
-      "headline_en": "Two people rescued from burning apartment building in Cedar Rapids",
-      "summary_en": "Rescue of individuals from a fire lacks broader significance.",
-      "why_good": "Rescue of individuals from a fire lacks broader significance.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "country": "United States",
+      "headline_en": "Two people rescued from burning apartment building",
+      "summary_en": "Two individuals were rescued from a burning apartment building, but the incident lacks broader significance.",
+      "why_good": "Rescue of individuals lacks broader significance or systemic change.",
+      "confidence": "low",
+      "outcome_status": "completed",
       "significance": "low",
-      "editor_note": "No broader impact reported. Single-source confidence capped at medium.",
+      "editor_note": "Local incident without broader implications.",
       "source_count": 1,
       "sources": [
         {
@@ -854,17 +982,17 @@
     },
     {
       "id": "6dd15780dfe568",
-      "score": 20,
+      "score": 30,
       "decision": "reject",
       "category": "People",
-      "country": "Global",
-      "headline_en": "Half a dozen dogs rescued from house fire in DC",
-      "summary_en": "Rescue of dogs from a fire does not demonstrate broader impact.",
-      "why_good": "Rescue of dogs from a fire does not demonstrate broader impact.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "country": "United States",
+      "headline_en": "Half a dozen dogs rescued from house fire",
+      "summary_en": "A rescue of dogs from a house fire occurred, but lacks broader conservation significance.",
+      "why_good": "Rescue of dogs lacks broader conservation or systemic significance.",
+      "confidence": "low",
+      "outcome_status": "completed",
       "significance": "low",
-      "editor_note": "No broader impact reported. Single-source confidence capped at medium.",
+      "editor_note": "Local rescue without broader impact.",
       "source_count": 1,
       "sources": [
         {
@@ -877,17 +1005,17 @@
     },
     {
       "id": "97a3173f200047",
-      "score": 20,
+      "score": 30,
       "decision": "reject",
       "category": "People",
-      "country": "Global",
-      "headline_en": "Couple charged after three children rescued from West Virginia house",
-      "summary_en": "Rescue of children from a house lacks broader societal significance.",
-      "why_good": "Rescue of children from a house lacks broader societal significance.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "country": "United States",
+      "headline_en": "Couple charged after three children rescued from house",
+      "summary_en": "Three children were rescued from a dangerous situation, but lacks broader systemic change.",
+      "why_good": "Rescue of children lacks broader implications or systemic change.",
+      "confidence": "low",
+      "outcome_status": "completed",
       "significance": "low",
-      "editor_note": "No broader impact reported. Single-source confidence capped at medium.",
+      "editor_note": "Local incident without broader implications.",
       "source_count": 1,
       "sources": [
         {
@@ -900,17 +1028,17 @@
     },
     {
       "id": "76d09147870fc7",
-      "score": 20,
+      "score": 30,
       "decision": "reject",
       "category": "People",
-      "country": "Global",
-      "headline_en": "Person injured, dogs rescued after Delaware County home explosion",
-      "summary_en": "Incident of home explosion lacks evidence of positive outcomes.",
-      "why_good": "Incident of home explosion lacks evidence of positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "country": "United States",
+      "headline_en": "Person injured, dogs rescued after home explosion",
+      "summary_en": "An incident involving a home explosion and rescue occurred, but lacks broader significance.",
+      "why_good": "Incident lacks broader significance beyond immediate rescue.",
+      "confidence": "low",
+      "outcome_status": "completed",
       "significance": "low",
-      "editor_note": "No positive outcomes reported. Single-source confidence capped at medium.",
+      "editor_note": "Local incident without broader implications.",
       "source_count": 1,
       "sources": [
         {
@@ -927,18 +1055,41 @@
       "published_date": "2026-10-28"
     },
     {
-      "id": "1520a218730bdb",
-      "score": 20,
+      "id": "3bf0d4dae5d376",
+      "score": 40,
       "decision": "reject",
       "category": "People",
       "country": "Global",
-      "headline_en": "Driver rescued after train collides with van",
-      "summary_en": "Rescue of a driver lacks broader significance or positive outcome.",
-      "why_good": "Rescue of a driver lacks broader significance or positive outcome.",
-      "confidence": "medium",
+      "headline_en": "Nemonte Nenquimo discusses the need for rescue",
+      "summary_en": "Nemonte Nenquimo shares her narrative on the need for rescue, but lacks evidence of broader outcomes.",
+      "why_good": "Focus on individual narrative lacks evidence of broader impact.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "No broader impact reported. Single-source confidence capped at medium.",
+      "editor_note": "No broader implications reported.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQamxuYXp1bGE1QlNHU3hyUHdLa0FFam9LYTZnSjhRRDhHTFVRck5ic0Z5d3hxLVBTdkF1NXNCak91YWlHSkUtSkFaRHI1akVUNFMwYTA0TWJOV2d4eG40TEdiNWFxd1Bra3VJVDJiY3ZPN0kxTlkxZFZISmlRR08yMjNiZG54RWVEYUdEOHJ1T2Z2dkNUTTk4RmlTNFBrUFJDcnV4RjlhVE02N3gtMnpiMEpjendnQV9Sc2paN0c4SFZDQXZMQWM5M2hYdXZsMUxBaHdfYXc4Y2pKQ2d5VzdyaURibExhQzg?oc=5",
+          "title": "‘I am mother, leader, warrior of the Amazon’: Nemonte Nenquimo on why the west needs to be rescued - The Guardian"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "1520a218730bdb",
+      "score": 30,
+      "decision": "reject",
+      "category": "People",
+      "country": "United States",
+      "headline_en": "Driver rescued after train collides with van",
+      "summary_en": "A driver was rescued after a train collision, but the incident lacks broader significance.",
+      "why_good": "Rescue incident lacks broader significance or systemic change.",
+      "confidence": "low",
+      "outcome_status": "completed",
+      "significance": "low",
+      "editor_note": "Local incident without broader implications.",
       "source_count": 1,
       "sources": [
         {
@@ -951,17 +1102,17 @@
     },
     {
       "id": "0c808d56265338",
-      "score": 20,
+      "score": 50,
       "decision": "reject",
       "category": "Other",
-      "country": "Global",
-      "headline_en": "Historic hotel being rescued after 55 years of decline",
-      "summary_en": "Rescue of a historic hotel lacks evidence of positive community impact.",
-      "why_good": "Rescue of a historic hotel lacks evidence of positive community impact.",
-      "confidence": "medium",
+      "country": "United States",
+      "headline_en": "Historic hotel being rescued after 55 years",
+      "summary_en": "A historic hotel is being restored, but lacks evidence of community impact.",
+      "why_good": "Restoration of a hotel lacks evidence of community or environmental impact.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "No positive outcomes reported. Single-source confidence capped at medium.",
+      "editor_note": "Awaiting evidence of community benefits.",
       "source_count": 1,
       "sources": [
         {
@@ -974,17 +1125,17 @@
     },
     {
       "id": "af21e20b525f5d",
-      "score": 20,
+      "score": 30,
       "decision": "reject",
       "category": "People",
-      "country": "Global",
-      "headline_en": "2 rescued from Cedar Rapids apartment fire on 31st St. NE",
-      "summary_en": "Rescue from fire lacks broader significance or positive outcome.",
-      "why_good": "Rescue from fire lacks broader significance or positive outcome.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "country": "United States",
+      "headline_en": "2 rescued from Cedar Rapids apartment fire",
+      "summary_en": "Two individuals were rescued from an apartment fire, but lacks broader significance.",
+      "why_good": "Rescue incident lacks broader significance or systemic change.",
+      "confidence": "low",
+      "outcome_status": "completed",
       "significance": "low",
-      "editor_note": "No broader impact reported. Single-source confidence capped at medium.",
+      "editor_note": "Local incident without broader implications.",
       "source_count": 1,
       "sources": [
         {
@@ -997,17 +1148,17 @@
     },
     {
       "id": "7631413241c307",
-      "score": 20,
+      "score": 30,
       "decision": "reject",
       "category": "People",
-      "country": "Global",
-      "headline_en": "Hikers rescued from California mountain after being stranded for 36 hours",
-      "summary_en": "Rescue of hikers lacks evidence of broader positive impact.",
-      "why_good": "Rescue of hikers lacks evidence of broader positive impact.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "country": "United States",
+      "headline_en": "Hikers rescued from California mountain",
+      "summary_en": "Hikers were rescued after being stranded, but lacks broader significance.",
+      "why_good": "Rescue of hikers lacks broader implications or systemic change.",
+      "confidence": "low",
+      "outcome_status": "completed",
       "significance": "low",
-      "editor_note": "No broader impact reported. Single-source confidence capped at medium.",
+      "editor_note": "Local incident without broader implications.",
       "source_count": 1,
       "sources": [
         {
@@ -1019,18 +1170,87 @@
       "published_date": "2026-10-28"
     },
     {
+      "id": "003a276a458eb8",
+      "score": 60,
+      "decision": "reject",
+      "category": "Other",
+      "country": "Global",
+      "headline_en": "Minister discusses national platforms for development",
+      "summary_en": "A minister discusses national platforms as a means for development, but lacks evidence of outcomes.",
+      "why_good": "Focus on national platforms indicates potential for positive development.",
+      "confidence": "medium",
+      "outcome_status": "announcement",
+      "significance": "medium",
+      "editor_note": "Awaiting evidence of concrete outcomes.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "بوابة الشروق",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWjA2VURQVHNHZVM2bUI5ZUc1XzR1SmE1d3F2VUhrWWRsOXRpV0ExSWh0Q0RMSDZ5aTc5RTRSRjFQa3FCSld0QWI1S2x6OGVnb3ZZcDZFbTZobFdYQ2NSb0ZnYWVEZC1LXzZUdVJKUjZRNEdjcVNUS3NLaUkybU5IVzQtX3BLamVHOGJPd0Y2MV9YOGU4eHU1Mjh4MXpJSVdyT2pwY1liZw?oc=5",
+          "title": "وزير التخطيط: المنصات الوطنية آلية فاعلة لترجمة طموحاتنا التنموية لمشروعات تحسن جودة حياة المواطنين - بوابة الشروق"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "db5b825b919dea",
+      "score": 40,
+      "decision": "reject",
+      "category": "Other",
+      "country": "Global",
+      "headline_en": "Consumer protection warns of fake discounts",
+      "summary_en": "Consumer protection agency warns about fake discounts, but lacks evidence of outcomes.",
+      "why_good": "Consumer warning lacks evidence of concrete outcomes.",
+      "confidence": "low",
+      "outcome_status": "unclear",
+      "significance": "low",
+      "editor_note": "No evidence of impact on consumer rights.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "صدى البلد",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9rbXhXMWl4TGIyTWxUN0ptQlppZ2F4V2ZNei0zWmU2QjZJVjR1UEJDN1F0N2hmVDRnN0IxRnNHa2U1TUNuUGpz?oc=5",
+          "title": "حماية المستهلك يحذر من التخفيضات الوهمية ويوضح حقوق المواطنين في الاسترجاع - صدى البلد"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "d445a81b5b0d66",
+      "score": 30,
+      "decision": "reject",
+      "category": "People",
+      "country": "Global",
+      "headline_en": "Rescue of a boat driver who lost consciousness",
+      "summary_en": "An individual was rescued after losing consciousness on a boat, but lacks broader significance.",
+      "why_good": "Rescue incident lacks broader significance or systemic change.",
+      "confidence": "low",
+      "outcome_status": "completed",
+      "significance": "low",
+      "editor_note": "Local incident without broader implications.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "Panram.ru",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQzVLSHh2RmozcHc1U09ZTWgyaTNWMjFzTEg2TjRGcUxtdEhnR0R5dklvdFZJUDZldldNWEJWWk9aQUdZV3hkdFV2Zno0dHBScjNpemdlSkJjbVMxQ25aOXdYR09Ea0ljZFpTOGtzV1ZUZmUwQ3htMEd0Smp5UC1lMjlmSlJ1TkIxS004NFA4Q0RuT0xVa1gxMjdGVDZ3bW5nZkJOdkt3?oc=5",
+          "title": "В Ростове спасли судоводителя, который потерял сознание прямо на воде - Panram.ru"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
       "id": "5f0dd9fcd1d05e",
       "score": 60,
       "decision": "reject",
       "category": "Health",
       "country": "Global",
-      "headline_en": "Sober Sidekick launches Recovery Care Program",
-      "summary_en": "Launch of recovery care program indicates a positive development.",
-      "why_good": "Launch of recovery care program indicates a positive development.",
+      "headline_en": "Sober Sidekick launches recovery care program",
+      "summary_en": "Sober Sidekick has launched a recovery care program, indicating potential positive impact on recovery journeys.",
+      "why_good": "Launch of recovery program indicates potential positive impact on individuals.",
       "confidence": "medium",
       "outcome_status": "announcement",
       "significance": "medium",
-      "editor_note": "Awaiting evidence of implementation and impact.",
+      "editor_note": "Awaiting evidence of program effectiveness.",
       "source_count": 1,
       "sources": [
         {
@@ -1043,17 +1263,17 @@
     },
     {
       "id": "1622670e04b9e8",
-      "score": 20,
+      "score": 40,
       "decision": "reject",
-      "category": "Other",
-      "country": "Global",
-      "headline_en": "Recovery efforts ongoing in Tibet after earthquake",
-      "summary_en": "Describes ongoing recovery efforts without clear positive outcomes.",
-      "why_good": "Describes ongoing recovery efforts without clear positive outcomes.",
+      "category": "Community",
+      "country": "China",
+      "headline_en": "Ongoing disaster recovery efforts in Tibet after earthquake",
+      "summary_en": "Disaster recovery efforts are ongoing in Tibet, but measurable outcomes are not yet reported.",
+      "why_good": "Recovery efforts are important but lack evidence of measurable outcomes.",
       "confidence": "medium",
       "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "No positive outcomes reported. Single-source confidence capped at medium.",
+      "significance": "medium",
+      "editor_note": "Ongoing efforts need measurable results for publication.",
       "source_count": 1,
       "sources": [
         {
@@ -1066,17 +1286,17 @@
     },
     {
       "id": "f2bea40370f8c1",
-      "score": 20,
+      "score": 30,
       "decision": "reject",
-      "category": "Other",
-      "country": "Global",
-      "headline_en": "Rescue efforts by UME and GREIM after train accident in Urda",
-      "summary_en": "Focuses on rescue efforts without evidence of positive outcomes.",
-      "why_good": "Focuses on rescue efforts without evidence of positive outcomes.",
+      "category": "Community",
+      "country": "Spain",
+      "headline_en": "Rescue operations ongoing after train accident in Urda",
+      "summary_en": "Rescue operations are reported following a train accident, but no completed outcomes are mentioned.",
+      "why_good": "Rescue operations are crucial but lack concrete positive outcomes.",
       "confidence": "medium",
       "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "No positive outcomes reported. Single-source confidence capped at medium.",
+      "significance": "medium",
+      "editor_note": "Need more evidence of outcomes from rescue operations.",
       "source_count": 1,
       "sources": [
         {
@@ -1091,15 +1311,15 @@
       "id": "e13b245de0f633",
       "score": 20,
       "decision": "reject",
-      "category": "Other",
-      "country": "Global",
-      "headline_en": "Pflugerville ISD voters to consider joining ACC taxing district",
-      "summary_en": "Voter consideration lacks evidence of positive societal impact.",
-      "why_good": "Voter consideration lacks evidence of positive societal impact.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "category": "People",
+      "country": "United States",
+      "headline_en": "Proposal for Pflugerville ISD to join Austin Community College",
+      "summary_en": "Proposal for community college involvement is discussed, but no outcomes or results are provided.",
+      "why_good": "Proposal lacks evidence of impact or completed outcomes.",
+      "confidence": "low",
+      "outcome_status": "announcement",
       "significance": "low",
-      "editor_note": "No positive outcomes reported. Single-source confidence capped at medium.",
+      "editor_note": "Proposal stage does not meet OWOP criteria.",
       "source_count": 1,
       "sources": [
         {
@@ -1112,17 +1332,17 @@
     },
     {
       "id": "3310e308a05cd2",
-      "score": 20,
+      "score": 40,
       "decision": "reject",
-      "category": "Other",
+      "category": "Community",
       "country": "Indonesia",
-      "headline_en": "150 PLN personnel work to restore electricity transmission",
-      "summary_en": "Describes personnel efforts without clear positive outcomes.",
-      "why_good": "Describes personnel efforts without clear positive outcomes.",
+      "headline_en": "Efforts to restore electricity transmission in Talisayan-Maloy",
+      "summary_en": "Efforts to restore electricity transmission are reported, but measurable impact is lacking.",
+      "why_good": "Restoration efforts are important but lack detailed outcomes.",
       "confidence": "medium",
       "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "No positive outcomes reported. Single-source confidence capped at medium.",
+      "significance": "medium",
+      "editor_note": "Need more evidence of successful restoration.",
       "source_count": 1,
       "sources": [
         {
@@ -1137,15 +1357,15 @@
       "id": "5ec3a3421045f4",
       "score": 20,
       "decision": "reject",
-      "category": "Other",
-      "country": "Global",
-      "headline_en": "Lawmakers, nurses rally as hospital set to end labor services",
-      "summary_en": "Rally for hospital services lacks evidence of positive outcomes.",
-      "why_good": "Rally for hospital services lacks evidence of positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "category": "People",
+      "country": "United States",
+      "headline_en": "Rally against service cuts at Roseland Community Hospital",
+      "summary_en": "A rally is planned against service cuts, but no positive outcomes are reported.",
+      "why_good": "Rally lacks evidence of positive developments or outcomes.",
+      "confidence": "low",
+      "outcome_status": "announcement",
       "significance": "low",
-      "editor_note": "No positive outcomes reported. Single-source confidence capped at medium.",
+      "editor_note": "Rally does not demonstrate measurable impact.",
       "source_count": 1,
       "sources": [
         {
@@ -1157,18 +1377,46 @@
       "published_date": "2026-10-28"
     },
     {
-      "id": "a443b0880e3925",
-      "score": 20,
+      "id": "934fbd9a69c967",
+      "score": 30,
       "decision": "reject",
-      "category": "People",
-      "country": "Russia",
-      "headline_en": "Nine people rescued from fire in Tver apartment building",
-      "summary_en": "Nine individuals were rescued from a fire in a multi-story building in Tver.",
-      "why_good": "Rescue of nine people from a fire is a positive outcome.",
+      "category": "Community",
+      "country": "Spain",
+      "headline_en": "Ongoing rescue efforts after train accident in Toledo",
+      "summary_en": "Rescue efforts are ongoing after a train accident, but no completed outcomes are shared.",
+      "why_good": "Rescue efforts are critical but lack measurable outcomes.",
       "confidence": "medium",
-      "outcome_status": "completed",
-      "significance": "low",
-      "editor_note": "Local incident without broader impact. Single-source confidence capped at medium.",
+      "outcome_status": "unclear",
+      "significance": "medium",
+      "editor_note": "Need more evidence of outcomes from rescue efforts.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "EL PAÍS",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNd1AybEx5U2JUZ3BiQkFYSXc2c0VtM3pYQkdVS3VwdUFuT0J5U2Z2N2xxQnh6X1FNTlhWNXRnWGZSWkNCb2huRXJkZEhhN2dPeDRhNlRoZ2tHTE5IWm9fZ3lwV2E3QlUwb3lvZktVYllpN0h5LWZJRTlVMWo4YnNXQ0QwQXpIdUR5LW9fZUE4OEhXemVXbEdrMWpIc01UdW9TbjdNMFo3UHVGOEJKODJGYkZB0gHGAUFVX3lxTE5PU09aTUVPREJlclNLYnpCaDQtdWNxM1BoZVZmMGl0XzdOb1BxRHY1LU51dWlwbmRUZkl6Q2xlWmdZYzRWOG1sS0VHZmR0X1A4SnQtUzR3b2NybHROeFhKUEpLRFplb0lDUzhlVUhtMm1RRV94V1dZV2RJRTJnZkVYS1ZuTmxfc3NHNGVPMWZtZzlvWExfX0Q4S25BS2IzM2lVNDd0cTZrZ3RnLVBUb05JYnptZ2FGdnJybGF5ekltZHE1QmRIQQ?oc=5",
+          "title": "Las tareas de rescate tras el accidente de trenes en Toledo, en directo - EL PAÍS"
+        },
+        {
+          "publisher": "EL PAÍS",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWlVUeXdjUWs2M1hDS0c2RUZ3Q3lHSVEya1FpVVduVnZld29KVHZYMU5DOW9MQVlGSlM2WU5Xb080WUY1cFBBbTBlaWZZa2d1UjBveW1zUUxySFBuRG9xRmV3VWc3LW9nUUxvZ3FZbVNtcWRFV1U2VEtsMkZVaEJQSHhqWlplU0NTaFdFSE16MmZBYi1vbDNYbDhrNGVYd0Z10gG0AUFVX3lxTE5KOHIzX0xIaXktTEdZWXBhRjRUOHFrR0dDb01GRERsRlhkU3BucUFzTEpxUlZVMVBrR2pMQ0NhU29fWGR2WDIxdU9KQ0kwQ0doaGlNSFliRTRNXzlQUzNvRXY3VzlpRGFWTU5UbkN6anlIdEcxTTN6cVFMQ3J3SXZWeHc0YS1FVGxpQm5PVHBJWWVRMVdMMXNTaW9tbW5RTDlwWDNMeVB1T0trNWQzSUh3OWtyUw?oc=5",
+          "title": "Las tareas de rescate en el accidente de trenes de Toledo - EL PAÍS"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "a443b0880e3925",
+      "score": 40,
+      "decision": "reject",
+      "category": "Community",
+      "country": "Russia",
+      "headline_en": "Nine people rescued from fire in apartment building in Tver",
+      "summary_en": "Fire rescue reported, but lacks broader implications or measurable outcomes.",
+      "why_good": "Rescue is important but lacks broader significance or impact.",
+      "confidence": "medium",
+      "outcome_status": "unclear",
+      "significance": "medium",
+      "editor_note": "Need more evidence of broader impact.",
       "source_count": 1,
       "sources": [
         {
@@ -1181,17 +1429,17 @@
     },
     {
       "id": "e3723dfe9ece5d",
-      "score": 10,
+      "score": 20,
       "decision": "reject",
       "category": "Other",
       "country": "Germany",
-      "headline_en": "Hybrid threats in Germany: expanding protection for critical infrastructure",
-      "summary_en": "Discussion on hybrid threats in Germany lacks concrete positive outcomes.",
-      "why_good": "Focus on hybrid threats lacks concrete positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "headline_en": "Discussion on hybrid threats and infrastructure protection in Germany",
+      "summary_en": "Discussion on hybrid threats is reported, but no concrete positive developments are mentioned.",
+      "why_good": "Discussion lacks evidence of actionable outcomes or solutions.",
+      "confidence": "low",
+      "outcome_status": "announcement",
       "significance": "low",
-      "editor_note": "No evidence of completed protective measures.",
+      "editor_note": "Discussion does not meet OWOP criteria.",
       "source_count": 1,
       "sources": [
         {
@@ -1203,64 +1451,18 @@
       "published_date": "2026-10-28"
     },
     {
-      "id": "cc0c6d58321cbf",
-      "score": 15,
-      "decision": "reject",
-      "category": "Other",
-      "country": "Global",
-      "headline_en": "Galen M. Hair rethinks disaster recovery",
-      "summary_en": "Discussion on disaster recovery lacks evidence of positive outcomes.",
-      "why_good": "Rethinking disaster recovery lacks concrete outcomes or evidence.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "No specific evidence of outcomes.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "Entrepreneur",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU2ppMGxHYU1FWDdOaXlQeThsdVhqODdUclFCYmlkZXF0WDgyWk1MOFF1ckQ5TklXMDhjR2ZWNE5kaGZaZXItQ016T1JORnpnRFF2bmlCVkVRdzFZc2dsM1pWZmdISWZ4a1IxVDZTUXdvdGFtZ2JBYzdWVEhlLTlCanNUWEtzb05ra09lOTBBYWt6T19Kd2h6cWt4eDR2RnVEbWVHbFhNMFA1Zw?oc=5",
-          "title": "Galen M. Hair Is Rethinking What Disaster Recovery Can Look Like - Entrepreneur"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
-      "id": "6d894333f8b872",
-      "score": 10,
-      "decision": "reject",
-      "category": "Nature",
-      "country": "Global",
-      "headline_en": "Disney invests $1m in Jane Goodall’s youth conservation programme",
-      "summary_en": "Disney announced a $1 million investment in a youth conservation program.",
-      "why_good": "Investment in a program does not guarantee measurable outcomes.",
-      "confidence": "medium",
-      "outcome_status": "announcement",
-      "significance": "low",
-      "editor_note": "No completed results from the program.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "Blooloop",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1sZzZvZnJQYVpwZjNsaW43YUdTc2tZNWQ0TnpycmJ2TGFsLWJIclloU3N1eDNMNk9rMHl6N1ZOQlBrd0FLRDdLX0s2SHExVUJENFl6aDNZNG9weWItQkJ4QTVfMDRUa1A1NXljcW9ScEFyWURheWtPWQ?oc=5",
-          "title": "Disney invests $1m in Jane Goodall’s youth conservation programme - Blooloop"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
       "id": "dd3963ebff3791",
-      "score": 15,
+      "score": 20,
       "decision": "reject",
       "category": "Other",
       "country": "Spain",
-      "headline_en": "Green light for restoration of altar in Astorga",
-      "summary_en": "Restoration of an altar in Astorga is planned but lacks evidence of impact.",
-      "why_good": "Restoration project mentioned, but no evidence of completion or impact.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "headline_en": "Restoration project announced for a retablo in Astorga",
+      "summary_en": "Restoration project is announced, but no evidence of completed outcomes is provided.",
+      "why_good": "Announcement lacks evidence of measurable outcomes.",
+      "confidence": "low",
+      "outcome_status": "announcement",
       "significance": "low",
-      "editor_note": "Local cultural project without broader significance.",
+      "editor_note": "Announcement stage does not meet OWOP criteria.",
       "source_count": 1,
       "sources": [
         {
@@ -1273,17 +1475,17 @@
     },
     {
       "id": "c1eafdf135a3aa",
-      "score": 10,
+      "score": 30,
       "decision": "reject",
       "category": "Health",
       "country": "China",
-      "headline_en": "Article on male fertility protection",
-      "summary_en": "Discussion on male fertility protection lacks concrete outcomes.",
-      "why_good": "Focus on male fertility protection lacks concrete outcomes.",
+      "headline_en": "Discussion on male fertility protection",
+      "summary_en": "Discussion on male fertility protection is reported, but lacks concrete outcomes.",
+      "why_good": "Discussion is important but lacks actionable outcomes.",
       "confidence": "medium",
       "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "No evidence of positive results.",
+      "significance": "medium",
+      "editor_note": "Need evidence of actionable outcomes for publication.",
       "source_count": 1,
       "sources": [
         {
@@ -1296,17 +1498,17 @@
     },
     {
       "id": "bbe1175b4f6c15",
-      "score": 15,
+      "score": 40,
       "decision": "reject",
       "category": "Nature",
       "country": "Canada",
-      "headline_en": "Declining office availability suggests early recovery in Ottawa",
-      "summary_en": "Signs of recovery in Ottawa's office market are noted but not concrete.",
-      "why_good": "Recovery signs in Ottawa are not yet concrete outcomes.",
+      "headline_en": "Signs of recovery in Ottawa's office market reported",
+      "summary_en": "Recovery signs in office space are noted, but lacks concrete positive developments.",
+      "why_good": "Market recovery is noted but lacks detailed evidence of improvement.",
       "confidence": "medium",
       "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "No evidence of measurable improvement.",
+      "significance": "medium",
+      "editor_note": "Need more evidence of recovery outcomes.",
       "source_count": 1,
       "sources": [
         {
@@ -1319,17 +1521,17 @@
     },
     {
       "id": "b3aabf8f73fcac",
-      "score": 40,
+      "score": 60,
       "decision": "reject",
-      "category": "Community",
+      "category": "Climate & Energy",
       "country": "Bahrain",
-      "headline_en": "Bahrain launches events for Tree Week to support national greening efforts",
-      "summary_en": "Bahrain is celebrating Tree Week with a series of local events.",
-      "why_good": "Tree week events support national greening efforts but lack measurable outcomes.",
+      "headline_en": "Tree planting events reported for National Tree Week",
+      "summary_en": "Tree planting events are reported, but lacks measurable impact.",
+      "why_good": "Tree planting initiatives have potential but lack evidence of outcomes.",
       "confidence": "medium",
       "outcome_status": "unclear",
       "significance": "medium",
-      "editor_note": "Local events without broader impact.",
+      "editor_note": "Need evidence of impact from tree planting.",
       "source_count": 1,
       "sources": [
         {
@@ -1342,17 +1544,17 @@
     },
     {
       "id": "c7faf8953d4954",
-      "score": 15,
+      "score": 40,
       "decision": "reject",
-      "category": "Nature",
+      "category": "Environment",
       "country": "Russia",
-      "headline_en": "Tyumen region promises to clean Ushakovka River",
-      "summary_en": "Promises made to clean the Ushakovka River lack evidence of completed work.",
-      "why_good": "River cleaning promises lack evidence of completed outcomes.",
+      "headline_en": "Promise to clean up the Ushakovka River in Tyumen region",
+      "summary_en": "River cleanup is promised, but no evidence of completed outcomes is provided.",
+      "why_good": "Cleanup promise is important but lacks evidence of results.",
       "confidence": "medium",
-      "outcome_status": "announcement",
-      "significance": "low",
-      "editor_note": "No evidence of completed work.",
+      "outcome_status": "unclear",
+      "significance": "medium",
+      "editor_note": "Need evidence of completed cleanup for publication.",
       "source_count": 1,
       "sources": [
         {
@@ -1365,17 +1567,17 @@
     },
     {
       "id": "18694d1497e48d",
-      "score": 10,
+      "score": 20,
       "decision": "reject",
       "category": "Other",
-      "country": "UAE",
-      "headline_en": "UAE initiative honors founding father",
-      "summary_en": "Cultural initiative mentioned without evidence of tangible outcomes.",
-      "why_good": "Cultural initiative lacks evidence of measurable positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
+      "country": "United Arab Emirates",
+      "headline_en": "Cultural initiative announced for 'Founder's Day'",
+      "summary_en": "Cultural initiative is mentioned, but lacks evidence of positive impact.",
+      "why_good": "Initiative lacks evidence of measurable outcomes.",
+      "confidence": "low",
+      "outcome_status": "announcement",
       "significance": "low",
-      "editor_note": "No evidence of impact.",
+      "editor_note": "Announcement stage does not meet OWOP criteria.",
       "source_count": 1,
       "sources": [
         {
@@ -1388,17 +1590,17 @@
     },
     {
       "id": "23a5214d724dec",
-      "score": 15,
+      "score": 30,
       "decision": "reject",
-      "category": "Other",
+      "category": "Community",
       "country": "Spain",
-      "headline_en": "Business recovery in DANA area shows delays",
-      "summary_en": "Business recovery noted but lacks evidence of completed results.",
-      "why_good": "Business recovery mentions delays without concrete results.",
+      "headline_en": "Business recovery noted in DANA area, but delays detected",
+      "summary_en": "Business recovery is mentioned, but no concrete outcomes are reported.",
+      "why_good": "Recovery is noted but lacks evidence of success.",
       "confidence": "medium",
       "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "No evidence of success.",
+      "significance": "medium",
+      "editor_note": "Need more evidence of successful recovery.",
       "source_count": 1,
       "sources": [
         {
@@ -1411,17 +1613,17 @@
     },
     {
       "id": "9223abd2377365",
-      "score": 15,
+      "score": 30,
       "decision": "reject",
-      "category": "Other",
+      "category": "Culture",
       "country": "Spain",
-      "headline_en": "Cultural recovery ecosystem lacks evidence of positive outcomes",
-      "summary_en": "Cultural recovery ecosystem mentioned but lacks evidence of impact.",
-      "why_good": "Cultural recovery ecosystem lacks evidence of positive outcomes.",
+      "headline_en": "Cultural recovery ecosystem discussed, but lacks measurable outcomes",
+      "summary_en": "Cultural recovery ecosystem is discussed, but no outcomes are reported.",
+      "why_good": "Discussion is important but lacks evidence of completed outcomes.",
       "confidence": "medium",
       "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "No evidence of impact.",
+      "significance": "medium",
+      "editor_note": "Need evidence of outcomes for publication.",
       "source_count": 1,
       "sources": [
         {
@@ -1434,17 +1636,17 @@
     },
     {
       "id": "95d4309b6a5548",
-      "score": 40,
+      "score": 60,
       "decision": "reject",
-      "category": "Nature",
+      "category": "Climate & Energy",
       "country": "Spain",
-      "headline_en": "Workshop on agriculture and conservation shows potential",
-      "summary_en": "Workshop aims to align agriculture with environmental conservation efforts.",
-      "why_good": "Workshop shows potential but lacks evidence of results.",
+      "headline_en": "Workshop on agriculture and conservation held",
+      "summary_en": "Workshop on agriculture and conservation is reported, but no evidence of results.",
+      "why_good": "Workshop has potential for positive impact but lacks evidence of outcomes.",
       "confidence": "medium",
       "outcome_status": "unclear",
       "significance": "medium",
-      "editor_note": "Potential impact but no concrete outcomes.",
+      "editor_note": "Need evidence of results from the workshop.",
       "source_count": 1,
       "sources": [
         {
@@ -1457,17 +1659,17 @@
     },
     {
       "id": "993abdd2799230",
-      "score": 10,
+      "score": 20,
       "decision": "reject",
-      "category": "Other",
+      "category": "People",
       "country": "Spain",
-      "headline_en": "Training program announcement lacks evidence of outcomes",
-      "summary_en": "Announcement of training programs without evidence of implementation or results.",
-      "why_good": "Training program announcement lacks evidence of impact or outcomes.",
-      "confidence": "medium",
+      "headline_en": "Proposal for vocational training in Águilas",
+      "summary_en": "Proposal for vocational training is discussed, but no outcomes or results are provided.",
+      "why_good": "Proposal lacks evidence of positive outcomes.",
+      "confidence": "low",
       "outcome_status": "announcement",
       "significance": "low",
-      "editor_note": "No evidence of outcomes.",
+      "editor_note": "Proposal stage does not meet OWOP criteria.",
       "source_count": 1,
       "sources": [
         {
@@ -1483,14 +1685,14 @@
       "score": 60,
       "decision": "reject",
       "category": "Climate & Energy",
-      "country": "Vietnam",
+      "country": "Global",
       "headline_en": "Ca Mau pushes wind power expansion to become regional energy hub",
-      "summary_en": "Ca Mau is expanding wind power to enhance its energy capabilities.",
-      "why_good": "Wind power expansion indicates a significant move towards renewable energy.",
+      "summary_en": "Ca Mau is planning to expand wind power to become a regional energy hub, but lacks specific outcomes.",
+      "why_good": "Wind power expansion indicates a commitment to renewable energy, but lacks specific outcomes.",
       "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "high",
-      "editor_note": "Lacks evidence of completed projects.",
+      "outcome_status": "announcement",
+      "significance": "medium",
+      "editor_note": "Plans for wind power expansion need evidence of completed outcomes.",
       "source_count": 1,
       "sources": [
         {
@@ -1502,18 +1704,41 @@
       "published_date": "2026-10-28"
     },
     {
-      "id": "bd6da4b80e53f3",
+      "id": "5f2a05f5ecf3e8",
       "score": 10,
       "decision": "reject",
-      "category": "People",
-      "country": "China",
-      "headline_en": "Volunteers announced for the 9th Import Expo",
-      "summary_en": "Announcement of volunteers for an event lacks evidence of measurable outcomes.",
-      "why_good": "Volunteer announcement lacks evidence of measurable outcomes.",
-      "confidence": "medium",
-      "outcome_status": "announcement",
+      "category": "Nature",
+      "country": "Global",
+      "headline_en": "Ripple Price Forecast: Why is XRP recovery stalling?",
+      "summary_en": "The article discusses the stalling recovery of XRP cryptocurrency prices, lacking positive developments.",
+      "why_good": "Focuses on cryptocurrency price, not a positive development.",
+      "confidence": "low",
+      "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "No evidence of significant impact.",
+      "editor_note": "Financial forecasts do not represent positive developments.",
+      "source_count": 1,
+      "sources": [
+        {
+          "publisher": "FXStreet",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNDItZ2hoUUl3bVdOeTdnQ2xnak4yY3RfcEl5eWs5dWNRd01OUFdUakdqSEZwTy1XeXRjeDZVTXpGWUJ3M2YxUW5yekZjVl91TXFWQWhHVnhQZHQ3ZU9uMl85dWZ5Nnk5bF9ZcXNFOXhwLXlIUzk2N25EWmJ3RW9DZTFtSjBIb3FPYlVMNjMtcGxTcHdMY29HN0pNbDJpbmI0SmFYNDNfWDBidkJTY0JUeTg2RmVxVDliYXppa3Uwd3RTVll1Si1n?oc=5",
+          "title": "Ripple Price Forecast: Why is XRP recovery stalling? - FXStreet"
+        }
+      ],
+      "published_date": "2026-10-28"
+    },
+    {
+      "id": "bd6da4b80e53f3",
+      "score": 20,
+      "decision": "reject",
+      "category": "Other",
+      "country": "Global",
+      "headline_en": "第九届进博会4561名志愿者宣誓上岗",
+      "summary_en": "The announcement of 4561 volunteers for an event lacks evidence of positive outcomes.",
+      "why_good": "Volunteer involvement noted, but lacks evidence of meaningful impact.",
+      "confidence": "low",
+      "outcome_status": "unclear",
+      "significance": "low",
+      "editor_note": "Volunteer announcements do not demonstrate measurable outcomes.",
       "source_count": 1,
       "sources": [
         {
@@ -1526,17 +1751,17 @@
     },
     {
       "id": "6f65116e29692e",
-      "score": 10,
+      "score": 30,
       "decision": "reject",
       "category": "Other",
-      "country": "Tunisia",
-      "headline_en": "Discussion on environmental cooperation in Tunisia",
-      "summary_en": "Discussion on environmental cooperation lacks concrete outcomes.",
-      "why_good": "Discussion of cooperation without evidence of completed environmental protection.",
-      "confidence": "medium",
+      "country": "Global",
+      "headline_en": "سمحان ووزير البيئة التونسي يبحثان سبل تطوير التعاون في حماية البيئة والطبيعة",
+      "summary_en": "Discussion on environmental cooperation lacks concrete results.",
+      "why_good": "Discussion on environmental cooperation, but no concrete outcomes presented.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "No evidence of results.",
+      "editor_note": "Discussion of cooperation lacks evidence of completed results.",
       "source_count": 1,
       "sources": [
         {
@@ -1549,17 +1774,17 @@
     },
     {
       "id": "5106b7017fb621",
-      "score": 10,
+      "score": 20,
       "decision": "reject",
       "category": "Other",
       "country": "Global",
-      "headline_en": "Technological advancements in China after Fiems mission",
-      "summary_en": "Discussion on technological advancements lacks evidence of outcomes.",
-      "why_good": "Technological advancements mentioned without evidence of concrete outcomes.",
-      "confidence": "medium",
+      "headline_en": "MS Sem Fronteiras: coluna destaca avanço tecnológico e visão estratégica da China",
+      "summary_en": "The article highlights technological advancements without clear positive outcomes.",
+      "why_good": "Technological advancements mentioned, but no specific positive outcomes.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "No evidence of positive outcomes.",
+      "editor_note": "Technological advancements discussed without evidence of impact.",
       "source_count": 1,
       "sources": [
         {
@@ -1572,17 +1797,17 @@
     },
     {
       "id": "0c712b2f02f2c0",
-      "score": 10,
+      "score": 30,
       "decision": "reject",
       "category": "People",
-      "country": "USA",
+      "country": "Global",
       "headline_en": "Giving back to your community",
-      "summary_en": "Community giving lacks evidence of measurable positive outcomes.",
-      "why_good": "Community giving lacks evidence of measurable impact.",
-      "confidence": "medium",
+      "summary_en": "General community giving lacks specific outcomes.",
+      "why_good": "General community giving lacks measurable outcomes.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "No evidence of measurable impact.",
+      "editor_note": "Community giving noted, but lacks evidence of measurable impact.",
       "source_count": 1,
       "sources": [
         {
@@ -1595,17 +1820,17 @@
     },
     {
       "id": "62af3185d26a0d",
-      "score": 10,
+      "score": 40,
       "decision": "reject",
       "category": "People",
-      "country": "USA",
-      "headline_en": "Volunteers clean up campus and neighborhood",
-      "summary_en": "Campus cleanup lacks evidence of broader impact or outcomes.",
-      "why_good": "Campus cleanup lacks evidence of broader impact or completed outcomes.",
-      "confidence": "medium",
+      "country": "Global",
+      "headline_en": "Volunteers clean up campus, surrounding neighborhood",
+      "summary_en": "Campus cleanup lacks evidence of broader impact.",
+      "why_good": "Campus cleanup indicates community effort, but lacks broader significance.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Local effort without broader significance.",
+      "editor_note": "Cleanup lacks evidence of broader positive impact.",
       "source_count": 1,
       "sources": [
         {
@@ -1618,17 +1843,17 @@
     },
     {
       "id": "c4f32d629cf6bb",
-      "score": 0,
+      "score": 10,
       "decision": "reject",
       "category": "Other",
       "country": "Global",
-      "headline_en": "Billionaire regains leadership in China's wealth ranking due to AI advancement",
-      "summary_en": "Focuses on a billionaire's ranking, not a positive societal outcome.",
-      "why_good": "Focuses on a billionaire's ranking, not a positive societal outcome.",
-      "confidence": "medium",
+      "headline_en": "Avanço da IA faz bilionário recuperar liderança em ranking de mais ricos da China",
+      "summary_en": "Focuses on wealth ranking, not a positive development.",
+      "why_good": "Business rankings do not represent positive societal developments.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Routine financial ranking lacks societal impact. Single-source confidence capped at medium.",
+      "editor_note": "Focus on individual wealth lacks relevance to broader positive developments.",
       "source_count": 1,
       "sources": [
         {
@@ -1641,17 +1866,17 @@
     },
     {
       "id": "c0173ce6396d59",
-      "score": 0,
+      "score": 20,
       "decision": "reject",
-      "category": "Community",
+      "category": "Other",
       "country": "Global",
-      "headline_en": "Recovery work at Passagem Commercial Center enters final phase",
-      "summary_en": "Describes a project phase, lacks evidence of completed positive outcomes.",
-      "why_good": "Describes a project phase, lacks evidence of completed positive outcomes.",
-      "confidence": "medium",
+      "headline_en": "Obra de recuperação do Centro Comercial de Passagem entra na fase final",
+      "summary_en": "Project updates without evidence of completed results.",
+      "why_good": "Recovery project mentioned, but lacks evidence of significant impact.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Project phase without measurable impact. Single-source confidence capped at medium.",
+      "editor_note": "Discusses recovery phase without clear positive outcomes.",
       "source_count": 1,
       "sources": [
         {
@@ -1663,41 +1888,18 @@
       "published_date": "2026-10-28"
     },
     {
-      "id": "0aad9c4ec5bf58",
-      "score": 0,
-      "decision": "reject",
-      "category": "Health",
-      "country": "Global",
-      "headline_en": "APPs weigh earlier TIL referral and recovery support in melanoma",
-      "summary_en": "Discusses referral and support without clear positive outcomes.",
-      "why_good": "Discusses referral and support without evidence of positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Lacks evidence of measurable health outcomes. Single-source confidence capped at medium.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "Oncology Nursing News",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNkpOR1Nia3VTQUNaOEprZHBGQjBGVUFQMzNBd1EtYWVES2RHaFUwc05LVll5TFR6LUNkbWpvSUlDSVE2ZnFFZjhLV2VPNS1KOWxfSFVhNEZiS2xUTTlpWnNNdm92ZkIyR0N2R2dBNnJ1cDZSWjRhb3hZamFXRjE0a1g3V2JJVFJkWHlYcGd0Y2owSGZkNHlMNWhEeEp4Um5qbEE?oc=5",
-          "title": "APPs Weigh Earlier TIL Referral and Recovery Support in Melanoma - Oncology Nursing News"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
       "id": "c9c469dbb76a54",
-      "score": 0,
+      "score": 10,
       "decision": "reject",
       "category": "Other",
       "country": "Global",
-      "headline_en": "Judge recognizes R$ 6.3 million fees as labor credit in judicial recovery",
-      "summary_en": "Legal recognition of fees does not indicate a positive societal impact.",
-      "why_good": "Legal recognition of fees does not indicate a positive societal impact.",
-      "confidence": "medium",
+      "headline_en": "Juiz reconhece honorários de R$ 6,3 milhões como crédito trabalhista em recuperação judicial",
+      "summary_en": "Legal financial matters do not indicate positive societal outcomes.",
+      "why_good": "Legal financial matters do not represent positive societal developments.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Legal matters without societal significance. Single-source confidence capped at medium.",
+      "editor_note": "Legal financial matters discussed, lacks relevance to positive societal change.",
       "source_count": 1,
       "sources": [
         {
@@ -1710,17 +1912,17 @@
     },
     {
       "id": "00c95b67a20ca7",
-      "score": 0,
+      "score": 50,
       "decision": "reject",
       "category": "Other",
       "country": "Global",
-      "headline_en": "Civil Guard rescue efforts after train accident in Toledo",
-      "summary_en": "Rescue efforts reported, but lacks evidence of broader positive outcomes.",
-      "why_good": "Rescue efforts reported, but lacks evidence of broader positive outcomes.",
+      "headline_en": "Labores de rescate de la Guardia Civil tras el accidente ferroviario en Toledo",
+      "summary_en": "Rescue operations noted, but lacks evidence of broader impact.",
+      "why_good": "Rescue efforts noted, but lacks evidence of broader impact.",
       "confidence": "medium",
       "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Routine rescue without broader impact. Single-source confidence capped at medium.",
+      "significance": "medium",
+      "editor_note": "Rescue operations lack evidence of broader positive impact.",
       "source_count": 1,
       "sources": [
         {
@@ -1733,17 +1935,17 @@
     },
     {
       "id": "7e02daf32ace49",
-      "score": 0,
+      "score": 20,
       "decision": "reject",
-      "category": "People",
+      "category": "Other",
       "country": "Global",
-      "headline_en": "Coordinator of Volunteers in Action to receive community service medal",
-      "summary_en": "Recognition of an individual does not demonstrate a significant positive outcome.",
-      "why_good": "Recognition of an individual does not demonstrate a significant positive outcome.",
-      "confidence": "medium",
+      "headline_en": "Coordenador do Grupo Voluntários em Ação, Miguel Zaidan Daré vai receber Medalha ‘Mérito de Serviço e Proteção Comunitária’",
+      "summary_en": "Recognition of volunteerism lacks evidence of specific outcomes.",
+      "why_good": "Recognition of volunteer work mentioned, but lacks measurable outcomes.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Individual recognition lacks broader community impact. Single-source confidence capped at medium.",
+      "editor_note": "Recognition of volunteers lacks evidence of measurable outcomes.",
       "source_count": 1,
       "sources": [
         {
@@ -1756,17 +1958,17 @@
     },
     {
       "id": "7ba31feb708009",
-      "score": 0,
+      "score": 10,
       "decision": "reject",
       "category": "Other",
       "country": "Global",
-      "headline_en": "Recent train services announced and restored",
-      "summary_en": "Informs about train services without evidence of positive societal impact.",
-      "why_good": "Informs about train services without evidence of positive societal impact.",
-      "confidence": "medium",
+      "headline_en": "近期增开、恢复开行列车来啦！",
+      "summary_en": "Transportation announcements lack evidence of positive outcomes.",
+      "why_good": "Train service announcements do not demonstrate positive developments.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Routine service announcement without societal significance. Single-source confidence capped at medium.",
+      "editor_note": "Transportation updates noted, lacks relevance to positive developments.",
       "source_count": 1,
       "sources": [
         {
@@ -1779,17 +1981,17 @@
     },
     {
       "id": "f7777bdf58ad97",
-      "score": 0,
+      "score": 30,
       "decision": "reject",
       "category": "People",
       "country": "Global",
-      "headline_en": "Community yoga initiative lacks evidence of measurable positive outcomes",
-      "summary_en": "Community yoga initiative lacks evidence of measurable positive outcomes.",
-      "why_good": "Community yoga initiative lacks evidence of measurable positive outcomes.",
-      "confidence": "medium",
+      "headline_en": "Beyond the Mat: Yoga for the Community",
+      "summary_en": "Community yoga initiative lacks evidence of measurable outcomes.",
+      "why_good": "Community yoga initiative mentioned, but lacks evidence of significant impact.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Lacks measurable outcomes or broader significance. Single-source confidence capped at medium.",
+      "editor_note": "Yoga for community lacks evidence of measurable positive outcomes.",
       "source_count": 1,
       "sources": [
         {
@@ -1802,17 +2004,17 @@
     },
     {
       "id": "1fe9d2d27b0cc1",
-      "score": 0,
+      "score": 60,
       "decision": "reject",
-      "category": "Nature",
-      "country": "Global",
-      "headline_en": "Yunnan Zhaotong: Protecting green mountains and ecological prosperity",
-      "summary_en": "Discusses ecological efforts but lacks concrete evidence of success.",
-      "why_good": "Discusses ecological efforts but lacks concrete evidence of success.",
+      "category": "Climate & Energy",
+      "country": "China",
+      "headline_en": "云南昭通：守护绿水青山 走好生态富民路",
+      "summary_en": "Focus on ecological protection indicates positive intent, but lacks specific outcomes.",
+      "why_good": "Environmental protection efforts noted, indicating positive ecological impact.",
       "confidence": "medium",
       "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Ecological efforts without measurable impact. Single-source confidence capped at medium.",
+      "significance": "medium",
+      "editor_note": "Environmental protection plans need evidence of completed results.",
       "source_count": 1,
       "sources": [
         {
@@ -1824,41 +2026,18 @@
       "published_date": "2026-10-28"
     },
     {
-      "id": "a142b4411d2536",
-      "score": 0,
-      "decision": "reject",
-      "category": "Nature",
-      "country": "Global",
-      "headline_en": "WWF details textile water conservation collaborations",
-      "summary_en": "Details collaborations without evidence of completed positive outcomes.",
-      "why_good": "Details collaborations without evidence of completed positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Collaborations lack evidence of impact. Single-source confidence capped at medium.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "WWD",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSmNYY3UxM045TTFoekc4Z1liRzZ3bWphREY5VGtwX3hyaHlsSC04bVZCWTZHZGVBMU4yV2R1UTlpb3lNcXJHU3VNMG83ZDNVRUU5YlN3TEFzUU1aVFJlX1FvU21tajlTdUxXRGJ3MmRrOTRsU3E5WE9jQlotM1BLcDJRZ1VYYUhXaWUxOGI0R3ExMFB4TEEzcGx2b0RiclNyY1ltQm9mZWxscDVIcWF5OU1NbEVWcXduTnpucXFyZ3FfRW11UlNwb2h0SQ?oc=5",
-          "title": "WWF Details Textile Water Conservation Collaborations, Launches Forest Traceability Tool Finder - WWD"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
       "id": "f84d8c86546078",
-      "score": 0,
+      "score": 50,
       "decision": "reject",
       "category": "People",
       "country": "Global",
       "headline_en": "Citizens of the Year: The Power of a Community That Cares",
-      "summary_en": "Community recognition lacks evidence of significant positive impact.",
-      "why_good": "Community recognition lacks evidence of significant positive impact.",
-      "confidence": "medium",
+      "summary_en": "Focus on community recognition lacks evidence of specific outcomes.",
+      "why_good": "General recognition of community efforts lacks measurable outcomes.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Recognition without measurable outcomes. Single-source confidence capped at medium.",
+      "editor_note": "Community recognition noted, but lacks evidence of broader impact.",
       "source_count": 1,
       "sources": [
         {
@@ -1870,208 +2049,24 @@
       "published_date": "2026-10-28"
     },
     {
-      "id": "f83e12ca27cbcf",
-      "score": 0,
-      "decision": "reject",
-      "category": "Other",
-      "country": "Global",
-      "headline_en": "AI risk management conference for financial institutions",
-      "summary_en": "Discusses financial risk without evidence of positive outcomes.",
-      "why_good": "Discusses financial risk without evidence of positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Discussion lacks evidence of societal impact. Single-source confidence capped at medium.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "搜狐网",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcGdHeWo5ZzFQNGhsZ19KamRoQWRyQVdOTnJMVElOQ1BDRUE4d1FpQzZOQ3dkUmdiNzJseUlPT2tKelVvMnlaQ0tIbjZBWGpzckM5QUJtQ1RIb0VmYllGVFFhczNhNVI2eHU0SnZpWXhKRDVCckc3dUN5cEZyVzA3VEM4M1JBSEVjSEJR?oc=5",
-          "title": "个保怎么做？AI风险怎么防？广东办宣贯会给金融机构划重点 - 搜狐网"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
       "id": "c1cdf86480128d",
-      "score": 0,
+      "score": 20,
       "decision": "reject",
       "category": "Other",
       "country": "Global",
-      "headline_en": "First parliamentary study on protecting the Arabic language",
-      "summary_en": "Focuses on language protection without evidence of measurable outcomes.",
-      "why_good": "Focuses on language protection without evidence of measurable outcomes.",
-      "confidence": "medium",
+      "headline_en": "ننشر أول دراسة برلمانية تحت قبة الشيوخ لحماية لغه الضاد.. ومقدمها: لغتنا قوتنا الناعمة",
+      "summary_en": "Cultural study lacks evidence of positive societal outcomes.",
+      "why_good": "Cultural study mentioned, but lacks evidence of significant societal impact.",
+      "confidence": "low",
       "outcome_status": "unclear",
       "significance": "low",
-      "editor_note": "Language protection lacks measurable impact. Single-source confidence capped at medium.",
+      "editor_note": "Cultural studies do not represent positive societal developments.",
       "source_count": 1,
       "sources": [
         {
           "publisher": "اليوم السابع",
           "url": "https://news.google.com/rss/articles/CBMi1wNBVV95cUxOM2J2Qk1xVjY0RGpqRjFGUXoyYU5WbjRKd25SRVhZdVdIWHVfZmhSUzl4eTFkNEgwR0tyNXZMTFV4QzZlRkFDMFBoWElwTF9XUlI0OFZGTXJJclA5aERyci04Tk5WODhHQzVnY0Q2UGJxd1kwV2YzMERISEJLeVNSQlczUW1KZUFjOGEySlVvQTltbHRrblZEcEwyQmNxN255c0ZvcDFfNE9CcWp1cVJtZW1rQTBzUGdLYVFvdmNDR2ROZDB5TGJNTkxkdEt4elF4OUJLVjBCaEtoQUdaVkt6VHpDODNvQ1VQWWc0VzZwMlJsRW9UekVUY1M0TmFvMUZFU2tqRGIwZnhzR0RUeXhqUFk5YlJVSGlvQVpFaC1HSHhWZjhJWXBieFNXMVZSSjZJR0ZtWlVzSUxEb2JDak5zUDJPT3ZpNUVqMkFFQWVSX1JGMjRPVTY4NnVZQVpBY0M3TUpPNlNSZUdrR25fblU2Mk1LNHdqc05rczBPNjVrUFNoblhjSHdIbTZwRGZTa1ZvZ2prYnpXaWlnSXUxUG5OSjNWbWMyUDNEbmVsZEk1UVQ1ZXpNc01xTnlkbkFFNzBUcXBCVzJnb09BU0xsY0FYN1F2UnlXeTTSAdIDQVVfeXFMTnIzazRTOUZrX3k4VWZQQncwNDNmY0x2ZURXQ1dfVXVtMXhLc2ExVVJSV053WEI5bS0ycHhhcXBRZnF0N3cwcmp5S1hHS1lSWlM2UFN1WS1LZGFaY0FETGowWXVaZWdxOU9OY1o4RWI0U19MUWtIbEQ1cUhSRmpyVDhUZW53OWdMVzFTZHN6Q0Niem9rbmpWV1Etc2JuVXJOeVhremZXcDhfTFJJbEU0di05NjlFblZTWnhNZkZzSXEzM3Q4U3o2LXJEMGZidGtJSm9zZjhZbVhJR2hVclR2QVhOMllnckxDQmtXcEtGYnRqa2NPRVhxUG5oaERNSWZDRlQwelBFeWJ1ZndLblduMzJJSmVXWEg1UWxSLTFXampWM1IwNEg3NUJ6X3ZiLUNLb3ViY2p1dkVLd1A4Qzl0V3I0ODFoRGJpRUQ3VHlWSGdfMU9DYUltVkF1LUlCM1JKQVdwQkwwME9EaGpTNzFmZUZ6Zzk3akdwbGd0MDM2Rl9RT042NURMRTIzbXV1bFc2aC1oZktfT2M5b2djUGRaWTh2OHFQTVhEeS1MbU9sV2dYTENPc3Y2d2VMOUpSRG9wcDg4OGtVdUpMR1BHTFZuNHIwdw?oc=5",
           "title": "ننشر أول دراسة برلمانية تحت قبة الشيوخ لحماية لغه الضاد.. ومقدمها: لغتنا قوتنا الناعمة - اليوم السابع"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
-      "id": "644388bdc6286e",
-      "score": 0,
-      "decision": "reject",
-      "category": "Other",
-      "country": "Global",
-      "headline_en": "Civil Guard shows rescue work after Urda accident",
-      "summary_en": "Rescue efforts reported, but lacks evidence of broader positive outcomes.",
-      "why_good": "Rescue efforts reported, but lacks evidence of broader positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Routine rescue without broader significance. Single-source confidence capped at medium.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "Diario del Alto Aragón",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQXhYQmFZVHdpcEZ0cTRtZlQwY0duaFVhaGtHNXYwc3NYTThjTHZyb1R3bmRnTHl2VWRmQzN6ajVOSGd2OTBZU0hVZHVUbWhBYlMyNThhRG84TDZZOTVmSk5ObHdyd2VpQjBLRlhNYWhqeGl5dzd3NnJ6X19LbFUxUGppNjAtTzkyZExHUWFEdE42TUM1Wk82Y254X3VfWVREbGFISWVQTURoMTI1NjcyR1RQbzlkMGdUdHc?oc=5",
-          "title": "Vídeo: La Guardia Civil muestra los trabajos de rescate en el accidente de Urda - Diario del Alto Aragón"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
-      "id": "ddfeca4c394714",
-      "score": 0,
-      "decision": "reject",
-      "category": "Other",
-      "country": "Global",
-      "headline_en": "Alzira Curial band launches tribute to volunteers and victims",
-      "summary_en": "Tribute to volunteers lacks evidence of significant positive impact.",
-      "why_good": "Tribute to volunteers lacks evidence of significant positive impact.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Tribute lacks measurable outcomes. Single-source confidence capped at medium.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "Levante-EMV",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeXNlenFycjZ5RHgzNXBJTEw0cWpVNmlsSUpxZm5yM1FxVWpaM1RCS05ONlhRMTRmQVQ0ZVB2c0xBTmJoM25xd3pSdHNuV0pvaXRBRk16SHdPT0lIWWJjRXIyUnc5OEZ1ZkdyMU03OXV2TG8yQjlrYmFCOV9VWC1wNXVmVmxXY0tkZGNLc19PS3pyQ2d1b3JJ0gGcAUFVX3lxTE9jaWZ5T1dzcHVSM3gxTzBoYjJfeDI2c3NWU3NCVlNRTk1lR0k2VXQ1V2VlanBmMGU3c0N1VFJLRnJ1UUxBYmlfcWlqQWdCN3V2Q1F3MVhXV3R6R1FSa3RWbENESjZxZnhSODA3dlk2V1lQSkZmRE1ZS21ubmhzYUV2b1pYWEdCbEtCTzZ5c3d0MFJaWjRWdFBqR1FGTQ?oc=5",
-          "title": "La banda de Alzira Curial lanza “Aigua Negra” como tributo a los voluntarios y las víctimas en el segundo aniversario de la dana - Levante-EMV"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
-      "id": "3bf0d4dae5d376",
-      "score": 0,
-      "decision": "reject",
-      "category": "Nature",
-      "country": "Global",
-      "headline_en": "Nemonte Nenquimo on the need to rescue the west",
-      "summary_en": "Discussion on Amazon leadership lacks evidence of positive outcomes.",
-      "why_good": "Discussion on Amazon leadership lacks evidence of positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Focuses on perspective without measurable impact. Single-source confidence capped at medium.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "The Guardian",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQamxuYXp1bGE1QlNHU3hyUHdLa0FFam9LYTZnSjhRRDhHTFVRck5ic0Z5d3hxLVBTdkF1NXNCak91YWlHSkUtSkFaRHI1akVUNFMwYTA0TWJOV2d4eG40TEdiNWFxd1Bra3VJVDJiY3ZPN0kxTlkxZFZISmlRR08yMjNiZG54RWVEYUdEOHJ1T2Z2dkNUTTk4RmlTNFBrUFJDcnV4RjlhVE02N3gtMnpiMEpjendnQV9Sc2paN0c4SFZDQXZMQWM5M2hYdXZsMUxBaHdfYXc4Y2pKQ2d5VzdyaURibExhQzg?oc=5",
-          "title": "‘I am mother, leader, warrior of the Amazon’: Nemonte Nenquimo on why the west needs to be rescued - The Guardian"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
-      "id": "2597e722313115",
-      "score": 0,
-      "decision": "reject",
-      "category": "Other",
-      "country": "Global",
-      "headline_en": "Sudan will not be excluded from Red Sea protection",
-      "summary_en": "Focuses on political context without evidence of positive societal outcomes.",
-      "why_good": "Focuses on political context without evidence of positive societal outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Political discussion lacks societal impact. Single-source confidence capped at medium.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "سودان اندبندنت",
-          "url": "https://news.google.com/rss/articles/CBMi0gNBVV95cUxOd2ZSRmpfeUhScUFia2xSSWNmMng1TFFhRlg0NmxqM1AzV1FjMnNZT3Y2ZGVReEZxZUtKdVdTWTd0NWRVSEdxZzR2b2U2b0lCSm44RG13b0toaW92X0lEZ1pfcnNVQXk5MXBvV1A3eFNfc25EelE1S3g2bmg1YUR4akVGVjUtSFZwaE5Rdi12R3lDTFVIa011c0JiOTd3d243cVpXTkFHNUJ3ZEVHa1NZc0Z4WkpDRHVXTXhPU0FSM2lPOWkwTHFGYTVjVER0TGtERjllR1pJVEppUGNWell3TnpQZm9HWHNQNVlsVW56eU9hU0czTzVXS1RIWUtRN3dDdGdtZ2NLSFQxbUJLMkxobXU5dW5FX296VGlGaGhDRkVLZkhPdUNUNjhYZzJKQU5Ba1NzUkhxZWdIeU9KcG5qNXdPM2pFYXZXWEFOeXVKeXJJWWdEYjlFNGpjaGhRSXFuVmhWM0tCSm9QZGhLZmhkMTMwNXpVZmFQVm5BMEhMUVFpV3M5YTdWa0NwaTVDWDQ1S0lOWUhYbG0wNlZaYjNyaXNHZWhQYzUwenk5MmV0dUZxU25NWjJ6M0djY2dRU1BLUjcwT3V6MVBsVjRsRVBidWV3?oc=5",
-          "title": "كبرون يحسمها: السودان لن يستثنى من حماية البحر الأحمر - سودان اندبندنت"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
-      "id": "4a859b5ef77c35",
-      "score": 0,
-      "decision": "reject",
-      "category": "Nature",
-      "country": "Global",
-      "headline_en": "Just 0.8% of climate finance reaches smallholders",
-      "summary_en": "Discusses climate finance without evidence of positive outcomes.",
-      "why_good": "Discusses climate finance without evidence of positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Critique lacks evidence of impact. Single-source confidence capped at medium.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "vegconomist.com",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVzZDOHRiandwNFZsWGJnT2dnbjVoYmVWZURFOTVCLUVLMm9xTmNXRXJ2WlNXS3l2MHRVdXpGT19uU3VHM2VzOUFiaFlES1gzRUxwNmR0VXNSVk5LODFOUFh5Nm82NXdVaUVjM1BqRk5oVDN5WDRpTzNqcmVmNW56VXA1T096OVNIS3U3SVNlb1N5TWltRmVNMVRmclpVTzhhNlZXd2JJdkY2VGNVUDB0MmoyR194S3VTaDNLbGpabkFLUQ?oc=5",
-          "title": "Just 0.8% of Climate Finance Reaches Smallholders, Ministers Tell UN Biodiversity Summit - vegconomist.com"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
-      "id": "d3726d22c11ca8",
-      "score": 0,
-      "decision": "reject",
-      "category": "Community",
-      "country": "Global",
-      "headline_en": "Zamora promotes conservation of Holy Week and traditional culture",
-      "summary_en": "Cultural promotion lacks evidence of measurable positive outcomes.",
-      "why_good": "Cultural promotion lacks evidence of measurable positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Cultural efforts without measurable impact. Single-source confidence capped at medium.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "La Razón",
-          "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNUXA5WFlySFJKM1dxN0I5YXlpQ3l2SXdFaVF4S3lFb3BNM1NvXzRhZTVyU2xjWnVVZTJhZ0s2bFBWQ2RGbmo2VjJzZ2hubjcyd1Nmd1NxUkVINEdIVGFkb3JVcWh3WXQydkxQSzJQbWFSMWJ2UzdPXy1FSFVIZWdEUXBRbTJxWDFQM0J6b211RHlqR3AyUjA5Z3ZOXzAyd1FOQnptdlRSOTNLQ0xXOFlHeERzQ3BmY0EtQzZkMVdjTmFXRkhMcml3QlVoSnhDYWZUZjktR004dF9OTVY2ZHl2cUxQZUZpcEJhSS1HOEJORjU5Uks3aDhqa1ZnQjFyZ2s0QS1MVHFKQUF4aUJHRGtzanNGVGRYN2Nib1VOV1FORms3dDdlVGhFNmVuRVA4MzN2STkya1JOONIBywJBVV95cUxQbjhoWV8wOUEwV3Vzbk4yWDAyUWF0dTc0ZTB4RTVWT3ZjVTEteldxdVQyeEgtbGo3d3hNMExFUnNVak8xcFkxSTg4M3lsY0c1RDBmSVVZb1pwTGFpUVBHemNXQXVFbjV4SDFuTEFFZVN2QUhReFlOVXFkUnhhWUtFa0lPSHJKQ3lRdVFWbjgxQ2FjWTgzeDNQb1p0a1VOellyeXE3dlR6c1U2SW85Z1NTOTJLbGlyY3ppLVRTQ0pHNFRlR3pZZEJiX0NHSXRSMk1JYUlZNi1aT01XVGc3QWN1MUFyOXpYdGtSMFc5M3hXZ0FXRFVaMlF6eUdvTlpJRk5QUDNyekhWckRrV3UwVVlSQmMxMmxLSlJYQlB1SUh0eDE0akZLVWhJTktEeWlCaDdOdjBzQ0tUYzRKekd4MlNtQmNZZ2RnSjBtYWhR?oc=5",
-          "title": "La Diputación de Zamora impulsa la conservación de la Semana Santa de Bercianos, la cultura tradicional, la promoción económica de la provincia y la mejora de los equipos de los bomberos - La Razón"
-        }
-      ],
-      "published_date": "2026-10-28"
-    },
-    {
-      "id": "90ba17ce548b8d",
-      "score": 0,
-      "decision": "reject",
-      "category": "Other",
-      "country": "Global",
-      "headline_en": "AI waste management in cities discussed",
-      "summary_en": "Discusses AI waste management without evidence of completed positive outcomes.",
-      "why_good": "Discusses AI waste management without evidence of completed positive outcomes.",
-      "confidence": "medium",
-      "outcome_status": "unclear",
-      "significance": "low",
-      "editor_note": "Discussion lacks evidence of impact. Single-source confidence capped at medium.",
-      "source_count": 1,
-      "sources": [
-        {
-          "publisher": "RMC",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPYVlZTVAybWVHOUhpMnluS0xxODgweU9TamRoMzJWYlktM0ZkUFFyLWpmei1jemhhelkteThzRWhGTXdaQk1rRjZwQXNFQVNnVmthNk91bi1DYzZ0QnFlMkZocERyamJzQk1MRFY2Sk82V1J4SDRPaWFZR2hFc0ZBUVBVcFJadjRYemI5dlRyUFRWYlFBV1N5OURwekxySldSbkZfbEN5dGxnWHFmblRfU1h1V05qM081TUNzV25zZUtmS3MteEg2RDlqeEQwcU94ZFptZkI1ZHo1bHg0cnJkcmNNQ0d3SHhhLThYM2ZiM1NhQjJ4VEs0WktMeEE?oc=5",
-          "title": "On n'arrête pas le progrès : Propreté, l'IA fait la chasse aux déchets dans nos villes - 28/10 - RMC"
         }
       ],
       "published_date": "2026-10-28"
@@ -2087,33 +2082,23 @@
         },
         {
           "id": "6c378e53f811bd",
-          "score": 70,
+          "score": 80,
           "reason": "Significant renewable energy capacity milestone achieved."
         },
         {
           "id": "7a38aa00f7ebcf",
           "score": 0,
-          "reason": "No positive outcome or development reported."
+          "reason": "Focus on rescue efforts without positive outcomes."
         },
         {
           "id": "e57c98232e8e87",
-          "score": 80,
-          "reason": "New free dental clinic addresses health needs effectively."
+          "score": 85,
+          "reason": "New free dental clinic addresses community health needs."
         },
         {
           "id": "2a9045af3df5bc",
           "score": 0,
-          "reason": "No positive outcome or development reported."
-        },
-        {
-          "id": "3ef88d69d5132d",
-          "score": 0,
-          "reason": "No positive outcome or development reported."
-        },
-        {
-          "id": "4f556dcad61411",
-          "score": 0,
-          "reason": "No positive outcome or development reported."
+          "reason": "No clear positive outcome reported."
         },
         {
           "id": "de9004effeeaac",
@@ -2123,12 +2108,12 @@
         {
           "id": "bb326cf5e9bf1b",
           "score": 0,
-          "reason": "No positive outcome or development reported."
+          "reason": "Focus on rescue efforts without positive outcomes."
         },
         {
           "id": "5e54858e7a535c",
           "score": 0,
-          "reason": "No positive outcome or development reported."
+          "reason": "Focus on rescue efforts without positive outcomes."
         },
         {
           "id": "4f776e34910551",
@@ -2137,6 +2122,11 @@
         },
         {
           "id": "925ae90e9c7df2",
+          "score": 0,
+          "reason": "No positive outcome or development reported."
+        },
+        {
+          "id": "493a5a2cd6ab78",
           "score": 0,
           "reason": "No positive outcome or development reported."
         },
@@ -2171,314 +2161,319 @@
           "reason": "No positive outcome or development reported."
         },
         {
-          "id": "1898a453926177",
-          "score": 0,
-          "reason": "No positive outcome or development reported."
-        },
-        {
           "id": "5f89243dd37fec",
           "score": 0,
-          "reason": "No positive outcome or development reported."
+          "reason": "Focus on rescue efforts without positive outcomes."
         },
         {
           "id": "06f0162346f62f",
-          "score": 20,
-          "reason": "Focuses on rescue efforts after a train accident, lacks positive outcome."
+          "score": 0,
+          "reason": "Focus on rescue efforts without positive outcomes."
         },
         {
           "id": "6a0ba346aeab5b",
-          "score": 20,
-          "reason": "Describes rescue efforts without evidence of positive outcomes."
+          "score": 0,
+          "reason": "Focus on rescue efforts without positive outcomes."
         },
         {
           "id": "2e310247f5c5a3",
-          "score": 20,
-          "reason": "Similar to previous, focuses on rescue efforts without positive results."
+          "score": 50,
+          "reason": "Involves rescue efforts but lacks evidence of positive outcomes."
+        },
+        {
+          "id": "3ef88d69d5132d",
+          "score": 60,
+          "reason": "Restoration of data access is positive but lacks broader impact."
         },
         {
           "id": "6ea826e78f7764",
           "score": 70,
-          "reason": "Grant awarded for mental health support, indicating a positive development."
+          "reason": "Grant awarded for mental health support indicates potential positive impact."
+        },
+        {
+          "id": "4f556dcad61411",
+          "score": 75,
+          "reason": "Initiative to enhance women's academic leadership shows promise for future outcomes."
         },
         {
           "id": "19901a9e3a6965",
-          "score": 20,
-          "reason": "Discusses consumer protection without a clear positive outcome."
+          "score": 40,
+          "reason": "Focus on consumer protection lacks evidence of concrete positive outcomes."
         },
         {
           "id": "1a4e03360dcf4a",
-          "score": 20,
-          "reason": "Financial news without evidence of positive societal impact."
+          "score": 50,
+          "reason": "Financial data reported but lacks evidence of positive societal impact."
         },
         {
           "id": "561cb37d399904",
-          "score": 20,
-          "reason": "Rescue of individuals from a fire lacks broader significance."
+          "score": 30,
+          "reason": "Rescue of individuals lacks broader significance or systemic change."
         },
         {
           "id": "6dd15780dfe568",
-          "score": 20,
-          "reason": "Rescue of dogs from a fire does not demonstrate broader impact."
+          "score": 30,
+          "reason": "Rescue of dogs lacks broader conservation or systemic significance."
         },
         {
           "id": "97a3173f200047",
-          "score": 20,
-          "reason": "Rescue of children from a house lacks broader societal significance."
+          "score": 30,
+          "reason": "Rescue of children from a house lacks broader systemic change."
         },
         {
           "id": "76d09147870fc7",
-          "score": 20,
-          "reason": "Incident of home explosion lacks evidence of positive outcomes."
+          "score": 30,
+          "reason": "Incident of home explosion lacks broader significance or systemic change."
+        },
+        {
+          "id": "3bf0d4dae5d376",
+          "score": 40,
+          "reason": "Focus on individual narrative lacks evidence of broader positive outcomes."
         },
         {
           "id": "1520a218730bdb",
-          "score": 20,
-          "reason": "Rescue of a driver lacks broader significance or positive outcome."
+          "score": 30,
+          "reason": "Rescue incident lacks broader significance or systemic change."
         },
         {
           "id": "0c808d56265338",
-          "score": 20,
-          "reason": "Rescue of a historic hotel lacks evidence of positive community impact."
+          "score": 50,
+          "reason": "Restoration of historic hotel shows potential but lacks immediate positive outcomes."
         },
         {
           "id": "af21e20b525f5d",
-          "score": 20,
-          "reason": "Rescue from fire lacks broader significance or positive outcome."
+          "score": 30,
+          "reason": "Rescue incident lacks broader significance or systemic change."
         },
         {
           "id": "7631413241c307",
-          "score": 20,
-          "reason": "Rescue of hikers lacks evidence of broader positive impact."
+          "score": 30,
+          "reason": "Rescue of hikers lacks broader significance or systemic change."
+        },
+        {
+          "id": "003a276a458eb8",
+          "score": 60,
+          "reason": "Focus on national platforms indicates potential for positive development."
+        },
+        {
+          "id": "4a30fbe36944da",
+          "score": 70,
+          "reason": "Opening of treatment center indicates potential positive impact on community health."
+        },
+        {
+          "id": "db5b825b919dea",
+          "score": 40,
+          "reason": "Consumer warning lacks evidence of concrete positive outcomes."
+        },
+        {
+          "id": "d445a81b5b0d66",
+          "score": 30,
+          "reason": "Rescue incident lacks broader significance or systemic change."
         },
         {
           "id": "5f0dd9fcd1d05e",
           "score": 60,
-          "reason": "Launch of recovery care program indicates a positive development."
+          "reason": "Launch of recovery program indicates potential positive impact on recovery journeys."
         },
         {
           "id": "1622670e04b9e8",
-          "score": 20,
-          "reason": "Describes ongoing recovery efforts without clear positive outcomes."
+          "score": 50,
+          "reason": "Disaster recovery efforts ongoing, but lacks evidence of measurable outcomes."
         },
         {
           "id": "f2bea40370f8c1",
-          "score": 20,
-          "reason": "Focuses on rescue efforts without evidence of positive outcomes."
+          "score": 40,
+          "reason": "Rescue operations reported, but no completed outcomes or improvements mentioned."
         },
         {
           "id": "e13b245de0f633",
-          "score": 20,
-          "reason": "Voter consideration lacks evidence of positive societal impact."
+          "score": 30,
+          "reason": "Proposal for community college involvement, no outcomes or results provided."
         },
         {
           "id": "3310e308a05cd2",
-          "score": 20,
-          "reason": "Describes personnel efforts without clear positive outcomes."
+          "score": 60,
+          "reason": "Efforts to restore electricity transmission reported, but lacks measurable impact."
         },
         {
           "id": "5ec3a3421045f4",
           "score": 20,
-          "reason": "Rally for hospital services lacks evidence of positive outcomes."
+          "reason": "Rally against service cuts, no positive outcomes or improvements reported."
+        },
+        {
+          "id": "934fbd9a69c967",
+          "score": 40,
+          "reason": "Rescue efforts ongoing after train accident, but no completed outcomes."
         },
         {
           "id": "a443b0880e3925",
-          "score": 20,
-          "reason": "Rescue of nine people from a fire is a positive outcome."
+          "score": 50,
+          "reason": "Fire rescue reported, but lacks broader implications or measurable outcomes."
         },
         {
           "id": "e3723dfe9ece5d",
-          "score": 0,
-          "reason": "Focus on hybrid threats lacks concrete positive outcomes."
+          "score": 30,
+          "reason": "Discussion on hybrid threats, no concrete positive developments reported."
         },
         {
           "id": "cc0c6d58321cbf",
-          "score": 0,
-          "reason": "Discussion of disaster recovery lacks evidence of positive outcomes."
+          "score": 70,
+          "reason": "Innovative disaster recovery ideas presented, but no evidence of implementation."
         },
         {
           "id": "6d894333f8b872",
-          "score": 0,
-          "reason": "Investment in a program does not guarantee measurable outcomes."
+          "score": 80,
+          "reason": "Significant investment in youth conservation program, indicating positive impact."
         },
         {
           "id": "dd3963ebff3791",
-          "score": 0,
-          "reason": "Restoration of an altar lacks evidence of broader impact."
+          "score": 30,
+          "reason": "Restoration project announced, but no evidence of completed outcomes."
         },
         {
           "id": "c1eafdf135a3aa",
-          "score": 0,
-          "reason": "Article on male fertility protection lacks concrete outcomes."
+          "score": 40,
+          "reason": "Discussion on male fertility protection, lacks concrete outcomes."
         },
         {
           "id": "bbe1175b4f6c15",
-          "score": 0,
-          "reason": "Recovery signs in Ottawa are not yet concrete outcomes."
+          "score": 50,
+          "reason": "Recovery signs in office space, but lacks concrete positive developments."
         },
         {
           "id": "b3aabf8f73fcac",
-          "score": 0,
-          "reason": "Tree week events lack evidence of measurable impact."
+          "score": 60,
+          "reason": "Tree planting events reported, but lacks measurable impact."
         },
         {
           "id": "c7faf8953d4954",
-          "score": 0,
-          "reason": "River cleaning promises lack evidence of completed outcomes."
+          "score": 50,
+          "reason": "River cleanup promised, but no evidence of completed outcomes."
         },
         {
           "id": "18694d1497e48d",
-          "score": 0,
-          "reason": "Cultural initiative lacks evidence of measurable positive outcomes."
+          "score": 30,
+          "reason": "Cultural initiative announced, but lacks evidence of positive impact."
         },
         {
           "id": "23a5214d724dec",
-          "score": 0,
-          "reason": "Business recovery mentions delays without concrete results."
+          "score": 40,
+          "reason": "Business recovery mentioned, but no concrete outcomes reported."
         },
         {
           "id": "9223abd2377365",
-          "score": 0,
-          "reason": "Cultural recovery ecosystem lacks evidence of positive outcomes."
+          "score": 50,
+          "reason": "Cultural recovery ecosystem discussed, but lacks measurable outcomes."
         },
         {
           "id": "95d4309b6a5548",
-          "score": 0,
-          "reason": "Workshop on agriculture and conservation lacks concrete results."
+          "score": 60,
+          "reason": "Workshop on agriculture and conservation, but no evidence of results."
         },
         {
           "id": "993abdd2799230",
-          "score": 0,
-          "reason": "Training program announcement lacks evidence of outcomes."
+          "score": 30,
+          "reason": "Training programs proposed, but no outcomes or results provided."
         },
         {
           "id": "3bc5334439ab6d",
-          "score": 20,
-          "reason": "Wind power expansion indicates a positive development in energy."
+          "score": 70,
+          "reason": "Wind power expansion indicates a commitment to renewable energy, but lacks specific outcomes."
+        },
+        {
+          "id": "5f2a05f5ecf3e8",
+          "score": 0,
+          "reason": "Focuses on cryptocurrency price, not a positive development."
         },
         {
           "id": "bd6da4b80e53f3",
           "score": 0,
-          "reason": "Volunteer announcement lacks evidence of measurable outcomes."
+          "reason": "Volunteer announcement lacks evidence of positive outcomes."
         },
         {
           "id": "6f65116e29692e",
           "score": 0,
-          "reason": "Discussion on environmental cooperation lacks concrete outcomes."
+          "reason": "Discusses cooperation but lacks concrete results."
         },
         {
           "id": "5106b7017fb621",
           "score": 0,
-          "reason": "Technological advancement discussion lacks evidence of outcomes."
+          "reason": "Focuses on technological advancements without clear positive outcomes."
+        },
+        {
+          "id": "9bcaa66e5b1988",
+          "score": 80,
+          "reason": "Successful medical procedure demonstrates significant positive impact on a child's health."
         },
         {
           "id": "0c712b2f02f2c0",
           "score": 0,
-          "reason": "Community giving lacks evidence of measurable positive outcomes."
+          "reason": "General community giving lacks specific outcomes."
         },
         {
           "id": "62af3185d26a0d",
           "score": 0,
-          "reason": "Campus cleanup lacks evidence of broader impact or outcomes."
+          "reason": "Campus cleanup lacks evidence of broader impact."
         },
         {
           "id": "c4f32d629cf6bb",
           "score": 0,
-          "reason": "Focuses on a billionaire's ranking, not a positive societal outcome."
+          "reason": "Focuses on wealth ranking, not a positive development."
         },
         {
           "id": "c0173ce6396d59",
           "score": 0,
-          "reason": "Describes a project phase, lacks evidence of completed positive outcomes."
+          "reason": "Discusses recovery phase without clear positive outcomes."
         },
         {
           "id": "0aad9c4ec5bf58",
-          "score": 0,
-          "reason": "Discusses referral and support without clear positive outcomes."
+          "score": 70,
+          "reason": "Discusses melanoma recovery support, but lacks specific outcomes."
         },
         {
           "id": "c9c469dbb76a54",
           "score": 0,
-          "reason": "Legal recognition of fees does not indicate a positive societal impact."
+          "reason": "Legal financial matters do not indicate positive societal outcomes."
         },
         {
           "id": "00c95b67a20ca7",
           "score": 0,
-          "reason": "Rescue efforts reported, but lacks evidence of broader positive outcomes."
+          "reason": "Rescue operations lack evidence of broader positive impact."
         },
         {
           "id": "7e02daf32ace49",
           "score": 0,
-          "reason": "Recognition of an individual does not demonstrate a significant positive outcome."
+          "reason": "Recognition of volunteerism lacks evidence of specific outcomes."
         },
         {
           "id": "7ba31feb708009",
           "score": 0,
-          "reason": "Informs about train services without evidence of positive societal impact."
+          "reason": "Transportation announcements lack evidence of positive outcomes."
         },
         {
           "id": "f7777bdf58ad97",
           "score": 0,
-          "reason": "Community yoga initiative lacks evidence of measurable positive outcomes."
+          "reason": "Yoga for community lacks evidence of measurable positive outcomes."
         },
         {
           "id": "1fe9d2d27b0cc1",
-          "score": 0,
-          "reason": "Discusses ecological efforts but lacks concrete evidence of success."
+          "score": 70,
+          "reason": "Focus on ecological protection indicates positive intent, but lacks specific outcomes."
         },
         {
           "id": "a142b4411d2536",
-          "score": 0,
-          "reason": "Details collaborations without evidence of completed positive outcomes."
+          "score": 80,
+          "reason": "Water conservation collaborations indicate positive environmental impact."
         },
         {
           "id": "f84d8c86546078",
           "score": 0,
-          "reason": "Community recognition lacks evidence of significant positive impact."
-        },
-        {
-          "id": "f83e12ca27cbcf",
-          "score": 0,
-          "reason": "Discusses financial risk without evidence of positive outcomes."
+          "reason": "Focus on community recognition lacks evidence of specific outcomes."
         },
         {
           "id": "c1cdf86480128d",
           "score": 0,
-          "reason": "Focuses on language protection without evidence of measurable outcomes."
-        },
-        {
-          "id": "644388bdc6286e",
-          "score": 0,
-          "reason": "Rescue efforts reported, but lacks evidence of broader positive outcomes."
-        },
-        {
-          "id": "ddfeca4c394714",
-          "score": 0,
-          "reason": "Tribute to volunteers lacks evidence of significant positive impact."
-        },
-        {
-          "id": "3bf0d4dae5d376",
-          "score": 0,
-          "reason": "Discussion on Amazon leadership lacks evidence of positive outcomes."
-        },
-        {
-          "id": "2597e722313115",
-          "score": 0,
-          "reason": "Focuses on political context without evidence of positive societal outcomes."
-        },
-        {
-          "id": "4a859b5ef77c35",
-          "score": 0,
-          "reason": "Discusses climate finance without evidence of positive outcomes."
-        },
-        {
-          "id": "d3726d22c11ca8",
-          "score": 0,
-          "reason": "Cultural promotion lacks evidence of measurable positive outcomes."
-        },
-        {
-          "id": "90ba17ce548b8d",
-          "score": 0,
-          "reason": "Discusses AI waste management without evidence of completed positive outcomes."
+          "reason": "Cultural study lacks evidence of positive societal outcomes."
         }
       ]
     },
@@ -2487,471 +2482,62 @@
         {
           "id": "e3a25e8bf2b7f4",
           "score": 0,
-          "reason": "No positive outcome; focuses on a city council decision."
+          "reason": "Local council decision lacks completed positive outcome."
         },
         {
           "id": "6c378e53f811bd",
-          "score": 0,
-          "reason": "Reports on installed capacity without evidence of impact."
+          "score": 70,
+          "reason": "Significant renewable energy milestone achieved, but lacks detailed impact evidence."
         },
         {
           "id": "7a38aa00f7ebcf",
           "score": 0,
-          "reason": "Discusses rescue efforts without completed outcomes."
+          "reason": "Focus on rescue efforts without evidence of positive outcomes."
         },
         {
           "id": "e57c98232e8e87",
-          "score": 75,
-          "reason": "New dental clinic opens, providing free services to community."
+          "score": 80,
+          "reason": "New dental clinic addresses food insecurity and health, showing concrete community benefit."
         },
         {
           "id": "2a9045af3df5bc",
           "score": 0,
-          "reason": "Announces a new initiative without evidence of results."
-        },
-        {
-          "id": "3ef88d69d5132d",
-          "score": 0,
-          "reason": "Reports on data recovery without broader implications."
-        },
-        {
-          "id": "4f556dcad61411",
-          "score": 0,
-          "reason": "Announces a new initiative without evidence of results."
+          "reason": "Initiative launched without evidence of completed positive outcomes."
         },
         {
           "id": "de9004effeeaac",
-          "score": 80,
-          "reason": "Discovery of a new fungal species indicates biodiversity improvement."
-        },
-        {
-          "id": "bb326cf5e9bf1b",
-          "score": 0,
-          "reason": "Focuses on rescue mobilization without completed outcomes."
-        },
-        {
-          "id": "5e54858e7a535c",
-          "score": 0,
-          "reason": "Discusses rescue efforts without completed outcomes."
-        },
-        {
-          "id": "4f776e34910551",
-          "score": 0,
-          "reason": "Reports on drug field discovery without positive impact."
-        },
-        {
-          "id": "925ae90e9c7df2",
-          "score": 0,
-          "reason": "Discusses oil price changes without positive outcomes."
-        },
-        {
-          "id": "e6b60620ddc70f",
-          "score": 0,
-          "reason": "Announces participation in tree week without evidence of impact."
-        },
-        {
-          "id": "57294f0c4b217b",
-          "score": 0,
-          "reason": "Discusses restoration plans without completed outcomes."
-        },
-        {
-          "id": "d7d188efd8ac3d",
-          "score": 0,
-          "reason": "Focuses on a discussion without evidence of positive outcomes."
-        },
-        {
-          "id": "fb3d53f3791417",
-          "score": 0,
-          "reason": "Introduces a product without evidence of positive impact."
-        },
-        {
-          "id": "67cf6e924a48bc",
-          "score": 0,
-          "reason": "Discusses stock performance without positive outcomes."
-        },
-        {
-          "id": "c022627eb12649",
-          "score": 0,
-          "reason": "Discusses AI control without evidence of positive outcomes."
-        },
-        {
-          "id": "1898a453926177",
-          "score": 0,
-          "reason": "Reports on panda's health without broader implications."
-        },
-        {
-          "id": "5f89243dd37fec",
-          "score": 0,
-          "reason": "Discusses rescue efforts without completed outcomes."
-        },
-        {
-          "id": "06f0162346f62f",
-          "score": 20,
-          "reason": "Accident response lacks evidence of positive outcomes or recovery."
-        },
-        {
-          "id": "6a0ba346aeab5b",
-          "score": 20,
-          "reason": "Accident response lacks evidence of positive outcomes or recovery."
-        },
-        {
-          "id": "2e310247f5c5a3",
-          "score": 20,
-          "reason": "Accident response lacks evidence of positive outcomes or recovery."
-        },
-        {
-          "id": "6ea826e78f7764",
-          "score": 60,
-          "reason": "Grant awarded, but no evidence of immediate positive outcomes."
-        },
-        {
-          "id": "19901a9e3a6965",
-          "score": 20,
-          "reason": "Consumer protection measures lack evidence of completed positive outcomes."
-        },
-        {
-          "id": "1a4e03360dcf4a",
-          "score": 20,
-          "reason": "Financial news lacks evidence of positive outcomes or recovery."
-        },
-        {
-          "id": "561cb37d399904",
-          "score": 20,
-          "reason": "Rescue lacks broader significance or evidence of systemic change."
-        },
-        {
-          "id": "6dd15780dfe568",
-          "score": 20,
-          "reason": "Rescue lacks broader significance or evidence of systemic change."
-        },
-        {
-          "id": "97a3173f200047",
-          "score": 20,
-          "reason": "Rescue lacks broader significance or evidence of systemic change."
-        },
-        {
-          "id": "76d09147870fc7",
-          "score": 20,
-          "reason": "Rescue lacks broader significance or evidence of systemic change."
-        },
-        {
-          "id": "1520a218730bdb",
-          "score": 20,
-          "reason": "Rescue lacks broader significance or evidence of systemic change."
-        },
-        {
-          "id": "0c808d56265338",
-          "score": 20,
-          "reason": "Restoration lacks evidence of broader impact or completed outcomes."
-        },
-        {
-          "id": "af21e20b525f5d",
-          "score": 20,
-          "reason": "Rescue lacks broader significance or evidence of systemic change."
-        },
-        {
-          "id": "7631413241c307",
-          "score": 20,
-          "reason": "Rescue lacks broader significance or evidence of systemic change."
-        },
-        {
-          "id": "5f0dd9fcd1d05e",
-          "score": 40,
-          "reason": "Program launched, but lacks evidence of completed positive outcomes."
-        },
-        {
-          "id": "1622670e04b9e8",
-          "score": 20,
-          "reason": "Recovery efforts lack evidence of completed positive outcomes."
-        },
-        {
-          "id": "f2bea40370f8c1",
-          "score": 20,
-          "reason": "Rescue efforts lack evidence of completed positive outcomes."
-        },
-        {
-          "id": "e13b245de0f633",
-          "score": 20,
-          "reason": "Proposal lacks evidence of completed positive outcomes."
-        },
-        {
-          "id": "3310e308a05cd2",
-          "score": 20,
-          "reason": "Restoration efforts lack evidence of completed positive outcomes."
-        },
-        {
-          "id": "5ec3a3421045f4",
-          "score": 20,
-          "reason": "Rally lacks evidence of completed positive outcomes."
-        },
-        {
-          "id": "a443b0880e3925",
-          "score": 20,
-          "reason": "Rescue of nine people is a local incident without broader impact."
-        },
-        {
-          "id": "e3723dfe9ece5d",
-          "score": 10,
-          "reason": "Discusses threats without evidence of completed protective measures."
-        },
-        {
-          "id": "cc0c6d58321cbf",
-          "score": 15,
-          "reason": "Rethinking disaster recovery lacks concrete outcomes or evidence."
-        },
-        {
-          "id": "6d894333f8b872",
-          "score": 10,
-          "reason": "Investment announced, but no completed results from the program."
-        },
-        {
-          "id": "dd3963ebff3791",
-          "score": 15,
-          "reason": "Restoration project mentioned, but no evidence of completion or impact."
-        },
-        {
-          "id": "c1eafdf135a3aa",
-          "score": 10,
-          "reason": "Focus on male fertility protection lacks concrete outcomes."
-        },
-        {
-          "id": "bbe1175b4f6c15",
-          "score": 15,
-          "reason": "Recovery signs noted, but no evidence of measurable improvement."
-        },
-        {
-          "id": "b3aabf8f73fcac",
-          "score": 20,
-          "reason": "Local events for tree week lack broader impact or completed outcomes."
-        },
-        {
-          "id": "c7faf8953d4954",
-          "score": 15,
-          "reason": "River cleanup promised, but no evidence of completed work."
-        },
-        {
-          "id": "18694d1497e48d",
-          "score": 10,
-          "reason": "Cultural initiative mentioned without evidence of tangible outcomes."
-        },
-        {
-          "id": "23a5214d724dec",
-          "score": 15,
-          "reason": "Business recovery noted, but lacks evidence of completed results."
-        },
-        {
-          "id": "9223abd2377365",
-          "score": 15,
-          "reason": "Cultural recovery ecosystem mentioned, but no evidence of impact."
-        },
-        {
-          "id": "95d4309b6a5548",
-          "score": 15,
-          "reason": "Workshop for agriculture and conservation lacks evidence of results."
-        },
-        {
-          "id": "993abdd2799230",
-          "score": 10,
-          "reason": "Training programs announced without evidence of implementation or results."
-        },
-        {
-          "id": "3bc5334439ab6d",
-          "score": 25,
-          "reason": "Wind power expansion mentioned, but lacks evidence of completed projects."
-        },
-        {
-          "id": "bd6da4b80e53f3",
-          "score": 10,
-          "reason": "Volunteer initiative lacks evidence of significant impact."
-        },
-        {
-          "id": "6f65116e29692e",
-          "score": 10,
-          "reason": "Discussion of cooperation without evidence of completed environmental protection."
-        },
-        {
-          "id": "5106b7017fb621",
-          "score": 10,
-          "reason": "Technological advancements mentioned without evidence of concrete outcomes."
-        },
-        {
-          "id": "0c712b2f02f2c0",
-          "score": 10,
-          "reason": "Community giving lacks evidence of measurable impact."
-        },
-        {
-          "id": "62af3185d26a0d",
-          "score": 10,
-          "reason": "Campus cleanup lacks evidence of broader impact or completed outcomes."
-        },
-        {
-          "id": "c4f32d629cf6bb",
-          "score": 0,
-          "reason": "Focuses on a billionaire's ranking, not a positive development."
-        },
-        {
-          "id": "c0173ce6396d59",
-          "score": 0,
-          "reason": "Describes a project phase, lacks evidence of completed positive outcomes."
-        },
-        {
-          "id": "0aad9c4ec5bf58",
-          "score": 0,
-          "reason": "Discusses referral and support without evidence of positive outcomes."
-        },
-        {
-          "id": "c9c469dbb76a54",
-          "score": 0,
-          "reason": "Legal recognition of fees does not indicate a positive development."
-        },
-        {
-          "id": "00c95b67a20ca7",
-          "score": 0,
-          "reason": "Rescue operations reported, but lacks broader impact or outcome."
-        },
-        {
-          "id": "7e02daf32ace49",
-          "score": 0,
-          "reason": "Recognition of an individual does not demonstrate a completed positive outcome."
-        },
-        {
-          "id": "7ba31feb708009",
-          "score": 0,
-          "reason": "Announces train services without evidence of positive impact."
-        },
-        {
-          "id": "f7777bdf58ad97",
-          "score": 0,
-          "reason": "Community yoga initiative lacks evidence of measurable positive outcomes."
-        },
-        {
-          "id": "1fe9d2d27b0cc1",
-          "score": 0,
-          "reason": "Describes ecological efforts but lacks evidence of completed results."
-        },
-        {
-          "id": "a142b4411d2536",
-          "score": 0,
-          "reason": "Details collaborations without evidence of completed positive outcomes."
-        },
-        {
-          "id": "f84d8c86546078",
-          "score": 0,
-          "reason": "Focuses on community recognition without evidence of broader impact."
-        },
-        {
-          "id": "f83e12ca27cbcf",
-          "score": 0,
-          "reason": "Discusses financial risk without evidence of positive outcomes."
-        },
-        {
-          "id": "c1cdf86480128d",
-          "score": 0,
-          "reason": "Discusses a study without evidence of positive outcomes."
-        },
-        {
-          "id": "644388bdc6286e",
-          "score": 0,
-          "reason": "Reports on rescue efforts without broader impact or completed outcomes."
-        },
-        {
-          "id": "ddfeca4c394714",
-          "score": 0,
-          "reason": "Tribute to volunteers lacks evidence of measurable positive outcomes."
-        },
-        {
-          "id": "3bf0d4dae5d376",
-          "score": 0,
-          "reason": "Focuses on an individual's perspective without evidence of positive outcomes."
-        },
-        {
-          "id": "2597e722313115",
-          "score": 0,
-          "reason": "Discusses protection without evidence of completed positive outcomes."
-        },
-        {
-          "id": "4a859b5ef77c35",
-          "score": 0,
-          "reason": "Reports on climate finance without evidence of positive outcomes."
-        },
-        {
-          "id": "d3726d22c11ca8",
-          "score": 0,
-          "reason": "Describes cultural promotion without evidence of measurable positive outcomes."
-        },
-        {
-          "id": "90ba17ce548b8d",
-          "score": 0,
-          "reason": "Discusses AI waste management without evidence of completed positive outcomes."
-        }
-      ]
-    },
-    "owop": {
-      "reviews": [
-        {
-          "id": "e3a25e8bf2b7f4",
-          "score": 0,
-          "reason": "Local council decision lacks significant positive outcome."
-        },
-        {
-          "id": "6c378e53f811bd",
-          "score": 80,
-          "reason": "China's wind and solar capacity growth indicates significant renewable energy progress."
-        },
-        {
-          "id": "7a38aa00f7ebcf",
-          "score": 0,
-          "reason": "Focus on rescue efforts without concrete outcomes."
-        },
-        {
-          "id": "e57c98232e8e87",
-          "score": 85,
-          "reason": "New dental clinic addresses health needs in the community effectively."
-        },
-        {
-          "id": "2a9045af3df5bc",
-          "score": 0,
-          "reason": "Initiative lacks evidence of measurable impact."
-        },
-        {
-          "id": "3ef88d69d5132d",
-          "score": 0,
-          "reason": "Data recovery announcement does not indicate broader significance."
-        },
-        {
-          "id": "4f556dcad61411",
           "score": 75,
-          "reason": "Initiative to enhance women's academic leadership shows potential for impact."
-        },
-        {
-          "id": "de9004effeeaac",
-          "score": 90,
-          "reason": "Discovery of new fungal species contributes to biodiversity knowledge."
+          "reason": "Discovery of new species contributes to biodiversity knowledge, but more context needed."
         },
         {
           "id": "bb326cf5e9bf1b",
           "score": 0,
-          "reason": "Response to train accident lacks evidence of positive outcomes."
+          "reason": "Response to accident lacks evidence of positive outcomes."
         },
         {
           "id": "5e54858e7a535c",
           "score": 0,
-          "reason": "Helicopter support for rescue lacks measurable positive impact."
+          "reason": "Emergency response without evidence of positive impact."
         },
         {
           "id": "4f776e34910551",
           "score": 0,
-          "reason": "Drug field discovery does not indicate a positive societal outcome."
+          "reason": "Drug field discovery lacks broader positive implications."
         },
         {
           "id": "925ae90e9c7df2",
           "score": 0,
-          "reason": "Market fluctuations do not represent a positive development."
+          "reason": "Market fluctuations do not indicate positive developments."
+        },
+        {
+          "id": "493a5a2cd6ab78",
+          "score": 0,
+          "reason": "Local initiative lacks evidence of meaningful impact."
         },
         {
           "id": "e6b60620ddc70f",
           "score": 0,
-          "reason": "Tree week initiative lacks evidence of significant impact."
+          "reason": "Participation in tree week lacks evidence of positive outcomes."
         },
         {
           "id": "57294f0c4b217b",
@@ -2961,137 +2547,172 @@
         {
           "id": "d7d188efd8ac3d",
           "score": 0,
-          "reason": "Discussion on child protection lacks concrete outcomes."
+          "reason": "Discussion on child protection lacks evidence of actionable outcomes."
         },
         {
           "id": "fb3d53f3791417",
           "score": 0,
-          "reason": "Product introduction lacks evidence of positive societal impact."
+          "reason": "Product introduction lacks evidence of positive impact."
         },
         {
           "id": "67cf6e924a48bc",
           "score": 0,
-          "reason": "Stock performance does not indicate a positive development."
+          "reason": "Market analysis does not indicate positive developments."
         },
         {
           "id": "c022627eb12649",
           "score": 0,
-          "reason": "AI control discussion lacks evidence of actionable outcomes."
-        },
-        {
-          "id": "1898a453926177",
-          "score": 0,
-          "reason": "Panda health update lacks broader significance."
+          "reason": "Warnings about AI lack evidence of positive outcomes."
         },
         {
           "id": "5f89243dd37fec",
           "score": 0,
-          "reason": "Rescue group response lacks measurable positive impact."
+          "reason": "Solidarity response lacks evidence of positive outcomes."
         },
         {
           "id": "06f0162346f62f",
-          "score": 20,
-          "reason": "Focuses on rescue efforts after a train accident, lacks positive outcome."
+          "score": 0,
+          "reason": "Emergency response lacks evidence of positive impact."
         },
         {
           "id": "6a0ba346aeab5b",
-          "score": 20,
-          "reason": "Describes rescue efforts without a completed positive outcome."
+          "score": 0,
+          "reason": "Emergency response lacks evidence of positive outcomes."
         },
         {
           "id": "2e310247f5c5a3",
-          "score": 20,
-          "reason": "Similar to previous, focuses on rescue efforts without positive results."
+          "score": 50,
+          "reason": "Involves rescue efforts but lacks evidence of completed outcomes."
+        },
+        {
+          "id": "3ef88d69d5132d",
+          "score": 60,
+          "reason": "Restoration of data access is positive but lacks broader impact evidence."
         },
         {
           "id": "6ea826e78f7764",
           "score": 70,
-          "reason": "Grant awarded for mental health support, indicating a positive development."
+          "reason": "Grant awarded for mental health support, but results are not yet evident."
+        },
+        {
+          "id": "4f556dcad61411",
+          "score": 65,
+          "reason": "Initiative launched for women's academic leadership, but no results reported."
         },
         {
           "id": "19901a9e3a6965",
-          "score": 20,
-          "reason": "Focuses on consumer protection without a clear positive outcome."
+          "score": 50,
+          "reason": "Increased consumer protection efforts noted, but no completed outcomes."
         },
         {
           "id": "1a4e03360dcf4a",
-          "score": 20,
-          "reason": "Discusses financial data without a positive societal impact."
+          "score": 50,
+          "reason": "Financial data reported, but lacks evidence of positive societal impact."
         },
         {
           "id": "561cb37d399904",
-          "score": 20,
-          "reason": "Rescue of individuals from a fire lacks broader significance."
+          "score": 40,
+          "reason": "Rescue of individuals from a fire is local news without broader significance."
         },
         {
           "id": "6dd15780dfe568",
-          "score": 20,
-          "reason": "Rescue of dogs from a fire lacks broader significance."
+          "score": 40,
+          "reason": "Rescue of dogs from a fire lacks broader conservation or community impact."
         },
         {
           "id": "97a3173f200047",
-          "score": 20,
-          "reason": "Rescue of children from a house lacks broader significance."
+          "score": 40,
+          "reason": "Rescue of children from a dangerous situation lacks broader systemic change."
         },
         {
           "id": "76d09147870fc7",
-          "score": 20,
-          "reason": "Incident of home explosion lacks broader significance."
+          "score": 40,
+          "reason": "Incident of home explosion and rescue lacks broader implications."
+        },
+        {
+          "id": "3bf0d4dae5d376",
+          "score": 50,
+          "reason": "Personal narrative lacks evidence of broader impact or completed outcomes."
         },
         {
           "id": "1520a218730bdb",
-          "score": 20,
-          "reason": "Rescue after train collision lacks broader significance."
+          "score": 40,
+          "reason": "Rescue from train collision is a single incident without broader significance."
         },
         {
           "id": "0c808d56265338",
-          "score": 20,
-          "reason": "Rescue of a historic hotel lacks broader significance."
+          "score": 50,
+          "reason": "Restoration of a historic hotel is positive but lacks evidence of community impact."
         },
         {
           "id": "af21e20b525f5d",
-          "score": 20,
-          "reason": "Rescue from apartment fire lacks broader significance."
+          "score": 40,
+          "reason": "Rescue from fire is local news without broader significance."
         },
         {
           "id": "7631413241c307",
-          "score": 20,
-          "reason": "Rescue of hikers lacks broader significance."
+          "score": 40,
+          "reason": "Rescue of hikers lacks broader implications or systemic change."
+        },
+        {
+          "id": "003a276a458eb8",
+          "score": 50,
+          "reason": "Minister's statement on platforms lacks evidence of completed outcomes."
+        },
+        {
+          "id": "4a30fbe36944da",
+          "score": 60,
+          "reason": "Planned opening of treatment center is positive but lacks immediate results."
+        },
+        {
+          "id": "db5b825b919dea",
+          "score": 50,
+          "reason": "Consumer warnings issued but no completed outcomes reported."
+        },
+        {
+          "id": "d445a81b5b0d66",
+          "score": 40,
+          "reason": "Rescue of an individual lacks broader significance or systemic change."
         },
         {
           "id": "5f0dd9fcd1d05e",
           "score": 60,
-          "reason": "Launch of recovery care program indicates a positive development."
+          "reason": "Launch of recovery program is positive but lacks evidence of immediate impact."
         },
         {
           "id": "1622670e04b9e8",
-          "score": 20,
-          "reason": "Focuses on disaster recovery efforts without a clear positive outcome."
+          "score": 30,
+          "reason": "Ongoing disaster recovery efforts lack measurable outcomes."
         },
         {
           "id": "f2bea40370f8c1",
           "score": 20,
-          "reason": "Describes rescue efforts without a completed positive outcome."
+          "reason": "Rescue operations reported but no completed outcomes or improvements."
         },
         {
           "id": "e13b245de0f633",
-          "score": 20,
-          "reason": "Voter consideration lacks a completed positive outcome."
+          "score": 10,
+          "reason": "Proposal for community college involvement lacks evidence of impact."
         },
         {
           "id": "3310e308a05cd2",
-          "score": 20,
-          "reason": "Focuses on personnel efforts without a clear positive outcome."
+          "score": 40,
+          "reason": "Efforts to restore electricity noted, but no measurable results provided."
         },
         {
           "id": "5ec3a3421045f4",
           "score": 20,
-          "reason": "Rally for hospital services lacks a completed positive outcome."
+          "reason": "Rally for hospital services lacks evidence of positive outcomes."
+        },
+        {
+          "id": "934fbd9a69c967",
+          "score": 20,
+          "reason": "Live coverage of rescue efforts does not indicate completed outcomes."
         },
         {
           "id": "a443b0880e3925",
-          "score": 20,
-          "reason": "Rescue of nine people from a fire is a local incident without broader impact."
+          "score": 30,
+          "reason": "Rescue of individuals reported, but lacks broader significance."
         },
         {
           "id": "e3723dfe9ece5d",
@@ -3101,192 +2722,566 @@
         {
           "id": "cc0c6d58321cbf",
           "score": 30,
-          "reason": "Rethinking disaster recovery is interesting but lacks specific evidence of outcomes."
+          "reason": "Rethinking disaster recovery lacks evidence of implemented changes."
         },
         {
           "id": "6d894333f8b872",
           "score": 20,
-          "reason": "Investment in a conservation program is a pledge, not a completed outcome."
+          "reason": "Investment in conservation program lacks evidence of immediate impact."
         },
         {
           "id": "dd3963ebff3791",
-          "score": 20,
-          "reason": "Restoration of an altar is a local cultural project without broader significance."
+          "score": 10,
+          "reason": "Restoration initiative lacks evidence of completed outcomes."
         },
         {
           "id": "c1eafdf135a3aa",
-          "score": 30,
-          "reason": "Focus on male fertility protection is relevant but lacks concrete results."
+          "score": 20,
+          "reason": "Discussion on male fertility lacks evidence of actionable outcomes."
         },
         {
           "id": "bbe1175b4f6c15",
-          "score": 20,
-          "reason": "Office availability trends do not indicate a significant positive development."
+          "score": 30,
+          "reason": "Market recovery noted but lacks concrete evidence of improvement."
         },
         {
           "id": "b3aabf8f73fcac",
-          "score": 40,
-          "reason": "Tree week events support national greening efforts but lack measurable outcomes."
+          "score": 20,
+          "reason": "Tree planting events lack measurable outcomes or impact."
         },
         {
           "id": "c7faf8953d4954",
           "score": 30,
-          "reason": "River cleanup promises improvement but lacks evidence of completed work."
+          "reason": "River cleanup promised but lacks evidence of completed results."
         },
         {
           "id": "18694d1497e48d",
-          "score": 20,
-          "reason": "Cultural initiative lacks measurable impact beyond local recognition."
+          "score": 10,
+          "reason": "Cultural initiative lacks evidence of measurable outcomes."
         },
         {
           "id": "23a5214d724dec",
           "score": 30,
-          "reason": "Business recovery is noted but lacks specific evidence of success."
+          "reason": "Business recovery noted but lacks concrete evidence of success."
         },
         {
           "id": "9223abd2377365",
-          "score": 30,
-          "reason": "Cultural recovery ecosystem is interesting but lacks concrete outcomes."
+          "score": 20,
+          "reason": "Cultural recovery initiative lacks evidence of completed outcomes."
         },
         {
           "id": "95d4309b6a5548",
-          "score": 40,
-          "reason": "Workshop on agriculture and conservation shows potential but lacks evidence."
+          "score": 30,
+          "reason": "Workshop on agriculture and conservation lacks evidence of results."
         },
         {
           "id": "993abdd2799230",
           "score": 20,
-          "reason": "Training program announcement lacks evidence of impact or outcomes."
+          "reason": "Proposal for vocational training lacks evidence of positive outcomes."
         },
         {
           "id": "3bc5334439ab6d",
-          "score": 60,
-          "reason": "Wind power expansion indicates a significant move towards renewable energy."
+          "score": 40,
+          "reason": "Plans for wind power expansion lack evidence of completed outcomes."
+        },
+        {
+          "id": "5f2a05f5ecf3e8",
+          "score": 0,
+          "reason": "Financial forecasts do not represent positive developments."
         },
         {
           "id": "bd6da4b80e53f3",
-          "score": 20,
-          "reason": "Volunteer event lacks broader significance or measurable outcomes."
+          "score": 0,
+          "reason": "Volunteer announcements do not demonstrate measurable outcomes."
         },
         {
           "id": "6f65116e29692e",
-          "score": 30,
-          "reason": "Discussion on environmental cooperation lacks concrete results."
+          "score": 0,
+          "reason": "Discussion of cooperation lacks evidence of completed results."
         },
         {
           "id": "5106b7017fb621",
-          "score": 20,
-          "reason": "Technological advancements are noted but lack evidence of positive outcomes."
+          "score": 0,
+          "reason": "Technological advancements mentioned without evidence of impact."
+        },
+        {
+          "id": "9bcaa66e5b1988",
+          "score": 70,
+          "reason": "Successful medical procedure with significant outcome for a patient."
         },
         {
           "id": "0c712b2f02f2c0",
-          "score": 20,
-          "reason": "Community giving is positive but lacks measurable impact."
+          "score": 0,
+          "reason": "General community giving lacks measurable outcomes."
         },
         {
           "id": "62af3185d26a0d",
-          "score": 20,
-          "reason": "Campus cleanup is a local effort without broader significance."
+          "score": 0,
+          "reason": "Campus cleanup lacks evidence of broader impact."
         },
         {
           "id": "c4f32d629cf6bb",
           "score": 0,
-          "reason": "Focuses on a billionaire's ranking, not a positive societal outcome."
+          "reason": "Business rankings do not represent positive societal developments."
         },
         {
           "id": "c0173ce6396d59",
           "score": 0,
-          "reason": "Describes a commercial center's recovery phase, lacking measurable impact."
+          "reason": "Project updates without evidence of completed results."
         },
         {
           "id": "0aad9c4ec5bf58",
-          "score": 0,
-          "reason": "Discusses referral and support without evidence of positive outcomes."
+          "score": 60,
+          "reason": "Research on melanoma recovery support indicates potential positive outcomes."
         },
         {
           "id": "c9c469dbb76a54",
           "score": 0,
-          "reason": "Legal recognition of fees does not indicate a positive societal change."
+          "reason": "Legal financial matters do not represent positive societal developments."
         },
         {
           "id": "00c95b67a20ca7",
           "score": 0,
-          "reason": "Rescue efforts after an accident lack broader significance or outcomes."
+          "reason": "Rescue operations without evidence of broader impact."
         },
         {
           "id": "7e02daf32ace49",
           "score": 0,
-          "reason": "Recognition of an individual does not demonstrate a broader community impact."
+          "reason": "Recognition of volunteers lacks evidence of measurable outcomes."
         },
         {
           "id": "7ba31feb708009",
           "score": 0,
-          "reason": "Informs about train services without evidence of positive societal change."
+          "reason": "Train service announcements do not demonstrate positive developments."
         },
         {
           "id": "f7777bdf58ad97",
           "score": 0,
-          "reason": "Community yoga initiative lacks measurable outcomes or broader significance."
+          "reason": "Community yoga initiative lacks evidence of measurable outcomes."
         },
         {
           "id": "1fe9d2d27b0cc1",
           "score": 0,
-          "reason": "Focuses on ecological efforts without clear evidence of positive impact."
+          "reason": "Environmental protection plans lack evidence of completed results."
         },
         {
           "id": "a142b4411d2536",
-          "score": 0,
-          "reason": "Details collaborations without evidence of completed positive outcomes."
+          "score": 70,
+          "reason": "WWF initiatives indicate positive environmental collaborations."
         },
         {
           "id": "f84d8c86546078",
           "score": 0,
-          "reason": "Describes community care without specific measurable outcomes."
-        },
-        {
-          "id": "f83e12ca27cbcf",
-          "score": 0,
-          "reason": "Discusses financial risk without evidence of positive societal impact."
+          "reason": "General recognition of community efforts lacks measurable outcomes."
         },
         {
           "id": "c1cdf86480128d",
           "score": 0,
-          "reason": "Focuses on language protection without evidence of measurable outcomes."
+          "reason": "Cultural studies do not represent positive societal developments."
+        }
+      ]
+    },
+    "owop": {
+      "reviews": [
+        {
+          "id": "e3a25e8bf2b7f4",
+          "score": 0,
+          "reason": "Local council decision lacks concrete positive outcome."
         },
         {
-          "id": "644388bdc6286e",
-          "score": 0,
-          "reason": "Rescue efforts after an accident lack broader significance or outcomes."
+          "id": "6c378e53f811bd",
+          "score": 80,
+          "reason": "Significant milestone in renewable energy capacity achieved."
         },
         {
-          "id": "ddfeca4c394714",
+          "id": "7a38aa00f7ebcf",
           "score": 0,
-          "reason": "Tribute to volunteers lacks evidence of a completed positive outcome."
+          "reason": "Focus on rescue efforts without clear positive outcome."
+        },
+        {
+          "id": "e57c98232e8e87",
+          "score": 85,
+          "reason": "Innovative free dental clinic addresses community health needs."
+        },
+        {
+          "id": "2a9045af3df5bc",
+          "score": 0,
+          "reason": "Initiative lacks evidence of measurable impact."
+        },
+        {
+          "id": "de9004effeeaac",
+          "score": 75,
+          "reason": "Discovery of new fungal species contributes to biodiversity."
+        },
+        {
+          "id": "bb326cf5e9bf1b",
+          "score": 0,
+          "reason": "Response to accident lacks evidence of positive outcome."
+        },
+        {
+          "id": "5e54858e7a535c",
+          "score": 0,
+          "reason": "Emergency response without clear positive results."
+        },
+        {
+          "id": "4f776e34910551",
+          "score": 0,
+          "reason": "Drug bust lacks broader societal impact."
+        },
+        {
+          "id": "925ae90e9c7df2",
+          "score": 0,
+          "reason": "Market fluctuations do not indicate positive developments."
+        },
+        {
+          "id": "493a5a2cd6ab78",
+          "score": 0,
+          "reason": "Local initiative lacks evidence of meaningful impact."
+        },
+        {
+          "id": "e6b60620ddc70f",
+          "score": 0,
+          "reason": "Tree planting initiative lacks measurable outcomes."
+        },
+        {
+          "id": "57294f0c4b217b",
+          "score": 0,
+          "reason": "Restoration project lacks evidence of broader impact."
+        },
+        {
+          "id": "d7d188efd8ac3d",
+          "score": 0,
+          "reason": "Discussion lacks concrete outcomes or solutions."
+        },
+        {
+          "id": "fb3d53f3791417",
+          "score": 0,
+          "reason": "Product introduction lacks evidence of positive impact."
+        },
+        {
+          "id": "67cf6e924a48bc",
+          "score": 0,
+          "reason": "Market analysis lacks relevance to positive developments."
+        },
+        {
+          "id": "c022627eb12649",
+          "score": 0,
+          "reason": "Warnings about AI lack evidence of positive outcomes."
+        },
+        {
+          "id": "5f89243dd37fec",
+          "score": 0,
+          "reason": "Solidarity response lacks measurable positive impact."
+        },
+        {
+          "id": "06f0162346f62f",
+          "score": 0,
+          "reason": "Emergency response lacks evidence of positive outcomes."
+        },
+        {
+          "id": "6a0ba346aeab5b",
+          "score": 0,
+          "reason": "Emergency response lacks evidence of positive outcomes."
+        },
+        {
+          "id": "2e310247f5c5a3",
+          "score": 50,
+          "reason": "Involves rescue efforts but lacks evidence of broader impact or outcome."
+        },
+        {
+          "id": "3ef88d69d5132d",
+          "score": 0,
+          "reason": "Technical recovery of data lacks human or environmental relevance."
+        },
+        {
+          "id": "6ea826e78f7764",
+          "score": 70,
+          "reason": "Grant awarded for mental health support indicates potential positive community impact."
+        },
+        {
+          "id": "4f556dcad61411",
+          "score": 60,
+          "reason": "Initiative to enhance women's academic leadership shows promise for societal improvement."
+        },
+        {
+          "id": "19901a9e3a6965",
+          "score": 0,
+          "reason": "Consumer protection measures lack evidence of concrete outcomes."
+        },
+        {
+          "id": "1a4e03360dcf4a",
+          "score": 0,
+          "reason": "Financial data lacks relevance to positive human or environmental developments."
+        },
+        {
+          "id": "561cb37d399904",
+          "score": 0,
+          "reason": "Rescue of individuals lacks broader significance or systemic change."
+        },
+        {
+          "id": "6dd15780dfe568",
+          "score": 0,
+          "reason": "Rescue of dogs does not demonstrate significant conservation or community impact."
+        },
+        {
+          "id": "97a3173f200047",
+          "score": 0,
+          "reason": "Rescue of children lacks broader implications or systemic change."
+        },
+        {
+          "id": "76d09147870fc7",
+          "score": 0,
+          "reason": "Incident lacks broader significance beyond immediate rescue."
         },
         {
           "id": "3bf0d4dae5d376",
           "score": 0,
-          "reason": "Focuses on an individual's perspective without evidence of broader impact."
+          "reason": "Focus on individual narrative lacks evidence of broader impact."
         },
         {
-          "id": "2597e722313115",
+          "id": "1520a218730bdb",
           "score": 0,
-          "reason": "Discusses regional protection without evidence of measurable outcomes."
+          "reason": "Rescue incident lacks broader significance or systemic change."
         },
         {
-          "id": "4a859b5ef77c35",
+          "id": "0c808d56265338",
           "score": 0,
-          "reason": "Critiques climate finance without evidence of positive outcomes."
+          "reason": "Restoration of a hotel lacks evidence of community or environmental impact."
         },
         {
-          "id": "d3726d22c11ca8",
+          "id": "af21e20b525f5d",
           "score": 0,
-          "reason": "Cultural promotion lacks evidence of measurable positive impact."
+          "reason": "Rescue incident lacks broader significance or systemic change."
         },
         {
-          "id": "90ba17ce548b8d",
+          "id": "7631413241c307",
           "score": 0,
-          "reason": "Discusses AI waste management without evidence of completed positive outcomes."
+          "reason": "Rescue of hikers lacks broader implications or systemic change."
+        },
+        {
+          "id": "003a276a458eb8",
+          "score": 0,
+          "reason": "Government statement lacks evidence of concrete outcomes."
+        },
+        {
+          "id": "4a30fbe36944da",
+          "score": 70,
+          "reason": "Opening of treatment center indicates potential positive impact on community health."
+        },
+        {
+          "id": "db5b825b919dea",
+          "score": 0,
+          "reason": "Consumer warning lacks evidence of concrete outcomes."
+        },
+        {
+          "id": "d445a81b5b0d66",
+          "score": 0,
+          "reason": "Rescue incident lacks broader significance or systemic change."
+        },
+        {
+          "id": "5f0dd9fcd1d05e",
+          "score": 60,
+          "reason": "Launch of recovery program indicates potential positive impact on individuals."
+        },
+        {
+          "id": "1622670e04b9e8",
+          "score": 50,
+          "reason": "Disaster recovery efforts ongoing, but lacks measurable outcomes."
+        },
+        {
+          "id": "f2bea40370f8c1",
+          "score": 40,
+          "reason": "Rescue operations reported, but no concrete positive outcomes presented."
+        },
+        {
+          "id": "e13b245de0f633",
+          "score": 30,
+          "reason": "Proposal for community college involvement, no results yet."
+        },
+        {
+          "id": "3310e308a05cd2",
+          "score": 60,
+          "reason": "Efforts to restore electricity transmission, but lacks detailed outcomes."
+        },
+        {
+          "id": "5ec3a3421045f4",
+          "score": 20,
+          "reason": "Concern over hospital services, no positive developments reported."
+        },
+        {
+          "id": "934fbd9a69c967",
+          "score": 40,
+          "reason": "Rescue efforts ongoing, but no measurable outcomes shared."
+        },
+        {
+          "id": "a443b0880e3925",
+          "score": 50,
+          "reason": "Rescue of individuals reported, but lacks broader significance."
+        },
+        {
+          "id": "e3723dfe9ece5d",
+          "score": 30,
+          "reason": "Discussion on hybrid threats, no concrete outcomes presented."
+        },
+        {
+          "id": "cc0c6d58321cbf",
+          "score": 70,
+          "reason": "Innovative disaster recovery ideas discussed, potential for positive impact."
+        },
+        {
+          "id": "6d894333f8b872",
+          "score": 50,
+          "reason": "Investment in conservation program noted, but lacks immediate results."
+        },
+        {
+          "id": "dd3963ebff3791",
+          "score": 30,
+          "reason": "Restoration project mentioned, but no outcomes reported."
+        },
+        {
+          "id": "c1eafdf135a3aa",
+          "score": 40,
+          "reason": "Discussion on male fertility protection, lacks concrete outcomes."
+        },
+        {
+          "id": "bbe1175b4f6c15",
+          "score": 50,
+          "reason": "Recovery signs in Ottawa noted, but lacks detailed evidence."
+        },
+        {
+          "id": "b3aabf8f73fcac",
+          "score": 60,
+          "reason": "Tree planting initiative reported, potential positive environmental impact."
+        },
+        {
+          "id": "c7faf8953d4954",
+          "score": 50,
+          "reason": "River cleanup promised, but no results yet."
+        },
+        {
+          "id": "18694d1497e48d",
+          "score": 30,
+          "reason": "Cultural initiative mentioned, lacks measurable outcomes."
+        },
+        {
+          "id": "23a5214d724dec",
+          "score": 40,
+          "reason": "Business recovery noted, but lacks concrete positive developments."
+        },
+        {
+          "id": "9223abd2377365",
+          "score": 50,
+          "reason": "Cultural recovery ecosystem discussed, but no outcomes reported."
+        },
+        {
+          "id": "95d4309b6a5548",
+          "score": 60,
+          "reason": "Workshop on agriculture and conservation, potential for positive impact."
+        },
+        {
+          "id": "993abdd2799230",
+          "score": 30,
+          "reason": "Proposal for vocational training, no results yet."
+        },
+        {
+          "id": "3bc5334439ab6d",
+          "score": 70,
+          "reason": "Wind power expansion indicates a significant step towards renewable energy."
+        },
+        {
+          "id": "5f2a05f5ecf3e8",
+          "score": 10,
+          "reason": "Focus on cryptocurrency market, lacks concrete positive development."
+        },
+        {
+          "id": "bd6da4b80e53f3",
+          "score": 20,
+          "reason": "Volunteer involvement noted, but lacks evidence of meaningful impact."
+        },
+        {
+          "id": "6f65116e29692e",
+          "score": 30,
+          "reason": "Discussion on environmental cooperation, but no concrete outcomes presented."
+        },
+        {
+          "id": "5106b7017fb621",
+          "score": 20,
+          "reason": "Technological advancements mentioned, but no specific positive outcomes."
+        },
+        {
+          "id": "9bcaa66e5b1988",
+          "score": 80,
+          "reason": "Successful medical intervention demonstrates significant health improvement."
+        },
+        {
+          "id": "0c712b2f02f2c0",
+          "score": 30,
+          "reason": "Community giving noted, but lacks evidence of measurable impact."
+        },
+        {
+          "id": "62af3185d26a0d",
+          "score": 40,
+          "reason": "Campus cleanup indicates community effort, but lacks broader significance."
+        },
+        {
+          "id": "c4f32d629cf6bb",
+          "score": 10,
+          "reason": "Focus on individual wealth, lacks relevance to broader positive developments."
+        },
+        {
+          "id": "c0173ce6396d59",
+          "score": 20,
+          "reason": "Recovery project mentioned, but lacks evidence of significant impact."
+        },
+        {
+          "id": "0aad9c4ec5bf58",
+          "score": 70,
+          "reason": "Research on melanoma recovery support indicates potential health improvement."
+        },
+        {
+          "id": "c9c469dbb76a54",
+          "score": 10,
+          "reason": "Legal financial matters discussed, lacks relevance to positive societal change."
+        },
+        {
+          "id": "00c95b67a20ca7",
+          "score": 50,
+          "reason": "Rescue efforts noted, but lacks evidence of broader impact."
+        },
+        {
+          "id": "7e02daf32ace49",
+          "score": 20,
+          "reason": "Recognition of volunteer work mentioned, but lacks measurable outcomes."
+        },
+        {
+          "id": "7ba31feb708009",
+          "score": 10,
+          "reason": "Transportation updates noted, lacks relevance to positive developments."
+        },
+        {
+          "id": "f7777bdf58ad97",
+          "score": 30,
+          "reason": "Community yoga initiative mentioned, but lacks evidence of significant impact."
+        },
+        {
+          "id": "1fe9d2d27b0cc1",
+          "score": 60,
+          "reason": "Environmental protection efforts noted, indicating positive ecological impact."
+        },
+        {
+          "id": "a142b4411d2536",
+          "score": 70,
+          "reason": "Water conservation collaborations indicate meaningful environmental progress."
+        },
+        {
+          "id": "f84d8c86546078",
+          "score": 50,
+          "reason": "Community recognition noted, but lacks evidence of broader impact."
+        },
+        {
+          "id": "c1cdf86480128d",
+          "score": 20,
+          "reason": "Cultural study mentioned, but lacks evidence of significant societal impact."
         }
       ]
     }
