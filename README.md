@@ -1,4 +1,4 @@
-# CRISIS Intelligence — onderzoeks-pilot 0.7
+# CRISIS Intelligence — onderzoeks-pilot 0.8
 
 Automatische **nieuwsdetectie**, nog **geen geverifieerde gebeurtenisregistratie of oorlogskansvoorspeller**.
 
@@ -136,3 +136,20 @@ Maximaal **drie AI-verzoeken per event-ronde, twaalf per UTC-dag** (met eerder
 verrichte aanvragen meegeteld). Voor AI-samenvattingen en OWOP gelden aparte
 limieten. Ook dubbele AI-consensus kan onjuist zijn; we tonen geen
 gekalibreerde betrouwbaarheidsscore zonder echte labels.
+
+## Pilot 0.8 — onafhankelijke workflows en signaalmonitor (28 oktober 2026)
+
+**Twee afzonderlijke automatische processen:**
+
+- **CRISIS**: [`.github/workflows/pilot.yml`](https://github.com/BjornBruinsma/crisis-intelligence-pilot/actions/workflows/pilot.yml), iedere zes uur. Verzamelt nieuws, AI-selectie, gebeurteniskandidaten, officiële bronpassages, kwaliteitscontrole en [signaalmonitor](https://bjornbruinsma.github.io/crisis-intelligence-pilot/signals.html). De CRISIS-job voert geen OWOP-verzameling of OWOP-AI meer uit.
+- **OWOP**: [`.github/workflows/owop.yml`](https://github.com/BjornBruinsma/crisis-intelligence-pilot/actions/workflows/owop.yml), viermaal daags met verschoven planning. Behoudt de bestaande eigen AI-redactie, webzoekverificatie en publicatie in `site/owop`. De OWOP-job voert geen CRISIS-analyse uit.
+- Elke job schrijft **uitsluitend zijn eigen gegenereerde bestanden** terug naar `main` met een beperkt aantal retries bij gelijktijdige commits.
+- Beide kunnen zelfstandig de volledige GitHub Pages-site publiceren, maar de **deploymentjobs gebruiken dezelfde seriële concurrencygroep** en laden eerst de nieuwste `main`. Zo blijven de pagina's onder hetzelfde webadres beschikbaar.
+
+**Extra officiële bronnen:** bovenop CENTCOM, de Britse reisadviezen en het Amerikaanse ministerie van Buitenlandse Zaken worden onder meer IMO (scheepvaart), het Pakistaanse en Chinese ministerie van Buitenlandse Zaken, het ministerie van Buitenlandse Zaken van de VAE, de Iraanse buitenlandse dienst, het Amerikaanse ministerie van Financiën en EIA (energie) onderzocht. Bronnen worden parallel met maximaal vijf verbindingen opgehaald; mislukte sites tellen uitdrukkelijk als onbeschikbaar, niet als negatief bewijs. Dit zijn bronnen over het **eigen officiële standpunt** van een autoriteit; noch de relevantie van de passage noch het perspectief bewijst automatisch de gebeurtenis.
+
+**Nieuwe onderzoeksmonitor:** `scripts/signals.py` telt per AI-gegroepeerde kandidaat maar één voorlopige richting (escalatie/de-escalatie/gemengd/neutraal/onbekend) en toont het aantal gerelateerde officiële tekstmatches. De pagina `site/signals.html` en de JSON-bestanden `site/data/signals.json`, `site/data/signal_history.json` bevatten de nieuwste steekproef en maximaal 120 dagelijkse snapshots. Dit zijn **NIET** real-world incidentenaantallen, een representatieve meting, een voorspelling, een tijdreeks voor causaliteit of een gecalibreerde oorlogskans. De drie hoofdmeters blijven leeg.
+
+**Financiën:** de app-limieten voor het aantal AI-calls in de verschillende scripts beperken aanvragen maar zijn geen harde geldlimiet. CRISIS en OWOP delen dezelfde OpenAI API-sleutel/betaalrekening; gebruikers moeten bestedingen en automatische opwaardering in hun OpenAI-account zelf bewaken.
+
+**Vervolg na technische tests:** een gelabelde evaluatieset van echte *zelfde-gebeurtenis / andere-gebeurtenis*-paren, gerichte raadpleging van de daadwerkelijke individuele primaire documenten en historische backtesting voordat welke risicokans dan ook zichtbaar mag worden.
