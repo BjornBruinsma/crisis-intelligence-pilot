@@ -8,6 +8,7 @@ Never mark a real-world event as verified or estimate a probability.
 """
 import collections
 import datetime as dt
+import email.utils
 import html
 import json
 import os
@@ -287,6 +288,24 @@ def compare(api_key,items):
     content=data["choices"][0]["message"]["content"]
     return json.loads(content),int((data.get("usage") or {}).get("total_tokens") or 0)
 
+def source_precedes_claim_by_weeks(source_date,news_day,threshold_days=21):
+    """Old documents can't directly establish a newly reported specific incident.
+
+    Publication date is a screening heuristic, not evidence of when an event
+    happened. Unknown or unparsable dates do not silently become proof.
+    """
+    if not source_date or not news_day:return False
+    try:
+        day=dt.date.fromisoformat(str(news_day)[:10])
+        val=str(source_date).replace("Sept.", "Sep.").strip()
+        if re.match(r"^\d{4}-\d\d-\d\d",val):
+            published=dt.date.fromisoformat(val[:10])
+        else:
+            published=email.utils.parsedate_to_datetime(val).date()
+        return (day-published).days>threshold_days
+    except (ValueError,TypeError,OverflowError,IndexError):
+        return False
+
 def validate_matches(result,items):
     entries=result.get("results") if isinstance(result,dict) else None
     if not isinstance(entries,list):raise ValueError("No verification results")
@@ -313,12 +332,21 @@ def validate_matches(result,items):
             if not 20<=len(quote)<=160 or quote.casefold() not in passage.casefold():
                 continue
             seen.add(docid)
+            old_doc=source_precedes_claim_by_weeks(
+                doc.get("published_at_from_document"),
+                requested[event_id].get("news_day"))
+            if old_doc and relation=="direct_statement":
+                relation="related_only"
             accepted.append({"source_url":doc["url"],
                 "original_document_title":doc["title"],
                 "source_date":doc["published_at_from_document"],
                 "retrieved_at":doc["retrieved_at"],
                 "exact_quote":quote,"relation":relation,
-                "reason_nl":str(match.get("explanation_nl") or "")[:340],
+                "older_document_than_claim":old_doc,
+                "reason_nl":(
+                  "Ouder document: toont geen bewijs van nieuwe gebeurtenis. "
+                  if old_doc else ""
+                )+str(match.get("explanation_nl") or "")[:300],
                 "claim_validated_as_fact":False})
             if len(accepted)>=2:break
         out[event_id]={"matches":accepted,"summary_nl":str(entry.get("summary_nl") or "")[:420]}
@@ -404,11 +432,14 @@ def main():
     tokens=int((usage.get(day) or {}).get("model_tokens",0))
     selected=choose_events(events,records,count)
     new_items=[]
+    daily_candidates=load(DATA/"verification_candidates.json",{"candidates":[]})
+    news_days={c.get("id"):c.get("publication_day") for c in (daily_candidates.get("candidates") or [])}
     for e in selected:
         discovery=discover_documents(e,primary)
         new_items.append({"event_id":e["id"],
                           "claim":str(e.get("headline_claims",[""])[0])[:330],
-                          "news_day":None,"discovery":discovery})
+                          "news_day":news_days.get((e.get("headline_claim_ids") or [None])[0]),
+                          "discovery":discovery})
     verdict={}
     error=None
     usable=[x for x in new_items if x["discovery"]["documents"]]
