@@ -1,4 +1,4 @@
-# CRISIS Intelligence — onderzoeks-pilot 0.9
+# CRISIS Intelligence — onderzoeks-pilot 1.0
 
 Automatische **nieuwsdetectie**, nog **geen geverifieerde gebeurtenisregistratie of oorlogskansvoorspeller**.
 
@@ -184,3 +184,43 @@ OpenAI-accountkosten**. Bing RSS en officiële websites kunnen verzoeken
 weigeren of onvolledige zoekresultaten geven. Een negatieve zoekuitkomst
 ontkracht nooit een nieuwsclaim. Vooralsnog geen geverifieerde
 gebeurtenisregistratie, automatische risicokans of gekalibreerde inschatting.
+
+## Pilot 1.0 — zoekdekking en chronologische verificatie (28 oktober 2026)
+
+- De officiële broncollector gebruikt nu de *werkelijke* Engelstalige
+  [China MFA-index](https://www.fmprc.gov.cn/mfa_eng/index.html)
+  en [Pakistan MFA-perspagina](https://www.mofa.gov.pk/press-releases).
+  Chinese persconferentie-links worden bewaard voor nadere documentcontrole,
+  ook als de titel geen specifiek land noemt.
+- De claimgerichte zoeklaag combineert de actuele officiële bronsite-links
+  met de publieke [GOV.UK Search API](https://www.gov.uk/api/search.json)
+  en maximaal drie afzonderlijke issuer-specifieke Bing RSS-zoekopdrachten.
+  Zoekresultaten dienen **alleen om originele publicaties te vinden**;
+  een zoekfragment wordt nooit rechtstreeks als bewijs gebruikt. Een site die
+  niets teruggeeft of een fout heeft, wordt apart geregistreerd.
+- De verifier geeft per claim aan hoeveel oorspronkelijke officiële documenten
+  zijn geopend, welke zoekaanbieders bereikbaar waren en welke passages
+  letterlijk teruggevonden zijn. Het [kwaliteitsrapport](https://bjornbruinsma.github.io/crisis-intelligence-pilot/quality.html)
+  toont de opbrengst van de bronzoektocht naast de status van de claims.
+- Bij de datumcontrole wordt de publicatiedatum van de nieuwsclaim onderscheiden
+  van de gebeurtenisdatum. Een gevonden officieel document dat meer dan 21 dagen
+  ouder is dan de kop wordt automatisch tot **historische context** teruggezet,
+  zelfs wanneer de AI het als directe ondersteuning wilde markeren.
+  Dit is een voorzichtige vuistregel, geen onweerlegbare beoordeling.
+- Wanneer de clustering haar AI-daglimiet bereikt, blijft de laatst geldige
+  AI-groepering als cache behouden. Nieuwe of verdwenen artikelen worden
+  conservatief afzonderlijk getoond. Het dashboard meldt expliciet dat de
+  clustering op dat moment **niet opnieuw** is uitgevoerd.
+
+We **kunnen geen specifieke gebeurtenis als bewezen publiceren** zonder
+een primaire publicatie met een passende actor, handeling, doelwit en
+chronologie. Ook directe overheidspublicaties kunnen onjuist zijn:
+ze bewijzen in de eerste plaats wat de autoriteit verklaart. De drie
+risicowijzers blijven buiten gebruik tot er voldoende gelabelde,
+onafhankelijk gecontroleerde cases en historische backtests bestaan.
+
+De bestaande limieten voor de claimgerichte pilot blijven ongewijzigd:
+maximaal 3 nieuwe claims per uitvoering, 9 per UTC-dag, maximaal
+2 bezochte originele documenten per claim en 6 AI-vergelijkingsaanvragen
+per UTC-dag; zoekopdrachten naar publieke website-informatie zijn beperkt.
+De kosten zijn afzonderlijke OpenAI-API-kosten en dit is geen geldplafond.
