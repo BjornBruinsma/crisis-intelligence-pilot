@@ -45,6 +45,14 @@ jobs:
           AI_MODEL: gpt-4o-mini
         run: python scripts/ai_assess.py
 
+      - name: Collect official primary-source publications
+        run: python scripts/primary_sources.py
+      - name: Cluster claims and match official evidence (usage-capped)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EVENT_AI_MODEL: gpt-4o-mini
+        run: python scripts/event_cluster.py
+
       - name: Collect OWOP multilingual candidate news
         run: python scripts/owop_collect.py
       - name: Install OpenAI SDK for OWOP editorial board
@@ -69,7 +77,7 @@ jobs:
           # instead of rebasing a data commit and risking JSON merge conflicts.
           git fetch origin main
           git reset --mixed origin/main
-          git add site/data/articles.json site/data/fetch_status.json site/news.html site/review.html site/data/review_queue.json site/verify.html site/data/verification_candidates.json site/ai.html site/data/ai_assessments.json site/owop
+          git add site/data/articles.json site/data/fetch_status.json site/news.html site/review.html site/data/review_queue.json site/verify.html site/data/verification_candidates.json site/ai.html site/data/ai_assessments.json site/owop site/data/primary_sources.json site/data/event_candidates.json site/events.html
           if ! git diff --cached --quiet; then
             git commit -m "Update collected news candidates"
             git push origin HEAD:main
