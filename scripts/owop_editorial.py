@@ -17,7 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1] / "site" / "owop"
 DATA = ROOT / "data"
-MODEL = os.getenv("OWOP_MODEL", "gpt-6-luna")
+MODEL = os.getenv("OWOP_MODEL", "gpt-4o-mini")
 MAX_ARTICLES = 700
 MAX_GROUPS = 80
 PUBLISH_THRESHOLD = 75
@@ -105,9 +105,16 @@ def parse_json_text(text):
 
 
 def ask(client, instruction, candidates):
-    prompt = instruction + "\n\nCANDIDATES:\n" + json.dumps(candidates, ensure_ascii=False)
-    response = client.responses.create(model=MODEL, input=prompt)
-    return parse_json_text(response.output_text)
+    response = client.chat.completions.create(
+        model=MODEL,
+        temperature=0,
+        response_format={"type": "json_object"},
+        messages=[
+            {"role": "system", "content": instruction},
+            {"role": "user", "content": "CANDIDATES:\n" + json.dumps(candidates, ensure_ascii=False)},
+        ],
+    )
+    return parse_json_text(response.choices[0].message.content or "")
 
 
 def role_prompts():
