@@ -1,0 +1,655 @@
+{
+  "description": "Unverified AI-grouped headline claims and exact official-source text matches",
+  "last_attempt_utc": "2026-10-28T09:51:28.856585Z",
+  "fingerprint": "bcb200d8339ec4d6bb90c98a",
+  "status": "partial",
+  "errors": [
+    "ValueError: Unexpected or repeated ID"
+  ],
+  "model": "gpt-4o-mini",
+  "input_candidate_count": 24,
+  "event_candidate_count": 24,
+  "official_sources_available": 4,
+  "direct_official_match_count": 0,
+  "events": [
+    {
+      "id": "28713a69f0b2fa42a3463a38",
+      "label_nl": "Claim: Iran Targets U.S.Military Sites in Bahrain, Kuwait After American Strikes - thekabultribune.com",
+      "headline_claim_ids": [
+        "3c0f42514e3161"
+      ],
+      "headline_claims": [
+        "Iran Targets U.S.Military Sites in Bahrain, Kuwait After American Strikes - thekabultribune.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNb05kVUVicFJHb0pNRTdLOFpmQWNYRXFqSW5EcWpldFRuYmV6STNQX3FBUmQ0dkxlU0FSdy1WWjVxMGtVS1JyeDdPQ0p6MFE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "570b1484a7fe76a45b7ee24d",
+      "label_nl": "Claim: US orders government employees to evacuate Saudi Arabia due to ‘safety risks’ - Daily Express US",
+      "headline_claim_ids": [
+        "b6791f78f02bf5"
+      ],
+      "headline_claims": [
+        "US orders government employees to evacuate Saudi Arabia due to ‘safety risks’ - Daily Express US"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdlhZV1RfMlVoQUhrdU5JNjFzSkNGQ0VZNERXVWVITWpPVjJTWnlUSERaRU5ONldXblc3c3pLejZubVNSeGpiU0FCUGQ1UVQ1M0N0dVdOel9XS29wcGhZNU50Y3hydms3a3N0RzVfN2pwRjhESEZUZ05RQXRYcGhIalNxMWZoRklUMlFQTjlDZmdqT1E20gGaAUFVX3lxTFBlQThTWnZQQW9iOC1yaW4xUmM5Vlg2X2IycHl2SmJlVklIdWVpYVVsNmV1YUszRW5tdjV3YWRJVU8tWE9VUnEwRGpUTU02bjVTeEV6ZTlzUnU0OE5iOU9RZDlUMldCVjJJMWVmdFlFMnlsU1hzMW04VnNWQzAyX01nRzhRakFlNTZOcFpUODdkNmtveGc3WWp3MFE?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZUE4U1p2UEFvYjgtcmluMVJjOVZYNl9iMnB5dkpiZVZJSHVlaWFVbDZldWFLM0VubXY1d2FkSVVPLVhPVVJxMERqVE1NNm41U3hFemU5c1J1NDhOYjlPUWQ5VDJXQlYySTFlZnRZRTJ5bFNYczFtOFZzVkMwMl9NZ0c4UWpBZTU2TnBaVDg3ZDZrb3hnN1lqdzBR0gGaAUFVX3lxTFBlQThTWnZQQW9iOC1yaW4xUmM5Vlg2X2IycHl2SmJlVklIdWVpYVVsNmV1YUszRW5tdjV3YWRJVU8tWE9VUnEwRGpUTU02bjVTeEV6ZTlzUnU0OE5iOU9RZDlUMldCVjJJMWVmdFlFMnlsU1hzMW04VnNWQzAyX01nRzhRakFlNTZOcFpUODdkNmtveGc3WWp3MFE?oc=5",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ09maXBMTUtZeDlBT2FtdDJaV2tvMnNoTkYxZWhBeFZZLVhVTVhlRmdLSTA1R1BERlExdWNlMVdUTDRBZmpUangzNnZ6ZHVmdkUxSjVFM1NIdkp2YWRFLVpaYXFPVnFucEQ0RjNNQ3RkaGhKaUZOVVlDR0NtempKZ0h2OTBheEd1dV84cWtR?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "627688795838000f2f3292e8",
+      "label_nl": "Claim: US struggles to evacuate American personnel from facilities under fire in Iraq: Officials - ABC News - Breaking News, Latest News and Videos",
+      "headline_claim_ids": [
+        "d90ef66d2701b8"
+      ],
+      "headline_claims": [
+        "US struggles to evacuate American personnel from facilities under fire in Iraq: Officials - ABC News - Breaking News, Latest News and Videos"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ2xXd2hHS1U1dzZkQmtROFo0RktSVDJVX1d2ZktEYzkxU291Z1ZoLW1ORDVGUTFSaDNRdm9JZDlIa1BaZEZoVHJkU01pVWlRZmRTYUdsclpFaUpWQWlYUU8xS2FiSlk2TEVFaUZ6dHU1ZzFEN2tDbDd3NHd6alNWdnNVRlgzLTN3SkZ6dkVldU1QcGtaWVJhZl9TdDV0TXR3MDNpXzlfVGNJblRsc29NNDQ4dXfSAboBQVVfeXFMTWFydS1pLTR0TEhnN1VndnRfZTJVazNlbnVpaGpZZFBLb3IycVhzUVdxQkJ6akozMXdRc3N6V0pnOW5GYVNoRDJJbkY3c0RpTDRYdU8yd0FES1gyREM4eG83R3lLQlZTRFktUFBJUG5hR184clg0OHFrVTY4UW1rTWgxX3E3RXcyTWR0V1E0aE9pajdJaEtVN0IzZDhmRkVFc3VzanViNGppdnZFZEl2eFY3N2VXc0FkZjBn?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "d1e43f5497bf77eba08d278d",
+      "label_nl": "Claim: Iran targets Gulf countries' energy infrastructure after Israeli strike on gas field - ABC News - Breaking News, Latest News and Videos",
+      "headline_claim_ids": [
+        "1bd808dc228463"
+      ],
+      "headline_claims": [
+        "Iran targets Gulf countries' energy infrastructure after Israeli strike on gas field - ABC News - Breaking News, Latest News and Videos"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMXdXYnRzQjhrelUzSGk2YV9CTFJjSm4tU1d5WVI1ZHI3ZHNIUkRVOV9DZU5PSGY0QThIanBjQWV0cDJLSGJqRGVNbmFCeW53a19OQkd5WFBCSmhiNElncFlfbk1QNTFjNUYwOEZJRHVWay1ZSmo3QmkycVZvQW5pYzN2dDZjMlV5cnhyWnhCdEQyREFEVkcyOGlpMHJBckI2ZFM4SVU2d0JaTGJNODhuaHFuSFA4cjjSAbwBQVVfeXFMUEExNGNzZERwWmJQUHFxZ204bVNPSEI2TXp4UEJhcVpkOENMdTVRejQ0SDlLYXVuWVhodnJucHlFUmtKb2liOFJ3Zll1aDlvNE5wSWVheW8zd1dKWXBLcWdtQXZ5M1NZa2lvQVVJczlSTUdZSUtSaGs2MHRJdHJGaXhNQWdMUFV2RnBSU3dFSU9iQWdtaE9MdGk1SXN0T2RkcXFyYXJKdXFmajBWX0xQRS1oZVhqMENFOW0zY00?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "6ca00a81ad8f4e0a2e53604e",
+      "label_nl": "Claim: Live Updates: War returns to Iran with Israel, US strikes - Dawn",
+      "headline_claim_ids": [
+        "84fd887d0a7df4"
+      ],
+      "headline_claims": [
+        "Live Updates: War returns to Iran with Israel, US strikes - Dawn"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "e0d9afdae4bcc5a75d171fe3",
+      "label_nl": "Claim: Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - Aaj English TV",
+      "headline_claim_ids": [
+        "f49031ab5c7aa1"
+      ],
+      "headline_claims": [
+        "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - Aaj English TV"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwWk1JTURXcV9oX01ObUowVGZhOHlMeTRTdndxQ3JZUFBFSk5lVGRaQ3R4QkRoMGxWeXRxTmpHbHdYRlBOdy0xb3A1SUVnMnR1ajIw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "40d0ce2f0cee33fb30bf4bb7",
+      "label_nl": "Claim: U.S. Evacuates Mideast Outposts After Suspected Iranian Plot to Target Americans - WSJ",
+      "headline_claim_ids": [
+        "901822b3126ca9"
+      ],
+      "headline_claims": [
+        "U.S. Evacuates Mideast Outposts After Suspected Iranian Plot to Target Americans - WSJ"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSHhub0JHVm1Ca0QxUlBiM1hjSjkxZE5ZcHU2RERranBCd0l5X1VTNTI0ZWpiRHdhbG96MmEtUGNnTHZiWUZFM2NRSWdMZjlIaDNORWIzMDAxMVJtQW5sSjgtaUZ2Qm93VFliS255SjZBdUpkaWVjMFdVUnkxOEo0Z0p3dUVnTVlzOXNuLS1saGZCb2JqMmgteG9aeFM5NTg4SEJJM0hsYXdNeTRBbkZmRXVOMHpfaHRmQ3RXQ1BmWlVlZDhB?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "69c90524ecf2401dfa68d29a",
+      "label_nl": "Claim: PERSPECTIVE: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow.com",
+      "headline_claim_ids": [
+        "04aebb395ce055"
+      ],
+      "headline_claims": [
+        "PERSPECTIVE: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYno4ZG1kRXdsN1E5STFFZHFnZHZENl9helRxQ2JzT0F1dlQyYks1cTRsM1RwM29PaGF3WlJ6VDd3cm5WcWlmQldKMlpKdlNHR2RLMG9CYXBLdEFQRzA4YmRQUWVUTVluMEhLSVpyU09id3VYeGp3Ni1qMlVGY20zdjZkQnRKN3dzcFRGMkRIRGw4YjI0clUwaFNfMXFRQU9EUk1DSVljZ0VtcFFCYW9mR2ZmQXBkeldBYTU1RUxVREFPRDNLNHlmRFVn?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "56d57a27e17e9bfe472eeba7",
+      "label_nl": "Claim: Middle East latest: Saudi Arabia intercepts Houthi missiles fired at Riyadh - The National",
+      "headline_claim_ids": [
+        "e50f908e22b3e2"
+      ],
+      "headline_claims": [
+        "Middle East latest: Saudi Arabia intercepts Houthi missiles fired at Riyadh - The National"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmN6SzJtQ0JYM2gwc3RFSmQ5V3lFTFVfbk04VEdnUXJDcVRZTE90aDVfSUhvVzFUOExCT0FNd2h5MFFjMlltY3dwd2JUc3ZtM1R6RXRXdldlMUZBSnZrR1pteE4yeGd2Vi1saWwySzh3MTJFQWpsNGFNQ1NQWFRPMmtkMkE4Uko4LUZaZTdUMWFQOWFqRXhSZ0k1ZWVPcmhpc1FXZ0FaYVBxRWFuTkNydzF3?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "e979c1b95b1533692a64d99a",
+      "label_nl": "Claim: Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/",
+      "headline_claim_ids": [
+        "76f19eec7631b9"
+      ],
+      "headline_claims": [
+        "Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pczRiQlU4M3pONTJLZ2dkYUsxYzlXSHRJcGtVZ19vcDF3Z0JCVHZQb3JjV0YyVDRjZEQzOTBKU2tkR0Fyb1BXVTllMnh5d0RCNG9HNkRNa2NiN2xkU2pHaUdyOG04T1ZhUHZtaGgxMXQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "440ffe731fe2959755eb0415",
+      "label_nl": "Claim: Oil eases on Middle East diplomacy hopes, Saudi attacks keep supply worries alive - Investify",
+      "headline_claim_ids": [
+        "33697ad56e08ef"
+      ],
+      "headline_claims": [
+        "Oil eases on Middle East diplomacy hopes, Saudi attacks keep supply worries alive - Investify"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWtMcF8za3pQRFBqaWtfaFE1bHp6eGtNNzBhN0E1SVFCVEFQZE5XUHFPZmtzbEx5LXJwb05hbmcwVlhuUnA4cUptWXV3VVZQSnhuNnZ4WThPdndjY19LNEk2Q1ZtR09YaS10Z1NRclRlR21sd3FyWnQ4VmYwOUZyLVMyUmdrVi05ckZZQWhjaU1uMlZGV0I2dmRqOEZRelBRaGs1YWF1MDJUQ2FHRkdyYjJIVF9uc1lpTzAtcU9fczY?oc=5",
+        "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTUUyYXcyU29icy1LUXk4bmktRHc4M0ZrQnBGNm9MTzBwUlJLV2dWaXdJTlJuWnBFMzNsbTZWeUNoNWhHQjFxZkN0NkF1QnNZcjROaU90N0RKcWlMTzVMT3c4ZlQzTFpMUUJwU3lIYVJvWllsZzdaa3VuQXY4cnhWOTdJbVREd0VjN19ZWkxGQTFQaDNfQjdCUmlJZ3JOdVpuUzQ0TVNUODd5VjVqUFZ3RVZvS1FwSkRzdEQ5Y2d0NnhFRFYzM0V6QmRBQk9tNV85c3JXd2Z3RkM0NjV0a3NjNS1DNWtibmxvSnR3LTlHcUl2QWpOWGh5VHB0SDjSAfYBQVVfeXFMTzI5eXhaQ1NQUUZ3Z2E5a0V6S0xBUW55eFVvdVpBak1mSHRicm5mdzNrMzhNcUxrdGNwOU5ucmRxa0lxOVpadENVZV90em9XX000U2RWMElTQVBNR3dKVVpmVWlQUGNuNG94Rk5wRzNuZ1dWcThGSnd2cDJkRmdRQ0Y2V0hhWnNxempRWlBNWWVJNF9rNWZyWGhwa0FZVmtjUDJIT3hiY3hOZlkxY3lNdXA1T0o0ckZ1YUJidzRicXlQTEZxWWdGUmllOVZabkJlelh2UGxHaUFpclJaWFRZdWFXdW1TdUQ3eklMeTk5QmRZQXNXcE5R?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc3lid3k0QzVobGVoQkx4OUdmT1c5cjcxUGZndm0xN2pMaFlGMjRpaG9icnhGb2xJU052a2dGOFNRd3lsZVE4blFmUGZIU09JV1A5RG5pSlFXLXhhWUZMOWVqdFpwNmRJbWc2WFdIWk9USk5BYzhPWldna3JkVTN5eVZBR3ptbTBpLUxYaTRTOVUzT1RGV3dLOG0wRlpQNDdndkNIRFkyNkPSAa4BQVVfeXFMTTNIQ3dpcERhbEp2S2tKOXBqTWV4ajZMQldfdHZBQkRPQzZKYl9OVWJKbk14bnJHa0VxUzc2ejlmRXpCaTdZMUI2cERCNDBJNjF6NnFJQmllQmZEQ28zYl8xczhkTDc3Y25jdk16V1dGbG1jNkM1U0NkUzhQZXlIWVAxRGtnVUpnVHVjT3pKQXhsVW9nb08zSzN5RGRvNzFVa3kxSGdxMmU1NE00U1B3?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTHNUWlIwT3BlRGgzSnNaTmxIV1JBYnF6aDk2amQ2MTJ4Z2RVY2Q2UlNwbWtPYzVTVUNCSXV2bFR5NTJkZHd5ZW90c2FrZzNRaG1wUjRvTmxPYzJzNExmYURHLTNQeFBiYVQ2OFRjN3dKX1RvcWM1Wmt2QzFFZkxuNHhWYWZZQjA1cjhpcm9TVDF4RHUyZEU1ZUxqLTdpdWx0b2htSHAtZ092ZXdBZ3J6Vk1QUXRES2tnRlE?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOamRMeXF1dF9xaFlNcFlIalRnaGZBQUs2SUwtNThkNExtMzBQa2dYdExLbnJVckRGM3BpMWpjWkhGbEdQUGFHQ1FOWER6SUhadU04ams5RkNXR0tOVDdRTkExX2xnRWhCd3gxUl9icTE4Sk5nSHZFVU1vXzVidVRhOEdESWJCRGR2M3Z3NDVVY2JjZ1dQdjRGelQwTTVnakd6ckIzd2x4bEo5VnFnTjNRaHdNajdIZElQb2pnampYMDZnZW81OTR0NQ?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZkRSSnhZS0hONm9MdE1qcVpHMjFlY254SEt0UjF2WnFfQmpRYXlSY2pJeWMxTzR5SF9UQWxhZlNGbVZObDNlaFV0QnhsZ1dMV1RPR20xal94SE42cEsxd1YtMGk3MEdldUZ4SGpraThFcWhaZWJ5NGR2aHJqNjd4bnY2TQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 6,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "013afaa51fe44e085430ac6b",
+      "label_nl": "Claim: Iraq, Pakistan Strike Energy Deals With Iran as Tehran Flexes Hormuz Control - EnergyNow.com",
+      "headline_claim_ids": [
+        "93ce51642b0209"
+      ],
+      "headline_claims": [
+        "Iraq, Pakistan Strike Energy Deals With Iran as Tehran Flexes Hormuz Control - EnergyNow.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX3Bjc3ZWcUQxcjFBRlpYNTV5QUpfMHJqSk1FUUU5dVFWQjBWTXQ4TUtkMHloUXk1YkRNbEs3NGZ0TDVkNVpMVVVtZmpzNE5QZmZPOWFPUzYycFplMElja2RUejRRcFNtOHZ2NllPRHEtZ0NHWWdaeHByODFaMXQ4UnpWeGpLNl9zY1pVeVczcmN4eHJlcGVlNTlpdG1TN28ya2EtUTNSTlBDZw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "b99b4f07493a9d01898309af",
+      "label_nl": "Claim: Oil Prices Rise as Iran Talks, Houthi Attacks and Middle East Tensions Keep Supply Fears Alive - Newstrack English",
+      "headline_claim_ids": [
+        "afe103053f2bf8"
+      ],
+      "headline_claims": [
+        "Oil Prices Rise as Iran Talks, Houthi Attacks and Middle East Tensions Keep Supply Fears Alive - Newstrack English"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOUxIWUlRWWZGUTBDMkRBWjFHS1djTXFJYTk4cmZFSlk5bkFneUpudW9kSWVCYmdnd3gzeVB1VDVpd1RoZUNNSmhUNjc0RUFEc3c1VVlObmJiTUlWOXVBT2FrTHl3dzhuMnhQcGxBNmEyT1ZCVGpkcTRoRENxOGVhZXBvTk9taEVja0NxX2pKbzhoeWwybkhLU3BHajZIRE5iRU05Uk13OUYyc0tSaGhvM3B1Y0tSeXVjTUZFTEYwekRfU214bjVSSWIxeXlMaFFsS0NBRGtlV27SAd4BQVVfeXFMTTY4a1NVWU8tNThZanlUbFZXbVhsNGlQRG1RZjRoVGIzcVBUVXVBbFpUcWVDZGx6Vk1ZTXJidHMwbzlJd0VyM1d4RVlCek5pS3Y5dkRVRmtUdUIxOGpqR0NoVkdEcHpGNFZaX1V1amJ4b1dNVGNyeGUtWEgzMTF3eDRkYjFMLWMweExWV3dCc2V6Y3FWQndFQUIxMjVhMGE4S01tZFdQYkh0dWhCRVM1dFhUWHVZYWNrQWR5d1ZPMk9tU2JfQUlNOGJJQU1SR1NxRFB0QWhlQjVZVENHWWpB?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "b233dfa989773a957f812d06",
+      "label_nl": "Claim: Oil prices dip on Iran peace hopes, but Saudi attacks keep Brent near six-month highs - inkl",
+      "headline_claim_ids": [
+        "2edef80f07fcdc"
+      ],
+      "headline_claims": [
+        "Oil prices dip on Iran peace hopes, but Saudi attacks keep Brent near six-month highs - inkl"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR1l3MW5QazBjOGlSaTFVSWRNRWNObFNXeWYzeGVOdURpbVlCcXFwaGpVaWVVU1Y0ZUMtZnk4TWprSXZ6S0xYV3piMTlONnMwVi1KdnJSSnZEYkhuMUo3WE1rc1U1Q1FBZG9jX3I5c0dhNUF1MUJ4RzdEenlvRWtmUTFVUEdsZ2I0SzRWMms4dGxTVUtqcjJyTEl0OGcwT1JLQUxlcVFVQko4Si1KR0N3?oc=5",
+        "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNOGpocS10MlFOUGg5Z1VMZm1jYVpmTGU2a3FaSE1mbG85cFB0eVpqd2htZDJ6M1d4blJocTdGVFZSbWJSdlpweFZuZFJtUU9lMXc0dDRYd3UzaVIwWUFzS0ttZzF3MzE0OUU2S0RBcUNpcl91cUtiQ01ld1VuVzdYX2Y2d2VDbDZidXVoYkJ5QW9sX3hMUXFvY0otYlJ4QmI3TVBsUjFyQnBWSjc3ODdPdWI5UzVhOHdvNHhKWm5SQ1FySk8weGotaVM1QjEyX25acXlXazB2R0VvWHZhdnRNbVFQVWtWZTJSdkJNV0xGSnhlNG9IV29J0gH8AUFVX3lxTE83a25feHVWcFdVTHJwT1R2ajRtbHhSSWpvVVdEOWFXMjUwdWdvMUlLVlo0NXFuTWIxN0RXeHI1Y2t4NTUwa2FaVVplRFJfcFlodWVtVk13amRFdlVGQjJuRGVfNUhLVnpReERNczk4Qld4S0xEM0lSOS1jUHd5V0tZUjg2RlBBZmtDRzZYc3F0VVRfdDRxWGZOOHNhWG5HVzRXVlhqMjdwTHF0bk5fUjF0SXR3QWVuSUZaMnhWaDZnSVgyNUxvR3VBSy00bEVUdmxnRHR5bjUyYU14MGV3aE80aXhFSmkzSmxoRHNnNkV4QkhVTlJ3TlJOcE5reg?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "a3da4f0a758acfd2663570a2",
+      "label_nl": "Claim: Yemen’s Houthis claim missile attack on Saudi Arabia’s Ras Tanura oil refinery - Anadolu Ajansı",
+      "headline_claim_ids": [
+        "bb36d5c966614c"
+      ],
+      "headline_claims": [
+        "Yemen’s Houthis claim missile attack on Saudi Arabia’s Ras Tanura oil refinery - Anadolu Ajansı"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHM3MEkyOW9YM0FRZ2I2RTRPVFVldzJLc0gwSUtBWDgwMEVPbm50eGJ6bFhyUEVOMnRMS0dFcTRZOWxIREtJNEdXcFJFTEFPTEdHNFlJbXZsdUI5TWh3cjRQRjQ1elhremxfY3FndGttR2xoOGsxNlBLZzJjRHV1UTZsM2xRU0FOczdXTVlGQTZPeW5HWmN5ZHNPRU5VT2ZUMVB2RHlNRmFBbXNWc01sbDlqTnJlZXhwWklVaVhvRmI?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "e3ca1ac0281b7086657fe0a8",
+      "label_nl": "Claim: Saudi Arabia offers Houthis $1 billion for peace; Asim Munir involved in negotiations: Report - News9live",
+      "headline_claim_ids": [
+        "50dc28cd820d6b"
+      ],
+      "headline_claims": [
+        "Saudi Arabia offers Houthis $1 billion for peace; Asim Munir involved in negotiations: Report - News9live"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVXR5YlRsWXR4cFNTUmVmcU5uNFQyUTBDTWMwZHctM05GajhIc0loUTFwYWtXUlNYSzNINWxjQkxOZTRPRjRqOHBpTzgycW1BSmhaX0JhZHhXZkg1cWc3ajI3M05JcjFEN2R6bVdhUjNPQ3Q5M0ctV0tETWYxOENLOXhGemJnQllOLTY3NlBIakNYZUFLX1NpcXlaTUhUdzJWODgzODNhVGYxS2JEQjRJWWhidktFQUtTSXlGV09VVE05WU9jVlIwczJB0gHPAUFVX3lxTE9VcHB3R181eXdLdl91bHNfTU1JRE9LQzVSZkd2YjNIdTNzSDVER040dHhXQ0F4cEtoQ1NqSzBTTGR5NUhQbldESTJKenB4S3p1U2Y5MHlKMkg4a3d0bHhwYVNIT2R5b1MzdGVSNFM4bV9fZE9QT2g5d2FMM1MzaTFTUVpJUjd4Q2NHNHlWTGlBZk5SNFhDOGN0bkgyOWhZZVM3X2hORVE4OVFmcnN2a1o0anhnbEN2TDJtbXZYeFVVeTh3c3pXZU9vN2lsX1FsWQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "be4f8faae9047f698b023805",
+      "label_nl": "Claim: Oil Prices Fall as Traders Assess Iran Diplomacy, Saudi Attacks - WSJ",
+      "headline_claim_ids": [
+        "3abdf24a95a5a1"
+      ],
+      "headline_claims": [
+        "Oil Prices Fall as Traders Assess Iran Diplomacy, Saudi Attacks - WSJ"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeklkQ3dLbGJfaEt1ZDNyR3BZbk5JcjlJWVNEVnRrSVFudjJsOFA1S20zSlNxdVpoVkFJM1liUUdaTXExS25HTzFnUFYxWUNkWUFTVU9mODVlX3VwOGdzRGJEdHUzQzhyekVZeUhmN1RTTUhMM05peURpTFBRTFcyZ3RyX2dRT1lDT3k5YmtWeHRhYTJGdWNqWFRXZFVJMWMxMlM3YWcyZWlMZHV5SGc?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ283a1VXdl9pSW1LQ0FwWFJHeVFTY3hvN2ktSFoxSWdRb0F2SlhRcGFzZ1UtY0hZUUVpNGR5ZGZyNzBmS2hNNDl0VnhrWm5xVE1zZlk2dTdhdmRnRG5lYTB3YXBkM2w1RlIxdGNFVGZWeDE3OHpFUGY3a1JlazhBNi1UdkpzTVg3YVBQN09aZ1U?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "025ca4c992f4a346fab74e6b",
+      "label_nl": "Claim: Saudi Aramco orders Dhahran headquarters evacuation as Houthi attacks intensify - NST Online",
+      "headline_claim_ids": [
+        "3bde413355a47a"
+      ],
+      "headline_claims": [
+        "Saudi Aramco orders Dhahran headquarters evacuation as Houthi attacks intensify - NST Online"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWVY5bG1JQUt0Z0p4c3N6TThHeGZ0d0FJZER2YVFWM2lmRkQ0Z3AycTBtWUdHeWU3TC02SWlzOGN4em1fSC1xLXVua0htM1doUXg4NmRWTndIQmtlaUlNcWFIalNzQmNCejJLajFqdzNLUHhsbzlNeXloTjFJb0tDVXBzWkFpMFJza3M4Si00ZUJfb2tlRW9PSHQzR0IzM3JmQl9SSk9HMFc1bXVNeEVZLVFtTHZsNWl30gG-AUFVX3lxTFBYVzBLSzNaV3l5UEh2NjRiaFdsVTdsakloSjVDTFpEWXRTZFl6V0RNcnR6UkI1T1paVGtvV09YTHB0bHpSR0dSNVNFWjV3eG9wekhxMmxhS1ZsLWVEQzBFTldBT3hWUHI4OTI2VFA2RGhtazBuUGtSbVh4Szcxd0NZR3BTTjJIY3AwZ29WYWNabW5OM3lBU1FQSUFYSE96d25WYjFSRC0tT2ZGVWlwV1Fpd3hXQkVCZUo1ZEVhWHc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "15e0dcdfed6ea1fd908d5172",
+      "label_nl": "Claim: 尽管油轮袭击事件不断升级，但海湾石油出口量仍超过战前水平。 - Al-Monitor",
+      "headline_claim_ids": [
+        "4e7be669964446"
+      ],
+      "headline_claims": [
+        "尽管油轮袭击事件不断升级，但海湾石油出口量仍超过战前水平。 - Al-Monitor"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LZnFpLTlFckItYmRBR2ZhMDlhSXVNdjRzZGNFWGsyNEdGV2N0MWY1U2hINnNZWTlGbzZYemVhRDAxNmw5ZUFEZmM4RlF0TExHeE5IUDNXNmpMeFNMTjEybGZaZHoyQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "f3f3a399fc73d760b9bfb0c5",
+      "label_nl": "Claim: Saudi Arabia Offers $1 billion to Houthis in Iran-Mediated Ceasefire Proposal to Halt Infrastructure Attacks: Report - Pragativadi",
+      "headline_claim_ids": [
+        "6e7263a24985b9"
+      ],
+      "headline_claims": [
+        "Saudi Arabia Offers $1 billion to Houthis in Iran-Mediated Ceasefire Proposal to Halt Infrastructure Attacks: Report - Pragativadi"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYWNwZ1hnWnlLbld6TFdheU1YSzhVUlVIcTNqT2ZYMDRvQ0dMc1Uxak9HQi05cm4yZ2NybE1TSDdnTS1xOUlLVlFfNlVSODdBMUpISFUtUDZ6MXRBWjI3VW1hVEZvUW4tVlprVGdyaG1RNmJFTEhkYnByblF4UzNTamdEWDhUNTVzeGNibC1STHFZVk8xT0JmSTMzd25KVUc4S1JMeUs0NHhxUFNBeExfTF9pSkZnTGt4eFVxV3BSc0tlTGZHbGwxU1JNeUxjeWNsYjZTUWhR?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "e694db8ba862c812f0815fc8",
+      "label_nl": "Claim: Oil inches higher, stays near six-month highs on Saudi attacks - Yahoo Finance",
+      "headline_claim_ids": [
+        "54ce3071120f62"
+      ],
+      "headline_claims": [
+        "Oil inches higher, stays near six-month highs on Saudi attacks - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xMEcyVkVScTAtWHkzX3VoRWRvSEhUX29BOVdjZ2lLM3Y1ZjJWZWRnSjZfZE13d3paREdOVW9jSDU2Q2lHaU0xbjhjTWhubkczMEtadW5ISXpyX09GaldZYkY5M1IzRGlqRzVFN0FCYWlfMkJXcVpjTl9n?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "69686c69c455d46380b970f4",
+      "label_nl": "Claim: Iran Offers Proposal Allowing Ships to Exit Oman Side of Hormuz Free of Attack, Source Says - EnergyNow.com",
+      "headline_claim_ids": [
+        "68a40c225e6bf7"
+      ],
+      "headline_claims": [
+        "Iran Offers Proposal Allowing Ships to Exit Oman Side of Hormuz Free of Attack, Source Says - EnergyNow.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSkpiNms4aU92MG1WdER5UV9xVVNNUmRmN0dfVk1xQk5CeXlJTHIzZzQ1S2pfczBfZDRkT0kyOFVWWmk2MEtNb1B1ZzlGN3cyam80ejNpRURkU2hxSjhNTHg2bE15bktiNmsybkFWUzlQU0wzQU5pck9NdWlQVWMzMXpPWDI5akJWZHRmbkdHakt2V1p3aTFWcl9nSkpCRVlmRV9nZXFCaGdBZXRWb3dKQTFEQnU5YlhIWThwV1B3?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "bf259e82b55634eb1f749d97",
+      "label_nl": "Claim: UK issues stark new Iran travel warning amid regional tensions - www.thetraveler.org",
+      "headline_claim_ids": [
+        "31847e787b31e8"
+      ],
+      "headline_claims": [
+        "UK issues stark new Iran travel warning amid regional tensions - www.thetraveler.org"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZWNzV1BYRk1JUThfY3dxczAzRzRubC1ZLWVjeHZLOWxhU3JqVHlmcU1sUmVESnctSUl5dmMya0NhM0RKdzlDZFpSc05ESWpCeXRVUV91cHRXNWRfRm5FRWdKMFVuS25hMnJsSjEyWEZzNVZOT3RhVlJyemNmdTF3VzlPVUZaMjBEN3NuTGl4aUhFOEhpOXc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "160e98f82c5c2baab6cdf53e",
+      "label_nl": "Claim: Oil rises as hopes for diplomacy offset impact of renewed Houthi attacks - NST Online",
+      "headline_claim_ids": [
+        "c54993786386f3"
+      ],
+      "headline_claims": [
+        "Oil rises as hopes for diplomacy offset impact of renewed Houthi attacks - NST Online"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNX2d6UE1pVkV2VjVucFYybHROMi03VTJwTG5PQXM4MlF2OS0xUkpWNGY4MmtONzFtY0tGZGdHMmFwMlRxMlFjMzBTVzlGLXVFZ3VaMkdkSWtsbDdYa2VCelBDcHgxdFRVZVdmUVlUTmNKbHF5N1A2QlhaUlFPdmZxUWhmUTIwYkRNeW5rYUpWSTI1bzVueXJrNFpNSzhSMXVoUXJhSklkR1JfankxVzE3Rk1xeHhqazFYcHg5NVlydDBOZ9IBwgFBVV95cUxNX2d6UE1pVkV2VjVucFYybHROMi03VTJwTG5PQXM4MlF2OS0xUkpWNGY4MmtONzFtY0tGZGdHMmFwMlRxMlFjMzBTVzlGLXVFZ3VaMkdkSWtsbDdYa2VCelBDcHgxdFRVZVdmUVlUTmNKbHF5N1A2QlhaUlFPdmZxUWhmUTIwYkRNeW5rYUpWSTI1bzVueXJrNFpNSzhSMXVoUXJhSklkR1JfankxVzE3Rk1xeHhqazFYcHg5NVlydDBOZw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    }
+  ],
+  "usage_by_day": {
+    "2026-10-28": {
+      "requests": 1,
+      "total_tokens": 4389
+    }
+  }
+}

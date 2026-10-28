@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-28T08:57:29.403587Z",
+  "last_attempt_utc": "2026-10-28T09:51:27.016533Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -407,6 +407,22 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-28T08:51:16.941876Z"
+    },
+    "c54993786386f3": {
+      "id": "c54993786386f3",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen stijgen door hoop op diplomatie, ondanks de impact van hernieuwde Houthi-aanvallen.",
+      "claimed_event_nl": "Olieprijzen stijgen door hoop op diplomatie en Houthi-aanvallen.",
+      "reason_nl": "De stijging van olieprijzen kan invloed hebben op de economische situatie in de regio en de wereldmarkt.",
+      "limitations_nl": "De claims zijn gebaseerd op speculatie over diplomatie en de impact van aanvallen, zonder concrete gegevens.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T09:51:26.016272Z"
     }
   },
   "usage_by_day": {
@@ -415,8 +431,8 @@
       "total_tokens": 0
     },
     "2026-10-28": {
-      "requests": 7,
-      "total_tokens": 8323
+      "requests": 8,
+      "total_tokens": 8987
     }
   }
 }
