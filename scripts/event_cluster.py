@@ -125,7 +125,7 @@ def validate_groups(parsed,claims):
         members=group.get("ids")
         if not isinstance(members,list) or not members:
             raise ValueError("Empty group")
-        if any(not isinstance(x,str) or x not in ids or x in seen for x in members):
+        if len(set(members))!=len(members) or any(not isinstance(x,str) or x not in ids or x in seen for x in members):
             raise ValueError("Unexpected or repeated ID")
         seen.update(members)
         result.append({
