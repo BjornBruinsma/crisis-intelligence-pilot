@@ -71,6 +71,7 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OWOP_SEARCH_MODEL: gpt-5-search-api
+          OWOP_RESPONSES_SEARCH_MODEL: gpt-6-luna
           OWOP_VERIFY_MODEL: gpt-4o-mini
         run: python scripts/owop_verify.py
       - name: Build OWOP pilot feed
