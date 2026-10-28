@@ -372,7 +372,7 @@ def recheck_saved_records(records,events):
         if record.get("research_status")=="official_statement_located" and not any(
               m.get("relation")=="direct_statement" for m in record.get("official_matches") or []):
             record["research_status"]="related_official_material"
-            record["summary_nl"]="Gerelateerde officiële tekst gevonden, maar geen voldoende specifieke ondersteuning van deze nieuwsclaim."
+            record["summary_nl"]="Gerelateerde officiële tekst gevonden, maar geen specifieke bevestiging van deze nieuwsclaim."
             record["revision_notice"]="Eerdere AI-match na aanvullende controle afgewezen."
         record["verified_event"]=False
     return corrected
