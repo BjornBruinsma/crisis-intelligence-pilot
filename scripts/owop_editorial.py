@@ -285,6 +285,32 @@ def main():
         if significance == "low":
             wanted = "reject"
 
+        # A successful treatment of one patient can be wonderful human-interest
+        # news without being the kind of broader progress OWOP wants on its main
+        # feed. Hold routine rescue cases unless the headline points to a genuine
+        # medical innovation or first-of-its-kind advance.
+        editorial_text = normalized(
+            str(obj.get("headline_en") or "") + " " + str(g.get("title") or "")
+        )
+        routine_medical = any(term in editorial_text for term in (
+            "doctors save", "doctor saves", "surgeons save", "surgeon saves",
+            "saved newborn", "saved infant", "saved baby", "saved patient",
+            "save newborn", "save infant", "save baby", "save patient",
+        ))
+        medical_advance = any(term in editorial_text for term in (
+            "breakthrough", "first ever", "first of its kind", "new treatment",
+            "novel treatment", "new technique", "novel technique", "gene therapy",
+            "new therapy", "clinical trial", "new procedure",
+        ))
+        if str(obj.get("category") or "") == "Health" and routine_medical and not medical_advance:
+            if wanted == "publish":
+                wanted = "reserve"
+            obj["significance"] = "medium"
+            obj["editor_note"] = (
+                str(obj.get("editor_note") or "") +
+                " Routine single-patient rescue held unless broader medical significance is verified."
+            ).strip()[:220]
+
         if wanted == "publish" and score >= PUBLISH_THRESHOLD:
             stories.append(obj)
         elif score >= RESERVE_THRESHOLD and wanted != "reject":
