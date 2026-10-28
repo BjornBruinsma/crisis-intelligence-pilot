@@ -301,7 +301,16 @@ def source_precedes_claim_by_weeks(source_date,news_day,threshold_days=21):
         if re.match(r"^\d{4}-\d\d-\d\d",val):
             published=dt.date.fromisoformat(val[:10])
         else:
-            published=email.utils.parsedate_to_datetime(val).date()
+            normalized=val.replace("Sep.", "Sep").replace("Sept.", "Sep")
+            published=None
+            for fmt in ("%b %d, %Y","%B %d, %Y","%d %b %Y","%d %B %Y"):
+                try:
+                    published=dt.datetime.strptime(normalized,fmt).date()
+                    break
+                except ValueError:
+                    continue
+            if published is None:
+                published=email.utils.parsedate_to_datetime(val).date()
         return (day-published).days>threshold_days
     except (ValueError,TypeError,OverflowError,IndexError):
         return False
