@@ -136,13 +136,15 @@ Strong OWOP examples:
 - a real medical or scientific advance with evidence
 - a community solution already producing results
 - a meaningful decline in harm, poverty, mortality or pollution
-- people concretely helping others, with a completed outcome
+- people concretely helping others, with a completed outcome that matters beyond a routine local anecdote
+
+OWOP should feel like serious constructive journalism, not a stream of small feel-good incidents. Routine single-patient rescues, one-animal rescues, cemetery cleanups, small maintenance projects and similar local human-interest stories are normally RESERVE or REJECT unless they demonstrate an unusual innovation, wider system change, exceptional human achievement or broader lesson.
 
 Usually NOT OWOP:
 - awards, rankings, prizes or corporate recognition
 - ordinary business growth, product launches, store openings or new flight routes
 - money merely pledged/allocated/announced before results exist
-- a project merely launched, planned, promised or proposed
+- a project, initiative, campaign or programme merely launched, planned, promised or proposed before results exist
 - marketing, tourism promotion or sponsored PR
 - celebrity fluff or isolated trivial feel-good items
 - partisan messaging or stories whose main frame is war, occupation, political conflict or government point-scoring
@@ -173,12 +175,14 @@ def final_decision_prompt(candidates, role_reviews):
     instruction = """
 You are the final editor of ONE WORLD. ONE PEOPLE. Use the three panel reviews plus headline/source metadata and be stricter than the panel.
 
-PUBLISH only when the event appears to be a real, completed or clearly evidenced positive outcome with broad human, social, scientific, environmental or community value.
-RESERVE when promising but still too uncertain, too early, too local/trivial, or only partially evidenced.
+PUBLISH only when the event appears to be a real, completed or clearly evidenced positive outcome with meaningful human, social, scientific, environmental or community value. A routine local feel-good incident is not enough.
+RESERVE when promising but still too uncertain, too early, too local/trivial, only partially evidenced, or supported by only one news source before source verification.
 REJECT awards/rankings, routine corporate success, ordinary openings/routes/product launches, funding announcements without achieved results, PR, tourism marketing, partisan messaging, and stories mainly framed around war/occupation/political conflict.
 
-A plan is not an outcome. An announcement is not impact. A press release is not independent verification.
-One source can never receive high confidence.
+A plan is not an outcome. A launch is not an outcome. An announcement is not impact. A press release is not independent verification.
+Routine single-person medical rescues are usually human-interest rather than OWOP unless they demonstrate a notable medical innovation or extraordinary wider significance.
+Routine single-animal rescues and small local volunteer/maintenance actions are usually too small for publication.
+One source can never receive high confidence and should normally be RESERVE until verification.
 If two candidates clearly describe the same underlying event, publish at most one and mark the other reject as a duplicate.
 Country should be the actual place implicated by the headline when inferable; do not use Global merely because the publisher metadata lacks a country.
 
@@ -191,6 +195,8 @@ Return ONLY valid JSON with shape:
   "summary_en":"original 1-2 sentence summary based ONLY on what the metadata supports; never invent facts",
   "why_good":"one short sentence explaining the concrete positive outcome, or why it is not sufficient",
   "confidence":"high|medium|low",
+  "outcome_status":"completed|measured_progress|announcement|unclear",
+  "significance":"high|medium|low",
   "editor_note":"max 25 words"
 }]}
 Include every candidate exactly once. The score measures OWOP editorial fit plus confidence, not moral worth.
@@ -241,6 +247,8 @@ def main():
                 "summary_en": "The final editor did not return a complete assessment.",
                 "why_good": "Insufficient editorial assessment.",
                 "confidence": "low",
+                "outcome_status": "unclear",
+                "significance": "low",
                 "editor_note": "Automatically rejected because the AI omitted this candidate.",
             }
 
@@ -263,6 +271,20 @@ def main():
             obj["confidence"] = "medium"
             obj["editor_note"] = (str(obj.get("editor_note") or "") + " Single-source confidence capped at medium.").strip()[:180]
         wanted = str(obj.get("decision") or "reject")
+        outcome = str(obj.get("outcome_status") or "unclear")
+        significance = str(obj.get("significance") or "low")
+
+        # Safety rails for the pilot: headline-level AI may nominate a story, but
+        # one-source items, launches/announcements and low-significance anecdotes
+        # are not auto-published before source verification.
+        if g["source_count"] < 2 and wanted == "publish":
+            wanted = "reserve"
+            obj["editor_note"] = (str(obj.get("editor_note") or "") + " Held for source verification.").strip()[:180]
+        if outcome in {"announcement", "unclear"} and wanted == "publish":
+            wanted = "reserve"
+        if significance == "low":
+            wanted = "reject"
+
         if wanted == "publish" and score >= PUBLISH_THRESHOLD:
             stories.append(obj)
         elif score >= RESERVE_THRESHOLD and wanted != "reject":
@@ -272,6 +294,29 @@ def main():
             obj["decision"] = "reject"
             rejected.append(obj)
 
+    # Global post-pass catches same-event duplicates that landed in different AI batches.
+    consolidated = []
+    duplicate_rejects = []
+    for story in sorted(stories, key=lambda x: int(x.get("score") or 0), reverse=True):
+        duplicate_of = None
+        for kept in consolidated:
+            same_context = (
+                story.get("published_date") == kept.get("published_date")
+                and story.get("category") == kept.get("category")
+                and story.get("country") == kept.get("country")
+            )
+            if same_context and sim(story.get("headline_en"), kept.get("headline_en")) >= 0.42:
+                duplicate_of = kept
+                break
+        if duplicate_of:
+            story["decision"] = "reject"
+            story["editor_note"] = "Duplicate of published story: " + str(duplicate_of.get("headline_en") or "")[:110]
+            duplicate_rejects.append(story)
+        else:
+            consolidated.append(story)
+    stories = consolidated
+    rejected.extend(duplicate_rejects)
+
     stories.sort(key=lambda x: (int(x.get("score") or 0), x.get("published_date") or ""), reverse=True)
     reserves.sort(key=lambda x: int(x.get("score") or 0), reverse=True)
     payload = {
@@ -280,7 +325,7 @@ def main():
         "reserve_count": len(reserves), "rejected_count": len(rejected),
         "stories": stories, "reserves": reserves, "rejected": rejected,
         "panel_reviews": reviews,
-        "pilot_note": "AI-only editorial pilot; headline/metadata review, not yet full-article verification.",
+        "pilot_note": "AI editorial shortlist; single-source and announcement items are held back pending source verification.",
     }
     (DATA / "editorial.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"OWOP AI: {len(stories)} publish, {len(reserves)} reserve, {len(rejected)} reject")
