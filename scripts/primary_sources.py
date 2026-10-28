@@ -27,15 +27,38 @@ SOURCES=[
  ("uk_saudi","UK Foreign, Commonwealth & Development Office",
   "https://www.gov.uk/foreign-travel-advice/saudi-arabia","official_advisory"),
  ("us_advisories","US Department of State",
-  "https://travel.state.gov/_res/rss/TAsTWs.xml","official_rss")
+  "https://travel.state.gov/_res/rss/TAsTWs.xml","official_rss"),
+ ("imo_shipping","International Maritime Organization",
+  "https://www.imo.org/en/mediacentre/pressbriefings/default.aspx","official_listing"),
+ ("pakistan_mofa","Pakistan Ministry of Foreign Affairs",
+  "https://mofa.gov.pk/press-releases","official_listing"),
+ ("china_mofa","China Ministry of Foreign Affairs",
+  "https://www.fmprc.gov.cn/eng/xw/fyrbt/lxjzh/index.html","official_listing"),
+ ("us_treasury","US Treasury",
+  "https://home.treasury.gov/news/press-releases","official_listing"),
+ ("eia_energy","US Energy Information Administration",
+  "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php","official_advisory"),
+ ("uk_bahrain","UK Foreign, Commonwealth & Development Office",
+  "https://www.gov.uk/foreign-travel-advice/bahrain","official_advisory"),
+ ("uk_kuwait","UK Foreign, Commonwealth & Development Office",
+  "https://www.gov.uk/foreign-travel-advice/kuwait","official_advisory"),
+ ("uk_qatar","UK Foreign, Commonwealth & Development Office",
+  "https://www.gov.uk/foreign-travel-advice/qatar","official_advisory"),
+ ("uk_uae","UK Foreign, Commonwealth & Development Office",
+  "https://www.gov.uk/foreign-travel-advice/united-arab-emirates","official_advisory")
 ]
 TRUSTED_HOSTS={"www.centcom.mil","centcom.mil","www.gov.uk","gov.uk",
-               "travel.state.gov"}
+               "travel.state.gov","www.imo.org","imo.org","mofa.gov.pk",
+               "www.fmprc.gov.cn","fmprc.gov.cn","home.treasury.gov",
+               "www.eia.gov","eia.gov"}
 KEYWORDS=("iran","saudi","israel","gulf","kuwait","bahrain","qatar",
           "hormuz","iraq","united arab emirates","united states",
           "middle east","evacuat","strike","military","warning","embassy",
           "blockade","travel","risk","tanker","attack","war","security",
-          "shipping","airspace","houthis","yemen","withdraw","closed")
+          "shipping","airspace","houthis","yemen","withdraw","closed",
+          "energy","oil","supply","sanction","trade","freight","econom",
+          "pipeline","seafarer","shipping lane","price","petroleum",
+          "巴基斯坦","伊朗","中东","能源","航运","波斯湾","巴林","沙特","霍尔木兹")
 
 def now():
     return dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00","Z")
