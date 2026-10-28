@@ -1,4 +1,4 @@
-# CRISIS Intelligence — onderzoeks-pilot 0.6
+# CRISIS Intelligence — onderzoeks-pilot 0.7
 
 Automatische **nieuwsdetectie**, nog **geen geverifieerde gebeurtenisregistratie of oorlogskansvoorspeller**.
 
@@ -116,3 +116,23 @@ gebeurtenis zonder corresponderende publicatie.
 Het aantal AI-aanroepen voor de afzonderlijke eventlaag blijft begrensd tot maximaal
 2 per uitvoering en 8 per UTC-dag. Dit is alleen een applicatielimiet, geen financiële
 bovengrens voor het gehele OpenAI-account of de afzonderlijke OWOP-workflow.
+
+## Clusteringveiligheid — onafhankelijke tweede AI-check
+
+De eerste volledige test van de paargewijze clustering stelde drie samenvoegingen voor,
+maar alle drie bleken na controle problematisch: verschillende aanvalsdoelen,
+verschillende evacuatiehandelingen, en stijgende versus dalende olieprijzen.
+We beschouwen de eerdere samenvoegingen dus **niet als bewezen dezelfde gebeurtenis**.
+
+Daarom is een extra modelcontrole ingebouwd: een tweede aanvraag moet ieder
+voorgesteld paar expliciet goedkeuren, met een nauwkeurige vergelijking van
+actor, handeling en doelwit. Ontbrekende of ongeldige beoordeling betekent
+**niet samenvoegen**. Harde regels verwerpen bovendien onder meer
+tegenovergestelde marktbewegingen, verschillende militaire/energie-doelen
+en verschillende typen evacuaties. De drie eerder fout samengevoegde
+live-koppen dienen nu als regressietests.
+
+Maximaal **drie AI-verzoeken per event-ronde, twaalf per UTC-dag** (met eerder
+verrichte aanvragen meegeteld). Voor AI-samenvattingen en OWOP gelden aparte
+limieten. Ook dubbele AI-consensus kan onjuist zijn; we tonen geen
+gekalibreerde betrouwbaarheidsscore zonder echte labels.
