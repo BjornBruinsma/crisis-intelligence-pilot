@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-27T18:55:21.390987Z",
+  "last_attempt_utc": "2026-10-28T01:11:18.318114Z",
   "status": "partial",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -11,6 +11,10 @@
   "usage_by_day": {
     "2026-10-27": {
       "requests": 2,
+      "total_tokens": 0
+    },
+    "2026-10-28": {
+      "requests": 1,
       "total_tokens": 0
     }
   }
