@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-10-28T11:49:19.334070+00:00",
+  "generated_at_utc": "2026-10-28T12:37:34.795761+00:00",
   "definition": "Automatische procescontrole, geen wetenschappelijke validatie van gebeurteniswaarheid.",
   "technical": {
-    "collected_articles": 781,
-    "tentative_headline_groups": 533,
+    "collected_articles": 790,
+    "tentative_headline_groups": 534,
     "daily_shortlist": 25,
     "ai_reviewed_shortlist": 25,
     "ai_headline_status": "complete",
@@ -13,8 +13,8 @@
     "multiple_claim_clusters": 0,
     "claims_in_multiple_claim_clusters": 0,
     "ids_retained_without_duplicates": true,
-    "official_sources_checked": 4,
-    "official_sources_accessible": 4,
+    "official_sources_checked": 15,
+    "official_sources_accessible": 12,
     "official_exact_passage_matches": 0,
     "potential_direct_support_matches": 0,
     "potential_contradictions": 0,
@@ -57,6 +57,83 @@
       "status": "ok",
       "passages": 0,
       "links": 60
+    },
+    {
+      "authority": "International Maritime Organization",
+      "id": "imo_shipping",
+      "status": "ok",
+      "passages": 19,
+      "links": 10
+    },
+    {
+      "authority": "Pakistan Ministry of Foreign Affairs",
+      "id": "pakistan_mofa",
+      "status": "error",
+      "passages": 0,
+      "links": 0
+    },
+    {
+      "authority": "China Ministry of Foreign Affairs",
+      "id": "china_mofa",
+      "status": "empty",
+      "passages": 0,
+      "links": 0
+    },
+    {
+      "authority": "US Treasury",
+      "id": "us_treasury",
+      "status": "ok",
+      "passages": 16,
+      "links": 9
+    },
+    {
+      "authority": "US Energy Information Administration",
+      "id": "eia_energy",
+      "status": "ok",
+      "passages": 26,
+      "links": 17
+    },
+    {
+      "authority": "UK Foreign, Commonwealth & Development Office",
+      "id": "uk_bahrain",
+      "status": "ok",
+      "passages": 19,
+      "links": 14
+    },
+    {
+      "authority": "UK Foreign, Commonwealth & Development Office",
+      "id": "uk_kuwait",
+      "status": "ok",
+      "passages": 21,
+      "links": 13
+    },
+    {
+      "authority": "UK Foreign, Commonwealth & Development Office",
+      "id": "uk_qatar",
+      "status": "ok",
+      "passages": 19,
+      "links": 14
+    },
+    {
+      "authority": "UK Foreign, Commonwealth & Development Office",
+      "id": "uk_uae",
+      "status": "ok",
+      "passages": 21,
+      "links": 15
+    },
+    {
+      "authority": "United Arab Emirates Ministry of Foreign Affairs",
+      "id": "uae_mofa",
+      "status": "ok",
+      "passages": 8,
+      "links": 2
+    },
+    {
+      "authority": "Islamic Republic of Iran Ministry of Foreign Affairs",
+      "id": "iran_mfa",
+      "status": "error",
+      "passages": 0,
+      "links": 0
     }
   ],
   "research_status_breakdown": {
@@ -70,6 +147,7 @@
     "reason": "Er ontbreekt een onafhankelijke, handmatig geannoteerde gouden testset; modelconsensus is geen grondwaarheid."
   },
   "warnings": [
-    "Geen specifieke officiële ondersteuning automatisch aangetroffen"
+    "Geen specifieke officiële ondersteuning automatisch aangetroffen",
+    "Officiële bronnen onvolledig: pakistan_mofa, china_mofa, iran_mfa"
   ]
 }

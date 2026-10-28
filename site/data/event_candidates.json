@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-10-28T11:49:14.100606Z",
-  "fingerprint": "bc15504a15fe9e5851f314e3",
+  "last_attempt_utc": "2026-10-28T12:37:30.106626Z",
+  "fingerprint": "75d37ff6d65c23acf1e8b3b6",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -21,7 +21,7 @@
     "veto_examples": [],
     "independent_auditor_ran": true
   },
-  "official_sources_available": 4,
+  "official_sources_available": 12,
   "direct_official_match_count": 0,
   "events": [
     {
@@ -35,6 +35,32 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "61b4c16b31216cd5de47248d",
+      "label_nl": "Claim: Saudi-Houthi tensions flare after deadly strike on Yemen petrol station - Mathrubhumi English",
+      "headline_claim_ids": [
+        "57417e1f4a2a9b"
+      ],
+      "headline_claims": [
+        "Saudi-Houthi tensions flare after deadly strike on Yemen petrol station - Mathrubhumi English"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2Zxcy0zd2dLVFBfeEZwU1Z4c0RfVWx0clVjVWdGSEY4c3o3X3lrZGR6dUlqY25TaGM2RWtLbU5HM2ppU2FvNURvRnZITXBvQ2RuVWIyNmFuekRDWkV0d1E0T2h0eEhPMk1QR1dZdmZ0Sk1PVjBEV1o3YkZzWXZ1OXRISUJDRXdDOFNDdGRjdzYySklPZXF6c0s3T3drNTRVTnVQenMxWHVfMExq0gGyAUFVX3lxTE80d3dKSm9jRXA1S0tpNTlmVkpwT2pFMzdkdjhoUWNRZjZPbVFsUzVwS2o1cldCVTMxT25xSUdZNlZPcmNpbnZ4dlN0ZlB6emFSUzVXQ284S2Z5elM2WkQ1QkRKYzJIUEZ2RnRjd1hOQnBua2cxakJGYUdNZTJ2a2NfV3pzQTNrVHk0VnNhVjJqOFY0MVF6V0tTS0hhR0N3QThVSXlMQUY5Tm1oZDFoamhDSkE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -103,32 +129,6 @@
       "probability_estimate": null
     },
     {
-      "id": "40d0ce2f0cee33fb30bf4bb7",
-      "label_nl": "Claim: U.S. Evacuates Mideast Outposts After Suspected Iranian Plot to Target Americans - WSJ",
-      "headline_claim_ids": [
-        "901822b3126ca9"
-      ],
-      "headline_claims": [
-        "U.S. Evacuates Mideast Outposts After Suspected Iranian Plot to Target Americans - WSJ"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSHhub0JHVm1Ca0QxUlBiM1hjSjkxZE5ZcHU2RERranBCd0l5X1VTNTI0ZWpiRHdhbG96MmEtUGNnTHZiWUZFM2NRSWdMZjlIaDNORWIzMDAxMVJtQW5sSjgtaUZ2Qm93VFliS255SjZBdUpkaWVjMFdVUnkxOEo0Z0p3dUVnTVlzOXNuLS1saGZCb2JqMmgteG9aeFM5NTg4SEJJM0hsYXdNeTRBbkZmRXVOMHpfaHRmQ3RXQ1BmWlVlZDhB?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "6ca00a81ad8f4e0a2e53604e",
       "label_nl": "Claim: Live Updates: War returns to Iran with Israel, US strikes - Dawn",
       "headline_claim_ids": [
@@ -181,16 +181,16 @@
       "probability_estimate": null
     },
     {
-      "id": "fe8abcfa463f36cd4b70fd90",
-      "label_nl": "Claim: State Department scrambles to help Americans stranded in Middle East war zone - ABC News - Breaking News, Latest News and Videos",
+      "id": "40d0ce2f0cee33fb30bf4bb7",
+      "label_nl": "Claim: U.S. Evacuates Mideast Outposts After Suspected Iranian Plot to Target Americans - WSJ",
       "headline_claim_ids": [
-        "e35a9b6c158338"
+        "901822b3126ca9"
       ],
       "headline_claims": [
-        "State Department scrambles to help Americans stranded in Middle East war zone - ABC News - Breaking News, Latest News and Videos"
+        "U.S. Evacuates Mideast Outposts After Suspected Iranian Plot to Target Americans - WSJ"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVDBkeGxmWnJBbmtqdC1XT2VxblJfa0J1ZEJFazZIb29TQUhkX21JSFJuYlQyVDVNYjRLR3dKQlZsNXkwSXlvendvY1pla0ZhZXVuakNXV3NMSUd1azVXUGFpcDVLaVJfaHlFODRtS2pTYzJOazJuYzNDaUdyUU9ic1QtcU55VHhuT0FPbm1seEpyNFlOMWF6eDJtTVg1UVZhOW1neXNlVWNacnc1Z0E?oc=5"
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSHhub0JHVm1Ca0QxUlBiM1hjSjkxZE5ZcHU2RERranBCd0l5X1VTNTI0ZWpiRHdhbG96MmEtUGNnTHZiWUZFM2NRSWdMZjlIaDNORWIzMDAxMVJtQW5sSjgtaUZ2Qm93VFliS255SjZBdUpkaWVjMFdVUnkxOEo0Z0p3dUVnTVlzOXNuLS1saGZCb2JqMmgteG9aeFM5NTg4SEJJM0hsYXdNeTRBbkZmRXVOMHpfaHRmQ3RXQ1BmWlVlZDhB?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -259,16 +259,16 @@
       "probability_estimate": null
     },
     {
-      "id": "9060f70ab6f826606fb6d59b",
-      "label_nl": "Claim: 'A question of when do I want to end it': Trump says Iran wants deal but delays negotiations - The New Indian Express",
+      "id": "2be3a14ef546f0d652887ebb",
+      "label_nl": "Claim: Jordan, Iran discuss sustainable ceasefire to end US-Tehran war - Yeni Şafak English",
       "headline_claim_ids": [
-        "59647d58590ba6"
+        "363a9041c2274e"
       ],
       "headline_claims": [
-        "'A question of when do I want to end it': Trump says Iran wants deal but delays negotiations - The New Indian Express"
+        "Jordan, Iran discuss sustainable ceasefire to end US-Tehran war - Yeni Şafak English"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOHVJUVBTaHlzby05ZG8zTGt1OVhzYi1QMlRlclI0cm1qQnF4bl95eWIxcEtsOGJ6LWxUZ2lRSU9fcHlpREhfRkxubHFQV1lzZWotWWdTbTVoVVFZVEpWOWNsNVRLQ3l1S0JMT1Z5bFlNVndoa0wxSUprdThsNEcwMXJaRUxxTGhxc1czODI3V0E1T2liVDZ2MjVMV3N0bndDZTA0RjJlTmE1Q1psUk81V0JkSHA2Q0otdHVJZjlrVEJNUEd4RjEwQTdHRFMwc3pDX2M5MVlMb9IB5AFBVV95cUxPVTNyWHRzU0VqZ1AzMF9CUkhMcXlXa3NEWGtHc3A1bmw3NVR0WTd1QTYwbnM4N3lXNkpNRVRUWUtyY2VXdUZZaUc1UG9vdWhoMTBUZzVjMnlWMlRidFJhMjctRWVjUDM3TlZodjRaRzRrQVJSZV9qend0bUt1NFlrSDBVQloxc1g5Mm54VEdBcUNsR0JCeHczSGNhUXUzMnhQV0FkWVZtY2labzZoMmJlRGlPLUZGT0xYdFNhZXV3UUt1SEYyMURHb3NRbXBhdWJuMW95SVlaVGYxQktUd3BDckViRlM?oc=5"
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVThWUVh1TFdxM1hORm10aGhKSFI2djB5Wmg3cllCTWF0d3VSb3M1eUNobGtKYWpKSU1BRXJSRWpZeHFXNk9IYUFwUUxtZEZKbmxDTEVPUjBSYzNmaW9ZNEZrNDJacUhXQ1FobmU1cjBpZ0Y2WFN6Q25xMmxMVkljMGw5TjZYWk5FWUJQTkJJNjl0TERMelVBWXhFQ2lLME5jcXlZ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -421,16 +421,16 @@
       "probability_estimate": null
     },
     {
-      "id": "e979c1b95b1533692a64d99a",
-      "label_nl": "Claim: Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/",
+      "id": "d188e479fd4e7ca368003699",
+      "label_nl": "Claim: Iran rejects Qatari peace ideas as Trump leaves door open to new strikes - Iran International",
       "headline_claim_ids": [
-        "76f19eec7631b9"
+        "9ed53048aba5f9"
       ],
       "headline_claims": [
-        "Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/"
+        "Iran rejects Qatari peace ideas as Trump leaves door open to new strikes - Iran International"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pczRiQlU4M3pONTJLZ2dkYUsxYzlXSHRJcGtVZ19vcDF3Z0JCVHZQb3JjV0YyVDRjZEQzOTBKU2tkR0Fyb1BXVTllMnh5d0RCNG9HNkRNa2NiN2xkU2pHaUdyOG04T1ZhUHZtaGgxMXQ?oc=5"
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9BVFZRVFFNR0M1RUpBY1lVN3ZNQWVUQzRLd09aeTdsRFJvTkVta29peTVrajNWak9WTGhiUzBlR2tMdDBHRUk2UnRPRjFxU3VfeUE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -526,16 +526,16 @@
       "probability_estimate": null
     },
     {
-      "id": "e3ca1ac0281b7086657fe0a8",
-      "label_nl": "Claim: Saudi Arabia offers Houthis $1 billion for peace; Asim Munir involved in negotiations: Report - News9live",
+      "id": "9060f70ab6f826606fb6d59b",
+      "label_nl": "Claim: 'A question of when do I want to end it': Trump says Iran wants deal but delays negotiations - The New Indian Express",
       "headline_claim_ids": [
-        "50dc28cd820d6b"
+        "59647d58590ba6"
       ],
       "headline_claims": [
-        "Saudi Arabia offers Houthis $1 billion for peace; Asim Munir involved in negotiations: Report - News9live"
+        "'A question of when do I want to end it': Trump says Iran wants deal but delays negotiations - The New Indian Express"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVXR5YlRsWXR4cFNTUmVmcU5uNFQyUTBDTWMwZHctM05GajhIc0loUTFwYWtXUlNYSzNINWxjQkxOZTRPRjRqOHBpTzgycW1BSmhaX0JhZHhXZkg1cWc3ajI3M05JcjFEN2R6bVdhUjNPQ3Q5M0ctV0tETWYxOENLOXhGemJnQllOLTY3NlBIakNYZUFLX1NpcXlaTUhUdzJWODgzODNhVGYxS2JEQjRJWWhidktFQUtTSXlGV09VVE05WU9jVlIwczJB0gHPAUFVX3lxTE9VcHB3R181eXdLdl91bHNfTU1JRE9LQzVSZkd2YjNIdTNzSDVER040dHhXQ0F4cEtoQ1NqSzBTTGR5NUhQbldESTJKenB4S3p1U2Y5MHlKMkg4a3d0bHhwYVNIT2R5b1MzdGVSNFM4bV9fZE9QT2g5d2FMM1MzaTFTUVpJUjd4Q2NHNHlWTGlBZk5SNFhDOGN0bkgyOWhZZVM3X2hORVE4OVFmcnN2a1o0anhnbEN2TDJtbXZYeFVVeTh3c3pXZU9vN2lsX1FsWQ?oc=5"
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOHVJUVBTaHlzby05ZG8zTGt1OVhzYi1QMlRlclI0cm1qQnF4bl95eWIxcEtsOGJ6LWxUZ2lRSU9fcHlpREhfRkxubHFQV1lzZWotWWdTbTVoVVFZVEpWOWNsNVRLQ3l1S0JMT1Z5bFlNVndoa0wxSUprdThsNEcwMXJaRUxxTGhxc1czODI3V0E1T2liVDZ2MjVMV3N0bndDZTA0RjJlTmE1Q1psUk81V0JkSHA2Q0otdHVJZjlrVEJNUEd4RjEwQTdHRFMwc3pDX2M5MVlMb9IB5AFBVV95cUxPVTNyWHRzU0VqZ1AzMF9CUkhMcXlXa3NEWGtHc3A1bmw3NVR0WTd1QTYwbnM4N3lXNkpNRVRUWUtyY2VXdUZZaUc1UG9vdWhoMTBUZzVjMnlWMlRidFJhMjctRWVjUDM3TlZodjRaRzRrQVJSZV9qend0bUt1NFlrSDBVQloxc1g5Mm54VEdBcUNsR0JCeHczSGNhUXUzMnhQV0FkWVZtY2labzZoMmJlRGlPLUZGT0xYdFNhZXV3UUt1SEYyMURHb3NRbXBhdWJuMW95SVlaVGYxQktUd3BDckViRlM?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -658,8 +658,8 @@
   ],
   "usage_by_day": {
     "2026-10-28": {
-      "requests": 9,
-      "total_tokens": 32760
+      "requests": 12,
+      "total_tokens": 40987
     }
   }
 }

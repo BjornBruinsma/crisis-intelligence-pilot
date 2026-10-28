@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-28T11:49:12.649742Z",
+  "last_attempt_utc": "2026-10-28T12:37:24.544876Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -567,6 +567,54 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-28T11:41:35.420189Z"
+    },
+    "363a9041c2274e": {
+      "id": "363a9041c2274e",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "Jordanië en Iran bespreken een duurzame wapenstilstand om de oorlog tussen de VS en Teheran te beëindigen.",
+      "claimed_event_nl": "Jordanië en Iran hebben gesprekken gevoerd over een wapenstilstand.",
+      "reason_nl": "Dit is relevant omdat het kan wijzen op diplomatieke inspanningen in een gespannen situatie.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T12:37:23.544652Z"
+    },
+    "57417e1f4a2a9b": {
+      "id": "57417e1f4a2a9b",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De spanningen tussen Saoedi-Arabië en de Houthi's zijn toegenomen na een dodelijke aanval op een benzinstation in Jemen.",
+      "claimed_event_nl": "Er zijn verhoogde spanningen tussen Saoedi-Arabië en de Houthi's.",
+      "reason_nl": "Dit is relevant vanwege de mogelijke impact op de regionale stabiliteit en veiligheid.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T12:37:23.544677Z"
+    },
+    "9ed53048aba5f9": {
+      "id": "9ed53048aba5f9",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran heeft de Qatarese vredesideeën afgewezen terwijl Trump de mogelijkheid van nieuwe aanvallen openlaat.",
+      "claimed_event_nl": "Iran heeft de vredesvoorstellen van Qatar verworpen.",
+      "reason_nl": "Dit is relevant omdat het de spanningen tussen Iran en de VS kan verhogen.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T12:37:23.544681Z"
     }
   },
   "usage_by_day": {
@@ -575,8 +623,8 @@
       "total_tokens": 0
     },
     "2026-10-28": {
-      "requests": 12,
-      "total_tokens": 12860
+      "requests": 13,
+      "total_tokens": 14000
     }
   }
 }
