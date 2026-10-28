@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-28T10:43:36.548554Z",
+  "last_attempt_utc": "2026-10-28T10:51:14.956271Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -535,6 +535,22 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-28T10:43:35.548348Z"
+    },
+    "d9a0f4967ab7a7": {
+      "id": "d9a0f4967ab7a7",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat de Fujairah Oil Zone getroffen is door een brand na een drone-aanval, waarbij de VAE zegt dat het Iraanse raketten heeft onderschept.",
+      "claimed_event_nl": "Fujairah Oil Zone getroffen door brand na drone-aanval en onderschepping van Iraanse raketten.",
+      "reason_nl": "Dit is relevant vanwege de mogelijke escalatie van militaire spanningen in de regio en de impact op de olievoorziening.",
+      "limitations_nl": "De informatie is afkomstig van een enkele bron en is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T10:51:13.956068Z"
     }
   },
   "usage_by_day": {
@@ -543,8 +559,8 @@
       "total_tokens": 0
     },
     "2026-10-28": {
-      "requests": 10,
-      "total_tokens": 11504
+      "requests": 11,
+      "total_tokens": 12217
     }
   }
 }

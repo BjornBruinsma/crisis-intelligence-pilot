@@ -1,10 +1,10 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-10-28T10:43:39.334341Z",
-  "fingerprint": "916b2a61a75d5fdfa655260a",
+  "last_attempt_utc": "2026-10-28T10:51:17.935420Z",
+  "fingerprint": "edb9d7a5c92a7a9c52d3b244",
   "status": "partial",
   "errors": [
-    "ValueError: Unexpected or repeated ID"
+    "ValueError: Missing ID(s) from group assignment"
   ],
   "model": "gpt-4o-mini",
   "input_candidate_count": 24,
@@ -13,16 +13,16 @@
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "28713a69f0b2fa42a3463a38",
-      "label_nl": "Claim: Iran Targets U.S.Military Sites in Bahrain, Kuwait After American Strikes - thekabultribune.com",
+      "id": "b34a28535597ce77758f40cb",
+      "label_nl": "Claim: Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles - EnergyNow.com",
       "headline_claim_ids": [
-        "3c0f42514e3161"
+        "d9a0f4967ab7a7"
       ],
       "headline_claims": [
-        "Iran Targets U.S.Military Sites in Bahrain, Kuwait After American Strikes - thekabultribune.com"
+        "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles - EnergyNow.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNb05kVUVicFJHb0pNRTdLOFpmQWNYRXFqSW5EcWpldFRuYmV6STNQX3FBUmQ0dkxlU0FSdy1WWjVxMGtVS1JyeDdPQ0p6MFE?oc=5"
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -65,16 +65,16 @@
       "probability_estimate": null
     },
     {
-      "id": "67160ec273191fe922f28e41",
-      "label_nl": "Claim: Day 243 | Regional tensions escalate as Saudi Arabia intercepts missiles, Iran warns US - Roya News",
+      "id": "28713a69f0b2fa42a3463a38",
+      "label_nl": "Claim: Iran Targets U.S.Military Sites in Bahrain, Kuwait After American Strikes - thekabultribune.com",
       "headline_claim_ids": [
-        "042e46d48bd2ae"
+        "3c0f42514e3161"
       ],
       "headline_claims": [
-        "Day 243 | Regional tensions escalate as Saudi Arabia intercepts missiles, Iran warns US - Roya News"
+        "Iran Targets U.S.Military Sites in Bahrain, Kuwait After American Strikes - thekabultribune.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBIYWxwRXZsbHBQbU9rcDZBRjh6SGNXOGhyRF9uZ043OF9TaUJlYWxLYU03UWFfTVBGM2pueWZUR21UNU5ETFVBbw?oc=5"
+        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNb05kVUVicFJHb0pNRTdLOFpmQWNYRXFqSW5EcWpldFRuYmV6STNQX3FBUmQ0dkxlU0FSdy1WWjVxMGtVS1JyeDdPQ0p6MFE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -127,6 +127,32 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "67160ec273191fe922f28e41",
+      "label_nl": "Claim: Day 243 | Regional tensions escalate as Saudi Arabia intercepts missiles, Iran warns US - Roya News",
+      "headline_claim_ids": [
+        "042e46d48bd2ae"
+      ],
+      "headline_claims": [
+        "Day 243 | Regional tensions escalate as Saudi Arabia intercepts missiles, Iran warns US - Roya News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBIYWxwRXZsbHBQbU9rcDZBRjh6SGNXOGhyRF9uZ043OF9TaUJlYWxLYU03UWFfTVBGM2pueWZUR21UNU5ETFVBbw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -462,32 +488,6 @@
       "probability_estimate": null
     },
     {
-      "id": "25b06f5131a0b04448a71217",
-      "label_nl": "Claim: Iran still producing missiles and drones, armed by Russia: report - Roya News",
-      "headline_claim_ids": [
-        "de4a023118c522"
-      ],
-      "headline_claims": [
-        "Iran still producing missiles and drones, armed by Russia: report - Roya News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb3Q0aXdNSFRpX1p1azBOQjJ2NEFXT05BNkdmZkdOa1N0THhWSTJIa3lOMllZcUJEVGhJdWpjMUFOY044RXh4RmdDc3dDYTBjTzdHWjRwRXctQzRUd1JxS19Hc1kxejdVcm1DR2VUVjlaYkNrVjhYUk96MWVXOTZFZ3QxdGYxOHRuSDZiY1FIbUE1SnQwcXRaaS1VN0xDTHJlWlozRFpn?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "e3ca1ac0281b7086657fe0a8",
       "label_nl": "Claim: Saudi Arabia offers Houthis $1 billion for peace; Asim Munir involved in negotiations: Report - News9live",
       "headline_claim_ids": [
@@ -592,16 +592,16 @@
       "probability_estimate": null
     },
     {
-      "id": "d6bc2005acf173e628d9e390",
-      "label_nl": "Claim: Qatar and Egypt Press Iran Diplomacy as Houthis Claim Saudi Strikes - Kurdistan24",
+      "id": "25b06f5131a0b04448a71217",
+      "label_nl": "Claim: Iran still producing missiles and drones, armed by Russia: report - Roya News",
       "headline_claim_ids": [
-        "fcc8353bec21fa"
+        "de4a023118c522"
       ],
       "headline_claims": [
-        "Qatar and Egypt Press Iran Diplomacy as Houthis Claim Saudi Strikes - Kurdistan24"
+        "Iran still producing missiles and drones, armed by Russia: report - Roya News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DcDVXUjRKSzhBckRHZE5kRkdJZEdLcWpmdzJ3YjBlVDcxQVVpYnR0emc1OEk2YUN3bkt3TVd6UGRUeHhQMno0U3FWUEFFNDRCWS15d3pn?oc=5"
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb3Q0aXdNSFRpX1p1azBOQjJ2NEFXT05BNkdmZkdOa1N0THhWSTJIa3lOMllZcUJEVGhJdWpjMUFOY044RXh4RmdDc3dDYTBjTzdHWjRwRXctQzRUd1JxS19Hc1kxejdVcm1DR2VUVjlaYkNrVjhYUk96MWVXOTZFZ3QxdGYxOHRuSDZiY1FIbUE1SnQwcXRaaS1VN0xDTHJlWlozRFpn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -646,8 +646,8 @@
   ],
   "usage_by_day": {
     "2026-10-28": {
-      "requests": 3,
-      "total_tokens": 13349
+      "requests": 4,
+      "total_tokens": 17680
     }
   }
 }
