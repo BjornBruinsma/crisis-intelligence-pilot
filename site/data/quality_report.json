@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-10-28T13:19:12.675073+00:00",
+  "generated_at_utc": "2026-10-28T14:08:39.310077+00:00",
   "definition": "Automatische procescontrole, geen wetenschappelijke validatie van gebeurteniswaarheid.",
   "technical": {
-    "collected_articles": 792,
-    "tentative_headline_groups": 531,
+    "collected_articles": 810,
+    "tentative_headline_groups": 533,
     "daily_shortlist": 25,
     "ai_reviewed_shortlist": 25,
     "ai_headline_status": "complete",
@@ -14,13 +14,16 @@
     "claims_in_multiple_claim_clusters": 0,
     "ids_retained_without_duplicates": true,
     "official_sources_checked": 15,
-    "official_sources_accessible": 12,
+    "official_sources_accessible": 13,
     "official_exact_passage_matches": 0,
     "potential_direct_support_matches": 0,
     "potential_contradictions": 0,
-    "claim_research_checked_active": 3,
+    "claim_research_checked_active": 6,
     "claim_research_status": "complete",
-    "original_document_statements_located": 0,
+    "claims_with_original_documents": 4,
+    "claims_with_unavailable_search": 0,
+    "govuk_search_requests_successful": 3,
+    "original_document_statements_located": 2,
     "original_document_conflicting_statements": 0,
     "verified_events": 0,
     "clustering_method": "singleton_fallback",
@@ -31,7 +34,7 @@
     "auditor_approved_pairs": 0,
     "rule_rejected_pairs": 0,
     "rss_profiles_ok": 12,
-    "gdelt_queries_ok": 1
+    "gdelt_queries_ok": 0
   },
   "source_breakdown": [
     {
@@ -79,9 +82,9 @@
     {
       "authority": "China Ministry of Foreign Affairs",
       "id": "china_mofa",
-      "status": "empty",
+      "status": "ok",
       "passages": 0,
-      "links": 0
+      "links": 9
     },
     {
       "authority": "US Treasury",
@@ -153,6 +156,6 @@
   "warnings": [
     "AI-gebeurtenisverwerking niet volledig: daily_limit",
     "Geen specifieke officiële ondersteuning automatisch aangetroffen",
-    "Officiële bronnen onvolledig: pakistan_mofa, china_mofa, iran_mfa"
+    "Officiële bronnen onvolledig: pakistan_mofa, iran_mfa"
   ]
 }

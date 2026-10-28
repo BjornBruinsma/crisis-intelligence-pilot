@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-28T13:19:00.810884Z",
+  "last_attempt_utc": "2026-10-28T14:08:25.292438Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -615,6 +615,38 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-28T13:08:21.038176Z"
+    },
+    "34f422a046ce4c": {
+      "id": "34f422a046ce4c",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "commentary",
+      "summary_nl": "De kop suggereert dat de oorlog in Iran invloed heeft op de wereldwijde scheepvaart door een brandstofcrisis.",
+      "claimed_event_nl": "De oorlog in Iran heeft impact op de wereldwijde scheepvaart door een brandstofcrisis.",
+      "reason_nl": "Dit is relevant omdat het de economische gevolgen van de situatie in Iran belicht.",
+      "limitations_nl": "De claim is gebaseerd op een interpretatie en niet op feitelijke gebeurtenissen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T14:08:24.292203Z"
+    },
+    "83b924b6e464a6": {
+      "id": "83b924b6e464a6",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop meldt dat de Houthis een aanval hebben uitgevoerd op de luchthaven van Aden na een evacuatiewaarschuwing.",
+      "claimed_event_nl": "Houthis hebben Aden luchthaven aangevallen na evacuatiewaarschuwing.",
+      "reason_nl": "Dit is relevant omdat het wijst op een escalatie van geweld in de regio, wat bredere implicaties kan hebben.",
+      "limitations_nl": "De details van de aanval zijn niet geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T14:08:24.292230Z"
     }
   },
   "usage_by_day": {
@@ -623,8 +655,8 @@
       "total_tokens": 0
     },
     "2026-10-28": {
-      "requests": 14,
-      "total_tokens": 14466
+      "requests": 15,
+      "total_tokens": 15394
     }
   }
 }
