@@ -1,0 +1,101 @@
+{
+  "description": "Evidence trails for official-source claims; NOT objective event verification",
+  "last_attempt_utc": "2026-10-28T13:19:12.626361Z",
+  "status": "complete",
+  "model": "gpt-4o-mini",
+  "active_total": 24,
+  "active_checked": 3,
+  "direct_matches": 0,
+  "contradictions": 0,
+  "requests_today": 3,
+  "model_requests_today": 1,
+  "records": {
+    "b34a28535597ce77758f40cb": {
+      "event_id": "b34a28535597ce77758f40cb",
+      "checked_at": "2026-10-28T13:19:12.626322Z",
+      "version": "official-original-document-v1",
+      "research_status": "primary_document_not_found",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "documents_fetched": 0,
+      "official_link_candidates": 0,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": []
+    },
+    "61b4c16b31216cd5de47248d": {
+      "event_id": "61b4c16b31216cd5de47248d",
+      "checked_at": "2026-10-28T13:19:12.626345Z",
+      "version": "official-original-document-v1",
+      "research_status": "primary_document_not_found",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "documents_fetched": 0,
+      "official_link_candidates": 0,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": []
+    },
+    "28713a69f0b2fa42a3463a38": {
+      "event_id": "28713a69f0b2fa42a3463a38",
+      "checked_at": "2026-10-28T13:19:12.626349Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4593050/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship/",
+          "original_document_title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_date": "Sept. 8, 2026",
+          "retrieved_at": "2026-10-28T13:19:07.814486Z",
+          "exact_quote": "No American personnel were harmed.",
+          "relation": "related_only",
+          "reason_nl": "Deze passage bevestigt dat er geen Amerikaanse slachtoffers zijn gevallen, maar ondersteunt niet de claim dat Iran Amerikaanse militaire locaties heeft aangevallen.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/",
+          "original_document_title": "CENTCOM Completes Strikes on IRGC Targets in Iran > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_date": "Sept. 1, 2026",
+          "retrieved_at": "2026-10-28T13:19:07.945296Z",
+          "exact_quote": "The strikes follow recent attempted attacks by the IRGC against commercial shipping in the Strait of Hormuz and against American service members.",
+          "relation": "related_only",
+          "reason_nl": "Deze passage verwijst naar eerdere aanvallen door de IRGC, maar specificeert niet dat Iran Amerikaanse militaire locaties in Bahrein of Koeweit heeft aangevallen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De gevonden teksten verwijzen naar aanvallen door de IRGC en de reactie van de VS, maar bevestigen niet specifiek de claim dat Iran Amerikaanse militaire locaties in Bahrein of Koeweit heeft aangevallen.",
+      "search_status": "ok",
+      "documents_fetched": 2,
+      "official_link_candidates": 2,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4593050/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship/",
+          "title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Sept. 8, 2026",
+          "text_excerpt": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship"
+        },
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/",
+          "title": "CENTCOM Completes Strikes on IRGC Targets in Iran > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Sept. 1, 2026",
+          "text_excerpt": "TAMPA, Fla. — U.S. Central Command (CENTCOM) forces successfully completed a wave of strikes against Iranian military targets Sept. 1."
+        }
+      ]
+    }
+  },
+  "usage_by_day": {
+    "2026-10-28": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1053
+    }
+  },
+  "last_error": null
+}
