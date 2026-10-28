@@ -29,6 +29,23 @@ class TestPairwiseClustering(unittest.TestCase):
         self.assertEqual({x for g in result for x in g["ids"]},set("abcd"))
         self.assertTrue(all(g["label_nl"].startswith("Claim: ") for g in result))
         self.assertTrue(all(g["event_date"] is None for g in result))
+    def test_last_successful_groups_preserved_under_daily_limit(self):
+        cache={"groups":[{"ids":["a","b"],"label_nl":"Claim: same warning",
+                           "clustering_reason":"previously approved"},
+                          {"ids":["c"],"label_nl":"Claim: oil prices",
+                           "clustering_reason":"separate"}]}
+        result=ec.reconstruct_cached_groups(self.claims,cache)
+        self.assertEqual(len(result),3)
+        self.assertEqual(result[0]["ids"],["a","b"])
+        self.assertEqual({x for g in result for x in g["ids"]},set("abcd"))
+    def test_cached_group_not_reused_if_member_disappears(self):
+        cache={"groups":[{"ids":["a","missing"],"label_nl":"Claim: old group"},
+                          {"ids":["b"],"label_nl":"Claim: other"}]}
+        result=ec.reconstruct_cached_groups(self.claims,cache)
+        self.assertEqual(len(result),4)
+        self.assertFalse(any("missing" in g["ids"] for g in result))
+        self.assertTrue(all(len(g["ids"])==1 for g in result))
+
     def test_empty_pairs_is_valid_and_never_drops_claims(self):
         result,metrics=ec.validate_merge_pairs({"merge_pairs":[]},self.claims)
         self.assertEqual(len(result),4)
