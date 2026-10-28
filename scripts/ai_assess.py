@@ -157,6 +157,18 @@ def validate(parsed, expected_ids):
     return out
 
 
+def safe_api_error(exc):
+    """Return public error type/code only, never a token or raw API response."""
+    try:
+        payload = json.loads(exc.read(4096))
+        detail = payload.get("error") or {}
+        kind = str(detail.get("type") or "unknown")[:60]
+        code = str(detail.get("code") or "unknown")[:60]
+        return f"HTTP {exc.code}; error_type={kind}; error_code={code}"
+    except (ValueError, TypeError, UnicodeDecodeError):
+        return f"HTTP {exc.code}; error details unavailable"
+
+
 def run_ai(queue, previous, token):
     cached = previous.get("assessments") or {}
     if not isinstance(cached,dict): cached={}
@@ -184,9 +196,11 @@ def run_ai(queue, previous, token):
             reviews = validate(parsed,[item["id"] for item in batch])
             assessments.update(reviews)
             today_tokens += int(stats.get("total_tokens",0))
-        except (ValueError,KeyError,IndexError,urllib.error.HTTPError,
-                urllib.error.URLError,TimeoutError) as exc:
-            error = f"{type(exc).__name__}: {str(exc)[:200]}"
+        except urllib.error.HTTPError as exc:
+            error = safe_api_error(exc)
+            break
+        except (ValueError, KeyError, IndexError, urllib.error.URLError, TimeoutError) as exc:
+            error = f"{type(exc).__name__}: {str(exc)[:160]}"
             break
         time.sleep(1)
     usage = {key:value for key,value in usage.items() if key >= (
