@@ -1,0 +1,102 @@
+name: OWOP independent news pilot
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/owop_*.py'
+      - 'tests/test_owop*.py'
+      - 'OWOP_PILOT.md'
+      - '.github/workflows/owop.yml'
+      - 'site/owop/**'
+  schedule:
+    - cron: '47 1,7,13,19 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: owop-editorial-update
+  cancel-in-progress: true
+jobs:
+  update-owop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Collect multilingual candidate news
+        run: python scripts/owop_collect.py
+      - name: Install OpenAI SDK
+        run: python -m pip install --quiet "openai>=2.0.0"
+      - name: Autonomous OWOP AI editorial board
+        id: owop_editorial
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OWOP_MODEL: gpt-4o-mini
+        run: python scripts/owop_editorial.py
+      - name: Search and verify selected stories
+        id: owop_verify
+        if: steps.owop_editorial.outcome == 'success'
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OWOP_SEARCH_MODEL: gpt-5-search-api
+          OWOP_RESPONSES_SEARCH_MODEL: gpt-6-luna
+          OWOP_VERIFY_MODEL: gpt-4o-mini
+        run: python scripts/owop_verify.py
+      - name: Build OWOP pilot feed
+        if: steps.owop_editorial.outcome == 'success'
+        run: python scripts/owop_build.py
+      - name: Commit OWOP files without rewriting CRISIS data
+        run: |
+          git config user.name "owop-editorial-bot"
+          git config user.email "owop-editorial-bot@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --mixed origin/main
+            git add site/owop
+            if git diff --cached --quiet; then
+              echo "No OWOP changes."
+              exit 0
+            fi
+            git commit -m "Update autonomous OWOP pilot"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Unable to push after three attempts."
+              exit 1
+            fi
+            git reset --soft HEAD~1
+            sleep 4
+          done
+  publish-pages:
+    needs: update-owop
+    runs-on: ubuntu-latest
+    concurrency:
+      group: crisis-shared-github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Deploy latest CRISIS and OWOP site snapshot
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
