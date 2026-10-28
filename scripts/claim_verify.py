@@ -69,7 +69,19 @@ def fetch_bytes(url,limit=1_300_000,timeout=13):
     request=urllib.request.Request(url,headers={
        "User-Agent":"CRISIS-Intelligence-Source-Research/0.9",
        "Accept":"text/html,application/rss+xml,application/xml;q=0.9,*/*;q=0.2"})
-    with urllib.request.urlopen(request,timeout=timeout) as response:
+    class SafeRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self,req,fp,code,msg,headers,newurl):
+            original=urllib.parse.urlsplit(req.full_url).hostname or ""
+            dest=urllib.parse.urlsplit(newurl).hostname or ""
+            if original in ("www.bing.com","bing.com"):
+                allowed=(dest in ("www.bing.com","bing.com"))
+            else:
+                allowed=is_official_url(newurl)
+            if not allowed:
+                raise urllib.error.URLError("Redirect outside allowed source hosts")
+            return super().redirect_request(req,fp,code,msg,headers,newurl)
+    opener=urllib.request.build_opener(SafeRedirect())
+    with opener.open(request,timeout=timeout) as response:
         return response.read(limit),str(response.headers.get("Content-Type") or "")
 
 class Metadata(HTMLParser):
@@ -298,8 +310,14 @@ def render(records,active,meta):
              +safe(item.get("checked_at"))+"</div><h3>"+safe(title)+"</h3>"
              +"<p>"+safe(item.get("summary_nl"))+"</p>"
              +(("<ul>"+sources+"</ul>") if sources else "<p class='dim'>Geen specifiek passend officieel documentbewijs beschikbaar.</p>")
-             +"<details><summary>Bronzoeklog</summary><p>Zoekdienst: "+safe(item.get("search_status"))+
-             " · officiële documenten geopend: "+str(item.get("documents_fetched",0))+"</p></details></article>")
+             +"<details><summary>Bronzoeklog en opgehaalde documenten</summary><p>Zoekdienst: "+safe(item.get("search_status"))+
+             " · officiële documenten geopend: "+str(item.get("documents_fetched",0))+"</p><ul>"+
+             "".join("<li><a target='_blank' rel='noopener noreferrer' href='"+safe(doc["url"])+"'>"+
+               safe(doc.get("title") or doc["url"])+"</a> · documentdatum: "+
+               safe(doc.get("source_publication_date") or "onbekend")+
+               "<p>"+safe(doc.get("text_excerpt"))+"</p></li>"
+               for doc in item.get("original_documents_retrieved") or [])+
+             "</ul></details></article>")
     return f"""<!doctype html><html lang="nl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>CRISIS — claimgerichte primaire broncontrole</title>
@@ -370,7 +388,11 @@ def main():
             "search_status":x["discovery"]["search_status"],
             "documents_fetched":x["discovery"]["official_documents_fetched"],
             "official_link_candidates":x["discovery"]["official_link_candidates"],
-            "search_errors":x["discovery"]["errors"],"ai_error":error}
+            "search_errors":x["discovery"]["errors"],"ai_error":error,
+            "original_documents_retrieved":[{"url":doc["url"],"title":doc["title"],
+                 "source_publication_date":doc["published_at_from_document"],
+                 "text_excerpt":doc["passages"][0][:250] if doc["passages"] else ""}
+               for doc in x["discovery"]["documents"]]}
     count+=len(new_items)
     usage={d:v for d,v in usage.items() if d>=
            (dt.datetime.now(dt.timezone.utc).date()-dt.timedelta(days=2)).isoformat()}
