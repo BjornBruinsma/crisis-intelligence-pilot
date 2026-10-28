@@ -32,9 +32,9 @@ SOURCES=[
  ("imo_shipping","International Maritime Organization",
   "https://www.imo.org/en/mediacentre/pressbriefings/default.aspx","official_listing"),
  ("pakistan_mofa","Pakistan Ministry of Foreign Affairs",
-  "https://mofa.gov.pk/press-releases","official_listing"),
+  "https://www.mofa.gov.pk/press-releases","official_listing"),
  ("china_mofa","China Ministry of Foreign Affairs",
-  "https://www.fmprc.gov.cn/eng/xw/fyrbt/lxjzh/index.html","official_listing"),
+  "https://www.fmprc.gov.cn/mfa_eng/index.html","official_listing"),
  ("us_treasury","US Treasury",
   "https://home.treasury.gov/news/press-releases","official_listing"),
  ("eia_energy","US Energy Information Administration",
@@ -54,7 +54,7 @@ SOURCES=[
 ]
 TRUSTED_HOSTS={"www.centcom.mil","centcom.mil","www.gov.uk","gov.uk",
                "travel.state.gov","www.imo.org","imo.org","mofa.gov.pk",
-               "www.fmprc.gov.cn","fmprc.gov.cn","home.treasury.gov",
+               "www.fmprc.gov.cn","fmprc.gov.cn","www.mofa.gov.pk","home.treasury.gov",
                "www.eia.gov","eia.gov","www.mofa.gov.ae","mofa.gov.ae","en.mfa.ir"}
 KEYWORDS=("iran","saudi","israel","gulf","kuwait","bahrain","qatar",
           "hormuz","iraq","united arab emirates","united states",
@@ -155,7 +155,9 @@ def parse_document(item,raw):
     parser.feed(raw.decode("utf-8",errors="replace"))
     matches=[x for x in parser.chunks if relevant(x)]
     doc["passages"]=matches[:40]
-    matches_links=[x for x in parser.links if relevant(x["title"])]
+    matches_links=[x for x in parser.links if relevant(x["title"]) or (
+        item[0]=="china_mofa" and
+        ("Press Conference" in x["title"] or "Spokesperson" in x["title"]))]
     seen=set()
     for x in matches_links:
         if x["url"] in seen:continue
