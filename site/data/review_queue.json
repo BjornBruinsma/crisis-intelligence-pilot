@@ -1,13 +1,13 @@
 {
-  "generated_from": "2026-10-28T07:07:35.023940Z",
+  "generated_from": "2026-10-28T08:49:37.433120Z",
   "description": "Unverified title clusters; priority for human editorial review only",
   "stats": {
     "article_count": 600,
-    "group_count": 519,
+    "group_count": 521,
     "priority_counts": {
-      "hoog": 106,
+      "hoog": 109,
       "middel": 321,
-      "laag": 92
+      "laag": 91
     },
     "groups_with_repeated_headlines": 47,
     "note": "Conservative same-day headline similarity, not semantic event clustering"
@@ -241,26 +241,6 @@
           ],
           "provider": "gdelt_doc2",
           "review_status": "unverified"
-        },
-        {
-          "key": "3d269ad24c604ce2eaf7c1da",
-          "url": "http://www.pakistantelegraph.com/news/279396653/iran-threatens-to-attack-internet-links-in-the-middle-east",
-          "title": "Iran threatens to attack Internet links in the Middle East",
-          "publisher": "pakistantelegraph.com",
-          "publisher_url": "",
-          "domain": "pakistantelegraph.com",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-25T18:00:00Z",
-          "language": "English",
-          "sourcecountry": "Pakistan",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
         }
       ],
       "day": "2026-10-25",
@@ -269,13 +249,12 @@
       "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
       "publishers": [
         "orlandoecho.com",
-        "pakistantelegraph.com",
         "saltlakecitysun.com",
         "utahindependent.com",
         "zimbabwestar.com"
       ],
-      "article_count": 5,
-      "source_count": 5,
+      "article_count": 4,
+      "source_count": 4,
       "categories": [
         "Brede GDELT-detectie"
       ],
@@ -493,6 +472,86 @@
       "key": "b6791f78f02bf5",
       "review_status": "unverified_story_candidate",
       "review_order": 31
+    },
+    {
+      "title": "Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/",
+      "articles": [
+        {
+          "key": "3641591a1d923504ea95823d",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pczRiQlU4M3pONTJLZ2dkYUsxYzlXSHRJcGtVZ19vcDF3Z0JCVHZQb3JjV0YyVDRjZEQzOTBKU2tkR0Fyb1BXVTllMnh5d0RCNG9HNkRNa2NiN2xkU2pHaUdyOG04T1ZhUHZtaGgxMXQ?oc=5",
+          "title": "Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/",
+          "publisher": "https://houseofsaud.com/",
+          "publisher_url": "https://houseofsaud.com",
+          "domain": "houseofsaud.com",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-28T07:45:24Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-28",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "https://houseofsaud.com/"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Politiek & diplomatie"
+      ],
+      "key": "76f19eec7631b9",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "尽管油轮袭击事件不断升级，但海湾石油出口量仍超过战前水平。 - Al-Monitor",
+      "articles": [
+        {
+          "key": "4f51325ccbf99463b7691876",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LZnFpLTlFckItYmRBR2ZhMDlhSXVNdjRzZGNFWGsyNEdGV2N0MWY1U2hINnNZWTlGbzZYemVhRDAxNmw5ZUFEZmM4RlF0TExHeE5IUDNXNmpMeFNMTjEybGZaZHoyQQ?oc=5",
+          "title": "尽管油轮袭击事件不断升级，但海湾石油出口量仍超过战前水平。 - Al-Monitor",
+          "publisher": "Al-Monitor",
+          "publisher_url": "https://www.al-monitor.com",
+          "domain": "www.al-monitor.com",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-28T06:26:25Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-28",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "al-monitor"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "4e7be669964446",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
     },
     {
       "title": "Saudi Arabia offers Houthis $1 billion for peace; Asim Munir involved in negotiations: Report - News9live",
@@ -1423,6 +1482,46 @@
         "Militair & veiligheid"
       ],
       "key": "4b2346c18b3bb1",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "Iran says it turns back US warship from Strait of Hormuz, US official denies missile strike - DD News",
+      "articles": [
+        {
+          "key": "ffb31517cbd364d7d37a8bcd",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZ092N1lQbEJ2SEw1UkNDYmVSVm9vM3FpS3Fxd3I0R3loeUdlTnBYM21OTXpCbzRiNkhFaTZGNVc4ckN1dHNiajRzT1BKOHpNd1dfTTlfU0l6Z0lHVWdfX1BoNU12QjNnbEktNVFLWjE0MjFlbkhnWDQ4UlFrWU04a3pIWTRQVHZjelNoMVFmQ3laVW1WNEgwTWpDa0x1RGhNaG1EdFlPaEJCVEZ4NTFsMV84cHdIQjg?oc=5",
+          "title": "Iran says it turns back US warship from Strait of Hormuz, US official denies missile strike - DD News",
+          "publisher": "DD News",
+          "publisher_url": "https://ddnews.gov.in",
+          "domain": "ddnews.gov.in",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-27T07:06:36Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "dd news"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Militair & veiligheid"
+      ],
+      "key": "f507e6d141b4b1",
       "review_status": "unverified_story_candidate",
       "review_order": 30
     },
@@ -2835,6 +2934,46 @@
         "Militair & veiligheid"
       ],
       "key": "82615ec115252b",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "Oil prices fall despite Saudi attacks and rising strait of Hormuz risks - Nairametrics",
+      "articles": [
+        {
+          "key": "9ea35c851e1555dd7a851bbc",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMWV2dTkwdVB3bkZhdDM3akFTdXpZV1dtOWduYjM0eDc0a3dJbEV3N2JSREFZeXpIU3h4ZmctTFI1bWZZXzRlY2MxelFzZ056OTB3QXVGa09yT2FUSUQwak1sZXh5eXhZVlFJQmVFZ2VkOFh2WThXWDM3RWhQS1p6UEh2R1k2MVlaSU9FNWQ5VUFZNU9NVmFpQlRRNFdBZ0dHMlhfWjlhM2ZPUVpF?oc=5",
+          "title": "Oil prices fall despite Saudi attacks and rising strait of Hormuz risks - Nairametrics",
+          "publisher": "Nairametrics",
+          "publisher_url": "https://nairametrics.com",
+          "domain": "nairametrics.com",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-26T13:56:19Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "trade"
+          ],
+          "topic": [
+            "Wereldhandel & logistiek"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-26",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "nairametrics"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Wereldhandel & logistiek"
+      ],
+      "key": "b91322330af19a",
       "review_status": "unverified_story_candidate",
       "review_order": 30
     },
@@ -4620,46 +4759,6 @@
       "review_order": 30
     },
     {
-      "title": "Trump has  a decision to make  on Iran as concerns over renewed strikes deepen",
-      "articles": [
-        {
-          "key": "bd7c483b2e5250c6cc6baaaf",
-          "url": "https://www.thenationalnews.com/news/us/2026/10/25/trump-iran-strike/",
-          "title": "Trump has  a decision to make  on Iran as concerns over renewed strikes deepen",
-          "publisher": "thenationalnews.com",
-          "publisher_url": "",
-          "domain": "thenationalnews.com",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-25T18:00:00Z",
-          "language": "English",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-25",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "thenationalnews.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "4557953b480ddb",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
       "title": "Oil slips 1% as Iran diplomacy eases supply fears - Investify",
       "articles": [
         {
@@ -4734,10 +4833,12 @@
           "language": "en-US",
           "sourcecountry": "",
           "discovery_profiles": [
-            "diplomacy"
+            "diplomacy",
+            "pakistan-en"
           ],
           "topic": [
-            "Politiek & diplomatie"
+            "Politiek & diplomatie",
+            "Regionaal: Pakistan"
           ],
           "provider": "google_news_rss",
           "review_status": "unverified"
@@ -4926,66 +5027,6 @@
           ],
           "provider": "gdelt_doc2",
           "review_status": "unverified"
-        },
-        {
-          "key": "5cfe5b105fa87acef2b7a047",
-          "url": "https://www.witneygazette.co.uk/news/national/26668344.iranians-fear-possible-return-all-out-war-us-israeli-elections-loom/",
-          "title": "Iranians fear possible return to all - out war as US and Israeli elections loom",
-          "publisher": "witneygazette.co.uk",
-          "publisher_url": "",
-          "domain": "witneygazette.co.uk",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-25T18:00:00Z",
-          "language": "English",
-          "sourcecountry": "United Kingdom",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        },
-        {
-          "key": "b98e13404afa21a7a17ce281",
-          "url": "https://www.clactonandfrintongazette.co.uk/news/national/26668344.iranians-fear-possible-return-all-out-war-us-israeli-elections-loom/",
-          "title": "Iranians fear possible return to all - out war as US and Israeli elections loom",
-          "publisher": "clactonandfrintongazette.co.uk",
-          "publisher_url": "",
-          "domain": "clactonandfrintongazette.co.uk",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-25T18:00:00Z",
-          "language": "English",
-          "sourcecountry": "United Kingdom",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        },
-        {
-          "key": "d52d5a66bbbb941f946774a0",
-          "url": "http://www.stardem.com/ap/world/iranians-fear-a-possible-return-to-all-out-war-as-us-and-israeli-elections-approach/article_b1ce44e5-278f-528a-831b-967fa0fce162.html",
-          "title": "Iranians fear a possible return to all - out war as US and Israeli elections approach",
-          "publisher": "stardem.com",
-          "publisher_url": "",
-          "domain": "stardem.com",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-25T18:00:00Z",
-          "language": "English",
-          "sourcecountry": "United States",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
         }
       ],
       "day": "2026-10-25",
@@ -4994,23 +5035,102 @@
       "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
       "publishers": [
         "4029tv.com",
-        "clactonandfrintongazette.co.uk",
         "dorsetecho.co.uk",
         "hertsad.co.uk",
         "ketv.com",
-        "stardem.com",
-        "witneygazette.co.uk",
         "wlwt.com",
         "wpbf.com"
       ],
-      "article_count": 9,
-      "source_count": 9,
+      "article_count": 6,
+      "source_count": 6,
       "categories": [
         "Brede GDELT-detectie"
       ],
       "key": "517aab17217b81",
       "review_status": "unverified_story_candidate",
       "review_order": 23
+    },
+    {
+      "title": "النفط يتراجع وسط جهود دبلوماسية لاحتواء الحرب الأميركية الإيرانية - akhbaralyawm.com",
+      "articles": [
+        {
+          "key": "6a20cc871a313b5985bc6bd7",
+          "url": "https://news.google.com/rss/articles/CBMipgRBVV95cUxOUkhGQ25fdldHYjlSdmpfSWZhd0lZSGNRUUNhMGJ3TzNrM0d1YXF1UnVjWmRtX0pCNkRUSTU3WU1XOHA1WEtUVndhc250VURrVjBXQjlmaTFXUnh2STNoM0kxWjNwZXpRWHBzMzVXQzdqVDlBamFjdnctdGJqb3dwdlBGcVA5WTEwLTNaZzJaSHRVVUVSR1drZ1RSQ2xLYWNBcnUxMnNnUEg0S0RneDRlU2RjcmR1dDM0MG93WjNaSUJ0YjBlQmFHOWdJNlczNnJ0VEFIU1ZCb3ZUdG54WWk0Z0VHaUFQUXZwdUFhM29UZXUxazJKeEFRb2l0VGV3VGRQMG50R0FCeVNqMXgxTkxKcEstc0t1YjhPZ2xvMGs1S3NDX1FaVWRQOVpweEZGekFoejRCRUZFVTFObExqQ01JZGhNQ01wRzVSUldjUlBGaEVYWFNSMUhvZmNsU3NGZDNDV2lsWVFWWkpUUG1NSktvcEVqaUNNaUN6cHFLZXBLcjBEQ1BfemVnM1NZS19qem5fYmVZbkpjNFRpZkVmeWRtNFpuMGwtTDhxb2p0TnkyWVk2b0lmR1NuMlc3QjdRMHA4Tm0wSEdWNE5iM3BPVnR0aEM2Z3pVdVVJVGpkMlJrMHByV2R2ak1kSDl6Nm1pcVFLTjNtTEw3WF9VeXFaamlOM3VMX3FMbnBMckVBV0J0Z2JPN0p5ZmZHYzV0Nm5UYThzRlN5Tmdn?oc=5",
+          "title": "النفط يتراجع وسط جهود دبلوماسية لاحتواء الحرب الأميركية الإيرانية - akhbaralyawm.com",
+          "publisher": "akhbaralyawm.com",
+          "publisher_url": "https://www.akhbaralyawm.com",
+          "domain": "www.akhbaralyawm.com",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-27T06:49:48Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        },
+        {
+          "key": "aa211efb334e91d7cb7f2a47",
+          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNcXlVM0Y5T1JnazVQdklubWl6N19wVWdSaGRuNmNxS0duUzQ5QWhZc1FaVzFGX0tFeDBCUGcxbzJFUHdJLV9hTkhEOXhhOTFWeWplN1JOYVRVSGtNTUo4WEFZaEpRbElDNjAzVlo1VGx3VjhTT2Z6bHVLQ0h4a0VHRXRNV0F3eXhwSzNKZkxhTWJ6NHpKcGZFR1NNUmxoMG5pMDB4U2lMdlJlX09pX1AwNW5YcVhndmZOZjJpU0JBUnhYRnZKQTRfQVhQZ2ZiZ0hjYmprSktYaDVtQVFTLTdWTFRQZFVJckFaVUZmNHlfcWZsemwtb1g1aXlyQkVPWUh4TDRka1ZvcDE4NzA4SllxZUo4X05zUWk5STgtTGRsS2kyWms2UjQ0bGRkU2RlNmNrelNqVzlGZVUtOE53SE1HLWFvbklTXzBaNkUzYXc4XzQyUQ?oc=5",
+          "title": "النفط يتراجع وسط جهود دبلوماسية لاحتواء الحرب الأميركية الإيرانية - میدل ایست نیوز",
+          "publisher": "میدل ایست نیوز",
+          "publisher_url": "https://mdeast.news",
+          "domain": "mdeast.news",
+          "first_seen": "2026-10-27T11:33:32.520965Z",
+          "published_at": "2026-10-27T06:21:50Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        },
+        {
+          "key": "81108eb5ba6cad68983ce925",
+          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOWjJKMVVTZVJZeVNnNlFOMFVUSXhUdHZUcHc4MG44T1RfNlNwN0pDcEYxcnBkajdYNG9KVmhnWVhmbmJPaVZUWFFGZ0VJV0t0MzNDZlZSWWVaVFBheWFqTWdvMjUteWV4LTVOVjVfd1NwR1NCc0ItS1ZvcGJqSWstN0tka2FKWXVIUl9WaWJSNlY2OFRIZmpxYUZFUHEzcUMwd2htZ2Y2QTNhRUEzVWdfSXNQQ0p0TlNfQVRuMDM0aVhhVkpnQWdiODBhVlNLYWhzLUdRZUJLcGV0ejJiRGFyZ0xCUjBFby1BTjNXUThBc0FlZXhXeWk1bWhOMUYzSEdKVXBQalA0aEladw?oc=5",
+          "title": "النفط يتراجع وسط جهود دبلوماسية لاحتواء الحرب الأميركية الإيرانية - الشرق بلومبرغ",
+          "publisher": "الشرق بلومبرغ",
+          "publisher_url": "https://asharqbusiness.com",
+          "domain": "asharqbusiness.com",
+          "first_seen": "2026-10-27T06:55:48.810048Z",
+          "published_at": "2026-10-27T02:15:00Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "akhbaralyawm.com",
+        "الشرق بلومبرغ",
+        "میدل ایست نیوز"
+      ],
+      "article_count": 3,
+      "source_count": 3,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "f45deb44d218bd",
+      "review_status": "unverified_story_candidate",
+      "review_order": 22
     },
     {
       "title": "Sri Lanka provides medical help , repatriates Iranian sailors stranded in Indian Ocean",
@@ -5152,67 +5272,6 @@
         "Regionaal: Golfstaten / Arabisch"
       ],
       "key": "5699dcdb771ddb",
-      "review_status": "unverified_story_candidate",
-      "review_order": 21
-    },
-    {
-      "title": "النفط يتراجع وسط جهود دبلوماسية لاحتواء الحرب الأميركية الإيرانية - میدل ایست نیوز",
-      "articles": [
-        {
-          "key": "aa211efb334e91d7cb7f2a47",
-          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNcXlVM0Y5T1JnazVQdklubWl6N19wVWdSaGRuNmNxS0duUzQ5QWhZc1FaVzFGX0tFeDBCUGcxbzJFUHdJLV9hTkhEOXhhOTFWeWplN1JOYVRVSGtNTUo4WEFZaEpRbElDNjAzVlo1VGx3VjhTT2Z6bHVLQ0h4a0VHRXRNV0F3eXhwSzNKZkxhTWJ6NHpKcGZFR1NNUmxoMG5pMDB4U2lMdlJlX09pX1AwNW5YcVhndmZOZjJpU0JBUnhYRnZKQTRfQVhQZ2ZiZ0hjYmprSktYaDVtQVFTLTdWTFRQZFVJckFaVUZmNHlfcWZsemwtb1g1aXlyQkVPWUh4TDRka1ZvcDE4NzA4SllxZUo4X05zUWk5STgtTGRsS2kyWms2UjQ0bGRkU2RlNmNrelNqVzlGZVUtOE53SE1HLWFvbklTXzBaNkUzYXc4XzQyUQ?oc=5",
-          "title": "النفط يتراجع وسط جهود دبلوماسية لاحتواء الحرب الأميركية الإيرانية - میدل ایست نیوز",
-          "publisher": "میدل ایست نیوز",
-          "publisher_url": "https://mdeast.news",
-          "domain": "mdeast.news",
-          "first_seen": "2026-10-27T11:33:32.520965Z",
-          "published_at": "2026-10-27T06:21:50Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "81108eb5ba6cad68983ce925",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOWjJKMVVTZVJZeVNnNlFOMFVUSXhUdHZUcHc4MG44T1RfNlNwN0pDcEYxcnBkajdYNG9KVmhnWVhmbmJPaVZUWFFGZ0VJV0t0MzNDZlZSWWVaVFBheWFqTWdvMjUteWV4LTVOVjVfd1NwR1NCc0ItS1ZvcGJqSWstN0tka2FKWXVIUl9WaWJSNlY2OFRIZmpxYUZFUHEzcUMwd2htZ2Y2QTNhRUEzVWdfSXNQQ0p0TlNfQVRuMDM0aVhhVkpnQWdiODBhVlNLYWhzLUdRZUJLcGV0ejJiRGFyZ0xCUjBFby1BTjNXUThBc0FlZXhXeWk1bWhOMUYzSEdKVXBQalA0aEladw?oc=5",
-          "title": "النفط يتراجع وسط جهود دبلوماسية لاحتواء الحرب الأميركية الإيرانية - الشرق بلومبرغ",
-          "publisher": "الشرق بلومبرغ",
-          "publisher_url": "https://asharqbusiness.com",
-          "domain": "asharqbusiness.com",
-          "first_seen": "2026-10-27T06:55:48.810048Z",
-          "published_at": "2026-10-27T02:15:00Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-27",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "الشرق بلومبرغ",
-        "میدل ایست نیوز"
-      ],
-      "article_count": 2,
-      "source_count": 2,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "f45deb44d218bd",
       "review_status": "unverified_story_candidate",
       "review_order": 21
     },
@@ -6037,6 +6096,86 @@
       "review_order": 21
     },
     {
+      "title": "Middle East latest: US warns Gulf allies of possible renewal of Iran war, report says - The National",
+      "articles": [
+        {
+          "key": "bf5ab299774f537f60d2a453",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaFJlRWh6RjRRdWJxRDBZM0lmaW9tOTkxS2JCTnpjSTJ3aGhrd2xJSW1MN2dDeWt6SzNMeWJva3Rhcm80NGx1OHoweGdKSGJZUklZQzliNE94UGVJeEpJdlo5WDlJbFpwRmctMTNIRnZSMEhlRTJoamZlblNtNi1lWjJhdy1aWFhTTk1MeGYtUVFKZw?oc=5",
+          "title": "Middle East latest: US warns Gulf allies of possible renewal of Iran war, report says - The National",
+          "publisher": "The National",
+          "publisher_url": "https://www.thenationalnews.com",
+          "domain": "www.thenationalnews.com",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-28T07:15:07Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-28",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "the national"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Militair & veiligheid"
+      ],
+      "key": "e8c0bfa8a655e0",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "الجيش الأمريكي يرد على مزاعم إيران بمغادرة القوات الأمريكية لهرمز - آخر خبر",
+      "articles": [
+        {
+          "key": "bb699aceadd4c4111fe3a6fb",
+          "url": "https://news.google.com/rss/articles/CBMiuARBVV95cUxPRXRDVlR5b205S0hUWTA0Uy1nZzh5U0h5UHV3U2ppRThkTi0tV0oxM0NlWlZtRW1VS2pLb281YzB6VURuMXg0bHBIWElxX0pLRTAyal9kanRyYnRCR2VGWW0yU04xSS12M0hGQTg2aE5SeUhIemhkdGhuSVBWLXVWR2dxYjA5dEFjYWFCMm04VW1wbldxTmVKdTVibXJjNElnNGF2U0pFaFBxOGFZN2tsclNaYThsbUFlM3FidUtEckhWRUlGS3lCbFRFaTVLNlZWY0lxWW44M2NYdHpGNDdfR0lUMkVpZFIxX2JpaVZodVNYTjZYenM4S3IyTlctN20xM1FIMk44aWdDYVMxSUJ6Sll4R2NvMm1qVHJYQ3J0aEx1WWVSMU5HNUV4V1NzekdyNVlfbGVTNHZsTVMyQzd4blVOdWhLMUlEdlZ5ZUVjekhPSXotUWlHRFJRQ2FmZ3JXbU5LVWhSM2xQVXBEb3VERk9CWVB5VkljRXl2YlQ2NVlJRG9wZUVLMk1oMF9HR2tIMjBiRGJ2cVdEWXowQi1jYUZ0QV9IcG1hRDlCOVd1dnRqNzZTMHBrLW1HSEhJck1lRUdWcmpUX1ZPWmxxa0ZMbTc3VWxxLVo5VGViS1JfcU1qSUNBMGZ4SHlZNnUtNjNkakZIcDUyM2pWYzVYWF9ia1Y1WngyQ1VlRnRiMnEzYWIwOTlMUjc4dHFhci1oRmR4Zmc2WkpndjBTNjRXLUgzTjJrWURXcXM5?oc=5",
+          "title": "الجيش الأمريكي يرد على مزاعم إيران بمغادرة القوات الأمريكية لهرمز - آخر خبر",
+          "publisher": "آخر خبر",
+          "publisher_url": "https://a5r5br.net",
+          "domain": "a5r5br.net",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-28T06:38:14Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-28",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "آخر خبر"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "923ecb3f6411f8",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "«البحري» السعودية ترفع أرباحها 587 % إلى 2.66 مليار دولار خلال 9 أشهر - الشرق الأوسط",
       "articles": [
         {
@@ -6117,6 +6256,46 @@
       "review_order": 20
     },
     {
+      "title": "Peru prepares to concession Talara oil refinery to private operators in 2027 restructuring - https://streamlinefeed.co.ke/",
+      "articles": [
+        {
+          "key": "032494222067fdfede5a1b1d",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd3J3ZWk0ZHIwNkNmZGxOLVM5NVc4NnBGbjRvRy12RUp5Nkk1dmVTTXBKOEZyNWY2M1htUGY1b1R6VHU1SmpObkJpcFIxVE5TOVFkbHh0RHlDSmRrWEZmZWhnZXpMOF9zUnk1WXp6REw5RzlaMHBaQVMzOS1FRXlUOVFtdXB3b1NrU3VjVThNZklPWms2MzkzTDN5MUdCR002QVdzTldrdGJUS2tjYlNHbGJqQ2dJWkV4b3ZzMGpXSnZtUQ?oc=5",
+          "title": "Peru prepares to concession Talara oil refinery to private operators in 2027 restructuring - https://streamlinefeed.co.ke/",
+          "publisher": "https://streamlinefeed.co.ke/",
+          "publisher_url": "https://streamlinefeed.co.ke",
+          "domain": "streamlinefeed.co.ke",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-28T06:24:00Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "energy"
+          ],
+          "topic": [
+            "Energie & grondstoffen"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-28",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "https://streamlinefeed.co.ke/"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Energie & grondstoffen"
+      ],
+      "key": "e74740588e7ee0",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "UK Tightens Middle East Travel Advice Amid Escalation Risk - https://www.thetraveler.org/",
       "articles": [
         {
@@ -6193,6 +6372,46 @@
         "Energie & grondstoffen"
       ],
       "key": "b3fa69f03851a1",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "النفط يقفز 1.5% مع استهداف منشآت سعودية ومخاوف تعطل الإمدادات - بوابة المصرف",
+      "articles": [
+        {
+          "key": "633177dbfccaeae1cbcfce56",
+          "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPQlRxTDVaMFV4cDRIZ3VCak5TUGJLZUx6aUtLR3pCQ3VHUG9LaGNXV2NjNElvYUI1TDBldkxVcUxmMWVmVzdIV1RSdVpFRUVfOHZkTG1ua2VNb1Z1eEdHS2pEemlZOXNHT29CT1pEdkE1VEtfWmFpVkhwS0FpaURfMHRTdkRrd2x3SDNURTdpeUw2V3RfY2MyQml1a25kNzdNRmRJQ1dKVko1TGFqQ1BxZ01MbHZQTWlHUnFtTTR6c2N0NmVCUl9udHBFdWlFRWU3UUl1dmczdTNrRHFvNTJ4SXNDRDJZbHhrX0l1ZElTam1BdTB6ckplY3NidUYwbWpRYTRMZGIxS3RIam90ZDlWSThrY1Fqa2FUNzlhSXlRREJLektVbHg3QTRmbXAzMzhGendIM3Zmd01La3VCV3p2WlF3NXBJdw?oc=5",
+          "title": "النفط يقفز 1.5% مع استهداف منشآت سعودية ومخاوف تعطل الإمدادات - بوابة المصرف",
+          "publisher": "بوابة المصرف",
+          "publisher_url": "https://www.almasraf.news",
+          "domain": "www.almasraf.news",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-28T05:12:19Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-28",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "بوابة المصرف"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "da6eaea5d2d9fb",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -7240,6 +7459,46 @@
       "review_order": 20
     },
     {
+      "title": "آمال التهدئة تدفع النفط دون 102 دولار... الأدنى في أكثر من أسبوع - الشرق الأوسط",
+      "articles": [
+        {
+          "key": "9ac90c77cc29449a98ce0a8b",
+          "url": "https://news.google.com/rss/articles/CBMijARBVV95cUxOYmNUQUE2amhHSU5nLWIwXzMxb1JkM3pIZUxiUmdobktlQ18zeHBneWk3bGZabkt1dEVZN1ZWQzdsYVlZdkpwQ05tdVdoQ1locnh4Q0w3NFNJWm1uenh1ckNtdlM1cHFobV82VUFGX2tGNmZVbHl3NzdmOVJ6QnRLc2JGVTZKU1FyX21JcjFtNUJuWTR1MlNaeTU2M0JVVklvWUpYMU05SldTNVp2b3B2NVoxMEN0Yy1KNjFMNHRWTmdWb1IwVWNsWGJsa3NzWTlfR3FHM0FOaDVPejk1ZktsUElaMHh4Y0g3VDlUd0lkZkRmQkhnc3VqX2VMUEs3bGU4dDdfR0sxeG40NWp6NjB6T0NFU2x0LVVxMHpVR3pNT3VBUzFJWHY2dW8yaWV3YkkwN0taenhnbmlvdER6UU5JQU42elhxXzk5YktGUFI3RHFxMjIwd2ZmWVY4cWxiaTQ2QjRpbmNtSjF5R3JGVlIxdml6YkVYQTNLV3N5WXZ0RmFuZXY0TWlHdzJKNkpkZnZuVlBSOGNwWWNoZHJsQmV2X3Bsa2xmSVpPaTRqejlxeXlHMTNNNTBvSWQtTExlNE9ubGtVWHBCY2R6ZXdnZVAxaDdyTU4xTG5TM0twLUw3emc1QkhxOG0ydmR4R1NnOUVob3pGNlk5Z0x1Rkk2RXVfUVdtNTB3NG15R3R6LQ?oc=5",
+          "title": "آمال التهدئة تدفع النفط دون 102 دولار... الأدنى في أكثر من أسبوع - الشرق الأوسط",
+          "publisher": "الشرق الأوسط",
+          "publisher_url": "https://aawsat.com",
+          "domain": "aawsat.com",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-27T16:23:57Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "الشرق الأوسط"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "02b7a5bffaee46",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "Crude Oil Prices Fall Back As Iran’s Supreme Leader Reiterates Deal Terms - TradingView",
       "articles": [
         {
@@ -7976,6 +8235,46 @@
         "Politiek & diplomatie"
       ],
       "key": "bcd44bd63440f5",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "إيران تهدد جميع سفن \"سينوكور\" بإجراءات قانونية بدءاً من نوفمبر - الشرق بلومبرغ",
+      "articles": [
+        {
+          "key": "c41f25dc3e9d524b696638e4",
+          "url": "https://news.google.com/rss/articles/CBMi_AJBVV95cUxPemtEWWp5Nmo5UVhnSVY5Z2tvT3hmcjAtOEFSOE5xWkpSY0g0X2VxdThTS0FBY0U2S2hiZG1zd3BhdjY0SWhPS2tpbE9yTlRFbWJRMmZ5cHlDaDZiN0ZkU3ktWG0zUmw1NjJaUlgtU3JuY3lFMHhYc0ZyNGIwbndKbDNoU0t5czY3dXFWYlkzSlFxbk95QXUyREZaTVU4WHNRUWhWMDZpYV93bW1JQWZPdjhhamlwcDhzNGY2ZTdaQmhhczVFQkk5NEd1OWRya19ZMWVLZXpJTWMzNkpoelBhSTBfMlFHZWdaVDFqU29GaERuYTZRWXpPRml6RV9PWUd3UnFmTW1jalFETlcycDhPQmFaZmdSNUljcUZONGVxTFFrWjFaT1BtUldIdkJUX2o2eGtab3RTcVRlZFdwejZZSnY0MGNBb2VyOG9xRGI0Rmw5ejhfeDlMQzhtdU9GVDFMOTJueWVGNEU4WmdiN1hDdVV5SUhOV253TmtqSA?oc=5",
+          "title": "إيران تهدد جميع سفن \"سينوكور\" بإجراءات قانونية بدءاً من نوفمبر - الشرق بلومبرغ",
+          "publisher": "الشرق بلومبرغ",
+          "publisher_url": "https://asharqbusiness.com",
+          "domain": "asharqbusiness.com",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-27T11:35:55Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "الشرق بلومبرغ"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "4594b78c82d496",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -18435,246 +18734,6 @@
       "review_order": 20
     },
     {
-      "title": "Obama supports Muslim candidate ; calls Iran war Trump biggest failure",
-      "articles": [
-        {
-          "key": "bcaeecb0855e5534fc7ec854",
-          "url": "https://dailythepatriot.com/obama-supports-muslim-candidate-calls-iran-war-trumps-biggest-failure/",
-          "title": "Obama supports Muslim candidate ; calls Iran war Trump biggest failure",
-          "publisher": "dailythepatriot.com",
-          "publisher_url": "",
-          "domain": "dailythepatriot.com",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-25T18:00:00Z",
-          "language": "English",
-          "sourcecountry": "Pakistan",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-25",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "dailythepatriot.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "e3e9e6a1392536",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "قناة النيل للأخبار | قائد  سنتكوم  يزور مضيق هرمز : ساعدنا فى تصدير 1 . 5 مليار برميل من النفط",
-      "articles": [
-        {
-          "key": "086f67f467ac05c3b6f985fd",
-          "url": "https://www.nile.eg/%D9%82%D8%A7%D8%A6%D8%AF-%D8%B3%D9%86%D8%AA%D9%83%D9%88%D9%85-%D9%8A%D8%B2%D9%88%D8%B1-%D9%85%D8%B6%D9%8A%D9%82-%D9%87%D8%B1%D9%85%D8%B2-%D8%B3%D8%A7%D8%B9%D8%AF%D9%86%D8%A7-%D9%81%D9%89-%D8%AA",
-          "title": "قناة النيل للأخبار | قائد  سنتكوم  يزور مضيق هرمز : ساعدنا فى تصدير 1 . 5 مليار برميل من النفط",
-          "publisher": "nile.eg",
-          "publisher_url": "",
-          "domain": "nile.eg",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-25T18:00:00Z",
-          "language": "Arabic",
-          "sourcecountry": "Egypt",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-25",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "nile.eg"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "58d91151c309db",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "CENTCOM Chief Brad Cooper flies over Hormuz during Middle East visit",
-      "articles": [
-        {
-          "key": "afcd500592796d5ebb620be6",
-          "url": "https://www.jpost.com/middle-east/article-912824",
-          "title": "CENTCOM Chief Brad Cooper flies over Hormuz during Middle East visit",
-          "publisher": "jpost.com",
-          "publisher_url": "",
-          "domain": "jpost.com",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-25T18:00:00Z",
-          "language": "English",
-          "sourcecountry": "Israel",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-25",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "jpost.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "412438c44c3601",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "إيران تواجه عجزا يوميا يصل إلى 250 مليون متر مكعب من الغاز مع اقتراب الشتاء",
-      "articles": [
-        {
-          "key": "e5f58660c8abdeca9b45f54f",
-          "url": "https://www.aljazeera.net/ebusiness/2026/10/25/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%AA%D9%88%D8%A7%D8%AC%D9%87-%D8%B9%D8%AC%D8%B2%D8%A7-%D9%8A%D9%88%D9%85%D9%8A%D8%A7-%D9%8A%D8%B5%D9%84-%D8%A5%D9%84%D9%89-250",
-          "title": "إيران تواجه عجزا يوميا يصل إلى 250 مليون متر مكعب من الغاز مع اقتراب الشتاء",
-          "publisher": "aljazeera.net",
-          "publisher_url": "",
-          "domain": "aljazeera.net",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-25T18:00:00Z",
-          "language": "Arabic",
-          "sourcecountry": "Israel",
-          "discovery_profiles": [
-            "gdelt-hormuz"
-          ],
-          "topic": [
-            "Brede GDELT-detectie"
-          ],
-          "provider": "gdelt_doc2",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-25",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "aljazeera.net"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Brede GDELT-detectie"
-      ],
-      "key": "c4c8f3ba3543eb",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "India’s growth faces test amid global economic turmoil - BizzBuzz",
-      "articles": [
-        {
-          "key": "b46ed51490d070a782be0a93",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQ3JkVkJrd3I4LUhVN2N1WktKOUdsTnlXUXNXd2QtRFdoSjZlNUxkNlJ5dThkeEVHYzRUOEgxLWVucXhhUjZqYTNYWDJvemF2cEFyWncySGhUZHc5d1RTVkQyYnVEVlcyaEF6X2NUbmxuenJVekZnU2kwMGdlVGNDZzFMWDhocGE0NEhrNzBDTUxUandOdzlaRl96TjV5QdIBowFBVV95cUxPd1B6TmhsVEFhVGx1MGFGalJZQk1wWHJPcmp4WUpjY0JDRWluVGRCdzBqWjZQTlhVdXV4clVJVGhjaXVYRW96VmpEeldlM3VvNzlCSFA3UE9EY19McnA2dGVGQlRoVEJna1hmc001NHNldlpfMU9ZeVBJenpPMTR6NGI0V3dYaFRvTFE3MVNmbkZWVTN4c1BUTWtNMkVLeGxSV3Uw?oc=5",
-          "title": "India’s growth faces test amid global economic turmoil - BizzBuzz",
-          "publisher": "BizzBuzz",
-          "publisher_url": "https://www.bizzbuzz.news",
-          "domain": "www.bizzbuzz.news",
-          "first_seen": "2026-10-27T00:59:31.802464Z",
-          "published_at": "2026-10-25T17:06:14Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "energy"
-          ],
-          "topic": [
-            "Energie & grondstoffen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-25",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "bizzbuzz"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Energie & grondstoffen"
-      ],
-      "key": "52363c6e01069a",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Oil Traders Double Down on Iran Deal Bet as Odds Worsen: Bousso - EnergyNow.com",
-      "articles": [
-        {
-          "key": "720fcf7932aa3f9211c85a1d",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQajVpLXlaRFBsU2lRRXhDbkZZbndWZDVKYURVY1VwVHhxUEhnNUZvYWtIMkdyU3h0T0E5dmk2c2w0aXJPRGNVeGVVQmk4NGMxS1NEbVpqTHB0S3l4WEdRVk0yR09vek1WczVrbG5ZU3Nqdk1pR2ZPREU1aE5YekFDY204Q2ROQ2lJZjI0Z2wxVURWNTZwanpmMQ?oc=5",
-          "title": "Oil Traders Double Down on Iran Deal Bet as Odds Worsen: Bousso - EnergyNow.com",
-          "publisher": "EnergyNow.com",
-          "publisher_url": "https://energynow.com",
-          "domain": "energynow.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-25T16:50:53Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "energy"
-          ],
-          "topic": [
-            "Energie & grondstoffen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-25",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "energynow.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Energie & grondstoffen"
-      ],
-      "key": "615e2f0bf22d49",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
       "title": "Mercuria Seeks to Invalidate Baltic VLCC Rates as London Trial Threatens Freight Derivatives - Breakbulk.News",
       "articles": [
         {
@@ -18955,6 +19014,46 @@
       "key": "a8dbcc5f29a957",
       "review_status": "unverified_story_candidate",
       "review_order": 1
+    },
+    {
+      "title": "Canelo’s Riyadh Bout Proceeds Despite New U.S. Warning - https://www.thetraveler.org/",
+      "articles": [
+        {
+          "key": "37aa2767d23285845b19a109",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWGtsVm5SeERkZDVjMG5iVm5XZlI4QTVRZEFEdEt0aTRjR25jXzJ1N2Rhc0tORVBIN25XSFpKblRiT0dHWGducnRydnV5RXVPY1NsZW9hbEVaX1FVeHVGTW5aZXgzN3o2RE92clZmYmlwYUlGRExLcW15d2FKNVNPYnUxcTVVMkxq?oc=5",
+          "title": "Canelo’s Riyadh Bout Proceeds Despite New U.S. Warning - https://www.thetraveler.org/",
+          "publisher": "https://www.thetraveler.org/",
+          "publisher_url": "https://www.thetraveler.org",
+          "domain": "www.thetraveler.org",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-27T20:24:01Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "government"
+          ],
+          "topic": [
+            "Overheden & crisismaatregelen"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-27",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Entertainment / zijdelings relevant; redactionele controle",
+      "publishers": [
+        "thetraveler.org"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Overheden & crisismaatregelen"
+      ],
+      "key": "b25284a36fa7ec",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
     },
     {
       "title": "Deadly security risks spur new advisories in 13 nations - https://www.thetraveler.org/",
@@ -20038,6 +20137,26 @@
           ],
           "provider": "google_news_rss",
           "review_status": "unverified"
+        },
+        {
+          "key": "13897ee70dae918b177dc08b",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcVdZb0NLNzhRNzBUemhsb3NYS1NxdDlmeDFkLUpQaDhoa1ZXcF8xcDBRdXFJYm5RZ1NmNHJmb0Q3VjdRd3ZFUkdJOEt5cl9wclkyTEN3NG9rY3dHbWlFQjJUQ05ibGxMb2NXcnB4LTM0Q0VUaTl5R05lSUJfbGlsN1B3QkdCdU5nb01ncUVEMEJpcjdKMjVadUVxc1cybXM3Q3pwaldUZU4wcGtIdldVd3dldGpDU1FWZUhMZkRwNGNqUWVyZ2dWREJmai1obmxpY2Fyc1Y4TU83RmZTbDhPM3pNaTc?oc=5",
+          "title": "风向松动，中东四国座谈形成积极进展，油价走低 - 新浪财经",
+          "publisher": "新浪财经",
+          "publisher_url": "https://finance.sina.com.cn",
+          "domain": "finance.sina.com.cn",
+          "first_seen": "2026-10-28T08:49:37.433120Z",
+          "published_at": "2026-10-26T22:36:00Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
         }
       ],
       "day": "2026-10-26",
@@ -20047,7 +20166,7 @@
       "publishers": [
         "新浪财经"
       ],
-      "article_count": 3,
+      "article_count": 4,
       "source_count": 1,
       "categories": [
         "Regionaal: China / Chinees"
@@ -22494,86 +22613,6 @@
         "Brede GDELT-detectie"
       ],
       "key": "f18bd838b75b82",
-      "review_status": "unverified_story_candidate",
-      "review_order": 0
-    },
-    {
-      "title": "中期选举集会，奥巴马特朗普针锋相对 - 纽约时报中文网",
-      "articles": [
-        {
-          "key": "50c7290331a9a5f39662fa79",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNGt5TTVPbmRfRFFYRnlVOTVjcjI4V1VhYkJaVFVVM29jZnRHbXUyWEo0MlZCRTNFMGRnM0wwZWJ4SW9idVU0dkIydzlVa3B0MkJqSTNzcDFkZjk3c2liUlJPY1Jfc09kUmVuUlR2SGJGbmYyTnlNQTlmZC1EMWNwTA?oc=5",
-          "title": "中期选举集会，奥巴马特朗普针锋相对 - 纽约时报中文网",
-          "publisher": "纽约时报中文网",
-          "publisher_url": "https://cn.nytimes.com",
-          "domain": "cn.nytimes.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-25T17:26:41Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-25",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Geen duidelijk criseslement in de kop",
-      "publishers": [
-        "纽约时报中文网"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "ede4d356ffa395",
-      "review_status": "unverified_story_candidate",
-      "review_order": 0
-    },
-    {
-      "title": "MR. TITO: What If TKO's WWE Crown Jewel 2026 Gets Attacked in Saudi Arabia on November 7th? - NoDQ.com",
-      "articles": [
-        {
-          "key": "acc9688a7445ce04d619dff5",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMVA3cWF3dkp3TU9kU0lmV2sweVRCSGhwWVlXcGtwS25WMldiTzMwYzVrU195bkdXTDRjRVZGMS1KQkVoUEJFdWlfSkdKYmVPUHRPU2VGdE13b202dlB6ZGJEck1RM3Z1UHJ5SDlIOWhFMjNSUTRqa09ReU5MMzNsN0xnMUhPdG9UbGRmX0l3aUE0eDczWVQ4S2JBOW94UzNCcy1kNDhmT1paQ2hWd0ZvWEdIN1Q?oc=5",
-          "title": "MR. TITO: What If TKO's WWE Crown Jewel 2026 Gets Attacked in Saudi Arabia on November 7th? - NoDQ.com",
-          "publisher": "NoDQ.com",
-          "publisher_url": "https://nodq.com",
-          "domain": "nodq.com",
-          "first_seen": "2026-10-26T23:15:42.424765Z",
-          "published_at": "2026-10-25T17:12:47Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "government"
-          ],
-          "topic": [
-            "Overheden & crisismaatregelen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-25",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Entertainment / zijdelings relevant; redactionele controle",
-      "publishers": [
-        "nodq.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Overheden & crisismaatregelen"
-      ],
-      "key": "9ddcb048da3dcd",
       "review_status": "unverified_story_candidate",
       "review_order": 0
     }
