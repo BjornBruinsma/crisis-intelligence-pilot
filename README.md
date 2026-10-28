@@ -1,4 +1,4 @@
-# CRISIS Intelligence — onderzoeks-pilot 0.4
+# CRISIS Intelligence — onderzoeks-pilot 0.5
 
 Automatische **nieuwsdetectie**, nog **geen geverifieerde gebeurtenisregistratie of oorlogskansvoorspeller**.
 
@@ -75,3 +75,18 @@ Pas daarna gaan we indicatoren en de drie meters voeden.
 Techniek: momenteel `gpt-4o-mini` via Chat Completions (JSON), met maximaal 25 actuele kandidaten per zes uur, 5 per aanvraag, maximaal **6 API-aanvragen per workflow-run** en **24 aanvragen per UTC-dag**, met caching van eerder beoordeelde kandidaat-ID's. Mislukte API-aanroepen worden als fout getoond, niet stilzwijgend als een correcte beoordeling. Kosten hangen af van het daadwerkelijke tokenverbruik en providerprijzen.
 
 **Belangrijke beperking:** het model leest in deze fase krantenkoppen en metadata, geen volledige artikelen of officiële primaire documenten. De AI beoordeelt prioriteit en aannemelijkheid van een *nieuwsclaim*, niet de waarheid van die claim. Meertalige gebeurtenisclustering, volwaardige factchecking en historische voorspellingskalibratie zijn latere uitbreidingen.
+
+## Pilot 0.5: gebeurtenisclustering en officiële bronvergelijking
+
+De automatische GitHub-workflow doet na de AI-nieuwsselectie nu het volgende:
+
+1. `scripts/primary_sources.py` probeert rechtstreeks officiële publicaties op te halen van US CENTCOM, de Britse FCDO (Iran en Saudi-Arabië) en de Amerikaanse Department of State Travel Advisory RSS-feed. Mislukte of lege bronnen worden als fout/geen data vermeld.
+2. `scripts/event_cluster.py` vergelijkt maximaal 25 nieuwsclaims en groepeert ook meertalige publicaties die aantoonbaar hetzelfde voorval lijken te beschrijven. Bij twijfel blijven claims afzonderlijk. Eén kop kan meerdere gebeurtenissen noemen; volledige opsplitsing van samengestelde artikelen ontbreekt nog.
+3. De tweede AI-pass vergelijkt de voorlopige groepen met opgehaalde officiële tekstfragmenten. Een match wordt pas bewaard als de geciteerde woorden *letterlijk aanwezig* zijn in het officiële brondocument.
+4. Publicatie: [AI Event Intelligence](https://bjornbruinsma.github.io/crisis-intelligence-pilot/events.html) met herleidbare nieuwslinks en — waar aangetroffen — officiële publicaties; plus JSON-bestanden `site/data/event_candidates.json` en `site/data/primary_sources.json`.
+
+**Niet claimen:** een overeenkomende officiële passage maakt het voorval niet objectief bewezen; het toont wat die instelling schrijft. Automatische semantische vergelijking blijft feilbaar. Onbevestigde groepen krijgen de status `no_matching_primary_evidence`. Ook een directe match krijgt `potential_primary_text_match_needs_review`, niet `verified`. Er zijn géén automatische kansvoorspellingen of scorewijzigingen.
+
+Beveiliging/kosten: het openbare repository bevat nooit de API-sleutel. Het clustermodel draait op `gpt-4o-mini`. Er zijn maximaal **2 AI-aanroepen per workflowrun en 8 per UTC-dag**, met cache voor dezelfde input. Samen met de bestaande AI-redactie en het aparte OWOP-project kan extra API-gebruik plaatsvinden; bewaak het totale API-creditsaldo afzonderlijk.
+
+De officiële brondekking is beperkt en niet representatief voor alle landen en actoren. In het bijzonder betekent geen match niet dat een voorval niet is gebeurd. Meerdere koppen zijn geen onafhankelijke bevestigingen. Volwaardige verificatie vereist het lezen van specifieke officiële primaire stukken, chronologie en tegenbewijs.
