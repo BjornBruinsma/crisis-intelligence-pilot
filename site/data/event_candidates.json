@@ -1,10 +1,10 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-10-28T10:35:32.977459Z",
-  "fingerprint": "96bfa63896a93d88fc60c7c3",
+  "last_attempt_utc": "2026-10-28T10:43:39.334341Z",
+  "fingerprint": "916b2a61a75d5fdfa655260a",
   "status": "partial",
   "errors": [
-    "ValueError: Missing ID(s) from group assignment"
+    "ValueError: Unexpected or repeated ID"
   ],
   "model": "gpt-4o-mini",
   "input_candidate_count": 24,
@@ -65,6 +65,32 @@
       "probability_estimate": null
     },
     {
+      "id": "67160ec273191fe922f28e41",
+      "label_nl": "Claim: Day 243 | Regional tensions escalate as Saudi Arabia intercepts missiles, Iran warns US - Roya News",
+      "headline_claim_ids": [
+        "042e46d48bd2ae"
+      ],
+      "headline_claims": [
+        "Day 243 | Regional tensions escalate as Saudi Arabia intercepts missiles, Iran warns US - Roya News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBIYWxwRXZsbHBQbU9rcDZBRjh6SGNXOGhyRF9uZ043OF9TaUJlYWxLYU03UWFfTVBGM2pueWZUR21UNU5ETFVBbw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "40d0ce2f0cee33fb30bf4bb7",
       "label_nl": "Claim: U.S. Evacuates Mideast Outposts After Suspected Iranian Plot to Target Americans - WSJ",
       "headline_claim_ids": [
@@ -101,32 +127,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "e0d9afdae4bcc5a75d171fe3",
-      "label_nl": "Claim: Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - Aaj English TV",
-      "headline_claim_ids": [
-        "f49031ab5c7aa1"
-      ],
-      "headline_claims": [
-        "Yemen's Houthis say they hit Saudi Ras Tanura oil refinery with missile - Aaj English TV"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwWk1JTURXcV9oX01ObUowVGZhOHlMeTRTdndxQ3JZUFBFSk5lVGRaQ3R4QkRoMGxWeXRxTmpHbHdYRlBOdy0xb3A1SUVnMnR1ajIw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -205,32 +205,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYno4ZG1kRXdsN1E5STFFZHFnZHZENl9helRxQ2JzT0F1dlQyYks1cTRsM1RwM29PaGF3WlJ6VDd3cm5WcWlmQldKMlpKdlNHR2RLMG9CYXBLdEFQRzA4YmRQUWVUTVluMEhLSVpyU09id3VYeGp3Ni1qMlVGY20zdjZkQnRKN3dzcFRGMkRIRGw4YjI0clUwaFNfMXFRQU9EUk1DSVljZ0VtcFFCYW9mR2ZmQXBkeldBYTU1RUxVREFPRDNLNHlmRFVn?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "56d57a27e17e9bfe472eeba7",
-      "label_nl": "Claim: Middle East latest: Saudi Arabia intercepts Houthi missiles fired at Riyadh - The National",
-      "headline_claim_ids": [
-        "e50f908e22b3e2"
-      ],
-      "headline_claims": [
-        "Middle East latest: Saudi Arabia intercepts Houthi missiles fired at Riyadh - The National"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmN6SzJtQ0JYM2gwc3RFSmQ5V3lFTFVfbk04VEdnUXJDcVRZTE90aDVfSUhvVzFUOExCT0FNd2h5MFFjMlltY3dwd2JUc3ZtM1R6RXRXdldlMUZBSnZrR1pteE4yeGd2Vi1saWwySzh3MTJFQWpsNGFNQ1NQWFRPMmtkMkE4Uko4LUZaZTdUMWFQOWFqRXhSZ0k1ZWVPcmhpc1FXZ0FaYVBxRWFuTkNydzF3?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -383,32 +357,6 @@
       "probability_estimate": null
     },
     {
-      "id": "a3da4f0a758acfd2663570a2",
-      "label_nl": "Claim: Yemen’s Houthis claim missile attack on Saudi Arabia’s Ras Tanura oil refinery - Anadolu Ajansı",
-      "headline_claim_ids": [
-        "bb36d5c966614c"
-      ],
-      "headline_claims": [
-        "Yemen’s Houthis claim missile attack on Saudi Arabia’s Ras Tanura oil refinery - Anadolu Ajansı"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWHM3MEkyOW9YM0FRZ2I2RTRPVFVldzJLc0gwSUtBWDgwMEVPbm50eGJ6bFhyUEVOMnRMS0dFcTRZOWxIREtJNEdXcFJFTEFPTEdHNFlJbXZsdUI5TWh3cjRQRjQ1elhremxfY3FndGttR2xoOGsxNlBLZzJjRHV1UTZsM2xRU0FOczdXTVlGQTZPeW5HWmN5ZHNPRU5VT2ZUMVB2RHlNRmFBbXNWc01sbDlqTnJlZXhwWklVaVhvRmI?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "e979c1b95b1533692a64d99a",
       "label_nl": "Claim: Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/",
       "headline_claim_ids": [
@@ -498,6 +446,32 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWVY5bG1JQUt0Z0p4c3N6TThHeGZ0d0FJZER2YVFWM2lmRkQ0Z3AycTBtWUdHeWU3TC02SWlzOGN4em1fSC1xLXVua0htM1doUXg4NmRWTndIQmtlaUlNcWFIalNzQmNCejJLajFqdzNLUHhsbzlNeXloTjFJb0tDVXBzWkFpMFJza3M4Si00ZUJfb2tlRW9PSHQzR0IzM3JmQl9SSk9HMFc1bXVNeEVZLVFtTHZsNWl30gG-AUFVX3lxTFBYVzBLSzNaV3l5UEh2NjRiaFdsVTdsakloSjVDTFpEWXRTZFl6V0RNcnR6UkI1T1paVGtvV09YTHB0bHpSR0dSNVNFWjV3eG9wekhxMmxhS1ZsLWVEQzBFTldBT3hWUHI4OTI2VFA2RGhtazBuUGtSbVh4Szcxd0NZR3BTTjJIY3AwZ29WYWNabW5OM3lBU1FQSUFYSE96d25WYjFSRC0tT2ZGVWlwV1Fpd3hXQkVCZUo1ZEVhWHc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "25b06f5131a0b04448a71217",
+      "label_nl": "Claim: Iran still producing missiles and drones, armed by Russia: report - Roya News",
+      "headline_claim_ids": [
+        "de4a023118c522"
+      ],
+      "headline_claims": [
+        "Iran still producing missiles and drones, armed by Russia: report - Roya News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb3Q0aXdNSFRpX1p1azBOQjJ2NEFXT05BNkdmZkdOa1N0THhWSTJIa3lOMllZcUJEVGhJdWpjMUFOY044RXh4RmdDc3dDYTBjTzdHWjRwRXctQzRUd1JxS19Hc1kxejdVcm1DR2VUVjlaYkNrVjhYUk96MWVXOTZFZ3QxdGYxOHRuSDZiY1FIbUE1SnQwcXRaaS1VN0xDTHJlWlozRFpn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -618,6 +592,32 @@
       "probability_estimate": null
     },
     {
+      "id": "d6bc2005acf173e628d9e390",
+      "label_nl": "Claim: Qatar and Egypt Press Iran Diplomacy as Houthis Claim Saudi Strikes - Kurdistan24",
+      "headline_claim_ids": [
+        "fcc8353bec21fa"
+      ],
+      "headline_claims": [
+        "Qatar and Egypt Press Iran Diplomacy as Houthis Claim Saudi Strikes - Kurdistan24"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DcDVXUjRKSzhBckRHZE5kRkdJZEdLcWpmdzJ3YjBlVDcxQVVpYnR0emc1OEk2YUN3bkt3TVd6UGRUeHhQMno0U3FWUEFFNDRCWS15d3pn?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Niet semantisch gegroepeerd: AI niet beschikbaar.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "a162ea12310a677c40d2ca29",
       "label_nl": "Claim: الفلبين تجري محادثات مع السعودية لتخزين النفط على أراضيها - الشرق الأوسط",
       "headline_claim_ids": [
@@ -646,8 +646,8 @@
   ],
   "usage_by_day": {
     "2026-10-28": {
-      "requests": 2,
-      "total_tokens": 8967
+      "requests": 3,
+      "total_tokens": 13349
     }
   }
 }

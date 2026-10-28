@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-28T10:35:31.820500Z",
+  "last_attempt_utc": "2026-10-28T10:43:36.548554Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -487,6 +487,54 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-28T10:35:30.820273Z"
+    },
+    "042e46d48bd2ae": {
+      "id": "042e46d48bd2ae",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat de regionale spanningen toenemen doordat Saoedi-Arabië raketten onderschept en Iran de VS waarschuwt.",
+      "claimed_event_nl": "Saoedi-Arabië onderschept raketten en Iran waarschuwt de VS.",
+      "reason_nl": "Deze informatie is relevant vanwege de mogelijke gevolgen voor de regionale stabiliteit en veiligheid.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T10:43:35.548319Z"
+    },
+    "de4a023118c522": {
+      "id": "de4a023118c522",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Iran nog steeds raketten en drones produceert, met steun van Rusland.",
+      "claimed_event_nl": "Iran produceert nog steeds raketten en drones, gewapend door Rusland.",
+      "reason_nl": "Dit is relevant omdat het de militaire capaciteiten van Iran en de regionale veiligheidsdynamiek beïnvloedt.",
+      "limitations_nl": "De informatie komt uit een enkele bron zonder onafhankelijke verificatie.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T10:43:35.548341Z"
+    },
+    "fcc8353bec21fa": {
+      "id": "fcc8353bec21fa",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Qatar en Egypte druk uitoefenen op Iran voor diplomatie, terwijl de Houthi's Saoedische aanvallen beweren.",
+      "claimed_event_nl": "Qatar en Egypte drukken Iran voor diplomatie terwijl Houthi's Saoedische aanvallen claimen.",
+      "reason_nl": "Dit is relevant omdat het de diplomatieke inspanningen en de spanningen in de regio weerspiegelt.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron en bevat mogelijk ongeverifieerde informatie.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-28T10:43:35.548348Z"
     }
   },
   "usage_by_day": {
@@ -495,8 +543,8 @@
       "total_tokens": 0
     },
     "2026-10-28": {
-      "requests": 9,
-      "total_tokens": 10352
+      "requests": 10,
+      "total_tokens": 11504
     }
   }
 }
