@@ -54,7 +54,7 @@ jobs:
         continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OWOP_MODEL: gpt-6-luna
+          OWOP_MODEL: gpt-4o-mini
         run: python scripts/owop_editorial.py
       - name: Build OWOP pilot feed
         if: steps.owop_editorial.outcome == 'success'
