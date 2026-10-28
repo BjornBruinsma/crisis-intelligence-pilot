@@ -1,75 +1,75 @@
 {
-  "last_attempt_utc": "2026-10-28T14:32:31.592203Z",
+  "last_attempt_utc": "2026-10-28T20:21:59.751390Z",
   "profiles": {
     "nature-en": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 100,
+      "new": 82
     },
     "health-en": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 58,
+      "new": 18
     },
     "science-en": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 30,
+      "new": 8
     },
     "people-en": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 100,
+      "new": 83
     },
     "progress-en": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 22,
+      "new": 9
     },
     "energy-en": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 29,
+      "new": 12
     },
     "spanish": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 100,
+      "new": 80
     },
     "portuguese": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 100,
+      "new": 92
     },
     "french": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 100,
+      "new": 56
     },
     "indonesia": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 100,
+      "new": 47
     },
     "russian": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 100,
+      "new": 57
     },
     "arabic": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 100,
+      "new": 71
     },
     "china": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable"
+      "status": "ok",
+      "articles": 100,
+      "new": 50
     }
   },
   "errors": {
-    "rss:nature-en": "HTTP 503 Service Unavailable",
-    "rss:health-en": "HTTP 503 Service Unavailable",
-    "rss:science-en": "HTTP 503 Service Unavailable",
-    "rss:people-en": "HTTP 503 Service Unavailable",
-    "rss:progress-en": "HTTP 503 Service Unavailable",
-    "rss:energy-en": "HTTP 503 Service Unavailable",
-    "rss:spanish": "HTTP 503 Service Unavailable",
-    "rss:portuguese": "HTTP 503 Service Unavailable",
-    "rss:french": "HTTP 503 Service Unavailable",
-    "rss:indonesia": "HTTP 503 Service Unavailable",
-    "rss:russian": "HTTP 503 Service Unavailable",
-    "rss:arabic": "HTTP 503 Service Unavailable",
-    "rss:china": "HTTP 503 Service Unavailable",
     "gdelt-positive-radar": "HTTP 429 Too Many Requests"
   },
-  "new_urls": 0,
-  "retained_urls": 4231
+  "new_urls": 665,
+  "retained_urls": 4896
 }
