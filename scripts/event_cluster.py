@@ -313,6 +313,28 @@ def validate_merge_pairs(parsed, claims):
     }
     return result,metrics
 
+def reconstruct_cached_groups(claims, successful):
+    """Reuse only complete earlier AI groups whose member IDs all still exist.
+
+    Unseen/new/partial groups become singletons. Never use a stale article as
+    current evidence, and never declare the cached result as AI-complete.
+    """
+    current={c["id"] for c in claims}
+    seen=set()
+    groups=[]
+    for old in (successful or {}).get("groups") or []:
+        members=old.get("ids") or []
+        if (not isinstance(members,list) or not members or
+            len(set(members))!=len(members) or
+            any(x not in current or x in seen for x in members)):
+            continue
+        groups.append(dict(old))
+        seen.update(members)
+    for item in claims:
+        if item["id"] not in seen:
+            groups.extend(fallback_groups([item]))
+    return groups
+
 def fallback_groups(claims):
     return [{
         "ids":[x["id"]],"label_nl":"Claim: "+x["headline"][:220],
@@ -524,7 +546,12 @@ def main():
                       "independent_auditor_ran":False}
     clustering_method="singleton_fallback"
     matches={}
+    prior_successful=old.get("last_successful_grouping")
     status="awaiting_api_key" if not api else "daily_limit" if calls+MAX_API_CALLS_PER_RUN>MAX_API_CALLS_PER_DAY else "partial"
+    if prior_successful and status in ("daily_limit","awaiting_api_key"):
+        grouping=reconstruct_cached_groups(claims,prior_successful)
+        clustering_method="previous_valid_grouping_cached"
+        status=status+"_cached"
     if api and claims and calls+MAX_API_CALLS_PER_RUN<=MAX_API_CALLS_PER_DAY:
         payload={"claims":[{"id":c["id"],"headline":c["headline"],
                             "summary_nl":c["summary_nl"],
@@ -575,6 +602,12 @@ def main():
            (dt.datetime.now(dt.timezone.utc).date()-dt.timedelta(days=2)).isoformat()}
     usage[today]={"requests":calls,"total_tokens":tokens_used}
     events=build_events(grouping,claims,matches)
+    # Persist only a successful model partition; do not replace it with
+    # temporary singleton fallbacks when the daily request cap is reached.
+    last_successful=prior_successful
+    if status=="complete" and clustering_method=="ai_pairwise_double_review":
+        last_successful={"recorded_at":timestamp,
+                         "groups":grouping,"input_claim_ids":[c["id"] for c in claims]}
     saved={"description":"Unverified AI-grouped headline claims and exact official-source text matches",
            "last_attempt_utc":timestamp,"fingerprint":fingerprint,
            "status":status,"errors":errors,
@@ -583,6 +616,7 @@ def main():
            "event_candidate_count":len(events),
            "clustering_method":clustering_method,
            "clustering_metrics":grouping_metrics,
+           "last_successful_grouping":last_successful,
            "official_sources_available":len([x for x in official.get("sources",[])
                                                if x.get("status")=="ok"]),
            "direct_official_match_count":len([x for x in matches.values()
