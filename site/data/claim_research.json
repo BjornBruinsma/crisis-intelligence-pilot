@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-10-29T07:09:52.938990Z",
+  "last_attempt_utc": "2026-10-29T13:10:21.677776Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 23,
-  "active_checked": 3,
+  "active_total": 24,
+  "active_checked": 6,
   "direct_matches": 0,
   "contradictions": 1,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -598,6 +598,131 @@
           "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
         }
       ]
+    },
+    "d88aad9f7ecf933926aa5318": {
+      "event_id": "d88aad9f7ecf933926aa5318",
+      "checked_at": "2026-10-29T13:10:21.677717Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/turkey",
+          "original_document_title": "Turkey travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-29T13:10:11.143957Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intenties van Iran, maar ondersteunt niet de claim dat de Amerikaanse militaire acties de mijnaanvallen van Iran verwerpen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De documenten bevatten geen directe ontkenning van de claim, maar vermelden wel de intenties van Iran om Amerikaanse locaties te targeten.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 5,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes",
+          "title": "Iran: country policy and information notes - GOV.UKGOV.UK",
+          "source_publication_date": "2026-10-21T13:43:42Z",
+          "text_excerpt": "Refugee, asylum and human rights claims"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/turkey",
+          "title": "Turkey travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
+    },
+    "2675daa85ab025d6b99c9208": {
+      "event_id": "2675daa85ab025d6b99c9208",
+      "checked_at": "2026-10-29T13:10:21.677741Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De documenten bieden geen relevante informatie die de claim over de voorspelling van de World Bank ondersteunt of weerlegt.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 5,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/guidance/aid-funded-business",
+          "title": "Aid funded business - GOV.UKGOV.UK",
+          "source_publication_date": "2026-01-30T16:21:22Z",
+          "text_excerpt": "Update of contact details for World Bank Group, IADB, USAID and MCC."
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/overseas-business-risk-angola",
+          "title": "Overseas business risk for Angola - GOV.UKGOV.UK",
+          "source_publication_date": "2023-07-26T06:56:21Z",
+          "text_excerpt": "Help and services around the world"
+        }
+      ]
+    },
+    "414876be2594b14d96f1f729": {
+      "event_id": "414876be2594b14d96f1f729",
+      "checked_at": "2026-10-29T13:10:21.677747Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/government/speeches/pm-statement-to-the-house-of-commons-12-october-2026",
+          "original_document_title": "PM statement to the House of Commons: 12 October 2026 - GOV.UKGOV.UK",
+          "source_date": "2026-10-12T00:00:00+01:00",
+          "retrieved_at": "2026-10-29T13:10:15.261018Z",
+          "exact_quote": "I confirmed Britain’s decision to send air defence and a Voyager aircraft to Saudi Arabia",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar militaire steun van het VK aan Saudi-Arabië, maar ondersteunt niet de claim over Trump en Iran.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De documenten bevatten geen directe ondersteuning of ontkenning van de claim over Trump en Iran.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 1,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/government/speeches/pm-statement-to-the-house-of-commons-12-october-2026",
+          "title": "PM statement to the House of Commons: 12 October 2026 - GOV.UKGOV.UK",
+          "source_publication_date": "2026-10-12T00:00:00+01:00",
+          "text_excerpt": "In the three weeks since that meeting, Russian strikes have intensified even further, with more attacks on civilians, on apartment blocks housing innocent families, on buses carrying innocent children."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -607,9 +732,9 @@
       "model_tokens": 4865
     },
     "2026-10-29": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 3614
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 5361
     }
   },
   "last_error": null
