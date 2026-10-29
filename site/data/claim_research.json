@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-10-28T19:00:50.864405Z",
+  "last_attempt_utc": "2026-10-29T01:09:55.153945Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 24,
-  "active_checked": 6,
+  "active_checked": 5,
   "direct_matches": 0,
-  "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "contradictions": 1,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -358,6 +358,126 @@
           "text_excerpt": "In addition to the threat from Houthi attacks, the wider context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associat"
         }
       ]
+    },
+    "15e1faa3eb73b320d85329e1": {
+      "event_id": "15e1faa3eb73b320d85329e1",
+      "checked_at": "2026-10-29T01:09:55.153892Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "original_document_title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-29T01:09:45.343629Z",
+          "exact_quote": "Since July 2026, the Houthis have launched air strikes against Saudi territory and Saudi shipping vessels in the Red Sea.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt dat de Houthis luchtaanvallen hebben uitgevoerd, maar specificeert niet dat ze Aden luchthaven hebben aangevallen met ballistische raketten.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële tekst bevestigt dat de Houthis luchtaanvallen hebben uitgevoerd, maar biedt geen specifieke bevestiging van de aanval op Aden luchthaven met ballistische raketten.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "If you’re a British national in Yemen and need help from the UK government, you can call FCDO on 020 7008 5000 (24 hours)."
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/yemen-in-year-update-july-2015",
+          "title": "Yemen - in-year update July 2015 - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Yemen - in-year update July 2015"
+        }
+      ]
+    },
+    "547f744705d805a2adea6e0e": {
+      "event_id": "547f744705d805a2adea6e0e",
+      "checked_at": "2026-10-29T01:09:55.153915Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Model gaf geen bruikbare beoordeling.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
+          "title": "HMRC online services: sign in or set up an account: Sign in or set up an account - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        },
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        }
+      ]
+    },
+    "c9953d8974285c857b10116e": {
+      "event_id": "c9953d8974285c857b10116e",
+      "checked_at": "2026-10-29T01:09:55.153922Z",
+      "version": "official-original-document-v1",
+      "research_status": "conflicting_official_statement",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "original_document_title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-29T01:09:51.045220Z",
+          "exact_quote": "The UK government cannot help British nationals leaving Yemen. There are no evacuation procedures in place.",
+          "relation": "conflicting_statement",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage stelt dat er geen evacuatieprocedures zijn, wat in tegenspraak is met de implicatie van een evacuatiewaarschuwing.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële tekst stelt dat er geen evacuatieprocedures zijn voor Britse onderdanen in Yemen, wat tegenstrijdig is met de claim van een evacuatiewaarschuwing.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The UK government cannot help British nationals leaving Yemen. There are no evacuation procedures in place."
+        },
+        {
+          "url": "https://www.gov.uk/guidance/air-strikes-against-houthi-military-targets-in-yemen",
+          "title": "Air strikes against Houthi military targets in Yemen - GOV.UKGOV.UK",
+          "source_publication_date": "2024-06-05T10:05:18Z",
+          "text_excerpt": "Joint Statement from Australia, Bahrain, Denmark, Canada, the Netherlands, New Zealand, United Kingdom, and United States on Additional Strikes Against the Houthis in Yemen: 24 February 2024"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -365,6 +485,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 4865
+    },
+    "2026-10-29": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1605
     }
   },
   "last_error": null

@@ -1,18 +1,18 @@
 {
-  "updated_at_utc": "2026-10-28T19:00:50.976582+00:00",
+  "updated_at_utc": "2026-10-29T01:09:55.261258+00:00",
   "research_status": "headlines_only_unverified",
-  "complete": false,
+  "complete": true,
   "cannot_infer_probability": true,
   "sample_size_groups": 24,
   "news_direction_groups": {
     "escalation": 11,
     "deescalation": 0,
-    "mixed": 8,
+    "mixed": 9,
     "neutral": 3,
-    "unclear": 2
+    "unclear": 1
   },
   "high_importance_groups": {
-    "escalation": 10,
+    "escalation": 9,
     "deescalation": 0,
     "mixed": 0,
     "neutral": 0,
@@ -23,9 +23,8 @@
   "specific_official_matches": 0,
   "official_sources_accessible": 13,
   "official_sources_checked": 15,
-  "clustering_status": "daily_limit",
+  "clustering_status": "complete",
   "quality_warnings": [
-    "AI-gebeurtenisverwerking niet volledig: daily_limit",
     "Geen specifieke officiële ondersteuning automatisch aangetroffen",
     "Officiële bronnen onvolledig: pakistan_mofa, iran_mfa"
   ],
