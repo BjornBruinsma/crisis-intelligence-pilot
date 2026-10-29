@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-10-29T01:09:55.153945Z",
+  "last_attempt_utc": "2026-10-29T07:09:52.938990Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 24,
-  "active_checked": 5,
+  "active_total": 23,
+  "active_checked": 3,
   "direct_matches": 0,
   "contradictions": 1,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -478,6 +478,126 @@
           "text_excerpt": "Joint Statement from Australia, Bahrain, Denmark, Canada, the Netherlands, New Zealand, United Kingdom, and United States on Additional Strikes Against the Houthis in Yemen: 24 February 2024"
         }
       ]
+    },
+    "f1cb4a5e189da2ecb5368dec": {
+      "event_id": "f1cb4a5e189da2ecb5368dec",
+      "checked_at": "2026-10-29T07:09:52.938934Z",
+      "version": "official-original-document-v1",
+      "research_status": "conflicting_official_statement",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "original_document_title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-29T07:09:42.323236Z",
+          "exact_quote": "There are no evacuation procedures in place.",
+          "relation": "conflicting_statement",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage stelt dat er geen evacuatieprocedures zijn, wat in tegenspraak is met de implicatie van evacuaties in de nieuwsclaim.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten bevestigen dat er geen evacuatieprocedures zijn in Yemen, wat de claim over evacuaties na een aanval op de luchthaven tegenspreekt. Er is wel een risico op militaire escalatie.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The UK government cannot help British nationals leaving Yemen. There are no evacuation procedures in place."
+        },
+        {
+          "url": "https://www.gov.uk/guidance/air-strikes-against-houthi-military-targets-in-yemen",
+          "title": "Air strikes against Houthi military targets in Yemen - GOV.UKGOV.UK",
+          "source_publication_date": "2024-06-05T10:05:18Z",
+          "text_excerpt": "Joint Statement from Australia, Bahrain, Denmark, Canada, the Netherlands, New Zealand, United Kingdom, and United States on Additional Strikes Against the Houthis in Yemen: 24 February 2024"
+        }
+      ]
+    },
+    "35d6c51c16124c4739863b5e": {
+      "event_id": "35d6c51c16124c4739863b5e",
+      "checked_at": "2026-10-29T07:09:52.938957Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over een mogelijke Amerikaanse aanval op Iran ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
+          "title": "HMRC online services: sign in or set up an account: Sign in or set up an account - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        },
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        }
+      ]
+    },
+    "e36ceecdbc7ce6972495e4ed": {
+      "event_id": "e36ceecdbc7ce6972495e4ed",
+      "checked_at": "2026-10-29T07:09:52.938963Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
+          "original_document_title": "Six months of uncertainty for seafarers in Strait of Hormuz",
+          "source_date": null,
+          "retrieved_at": "2026-10-29T07:09:48.475158Z",
+          "exact_quote": "the situation in the Strait of Hormuz is unresolved.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage verwijst naar de onopgeloste situatie in de Straat van Hormuz, maar ondersteunt de specifieke claim over het neerschieten van een drone niet.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten vermelden een onopgeloste situatie in de Straat van Hormuz, maar bieden geen bevestiging of ontkenning van de claim over het neerschieten van een drone.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "Adm. Brad Cooper observed the current operational environment while flying in a U.S. Army CH-47 Chinook over the international waterway. More than 3,000 commercial vessels have successfully transited the Strait of Hormuz with support from CENTCOM for"
+        },
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
+          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -487,9 +607,9 @@
       "model_tokens": 4865
     },
     "2026-10-29": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 1605
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3614
     }
   },
   "last_error": null

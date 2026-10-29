@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-29T01:09:29.231083Z",
+  "last_attempt_utc": "2026-10-29T07:09:30.465356Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -839,6 +839,134 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-29T01:09:28.230893Z"
+    },
+    "c923bb35e4ea0d": {
+      "id": "c923bb35e4ea0d",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran's leger claimt een MQ-1 drone te hebben neergeschoten nabij de Straat van Hormuz.",
+      "claimed_event_nl": "Iran's leger claimt een MQ-1 drone te hebben neergeschoten.",
+      "reason_nl": "Dit is relevant vanwege de strategische ligging van de Straat van Hormuz en de mogelijke gevolgen voor de regionale veiligheid.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-29T07:09:24.667983Z"
+    },
+    "fc9a61946c55ac": {
+      "id": "fc9a61946c55ac",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "Saudi-Arabië zou $1 miljard aanbieden aan de Houthi's voor vrede, terwijl gesprekken met Iran plaatsvinden.",
+      "claimed_event_nl": "Saudi-Arabië biedt $1 miljard aan de Houthi's voor vrede.",
+      "reason_nl": "Dit is relevant omdat het de diplomatieke inspanningen in de regio kan beïnvloeden en mogelijk de spanningen kan verlagen.",
+      "limitations_nl": "De informatie is afkomstig van niet-geverifieerde bronnen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-29T07:09:24.668006Z"
+    },
+    "74a4612f792db1": {
+      "id": "74a4612f792db1",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "deescalation",
+      "kind": "event_claim",
+      "summary_nl": "Het Amerikaanse leger wijst de claims van Iran over mijnaanvallen af en stelt dat de doorvoer in de Hormuz veilig is.",
+      "claimed_event_nl": "Het Amerikaanse leger wijst de claims van Iran over mijnaanvallen af.",
+      "reason_nl": "Dit is relevant omdat het de veiligheid van de maritieme routes in de regio beïnvloedt en kan bijdragen aan de stabiliteit.",
+      "limitations_nl": "De afwijzing is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-29T07:09:24.668012Z"
+    },
+    "7fff0fa21b2470": {
+      "id": "7fff0fa21b2470",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De Houthi's zouden een aanval hebben uitgevoerd op de luchthaven van Aden.",
+      "claimed_event_nl": "De Houthi's zouden Aden luchthaven hebben aangevallen.",
+      "reason_nl": "Dit is relevant omdat het de veiligheidssituatie in Jemen en de bredere regio kan beïnvloeden.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-29T07:09:24.668015Z"
+    },
+    "daba2f1c83fa69": {
+      "id": "daba2f1c83fa69",
+      "relevance": "unclear",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "commentary",
+      "summary_nl": "Er wordt gespeculeerd over oorlogsprep en nucleaire ambities van Iran en de crisis in Hormuz.",
+      "claimed_event_nl": "Er wordt gespeculeerd over oorlogsprep en nucleaire ambities van Iran.",
+      "reason_nl": "Dit is relevant omdat het de zorgen over de regionale stabiliteit en veiligheid weerspiegelt, maar het is speculatief van aard.",
+      "limitations_nl": "De inhoud is gebaseerd op speculatie en niet op feitelijke gebeurtenissen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-29T07:09:24.668019Z"
+    },
+    "244ce16d1d095b": {
+      "id": "244ce16d1d095b",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Trump overweegt nieuwe aanvallen na de midterms, terwijl Iran zegt niet te zullen capituleren.",
+      "claimed_event_nl": "Trump overweegt aanvallen op Iran.",
+      "reason_nl": "De situatie kan leiden tot verhoogde spanningen tussen de VS en Iran.",
+      "limitations_nl": "De claims zijn gebaseerd op speculatie en niet op bevestigde feiten.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-29T07:09:29.465138Z"
+    },
+    "3ed4dd805d05b6": {
+      "id": "3ed4dd805d05b6",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen stijgen door aanvallen van Houthi's op Saoedi-Arabië, wat diplomatieke inspanningen overschaduwt.",
+      "claimed_event_nl": "Olieprijzen stijgen door Houthi-aanvallen.",
+      "reason_nl": "De aanvallen kunnen de stabiliteit in de regio beïnvloeden en economische gevolgen hebben.",
+      "limitations_nl": "De impact op de olieprijzen is afhankelijk van verdere ontwikkelingen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-29T07:09:29.465158Z"
+    },
+    "e0f17170d60bbb": {
+      "id": "e0f17170d60bbb",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De VS zouden bondgenoten hebben geïnformeerd zich voor te bereiden op aanvallen op Iran na de midterms.",
+      "claimed_event_nl": "VS bereiden zich voor op aanvallen op Iran.",
+      "reason_nl": "Dit kan leiden tot een escalatie van het conflict in de regio.",
+      "limitations_nl": "De informatie is gebaseerd op rapporten en niet op bevestigde acties.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-29T07:09:29.465163Z"
     }
   },
   "usage_by_day": {
@@ -851,8 +979,8 @@
       "total_tokens": 16975
     },
     "2026-10-29": {
-      "requests": 2,
-      "total_tokens": 2690
+      "requests": 4,
+      "total_tokens": 5536
     }
   }
 }
