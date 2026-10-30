@@ -1,28 +1,36 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-10-29T19:02:59.660614Z",
-  "fingerprint": "962cb4d1f82c85cadef76d87",
+  "last_attempt_utc": "2026-10-30T01:12:00.725590Z",
+  "fingerprint": "a0288d88e40f5b834e68a0b5",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 25,
-  "event_candidate_count": 24,
+  "input_candidate_count": 24,
+  "event_candidate_count": 23,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 3,
+    "model_pair_proposals": 5,
     "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 2,
+    "rejected_pair_proposals": 4,
     "multi_claim_groups": 1,
     "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
-    "rule_rejected_pairs": 0,
+    "auditor_approved_pairs": 2,
+    "rule_rejected_pairs": 1,
     "unreviewed_pair_proposals": 0,
-    "veto_examples": [],
+    "veto_examples": [
+      {
+        "ids": [
+          "1487d1b431ed1d",
+          "3ed4dd805d05b6"
+        ],
+        "reason": "Tegengestelde olieprijsbewegingen"
+      }
+    ],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-10-29T19:02:59.660614Z",
+    "recorded_at": "2026-10-30T01:12:00.725590Z",
     "groups": [
       {
         "ids": [
@@ -82,17 +90,6 @@
       },
       {
         "ids": [
-          "74a4612f792db1"
-        ],
-        "label_nl": "Claim: US military rejects Iranian mine-strike claims, says Hormuz transit lanes remain 'clear' - Gulf News",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
           "fd5604746d46f6"
         ],
         "label_nl": "Claim: World Bank forecasts 23% commodity price surge as Middle East war disrupts supply - Nation Thailand",
@@ -104,9 +101,9 @@
       },
       {
         "ids": [
-          "33697ad56e08ef"
+          "3ed4dd805d05b6"
         ],
-        "label_nl": "Claim: Oil eases on Middle East diplomacy hopes, Saudi attacks keep supply worries alive - Investify",
+        "label_nl": "Claim: Oil rebounds as Houthi attacks on Saudi Arabia overshadow diplomatic efforts - Yahoo! Finance Canada",
         "actor": "",
         "action": "",
         "place": "",
@@ -115,9 +112,9 @@
       },
       {
         "ids": [
-          "0516217f6756f6"
+          "20ffce709115da"
         ],
-        "label_nl": "Claim: Saudi strike kills 12 in Yemen as Hormuz tensions escalate - www.daily-sun.com",
+        "label_nl": "Claim: Iran Threatens ‘War Without Limits’ on ‘Israel’, Unveils ‘Shocking’ Weapons as Casualties Mount - Orinoco Tribune",
         "actor": "",
         "action": "",
         "place": "",
@@ -126,9 +123,9 @@
       },
       {
         "ids": [
-          "244ce16d1d095b"
+          "67cfdf18d8ba03"
         ],
-        "label_nl": "Claim: As Trump mulls fresh strikes after midterms, Vance writes to Iran, Tehran says 'won't surrender' - inkl",
+        "label_nl": "Claim: Rare in-person briefing puts Trump’s Iran strike options in focus - inkl",
         "actor": "",
         "action": "",
         "place": "",
@@ -137,9 +134,9 @@
       },
       {
         "ids": [
-          "5e49011b722d2c"
+          "461faf97dea7ca"
         ],
-        "label_nl": "Claim: Saudi Arabia Under Fire: Houthis Target Oil Refinery, Defence Ministry as US Orders Diplomatic Evacuation - Newsmakers",
+        "label_nl": "Claim: US warns allies to prepare for possible Iran strikes, retaliation after elections, AP sources say - AsiaOne.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -170,9 +167,9 @@
       },
       {
         "ids": [
-          "dc5a8cc3ff55be"
+          "74a4612f792db1"
         ],
-        "label_nl": "Claim: “Inventories at Rock Bottom Despite Higher Oil Output”: Shipping Disruptions in Hormuz and the Red Sea Threaten Global Energy Supply Chains, Intensify Western Inflation Pressures - https://economy.ac/",
+        "label_nl": "Claim: US military rejects Iranian mine-strike claims, says Hormuz transit lanes remain 'clear' - Gulf News",
         "actor": "",
         "action": "",
         "place": "",
@@ -214,9 +211,9 @@
       },
       {
         "ids": [
-          "e8a1489d7f9f76"
+          "0516217f6756f6"
         ],
-        "label_nl": "Claim: Iranian media debate new war amid Hormuz attacks, military buildup - Iran International",
+        "label_nl": "Claim: Saudi strike kills 12 in Yemen as Hormuz tensions escalate - www.daily-sun.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -225,9 +222,9 @@
       },
       {
         "ids": [
-          "e0f17170d60bbb"
+          "244ce16d1d095b"
         ],
-        "label_nl": "Claim: Trump ready for fresh strikes on Iran? US tells allies to prepare for post-midterms attacks, says report - Firstpost",
+        "label_nl": "Claim: As Trump mulls fresh strikes after midterms, Vance writes to Iran, Tehran says 'won't surrender' - inkl",
         "actor": "",
         "action": "",
         "place": "",
@@ -236,9 +233,9 @@
       },
       {
         "ids": [
-          "4d7714757dafa8"
+          "5e49011b722d2c"
         ],
-        "label_nl": "Claim: Houthis strike Aden airport after evacuation warning, halting air traffic in southern Yemen - The Economic Times",
+        "label_nl": "Claim: Saudi Arabia Under Fire: Houthis Target Oil Refinery, Defence Ministry as US Orders Diplomatic Evacuation - Newsmakers",
         "actor": "",
         "action": "",
         "place": "",
@@ -269,9 +266,9 @@
       },
       {
         "ids": [
-          "afe103053f2bf8"
+          "dc5a8cc3ff55be"
         ],
-        "label_nl": "Claim: Oil Prices Rise as Iran Talks, Houthi Attacks and Middle East Tensions Keep Supply Fears Alive - Newstrack English",
+        "label_nl": "Claim: “Inventories at Rock Bottom Despite Higher Oil Output”: Shipping Disruptions in Hormuz and the Red Sea Threaten Global Energy Supply Chains, Intensify Western Inflation Pressures - https://economy.ac/",
         "actor": "",
         "action": "",
         "place": "",
@@ -296,25 +293,24 @@
       "0369b08f4c7641",
       "3abdf24a95a5a1",
       "b6ef394c031261",
-      "74a4612f792db1",
       "7fff0fa21b2470",
       "fd5604746d46f6",
-      "33697ad56e08ef",
-      "0516217f6756f6",
-      "244ce16d1d095b",
-      "5e49011b722d2c",
+      "3ed4dd805d05b6",
+      "20ffce709115da",
+      "67cfdf18d8ba03",
+      "461faf97dea7ca",
       "93b1476d137c26",
       "01af8ebcba76bf",
-      "dc5a8cc3ff55be",
+      "74a4612f792db1",
       "e78cc32b237f4b",
       "e4cf2bf60d2a11",
       "df670325e77b99",
-      "e8a1489d7f9f76",
-      "e0f17170d60bbb",
-      "4d7714757dafa8",
+      "0516217f6756f6",
+      "244ce16d1d095b",
+      "5e49011b722d2c",
       "f1753269f05c57",
       "1487d1b431ed1d",
-      "afe103053f2bf8",
+      "dc5a8cc3ff55be",
       "d4fe6aedc4e3e6"
     ]
   },
@@ -381,32 +377,6 @@
       "probability_estimate": null
     },
     {
-      "id": "d88aad9f7ecf933926aa5318",
-      "label_nl": "Claim: US military rejects Iranian mine-strike claims, says Hormuz transit lanes remain 'clear' - Gulf News",
-      "headline_claim_ids": [
-        "74a4612f792db1"
-      ],
-      "headline_claims": [
-        "US military rejects Iranian mine-strike claims, says Hormuz transit lanes remain 'clear' - Gulf News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczNVaVUyc1NFcnhPVFJQWXAyX1hfYnRVUnB5RmJmbDdEQXBKTmUxb0xEby1BWDJMQkIwQTJoRmRzenMxX1A3S1pVazFJNTNJbER2OExIU3lGWVJSbW5VM3Qtdm12cFBMM0xZOW02VDAydEw3dUxVTFBoS3dqM216WUprR2dXNFRoUG9STnIwcnRQMXJJeFJtQUtEZWxEbDJqelUxdkRyN1Y5ZmR3VXlVZVpFQUN0X2xZUXJFbXVaNUJfZUlBUVJFQg?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "2675daa85ab025d6b99c9208",
       "label_nl": "Claim: World Bank forecasts 23% commodity price surge as Middle East war disrupts supply - Nation Thailand",
       "headline_claim_ids": [
@@ -433,6 +403,111 @@
       "probability_estimate": null
     },
     {
+      "id": "7820212f560e538a56be548f",
+      "label_nl": "Claim: Iran Threatens ‘War Without Limits’ on ‘Israel’, Unveils ‘Shocking’ Weapons as Casualties Mount - Orinoco Tribune",
+      "headline_claim_ids": [
+        "20ffce709115da"
+      ],
+      "headline_claims": [
+        "Iran Threatens ‘War Without Limits’ on ‘Israel’, Unveils ‘Shocking’ Weapons as Casualties Mount - Orinoco Tribune"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZFVpbmdkaTg3N3B6VWNnTmNpOUFleHE5MUtVOW1rRkpLNHBjWGNyY1h2dU1CaXhVZlAyOGhnU2swTTZRQ09MTlpVYWhzeFVXN1dKbGNoRFVFYVEzZW9oY1pNZWFlR0dOYXRTaGFwT3lyNDAxcnVBSmVCeG53RldSVzNuTUhXZHRQSGVWT1lkb2JOVHVLMnZyYnV0cEI3Z1NXQWFUZHZSVVdUQnZvZDl1ZW5QWU1TX2s?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "04d5e7e35fb81919e5477a48",
+      "label_nl": "Claim: US warns allies to prepare for possible Iran strikes, retaliation after elections, AP sources say - AsiaOne.com",
+      "headline_claim_ids": [
+        "461faf97dea7ca"
+      ],
+      "headline_claims": [
+        "US warns allies to prepare for possible Iran strikes, retaliation after elections, AP sources say - AsiaOne.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcXdIaC10U1ZQWGRWbVFkRkxFcGluSlJtSXlZclFsUDhWNHFRazAyTzEtX09iemYxNmlBenBmeFpmVHN0aVhUaS1XeVd0TXpGSkJ3TFRhVWdvV1cweDNmMDgwV1ljMW5QaVRmVy05Mjhrc0ROencwdHRHNzJGYUJieTNPdVNBMnRuV04yUVFkaDBwNGdzR3VhdVVpNWlMR09POFdQdG9CRUlBR1RaYi02UE80S2JROTNFdGc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "68900d812fcf0e01bd800d49",
+      "label_nl": "Claim: Oil Markets Brace for a New Iran Escalation After U.S. Midterms - Crude Oil Prices Today | OilPrice.com",
+      "headline_claim_ids": [
+        "93b1476d137c26"
+      ],
+      "headline_claims": [
+        "Oil Markets Brace for a New Iran Escalation After U.S. Midterms - Crude Oil Prices Today | OilPrice.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUGxoVXJBT0t6S1ZEbnMtRUFNN2d4eEZLdzlzUkcxNTQwa0UyNVNQcjJyV1k3UGk0bnNLeEVOTXRDUXFpZ3lmMnlObFU5WFhkdHdyUFMtSUk3VENmampXZTdsWDlMVy04SHQxcFlvU01XRzZqemVGam5XWnczWUFiWXItUnRyVDFNSGdKYk1pTG9ENDc2V18zUmNac3haUl9wMzBCYUtsU3lMbVdK0gGsAUFVX3lxTE1QbGhVckFPS3pLVkRucy1FQU03Z3h4Rkt3OXNSRzE1NDBrRTI1U1ByMnJXWTdQaTRuc0t4RU5NdENRcWlneWYyeU5sVTlYWGR0d3JQUy1JSTdUQ2ZqaldlN2xYOUxXLThIdDFwWW9TTVdHNmp6ZUZqbldadzNZQWJZci1SdHJUMU1IZ0piTWlMb0Q0NzZXXzNSY1pzeFpSX3AzMEJhS2xTeUxtV0o?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRTVBbjA0QmEtNjNzOVYyandHSUxhbUl1TldRT1ZqX0U3X2RvUDRyZkZMNkFrbHZzQmpQMjRRclUyNk9nb2NzbDgzX2dFb2tOOWFEY2JaaU1KLTNKNUJvTjcyd3ZFUE1PWGhKSUhuZE9EdWppTXZGUkhnVGpna2hIQm4yV25ENzhYR2xGVWRoQldYdVEy?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "d88aad9f7ecf933926aa5318",
+      "label_nl": "Claim: US military rejects Iranian mine-strike claims, says Hormuz transit lanes remain 'clear' - Gulf News",
+      "headline_claim_ids": [
+        "74a4612f792db1"
+      ],
+      "headline_claims": [
+        "US military rejects Iranian mine-strike claims, says Hormuz transit lanes remain 'clear' - Gulf News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczNVaVUyc1NFcnhPVFJQWXAyX1hfYnRVUnB5RmJmbDdEQXBKTmUxb0xEby1BWDJMQkIwQTJoRmRzenMxX1A3S1pVazFJNTNJbER2OExIU3lGWVJSbW5VM3Qtdm12cFBMM0xZOW02VDAydEw3dUxVTFBoS3dqM216WUprR2dXNFRoUG9STnIwcnRQMXJJeFJtQUtEZWxEbDJqelUxdkRyN1Y5ZmR3VXlVZVpFQUN0X2xZUXJFbXVaNUJfZUlBUVJFQg?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "5fdf21e44e9faddbd7a4c856",
       "label_nl": "Claim: Saudi strike kills 12 in Yemen as Hormuz tensions escalate - www.daily-sun.com",
       "headline_claim_ids": [
@@ -442,10 +517,11 @@
         "Saudi strike kills 12 in Yemen as Hormuz tensions escalate - www.daily-sun.com"
       ],
       "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKam50SjZ2NE9VcnNsN0JTOHoxVWRVR3JhZXNWUW5KVjR3V3gwakFvSmZTNkFQOE9PcDZEalJPZHpQZXNDOFVyN2k1bTB2bGs?oc=5",
         "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OZXdfQzFyMklkeFBYTWJ6U2pvT0JFNnBJZHBrSE1ZNWptbXpPdDhWbkFnWHU5WHJpZ2dNcEdyQW5SM25SVGxiSm1HVFFERXV1NVUwejRKRQ?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -511,20 +587,19 @@
       "probability_estimate": null
     },
     {
-      "id": "68900d812fcf0e01bd800d49",
-      "label_nl": "Claim: Oil Markets Brace for a New Iran Escalation After U.S. Midterms - Crude Oil Prices Today | OilPrice.com",
+      "id": "65cac19961356caf042d8925",
+      "label_nl": "Claim: Dow closes down 400 points as Iran war escalates - ABC News - Breaking News, Latest News and Videos",
       "headline_claim_ids": [
-        "93b1476d137c26"
+        "f1753269f05c57"
       ],
       "headline_claims": [
-        "Oil Markets Brace for a New Iran Escalation After U.S. Midterms - Crude Oil Prices Today | OilPrice.com"
+        "Dow closes down 400 points as Iran war escalates - ABC News - Breaking News, Latest News and Videos"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUGxoVXJBT0t6S1ZEbnMtRUFNN2d4eEZLdzlzUkcxNTQwa0UyNVNQcjJyV1k3UGk0bnNLeEVOTXRDUXFpZ3lmMnlObFU5WFhkdHdyUFMtSUk3VENmampXZTdsWDlMVy04SHQxcFlvU01XRzZqemVGam5XWnczWUFiWXItUnRyVDFNSGdKYk1pTG9ENDc2V18zUmNac3haUl9wMzBCYUtsU3lMbVdK0gGsAUFVX3lxTE1QbGhVckFPS3pLVkRucy1FQU03Z3h4Rkt3OXNSRzE1NDBrRTI1U1ByMnJXWTdQaTRuc0t4RU5NdENRcWlneWYyeU5sVTlYWGR0d3JQUy1JSTdUQ2ZqaldlN2xYOUxXLThIdDFwWW9TTVdHNmp6ZUZqbldadzNZQWJZci1SdHJUMU1IZ0piTWlMb0Q0NzZXXzNSY1pzeFpSX3AzMEJhS2xTeUxtV0o?oc=5",
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRTVBbjA0QmEtNjNzOVYyandHSUxhbUl1TldRT1ZqX0U3X2RvUDRyZkZMNkFrbHZzQmpQMjRRclUyNk9nb2NzbDgzX2dFb2tOOWFEY2JaaU1KLTNKNUJvTjcyd3ZFUE1PWGhKSUhuZE9EdWppTXZGUkhnVGpna2hIQm4yV25ENzhYR2xGVWRoQldYdVEy?oc=5"
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMkFUenVoTTVFVzhBNGJvWmpKR2MwWFlCcS10dDFTelFMWFJ5VzRmcVZSQTRNYlVUTkc3YlM2MHdDYmc1QkRzRE1GRExkMVJSZ3o3MDNGbUJzTjlZZ3QySWJxU0wzXy1aX1hqQzREVlpwc0l3Nk11OXZwOFoxU0pURVdQLUl1MzBUYjZxeVUzdk1yUdIBlwFBVV95cUxPcVBkajFmQmxHUGJCMXBLYTFXdEZNVHFId2FTWDVQMzcyLUdHdHNRdGlHMDF4YlM4dWlsU0xISFpPdXBMdTFBVDJ0N09FTkc2cGFQNlVLRmFaSHYzLTJad3VwRmhrc21rNmVsRWhtWEVTS05lN3lWR0ZJVGNQcktfb0JWLU1nV2I4WF93eWxoLWhNdmtNTGR3?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -548,59 +623,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zbXJyX01qdzFYQTQ2bG9Ha2N3WlF4V2JaUnAtai0xdkFTbkhhVURLVDJPM0R0RUdIUmJGYURaM2E4MFo4SFcwTFVBckZRbWQ1VTFockRscw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "74453b295b10fdee2bbce8fe",
-      "label_nl": "Claim: Trump ready for fresh strikes on Iran? US tells allies to prepare for post-midterms attacks, says report - Firstpost",
-      "headline_claim_ids": [
-        "e0f17170d60bbb"
-      ],
-      "headline_claims": [
-        "Trump ready for fresh strikes on Iran? US tells allies to prepare for post-midterms attacks, says report - Firstpost"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSkJsTExtNmZBWjRQZ0x5bGpha2FMT3c3UVY1VHBSbGJHQUxIYzJoWmNuUDlrRkRyWURFaG5RTHI1WmhINXBQU3dKSnI1UjZZQmVfa2R1VllncG94RlJnRF9qOVhSWDl1OEFlRThQQ2VDQXM0a0MtVlJiclhITFNCaXFOcDZITVhLT2pvemg4dFhpX2lueGlTcXVKNkdFUWNtRUVZLTc1MVptZkN3U1NlVzQ4RVI2SV9jUHpJemZkOG9id1lkVUJBTDdrZXNITndoNzBLSzhvUzA2YkpId0pPV0FB?oc=5",
-        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSkJsTExtNmZBWjRQZ0x5bGpha2FMT3c3UVY1VHBSbGJHQUxIYzJoWmNuUDlrRkRyWURFaG5RTHI1WmhINXBQU3dKSnI1UjZZQmVfa2R1VllncG94RlJnRF9qOVhSWDl1OEFlRThQQ2VDQXM0a0MtVlJiclhITFNCaXFOcDZITVhLT2pvemg4dFhpX2lueGlTcXVKNkdFUWNtRUVZLTc1MVptZkN3U1NlVzQ4RVI2SV9jUHpJemZkOG9id1lkVUJBTDdrZXNITndoNzBLSzhvUzA2YkpId0pPV0FB0gHnAUFVX3lxTE8yMHh2NXZmeFVNOHFsX0RSV3Z3OFo5Y3k1am5vZkJNaTVnTGlBenJIUmstWnFzdHNPVTVJVklza0ZNX01lMFpQSTFVajV0SG04SE4xMTJhdUhDMGx5M1V6Rk9CbjgyOVhsaXJ1TE9QMnNaTTVrNG5zcnFvQndFbHB3cDBHaGFDclBObFAzMWZZeFZlcjhHa0g1MndKUWp5YXBFaU5TVlJwM0ZLNlQySUtPblI0eFVvOFBaeXVsZFdkUExBQThFZGNfV2pCXzNTRHJQRnZrMDFSTzlpeGVsUnFpNGVXV3ZVaw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "65cac19961356caf042d8925",
-      "label_nl": "Claim: Dow closes down 400 points as Iran war escalates - ABC News - Breaking News, Latest News and Videos",
-      "headline_claim_ids": [
-        "f1753269f05c57"
-      ],
-      "headline_claims": [
-        "Dow closes down 400 points as Iran war escalates - ABC News - Breaking News, Latest News and Videos"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMkFUenVoTTVFVzhBNGJvWmpKR2MwWFlCcS10dDFTelFMWFJ5VzRmcVZSQTRNYlVUTkc3YlM2MHdDYmc1QkRzRE1GRExkMVJSZ3o3MDNGbUJzTjlZZ3QySWJxU0wzXy1aX1hqQzREVlpwc0l3Nk11OXZwOFoxU0pURVdQLUl1MzBUYjZxeVUzdk1yUdIBlwFBVV95cUxPcVBkajFmQmxHUGJCMXBLYTFXdEZNVHFId2FTWDVQMzcyLUdHdHNRdGlHMDF4YlM4dWlsU0xISFpPdXBMdTFBVDJ0N09FTkc2cGFQNlVLRmFaSHYzLTJad3VwRmhrc21rNmVsRWhtWEVTS05lN3lWR0ZJVGNQcktfb0JWLU1nV2I4WF93eWxoLWhNdmtNTGR3?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -726,22 +748,47 @@
       "probability_estimate": null
     },
     {
-      "id": "440ffe731fe2959755eb0415",
-      "label_nl": "Claim: Oil eases on Middle East diplomacy hopes, Saudi attacks keep supply worries alive - Investify",
+      "id": "23d13b30bd09f4217f999c54",
+      "label_nl": "Claim: Oil rebounds as Houthi attacks on Saudi Arabia overshadow diplomatic efforts - Yahoo! Finance Canada",
       "headline_claim_ids": [
-        "33697ad56e08ef"
+        "3ed4dd805d05b6"
       ],
       "headline_claims": [
-        "Oil eases on Middle East diplomacy hopes, Saudi attacks keep supply worries alive - Investify"
+        "Oil rebounds as Houthi attacks on Saudi Arabia overshadow diplomatic efforts - Yahoo! Finance Canada"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQWtMcF8za3pQRFBqaWtfaFE1bHp6eGtNNzBhN0E1SVFCVEFQZE5XUHFPZmtzbEx5LXJwb05hbmcwVlhuUnA4cUptWXV3VVZQSnhuNnZ4WThPdndjY19LNEk2Q1ZtR09YaS10Z1NRclRlR21sd3FyWnQ4VmYwOUZyLVMyUmdrVi05ckZZQWhjaU1uMlZGV0I2dmRqOEZRelBRaGs1YWF1MDJUQ2FHRkdyYjJIVF9uc1lpTzAtcU9fczY?oc=5",
-        "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTUUyYXcyU29icy1LUXk4bmktRHc4M0ZrQnBGNm9MTzBwUlJLV2dWaXdJTlJuWnBFMzNsbTZWeUNoNWhHQjFxZkN0NkF1QnNZcjROaU90N0RKcWlMTzVMT3c4ZlQzTFpMUUJwU3lIYVJvWllsZzdaa3VuQXY4cnhWOTdJbVREd0VjN19ZWkxGQTFQaDNfQjdCUmlJZ3JOdVpuUzQ0TVNUODd5VjVqUFZ3RVZvS1FwSkRzdEQ5Y2d0NnhFRFYzM0V6QmRBQk9tNV85c3JXd2Z3RkM0NjV0a3NjNS1DNWtibmxvSnR3LTlHcUl2QWpOWGh5VHB0SDjSAfYBQVVfeXFMTzI5eXhaQ1NQUUZ3Z2E5a0V6S0xBUW55eFVvdVpBak1mSHRicm5mdzNrMzhNcUxrdGNwOU5ucmRxa0lxOVpadENVZV90em9XX000U2RWMElTQVBNR3dKVVpmVWlQUGNuNG94Rk5wRzNuZ1dWcThGSnd2cDJkRmdRQ0Y2V0hhWnNxempRWlBNWWVJNF9rNWZyWGhwa0FZVmtjUDJIT3hiY3hOZlkxY3lNdXA1T0o0ckZ1YUJidzRicXlQTEZxWWdGUmllOVZabkJlelh2UGxHaUFpclJaWFRZdWFXdW1TdUQ3eklMeTk5QmRZQXNXcE5R?oc=5",
-        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc3lid3k0QzVobGVoQkx4OUdmT1c5cjcxUGZndm0xN2pMaFlGMjRpaG9icnhGb2xJU052a2dGOFNRd3lsZVE4blFmUGZIU09JV1A5RG5pSlFXLXhhWUZMOWVqdFpwNmRJbWc2WFdIWk9USk5BYzhPWldna3JkVTN5eVZBR3ptbTBpLUxYaTRTOVUzT1RGV3dLOG0wRlpQNDdndkNIRFkyNkPSAa4BQVVfeXFMTTNIQ3dpcERhbEp2S2tKOXBqTWV4ajZMQldfdHZBQkRPQzZKYl9OVWJKbk14bnJHa0VxUzc2ejlmRXpCaTdZMUI2cERCNDBJNjF6NnFJQmllQmZEQ28zYl8xczhkTDc3Y25jdk16V1dGbG1jNkM1U0NkUzhQZXlIWVAxRGtnVUpnVHVjT3pKQXhsVW9nb08zSzN5RGRvNzFVa3kxSGdxMmU1NE00U1B3?oc=5",
-        "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTHNUWlIwT3BlRGgzSnNaTmxIV1JBYnF6aDk2amQ2MTJ4Z2RVY2Q2UlNwbWtPYzVTVUNCSXV2bFR5NTJkZHd5ZW90c2FrZzNRaG1wUjRvTmxPYzJzNExmYURHLTNQeFBiYVQ2OFRjN3dKX1RvcWM1Wmt2QzFFZkxuNHhWYWZZQjA1cjhpcm9TVDF4RHUyZEU1ZUxqLTdpdWx0b2htSHAtZ092ZXdBZ3J6Vk1QUXRES2tnRlE?oc=5"
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZUNEZVFSTGxBZVQ4bXdXTkh4THExdnJCUVNZUkZvNHZWalVoYW5JS1ZfaEhZRXBPbEVxN3Fxczd4azh0ODdwTEhTbEVzSWdlalpIZHNHRmgza3pJSXVmLS1QUk44UmFiQW9aVlZ3ZnlqSDBvM0xPT29WSUc0VExmSTR4VUM1TkQyYnc?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSDZZalVPR1JJQVFyWU1YNjM3N3ZCQy1LeEtVSWtsM2xjLXlwckMxVmRYUFBYQlpVdFduNzBYWHRXV1A4bHdxaHlybUFVSkNoNWJEQkhRaFpUWHQ5VWV4TlZkTTZHZWMzUHFSSnhOTW5PaE8xdkpJNlNHcEE2Q1FTZEpVWjUwX1AwbklIa0luNVkxcDI3?oc=5",
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRHk3MmZRa3lmV3lWYkE0cXgtcDZuSnROaXAwdVNsUU9oSHFsTU83Mnh0a0t0U2NUNWc1enpxeUFVVkFDRWZGZjAxcjBfLVZzYVYxWWRDcE0xU3RnZE1tZUYwRW4wZ1lmSVZlSnB0YjV2aDNET1pia3BTdlNCZndUb3F1TkxyWkpqamV2ZG15NzItRkd4V2M0UzZtaExqV0dIMkVXbUpzMlpLZEZzYktqUzk3aFc3WXdhZkFyWUNkc0ZSUFRQOU5BUHNIRQ?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 4,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "362d24724bfeeb70d85672fe",
+      "label_nl": "Claim: Rare in-person briefing puts Trump’s Iran strike options in focus - inkl",
+      "headline_claim_ids": [
+        "67cfdf18d8ba03"
+      ],
+      "headline_claims": [
+        "Rare in-person briefing puts Trump’s Iran strike options in focus - inkl"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZVpLZ29fN1VFb1NFWHBKOTlNcWc3TFdVVVludC1NUXE4QjFFNWV5ekQtUzhkT3pqV1dZNXoxRUxneGk3U2lxSWlZUFgwdTItSF9xX2p0QnRxZUJsclFLVDFmajNnZVMzeGFXeC1aVk9MNmxJSGM0d1hUbi11WmQ3NWd3RGQ2ZE5uaWoxc3htcDVMUFlY?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -833,59 +880,6 @@
       "probability_estimate": null
     },
     {
-      "id": "de9d91dc71c4011c850d7028",
-      "label_nl": "Claim: Iranian media debate new war amid Hormuz attacks, military buildup - Iran International",
-      "headline_claim_ids": [
-        "e8a1489d7f9f76"
-      ],
-      "headline_claims": [
-        "Iranian media debate new war amid Hormuz attacks, military buildup - Iran International"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96Q255cHViXzlxZGJJbXlwLWxVbkZSYk9Cc3BhbTJDQ2VPcEdtejhPbFlvSnpDM1loZjVISDgyWjUwd3ZMS2tuZ2VSRDUyQ0U1VVE?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "0031f94b4399779305f96101",
-      "label_nl": "Claim: Houthis strike Aden airport after evacuation warning, halting air traffic in southern Yemen - The Economic Times",
-      "headline_claim_ids": [
-        "4d7714757dafa8"
-      ],
-      "headline_claims": [
-        "Houthis strike Aden airport after evacuation warning, halting air traffic in southern Yemen - The Economic Times"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAJBVV95cUxPYlBmOXJzaExyZUptdXhJOFRqejYzREsySmRkUXl3bTdidldqemRoRmR3VjFpLXZoSjhEZnFyYy1yTmVjb2MzVk5JczJ2dS1rd2IwVEh2QUVRZXNvZTg1ckRPY0hJSkhLU3VWTk1XeENQZjBFdVpjQmpCcVRrTmZoY1YtUHp5ZTB6dXBtald4Q0lLbXpMY2NwUXFhYWttSjAxcEk5aFJFN1diOW9KODBRR1V4ZUNwQ092VGo4b0lsVks5MzllT0lKME1ZYVRoZXRfSUFPcTF5Mm9pVVJhTDJsellPTmRRVlFmMHRMM3ZlOGxsQS1RQ2gxOE54TWgzblBvajczRHJYcWZIc3lwM1RUadIBigJBVV95cUxQX0p4RlR2VTZIUW02djBBYUcyUFpqMTRxQVJNRVp3VGhNOEFjdlNDMTU5Q0hTUEJxUnpDeGRmbGxRNzBLYm0zNm0xR25uWnRkTXZTdlVnWEdMTnkwblk3bkZtT2V3TVFKbExqQlAtWjRKZjVDeHVURnc4QVh6ZWhMQ1QzYnl3R1ZDbktDQ0V2MGoyWk1COWwxek1aUmlYazA0MTJEM04yUDFMYzV3Y3dUcWdkVWdEdUtuMlZkQ1A1TVk3ekFhU1FZM193Y1ZsNUE4TDg4ZUYxUTZUajEyWGg1Ml9yRlN6c05Md3dLNmdjb2dhNWtjaWF4NlV6WG1fajU2ZEQ1YnZ1Q25zdw?oc=5",
-        "https://news.google.com/rss/articles/CBMiigJBVV95cUxQX0p4RlR2VTZIUW02djBBYUcyUFpqMTRxQVJNRVp3VGhNOEFjdlNDMTU5Q0hTUEJxUnpDeGRmbGxRNzBLYm0zNm0xR25uWnRkTXZTdlVnWEdMTnkwblk3bkZtT2V3TVFKbExqQlAtWjRKZjVDeHVURnc4QVh6ZWhMQ1QzYnl3R1ZDbktDQ0V2MGoyWk1COWwxek1aUmlYazA0MTJEM04yUDFMYzV3Y3dUcWdkVWdEdUtuMlZkQ1A1TVk3ekFhU1FZM193Y1ZsNUE4TDg4ZUYxUTZUajEyWGg1Ml9yRlN6c05Md3dLNmdjb2dhNWtjaWF4NlV6WG1fajU2ZEQ1YnZ1Q25zd9IBigJBVV95cUxQX0p4RlR2VTZIUW02djBBYUcyUFpqMTRxQVJNRVp3VGhNOEFjdlNDMTU5Q0hTUEJxUnpDeGRmbGxRNzBLYm0zNm0xR25uWnRkTXZTdlVnWEdMTnkwblk3bkZtT2V3TVFKbExqQlAtWjRKZjVDeHVURnc4QVh6ZWhMQ1QzYnl3R1ZDbktDQ0V2MGoyWk1COWwxek1aUmlYazA0MTJEM04yUDFMYzV3Y3dUcWdkVWdEdUtuMlZkQ1A1TVk3ekFhU1FZM193Y1ZsNUE4TDg4ZUYxUTZUajEyWGg1Ml9yRlN6c05Md3dLNmdjb2dhNWtjaWF4NlV6WG1fajU2ZEQ1YnZ1Q25zdw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "edfd8256a9bed8caf2633ff8",
       "label_nl": "Claim: Oil prices rise as Houthi attack claims renew Saudi supply concerns - Anadolu Ajansı",
       "headline_claim_ids": [
@@ -896,32 +890,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXVqQXFYeTlydVBobEZ1Q2NHVzVMdnIxNlhJYzllOXF4bUZ2VENnRndHMl9zVzNtWXlQRE5XRnhVRWRuTE9MMW9iM3k4eGJfSlFzOGZ2anNUU2hUTlFpYXd4MEV0M2VXcWRwV2VVWkhJTkdfaDJnVERFVEdTZ3l5VzluZjdWWnVkWUY2LVRjbVJYU21xelozaU12bElXZUpVMENHb0VJa0o5cUhndXhJ0gG3AUFVX3lxTE5KM0F2RDBVMHhiZ0lYaXkzcTBORXZRMExER0dYSU81b3pQSVVWSTFlQ0lYaTJMOWhjaXdELTZNV0Nzd0pMZkFFRFBKajhvNmhkNW8zdjhGYUxDWnpIZ0oxSHUxWXlXZThlX1RFay1rVnI4bXBZZWZWVXk1cC05ZGxaaW4zT0h5a05qUWxfb18wQ05iZHJ6NlBjYlJ0amZwRWlfUWJCYk15azBIZnJFR0F3U1ZURWRWQQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "b99b4f07493a9d01898309af",
-      "label_nl": "Claim: Oil Prices Rise as Iran Talks, Houthi Attacks and Middle East Tensions Keep Supply Fears Alive - Newstrack English",
-      "headline_claim_ids": [
-        "afe103053f2bf8"
-      ],
-      "headline_claims": [
-        "Oil Prices Rise as Iran Talks, Houthi Attacks and Middle East Tensions Keep Supply Fears Alive - Newstrack English"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOUxIWUlRWWZGUTBDMkRBWjFHS1djTXFJYTk4cmZFSlk5bkFneUpudW9kSWVCYmdnd3gzeVB1VDVpd1RoZUNNSmhUNjc0RUFEc3c1VVlObmJiTUlWOXVBT2FrTHl3dzhuMnhQcGxBNmEyT1ZCVGpkcTRoRENxOGVhZXBvTk9taEVja0NxX2pKbzhoeWwybkhLU3BHajZIRE5iRU05Uk13OUYyc0tSaGhvM3B1Y0tSeXVjTUZFTEYwekRfU214bjVSSWIxeXlMaFFsS0NBRGtlV27SAd4BQVVfeXFMTTY4a1NVWU8tNThZanlUbFZXbVhsNGlQRG1RZjRoVGIzcVBUVXVBbFpUcWVDZGx6Vk1ZTXJidHMwbzlJd0VyM1d4RVlCek5pS3Y5dkRVRmtUdUIxOGpqR0NoVkdEcHpGNFZaX1V1amJ4b1dNVGNyeGUtWEgzMTF3eDRkYjFMLWMweExWV3dCc2V6Y3FWQndFQUIxMjVhMGE4S01tZFdQYkh0dWhCRVM1dFhUWHVZYWNrQWR5d1ZPMk9tU2JfQUlNOGJJQU1SR1NxRFB0QWhlQjVZVENHWWpB?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -973,6 +941,10 @@
     "2026-10-29": {
       "requests": 12,
       "total_tokens": 33412
+    },
+    "2026-10-30": {
+      "requests": 3,
+      "total_tokens": 8628
     }
   }
 }
