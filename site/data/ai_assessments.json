@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-30T13:07:12.647681Z",
+  "last_attempt_utc": "2026-10-30T17:34:57.058069Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -1383,6 +1383,86 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-30T13:07:11.647471Z"
+    },
+    "e9a12a4d43dfb3": {
+      "id": "e9a12a4d43dfb3",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran's marine strijdkrachten zouden een tanker hebben aangevallen met limpetmijnen in de Straat van Hormuz.",
+      "claimed_event_nl": "Iran's marine strijdkrachten zouden een tanker hebben aangevallen met limpetmijnen.",
+      "reason_nl": "Dit is relevant vanwege de mogelijke gevolgen voor de veiligheid van scheepvaart in een cruciaal oliegebied.",
+      "limitations_nl": "De claim is afkomstig van een niet-geverifieerde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-30T17:34:56.057790Z"
+    },
+    "a5165d8d010bfe": {
+      "id": "a5165d8d010bfe",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "event_claim",
+      "summary_nl": "Qatarese functionarissen zouden Iran bezoeken om te helpen bij het herstellen van een Amerikaanse wapenstilstandsovereenkomst.",
+      "claimed_event_nl": "Qatarese functionarissen zouden Iran bezoeken voor diplomatiek overleg.",
+      "reason_nl": "Dit is relevant omdat het kan wijzen op diplomatieke inspanningen in een gespannen regio.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-30T17:34:56.057816Z"
+    },
+    "49a75e6288e2f3": {
+      "id": "49a75e6288e2f3",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen zouden stijgen door stilstaande diplomatie en voortdurende aanvallen op tankers.",
+      "claimed_event_nl": "Olieprijzen zouden stijgen door geopolitieke spanningen.",
+      "reason_nl": "Dit is relevant voor de economische impact van de situatie in de Golfregio.",
+      "limitations_nl": "De claim is gebaseerd op marktspeculatie.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-30T17:34:56.057821Z"
+    },
+    "2030c89841a1ba": {
+      "id": "2030c89841a1ba",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen zouden dalen terwijl handelaren de diplomatie met Iran afwegen tegen hernieuwde risico's op aanvallen.",
+      "claimed_event_nl": "Olieprijzen zouden dalen door onzekerheid over diplomatie en veiligheidsrisico's.",
+      "reason_nl": "Dit is relevant voor de economische gevolgen van de situatie in de regio.",
+      "limitations_nl": "De claim is gebaseerd op marktspeculatie.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-30T17:34:56.057824Z"
+    },
+    "fb54937937d5bd": {
+      "id": "fb54937937d5bd",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen zouden stijgen na een tankeraanval in Hormuz, terwijl Houthi-claims zorgen over de aanvoer aanwakkeren.",
+      "claimed_event_nl": "Olieprijzen zouden stijgen door een recente aanval op een tanker.",
+      "reason_nl": "Dit is relevant vanwege de impact op de olieprijzen en de geopolitieke stabiliteit.",
+      "limitations_nl": "De claim is afkomstig van een niet-geverifieerde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-30T17:34:56.057827Z"
     }
   },
   "usage_by_day": {
@@ -1395,8 +1475,8 @@
       "total_tokens": 8670
     },
     "2026-10-30": {
-      "requests": 4,
-      "total_tokens": 5856
+      "requests": 5,
+      "total_tokens": 7473
     }
   }
 }
