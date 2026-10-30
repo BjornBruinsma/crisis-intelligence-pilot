@@ -38,6 +38,7 @@ BING = "https://www.bing.com/search"
 SEARCH_DOMAINS = [
     "centcom.mil", "gov.uk", "imo.org", "mofa.gov.ae", "fmprc.gov.cn",
     "mofa.gov.pk", "home.treasury.gov", "eia.gov", "en.mfa.ir",
+    "pakun.org", "un.china-mission.gov.cn",
 ]
 STOP = {"after","about","with","that","this","from","amid","against","over",
         "under","into","have","says","said","today","latest","update","report",
@@ -54,10 +55,22 @@ def load(path, default):
 def words(title):
     return [x for x in re.findall(r"[a-zA-Z]{4,}",title.lower()) if x not in STOP]
 
+# Keep actor and location identifiers for document discovery. They were
+# previously in STOP (e.g. "iran", "saudi"), causing unrelated matches.
+LOCATIONS=("iran","bahrain","kuwait","hormuz","qatar","yemen","iraq",
+           "israel","saudi","syria","pakistan","china","emirates","gaza",
+           "lebanon","oman","tehran","dubai","fujairah")
+def search_terms(title,limit=7):
+    text=str(title or "").lower()
+    geographic=[v for v in LOCATIONS if re.search(r"\\b"+re.escape(v)+r"\\b",text)]
+    # Use distinctive activity words after actor/location; never pass raw
+    # headline syntax to external search services.
+    verbs=list(dict.fromkeys(words(title)))
+    return list(dict.fromkeys(geographic[:3]+verbs))[:limit]
+
 def query_for(item):
     head=str(item.get("headline_claims",[""])[0])
-    # Headline text is untrusted input: retain only keywords and hardcoded scopes.
-    selected=list(dict.fromkeys(words(head)))[:7]
+    selected=search_terms(head,7)
     prefix=" OR ".join("site:"+domain for domain in SEARCH_DOMAINS)
     return "(" + prefix + ") " + " ".join(selected)
 
@@ -131,7 +144,7 @@ def extract_official_document(url,claim):
 
 def govuk_official_search(claim):
     """Public GOV.UK search API provides locators, not evidence."""
-    terms=list(dict.fromkeys(words(claim)))[:5]
+    terms=search_terms(claim,6)
     if not terms:
         return []
     url="https://www.gov.uk/api/search.json?"+urllib.parse.urlencode({
@@ -151,16 +164,18 @@ def govuk_official_search(claim):
 def targeted_search_queries(item):
     """Bounded issuer-specific rather than a giant OR query."""
     title=str((item.get("headline_claims") or [""])[0])
-    terms=list(dict.fromkeys(words(title)))[:5]
+    terms=search_terms(title,7)
     if not terms:return []
     low=title.lower()
     if any(x in low for x in ("oil","energy","tanker","shipping","hormuz","gas","pipeline")):
-        domains=("imo.org","eia.gov","centcom.mil")
+        domains=("imo.org","eia.gov","un.china-mission.gov.cn")
     elif any(x in low for x in ("evacuat","embassy","passport","travel","stranded")):
-        domains=("gov.uk","mofa.gov.ae","mofa.gov.pk")
+        domains=("gov.uk","mofa.gov.ae","pakun.org")
+    elif any(x in low for x in ("diplomac","negotiat","talks","sanction","nuclear","ceasefire")):
+        domains=("pakun.org","un.china-mission.gov.cn","mofa.gov.ae")
     else:
-        domains=("centcom.mil","fmprc.gov.cn","mofa.gov.ae")
-    return ["site:"+domain+" "+" ".join(terms[:4]) for domain in domains]
+        domains=("centcom.mil","mofa.gov.ae","un.china-mission.gov.cn")
+    return ["site:"+domain+" "+" ".join(terms[:5]) for domain in domains]
 
 def bing_rss_search(query):
     """Search is untrusted discovery data, never considered direct evidence."""
