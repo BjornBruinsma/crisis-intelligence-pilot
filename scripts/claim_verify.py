@@ -62,7 +62,7 @@ LOCATIONS=("iran","bahrain","kuwait","hormuz","qatar","yemen","iraq",
            "lebanon","oman","tehran","dubai","fujairah")
 def search_terms(title,limit=7):
     text=str(title or "").lower()
-    geographic=[v for v in LOCATIONS if re.search(r"\\b"+re.escape(v)+r"\\b",text)]
+    geographic=[v for v in LOCATIONS if re.search(r"\b"+re.escape(v)+r"\b",text)]
     # Use distinctive activity words after actor/location; never pass raw
     # headline syntax to external search services.
     verbs=list(dict.fromkeys(words(title)))
