@@ -51,6 +51,21 @@ class TestOfficialSourceDiscovery(unittest.TestCase):
         self.assertEqual(len(oil),3)
         self.assertTrue(any("imo.org" in x for x in oil))
         self.assertTrue(any("mofa.gov.ae" in x for x in evacuate))
+    def test_claim_search_keeps_actor_and_specific_location(self):
+        terms=cv.search_terms("Iran targets U.S. military sites in Bahrain and Kuwait after American strikes")
+        self.assertIn("iran",terms)
+        self.assertIn("bahrain",terms)
+        self.assertIn("kuwait",terms)
+        queries=cv.targeted_search_queries({"headline_claims":[
+            "Iran targets US military facilities in Bahrain"]})
+        self.assertEqual(len(queries),3)
+        self.assertTrue(any("un.china-mission.gov.cn" in q for q in queries))
+        self.assertTrue(all("iran" in q for q in queries))
+    def test_nonwestern_mission_url_allowed_but_spoof_denied(self):
+        self.assertTrue(cv.is_official_url("https://pakun.org/official-statements/09282026-01"))
+        self.assertTrue(cv.is_official_url("https://un.china-mission.gov.cn/eng/fyrth/"))
+        self.assertFalse(cv.is_official_url("https://pakun.org.attacker.test/statement"))
+
     def test_search_provider_failure_is_not_false_news(self):
         item={"headline_claims":["Oil tanker attacked near Hormuz"]}
         primary={"sources":[]}
