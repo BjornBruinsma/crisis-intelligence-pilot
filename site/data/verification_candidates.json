@@ -1,7 +1,7 @@
 {
   "description": "Manually reviewable headline claims; no event verification, no risk scoring",
-  "source_generated_from": "2026-10-30T01:10:45.411523Z",
-  "source_groups_count": 520,
+  "source_generated_from": "2026-10-30T07:08:28.890498Z",
+  "source_groups_count": 518,
   "selection_method": "Category-balanced high/medium editorial candidates; NOT trained or calibrated",
   "candidates": [
     {
@@ -111,10 +111,11 @@
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 3,
+      "article_count": 4,
       "publisher_names": [
         "asiaone.com",
         "reuters",
+        "the straits times",
         "yahoo"
       ],
       "independent_corrob_count": null,
@@ -144,6 +145,13 @@
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56aG4yY05aVjJZMFEzdWduQXhieEVkYXBPUzQ0aURGdVlzeldfRHZETkZvTklBU3JJaG9aWm9UMlh4cGV1c2VBT3pKUmJrbnFkRHdpQ2xZbmkzQjR1M0lVX1FVeF90THdz?oc=5",
           "publisher": "AsiaOne.com",
           "published_at": "2026-10-28T12:33:36Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Houthis strike Yemen's Aden airport after evacuation warning - The Straits Times",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQjI0RDB2TkZhaDQzcGEzbDlyV2xic2dRMWlLQUVZR1FwN1NxbFZENmlsdUYtZ2I2dEZuaWhGbjVWRWZvaTBob0g3cTZkZGdydVNneXFFUmcySWJyNGNPejkwbm12Vll6aVp3UWFEWXhYSTZQbl9yMW9DY3FJaTgzbU5hSjRzSldzdUFMbF96elNNLXMtX29uWmxaU2xobXkwekJxeEdCSklsUzg?oc=5",
+          "publisher": "The Straits Times",
+          "published_at": "2026-10-28T11:21:00Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -237,19 +245,19 @@
       ]
     },
     {
-      "id": "61ffdf177e7cb7",
-      "headline_claim": "Iran blockade Archives - Global Trade Magazine",
+      "id": "daf1ac41c2bf85",
+      "headline_claim": "UAE flights update at a glance: Airport delays, airline cancellations and Saudi route changes on Oct 30 - Gulf News",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
         "Wereldhandel & logistiek"
       ],
-      "publication_day": "2026-10-29",
+      "publication_day": "2026-10-30",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "global trade magazine"
+        "gulf news"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -260,10 +268,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran blockade Archives - Global Trade Magazine",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92WkdkSUw1QkJCRHhjcGRRdzBZdTB5b2tYM0RUUDdhbGVzcVFHQXR6NzY3dGtkQWdsSHUwS08wRG8ybmRDNkxQWVpXQnFpQ2QzQzJ1SnVmRkhIZ1E3QUE?oc=5",
-          "publisher": "Global Trade Magazine",
-          "published_at": "2026-10-29T09:00:23Z",
+          "title": "UAE flights update at a glance: Airport delays, airline cancellations and Saudi route changes on Oct 30 - Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQTNORmQwU2VlbkcxNXRGNUNodUpiWV9rczdINXJfc01BdDIwamdVU0VaWnRhY3Q2M01EMUFIX29xV2ZzQk9oTk1sQlhEendHcW93NFl5OEVpZmZiRm1Ibkc0UU11SWNublcwVy1RTlFjVVdzMDc4VUFLVUN6SzdQYnVyb3FGd0EwVG0xcTRFUXlsMjBKMjlVR3dGZXVJZXc0ckRwb1h0WXg0aTBRMktnc1B5UG1xcUNWejQ0cEgxQnpQQi1aOHRhbHlWZ3ludnRQVWZIT09jR3NrQkVyUVQwMGs5dUZtbHPSAfoBQVVfeXFMUG1qcmRqQ1M3ZVh2QkxaN24xTjk5aDRVamFPdzk2Tk5mYTQyV0FrQ0RWaGFRSmhFUUtXMVdINjRBbnFKUHlVbER6TFdHSjcwWnZTb3lGY21uMEVvR3JoamtkSTJ2UjZnRmJFZGEzU3dYdDNMQnBBQ1BlbXd2Vm5Ea1R3TTVKSmsyZWt4NVg0bkNWWjZYUU9TNEtCYWprSkJwTTFUa1otREViNS1adlQ3N3JvOUJraFhPZi1ObTdWNEdvWWRwS0RqajFEMlZnM2t6a0R3ZUcyREJKenlnaEJfZXB5bU5DR1RadFBrRFdjZlRMYnlzUTRKZUk3UQ?oc=5",
+          "publisher": "Gulf News",
+          "published_at": "2026-10-30T06:32:47Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -381,8 +389,8 @@
       ]
     },
     {
-      "id": "20ffce709115da",
-      "headline_claim": "Iran Threatens ‘War Without Limits’ on ‘Israel’, Unveils ‘Shocking’ Weapons as Casualties Mount - Orinoco Tribune",
+      "id": "a4198daea88f3c",
+      "headline_claim": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms - CNBC",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
@@ -393,7 +401,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "orinoco tribune"
+        "cnbc"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -404,10 +412,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran Threatens ‘War Without Limits’ on ‘Israel’, Unveils ‘Shocking’ Weapons as Casualties Mount - Orinoco Tribune",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZFVpbmdkaTg3N3B6VWNnTmNpOUFleHE5MUtVOW1rRkpLNHBjWGNyY1h2dU1CaXhVZlAyOGhnU2swTTZRQ09MTlpVYWhzeFVXN1dKbGNoRFVFYVEzZW9oY1pNZWFlR0dOYXRTaGFwT3lyNDAxcnVBSmVCeG53RldSVzNuTUhXZHRQSGVWT1lkb2JOVHVLMnZyYnV0cEI3Z1NXQWFUZHZSVVdUQnZvZDl1ZW5QWU1TX2s?oc=5",
-          "publisher": "Orinoco Tribune",
-          "published_at": "2026-10-30T00:55:27Z",
+          "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after U.S. midterms - CNBC",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ZMUhKdzZpUlk1T1d3d0tKckIxb055TmdyTFk3ckZtdFVZOGVYYWFGMXZ4U1VaWXNuUm0yVEEzX1ZXYzBNMFZGUWFaTE5PekJjVEpqRnEyaEx5YlJhY2xGLWVVOGlvVHZYV01aUnQ3SWI2TEJGbURBSG1hVdIBgAFBVV95cUxNTzJSUUREZC0xSTk0R1ltcGR2a2VfRzlaZGhYaWxjZG5qMnppMlJGYlZ0MXhDdmlSS3dmOGRkYkt0WktJQnNjVmJuTGtHRjE0RFB0U0dMN1ZES2NFMVU4dW9xanl3aFdMZUlERzU5RDQ0aGh3ZEtOTzl0Y0FMb3ZlNQ?oc=5",
+          "publisher": "CNBC",
+          "published_at": "2026-10-30T06:33:52Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -477,21 +485,19 @@
       ]
     },
     {
-      "id": "93b1476d137c26",
-      "headline_claim": "Oil Markets Brace for a New Iran Escalation After U.S. Midterms - Crude Oil Prices Today | OilPrice.com",
+      "id": "eb57ba5df6c390",
+      "headline_claim": "Oil prices surge towards $120 as Trump weighs fresh Iran strikes: what's next? - Invezz",
       "discovered_via": "Financiële markten",
       "other_search_labels": [
-        "Energie & grondstoffen",
         "Financiële markten"
       ],
-      "publication_day": "2026-10-27",
+      "publication_day": "2026-10-30",
       "publication_day_is_event_date": false,
-      "editorial_priority": "middel",
-      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "article_count": 2,
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "article_count": 1,
       "publisher_names": [
-        "crude oil prices today | oilprice.com",
-        "yahoo finance"
+        "invezz"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -502,17 +508,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Oil Markets Brace for a New Iran Escalation After U.S. Midterms - Crude Oil Prices Today | OilPrice.com",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUGxoVXJBT0t6S1ZEbnMtRUFNN2d4eEZLdzlzUkcxNTQwa0UyNVNQcjJyV1k3UGk0bnNLeEVOTXRDUXFpZ3lmMnlObFU5WFhkdHdyUFMtSUk3VENmampXZTdsWDlMVy04SHQxcFlvU01XRzZqemVGam5XWnczWUFiWXItUnRyVDFNSGdKYk1pTG9ENDc2V18zUmNac3haUl9wMzBCYUtsU3lMbVdK0gGsAUFVX3lxTE1QbGhVckFPS3pLVkRucy1FQU03Z3h4Rkt3OXNSRzE1NDBrRTI1U1ByMnJXWTdQaTRuc0t4RU5NdENRcWlneWYyeU5sVTlYWGR0d3JQUy1JSTdUQ2ZqaldlN2xYOUxXLThIdDFwWW9TTVdHNmp6ZUZqbldadzNZQWJZci1SdHJUMU1IZ0piTWlMb0Q0NzZXXzNSY1pzeFpSX3AzMEJhS2xTeUxtV0o?oc=5",
-          "publisher": "Crude Oil Prices Today | OilPrice.com",
-          "published_at": "2026-10-27T16:37:35Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "Oil Markets Brace for a New Iran Escalation After U.S. Midterms - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRTVBbjA0QmEtNjNzOVYyandHSUxhbUl1TldRT1ZqX0U3X2RvUDRyZkZMNkFrbHZzQmpQMjRRclUyNk9nb2NzbDgzX2dFb2tOOWFEY2JaaU1KLTNKNUJvTjcyd3ZFUE1PWGhKSUhuZE9EdWppTXZGUkhnVGpna2hIQm4yV25ENzhYR2xGVWRoQldYdVEy?oc=5",
-          "publisher": "Yahoo Finance",
-          "published_at": "2026-10-27T16:37:35Z",
+          "title": "Oil prices surge towards $120 as Trump weighs fresh Iran strikes: what's next? - Invezz",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZzgxenFyZjdNcWhlYVdUdnJXR0JBejdRMEZ1a2JBTkFBZXY1UFlsYzZPdnNGRHIxUmZUSmZ3UjFXS08tR19tSTNMb24zUUVtZEMzWEdsd3U4Uk95VTZqaFBKZk5fYUxGbGlTamNDcTZETENpRnVtU0wzYnlvSS0yb2FCMGl2Vm9NTjE3Y2tKdzVrN1hocGh1T3NJUy0wcnFGTEdERXd2SUkxLVdPa2owTHpzcDFMV0xscWNV?oc=5",
+          "publisher": "Invezz",
+          "published_at": "2026-10-30T05:51:38Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -550,19 +549,19 @@
       ]
     },
     {
-      "id": "74a4612f792db1",
-      "headline_claim": "US military rejects Iranian mine-strike claims, says Hormuz transit lanes remain 'clear' - Gulf News",
+      "id": "61ffdf177e7cb7",
+      "headline_claim": "Iran blockade Archives - Global Trade Magazine",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
         "Wereldhandel & logistiek"
       ],
-      "publication_day": "2026-10-28",
+      "publication_day": "2026-10-29",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "gulf news"
+        "global trade magazine"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -573,10 +572,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "US military rejects Iranian mine-strike claims, says Hormuz transit lanes remain 'clear' - Gulf News",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczNVaVUyc1NFcnhPVFJQWXAyX1hfYnRVUnB5RmJmbDdEQXBKTmUxb0xEby1BWDJMQkIwQTJoRmRzenMxX1A3S1pVazFJNTNJbER2OExIU3lGWVJSbW5VM3Qtdm12cFBMM0xZOW02VDAydEw3dUxVTFBoS3dqM216WUprR2dXNFRoUG9STnIwcnRQMXJJeFJtQUtEZWxEbDJqelUxdkRyN1Y5ZmR3VXlVZVpFQUN0X2xZUXJFbXVaNUJfZUlBUVJFQg?oc=5",
-          "publisher": "Gulf News",
-          "published_at": "2026-10-28T23:37:46Z",
+          "title": "Iran blockade Archives - Global Trade Magazine",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92WkdkSUw1QkJCRHhjcGRRdzBZdTB5b2tYM0RUUDdhbGVzcVFHQXR6NzY3dGtkQWdsSHUwS08wRG8ybmRDNkxQWVpXQnFpQ2QzQzJ1SnVmRkhIZ1E3QUE?oc=5",
+          "publisher": "Global Trade Magazine",
+          "published_at": "2026-10-29T09:00:23Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -646,11 +645,11 @@
       ]
     },
     {
-      "id": "df670325e77b99",
-      "headline_claim": "الفلبين تجري محادثات مع السعودية لتخزين النفط على أراضيها - Howl.Link",
+      "id": "f6c94aa6be7747",
+      "headline_claim": "Oil prices rise as Houthi attack on Saudi refinery stokes supply disruption fears - Investing.com India",
       "discovered_via": "Regionale perspectieven",
       "other_search_labels": [
-        "Regionaal: Golfstaten / Arabisch"
+        "Regionaal: Pakistan"
       ],
       "publication_day": "2026-10-28",
       "publication_day_is_event_date": false,
@@ -658,8 +657,8 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 2,
       "publisher_names": [
-        "howl.link",
-        "الشرق الأوسط"
+        "investing.com",
+        "investing.com india"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -670,35 +669,35 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "الفلبين تجري محادثات مع السعودية لتخزين النفط على أراضيها - Howl.Link",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9lMjhOY1lZc1pCUTJTVDBzNjQxV0lRSFhiRjFtN1dVblRyUXpEdXNycnY2d2lkSldsNy1F?oc=5",
-          "publisher": "Howl.Link",
-          "published_at": "2026-10-28T13:56:55Z",
+          "title": "Oil prices rise as Houthi attack on Saudi refinery stokes supply disruption fears - Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdndxdW00eFRwVHpYZi1QWnVoRnRQX0doMWUwdFFRemh2QkNCc3BqRVhnMTJHTVNBbFNIOHVGVjhSeEdhNkhmS09BdXNOUEIxVGpQMThvWVRwSXJGdmNIRkhNVExiZk1vVkFpanFYMDJGbEp4Qng1QmZ0LXJFTm5OaFp6ZkZDaXRON1NMWGhGS3NtLWhoWkV3OC1MRjRLUFFNQVlhRnFDbl90S2JTWG9FaW5tM3BkdERPNVdWbDE0bVpQcmFhUjdWTUtybw?oc=5",
+          "publisher": "Investing.com India",
+          "published_at": "2026-10-28T21:54:38Z",
           "source_provider": "google_news_rss"
         },
         {
-          "title": "الفلبين تجري محادثات مع السعودية لتخزين النفط على أراضيها - الشرق الأوسط",
-          "url": "https://news.google.com/rss/articles/CBMilARBVV95cUxPNENwOUg3Tk5sWlVFX0VjQVlpbmprdkc2aWVCT1JPcjJtcFhUU2oyMnNWT2pjS1FCM0drWmRJc2d6VFR5OGptZHVPTUNCeG83NTRXUER4anpYNk8xVnlQcUg4c1BaYVNZWUVDSmNfX2g5ZEZpNlpqaHJCXzhZUmY3TmhUbHpUR0w1c2lxZGtIYjJxNGIweXFiTFM0d1dBcHR6M3NWeG1IaDE2ODdLTi1sNzZzRktsX04xMmg4M2ZJRk9UejFCVmhEdnIxX3VjLTd2eFl2YTUyYkVSdUZFMlMwTUdRb25KczljMnJPR0dUc1BfZ1E2VGVacjBWbnIwVGxfU2RYX3VSRDE0SGJvUE03WVZDQ1VFVjNrNTJRUi1TRnBIU255SlFYNHUtRjlVWmFrcDRreXBkaUZVdVlFYThkQWRRWUljY0JWLVZ6MURac1d0dHlTcmo5TzdoSlZsenhfaW9lYW1Gbm1KTndPRHdTZ2d0TC1YaDgxTFlLLXdnS1lJazJtSjRJM1RzdmNSQ2xPRUZDR2tnLV8wZzNYWGt2allvWmk4RnRYZnMwUFVlclBjRXpmMjJwdE1QUUl3YV9GekljSXBGa0JaTzJhS3h6bkx3X08xdFM4bGI3SEx0LXc4cWZhTWhWSVp5clBDTVlTbUYtN2RlajVHWnA4N1F6QVk0NGZRaWNCcjVGbDltRlRzWDZC?oc=5",
-          "publisher": "الشرق الأوسط",
-          "published_at": "2026-10-28T10:23:52Z",
+          "title": "Oil prices rise as Houthi attack on Saudi refinery stokes supply disruption fears - Investing.com",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcmt4cjAwb25Xd1FfZXNhX0FVdHNRQTBXZUJROUlaNl94RklwUGZIc0xTMXRKUFFDY25uMTNESUJ3a0RBZW5Dd3J1aGtZSmhQWWNnZjF6Wk9tVGVXWjIxYzdCbmhWUTA4WndBLXRUSTlXX0pOak0xTVgxRXFUai01dV9Jd0FDc3Rocm45R294SzBIbFVWZnpreXlIeXpBT2ZTb3BJc3BSTGROejJTRWxEZXFQWF9XSE1ZSW5xS2FrSTZmSWNBV09XaExHM2o?oc=5",
+          "publisher": "Investing.com",
+          "published_at": "2026-10-28T01:43:58Z",
           "source_provider": "google_news_rss"
         }
       ]
     },
     {
-      "id": "0516217f6756f6",
-      "headline_claim": "Saudi strike kills 12 in Yemen as Hormuz tensions escalate - www.daily-sun.com",
+      "id": "df7ea899cb4cc2",
+      "headline_claim": "US-Israel-Iran War Latest News: Explosions In Riyadh, Tanker Attack Near Strait Of Hormuz Raise Tensions - The Sunday Guardian",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
       ],
-      "publication_day": "2026-10-29",
+      "publication_day": "2026-10-30",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 2,
+      "article_count": 1,
       "publisher_names": [
-        "www.daily-sun.com"
+        "the sunday guardian"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -709,17 +708,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Saudi strike kills 12 in Yemen as Hormuz tensions escalate - www.daily-sun.com",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKam50SjZ2NE9VcnNsN0JTOHoxVWRVR3JhZXNWUW5KVjR3V3gwakFvSmZTNkFQOE9PcDZEalJPZHpQZXNDOFVyN2k1bTB2bGs?oc=5",
-          "publisher": "www.daily-sun.com",
-          "published_at": "2026-10-29T20:39:50Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "Saudi strike kills 12 in Yemen as Hormuz tensions escalate - www.daily-sun.com",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OZXdfQzFyMklkeFBYTWJ6U2pvT0JFNnBJZHBrSE1ZNWptbXpPdDhWbkFnWHU5WHJpZ2dNcEdyQW5SM25SVGxiSm1HVFFERXV1NVUwejRKRQ?oc=5",
-          "publisher": "www.daily-sun.com",
-          "published_at": "2026-10-29T18:00:00Z",
+          "title": "US-Israel-Iran War Latest News: Explosions In Riyadh, Tanker Attack Near Strait Of Hormuz Raise Tensions - The Sunday Guardian",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMjJ4Z1Y3UjlKTUNpVHc4MlZ1OWk1cFZQNTNVakszbnpSS0VKb2xOWVFvZ3lrQi1rejNSaGJKZ3A0emZadmoyc0o5eW42YnFuNWQtRllTbGw5UDR5WS1ic1NPeFBwNDRsY2RUeEs2MVdqamFKRzFtRDVabVV3TWtpNjR6OW8zM2lWcUVIMTZnckNtc2o2SUlzTnBoNkExMGhNN2hiclRRZVNFdkJnUVowOWlkWERYdTVkVnNLM3MwWktrb3prVTZGU1Z2WGlwVmZDdTJJc2U3WnMwTnJhWmFDUNIB5gFBVV95cUxNY1FHYVNlVlRmNXVmRzVyU1hkYmEyLUdXbURPTWdYeWZmRmZEODJEQy1adExsd3Uza0FlVkcwQnNvaTJQX0ptaUNKNGg1OTZSSUdZLTBXVTlNNDFQYm1takhKSmpCNHl3QnJicUYwNFYzazkxZ1hnQ28zcGtGT1NsbWhZNDE4VEczTEl0WDVodi1YOHBrc1ROYmluR0hLRUFvY2N2cUtISjJsVTBQNndiQmxsRE9SN3ZBSGh6QndRa1I2VjVDQ3pxazRXN19kNHkyc3RVTFFqV3p4T0JZX1pCU2E3RmJaZw?oc=5",
+          "publisher": "The Sunday Guardian",
+          "published_at": "2026-10-30T06:28:52Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -791,19 +783,21 @@
       ]
     },
     {
-      "id": "f1753269f05c57",
-      "headline_claim": "Dow closes down 400 points as Iran war escalates - ABC News - Breaking News, Latest News and Videos",
+      "id": "93b1476d137c26",
+      "headline_claim": "Oil Markets Brace for a New Iran Escalation After U.S. Midterms - Crude Oil Prices Today | OilPrice.com",
       "discovered_via": "Financiële markten",
       "other_search_labels": [
+        "Energie & grondstoffen",
         "Financiële markten"
       ],
       "publication_day": "2026-10-27",
       "publication_day_is_event_date": false,
       "editorial_priority": "middel",
       "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "article_count": 1,
+      "article_count": 2,
       "publisher_names": [
-        "abc news - breaking news, latest news and videos"
+        "crude oil prices today | oilprice.com",
+        "yahoo finance"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -814,10 +808,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Dow closes down 400 points as Iran war escalates - ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMkFUenVoTTVFVzhBNGJvWmpKR2MwWFlCcS10dDFTelFMWFJ5VzRmcVZSQTRNYlVUTkc3YlM2MHdDYmc1QkRzRE1GRExkMVJSZ3o3MDNGbUJzTjlZZ3QySWJxU0wzXy1aX1hqQzREVlpwc0l3Nk11OXZwOFoxU0pURVdQLUl1MzBUYjZxeVUzdk1yUdIBlwFBVV95cUxPcVBkajFmQmxHUGJCMXBLYTFXdEZNVHFId2FTWDVQMzcyLUdHdHNRdGlHMDF4YlM4dWlsU0xISFpPdXBMdTFBVDJ0N09FTkc2cGFQNlVLRmFaSHYzLTJad3VwRmhrc21rNmVsRWhtWEVTS05lN3lWR0ZJVGNQcktfb0JWLU1nV2I4WF93eWxoLWhNdmtNTGR3?oc=5",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "published_at": "2026-10-27T13:51:49Z",
+          "title": "Oil Markets Brace for a New Iran Escalation After U.S. Midterms - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUGxoVXJBT0t6S1ZEbnMtRUFNN2d4eEZLdzlzUkcxNTQwa0UyNVNQcjJyV1k3UGk0bnNLeEVOTXRDUXFpZ3lmMnlObFU5WFhkdHdyUFMtSUk3VENmampXZTdsWDlMVy04SHQxcFlvU01XRzZqemVGam5XWnczWUFiWXItUnRyVDFNSGdKYk1pTG9ENDc2V18zUmNac3haUl9wMzBCYUtsU3lMbVdK0gGsAUFVX3lxTE1QbGhVckFPS3pLVkRucy1FQU03Z3h4Rkt3OXNSRzE1NDBrRTI1U1ByMnJXWTdQaTRuc0t4RU5NdENRcWlneWYyeU5sVTlYWGR0d3JQUy1JSTdUQ2ZqaldlN2xYOUxXLThIdDFwWW9TTVdHNmp6ZUZqbldadzNZQWJZci1SdHJUMU1IZ0piTWlMb0Q0NzZXXzNSY1pzeFpSX3AzMEJhS2xTeUxtV0o?oc=5",
+          "publisher": "Crude Oil Prices Today | OilPrice.com",
+          "published_at": "2026-10-27T16:37:35Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Oil Markets Brace for a New Iran Escalation After U.S. Midterms - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRTVBbjA0QmEtNjNzOVYyandHSUxhbUl1TldRT1ZqX0U3X2RvUDRyZkZMNkFrbHZzQmpQMjRRclUyNk9nb2NzbDgzX2dFb2tOOWFEY2JaaU1KLTNKNUJvTjcyd3ZFUE1PWGhKSUhuZE9EdWppTXZGUkhnVGpna2hIQm4yV25ENzhYR2xGVWRoQldYdVEy?oc=5",
+          "publisher": "Yahoo Finance",
+          "published_at": "2026-10-27T16:37:35Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -856,8 +857,8 @@
       ]
     },
     {
-      "id": "dc5a8cc3ff55be",
-      "headline_claim": "“Inventories at Rock Bottom Despite Higher Oil Output”: Shipping Disruptions in Hormuz and the Red Sea Threaten Global Energy Supply Chains, Intensify Western Inflation Pressures - https://economy.ac/",
+      "id": "74a4612f792db1",
+      "headline_claim": "US military rejects Iranian mine-strike claims, says Hormuz transit lanes remain 'clear' - Gulf News",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
         "Wereldhandel & logistiek"
@@ -868,7 +869,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "https://economy.ac/"
+        "gulf news"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -879,10 +880,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "“Inventories at Rock Bottom Despite Higher Oil Output”: Shipping Disruptions in Hormuz and the Red Sea Threaten Global Energy Supply Chains, Intensify Western Inflation Pressures - https://economy.ac/",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zbXJyX01qdzFYQTQ2bG9Ha2N3WlF4V2JaUnAtai0xdkFTbkhhVURLVDJPM0R0RUdIUmJGYURaM2E4MFo4SFcwTFVBckZRbWQ1VTFockRscw?oc=5",
-          "publisher": "https://economy.ac/",
-          "published_at": "2026-10-28T21:13:12Z",
+          "title": "US military rejects Iranian mine-strike claims, says Hormuz transit lanes remain 'clear' - Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQczNVaVUyc1NFcnhPVFJQWXAyX1hfYnRVUnB5RmJmbDdEQXBKTmUxb0xEby1BWDJMQkIwQTJoRmRzenMxX1A3S1pVazFJNTNJbER2OExIU3lGWVJSbW5VM3Qtdm12cFBMM0xZOW02VDAydEw3dUxVTFBoS3dqM216WUprR2dXNFRoUG9STnIwcnRQMXJJeFJtQUtEZWxEbDJqelUxdkRyN1Y5ZmR3VXlVZVpFQUN0X2xZUXJFbXVaNUJfZUlBUVJFQg?oc=5",
+          "publisher": "Gulf News",
+          "published_at": "2026-10-28T23:37:46Z",
           "source_provider": "google_news_rss"
         }
       ]

@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-30T01:11:54.322258Z",
+  "last_attempt_utc": "2026-10-30T07:09:37.549975Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -1175,6 +1175,86 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-30T01:11:53.322086Z"
+    },
+    "daf1ac41c2bf85": {
+      "id": "daf1ac41c2bf85",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "other",
+      "summary_nl": "De kop meldt een update over vertragingen en annuleringen van vluchten in de VAE.",
+      "claimed_event_nl": "",
+      "reason_nl": "Deze informatie heeft geen directe impact op de geopolitieke situatie in de Golfregio.",
+      "limitations_nl": "De kop bevat geen relevante claims over escalatie of economische gevolgen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-30T07:09:36.549681Z"
+    },
+    "a4198daea88f3c": {
+      "id": "a4198daea88f3c",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran beweert dat vier tankers mijnen hebben geraakt in de Straat van Hormuz, wat de vrees voor een militaire aanval vergroot.",
+      "claimed_event_nl": "Iran claims four tankers struck mines in Hormuz.",
+      "reason_nl": "Deze claim kan leiden tot verhoogde spanningen in de regio en heeft implicaties voor de veiligheid van scheepvaart en olieprijzen.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-30T07:09:36.549708Z"
+    },
+    "eb57ba5df6c390": {
+      "id": "eb57ba5df6c390",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen stijgen naar $120 door speculaties over mogelijke nieuwe aanvallen van Trump op Iran.",
+      "claimed_event_nl": "Oil prices surge towards $120 as Trump weighs fresh Iran strikes.",
+      "reason_nl": "De stijgende olieprijzen kunnen economische gevolgen hebben en wijzen op een verhoogde spanning in de regio.",
+      "limitations_nl": "De informatie is gebaseerd op speculatie en niet op bevestigde gebeurtenissen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-30T07:09:36.549716Z"
+    },
+    "f6c94aa6be7747": {
+      "id": "f6c94aa6be7747",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De olieprijzen stijgen door een Houthi-aanval op een Saudische raffinaderij, wat zorgen over verstoringen in de aanvoer oproept.",
+      "claimed_event_nl": "Oil prices rise as Houthi attack on Saudi refinery stokes supply disruption fears.",
+      "reason_nl": "Deze gebeurtenis kan leiden tot economische gevolgen en verhoogde spanningen in de regio.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-30T07:09:36.549723Z"
+    },
+    "df7ea899cb4cc2": {
+      "id": "df7ea899cb4cc2",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Er zijn explosies in Riyad en een aanval op een tanker nabij de Straat van Hormuz, wat de spanningen verhoogt.",
+      "claimed_event_nl": "Explosions In Riyadh, Tanker Attack Near Strait Of Hormuz Raise Tensions.",
+      "reason_nl": "Deze gebeurtenissen kunnen leiden tot een escalatie van het conflict in de regio.",
+      "limitations_nl": "De informatie is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-30T07:09:36.549729Z"
     }
   },
   "usage_by_day": {
@@ -1187,8 +1267,8 @@
       "total_tokens": 8670
     },
     "2026-10-30": {
-      "requests": 1,
-      "total_tokens": 1318
+      "requests": 2,
+      "total_tokens": 2985
     }
   }
 }
