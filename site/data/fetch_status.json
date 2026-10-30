@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-10-30T17:33:45.205384Z",
+  "last_attempt_utc": "2026-10-30T18:56:09.231531Z",
   "sources": {
     "google_news_rss": {
       "ok": 12,
@@ -13,42 +13,42 @@
   "profiles": {
     "military": {
       "status": "ok",
-      "articles": 45,
-      "new": 8
+      "articles": 23,
+      "new": 0
     },
     "diplomacy": {
       "status": "ok",
-      "articles": 23,
-      "new": 4
+      "articles": 38,
+      "new": 5
     },
     "government": {
       "status": "ok",
-      "articles": 14,
+      "articles": 13,
       "new": 1
     },
     "markets": {
       "status": "ok",
-      "articles": 5,
-      "new": 1
+      "articles": 8,
+      "new": 3
     },
     "energy": {
       "status": "ok",
-      "articles": 55,
-      "new": 14
+      "articles": 33,
+      "new": 1
     },
     "trade": {
       "status": "ok",
-      "articles": 9,
+      "articles": 12,
       "new": 1
     },
     "business": {
       "status": "ok",
-      "articles": 5,
+      "articles": 6,
       "new": 0
     },
     "economy": {
       "status": "ok",
-      "articles": 3,
+      "articles": 4,
       "new": 0
     },
     "iran-fa": {
@@ -58,36 +58,36 @@
     },
     "china-zh": {
       "status": "ok",
-      "articles": 10,
-      "new": 0
+      "articles": 25,
+      "new": 5
     },
     "pakistan-en": {
       "status": "ok",
-      "articles": 49,
-      "new": 22
+      "articles": 28,
+      "new": 4
     },
     "gulf-ar": {
       "status": "ok",
-      "articles": 18,
-      "new": 3
+      "articles": 19,
+      "new": 2
     },
     "gdelt-iran": {
       "status": "error",
-      "error": "HTTP 429 Too Many Requests",
+      "error": "URLError: <urlopen error timed out>",
       "articles": 0
     },
     "gdelt-hormuz": {
       "status": "error",
-      "error": "HTTP 429 Too Many Requests",
+      "error": "Missing GDELT articles list",
       "articles": 0
     }
   },
   "errors": {
-    "gdelt-iran": "HTTP 429 Too Many Requests",
-    "gdelt-hormuz": "HTTP 429 Too Many Requests"
+    "gdelt-iran": "URLError: <urlopen error timed out>",
+    "gdelt-hormuz": "Missing GDELT articles list"
   },
-  "new_urls": 54,
-  "retained_urls": 1253,
+  "new_urls": 22,
+  "retained_urls": 1275,
   "queries_ok": 12,
   "queries_total": 14,
   "status": "partial"
