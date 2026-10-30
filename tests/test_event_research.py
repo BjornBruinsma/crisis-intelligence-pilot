@@ -27,6 +27,21 @@ class TestOfficialSources(unittest.TestCase):
         self.assertTrue(sources.valid_official_url("https://en.mfa.ir/"))
         self.assertFalse(sources.valid_official_url("https://en.mfa.ir.example.com/fake"))
         self.assertFalse(sources.valid_official_url("https://mofa.gov.pk.attacker.org/press-releases"))
+    def test_alternate_diplomatic_sources_are_official_allowlisted(self):
+        urls={item[0]:item[2] for item in sources.SOURCES}
+        self.assertTrue(sources.valid_official_url(urls["pakistan_un_mission"]))
+        self.assertTrue(sources.valid_official_url(urls["china_un_spokesperson"]))
+        self.assertFalse(sources.valid_official_url("https://pakun.org.attacker.example/fake"))
+        self.assertFalse(sources.valid_official_url("https://un.china-mission.gov.cn.attacker.example/news"))
+    def test_china_spokesperson_index_links_are_retained_as_locators_only(self):
+        item=("china_un_spokesperson","China UN mission",
+              "https://un.china-mission.gov.cn/eng/fyrth/","official_listing")
+        html=b'<html><body><a href="/eng/fyrth/202610/t20261030_123456.html">Foreign Ministry Spokesperson Regular Press Conference October 30 2026</a></body></html>'
+        result=sources.parse_document(item,html)
+        self.assertEqual(len(result["links"]),1)
+        self.assertEqual(result["passages"],[])
+        self.assertIn("un.china-mission.gov.cn",result["links"][0]["url"])
+
     def test_unreachable_official_source_records_error_not_no_news(self):
         from unittest.mock import patch
         target=("iran_mfa","Iran MFA","https://en.mfa.ir/","official_listing")
