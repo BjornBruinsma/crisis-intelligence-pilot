@@ -50,12 +50,17 @@ SOURCES=[
  ("uae_mofa","United Arab Emirates Ministry of Foreign Affairs",
   "https://www.mofa.gov.ae/en","official_listing"),
  ("iran_mfa","Islamic Republic of Iran Ministry of Foreign Affairs",
-  "https://en.mfa.ir/","official_listing")
+  "https://en.mfa.ir/","official_listing"),
+ ("pakistan_un_mission","Permanent Mission of Pakistan to the United Nations",
+  "https://pakun.org/","official_listing"),
+ ("china_un_spokesperson","Permanent Mission of China to the United Nations",
+  "https://un.china-mission.gov.cn/eng/fyrth/","official_listing")
 ]
 TRUSTED_HOSTS={"www.centcom.mil","centcom.mil","www.gov.uk","gov.uk",
                "travel.state.gov","www.imo.org","imo.org","mofa.gov.pk",
                "www.fmprc.gov.cn","fmprc.gov.cn","www.mofa.gov.pk","home.treasury.gov",
-               "www.eia.gov","eia.gov","www.mofa.gov.ae","mofa.gov.ae","en.mfa.ir"}
+               "www.eia.gov","eia.gov","www.mofa.gov.ae","mofa.gov.ae","en.mfa.ir","pakun.org",
+               "www.pakun.org","un.china-mission.gov.cn"}
 KEYWORDS=("iran","saudi","israel","gulf","kuwait","bahrain","qatar",
           "hormuz","iraq","united arab emirates","united states",
           "middle east","evacuat","strike","military","warning","embassy",
@@ -156,7 +161,7 @@ def parse_document(item,raw):
     matches=[x for x in parser.chunks if relevant(x)]
     doc["passages"]=matches[:40]
     matches_links=[x for x in parser.links if relevant(x["title"]) or (
-        item[0]=="china_mofa" and
+        item[0] in ("china_mofa","china_un_spokesperson") and
         ("Press Conference" in x["title"] or "Spokesperson" in x["title"]))]
     seen=set()
     for x in matches_links:
