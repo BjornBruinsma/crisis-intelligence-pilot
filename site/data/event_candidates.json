@@ -1,26 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-10-30T18:57:34.438954Z",
-  "fingerprint": "08e9fdd0f10d0e380b8730b0",
-  "status": "daily_limit_cached",
+  "last_attempt_utc": "2026-10-31T01:11:06.046024Z",
+  "fingerprint": "c35fdc82a85f6540e21b9a60",
+  "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 23,
-  "event_candidate_count": 21,
-  "clustering_method": "previous_valid_grouping_cached",
+  "input_candidate_count": 24,
+  "event_candidate_count": 22,
+  "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 0,
-    "accepted_pair_connections": 0,
-    "rejected_pair_proposals": 0,
-    "multi_claim_groups": 0,
-    "claims_in_multi_groups": 0,
+    "model_pair_proposals": 5,
+    "accepted_pair_connections": 2,
+    "rejected_pair_proposals": 3,
+    "multi_claim_groups": 2,
+    "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 0,
+    "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
-    "independent_auditor_ran": false
+    "unreviewed_pair_proposals": 0,
+    "veto_examples": [],
+    "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-10-30T17:35:03.798227Z",
+    "recorded_at": "2026-10-31T01:11:06.046024Z",
     "groups": [
       {
         "ids": [
@@ -35,9 +37,9 @@
       },
       {
         "ids": [
-          "fc9a61946c55ac"
+          "a5165d8d010bfe"
         ],
-        "label_nl": "Claim: Saudi Arabia Offers $1 Billion to Houthis for Peace, Asim Munir in Talks - English Bombay Samachar",
+        "label_nl": "Claim: Qatari officials visit Iran to help restore US ceasefire deal - People Daily",
         "actor": "",
         "action": "",
         "place": "",
@@ -47,7 +49,7 @@
       {
         "ids": [
           "0369b08f4c7641",
-          "7fff0fa21b2470"
+          "a4df1b157b716d"
         ],
         "label_nl": "Claim: Houthis strike Yemen's Aden airport after evacuation warning - Japan Today",
         "actor": "",
@@ -80,10 +82,10 @@
       },
       {
         "ids": [
-          "b038ec52d6c1c7",
+          "9e0b5274526ffb",
           "fb54937937d5bd"
         ],
-        "label_nl": "Claim: Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper",
+        "label_nl": "Claim: IRGC says two oil tankers halted, caught fire in Strait of Hormuz - Rudaw",
         "actor": "",
         "action": "",
         "place": "",
@@ -95,6 +97,105 @@
           "d9451ee625ae52"
         ],
         "label_nl": "Claim: Escorts Kubota hikes tractor prices as Middle East war fuels cost pressures - The Economic Times",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "2030c89841a1ba"
+        ],
+        "label_nl": "Claim: Oil falls as traders weigh Iran diplomacy against renewed strike risks - Investing.com Australia",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "7b55a47781780f"
+        ],
+        "label_nl": "Claim: Pakistan Signals Iran De-escalation as Hormuz Attack Disrupts Tanker - SuaraGarut.ID",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "07c8151bbcbe2c"
+        ],
+        "label_nl": "Claim: Qatari Delegation Holds Tehran Ceasefire Talks - Oz Arab Media",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "9020395117d6a9"
+        ],
+        "label_nl": "Claim: US tells all non-emergency staff to leave Saudi Arabia as Houthis step up attacks - AOL.com",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "eb57ba5df6c390"
+        ],
+        "label_nl": "Claim: Oil prices surge towards $120 as Trump weighs fresh Iran strikes: what's next? - Invezz",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "bb8f23b7bf743e"
+        ],
+        "label_nl": "Claim: Oil Headed For 14% Monthly Increase As Limpet Mines Added To Escalating Middle East Attacks - Ship & Bunker",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "b038ec52d6c1c7"
+        ],
+        "label_nl": "Claim: Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "7fff0fa21b2470"
+        ],
+        "label_nl": "Claim: Houthis strike Aden airport - The Express Tribune",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "fd5604746d46f6"
+        ],
+        "label_nl": "Claim: World Bank forecasts 23% commodity price surge as Middle East war disrupts supply - Nation Thailand",
         "actor": "",
         "action": "",
         "place": "",
@@ -125,9 +226,9 @@
       },
       {
         "ids": [
-          "a5165d8d010bfe"
+          "31a6cebdb6cdea"
         ],
-        "label_nl": "Claim: Qatari officials visit Iran to help restore US ceasefire deal - People Daily",
+        "label_nl": "Claim: Qatari officials in Iran in bid to revive ceasefire deal with US - Al Jazeera",
         "actor": "",
         "action": "",
         "place": "",
@@ -139,17 +240,6 @@
           "46c1e26c521d89"
         ],
         "label_nl": "Claim: Saudi Arabia capital Riyadh blitzed in huge attack as explosions reported - AOL.ca",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "eb57ba5df6c390"
-        ],
-        "label_nl": "Claim: Oil prices surge towards $120 as Trump weighs fresh Iran strikes: what's next? - Invezz",
         "actor": "",
         "action": "",
         "place": "",
@@ -177,124 +267,48 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "fd5604746d46f6"
-        ],
-        "label_nl": "Claim: World Bank forecasts 23% commodity price surge as Middle East war disrupts supply - Nation Thailand",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "2030c89841a1ba"
-        ],
-        "label_nl": "Claim: Oil falls as traders weigh Iran diplomacy against renewed strike risks - Investing.com Australia",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "5a58a9cbd68ec6"
-        ],
-        "label_nl": "Claim: Qeshm Island hit by explosions as Iran reports naval base attack - The Siasat Daily",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "07c8151bbcbe2c"
-        ],
-        "label_nl": "Claim: Qatari Delegation Holds Tehran Ceasefire Talks - Oz Arab Media",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "461faf97dea7ca"
-        ],
-        "label_nl": "Claim: US warns allies to prepare for possible Iran strikes, retaliation after elections, AP sources say - AsiaOne.com",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "01af8ebcba76bf"
-        ],
-        "label_nl": "Claim: NOT OUT OF THE WOODS YET: Iran Ceasefire Provides Hope, But Physical Oil Markets to Remain Stressed: Russell - EnergyNow.com",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "d4fe6aedc4e3e6"
-        ],
-        "label_nl": "Claim: Houthi missile fell in Aden airport perimeter before evacuation order: Police - LBCI Lebanon",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       }
     ],
     "input_claim_ids": [
       "c923bb35e4ea0d",
-      "fc9a61946c55ac",
+      "a5165d8d010bfe",
       "0369b08f4c7641",
       "38c78cdaad534a",
       "b6ef394c031261",
+      "9e0b5274526ffb",
+      "a4df1b157b716d",
+      "d9451ee625ae52",
+      "2030c89841a1ba",
+      "7b55a47781780f",
+      "07c8151bbcbe2c",
+      "9020395117d6a9",
+      "eb57ba5df6c390",
+      "bb8f23b7bf743e",
       "b038ec52d6c1c7",
       "7fff0fa21b2470",
-      "d9451ee625ae52",
+      "fd5604746d46f6",
       "3ed4dd805d05b6",
       "e9a12a4d43dfb3",
-      "a5165d8d010bfe",
+      "31a6cebdb6cdea",
       "46c1e26c521d89",
-      "eb57ba5df6c390",
-      "49a75e6288e2f3",
-      "e78cc32b237f4b",
-      "fd5604746d46f6",
-      "2030c89841a1ba",
-      "5a58a9cbd68ec6",
-      "07c8151bbcbe2c",
-      "461faf97dea7ca",
       "fb54937937d5bd",
-      "01af8ebcba76bf",
-      "d4fe6aedc4e3e6"
+      "49a75e6288e2f3",
+      "e78cc32b237f4b"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "f1cb4a5e189da2ecb5368dec",
+      "id": "4405f50a8f20a4dee31138ec",
       "label_nl": "Claim: Houthis strike Yemen's Aden airport after evacuation warning - Japan Today",
       "headline_claim_ids": [
         "0369b08f4c7641",
-        "7fff0fa21b2470"
+        "a4df1b157b716d"
       ],
       "headline_claims": [
         "Houthis strike Yemen's Aden airport after evacuation warning - Japan Today",
-        "Houthis strike Aden airport - The Express Tribune"
+        "Houthi attack on Aden airport puts vital humanitarian access at risk - Middle East Online"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWWxnekFvZWdQb2dkaXZYVVprOUNsYW1pdUJCSEFyeUhob01QVXVrVjFsTnRxdGFwNGZSZHo1OXhyTmFWTjlLdktWSXJiVGg0aHpFcTJocDVERmtxTkhFMXE1TFZVZEdVLV90R01aLWRKV0kzQTNkOUIzZktuWU5POVZYckdWV2RMcjBwWTlCRnpZZk1XdVl1WU5WcXZERFl0?oc=5",
@@ -302,7 +316,7 @@
         "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWktallhRGk5Y3p6WmxxWktmYm5sVm5fUlRlWmE3S0t4ZE05QzNxRGFFanQ3c3pTSHpjZ1IzcDY2RUlSSlhaTjFENVExUzJ2Q0UxOGxieGlWZDVadnVsd3N0M0dBWjIxYUcwUGNfQlNVQW0wQjYyUFVubDgwY2JZV3BKa3JHRExXNW00T3lRWDVxLUJwRWVLay1HUjVVcU5wTU5xWlY5dGFxSFE?oc=5",
         "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56aG4yY05aVjJZMFEzdWduQXhieEVkYXBPUzQ0aURGdVlzeldfRHZETkZvTklBU3JJaG9aWm9UMlh4cGV1c2VBT3pKUmJrbnFkRHdpQ2xZbmkzQjR1M0lVX1FVeF90THdz?oc=5",
         "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQjI0RDB2TkZhaDQzcGEzbDlyV2xic2dRMWlLQUVZR1FwN1NxbFZENmlsdUYtZ2I2dEZuaWhGbjVWRWZvaTBob0g3cTZkZGdydVNneXFFUmcySWJyNGNPejkwbm12Vll6aVp3UWFEWXhYSTZQbl9yMW9DY3FJaTgzbU5hSjRzSldzdUFMbF96elNNLXMtX29uWmxaU2xobXkwekJxeEdCSklsUzg?oc=5",
-        "https://news.google.com/rss/articles/CBMickFVX3lxTE5HM0VSQlFXel83eEdhRVZyX1lrMHY0ZXRXVHNieXpNblVTYUhZd1RybmxYSjN1aGxkSmYtQVlsdEtxTEpzc3V3eURJVUFzQ2k4YkdISnVZN05obHdhV1dFSFNITEhIQ2MxdkVQaXk0Qkt4QdIBekFVX3lxTE1hVnZoSGVfZzRFbGZOWFUtTlU1bHRyMF9rMEwwRWt3LUxjc2FJLTFYbnRTbERYbHpibXJZcEdFUVJNRURmR2FUd3V6dzlZNmJDRjhUZlB4dEp0d1RHQTBHZUJoQk1WRm9GY1BiWFpmVWVHTE9ZREp0cXZn?oc=5"
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbGRVZlltWm9VM1BweXhTMmN6TUxTUi1Jd1RQcUZUemZWRUgzZU9NQTFCRzZGeTRacEZRNUtWN1R5Z1hzNVpMeWJfRElvTzItVjk1ZWtOQi1jWEVwWkxNYkVOTjhnYkNTQnNHM0w4UERCc3pHNlI5YWVLYkVzV28ybElSdVpaQXNseFp3WXRWY0F2TDZEckt4aWprMVc?oc=5"
       ],
       "article_group_count": 2,
       "news_url_count": 6,
@@ -319,18 +333,18 @@
       "probability_estimate": null
     },
     {
-      "id": "77d85b7313793607f5bc93eb",
-      "label_nl": "Claim: Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper",
+      "id": "a4b93f42a5bd74d588604942",
+      "label_nl": "Claim: IRGC says two oil tankers halted, caught fire in Strait of Hormuz - Rudaw",
       "headline_claim_ids": [
-        "b038ec52d6c1c7",
+        "9e0b5274526ffb",
         "fb54937937d5bd"
       ],
       "headline_claims": [
-        "Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper",
+        "IRGC says two oil tankers halted, caught fire in Strait of Hormuz - Rudaw",
         "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears - Yahoo Finance"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTNnQ3Y1akoyaVlCS0ZEal9jS292Tkg0Qmc5LVBRaGxPYTJsc3E0dnVZRFFEckY5VEdSbVp0VmR6S2JTNExacng3MnVZSlNoS3FFcVdvSUk2Mm5FVDBaZlM2cmtveVdCenBpSTlsejJEbXFmaWJ0eTRLWlB1c21OTUVpN1NQU0hDZnI1ejBWSnQzeXg3Q0tGVEdjTjdjUG5feWY0VjRsNUNUcjB3eTBF?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zODVLZi1rR1RVYkJSLWRwV1JDM1h3UWJ1NlZsU29uVzA3b3Y0M3RjWDMtOHk2NUIteGJsUnl6SW8tMlNRdHpwM1VWS0tRZE56d0NfRTNMZmR5Z3pzVVE?oc=5",
         "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUV9EM2FZVmIzdTU2YVE1YjZEbmZVZlJhV2hhV0VxbGxORnFCRWw0Y0xuazVkWDJSMHhJTm1qRlN1N0ZKOHV4YVpnUW5pQ19TT2FrM1MyVTBmeWtqVHBXTnMwQk9PRE4xWXl2UWVUZUowX1gtNzZaUzI1VGlOUmJCdkVJNTFoOHdZbHVONnV5dw?oc=5"
       ],
       "article_group_count": 2,
@@ -363,6 +377,58 @@
       ],
       "article_group_count": 1,
       "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "9334f7563f948ef39a57fe53",
+      "label_nl": "Claim: US tells all non-emergency staff to leave Saudi Arabia as Houthis step up attacks - AOL.com",
+      "headline_claim_ids": [
+        "9020395117d6a9"
+      ],
+      "headline_claims": [
+        "US tells all non-emergency staff to leave Saudi Arabia as Houthis step up attacks - AOL.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE84cjEyZXRFejFtRzlENWdKOTdjMEcyNTFXM2h4TDUyVm1vcUFseUVRdU85YUZBbkNmTkVDUnRMV243OTI2d3dfcjlRelhsWHU4OExiTC05Zk9DeDJ2RVkxcDIzNEEwd2loR0lWNU5uUkRHanU0Z0t2UHA4bEVQZ2s?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "2675daa85ab025d6b99c9208",
+      "label_nl": "Claim: World Bank forecasts 23% commodity price surge as Middle East war disrupts supply - Nation Thailand",
+      "headline_claim_ids": [
+        "fd5604746d46f6"
+      ],
+      "headline_claims": [
+        "World Bank forecasts 23% commodity price surge as Middle East war disrupts supply - Nation Thailand"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RcjJaWjFkMkhvNVl2WGNCbUEwSkJJX0hxLXVva01JeW1kTTc3X0Fxc0RJOHhTS19ETGtHTXdmY2o5NnBWQ0xRbXhFOWc5Q3FPYl83MFNWYnpPVDVQX0p3?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -428,125 +494,19 @@
       "probability_estimate": null
     },
     {
-      "id": "2675daa85ab025d6b99c9208",
-      "label_nl": "Claim: World Bank forecasts 23% commodity price surge as Middle East war disrupts supply - Nation Thailand",
+      "id": "c43a0bb3dbeb17f421cf6a90",
+      "label_nl": "Claim: Qatari officials visit Iran to help restore US ceasefire deal - People Daily",
       "headline_claim_ids": [
-        "fd5604746d46f6"
+        "a5165d8d010bfe"
       ],
       "headline_claims": [
-        "World Bank forecasts 23% commodity price surge as Middle East war disrupts supply - Nation Thailand"
+        "Qatari officials visit Iran to help restore US ceasefire deal - People Daily"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RcjJaWjFkMkhvNVl2WGNCbUEwSkJJX0hxLXVva01JeW1kTTc3X0Fxc0RJOHhTS19ETGtHTXdmY2o5NnBWQ0xRbXhFOWc5Q3FPYl83MFNWYnpPVDVQX0p3?oc=5"
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWHc2QVRXLS0tMnVzNmszd1JPS3dhOFczTWFuTDJIMlp5ZEY3VVMzTG1MNmlwN2V5Z3NfX3NzampVbFpUc2pYWjVSNWs3bjRIdFRldmxGeU90QmVEWUEwRmViSU40SDlxWkZQTnRacUw4RzFkVkNkT3FhWWltMnhoQl8zQjF5eU55RkhFb0w3YzVDUW9yQk12cVRn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "d9d2b32e7d19916be0888340",
-      "label_nl": "Claim: Qeshm Island hit by explosions as Iran reports naval base attack - The Siasat Daily",
-      "headline_claim_ids": [
-        "5a58a9cbd68ec6"
-      ],
-      "headline_claims": [
-        "Qeshm Island hit by explosions as Iran reports naval base attack - The Siasat Daily"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOEJyTUtHbEtJczMwU2NwZUx3enhXVFE3WWd5SjVpU2RpOTJMNUtWWkNfZFVRSmlOcnJyclFkQ196dVZtbGlZOEM4UXp3RThXWGplcVlhWFFadTZraXktb1JoU2hQOWlVNFphSy1sNjVwMjY4R1Y0TnFidFd6WnlKQlpJOFdSdklSWEJ6M1V6Yllna2phZ3ZGaWUxTEXSAaIBQVVfeXFMTnY5V2xOMnZzTFpZb2x3Rk95Xzdoa0hpcHdrekRJLXhSSVJZb3BZaTJmMjV4Q2RNWndVOFRPaGdSdXRMYVdsbFhhdkVDYnFOVlRHaU5PcjFPcGh5UEpiY3RQZ2lGSlQ3LVhhYXhnSm1DSjB6NFlFWG5wdTZUU0JYQ08wdmxJTUVBUmM5MHZFaUxINlpYQ3RMckR2R1VKWTE1NUZ3?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "04d5e7e35fb81919e5477a48",
-      "label_nl": "Claim: US warns allies to prepare for possible Iran strikes, retaliation after elections, AP sources say - AsiaOne.com",
-      "headline_claim_ids": [
-        "461faf97dea7ca"
-      ],
-      "headline_claims": [
-        "US warns allies to prepare for possible Iran strikes, retaliation after elections, AP sources say - AsiaOne.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcXdIaC10U1ZQWGRWbVFkRkxFcGluSlJtSXlZclFsUDhWNHFRazAyTzEtX09iemYxNmlBenBmeFpmVHN0aVhUaS1XeVd0TXpGSkJ3TFRhVWdvV1cweDNmMDgwV1ljMW5QaVRmVy05Mjhrc0ROencwdHRHNzJGYUJieTNPdVNBMnRuV04yUVFkaDBwNGdzR3VhdVVpNWlMR09POFdQdG9CRUlBR1RaYi02UE80S2JROTNFdGc?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "439ac0c58f79eabfff5f81b9",
-      "label_nl": "Claim: Houthi missile fell in Aden airport perimeter before evacuation order: Police - LBCI Lebanon",
-      "headline_claim_ids": [
-        "d4fe6aedc4e3e6"
-      ],
-      "headline_claims": [
-        "Houthi missile fell in Aden airport perimeter before evacuation order: Police - LBCI Lebanon"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNekNsNnlOeEx4WHFEcFB1RjcxWVQzVXE4c256aUhWaEh6cjNRUlVNV3cxdUJnb1RFdUpZQktlclJnUUtEVlJaYUxPYjI1UTRmaXNtR0hZM1hZRC1SWDBfMmFNR2lmYkgwbGVEbWRESDhTbnVXTlNlSk5JdmJTZ3MtTFF2WWN1X1NmMlJxTkxTREdvaGZ5Xzk1TEt3cFRIZ0c3OV9BRDFhQUM5eS02VU9GSFBYcWs1LVBOdGx6Ym8xZW8?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "9de85fd9af73f742683aa6a0",
-      "label_nl": "Claim: Saudi Arabia Offers $1 Billion to Houthis for Peace, Asim Munir in Talks - English Bombay Samachar",
-      "headline_claim_ids": [
-        "fc9a61946c55ac"
-      ],
-      "headline_claims": [
-        "Saudi Arabia Offers $1 Billion to Houthis for Peace, Asim Munir in Talks - English Bombay Samachar"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLWNjVUU1dmp4eU1kUnpHZy1PTktUSWdDRDl4aExKVWQ3RjA0MVpWTmlVc3o0NGZISG5XejlwYTJEWVZKTHJhdF81T0t5SG5UejgtNllOT2pmc0pFb0VGOE5TcU1BdHRnYjBmX1RZTlJycmxGN2ZJcHpiN1lWS1FxY2ZaaWFJT0dTZ2dkZ3ZVdTN2R0wxVDlKdUdlU2VGVDJCMkhMRTM1bU9Bc2dFb3BDN28tbVhUME0?oc=5",
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS0puRXBqYXVHeTc3STQwN3ViN0RwRUJLY3BrNG9LRFJiTmtpaDNhbmFMTWlGMTFFUlVPb2VJMTNrMnJBMDlLSzdYVkd0OXlrMWxGOC1jdVpOSEVHS1FiQk1XRXFqNDJSX2JfZjNQZ1BCc3RBWXBjWE5semxnanc4WUNkRTZZWTBUZDBTWHJOMnJFTUdENnp4Qk9kU0VRMEZKNlQwcGNKN0lkVVJHY0YwSVRLQWLSAbQBQVVfeXFMT0tKbkVwamF1R3k3N0k0MDd1YjdEcEVCS2NwazRvS0RSYk5raWgzYW5hTE1pRjExRVJVT29lSTEzazJyQTA5S0s3WFZHdDl5azFsRjgtY3VaTkhFR0tRYkJNV0VxajQyUl9iX2YzUGdQQnN0QVlwY1hObHpsZ2p3OFlDZEU2WVkwVGQwU1hyTjJyRU1HRDZ6eEJPZFNFUTBGSjZUMHBjSjdJZFVSR2NGMElUS0Fi?oc=5",
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcXZ6cEM0bTRsRHFZTjk5dDNFWTBxeUMzTW4wMzhKcDc5X3FrVDc3M2tydkpiNjRjVnpXRGp4YnIxRFYzUDNzSlAzODE5VVVzc1drUEN5Z2lSSEhKMzl5M3BSbmJhM09qamlOZVVpYno1aXkyTGlURVVfdkhvbW1kcFRzd1BBSmtFbW54aDNoY0RnbnZTWDhPOUQwRHRHbUpybFRLYk03T2tkTVk4SktB0gG0AUFVX3lxTE9LSm5FcGphdUd5NzdJNDA3dWI3RHBFQktjcGs0b0tEUmJOa2loM2FuYUxNaUYxMUVSVU9vZUkxM2syckEwOUtLN1hWR3Q5eWsxbEY4LWN1Wk5IRUdLUWJCTVdFcWo0MlJfYl9mM1BnUEJzdEFZcGNYTmx6bGdqdzhZQ2RFNllZMFRkMFNYck4yckVNR0Q2enhCT2RTRVEwRko2VDBwY0o3SWRVUkdjRjBJVEtBYg?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 3,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -641,18 +601,18 @@
       "probability_estimate": null
     },
     {
-      "id": "23d13b30bd09f4217f999c54",
-      "label_nl": "Claim: Oil rebounds as Houthi attacks on Saudi Arabia overshadow diplomatic efforts - Yahoo! Finance Canada",
+      "id": "543410d60ce7d57ce59a793d",
+      "label_nl": "Claim: Oil falls as traders weigh Iran diplomacy against renewed strike risks - Investing.com Australia",
       "headline_claim_ids": [
-        "3ed4dd805d05b6"
+        "2030c89841a1ba"
       ],
       "headline_claims": [
-        "Oil rebounds as Houthi attacks on Saudi Arabia overshadow diplomatic efforts - Yahoo! Finance Canada"
+        "Oil falls as traders weigh Iran diplomacy against renewed strike risks - Investing.com Australia"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZUNEZVFSTGxBZVQ4bXdXTkh4THExdnJCUVNZUkZvNHZWalVoYW5JS1ZfaEhZRXBPbEVxN3Fxczd4azh0ODdwTEhTbEVzSWdlalpIZHNHRmgza3pJSXVmLS1QUk44UmFiQW9aVlZ3ZnlqSDBvM0xPT29WSUc0VExmSTR4VUM1TkQyYnc?oc=5",
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSDZZalVPR1JJQVFyWU1YNjM3N3ZCQy1LeEtVSWtsM2xjLXlwckMxVmRYUFBYQlpVdFduNzBYWHRXV1A4bHdxaHlybUFVSkNoNWJEQkhRaFpUWHQ5VWV4TlZkTTZHZWMzUHFSSnhOTW5PaE8xdkpJNlNHcEE2Q1FTZEpVWjUwX1AwbklIa0luNVkxcDI3?oc=5",
-        "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRHk3MmZRa3lmV3lWYkE0cXgtcDZuSnROaXAwdVNsUU9oSHFsTU83Mnh0a0t0U2NUNWc1enpxeUFVVkFDRWZGZjAxcjBfLVZzYVYxWWRDcE0xU3RnZE1tZUYwRW4wZ1lmSVZlSnB0YjV2aDNET1pia3BTdlNCZndUb3F1TkxyWkpqamV2ZG15NzItRkd4V2M0UzZtaExqV0dIMkVXbUpzMlpLZEZzYktqUzk3aFc3WXdhZkFyWUNkc0ZSUFRQOU5BUHNIRQ?oc=5"
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeTItMHA2Q1BIWllVclQwaTRHeFVpb0VwTzREMkszVUFyaFBMNnprSUF4cDBQOHYzWTE2R0xJeEx4MUJ0NnBvT2VuMEpvbEFvRVlneWRHNXViR0pRZW5nYjF0em1GRVVGbkozRG53aEV3N2ZYcXg2R0lLRVVSRXRpV2kzZlJ5M2k2cDNKMnhtdFNNaGpPSFBRTEFUV1c0QUtRc3dWVzV6eEM0ZW9EUFFsTkpDMTU3VVpEQUxDekl3N1gyZw?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdjBZaEJTWDYtbTBEc2lwSnBMNlEyRmF0Q0tsTjl6c0JPSndiUTVxVVJlNjlUUC1zc01lbG0wUy1pTVZiZXFuRl9JU3BwUXBGR0xneDNHYzUtcXhSUHRYRi1wVnNBLVlJQTJSaTh3ZThwTHJFVm5EdmREQVpuREJ3VWpCZTd2RUNVZzRoV09ueHpYQkE2OV9TdXB5cVlkWjByaC0zRWZ4V2F6YlFuWHVZcjlaVnVDS0ctbG5vdUg0RzlkZw?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQelEyRHBJTmFyTldJbjcwbHhVdGhEVkhWemkxWGNkYmItVVBKX1owTmhBMDExWWpaRmNjckZheE5oY2dVZGFXNDhycl9IcTQtYkpjXzRvQXJQV29ILXFlZFU2UE42RlBLX1lJcjZHLVltbGxIRkY2X3BvS3RZeEtmRVVSN1hMaFJ3c0dsV0JaeWd4czBCZ2RPWGo1TGpnbWR2SEg1aXQtOWJnWnJkS3duZ2luQ2MzRDJ6amNON1pMMFRLZw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 3,
@@ -669,16 +629,42 @@
       "probability_estimate": null
     },
     {
-      "id": "c43a0bb3dbeb17f421cf6a90",
-      "label_nl": "Claim: Qatari officials visit Iran to help restore US ceasefire deal - People Daily",
+      "id": "429cf29b2b464023859a433a",
+      "label_nl": "Claim: Pakistan Signals Iran De-escalation as Hormuz Attack Disrupts Tanker - SuaraGarut.ID",
       "headline_claim_ids": [
-        "a5165d8d010bfe"
+        "7b55a47781780f"
       ],
       "headline_claims": [
-        "Qatari officials visit Iran to help restore US ceasefire deal - People Daily"
+        "Pakistan Signals Iran De-escalation as Hormuz Attack Disrupts Tanker - SuaraGarut.ID"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWHc2QVRXLS0tMnVzNmszd1JPS3dhOFczTWFuTDJIMlp5ZEY3VVMzTG1MNmlwN2V5Z3NfX3NzampVbFpUc2pYWjVSNWs3bjRIdFRldmxGeU90QmVEWUEwRmViSU40SDlxWkZQTnRacUw4RzFkVkNkT3FhWWltMnhoQl8zQjF5eU55RkhFb0w3YzVDUW9yQk12cVRn?oc=5"
+        "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XS3Y2UXZYaENYOFk2eTFOOVc0Q0xVRWUwMDFSLVg0Y3RfUkVDQ292RndBendwQU9iSzNTZjdNOWFSZ0d6dS1UN25SLWtJWHRSS3QzV0JEeEMweC1fT1V3SWRjS01YeVZyWmVDT2I1MUZYbk0?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "0fc51b6dc21e234da6f12151",
+      "label_nl": "Claim: Qatari Delegation Holds Tehran Ceasefire Talks - Oz Arab Media",
+      "headline_claim_ids": [
+        "07c8151bbcbe2c"
+      ],
+      "headline_claims": [
+        "Qatari Delegation Holds Tehran Ceasefire Talks - Oz Arab Media"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzSEdTZG9iUVo0SEMtdC1xbnJrbHhfbjd6SWw1dXdNZTBKLXpaQzhkME5FcWdhNElGUW92bFRPQ2ItLUxyMThoN0N5TEhTaHFCTFB0Z251Z2VUbVYzTk9WLUVXZF90SDZoalFHcWhpazhxVHlrZmww?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -710,6 +696,138 @@
       ],
       "article_group_count": 1,
       "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "6a949d7c219e8170200523a1",
+      "label_nl": "Claim: Oil Headed For 14% Monthly Increase As Limpet Mines Added To Escalating Middle East Attacks - Ship & Bunker",
+      "headline_claim_ids": [
+        "bb8f23b7bf743e"
+      ],
+      "headline_claims": [
+        "Oil Headed For 14% Monthly Increase As Limpet Mines Added To Escalating Middle East Attacks - Ship & Bunker"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQU1zQko4by1vRmxNM01XOTFqRUpTSlpqNndlU0U4RHl1c1FsUGo3N0Z6SVA4bFEtY3pwdUdGRXZTZENOdDNMUjlPS1FiRWlHRHJDaTNIeFIzUEdISXpubDJRcjhFMkI2ajBJazJKeFIzTFhHOHN3WnNEMTNEMEJDdHpMeUtfMkZOVU02SjczM204cWh1THc4eTNDLWlHRkYtWXJLWk8zWXE0YzN1Vjl6bFVKSXlqLTB4MkYxSWJ3aHMxVTNZY1dBRjM3UmFNUzg?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "b160e42be4b48783cc975467",
+      "label_nl": "Claim: Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper",
+      "headline_claim_ids": [
+        "b038ec52d6c1c7"
+      ],
+      "headline_claims": [
+        "Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTNnQ3Y1akoyaVlCS0ZEal9jS292Tkg0Qmc5LVBRaGxPYTJsc3E0dnVZRFFEckY5VEdSbVp0VmR6S2JTNExacng3MnVZSlNoS3FFcVdvSUk2Mm5FVDBaZlM2cmtveVdCenBpSTlsejJEbXFmaWJ0eTRLWlB1c21OTUVpN1NQU0hDZnI1ejBWSnQzeXg3Q0tGVEdjTjdjUG5feWY0VjRsNUNUcjB3eTBF?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "18b3067c6aa12003b6317f82",
+      "label_nl": "Claim: Houthis strike Aden airport - The Express Tribune",
+      "headline_claim_ids": [
+        "7fff0fa21b2470"
+      ],
+      "headline_claims": [
+        "Houthis strike Aden airport - The Express Tribune"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE5HM0VSQlFXel83eEdhRVZyX1lrMHY0ZXRXVHNieXpNblVTYUhZd1RybmxYSjN1aGxkSmYtQVlsdEtxTEpzc3V3eURJVUFzQ2k4YkdISnVZN05obHdhV1dFSFNITEhIQ2MxdkVQaXk0Qkt4QdIBekFVX3lxTE1hVnZoSGVfZzRFbGZOWFUtTlU1bHRyMF9rMEwwRWt3LUxjc2FJLTFYbnRTbERYbHpibXJZcEdFUVJNRURmR2FUd3V6dzlZNmJDRjhUZlB4dEp0d1RHQTBHZUJoQk1WRm9GY1BiWFpmVWVHTE9ZREp0cXZn?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "23d13b30bd09f4217f999c54",
+      "label_nl": "Claim: Oil rebounds as Houthi attacks on Saudi Arabia overshadow diplomatic efforts - Yahoo! Finance Canada",
+      "headline_claim_ids": [
+        "3ed4dd805d05b6"
+      ],
+      "headline_claims": [
+        "Oil rebounds as Houthi attacks on Saudi Arabia overshadow diplomatic efforts - Yahoo! Finance Canada"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZUNEZVFSTGxBZVQ4bXdXTkh4THExdnJCUVNZUkZvNHZWalVoYW5JS1ZfaEhZRXBPbEVxN3Fxczd4azh0ODdwTEhTbEVzSWdlalpIZHNHRmgza3pJSXVmLS1QUk44UmFiQW9aVlZ3ZnlqSDBvM0xPT29WSUc0VExmSTR4VUM1TkQyYnc?oc=5",
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSDZZalVPR1JJQVFyWU1YNjM3N3ZCQy1LeEtVSWtsM2xjLXlwckMxVmRYUFBYQlpVdFduNzBYWHRXV1A4bHdxaHlybUFVSkNoNWJEQkhRaFpUWHQ5VWV4TlZkTTZHZWMzUHFSSnhOTW5PaE8xdkpJNlNHcEE2Q1FTZEpVWjUwX1AwbklIa0luNVkxcDI3?oc=5",
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRHk3MmZRa3lmV3lWYkE0cXgtcDZuSnROaXAwdVNsUU9oSHFsTU83Mnh0a0t0U2NUNWc1enpxeUFVVkFDRWZGZjAxcjBfLVZzYVYxWWRDcE0xU3RnZE1tZUYwRW4wZ1lmSVZlSnB0YjV2aDNET1pia3BTdlNCZndUb3F1TkxyWkpqamV2ZG15NzItRkd4V2M0UzZtaExqV0dIMkVXbUpzMlpLZEZzYktqUzk3aFc3WXdhZkFyWUNkc0ZSUFRQOU5BUHNIRQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "868481612c56fde4117418fb",
+      "label_nl": "Claim: Qatari officials in Iran in bid to revive ceasefire deal with US - Al Jazeera",
+      "headline_claim_ids": [
+        "31a6cebdb6cdea"
+      ],
+      "headline_claims": [
+        "Qatari officials in Iran in bid to revive ceasefire deal with US - Al Jazeera"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDdnbjUwcjA0SXkzWlVXOFZsREJjcjR1dV80T25uVTVHeEExZkRwSjlIWHoxXy1xWnk5MnRkblhvcHpDTDEtWDF1VGRoTVVrWmZIUWRkSEdyd0VTLWFSSkRtTkdLZlBVdHFfWWlXd3FjWDJDTjFyTWxuYkdyVGdnZFVibWRhczJ3WmhhUmJWUTdsNTdXUWxqalpiSloyQTI3OWpzSHNESkdzUdIBrwFBVV95cUxNVXZ2X0l5M0gzLXExaUNPZ0RHem0zVzBMX3ExbURWZU9CZVVmRnM1dUExY2ljY1Q3VDYwSm5pNExMWDZ3Vmo2cy1kUk9WTWlmWjhLYmZRcXlPY2JHSHlkSzFEUlVtODlpcktaUk9MejdGek9jWGhyS1V5QkdTUDMwaVg0UnVYdE1UMVVyNEZINUZiMllkQTNia01ZVHhPUmxtS2F4RVZvVkcxOGdoYjU4?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -773,93 +891,9 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
-    },
-    {
-      "id": "543410d60ce7d57ce59a793d",
-      "label_nl": "Claim: Oil falls as traders weigh Iran diplomacy against renewed strike risks - Investing.com Australia",
-      "headline_claim_ids": [
-        "2030c89841a1ba"
-      ],
-      "headline_claims": [
-        "Oil falls as traders weigh Iran diplomacy against renewed strike risks - Investing.com Australia"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeTItMHA2Q1BIWllVclQwaTRHeFVpb0VwTzREMkszVUFyaFBMNnprSUF4cDBQOHYzWTE2R0xJeEx4MUJ0NnBvT2VuMEpvbEFvRVlneWRHNXViR0pRZW5nYjF0em1GRVVGbkozRG53aEV3N2ZYcXg2R0lLRVVSRXRpV2kzZlJ5M2k2cDNKMnhtdFNNaGpPSFBRTEFUV1c0QUtRc3dWVzV6eEM0ZW9EUFFsTkpDMTU3VVpEQUxDekl3N1gyZw?oc=5",
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdjBZaEJTWDYtbTBEc2lwSnBMNlEyRmF0Q0tsTjl6c0JPSndiUTVxVVJlNjlUUC1zc01lbG0wUy1pTVZiZXFuRl9JU3BwUXBGR0xneDNHYzUtcXhSUHRYRi1wVnNBLVlJQTJSaTh3ZThwTHJFVm5EdmREQVpuREJ3VWpCZTd2RUNVZzRoV09ueHpYQkE2OV9TdXB5cVlkWjByaC0zRWZ4V2F6YlFuWHVZcjlaVnVDS0ctbG5vdUg0RzlkZw?oc=5",
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQelEyRHBJTmFyTldJbjcwbHhVdGhEVkhWemkxWGNkYmItVVBKX1owTmhBMDExWWpaRmNjckZheE5oY2dVZGFXNDhycl9IcTQtYkpjXzRvQXJQV29ILXFlZFU2UE42RlBLX1lJcjZHLVltbGxIRkY2X3BvS3RZeEtmRVVSN1hMaFJ3c0dsV0JaeWd4czBCZ2RPWGo1TGpnbWR2SEg1aXQtOWJnWnJkS3duZ2luQ2MzRDJ6amNON1pMMFRLZw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "0fc51b6dc21e234da6f12151",
-      "label_nl": "Claim: Qatari Delegation Holds Tehran Ceasefire Talks - Oz Arab Media",
-      "headline_claim_ids": [
-        "07c8151bbcbe2c"
-      ],
-      "headline_claims": [
-        "Qatari Delegation Holds Tehran Ceasefire Talks - Oz Arab Media"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzSEdTZG9iUVo0SEMtdC1xbnJrbHhfbjd6SWw1dXdNZTBKLXpaQzhkME5FcWdhNElGUW92bFRPQ2ItLUxyMThoN0N5TEhTaHFCTFB0Z251Z2VUbVYzTk9WLUVXZF90SDZoalFHcWhpazhxVHlrZmww?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "85f48ecf4112d9c92ff103ac",
-      "label_nl": "Claim: NOT OUT OF THE WOODS YET: Iran Ceasefire Provides Hope, But Physical Oil Markets to Remain Stressed: Russell - EnergyNow.com",
-      "headline_claim_ids": [
-        "01af8ebcba76bf"
-      ],
-      "headline_claims": [
-        "NOT OUT OF THE WOODS YET: Iran Ceasefire Provides Hope, But Physical Oil Markets to Remain Stressed: Russell - EnergyNow.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxQejU0T3dzTFBCcHdzMjRINjlqVzVYTFlzeFZyUmxEbDE0UGU5TmxOZHVoeTVWRm5pTFpFT3hzTjVZX0xSX0UwUlBsT3NjaDlxLVdrY2tyMGxfYU5UVkhBSEktWVdfX3liY1NJRC1OVGEtd2xZUlU4aHdnSXRwSmlkajBxUEkwS3ZBTFpUMHNMb2IzTE5ucGxsSHFCakpDUlMxSHJKcHBuRnJsbnppdVdjSw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-10-28": {
-      "requests": 12,
-      "total_tokens": 40775
-    },
     "2026-10-29": {
       "requests": 12,
       "total_tokens": 33412
@@ -867,6 +901,10 @@
     "2026-10-30": {
       "requests": 12,
       "total_tokens": 35360
+    },
+    "2026-10-31": {
+      "requests": 3,
+      "total_tokens": 8972
     }
   }
 }

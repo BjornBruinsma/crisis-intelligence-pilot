@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-10-30T18:57:34.532807Z",
+  "last_attempt_utc": "2026-10-31T01:11:27.879990Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 21,
+  "active_total": 22,
   "active_checked": 5,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -1014,14 +1014,142 @@
           "text_excerpt": "Reports, analysis and official statistics"
         }
       ]
+    },
+    "4405f50a8f20a4dee31138ec": {
+      "event_id": "4405f50a8f20a4dee31138ec",
+      "checked_at": "2026-10-31T01:11:27.879940Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "original_document_title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-31T01:11:17.664490Z",
+          "exact_quote": "Since July 2026, the Houthis have launched air strikes against Saudi territory",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt dat de Houthis luchtaanvallen hebben uitgevoerd, maar ondersteunt niet specifiek de claim over een aanval op de luchthaven van Aden.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten vermelden dat de Houthis luchtaanvallen hebben uitgevoerd, maar er is geen specifieke bevestiging van een aanval op de luchthaven van Aden.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The UK government cannot help British nationals leaving Yemen. There are no evacuation procedures in place."
+        },
+        {
+          "url": "https://www.gov.uk/guidance/air-strikes-against-houthi-military-targets-in-yemen",
+          "title": "Air strikes against Houthi military targets in Yemen - GOV.UKGOV.UK",
+          "source_publication_date": "2024-06-05T10:05:18Z",
+          "text_excerpt": "Joint Statement from Australia, Bahrain, Denmark, Canada, the Netherlands, New Zealand, United Kingdom, and United States on Additional Strikes Against the Houthis in Yemen: 24 February 2024"
+        }
+      ]
+    },
+    "a4b93f42a5bd74d588604942": {
+      "event_id": "a4b93f42a5bd74d588604942",
+      "checked_at": "2026-10-31T01:11:27.879961Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "original_document_title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_date": "Oct. 25, 2026",
+          "retrieved_at": "2026-10-31T01:11:19.831986Z",
+          "exact_quote": "over 95% of ships navigating the Strait of Hormuz have sailed through safely",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage geeft aan dat de meeste schepen veilig zijn gepasseerd, maar ondersteunt niet de claim over tankers die zijn gestopt of in brand zijn gevlogen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten vermelden dat de meeste schepen veilig zijn gepasseerd, maar er is geen bevestiging van de brand of stillegging van tankers.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "In recent months, over 95% of ships navigating the Strait of Hormuz have sailed through safely despite the IRGC's unwarranted aggression, clearly demonstrating that the United States and regional partners control the international waterway."
+        },
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4593050/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship/",
+          "title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Sept. 8, 2026",
+          "text_excerpt": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship"
+        }
+      ]
+    },
+    "9334f7563f948ef39a57fe53": {
+      "event_id": "9334f7563f948ef39a57fe53",
+      "checked_at": "2026-10-31T01:11:27.879967Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-31T01:11:21.632305Z",
+          "exact_quote": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
+        }
+      ],
+      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/saudi-arabia-prisoner-pack",
+          "title": "Arrested or in prison in Saudi Arabia - GOV.UKGOV.UK",
+          "source_publication_date": "2025-07-15T09:23:44Z",
+          "text_excerpt": "Emergency help for British nationals in Saudi Arabia"
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-10-28": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 4865
-    },
     "2026-10-29": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -1031,6 +1159,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 6936
+    },
+    "2026-10-31": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 2361
     }
   },
   "last_error": null

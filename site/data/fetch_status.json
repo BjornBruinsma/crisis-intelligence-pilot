@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-10-30T18:56:09.231531Z",
+  "last_attempt_utc": "2026-10-31T01:09:44.269064Z",
   "sources": {
     "google_news_rss": {
       "ok": 12,
@@ -13,43 +13,43 @@
   "profiles": {
     "military": {
       "status": "ok",
-      "articles": 23,
-      "new": 0
+      "articles": 20,
+      "new": 2
     },
     "diplomacy": {
       "status": "ok",
-      "articles": 38,
-      "new": 5
+      "articles": 23,
+      "new": 2
     },
     "government": {
       "status": "ok",
-      "articles": 13,
-      "new": 1
+      "articles": 10,
+      "new": 3
     },
     "markets": {
       "status": "ok",
-      "articles": 8,
-      "new": 3
+      "articles": 9,
+      "new": 1
     },
     "energy": {
       "status": "ok",
       "articles": 33,
-      "new": 1
+      "new": 5
     },
     "trade": {
       "status": "ok",
-      "articles": 12,
-      "new": 1
+      "articles": 9,
+      "new": 2
     },
     "business": {
       "status": "ok",
-      "articles": 6,
-      "new": 0
+      "articles": 4,
+      "new": 1
     },
     "economy": {
       "status": "ok",
-      "articles": 4,
-      "new": 0
+      "articles": 5,
+      "new": 1
     },
     "iran-fa": {
       "status": "ok",
@@ -58,22 +58,22 @@
     },
     "china-zh": {
       "status": "ok",
-      "articles": 25,
-      "new": 5
+      "articles": 11,
+      "new": 1
     },
     "pakistan-en": {
       "status": "ok",
-      "articles": 28,
-      "new": 4
+      "articles": 51,
+      "new": 17
     },
     "gulf-ar": {
       "status": "ok",
-      "articles": 19,
-      "new": 2
+      "articles": 41,
+      "new": 20
     },
     "gdelt-iran": {
       "status": "error",
-      "error": "URLError: <urlopen error timed out>",
+      "error": "Missing GDELT articles list",
       "articles": 0
     },
     "gdelt-hormuz": {
@@ -83,11 +83,11 @@
     }
   },
   "errors": {
-    "gdelt-iran": "URLError: <urlopen error timed out>",
+    "gdelt-iran": "Missing GDELT articles list",
     "gdelt-hormuz": "Missing GDELT articles list"
   },
-  "new_urls": 22,
-  "retained_urls": 1275,
+  "new_urls": 55,
+  "retained_urls": 1330,
   "queries_ok": 12,
   "queries_total": 14,
   "status": "partial"
