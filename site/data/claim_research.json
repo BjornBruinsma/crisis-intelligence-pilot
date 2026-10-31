@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-10-31T07:03:40.556454Z",
+  "last_attempt_utc": "2026-10-31T12:59:23.161825Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 22,
+  "active_total": 23,
   "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 1,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -624,36 +624,37 @@
     },
     "2675daa85ab025d6b99c9208": {
       "event_id": "2675daa85ab025d6b99c9208",
-      "checked_at": "2026-10-29T13:10:21.677741Z",
+      "checked_at": "2026-10-31T12:59:23.161794Z",
       "version": "official-original-document-v1",
       "research_status": "documents_found_unassessed",
       "verified_event": false,
       "official_matches": [],
-      "summary_nl": "De documenten bieden geen relevante informatie die de claim over de voorspelling van de World Bank ondersteunt of weerlegt.",
+      "summary_nl": "De bron bevat geen relevante informatie over de voorspelling van een prijsstijging van grondstoffen in verband met de oorlog in het Midden-Oosten.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
         "bing_issuer_queries": "ok"
       },
       "documents_fetched": 2,
-      "official_link_candidates": 5,
+      "official_link_candidates": 6,
       "search_errors": [
+        "document: ValueError",
         "document: ValueError",
         "document: ValueError"
       ],
       "ai_error": null,
       "original_documents_retrieved": [
         {
-          "url": "https://www.gov.uk/guidance/aid-funded-business",
-          "title": "Aid funded business - GOV.UKGOV.UK",
-          "source_publication_date": "2026-01-30T16:21:22Z",
-          "text_excerpt": "Update of contact details for World Bank Group, IADB, USAID and MCC."
+          "url": "https://www.gov.uk/government/news/budget-2026-breathing-space-for-today-hope-for-the-future",
+          "title": "Budget 2026: Breathing space for today, hope for the future - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Lower energy bills: In 2027 the government is providing a £100 Household Energy Payment for up to 20 million households in bands A to D in England, with funding for similar support provided to the rest of the UK, while the temporary VAT cut on electr"
         },
         {
-          "url": "https://www.gov.uk/government/publications/overseas-business-risk-angola",
-          "title": "Overseas business risk for Angola - GOV.UKGOV.UK",
-          "source_publication_date": "2023-07-26T06:56:21Z",
-          "text_excerpt": "Help and services around the world"
+          "url": "https://www.gov.uk/government/statistics/united-kingdom-food-security-report-2024",
+          "title": "United Kingdom Food Security Report 2024 - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "United Kingdom Food Security Report 2024: Theme 2: UK Food Supply Sources"
         }
       ]
     },
@@ -1279,6 +1280,95 @@
           "text_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026. The airport continues to be targeted and remains at risk of further attacks."
         }
       ]
+    },
+    "646433939c91ce5b513352e0": {
+      "event_id": "646433939c91ce5b513352e0",
+      "checked_at": "2026-10-31T12:59:23.161723Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-31T12:59:10.916834Z",
+          "exact_quote": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt dat de Houthis aanvallen uitvoeren op verschillende locaties in Saoedi-Arabië, maar bevestigt niet specifiek de aanval op Riyad.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De bron vermeldt dat de Houthis aanvallen uitvoeren op verschillende locaties in Saoedi-Arabië, maar er is geen specifieke bevestiging van een aanval op Riyad.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/family-law-in-saudi-arabia",
+          "title": "Family law in Saudi Arabia  - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The British Embassy in Riyadh cannot provide paperwork for a marriage outside Saudi Arabia."
+        }
+      ]
+    },
+    "233586753494754da45f62c4": {
+      "event_id": "233586753494754da45f62c4",
+      "checked_at": "2026-10-31T12:59:23.161786Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-31T12:59:12.450612Z",
+          "exact_quote": "King Khalid International Airport was struck by a missile on 10 October 2026.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
+        }
+      ],
+      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026. The airport continues to be targeted and remains at risk of further attacks."
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -1293,9 +1383,9 @@
       "model_tokens": 6936
     },
     "2026-10-31": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 4887
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 7052
     }
   },
   "last_error": null

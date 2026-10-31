@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-31T07:03:23.166341Z",
+  "last_attempt_utc": "2026-10-31T12:58:58.217325Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -1575,6 +1575,118 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-31T07:03:22.166075Z"
+    },
+    "104a6c23b582f1": {
+      "id": "104a6c23b582f1",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop suggereert dat Trump mogelijk een grote aanval op Iran zou kunnen bevelen als de Republikeinen verliezen bij de midterms.",
+      "claimed_event_nl": "Trump zou een grote aanval op Iran kunnen bevelen.",
+      "reason_nl": "Dit is relevant omdat het wijst op een mogelijke escalatie van de spanningen met Iran.",
+      "limitations_nl": "De claim is gebaseerd op speculatie en niet op feitelijke gebeurtenissen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T12:58:53.115550Z"
+    },
+    "334daa928f58d5": {
+      "id": "334daa928f58d5",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop meldt dat een nieuwe Saoedische luxe luchtvaartmaatschappij gedwongen is om vluchten te annuleren en om te leiden door aanvallen van de Houthi's.",
+      "claimed_event_nl": "Een nieuwe Saoedische luchtvaartmaatschappij heeft vluchten geannuleerd door Houthi-aanvallen.",
+      "reason_nl": "Dit is relevant omdat het de impact van regionale conflicten op de luchtvaartsector aantoont.",
+      "limitations_nl": "De claim is gebaseerd op een rapport en niet op onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T12:58:53.115574Z"
+    },
+    "70acd1c32a8d66": {
+      "id": "70acd1c32a8d66",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "De kop stelt dat Trump zegt dat Iran wil praten terwijl de aanvallen op tankers in de Straat van Hormuz doorgaan.",
+      "claimed_event_nl": "Trump beweert dat Iran wil praten.",
+      "reason_nl": "Dit is relevant omdat het de diplomatieke dynamiek tussen de VS en Iran in het licht van militaire spanningen belicht.",
+      "limitations_nl": "De claim is gebaseerd op een uitspraak van Trump zonder verdere context.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T12:58:53.115583Z"
+    },
+    "044aec5ec18e92": {
+      "id": "044aec5ec18e92",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "event_claim",
+      "summary_nl": "De kop meldt dat JD Vance een Amerikaanse delegatie leidt naar gesprekken met Iran over Libanon en sancties.",
+      "claimed_event_nl": "JD Vance leidt een Amerikaanse delegatie naar gesprekken met Iran.",
+      "reason_nl": "Dit is relevant omdat het de diplomatieke inspanningen van de VS met betrekking tot Iran en regionale kwesties aantoont.",
+      "limitations_nl": "De claim is gebaseerd op een verslag zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T12:58:53.115589Z"
+    },
+    "fd442ad662addb": {
+      "id": "fd442ad662addb",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop meldt dat de olieprijzen stijgen na een aanval op een Saoedische raffinaderij.",
+      "claimed_event_nl": "Olieprijzen zijn gestegen na een aanval op een Saoedische raffinaderij.",
+      "reason_nl": "Dit is relevant vanwege de directe economische impact van regionale conflicten op de olieprijzen.",
+      "limitations_nl": "De claim is gebaseerd op rapporten en niet op onafhankelijke verificatie.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T12:58:53.115594Z"
+    },
+    "d48c722fc44287": {
+      "id": "d48c722fc44287",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Israël zou Zuid-Libanon hebben aangevallen ondanks gesprekken over een staakt-het-vuren door de VS.",
+      "claimed_event_nl": "Israël heeft Zuid-Libanon aangevallen.",
+      "reason_nl": "De aanval kan leiden tot verdere escalatie in de regio, vooral in het licht van diplomatieke inspanningen voor een staakt-het-vuren.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd en er zijn geen andere bronnen die deze claim ondersteunen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T12:58:57.217084Z"
+    },
+    "96906a8e16e108": {
+      "id": "96906a8e16e108",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De VS zouden evacuaties in Saoedi-Arabië hebben bevolen te midden van aanvallen door de Houthi's en zorgen over de Rode Zee.",
+      "claimed_event_nl": "De VS hebben evacuaties in Saoedi-Arabië bevolen.",
+      "reason_nl": "Dit kan wijzen op een verslechterende veiligheidssituatie in de regio en verhoogde spanningen met de Houthi's.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd en er zijn geen andere bronnen die deze claim ondersteunen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T12:58:57.217105Z"
     }
   },
   "usage_by_day": {
@@ -1587,8 +1699,8 @@
       "total_tokens": 7473
     },
     "2026-10-31": {
-      "requests": 2,
-      "total_tokens": 2619
+      "requests": 4,
+      "total_tokens": 5223
     }
   }
 }
