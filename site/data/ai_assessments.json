@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-31T12:58:58.217325Z",
+  "last_attempt_utc": "2026-10-31T18:54:50.973274Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -1687,6 +1687,70 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-31T12:58:57.217105Z"
+    },
+    "0073d9aa5480f8": {
+      "id": "0073d9aa5480f8",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat de olieprijzen met meer dan 2% zijn gestegen na een aanval op een tanker in de Straat van Hormuz.",
+      "claimed_event_nl": "Olieprijzen stijgen na tankeraanval in de Straat van Hormuz.",
+      "reason_nl": "De stijging van olieprijzen kan wijzen op verhoogde spanningen in de regio, wat economische gevolgen kan hebben.",
+      "limitations_nl": "De claim is gebaseerd op een enkel rapport zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T18:54:49.973056Z"
+    },
+    "5de9aa4645576f": {
+      "id": "5de9aa4645576f",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Iraanse aanvallen miljarden dollars aan schade hebben veroorzaakt aan Amerikaanse bases.",
+      "claimed_event_nl": "Iranese aanvallen veroorzaken schade aan Amerikaanse bases.",
+      "reason_nl": "Dit kan leiden tot verhoogde militaire spanningen en escalatie in de regio.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T18:54:49.973078Z"
+    },
+    "15e9340aeeefde": {
+      "id": "15e9340aeeefde",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Iraanse envoys Qatarese bemiddelaars ontmoeten te midden van dreigingen van Amerikaanse aanvallen na de midterms.",
+      "claimed_event_nl": "Iranese envoys ontmoeten Qatarese bemiddelaars.",
+      "reason_nl": "Dit kan wijzen op diplomatieke pogingen om een conflict te vermijden, maar de dreiging van Amerikaanse aanvallen blijft onduidelijk.",
+      "limitations_nl": "De claim is gebaseerd op een enkel rapport zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T18:54:49.973084Z"
+    },
+    "a08412c65eb2dd": {
+      "id": "a08412c65eb2dd",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Iraanse wetgevers oproepen tot terugtrekking uit het NPT en vraagt zich af of er oorlog of vrede zal komen.",
+      "claimed_event_nl": "Iranese wetgevers roepen op tot terugtrekking uit het NPT.",
+      "reason_nl": "Dit kan de spanningen rondom nucleaire kwesties verhogen, maar de uitkomst is onduidelijk.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T18:54:49.973087Z"
     }
   },
   "usage_by_day": {
@@ -1699,8 +1763,8 @@
       "total_tokens": 7473
     },
     "2026-10-31": {
-      "requests": 4,
-      "total_tokens": 5223
+      "requests": 5,
+      "total_tokens": 6618
     }
   }
 }

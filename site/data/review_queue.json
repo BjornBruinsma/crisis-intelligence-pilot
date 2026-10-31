@@ -1,15 +1,15 @@
 {
-  "generated_from": "2026-10-31T12:57:49.432651Z",
+  "generated_from": "2026-10-31T18:53:45.713610Z",
   "description": "Unverified title clusters; priority for human editorial review only",
   "stats": {
     "article_count": 600,
-    "group_count": 529,
+    "group_count": 533,
     "priority_counts": {
-      "hoog": 142,
-      "middel": 319,
-      "laag": 68
+      "hoog": 147,
+      "middel": 317,
+      "laag": 69
     },
-    "groups_with_repeated_headlines": 56,
+    "groups_with_repeated_headlines": 53,
     "note": "Conservative same-day headline similarity, not semantic event clustering"
   },
   "groups": [
@@ -225,6 +225,67 @@
       "key": "2030c89841a1ba",
       "review_status": "unverified_story_candidate",
       "review_order": 32
+    },
+    {
+      "title": "Qatari officials in Iran in bid to revive ceasefire deal with US - Al Jazeera",
+      "articles": [
+        {
+          "key": "47b222d79c18a1f8f339da1d",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDdnbjUwcjA0SXkzWlVXOFZsREJjcjR1dV80T25uVTVHeEExZkRwSjlIWHoxXy1xWnk5MnRkblhvcHpDTDEtWDF1VGRoTVVrWmZIUWRkSEdyd0VTLWFSSkRtTkdLZlBVdHFfWWlXd3FjWDJDTjFyTWxuYkdyVGdnZFVibWRhczJ3WmhhUmJWUTdsNTdXUWxqalpiSloyQTI3OWpzSHNESkdzUdIBrwFBVV95cUxNVXZ2X0l5M0gzLXExaUNPZ0RHem0zVzBMX3ExbURWZU9CZVVmRnM1dUExY2ljY1Q3VDYwSm5pNExMWDZ3Vmo2cy1kUk9WTWlmWjhLYmZRcXlPY2JHSHlkSzFEUlVtODlpcktaUk9MejdGek9jWGhyS1V5QkdTUDMwaVg0UnVYdE1UMVVyNEZINUZiMllkQTNia01ZVHhPUmxtS2F4RVZvVkcxOGdoYjU4?oc=5",
+          "title": "Qatari officials in Iran in bid to revive ceasefire deal with US - Al Jazeera",
+          "publisher": "Al Jazeera",
+          "publisher_url": "https://www.aljazeera.com",
+          "domain": "www.aljazeera.com",
+          "first_seen": "2026-10-30T13:05:51.191180Z",
+          "published_at": "2026-10-30T12:30:04Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        },
+        {
+          "key": "fdf81a3ef09afb07eb2ff52b",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0MWs2Y3dVNTlwa0pwOHZqc2U1a1FPSnVBczV4OG5RRFlEa0RhZG9ES2ZsZE1uWVh6UkVZYUpCQjVuRTRDUVdjNEUzM2lvS2pyRGx5U0xsZC1QcUdUNnEycGgxWmtOdzJlZ3NkNm5TM182RGxNVnlPNERRMS13YWs?oc=5",
+          "title": "Qatari officials in Iran in bid to revive ceasefire deal with US - NewsCord",
+          "publisher": "NewsCord",
+          "publisher_url": "https://newscord.org",
+          "domain": "newscord.org",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T07:00:00Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "al jazeera",
+        "newscord"
+      ],
+      "article_count": 2,
+      "source_count": 2,
+      "categories": [
+        "Politiek & diplomatie"
+      ],
+      "key": "31a6cebdb6cdea",
+      "review_status": "unverified_story_candidate",
+      "review_order": 31
     },
     {
       "title": "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks - Yahoo Finance",
@@ -593,67 +654,6 @@
       "review_order": 31
     },
     {
-      "title": "Crude oil prices surge after strike on Saudi refinery - Social News XYZ",
-      "articles": [
-        {
-          "key": "6e4b33806ab64ad40d7a09cf",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcG05dnEwdU55WTR1d3JiVzNINlpDX2NqY2h1ZVowWTdxZ2EwdkxkeXlDcU0zNnpoaEMyejNaT0MzbERnWXVCX09HODJMN3ctbWdBUmdJNTBlZ3pKNkQzSnNHQVFSZlJjejFlczhRZ0FxY2dwT1JWeDVwM3ZpSC1iX0VzSkdtRDhZRFdzR09IMWE2OUl2b3BJ0gGXAUFVX3lxTFBwbTl2cTB1TnlZNHV3cmJXM0g2WkNfY2pjaHVlWjBZN3FnYTB2TGR5eUNxTTM2emhoQzJ6M1pPQzNsRGdZdUJfT0c4Mkw3dy1tZ0FSZ0k1MGVneko2RDNKc0dBUVJmUmN6MWVzOFFnQXFjZ3BPUlZ4NXAzdmlILWJfRXNKR21EOFlEV3NHT0gxYTY5SXZvcEk?oc=5",
-          "title": "Crude oil prices surge after strike on Saudi refinery - Social News XYZ",
-          "publisher": "Social News XYZ",
-          "publisher_url": "https://www.socialnews.xyz",
-          "domain": "www.socialnews.xyz",
-          "first_seen": "2026-10-30T07:08:28.890498Z",
-          "published_at": "2026-10-28T16:02:36Z",
-          "language": "en-PK",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "pakistan-en"
-          ],
-          "topic": [
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "8e54462eff9940bc290eab31",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSER4VnVRZGpxTldSMEh5THo3b3FDVTV0ZDdhZjdLb2o0UUFhOUlnc3FRMGc4WWhqNlllUlBIT25tbjNNY2pxb3k3U0VUdm5zdFVRc0R4ejdxU1VTYjR3a0cwQzg2cEVtNnFTUjkyZFJRU2x0MzhqSWt2R2xFcWpibXEzclpqTW8?oc=5",
-          "title": "Crude oil prices surge after strike on Saudi refinery - Telangana Today",
-          "publisher": "Telangana Today",
-          "publisher_url": "https://telanganatoday.com",
-          "domain": "telanganatoday.com",
-          "first_seen": "2026-10-29T13:08:44.236498Z",
-          "published_at": "2026-10-28T05:17:03Z",
-          "language": "en-PK",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "pakistan-en"
-          ],
-          "topic": [
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "social news xyz",
-        "telangana today"
-      ],
-      "article_count": 2,
-      "source_count": 2,
-      "categories": [
-        "Regionaal: Pakistan"
-      ],
-      "key": "fd442ad662addb",
-      "review_status": "unverified_story_candidate",
-      "review_order": 31
-    },
-    {
       "title": "الفلبين تجري محادثات مع السعودية لتخزين النفط على أراضيها - Howl.Link",
       "articles": [
         {
@@ -715,17 +715,57 @@
       "review_order": 31
     },
     {
-      "title": "Trump may order major Iran strike if Republicans suffer losses in midterm election: Axios - The Express Tribune",
+      "title": "Iranian strikes cause billions of dollars in damage to US bases: report - The Express Tribune",
       "articles": [
         {
-          "key": "acfdfc0d8d95f86709b103c1",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGxTb09DMmltVXZ2UXY1Rnlxd18wa1dFeUxpNVlqam5nTUxENmlHaEt6M3pub2lwRG1tZHVjeUVaOUxHR3JQOUZMUjBsS2V0UldxdDB1REx2RElINWtHUENsdUFsMUJMclh1RW44U0U2Wi1FTmxxXzBaNDlqbUh1ZDYzOEQ3Z01HaVNVNjBRVWk4ellnOVRFWUVrUWVwMWg0YktMdEtzUDF3dzhocmZmeXdWVzE2TmpmYzNaTzNsQVFOSm8?oc=5",
-          "title": "Trump may order major Iran strike if Republicans suffer losses in midterm election: Axios - The Express Tribune",
+          "key": "3be484232dbdf4ed8222feee",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZk9RdzJzS2xid1NZcW5RYU9VODdEcWdnemxzQnBsUHExMXBwd01ZQXpmQzVkTnNYeGx0am5lczdRaWpkVjI5TVhFOUIzSmxKZjlTTF9GQjZiVlJMTUNCRExVVlp3djlLaUltTFBWT2MtdDhUOHNMd2hmS0pGMWVpU2UyemtraGZvdF9QckxFVmI0Wm5MenBkbzJsTFhST3dzTEpaTDRpZFliM2_SAbMBQVVfeXFMTzZBSGlrcU9fUEx2SklUN0txSnR4YU1kYURsWGttR1c0MUQyNk9NZ0tYT0ZlblE3MTBfX1lYNy16R2JVU3lJdUFvQ3ItbmY0RVotVEc1ZkE0NFlVcnpZMkcwa0IyM0xLWmczVFJGb251dHY2SjV2Wl9nbk1kSk9YcGdkdGVPWVgySTA3NFo1YVRSeWh3WFc2ck55aGc1Z1JUZ3J0YlRGZklJbGNQSUtfTVNhVVU?oc=5",
+          "title": "Iranian strikes cause billions of dollars in damage to US bases: report - The Express Tribune",
           "publisher": "The Express Tribune",
           "publisher_url": "https://tribune.com.pk",
           "domain": "tribune.com.pk",
-          "first_seen": "2026-10-31T12:57:49.432651Z",
-          "published_at": "2026-10-31T11:25:08Z",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T17:58:04Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "the express tribune"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Militair & veiligheid"
+      ],
+      "key": "5de9aa4645576f",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
+      "articles": [
+        {
+          "key": "4414f781dde237c47085b571",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5",
+          "title": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
+          "publisher": "Reuters",
+          "publisher_url": "https://www.reuters.com",
+          "domain": "www.reuters.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T17:51:51Z",
           "language": "en-US",
           "sourcecountry": "",
           "discovery_profiles": [
@@ -743,11 +783,174 @@
       "priority_level": 3,
       "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
       "publishers": [
+        "reuters"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Politiek & diplomatie"
+      ],
+      "key": "15e9340aeeefde",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "أنبوب النفط المشترك.. السعودية توافق \"مبدئيا\" والعراق \"يدفع\" - شفق نيوز",
+      "articles": [
+        {
+          "key": "56fc05375d5bcbd6d5325557",
+          "url": "https://news.google.com/rss/articles/CBMi6wNBVV95cUxQSHNkU1BfY3lZbEhoV2hBMWEwNzR6OGI3V2FkQThmcWZOcjZwbDJfazNnaEdvVHJsOUN6R3ZEdFFlM2hzS2VpS093NmVDTEdRY2w4dm1FTGN2dXNoRmMyTktETjNZbXpLc25GaHhlc2FMVjl3eUVNWUZXRFBWbVZibWNhV3RnTUw5bDdkMF8xbEY1V094VU9EYXVmYnUxSjlnYy1LUG9ITlFUQ0EtcnZVWlQtSFpYLWZPdUZzX3ktaXpHaWxXTld1Y3hnZEZMSGVxcmZFdWxiSkduV0sxNnRjQmNuVU5QVzFhQ3NpaExvZTlhSUREZVcycmxqRng0My1CN1lpcWc5aDFGeFlPNlF0Z1FhaWtCWU1idWhYbURQTGxIQ0FvQUNwVFc5QUNLejFGeW9lUF90MEN1UFYxbEJBSm9VUEMwSkJmS29aVUU3NFRfT1dsMHVvdV9zY0RuMUxrRVN3ZXpWdmRXalFnNnItLWx0SnRaM0NrbUFBZjBUbXpRanZ5bWJtdnUzaDZULVBKZFdFM01MZmlmQVZMWE1pU2ZaV3lOUkJLdkVnTkcwd3dCOG1PNUNyZDRRYkI0bVpzeVJoMzljY0lmS3FwcmgwcUhlWVRDTTJKNUVpNXVwRlJjOXJNa1Rfa1IxOA?oc=5",
+          "title": "أنبوب النفط المشترك.. السعودية توافق \"مبدئيا\" والعراق \"يدفع\" - شفق نيوز",
+          "publisher": "شفق نيوز",
+          "publisher_url": "https://shafaq.com",
+          "domain": "shafaq.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T17:24:35Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "شفق نيوز"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "b9be76996338b9",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "Oil Prices Surge Over 2% After Tanker Attack in Strait of Hormuz - TechJuice",
+      "articles": [
+        {
+          "key": "35502e37ee98ad0fbafbcea8",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ2Fic1JocWhwQjFDY29XZUE4Ui10VllxQVh6c1lrR2lOdnNTTG5kajA1UWJYdTJQZDJsZGt5cW4taThZUjdxbE5seE5yUDRzMmM3aEZNbWYwNUN3V2JveWRkejdKRHZ6WUhiMWFIOVF3dFB2ZjNTcWFXRmNwa0pjRnEyLVR2Q3VTNVlPOUo1aVJTSXM?oc=5",
+          "title": "Oil Prices Surge Over 2% After Tanker Attack in Strait of Hormuz - TechJuice",
+          "publisher": "TechJuice",
+          "publisher_url": "https://www.techjuice.pk",
+          "domain": "www.techjuice.pk",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T13:50:26Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "trade"
+          ],
+          "topic": [
+            "Wereldhandel & logistiek"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "techjuice"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Wereldhandel & logistiek"
+      ],
+      "key": "0073d9aa5480f8",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace? - Al Jazeera",
+      "articles": [
+        {
+          "key": "192caab510fe29d3c5b3577c",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1JxSV94cm1pZi0zZDZ5XzVYczB1aDcyQWhfSnpjcWlpV0FjeU54dVJGV1BYalFncXNBVmt3dFVwS2lVenFmdHB2TkpzVXNsdl93OHg5T01xWFJhZndQMWs1d1VqMDhKSW9DM2tZbUpyNGl0VFV2TU5Id3NqZWM2SXhkeXhINmtEcHdPWFdfbWFrQUMwUWlLQXZKUFFfY21ZM21fU1NQUFI5VDNtMFpCcNIBtgFBVV95cUxNVDM0QklRd0M2TkdmMWdnbGZORFc3bm9BZVRNYWdWU1NSV053eTRYR3NsMlk1TmxBeU5ROUZjRWhlYmR3WnNMemZwRENSSnVuaWFOTXoyRWc3dE85RXFudFRKemRGcF9VTllfLWdfZGFtekItVW5pS25fclpLU0ZYenMwSzg2YjhHaVk3RUdaYnpEa3lJa2FLY2U5RmNvX0JTRnBfWjFORWxpaGRkR2hCTS0zcUNQQQ?oc=5",
+          "title": "Iran lawmakers call for withdrawal from NPT: Will we have war or peace? - Al Jazeera",
+          "publisher": "Al Jazeera",
+          "publisher_url": "https://www.aljazeera.com",
+          "domain": "www.aljazeera.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T12:25:38Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "al jazeera"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Politiek & diplomatie"
+      ],
+      "key": "a08412c65eb2dd",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "Trump may order major Iran strike if Republicans suffer losses in midterm election: Axios - The Express Tribune",
+      "articles": [
+        {
+          "key": "acfdfc0d8d95f86709b103c1",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGxTb09DMmltVXZ2UXY1Rnlxd18wa1dFeUxpNVlqam5nTUxENmlHaEt6M3pub2lwRG1tZHVjeUVaOUxHR3JQOUZMUjBsS2V0UldxdDB1REx2RElINWtHUENsdUFsMUJMclh1RW44U0U2Wi1FTmxxXzBaNDlqbUh1ZDYzOEQ3Z01HaVNVNjBRVWk4ellnOVRFWUVrUWVwMWg0YktMdEtzUDF3dzhocmZmeXdWVzE2TmpmYzNaTzNsQVFOSm8?oc=5",
+          "title": "Trump may order major Iran strike if Republicans suffer losses in midterm election: Axios - The Express Tribune",
+          "publisher": "The Express Tribune",
+          "publisher_url": "https://tribune.com.pk",
+          "domain": "tribune.com.pk",
+          "first_seen": "2026-10-31T12:57:49.432651Z",
+          "published_at": "2026-10-31T11:25:08Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy",
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid",
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
         "the express tribune"
       ],
       "article_count": 1,
       "source_count": 1,
       "categories": [
+        "Militair & veiligheid",
         "Politiek & diplomatie"
       ],
       "key": "104a6c23b582f1",
@@ -835,6 +1038,46 @@
       "review_order": 30
     },
     {
+      "title": "Iran's Khamenei warns US against attacks, orders military buildup | Daily Sabah - Daily Sabah",
+      "articles": [
+        {
+          "key": "279108ecdf424a1b3aecde1c",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTzFDYTNLV0lYbFB5ME1GYnFZOXd0WnVjcmx0Z1YwdHo5cElrTXFVeFY2MFllNGgyWFVsWU5tam12S0MyQU1yb0I3VU9iYVgydGRnT3B5VUkycE1fQ0puS1E5TTBkWWdQcVFBWkx6OE4tNXJhRVdHX2tkRW5mdU9WMkJ2X0thLTk1WHRDa2NJaldwY3Fha3FYOW9jRjNjQWNQUHQ4U1BBcXpMbnVNOXfSAa4BQVVfeXFMTU8xQ2EzS1dJWGxQeTBNRmJxWTl3dFp1Y3JsdGdWMHR6OXBJa01xVXhWNjBZZTRoMlhVbFlObWptdktDMkFNcm9CN1VPYmFYMnRkZ09weVVJMnBNX0NKbktROU0wZFlnUHFRQVpMejhOLTVyYUVXR19rZEVuZnVPVjJCdl9LYS05NVh0Q2tjSWpXcGNxYWtxWDlvY0YzY0FjUFB0OFNQQXF6TG51TTl3?oc=5",
+          "title": "Iran's Khamenei warns US against attacks, orders military buildup | Daily Sabah - Daily Sabah",
+          "publisher": "Daily Sabah",
+          "publisher_url": "https://www.dailysabah.com",
+          "domain": "www.dailysabah.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T10:53:18Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "daily sabah"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Militair & veiligheid"
+      ],
+      "key": "67d839dac3415a",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
       "title": "Tanker attacks, Houthi strikes deepen Gulf-wide conflict - Bol News",
       "articles": [
         {
@@ -915,6 +1158,86 @@
       "review_order": 30
     },
     {
+      "title": "Iranian delegation heads to Doha to resume negotiation rounds with Washington - جريدة القدس",
+      "articles": [
+        {
+          "key": "19b65032dc3fffff5e5ea22d",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdWRhTzdxaW9YQlBxZnpTMVFPemRzZzZRUVBMdmxfZTBWajNPeVlmQmk3eGRBeWx6cy0wOWZrcXFGLUpjZDM2SThsYzYtMXNBa1h3QzdwTi1YRUdWdHJuRFBTV2RjOFlHZk5jU1cwQVc5bFhVaXNrcDlKLUZGam55LV92My1pS3gzR1FtYzU0WmFWNTJKc3NnZnV5M1E3NHJ1Zk1mLW1jbTRjZjRrX01vdjVn?oc=5",
+          "title": "Iranian delegation heads to Doha to resume negotiation rounds with Washington - جريدة القدس",
+          "publisher": "جريدة القدس",
+          "publisher_url": "https://alquds.com",
+          "domain": "alquds.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T08:50:03Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "جريدة القدس"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Politiek & diplomatie"
+      ],
+      "key": "34cbcf887ccbb1",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "Live - Tehran threatens wider strikes if attacked as talks continue in Doha - Iran International",
+      "articles": [
+        {
+          "key": "1e0975a2daef04a29639658c",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xekJZZUdONFZIdzhFbVNUMUF1TXY3TTZfVVo1UEd6X0ktZGRwQURYcWFDNlcyaEg1Slo0bXdQVzZxVkItUVdOaWd5VF8tX1owdUcyNXZ2cWY0TUtSd3c?oc=5",
+          "title": "Live - Tehran threatens wider strikes if attacked as talks continue in Doha - Iran International",
+          "publisher": "Iran International",
+          "publisher_url": "https://www.iranintl.com",
+          "domain": "www.iranintl.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T07:59:51Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "iran international"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Militair & veiligheid"
+      ],
+      "key": "ac80cfa42f590d",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
       "title": "Trump Says Iran Wants to Talk as Hormuz Tanker Attacks Continue - https://houseofsaud.com/",
       "articles": [
         {
@@ -957,6 +1280,46 @@
         "Regionaal: Pakistan"
       ],
       "key": "70acd1c32a8d66",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "US Iran Conflict Nears Breakthrough As Ceasefire Talks Intensify Rapidly - Zoom News",
+      "articles": [
+        {
+          "key": "c2c8e03251623d671aa8024e",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaWg2REdSVVdZaWgwZ0UybG1TQWFrUDhUVVJhY1ZQZWhwdUNqdXU4TV9CMTZzZHpMdURRaWdUeVpjNjA4MHVfb2VYWW5OU3FUSEw3dlUtSE1VTklUV2h3MVRnd19COVg2czB5VVdha1psZmxjUFZaS0pDN1RnV0wzRkxVYlpxUDBMZFdFV1J0NHVtdVYxcEhFdi1lX0QwY1JPaWlyTk05emxFVlpNc0JvdHJpUnR0V0HSAbwBQVVfeXFMT1puVUNRaXhqU1E0UkJHR3FLcGtTcVhETmliQ3dnN3ZSak9JMEV4bTBKT0JkTGMyVHB5Z2t3bEVqTjZWTVQ5ckZsZi1BZXZNZmJfUnB3XzVubHR5cEs0WUNFVWVMbTlwbDhvQ1RXUFRSNnl1MHlHR0lVQkhGNDRmeWNNS0xHU2Y4RkZ2MDNIbUJ2WVJrdVJHSVZkRkRGQVJvWkc4RmdtZXFYMnptUmVMSTNsV1Q0NnRldE5rX2k?oc=5",
+          "title": "US Iran Conflict Nears Breakthrough As Ceasefire Talks Intensify Rapidly - Zoom News",
+          "publisher": "Zoom News",
+          "publisher_url": "https://www.zoomnews.in",
+          "domain": "www.zoomnews.in",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T07:28:13Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "zoom news"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Politiek & diplomatie"
+      ],
+      "key": "886d5ee6d9aa02",
       "review_status": "unverified_story_candidate",
       "review_order": 30
     },
@@ -1770,6 +2133,46 @@
       "review_order": 30
     },
     {
+      "title": "伊朗提出了结束与美国战争的谈判的七项条件。 - Vietnam.vn",
+      "articles": [
+        {
+          "key": "e5f1647fd3052d7e9b701186",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZG1heW1aWEhZQVg2N2pqVEd1RGRmcHRic2k5RFItQThiOWpNVWdLNVA0M0Y3TVZEdG9ETkRROGV5VmJfdkk5R2hjNGN0WWJ2T3VaekJnaThpb21JVGxMUWVUdHdZNlppeUZ4Qm00NExMejY4NHlvdE9vV3VBeTI4OWdXb3NvSzhOSmwyQW4wcEVBQQ?oc=5",
+          "title": "伊朗提出了结束与美国战争的谈判的七项条件。 - Vietnam.vn",
+          "publisher": "Vietnam.vn",
+          "publisher_url": "https://www.vietnam.vn",
+          "domain": "www.vietnam.vn",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T14:41:27Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "vietnam.vn"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "8c89c9a0b242bd",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
       "title": "Oil futures: Crude higher as diplomacy stalls, tanker attacks continue - Quantum Commodity Intelligence",
       "articles": [
         {
@@ -1886,46 +2289,6 @@
         "Politiek & diplomatie"
       ],
       "key": "07c8151bbcbe2c",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Qatari officials in Iran in bid to revive ceasefire deal with US - Al Jazeera",
-      "articles": [
-        {
-          "key": "47b222d79c18a1f8f339da1d",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSDdnbjUwcjA0SXkzWlVXOFZsREJjcjR1dV80T25uVTVHeEExZkRwSjlIWHoxXy1xWnk5MnRkblhvcHpDTDEtWDF1VGRoTVVrWmZIUWRkSEdyd0VTLWFSSkRtTkdLZlBVdHFfWWlXd3FjWDJDTjFyTWxuYkdyVGdnZFVibWRhczJ3WmhhUmJWUTdsNTdXUWxqalpiSloyQTI3OWpzSHNESkdzUdIBrwFBVV95cUxNVXZ2X0l5M0gzLXExaUNPZ0RHem0zVzBMX3ExbURWZU9CZVVmRnM1dUExY2ljY1Q3VDYwSm5pNExMWDZ3Vmo2cy1kUk9WTWlmWjhLYmZRcXlPY2JHSHlkSzFEUlVtODlpcktaUk9MejdGek9jWGhyS1V5QkdTUDMwaVg0UnVYdE1UMVVyNEZINUZiMllkQTNia01ZVHhPUmxtS2F4RVZvVkcxOGdoYjU4?oc=5",
-          "title": "Qatari officials in Iran in bid to revive ceasefire deal with US - Al Jazeera",
-          "publisher": "Al Jazeera",
-          "publisher_url": "https://www.aljazeera.com",
-          "domain": "www.aljazeera.com",
-          "first_seen": "2026-10-30T13:05:51.191180Z",
-          "published_at": "2026-10-30T12:30:04Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "diplomacy"
-          ],
-          "topic": [
-            "Politiek & diplomatie"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-30",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "al jazeera"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Politiek & diplomatie"
-      ],
-      "key": "31a6cebdb6cdea",
       "review_status": "unverified_story_candidate",
       "review_order": 30
     },
@@ -2250,6 +2613,46 @@
       "review_order": 30
     },
     {
+      "title": "伊朗袭击油轮造成的漏油污染蔓延至阿联酋海滩- 警告! - cnBeta.COM",
+      "articles": [
+        {
+          "key": "1dd601a67f27f1c635ca40d2",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CdmRiWUNjY0E4SUxVQzBoYnpPYTlKdkxLQ3A5dTlkbXQzcWloSVJGdlMtVm9vQmpwTkJGRmdhWjBiME1CZHR6UXYyTHRFOFRkWTRPLThDUzMxYVQ2UzVZTA?oc=5",
+          "title": "伊朗袭击油轮造成的漏油污染蔓延至阿联酋海滩- 警告! - cnBeta.COM",
+          "publisher": "cnBeta.COM",
+          "publisher_url": "https://www.cnbeta.com.tw",
+          "domain": "www.cnbeta.com.tw",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T08:48:00Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "cnbeta.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "1742493a8fb696",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
       "title": "Oil prices rise as Hormuz tanker attack puts Brent on course for 13% monthly gain - Profit by Pakistan Today",
       "articles": [
         {
@@ -2453,6 +2856,46 @@
       "review_order": 30
     },
     {
+      "title": "ردا على تصريح ميرتس.. عراقجي يهدد بـ\"ضربة مدمرة\" لمن يهاجم إيران - DW.com",
+      "articles": [
+        {
+          "key": "ed37e852b9b0346aabcef91e",
+          "url": "https://news.google.com/rss/articles/CBMi6ANBVV95cUxQT00zOXVDQm9LSXk5VV9wYVNBUW45VlhsN01CTFZQVFZxZGxFUjkzWF9yVUhRQ2loVjQ0d29kZlZPTXRGeHVVYTlHTVhlcHdpZ25MMlQ3WVhWZ0FxRm02dW9wRUNBalAtV2xlY0dfV1pmdDVLcV9Scnl2TDhHNkpScDdqSllvNG1wYjNlbzd0V1pHci1kQnQwOFBBZGpRYzBCbW1jZzdwQ1ZsNTJxSWxqTGdNZmxnV1F2MkxJLTgwXzdLQ2RzeGJ5UmJfcGhkMkp3TGItdENWdm9LNzV4MWNUdUtZOGUzZUgwRG5DaW5ONjRib1JrUzlMTG5RMmo2WmViTU5weVBnSEctWmFHUmtBejhweDJSaU9ZUGNqOG1yUEtZZHo0aEFMaTZRcFlYTm14Rk82TUE3X2dqX0w0MW92SElENEJFTG9TQmF5ekxjU2JEOXZqaXZpVDFMZVp5aVRJZXV3V0E5LWtGWDl1SmVhX0NKaGFtUkZhTXI5UnplVHBiVWpMVHJqeHlGOEZ3WkZiT3JfemxRREdxdTVYR18wLTlsclUzWF9EdnVIa0hXSnk2YjlGNkg0TElQRUI0RGlwMjNiU2VWTUVDM285ZzBTcW1SYWVYaXlVRUxBUE9oNllDOVhxZjJGQQ?oc=5",
+          "title": "ردا على تصريح ميرتس.. عراقجي يهدد بـ\"ضربة مدمرة\" لمن يهاجم إيران - DW.com",
+          "publisher": "DW.com",
+          "publisher_url": "http://www.dw.com",
+          "domain": "www.dw.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T07:00:00Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "dw.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "ef61072247b61e",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
       "title": "Saudi-led coalition says it destroyed drone fired by Yemen's Houthis over Makkah - Business Recorder",
       "articles": [
         {
@@ -2576,6 +3019,26 @@
       "title": "US-Israel-Iran War Latest News: Explosions In Riyadh, Tanker Attack Near Strait Of Hormuz Raise Tensions - The Sunday Guardian",
       "articles": [
         {
+          "key": "30c965ec40ef699aaf638811",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNY1FHYVNlVlRmNXVmRzVyU1hkYmEyLUdXbURPTWdYeWZmRmZEODJEQy1adExsd3Uza0FlVkcwQnNvaTJQX0ptaUNKNGg1OTZSSUdZLTBXVTlNNDFQYm1takhKSmpCNHl3QnJicUYwNFYzazkxZ1hnQ28zcGtGT1NsbWhZNDE4VEczTEl0WDVodi1YOHBrc1ROYmluR0hLRUFvY2N2cUtISjJsVTBQNndiQmxsRE9SN3ZBSGh6QndRa1I2VjVDQ3pxazRXN19kNHkyc3RVTFFqV3p4T0JZX1pCU2E3RmJaZ9IB5gFBVV95cUxNY1FHYVNlVlRmNXVmRzVyU1hkYmEyLUdXbURPTWdYeWZmRmZEODJEQy1adExsd3Uza0FlVkcwQnNvaTJQX0ptaUNKNGg1OTZSSUdZLTBXVTlNNDFQYm1takhKSmpCNHl3QnJicUYwNFYzazkxZ1hnQ28zcGtGT1NsbWhZNDE4VEczTEl0WDVodi1YOHBrc1ROYmluR0hLRUFvY2N2cUtISjJsVTBQNndiQmxsRE9SN3ZBSGh6QndRa1I2VjVDQ3pxazRXN19kNHkyc3RVTFFqV3p4T0JZX1pCU2E3RmJaZw?oc=5",
+          "title": "US-Israel-Iran War Latest News: Explosions In Riyadh, Tanker Attack Near Strait Of Hormuz Raise Tensions - The Sunday Guardian",
+          "publisher": "The Sunday Guardian",
+          "publisher_url": "https://sundayguardianlive.com",
+          "domain": "sundayguardianlive.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T06:28:54Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        },
+        {
           "key": "9a953aa41ad62617a6e7f124",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMjJ4Z1Y3UjlKTUNpVHc4MlZ1OWk1cFZQNTNVakszbnpSS0VKb2xOWVFvZ3lrQi1rejNSaGJKZ3A0emZadmoyc0o5eW42YnFuNWQtRllTbGw5UDR5WS1ic1NPeFBwNDRsY2RUeEs2MVdqamFKRzFtRDVabVV3TWtpNjR6OW8zM2lWcUVIMTZnckNtc2o2SUlzTnBoNkExMGhNN2hiclRRZVNFdkJnUVowOWlkWERYdTVkVnNLM3MwWktrb3prVTZGU1Z2WGlwVmZDdTJJc2U3WnMwTnJhWmFDUNIB5gFBVV95cUxNY1FHYVNlVlRmNXVmRzVyU1hkYmEyLUdXbURPTWdYeWZmRmZEODJEQy1adExsd3Uza0FlVkcwQnNvaTJQX0ptaUNKNGg1OTZSSUdZLTBXVTlNNDFQYm1takhKSmpCNHl3QnJicUYwNFYzazkxZ1hnQ28zcGtGT1NsbWhZNDE4VEczTEl0WDVodi1YOHBrc1ROYmluR0hLRUFvY2N2cUtISjJsVTBQNndiQmxsRE9SN3ZBSGh6QndRa1I2VjVDQ3pxazRXN19kNHkyc3RVTFFqV3p4T0JZX1pCU2E3RmJaZw?oc=5",
           "title": "US-Israel-Iran War Latest News: Explosions In Riyadh, Tanker Attack Near Strait Of Hormuz Raise Tensions - The Sunday Guardian",
@@ -2603,12 +3066,52 @@
       "publishers": [
         "the sunday guardian"
       ],
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "categories": [
         "Militair & veiligheid"
       ],
       "key": "df7ea899cb4cc2",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "沙特扛十亿现金赴伊朗求停火，胡塞拿到钱，中东真能安稳下来吗 - 手机新浪网",
+      "articles": [
+        {
+          "key": "d6f9513b358382a6c5b5d4ac",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlUC1XWW9JWW50cS01ei1saTJWM0Z3S0NxUk01V1hpdno1TXVlTHRXNGRZNlA5bVphMkk5Zms3MGJRdkthRWRWZmdYN0doM2hIbWdXY3BoUFRySUY0UjZWRmViOGlHb3RrS2xFU1k5ZHUyUQ?oc=5",
+          "title": "沙特扛十亿现金赴伊朗求停火，胡塞拿到钱，中东真能安稳下来吗 - 手机新浪网",
+          "publisher": "手机新浪网",
+          "publisher_url": "https://k.sina.com.cn",
+          "domain": "k.sina.com.cn",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T05:35:00Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "手机新浪网"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "5b15cc322a1fb7",
       "review_status": "unverified_story_candidate",
       "review_order": 30
     },
@@ -3089,6 +3592,46 @@
         "Politiek & diplomatie"
       ],
       "key": "4659ac9f756cd7",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
+      "title": "停战谈判最后的变数是“冻结资产”…伊朗“要求解冻1000亿美元” - 朝鮮日報中文版",
+      "articles": [
+        {
+          "key": "c2682f4ab2ee1815e46e38bd",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT1UtZFplbE92SjhZMVN0a2Q2TTk2b3FYSjJhcGRpYTRnOWF0bkx6R0w0TV9DYU8wbWhlVEVsdEozSGo5VGQ3SG9sZ2Rtb1B5QXl6UHUyeWd4ODZqWnlSUHU3bXlqeF9XYzlhRmZWSkJ3aDVqLTgxV1RKaXpSQlM5TEpNRVlOSkVxUmhiVkcwblE3Yl9qVGxQQkV5X3NtQTlU?oc=5",
+          "title": "停战谈判最后的变数是“冻结资产”…伊朗“要求解冻1000亿美元” - 朝鮮日報中文版",
+          "publisher": "朝鮮日報中文版",
+          "publisher_url": "https://cnnews.chosun.com",
+          "domain": "cnnews.chosun.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-29T21:09:09Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-29",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "朝鮮日報中文版"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "35cbf5b655a67f",
       "review_status": "unverified_story_candidate",
       "review_order": 30
     },
@@ -5232,6 +5775,46 @@
       "review_order": 30
     },
     {
+      "title": "Crude oil prices surge after strike on Saudi refinery - Social News XYZ",
+      "articles": [
+        {
+          "key": "6e4b33806ab64ad40d7a09cf",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcG05dnEwdU55WTR1d3JiVzNINlpDX2NqY2h1ZVowWTdxZ2EwdkxkeXlDcU0zNnpoaEMyejNaT0MzbERnWXVCX09HODJMN3ctbWdBUmdJNTBlZ3pKNkQzSnNHQVFSZlJjejFlczhRZ0FxY2dwT1JWeDVwM3ZpSC1iX0VzSkdtRDhZRFdzR09IMWE2OUl2b3BJ0gGXAUFVX3lxTFBwbTl2cTB1TnlZNHV3cmJXM0g2WkNfY2pjaHVlWjBZN3FnYTB2TGR5eUNxTTM2emhoQzJ6M1pPQzNsRGdZdUJfT0c4Mkw3dy1tZ0FSZ0k1MGVneko2RDNKc0dBUVJmUmN6MWVzOFFnQXFjZ3BPUlZ4NXAzdmlILWJfRXNKR21EOFlEV3NHT0gxYTY5SXZvcEk?oc=5",
+          "title": "Crude oil prices surge after strike on Saudi refinery - Social News XYZ",
+          "publisher": "Social News XYZ",
+          "publisher_url": "https://www.socialnews.xyz",
+          "domain": "www.socialnews.xyz",
+          "first_seen": "2026-10-30T07:08:28.890498Z",
+          "published_at": "2026-10-28T16:02:36Z",
+          "language": "en-PK",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "pakistan-en"
+          ],
+          "topic": [
+            "Regionaal: Pakistan"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-28",
+      "priority": "hoog",
+      "priority_level": 3,
+      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
+      "publishers": [
+        "social news xyz"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Pakistan"
+      ],
+      "key": "fd442ad662addb",
+      "review_status": "unverified_story_candidate",
+      "review_order": 30
+    },
+    {
       "title": "\"إسرائيل هيوم\": الهجوم المحتمل على إيران لا يرتبط بتشكيل الحكومة الإسرائيلية الجديدة - Iran International",
       "articles": [
         {
@@ -5931,372 +6514,6 @@
         "Politiek & diplomatie"
       ],
       "key": "9ed53048aba5f9",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Oil prices rise as Houthi Attacks on Saudi Arabia rekindle supply fears - Daijiworld",
-      "articles": [
-        {
-          "key": "c2da58fb243f7e9069712d4c",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKbUhDSGNBVjBhNFF0Q0NYU01IckVhRnJpNEd0dnRzVWR2NXpKa3EwQ0c2bTlmNVE0N29YaU5TbXYxMmZzVGJ3b3ZhZG9vbHRoNHpicUw3SU1OZ1prNW5ncE9MaGE?oc=5",
-          "title": "Oil prices rise as Houthi Attacks on Saudi Arabia rekindle supply fears - Daijiworld",
-          "publisher": "Daijiworld",
-          "publisher_url": "https://daijiworld.com",
-          "domain": "daijiworld.com",
-          "first_seen": "2026-10-29T19:01:39.523190Z",
-          "published_at": "2026-10-28T08:59:18Z",
-          "language": "en-PK",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "pakistan-en"
-          ],
-          "topic": [
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "daijiworld"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Pakistan"
-      ],
-      "key": "a9b8af798e8cae",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Oil prices rise as Houthi attack claims renew Saudi supply concerns - Anadolu Ajansı",
-      "articles": [
-        {
-          "key": "f9e78c6e548d77293e703aeb",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXVqQXFYeTlydVBobEZ1Q2NHVzVMdnIxNlhJYzllOXF4bUZ2VENnRndHMl9zVzNtWXlQRE5XRnhVRWRuTE9MMW9iM3k4eGJfSlFzOGZ2anNUU2hUTlFpYXd4MEV0M2VXcWRwV2VVWkhJTkdfaDJnVERFVEdTZ3l5VzluZjdWWnVkWUY2LVRjbVJYU21xelozaU12bElXZUpVMENHb0VJa0o5cUhndXhJ0gG3AUFVX3lxTE5KM0F2RDBVMHhiZ0lYaXkzcTBORXZRMExER0dYSU81b3pQSVVWSTFlQ0lYaTJMOWhjaXdELTZNV0Nzd0pMZkFFRFBKajhvNmhkNW8zdjhGYUxDWnpIZ0oxSHUxWXlXZThlX1RFay1rVnI4bXBZZWZWVXk1cC05ZGxaaW4zT0h5a05qUWxfb18wQ05iZHJ6NlBjYlJ0amZwRWlfUWJCYk15azBIZnJFR0F3U1ZURWRWQQ?oc=5",
-          "title": "Oil prices rise as Houthi attack claims renew Saudi supply concerns - Anadolu Ajansı",
-          "publisher": "Anadolu Ajansı",
-          "publisher_url": "https://www.aa.com.tr",
-          "domain": "www.aa.com.tr",
-          "first_seen": "2026-10-29T01:08:15.870063Z",
-          "published_at": "2026-10-28T08:30:09Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "energy",
-            "pakistan-en"
-          ],
-          "topic": [
-            "Energie & grondstoffen",
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "anadolu ajansı"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Energie & grondstoffen",
-        "Regionaal: Pakistan"
-      ],
-      "key": "1487d1b431ed1d",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "WTI climbs above $100.00 amid attack on Saudi infrastructure and Israeli election deadlock - www.tmgm.com",
-      "articles": [
-        {
-          "key": "dd18e7483f2d55bf725eda41",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQmRpcE01VzZKdnNkeHh1SUlud0RCYXJxX2NWY1g3WklQb2hjelM1YkpDV3ZvNUY4UmdMUE9ndXBod1VtanA2T1cwREJYUVRYeG9YYjZHTzNkMlNVSTdNTTFqRFdYZ2FkUnk1N2xiU1RoYU9oYmZDTmlNLXdWYm9kd25HUW40cHB2QWhLcU9wdEhKZVY2N1QzX3BpLWFvcDM0bUJrSm5lYXpGZDBteTZEZDdQQlh5MnBRMFpLNjlpSlJGRlBDcFRzOEtOczI4MzlMOVNXMm1fMVp4emM0dmFvSXRPVQ?oc=5",
-          "title": "WTI climbs above $100.00 amid attack on Saudi infrastructure and Israeli election deadlock - www.tmgm.com",
-          "publisher": "www.tmgm.com",
-          "publisher_url": "https://www.tmgm.com",
-          "domain": "www.tmgm.com",
-          "first_seen": "2026-10-29T07:08:07.269499Z",
-          "published_at": "2026-10-28T08:28:55Z",
-          "language": "en-PK",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "pakistan-en"
-          ],
-          "topic": [
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "www.tmgm.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Pakistan"
-      ],
-      "key": "2c94003d6f49a1",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles - EnergyNow.com",
-      "articles": [
-        {
-          "key": "dad338f162d17f6d799112fc",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmRjOW5iTlYxTE5NSkNHZlRTZXJRWXBZTEJMZ0FyNFItWWtPV3pmWUdnVTF0M2JzMmxOTmMyMU5MMG1nM3VJcnk2OS1OMXBrS3IxbTBvVVZVb1N0S2F6M1ZSS09kT18yOWZvZUh1MEdWSzlhTWw2TlAxWmpHcGZOZEN0U0haVUNBWHBPeS1ZNzVzYmlBZkMxTmFkb25vbERIeUx1eDBSeHNoUkVSUjVkc1dZeG8yYUZRbFJoTA?oc=5",
-          "title": "Fujairah Oil Zone Hit by Fire After Drone Attack as UAE Says it Intercepted Iran Missiles - EnergyNow.com",
-          "publisher": "EnergyNow.com",
-          "publisher_url": "https://energynow.com",
-          "domain": "energynow.com",
-          "first_seen": "2026-10-28T10:50:05.873162Z",
-          "published_at": "2026-10-28T08:10:35Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military"
-          ],
-          "topic": [
-            "Militair & veiligheid"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "energynow.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid"
-      ],
-      "key": "d9a0f4967ab7a7",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "WTI rises above $100.00 amid Israeli election deadlock, Saudi infrastructure attack - www.tmgm.com",
-      "articles": [
-        {
-          "key": "12dd5fdccae7d2affc0c072d",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWE9ScDB5M0dpN3hrTkpySHlOMjJiMUdteEdMTDNhTHY4ODRwdl9wSGItRERnd1RDQnYyakdGdnZTVnBIbktBdHZfN3FMVURpeUVJUmQ4eFNic2s2ZHZYenBxemdrc2hldE1aSlM0NmhaMWNLWk5jZ09mZEZxRTFMOVAxNllqMEE2QmlUVG9LdUtTTDNOR0Y1YTdGRXdEajAxRWdGRGtMcG9mcE5nOS1TOWlncHVBVzU3X2oxVV91ckFYQzdDbjBqVGQ3X2sya3R4aXZIaGFnTFA1SmdjeWxF?oc=5",
-          "title": "WTI rises above $100.00 amid Israeli election deadlock, Saudi infrastructure attack - www.tmgm.com",
-          "publisher": "www.tmgm.com",
-          "publisher_url": "https://www.tmgm.com",
-          "domain": "www.tmgm.com",
-          "first_seen": "2026-10-29T13:08:44.236498Z",
-          "published_at": "2026-10-28T07:57:29Z",
-          "language": "en-PK",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "pakistan-en"
-          ],
-          "topic": [
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "www.tmgm.com"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Pakistan"
-      ],
-      "key": "c46e8539f20581",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "'A question of when do I want to end it': Trump says Iran wants deal but delays negotiations - The New Indian Express",
-      "articles": [
-        {
-          "key": "3a26e4b260dd031d105efb94",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOHVJUVBTaHlzby05ZG8zTGt1OVhzYi1QMlRlclI0cm1qQnF4bl95eWIxcEtsOGJ6LWxUZ2lRSU9fcHlpREhfRkxubHFQV1lzZWotWWdTbTVoVVFZVEpWOWNsNVRLQ3l1S0JMT1Z5bFlNVndoa0wxSUprdThsNEcwMXJaRUxxTGhxc1czODI3V0E1T2liVDZ2MjVMV3N0bndDZTA0RjJlTmE1Q1psUk81V0JkSHA2Q0otdHVJZjlrVEJNUEd4RjEwQTdHRFMwc3pDX2M5MVlMb9IB5AFBVV95cUxPVTNyWHRzU0VqZ1AzMF9CUkhMcXlXa3NEWGtHc3A1bmw3NVR0WTd1QTYwbnM4N3lXNkpNRVRUWUtyY2VXdUZZaUc1UG9vdWhoMTBUZzVjMnlWMlRidFJhMjctRWVjUDM3TlZodjRaRzRrQVJSZV9qend0bUt1NFlrSDBVQloxc1g5Mm54VEdBcUNsR0JCeHczSGNhUXUzMnhQV0FkWVZtY2labzZoMmJlRGlPLUZGT0xYdFNhZXV3UUt1SEYyMURHb3NRbXBhdWJuMW95SVlaVGYxQktUd3BDckViRlM?oc=5",
-          "title": "'A question of when do I want to end it': Trump says Iran wants deal but delays negotiations - The New Indian Express",
-          "publisher": "The New Indian Express",
-          "publisher_url": "https://www.newindianexpress.com",
-          "domain": "www.newindianexpress.com",
-          "first_seen": "2026-10-28T10:34:20.844188Z",
-          "published_at": "2026-10-28T07:53:51Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "diplomacy"
-          ],
-          "topic": [
-            "Politiek & diplomatie"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "the new indian express"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Politiek & diplomatie"
-      ],
-      "key": "59647d58590ba6",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/",
-      "articles": [
-        {
-          "key": "3641591a1d923504ea95823d",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pczRiQlU4M3pONTJLZ2dkYUsxYzlXSHRJcGtVZ19vcDF3Z0JCVHZQb3JjV0YyVDRjZEQzOTBKU2tkR0Fyb1BXVTllMnh5d0RCNG9HNkRNa2NiN2xkU2pHaUdyOG04T1ZhUHZtaGgxMXQ?oc=5",
-          "title": "Iran Says Hormuz Opens in 4-5 Days if US Lifts Blockade - https://houseofsaud.com/",
-          "publisher": "https://houseofsaud.com/",
-          "publisher_url": "https://houseofsaud.com",
-          "domain": "houseofsaud.com",
-          "first_seen": "2026-10-28T08:49:37.433120Z",
-          "published_at": "2026-10-28T07:45:24Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "diplomacy",
-            "pakistan-en"
-          ],
-          "topic": [
-            "Politiek & diplomatie",
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "https://houseofsaud.com/"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Politiek & diplomatie",
-        "Regionaal: Pakistan"
-      ],
-      "key": "76f19eec7631b9",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "尽管油轮袭击事件不断升级，但海湾石油出口量仍超过战前水平。 - Al-Monitor",
-      "articles": [
-        {
-          "key": "4f51325ccbf99463b7691876",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9LZnFpLTlFckItYmRBR2ZhMDlhSXVNdjRzZGNFWGsyNEdGV2N0MWY1U2hINnNZWTlGbzZYemVhRDAxNmw5ZUFEZmM4RlF0TExHeE5IUDNXNmpMeFNMTjEybGZaZHoyQQ?oc=5",
-          "title": "尽管油轮袭击事件不断升级，但海湾石油出口量仍超过战前水平。 - Al-Monitor",
-          "publisher": "Al-Monitor",
-          "publisher_url": "https://www.al-monitor.com",
-          "domain": "www.al-monitor.com",
-          "first_seen": "2026-10-28T08:49:37.433120Z",
-          "published_at": "2026-10-28T06:26:25Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "al-monitor"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "4e7be669964446",
-      "review_status": "unverified_story_candidate",
-      "review_order": 30
-    },
-    {
-      "title": "Oil Prices Rise on Renewed Houthi Attacks in Saudi Arabia - NewzTodays",
-      "articles": [
-        {
-          "key": "72bb2edfebad93b1e1305648",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeWcxYklpVmRTYzRiUTR0QmdwVVZvNHdGcEZVVEl3bjlaV0NtOFpaRmVQYVJ2LTd6S1R6b1hRZ0ZsTTFPNm54R013VmNhVW9JSHQ2czB6MDQ2ZjNYcEc1ekxVN3A1NmFmU3JWVGJWR21FLUhNdGRqeDg3VThfSk1rRWJDdmlkUHc2?oc=5",
-          "title": "Oil Prices Rise on Renewed Houthi Attacks in Saudi Arabia - NewzTodays",
-          "publisher": "NewzTodays",
-          "publisher_url": "https://newztodays.com",
-          "domain": "newztodays.com",
-          "first_seen": "2026-10-29T07:08:07.269499Z",
-          "published_at": "2026-10-28T05:59:37Z",
-          "language": "en-PK",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "pakistan-en"
-          ],
-          "topic": [
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "hoog",
-      "priority_level": 3,
-      "priority_explanation": "Relevante regio/markt + mogelijke concrete actie",
-      "publishers": [
-        "newztodays"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Pakistan"
-      ],
-      "key": "e4c340c928f091",
       "review_status": "unverified_story_candidate",
       "review_order": 30
     },
@@ -7117,6 +7334,406 @@
       "review_order": 21
     },
     {
+      "title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks - Al Jazeera",
+      "articles": [
+        {
+          "key": "9a68d22e09d75a535a252803",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTDcwblE5RGttbEZ0eE94UEZQUTJabDdJOE1hcTdDVWtMZHJFUlBHbmZKRE15bnlRT3BIVlZYblRwMzlDYkZkSnN0MXIzUjBpYnFwSWppOVhUeER4Q3ZQNTIwVzVxMUU3OHdGZzN2ZUlEcVdENkZ0YVNBakpOaGtOcGg4T3NlVWdQaFBETjNzOWJ1UUdUbkZvbU90YW5FVVdqUHpCN053ejJsVzVxMDU4NGd6dFNQQdIBuwFBVV95cUxOS0ZLMmctVlEzTmlib3FUTHpfd0lpemRYYVVkZzY1amw3eTE0c3BjaFE5ajZXNHAwOXVQWEtqa2d2d2VoN2QxWklGWFhzY3JJZk5tU3N5cnI3SVZ1SjR6a01MbWp6ZTN1M29RcEpsQXNhNkQ4MnZ1cGFGQ250MkdoVExIR0VBWkxWMWplUXVmLWdXaHlXQ19UNkY0emFpUlZyWE56eFh1WFdrWEl1RENHWFpNMzBpZnAwRUdN?oc=5",
+          "title": "Iran FM says US outreach a ‘positive step’ as delegation in Qatar for talks - Al Jazeera",
+          "publisher": "Al Jazeera",
+          "publisher_url": "https://www.aljazeera.com",
+          "domain": "www.aljazeera.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T17:58:19Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "al jazeera"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Politiek & diplomatie"
+      ],
+      "key": "6d8fcb9fadec4e",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "'No geographic limits': Tehran projects readiness for all-out war - Iran International",
+      "articles": [
+        {
+          "key": "6ffb36c8d94ef5fc9cdbf336",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FYkVLMGpxaUdtQnJ0NE55Zk9MUDZMSTc3MjdYeXg1TEN2bWVzM2NDWTc5TFE2bFZwcU5jdXA5aWZvb1psY2lMS3JmNjBvdWZZUWc?oc=5",
+          "title": "'No geographic limits': Tehran projects readiness for all-out war - Iran International",
+          "publisher": "Iran International",
+          "publisher_url": "https://www.iranintl.com",
+          "domain": "www.iranintl.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T16:33:38Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "iran international"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Militair & veiligheid"
+      ],
+      "key": "1d6f7bb98e3561",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "Middle East war: What UAE residents need to know this evening - Gulf News",
+      "articles": [
+        {
+          "key": "4aa0da7e89873f54032df762",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcmxUM2drMUZQb1FxUi1FUXR0cWNPYU9rRWE3UGs4OWlDZUxONEZrTHU4dlZoRFZXUmhDS2xCVmpXcmo1M1QyczZOQzRGeGFGc3FsQ0xrUFl5WXpZQU1oVWs2N3pJdVZDT3pVRXZMTllrRk1IM1gyQlM5X09taGZxbmlMS09rRTRJcWhOcUlzbHJwblJfTktYZUMycF9HSXBOc2VwQzFNVdIBugFBVV95cUxObFNMTl9Hb0xNRTViX1NDemhyMkMtcUdlRldLdmVEWC1PTFNmaEdRVENaM0VHUVFScHlxbV9hcjgweUFYdjZRZThFdzRBRmlkZnJ2YkFBLU50Y1p0SmRMZVR6dmhHRHRNaUtYeGhFWTN6MTdvOFZfNG5kMm56bnNoalZKUkdWV3dYc2RFdEFrb1lxTlF1ay1iOXBPbUpLZElsTVFCeV8zZ1Jqb1JENVhlWEcxSzRXWlFDNVE?oc=5",
+          "title": "Middle East war: What UAE residents need to know this evening - Gulf News",
+          "publisher": "Gulf News",
+          "publisher_url": "https://gulfnews.com",
+          "domain": "gulfnews.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T16:06:22Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "military"
+          ],
+          "topic": [
+            "Militair & veiligheid"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "gulf news"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Militair & veiligheid"
+      ],
+      "key": "75dfd672da36cb",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "伊朗战事期间，美国石油行业被曝获得超1300亿美元利润，几乎是2025年同期约470亿美元的三倍 - 新浪财经",
+      "articles": [
+        {
+          "key": "73b08a0754af876ac27276ac",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qdHJjcjdSYWhMQjZ1SW9JTmNuYTFiQW01eGdhYzhKQWI0cGJ1UTBobUR1RFpMTm9QcU5XUEU5dXB5UE1VZXdyY0N2NjhhMVg4dW1oTkNlMVpVeTgxMF9DaDRIcW9wN252T2xoY1M4cUR3X29EdEE?oc=5",
+          "title": "伊朗战事期间，美国石油行业被曝获得超1300亿美元利润，几乎是2025年同期约470亿美元的三倍 - 新浪财经",
+          "publisher": "新浪财经",
+          "publisher_url": "https://finance.sina.com.cn",
+          "domain": "finance.sina.com.cn",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T15:44:10Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "新浪财经"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "fda5cb09ab6897",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "النفط يقفز لذروة 6 أشهر بفعل مخاوف من تصعيد حرب إيران - جريدة الجريدة الكويتية",
+      "articles": [
+        {
+          "key": "ba8566f2e285effecf4f8399",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2NWlVeFY0UnFMMExQb3dkSVREMS10ZzV0UzVxelMydFFlUmcwbXM0dEVBWW9jX2VOd0hISWRRbFk3VzNQTGFJNEZJZkpveFE50gFWQVVfeXFMTjVzcWc3WFY2R3hGSXVrZ1hLTnc1YV9sMndvNEhYeWJ0bTc0RjVvbThNYW90d1pEVmpuRWRPWVhIeDR0U0tGZXI2b25wdnRtdWZVWEtYWEE?oc=5",
+          "title": "النفط يقفز لذروة 6 أشهر بفعل مخاوف من تصعيد حرب إيران - جريدة الجريدة الكويتية",
+          "publisher": "جريدة الجريدة الكويتية",
+          "publisher_url": "https://www.aljarida.com",
+          "domain": "www.aljarida.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T15:35:00Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "جريدة الجريدة الكويتية"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "85d96a4900e53b",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "Iran Says US Must Accept Conditions Before Direct Talks: FM Araghchi - Business Upturn",
+      "articles": [
+        {
+          "key": "59f6ffec7c5839e2a718e5ca",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSjdPM045UVY2LVJmR2hGb3Q4UnhtUDlXRWZCNEVvMlJkRnZJaXBOZUJRa0J4VGt0YnAzZUprLWR0V0htZko4MGp3T1dmM2N0cFo1NzhFZmZGaHFKRlUwZmtHNVFDR2hjRXVsNnEwdFI0T19LVC05VDBTVGFuVHhFSF9DZ2FrdGlycnZtb2lEN25ROFYtc0N0SGxCVVVaU01KSWNsT3BLOElmRXU0VjBkTWFyQjZpS3hJX05OSFVubw?oc=5",
+          "title": "Iran Says US Must Accept Conditions Before Direct Talks: FM Araghchi - Business Upturn",
+          "publisher": "Business Upturn",
+          "publisher_url": "https://businessupturn.com",
+          "domain": "businessupturn.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T13:46:10Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "business upturn"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Politiek & diplomatie"
+      ],
+      "key": "9bd90d70a88c73",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "Can Qatar and Pakistan break the Iran-US deadlock over Hormuz and nuclear talks? - Business Upturn",
+      "articles": [
+        {
+          "key": "6235ce03451e3c67b84cf817",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRE5LVGNCOHVfMmJIYjNWeDFzb1lnZ20ySjkxVlEyQmNTTm9aX3ZiTXJlNEpNX25rZFpaaGR3VVU1ZU9xV3ppb29Dd01XM19lazk4dVBjcmNQUl8zLXdTeWNuUExBbENIRlVfWm5yZ1FrdlZBSnFxRk9YVkp0ZHY0YmpKLWhacHJGMW1VZGlhX1F5RjFPSXlqX2lMQTk3T3dkTTI5aGdCT0tHZm9PR2JPbmRYSzNZYl95dGRMNXBWSW4zQ3libExhWlRURXd6dTg?oc=5",
+          "title": "Can Qatar and Pakistan break the Iran-US deadlock over Hormuz and nuclear talks? - Business Upturn",
+          "publisher": "Business Upturn",
+          "publisher_url": "https://businessupturn.com",
+          "domain": "businessupturn.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T13:41:21Z",
+          "language": "en-PK",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "pakistan-en"
+          ],
+          "topic": [
+            "Regionaal: Pakistan"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "business upturn"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Pakistan"
+      ],
+      "key": "a8a79ab83abf64",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "Iranian delegation arrives in Doha as Qatar mediates US-Iran diplomatic efforts - Business Upturn",
+      "articles": [
+        {
+          "key": "a70fe2e3519b07fc95a36581",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYWVGcC1nWWQycHhPZ19NUGxXSVhCVklZelpXN18yU180MlQ1V0luek1fY3UtY2R0WnRIVkNhcUZGbFowcmV6RndqVUhQc2ViNlotMGVIREVmN2tucE9yMG5ZWjViNmRNR2tGb2xJc0lXZnJ5dklxOTN2Z0UwQ1FXTU1OVlR1eDR4aGtCMHNMVGxZenp4MFhBSkFPczBOWUwwYlJXOXdneUhvMnF6dXoyN21Uc183LWlMWEJwWHc3WVlRQVJuYXV1UmV1ODlwaXc?oc=5",
+          "title": "Iranian delegation arrives in Doha as Qatar mediates US-Iran diplomatic efforts - Business Upturn",
+          "publisher": "Business Upturn",
+          "publisher_url": "https://businessupturn.com",
+          "domain": "businessupturn.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T13:06:04Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "diplomacy"
+          ],
+          "topic": [
+            "Politiek & diplomatie"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "business upturn"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Politiek & diplomatie"
+      ],
+      "key": "53818e91c7da22",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "لماذا تسعى شركات النفط العملاقة لزيادة إنتاج المصافي؟ - موقع 24",
+      "articles": [
+        {
+          "key": "260ab8b8520c9fcfd63b0338",
+          "url": "https://news.google.com/rss/articles/CBMiPEFVX3lxTE5NY0lQVF9LaWdkaHdEdmpTZW02QXc4elk2eVVyenZCR3pvRVF5THI0UnBmUmhYN243Y0lKVg?oc=5",
+          "title": "لماذا تسعى شركات النفط العملاقة لزيادة إنتاج المصافي؟ - موقع 24",
+          "publisher": "موقع 24",
+          "publisher_url": "https://www.24.ae",
+          "domain": "www.24.ae",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T13:02:06Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "موقع 24"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "dca1181f7f9195",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "Three Merchant Vessels Targeted in Gulf Region; All 35 Indian Seafarers Reported Safe - www.nationpathindia.com",
+      "articles": [
+        {
+          "key": "dda13c5d6626d9d9fc04f549",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMVNUZktFaUtNSmx2QWJ4TmN4ZkZqdGVXdVk4WnhEZkFIRW1sS3hqbXNVNlh3T2JYdmVaSGw2a0pWRnhHT3A2UEtYZkcybFRKZTcwSTI3eTdUNGtzZzVMVjg2eUczdlF5cUQxb2NOMC05MUtpWm9fenZiOXR6Y1dhcGh0ZUxmLXQ1OTNRWEVrZ1dkeGxGZTkzaFhYam5PZw?oc=5",
+          "title": "Three Merchant Vessels Targeted in Gulf Region; All 35 Indian Seafarers Reported Safe - www.nationpathindia.com",
+          "publisher": "www.nationpathindia.com",
+          "publisher_url": "https://www.nationpathindia.com",
+          "domain": "www.nationpathindia.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T11:48:06Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "trade"
+          ],
+          "topic": [
+            "Wereldhandel & logistiek"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "www.nationpathindia.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Wereldhandel & logistiek"
+      ],
+      "key": "84b2d768d5fd40",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "Qatar Mediators Return To Tehran As JD Vance Letter Pushes US-Iran Talks: how 5 outlets framed it - NewsCord",
       "articles": [
         {
@@ -7273,6 +7890,46 @@
         "Regionaal: Golfstaten / Arabisch"
       ],
       "key": "3c014f3caeba0d",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "مفاوضات إيران مستمرة على وقع التوترات في هرمز - قناة الغد",
+      "articles": [
+        {
+          "key": "470c14fbbe4daa8d68029845",
+          "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxQa0hJaUl1LTA0cnVJVTJvMDQ5dDdoRC1uZ2RyOTNLN0tIWDVySEhMVC0wZU8wbGcxVHA2cWtoMndpZTA0M1VBMVh2OEJ2ZUZKM1dmZERMdm9feWZ5WEdiTklHcUxfMHdtWmVTWE03cWxXTDRSWE5NN0RfOE1Cc0Y0YkxsRGl2Rmg3VHJhWUNUX0VGeFc2LVhVei1SUHNmc1UtZUxnREpsUmRjTzlJamdiejZHc3lpN25SWE9hR19WeXE4bm1uQUhPWF9qZ0Q1WFBIMDgtdmVDRUZyRXlJN0hhSFlac0Q1bUZ5NDBaTDA4dG1EVm5CcWlRaVBKbFVsZFQ2cjVxZjBuam1BYXF1UWFyU0NYQ3BwbU9uLUlqeEdITjh5YjQySHR5eEtoWjhRWXJ6WFpTcW1CQ0o5UGN4bWZCSkVWXzVJWldSUmJFZThxNDJIMjlNeTFSSlFFQy1mUE1BZGlHWHRLRHF3QzVxMmo2aWFRc3g4Mk9jZnozMUFFY2tNWjFJdzBmd25yQU9lUjR0RHBlLWk2Y0lHcHA3cU5zVjkwZW43TkJ2ZDZLU01HNVlOTjcyeFJTeTR2U3ZhbWUzSDdIeg?oc=5",
+          "title": "مفاوضات إيران مستمرة على وقع التوترات في هرمز - قناة الغد",
+          "publisher": "قناة الغد",
+          "publisher_url": "https://www.alghad.tv",
+          "domain": "www.alghad.tv",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T08:38:20Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "قناة الغد"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "eafbf465ee50b9",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -7737,6 +8394,46 @@
       "review_order": 20
     },
     {
+      "title": "美媒已爆料：若开战美以将轰炸伊朗领导层，卡塔尔做最后外交斡旋 - 搜狐网",
+      "articles": [
+        {
+          "key": "9904ec1e22116f01759ef233",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUWI1Y2dLWldTRFhmbjQ1eFpZeXphbTgwQ0dQbk5iWW40RzVFbmt5WXhfTVlwSXNRU0JrZWtsTHV6eUtySG81Ym9aakNCaWRHQXc1dV80THBVY0JkUEp6RDFCVEhGbGZma29veG9aRnZqakhHYnkwMFVxZWVUZnp3TUFvVllhNmFlSndHNg?oc=5",
+          "title": "美媒已爆料：若开战美以将轰炸伊朗领导层，卡塔尔做最后外交斡旋 - 搜狐网",
+          "publisher": "搜狐网",
+          "publisher_url": "https://m.sohu.com",
+          "domain": "m.sohu.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T03:38:36Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "搜狐网"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "f14f1fae87be46",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "美军在霍尔木兹海峡护航 内幕曝光 - 万维读者网",
       "articles": [
         {
@@ -7773,6 +8470,46 @@
         "Regionaal: China / Chinees"
       ],
       "key": "ea9cb8e9e354af",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "特朗普再称伊朗战事将“很快结束” 多架美军机飞抵以色列 - 温州新闻",
+      "articles": [
+        {
+          "key": "c16dd35f75c1c63602c40785",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GMDBEd25OT2JRWEJEdVNDS0RDOFFvN1ZId1ViVEtUZ2pyT1cxck9kSzdTX2xvcDV4YUpwRXJkanB1VkFNT3h1aHRRZW14OGtNRmZucmJyRVFqcVdwc0hZanBCUFhBQQ?oc=5",
+          "title": "特朗普再称伊朗战事将“很快结束” 多架美军机飞抵以色列 - 温州新闻",
+          "publisher": "温州新闻",
+          "publisher_url": "https://news.66wz.com",
+          "domain": "news.66wz.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T03:10:11Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "温州新闻"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "93a1119bc21b54",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -7857,6 +8594,46 @@
       "review_order": 20
     },
     {
+      "title": "Qataris hold marathon talks in Tehran in bid for U.S.-Iran deal before midterms - Axios",
+      "articles": [
+        {
+          "key": "68eab4176056f337b196281f",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMTg1UTZmdFFiVndiNS1OTnU2cUhBSk1lTVJDMWFOTEdKNmhtLV9wc0hJSlBqaEk0d2Z3UTdqQTRpbE1UMjV3WG1kaUE5TEFrOWp2clJGTTBFc2JkN0tXNXR5dnd3RGdjWlNhTkFRRFRwSmo5YW1Val83VWZuN3VYQnUteDFtdw?oc=5",
+          "title": "Qataris hold marathon talks in Tehran in bid for U.S.-Iran deal before midterms - Axios",
+          "publisher": "Axios",
+          "publisher_url": "https://www.axios.com",
+          "domain": "www.axios.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T01:48:50Z",
+          "language": "en-PK",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "pakistan-en"
+          ],
+          "topic": [
+            "Regionaal: Pakistan"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "axios"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Pakistan"
+      ],
+      "key": "c6f233c6312057",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "Trump Says Iran War Will End Soon, US Military Insists Hormuz Is Secure - Eurasia Review",
       "articles": [
         {
@@ -7893,6 +8670,46 @@
         "Regionaal: Pakistan"
       ],
       "key": "5c11bc0bae1550",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "伊朗声称三艘油轮在霍尔木兹海峡起火。 - Vietnam.vn",
+      "articles": [
+        {
+          "key": "56c18a0defe0772c3e23e422",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcTBQb2FLSkZlMHhZNU5QNDdnakUzQ1JUNVFCMFpSVGhZWkRVb25haVNhcUY2b2Z0QTJYRTFEOWpIX3FtZ2hSbG0wN1FLOTVnQlBFVTFrY1N0dzE4bGJiTi1lbmNXLU9GaDN4LTVLNDFzOEtmTW9YYzdUTEFhN1Jkb3Q3aERYRDM2WjNN?oc=5",
+          "title": "伊朗声称三艘油轮在霍尔木兹海峡起火。 - Vietnam.vn",
+          "publisher": "Vietnam.vn",
+          "publisher_url": "https://www.vietnam.vn",
+          "domain": "www.vietnam.vn",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T01:07:27Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "vietnam.vn"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "2f4596dc84dfc5",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -8114,9 +8931,11 @@
           "language": "en-US",
           "sourcecountry": "",
           "discovery_profiles": [
+            "pakistan-en",
             "trade"
           ],
           "topic": [
+            "Regionaal: Pakistan",
             "Wereldhandel & logistiek"
           ],
           "provider": "google_news_rss",
@@ -8133,6 +8952,7 @@
       "article_count": 1,
       "source_count": 1,
       "categories": [
+        "Regionaal: Pakistan",
         "Wereldhandel & logistiek"
       ],
       "key": "283e4970ab9418",
@@ -8220,6 +9040,46 @@
       "review_order": 20
     },
     {
+      "title": "伊朗局势紧张引发战争担忧，国际油价飙升逾2%……布伦特原油达117.64美元 : 经济 : 财经日报 - 재경일보",
+      "articles": [
+        {
+          "key": "385b8ee05eb04bbac012f069",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9BU1FmYU8zNWJIc3QtdUwxMVotOEtGX3lGcHpaQTBvUFN1eXZsaUJrVDgwOEwyb3FjemM4ZG1lUUpoX1VqT0ttM0lMX1IxRDJxbU1wMWd0bFZSd3lyVGhqbEpn?oc=5",
+          "title": "伊朗局势紧张引发战争担忧，国际油价飙升逾2%……布伦特原油达117.64美元 : 经济 : 财经日报 - 재경일보",
+          "publisher": "재경일보",
+          "publisher_url": "https://news.jkn.co.kr",
+          "domain": "news.jkn.co.kr",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T22:45:00Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "재경일보"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "d6602221539f55",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "The Hormuz Crude Volume Debate Masks the Real Shortage of Refined Fuels: Russell - EnergyNow.com",
       "articles": [
         {
@@ -8256,6 +9116,46 @@
         "Energie & grondstoffen"
       ],
       "key": "73331b4f8a7d3d",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "إيران تعلن تعرض ناقلة نفط رابعة لحادث في مضيق هرمز - شبكة تواصل الإخبارية",
+      "articles": [
+        {
+          "key": "7ff38717f7cfbd802e6f7e1f",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SVXk5RmJRWmNlNGVnUnB2bVFMaWo2N0VXUDZMY0VxOTJfU0JhSjEzZ3g4SWtKNlZKeGtHQjNucGtUQ1lSVEtGQkIweEloQVBJOGM0?oc=5",
+          "title": "إيران تعلن تعرض ناقلة نفط رابعة لحادث في مضيق هرمز - شبكة تواصل الإخبارية",
+          "publisher": "شبكة تواصل الإخبارية",
+          "publisher_url": "https://twaslnews1.twaslnews.com",
+          "domain": "twaslnews1.twaslnews.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T22:31:27Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "شبكة تواصل الإخبارية"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "ab7cd06028ade2",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -8496,6 +9396,46 @@
         "Regionaal: Golfstaten / Arabisch"
       ],
       "key": "4e4b7f3d5d9993",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "النفط يقفز 2% ويغلق عند أعلى مستوياته في 6 أشهر ليحقق رابع مكاسب شهرية على التوالي - المتداول العربي",
+      "articles": [
+        {
+          "key": "8ef48401591f25d9ed8ce78a",
+          "url": "https://news.google.com/rss/articles/CBMi_gRBVV95cUxPMllURkVqLW1lbmhSM01XYnlkaDVaVWstTlJnTkVtekZaQW1xUFpCekw2VlFQR2ZtU3U0NHV2dXhlQ2J3emlkMmx6d0xjekdDRDh6WEFMdDdQc0N3eW0zSlFOcmVMYWpvbExDSjRpUDZBV1VCV0pSRVlPTW5sR2hQY2VIS3RmcEd5TTB5c2xUSU5pbjhrNENwRDNVc3c2TjByVW9wVjU4clY3RWtQd1QwcHJ0Zi1KQzBTdldtZ3J4MlpsWnkwRlBrUHkzeF9aalphazBPV3AwWm9May15S01TdjEwTXZwWUNBWHB6SnY0Sjl1aG9xVm5iYzN1M3QwOXp1blFIcXhzejhTdEd4dDJPaXNxRGU0UVRBLUJ4MXRCUlR5d1ZYdXFaMnFIOXdtbEhCTnRUTlpEUEU2UzhLSGJWdklBLXRYei1yUGE5eWxTVFBWWmkxN2ZkWGZibGNtMjdJcFdBOGt3NWRrUkVXQldBRkgtc1o0S3ZDNG85MEQ2WURSZzdtVWp0NE9OeW15YV9mSUZicnBUNkk1U2R6REtCUWhzTTZneUNpak9wSW80RDhka3hDY2w2OGZCR0FRWUJBbU1mWi1KN2w5V1dlNDM3ZDhxdnpnWU4wdWVUMnR3MEFpZkNsbHIzZXROQm1KVk1EM2w3U2dIZkF3ZUFzcGtKNjhqSkFlYzlKMEZzMWNONlFzaWF3T2NzWWFNajFkOEdfM1JYc3YxMVRHZWtIckRwcDZBZzRrWFlUM1BmU0JsMmhpRzVkZnFva1d4TF9tQlY0X2xvZFZGWlUwOTdmbVJHX29kNWV4NkJHaEZ3b0lpUzJxdnoyYlBoUUgwbE9IUQ?oc=5",
+          "title": "النفط يقفز 2% ويغلق عند أعلى مستوياته في 6 أشهر ليحقق رابع مكاسب شهرية على التوالي - المتداول العربي",
+          "publisher": "المتداول العربي",
+          "publisher_url": "https://www.arabictrader.com",
+          "domain": "www.arabictrader.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T20:21:19Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "المتداول العربي"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "568270db1a2d7b",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -9723,6 +10663,86 @@
       "review_order": 20
     },
     {
+      "title": "伊朗汽车工业，国民经济支柱产业之一，产量在俄罗斯和英国之上 - 汽车之家",
+      "articles": [
+        {
+          "key": "56803fd687ee8202636a9a50",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Cb0JHMmxsc1pOVkN2bVZ2blBkaHlCU2NOOWtkVnhsNjdNNFB4MC1XMG1tZWxKSjgwMHhwSmo3c0tTYjl3aklhLUs2bHZ5OFBCcXJBMUxGaHdEMnM?oc=5",
+          "title": "伊朗汽车工业，国民经济支柱产业之一，产量在俄罗斯和英国之上 - 汽车之家",
+          "publisher": "汽车之家",
+          "publisher_url": "https://chejiahao.autohome.com.cn",
+          "domain": "chejiahao.autohome.com.cn",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T14:33:33Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "汽车之家"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "8555da46215573",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "China’s LNG Imports Plunge, Helping Asia Adjust to Iran War Losses: Russell - EnergyNow",
+      "articles": [
+        {
+          "key": "a6caf6f778cfaacda124ebc4",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUXQ1dVZNYzJEYnJRbF9BMDlSRUlHOWdranBFUnJkYmY1TVVDUk0yRkhtZHBaLWY0TDhIVk5nc3g5Qnl3aUQyejU1UW9NWVhDMUNNdHNpQVY2MzM5Y2tMWVNpRlk1Ql8zbWlYUXlXQXlGczFTb2FzNTI1S192bkFKWDRjSm9Wamx6bTRGZDZMY1ZReUtPT2YyOTRMVG5oVGtjb2hxUw?oc=5",
+          "title": "China’s LNG Imports Plunge, Helping Asia Adjust to Iran War Losses: Russell - EnergyNow",
+          "publisher": "EnergyNow",
+          "publisher_url": "https://energynow.ca",
+          "domain": "energynow.ca",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T13:58:29Z",
+          "language": "en-US",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "energy"
+          ],
+          "topic": [
+            "Energie & grondstoffen"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "energynow"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Energie & grondstoffen"
+      ],
+      "key": "4381c461f455e1",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "伊媒：伊朗尚未对美副总统来信作出回应 - نورنیوز",
       "articles": [
         {
@@ -10723,6 +11743,46 @@
       "review_order": 20
     },
     {
+      "title": "النفط يرتفع والذهب يتراجع وسط تصاعد التوترات ومخاوف التضخم – الشروق أونلاين - الشروق أونلاين",
+      "articles": [
+        {
+          "key": "420c688cbf59bcf3bb61ac5a",
+          "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxOb1ItTkd1WjJKWm5wbmNIOU9Rd2lvZnc2aG9Ka1oyQVE4MHctZ05KWnltVG1EZnNmeTI3WUI0SGV0ZUs5cjlkMW83cnZsQ0RqMlp6SndUTGtJM3Y2b042aW1PSDduY3dKRmtUd1lPaGxoX3FZbDktLVVzazRQRFFZNHFXS2ZQSW5HNmZkaWtXSWw3RXdfd0pTU3ZyaHI4bU9ZWG0yUXF6anpwQzJ6dHBQQUlvM3NSQkZ0TVRjOUF3R3hQajJFRlRSTk5VZGVrS2Nvc2xCQW1uelYyNkJySW9qSnFJdmp0U3FOSmxiVVBBOTF2Q3BheTQ3R0NtSzd4OS1NMVZSbjNFdFBUVWlkOHNwclpmUHJQM1JBN01kZDQyQ3VCM0tEM0YxSUtPT0htRE1Ed1RMcWV3eERjQ0JTWHl5LW5uMDhSQ0hmSVRnLThhUGpYM1E?oc=5",
+          "title": "النفط يرتفع والذهب يتراجع وسط تصاعد التوترات ومخاوف التضخم – الشروق أونلاين - الشروق أونلاين",
+          "publisher": "الشروق أونلاين",
+          "publisher_url": "https://www.echoroukonline.com",
+          "domain": "www.echoroukonline.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T11:05:26Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "الشروق أونلاين"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "0b473e0afbb6ed",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "Rriten çmimet e naftës pas sulmeve të cisternave në Ngushticën e Hormuzit - Reporteri.net",
       "articles": [
         {
@@ -11606,6 +12666,26 @@
       "title": "Mecca pact’s ability to meet in Tehran heralds the importance of high diplomacy — Phar Kim Beng - Malay Mail",
       "articles": [
         {
+          "key": "4bc774a91e107e9d7514fd1e",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcm9fME1VQ044OTJqU3BDOHdMdWZaZDc3TTl2RGZFNFF5RjkzTUUwXzNZdkxsYW9DeHRfQUZ1NExWbWdHSFVhUkd4d1VqZ3MwS0oxQ3J4akR3T0F2ckpjZTI0MXV5RmVJMm52NkZaZE1weVpXbl85ZHZ5WUQ3aUhndmxSRF9OLWFwSTVQSFBiUWtZQnZqc2pmQ1RlLTNYenYwRC02RUtoMThkWldBUFVkblVsWnNNelRpUnZsYWI1SnRkYi1UdVdHQlo0RE44cngyaEZZREFhdFFuWXgwZ21SQ3EtVUtJVDlwMkZTYlNBeDQzd9IB8gFBVV95cUxPcm9fME1VQ044OTJqU3BDOHdMdWZaZDc3TTl2RGZFNFF5RjkzTUUwXzNZdkxsYW9DeHRfQUZ1NExWbWdHSFVhUkd4d1VqZ3MwS0oxQ3J4akR3T0F2ckpjZTI0MXV5RmVJMm52NkZaZE1weVpXbl85ZHZ5WUQ3aUhndmxSRF9OLWFwSTVQSFBiUWtZQnZqc2pmQ1RlLTNYenYwRC02RUtoMThkWldBUFVkblVsWnNNelRpUnZsYWI1SnRkYi1UdVdHQlo0RE44cngyaEZZREFhdFFuWXgwZ21SQ3EtVUtJVDlwMkZTYlNBeDQzdw?oc=5",
+          "title": "Mecca pact’s ability to meet in Tehran heralds the importance of high diplomacy — Phar Kim Beng - Malay Mail",
+          "publisher": "Malay Mail",
+          "publisher_url": "https://www.malaymail.com",
+          "domain": "www.malaymail.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T06:22:51Z",
+          "language": "en-PK",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "pakistan-en"
+          ],
+          "topic": [
+            "Regionaal: Pakistan"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        },
+        {
           "key": "d9148005a72df97d5ba2ac84",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVWFHaEx6SFNKUmNMTjhNdW5FS2JFRGl3SWEtX1VvanJRV1NnX2NtNEg3N21xME5IRWY2YXNLWUFkWVhNZFVsZjNtbDZPcGdwd0diRkNBOGdiTm1Cb19NQTYzTHhxVF9MbXpTcXhBczhFa1k2SVdXUTNUa0RaN3ZvWFpqVkNWaFNFdE1YM3JYYmRReUtmSHp3Z05OSFlKMmJydGRMR3p0S1BSVEhOcXBQM1BpMEdFR2FnOXJZcm9mSzczZEpMQ2JKcDhkNVVlVzdZSl81anpVdjEtZUtwX1FfS0xhV3BlbTUtNUNqZdIB8gFBVV95cUxPcm9fME1VQ044OTJqU3BDOHdMdWZaZDc3TTl2RGZFNFF5RjkzTUUwXzNZdkxsYW9DeHRfQUZ1NExWbWdHSFVhUkd4d1VqZ3MwS0oxQ3J4akR3T0F2ckpjZTI0MXV5RmVJMm52NkZaZE1weVpXbl85ZHZ5WUQ3aUhndmxSRF9OLWFwSTVQSFBiUWtZQnZqc2pmQ1RlLTNYenYwRC02RUtoMThkWldBUFVkblVsWnNNelRpUnZsYWI1SnRkYi1UdVdHQlo0RE44cngyaEZZREFhdFFuWXgwZ21SQ3EtVUtJVDlwMkZTYlNBeDQzdw?oc=5",
           "title": "Mecca pact’s ability to meet in Tehran heralds the importance of high diplomacy — Phar Kim Beng - Malay Mail",
@@ -11633,7 +12713,7 @@
       "publishers": [
         "malay mail"
       ],
-      "article_count": 1,
+      "article_count": 2,
       "source_count": 1,
       "categories": [
         "Regionaal: Pakistan"
@@ -12072,6 +13152,86 @@
       "review_order": 20
     },
     {
+      "title": "分析显示伊朗战争使欧盟石油进口账单每月增加110亿美元 - 搜狐网",
+      "articles": [
+        {
+          "key": "08169f36266c9ac90b934802",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU01UQ1hzeWk2cHZyWkRsMG43cGxJbzRjQ09VNk5RNmNQdnQxbmZMMk4wd09qS3RxT0dveE5yVmtPZ2MwcTNlLWQ1UFk1b2oyY2pUcUZIb0dFZml3Z2pmbEJ3QTNNVlFCQ3l4N2tuZzBIYmgyYmdGTVUweGYzckFJdk0xamRKWlZWTUVpTA?oc=5",
+          "title": "分析显示伊朗战争使欧盟石油进口账单每月增加110亿美元 - 搜狐网",
+          "publisher": "搜狐网",
+          "publisher_url": "https://m.sohu.com",
+          "domain": "m.sohu.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T02:07:56Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "搜狐网"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "9d0a81b0da90f8",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "中国石油创18年新高，这头大象为什么又跑起来了？|ETF风向标 - 财富号",
+      "articles": [
+        {
+          "key": "c2ee9e7c9e4cd8783509cbf4",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8wbFctZE16NVF2RWM4MjVpempPVnI4VmZyUXRPUnVWUnhkWWlVNjUycEFtdWJDSWZMMWZOOWlQeDhzNFpyS3BjWTFoakFQLTVhRHM4WjM0Nm1OSkxHSDl5V1FOLVJEOFRMTEhZ?oc=5",
+          "title": "中国石油创18年新高，这头大象为什么又跑起来了？|ETF风向标 - 财富号",
+          "publisher": "财富号",
+          "publisher_url": "https://caifuhao.eastmoney.com",
+          "domain": "caifuhao.eastmoney.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T02:01:00Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "财富号"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "84c0e0d97b2fba",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
       "title": "Oil prices slip as US-Iran diplomacy offsets Mideast supply fears - Dawn",
       "articles": [
         {
@@ -12148,6 +13308,46 @@
         "Energie & grondstoffen"
       ],
       "key": "28c73793a54250",
+      "review_status": "unverified_story_candidate",
+      "review_order": 20
+    },
+    {
+      "title": "观点：重新轰炸伊朗前，赫格塞斯的五角大楼又闹起来了 - 加美财经",
+      "articles": [
+        {
+          "key": "6c8bcd9050997bd9716b67df",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vZWR1cXpZT2IxTm5ZNnhTX0FQbzFaTFNqdktVcnlsLVBNQXpFRll1T3cxTWxKZDg1Q2FfYThKelo4ejFNZ0pnQVVCeFdkcXdwdUxrV1VRV05jdw?oc=5",
+          "title": "观点：重新轰炸伊朗前，赫格塞斯的五角大楼又闹起来了 - 加美财经",
+          "publisher": "加美财经",
+          "publisher_url": "https://www.caus.com",
+          "domain": "www.caus.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T01:41:36Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "middel",
+      "priority_level": 2,
+      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "publishers": [
+        "加美财经"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "129111027c2f2e",
       "review_status": "unverified_story_candidate",
       "review_order": 20
     },
@@ -18791,1194 +19991,6 @@
       "review_order": 20
     },
     {
-      "title": "UK Tightens Middle East Travel Warning Amid Escalation - https://www.thetraveler.org/",
-      "articles": [
-        {
-          "key": "2b67cfa76a892940da484da7",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbENnZkxlcnZBQ1hLS3FtVFJjNDNnV2tXNndhUlVXQmhocHhUTzVaWWhsRDJSWlQ3alBVdVlzTVJYNHNMQWR4TllreGYxMEk2Y1U2NnFIc2NjaWtPRjBpYThBY2VvbDZkcWlfSk9KT285Skw1ckx0WkRCZUlqb0UyQjF3aGs2eE5RWFhZ?oc=5",
-          "title": "UK Tightens Middle East Travel Warning Amid Escalation - https://www.thetraveler.org/",
-          "publisher": "https://www.thetraveler.org/",
-          "publisher_url": "https://www.thetraveler.org",
-          "domain": "www.thetraveler.org",
-          "first_seen": "2026-10-28T10:34:20.844188Z",
-          "published_at": "2026-10-28T09:54:06Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "government"
-          ],
-          "topic": [
-            "Overheden & crisismaatregelen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "thetraveler.org"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Overheden & crisismaatregelen"
-      ],
-      "key": "84cab50bd13e56",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "الأسهم الأوروبية تتراجع مع تقييم نتائج الشركات وصعود أسعار النفط - الشرق الأوسط",
-      "articles": [
-        {
-          "key": "7c6cb779dba0cfe3673af629",
-          "url": "https://news.google.com/rss/articles/CBMixgRBVV95cUxQUWpRazREOXJTN3JhWHJ6cjhTM2Z0ZlFhS3N6VzV4VWdqT2NHZTU1UTVNUTlSWEJJRklWRGR2Z3dORzIyQVNuUmNfeVJUVjR5ZDdBY2stN1R1aHl1VUNlWHhjTGVIN0xRT2hqQVNLbzJXQkxuLXlWWm5CVll4aFo2U0hOdThrd2Z1WWN0ZjNqaWlnOEloWENlMkxaSExJZXctSzFjU1NFRl9maUZfRXU4a0hyOU9lQnRVd2hPeV80N0RxVXNuUGdCcnhyWl80aFFLaTVSbzNRUHJPOTNlQVlaR2hSQS1nUHZqREp6U1FvVnBicGpGVGM1cFdtUW5GbmVCT042R1F5azh4ZHRTczQxaUxJVXdYZFNkV1ZTWm4wUWVBaDRHRnhNc3ZPOXhxcnZoTFpwTUVrMU0ycnVEMER4Mm9ma0JNZlU5MVlha29pb1FfUV90Qlpyajl1bFFMMXNrWnp6NWtSMmFram9rZ3ozSWFyNl9RUVN3SWladV9DMTRlQzFuS016TGltcTJLMnNLZXpCbERuODJ6Q2U1WUtWdk5Tc1JiQWMzMUVmbk1feDNUU2UxSDZMSFl1S3VsWTBFYWxNTXV2a29VNmZCMGdKU1JsX28xeUdfc0RyZy1SVFNIaTUyMWJsYlZpQkV6UGZOblhpUTRwWWpVLTJkSEIzUDEtdk50Z2NpYVFNTWJUS1p0WkxCRHVXcVJzMTdSLUE2WVdScU5CUTh6WUlVWWxtNDUxRXItUFBNYnhTNnBLQURlcTI4Rnc?oc=5",
-          "title": "الأسهم الأوروبية تتراجع مع تقييم نتائج الشركات وصعود أسعار النفط - الشرق الأوسط",
-          "publisher": "الشرق الأوسط",
-          "publisher_url": "https://aawsat.com",
-          "domain": "aawsat.com",
-          "first_seen": "2026-10-28T10:42:30.031668Z",
-          "published_at": "2026-10-28T09:52:17Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "الشرق الأوسط"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "9b4fbc7c36f9dc",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Iran Adds $24 Billion Precondition to Hormuz Reopening Plan - https://houseofsaud.com/",
-      "articles": [
-        {
-          "key": "24e044f470c431e022ff9645",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1GOWVsQjhJdmJUR0t2WHgxLTdjekRQRS1hamVSS005TUJ2RGp5T0c0b3VOTDRYMVhHeE9Qcmp1bzFGYnNuVkN5a1ZpTk5ham4wQmxSeGdGU0xUanM4REpJTG1yc0Z0T244XzVGcVd0U1RuZ1B2?oc=5",
-          "title": "Iran Adds $24 Billion Precondition to Hormuz Reopening Plan - https://houseofsaud.com/",
-          "publisher": "https://houseofsaud.com/",
-          "publisher_url": "https://houseofsaud.com",
-          "domain": "houseofsaud.com",
-          "first_seen": "2026-10-28T12:34:35.119982Z",
-          "published_at": "2026-10-28T09:43:30Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military",
-            "pakistan-en"
-          ],
-          "topic": [
-            "Militair & veiligheid",
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "https://houseofsaud.com/"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid",
-        "Regionaal: Pakistan"
-      ],
-      "key": "b25f876109de8e",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "هجمات الحوثيين على منشآت النفط السعودية تعيد خام برنت فوق 115 دولاراً للبرميل - بوابة أخبار اليوم الإلكترونية",
-      "articles": [
-        {
-          "key": "2afb5aae48aa8b4a86b44b63",
-          "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxOaERHMmV6TjlLVmgza0ppMEV2ZWhpQXc5MGlHY1JFUHVVM0g4cnJ5U1UtMEtsVncwSVc3ZlIzckVpS1BNaVA2bnFSNjBqaEpqSU1jalo4OEkxMFdwZUhuaWM2b0lJZDIzWjVPeEtNdVRNMmdqeHZUTzg5ZVB4T1duUVZJWFNKLVRiX0djY0NQLU41QzdwMVhSVnJaVGFrZjhfNzhzeWtIS1FtRENOUnQ0T1pyU0xxRmJWNUZWUDRiMFRlSG9qZDdHNF9jcnpjQnBlcU1xSFNJYnlZamxLVXpKUDF0azZWajNjTDlBNXRUWENHcmlCTXptbUpjTG1ONFh6eWlBd3Q4ZDdlV0haYnRUTXF6YUFodlZyMkpvbGZoNEtmUE00b19adjhmeUdwT0xSTGJNNEl1am9PaEYyYVdNU0NoaUc2bndGaHMwOUZNdU04eC1BbzhtNW55TEdxb1FNNEw3SFg2dDdrNS1sbVJfYzJlSWMzZ0gzcWc?oc=5",
-          "title": "هجمات الحوثيين على منشآت النفط السعودية تعيد خام برنت فوق 115 دولاراً للبرميل - بوابة أخبار اليوم الإلكترونية",
-          "publisher": "بوابة أخبار اليوم الإلكترونية",
-          "publisher_url": "https://akhbarelyom.com",
-          "domain": "akhbarelyom.com",
-          "first_seen": "2026-10-29T13:08:44.236498Z",
-          "published_at": "2026-10-28T09:43:29Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "8f990745f733fa6f1924caa9",
-          "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNWDczUWhZUldWUTN4VFQ1aWVkVXdTNzREaGVFV3djY3dGQnNPSzYwSWExTmhMQ3NIRzhZRUFpdHFZbXNUNFZCMlhYVzJQX1FoOGc2UkllV293Z09aMGRfLVlpOWtNTUp2dFJtcV9XbHVQN09HRVVUdjNYS1ZFbHZiSGRFSFp4UTFSS1JQeTU5aW80UmxoZHlhbTl1UjNCb2tENlJHUXJzTkYwNmphS3JlS2N4X3RPTnFienhTall4M1pRX2hhMkhmS3R0VDB3VzNJLTUxbVQzT2ZSWUVNVTdsZVZOajYzMmxwUWVGblRaX1kzSm8zb1FncjRkbWNXc2gySnY1Ym05d1B4Z2NkRVp2V2F6eWVYeVppeUdMR0lKdjNMVWNKU01qQjAtZjFKZUxpeFBhdUw0MEZoUXItUEJYUWhhYlc1ck0yQ05sTWlSOFZ1UjU0dzlGeF92bkVLajItRTZtai1yYnZSdUE0aXEzVFo0YW4ybFk?oc=5",
-          "title": "هجمات الحوثيين على منشآت النفط السعودية تعيد خام برنت فوق 115 دولاراً للبرميل - بوابة أخبار اليوم الإلكترونية",
-          "publisher": "بوابة أخبار اليوم الإلكترونية",
-          "publisher_url": "https://akhbarelyom.com",
-          "domain": "akhbarelyom.com",
-          "first_seen": "2026-10-29T01:08:15.870063Z",
-          "published_at": "2026-10-28T09:27:36Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "بوابة أخبار اليوم الإلكترونية"
-      ],
-      "article_count": 2,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "a898be31879cbe",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Equinor Profits Triple as Oil and Gas Prices Surge - Crude Oil Prices Today | OilPrice.com",
-      "articles": [
-        {
-          "key": "9f8b595dbfb2c3656226f999",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNmxBd0N3VEZnZWFZYm9IVGxrZ0RFbjMxcGRBNVNzZUVTMVB1SWpWVS1xV0w5eDNyalotcjF1QnR2Z2xva2FScV9oSjUyUFVTTkl2UFVVQmIzQm5GcndvS2wtel9nbVo5N3ZUNVFZQ2pxaDhVUy1uTTN3b1F3cEstaHBTaERDTWJlWmlUV1V2NEVxZDVmeDVOdGU3c3RrTDJKQ3c4OHBMTVozNWJROGdN0gGvAUFVX3lxTFA2bEF3Q3dURmdlYVlib0hUbGtnREVuMzFwZEE1U3NlRVMxUHVJalZVLXFXTDl4M3JqWi1yMXVCdHZnbG9rYVJxX2hKNTJQVVNOSXZQVVVCYjNCbkZyd29LbC16X2dtWjk3dlQ1UVlDanFoOFVTLW5NM3dvUXdwSy1ocFNoRENNYmVaaVRXVXY0RXFkNWZ4NU50ZTdzdGtMMkpDdzg4cExNWjM1YlE4Z00?oc=5",
-          "title": "Equinor Profits Triple as Oil and Gas Prices Surge - Crude Oil Prices Today | OilPrice.com",
-          "publisher": "Crude Oil Prices Today | OilPrice.com",
-          "publisher_url": "https://oilprice.com",
-          "domain": "oilprice.com",
-          "first_seen": "2026-10-28T11:48:10.066599Z",
-          "published_at": "2026-10-28T09:20:33Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "energy"
-          ],
-          "topic": [
-            "Energie & grondstoffen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "6e3b75149eafaee1795f02a5",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQV1RDOFhSLWVwX0JRV0t6RXNFaGNHUG1uaEpiVC1FNVFhWGRWQ29hYWEyV1RValNJX2VPQ2RrYk5vUHdrelc0cTlGQjNrWXdPeFpjZDJaSERUNlo2dHVtcjNKUXVBWEQwdWZFVzd2elFybTdyaTlhblJRNERnTDB3UVVUd1hmdTNvdlh2djZpUXNEVDRYMjUtTUF6Y0Z2bGMwNGQ5c1hYT3JzZ9IBrwFBVV95cUxQNmxBd0N3VEZnZWFZYm9IVGxrZ0RFbjMxcGRBNVNzZUVTMVB1SWpWVS1xV0w5eDNyalotcjF1QnR2Z2xva2FScV9oSjUyUFVTTkl2UFVVQmIzQm5GcndvS2wtel9nbVo5N3ZUNVFZQ2pxaDhVUy1uTTN3b1F3cEstaHBTaERDTWJlWmlUV1V2NEVxZDVmeDVOdGU3c3RrTDJKQ3c4OHBMTVozNWJROGdN?oc=5",
-          "title": "Equinor Profits Triple as Oil and Gas Prices Surge - Crude Oil Prices Today | OilPrice.com",
-          "publisher": "Crude Oil Prices Today | OilPrice.com",
-          "publisher_url": "https://oilprice.com",
-          "domain": "oilprice.com",
-          "first_seen": "2026-10-29T13:08:44.236498Z",
-          "published_at": "2026-10-28T09:20:33Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "energy"
-          ],
-          "topic": [
-            "Energie & grondstoffen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "crude oil prices today | oilprice.com"
-      ],
-      "article_count": 2,
-      "source_count": 1,
-      "categories": [
-        "Energie & grondstoffen"
-      ],
-      "key": "0e56e6d8a4474d",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Iran warns Israel-linked Gulf escalation could shake global gas markets and energy supplies - Business Upturn",
-      "articles": [
-        {
-          "key": "f322e54a9d3fdd73bb079ac5",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRzZJVVpocy1wRGR3TlJoZDZpRjd2SXl3LS00Sm5JYnNRcUxzaWs3MzV2MnY0VGlEZTBWa095RGE0OTBGSzFtbUJyOHVPRmVEQ1F4QUN2VE45Skppd0V4M3BTaThCVkNiS2llUUR2ZG42QVA4REFibkpUWTE3TENMSTFMbXJvaTlTNk9WYWV2YjhaUnByU1VmR3BoSlJCOHZqd2J4aDRmMjZPNW9qOHlkVEt0X19ha2ZUUWxEVVZLN19FOGhXVnNUSlg2S2MxaHFZY21hc3U4ZFNWa0loQjRfWVVCbmN5MUk?oc=5",
-          "title": "Iran warns Israel-linked Gulf escalation could shake global gas markets and energy supplies - Business Upturn",
-          "publisher": "Business Upturn",
-          "publisher_url": "https://www.businessupturn.com",
-          "domain": "www.businessupturn.com",
-          "first_seen": "2026-10-28T09:50:18.456609Z",
-          "published_at": "2026-10-28T09:13:45Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military",
-            "trade"
-          ],
-          "topic": [
-            "Militair & veiligheid",
-            "Wereldhandel & logistiek"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "49c14bdc5a0b69eba88b3176",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYU0tTnplcVNnTmswaVNrcGkyM1lqWmxhWWYwVVB4MkdJV1dKRWl6elNoaTJkQkEwdVcwTU51aXd3aWNpQTJRM3JDZzYwLXVfQS1TaEtqT04tT2FzRmprLXUyOVozVlJlY3pwc28wejcxYnladVVzTk9rSmRrenh4Vlp0V2NrbXBjN0dsejU0ZWdVbGh1RFhzc3NLdWtJbUptd0NVVHRhazA5bVBxOVliYkZhdmlpdk0yMW9MWEl0QWJlUW5SX2JGMzZOa01zMGZoN2M1VWk1VnRTdEJiNl9kM3JB?oc=5",
-          "title": "Iran warns Israel-linked Gulf escalation could shake global gas markets and energy supplies - Business Upturn",
-          "publisher": "Business Upturn",
-          "publisher_url": "https://businessupturn.com",
-          "domain": "businessupturn.com",
-          "first_seen": "2026-10-28T10:42:30.031668Z",
-          "published_at": "2026-10-28T09:13:45Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military",
-            "trade"
-          ],
-          "topic": [
-            "Militair & veiligheid",
-            "Wereldhandel & logistiek"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "business upturn"
-      ],
-      "article_count": 2,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid",
-        "Wereldhandel & logistiek"
-      ],
-      "key": "07e3565c916f87",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "رويترز: إيران تدرس مسودة اتفاق جديدة قدمتها قطر تتضمن خطوات لبناء الثقة - زاد الاردن",
-      "articles": [
-        {
-          "key": "6071e91729f430676c899fdb",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85dW5QQ1hYb25LN2RldmE0SkFPWUp3am40bjg0ZXFEOXVRVXVwZXZzRXlPdUNORmhES1FodDdCTzlPcHdqckN0XzZfRGg4VWUwdGttQUk3QnFGMURra0lSMEpEdHc2RnlYZXc?oc=5",
-          "title": "رويترز: إيران تدرس مسودة اتفاق جديدة قدمتها قطر تتضمن خطوات لبناء الثقة - زاد الاردن",
-          "publisher": "زاد الاردن",
-          "publisher_url": "https://www.jordanzad.com",
-          "domain": "www.jordanzad.com",
-          "first_seen": "2026-10-28T09:50:18.456609Z",
-          "published_at": "2026-10-28T09:04:59Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "7c70cd5c04d72b3769692a4b",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04OVRIelU1M1RRZ0p3dnVYNHY1eTd6eXFfYmNJLVdCWmwwRF90OWpCX3RDX05qNzdMOUFGTzY0Tm5BdWJfUUNLSnF6LTh0aEwxelU3WmxPMmt0aTFtejRQN3B4U19VcG1p?oc=5",
-          "title": "رويترز: إيران تدرس مسودة اتفاق جديدة قدمتها قطر تتضمن خطوات لبناء الثقة - زاد الاردن",
-          "publisher": "زاد الاردن",
-          "publisher_url": "http://www.jordanzad.com",
-          "domain": "www.jordanzad.com",
-          "first_seen": "2026-10-28T08:56:25.824440Z",
-          "published_at": "2026-10-28T08:51:32Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "زاد الاردن"
-      ],
-      "article_count": 2,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "629a88321fac1b",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "TD3C tanker benchmark Archives - Global Trade Magazine",
-      "articles": [
-        {
-          "key": "d76700c4068f03e41da35109",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yWGhIRzdoRDlpV0EtYV96QXpuNDA3RHVOcDhfSUFMUHpwWTJjcFBuUXo1TzdVUnBLV2xyWGJ4TnRaZFNoLTdIMHRORXZWcGpJZjZrLXFoQUFuX3h2aHFMcGRZVTluTWdi?oc=5",
-          "title": "TD3C tanker benchmark Archives - Global Trade Magazine",
-          "publisher": "Global Trade Magazine",
-          "publisher_url": "https://www.globaltrademag.com",
-          "domain": "www.globaltrademag.com",
-          "first_seen": "2026-10-28T18:59:22.438747Z",
-          "published_at": "2026-10-28T09:00:35Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "trade"
-          ],
-          "topic": [
-            "Wereldhandel & logistiek"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "global trade magazine"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Wereldhandel & logistiek"
-      ],
-      "key": "3469dfeb074f40",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "美空降部队18小时投送全球…“考虑投入攻占伊朗哈尔克岛” - 朝鮮日報中文版",
-      "articles": [
-        {
-          "key": "d04fa27efcdd2d2d99bc0343",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTFdMREQtYlNHV3JHTGUzQ05BQkVfMUFYdG9ZeV9WWmJvcnIwdXQ4OFYyLS13Y3h4ZU5ZSVJTb2VhZWZYaTBJUDFhYndsdVBneGlFckd2WVVEMHdKVHBWbUg3S3RtYjRrLVZlVFRwa1B1dUhDcVZsRmlrSmNWSzQ2X0pZTzl6TVZmckU4ekN6N2NVMHc5c1JRWDNLWG03RVJ0?oc=5",
-          "title": "美空降部队18小时投送全球…“考虑投入攻占伊朗哈尔克岛” - 朝鮮日報中文版",
-          "publisher": "朝鮮日報中文版",
-          "publisher_url": "https://cnnews.chosun.com",
-          "domain": "cnnews.chosun.com",
-          "first_seen": "2026-10-29T01:08:15.870063Z",
-          "published_at": "2026-10-28T08:32:29Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "朝鮮日報中文版"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "5efbf199f5bbfa",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Middle East latest: Qatari mediators present Iran with deal to end war, official says - The National",
-      "articles": [
-        {
-          "key": "8de233f6547db77eb2150d67",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lem9tb1QwUDdzdGVId2ZLZXBTc0tsTGs1aTdHS29mRjR1di1IOThPYVFLQUp6MFdoN3VBZF9GWWZzQVp4RmpRQTFucmhOMEF6eUZpdXpCa05SQjlkVVdhbFJOVnFBMDVXaFg0WDBfZi1nQmsyYnVCdXhFQmVRdw?oc=5",
-          "title": "Middle East latest: Qatari mediators present Iran with deal to end war, official says - The National",
-          "publisher": "The National",
-          "publisher_url": "https://www.thenationalnews.com",
-          "domain": "www.thenationalnews.com",
-          "first_seen": "2026-10-28T10:50:05.873162Z",
-          "published_at": "2026-10-28T08:28:24Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "business",
-            "government",
-            "military",
-            "pakistan-en"
-          ],
-          "topic": [
-            "Bedrijfsleven & investeringen",
-            "Militair & veiligheid",
-            "Overheden & crisismaatregelen",
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "the national"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Bedrijfsleven & investeringen",
-        "Militair & veiligheid",
-        "Overheden & crisismaatregelen",
-        "Regionaal: Pakistan"
-      ],
-      "key": "3ac211c329bc1b",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "美国与伊朗的战争耗资已超过470亿美元。 - Vietnam.vn",
-      "articles": [
-        {
-          "key": "4bb2b0421883c1ce657a9ae0",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUVFpOFktUlJiN0MtTnpsTkE0ZndWWlVWemJ0WUs0cTRBS3I4QlBQeFMyS09MVWs2aHI1WnJyMEtqeDFzTmNEbkhhZXZhYlhPMS1DVWZGNGduSWlMOEJqbUV2Q3E0NTJkTEQtSG1lQWN0OHhpRDM4OF90TDRzcktWOTlmMVhHOFFuSTB4VkNB?oc=5",
-          "title": "美国与伊朗的战争耗资已超过470亿美元。 - Vietnam.vn",
-          "publisher": "Vietnam.vn",
-          "publisher_url": "https://www.vietnam.vn",
-          "domain": "www.vietnam.vn",
-          "first_seen": "2026-10-28T09:50:18.456609Z",
-          "published_at": "2026-10-28T08:17:52Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "vietnam.vn"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "cbcb86f2872afc",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "﻿Iran peace talks could ease hormuz shipping risks and feedstock pressures for India’s chemical industry.. - Indiatimes",
-      "articles": [
-        {
-          "key": "975318ffee0d34304d89a15e",
-          "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxNZC0wTnpmTkNXdWYtLTh3NmJUTV8wdFBmRi1nTkFEQml3RjdiYmptaWJMemgwNncweTd0N2Y5Uzc0Mno4OWFhTUxaVGFCSkstSURHS0JWa25zS1M5amhMdkptd3ZOclNVZUl2YVladnhKUTlTdnZoT2pwNHZJVWR5bWExSFBWblFZTU9FaF8teHI3S2ZRVzVlRi1pTjNURjRjMnhvNkllLUN0ZU5ZT0FXV0VGQXk5LWU5YmZ3QXF6TVRGNHZlMlFUQThtMDEyM21HYzJpdHBkcEpneXVMSVJSQms1MWNtOWc1NGRrRFBQU24wN3h2Z1h6Q1F0LXhEaTdvZ09pVmJPcjVBU3VJSXVqNUgzaFJubHIwb0V5ZkJfeE1zMXdkQVJoOXZYcU1rbHR2Y3V6RW4xajU4d3dFWEZxeWpkeDFyNFV4U3fSAZgCQVVfeXFMUGxSTlRYOEN1aGxhOWs0UWNwVU94cFVxR3FqUG9SMWc3U1dCT2RKenFibmRYMXNZWDdkdHBpV080M2N1WDJoSEh5UDlxMWNzTk4yVWlTRFREQ21EalZyN1dDV1FDRW80UzhDSFplMmZKT3NjYUJFMGJmUm1VdVZDc05uUjI4R3lVei00aXpHZHBCSFN4bi1rRUNkVFBoMks3R2hSUXVLTlRjVV9WTURUOTlIUk83aG04NHhOYkNoOGxta3Mya0JqM1NUUUtRbG81SjR4WDgtYlQxOHE4QTd4Q1NjLUtyaGRINU9RcDY0MENHWGNTVDRjdXliVjdsVG5JSHN6OTRabW5EN1A0eHh6eEV2bFBiQ0dOVQ?oc=5",
-          "title": "﻿Iran peace talks could ease hormuz shipping risks and feedstock pressures for India’s chemical industry.. - Indiatimes",
-          "publisher": "Indiatimes",
-          "publisher_url": "https://chemicals.economictimes.indiatimes.com",
-          "domain": "chemicals.economictimes.indiatimes.com",
-          "first_seen": "2026-10-28T11:48:10.066599Z",
-          "published_at": "2026-10-28T08:11:18Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military",
-            "pakistan-en"
-          ],
-          "topic": [
-            "Militair & veiligheid",
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "8c91bed73fa28f7f02dcd298",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNOHc2NWgwa24zNmpadU9MckNXaVNIQVgyMzBsRWxPQk40ZTZBOUVkZEZFX0FyRjdCM1ctRDhkLVM2NV92djU0UmdIa0dFcVJHRWJrb1o2dHhaTkpOMVMzamlRUUNaQnBSdGtJQmJHdmtucmZrTnVENm5IX2l1NmdoU2hPOHgzNU81UmpHWHhqbFVhaXA1WU1YX3NlN1p6NWFFbVRqQjE4NHgwY2I2MFZwVEZiaG9fS2RlUTJaSFc3YnRCbTZ1NUxvWkNyVGNPelJVREFEMnNRRmIxci1Fb0xrWDZ0RHFyWlQySG9OY0U0LUIySzQySkllTDlxVGJSek1peEJYb1RqSGxmbHVjeGJOc1FMZGnSAZgCQVVfeXFMUGxSTlRYOEN1aGxhOWs0UWNwVU94cFVxR3FqUG9SMWc3U1dCT2RKenFibmRYMXNZWDdkdHBpV080M2N1WDJoSEh5UDlxMWNzTk4yVWlTRFREQ21EalZyN1dDV1FDRW80UzhDSFplMmZKT3NjYUJFMGJmUm1VdVZDc05uUjI4R3lVei00aXpHZHBCSFN4bi1rRUNkVFBoMks3R2hSUXVLTlRjVV9WTURUOTlIUk83aG04NHhOYkNoOGxta3Mya0JqM1NUUUtRbG81SjR4WDgtYlQxOHE4QTd4Q1NjLUtyaGRINU9RcDY0MENHWGNTVDRjdXliVjdsVG5JSHN6OTRabW5EN1A0eHh6eEV2bFBiQ0dOVQ?oc=5",
-          "title": "﻿Iran peace talks could ease hormuz shipping risks and feedstock pressures for India’s chemical industry.. - Indiatimes",
-          "publisher": "Indiatimes",
-          "publisher_url": "https://chemicals.economictimes.indiatimes.com",
-          "domain": "chemicals.economictimes.indiatimes.com",
-          "first_seen": "2026-10-29T19:01:39.523190Z",
-          "published_at": "2026-10-28T08:04:49Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military",
-            "pakistan-en"
-          ],
-          "topic": [
-            "Militair & veiligheid",
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        },
-        {
-          "key": "c17d50fd1fbb2c289d69dcb6",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQbFJOVFg4Q3VobGE5azRRY3BVT3hwVXFHcWpQb1IxZzdTV0JPZEp6cWJuZFgxc1lYN2R0cGlXTzQzY3VYMmhISHlQOXExY3NOTjJVaVNEVERDbURqVnI3V0NXUUNFbzRTOENIWmUyZkpPc2NhQkUwYmZSbVV1VkNzTm5SMjhHeVV6LTRpekdkcEJIU3huLWtFQ2RUUGgySzdHaFJRdUtOVGNVX1ZNRFQ5OUhSTzdobTg0eE5iQ2g4bG1rczJrQmozU1RRS1FsbzVKNHhYOC1iVDE4cThBN3hDU2MtS3JoZEg1T1FwNjQwQ0dYY1NUNGN1eWJWN2xUbklIc3o5NFptbkQ3UDR4eHp4RXZsUGJDR05V0gGYAkFVX3lxTFBsUk5UWDhDdWhsYTlrNFFjcFVPeHBVcUdxalBvUjFnN1NXQk9kSnpxYm5kWDFzWVg3ZHRwaVdPNDNjdVgyaEhIeVA5cTFjc05OMlVpU0RURENtRGpWcjdXQ1dRQ0VvNFM4Q0haZTJmSk9zY2FCRTBiZlJtVXVWQ3NOblIyOEd5VXotNGl6R2RwQkhTeG4ta0VDZFRQaDJLN0doUlF1S05UY1VfVk1EVDk5SFJPN2htODR4TmJDaDhsbWtzMmtCajNTVFFLUWxvNUo0eFg4LWJUMThxOEE3eENTYy1LcmhkSDVPUXA2NDBDR1hjU1Q0Y3V5YlY3bFRuSUhzejk0Wm1uRDdQNHh4enhFdmxQYkNHTlU?oc=5",
-          "title": "﻿Iran peace talks could ease hormuz shipping risks and feedstock pressures for India’s chemical industry.. - Indiatimes",
-          "publisher": "Indiatimes",
-          "publisher_url": "http://chemicals.economictimes.indiatimes.com",
-          "domain": "chemicals.economictimes.indiatimes.com",
-          "first_seen": "2026-10-30T07:08:28.890498Z",
-          "published_at": "2026-10-28T07:58:48Z",
-          "language": "en-PK",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "pakistan-en"
-          ],
-          "topic": [
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "indiatimes"
-      ],
-      "article_count": 3,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid",
-        "Regionaal: Pakistan"
-      ],
-      "key": "7a94e6af90c033",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Iran’s gas shortfall rises by 130 million cubic meters ahead of winter, official warns - Iran International",
-      "articles": [
-        {
-          "key": "67e5d370661f09f85bca1301",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvNU8tbURuSnhxeHZwcW9VRk9tMEZtQ0N1dlZNbXBwbkZjLTdlMGJKWUxsUk9OOENrV2pLLWpWUTNZbWoyVGdkQjlXYzhaR2diYUE?oc=5",
-          "title": "Iran’s gas shortfall rises by 130 million cubic meters ahead of winter, official warns - Iran International",
-          "publisher": "Iran International",
-          "publisher_url": "https://www.iranintl.com",
-          "domain": "www.iranintl.com",
-          "first_seen": "2026-10-30T07:08:28.890498Z",
-          "published_at": "2026-10-28T07:51:47Z",
-          "language": "en-PK",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "pakistan-en"
-          ],
-          "topic": [
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "iran international"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Pakistan"
-      ],
-      "key": "b62e92de36c3ba",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Middle East latest: US warns Gulf allies of possible renewal of Iran war, report says - The National",
-      "articles": [
-        {
-          "key": "bf5ab299774f537f60d2a453",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaFJlRWh6RjRRdWJxRDBZM0lmaW9tOTkxS2JCTnpjSTJ3aGhrd2xJSW1MN2dDeWt6SzNMeWJva3Rhcm80NGx1OHoweGdKSGJZUklZQzliNE94UGVJeEpJdlo5WDlJbFpwRmctMTNIRnZSMEhlRTJoamZlblNtNi1lWjJhdy1aWFhTTk1MeGYtUVFKZw?oc=5",
-          "title": "Middle East latest: US warns Gulf allies of possible renewal of Iran war, report says - The National",
-          "publisher": "The National",
-          "publisher_url": "https://www.thenationalnews.com",
-          "domain": "www.thenationalnews.com",
-          "first_seen": "2026-10-28T08:49:37.433120Z",
-          "published_at": "2026-10-28T07:15:07Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "business",
-            "military",
-            "pakistan-en"
-          ],
-          "topic": [
-            "Bedrijfsleven & investeringen",
-            "Militair & veiligheid",
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "the national"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Bedrijfsleven & investeringen",
-        "Militair & veiligheid",
-        "Regionaal: Pakistan"
-      ],
-      "key": "e8c0bfa8a655e0",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "أناند تقول إنّ هجمات إيران على سفن مدنية هي ’’غير مبرَّرة إطلاقاً‘‘ - Radio-Canada",
-      "articles": [
-        {
-          "key": "a34af97af7c42bf359e6ebf9",
-          "url": "https://news.google.com/rss/articles/CBMigwRBVV95cUxNSmE2bjROZy1PVG43QXBZSW1aNmNtT3l3Y0I5TUNCS0hzYmkwZEhHSWlXNFlFV3Qyc2JIS3JZMHdsc08tYmJiaHRmckstc2I4c2stNXVXbW13cWIySExVZEdfQkkydVU3eGkyR1RjWlRNbnVreUxyX2JmNDVraFhEcWhPaHJoUkNGRXlweC1xNURFN0hNb1M0WnFlcUhZQmtMSzFOZWViYl9YMExqQWNOZmYwTDNxTzBYY1l2aVFDeUM3RXRjNDZET29Jc0tWOWNTY1ZDZG5wWVEyMkYxdHZLRG5IZXZXaklEMTlpeGlvTG55X012bkppNzFWZlNNaVNZZl84YVc2Yy04SXFJOGI2WjhPNUZTc3NUakotYkhuWDRaTlBQaVlNemRPS0NHNXZlMDlkRHYzMEdFM21OY3lySWRiU29lOFFlNHF1MzdBM1hmdGJVZDQ1Y3VjSzdKOTRrRTBPZDJOM2VsYkhFRnh0eVFQbXRoTHJBQ0hGZlY4bDR6SXY0dGM5WmNrcEU2R05VR0pFSGM2Y3JsVWQ2VzMxc1FKcUdFOGlhUWNaRjNmd3dnaGdXU0luUHkxQ0FyYWctNHRMM0ZOS3cyT2wweGM1MTFKd2FNVFpkSUVONUxtMVhfQUl4UWhCR211T1dJREJNUWllMy1tS2kzTDlPSlhEZ2JkZw?oc=5",
-          "title": "أناند تقول إنّ هجمات إيران على سفن مدنية هي ’’غير مبرَّرة إطلاقاً‘‘ - Radio-Canada",
-          "publisher": "Radio-Canada",
-          "publisher_url": "https://ici.radio-canada.ca",
-          "domain": "ici.radio-canada.ca",
-          "first_seen": "2026-10-29T19:01:39.523190Z",
-          "published_at": "2026-10-28T07:12:01Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "radio-canada"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "0c194c892506f4",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "النفط يتراجع مع تنامي الآمال في التوصل إلى تسوية للحرب - الشرق الأوسط",
-      "articles": [
-        {
-          "key": "ddc8283a5d4740807ffbc868",
-          "url": "https://news.google.com/rss/articles/CBMi9gNBVV95cUxORzNVYVkzdGxHZGJmdV9lODBDTUNhelBXN0RHUUdLc2d1eTlIY3c0bG5tY25WUW1lcXZjTWR3Ul9fU0EyNk5sc0xUZDJRYlJiNDJUQ0RsNVhwVU4zZWhCRUJlbEFZQnZTVFBhbXVYOEYyM0oyNXJMZkt1cVZ5eUlEUkZxczViS3Btd0REYzJRUTN0VUx0VGVVcHlScTJHVFFsMUJUbGprbTRuUEotSWwzYXdMZ0lRd3duTVFoY2JFbWJDaGE2bW0zbWpBNUxRcWszdHFPWHU0bmMyUm4zLVRGajdOVTNsREtheUlfUElyZFJudVdMQUsxOFRhYlBKSzlWakI0dTdvWTU0VlRVdDJiVGgzc1Yza2xjRHRNU3ExaGh5VjJDT0NpZUFuVFZxYTRub0N0NjdSY1VhUXplME51eDdJV000UTZSRjV6Ml9ta1B3NVB0WWlaSERrNTVOZ2I0QWxIRmlHTjJkLU1LS0RtemtmaXpqaTJkXzJnN1pBWEdWcHlWc2dTZmNEbEhTeGl3UHU3QS1fQS0zYWZzamJJNXBzOHZ3WXdKTlllVUZlNV92b1kxNXF0X2lIeC1PR0hwYm5BZmlRU1BPOUY5LWNVZkRQVjd1RUlKMHhPWk1XUERRV3lSS3pya3hKZXBsbnNWWEhZMGJB?oc=5",
-          "title": "النفط يتراجع مع تنامي الآمال في التوصل إلى تسوية للحرب - الشرق الأوسط",
-          "publisher": "الشرق الأوسط",
-          "publisher_url": "https://aawsat.com",
-          "domain": "aawsat.com",
-          "first_seen": "2026-10-28T18:59:22.438747Z",
-          "published_at": "2026-10-28T06:47:40Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "الشرق الأوسط"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "40aa37cee59c7e",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "الجيش الأمريكي يرد على مزاعم إيران بمغادرة القوات الأمريكية لهرمز - آخر خبر",
-      "articles": [
-        {
-          "key": "bb699aceadd4c4111fe3a6fb",
-          "url": "https://news.google.com/rss/articles/CBMiuARBVV95cUxPRXRDVlR5b205S0hUWTA0Uy1nZzh5U0h5UHV3U2ppRThkTi0tV0oxM0NlWlZtRW1VS2pLb281YzB6VURuMXg0bHBIWElxX0pLRTAyal9kanRyYnRCR2VGWW0yU04xSS12M0hGQTg2aE5SeUhIemhkdGhuSVBWLXVWR2dxYjA5dEFjYWFCMm04VW1wbldxTmVKdTVibXJjNElnNGF2U0pFaFBxOGFZN2tsclNaYThsbUFlM3FidUtEckhWRUlGS3lCbFRFaTVLNlZWY0lxWW44M2NYdHpGNDdfR0lUMkVpZFIxX2JpaVZodVNYTjZYenM4S3IyTlctN20xM1FIMk44aWdDYVMxSUJ6Sll4R2NvMm1qVHJYQ3J0aEx1WWVSMU5HNUV4V1NzekdyNVlfbGVTNHZsTVMyQzd4blVOdWhLMUlEdlZ5ZUVjekhPSXotUWlHRFJRQ2FmZ3JXbU5LVWhSM2xQVXBEb3VERk9CWVB5VkljRXl2YlQ2NVlJRG9wZUVLMk1oMF9HR2tIMjBiRGJ2cVdEWXowQi1jYUZ0QV9IcG1hRDlCOVd1dnRqNzZTMHBrLW1HSEhJck1lRUdWcmpUX1ZPWmxxa0ZMbTc3VWxxLVo5VGViS1JfcU1qSUNBMGZ4SHlZNnUtNjNkakZIcDUyM2pWYzVYWF9ia1Y1WngyQ1VlRnRiMnEzYWIwOTlMUjc4dHFhci1oRmR4Zmc2WkpndjBTNjRXLUgzTjJrWURXcXM5?oc=5",
-          "title": "الجيش الأمريكي يرد على مزاعم إيران بمغادرة القوات الأمريكية لهرمز - آخر خبر",
-          "publisher": "آخر خبر",
-          "publisher_url": "https://a5r5br.net",
-          "domain": "a5r5br.net",
-          "first_seen": "2026-10-28T08:49:37.433120Z",
-          "published_at": "2026-10-28T06:38:14Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "آخر خبر"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "923ecb3f6411f8",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "الجيش الأمريكي يرد على مزاعم الحرس الثوري بمغادرة القوات الأمريكية لمضيق هرمز - CNN Arabic",
-      "articles": [
-        {
-          "key": "cb22e2f30d90b694aaa2a4aa",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObk90WnJUWEFnTmY1RXIwOTVHcEgtUUNuS0MwWF9pemN1YVVVWWQ1VGV6cTZhRDBGSko4Rld2WXRUWGlTTVkxVmd3NW1qUUNyeDkwRTB3UHUwTHZ2Q3Q1eWNGRTAxMW1JRXpPQUxxWjd5ZnNaMEZ6WFNTNDNFX2kwaHUxUVBKQWZ6ZThXUGRITVE0VnJqdFNjYXd0YWlYVjlGZGo2MEZvS1BJaHRX?oc=5",
-          "title": "الجيش الأمريكي يرد على مزاعم الحرس الثوري بمغادرة القوات الأمريكية لمضيق هرمز - CNN Arabic",
-          "publisher": "CNN Arabic",
-          "publisher_url": "https://arabic.cnn.com",
-          "domain": "arabic.cnn.com",
-          "first_seen": "2026-10-29T13:08:44.236498Z",
-          "published_at": "2026-10-28T06:38:14Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "cnn arabic"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "c122c89180ace0",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "«البحري» السعودية ترفع أرباحها 587 % إلى 2.66 مليار دولار خلال 9 أشهر - الشرق الأوسط",
-      "articles": [
-        {
-          "key": "df4b11098d52382236ac972c",
-          "url": "https://news.google.com/rss/articles/CBMiigRBVV95cUxNQzc5THpWWksza2pDS3lpMG5BZ05NMXJCOU5udHMxUnl4QjlFUGJ1ZklNX1dlWThaUDR0M1lwT19QeUUyREV2QjVJVDVkVkFnMHcxOUo1X00weW1lOHZfR2QzRDJjVUx1cksybzZJR25UWmwtVlk1ZEtKSzJPMnpfdS1Ib1dyd0lWSUlZMkhZbmEtb1RrQmxTV1gxMVU3Y09JcmdrcUFMUmh3ZFlZcC1qRXdPU1AwWnQ3Ym1ITzZoNWJsZFMyVkRCQk15RE1FeHVGZnVvdkVoRUd5SjFEY2FDUUMwaUJGSjQ2MDBGTFBDSGVtUGxCSXUwT2JnZVdRa1N5Mk1KMmlUWkhSUGxaaXpWdUZOS2VaYWQ3dVFnaVk2Q2w4Y25UVFBnWXBLSlN2azkwOTdzNHBDR1R5MzNXNEZ3dERnVld6enQwbjFrNE9vWENmTmQxYnN0WGZvSUttRFc4czFmaGdvUTJaTldGZDhVeFBiMWxJU2VMbzFSMThHQl95WEhjMTVKYTliQmR4ZmVycm5tRjZTTGQwc0NERzBGQXQxa2dYSHZuNTB2clpHQVBEVDBwS21xd1Y4QTNxMzRxM01OQzFSWUJlQklLSDl6Yjc5YUVCNWdVbWU5cHM3Y29rb1FlVzFQQlNwbk9GUFdZT05xb0N2d1dQbml3bExmRkxkOGpidFBBR1E?oc=5",
-          "title": "«البحري» السعودية ترفع أرباحها 587 % إلى 2.66 مليار دولار خلال 9 أشهر - الشرق الأوسط",
-          "publisher": "الشرق الأوسط",
-          "publisher_url": "https://aawsat.com",
-          "domain": "aawsat.com",
-          "first_seen": "2026-10-28T07:07:35.023940Z",
-          "published_at": "2026-10-28T06:36:04Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "الشرق الأوسط"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "9a8785c5552aa2",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "UK issues stark new Iran travel warning amid regional tensions - www.thetraveler.org",
-      "articles": [
-        {
-          "key": "4972e1d8e8cf4ffa4c30fdb1",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZWNzV1BYRk1JUThfY3dxczAzRzRubC1ZLWVjeHZLOWxhU3JqVHlmcU1sUmVESnctSUl5dmMya0NhM0RKdzlDZFpSc05ESWpCeXRVUV91cHRXNWRfRm5FRWdKMFVuS25hMnJsSjEyWEZzNVZOT3RhVlJyemNmdTF3VzlPVUZaMjBEN3NuTGl4aUhFOEhpOXc?oc=5",
-          "title": "UK issues stark new Iran travel warning amid regional tensions - www.thetraveler.org",
-          "publisher": "www.thetraveler.org",
-          "publisher_url": "https://www.thetraveler.org",
-          "domain": "www.thetraveler.org",
-          "first_seen": "2026-10-28T07:07:35.023940Z",
-          "published_at": "2026-10-28T06:29:43Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "business"
-          ],
-          "topic": [
-            "Bedrijfsleven & investeringen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "thetraveler.org"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Bedrijfsleven & investeringen"
-      ],
-      "key": "31847e787b31e8",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "如果霍尔木兹海峡收通行费，油价将暴涨…伊朗年收入可达1000亿美元 - 朝鮮日報中文版",
-      "articles": [
-        {
-          "key": "217b16100d1d40d7075e582f",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZEZyaFdxSm9NZkp4XzY3YjVDUDZRcm9ydm40a042M0RUV3NZb0JyU1hzVkZSRG5FYWIzenFINlA1bFhEQTR0SEx3LVpyOURWaUxLNHBGNExnZjUzVW52T1ZRbG10eW9pNnNmdklaR0RPV3FXd0pnX29xOEV3QlBoWDctcGJfZGZVa0lGd1JzdVM?oc=5",
-          "title": "如果霍尔木兹海峡收通行费，油价将暴涨…伊朗年收入可达1000亿美元 - 朝鮮日報中文版",
-          "publisher": "朝鮮日報中文版",
-          "publisher_url": "https://cnnews.chosun.com",
-          "domain": "cnnews.chosun.com",
-          "first_seen": "2026-10-28T14:07:17.526803Z",
-          "published_at": "2026-10-28T06:24:06Z",
-          "language": "zh-CN",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "china-zh"
-          ],
-          "topic": [
-            "Regionaal: China / Chinees"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "朝鮮日報中文版"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: China / Chinees"
-      ],
-      "key": "732343ac5b2ac9",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Peru prepares to concession Talara oil refinery to private operators in 2027 restructuring - https://streamlinefeed.co.ke/",
-      "articles": [
-        {
-          "key": "032494222067fdfede5a1b1d",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd3J3ZWk0ZHIwNkNmZGxOLVM5NVc4NnBGbjRvRy12RUp5Nkk1dmVTTXBKOEZyNWY2M1htUGY1b1R6VHU1SmpObkJpcFIxVE5TOVFkbHh0RHlDSmRrWEZmZWhnZXpMOF9zUnk1WXp6REw5RzlaMHBaQVMzOS1FRXlUOVFtdXB3b1NrU3VjVThNZklPWms2MzkzTDN5MUdCR002QVdzTldrdGJUS2tjYlNHbGJqQ2dJWkV4b3ZzMGpXSnZtUQ?oc=5",
-          "title": "Peru prepares to concession Talara oil refinery to private operators in 2027 restructuring - https://streamlinefeed.co.ke/",
-          "publisher": "https://streamlinefeed.co.ke/",
-          "publisher_url": "https://streamlinefeed.co.ke",
-          "domain": "streamlinefeed.co.ke",
-          "first_seen": "2026-10-28T08:49:37.433120Z",
-          "published_at": "2026-10-28T06:24:00Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "energy"
-          ],
-          "topic": [
-            "Energie & grondstoffen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "https://streamlinefeed.co.ke/"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Energie & grondstoffen"
-      ],
-      "key": "e74740588e7ee0",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "UK Tightens Middle East Travel Advice Amid Escalation Risk - https://www.thetraveler.org/",
-      "articles": [
-        {
-          "key": "b33b4555a26191be2d6fd493",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYzY4OGJxQjFVM1B0Y1NmN1UwN3RNeFRzd20zcHZXREx1TEJ6b2NtOE5WVWVoRktsMlBfeWI1MGFrN1dQbS1DNl9faldtOTFET1JCaHJIN25Fb2J5SXY5aDRyN2ZpVmFDREpRSzJRakV3QXdtaWJ1RHBlWG9RMU80VG9ocWdUWTV0eXh1cDlLYWI?oc=5",
-          "title": "UK Tightens Middle East Travel Advice Amid Escalation Risk - https://www.thetraveler.org/",
-          "publisher": "https://www.thetraveler.org/",
-          "publisher_url": "https://www.thetraveler.org",
-          "domain": "www.thetraveler.org",
-          "first_seen": "2026-10-28T07:07:35.023940Z",
-          "published_at": "2026-10-28T06:09:06Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "government"
-          ],
-          "topic": [
-            "Overheden & crisismaatregelen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "thetraveler.org"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Overheden & crisismaatregelen"
-      ],
-      "key": "72a328b189aa65",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "Araghchi says regional security requires end to foreign military intervention - Iran International",
-      "articles": [
-        {
-          "key": "a177189b4b53395c1ad517b4",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBUdFp1c2o5Zkx2cDlfbmszazJhaDZaV1pvTVhmTXBxR0ROZHp0SU1HUld5QVEycUtEbWkyQmtYNEJVMXhqVk9UVnZ5MGh2ZDdBSFE?oc=5",
-          "title": "Araghchi says regional security requires end to foreign military intervention - Iran International",
-          "publisher": "Iran International",
-          "publisher_url": "https://www.iranintl.com",
-          "domain": "www.iranintl.com",
-          "first_seen": "2026-10-29T13:08:44.236498Z",
-          "published_at": "2026-10-28T06:03:16Z",
-          "language": "en-PK",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "pakistan-en"
-          ],
-          "topic": [
-            "Regionaal: Pakistan"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "iran international"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Pakistan"
-      ],
-      "key": "e87948895f69be",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "US warns Gulf states of possible escalation against Iran after midterms - TRT World",
-      "articles": [
-        {
-          "key": "fd17d1149883850fcb71881d",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1kVlJmMTBIUjhYMURTVEpvNHZyRG1PZHNDRDJSTHdEOXV0clhXd05sVkptRUVYX09aT2FPX09BcTRjaXkwbG5tcjRfX2h1Y0tmejM0Q2Z4NjQ?oc=5",
-          "title": "US warns Gulf states of possible escalation against Iran after midterms - TRT World",
-          "publisher": "TRT World",
-          "publisher_url": "https://www.trtworld.com",
-          "domain": "www.trtworld.com",
-          "first_seen": "2026-10-30T01:10:45.411523Z",
-          "published_at": "2026-10-28T06:03:06Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "military"
-          ],
-          "topic": [
-            "Militair & veiligheid"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "trt world"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Militair & veiligheid"
-      ],
-      "key": "e935860676b21f",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
-      "title": "هيئة إدارة المضيق الإيرانية: سفن سينوكور ستواجه إجراءات قانونية - قناة المملكة",
-      "articles": [
-        {
-          "key": "94c98ea8ad25e73386721c21",
-          "url": "https://news.google.com/rss/articles/CBMiggRBVV95cUxOQ3g0TVlUZHJUekFEUjRyOTl2NkF4X3VhSjdSLWl1azUwREFaOG9ZM2MtNGZDcGJ3YWlneWhrU0hzMEtZMDRFQ0x3VURxNU5OQ1VhdXlzaDVTN0tVc2pOZ0lHenRaNmNFbGNUaGVpRFdMUmJydXd5UHN3SWlzZWtKc0JKVEZfNERvQjNtSktWVnQ3dm1FQUhjc1J3ZVpjQ2d1dUxudmFSSXdDVC1kUnFtWUlPR1hKeU1sTkZwVk5TVlRqcHpILTRhdG40SGRVX0JsSDBxSDI0QkZkWWQ5UGs0VTlmNUVoaXNTWFNJWkNNaUR3RVRvcllEc1FIb3g2UTVRWEtjb0h6YjJmVjI4WXVXM3l4UzZWU2ZWSnNBZHM2Wjl6ZlJERl9WbmFaTE8xRm90MVVYLXpudjNqeEdfZVhTbC1HcHhWNEZTX184ZDNEdWtQR05ZYjNLRG5sYkZtNlhmQkJvMjZlR29PQUEtazJwQXNGSnhhZ1NwZWh1LTNHa055ckZVMlFJV1c0M2NzdzZ0cERfNkwxOTRJQkE3Qld1OFR2R0tJWFNuUDZhTE1UT2lYa0xDTkpCN3lJVDNHZTZFa1hvQnJFZmtEc0dETnhoME4wVXJzMVZBeTY4NVNjWGVXUm84VWZsSDduaGNPTjhNUW5nc0hvOXZTdkxRaHpJUjh3?oc=5",
-          "title": "هيئة إدارة المضيق الإيرانية: سفن سينوكور ستواجه إجراءات قانونية - قناة المملكة",
-          "publisher": "قناة المملكة",
-          "publisher_url": "https://almamlakatv.com",
-          "domain": "almamlakatv.com",
-          "first_seen": "2026-10-30T01:10:45.411523Z",
-          "published_at": "2026-10-28T05:26:05Z",
-          "language": "ar",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "gulf-ar"
-          ],
-          "topic": [
-            "Regionaal: Golfstaten / Arabisch"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "middel",
-      "priority_level": 2,
-      "priority_explanation": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "publishers": [
-        "قناة المملكة"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "key": "a753b8df9b2f55",
-      "review_status": "unverified_story_candidate",
-      "review_order": 20
-    },
-    {
       "title": "海峡这张牌已经没用了！美伊焦点转向高丰度铀，两边条件完全相反，谈判卡在最关键一步 - 搜狐网",
       "articles": [
         {
@@ -20262,44 +20274,44 @@
       "review_order": 10
     },
     {
-      "title": "خام غرب تكساس الوسيط يرتفع فوق 100.50 دولار بعد الهجوم على مصفاة سعودية - FXStreet",
+      "title": "海峡暗战！美伊围绕主导权展开较量 - 缅华网",
       "articles": [
         {
-          "key": "074319b5fcedde34e1e47b33",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOVExVnBDZHVZeUlCbXBWN2g4NGdmQzQxTXJKTnFHRlhWNGVmbzYtbHZnYWV6MUY2N2pGYUh6Z0ZHYzFXSklFeGRGek9JLTM0bkRLaDNHRTdBQXFKTUgwSkFuLW9yQ2pDbzk2QThRR2ppNUlLbUY4dC1yS2xyR19aU3hHaE16Z0JxV1B4OFdtN3FFNkpuRTdQT0lsQUNma0l1cHVvSVAzQdIBpwFBVV95cUxQOVExVnBDZHVZeUlCbXBWN2g4NGdmQzQxTXJKTnFHRlhWNGVmbzYtbHZnYWV6MUY2N2pGYUh6Z0ZHYzFXSklFeGRGek9JLTM0bkRLaDNHRTdBQXFKTUgwSkFuLW9yQ2pDbzk2QThRR2ppNUlLbUY4dC1yS2xyR19aU3hHaE16Z0JxV1B4OFdtN3FFNkpuRTdQT0lsQUNma0l1cHVvSVAzQQ?oc=5",
-          "title": "خام غرب تكساس الوسيط يرتفع فوق 100.50 دولار بعد الهجوم على مصفاة سعودية - FXStreet",
-          "publisher": "FXStreet",
-          "publisher_url": "https://ar.fxstreet.com",
-          "domain": "ar.fxstreet.com",
-          "first_seen": "2026-10-30T01:10:45.411523Z",
-          "published_at": "2026-10-28T06:49:50Z",
-          "language": "ar",
+          "key": "76df3f2fdb7b655f018cbf79",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYR2dsRUl3VkRLbm14WXR5YUxDaWhEZlBsazdYOFQ1V01QLW1haDJtMWRjS3R6dkx4MkRZb0JYU3UwOFc4WjJOSmx5QzF1b3huNHU5eGdRaw?oc=5",
+          "title": "海峡暗战！美伊围绕主导权展开较量 - 缅华网",
+          "publisher": "缅华网",
+          "publisher_url": "https://www.mhwmm.com",
+          "domain": "www.mhwmm.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T17:34:46Z",
+          "language": "zh-CN",
           "sourcecountry": "",
           "discovery_profiles": [
-            "gulf-ar"
+            "china-zh"
           ],
           "topic": [
-            "Regionaal: Golfstaten / Arabisch"
+            "Regionaal: China / Chinees"
           ],
           "provider": "google_news_rss",
           "review_status": "unverified"
         }
       ],
-      "day": "2026-10-28",
+      "day": "2026-10-31",
       "priority": "laag",
-      "priority_level": 1,
-      "priority_explanation": "Actie genoemd, maar verband met de crisis onzeker",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
       "publishers": [
-        "fxstreet"
+        "缅华网"
       ],
       "article_count": 1,
       "source_count": 1,
       "categories": [
-        "Regionaal: Golfstaten / Arabisch"
+        "Regionaal: China / Chinees"
       ],
-      "key": "159291a68ff917",
+      "key": "92eb9951c591d0",
       "review_status": "unverified_story_candidate",
-      "review_order": 10
+      "review_order": 0
     },
     {
       "title": "商船波斯湾遇袭事件大增 对原油流量影响有限 - 阿波罗新闻网",
@@ -20338,6 +20350,46 @@
         "Regionaal: China / Chinees"
       ],
       "key": "448aa4830bc952",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "أحدث أخبار مصر والعالم - ekhbary24.com",
+      "articles": [
+        {
+          "key": "c1fc82b4392474335b4c40a4",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE14TmFEVGRiZXJheVdFdDlkMUhQa21JbzU3N3NLQlB0WGE4TGdVOTVNM1JDQVFIaHYwQng1RU55RVdUbWZCQlIyenZ5SQ?oc=5",
+          "title": "أحدث أخبار مصر والعالم - ekhbary24.com",
+          "publisher": "ekhbary24.com",
+          "publisher_url": "https://ekhbary24.com",
+          "domain": "ekhbary24.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-31T10:48:06Z",
+          "language": "ar",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "gulf-ar"
+          ],
+          "topic": [
+            "Regionaal: Golfstaten / Arabisch"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-31",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "ekhbary24.com"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "key": "06ada2c62ef59c",
       "review_status": "unverified_story_candidate",
       "review_order": 0
     },
@@ -20502,6 +20554,46 @@
       "review_order": 0
     },
     {
+      "title": "美軍在霍爾木茲海峽護航內幕曝光 - 大紀元",
+      "articles": [
+        {
+          "key": "aa1fa266fea4ea58fa356804",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE52NDNvNG9sWVlaLVlxeHI0OC1QTG5EWUp0NUpNdEJPNWlralFDTGxNX0ZJUDdxandMREs2cmRkdGhlazBzOTN2ZmRDMG1QamlLeHlNUWh2MWNyQnFkZlhvX2VpM05WREnSAWdBVV95cUxOdjQzbzRvbFlZWi1ZcXhyNDgtUExuRFlKdDVKTXRCTzVpa2pRQ0xsTV9GSVA3cWp3TERLNnJkZHRoZWswczkzdmZkQzBtUGppS3h5TVFodjFjckJxZGZYb19laTNOVkRJ?oc=5",
+          "title": "美軍在霍爾木茲海峽護航內幕曝光 - 大紀元",
+          "publisher": "大紀元",
+          "publisher_url": "https://www.epochtimes.com",
+          "domain": "www.epochtimes.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T22:31:00Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "大紀元"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "29fac1d1d5b8e8",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
       "title": "Italy’s inflation hits 5.4%, outpacing the U.S. and China, as a farmers’ revolt empties shelves of pasta and mozzarella - Fortune",
       "articles": [
         {
@@ -20578,6 +20670,46 @@
         "Regionaal: Golfstaten / Arabisch"
       ],
       "key": "f57ddf182b5658",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "一根6美元的巨型星线！油市迎来关键路口 - 手机新浪网",
+      "articles": [
+        {
+          "key": "7ac292f087eab112962639fb",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRGtTcFVyZldCRDEwNGE0amZITkw2UnZVU2ZYS1BDQ1pzR29pbzNGNU9sd1haaklYR2Z2Wm1fRmotUlVwb2RCSHdYY0hYMWltMktDUXdaRkNDbXVRSnoxTGlBVjNTYTFfNTZhTFpUS3VpTU5hcHM2djNDMk1US2FsNU9Vdw?oc=5",
+          "title": "一根6美元的巨型星线！油市迎来关键路口 - 手机新浪网",
+          "publisher": "手机新浪网",
+          "publisher_url": "https://k.sina.com.cn",
+          "domain": "k.sina.com.cn",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-30T17:27:00Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-30",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "手机新浪网"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "920a95d0c57586",
       "review_status": "unverified_story_candidate",
       "review_order": 0
     },
@@ -21058,6 +21190,46 @@
         "Bedrijfsleven & investeringen"
       ],
       "key": "7726bd1e932832",
+      "review_status": "unverified_story_candidate",
+      "review_order": 0
+    },
+    {
+      "title": "海湾产油国加快扩大海外储油布局，以降低供应风险 - 华尔街日报中文网",
+      "articles": [
+        {
+          "key": "46577167ab25001acb1fd464",
+          "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxQc21Yd0Y1aWdnMGF6NWVfbUQxcTRpMXhHb3RjVTdsbDVWeVQ5OFBSVEhadEdfOEtpVm1xNkpQMVpFSUtmVjZrbVJBa3RHNFRXX3RlTmhlRzZJLUN1MS1CT1lSU1lMU2kwejE0cGpsbDR1SkVxQ0NRQUhlNTdHaUQ1cTJKeTJIeTVQN0tPenpLZ0FJUEY0aTlxZXRsTHpfS05TaU4zQ2pGOGh5WnJERXhqQ0NSSldWR2FYUzlYMmdXbGxIelZ4UXJka0R5b3JnNjR1UjUxMDV4Y2lBSlZIYzBEcHROS3lsV2czMkhGc2ZZYzRWMHB2SkpSQXBNOXBsWW1qLUFoM3dYckVJQVlFR1BiMlhyUWpvdXJfdkM2SENGaFAyTGhnT29uaVIyVGFWXzE0RkcwdlowcUc2Wldpeks2Qm5GUmFJb0lVZUxaeG9feHB6TDlxcGcw?oc=5",
+          "title": "海湾产油国加快扩大海外储油布局，以降低供应风险 - 华尔街日报中文网",
+          "publisher": "华尔街日报中文网",
+          "publisher_url": "https://cn.wsj.com",
+          "domain": "cn.wsj.com",
+          "first_seen": "2026-10-31T18:53:45.713610Z",
+          "published_at": "2026-10-29T23:50:00Z",
+          "language": "zh-CN",
+          "sourcecountry": "",
+          "discovery_profiles": [
+            "china-zh"
+          ],
+          "topic": [
+            "Regionaal: China / Chinees"
+          ],
+          "provider": "google_news_rss",
+          "review_status": "unverified"
+        }
+      ],
+      "day": "2026-10-29",
+      "priority": "laag",
+      "priority_level": 0,
+      "priority_explanation": "Geen duidelijk criseslement in de kop",
+      "publishers": [
+        "华尔街日报中文网"
+      ],
+      "article_count": 1,
+      "source_count": 1,
+      "categories": [
+        "Regionaal: China / Chinees"
+      ],
+      "key": "f5ce3e91b99638",
       "review_status": "unverified_story_candidate",
       "review_order": 0
     },
@@ -22618,126 +22790,6 @@
         "Energie & grondstoffen"
       ],
       "key": "969d642508004a",
-      "review_status": "unverified_story_candidate",
-      "review_order": 0
-    },
-    {
-      "title": "Global trade disruptions strain energy and food supply chains - ForkLog",
-      "articles": [
-        {
-          "key": "a19b0c7ef237c564c351f08a",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUkhLcXFUSDB0c1h2QUhrNzhObGdqRDdOdDZkVEZaRVhQb1B3QjhTOHVxbXhsVDZaVnM4dWIwektDVzdMOFUzLVMtREZVdGlfYWZxSFo1RDVIelhzdGc0eG13SWV5b0tUdXZvb2xfLVBZa1ZVMHhBdGJBWWlmeUd1UVZTSEFuWnhZc3RvdGZ3?oc=5",
-          "title": "Global trade disruptions strain energy and food supply chains - ForkLog",
-          "publisher": "ForkLog",
-          "publisher_url": "https://forklog.com",
-          "domain": "forklog.com",
-          "first_seen": "2026-10-29T01:08:15.870063Z",
-          "published_at": "2026-10-28T09:08:54Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "energy"
-          ],
-          "topic": [
-            "Energie & grondstoffen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Geen duidelijk criseslement in de kop",
-      "publishers": [
-        "forklog"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Energie & grondstoffen"
-      ],
-      "key": "6ce29c4dc92ac4",
-      "review_status": "unverified_story_candidate",
-      "review_order": 0
-    },
-    {
-      "title": "Will France’s Debt Crisis Stop the ECB From Raising Interest Rates Again? - Modern Diplomacy",
-      "articles": [
-        {
-          "key": "892e0fa5c8889020b8693442",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQnUyZFRYWjZpUUxHd2hfWFNrZjZJM1pCRDRxUDRCdk5sQW9ad0dRMzd2TGlITVZtQzBVRzBVZVFDTXFJekRWZnZKZFhpdmU4cjQxSFVmcDMyeVlOSVpENE4ybTcwNVFCMVJiVzFMa3hYU2VsV1BDQ091ZWwtTGNleHFDcEdJY3dOX2I2R3U0SWVYcHViOUNMTHVpUGR4TW1VRTBhMG1FQldKeHBUMmJF?oc=5",
-          "title": "Will France’s Debt Crisis Stop the ECB From Raising Interest Rates Again? - Modern Diplomacy",
-          "publisher": "Modern Diplomacy",
-          "publisher_url": "https://moderndiplomacy.eu",
-          "domain": "moderndiplomacy.eu",
-          "first_seen": "2026-10-28T14:07:17.526803Z",
-          "published_at": "2026-10-28T07:53:05Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "economy"
-          ],
-          "topic": [
-            "Economie & samenleving"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Geen duidelijk criseslement in de kop",
-      "publishers": [
-        "modern diplomacy"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Economie & samenleving"
-      ],
-      "key": "a2c8d58a406bcb",
-      "review_status": "unverified_story_candidate",
-      "review_order": 0
-    },
-    {
-      "title": "IEA's Fatih Birol Warns Over Concentration of Clean Technology Supply Chains - energynews.pro",
-      "articles": [
-        {
-          "key": "72f180464ac561031261b40c",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSU5HR3FhZU5faWl4S1UxdUR1aDRuX2V3Vl8yeWxXbExYTWt6WnhjcGZXX1Y1TUFWSTU0M0JQOTltT093Ym55ZzRGMWxsdnVVX2l1Z3NmT1E2RTVSckRUSzk5QXpzcE1IMVpPc1NUeUJhY1NVdVBHLWRIZEdsN3FlTHY2eDBkVFVBZi1faXVUS1E4MUNYV24wOGJVMkJudVZaZ29R?oc=5",
-          "title": "IEA's Fatih Birol Warns Over Concentration of Clean Technology Supply Chains - energynews.pro",
-          "publisher": "energynews.pro",
-          "publisher_url": "https://energynews.pro",
-          "domain": "energynews.pro",
-          "first_seen": "2026-10-28T13:07:13.933625Z",
-          "published_at": "2026-10-28T07:41:28Z",
-          "language": "en-US",
-          "sourcecountry": "",
-          "discovery_profiles": [
-            "energy"
-          ],
-          "topic": [
-            "Energie & grondstoffen"
-          ],
-          "provider": "google_news_rss",
-          "review_status": "unverified"
-        }
-      ],
-      "day": "2026-10-28",
-      "priority": "laag",
-      "priority_level": 0,
-      "priority_explanation": "Geen duidelijk criseslement in de kop",
-      "publishers": [
-        "energynews.pro"
-      ],
-      "article_count": 1,
-      "source_count": 1,
-      "categories": [
-        "Energie & grondstoffen"
-      ],
-      "key": "db06a3c7f94460",
       "review_status": "unverified_story_candidate",
       "review_order": 0
     }

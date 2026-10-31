@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-10-31T12:59:03.782376Z",
+  "last_attempt_utc": "2026-10-31T18:55:14.173379Z",
   "description": "Official-source texts and links, not automatic verification of events",
   "sources": [
     {
@@ -7,58 +7,18 @@
       "authority": "US Central Command",
       "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/",
       "kind": "official_listing",
-      "retrieved_at": "2026-10-31T12:58:58.756116Z",
-      "status": "ok",
-      "title": "US Central Command",
-      "passages": [
-        "VISITORS AND PERSONNEL FAMILY CENTER FAMILY READINESS CENTCOM WEBMAIL SOCIAL MEDIA SECURITY ACCOUNTABILITY EMERGENCY PREPAREDNESS FOIA LIBRARY WELCOME GUIDE",
-        "Privacy & Security Inspector General FOIA Privacy Act Section 508"
-      ],
-      "links": [
-        {
-          "title": "SOCIAL MEDIA SECURITY",
-          "url": "https://www.centcom.mil/VISITORS-AND-PERSONNEL/SOCIAL-MEDIA-SECURITY/"
-        },
-        {
-          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/"
-        },
-        {
-          "title": "U.S. Forces Disable Cargo Vessel Attempting to Violate Blockade",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4623817/us-forces-disable-cargo-vessel-attempting-to-violate-blockade/"
-        },
-        {
-          "title": "CENTCOM Maintains Strict Enforcement of U.S. Blockade Against Iran",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4619553/centcom-maintains-strict-enforcement-of-us-blockade-against-iran/"
-        },
-        {
-          "title": "U.S. Forces End Operation Inherent Resolve Mission in Iraq",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4614532/us-forces-end-operation-inherent-resolve-mission-in-iraq/"
-        },
-        {
-          "title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4593050/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship/"
-        },
-        {
-          "title": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4591744/centcom-destroys-3-irgc-oil-tankers-after-iran-targets-2-us-navy-warships/"
-        },
-        {
-          "title": "CENTCOM Completes Strikes on IRGC Targets in Iran",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/"
-        },
-        {
-          "title": "CENTCOM Commander Completes 10-Day Trip to the Middle East",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4574895/centcom-commander-completes-10-day-trip-to-the-middle-east/"
-        }
-      ]
+      "retrieved_at": "2026-10-31T18:54:51.259871Z",
+      "status": "error",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "passages": [],
+      "links": []
     },
     {
       "id": "uk_iran",
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/iran",
       "kind": "official_advisory",
-      "retrieved_at": "2026-10-31T12:58:58.876717Z",
+      "retrieved_at": "2026-10-31T18:54:52.154560Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -170,7 +130,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
       "kind": "official_advisory",
-      "retrieved_at": "2026-10-31T12:58:59.314834Z",
+      "retrieved_at": "2026-10-31T18:54:52.106358Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -271,7 +231,7 @@
       "authority": "US Department of State",
       "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
       "kind": "official_rss",
-      "retrieved_at": "2026-10-31T12:58:58.535670Z",
+      "retrieved_at": "2026-10-31T18:54:51.270538Z",
       "status": "ok",
       "title": "US travel advice RSS (filtered: Middle East)",
       "passages": [],
@@ -643,7 +603,7 @@
       "authority": "International Maritime Organization",
       "url": "https://www.imo.org/en/mediacentre/pressbriefings/default.aspx",
       "kind": "official_listing",
-      "retrieved_at": "2026-10-31T12:58:59.270129Z",
+      "retrieved_at": "2026-10-31T18:54:51.928859Z",
       "status": "ok",
       "title": "International Maritime Organization",
       "passages": [
@@ -708,9 +668,9 @@
       "authority": "Pakistan Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.pk/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-10-31T12:58:59.995438Z",
+      "retrieved_at": "2026-10-31T18:55:14.172952Z",
       "status": "error",
-      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
       "passages": [],
       "links": []
     },
@@ -719,7 +679,7 @@
       "authority": "China Ministry of Foreign Affairs",
       "url": "https://www.fmprc.gov.cn/mfa_eng/index.html",
       "kind": "official_listing",
-      "retrieved_at": "2026-10-31T12:58:59.549149Z",
+      "retrieved_at": "2026-10-31T18:54:52.538768Z",
       "status": "ok",
       "title": "China Ministry of Foreign Affairs",
       "passages": [],
@@ -767,7 +727,7 @@
       "authority": "US Treasury",
       "url": "https://home.treasury.gov/news/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-10-31T12:58:58.998568Z",
+      "retrieved_at": "2026-10-31T18:54:52.080094Z",
       "status": "ok",
       "title": "US Treasury",
       "passages": [
@@ -832,7 +792,7 @@
       "authority": "US Energy Information Administration",
       "url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
       "kind": "official_advisory",
-      "retrieved_at": "2026-10-31T12:58:59.142826Z",
+      "retrieved_at": "2026-10-31T18:54:52.240029Z",
       "status": "ok",
       "title": "US Energy Information Administration",
       "passages": [
@@ -939,7 +899,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
       "kind": "official_advisory",
-      "retrieved_at": "2026-10-31T12:59:00.098368Z",
+      "retrieved_at": "2026-10-31T18:54:53.007848Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1027,7 +987,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
       "kind": "official_advisory",
-      "retrieved_at": "2026-10-31T12:58:59.476958Z",
+      "retrieved_at": "2026-10-31T18:54:53.048766Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1113,7 +1073,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/qatar",
       "kind": "official_advisory",
-      "retrieved_at": "2026-10-31T12:59:00.280075Z",
+      "retrieved_at": "2026-10-31T18:54:53.162199Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1201,7 +1161,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
       "kind": "official_advisory",
-      "retrieved_at": "2026-10-31T12:58:59.834095Z",
+      "retrieved_at": "2026-10-31T18:54:53.437723Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1295,7 +1255,7 @@
       "authority": "United Arab Emirates Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.ae/en",
       "kind": "official_listing",
-      "retrieved_at": "2026-10-31T12:59:02.439036Z",
+      "retrieved_at": "2026-10-31T18:54:55.450632Z",
       "status": "ok",
       "title": "United Arab Emirates Ministry of Foreign Affairs",
       "passages": [
@@ -1304,7 +1264,6 @@
         "Services show submenu for Services Services for Individuals Documents Attestation Return document Twajudi Emergency communications for the Emirati traveler Travel requirements by destination To Whom It May Concern Return document (Golden Visa Holders) Document Verification Services for Businesses Documents Attestation Commercial Invoices Attestation (Via eDAS 2.0) Services for Government Entities Diplomatic, Special and Mission Passport Issuance Diplomatic and Special Passport Renewal Diplomatic and Special Passport Replacement Diplomatic and Special and Mission Passport Cancellation Invitations & Communications Services Services for Foreign Missions Diplomatic Notes Gateway New Diplomatic, Consular, International Organizations, Special ID Cards Issuance Airport Entry Permits Visits & Meet",
         "Foreign Policy show submenu for Foreign Policy Agreements Critical Emerging Advanced Technology Cultural and public Diplomacy Climate Action Cop28 Development Assistance Economic Diplomacy Combatting Human Trafficking Labour Rights UAE’s Candidacy for the United Nations Human Rights Council 2022-2024 Women's rights Water Scarcity",
         "Services show submenu for Services Services for Individuals Documents Attestation Return document Twajudi Emergency communications for the Emirati traveler Travel requirements by destination To Whom It May Concern Return document (Golden Visa Holders) Document Verification Services for Businesses Documents Attestation Commercial Invoices Attestation (Via eDAS 2.0) Services for Government Entities Diplomatic, Special and Mission Passport Issuance Diplomatic and Special Passport Renewal Diplomatic and Special Passport Replacement Diplomatic and Special and Mission Passport Cancellation Invitations & Communications Services Services for Foreign Missions Diplomatic Notes Gateway New Diplomatic, Consular, International Organizations, Special ID Cards Issuance Airport Entry Permits Visits & Meet",
-        "On Behalf of H.H. Sheikh Mohammed bin Rashid Al Maktoum, H.E. Saeed Al Hajeri Leads UAE Delegation to Autumn Economic Forum",
         "Travel requirements by destination for Emirati travelers",
         "Supportive initiatives of the United Arab Emirates",
         "The Ministry of Foreign Affairs was awarded a 4 star rating by the Global Star Rating System for Services"
@@ -1325,7 +1284,7 @@
       "authority": "Islamic Republic of Iran Ministry of Foreign Affairs",
       "url": "https://en.mfa.ir/",
       "kind": "official_listing",
-      "retrieved_at": "2026-10-31T12:59:03.781662Z",
+      "retrieved_at": "2026-10-31T18:54:58.433034Z",
       "status": "error",
       "error": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
       "passages": [],
@@ -1336,7 +1295,7 @@
       "authority": "Permanent Mission of Pakistan to the United Nations",
       "url": "https://pakun.org/",
       "kind": "official_listing",
-      "retrieved_at": "2026-10-31T12:59:00.484911Z",
+      "retrieved_at": "2026-10-31T18:54:53.606841Z",
       "status": "ok",
       "title": "Permanent Mission of Pakistan to the United Nations",
       "passages": [
@@ -1350,7 +1309,7 @@
       "authority": "Permanent Mission of China to the United Nations",
       "url": "https://un.china-mission.gov.cn/eng/fyrth/",
       "kind": "official_listing",
-      "retrieved_at": "2026-10-31T12:59:02.113680Z",
+      "retrieved_at": "2026-10-31T18:54:54.991184Z",
       "status": "ok",
       "title": "Permanent Mission of China to the United Nations",
       "passages": [
@@ -1483,7 +1442,8 @@
     }
   ],
   "errors": {
-    "pakistan_mofa": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+    "centcom_releases": "HTTPError: HTTP Error 403: Forbidden",
+    "pakistan_mofa": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
     "iran_mfa": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
   }
 }

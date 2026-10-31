@@ -1,22 +1,22 @@
 {
-  "generated_at_utc": "2026-10-31T12:59:23.245282+00:00",
+  "generated_at_utc": "2026-10-31T18:55:30.923091+00:00",
   "definition": "Automatische procescontrole, geen wetenschappelijke validatie van gebeurteniswaarheid.",
   "technical": {
-    "collected_articles": 1429,
-    "tentative_headline_groups": 529,
+    "collected_articles": 1475,
+    "tentative_headline_groups": 533,
     "daily_shortlist": 25,
     "ai_reviewed_shortlist": 25,
     "ai_headline_status": "complete",
     "event_research_status": "complete",
-    "event_input_claims": 24,
-    "event_groups_output": 23,
-    "multiple_claim_clusters": 1,
-    "claims_in_multiple_claim_clusters": 2,
+    "event_input_claims": 25,
+    "event_groups_output": 22,
+    "multiple_claim_clusters": 3,
+    "claims_in_multiple_claim_clusters": 6,
     "ids_retained_without_duplicates": true,
     "official_sources_checked": 17,
-    "official_sources_accessible": 15,
-    "official_exact_passage_matches": 0,
-    "potential_direct_support_matches": 0,
+    "official_sources_accessible": 14,
+    "official_exact_passage_matches": 9,
+    "potential_direct_support_matches": 2,
     "potential_contradictions": 0,
     "claim_research_checked_active": 7,
     "claim_research_status": "complete",
@@ -27,11 +27,11 @@
     "original_document_conflicting_statements": 1,
     "verified_events": 0,
     "clustering_method": "ai_pairwise_double_review",
-    "proposed_merge_pairs": 3,
-    "accepted_merge_connections": 1,
-    "rejected_merge_proposals": 2,
+    "proposed_merge_pairs": 4,
+    "accepted_merge_connections": 3,
+    "rejected_merge_proposals": 1,
     "independent_auditor_ran": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "rss_profiles_ok": 12,
     "gdelt_queries_ok": 0
@@ -40,9 +40,9 @@
     {
       "authority": "US Central Command",
       "id": "centcom_releases",
-      "status": "ok",
-      "passages": 2,
-      "links": 9
+      "status": "error",
+      "passages": 0,
+      "links": 0
     },
     {
       "authority": "UK Foreign, Commonwealth & Development Office",
@@ -132,7 +132,7 @@
       "authority": "United Arab Emirates Ministry of Foreign Affairs",
       "id": "uae_mofa",
       "status": "ok",
-      "passages": 9,
+      "passages": 8,
       "links": 2
     },
     {
@@ -158,7 +158,9 @@
     }
   ],
   "research_status_breakdown": {
-    "no_matching_primary_evidence": 23
+    "potential_primary_text_match_needs_review": 2,
+    "related_official_material_only": 7,
+    "no_matching_primary_evidence": 13
   },
   "uncertainty": {
     "true_cluster_precision": null,
@@ -168,7 +170,6 @@
     "reason": "Er ontbreekt een onafhankelijke, handmatig geannoteerde gouden testset; modelconsensus is geen grondwaarheid."
   },
   "warnings": [
-    "Geen specifieke officiële ondersteuning automatisch aangetroffen",
-    "Officiële bronnen onvolledig: pakistan_mofa, iran_mfa"
+    "Officiële bronnen onvolledig: centcom_releases, pakistan_mofa, iran_mfa"
   ]
 }
