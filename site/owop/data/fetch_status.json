@@ -1,75 +1,78 @@
 {
-  "last_attempt_utc": "2026-10-30T20:18:35.649689Z",
+  "last_attempt_utc": "2026-10-31T02:27:51.281543Z",
   "profiles": {
     "nature-en": {
       "status": "ok",
       "articles": 100,
-      "new": 79
+      "new": 65
     },
     "health-en": {
       "status": "ok",
-      "articles": 34,
-      "new": 4
+      "articles": 30,
+      "new": 7
     },
     "science-en": {
       "status": "ok",
-      "articles": 28,
-      "new": 4
+      "articles": 26,
+      "new": 2
     },
     "people-en": {
       "status": "ok",
       "articles": 100,
-      "new": 74
+      "new": 77
     },
     "progress-en": {
       "status": "ok",
-      "articles": 57,
-      "new": 12
+      "articles": 27,
+      "new": 2
     },
     "energy-en": {
       "status": "ok",
-      "articles": 71,
-      "new": 16
+      "articles": 18,
+      "new": 5
     },
     "spanish": {
       "status": "ok",
       "articles": 100,
-      "new": 51
+      "new": 29
     },
     "portuguese": {
       "status": "ok",
       "articles": 100,
-      "new": 72
+      "new": 61
     },
     "french": {
       "status": "ok",
       "articles": 100,
-      "new": 60
+      "new": 9
     },
     "indonesia": {
       "status": "ok",
       "articles": 100,
-      "new": 31
+      "new": 26
     },
     "russian": {
       "status": "ok",
       "articles": 100,
-      "new": 49
+      "new": 21
     },
     "arabic": {
       "status": "ok",
       "articles": 100,
-      "new": 68
+      "new": 32
     },
     "china": {
       "status": "ok",
       "articles": 100,
-      "new": 35
+      "new": 65
+    },
+    "gdelt-positive-radar": {
+      "status": "ok",
+      "articles": 0,
+      "new": 0
     }
   },
-  "errors": {
-    "gdelt-positive-radar": "HTTP 429 Too Many Requests"
-  },
-  "new_urls": 555,
-  "retained_urls": 9328
+  "errors": {},
+  "new_urls": 401,
+  "retained_urls": 9729
 }
