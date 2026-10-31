@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-10-31T01:11:27.879990Z",
+  "last_attempt_utc": "2026-10-31T07:03:40.556454Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 22,
-  "active_checked": 5,
+  "active_checked": 7,
   "direct_matches": 0,
-  "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "contradictions": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -1147,6 +1147,138 @@
           "text_excerpt": "Emergency help for British nationals in Saudi Arabia"
         }
       ]
+    },
+    "77d85b7313793607f5bc93eb": {
+      "event_id": "77d85b7313793607f5bc93eb",
+      "checked_at": "2026-10-31T07:03:40.556399Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "original_document_title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_date": "Oct. 25, 2026",
+          "retrieved_at": "2026-10-31T07:03:32.528152Z",
+          "exact_quote": "U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de olie-export door de VS, maar ondersteunt niet direct de claim over de olieprijsstijging na een tankeraanval.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "Er zijn geen directe bevestigingen van de claim over de olieprijsstijging na een tankeraanval, maar er zijn wel verwijzingen naar de olie-export en de onopgeloste situatie in de Straat van Hormuz.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
+        },
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
+          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
+        }
+      ]
+    },
+    "b5c1067e5180f0787598a0b8": {
+      "event_id": "b5c1067e5180f0787598a0b8",
+      "checked_at": "2026-10-31T07:03:40.556421Z",
+      "version": "official-original-document-v1",
+      "research_status": "conflicting_official_statement",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "original_document_title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_date": "Oct. 25, 2026",
+          "retrieved_at": "2026-10-31T07:03:34.272320Z",
+          "exact_quote": "over 95% of ships navigating the Strait of Hormuz have sailed through safely despite the IRGC's unwarranted aggression",
+          "relation": "conflicting_statement",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage stelt dat de meeste schepen veilig zijn gepasseerd, wat in tegenspraak is met de claim dat tankers zijn aangevallen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "Er zijn tegenstrijdige verklaringen over de veiligheid van scheepvaart in de Straat van Hormuz, terwijl de vernietiging van Iraanse tankers niet direct de claim over de brand ondersteunt.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "In recent months, over 95% of ships navigating the Strait of Hormuz have sailed through safely despite the IRGC's unwarranted aggression, clearly demonstrating that the United States and regional partners control the international waterway."
+        },
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4593050/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship/",
+          "title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Sept. 8, 2026",
+          "text_excerpt": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship"
+        }
+      ]
+    },
+    "ac0dcf59cf2c30a13c876ba2": {
+      "event_id": "ac0dcf59cf2c30a13c876ba2",
+      "checked_at": "2026-10-31T07:03:40.556427Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-10-31T07:03:35.302911Z",
+          "exact_quote": "the wider context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar de onvoorspelbare situatie in het Midden-Oosten, maar biedt geen bewijs voor de claim over aanvallen op schepen in oktober.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "Er zijn geen directe bevestigingen van de claim over de aanvallen op schepen in oktober, maar er zijn verwijzingen naar de onvoorspelbare situatie en aanvallen door de Houthis.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/government/publications/budget-2026-document",
+          "title": "Budget 2026 document - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Do not include personal or financial information like your National Insurance number or credit card details."
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026. The airport continues to be targeted and remains at risk of further attacks."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -1161,9 +1293,9 @@
       "model_tokens": 6936
     },
     "2026-10-31": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 2361
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 4887
     }
   },
   "last_error": null

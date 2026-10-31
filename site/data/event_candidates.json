@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-10-31T01:11:06.046024Z",
-  "fingerprint": "c35fdc82a85f6540e21b9a60",
+  "last_attempt_utc": "2026-10-31T07:03:27.241917Z",
+  "fingerprint": "21ca6fd8b82e8657d8c181cb",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -9,9 +9,9 @@
   "event_candidate_count": 22,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 5,
+    "model_pair_proposals": 3,
     "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 3,
+    "rejected_pair_proposals": 1,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-10-31T01:11:06.046024Z",
+    "recorded_at": "2026-10-31T07:03:27.241917Z",
     "groups": [
       {
         "ids": [
@@ -82,15 +82,14 @@
       },
       {
         "ids": [
-          "9e0b5274526ffb",
-          "fb54937937d5bd"
+          "9e0b5274526ffb"
         ],
         "label_nl": "Claim: IRGC says two oil tankers halted, caught fire in Strait of Hormuz - Rudaw",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -116,9 +115,9 @@
       },
       {
         "ids": [
-          "7b55a47781780f"
+          "d1863e66f3cbe0"
         ],
-        "label_nl": "Claim: Pakistan Signals Iran De-escalation as Hormuz Attack Disrupts Tanker - SuaraGarut.ID",
+        "label_nl": "Claim: Middle East latest: Attacks on ships transiting Hormuz in October highest since start of war - The National",
         "actor": "",
         "action": "",
         "place": "",
@@ -171,14 +170,15 @@
       },
       {
         "ids": [
-          "b038ec52d6c1c7"
+          "b038ec52d6c1c7",
+          "fb54937937d5bd"
         ],
         "label_nl": "Claim: Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -215,9 +215,9 @@
       },
       {
         "ids": [
-          "e9a12a4d43dfb3"
+          "4c8022f1df640a"
         ],
-        "label_nl": "Claim: Iran’s Navy Attacks Tanker with Limpet Mines in Strait of Hormuz - Udaipur Kiran",
+        "label_nl": "Claim: Iran Reports Mine Strikes on Four Tankers in Strait of Hormuz - Udaipur Kiran",
         "actor": "",
         "action": "",
         "place": "",
@@ -279,7 +279,7 @@
       "a4df1b157b716d",
       "d9451ee625ae52",
       "2030c89841a1ba",
-      "7b55a47781780f",
+      "d1863e66f3cbe0",
       "07c8151bbcbe2c",
       "9020395117d6a9",
       "eb57ba5df6c390",
@@ -288,7 +288,7 @@
       "7fff0fa21b2470",
       "fd5604746d46f6",
       "3ed4dd805d05b6",
-      "e9a12a4d43dfb3",
+      "4c8022f1df640a",
       "31a6cebdb6cdea",
       "46c1e26c521d89",
       "fb54937937d5bd",
@@ -333,18 +333,18 @@
       "probability_estimate": null
     },
     {
-      "id": "a4b93f42a5bd74d588604942",
-      "label_nl": "Claim: IRGC says two oil tankers halted, caught fire in Strait of Hormuz - Rudaw",
+      "id": "77d85b7313793607f5bc93eb",
+      "label_nl": "Claim: Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper",
       "headline_claim_ids": [
-        "9e0b5274526ffb",
+        "b038ec52d6c1c7",
         "fb54937937d5bd"
       ],
       "headline_claims": [
-        "IRGC says two oil tankers halted, caught fire in Strait of Hormuz - Rudaw",
+        "Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper",
         "Oil Prices Rise After Hormuz Tanker Attack, Houthi Claims Stoke Supply Fears - Yahoo Finance"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zODVLZi1rR1RVYkJSLWRwV1JDM1h3UWJ1NlZsU29uVzA3b3Y0M3RjWDMtOHk2NUIteGJsUnl6SW8tMlNRdHpwM1VWS0tRZE56d0NfRTNMZmR5Z3pzVVE?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTNnQ3Y1akoyaVlCS0ZEal9jS292Tkg0Qmc5LVBRaGxPYTJsc3E0dnVZRFFEckY5VEdSbVp0VmR6S2JTNExacng3MnVZSlNoS3FFcVdvSUk2Mm5FVDBaZlM2cmtveVdCenBpSTlsejJEbXFmaWJ0eTRLWlB1c21OTUVpN1NQU0hDZnI1ejBWSnQzeXg3Q0tGVEdjTjdjUG5feWY0VjRsNUNUcjB3eTBF?oc=5",
         "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUV9EM2FZVmIzdTU2YVE1YjZEbmZVZlJhV2hhV0VxbGxORnFCRWw0Y0xuazVkWDJSMHhJTm1qRlN1N0ZKOHV4YVpnUW5pQ19TT2FrM1MyVTBmeWtqVHBXTnMwQk9PRE4xWXl2UWVUZUowX1gtNzZaUzI1VGlOUmJCdkVJNTFoOHdZbHVONnV5dw?oc=5"
       ],
       "article_group_count": 2,
@@ -377,6 +377,58 @@
       ],
       "article_group_count": 1,
       "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "b5c1067e5180f0787598a0b8",
+      "label_nl": "Claim: IRGC says two oil tankers halted, caught fire in Strait of Hormuz - Rudaw",
+      "headline_claim_ids": [
+        "9e0b5274526ffb"
+      ],
+      "headline_claims": [
+        "IRGC says two oil tankers halted, caught fire in Strait of Hormuz - Rudaw"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zODVLZi1rR1RVYkJSLWRwV1JDM1h3UWJ1NlZsU29uVzA3b3Y0M3RjWDMtOHk2NUIteGJsUnl6SW8tMlNRdHpwM1VWS0tRZE56d0NfRTNMZmR5Z3pzVVE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "ac0dcf59cf2c30a13c876ba2",
+      "label_nl": "Claim: Middle East latest: Attacks on ships transiting Hormuz in October highest since start of war - The National",
+      "headline_claim_ids": [
+        "d1863e66f3cbe0"
+      ],
+      "headline_claims": [
+        "Middle East latest: Attacks on ships transiting Hormuz in October highest since start of war - The National"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVzF0OTFEeDd6NkxQYjVkWnpCRmQ1cEtKaVJZNWdaaDFySGVQOHY4cklQUXhQSUMxNjRXRFpjcFZhTFBud0ZyQmp4SlM5OGxqY3YtNzRTdGczNXVDRnpKRWJrN1A1TnZaY0pEVEkxRUJCZWtaS1dYT3llWnZIZGswajFiWXZveGhnUFpFZg?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -442,16 +494,16 @@
       "probability_estimate": null
     },
     {
-      "id": "c3f906f7162bea3bf371b067",
-      "label_nl": "Claim: Iran’s Navy Attacks Tanker with Limpet Mines in Strait of Hormuz - Udaipur Kiran",
+      "id": "99092f73f19f9d6522409102",
+      "label_nl": "Claim: Iran Reports Mine Strikes on Four Tankers in Strait of Hormuz - Udaipur Kiran",
       "headline_claim_ids": [
-        "e9a12a4d43dfb3"
+        "4c8022f1df640a"
       ],
       "headline_claims": [
-        "Iran’s Navy Attacks Tanker with Limpet Mines in Strait of Hormuz - Udaipur Kiran"
+        "Iran Reports Mine Strikes on Four Tankers in Strait of Hormuz - Udaipur Kiran"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNb2FfUWRTaVpEZXU5ZzNETkd5QUpQZmZnVWkyNUJIWFRrc3l6RW0xaUhpRUlKV2dHeFFORW1wRFgxQXJuTy04d09YRHlBOXcyd1J3aHYyejJJTXc0UEx3WnR6VTRsd2pXakVxUjNmbDRISEJwOU83aUJqSXhsTlFONlZGeUJaTkkwVGxSSkN3Qkd2UWM?oc=5"
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUzhPOEV4djRhQ1lPLVZMLUFKbTFfNkhQQ24wWW12QVZoR1AtdDkzUW82d2o3Ty10WUdBVmtReWNhMDJZenY3eUppUHc5Z1J5Q3A1ZUo0ZUcwVEZSRXJDOHA1Y0E1ZVF3RmtBQm5HQThPUjdDd1JyVzVaNWM1dTZnNlNYbjlEMGV0cG5TM1VrUGE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -629,32 +681,6 @@
       "probability_estimate": null
     },
     {
-      "id": "429cf29b2b464023859a433a",
-      "label_nl": "Claim: Pakistan Signals Iran De-escalation as Hormuz Attack Disrupts Tanker - SuaraGarut.ID",
-      "headline_claim_ids": [
-        "7b55a47781780f"
-      ],
-      "headline_claims": [
-        "Pakistan Signals Iran De-escalation as Hormuz Attack Disrupts Tanker - SuaraGarut.ID"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XS3Y2UXZYaENYOFk2eTFOOVc0Q0xVRWUwMDFSLVg0Y3RfUkVDQ292RndBendwQU9iSzNTZjdNOWFSZ0d6dS1UN25SLWtJWHRSS3QzV0JEeEMweC1fT1V3SWRjS01YeVZyWmVDT2I1MUZYbk0?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "0fc51b6dc21e234da6f12151",
       "label_nl": "Claim: Qatari Delegation Holds Tehran Ceasefire Talks - Oz Arab Media",
       "headline_claim_ids": [
@@ -719,32 +745,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQU1zQko4by1vRmxNM01XOTFqRUpTSlpqNndlU0U4RHl1c1FsUGo3N0Z6SVA4bFEtY3pwdUdGRXZTZENOdDNMUjlPS1FiRWlHRHJDaTNIeFIzUEdISXpubDJRcjhFMkI2ajBJazJKeFIzTFhHOHN3WnNEMTNEMEJDdHpMeUtfMkZOVU02SjczM204cWh1THc4eTNDLWlHRkYtWXJLWk8zWXE0YzN1Vjl6bFVKSXlqLTB4MkYxSWJ3aHMxVTNZY1dBRjM3UmFNUzg?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "b160e42be4b48783cc975467",
-      "label_nl": "Claim: Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper",
-      "headline_claim_ids": [
-        "b038ec52d6c1c7"
-      ],
-      "headline_claims": [
-        "Oil Price Prediction: Brent Jumps Above $116 After Tanker Attack in Strait of Hormuz - Coinpaper"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTNnQ3Y1akoyaVlCS0ZEal9jS292Tkg0Qmc5LVBRaGxPYTJsc3E0dnVZRFFEckY5VEdSbVp0VmR6S2JTNExacng3MnVZSlNoS3FFcVdvSUk2Mm5FVDBaZlM2cmtveVdCenBpSTlsejJEbXFmaWJ0eTRLWlB1c21OTUVpN1NQU0hDZnI1ejBWSnQzeXg3Q0tGVEdjTjdjUG5feWY0VjRsNUNUcjB3eTBF?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -903,8 +903,8 @@
       "total_tokens": 35360
     },
     "2026-10-31": {
-      "requests": 3,
-      "total_tokens": 8972
+      "requests": 6,
+      "total_tokens": 17146
     }
   }
 }

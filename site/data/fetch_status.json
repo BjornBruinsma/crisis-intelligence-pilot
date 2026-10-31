@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-10-31T01:09:44.269064Z",
+  "last_attempt_utc": "2026-10-31T07:02:13.512673Z",
   "sources": {
     "google_news_rss": {
       "ok": 12,
@@ -14,41 +14,41 @@
     "military": {
       "status": "ok",
       "articles": 20,
-      "new": 2
+      "new": 3
     },
     "diplomacy": {
       "status": "ok",
       "articles": 23,
-      "new": 2
+      "new": 5
     },
     "government": {
       "status": "ok",
-      "articles": 10,
-      "new": 3
+      "articles": 9,
+      "new": 0
     },
     "markets": {
       "status": "ok",
-      "articles": 9,
-      "new": 1
+      "articles": 5,
+      "new": 0
     },
     "energy": {
       "status": "ok",
       "articles": 33,
-      "new": 5
+      "new": 2
     },
     "trade": {
       "status": "ok",
-      "articles": 9,
-      "new": 2
+      "articles": 11,
+      "new": 1
     },
     "business": {
       "status": "ok",
-      "articles": 4,
-      "new": 1
+      "articles": 3,
+      "new": 2
     },
     "economy": {
       "status": "ok",
-      "articles": 5,
+      "articles": 6,
       "new": 1
     },
     "iran-fa": {
@@ -58,36 +58,36 @@
     },
     "china-zh": {
       "status": "ok",
-      "articles": 11,
-      "new": 1
+      "articles": 16,
+      "new": 5
     },
     "pakistan-en": {
       "status": "ok",
-      "articles": 51,
-      "new": 17
+      "articles": 27,
+      "new": 2
     },
     "gulf-ar": {
       "status": "ok",
-      "articles": 41,
-      "new": 20
+      "articles": 42,
+      "new": 4
     },
     "gdelt-iran": {
       "status": "error",
-      "error": "Missing GDELT articles list",
+      "error": "HTTP 429 Too Many Requests",
       "articles": 0
     },
     "gdelt-hormuz": {
       "status": "error",
-      "error": "Missing GDELT articles list",
+      "error": "HTTP 429 Too Many Requests",
       "articles": 0
     }
   },
   "errors": {
-    "gdelt-iran": "Missing GDELT articles list",
-    "gdelt-hormuz": "Missing GDELT articles list"
+    "gdelt-iran": "HTTP 429 Too Many Requests",
+    "gdelt-hormuz": "HTTP 429 Too Many Requests"
   },
-  "new_urls": 55,
-  "retained_urls": 1330,
+  "new_urls": 25,
+  "retained_urls": 1355,
   "queries_ok": 12,
   "queries_total": 14,
   "status": "partial"

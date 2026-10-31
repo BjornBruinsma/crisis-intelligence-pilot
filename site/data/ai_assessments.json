@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-31T01:11:01.429963Z",
+  "last_attempt_utc": "2026-10-31T07:03:23.166341Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -1543,6 +1543,38 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-31T01:11:00.429692Z"
+    },
+    "d1863e66f3cbe0": {
+      "id": "d1863e66f3cbe0",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat de aanvallen op schepen in de Straat van Hormuz in oktober het hoogste aantal sinds het begin van de oorlog zijn.",
+      "claimed_event_nl": "Aanvallen op schepen in de Straat van Hormuz in oktober zijn het hoogste aantal sinds het begin van de oorlog.",
+      "reason_nl": "Dit is relevant vanwege de mogelijke impact op de maritieme veiligheid en regionale stabiliteit.",
+      "limitations_nl": "De claim is gebaseerd op niet-geverifieerde informatie en kan onnauwkeurig zijn.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T07:03:22.166052Z"
+    },
+    "4c8022f1df640a": {
+      "id": "4c8022f1df640a",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Iran mijnaanvallen heeft gerapporteerd op vier tankers in de Straat van Hormuz.",
+      "claimed_event_nl": "Iran rapporteert mijnaanvallen op vier tankers in de Straat van Hormuz.",
+      "reason_nl": "Dit is relevant omdat het wijst op een verhoogde militaire activiteit en spanningen in een cruciaal maritiem gebied.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd en kan onjuist zijn.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-10-31T07:03:22.166075Z"
     }
   },
   "usage_by_day": {
@@ -1555,8 +1587,8 @@
       "total_tokens": 7473
     },
     "2026-10-31": {
-      "requests": 1,
-      "total_tokens": 1674
+      "requests": 2,
+      "total_tokens": 2619
     }
   }
 }
