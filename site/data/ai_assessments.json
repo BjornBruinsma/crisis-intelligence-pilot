@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-01T07:11:46.095565Z",
+  "last_attempt_utc": "2026-11-01T12:59:42.655111Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -1831,6 +1831,70 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-01T07:11:45.095372Z"
+    },
+    "da3f684d1b5eb9": {
+      "id": "da3f684d1b5eb9",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Een Qatarese LNG-tanker zou zijn aangevallen in de Golfwateren volgens staatsmedia.",
+      "claimed_event_nl": "Qatari LNG tanker attacked in Gulf waters.",
+      "reason_nl": "Dit is relevant vanwege de mogelijke impact op de energievoorziening en regionale stabiliteit.",
+      "limitations_nl": "De informatie is afkomstig van staatsmedia en niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-01T12:59:41.654854Z"
+    },
+    "bfdb6ffb02e74d": {
+      "id": "bfdb6ffb02e74d",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Oman zou 25 bemanningsleden hebben gered te midden van aanvallen en mijnbedreigingen die de scheepvaart in de Straat van Hormuz verstoren.",
+      "claimed_event_nl": "Oman rescues 25 crew as attacks and mine threats disrupt Hormuz shipping.",
+      "reason_nl": "Dit is relevant omdat het wijst op toenemende veiligheidsrisico's in een cruciaal handelsgebied.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-01T12:59:41.654879Z"
+    },
+    "028f21b76a6caf": {
+      "id": "028f21b76a6caf",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De Amerikaanse militaire strijdkrachten zouden zich voorbereiden op mogelijke grote aanvallen op Iran binnen 96 uur.",
+      "claimed_event_nl": "US Military Prepares for Possible Major Strikes on Iran Within 96 Hours.",
+      "reason_nl": "Dit is relevant vanwege de implicaties voor de regionale veiligheid en mogelijke escalatie van het conflict.",
+      "limitations_nl": "De informatie is afkomstig van een rapport en niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-01T12:59:41.654888Z"
+    },
+    "f8b3951358c167": {
+      "id": "f8b3951358c167",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran zou hebben gewaarschuwd voor een bredere oorlog terwijl diplomatieke inspanningen worden geleverd om een wapenstilstand te herstellen.",
+      "claimed_event_nl": "Iran warns of wider war as diplomatic efforts seek to revive ceasefire.",
+      "reason_nl": "Dit is relevant omdat het de spanningen in de regio en de noodzaak van diplomatieke oplossingen benadrukt.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-01T12:59:41.654894Z"
     }
   },
   "usage_by_day": {
@@ -1843,8 +1907,8 @@
       "total_tokens": 6618
     },
     "2026-11-01": {
-      "requests": 2,
-      "total_tokens": 2004
+      "requests": 3,
+      "total_tokens": 3386
     }
   }
 }
