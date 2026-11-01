@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-10-31T18:54:50.973274Z",
+  "last_attempt_utc": "2026-11-01T01:20:23.023454Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -1751,13 +1751,25 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-10-31T18:54:49.973087Z"
+    },
+    "b9be76996338b9": {
+      "id": "b9be76996338b9",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Saoedi-Arabië 'principieel' heeft ingestemd met een gezamenlijk olieproject, terwijl Irak 'duwt' voor de uitvoering.",
+      "claimed_event_nl": "Saoedi-Arabië heeft 'principieel' ingestemd met een gezamenlijk olieproject met Irak.",
+      "reason_nl": "Dit is relevant omdat het de samenwerking tussen Saoedi-Arabië en Irak in de olie-industrie kan beïnvloeden, wat economische implicaties heeft.",
+      "limitations_nl": "De informatie is niet onafhankelijk geverifieerd en komt uit een enkele bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-01T01:20:22.023241Z"
     }
   },
   "usage_by_day": {
-    "2026-10-29": {
-      "requests": 6,
-      "total_tokens": 8670
-    },
     "2026-10-30": {
       "requests": 5,
       "total_tokens": 7473
@@ -1765,6 +1777,10 @@
     "2026-10-31": {
       "requests": 5,
       "total_tokens": 6618
+    },
+    "2026-11-01": {
+      "requests": 1,
+      "total_tokens": 697
     }
   }
 }

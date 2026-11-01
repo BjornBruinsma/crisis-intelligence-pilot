@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-10-31T18:55:14.252618Z",
-  "fingerprint": "1e592a2127b5371438b9aebc",
+  "last_attempt_utc": "2026-11-01T01:20:46.322288Z",
+  "fingerprint": "555353fe79b6b67532c941d9",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-10-31T18:55:14.252618Z",
+    "recorded_at": "2026-11-01T01:20:46.322288Z",
     "groups": [
       {
         "ids": [
@@ -204,9 +204,9 @@
       },
       {
         "ids": [
-          "df670325e77b99"
+          "b9be76996338b9"
         ],
-        "label_nl": "Claim: الفلبين تجري محادثات مع السعودية لتخزين النفط على أراضيها - Howl.Link",
+        "label_nl": "Claim: أنبوب النفط المشترك.. السعودية توافق \"مبدئيا\" والعراق \"يدفع\" - شفق نيوز",
         "actor": "",
         "action": "",
         "place": "",
@@ -288,7 +288,7 @@
       "9e0b5274526ffb",
       "a4df1b157b716d",
       "fd5604746d46f6",
-      "df670325e77b99",
+      "b9be76996338b9",
       "104a6c23b582f1",
       "a08412c65eb2dd",
       "96906a8e16e108",
@@ -299,87 +299,8 @@
     ]
   },
   "official_sources_available": 14,
-  "direct_official_match_count": 2,
+  "direct_official_match_count": 1,
   "events": [
-    {
-      "id": "f1cb4a5e189da2ecb5368dec",
-      "label_nl": "Claim: Houthis strike Yemen's Aden airport after evacuation warning - Japan Today",
-      "headline_claim_ids": [
-        "0369b08f4c7641",
-        "7fff0fa21b2470"
-      ],
-      "headline_claims": [
-        "Houthis strike Yemen's Aden airport after evacuation warning - Japan Today",
-        "Houthis strike Aden airport - The Express Tribune"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWWxnekFvZWdQb2dkaXZYVVprOUNsYW1pdUJCSEFyeUhob01QVXVrVjFsTnRxdGFwNGZSZHo1OXhyTmFWTjlLdktWSXJiVGg0aHpFcTJocDVERmtxTkhFMXE1TFZVZEdVLV90R01aLWRKV0kzQTNkOUIzZktuWU5POVZYckdWV2RMcjBwWTlCRnpZZk1XdVl1WU5WcXZERFl0?oc=5",
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxNcE5NUHpLYUdOaDNGNGFaTzZaYjBqbXE0OEcxYUVFQkx5em5WNWRCckhTY2FETTkxbVpNc1Q2T1QtSU03cC0zSVVjVm5lTlN1eWtZS3l6NHpoVnE5V2FqSzEzRWp3a1dQTVRGYkN4RGdHOWlsOC1HZGVDYWNkMGZzV2h4dVNXUURja1JOcGQ0eU8zT3gxN0hlTEF3SEdXdw?oc=5",
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWktallhRGk5Y3p6WmxxWktmYm5sVm5fUlRlWmE3S0t4ZE05QzNxRGFFanQ3c3pTSHpjZ1IzcDY2RUlSSlhaTjFENVExUzJ2Q0UxOGxieGlWZDVadnVsd3N0M0dBWjIxYUcwUGNfQlNVQW0wQjYyUFVubDgwY2JZV3BKa3JHRExXNW00T3lRWDVxLUJwRWVLay1HUjVVcU5wTU5xWlY5dGFxSFE?oc=5",
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56aG4yY05aVjJZMFEzdWduQXhieEVkYXBPUzQ0aURGdVlzeldfRHZETkZvTklBU3JJaG9aWm9UMlh4cGV1c2VBT3pKUmJrbnFkRHdpQ2xZbmkzQjR1M0lVX1FVeF90THdz?oc=5",
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQjI0RDB2TkZhaDQzcGEzbDlyV2xic2dRMWlLQUVZR1FwN1NxbFZENmlsdUYtZ2I2dEZuaWhGbjVWRWZvaTBob0g3cTZkZGdydVNneXFFUmcySWJyNGNPejkwbm12Vll6aVp3UWFEWXhYSTZQbl9yMW9DY3FJaTgzbU5hSjRzSldzdUFMbF96elNNLXMtX29uWmxaU2xobXkwekJxeEdCSklsUzg?oc=5",
-        "https://news.google.com/rss/articles/CBMickFVX3lxTE5HM0VSQlFXel83eEdhRVZyX1lrMHY0ZXRXVHNieXpNblVTYUhZd1RybmxYSjN1aGxkSmYtQVlsdEtxTEpzc3V3eURJVUFzQ2k4YkdISnVZN05obHdhV1dFSFNITEhIQ2MxdkVQaXk0Qkt4QdIBekFVX3lxTE1hVnZoSGVfZzRFbGZOWFUtTlU1bHRyMF9rMEwwRWt3LUxjc2FJLTFYbnRTbERYbHpibXJZcEdFUVJNRURmR2FUd3V6dzlZNmJDRjhUZlB4dEp0d1RHQTBHZUJoQk1WRm9GY1BiWFpmVWVHTE9ZREp0cXZn?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 6,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_saudi:p7",
-        "exact_excerpt": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim dat de Houthis aanvallen hebben uitgevoerd op locaties in Saudi-Arabië.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "4c5cbd592cb4ddde62d740a7",
-      "label_nl": "Claim: Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks - Yahoo Finance",
-      "headline_claim_ids": [
-        "38c78cdaad534a",
-        "0073d9aa5480f8"
-      ],
-      "headline_claims": [
-        "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks - Yahoo Finance",
-        "Oil Prices Surge Over 2% After Tanker Attack in Strait of Hormuz - TechJuice"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbXNnZmNxaVEtVFhJUnZ0bHhsTFpEQlR5aWc2UzZreENCbkJIdWRLaWJ4M0JaXzhOazc0aFByVmFJNTdFa3JxUTIwUExUYWZlOXNsazk1ZVphd2pfdmplZ1JjSnMzLUZWVmtpNGpwN1hacUc3YW84OGhFOElrOXlhVUFWVVFOQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ01lb3dYZWlSTVlxWW43bldWUndkbUNYRE03NFBZb0hRWk15Rk1zVXhra2w0OXVhTjc2NHR4ZnFQeUgyX19Rd1NISVBhR25DWUt4eHgzZHlDYjRTNkd2b240OFphVzdXXzdpZXIxLU9Uclh0aGEyMDVaMzVDeEFyMGFLa0oxWVl3WVg4VDNOMUZmT1ZaSTBzZS1KVkdJZWsxb01lSG9GWEZ5MFl5bzZxdDJ4STlDSUR1MzJvNFZ2d0NYQWlJSlB6WDdoOA?oc=5",
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ2Fic1JocWhwQjFDY29XZUE4Ui10VllxQVh6c1lrR2lOdnNTTG5kajA1UWJYdTJQZDJsZGt5cW4taThZUjdxbE5seE5yUDRzMmM3aEZNbWYwNUN3V2JveWRkejdKRHZ6WUhiMWFIOVF3dFB2ZjNTcWFXRmNwa0pjRnEyLVR2Q3VTNVlPOUo1aVJTSXM?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_saudi:p6",
-        "exact_excerpt": "The airport continues to be targeted and remains at risk of further attacks.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft aan dat luchthavens in Saudi-Arabië risico lopen op aanvallen, maar bevestigt geen specifieke aanval of schade.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
     {
       "id": "e36ceecdbc7ce6972495e4ed",
       "label_nl": "Claim: Iran’s army says it downed MQ-1 drone east of Strait of Hormuz - Anadolu Ajansı",
@@ -409,7 +330,7 @@
         "evidence_id": "uk_saudi:p6",
         "exact_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026.",
         "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim dat er aanvallen zijn geweest op luchthavens in Saudi-Arabië.",
+        "reason_nl": "Deze passage ondersteunt de claim dat er aanvallen zijn geweest op luchthavens in de regio.",
         "automatic_match_only": true
       },
       "research_status": "potential_primary_text_match_needs_review",
@@ -417,71 +338,64 @@
       "probability_estimate": null
     },
     {
-      "id": "4a699c883851bf41f95f3ffa",
-      "label_nl": "Claim: Iranian strikes cause billions of dollars in damage to US bases: report - The Express Tribune",
+      "id": "f1cb4a5e189da2ecb5368dec",
+      "label_nl": "Claim: Houthis strike Yemen's Aden airport after evacuation warning - Japan Today",
       "headline_claim_ids": [
-        "5de9aa4645576f"
+        "0369b08f4c7641",
+        "7fff0fa21b2470"
       ],
       "headline_claims": [
-        "Iranian strikes cause billions of dollars in damage to US bases: report - The Express Tribune"
+        "Houthis strike Yemen's Aden airport after evacuation warning - Japan Today",
+        "Houthis strike Aden airport - The Express Tribune"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZk9RdzJzS2xid1NZcW5RYU9VODdEcWdnemxzQnBsUHExMXBwd01ZQXpmQzVkTnNYeGx0am5lczdRaWpkVjI5TVhFOUIzSmxKZjlTTF9GQjZiVlJMTUNCRExVVlp3djlLaUltTFBWT2MtdDhUOHNMd2hmS0pGMWVpU2UyemtraGZvdF9QckxFVmI0Wm5MenBkbzJsTFhST3dzTEpaTDRpZFliM2_SAbMBQVVfeXFMTzZBSGlrcU9fUEx2SklUN0txSnR4YU1kYURsWGttR1c0MUQyNk9NZ0tYT0ZlblE3MTBfX1lYNy16R2JVU3lJdUFvQ3ItbmY0RVotVEc1ZkE0NFlVcnpZMkcwa0IyM0xLWmczVFJGb251dHY2SjV2Wl9nbk1kSk9YcGdkdGVPWVgySTA3NFo1YVRSeWh3WFc2ck55aGc1Z1JUZ3J0YlRGZklJbGNQSUtfTVNhVVU?oc=5"
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWWxnekFvZWdQb2dkaXZYVVprOUNsYW1pdUJCSEFyeUhob01QVXVrVjFsTnRxdGFwNGZSZHo1OXhyTmFWTjlLdktWSXJiVGg0aHpFcTJocDVERmtxTkhFMXE1TFZVZEdVLV90R01aLWRKV0kzQTNkOUIzZktuWU5POVZYckdWV2RMcjBwWTlCRnpZZk1XdVl1WU5WcXZERFl0?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxNcE5NUHpLYUdOaDNGNGFaTzZaYjBqbXE0OEcxYUVFQkx5em5WNWRCckhTY2FETTkxbVpNc1Q2T1QtSU03cC0zSVVjVm5lTlN1eWtZS3l6NHpoVnE5V2FqSzEzRWp3a1dQTVRGYkN4RGdHOWlsOC1HZGVDYWNkMGZzV2h4dVNXUURja1JOcGQ0eU8zT3gxN0hlTEF3SEdXdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQWktallhRGk5Y3p6WmxxWktmYm5sVm5fUlRlWmE3S0t4ZE05QzNxRGFFanQ3c3pTSHpjZ1IzcDY2RUlSSlhaTjFENVExUzJ2Q0UxOGxieGlWZDVadnVsd3N0M0dBWjIxYUcwUGNfQlNVQW0wQjYyUFVubDgwY2JZV3BKa3JHRExXNW00T3lRWDVxLUJwRWVLay1HUjVVcU5wTU5xWlY5dGFxSFE?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56aG4yY05aVjJZMFEzdWduQXhieEVkYXBPUzQ0aURGdVlzeldfRHZETkZvTklBU3JJaG9aWm9UMlh4cGV1c2VBT3pKUmJrbnFkRHdpQ2xZbmkzQjR1M0lVX1FVeF90THdz?oc=5",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE5HM0VSQlFXel83eEdhRVZyX1lrMHY0ZXRXVHNieXpNblVTYUhZd1RybmxYSjN1aGxkSmYtQVlsdEtxTEpzc3V3eURJVUFzQ2k4YkdISnVZN05obHdhV1dFSFNITEhIQ2MxdkVQaXk0Qkt4QdIBekFVX3lxTE1hVnZoSGVfZzRFbGZOWFUtTlU1bHRyMF9rMEwwRWt3LUxjc2FJLTFYbnRTbERYbHpibXJZcEdFUVJNRURmR2FUd3V6dzlZNmJDRjhUZlB4dEp0d1RHQTBHZUJoQk1WRm9GY1BiWFpmVWVHTE9ZREp0cXZn?oc=5"
       ],
-      "article_group_count": 1,
-      "news_url_count": 1,
+      "article_group_count": 2,
+      "news_url_count": 5,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others across the region",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft aan dat er aanvallen zijn geweest, maar bevestigt geen specifieke schade aan Amerikaanse bases.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "646433939c91ce5b513352e0",
-      "label_nl": "Claim: Saudi Arabia capital Riyadh blitzed in huge attack as explosions reported - AOL.ca",
+      "id": "4c5cbd592cb4ddde62d740a7",
+      "label_nl": "Claim: Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks - Yahoo Finance",
       "headline_claim_ids": [
-        "46c1e26c521d89"
+        "38c78cdaad534a",
+        "0073d9aa5480f8"
       ],
       "headline_claims": [
-        "Saudi Arabia capital Riyadh blitzed in huge attack as explosions reported - AOL.ca"
+        "Oil set for fourth monthly gain as Hormuz tanker attack highlights supply risks - Yahoo Finance",
+        "Oil Prices Surge Over 2% After Tanker Attack in Strait of Hormuz - TechJuice"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWTVfZTJrOFJ1VWREUDhsek90bXVvTFZVcnMzcTlIbmVrRTF0RUVkczA1TV9GUXQwYVJpZ3o2ZnUyOTBpWHVpbGJ1Sm9hdkFmbGpXRnNETGtTMFBYQTZZNzFtQUJvOE9yczFsbzFrR3JFN2Q3YXZqZGt2QUl6bjhGQ1BGTHA?oc=5",
-        "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbmk0ZzlCekctbkQtU3RUcmp1NXJDZHNyS2JIQ3c3N0J6TS0tMGEzbkxiWGcyQjc0OENkUzRTQW1WSDBSbEZxN1h6eHRocTMwZW1zc1p1TXdyNHI0MGdjbFJJRlRYVl96MnE2UmZwelRqTng5WlUtMjZ1V2k3MVlNYkFsdEZPQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbXNnZmNxaVEtVFhJUnZ0bHhsTFpEQlR5aWc2UzZreENCbkJIdWRLaWJ4M0JaXzhOazc0aFByVmFJNTdFa3JxUTIwUExUYWZlOXNsazk1ZVphd2pfdmplZ1JjSnMzLUZWVmtpNGpwN1hacUc3YW84OGhFOElrOXlhVUFWVVFOQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZ01lb3dYZWlSTVlxWW43bldWUndkbUNYRE03NFBZb0hRWk15Rk1zVXhra2w0OXVhTjc2NHR4ZnFQeUgyX19Rd1NISVBhR25DWUt4eHgzZHlDYjRTNkd2b240OFphVzdXXzdpZXIxLU9Uclh0aGEyMDVaMzVDeEFyMGFLa0oxWVl3WVg4VDNOMUZmT1ZaSTBzZS1KVkdJZWsxb01lSG9GWEZ5MFl5bzZxdDJ4STlDSUR1MzJvNFZ2d0NYQWlJSlB6WDdoOA?oc=5",
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ2Fic1JocWhwQjFDY29XZUE4Ui10VllxQVh6c1lrR2lOdnNTTG5kajA1UWJYdTJQZDJsZGt5cW4taThZUjdxbE5seE5yUDRzMmM3aEZNbWYwNUN3V2JveWRkejdKRHZ6WUhiMWFIOVF3dFB2ZjNTcWFXRmNwa0pjRnEyLVR2Q3VTNVlPOUo1aVJTSXM?oc=5"
       ],
-      "article_group_count": 1,
-      "news_url_count": 2,
+      "article_group_count": 2,
+      "news_url_count": 3,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_saudi:p6",
-        "exact_excerpt": "the airport continues to be targeted and remains at risk of further attacks.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft aan dat luchthavens in Saudi-Arabië risico lopen op aanvallen, maar bevestigt geen specifieke explosies.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -509,6 +423,59 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "4a699c883851bf41f95f3ffa",
+      "label_nl": "Claim: Iranian strikes cause billions of dollars in damage to US bases: report - The Express Tribune",
+      "headline_claim_ids": [
+        "5de9aa4645576f"
+      ],
+      "headline_claims": [
+        "Iranian strikes cause billions of dollars in damage to US bases: report - The Express Tribune"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZk9RdzJzS2xid1NZcW5RYU9VODdEcWdnemxzQnBsUHExMXBwd01ZQXpmQzVkTnNYeGx0am5lczdRaWpkVjI5TVhFOUIzSmxKZjlTTF9GQjZiVlJMTUNCRExVVlp3djlLaUltTFBWT2MtdDhUOHNMd2hmS0pGMWVpU2UyemtraGZvdF9QckxFVmI0Wm5MenBkbzJsTFhST3dzTEpaTDRpZFliM2_SAbMBQVVfeXFMTzZBSGlrcU9fUEx2SklUN0txSnR4YU1kYURsWGttR1c0MUQyNk9NZ0tYT0ZlblE3MTBfX1lYNy16R2JVU3lJdUFvQ3ItbmY0RVotVEc1ZkE0NFlVcnpZMkcwa0IyM0xLWmczVFJGb251dHY2SjV2Wl9nbk1kSk9YcGdkdGVPWVgySTA3NFo1YVRSeWh3WFc2ck55aGc1Z1JUZ3J0YlRGZklJbGNQSUtfTVNhVVU?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "646433939c91ce5b513352e0",
+      "label_nl": "Claim: Saudi Arabia capital Riyadh blitzed in huge attack as explosions reported - AOL.ca",
+      "headline_claim_ids": [
+        "46c1e26c521d89"
+      ],
+      "headline_claims": [
+        "Saudi Arabia capital Riyadh blitzed in huge attack as explosions reported - AOL.ca"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWTVfZTJrOFJ1VWREUDhsek90bXVvTFZVcnMzcTlIbmVrRTF0RUVkczA1TV9GUXQwYVJpZ3o2ZnUyOTBpWHVpbGJ1Sm9hdkFmbGpXRnNETGtTMFBYQTZZNzFtQUJvOE9yczFsbzFrR3JFN2Q3YXZqZGt2QUl6bjhGQ1BGTHA?oc=5",
+        "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbmk0ZzlCekctbkQtU3RUcmp1NXJDZHNyS2JIQ3c3N0J6TS0tMGEzbkxiWGcyQjc0OENkUzRTQW1WSDBSbEZxN1h6eHRocTMwZW1zc1p1TXdyNHI0MGdjbFJJRlRYVl96MnE2UmZwelRqTng5WlUtMjZ1V2k3MVlNYkFsdEZPQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -643,112 +610,10 @@
       "primary_evidence": {
         "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
         "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
         "relation": "related_only",
-        "reason_nl": "Deze passage geeft context over de intenties van Iran, maar bevestigt geen specifieke ontmoeting of deal.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "f8967cbc739c3abc0161ddaf",
-      "label_nl": "Claim: Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
-      "headline_claim_ids": [
-        "15e9340aeeefde"
-      ],
-      "headline_claims": [
-        "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft context over de intenties van Iran, maar bevestigt geen specifieke ontmoetingen.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "86feae3acb42bb105abefa2c",
-      "label_nl": "Claim: Trump may order major Iran strike if Republicans suffer losses in midterm election: Axios - The Express Tribune",
-      "headline_claim_ids": [
-        "104a6c23b582f1"
-      ],
-      "headline_claims": [
-        "Trump may order major Iran strike if Republicans suffer losses in midterm election: Axios - The Express Tribune"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGxTb09DMmltVXZ2UXY1Rnlxd18wa1dFeUxpNVlqam5nTUxENmlHaEt6M3pub2lwRG1tZHVjeUVaOUxHR3JQOUZMUjBsS2V0UldxdDB1REx2RElINWtHUENsdUFsMUJMclh1RW44U0U2Wi1FTmxxXzBaNDlqbUh1ZDYzOEQ3Z01HaVNVNjBRVWk4ellnOVRFWUVrUWVwMWg0YktMdEtzUDF3dzhocmZmeXdWVzE2TmpmYzNaTzNsQVFOSm8?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft context over de intenties van Iran, maar bevestigt geen specifieke acties van Trump.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "14d6ab549d4175abca5081d0",
-      "label_nl": "Claim: Iran lawmakers call for withdrawal from NPT: Will we have war or peace? - Al Jazeera",
-      "headline_claim_ids": [
-        "a08412c65eb2dd"
-      ],
-      "headline_claims": [
-        "Iran lawmakers call for withdrawal from NPT: Will we have war or peace? - Al Jazeera"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1JxSV94cm1pZi0zZDZ5XzVYczB1aDcyQWhfSnpjcWlpV0FjeU54dVJGV1BYalFncXNBVmt3dFVwS2lVenFmdHB2TkpzVXNsdl93OHg5T01xWFJhZndQMWs1d1VqMDhKSW9DM2tZbUpyNGl0VFV2TU5Id3NqZWM2SXhkeXhINmtEcHdPWFdfbWFrQUMwUWlLQXZKUFFfY21ZM21fU1NQUFI5VDNtMFpCcNIBtgFBVV95cUxNVDM0QklRd0M2TkdmMWdnbGZORFc3bm9BZVRNYWdWU1NSV053eTRYR3NsMlk1TmxBeU5ROUZjRWhlYmR3WnNMemZwRENSSnVuaWFOTXoyRWc3dE85RXFudFRKemRGcF9VTllfLWdfZGFtekItVW5pS25fclpLU0ZYenMwSzg2YjhHaVk3RUdaYnpEa3lJa2FLY2U5RmNvX0JTRnBfWjFORWxpaGRkR2hCTS0zcUNQQQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft context over de intenties van Iran, maar bevestigt geen specifieke oproepen tot terugtrekking.",
+        "reason_nl": "Deze passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van diplomatieke inspanningen.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
@@ -864,6 +729,32 @@
       "probability_estimate": null
     },
     {
+      "id": "f8967cbc739c3abc0161ddaf",
+      "label_nl": "Claim: Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
+      "headline_claim_ids": [
+        "15e9340aeeefde"
+      ],
+      "headline_claims": [
+        "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOODBHZGo0TEhURWc2Rm9nLUJjaF9Hb09YLUpnU3JlTWJ0OHJKd3p0dFZEYWdpYUNPVlNJdFJoYXhGOVdOX29rdHhjQ2F0c2E2VjJRQndHcEtSY1JIdEFzTkJJd3RKX2lKYWxRMnRQYjZvVnpxNnJQTlBmUFY5TWMzZTJ4akRuS1pKNExQY2lCQTAzRVlWOG4wYnZRVV9tRWJQdDJKQ0owZVdZUS1ZQmZYbTlMR0xxbF9uZ3ZvWkRNNDJtX0JNclZhLQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "2e19b99e9077b7d4e66c8f34",
       "label_nl": "Claim: Oil prices surge towards $120 as Trump weighs fresh Iran strikes: what's next? - Invezz",
       "headline_claim_ids": [
@@ -918,6 +809,84 @@
       "probability_estimate": null
     },
     {
+      "id": "afc939d86dee60aeb10dfd1b",
+      "label_nl": "Claim: أنبوب النفط المشترك.. السعودية توافق \"مبدئيا\" والعراق \"يدفع\" - شفق نيوز",
+      "headline_claim_ids": [
+        "b9be76996338b9"
+      ],
+      "headline_claims": [
+        "أنبوب النفط المشترك.. السعودية توافق \"مبدئيا\" والعراق \"يدفع\" - شفق نيوز"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi6wNBVV95cUxQSHNkU1BfY3lZbEhoV2hBMWEwNzR6OGI3V2FkQThmcWZOcjZwbDJfazNnaEdvVHJsOUN6R3ZEdFFlM2hzS2VpS093NmVDTEdRY2w4dm1FTGN2dXNoRmMyTktETjNZbXpLc25GaHhlc2FMVjl3eUVNWUZXRFBWbVZibWNhV3RnTUw5bDdkMF8xbEY1V094VU9EYXVmYnUxSjlnYy1LUG9ITlFUQ0EtcnZVWlQtSFpYLWZPdUZzX3ktaXpHaWxXTld1Y3hnZEZMSGVxcmZFdWxiSkduV0sxNnRjQmNuVU5QVzFhQ3NpaExvZTlhSUREZVcycmxqRng0My1CN1lpcWc5aDFGeFlPNlF0Z1FhaWtCWU1idWhYbURQTGxIQ0FvQUNwVFc5QUNLejFGeW9lUF90MEN1UFYxbEJBSm9VUEMwSkJmS29aVUU3NFRfT1dsMHVvdV9zY0RuMUxrRVN3ZXpWdmRXalFnNnItLWx0SnRaM0NrbUFBZjBUbXpRanZ5bWJtdnUzaDZULVBKZFdFM01MZmlmQVZMWE1pU2ZaV3lOUkJLdkVnTkcwd3dCOG1PNUNyZDRRYkI0bVpzeVJoMzljY0lmS3FwcmgwcUhlWVRDTTJKNUVpNXVwRlJjOXJNa1Rfa1IxOA?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "86feae3acb42bb105abefa2c",
+      "label_nl": "Claim: Trump may order major Iran strike if Republicans suffer losses in midterm election: Axios - The Express Tribune",
+      "headline_claim_ids": [
+        "104a6c23b582f1"
+      ],
+      "headline_claims": [
+        "Trump may order major Iran strike if Republicans suffer losses in midterm election: Axios - The Express Tribune"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGxTb09DMmltVXZ2UXY1Rnlxd18wa1dFeUxpNVlqam5nTUxENmlHaEt6M3pub2lwRG1tZHVjeUVaOUxHR3JQOUZMUjBsS2V0UldxdDB1REx2RElINWtHUENsdUFsMUJMclh1RW44U0U2Wi1FTmxxXzBaNDlqbUh1ZDYzOEQ3Z01HaVNVNjBRVWk4ellnOVRFWUVrUWVwMWg0YktMdEtzUDF3dzhocmZmeXdWVzE2TmpmYzNaTzNsQVFOSm8?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "14d6ab549d4175abca5081d0",
+      "label_nl": "Claim: Iran lawmakers call for withdrawal from NPT: Will we have war or peace? - Al Jazeera",
+      "headline_claim_ids": [
+        "a08412c65eb2dd"
+      ],
+      "headline_claims": [
+        "Iran lawmakers call for withdrawal from NPT: Will we have war or peace? - Al Jazeera"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxQT1JxSV94cm1pZi0zZDZ5XzVYczB1aDcyQWhfSnpjcWlpV0FjeU54dVJGV1BYalFncXNBVmt3dFVwS2lVenFmdHB2TkpzVXNsdl93OHg5T01xWFJhZndQMWs1d1VqMDhKSW9DM2tZbUpyNGl0VFV2TU5Id3NqZWM2SXhkeXhINmtEcHdPWFdfbWFrQUMwUWlLQXZKUFFfY21ZM21fU1NQUFI5VDNtMFpCcNIBtgFBVV95cUxNVDM0QklRd0M2TkdmMWdnbGZORFc3bm9BZVRNYWdWU1NSV053eTRYR3NsMlk1TmxBeU5ROUZjRWhlYmR3WnNMemZwRENSSnVuaWFOTXoyRWc3dE85RXFudFRKemRGcF9VTllfLWdfZGFtekItVW5pS25fclpLU0ZYenMwSzg2YjhHaVk3RUdaYnpEa3lJa2FLY2U5RmNvX0JTRnBfWjFORWxpaGRkR2hCTS0zcUNQQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "59f6795e78b8f2c1e61c916b",
       "label_nl": "Claim: Oil futures: Crude higher as diplomacy stalls, tanker attacks continue - Quantum Commodity Intelligence",
       "headline_claim_ids": [
@@ -942,40 +911,9 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
-    },
-    {
-      "id": "a162ea12310a677c40d2ca29",
-      "label_nl": "Claim: الفلبين تجري محادثات مع السعودية لتخزين النفط على أراضيها - Howl.Link",
-      "headline_claim_ids": [
-        "df670325e77b99"
-      ],
-      "headline_claims": [
-        "الفلبين تجري محادثات مع السعودية لتخزين النفط على أراضيها - Howl.Link"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9lMjhOY1lZc1pCUTJTVDBzNjQxV0lRSFhiRjFtN1dVblRyUXpEdXNycnY2d2lkSldsNy1F?oc=5",
-        "https://news.google.com/rss/articles/CBMilARBVV95cUxPNENwOUg3Tk5sWlVFX0VjQVlpbmprdkc2aWVCT1JPcjJtcFhUU2oyMnNWT2pjS1FCM0drWmRJc2d6VFR5OGptZHVPTUNCeG83NTRXUER4anpYNk8xVnlQcUg4c1BaYVNZWUVDSmNfX2g5ZEZpNlpqaHJCXzhZUmY3TmhUbHpUR0w1c2lxZGtIYjJxNGIweXFiTFM0d1dBcHR6M3NWeG1IaDE2ODdLTi1sNzZzRktsX04xMmg4M2ZJRk9UejFCVmhEdnIxX3VjLTd2eFl2YTUyYkVSdUZFMlMwTUdRb25KczljMnJPR0dUc1BfZ1E2VGVacjBWbnIwVGxfU2RYX3VSRDE0SGJvUE03WVZDQ1VFVjNrNTJRUi1TRnBIU255SlFYNHUtRjlVWmFrcDRreXBkaUZVdVlFYThkQWRRWUljY0JWLVZ6MURac1d0dHlTcmo5TzdoSlZsenhfaW9lYW1Gbm1KTndPRHdTZ2d0TC1YaDgxTFlLLXdnS1lJazJtSjRJM1RzdmNSQ2xPRUZDR2tnLV8wZzNYWGt2allvWmk4RnRYZnMwUFVlclBjRXpmMjJwdE1QUUl3YV9GekljSXBGa0JaTzJhS3h6bkx3X08xdFM4bGI3SEx0LXc4cWZhTWhWSVp5clBDTVlTbUYtN2RlajVHWnA4N1F6QVk0NGZRaWNCcjVGbDltRlRzWDZC?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "low",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-10-29": {
-      "requests": 12,
-      "total_tokens": 33412
-    },
     "2026-10-30": {
       "requests": 12,
       "total_tokens": 35360
@@ -983,6 +921,10 @@
     "2026-10-31": {
       "requests": 12,
       "total_tokens": 35447
+    },
+    "2026-11-01": {
+      "requests": 3,
+      "total_tokens": 10092
     }
   }
 }
