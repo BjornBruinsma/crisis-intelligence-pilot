@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-02T07:39:43.096671Z",
+  "last_attempt_utc": "2026-11-02T13:22:28.359981Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 20,
-  "active_checked": 7,
+  "active_total": 22,
+  "active_checked": 8,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -861,7 +861,7 @@
     },
     "2696c34aae64f1f8619df658": {
       "event_id": "2696c34aae64f1f8619df658",
-      "checked_at": "2026-11-01T13:00:33.381003Z",
+      "checked_at": "2026-11-02T13:22:28.359946Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -870,15 +870,16 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
           "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-01T13:00:26.852972Z",
-          "exact_quote": "The airport continues to be targeted and remains at risk of further attacks.",
+          "retrieved_at": "2026-11-02T13:22:20.774233Z",
+          "exact_quote": "King Khalid International Airport was struck by a missile on 10 October 2026.",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "Deze passage verwijst naar de risico's van aanvallen op een luchthaven in Saudi-Arabië, maar ondersteunt de specifieke claim over Iraanse tankers niet.",
-          "claim_validated_as_fact": false
+          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
         }
       ],
-      "summary_nl": "Er is een melding over de risico's van aanvallen op een luchthaven in Saudi-Arabië, maar er is geen directe bevestiging of ontkenning van de claim over Iraanse tankers.",
+      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -1733,6 +1734,72 @@
           "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
         }
       ]
+    },
+    "fd86324a5728a2bbfc7a3b11": {
+      "event_id": "fd86324a5728a2bbfc7a3b11",
+      "checked_at": "2026-11-02T13:22:28.359874Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De officiële tekst biedt reisadviezen voor Pakistan, maar er is geen relevante informatie over de aanval op de LNG-tanker.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/pakistan",
+          "title": "Pakistan travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "FCDO advises against all travel to within 10 miles of the border between Pakistan and Afghanistan."
+        },
+        {
+          "url": "https://www.gov.uk/check-uk-visa",
+          "title": "Check if you need a UK visa - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Travel or do business in Europe: Brexit guidance"
+        }
+      ]
+    },
+    "63b72545542b76f3add4d4a5": {
+      "event_id": "63b72545542b76f3add4d4a5",
+      "checked_at": "2026-11-02T13:22:28.359954Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De officiële tekst veroordeelt Iran's acties en stelt dat zij de Straat van Hormuz willen sluiten, wat tegenstrijdig is met de claim.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
+          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
+        },
+        {
+          "url": "https://www.gov.uk/government/speeches/devastation-and-suffering-in-the-middle-east-must-act-as-a-powerful-reminder-of-the-very-purpose-of-the-security-council-and-spur-us-into-action-uk-st",
+          "title": "Devastation and suffering in the Middle East must act as a powerful reminder of the very purpose of the Security Council and spur us into action: UK statement at the UN S",
+          "source_publication_date": "2026-06-10T10:00:00+01:00",
+          "text_excerpt": "We condemn Iran’s continued attempts to hold the global economy to ransom by closing the Strait of Hormuz, as well as their attacks on the region including overnight against Bahrain, Kuwait and Jordan. We stand with our partners in the Gulf in the fa"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -1747,9 +1814,9 @@
       "model_tokens": 6035
     },
     "2026-11-02": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 3915
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 5662
     }
   },
   "last_error": null
