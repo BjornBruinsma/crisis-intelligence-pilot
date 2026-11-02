@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-11-02T13:22:09.143627Z",
+  "last_attempt_utc": "2026-11-02T19:07:35.780620Z",
   "description": "Official-source texts and links, not automatic verification of events",
   "sources": [
     {
@@ -7,7 +7,7 @@
       "authority": "US Central Command",
       "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-02T13:21:46.674700Z",
+      "retrieved_at": "2026-11-02T19:07:13.188601Z",
       "status": "error",
       "error": "HTTPError: HTTP Error 403: Forbidden",
       "passages": [],
@@ -18,7 +18,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/iran",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-02T13:21:47.390364Z",
+      "retrieved_at": "2026-11-02T19:07:13.800091Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -130,7 +130,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-02T13:21:47.319632Z",
+      "retrieved_at": "2026-11-02T19:07:13.818220Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -231,7 +231,7 @@
       "authority": "US Department of State",
       "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
       "kind": "official_rss",
-      "retrieved_at": "2026-11-02T13:21:46.485402Z",
+      "retrieved_at": "2026-11-02T19:07:13.177937Z",
       "status": "ok",
       "title": "US travel advice RSS (filtered: Middle East)",
       "passages": [],
@@ -603,7 +603,7 @@
       "authority": "International Maritime Organization",
       "url": "https://www.imo.org/en/mediacentre/pressbriefings/default.aspx",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-02T13:21:47.175783Z",
+      "retrieved_at": "2026-11-02T19:07:13.503741Z",
       "status": "ok",
       "title": "International Maritime Organization",
       "passages": [
@@ -668,7 +668,7 @@
       "authority": "Pakistan Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.pk/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-02T13:22:09.143078Z",
+      "retrieved_at": "2026-11-02T19:07:35.780136Z",
       "status": "error",
       "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
       "passages": [],
@@ -679,7 +679,7 @@
       "authority": "China Ministry of Foreign Affairs",
       "url": "https://www.fmprc.gov.cn/mfa_eng/index.html",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-02T13:21:48.029468Z",
+      "retrieved_at": "2026-11-02T19:07:14.257135Z",
       "status": "ok",
       "title": "China Ministry of Foreign Affairs",
       "passages": [],
@@ -719,7 +719,7 @@
       "authority": "US Treasury",
       "url": "https://home.treasury.gov/news/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-02T13:21:47.332461Z",
+      "retrieved_at": "2026-11-02T19:07:13.784887Z",
       "status": "ok",
       "title": "US Treasury",
       "passages": [
@@ -784,7 +784,7 @@
       "authority": "US Energy Information Administration",
       "url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-02T13:21:47.517947Z",
+      "retrieved_at": "2026-11-02T19:07:13.964040Z",
       "status": "ok",
       "title": "US Energy Information Administration",
       "passages": [
@@ -883,6 +883,14 @@
         {
           "title": "Energy & Environment",
           "url": "https://www.eia.gov/energyexplained/energy-and-the-environment/"
+        },
+        {
+          "title": "Petroleum Marketing Monthly",
+          "url": "https://www.eia.gov/petroleum/marketing/monthly/"
+        },
+        {
+          "title": "Petroleum Supply Monthly",
+          "url": "https://www.eia.gov/petroleum/supply/monthly/"
         }
       ]
     },
@@ -891,7 +899,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-02T13:21:47.573101Z",
+      "retrieved_at": "2026-11-02T19:07:14.194361Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -979,7 +987,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-02T13:21:48.416912Z",
+      "retrieved_at": "2026-11-02T19:07:14.187357Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1065,7 +1073,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/qatar",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-02T13:21:47.760809Z",
+      "retrieved_at": "2026-11-02T19:07:14.916414Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1153,7 +1161,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-02T13:21:48.381051Z",
+      "retrieved_at": "2026-11-02T19:07:14.557934Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1247,7 +1255,7 @@
       "authority": "United Arab Emirates Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.ae/en",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-02T13:21:52.170931Z",
+      "retrieved_at": "2026-11-02T19:07:16.909047Z",
       "status": "ok",
       "title": "United Arab Emirates Ministry of Foreign Affairs",
       "passages": [
@@ -1277,7 +1285,7 @@
       "authority": "Islamic Republic of Iran Ministry of Foreign Affairs",
       "url": "https://en.mfa.ir/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-02T13:21:51.665803Z",
+      "retrieved_at": "2026-11-02T19:07:17.632042Z",
       "status": "error",
       "error": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
       "passages": [],
@@ -1288,7 +1296,7 @@
       "authority": "Permanent Mission of Pakistan to the United Nations",
       "url": "https://pakun.org/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-02T13:21:48.840962Z",
+      "retrieved_at": "2026-11-02T19:07:14.847923Z",
       "status": "ok",
       "title": "Permanent Mission of Pakistan to the United Nations",
       "passages": [
@@ -1302,7 +1310,7 @@
       "authority": "Permanent Mission of China to the United Nations",
       "url": "https://un.china-mission.gov.cn/eng/fyrth/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-02T13:21:50.065731Z",
+      "retrieved_at": "2026-11-02T19:07:16.168269Z",
       "status": "ok",
       "title": "Permanent Mission of China to the United Nations",
       "passages": [
