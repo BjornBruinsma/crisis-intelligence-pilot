@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-02T14:44:23.590905Z",
+  "generated_at": "2026-11-02T20:29:52.436465Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 4,
+  "candidate_count": 3,
   "recommendation_counts": {
-    "reserve": 4
+    "reserve": 3
   },
   "stories": [
     {
-      "id": "1d6c29099a94a0",
-      "editorial_score": 100,
+      "id": "773cf7d7cb3182",
+      "editorial_score": 80,
       "editorial_decision": "publish",
       "search_backend": "none",
       "search_model": "gpt-5-search-api",
@@ -24,33 +24,13 @@
       "evidence_quality": "low",
       "independence": "unclear",
       "significance": "unclear",
-      "verified_headline": "Over 760 hectares of forest restored in Sverdlovsk region in 2026",
+      "verified_headline": "Union Health Minister inaugurates ₹39-Crore Cancer Treatment Facility at AIIMS Rajkot",
       "verified_summary": "",
       "verification_note": "Verification pipeline failed: RuntimeError: chat search failed [InternalServerError: Error code: 500 - The server had an error processing your request. Sorry about that! You can retry ",
       "publish_recommendation": "reserve"
     },
     {
-      "id": "eab5e42ae2658d",
-      "editorial_score": 85,
-      "editorial_decision": "reserve",
-      "search_backend": "none",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "",
-      "citations": [],
-      "fallback_error": "",
-      "search_error": "RuntimeError: chat search failed [InternalServerError: Error code: 500 - The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our ",
-      "support": "unavailable",
-      "outcome_status": "unclear",
-      "evidence_quality": "low",
-      "independence": "unclear",
-      "significance": "unclear",
-      "verified_headline": "Volunteers restore 104 hectares of forest",
-      "verified_summary": "",
-      "verification_note": "Verification pipeline failed: RuntimeError: chat search failed [InternalServerError: Error code: 500 - The server had an error processing your request. Sorry about that! You can retry ",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "bb1c3d253ac6e7",
+      "id": "ed5d4cdd70bbe5",
       "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "none",
@@ -64,13 +44,13 @@
       "evidence_quality": "low",
       "independence": "unclear",
       "significance": "unclear",
-      "verified_headline": "Alma Therapeutics partnership launches to accelerate translational research",
+      "verified_headline": "Midland Health introduces aquablation therapy for treatment of benign prostatic hyperplasia",
       "verified_summary": "",
       "verification_note": "Verification pipeline failed: RuntimeError: chat search failed [InternalServerError: Error code: 500 - The server had an error processing your request. Sorry about that! You can retry ",
       "publish_recommendation": "reserve"
     },
     {
-      "id": "6d3e2f2fa1e01e",
+      "id": "c49ae6c763112c",
       "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "none",
@@ -84,7 +64,7 @@
       "evidence_quality": "low",
       "independence": "unclear",
       "significance": "unclear",
-      "verified_headline": "Pemkab Kuningan adopts Kawin Cai tradition for water conservation",
+      "verified_headline": "A place for hope: New CG recovery center prepares to open",
       "verified_summary": "",
       "verification_note": "Verification pipeline failed: RuntimeError: chat search failed [InternalServerError: Error code: 500 - The server had an error processing your request. Sorry about that! You can retry ",
       "publish_recommendation": "reserve"
