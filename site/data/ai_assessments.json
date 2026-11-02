@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-01T18:54:44.687261Z",
+  "last_attempt_utc": "2026-11-02T01:19:10.349794Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -1959,13 +1959,153 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-01T18:54:43.687052Z"
+    },
+    "dc04307af11f6a": {
+      "id": "dc04307af11f6a",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Trump belooft Iran en de Houthi's te straffen voor aanvallen in de Rode Zee.",
+      "claimed_event_nl": "Trump heeft aangekondigd Iran en de Houthi's te straffen.",
+      "reason_nl": "Deze uitspraak kan leiden tot verhoogde spanningen in de regio.",
+      "limitations_nl": "De bewering is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T01:19:03.388664Z"
+    },
+    "0cde209e930561": {
+      "id": "0cde209e930561",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen dalen met meer dan 1% te midden van gesprekken over het beëindigen van de oorlog in Iran.",
+      "claimed_event_nl": "Olieprijzen zijn gedaald door aanhoudende vredesgesprekken.",
+      "reason_nl": "De daling van olieprijzen kan economische gevolgen hebben voor de regio.",
+      "limitations_nl": "De oorzaak van de prijsdaling is niet definitief vastgesteld.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T01:19:03.388692Z"
+    },
+    "8d6cf008172388": {
+      "id": "8d6cf008172388",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De VS trekt medewerkers terug uit Saoedi-Arabië vanwege bedreigingen.",
+      "claimed_event_nl": "De VS heeft medewerkers uit Saoedi-Arabië teruggetrokken.",
+      "reason_nl": "Dit kan wijzen op een verslechtering van de veiligheidssituatie in de regio.",
+      "limitations_nl": "De details van de bedreigingen zijn niet gespecificeerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T01:19:03.388701Z"
+    },
+    "b705e35b8d341b": {
+      "id": "b705e35b8d341b",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Somalische piraten hebben een Iraans vissersschip gekaapt, wat zorgen oproept over aanvallen op vrachtschepen.",
+      "claimed_event_nl": "Somalische piraten hebben een Iraans schip gekaapt.",
+      "reason_nl": "Dit kan de maritieme veiligheid in de regio beïnvloeden.",
+      "limitations_nl": "De gevolgen voor de scheepvaart zijn nog niet duidelijk.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T01:19:03.388707Z"
+    },
+    "d31f38b824ce0b": {
+      "id": "d31f38b824ce0b",
+      "relevance": "unclear",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "commentary",
+      "summary_nl": "Iran hoopt dat de VS prioriteit geven aan diplomatie, terwijl Trump niet wil dat Israël de onderhandelingen verstoort.",
+      "claimed_event_nl": "Iran heeft een voorkeur voor diplomatieke oplossingen.",
+      "reason_nl": "Dit kan de toekomstige diplomatieke relaties beïnvloeden.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T01:19:03.388712Z"
+    },
+    "a1d0a938dd6500": {
+      "id": "a1d0a938dd6500",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Er wordt een Britse onderzoek aangekondigd naar een aanval op een schip door een onbekend projectiel in de Straat van Hormuz.",
+      "claimed_event_nl": "Britse onderzoek naar aanval op schip in de Straat van Hormuz.",
+      "reason_nl": "De aanval kan de spanningen in de regio verhogen, wat relevant is voor de veiligheid in de Golfregio.",
+      "limitations_nl": "De details van de aanval zijn niet bevestigd en de bron is niet onafhankelijk.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T01:19:09.349545Z"
+    },
+    "997db8d4bfb876": {
+      "id": "997db8d4bfb876",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "deescalation",
+      "kind": "event_claim",
+      "summary_nl": "Trump zou een onderhandelde oplossing met Iran verkiezen te midden van intensieve diplomatieke inspanningen.",
+      "claimed_event_nl": "Trump favoriseert onderhandelingen met Iran.",
+      "reason_nl": "Dit kan wijzen op een poging tot vermindering van spanningen tussen de VS en Iran.",
+      "limitations_nl": "De bron is niet onafhankelijk en de claims zijn niet geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T01:19:09.349569Z"
+    },
+    "5f30f26d998be2": {
+      "id": "5f30f26d998be2",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen stijgen tot zes maanden hoogtes door aanvallen die de vredesinspanningen met Iran bedreigen.",
+      "claimed_event_nl": "Olieprijzen stijgen door aanvallen in de Straat van Hormuz.",
+      "reason_nl": "De stijgende olieprijzen kunnen economische gevolgen hebben en wijzen op verhoogde risico's in de regio.",
+      "limitations_nl": "De oorzaak van de prijsstijging is niet onafhankelijk bevestigd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T01:19:09.349577Z"
+    },
+    "5a558f4d25b066": {
+      "id": "5a558f4d25b066",
+      "relevance": "unclear",
+      "importance": "low",
+      "direction": "unclear",
+      "kind": "event_claim",
+      "summary_nl": "De ambassade van Pakistan heeft gereageerd op een vermeende aanval op de ambassadeur in Teheran.",
+      "claimed_event_nl": "Pakistanse ambassade spreekt zich uit over aanval op ambassadeur in Teheran.",
+      "reason_nl": "De relevantie is onduidelijk zonder verdere context over de situatie.",
+      "limitations_nl": "De details van de aanval zijn niet bevestigd en de bron is niet onafhankelijk.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T01:19:09.349583Z"
     }
   },
   "usage_by_day": {
-    "2026-10-30": {
-      "requests": 5,
-      "total_tokens": 7473
-    },
     "2026-10-31": {
       "requests": 5,
       "total_tokens": 6618
@@ -1973,6 +2113,10 @@
     "2026-11-01": {
       "requests": 4,
       "total_tokens": 4719
+    },
+    "2026-11-02": {
+      "requests": 2,
+      "total_tokens": 2977
     }
   }
 }
