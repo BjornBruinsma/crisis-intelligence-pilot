@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-02T01:19:58.991069Z",
+  "last_attempt_utc": "2026-11-02T07:39:43.096671Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 22,
+  "active_total": 20,
   "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -1461,7 +1461,7 @@
     },
     "e040020bf3907f392d2849a7": {
       "event_id": "e040020bf3907f392d2849a7",
-      "checked_at": "2026-11-01T07:12:36.631575Z",
+      "checked_at": "2026-11-02T07:39:43.096581Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -1470,15 +1470,15 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
           "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-01T07:12:28.928907Z",
-          "exact_quote": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia",
+          "retrieved_at": "2026-11-02T07:39:37.485909Z",
+          "exact_quote": "King Khalid International Airport was struck by a missile on 10 October 2026.",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage bevestigt de aanvallen van de Houthis, maar niet specifiek de evacuaties door de VS.",
+          "reason_nl": "De passage vermeldt een aanval op een luchthaven in Saudi-Arabië, wat de context van dreiging schetst, maar ondersteunt niet specifiek de evacuatiebevelen.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De teksten beschrijven de dreiging van Houthi-aanvallen, maar bieden geen bewijs voor de evacuaties door de VS.",
+      "summary_nl": "De tekst beschrijft een aanval op een luchthaven in Saudi-Arabië, wat de dreiging illustreert, maar er is geen directe bevestiging van evacuaties.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -1657,6 +1657,82 @@
           "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
         }
       ]
+    },
+    "7ce7c6ef3cffdb674cd486cf": {
+      "event_id": "7ce7c6ef3cffdb674cd486cf",
+      "checked_at": "2026-11-02T07:39:43.096558Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De officiële tekst wijst op een verhoogde dreiging in Saudi-Arabië, maar er is geen directe bevestiging van de terugtrekking van Amerikaanse werknemers.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "all but essential travel to the rest of Saudi Arabia"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/employment-disputes-in-saudi-arabia",
+          "title": "Employment disputes in Saudi Arabia - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Employment disputes in Saudi Arabia"
+        }
+      ]
+    },
+    "122f3903e5d72c1ece476016": {
+      "event_id": "122f3903e5d72c1ece476016",
+      "checked_at": "2026-11-02T07:39:43.096591Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-02T07:39:39.086784Z",
+          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar de onvoorspelbare situatie in het Midden-Oosten, maar biedt geen specifieke informatie over de rol van de Golfstaten in de mediatie.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De tekst benadrukt de onvoorspelbare situatie in het Midden-Oosten, maar biedt geen specifieke details over de mediatie door de Golfstaten.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/book-driving-test",
+          "title": "Book your driving test - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "This page is Part of Learn to drive a car: step by step"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -1671,9 +1747,9 @@
       "model_tokens": 6035
     },
     "2026-11-02": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 2015
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3915
     }
   },
   "last_error": null

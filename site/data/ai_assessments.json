@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-02T01:19:10.349794Z",
+  "last_attempt_utc": "2026-11-02T07:38:55.049652Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -2103,6 +2103,70 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-02T01:19:09.349583Z"
+    },
+    "b1331b1e2467f8": {
+      "id": "b1331b1e2467f8",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De olieprijs daalt met 3% door optimisme over Qatarese gesprekken om de oorlog met Iran te beëindigen.",
+      "claimed_event_nl": "Olieprijs daalt door optimisme over gesprekken.",
+      "reason_nl": "De daling van de olieprijs kan economische gevolgen hebben in de regio.",
+      "limitations_nl": "De claim is gebaseerd op speculatie over gesprekken die nog niet zijn bevestigd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T07:38:54.049397Z"
+    },
+    "7cdf0654e332f2": {
+      "id": "7cdf0654e332f2",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De olieprijs daalt met 3% door toenemende hoop op Qatarese onderhandelingen om de oorlog met Iran te beëindigen.",
+      "claimed_event_nl": "Olieprijs daalt door hoop op onderhandelingen.",
+      "reason_nl": "De daling van de olieprijs kan wijzen op een veranderende marktsentiment in verband met de situatie in Iran.",
+      "limitations_nl": "De claim is gebaseerd op verwachtingen die nog niet zijn gerealiseerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T07:38:54.049423Z"
+    },
+    "f18ca4eaea854c": {
+      "id": "f18ca4eaea854c",
+      "relevance": "unclear",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "commentary",
+      "summary_nl": "De analyse van Mohsen Rezaei's onderhandelingsstrategie suggereert dat anderen altijd de prijs betalen.",
+      "claimed_event_nl": "Analyse van onderhandelingsstrategie van Mohsen Rezaei.",
+      "reason_nl": "De inhoud biedt inzicht in politieke dynamiek, maar is niet direct relevant voor actuele gebeurtenissen.",
+      "limitations_nl": "De claim is een mening en niet gebaseerd op feitelijke gebeurtenissen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T07:38:54.049432Z"
+    },
+    "3abd5259db11df": {
+      "id": "3abd5259db11df",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "background",
+      "summary_nl": "Golfstaten bevorderen bemiddeling terwijl de VS en Israël overwegen om opnieuw aanvallen op Iran uit te voeren.",
+      "claimed_event_nl": "Golfstaten bemiddelen terwijl VS en Israël aanvallen overwegen.",
+      "reason_nl": "De situatie kan leiden tot een escalatie van spanningen in de regio.",
+      "limitations_nl": "De claim is gebaseerd op speculatie over toekomstige acties van de VS en Israël.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-02T07:38:54.049442Z"
     }
   },
   "usage_by_day": {
@@ -2115,8 +2179,8 @@
       "total_tokens": 4719
     },
     "2026-11-02": {
-      "requests": 2,
-      "total_tokens": 2977
+      "requests": 3,
+      "total_tokens": 4375
     }
   }
 }

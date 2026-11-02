@@ -1,22 +1,22 @@
 {
-  "generated_at_utc": "2026-11-02T01:19:59.082564+00:00",
+  "generated_at_utc": "2026-11-02T07:39:43.182199+00:00",
   "definition": "Automatische procescontrole, geen wetenschappelijke validatie van gebeurteniswaarheid.",
   "technical": {
-    "collected_articles": 1713,
-    "tentative_headline_groups": 550,
+    "collected_articles": 1777,
+    "tentative_headline_groups": 558,
     "daily_shortlist": 25,
     "ai_reviewed_shortlist": 25,
     "ai_headline_status": "complete",
     "event_research_status": "complete",
     "event_input_claims": 23,
-    "event_groups_output": 22,
-    "multiple_claim_clusters": 1,
-    "claims_in_multiple_claim_clusters": 2,
+    "event_groups_output": 20,
+    "multiple_claim_clusters": 3,
+    "claims_in_multiple_claim_clusters": 6,
     "ids_retained_without_duplicates": true,
     "official_sources_checked": 17,
     "official_sources_accessible": 14,
-    "official_exact_passage_matches": 1,
-    "potential_direct_support_matches": 1,
+    "official_exact_passage_matches": 0,
+    "potential_direct_support_matches": 0,
     "potential_contradictions": 0,
     "claim_research_checked_active": 7,
     "claim_research_status": "complete",
@@ -27,11 +27,11 @@
     "original_document_conflicting_statements": 0,
     "verified_events": 0,
     "clustering_method": "ai_pairwise_double_review",
-    "proposed_merge_pairs": 2,
-    "accepted_merge_connections": 1,
-    "rejected_merge_proposals": 1,
+    "proposed_merge_pairs": 5,
+    "accepted_merge_connections": 3,
+    "rejected_merge_proposals": 2,
     "independent_auditor_ran": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "rss_profiles_ok": 12,
     "gdelt_queries_ok": 0
@@ -84,7 +84,7 @@
       "id": "china_mofa",
       "status": "ok",
       "passages": 0,
-      "links": 8
+      "links": 7
     },
     {
       "authority": "US Treasury",
@@ -158,8 +158,7 @@
     }
   ],
   "research_status_breakdown": {
-    "potential_primary_text_match_needs_review": 1,
-    "no_matching_primary_evidence": 21
+    "no_matching_primary_evidence": 20
   },
   "uncertainty": {
     "true_cluster_precision": null,
@@ -169,6 +168,7 @@
     "reason": "Er ontbreekt een onafhankelijke, handmatig geannoteerde gouden testset; modelconsensus is geen grondwaarheid."
   },
   "warnings": [
+    "Geen specifieke officiële ondersteuning automatisch aangetroffen",
     "Officiële bronnen onvolledig: centcom_releases, pakistan_mofa, iran_mfa"
   ]
 }
