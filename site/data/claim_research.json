@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-03T07:25:08.164065Z",
+  "last_attempt_utc": "2026-11-03T13:18:11.859921Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 21,
   "active_checked": 5,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -2033,6 +2033,99 @@
           "text_excerpt": "British and British-Iranian dual nationals are at significant risk of arrest, questioning or detention. Having a British passport or connections to the UK can be reason enough for the Iranian authorities to detain you."
         }
       ]
+    },
+    "45bae244fdfedc8f28881c8a": {
+      "event_id": "45bae244fdfedc8f28881c8a",
+      "checked_at": "2026-11-03T13:18:11.859862Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de dreiging van een recorddaling in de wereldwijde LNG-aanvoer door Iran ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/mot-testing-service",
+          "title": "Record MOT test results - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "record results of MOTs you carry out"
+        },
+        {
+          "url": "https://www.gov.uk/check-mot-history",
+          "title": "Check the MOT history of a vehicle - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Get an annual test (MOT) for a lorry, bus or trailer: step by step"
+        }
+      ]
+    },
+    "9367bf785c1a693ed325337d": {
+      "event_id": "9367bf785c1a693ed325337d",
+      "checked_at": "2026-11-03T13:18:11.859885Z",
+      "version": "official-original-document-v1",
+      "research_status": "primary_document_not_found",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 0,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": []
+    },
+    "aa552d0b9d0bed6feccaf4d7": {
+      "event_id": "aa552d0b9d0bed6feccaf4d7",
+      "checked_at": "2026-11-03T13:18:11.859891Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De officiële tekst bevestigt dat het VK niet betrokken was bij de aanvallen op Iran, maar biedt geen directe bevestiging of ontkenning van de Amerikaanse aanvallen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
+          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
+        },
+        {
+          "url": "https://www.gov.uk/government/speeches/iran-israel-conflict-foreign-secretary-statement",
+          "title": "Iran-Israel conflict: Foreign Secretary's statement - GOV.UKGOV.UK",
+          "source_publication_date": "2025-06-16T00:00:00+01:00",
+          "text_excerpt": "With permission, Madam Deputy Speaker, I will now turn to the Middle East. Early last Friday morning, Israel launched extensive strikes across Iran. Targets including military sites, including the Iranian enrichment facility at Natanz, and key comman"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -2047,9 +2140,9 @@
       "model_tokens": 5662
     },
     "2026-11-03": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 4019
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 5260
     }
   },
   "last_error": null
