@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-02T19:07:52.941781Z",
+  "last_attempt_utc": "2026-11-03T01:17:21.768400Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 22,
-  "active_checked": 7,
+  "active_checked": 8,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -1800,14 +1800,132 @@
           "text_excerpt": "We condemn Iran’s continued attempts to hold the global economy to ransom by closing the Strait of Hormuz, as well as their attacks on the region including overnight against Bahrain, Kuwait and Jordan. We stand with our partners in the Gulf in the fa"
         }
       ]
+    },
+    "2670e8a0e9d9e41a259adcd8": {
+      "event_id": "2670e8a0e9d9e41a259adcd8",
+      "checked_at": "2026-11-03T01:17:21.768343Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 5,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "read If you’re affected by a crisis abroad - GOV.UK. This includes guidance on “how to prepare for a crisis” with suggestions on what you might include in your emergency supplies and “what to do in a crisis”"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "read If you’re affected by a crisis abroad - GOV.UK. This includes guidance on “how to prepare for a crisis” including suggestedemergency supplies and “what to do in a crisis”"
+        }
+      ]
+    },
+    "a98a0866c76a43093a8dc090": {
+      "event_id": "a98a0866c76a43093a8dc090",
+      "checked_at": "2026-11-03T01:17:21.768365Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "UK help and services in the United Arab Emirates"
+        },
+        {
+          "url": "https://www.gov.uk/government/speeches/the-days-of-britains-retreat-from-latin-america-are-over",
+          "title": "\"The days of Britain's retreat from Latin America are over\" - GOV.UKGOV.UK",
+          "source_publication_date": "2012-01-19T00:00:00+00:00",
+          "text_excerpt": "As we see it, in Libya limited military force was used to protect civilians and civilian-populated areas under threat of attack and to implement a no-fly zone, only after Colonel Qadhafi had refused to end the violence and when called for by all the "
+        }
+      ]
+    },
+    "54b6bded498d0a5bc3b20513": {
+      "event_id": "54b6bded498d0a5bc3b20513",
+      "checked_at": "2026-11-03T01:17:21.768372Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-03T01:17:16.463484Z",
+          "exact_quote": "King Khalid International Airport was struck by a missile on 10 October 2026.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
+        },
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "original_document_title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-03T01:17:16.793575Z",
+          "exact_quote": "the risk of sudden escalation is high.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar de onvoorspelbaarheid in de regio, maar ondersteunt de specifieke claim niet.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026. The airport continues to be targeted and remains at risk of further attacks."
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-10-31": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 7052
-    },
     "2026-11-01": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -1817,6 +1935,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 5662
+    },
+    "2026-11-03": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 2142
     }
   },
   "last_error": null
