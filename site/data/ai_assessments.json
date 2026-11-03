@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-03T13:17:00.705448Z",
+  "last_attempt_utc": "2026-11-03T19:05:39.690961Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -2935,6 +2935,102 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-03T13:16:59.705264Z"
+    },
+    "9aac49b63835bb": {
+      "id": "9aac49b63835bb",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Amerikaanse troepen beperkte aanvallen hebben uitgevoerd op Qeshm Island in Iran terwijl diplomatieke gesprekken aan de gang zijn.",
+      "claimed_event_nl": "Amerikaanse troepen hebben beperkte aanvallen uitgevoerd op Qeshm Island in Iran.",
+      "reason_nl": "Dit is relevant omdat het wijst op een mogelijke escalatie van militaire acties te midden van diplomatieke inspanningen.",
+      "limitations_nl": "De informatie is afkomstig van een niet-geverifieerde bron en er zijn geen onafhankelijke bevestigingen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-03T19:05:35.574880Z"
+    },
+    "8e951906734d17": {
+      "id": "8e951906734d17",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat er Amerikaanse aanvallen zijn geweest op een Iraanse eiland terwijl de gesprekken doorgaan.",
+      "claimed_event_nl": "Amerikaanse aanvallen op een Iraans eiland hebben plaatsgevonden.",
+      "reason_nl": "Dit is relevant omdat het de spanningen tussen de VS en Iran kan verhogen tijdens diplomatieke onderhandelingen.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-03T19:05:35.574905Z"
+    },
+    "d894d32d5fd8c0": {
+      "id": "d894d32d5fd8c0",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De kop claimt dat olieprijzen zijn gestegen door zorgen over de aanvoer na Amerikaanse aanvallen op Iran.",
+      "claimed_event_nl": "Olieprijzen zijn gestegen als gevolg van Amerikaanse aanvallen op Iran.",
+      "reason_nl": "Dit is relevant omdat het economische gevolgen kan hebben voor de olie-markt en de wereldwijde economie.",
+      "limitations_nl": "De informatie is gebaseerd op een niet-geverifieerde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-03T19:05:35.574911Z"
+    },
+    "2902c666547895": {
+      "id": "2902c666547895",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Trump Iran heeft gebombardeerd en tegelijkertijd over vrede praat, wat olieprijzen beïnvloedt.",
+      "claimed_event_nl": "Trump heeft Iran gebombardeerd terwijl hij over vrede praat.",
+      "reason_nl": "Dit is relevant omdat het de dynamiek van de Amerikaanse-Iraanse relaties en de olieprijzen kan beïnvloeden.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-03T19:05:35.574915Z"
+    },
+    "1054a367dcca77": {
+      "id": "1054a367dcca77",
+      "relevance": "unclear",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "commentary",
+      "summary_nl": "De kop suggereert dat de olieprijzen afhankelijk zijn van signalen van een mogelijke wapenstilstand tussen de VS en Iran.",
+      "claimed_event_nl": "Er zijn signalen van een mogelijke wapenstilstand tussen de VS en Iran.",
+      "reason_nl": "Dit is onduidelijk omdat het speculeert over toekomstige ontwikkelingen zonder concrete feiten.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-03T19:05:35.574919Z"
+    },
+    "3bb6735598bac8": {
+      "id": "3bb6735598bac8",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De VS zouden beperkte aanvallen hebben uitgevoerd op Qeshm Island in Iran, terwijl er onderhandelingen gaande zijn.",
+      "claimed_event_nl": "U.S. Carries Out ‘Limited Strikes’ on Iran’s Qeshm Island.",
+      "reason_nl": "Deze claim is relevant vanwege de mogelijke escalatie van militaire acties in de regio en de impact op de onderhandelingen.",
+      "limitations_nl": "De informatie is afkomstig van een enkele bron en is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-03T19:05:38.690712Z"
     }
   },
   "usage_by_day": {
@@ -2947,8 +3043,8 @@
       "total_tokens": 9884
     },
     "2026-11-03": {
-      "requests": 8,
-      "total_tokens": 11437
+      "requests": 10,
+      "total_tokens": 13751
     }
   }
 }

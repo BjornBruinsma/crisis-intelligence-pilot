@@ -1,55 +1,55 @@
 {
-  "last_attempt_utc": "2026-11-03T13:15:22.484671Z",
+  "last_attempt_utc": "2026-11-03T19:04:24.867275Z",
   "sources": {
     "google_news_rss": {
       "ok": 12,
       "total": 12
     },
     "gdelt_doc2": {
-      "ok": 1,
+      "ok": 0,
       "total": 2
     }
   },
   "profiles": {
     "military": {
       "status": "ok",
-      "articles": 54,
-      "new": 23
+      "articles": 56,
+      "new": 11
     },
     "diplomacy": {
       "status": "ok",
-      "articles": 42,
-      "new": 10
+      "articles": 46,
+      "new": 9
     },
     "government": {
       "status": "ok",
-      "articles": 5,
-      "new": 2
+      "articles": 6,
+      "new": 1
     },
     "markets": {
       "status": "ok",
-      "articles": 13,
-      "new": 1
+      "articles": 15,
+      "new": 2
     },
     "energy": {
       "status": "ok",
-      "articles": 51,
-      "new": 8
+      "articles": 50,
+      "new": 6
     },
     "trade": {
       "status": "ok",
-      "articles": 11,
-      "new": 4
+      "articles": 6,
+      "new": 0
     },
     "business": {
       "status": "ok",
-      "articles": 1,
-      "new": 0
+      "articles": 2,
+      "new": 1
     },
     "economy": {
       "status": "ok",
       "articles": 2,
-      "new": 2
+      "new": 0
     },
     "iran-fa": {
       "status": "ok",
@@ -58,18 +58,18 @@
     },
     "china-zh": {
       "status": "ok",
-      "articles": 33,
-      "new": 4
+      "articles": 9,
+      "new": 2
     },
     "pakistan-en": {
       "status": "ok",
-      "articles": 27,
-      "new": 9
+      "articles": 17,
+      "new": 1
     },
     "gulf-ar": {
       "status": "ok",
-      "articles": 52,
-      "new": 13
+      "articles": 51,
+      "new": 7
     },
     "gdelt-iran": {
       "status": "error",
@@ -77,17 +77,18 @@
       "articles": 0
     },
     "gdelt-hormuz": {
-      "status": "ok",
-      "articles": 40,
-      "new": 28
+      "status": "error",
+      "error": "HTTP 429 Too Many Requests",
+      "articles": 0
     }
   },
   "errors": {
-    "gdelt-iran": "HTTP 429 Too Many Requests"
+    "gdelt-iran": "HTTP 429 Too Many Requests",
+    "gdelt-hormuz": "HTTP 429 Too Many Requests"
   },
-  "new_urls": 104,
-  "retained_urls": 2193,
-  "queries_ok": 13,
+  "new_urls": 40,
+  "retained_urls": 2233,
+  "queries_ok": 12,
   "queries_total": 14,
   "status": "partial"
 }
