@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-04T07:29:42.351006Z",
+  "last_attempt_utc": "2026-11-04T13:18:18.661011Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 20,
-  "active_checked": 5,
+  "active_total": 19,
+  "active_checked": 4,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -2331,6 +2331,94 @@
       ],
       "ai_error": null,
       "original_documents_retrieved": []
+    },
+    "3d03b58191e7af286823e186": {
+      "event_id": "3d03b58191e7af286823e186",
+      "checked_at": "2026-11-04T13:18:18.660956Z",
+      "version": "official-original-document-v1",
+      "research_status": "primary_document_not_found",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 0,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": []
+    },
+    "235c657c5eab3a3fae8a360a": {
+      "event_id": "235c657c5eab3a3fae8a360a",
+      "checked_at": "2026-11-04T13:18:18.660978Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de aanval op Qeshm Island ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        },
+        {
+          "url": "https://www.gov.uk/sign-in-universal-credit",
+          "title": "Sign in to your Universal Credit account - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        }
+      ]
+    },
+    "bec8b6b635082182407aa2ac": {
+      "event_id": "bec8b6b635082182407aa2ac",
+      "checked_at": "2026-11-04T13:18:18.660985Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de onderhandelingen tussen Iran en de VS ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 1,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/change-driving-test",
+          "title": "Change your driving test appointment - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "How many times you can change your test"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -2345,9 +2433,9 @@
       "model_tokens": 5260
     },
     "2026-11-04": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 2250
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 3112
     }
   },
   "last_error": null
