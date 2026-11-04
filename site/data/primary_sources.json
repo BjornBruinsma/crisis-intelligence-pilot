@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-11-04T13:18:01.076836Z",
+  "last_attempt_utc": "2026-11-04T19:10:35.711148Z",
   "description": "Official-source texts and links, not automatic verification of events",
   "sources": [
     {
@@ -7,7 +7,7 @@
       "authority": "US Central Command",
       "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T13:17:38.493930Z",
+      "retrieved_at": "2026-11-04T19:10:12.892921Z",
       "status": "error",
       "error": "HTTPError: HTTP Error 403: Forbidden",
       "passages": [],
@@ -18,7 +18,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/iran",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T13:17:38.485195Z",
+      "retrieved_at": "2026-11-04T19:10:14.306086Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -130,7 +130,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T13:17:38.564378Z",
+      "retrieved_at": "2026-11-04T19:10:13.800342Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -231,7 +231,7 @@
       "authority": "US Department of State",
       "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
       "kind": "official_rss",
-      "retrieved_at": "2026-11-04T13:17:38.394944Z",
+      "retrieved_at": "2026-11-04T19:10:13.003390Z",
       "status": "ok",
       "title": "US travel advice RSS (filtered: Middle East)",
       "passages": [],
@@ -342,7 +342,7 @@
           "title": "Cambodia - Level 2: Exercise Increased Caution",
           "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.khm.html",
           "published": "Tue, 15 Sep 2026",
-          "excerpt": "Exercise increased caution in Cambodia due to crime , unrest , and unexploded ordnance . Exercise increased caution in Cambodia due to crime , unrest , and unexploded ordnance . Some areas have increased risk. Read the entire Travel Advisory. Review our Travel Guidance for Cambodia to learn how to prepare for a safe trip. Do Not Travel to Areas along the Cambodian and Thai border due to unrest . E"
+          "excerpt": "Exercise increased caution in Cambodia due to crime , unrest , and unexploded ordinance . Exercise increased caution in Cambodia due to crime , unrest , and unexploded ordnance . Some areas have increased risk. Read the entire Travel Advisory. Review our Travel Guidance for Cambodia to learn how to prepare for a safe trip. Do Not Travel to Areas along the Cambodian and Thai border due to unrest . "
         },
         {
           "title": "Italy - Level 2: Exercise Increased Caution",
@@ -396,7 +396,7 @@
           "title": "Morocco - Level 2: Exercise Increased Caution",
           "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mar.html",
           "published": "Fri, 04 Sep 2026",
-          "excerpt": "Exercise increased caution in Morocco due to risk of terrorism . Some areas have increased risk. Read the entire Travel Advisory. Terrorism There is risk of terrorist violence, including terrorist attacks and other activity in Morocco. Visit the U.S. Department of State's country reports on terrorism to learn more."
+          "excerpt": "Exercise increased caution in Morocco due to risk of terrorism . Terrorism There is risk of terrorist violence, including terrorist attacks and other activity in Morocco. Visit the U.S. Department of State's country reports on terrorism to learn more."
         },
         {
           "title": "Peru - Level 2: Exercise Increased Caution",
@@ -603,7 +603,7 @@
       "authority": "International Maritime Organization",
       "url": "https://www.imo.org/en/mediacentre/pressbriefings/default.aspx",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T13:17:39.001651Z",
+      "retrieved_at": "2026-11-04T19:10:13.810837Z",
       "status": "ok",
       "title": "International Maritime Organization",
       "passages": [
@@ -668,7 +668,7 @@
       "authority": "Pakistan Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.pk/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T13:18:01.076327Z",
+      "retrieved_at": "2026-11-04T19:10:35.710647Z",
       "status": "error",
       "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
       "passages": [],
@@ -679,7 +679,7 @@
       "authority": "China Ministry of Foreign Affairs",
       "url": "https://www.fmprc.gov.cn/mfa_eng/index.html",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T13:17:39.689325Z",
+      "retrieved_at": "2026-11-04T19:10:13.890092Z",
       "status": "ok",
       "title": "China Ministry of Foreign Affairs",
       "passages": [],
@@ -731,7 +731,7 @@
       "authority": "US Treasury",
       "url": "https://home.treasury.gov/news/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T13:17:38.615871Z",
+      "retrieved_at": "2026-11-04T19:10:13.960900Z",
       "status": "ok",
       "title": "US Treasury",
       "passages": [
@@ -746,10 +746,8 @@
         "Outbound Investment Security Program",
         "Macroeconomic and Foreign Exchange Policies of Major Trading Partners",
         "U.S.-China Comprehensive Strategic Economic Dialogue (CED)",
+        "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
         "Economy Statement for the Treasury Borrowing Advisory Committee",
-        "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
-        "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23",
-        "Treasury Issues Proposed Rule to Implement Comprehensive Outbound Investment National Security Act",
         "Alcohol and Tobacco Tax and Trade (TTB)"
       ],
       "links": [
@@ -774,20 +772,12 @@
           "url": "https://home.treasury.gov/policy-issues/international/us-china-comprehensive-economic-dialogue/"
         },
         {
+          "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime",
+          "url": "https://home.treasury.gov/news/press-releases/sb0681/"
+        },
+        {
           "title": "Economy Statement for the Treasury Borrowing Advisory Committee",
           "url": "https://home.treasury.gov/news/press-releases/sb0676/"
-        },
-        {
-          "title": "Treasury Sanctions Facilitators of DPRK IT Worker Fraud Targeting U.S. Businesses",
-          "url": "https://home.treasury.gov/news/press-releases/sb0669/"
-        },
-        {
-          "title": "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23",
-          "url": "https://home.treasury.gov/news/press-releases/sb0668/"
-        },
-        {
-          "title": "Treasury Issues Proposed Rule to Implement Comprehensive Outbound Investment National Security Act",
-          "url": "https://home.treasury.gov/news/press-releases/sb0667/"
         }
       ]
     },
@@ -796,7 +786,7 @@
       "authority": "US Energy Information Administration",
       "url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T13:17:38.681560Z",
+      "retrieved_at": "2026-11-04T19:10:13.995798Z",
       "status": "ok",
       "title": "US Energy Information Administration",
       "passages": [
@@ -911,7 +901,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T13:17:38.766303Z",
+      "retrieved_at": "2026-11-04T19:10:14.445428Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -999,7 +989,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T13:17:38.910417Z",
+      "retrieved_at": "2026-11-04T19:10:14.329379Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1085,7 +1075,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/qatar",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T13:17:38.981454Z",
+      "retrieved_at": "2026-11-04T19:10:14.220960Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1173,7 +1163,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T13:17:39.135320Z",
+      "retrieved_at": "2026-11-04T19:10:15.170909Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1267,7 +1257,7 @@
       "authority": "United Arab Emirates Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.ae/en",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T13:17:45.125601Z",
+      "retrieved_at": "2026-11-04T19:10:17.829073Z",
       "status": "ok",
       "title": "United Arab Emirates Ministry of Foreign Affairs",
       "passages": [
@@ -1296,7 +1286,7 @@
       "authority": "Islamic Republic of Iran Ministry of Foreign Affairs",
       "url": "https://en.mfa.ir/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T13:17:41.891784Z",
+      "retrieved_at": "2026-11-04T19:10:18.640239Z",
       "status": "error",
       "error": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
       "passages": [],
@@ -1307,7 +1297,7 @@
       "authority": "Permanent Mission of Pakistan to the United Nations",
       "url": "https://pakun.org/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T13:17:39.818600Z",
+      "retrieved_at": "2026-11-04T19:10:14.908749Z",
       "status": "ok",
       "title": "Permanent Mission of Pakistan to the United Nations",
       "passages": [
@@ -1321,7 +1311,7 @@
       "authority": "Permanent Mission of China to the United Nations",
       "url": "https://un.china-mission.gov.cn/eng/fyrth/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T13:17:40.894962Z",
+      "retrieved_at": "2026-11-04T19:10:15.757718Z",
       "status": "ok",
       "title": "Permanent Mission of China to the United Nations",
       "passages": [

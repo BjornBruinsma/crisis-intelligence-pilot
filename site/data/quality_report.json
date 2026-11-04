@@ -1,22 +1,22 @@
 {
-  "generated_at_utc": "2026-11-04T13:18:18.747274+00:00",
+  "generated_at_utc": "2026-11-04T19:10:58.381597+00:00",
   "definition": "Automatische procescontrole, geen wetenschappelijke validatie van gebeurteniswaarheid.",
   "technical": {
-    "collected_articles": 2374,
-    "tentative_headline_groups": 530,
+    "collected_articles": 2397,
+    "tentative_headline_groups": 528,
     "daily_shortlist": 25,
     "ai_reviewed_shortlist": 25,
     "ai_headline_status": "complete",
     "event_research_status": "complete",
     "event_input_claims": 22,
-    "event_groups_output": 19,
-    "multiple_claim_clusters": 2,
-    "claims_in_multiple_claim_clusters": 5,
+    "event_groups_output": 18,
+    "multiple_claim_clusters": 3,
+    "claims_in_multiple_claim_clusters": 7,
     "ids_retained_without_duplicates": true,
     "official_sources_checked": 17,
     "official_sources_accessible": 14,
-    "official_exact_passage_matches": 0,
-    "potential_direct_support_matches": 0,
+    "official_exact_passage_matches": 18,
+    "potential_direct_support_matches": 3,
     "potential_contradictions": 0,
     "claim_research_checked_active": 4,
     "claim_research_status": "complete",
@@ -27,14 +27,14 @@
     "original_document_conflicting_statements": 0,
     "verified_events": 0,
     "clustering_method": "ai_pairwise_double_review",
-    "proposed_merge_pairs": 7,
-    "accepted_merge_connections": 3,
-    "rejected_merge_proposals": 4,
+    "proposed_merge_pairs": 6,
+    "accepted_merge_connections": 4,
+    "rejected_merge_proposals": 2,
     "independent_auditor_ran": true,
-    "auditor_approved_pairs": 3,
+    "auditor_approved_pairs": 4,
     "rule_rejected_pairs": 0,
     "rss_profiles_ok": 12,
-    "gdelt_queries_ok": 1
+    "gdelt_queries_ok": 0
   },
   "source_breakdown": [
     {
@@ -90,8 +90,8 @@
       "authority": "US Treasury",
       "id": "us_treasury",
       "status": "ok",
-      "passages": 16,
-      "links": 9
+      "passages": 14,
+      "links": 7
     },
     {
       "authority": "US Energy Information Administration",
@@ -158,7 +158,8 @@
     }
   ],
   "research_status_breakdown": {
-    "no_matching_primary_evidence": 19
+    "related_official_material_only": 15,
+    "potential_primary_text_match_needs_review": 3
   },
   "uncertainty": {
     "true_cluster_precision": null,
@@ -168,7 +169,6 @@
     "reason": "Er ontbreekt een onafhankelijke, handmatig geannoteerde gouden testset; modelconsensus is geen grondwaarheid."
   },
   "warnings": [
-    "Geen specifieke officiële ondersteuning automatisch aangetroffen",
     "Officiële bronnen onvolledig: centcom_releases, pakistan_mofa, iran_mfa"
   ]
 }
