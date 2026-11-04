@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-03T19:05:39.690961Z",
+  "last_attempt_utc": "2026-11-04T01:17:17.954080Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -3031,13 +3031,41 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-03T19:05:38.690712Z"
+    },
+    "7bd72aa3e6a7ec": {
+      "id": "7bd72aa3e6a7ec",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De prijs van ruwe olie daalt voor de derde dag, mede door afnemende verwachtingen voor een staakt-het-vuren tussen de VS en Iran.",
+      "claimed_event_nl": "Hopes for U.S.-Iran Ceasefire Talks Ease Supply Concerns.",
+      "reason_nl": "De daling van de olieprijs kan invloed hebben op de economische stabiliteit in de regio en de wereldwijde markten.",
+      "limitations_nl": "De claims zijn gebaseerd op speculatie over diplomatieke ontwikkelingen die nog niet zijn gerealiseerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-04T01:17:16.953789Z"
+    },
+    "4b126bda996d9f": {
+      "id": "4b126bda996d9f",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "other",
+      "summary_nl": "Een brand heeft een hotel nabij het Everest Base Camp verwoest, maar er zijn geen slachtoffers gevallen.",
+      "claimed_event_nl": "",
+      "reason_nl": "Deze gebeurtenis heeft geen directe relevantie voor de situatie in Iran of de Golfregio.",
+      "limitations_nl": "De gebeurtenis is geografisch en thematisch niet gerelateerd aan de geopolitieke situatie in de regio.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-04T01:17:16.953814Z"
     }
   },
   "usage_by_day": {
-    "2026-11-01": {
-      "requests": 4,
-      "total_tokens": 4719
-    },
     "2026-11-02": {
       "requests": 7,
       "total_tokens": 9884
@@ -3045,6 +3073,10 @@
     "2026-11-03": {
       "requests": 10,
       "total_tokens": 13751
+    },
+    "2026-11-04": {
+      "requests": 1,
+      "total_tokens": 954
     }
   }
 }

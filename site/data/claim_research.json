@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-03T19:06:10.102556Z",
+  "last_attempt_utc": "2026-11-04T01:18:14.465465Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 21,
-  "active_checked": 3,
+  "active_total": 20,
+  "active_checked": 6,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -2126,14 +2126,113 @@
           "text_excerpt": "With permission, Madam Deputy Speaker, I will now turn to the Middle East. Early last Friday morning, Israel launched extensive strikes across Iran. Targets including military sites, including the Iranian enrichment facility at Natanz, and key comman"
         }
       ]
+    },
+    "a35beaefd0b7ee42d4b804ed": {
+      "event_id": "a35beaefd0b7ee42d4b804ed",
+      "checked_at": "2026-11-04T01:18:14.465405Z",
+      "version": "official-original-document-v1",
+      "research_status": "primary_document_not_found",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 0,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": []
+    },
+    "0a8ce6afb955350505b24c67": {
+      "event_id": "0a8ce6afb955350505b24c67",
+      "checked_at": "2026-11-04T01:18:14.465431Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-04T01:18:09.441182Z",
+          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage beschrijft de onvoorspelbaarheid in het Midden-Oosten, maar ondersteunt de specifieke claim van beperkte Amerikaanse aanvallen niet.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De gevonden tekst wijst op een onvoorspelbare situatie in het Midden-Oosten, maar biedt geen bewijs voor de claim van beperkte Amerikaanse aanvallen op Qeshm Island.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 5,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/closing-a-limited-company",
+          "title": "Closing a limited company - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You usually need to have the agreement of your company’s directors and shareholders to close a limited company."
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
+    },
+    "9efe4bd1cfe1343f354c5b15": {
+      "event_id": "9efe4bd1cfe1343f354c5b15",
+      "checked_at": "2026-11-04T01:18:14.465437Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De tekst verwijst naar de intenties van Iran om Amerikaanse doelen aan te vallen, maar biedt geen bevestiging van de specifieke Amerikaanse luchtaanvallen op Qeshm Island.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/check-uk-visa",
+          "title": "Check if you need a UK visa - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Travel or do business in Europe: Brexit guidance"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-01": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 6035
-    },
     "2026-11-02": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -2143,6 +2242,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 5260
+    },
+    "2026-11-04": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1164
     }
   },
   "last_error": null

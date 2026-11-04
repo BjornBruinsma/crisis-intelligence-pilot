@@ -1,12 +1,12 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-03T19:06:03.261198Z",
-  "fingerprint": "1b2b77c534ce2b95d9c29bb6",
+  "last_attempt_utc": "2026-11-04T01:17:41.298439Z",
+  "fingerprint": "b07f911a11ba6e69686090bf",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 25,
-  "event_candidate_count": 21,
+  "input_candidate_count": 24,
+  "event_candidate_count": 20,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
     "model_pair_proposals": 4,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-03T19:06:03.261198Z",
+    "recorded_at": "2026-11-04T01:17:41.298439Z",
     "groups": [
       {
         "ids": [
@@ -38,15 +38,14 @@
       },
       {
         "ids": [
-          "9aac49b63835bb",
-          "3bb6735598bac8"
+          "7bd72aa3e6a7ec"
         ],
-        "label_nl": "Claim: US forces conduct limited strikes on Iran’s Qeshm Island amid ongoing diplomatic talks - Daily Times",
+        "label_nl": "Claim: NY Crude Falls for Third Day; WTI Settles in $96 Range as Hopes for U.S.-Iran Ceasefire Talks Ease Supply Concerns - BigGo Finance",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -73,9 +72,9 @@
       },
       {
         "ids": [
-          "8e951906734d17"
+          "1054a367dcca77"
         ],
-        "label_nl": "Claim: Energy briefs–U.S. strikes on Iranian island as talks continue - Oklahoma Energy Today",
+        "label_nl": "Claim: Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire - Quantisnow",
         "actor": "",
         "action": "",
         "place": "",
@@ -107,7 +106,7 @@
       {
         "ids": [
           "87bc19e381b3e4",
-          "31322ffc0230e6"
+          "8e951906734d17"
         ],
         "label_nl": "Claim: U . S . Carries Out Defensive Strike On Iranian Island",
         "actor": "",
@@ -118,14 +117,26 @@
       },
       {
         "ids": [
-          "d16f88261a9e81"
+          "31322ffc0230e6"
         ],
-        "label_nl": "Claim: Vance: 'We did not reach an agreement, are returning to US'; Israel preparing to attack energy facilities - Ynetnews",
+        "label_nl": "Claim: US strikes Iran’s Qeshm Island — report - Gulf Business",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "9aac49b63835bb",
+          "3bb6735598bac8"
+        ],
+        "label_nl": "Claim: US forces conduct limited strikes on Iran’s Qeshm Island amid ongoing diplomatic talks - Daily Times",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -151,31 +162,9 @@
       },
       {
         "ids": [
-          "2902c666547895"
-        ],
-        "label_nl": "Claim: Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling - Crude Oil Prices Today | OilPrice.com",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
           "541bf02a7dd0ef"
         ],
         "label_nl": "Claim: Pakistan LNG Cargo Attacked Near Hormuz Had Iranian Approval - Bloomberg",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "3414c2b4f32017"
-        ],
-        "label_nl": "Claim: How the Iran war is hitting food prices - DW.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -195,9 +184,9 @@
       },
       {
         "ids": [
-          "71bb8d3dac6a5e"
+          "d16f88261a9e81"
         ],
-        "label_nl": "Claim: China’s Foreign Minister Wang Yi met with Ali Bagheri Kani, deputy secretary of Iran’s Supreme National Security Council, in Beijing and called for regional crises to be resolved through dialogue and negot",
+        "label_nl": "Claim: Vance: 'We did not reach an agreement, are returning to US'; Israel preparing to attack energy facilities - Ynetnews",
         "actor": "",
         "action": "",
         "place": "",
@@ -217,9 +206,9 @@
       },
       {
         "ids": [
-          "1054a367dcca77"
+          "2902c666547895"
         ],
-        "label_nl": "Claim: Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire - PR Newswire",
+        "label_nl": "Claim: Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling - Crude Oil Prices Today | OilPrice.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -250,9 +239,9 @@
       },
       {
         "ids": [
-          "346c0fbfd9ba82"
+          "71bb8d3dac6a5e"
         ],
-        "label_nl": "Claim: Iran Says Talks with Saudi Arabia Continue Amid Stalled US Negotiations - https://newsalert.com.pk/",
+        "label_nl": "Claim: China’s Foreign Minister Wang Yi met with Ali Bagheri Kani, deputy secretary of Iran’s Supreme National Security Council, in Beijing and called for regional crises to be resolved through dialogue and negot",
         "actor": "",
         "action": "",
         "place": "",
@@ -262,30 +251,29 @@
     ],
     "input_claim_ids": [
       "85ea0f15f8f413",
-      "9aac49b63835bb",
+      "7bd72aa3e6a7ec",
       "74d345785d102a",
       "b1384286f16470",
-      "8e951906734d17",
+      "1054a367dcca77",
       "06eebc37dc1999",
       "1d62610c7da99f",
       "87bc19e381b3e4",
       "31322ffc0230e6",
-      "d16f88261a9e81",
+      "9aac49b63835bb",
       "b0a8a22c38d93c",
       "d894d32d5fd8c0",
-      "2902c666547895",
+      "8e951906734d17",
       "541bf02a7dd0ef",
-      "3414c2b4f32017",
       "1d14fbd7dc98d0",
       "fc21148ef7c768",
-      "71bb8d3dac6a5e",
+      "d16f88261a9e81",
       "2c4878f0af06a7",
       "b0b6f72f3f21d7",
-      "1054a367dcca77",
+      "2902c666547895",
       "8db6729d0c1fcd",
       "08aace6e457870",
       "3bb6735598bac8",
-      "346c0fbfd9ba82"
+      "71bb8d3dac6a5e"
     ]
   },
   "official_sources_available": 14,
@@ -319,8 +307,58 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_saudi:p7",
+        "exact_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting",
+        "relation": "related_only",
+        "reason_nl": "Deze passage verwijst naar aanvallen door de Houthis, maar ondersteunt niet specifiek de claim over Amerikaanse aanvallen op Iraanse doelen.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "a35beaefd0b7ee42d4b804ed",
+      "label_nl": "Claim: U . S . Carries Out Defensive Strike On Iranian Island",
+      "headline_claim_ids": [
+        "87bc19e381b3e4",
+        "8e951906734d17"
+      ],
+      "headline_claims": [
+        "U . S . Carries Out Defensive Strike On Iranian Island",
+        "Energy briefs–U.S. strikes on Iranian island as talks continue - Oklahoma Energy Today"
+      ],
+      "related_news_links": [
+        "https://wdov.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://1190kex.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://wflanews.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://koacolorado.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://newsradio540.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://55krc.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTliQzJQN2ktSG02RldENk9pTm44MEdnZElkSmlMenRkamFoMnlvVy13T2VsRHlnQzQ5WW10WV9FdENXbjNCR3RrbWpVREUtT2ZRQjZvWVdoT0FIRFJ1UUdDZ1VMRUJOQnZqdjI4SnNOZGhGcTVWeUNtVEc1N0NIYzFhVlE3SzJLY2dpYS1MRWxaRVJIV25aV1hLUHc?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 7,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage bevestigt aanvallen door de VS en Israël, maar ondersteunt niet specifiek de claim over een defensieve aanval op een Iraanse eiland.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -348,61 +386,35 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage bevestigt aanvallen door de VS en Israël, maar ondersteunt niet specifiek de claim over beperkte aanvallen op Qeshm Island.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "453841fb74e7b4abfc824489",
-      "label_nl": "Claim: U . S . Carries Out Defensive Strike On Iranian Island",
+      "id": "9efe4bd1cfe1343f354c5b15",
+      "label_nl": "Claim: US strikes Iran’s Qeshm Island — report - Gulf Business",
       "headline_claim_ids": [
-        "87bc19e381b3e4",
         "31322ffc0230e6"
       ],
       "headline_claims": [
-        "U . S . Carries Out Defensive Strike On Iranian Island",
         "US strikes Iran’s Qeshm Island — report - Gulf Business"
       ],
       "related_news_links": [
-        "https://wdov.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-        "https://1190kex.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-        "https://wflanews.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-        "https://koacolorado.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-        "https://newsradio540.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-        "https://55krc.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
         "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYmx5MDRmWkdoMW80TC1XS0lpY05kdkRSeFhSTG54VTdVQWVYaUxaRmlPb09OYlNqQWt0OUU5LS01azlybXJWTHZOYS1Icnp5RjltYmpKUUNraS1sVmFKUUNYRVFwTVFjd2ZsR21XRjNMYVJ5VWpYMm91RDRFZUo5TWQwWXpSTUFGbVFn?oc=5",
         "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRjFRZTgwNlZpbFlBcllqMExyYjBkSDZLdDJ3cWVjckxuSkFLZ1lCTy1hVUFOQVdHVF9yXy1zQlZXNEZZXzlXR3FRQm1OcnVxZjJsdENmNERxVTBaV2VNbnMxc2VMeEFFTHJiOVZURTc2NS1nT1FuWTNObWVUVHZKMEFjSnB5MmdtYkE?oc=5",
         "https://www.thehindu.com/news/international/us-strikes-irans-qeshm-island-report/article71659212.ece"
       ],
-      "article_group_count": 2,
-      "news_url_count": 9,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "50d91e1f94fdcdf3132e71b1",
-      "label_nl": "Claim: Energy briefs–U.S. strikes on Iranian island as talks continue - Oklahoma Energy Today",
-      "headline_claim_ids": [
-        "8e951906734d17"
-      ],
-      "headline_claims": [
-        "Energy briefs–U.S. strikes on Iranian island as talks continue - Oklahoma Energy Today"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTliQzJQN2ktSG02RldENk9pTm44MEdnZElkSmlMenRkamFoMnlvVy13T2VsRHlnQzQ5WW10WV9FdENXbjNCR3RrbWpVREUtT2ZRQjZvWVdoT0FIRFJ1UUdDZ1VMRUJOQnZqdjI4SnNOZGhGcTVWeUNtVEc1N0NIYzFhVlE3SzJLY2dpYS1MRWxaRVJIV25aV1hLUHc?oc=5"
-      ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 3,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -410,8 +422,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage bevestigt aanvallen door de VS en Israël, maar ondersteunt niet specifiek de claim over een Amerikaanse aanval op Qeshm Island.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -438,8 +458,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage bevestigt aanvallen door de VS en Israël, maar ondersteunt niet specifiek de claim over voorbereidingen voor een nieuwe aanval op Iran.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -464,8 +492,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
+        "authority": "US Department of State",
+        "evidence_id": "us_advisories:l7",
+        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting of American interests",
+        "relation": "related_only",
+        "reason_nl": "Deze passage waarschuwt voor risico's in Saudi-Arabië, maar ondersteunt niet specifiek de claim over waarschuwingen voor Houthi-aanvallen.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -495,8 +531,50 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage verwijst naar aanvallen door de VS en Israël, maar ondersteunt niet specifiek de claim over een Amerikaanse aanval op Qeshm Island.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "b14ff55c0387c32869550e70",
+      "label_nl": "Claim: NY Crude Falls for Third Day; WTI Settles in $96 Range as Hopes for U.S.-Iran Ceasefire Talks Ease Supply Concerns - BigGo Finance",
+      "headline_claim_ids": [
+        "7bd72aa3e6a7ec"
+      ],
+      "headline_claims": [
+        "NY Crude Falls for Third Day; WTI Settles in $96 Range as Hopes for U.S.-Iran Ceasefire Talks Ease Supply Concerns - BigGo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mSGlrS3FUZW0zWmY3bExreWlEWV9tekRydmR6TFhCN3FZMEZZUlFvRjlodmVGMXhxdFBGVWl5OHNwWkUwS2FYaE56M1JyLW9YcmsxaVdGRUdvTUNOTjJLcFFKYUZ5ZFpyazRtRll4MllHMk85Q1E?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
+        "authority": "US Energy Information Administration",
+        "evidence_id": "eia_energy:p22",
+        "exact_excerpt": "Energy & Financial Markets: What Drives Crude Oil Prices?",
+        "relation": "related_only",
+        "reason_nl": "Deze passage betreft olieprijzen, maar bevestigt niet specifiek de claim over de impact van Amerikaanse-Iraanse onderhandelingen.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -522,8 +600,51 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
+        "authority": "US Department of State",
+        "evidence_id": "us_advisories:l7",
+        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting of American interests",
+        "relation": "related_only",
+        "reason_nl": "Deze passage waarschuwt voor risico's in Saudi-Arabië, maar ondersteunt niet specifiek de claim over waarschuwingen voor Houthi-aanvallen.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "9c75b241ca7ed9990529c66e",
+      "label_nl": "Claim: Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire - Quantisnow",
+      "headline_claim_ids": [
+        "1054a367dcca77"
+      ],
+      "headline_claims": [
+        "Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire - Quantisnow"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc2JUS2ZCdklzVnI5RGVGUEFCQURJNjZGY1B5VnFMVWNDXzAtblBqSWV6OUN2cmtvWjc0cVplZXBNVklweERCS3o0cUFsZ0xaYkJ6YXBvRVRNVDlobVBhOU5YeE0ybmt2RVlkdlZDcVFEOFFldXVCUUFpY2Ezby1xZHJMZmNhM3QtTFlnRDdTYWpxMDFL?oc=5",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTW90d1I3Y3ZfM21UVjZOY3ludmhWbEpXdzVvM1dNdnBHcFBDTmROS0NNWkxoMkZqdWtGcnB0ZUhnaE95Z2NCSVVFaHFJVEpVMkI5TTBxN3BpM09sLWFLVzdtR3pDaDBVN3h3VU5fT1JvTXg4Nkp5cEdwOXZUV0J3aDhUYXdnb25uM181SXRjaUttNlozeThibGV4QlIza2VsT0VFNDZPeXM4YmxRbW9HaTFvNlNrbXNlYW5WWWtR?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p6",
+        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention",
+        "relation": "related_only",
+        "reason_nl": "Deze passage bespreekt de onvoorspelbaarheid in de regio, maar ondersteunt niet specifiek de claim over een Amerikaanse-Iraanse wapenstilstand.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -550,34 +671,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "d67591ee4f886bc06bd35913",
-      "label_nl": "Claim: Vance: 'We did not reach an agreement, are returning to US'; Israel preparing to attack energy facilities - Ynetnews",
-      "headline_claim_ids": [
-        "d16f88261a9e81"
-      ],
-      "headline_claims": [
-        "Vance: 'We did not reach an agreement, are returning to US'; Israel preparing to attack energy facilities - Ynetnews"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kSkgwQ3ZSd1dhaHltSFFjdk5kM2R6TEp6YlppQ18yU0ZxSWdMRHpMMzVfdy01MkZxTjEtLUROQUFhUC1CN0JtX0N4bkdWY2pBS0laaVUxRQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p12",
+        "exact_excerpt": "Air, sea and land routes are under the control of the Iranian authorities.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage betreft de controle van Iran over routes, maar ondersteunt niet specifiek de claim over Somali piraten.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -602,8 +705,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
+        "authority": "US Department of State",
+        "evidence_id": "us_advisories:l7",
+        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting of American interests",
+        "relation": "related_only",
+        "reason_nl": "Deze passage waarschuwt voor risico's in Saudi-Arabië, maar ondersteunt niet specifiek de claim over waarschuwingen voor Houthi-aanvallen.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -628,34 +739,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "ea42a0b59415f0c25d331f71",
-      "label_nl": "Claim: Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling - Crude Oil Prices Today | OilPrice.com",
-      "headline_claim_ids": [
-        "2902c666547895"
-      ],
-      "headline_claims": [
-        "Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling - Crude Oil Prices Today | OilPrice.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1F4SmR3Q2Z1OU05NG9icDloQk1oNFFNRTBTakxfa0QwYi0zbW1SSU1GaVJqR0w0QzBBLVdfNTVDMzZyTU5GcEEzU3lIMkFyVkE0azlydGw2Ym1JWlZZUlNRUmw3cmsxS2gweUJybkxueTJGNlprV2dPZFJPbXNlaW5DUHh5akl1YkUxRTQzQXNwTVJjR2tOeVhPcm9FRWQ4MFpF0gGoAUFVX3lxTE1BMktxYktCQzFYZVdXOGxqTElLanI4ZWJiOEpPaE1ibUtwbkVDWHlON29NVG9FcFgxbUNXOWYtYlBNQkp5RW56SGZib1BYZVBoeHZ3SVdtUElYR05yTERlbDRkREJ3VnIta3JocUdOblpleTdNbVNoN1hEWjhtTUpWb1RacjQ0Y0VlSkFNWUd2QmpnZjRPVENWUzh4SzVLc2JRcEhkNVZhdg?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
+        "authority": "US Energy Information Administration",
+        "evidence_id": "eia_energy:p22",
+        "exact_excerpt": "Energy & Financial Markets: What Drives Crude Oil Prices?",
+        "relation": "related_only",
+        "reason_nl": "Deze passage betreft olieprijzen, maar bevestigt niet specifiek de claim over de impact van Amerikaanse-Iraanse onderhandelingen.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -680,22 +773,30 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage bevestigt aanvallen door de VS en Israël, maar ondersteunt niet specifiek de claim over de aanval op een LNG-cargo.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "3747023d0d4fbcf5ca27bcdc",
-      "label_nl": "Claim: How the Iran war is hitting food prices - DW.com",
+      "id": "d67591ee4f886bc06bd35913",
+      "label_nl": "Claim: Vance: 'We did not reach an agreement, are returning to US'; Israel preparing to attack energy facilities - Ynetnews",
       "headline_claim_ids": [
-        "3414c2b4f32017"
+        "d16f88261a9e81"
       ],
       "headline_claims": [
-        "How the Iran war is hitting food prices - DW.com"
+        "Vance: 'We did not reach an agreement, are returning to US'; Israel preparing to attack energy facilities - Ynetnews"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcENINmZpN0lReFlzS3BqUnBnQWNBTlV6Y3kxamw5SnBmaVU1MzlMM1hYa2VIaFhncUpRaFpiMTBfc1hEd2EteDBYdTRrcy0wd0dQaDRsZ0hNNTRnVUpHN0MzUEZYRFprRGs1dzU3S29RVFNGUENwRW54RUJBc29iU2t0QTBBZUk5NXRrcFlrdzZDbF9lU2RVQkdoZGRXR19hdnR1RWpaM3A?oc=5"
+        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1kSkgwQ3ZSd1dhaHltSFFjdk5kM2R6TEp6YlppQ18yU0ZxSWdMRHpMMzVfdy01MkZxTjEtLUROQUFhUC1CN0JtX0N4bkdWY2pBS0laaVUxRQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -706,22 +807,30 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage bevestigt aanvallen door de VS en Israël, maar ondersteunt niet specifiek de claim over Netanyahu's oproep aan Trump.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "becfba95460e729d8390bab7",
-      "label_nl": "Claim: China’s Foreign Minister Wang Yi met with Ali Bagheri Kani, deputy secretary of Iran’s Supreme National Security Council, in Beijing and called for regional crises to be resolved through dialogue and negot",
+      "id": "ea42a0b59415f0c25d331f71",
+      "label_nl": "Claim: Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling - Crude Oil Prices Today | OilPrice.com",
       "headline_claim_ids": [
-        "71bb8d3dac6a5e"
+        "2902c666547895"
       ],
       "headline_claims": [
-        "China’s Foreign Minister Wang Yi met with Ali Bagheri Kani, deputy secretary of Iran’s Supreme National Security Council, in Beijing and called for regional crises to be resolved through dialogue and negotiations. Al Jazeera reported on Monday, November 2, - Facebook"
+        "Trump Bombs Iran, Talks Peace, and Sends Oil Prices Tumbling - Crude Oil Prices Today | OilPrice.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWVo2Um1lWHZITENhZTl2YUhKemNWbXdjTnQ0YmdqdE8wXy1MSnY4WnJYZEk3T2l6QjdPempIdXhQcktaRnVHMkkxcWdDVXVhQkJSUzM3UlV0YncyUWJMR08wVEwxWXFYbTYwdzVyazI0OERYT1FvbkdKZHcyMnFEUEM0MUxOX2diQ2ZXTFBKamROMFBCdkE1cHk2Vm9zeUQ5QlFhOVQ1XzNQN3dVTmZCVW9Sa2hoaXBBb3duSnY2cXM4dHN2X2RHb1VYX0JhN3NpbDJpbVRR?oc=5"
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb1F4SmR3Q2Z1OU05NG9icDloQk1oNFFNRTBTakxfa0QwYi0zbW1SSU1GaVJqR0w0QzBBLVdfNTVDMzZyTU5GcEEzU3lIMkFyVkE0azlydGw2Ym1JWlZZUlNRUmw3cmsxS2gweUJybkxueTJGNlprV2dPZFJPbXNlaW5DUHh5akl1YkUxRTQzQXNwTVJjR2tOeVhPcm9FRWQ4MFpF0gGoAUFVX3lxTE1BMktxYktCQzFYZVdXOGxqTElLanI4ZWJiOEpPaE1ibUtwbkVDWHlON29NVG9FcFgxbUNXOWYtYlBNQkp5RW56SGZib1BYZVBoeHZ3SVdtUElYR05yTERlbDRkREJ3VnIta3JocUdOblpleTdNbVNoN1hEWjhtTUpWb1RacjQ0Y0VlSkFNWUd2QmpnZjRPVENWUzh4SzVLc2JRcEhkNVZhdg?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -732,34 +841,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "9c75b241ca7ed9990529c66e",
-      "label_nl": "Claim: Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire - PR Newswire",
-      "headline_claim_ids": [
-        "1054a367dcca77"
-      ],
-      "headline_claims": [
-        "Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire - PR Newswire"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTW90d1I3Y3ZfM21UVjZOY3ludmhWbEpXdzVvM1dNdnBHcFBDTmROS0NNWkxoMkZqdWtGcnB0ZUhnaE95Z2NCSVVFaHFJVEpVMkI5TTBxN3BpM09sLWFLVzdtR3pDaDBVN3h3VU5fT1JvTXg4Nkp5cEdwOXZUV0J3aDhUYXdnb25uM181SXRjaUttNlozeThibGV4QlIza2VsT0VFNDZPeXM4YmxRbW9HaTFvNlNrbXNlYW5WWWtR?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
+        "authority": "US Energy Information Administration",
+        "evidence_id": "eia_energy:p22",
+        "exact_excerpt": "Energy & Financial Markets: What Drives Crude Oil Prices?",
+        "relation": "related_only",
+        "reason_nl": "Deze passage betreft olieprijzen, maar bevestigt niet specifiek de claim over de impact van Amerikaanse-Iraanse onderhandelingen.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -784,8 +875,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p12",
+        "exact_excerpt": "Air, sea and land routes are under the control of the Iranian authorities.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage betreft de controle van Iran over routes, maar ondersteunt niet specifiek de claim over Somali piraten.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -812,22 +911,30 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage bevestigt aanvallen door de VS en Israël, maar ondersteunt niet specifiek de claim over Netanyahu's oproep aan Trump.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "5302711e9d42d581d9bdcbd7",
-      "label_nl": "Claim: Iran Says Talks with Saudi Arabia Continue Amid Stalled US Negotiations - https://newsalert.com.pk/",
+      "id": "becfba95460e729d8390bab7",
+      "label_nl": "Claim: China’s Foreign Minister Wang Yi met with Ali Bagheri Kani, deputy secretary of Iran’s Supreme National Security Council, in Beijing and called for regional crises to be resolved through dialogue and negot",
       "headline_claim_ids": [
-        "346c0fbfd9ba82"
+        "71bb8d3dac6a5e"
       ],
       "headline_claims": [
-        "Iran Says Talks with Saudi Arabia Continue Amid Stalled US Negotiations - https://newsalert.com.pk/"
+        "China’s Foreign Minister Wang Yi met with Ali Bagheri Kani, deputy secretary of Iran’s Supreme National Security Council, in Beijing and called for regional crises to be resolved through dialogue and negotiations. Al Jazeera reported on Monday, November 2, - Facebook"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxQRGJHNEZTSzVxTWNRUmtFdFhFanh1NmlhUUZYb0ZkbUZmX3RKZjVQZllUZFhNWDcydV9EX1dkQTliRW9ISWF3UmxYT1k3dVA4Z29CdHN2TkRJa1owMEhlTmtfSldnWFFmejcydmp0VDBjVmV0QmtZUVFfVGtjb0ZmZk1XZ1d1Y0xUZXRfWHNMVHZSbkJlOENkd3UxZFA3UQ?oc=5"
+        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWVo2Um1lWHZITENhZTl2YUhKemNWbXdjTnQ0YmdqdE8wXy1MSnY4WnJYZEk3T2l6QjdPempIdXhQcktaRnVHMkkxcWdDVXVhQkJSUzM3UlV0YncyUWJMR08wVEwxWXFYbTYwdzVyazI0OERYT1FvbkdKZHcyMnFEUEM0MUxOX2diQ2ZXTFBKamROMFBCdkE1cHk2Vm9zeUQ5QlFhOVQ1XzNQN3dVTmZCVW9Sa2hoaXBBb3duSnY2cXM4dHN2X2RHb1VYX0JhN3NpbDJpbVRR?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -838,8 +945,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.fmprc.gov.cn/mfa_eng/wjbzhd/202611/t20261103_12052648.html",
+        "authority": "China Ministry of Foreign Affairs",
+        "evidence_id": "china_mofa:l1",
+        "exact_excerpt": "Wang Yi Meets with Deputy Secretary of Iran’s Supreme National Security Council Ali Bagheri Kani",
+        "relation": "related_only",
+        "reason_nl": "Deze passage verwijst naar diplomatiek overleg, maar ondersteunt niet specifiek de claim over de ontmoeting van Wang Yi.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -864,17 +979,21 @@
       "event_date_if_stated": null,
       "editorial_importance": "low",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.fmprc.gov.cn/mfa_eng/wjbzhd/202611/t20261103_12052648.html",
+        "authority": "China Ministry of Foreign Affairs",
+        "evidence_id": "china_mofa:l1",
+        "exact_excerpt": "Wang Yi Meets with Deputy Secretary of Iran’s Supreme National Security Council Ali Bagheri Kani",
+        "relation": "related_only",
+        "reason_nl": "Deze passage verwijst naar diplomatiek overleg, maar ondersteunt niet specifiek de claim over Oman en de regionale crisis.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-11-01": {
-      "requests": 12,
-      "total_tokens": 38139
-    },
     "2026-11-02": {
       "requests": 12,
       "total_tokens": 36326
@@ -882,6 +1001,10 @@
     "2026-11-03": {
       "requests": 12,
       "total_tokens": 37439
+    },
+    "2026-11-04": {
+      "requests": 3,
+      "total_tokens": 9716
     }
   }
 }
