@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-11-04T01:17:41.219979Z",
+  "last_attempt_utc": "2026-11-04T07:29:30.425004Z",
   "description": "Official-source texts and links, not automatic verification of events",
   "sources": [
     {
@@ -7,7 +7,7 @@
       "authority": "US Central Command",
       "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T01:17:19.395622Z",
+      "retrieved_at": "2026-11-04T07:29:26.446672Z",
       "status": "error",
       "error": "HTTPError: HTTP Error 403: Forbidden",
       "passages": [],
@@ -18,7 +18,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/iran",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T01:17:18.874749Z",
+      "retrieved_at": "2026-11-04T07:29:26.391149Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -130,7 +130,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T01:17:18.761763Z",
+      "retrieved_at": "2026-11-04T07:29:26.820740Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -231,7 +231,7 @@
       "authority": "US Department of State",
       "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
       "kind": "official_rss",
-      "retrieved_at": "2026-11-04T01:17:18.335298Z",
+      "retrieved_at": "2026-11-04T07:29:26.351084Z",
       "status": "ok",
       "title": "US travel advice RSS (filtered: Middle East)",
       "passages": [],
@@ -603,7 +603,7 @@
       "authority": "International Maritime Organization",
       "url": "https://www.imo.org/en/mediacentre/pressbriefings/default.aspx",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T01:17:18.643826Z",
+      "retrieved_at": "2026-11-04T07:29:26.732324Z",
       "status": "ok",
       "title": "International Maritime Organization",
       "passages": [
@@ -668,9 +668,9 @@
       "authority": "Pakistan Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.pk/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T01:17:41.218858Z",
+      "retrieved_at": "2026-11-04T07:29:27.512074Z",
       "status": "error",
-      "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
       "passages": [],
       "links": []
     },
@@ -679,7 +679,7 @@
       "authority": "China Ministry of Foreign Affairs",
       "url": "https://www.fmprc.gov.cn/mfa_eng/index.html",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T01:17:21.166966Z",
+      "retrieved_at": "2026-11-04T07:29:27.463387Z",
       "status": "ok",
       "title": "China Ministry of Foreign Affairs",
       "passages": [],
@@ -689,7 +689,11 @@
           "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/"
         },
         {
-          "title": "Wang Yi Meets with Deputy Secretary of Iran’s Supreme National Security Council Ali Bagheri Kani November 02, 2026",
+          "title": "Wang Yi Meets with Minister of the Ministry of National Planning, Investment and Foreign Economic Relations of Myanmar U Aung Kyaw Hoe November 03, 2026",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/wjbzhd/202611/t20261104_12052937.html"
+        },
+        {
+          "title": "Wang Yi Meets with Deputy Secretary of Iran’s Supreme National Security Council Ali Bagheri Kani",
           "url": "https://www.fmprc.gov.cn/mfa_eng/wjbzhd/202611/t20261103_12052648.html"
         },
         {
@@ -727,7 +731,7 @@
       "authority": "US Treasury",
       "url": "https://home.treasury.gov/news/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T01:17:19.268737Z",
+      "retrieved_at": "2026-11-04T07:29:26.485991Z",
       "status": "ok",
       "title": "US Treasury",
       "passages": [
@@ -792,7 +796,7 @@
       "authority": "US Energy Information Administration",
       "url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T01:17:19.256440Z",
+      "retrieved_at": "2026-11-04T07:29:26.559455Z",
       "status": "ok",
       "title": "US Energy Information Administration",
       "passages": [
@@ -907,7 +911,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T01:17:19.641174Z",
+      "retrieved_at": "2026-11-04T07:29:26.695276Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -995,7 +999,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T01:17:19.981713Z",
+      "retrieved_at": "2026-11-04T07:29:26.829493Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1081,7 +1085,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/qatar",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T01:17:20.093487Z",
+      "retrieved_at": "2026-11-04T07:29:26.862260Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1169,7 +1173,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-04T01:17:20.203050Z",
+      "retrieved_at": "2026-11-04T07:29:26.959707Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1263,7 +1267,7 @@
       "authority": "United Arab Emirates Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.ae/en",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T01:17:22.179241Z",
+      "retrieved_at": "2026-11-04T07:29:30.405972Z",
       "status": "ok",
       "title": "United Arab Emirates Ministry of Foreign Affairs",
       "passages": [
@@ -1292,7 +1296,7 @@
       "authority": "Islamic Republic of Iran Ministry of Foreign Affairs",
       "url": "https://en.mfa.ir/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T01:17:24.428950Z",
+      "retrieved_at": "2026-11-04T07:29:28.706060Z",
       "status": "error",
       "error": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
       "passages": [],
@@ -1303,7 +1307,7 @@
       "authority": "Permanent Mission of Pakistan to the United Nations",
       "url": "https://pakun.org/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T01:17:20.725028Z",
+      "retrieved_at": "2026-11-04T07:29:27.538668Z",
       "status": "ok",
       "title": "Permanent Mission of Pakistan to the United Nations",
       "passages": [
@@ -1317,7 +1321,7 @@
       "authority": "Permanent Mission of China to the United Nations",
       "url": "https://un.china-mission.gov.cn/eng/fyrth/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-04T01:17:22.456080Z",
+      "retrieved_at": "2026-11-04T07:29:28.679684Z",
       "status": "ok",
       "title": "Permanent Mission of China to the United Nations",
       "passages": [
@@ -1451,7 +1455,7 @@
   ],
   "errors": {
     "centcom_releases": "HTTPError: HTTP Error 403: Forbidden",
-    "pakistan_mofa": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>",
+    "pakistan_mofa": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
     "iran_mfa": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
   }
 }
