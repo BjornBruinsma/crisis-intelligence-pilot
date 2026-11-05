@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-05T07:32:06.977751Z",
+  "last_attempt_utc": "2026-11-05T13:25:41.265414Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 20,
-  "active_checked": 5,
+  "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -2344,7 +2344,7 @@
     },
     "3d03b58191e7af286823e186": {
       "event_id": "3d03b58191e7af286823e186",
-      "checked_at": "2026-11-04T13:18:18.660956Z",
+      "checked_at": "2026-11-05T13:25:41.265345Z",
       "version": "official-original-document-v1",
       "research_status": "primary_document_not_found",
       "verified_event": false,
@@ -2401,7 +2401,7 @@
     },
     "bec8b6b635082182407aa2ac": {
       "event_id": "bec8b6b635082182407aa2ac",
-      "checked_at": "2026-11-04T13:18:18.660985Z",
+      "checked_at": "2026-11-05T13:25:41.265371Z",
       "version": "official-original-document-v1",
       "research_status": "documents_found_unassessed",
       "verified_event": false,
@@ -2527,6 +2527,40 @@
           "text_excerpt": "U.S. Energy Information Administration - EIA - Independent Statistics and Analysis"
         }
       ]
+    },
+    "c74bff116f0cf742d5db0f4c": {
+      "event_id": "c74bff116f0cf742d5db0f4c",
+      "checked_at": "2026-11-05T13:25:41.265379Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de onzekere toekomst van de Iran-vredesgesprekken ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "If you get a Migration Notice, you must move to Universal Credit by the deadline date in your letter to keep getting financial support."
+        },
+        {
+          "url": "https://www.gov.uk/self-assessment-tax-returns",
+          "title": "Self Assessment tax returns: Overview - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Send your tax return by the deadline."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -2541,9 +2575,9 @@
       "model_tokens": 3112
     },
     "2026-11-05": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 2973
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 3805
     }
   },
   "last_error": null
