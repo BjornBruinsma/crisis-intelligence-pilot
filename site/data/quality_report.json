@@ -1,48 +1,48 @@
 {
-  "generated_at_utc": "2026-11-05T13:25:41.377886+00:00",
+  "generated_at_utc": "2026-11-05T19:08:20.729152+00:00",
   "definition": "Automatische procescontrole, geen wetenschappelijke validatie van gebeurteniswaarheid.",
   "technical": {
-    "collected_articles": 2473,
-    "tentative_headline_groups": 527,
+    "collected_articles": 2510,
+    "tentative_headline_groups": 526,
     "daily_shortlist": 25,
     "ai_reviewed_shortlist": 25,
     "ai_headline_status": "complete",
     "event_research_status": "complete",
     "event_input_claims": 23,
-    "event_groups_output": 20,
+    "event_groups_output": 19,
     "multiple_claim_clusters": 2,
-    "claims_in_multiple_claim_clusters": 5,
+    "claims_in_multiple_claim_clusters": 6,
     "ids_retained_without_duplicates": true,
     "official_sources_checked": 17,
-    "official_sources_accessible": 14,
+    "official_sources_accessible": 15,
     "official_exact_passage_matches": 0,
     "potential_direct_support_matches": 0,
     "potential_contradictions": 0,
-    "claim_research_checked_active": 7,
+    "claim_research_checked_active": 2,
     "claim_research_status": "complete",
-    "claims_with_original_documents": 6,
+    "claims_with_original_documents": 2,
     "claims_with_unavailable_search": 0,
-    "govuk_search_requests_successful": 7,
+    "govuk_search_requests_successful": 2,
     "original_document_statements_located": 0,
     "original_document_conflicting_statements": 0,
     "verified_events": 0,
     "clustering_method": "ai_pairwise_double_review",
     "proposed_merge_pairs": 5,
-    "accepted_merge_connections": 3,
-    "rejected_merge_proposals": 2,
+    "accepted_merge_connections": 4,
+    "rejected_merge_proposals": 1,
     "independent_auditor_ran": true,
-    "auditor_approved_pairs": 3,
+    "auditor_approved_pairs": 4,
     "rule_rejected_pairs": 0,
     "rss_profiles_ok": 12,
-    "gdelt_queries_ok": 0
+    "gdelt_queries_ok": 1
   },
   "source_breakdown": [
     {
       "authority": "US Central Command",
       "id": "centcom_releases",
-      "status": "error",
-      "passages": 0,
-      "links": 0
+      "status": "ok",
+      "passages": 2,
+      "links": 9
     },
     {
       "authority": "UK Foreign, Commonwealth & Development Office",
@@ -132,7 +132,7 @@
       "authority": "United Arab Emirates Ministry of Foreign Affairs",
       "id": "uae_mofa",
       "status": "ok",
-      "passages": 8,
+      "passages": 9,
       "links": 2
     },
     {
@@ -158,7 +158,7 @@
     }
   ],
   "research_status_breakdown": {
-    "no_matching_primary_evidence": 20
+    "no_matching_primary_evidence": 19
   },
   "uncertainty": {
     "true_cluster_precision": null,
@@ -169,6 +169,6 @@
   },
   "warnings": [
     "Geen specifieke officiële ondersteuning automatisch aangetroffen",
-    "Officiële bronnen onvolledig: centcom_releases, pakistan_mofa, iran_mfa"
+    "Officiële bronnen onvolledig: pakistan_mofa, iran_mfa"
   ]
 }

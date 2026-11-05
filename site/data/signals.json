@@ -1,32 +1,32 @@
 {
-  "updated_at_utc": "2026-11-05T13:25:41.431322+00:00",
+  "updated_at_utc": "2026-11-05T19:08:20.776952+00:00",
   "research_status": "headlines_only_unverified",
   "complete": true,
   "cannot_infer_probability": true,
-  "sample_size_groups": 20,
+  "sample_size_groups": 19,
   "news_direction_groups": {
-    "escalation": 9,
-    "deescalation": 2,
-    "mixed": 5,
-    "neutral": 1,
-    "unclear": 3
+    "escalation": 8,
+    "deescalation": 1,
+    "mixed": 6,
+    "neutral": 2,
+    "unclear": 2
   },
   "high_importance_groups": {
-    "escalation": 4,
+    "escalation": 3,
     "deescalation": 1,
-    "mixed": 1,
+    "mixed": 0,
     "neutral": 0,
-    "unclear": 1
+    "unclear": 0
   },
   "groups_without_ai_direction": 0,
   "verified_event_count": 0,
   "specific_official_matches": 0,
-  "official_sources_accessible": 14,
+  "official_sources_accessible": 15,
   "official_sources_checked": 17,
   "clustering_status": "complete",
   "quality_warnings": [
     "Geen specifieke officiële ondersteuning automatisch aangetroffen",
-    "Officiële bronnen onvolledig: centcom_releases, pakistan_mofa, iran_mfa"
+    "Officiële bronnen onvolledig: pakistan_mofa, iran_mfa"
   ],
   "method": "One provisional group yields one editorial direction, not one real event."
 }
