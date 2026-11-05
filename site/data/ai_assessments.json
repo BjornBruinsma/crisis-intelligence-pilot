@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-04T19:10:12.614544Z",
+  "last_attempt_utc": "2026-11-05T01:19:25.787246Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -3303,13 +3303,25 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-04T19:10:11.614344Z"
+    },
+    "0b9a09dcafd96a": {
+      "id": "0b9a09dcafd96a",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "event_claim",
+      "summary_nl": "Er wordt beweerd dat er een golf van bomdreigingen gericht is op zes Europese vluchten.",
+      "claimed_event_nl": "Wave of bomb threats targeting six European flights.",
+      "reason_nl": "Deze claim is niet direct gerelateerd aan Iran of de Golfregio en heeft geen duidelijke impact op regionale escalatie of economische gevolgen.",
+      "limitations_nl": "De claim is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-05T01:19:24.787009Z"
     }
   },
   "usage_by_day": {
-    "2026-11-02": {
-      "requests": 7,
-      "total_tokens": 9884
-    },
     "2026-11-03": {
       "requests": 10,
       "total_tokens": 13751
@@ -3317,6 +3329,10 @@
     "2026-11-04": {
       "requests": 5,
       "total_tokens": 6309
+    },
+    "2026-11-05": {
+      "requests": 1,
+      "total_tokens": 654
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-04T19:10:58.305551Z",
+  "last_attempt_utc": "2026-11-05T01:20:19.651727Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 18,
-  "active_checked": 4,
+  "active_checked": 6,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -2419,14 +2419,107 @@
           "text_excerpt": "How many times you can change your test"
         }
       ]
+    },
+    "92419c4eef1a82eb9e16ded4": {
+      "event_id": "92419c4eef1a82eb9e16ded4",
+      "checked_at": "2026-11-05T01:20:19.651664Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over een Amerikaanse aanval op Qeshm Island ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/check-uk-visa",
+          "title": "Check if you need a UK visa - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Travel or do business in Europe: Brexit guidance"
+        },
+        {
+          "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
+          "title": "HMRC online services: sign in or set up an account: Sign in or set up an account - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Sign in to your HM Revenue and Customs (HMRC) online account for things like a personal or business tax account, Self Assessment, Corporation Tax, PAYE for employers, VAT and the Construction Industry Scheme."
+        }
+      ]
+    },
+    "7f061a06993871a137f3044b": {
+      "event_id": "7f061a06993871a137f3044b",
+      "checked_at": "2026-11-05T01:20:19.651692Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over Amerikaanse aanvallen op Qeshm Island ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        },
+        {
+          "url": "https://www.gov.uk/sign-in-universal-credit",
+          "title": "Sign in to your Universal Credit account - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        }
+      ]
+    },
+    "50d91e1f94fdcdf3132e71b1": {
+      "event_id": "50d91e1f94fdcdf3132e71b1",
+      "checked_at": "2026-11-05T01:20:19.651697Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over Amerikaanse aanvallen op een Iraanse eiland ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/find-energy-certificate",
+          "title": "Find an energy certificate - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Find an energy certificate for a property in England, Wales or Northern Ireland. This includes homes, business properties and public buildings."
+        },
+        {
+          "url": "https://www.eia.gov/energyexplained/what-is-energy/",
+          "title": "What is energy? explained - U.S. Energy Information Administration (EIA)",
+          "source_publication_date": null,
+          "text_excerpt": "U.S. Energy Information Administration - EIA - Independent Statistics and Analysis"
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-02": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 5662
-    },
     "2026-11-03": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -2436,6 +2529,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 3112
+    },
+    "2026-11-05": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1232
     }
   },
   "last_error": null

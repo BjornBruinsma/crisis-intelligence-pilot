@@ -1,40 +1,39 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-04T19:10:35.803554Z",
-  "fingerprint": "f8fffac79c315da8e0842e7d",
+  "last_attempt_utc": "2026-11-05T01:19:48.738421Z",
+  "fingerprint": "348d29990ad14d03a4c70d66",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 22,
+  "input_candidate_count": 21,
   "event_candidate_count": 18,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 6,
-    "accepted_pair_connections": 4,
+    "model_pair_proposals": 5,
+    "accepted_pair_connections": 3,
     "rejected_pair_proposals": 2,
-    "multi_claim_groups": 3,
-    "claims_in_multi_groups": 7,
+    "multi_claim_groups": 2,
+    "claims_in_multi_groups": 5,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 4,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-04T19:10:35.803554Z",
+    "recorded_at": "2026-11-05T01:19:48.738421Z",
     "groups": [
       {
         "ids": [
-          "c5b0d33767bceb",
-          "b1384286f16470"
+          "c5b0d33767bceb"
         ],
         "label_nl": "Claim: Reports: U.S. attacks Iran’s Qeshm Island - Gephardt Daily",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -57,6 +56,18 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "b1384286f16470",
+          "31322ffc0230e6"
+        ],
+        "label_nl": "Claim: Oil rises after report of US strike on Iran's Qeshm Island - Business Recorder",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -161,18 +172,6 @@
       },
       {
         "ids": [
-          "31322ffc0230e6",
-          "8e951906734d17"
-        ],
-        "label_nl": "Claim: US strikes Iran’s Qeshm Island — report - Gulf Business",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
-      },
-      {
-        "ids": [
           "4201c8b6ad095b"
         ],
         "label_nl": "Claim: Who determines Iran’s fighting and negotiating position amid US threats? - Al Jazeera",
@@ -206,9 +205,9 @@
       },
       {
         "ids": [
-          "35ef0d8e0b3651"
+          "8e951906734d17"
         ],
-        "label_nl": "Claim: Aramco explores East-West Pipeline expansion as Hormuz disruption reshapes oil exports - Traders Union",
+        "label_nl": "Claim: Energy briefs–U.S. strikes on Iranian island as talks continue - Oklahoma Energy Today",
         "actor": "",
         "action": "",
         "place": "",
@@ -217,9 +216,9 @@
       },
       {
         "ids": [
-          "1d62610c7da99f"
+          "35ef0d8e0b3651"
         ],
-        "label_nl": "Claim: Iran war's unlikely winner: How Oman is turning a regional crisis into an economic opportunity - Moneycontrol.com",
+        "label_nl": "Claim: Aramco explores East-West Pipeline expansion as Hormuz disruption reshapes oil exports - Traders Union",
         "actor": "",
         "action": "",
         "place": "",
@@ -248,12 +247,11 @@
       "2c4878f0af06a7",
       "d894d32d5fd8c0",
       "8e951906734d17",
-      "35ef0d8e0b3651",
-      "1d62610c7da99f"
+      "35ef0d8e0b3651"
     ]
   },
   "official_sources_available": 14,
-  "direct_official_match_count": 3,
+  "direct_official_match_count": 5,
   "events": [
     {
       "id": "3d03b58191e7af286823e186",
@@ -296,90 +294,87 @@
         "authority": "UK Foreign, Commonwealth & Development Office",
         "evidence_id": "uk_iran:p13",
         "exact_excerpt": "The US and Israel have struck infrastructure across Iran. There are reports that suggest ports, roads, railways, bridges, energy facilities, oil production",
-        "relation": "related_only",
-        "reason_nl": "Deze passage vermeldt aanvallen door de VS op infrastructuur in Iran, maar specificeert geen defensieve aanval op een eiland.",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim dat de VS een defensieve aanval op een Iraanse locatie hebben uitgevoerd.",
         "automatic_match_only": true
       },
-      "research_status": "related_official_material_only",
+      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "f03aee94864427ae1adf4927",
-      "label_nl": "Claim: Reports: U.S. attacks Iran’s Qeshm Island - Gephardt Daily",
+      "id": "92419c4eef1a82eb9e16ded4",
+      "label_nl": "Claim: Oil rises after report of US strike on Iran's Qeshm Island - Business Recorder",
       "headline_claim_ids": [
-        "c5b0d33767bceb",
-        "b1384286f16470"
+        "b1384286f16470",
+        "31322ffc0230e6"
       ],
       "headline_claims": [
-        "Reports: U.S. attacks Iran’s Qeshm Island - Gephardt Daily",
-        "Oil rises after report of US strike on Iran's Qeshm Island - Business Recorder"
+        "Oil rises after report of US strike on Iran's Qeshm Island - Business Recorder",
+        "US strikes Iran’s Qeshm Island — report - Gulf Business"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRDZCYkpaSTJLaTVraVItU1c1NGd4ZFZ3Wl9LNDRJTWxSblowYW5BY2tpbUR3S1pSa0U2OXJ4RFV6VmxXem5oYVVFWG41U0h4NnN6aHVsamQ1bl96V0FtZDFuSUpkMktQQ3hCSm5hZzJzOTFoZmhaTzlSU3NSdEw2c21iOTV3cW8yeXYzSU80bTZyX0wyLTU5MlNKdWpobnpWNjk3QTZ5Y9IBVkFVX3lxTE9BY2R0SXFDamd1M2pFdDZPTEk4SzJ3NTlRYXdEZVl2NTVGc2JMUVUxN0NVb0JVNGd0SGN1ajBYbXRsX19Qd0thdGU3VkNsRUlJdTdiRDN3?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxPVG1JRW1udmFlY1NuVmlSWkUzN2w4UHg5TlExS0VZVmNza0RrN2NKeXJVaTNOLWFIZi1jbWZ2SkVldTZGRHRLR05KYVBsLWdnWEJJS3NoeXJzYjV6VjBQVGVKZS1iaDZVcnpyN01rX1Z1MHk2NmF6U05QNFpaSldENUxiWHB2N1hpeGhvRG9KaVVEZ21BbGNYTzh0Sm9ZZ9IBVkFVX3lxTE9BY2R0SXFDamd1M2pFdDZPTEk4SzJ3NTlRYXdEZVl2NTVGc2JMUVUxN0NVb0JVNGd0SGN1ajBYbXRsX19Qd0thdGU3VkNsRUlJdTdiRDN3?oc=5",
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdVlKOFRlMlI5bGJYeVNIN2gyZTJpd1dobnVDNWo1Q2ZxbEZjTThra1V4QThzRF9GQ3JGLUdnYzR0UnIwR2ZpNFpPa0M5bVFtZ0dBVV9tMGZTX2Z4VG9MTGRkSjI2c1pZRWVvWGl5bW5haE5ObG5TNVBUZHgyX1dRa09aaExBdFJXcjc0?oc=5",
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYmx5MDRmWkdoMW80TC1XS0lpY05kdkRSeFhSTG54VTdVQWVYaUxaRmlPb09OYlNqQWt0OUU5LS01azlybXJWTHZOYS1Icnp5RjltYmpKUUNraS1sVmFKUUNYRVFwTVFjd2ZsR21XRjNMYVJ5VWpYMm91RDRFZUo5TWQwWXpSTUFGbVFn?oc=5",
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRjFRZTgwNlZpbFlBcllqMExyYjBkSDZLdDJ3cWVjckxuSkFLZ1lCTy1hVUFOQVdHVF9yXy1zQlZXNEZZXzlXR3FRQm1OcnVxZjJsdENmNERxVTBaV2VNbnMxc2VMeEFFTHJiOVZURTc2NS1nT1FuWTNObWVUVHZKMEFjSnB5MmdtYkE?oc=5",
+        "https://www.thehindu.com/news/international/us-strikes-irans-qeshm-island-report/article71659212.ece"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 6,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran. There are reports that suggest ports, roads, railways, bridges, energy facilities, oil production",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim dat er een Amerikaanse aanval op Iran's infrastructuur heeft plaatsgevonden.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "7f061a06993871a137f3044b",
+      "label_nl": "Claim: Reports: U.S. attacks Iran’s Qeshm Island - Gephardt Daily",
+      "headline_claim_ids": [
+        "c5b0d33767bceb"
+      ],
+      "headline_claims": [
+        "Reports: U.S. attacks Iran’s Qeshm Island - Gephardt Daily"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUnJQUjN2MmE0bHIxTmVIRzdkOU9CU21yNm43ZE01OFgyYmJqSG5QSnFkTEtZNXVveXpCa20taXMzb0I5MnZkWWdXTF9iQ0E3N1I2dXlleXpUU2txZ29BRFFzU2ppM3Q2bzd0Z2Z0bHdXd3VYSFJpRDNvYXVGYndab0oySQ?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MQ282eDRuX08zNm44UVpVQXRRT0psNUtOYk1SSld4THhWbHNEQWZ5cE1wczY0LXJ6V19Pb1RGZzRtaC0tZFdnbG1MbHVHR1hielJybGV0ckd2RGNRNHVWNzhvU0p2NlZPaDh4WnpCdDNOajBJczNYR3hoYmJuWUHSAX9BVV95cUxNTENvNng0bl9PMzZuOFFaVUF0UU9KbDVLTmJNUkpXeEx4VmxzREFmeXBNcHM2NC1yeldfT29URmc0bWgtLWRXZ2xtTGx1R0dYYnpScmxldHJHdkRjUTR1Vjc4b1NKdjZWT2g4eFp6QnQzTmowSXMzWEd4aGJibllB?oc=5",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRDZCYkpaSTJLaTVraVItU1c1NGd4ZFZ3Wl9LNDRJTWxSblowYW5BY2tpbUR3S1pSa0U2OXJ4RFV6VmxXem5oYVVFWG41U0h4NnN6aHVsamQ1bl96V0FtZDFuSUpkMktQQ3hCSm5hZzJzOTFoZmhaTzlSU3NSdEw2c21iOTV3cW8yeXYzSU80bTZyX0wyLTU5MlNKdWpobnpWNjk3QTZ5Y9IBVkFVX3lxTE9BY2R0SXFDamd1M2pFdDZPTEk4SzJ3NTlRYXdEZVl2NTVGc2JMUVUxN0NVb0JVNGd0SGN1ajBYbXRsX19Qd0thdGU3VkNsRUlJdTdiRDN3?oc=5",
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxPVG1JRW1udmFlY1NuVmlSWkUzN2w4UHg5TlExS0VZVmNza0RrN2NKeXJVaTNOLWFIZi1jbWZ2SkVldTZGRHRLR05KYVBsLWdnWEJJS3NoeXJzYjV6VjBQVGVKZS1iaDZVcnpyN01rX1Z1MHk2NmF6U05QNFpaSldENUxiWHB2N1hpeGhvRG9KaVVEZ21BbGNYTzh0Sm9ZZ9IBVkFVX3lxTE9BY2R0SXFDamd1M2pFdDZPTEk4SzJ3NTlRYXdEZVl2NTVGc2JMUVUxN0NVb0JVNGd0SGN1ajBYbXRsX19Qd0thdGU3VkNsRUlJdTdiRDN3?oc=5",
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdVlKOFRlMlI5bGJYeVNIN2gyZTJpd1dobnVDNWo1Q2ZxbEZjTThra1V4QThzRF9GQ3JGLUdnYzR0UnIwR2ZpNFpPa0M5bVFtZ0dBVV9tMGZTX2Z4VG9MTGRkSjI2c1pZRWVvWGl5bW5haE5ObG5TNVBUZHgyX1dRa09aaExBdFJXcjc0?oc=5"
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MQ282eDRuX08zNm44UVpVQXRRT0psNUtOYk1SSld4THhWbHNEQWZ5cE1wczY0LXJ6V19Pb1RGZzRtaC0tZFdnbG1MbHVHR1hielJybGV0ckd2RGNRNHVWNzhvU0p2NlZPaDh4WnpCdDNOajBJczNYR3hoYmJuWUHSAX9BVV95cUxNTENvNng0bl9PMzZuOFFaVUF0UU9KbDVLTmJNUkpXeEx4VmxzREFmeXBNcHM2NC1yeldfT29URmc0bWgtLWRXZ2xtTGx1R0dYYnpScmxldHJHdkRjUTR1Vjc4b1NKdjZWT2g4eFp6QnQzTmowSXMzWEd4aGJibllB?oc=5"
       ],
-      "article_group_count": 2,
-      "news_url_count": 5,
+      "article_group_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": {
         "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
         "authority": "UK Foreign, Commonwealth & Development Office",
         "evidence_id": "uk_iran:p13",
         "exact_excerpt": "The US and Israel have struck infrastructure across Iran. There are reports that suggest ports, roads, railways, bridges, energy facilities, oil production",
-        "relation": "related_only",
-        "reason_nl": "Deze passage vermeldt dat de VS en Israël infrastructuur in Iran hebben aangevallen, maar specificeert geen aanval op Qeshm Island.",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim dat er aanvallen door de VS op Iran hebben plaatsgevonden.",
         "automatic_match_only": true
       },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "a728b3e4ed36b7223ffc461c",
-      "label_nl": "Claim: US strikes Iran’s Qeshm Island — report - Gulf Business",
-      "headline_claim_ids": [
-        "31322ffc0230e6",
-        "8e951906734d17"
-      ],
-      "headline_claims": [
-        "US strikes Iran’s Qeshm Island — report - Gulf Business",
-        "Energy briefs–U.S. strikes on Iranian island as talks continue - Oklahoma Energy Today"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYmx5MDRmWkdoMW80TC1XS0lpY05kdkRSeFhSTG54VTdVQWVYaUxaRmlPb09OYlNqQWt0OUU5LS01azlybXJWTHZOYS1Icnp5RjltYmpKUUNraS1sVmFKUUNYRVFwTVFjd2ZsR21XRjNMYVJ5VWpYMm91RDRFZUo5TWQwWXpSTUFGbVFn?oc=5",
-        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRjFRZTgwNlZpbFlBcllqMExyYjBkSDZLdDJ3cWVjckxuSkFLZ1lCTy1hVUFOQVdHVF9yXy1zQlZXNEZZXzlXR3FRQm1OcnVxZjJsdENmNERxVTBaV2VNbnMxc2VMeEFFTHJiOVZURTc2NS1nT1FuWTNObWVUVHZKMEFjSnB5MmdtYkE?oc=5",
-        "https://www.thehindu.com/news/international/us-strikes-irans-qeshm-island-report/article71659212.ece",
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTliQzJQN2ktSG02RldENk9pTm44MEdnZElkSmlMenRkamFoMnlvVy13T2VsRHlnQzQ5WW10WV9FdENXbjNCR3RrbWpVREUtT2ZRQjZvWVdoT0FIRFJ1UUdDZ1VMRUJOQnZqdjI4SnNOZGhGcTVWeUNtVEc1N0NIYzFhVlE3SzJLY2dpYS1MRWxaRVJIV25aV1hLUHc?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 4,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p13",
-        "exact_excerpt": "The US and Israel have struck infrastructure across Iran. There are reports that suggest ports, roads, railways, bridges, energy facilities, oil production",
-        "relation": "related_only",
-        "reason_nl": "Deze passage vermeldt aanvallen door de VS op infrastructuur in Iran, maar specificeert geen aanval op Qeshm Island.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -412,10 +407,44 @@
         "evidence_id": "uk_iran:p6",
         "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
         "relation": "related_only",
-        "reason_nl": "Deze passage benadrukt de onvoorspelbaarheid van de situatie in het Midden-Oosten, maar bevestigt geen specifieke onderhandelingen tussen Iran en de VS.",
+        "reason_nl": "Deze passage geeft een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke onderhandelingen.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "50d91e1f94fdcdf3132e71b1",
+      "label_nl": "Claim: Energy briefs–U.S. strikes on Iranian island as talks continue - Oklahoma Energy Today",
+      "headline_claim_ids": [
+        "8e951906734d17"
+      ],
+      "headline_claims": [
+        "Energy briefs–U.S. strikes on Iranian island as talks continue - Oklahoma Energy Today"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTliQzJQN2ktSG02RldENk9pTm44MEdnZElkSmlMenRkamFoMnlvVy13T2VsRHlnQzQ5WW10WV9FdENXbjNCR3RrbWpVREUtT2ZRQjZvWVdoT0FIRFJ1UUdDZ1VMRUJOQnZqdjI4SnNOZGhGcTVWeUNtVEc1N0NIYzFhVlE3SzJLY2dpYS1MRWxaRVJIV25aV1hLUHc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran. There are reports that suggest ports, roads, railways, bridges, energy facilities, oil production",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim dat er Amerikaanse aanvallen op een Iraanse locatie hebben plaatsgevonden.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -440,51 +469,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
-        "authority": "US Department of State",
-        "evidence_id": "us_advisories:l7",
-        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting of American interests by Iran and the Iranian-supported Houthis, armed conflic",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim over waarschuwingen voor mogelijke Houthi-aanvallen en risico's voor Amerikaanse belangen in Saoedi-Arabië.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "1a46284acf7adf9fcb68027c",
-      "label_nl": "Claim: US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airport disruptions amid rising tensions - inkl",
-      "headline_claim_ids": [
-        "74d345785d102a"
-      ],
-      "headline_claims": [
-        "US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airport disruptions amid rising tensions - inkl"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcHJwY19XaWpsc2FoMmN1OTBrVExEWTJRdDBrXzBhcThGdGh3NVEwWXVLYVRKOTBuYjBRYnZtMEZpcGlycmY0anZ2WVFKcko2WVlZQVl2Rk1tdXFRbTZhUDJDeWZrTk5kRUkwYnNWaU1QVUN1ZDBXMHd5QzhKYjFIVDB1bDJsRlhQSFo4RXVXYkM1aUVZYU9GVmFnUTktbGtsNmZtNnQ1V21wV2FZeWd1VDlxSFJLVU85QkUyYjFGcE82c21XNS1EOTh3S0xzMnlE?oc=5",
-        "https://news.google.com/rss/articles/CBMikAJBVV95cUxOcWNad0hlYTY1YVcyOTBjS3hHd3hReDVBQXVGcGljbU1Zbzg5UEhQTDVaZVB0SF9LdzlRR013ak9HTWQzbVBEVEZ5cGZNM0F3YUlmRUsxRWtKUER0OEZhNjVFVlN3WlMyOXEyT3hHc0t6Njgzci10ZWo4TnoxQUN4a2c0QjZsVkkyQUJ1ZUlORnI2X09KUzhiTkQ5S1RVNnNabHRMc0ZWbW9BbGVTSE94aWMtdHVGaGFmZno1UjBIdE15ZXE3UDF5ZFZQbmdfR184a3B1ZzFGUk5XZ0hMR1FVZDFZdlNhdEVocWZRVmUzSV9LSldGMC1nWWwwV3FFY0VJdmxrMWFsZnc3TURCclpQNdIBkAJBVV95cUxOcWNad0hlYTY1YVcyOTBjS3hHd3hReDVBQXVGcGljbU1Zbzg5UEhQTDVaZVB0SF9LdzlRR013ak9HTWQzbVBEVEZ5cGZNM0F3YUlmRUsxRWtKUER0OEZhNjVFVlN3WlMyOXEyT3hHc0t6Njgzci10ZWo4TnoxQUN4a2c0QjZsVkkyQUJ1ZUlORnI2X09KUzhiTkQ5S1RVNnNabHRMc0ZWbW9BbGVTSE94aWMtdHVGaGFmZno1UjBIdE15ZXE3UDF5ZFZQbmdfR184a3B1ZzFGUk5XZ0hMR1FVZDFZdlNhdEVocWZRVmUzSV9LSldGMC1nWWwwV3FFY0VJdmxrMWFsZnc3TURCclpQNQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
-        "authority": "US Department of State",
-        "evidence_id": "us_advisories:l7",
-        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting of American interests by Iran and the Iranian-supported Houthis, armed conflic",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim over waarschuwingen voor mogelijke Houthi-aanvallen en risico's voor Amerikaanse belangen in Saoedi-Arabië.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -516,7 +502,7 @@
         "evidence_id": "uk_iran:p6",
         "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
         "relation": "related_only",
-        "reason_nl": "Deze passage geeft een algemene context over de onvoorspelbaarheid in het Midden-Oosten, maar bevestigt geen specifieke informatie over een staakt-het-vuren.",
+        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke informatie over een staakt-het-vuren.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
@@ -533,10 +519,11 @@
         "UAE weighs third oil pipeline to bypass Strait of Hormuz as Gulf export routes face pressure - Business Upturn"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQa2VYQ3VmeHZISTA4eWFoMmpwUVYtTFdyci1MNGt2M1VqNkJkQUZIX3cyWmo0QzhDQUk0dDVnSklmRXFib3JmWGZDQXdJeTBheFhCRzJ6OGVERjl6Njl4SjNpLW5hbnkxV3RrdlRMVjJ3ZFExMnpHZGJSYm01NVJEelE1MVhSeldSdmhkZHdUZFVrNWZ4d0xkb0l4QUxKUHBjRjVpNWJqOTVUdlZwcmNIUmx5SXUxOC1EMjZhZWhFMHRLVUdwVEpaMVU0UkFZMzREWDdzUkt0MUtBQ19DVUF6X2VaTkQyM2dhaG9hRzJfclhzb1hiblBRZ0otOA?oc=5"
+        "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQa2VYQ3VmeHZISTA4eWFoMmpwUVYtTFdyci1MNGt2M1VqNkJkQUZIX3cyWmo0QzhDQUk0dDVnSklmRXFib3JmWGZDQXdJeTBheFhCRzJ6OGVERjl6Njl4SjNpLW5hbnkxV3RrdlRMVjJ3ZFExMnpHZGJSYm01NVJEelE1MVhSeldSdmhkZHdUZFVrNWZ4d0xkb0l4QUxKUHBjRjVpNWJqOTVUdlZwcmNIUmx5SXUxOC1EMjZhZWhFMHRLVUdwVEpaMVU0UkFZMzREWDdzUkt0MUtBQ19DVUF6X2VaTkQyM2dhaG9hRzJfclhzb1hiblBRZ0otOA?oc=5",
+        "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOekIza0k5aHpNRFVvejJIbjdmVHBvRm5mNmxZNUdRdFRFSE5RaGZtNFFGeVlnTmxaV0J6NGllZThoNkZrZ1FoSlNLUW9TSGRBaUppX19qRDhkaENPNXlLYjhuWHJNamtILWhOYURBZU13UXJPNmRpSUJlZXZEcXlzNjVuUXZlLUZ4SmNRSUdoa0s5VG0yRGRqbndtQ3VfaUhzVlRmdnYwMGNUZXhoSXVXanZUMnFDek9ReFJwSUphVmJkVVJqdlNEM3ljUjRkR2NfaWViWWpiZTNiaVFldmkyQWJnbEhEMVc1QURTa3dNTk91X2JvQlE?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -550,7 +537,7 @@
         "evidence_id": "uk_iran:p6",
         "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
         "relation": "related_only",
-        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke plannen voor een oliepijpleiding.",
+        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke informatie over olie-pijpleidingen.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
@@ -584,7 +571,7 @@
         "evidence_id": "uk_iran:p6",
         "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
         "relation": "related_only",
-        "reason_nl": "Deze passage benadrukt de onvoorspelbaarheid van de situatie, maar bevestigt geen specifieke impact van de oorlog op de Amerikaanse midterms.",
+        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke informatie over de impact op de economie van Iran.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
@@ -618,44 +605,10 @@
         "evidence_id": "uk_iran:p6",
         "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
         "relation": "related_only",
-        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke reactie van Iran op een plan.",
+        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke informatie over de reactie van de VS op het Hormuz-plan.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "dab9c12ed1530c80d6528e20",
-      "label_nl": "Claim: US Issues Warning To Citizens Over Possible Houthi Attacks On Saudi Arabia - NDTV",
-      "headline_claim_ids": [
-        "b0a8a22c38d93c"
-      ],
-      "headline_claims": [
-        "US Issues Warning To Citizens Over Possible Houthi Attacks On Saudi Arabia - NDTV"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMnRkclVaZDlZOVJONmVfT1ZHTXQydk5SX2E3d1dsR2RpR2o0ZjZtN19XcTUxa2lMeVlCdlBsWGV1SXdkRlFFMTdOcWJ4al9QZExtakFFazh3ZlUwdU12VFgxaHlqdFNQZ3NBYjlBbE1SX2FXSEVaSGpZYnVCUlgxVGh0ekFoQXN6a2FNT1d0MW04amtfVV91WFdIRVRHQnJzZkNoYzV2MHJNNlVnNm5GMTRPVnNqZ9IBvgFBVV95cUxPRDJmRTQ2ZXFlUlJLYzYzdkN1dzcwOUx6amotNlEzRkx6ZDdwSUVJWGF0ZG9rbG50dGc4UUIydkUxdzZtczN2cTJYb0hUS1lJV3ZrMVFRRnJUcExqY1djLW9jcmdleXhiQkJLVGJkR3VWMlh0R0ZfUktaZnVsaG1IZ1cycTF5Smp3VFdFRVQ1SFpKOGlZclRXRlV5SmR6X0dIbXN5bXctajlmM0Z2aU5hNDd3MTJfVzBTcjhvOVVn?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
-        "authority": "US Department of State",
-        "evidence_id": "us_advisories:l7",
-        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting of American interests by Iran and the Iranian-supported Houthis, armed conflic",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim over waarschuwingen voor mogelijke Houthi-aanvallen en risico's voor Amerikaanse belangen in Saoedi-Arabië.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -686,7 +639,7 @@
         "evidence_id": "uk_iran:p6",
         "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
         "relation": "related_only",
-        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke impact op olieprijzen.",
+        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke informatie over olieprijzen.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
@@ -720,7 +673,7 @@
         "evidence_id": "uk_iran:p6",
         "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
         "relation": "related_only",
-        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke kosten voor Europa.",
+        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke informatie over de kosten voor Europa.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
@@ -754,7 +707,7 @@
         "evidence_id": "uk_iran:p6",
         "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
         "relation": "related_only",
-        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke belangen van Iran.",
+        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke informatie over Iran's strategie.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
@@ -788,7 +741,7 @@
         "evidence_id": "uk_iran:p6",
         "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
         "relation": "related_only",
-        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke informatie over Iran's strategie.",
+        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke informatie over wie de positie van Iran bepaalt.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
@@ -819,13 +772,13 @@
       "primary_evidence": {
         "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
         "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke impact op olieprijzen.",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran. There are reports that suggest ports, roads, railways, bridges, energy facilities, oil production",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim dat de olieprijzen zijn gestegen na een Amerikaanse aanval op Iran.",
         "automatic_match_only": true
       },
-      "research_status": "related_official_material_only",
+      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -856,7 +809,7 @@
         "evidence_id": "uk_iran:p6",
         "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
         "relation": "related_only",
-        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke plannen van Aramco.",
+        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke informatie over de uitbreiding van de olie-pijpleiding.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
@@ -864,16 +817,43 @@
       "probability_estimate": null
     },
     {
-      "id": "427f080ca58cde2028b5080e",
-      "label_nl": "Claim: Iran war's unlikely winner: How Oman is turning a regional crisis into an economic opportunity - Moneycontrol.com",
+      "id": "1a46284acf7adf9fcb68027c",
+      "label_nl": "Claim: US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airport disruptions amid rising tensions - inkl",
       "headline_claim_ids": [
-        "1d62610c7da99f"
+        "74d345785d102a"
       ],
       "headline_claims": [
-        "Iran war's unlikely winner: How Oman is turning a regional crisis into an economic opportunity - Moneycontrol.com"
+        "US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airport disruptions amid rising tensions - inkl"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQU0dRT3hkQlZfUkxHY0dVMU9RcG1lWWJqWFJyVmNwaVNYX0VWV2FPZGRzdFhlMEh1aHlKLVhrWFRUb0ZNZzIxX1dBV2R3X2VXU1hFUkM2Y0lLemVZZjN2aUZIQ1NnVU0xWWZkMFQxSlFWbTM0QlRoaVVZcXZfUTNJb2Z6cXRDS0x0S3ZkRzZBMFJRU3p2U2VJVUJ4ZFBFT2lkdnhHc180MjZNUmVicFJHOHZQNGxLNTZ5Z3JkeE9kbUtBdkkydzF1S2N1OXJEU09fUVl4aWxlLXRJWk9sM005VTVNczfSAeoBQVVfeXFMTWNLY29NalN0SUhHcW0xcVlFdXhaREZiNUxmcllkMnRfUVdTaFR1NkpkOU5XU0NOR3NXb3JadXpYclZwdW1pR1RTaERKYXR4RFJRYmM1M3UwU09zN3BjcDExMFJuT190RWRwekFNc3ZGdDdZZ09QTW5Xd3dYZU1DYjhuRmd0ZjZIMjNWbGRvVjhaU3lncUdkMzktajhkbVZUaUpRdWRCVldzcGZ5NXZXQjJZMzdxTXVzQWo2c3JRSzFjZDhvLUhnSHRNcU5RWDF1TW1GQ3ByaWtoVlJjVkkzU2FJTEc2d0VWdWhn?oc=5"
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcHJwY19XaWpsc2FoMmN1OTBrVExEWTJRdDBrXzBhcThGdGh3NVEwWXVLYVRKOTBuYjBRYnZtMEZpcGlycmY0anZ2WVFKcko2WVlZQVl2Rk1tdXFRbTZhUDJDeWZrTk5kRUkwYnNWaU1QVUN1ZDBXMHd5QzhKYjFIVDB1bDJsRlhQSFo4RXVXYkM1aUVZYU9GVmFnUTktbGtsNmZtNnQ1V21wV2FZeWd1VDlxSFJLVU85QkUyYjFGcE82c21XNS1EOTh3S0xzMnlE?oc=5",
+        "https://news.google.com/rss/articles/CBMikAJBVV95cUxOcWNad0hlYTY1YVcyOTBjS3hHd3hReDVBQXVGcGljbU1Zbzg5UEhQTDVaZVB0SF9LdzlRR013ak9HTWQzbVBEVEZ5cGZNM0F3YUlmRUsxRWtKUER0OEZhNjVFVlN3WlMyOXEyT3hHc0t6Njgzci10ZWo4TnoxQUN4a2c0QjZsVkkyQUJ1ZUlORnI2X09KUzhiTkQ5S1RVNnNabHRMc0ZWbW9BbGVTSE94aWMtdHVGaGFmZno1UjBIdE15ZXE3UDF5ZFZQbmdfR184a3B1ZzFGUk5XZ0hMR1FVZDFZdlNhdEVocWZRVmUzSV9LSldGMC1nWWwwV3FFY0VJdmxrMWFsZnc3TURCclpQNdIBkAJBVV95cUxOcWNad0hlYTY1YVcyOTBjS3hHd3hReDVBQXVGcGljbU1Zbzg5UEhQTDVaZVB0SF9LdzlRR013ak9HTWQzbVBEVEZ5cGZNM0F3YUlmRUsxRWtKUER0OEZhNjVFVlN3WlMyOXEyT3hHc0t6Njgzci10ZWo4TnoxQUN4a2c0QjZsVkkyQUJ1ZUlORnI2X09KUzhiTkQ5S1RVNnNabHRMc0ZWbW9BbGVTSE94aWMtdHVGaGFmZno1UjBIdE15ZXE3UDF5ZFZQbmdfR184a3B1ZzFGUk5XZ0hMR1FVZDFZdlNhdEVocWZRVmUzSV9LSldGMC1nWWwwV3FFY0VJdmxrMWFsZnc3TURCclpQNQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "dab9c12ed1530c80d6528e20",
+      "label_nl": "Claim: US Issues Warning To Citizens Over Possible Houthi Attacks On Saudi Arabia - NDTV",
+      "headline_claim_ids": [
+        "b0a8a22c38d93c"
+      ],
+      "headline_claims": [
+        "US Issues Warning To Citizens Over Possible Houthi Attacks On Saudi Arabia - NDTV"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMnRkclVaZDlZOVJONmVfT1ZHTXQydk5SX2E3d1dsR2RpR2o0ZjZtN19XcTUxa2lMeVlCdlBsWGV1SXdkRlFFMTdOcWJ4al9QZExtakFFazh3ZlUwdU12VFgxaHlqdFNQZ3NBYjlBbE1SX2FXSEVaSGpZYnVCUlgxVGh0ekFoQXN6a2FNT1d0MW04amtfVV91WFdIRVRHQnJzZkNoYzV2MHJNNlVnNm5GMTRPVnNqZ9IBvgFBVV95cUxPRDJmRTQ2ZXFlUlJLYzYzdkN1dzcwOUx6amotNlEzRkx6ZDdwSUVJWGF0ZG9rbG50dGc4UUIydkUxdzZtczN2cTJYb0hUS1lJV3ZrMVFRRnJUcExqY1djLW9jcmdleXhiQkJLVGJkR3VWMlh0R0ZfUktaZnVsaG1IZ1cycTF5Smp3VFdFRVQ1SFpKOGlZclRXRlV5SmR6X0dIbXN5bXctajlmM0Z2aU5hNDd3MTJfVzBTcjhvOVVn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -882,27 +862,15 @@
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
-      "editorial_importance": "low",
+      "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage biedt een algemene context over de situatie in het Midden-Oosten, maar bevestigt geen specifieke economische kansen voor Oman.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-11-02": {
-      "requests": 12,
-      "total_tokens": 36326
-    },
     "2026-11-03": {
       "requests": 12,
       "total_tokens": 37439
@@ -910,6 +878,10 @@
     "2026-11-04": {
       "requests": 12,
       "total_tokens": 36102
+    },
+    "2026-11-05": {
+      "requests": 3,
+      "total_tokens": 9189
     }
   }
 }
