@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-05T19:08:20.651747Z",
+  "last_attempt_utc": "2026-11-06T01:23:21.249613Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 19,
-  "active_checked": 2,
+  "active_total": 18,
+  "active_checked": 5,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -2561,14 +2561,107 @@
           "text_excerpt": "Send your tax return by the deadline."
         }
       ]
+    },
+    "8c9b71e5b1fe65a440cea544": {
+      "event_id": "8c9b71e5b1fe65a440cea544",
+      "checked_at": "2026-11-06T01:23:21.249553Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de aanvallen op Qeshm Island ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        },
+        {
+          "url": "https://www.gov.uk/sign-in-universal-credit",
+          "title": "Sign in to your Universal Credit account - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        }
+      ]
+    },
+    "fd7a494671e879a31708c133": {
+      "event_id": "fd7a494671e879a31708c133",
+      "checked_at": "2026-11-06T01:23:21.249575Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De officiële tekst bevestigt dat de VS aanvallen hebben uitgevoerd op Iraanse militaire doelen, wat de claim ondersteunt.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "\"Today, primary transit routes in the Strait of Hormuz remain free and clear of Iranian sea mines thanks to incredible efforts by our people,\" said Cooper. \"We remain intensely focused on keeping commercial traffic flowing as we work with our teammat"
+        },
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/",
+          "title": "CENTCOM Completes Strikes on IRGC Targets in Iran > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Sept. 1, 2026",
+          "text_excerpt": "The strikes follow recent attempted attacks by the IRGC against commercial shipping in the Strait of Hormuz and against American service members."
+        }
+      ]
+    },
+    "dbf181e44d8d4bcf84ca2ec1": {
+      "event_id": "dbf181e44d8d4bcf84ca2ec1",
+      "checked_at": "2026-11-06T01:23:21.249583Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de stijging van olieprijzen na een vermeende aanval op Qeshm Island ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/check-uk-visa",
+          "title": "Check if you need a UK visa - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Travel or do business in Europe: Brexit guidance"
+        },
+        {
+          "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
+          "title": "HMRC online services: sign in or set up an account: Sign in or set up an account - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Sign in to your HM Revenue and Customs (HMRC) online account for things like a personal or business tax account, Self Assessment, Corporation Tax, PAYE for employers, VAT and the Construction Industry Scheme."
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-03": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 5260
-    },
     "2026-11-04": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -2578,6 +2671,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 3805
+    },
+    "2026-11-06": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1592
     }
   },
   "last_error": null
