@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-06T01:23:21.249613Z",
+  "last_attempt_utc": "2026-11-06T07:29:23.964346Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 18,
-  "active_checked": 5,
+  "active_total": 19,
+  "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -2319,7 +2319,7 @@
     },
     "d0dc97f080ed2e756dcbb9ea": {
       "event_id": "d0dc97f080ed2e756dcbb9ea",
-      "checked_at": "2026-11-04T07:29:42.350978Z",
+      "checked_at": "2026-11-06T07:29:23.964309Z",
       "version": "official-original-document-v1",
       "research_status": "primary_document_not_found",
       "verified_event": false,
@@ -2369,12 +2369,12 @@
     },
     "235c657c5eab3a3fae8a360a": {
       "event_id": "235c657c5eab3a3fae8a360a",
-      "checked_at": "2026-11-04T13:18:18.660978Z",
+      "checked_at": "2026-11-06T07:29:23.964285Z",
       "version": "official-original-document-v1",
       "research_status": "documents_found_unassessed",
       "verified_event": false,
       "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de aanval op Qeshm Island ondersteunen of tegenspreken.",
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de aanvallen op Qeshm Island ondersteunen of tegenspreken.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -2659,6 +2659,40 @@
           "text_excerpt": "Sign in to your HM Revenue and Customs (HMRC) online account for things like a personal or business tax account, Self Assessment, Corporation Tax, PAYE for employers, VAT and the Construction Industry Scheme."
         }
       ]
+    },
+    "4182bf229cc38f504183786d": {
+      "event_id": "4182bf229cc38f504183786d",
+      "checked_at": "2026-11-06T07:29:23.964315Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de nucleaire voorstellen van Iran ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/find-a-visa-application-centre",
+          "title": "Find a visa application centre - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Micronesia, Federated States of - choose a centre in a different country"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/the-strategic-defence-review-2025-making-britain-safer-secure-at-home-strong-abroad",
+          "title": "The Strategic Defence Review 2025 - Making Britain Safer: secure at home, strong abroad - GOV.UKGOV.UK",
+          "source_publication_date": "2025-07-08T14:34:49Z",
+          "text_excerpt": "The world has changed. The threat we now face is more serious and less predictable than at any time since the Cold War. The UK faces war in Europe, growing Russian aggression, new nuclear risks, and daily cyber-attacks at home. Our adversaries are wo"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -2673,9 +2707,9 @@
       "model_tokens": 3805
     },
     "2026-11-06": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 1592
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 2727
     }
   },
   "last_error": null
