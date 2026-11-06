@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-06T07:28:36.439832Z",
+  "last_attempt_utc": "2026-11-06T13:19:00.017692Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -3559,6 +3559,38 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-06T07:28:35.439577Z"
+    },
+    "e22bdeda63c54a": {
+      "id": "e22bdeda63c54a",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "event_claim",
+      "summary_nl": "Ierse media melden dat personeel is geëvacueerd na bomdreigingen.",
+      "claimed_event_nl": "Personeel van Ierse media is geëvacueerd na bomdreigingen.",
+      "reason_nl": "De gebeurtenis heeft geen directe link met Iran of de Golfregio.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-06T13:18:59.017450Z"
+    },
+    "e7770d2e861e9a": {
+      "id": "e7770d2e861e9a",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran meldt dat drie tankers zijn beschadigd in de Straat van Hormuz.",
+      "claimed_event_nl": "Drie tankers zijn beschadigd in de Straat van Hormuz.",
+      "reason_nl": "Dit kan wijzen op toenemende spanningen in een cruciaal gebied voor wereldhandel.",
+      "limitations_nl": "De informatie is afkomstig van een niet-geverifieerde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-06T13:18:59.017475Z"
     }
   },
   "usage_by_day": {
@@ -3571,8 +3603,8 @@
       "total_tokens": 4363
     },
     "2026-11-06": {
-      "requests": 2,
-      "total_tokens": 2105
+      "requests": 3,
+      "total_tokens": 2978
     }
   }
 }

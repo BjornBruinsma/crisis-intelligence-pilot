@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-06T07:29:23.964346Z",
+  "last_attempt_utc": "2026-11-06T13:19:51.230370Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 19,
-  "active_checked": 7,
+  "active_total": 20,
+  "active_checked": 5,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -1870,7 +1870,7 @@
     },
     "54b6bded498d0a5bc3b20513": {
       "event_id": "54b6bded498d0a5bc3b20513",
-      "checked_at": "2026-11-05T07:32:06.977723Z",
+      "checked_at": "2026-11-06T13:19:51.230341Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -1879,24 +1879,13 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
           "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-05T07:32:00.712271Z",
+          "retrieved_at": "2026-11-06T13:19:39.269541Z",
           "exact_quote": "King Khalid International Airport was struck by a missile on 10 October 2026.",
           "relation": "related_only",
           "older_document_than_claim": false,
           "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
           "claim_validated_as_fact": false,
           "specificity_check": "downgraded"
-        },
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/yemen",
-          "original_document_title": "Yemen travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-05T07:32:01.291902Z",
-          "exact_quote": "the risk of sudden escalation is high.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Deze passage verwijst naar de onvoorspelbare situatie in het Midden-Oosten, maar ondersteunt niet specifiek de claim over waarschuwingen van de VS.",
-          "claim_validated_as_fact": false
         }
       ],
       "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
@@ -2693,6 +2682,75 @@
           "text_excerpt": "The world has changed. The threat we now face is more serious and less predictable than at any time since the Cold War. The UK faces war in Europe, growing Russian aggression, new nuclear risks, and daily cyber-attacks at home. Our adversaries are wo"
         }
       ]
+    },
+    "10d51c330032bd946fa5fdd4": {
+      "event_id": "10d51c330032bd946fa5fdd4",
+      "checked_at": "2026-11-06T13:19:51.230310Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
+          "original_document_title": "Six months of uncertainty for seafarers in Strait of Hormuz",
+          "source_date": null,
+          "retrieved_at": "2026-11-06T13:19:35.262928Z",
+          "exact_quote": "the situation in the Strait of Hormuz is unresolved.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage verwijst naar de situatie in de Straat van Hormuz, maar biedt geen bewijs voor de specifieke claim van Amerikaanse aanvallen op Iraanse doelen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De gevonden teksten verwijzen naar de onopgeloste situatie in de Straat van Hormuz en de activiteiten van Iran, maar bieden geen bewijs voor de specifieke claim van Amerikaanse luchtaanvallen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
+          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0681/",
+          "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime | U.S. Department of the TreasuryLock",
+          "source_publication_date": "2026-11-04T18:00:00Z",
+          "text_excerpt": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime"
+        }
+      ]
+    },
+    "fb6d67d4dcf40c1c3f882478": {
+      "event_id": "fb6d67d4dcf40c1c3f882478",
+      "checked_at": "2026-11-06T13:19:51.230335Z",
+      "version": "official-original-document-v1",
+      "research_status": "primary_document_not_found",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 0,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": []
     }
   },
   "usage_by_day": {
@@ -2707,9 +2765,9 @@
       "model_tokens": 3805
     },
     "2026-11-06": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 2727
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 4648
     }
   },
   "last_error": null
