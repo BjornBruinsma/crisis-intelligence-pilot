@@ -1,40 +1,40 @@
 {
-  "last_attempt_utc": "2026-11-06T13:17:43.039744Z",
+  "last_attempt_utc": "2026-11-06T19:02:45.823654Z",
   "sources": {
     "google_news_rss": {
       "ok": 12,
       "total": 12
     },
     "gdelt_doc2": {
-      "ok": 1,
+      "ok": 0,
       "total": 2
     }
   },
   "profiles": {
     "military": {
       "status": "ok",
-      "articles": 22,
-      "new": 3
+      "articles": 23,
+      "new": 6
     },
     "diplomacy": {
       "status": "ok",
-      "articles": 23,
-      "new": 7
+      "articles": 24,
+      "new": 5
     },
     "government": {
       "status": "ok",
-      "articles": 2,
+      "articles": 1,
       "new": 0
     },
     "markets": {
       "status": "ok",
-      "articles": 4,
-      "new": 0
+      "articles": 3,
+      "new": 1
     },
     "energy": {
       "status": "ok",
-      "articles": 22,
-      "new": 2
+      "articles": 24,
+      "new": 3
     },
     "trade": {
       "status": "ok",
@@ -43,13 +43,13 @@
     },
     "business": {
       "status": "ok",
-      "articles": 5,
-      "new": 2
+      "articles": 6,
+      "new": 4
     },
     "economy": {
       "status": "ok",
-      "articles": 2,
-      "new": 0
+      "articles": 3,
+      "new": 1
     },
     "iran-fa": {
       "status": "ok",
@@ -59,16 +59,16 @@
     "china-zh": {
       "status": "ok",
       "articles": 9,
-      "new": 4
+      "new": 1
     },
     "pakistan-en": {
       "status": "ok",
-      "articles": 27,
-      "new": 5
+      "articles": 28,
+      "new": 4
     },
     "gulf-ar": {
       "status": "ok",
-      "articles": 26,
+      "articles": 28,
       "new": 6
     },
     "gdelt-iran": {
@@ -77,17 +77,18 @@
       "articles": 0
     },
     "gdelt-hormuz": {
-      "status": "ok",
-      "articles": 40,
-      "new": 40
+      "status": "error",
+      "error": "HTTP 429 Too Many Requests",
+      "articles": 0
     }
   },
   "errors": {
-    "gdelt-iran": "HTTP 429 Too Many Requests"
+    "gdelt-iran": "HTTP 429 Too Many Requests",
+    "gdelt-hormuz": "HTTP 429 Too Many Requests"
   },
-  "new_urls": 70,
-  "retained_urls": 2632,
-  "queries_ok": 13,
+  "new_urls": 32,
+  "retained_urls": 2664,
+  "queries_ok": 12,
   "queries_total": 14,
   "status": "partial"
 }

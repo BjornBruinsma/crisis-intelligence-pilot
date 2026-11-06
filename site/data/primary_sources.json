@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-11-06T13:19:22.915876Z",
+  "last_attempt_utc": "2026-11-06T19:04:20.778321Z",
   "description": "Official-source texts and links, not automatic verification of events",
   "sources": [
     {
@@ -7,18 +7,58 @@
       "authority": "US Central Command",
       "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-06T13:19:00.361653Z",
-      "status": "error",
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "passages": [],
-      "links": []
+      "retrieved_at": "2026-11-06T19:03:58.745015Z",
+      "status": "ok",
+      "title": "US Central Command",
+      "passages": [
+        "VISITORS AND PERSONNEL FAMILY CENTER FAMILY READINESS CENTCOM WEBMAIL SOCIAL MEDIA SECURITY ACCOUNTABILITY EMERGENCY PREPAREDNESS FOIA LIBRARY WELCOME GUIDE",
+        "Privacy & Security Inspector General FOIA Privacy Act Section 508"
+      ],
+      "links": [
+        {
+          "title": "SOCIAL MEDIA SECURITY",
+          "url": "https://www.centcom.mil/VISITORS-AND-PERSONNEL/SOCIAL-MEDIA-SECURITY/"
+        },
+        {
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/"
+        },
+        {
+          "title": "U.S. Forces Disable Cargo Vessel Attempting to Violate Blockade",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4623817/us-forces-disable-cargo-vessel-attempting-to-violate-blockade/"
+        },
+        {
+          "title": "CENTCOM Maintains Strict Enforcement of U.S. Blockade Against Iran",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4619553/centcom-maintains-strict-enforcement-of-us-blockade-against-iran/"
+        },
+        {
+          "title": "U.S. Forces End Operation Inherent Resolve Mission in Iraq",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4614532/us-forces-end-operation-inherent-resolve-mission-in-iraq/"
+        },
+        {
+          "title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4593050/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship/"
+        },
+        {
+          "title": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4591744/centcom-destroys-3-irgc-oil-tankers-after-iran-targets-2-us-navy-warships/"
+        },
+        {
+          "title": "CENTCOM Completes Strikes on IRGC Targets in Iran",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/"
+        },
+        {
+          "title": "CENTCOM Commander Completes 10-Day Trip to the Middle East",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4574895/centcom-commander-completes-10-day-trip-to-the-middle-east/"
+        }
+      ]
     },
     {
       "id": "uk_iran",
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/iran",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-06T13:19:00.941665Z",
+      "retrieved_at": "2026-11-06T19:03:58.708292Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -130,7 +170,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-06T13:19:01.383214Z",
+      "retrieved_at": "2026-11-06T19:03:58.184388Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -231,7 +271,7 @@
       "authority": "US Department of State",
       "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
       "kind": "official_rss",
-      "retrieved_at": "2026-11-06T13:19:00.263656Z",
+      "retrieved_at": "2026-11-06T19:03:58.273191Z",
       "status": "ok",
       "title": "US travel advice RSS (filtered: Middle East)",
       "passages": [],
@@ -603,7 +643,7 @@
       "authority": "International Maritime Organization",
       "url": "https://www.imo.org/en/mediacentre/pressbriefings/default.aspx",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-06T13:19:00.706007Z",
+      "retrieved_at": "2026-11-06T19:03:58.663040Z",
       "status": "ok",
       "title": "International Maritime Organization",
       "passages": [
@@ -667,7 +707,7 @@
       "authority": "Pakistan Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.pk/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-06T13:19:22.915248Z",
+      "retrieved_at": "2026-11-06T19:04:20.777864Z",
       "status": "error",
       "error": "URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
       "passages": [],
@@ -678,7 +718,7 @@
       "authority": "China Ministry of Foreign Affairs",
       "url": "https://www.fmprc.gov.cn/mfa_eng/index.html",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-06T13:19:01.477324Z",
+      "retrieved_at": "2026-11-06T19:03:59.304277Z",
       "status": "ok",
       "title": "China Ministry of Foreign Affairs",
       "passages": [],
@@ -734,7 +774,7 @@
       "authority": "US Treasury",
       "url": "https://home.treasury.gov/news/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-06T13:19:00.824470Z",
+      "retrieved_at": "2026-11-06T19:03:58.862953Z",
       "status": "ok",
       "title": "US Treasury",
       "passages": [
@@ -789,7 +829,7 @@
       "authority": "US Energy Information Administration",
       "url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-06T13:19:00.965424Z",
+      "retrieved_at": "2026-11-06T19:03:58.923487Z",
       "status": "ok",
       "title": "US Energy Information Administration",
       "passages": [
@@ -904,7 +944,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-06T13:19:01.111968Z",
+      "retrieved_at": "2026-11-06T19:03:59.442173Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -992,7 +1032,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-06T13:19:01.218534Z",
+      "retrieved_at": "2026-11-06T19:03:59.540453Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1078,7 +1118,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/qatar",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-06T13:19:01.707033Z",
+      "retrieved_at": "2026-11-06T19:03:59.668837Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1166,7 +1206,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-06T13:19:01.394915Z",
+      "retrieved_at": "2026-11-06T19:03:59.495314Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1260,7 +1300,7 @@
       "authority": "United Arab Emirates Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.ae/en",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-06T13:19:03.558381Z",
+      "retrieved_at": "2026-11-06T19:04:02.120024Z",
       "status": "ok",
       "title": "United Arab Emirates Ministry of Foreign Affairs",
       "passages": [
@@ -1292,7 +1332,7 @@
       "authority": "Islamic Republic of Iran Ministry of Foreign Affairs",
       "url": "https://en.mfa.ir/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-06T13:19:04.252891Z",
+      "retrieved_at": "2026-11-06T19:04:04.123874Z",
       "status": "error",
       "error": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
       "passages": [],
@@ -1303,7 +1343,7 @@
       "authority": "Permanent Mission of Pakistan to the United Nations",
       "url": "https://pakun.org/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-06T13:19:02.153989Z",
+      "retrieved_at": "2026-11-06T19:04:00.229632Z",
       "status": "ok",
       "title": "Permanent Mission of Pakistan to the United Nations",
       "passages": [
@@ -1318,7 +1358,7 @@
       "authority": "Permanent Mission of China to the United Nations",
       "url": "https://un.china-mission.gov.cn/eng/fyrth/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-06T13:19:03.042063Z",
+      "retrieved_at": "2026-11-06T19:04:00.766898Z",
       "status": "ok",
       "title": "Permanent Mission of China to the United Nations",
       "passages": [
@@ -1451,7 +1491,6 @@
     }
   ],
   "errors": {
-    "centcom_releases": "HTTPError: HTTP Error 403: Forbidden",
     "pakistan_mofa": "URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
     "iran_mfa": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
   }

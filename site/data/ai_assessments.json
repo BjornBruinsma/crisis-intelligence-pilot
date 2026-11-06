@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-06T13:19:00.017692Z",
+  "last_attempt_utc": "2026-11-06T19:03:57.791330Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -3591,6 +3591,54 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-06T13:18:59.017475Z"
+    },
+    "f471d52b9a0707": {
+      "id": "f471d52b9a0707",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "event_claim",
+      "summary_nl": "Onbetaalde verzekeringsrekeningen zouden de privéziekenhuizen in Iran onder financiële druk zetten.",
+      "claimed_event_nl": "Onbetaalde verzekeringsrekeningen drukken privéziekenhuizen in Iran financieel.",
+      "reason_nl": "Dit kan gevolgen hebben voor de gezondheidszorg in Iran en de bredere economie.",
+      "limitations_nl": "De claim is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-06T19:03:56.791079Z"
+    },
+    "e221db3dbe078d": {
+      "id": "e221db3dbe078d",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "Iran overweegt nucleaire concessies in een mogelijke deal met de VS, terwijl Qatar bemiddelt.",
+      "claimed_event_nl": "Iran weegt nucleaire concessies in een mogelijke deal met de VS.",
+      "reason_nl": "Dit kan invloed hebben op de nucleaire onderhandelingen en de regionale stabiliteit.",
+      "limitations_nl": "De informatie is niet bevestigd door andere bronnen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-06T19:03:56.791103Z"
+    },
+    "1f5ef143ffa511": {
+      "id": "1f5ef143ffa511",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Zeven tankers zouden in brand staan en Iran zou schepen met mijnen 'vangen' in de Straat van Hormuz.",
+      "claimed_event_nl": "Zeven tankers staan in brand en Iran 'vangt' schepen met mijnen in de Straat van Hormuz.",
+      "reason_nl": "Dit kan leiden tot een escalatie van spanningen in een cruciaal handelsgebied.",
+      "limitations_nl": "De claim is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-06T19:03:56.791108Z"
     }
   },
   "usage_by_day": {
@@ -3603,8 +3651,8 @@
       "total_tokens": 4363
     },
     "2026-11-06": {
-      "requests": 3,
-      "total_tokens": 2978
+      "requests": 4,
+      "total_tokens": 4112
     }
   }
 }
