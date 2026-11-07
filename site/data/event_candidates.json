@@ -1,19 +1,19 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-06T19:04:20.864818Z",
-  "fingerprint": "b59bd61958cc79c5a63ac15e",
+  "last_attempt_utc": "2026-11-07T01:13:29.497658Z",
+  "fingerprint": "26a80c02082095c9e7a7cda7",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 23,
-  "event_candidate_count": 19,
+  "event_candidate_count": 20,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 5,
-    "accepted_pair_connections": 4,
-    "rejected_pair_proposals": 1,
-    "multi_claim_groups": 3,
-    "claims_in_multi_groups": 7,
+    "model_pair_proposals": 6,
+    "accepted_pair_connections": 3,
+    "rejected_pair_proposals": 3,
+    "multi_claim_groups": 2,
+    "claims_in_multi_groups": 5,
     "all_input_ids_retained": true,
     "auditor_approved_pairs": 4,
     "rule_rejected_pairs": 0,
@@ -22,12 +22,12 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-06T19:04:20.864818Z",
+    "recorded_at": "2026-11-07T01:13:29.497658Z",
     "groups": [
       {
         "ids": [
           "c5b0d33767bceb",
-          "31322ffc0230e6"
+          "87bc19e381b3e4"
         ],
         "label_nl": "Claim: Reports: U.S. attacks Iran’s Qeshm Island - Gephardt Daily",
         "actor": "",
@@ -62,15 +62,14 @@
       },
       {
         "ids": [
-          "b1384286f16470",
-          "d894d32d5fd8c0"
+          "02db98ceb32df6"
         ],
-        "label_nl": "Claim: Oil rises after report of US strike on Iran's Qeshm Island - Business Recorder",
+        "label_nl": "Claim: Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -85,9 +84,9 @@
       },
       {
         "ids": [
-          "849e3c5cea9a2f"
+          "31d6b4c32b6147"
         ],
-        "label_nl": "Claim: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow",
+        "label_nl": "Claim: Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue",
         "actor": "",
         "action": "",
         "place": "",
@@ -107,20 +106,9 @@
       },
       {
         "ids": [
-          "87bc19e381b3e4"
+          "0980e4dc5e2d95"
         ],
-        "label_nl": "Claim: U . S . Carries Out Defensive Strike On Iranian Island",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "e221db3dbe078d"
-        ],
-        "label_nl": "Claim: Iran weighs nuclear concessions in potential US deal as Qatar steps up mediation - Business Upturn",
+        "label_nl": "Claim: Strike Iran Before Democrats Take Over? Trump Faces 8-Week Military Deadline - Times Now",
         "actor": "",
         "action": "",
         "place": "",
@@ -151,9 +139,9 @@
       },
       {
         "ids": [
-          "1f5ef143ffa511"
+          "849e3c5cea9a2f"
         ],
-        "label_nl": "Claim: Seven Tankers on Fire, Iran 'Traps' Violating Ships with Mines in Strait of Hormuz | Firstpost Ameri - Firstpost",
+        "label_nl": "Claim: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow",
         "actor": "",
         "action": "",
         "place": "",
@@ -184,9 +172,31 @@
       },
       {
         "ids": [
-          "725fb8be52e18a"
+          "eff1c2296b7f65"
         ],
-        "label_nl": "Claim: Iran submits nuclear proposal to the United States via Qatar, demanding that Washington meet seven conditions prior to negotiations - 富途牛牛",
+        "label_nl": "Claim: Strait of Hormuz Attacks Increase Marine War-Risk Insurance Concerns - Beinsure",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "8c6861fe95cd02"
+        ],
+        "label_nl": "Claim: Vance leads push for Iran ceasefire, nuclear talks - Egyptian Gazette",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "d894d32d5fd8c0"
+        ],
+        "label_nl": "Claim: Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns - WSJ",
         "actor": "",
         "action": "",
         "place": "",
@@ -206,9 +216,9 @@
       },
       {
         "ids": [
-          "e7770d2e861e9a"
+          "1f5ef143ffa511"
         ],
-        "label_nl": "Claim: Iran Reports Three More Tankers Damaged in Strait of Hormuz - Dainik Jagran MP CG",
+        "label_nl": "Claim: Seven Tankers on Fire, Iran 'Traps' Violating Ships with Mines in Strait of Hormuz | Firstpost Ameri - Firstpost",
         "actor": "",
         "action": "",
         "place": "",
@@ -242,24 +252,24 @@
       "c5b0d33767bceb",
       "7e91e29dbeb9cf",
       "74d345785d102a",
-      "b1384286f16470",
+      "02db98ceb32df6",
       "1054a367dcca77",
-      "849e3c5cea9a2f",
+      "31d6b4c32b6147",
       "f471d52b9a0707",
       "87bc19e381b3e4",
       "85ea0f15f8f413",
-      "e221db3dbe078d",
+      "0980e4dc5e2d95",
       "c6fa105888c450",
       "564f915e543bf4",
-      "1f5ef143ffa511",
+      "849e3c5cea9a2f",
       "dc4d83aca3d116",
       "84e368d737229e",
       "1d14fbd7dc98d0",
-      "31322ffc0230e6",
-      "725fb8be52e18a",
+      "eff1c2296b7f65",
+      "8c6861fe95cd02",
       "d894d32d5fd8c0",
       "493079084a84e0",
-      "e7770d2e861e9a",
+      "1f5ef143ffa511",
       "8cdbd5aeb7e714",
       "08aace6e457870"
     ]
@@ -305,25 +315,28 @@
       "probability_estimate": null
     },
     {
-      "id": "235c657c5eab3a3fae8a360a",
+      "id": "b4a73c1903144ccf44c8964d",
       "label_nl": "Claim: Reports: U.S. attacks Iran’s Qeshm Island - Gephardt Daily",
       "headline_claim_ids": [
         "c5b0d33767bceb",
-        "31322ffc0230e6"
+        "87bc19e381b3e4"
       ],
       "headline_claims": [
         "Reports: U.S. attacks Iran’s Qeshm Island - Gephardt Daily",
-        "US strikes Iran’s Qeshm Island — report - Gulf Business"
+        "U . S . Carries Out Defensive Strike On Iranian Island"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUnJQUjN2MmE0bHIxTmVIRzdkOU9CU21yNm43ZE01OFgyYmJqSG5QSnFkTEtZNXVveXpCa20taXMzb0I5MnZkWWdXTF9iQ0E3N1I2dXlleXpUU2txZ29BRFFzU2ppM3Q2bzd0Z2Z0bHdXd3VYSFJpRDNvYXVGYndab0oySQ?oc=5",
         "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MQ282eDRuX08zNm44UVpVQXRRT0psNUtOYk1SSld4THhWbHNEQWZ5cE1wczY0LXJ6V19Pb1RGZzRtaC0tZFdnbG1MbHVHR1hielJybGV0ckd2RGNRNHVWNzhvU0p2NlZPaDh4WnpCdDNOajBJczNYR3hoYmJuWUHSAX9BVV95cUxNTENvNng0bl9PMzZuOFFaVUF0UU9KbDVLTmJNUkpXeEx4VmxzREFmeXBNcHM2NC1yeldfT29URmc0bWgtLWRXZ2xtTGx1R0dYYnpScmxldHJHdkRjUTR1Vjc4b1NKdjZWT2g4eFp6QnQzTmowSXMzWEd4aGJibllB?oc=5",
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYmx5MDRmWkdoMW80TC1XS0lpY05kdkRSeFhSTG54VTdVQWVYaUxaRmlPb09OYlNqQWt0OUU5LS01azlybXJWTHZOYS1Icnp5RjltYmpKUUNraS1sVmFKUUNYRVFwTVFjd2ZsR21XRjNMYVJ5VWpYMm91RDRFZUo5TWQwWXpSTUFGbVFn?oc=5",
-        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRjFRZTgwNlZpbFlBcllqMExyYjBkSDZLdDJ3cWVjckxuSkFLZ1lCTy1hVUFOQVdHVF9yXy1zQlZXNEZZXzlXR3FRQm1OcnVxZjJsdENmNERxVTBaV2VNbnMxc2VMeEFFTHJiOVZURTc2NS1nT1FuWTNObWVUVHZKMEFjSnB5MmdtYkE?oc=5",
-        "https://www.thehindu.com/news/international/us-strikes-irans-qeshm-island-report/article71659212.ece"
+        "https://wdov.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://1190kex.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://wflanews.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://koacolorado.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://newsradio540.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
+        "https://55krc.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/"
       ],
       "article_group_count": 2,
-      "news_url_count": 5,
+      "news_url_count": 8,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -337,47 +350,16 @@
       "probability_estimate": null
     },
     {
-      "id": "d0dc97f080ed2e756dcbb9ea",
-      "label_nl": "Claim: U . S . Carries Out Defensive Strike On Iranian Island",
+      "id": "e656eb27a2e42a4a241b93a5",
+      "label_nl": "Claim: Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue",
       "headline_claim_ids": [
-        "87bc19e381b3e4"
+        "31d6b4c32b6147"
       ],
       "headline_claims": [
-        "U . S . Carries Out Defensive Strike On Iranian Island"
+        "Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue"
       ],
       "related_news_links": [
-        "https://wdov.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-        "https://1190kex.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-        "https://wflanews.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-        "https://koacolorado.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-        "https://newsradio540.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/",
-        "https://55krc.iheart.com/content/2026-11-03-us-carries-out-defensive-strike-on-iranian-island/"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 6,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "3dffc2e3860cf4d7d7a5d16b",
-      "label_nl": "Claim: Iran weighs nuclear concessions in potential US deal as Qatar steps up mediation - Business Upturn",
-      "headline_claim_ids": [
-        "e221db3dbe078d"
-      ],
-      "headline_claims": [
-        "Iran weighs nuclear concessions in potential US deal as Qatar steps up mediation - Business Upturn"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQR2I1Mmg5TGZaNndvVDV2b3pOMXkxNWVFWnNqdGllXzByMXJoT3hpX0ZLbFV5YlBtdURXZDZNMFJmUEl1RTBzV0VWZlc5QW5OSXBtbXM5V2lPX0tBWXE0SXJEYWcySTVGNkQ4bmw3TEE2RXNaZjg0Qk1SclhzRGRnX0cyeUFVaGhpeDdRQ3FiMk5UTExadmRJOEcxdEpVNjNWTS1tb2M2cGpQOVQzREVuVjVBQmxfQ1RLdENCM21iR1YtV1ZHRnd6bjN4TFNtVHlsQ1ppVWt3?oc=5"
+        "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTDZRSU5BNDBTUmk3SUFDX2trU1RHaHh0b1Jidk8xT281SnlfbGxkQTdkWi1QS19RR2tTTmtQWEZSYm5LMy1BUU1tckJVYjZiUTFOaThIMTQxcHdJcWJEWk83eElNUTZNLVY5TUZzZzRPTWRWR2NjUFFWUWtjOERlQy1TYXFlc2RrSUhwSVdqcDFyZ1FQV054RGZPWE9wc0RWWWVlXy1vOFUxUGZJRUtIcHp4Mjg0OG44QldNOEJTN2xuTmdUUVRIaERncTNfVUJKOHdUXzlqNmhHNWhBelpBSHlDejU1WFRIaEliNXNEQVVHSHRjWXhFTnkwcw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -420,63 +402,6 @@
       "probability_estimate": null
     },
     {
-      "id": "4182bf229cc38f504183786d",
-      "label_nl": "Claim: Iran submits nuclear proposal to the United States via Qatar, demanding that Washington meet seven conditions prior to negotiations - 富途牛牛",
-      "headline_claim_ids": [
-        "725fb8be52e18a"
-      ],
-      "headline_claims": [
-        "Iran submits nuclear proposal to the United States via Qatar, demanding that Washington meet seven conditions prior to negotiations - 富途牛牛"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ08tQ2lTWTREcFRwVTNqUl9pQlBjREQ0WHBjd3o0NmxMU2QyczlpTURMQWJ5NWlsRTdTMkxfN2hCNzMzZlJabWVqRFV4aERZdWNvdUIzc1ZZWGRQNFlSalg3TVQybkFkUmZZQzFxa0xRaEhZMkNmRU15ZTdPWEVqN2VJOXBwdFdaalRBcHBZQXE1cmtRZ1ZCbmhMZVdEdUZDWFRqRGl3?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "dbf181e44d8d4bcf84ca2ec1",
-      "label_nl": "Claim: Oil rises after report of US strike on Iran's Qeshm Island - Business Recorder",
-      "headline_claim_ids": [
-        "b1384286f16470",
-        "d894d32d5fd8c0"
-      ],
-      "headline_claims": [
-        "Oil rises after report of US strike on Iran's Qeshm Island - Business Recorder",
-        "Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns - WSJ"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRDZCYkpaSTJLaTVraVItU1c1NGd4ZFZ3Wl9LNDRJTWxSblowYW5BY2tpbUR3S1pSa0U2OXJ4RFV6VmxXem5oYVVFWG41U0h4NnN6aHVsamQ1bl96V0FtZDFuSUpkMktQQ3hCSm5hZzJzOTFoZmhaTzlSU3NSdEw2c21iOTV3cW8yeXYzSU80bTZyX0wyLTU5MlNKdWpobnpWNjk3QTZ5Y9IBVkFVX3lxTE9BY2R0SXFDamd1M2pFdDZPTEk4SzJ3NTlRYXdEZVl2NTVGc2JMUVUxN0NVb0JVNGd0SGN1ajBYbXRsX19Qd0thdGU3VkNsRUlJdTdiRDN3?oc=5",
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxPVG1JRW1udmFlY1NuVmlSWkUzN2w4UHg5TlExS0VZVmNza0RrN2NKeXJVaTNOLWFIZi1jbWZ2SkVldTZGRHRLR05KYVBsLWdnWEJJS3NoeXJzYjV6VjBQVGVKZS1iaDZVcnpyN01rX1Z1MHk2NmF6U05QNFpaSldENUxiWHB2N1hpeGhvRG9KaVVEZ21BbGNYTzh0Sm9ZZ9IBVkFVX3lxTE9BY2R0SXFDamd1M2pFdDZPTEk4SzJ3NTlRYXdEZVl2NTVGc2JMUVUxN0NVb0JVNGd0SGN1ajBYbXRsX19Qd0thdGU3VkNsRUlJdTdiRDN3?oc=5",
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdVlKOFRlMlI5bGJYeVNIN2gyZTJpd1dobnVDNWo1Q2ZxbEZjTThra1V4QThzRF9GQ3JGLUdnYzR0UnIwR2ZpNFpPa0M5bVFtZ0dBVV9tMGZTX2Z4VG9MTGRkSjI2c1pZRWVvWGl5bW5haE5ObG5TNVBUZHgyX1dRa09aaExBdFJXcjc0?oc=5",
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanI0VE5sUnZXNzJ1Tm9vWmVYYTZWbWRuMGRoOUtSZnJTVVJrT3dub0FKa1VFdlpvLUg3SHJvd3RBN25LNWdZLTlCS2FScUg2UUdLdEhPZXlyeFg5a2Z0TURCVWw5Wkp1VWhVNTQ2UktXX2RJMzdRc0c4emVzbkMyYkRhd2xfZFNSZ05aSWI0amNlUUc0NThHQVdSMHlCdDRfNmh6LS1SeTdmQWNGZlpn?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 4,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "1a46284acf7adf9fcb68027c",
       "label_nl": "Claim: US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airport disruptions amid rising tensions - inkl",
       "headline_claim_ids": [
@@ -491,6 +416,32 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "a7a89bd9d83bc8863bd55e5d",
+      "label_nl": "Claim: Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
+      "headline_claim_ids": [
+        "02db98ceb32df6"
+      ],
+      "headline_claims": [
+        "Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3Y5SzhyN2hER0R4YXg4eEtOVjZSU0xfUzZfbU5sVW5WcmhzT19BZUprQ1lWRlpZWDBSVE9vM2ktWWJMcGhqbWNmWE44YlQxMjZNajNTejdFVEJFU1NsR3ZQMEFSb2RNekFrSVFlWG9VdkphSVlRODFuWWpxOVFqM1h3V1JWaGxNbm44?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -531,16 +482,16 @@
       "probability_estimate": null
     },
     {
-      "id": "cd32696d5b66fb38782d4079",
-      "label_nl": "Claim: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow",
+      "id": "4f3925bc0d006d9e2ae12f56",
+      "label_nl": "Claim: Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International",
       "headline_claim_ids": [
-        "849e3c5cea9a2f"
+        "f471d52b9a0707"
       ],
       "headline_claims": [
-        "Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow"
+        "Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd2Z2bzhZNlVNUnNyNkpod0U3N2U1VDJvZzJKN1ZpM0NidVNiUGZISElDa1pFaHRxSjEzOVRmOGtpOEVfZUF1d3BHUDJ2bjZVYXlXdWtCaWdlVkxKNnJWOUgxRVBTM2lkQ3JBeXZZR19sTS05NXVyak1EdXdSRHRnSC1Zcm1VNTUzVDI2bVZmQTJwZ2htb0w4X3BmZnF2TmdIZTNnRFVLeXJ5bjhLbThZVmwyOXlVamxYZ1RjcEtlSFNBcEQxbGhOaQ?oc=5"
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KMWg1MVpWdDRGbEY3R055bXhiLUE3MVVuM1lGRjhXOEFvNllNMmgwSjc1RGVYRjZqNmdqMldyOHVnb3hOdkwwLVlIWnZ0bU81N3c?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -557,16 +508,16 @@
       "probability_estimate": null
     },
     {
-      "id": "4f3925bc0d006d9e2ae12f56",
-      "label_nl": "Claim: Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International",
+      "id": "757ace8f25d0bf30ef45d865",
+      "label_nl": "Claim: Strike Iran Before Democrats Take Over? Trump Faces 8-Week Military Deadline - Times Now",
       "headline_claim_ids": [
-        "f471d52b9a0707"
+        "0980e4dc5e2d95"
       ],
       "headline_claims": [
-        "Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International"
+        "Strike Iran Before Democrats Take Over? Trump Faces 8-Week Military Deadline - Times Now"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KMWg1MVpWdDRGbEY3R055bXhiLUE3MVVuM1lGRjhXOEFvNllNMmgwSjc1RGVYRjZqNmdqMldyOHVnb3hOdkwwLVlIWnZ0bU81N3c?oc=5"
+        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaDJwSkl5QnVZN0hyd1EtQXJsak1UMFI4UFhkR2Z1UTRsVnZzdC1FNE5KcWRXQWFLSXA3QVN6UHdpVE5EZ2xTSWN3dnVMNjZqdm1wYVJvUEo2b3hWOGdkMWRkQXNWNV95SjBrSzJNV0lhYjNjbWVHNXVaUE5EeXRSTk1rS3l2NnZSZ0ZwTmtUSTVVNWFZWVFOUHlzVWRZMWR2dU42NXVZMHpSQ1ZHZ2E5RHRhU3Y3Zmp1TExjYWx2NG1LcWEyV1g2T1lJM2VFVzJfMTd4SWlVcUUybFZ6LUJPUdIB5gFBVV95cUxOREdMTEFwemJ4ZkdOU3dFSXJQWjQ1b19KRXJYX2txTHJldnpzMzFrd0hZTUdad2pFRTZaTERlWWY4TU1ma1NZaldYVXVyT0hQUzIyQURLSXcwajhtUDBaV3g3S0dQbzVFWXZfVFBFM3hXazY1QW5Hb0xWcFpmLXBycF9hMGZUbnQwYm9BRDE4MVRScDVPdmZRRThXMDk4aXoweUJtYUFBQ0xubEN4U042eG1BQWdTM29BeHRGZ2NyQXV2Ym8wWW5laU9ZV0F1YnV4SFhSYlh5d0I2UUttVHpzblgzUlBFdw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -635,6 +586,32 @@
       "probability_estimate": null
     },
     {
+      "id": "cd32696d5b66fb38782d4079",
+      "label_nl": "Claim: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow",
+      "headline_claim_ids": [
+        "849e3c5cea9a2f"
+      ],
+      "headline_claims": [
+        "Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd2Z2bzhZNlVNUnNyNkpod0U3N2U1VDJvZzJKN1ZpM0NidVNiUGZISElDa1pFaHRxSjEzOVRmOGtpOEVfZUF1d3BHUDJ2bjZVYXlXdWtCaWdlVkxKNnJWOUgxRVBTM2lkQ3JBeXZZR19sTS05NXVyak1EdXdSRHRnSC1Zcm1VNTUzVDI2bVZmQTJwZ2htb0w4X3BmZnF2TmdIZTNnRFVLeXJ5bjhLbThZVmwyOXlVamxYZ1RjcEtlSFNBcEQxbGhOaQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "455ceb3bbb464abb01ff8858",
       "label_nl": "Claim: Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS",
       "headline_claim_ids": [
@@ -687,16 +664,16 @@
       "probability_estimate": null
     },
     {
-      "id": "4114373316533e88178fe6de",
-      "label_nl": "Claim: Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
+      "id": "3cb3791b0c77d303eea7425f",
+      "label_nl": "Claim: Strait of Hormuz Attacks Increase Marine War-Risk Insurance Concerns - Beinsure",
       "headline_claim_ids": [
-        "493079084a84e0"
+        "eff1c2296b7f65"
       ],
       "headline_claims": [
-        "Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow"
+        "Strait of Hormuz Attacks Increase Marine War-Risk Insurance Concerns - Beinsure"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTJjbzNoVjZ0VnNrSlQwMkhIVG9hZmJFM2FuTTMyOVh2bzlJem9IN0c3N1NFOWg3TlNhY2hjMzlrSWw3U2pnNGdSbVo2RGNRTFc1cWlwN1J5SGd6SnlPMkZmWFFwc01Gb0tJaDNYNW9ZbC03Z253OW1pN1lwbXp6NmZCNC1Uem1Jem9tLWdEMTE?oc=5"
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTFBvdTNFVm02Sk1tYXdhMWg4T3JBOHhxcXBKLWJBelBWaXdUTThDMC12ZXpIekhOMjhQZnNGRG5EajlCQV9mekVIX1BEbURlclVuMzRnbmJBaGNjaFBKX01fR3E3R0tKSGhCRWsyUk1XQm5LLTJiNmhXWWxxLVA?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -713,16 +690,68 @@
       "probability_estimate": null
     },
     {
-      "id": "ef9dfdfb5d6203dc0145cd81",
-      "label_nl": "Claim: Iran Reports Three More Tankers Damaged in Strait of Hormuz - Dainik Jagran MP CG",
+      "id": "d6e04c7662c8ce251f8201cb",
+      "label_nl": "Claim: Vance leads push for Iran ceasefire, nuclear talks - Egyptian Gazette",
       "headline_claim_ids": [
-        "e7770d2e861e9a"
+        "8c6861fe95cd02"
       ],
       "headline_claims": [
-        "Iran Reports Three More Tankers Damaged in Strait of Hormuz - Dainik Jagran MP CG"
+        "Vance leads push for Iran ceasefire, nuclear talks - Egyptian Gazette"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYnhPR2xfVU5yMGNMb0ZUUEVLVUs0STZpSVNaVFY1ZW9DeXVSWUxZTzd1dkEwMktZczN1YlhOOV85VW9aX29xUVIwNjdpUTA4am4yRjFFQ2RMWkpxZzFodU1USHdSd3k3c19ReVY1LUNCR0cxTFJmNmI3Zkl5c0lpMmFHdE9pXy1fcjdGTGZRUGZYN0x1Y3ZjS3ljX3lna2dlcGdLVFhDb253ODhzZTlvTjNSWjZ2dVRsdFluVWc0bWp2dw?oc=5"
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWnFMVktRR1BWU2FqMmhDTU12UmVEVXNnVDloUDV3ZVkwa0tkVURyZTMyLXVTcHhadFVnUXBWZWg1UjROdkpYdmJsbVFDN3BCOXo1RDhiYmhxYXdfeC1jU0pwWUJQQUFSSEZvb0xXU0hhVncwNmlmMW1yaFkyWnFVT2ZxMko1aHV3ODk0SGN3?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "23c6a2bda5b9167bfcca5a7b",
+      "label_nl": "Claim: Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns - WSJ",
+      "headline_claim_ids": [
+        "d894d32d5fd8c0"
+      ],
+      "headline_claims": [
+        "Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns - WSJ"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanI0VE5sUnZXNzJ1Tm9vWmVYYTZWbWRuMGRoOUtSZnJTVVJrT3dub0FKa1VFdlpvLUg3SHJvd3RBN25LNWdZLTlCS2FScUg2UUdLdEhPZXlyeFg5a2Z0TURCVWw5Wkp1VWhVNTQ2UktXX2RJMzdRc0c4emVzbkMyYkRhd2xfZFNSZ05aSWI0amNlUUc0NThHQVdSMHlCdDRfNmh6LS1SeTdmQWNGZlpn?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "4114373316533e88178fe6de",
+      "label_nl": "Claim: Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
+      "headline_claim_ids": [
+        "493079084a84e0"
+      ],
+      "headline_claims": [
+        "Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTJjbzNoVjZ0VnNrSlQwMkhIVG9hZmJFM2FuTTMyOVh2bzlJem9IN0c3N1NFOWg3TlNhY2hjMzlrSWw3U2pnNGdSbVo2RGNRTFc1cWlwN1J5SGd6SnlPMkZmWFFwc01Gb0tJaDNYNW9ZbC03Z253OW1pN1lwbXp6NmZCNC1Uem1Jem9tLWdEMTE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -794,10 +823,6 @@
     }
   ],
   "usage_by_day": {
-    "2026-11-04": {
-      "requests": 12,
-      "total_tokens": 36102
-    },
     "2026-11-05": {
       "requests": 12,
       "total_tokens": 35168
@@ -805,6 +830,10 @@
     "2026-11-06": {
       "requests": 12,
       "total_tokens": 34113
+    },
+    "2026-11-07": {
+      "requests": 3,
+      "total_tokens": 8603
     }
   }
 }
