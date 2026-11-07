@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-07T01:14:00.295812Z",
+  "last_attempt_utc": "2026-11-07T07:12:32.240815Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 20,
-  "active_checked": 4,
+  "active_total": 19,
+  "active_checked": 5,
   "direct_matches": 0,
-  "contradictions": 1,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "contradictions": 0,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -2585,12 +2585,12 @@
     },
     "fd7a494671e879a31708c133": {
       "event_id": "fd7a494671e879a31708c133",
-      "checked_at": "2026-11-06T01:23:21.249575Z",
+      "checked_at": "2026-11-07T07:12:32.240757Z",
       "version": "official-original-document-v1",
       "research_status": "documents_found_unassessed",
       "verified_event": false,
       "official_matches": [],
-      "summary_nl": "De officiële tekst bevestigt dat de VS aanvallen hebben uitgevoerd op Iraanse militaire doelen, wat de claim ondersteunt.",
+      "summary_nl": "De officiële tekst bevestigt dat de VS aanvallen hebben uitgevoerd op IRGC-doelen in Iran, wat de claim over aanvallen op Iraanse doelen ondersteunt.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -2869,6 +2869,82 @@
           "text_excerpt": "\"Today, primary transit routes in the Strait of Hormuz remain free and clear of Iranian sea mines thanks to incredible efforts by our people,\" said Cooper. \"We remain intensely focused on keeping commercial traffic flowing as we work with our teammat"
         }
       ]
+    },
+    "fed57ed2139a04ab23783038": {
+      "event_id": "fed57ed2139a04ab23783038",
+      "checked_at": "2026-11-07T07:12:32.240781Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/government/news/pm-call-with-president-trump-of-the-united-states-7-september-2026",
+          "original_document_title": "PM call with President Trump of the United States: 7 September 2026 - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-07T07:12:22.778444Z",
+          "exact_quote": "the importance of the Two-State Solution, the reopening of the Strait of Hormuz, and ensuring that Iran never acquires a nuclear weapon.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage bespreekt de noodzaak van vrede en veiligheid in de regio, maar ondersteunt niet specifiek de claim over Vance's rol of Trump die over aanvallen nadenkt.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De tekst benadrukt de noodzaak van vrede en veiligheid in de regio, maar biedt geen bewijs voor de specifieke claim over Vance of Trump.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/government/news/pm-call-with-president-trump-of-the-united-states-7-september-2026",
+          "title": "PM call with President Trump of the United States: 7 September 2026 - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "On the Middle East, the Prime Minister set out the UK’s commitment to working towards peace and security in the region, stressing the importance of the Two-State Solution, the reopening of the Strait of Hormuz, and ensuring that Iran never acquires a"
+        },
+        {
+          "url": "https://www.gov.uk/government/news/pm-meeting-with-president-trump-of-the-united-states-22-september-2026",
+          "title": "PM meeting with President Trump of the United States: 22 September 2026 - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Turning to international affairs, the leaders spoke about the importance of reopening global shipping in the Strait of Hormuz and how Iran must never have a nuclear weapon, with the Prime Minister noting how the conflict clearly impacted the cost of "
+        }
+      ]
+    },
+    "1a46284acf7adf9fcb68027c": {
+      "event_id": "1a46284acf7adf9fcb68027c",
+      "checked_at": "2026-11-07T07:12:32.240789Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De passage beschrijft Houthi-aanvallen in Saudi-Arabië, maar biedt geen specifiek bewijs voor de waarschuwingen van de Amerikaanse ambassade.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/employment-tribunal-decisions/ms-a-costantine-v-the-royal-embassy-of-saudi-arabia-cultural-bureau-2201753-slash-2018",
+          "title": "Ms A Costantine v The Royal Embassy of Saudi Arabia (Cultural Bureau): 2201753/2018 - GOV.UKGOV.UK",
+          "source_publication_date": "2024-08-15T12:10:20Z",
+          "text_excerpt": "Ms A Costantine v The Royal Embassy of Saudi Arabia (Cultural Bureau): 2201753/2018"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026. The airport continues to be targeted and remains at risk of further attacks."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -2883,9 +2959,9 @@
       "model_tokens": 4648
     },
     "2026-11-07": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 1594
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3838
     }
   },
   "last_error": null

@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-07T01:13:29.497658Z",
-  "fingerprint": "26a80c02082095c9e7a7cda7",
+  "last_attempt_utc": "2026-11-07T07:12:12.634663Z",
+  "fingerprint": "0f07befc6a028e94ef0c1c2f",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 23,
-  "event_candidate_count": 20,
+  "input_candidate_count": 22,
+  "event_candidate_count": 19,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 6,
+    "model_pair_proposals": 4,
     "accepted_pair_connections": 3,
-    "rejected_pair_proposals": 3,
+    "rejected_pair_proposals": 1,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 5,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 4,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-07T01:13:29.497658Z",
+    "recorded_at": "2026-11-07T07:12:12.634663Z",
     "groups": [
       {
         "ids": [
@@ -84,17 +84,6 @@
       },
       {
         "ids": [
-          "31d6b4c32b6147"
-        ],
-        "label_nl": "Claim: Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
           "f471d52b9a0707"
         ],
         "label_nl": "Claim: Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International",
@@ -106,9 +95,9 @@
       },
       {
         "ids": [
-          "0980e4dc5e2d95"
+          "4cee56291b8dd4"
         ],
-        "label_nl": "Claim: Strike Iran Before Democrats Take Over? Trump Faces 8-Week Military Deadline - Times Now",
+        "label_nl": "Claim: Vance leads Iran peace push as Trump weighs fresh strikes, US offers $20 million for nuclear intelligence - The Statesman",
         "actor": "",
         "action": "",
         "place": "",
@@ -139,9 +128,9 @@
       },
       {
         "ids": [
-          "849e3c5cea9a2f"
+          "31d6b4c32b6147"
         ],
-        "label_nl": "Claim: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow",
+        "label_nl": "Claim: Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue",
         "actor": "",
         "action": "",
         "place": "",
@@ -172,9 +161,9 @@
       },
       {
         "ids": [
-          "eff1c2296b7f65"
+          "63e3418268eced"
         ],
-        "label_nl": "Claim: Strait of Hormuz Attacks Increase Marine War-Risk Insurance Concerns - Beinsure",
+        "label_nl": "Claim: Trump Says US and Iran Are Talking as Hormuz Mine Attacks Continue - https://houseofsaud.com/",
         "actor": "",
         "action": "",
         "place": "",
@@ -183,9 +172,9 @@
       },
       {
         "ids": [
-          "8c6861fe95cd02"
+          "ae2996d3fedcea"
         ],
-        "label_nl": "Claim: Vance leads push for Iran ceasefire, nuclear talks - Egyptian Gazette",
+        "label_nl": "Claim: US-Iran Talks Continue as JD Vance Pushes for a New Ceasefire - Open Magazine",
         "actor": "",
         "action": "",
         "place": "",
@@ -216,9 +205,9 @@
       },
       {
         "ids": [
-          "1f5ef143ffa511"
+          "849e3c5cea9a2f"
         ],
-        "label_nl": "Claim: Seven Tankers on Fire, Iran 'Traps' Violating Ships with Mines in Strait of Hormuz | Firstpost Ameri - Firstpost",
+        "label_nl": "Claim: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow",
         "actor": "",
         "action": "",
         "place": "",
@@ -254,22 +243,21 @@
       "74d345785d102a",
       "02db98ceb32df6",
       "1054a367dcca77",
-      "31d6b4c32b6147",
       "f471d52b9a0707",
       "87bc19e381b3e4",
       "85ea0f15f8f413",
-      "0980e4dc5e2d95",
+      "4cee56291b8dd4",
       "c6fa105888c450",
       "564f915e543bf4",
-      "849e3c5cea9a2f",
+      "31d6b4c32b6147",
       "dc4d83aca3d116",
       "84e368d737229e",
       "1d14fbd7dc98d0",
-      "eff1c2296b7f65",
-      "8c6861fe95cd02",
+      "63e3418268eced",
+      "ae2996d3fedcea",
       "d894d32d5fd8c0",
       "493079084a84e0",
-      "1f5ef143ffa511",
+      "849e3c5cea9a2f",
       "8cdbd5aeb7e714",
       "08aace6e457870"
     ]
@@ -350,16 +338,16 @@
       "probability_estimate": null
     },
     {
-      "id": "e656eb27a2e42a4a241b93a5",
-      "label_nl": "Claim: Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue",
+      "id": "fed57ed2139a04ab23783038",
+      "label_nl": "Claim: Vance leads Iran peace push as Trump weighs fresh strikes, US offers $20 million for nuclear intelligence - The Statesman",
       "headline_claim_ids": [
-        "31d6b4c32b6147"
+        "4cee56291b8dd4"
       ],
       "headline_claims": [
-        "Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue"
+        "Vance leads Iran peace push as Trump weighs fresh strikes, US offers $20 million for nuclear intelligence - The Statesman"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTDZRSU5BNDBTUmk3SUFDX2trU1RHaHh0b1Jidk8xT281SnlfbGxkQTdkWi1QS19RR2tTTmtQWEZSYm5LMy1BUU1tckJVYjZiUTFOaThIMTQxcHdJcWJEWk83eElNUTZNLVY5TUZzZzRPTWRWR2NjUFFWUWtjOERlQy1TYXFlc2RrSUhwSVdqcDFyZ1FQV054RGZPWE9wc0RWWWVlXy1vOFUxUGZJRUtIcHp4Mjg0OG44QldNOEJTN2xuTmdUUVRIaERncTNfVUJKOHdUXzlqNmhHNWhBelpBSHlDejU1WFRIaEliNXNEQVVHSHRjWXhFTnkwcw?oc=5"
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxObUNjUWtVNlZPR045dDZoS09JcGNkZ0tVRWNyOEowdGc2SmI5TFVObFFrbUZtZXFLcm11VHVFRU5xTHJYdlY2WHYzdkdJQ3JneFJmR1E5OXhxSkJJYVZNZTljZ1BFUlpQY1JQTnBhNXk3SDkxVUR4bWpRcjBFRFhxc2h3bkFMMkFFSkRWODN3MzFrMWYycWpVYmZkdGREVDZVZEVXazFGakdnRzlaamk2VUdSemdpdlg0M2tPN1B30gHDAUFVX3lxTE5YajRzcEY5WnhKYk5Wd1UyUUdBUFZWYjRVS2pBZDZFckJWOENJdUktcXZNbXVya2k3OTdoTjgtSGhEUkNoeG1BZjdTZHhoNEllNmJrRjZSOExMbGM3amszRU5nb1NFRTlpM2pqVXBTb3A4UGJXR1A3cVktbkREd3RwT2p6THE2S3l1TEo2NDNKUUxWTjdUZjlvRHFnX0hsZkJpM2Q4Y1M1SVd0SDF4TTVoMkhpNEtpUWhnckVRTVo0dlIybw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -376,16 +364,16 @@
       "probability_estimate": null
     },
     {
-      "id": "62cd122dcf8a4237c6572dc6",
-      "label_nl": "Claim: Seven Tankers on Fire, Iran 'Traps' Violating Ships with Mines in Strait of Hormuz | Firstpost Ameri - Firstpost",
+      "id": "e656eb27a2e42a4a241b93a5",
+      "label_nl": "Claim: Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue",
       "headline_claim_ids": [
-        "1f5ef143ffa511"
+        "31d6b4c32b6147"
       ],
       "headline_claims": [
-        "Seven Tankers on Fire, Iran 'Traps' Violating Ships with Mines in Strait of Hormuz | Firstpost Ameri - Firstpost"
+        "Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbVU2aDRNWkJ1dUpyT0xUUnpfZW44ZDQtQzhXME9XTWZ5YjFwSy1ZaW5XZXVGbTJnNkY3OE1Od21UeUVwWmRDQmtDN1czdFJWTDMxZWVnZjhwTUhaUEl5c2w2WHBNOEc2SXJYRllENl92WFZDa1FkeXpSRTlOMGxSUG9tYWp2NUxMcWFTSUtCczQtTFlkYlRyU2hOUkZUbVY2N1Z6dm5KSVZQaDExUjhvSE1WeWxJN2Z2VGtxNFRSWkpvakNrSGUtU253RDNNS2tUR3dqZWFHcnZCQjRXX1d0dDRwLVI1SVNUMGo2NE1RNEZMcng1YWfSAfYBQVVfeXFMUG1VNmg0TVpCdXVKck9MVFJ6X2VuOGQ0LUM4VzBPV01meWIxcEstWWluV2V1Rm0yZzZGNzhNTndtVHlFcFpkQ0JrQzdXM3RSVkwzMWVlZ2Y4cE1IWlBJeXNsNlhwTThHNklyWEZZRDZfdlhWQ2tRZHl6UkU5TjBsUlBvbWFqdjVMTHFhU0lLQnM0LUxZZGJUclNoTlJGVG1WNjdWenZuSklWUGgxMVI4b0hNVnlsSTdmdlRrcTRUUlpKb2pDa0hlLVNud0QzTUtrVEd3amVhR3J2QkI0V19XdHQ0cC1SNUlTVDBqNjRNUTRGTHJ4NWFn?oc=5"
+        "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTDZRSU5BNDBTUmk3SUFDX2trU1RHaHh0b1Jidk8xT281SnlfbGxkQTdkWi1QS19RR2tTTmtQWEZSYm5LMy1BUU1tckJVYjZiUTFOaThIMTQxcHdJcWJEWk83eElNUTZNLVY5TUZzZzRPTWRWR2NjUFFWUWtjOERlQy1TYXFlc2RrSUhwSVdqcDFyZ1FQV054RGZPWE9wc0RWWWVlXy1vOFUxUGZJRUtIcHp4Mjg0OG44QldNOEJTN2xuTmdUUVRIaERncTNfVUJKOHdUXzlqNmhHNWhBelpBSHlDejU1WFRIaEliNXNEQVVHSHRjWXhFTnkwcw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -508,32 +496,6 @@
       "probability_estimate": null
     },
     {
-      "id": "757ace8f25d0bf30ef45d865",
-      "label_nl": "Claim: Strike Iran Before Democrats Take Over? Trump Faces 8-Week Military Deadline - Times Now",
-      "headline_claim_ids": [
-        "0980e4dc5e2d95"
-      ],
-      "headline_claims": [
-        "Strike Iran Before Democrats Take Over? Trump Faces 8-Week Military Deadline - Times Now"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaDJwSkl5QnVZN0hyd1EtQXJsak1UMFI4UFhkR2Z1UTRsVnZzdC1FNE5KcWRXQWFLSXA3QVN6UHdpVE5EZ2xTSWN3dnVMNjZqdm1wYVJvUEo2b3hWOGdkMWRkQXNWNV95SjBrSzJNV0lhYjNjbWVHNXVaUE5EeXRSTk1rS3l2NnZSZ0ZwTmtUSTVVNWFZWVFOUHlzVWRZMWR2dU42NXVZMHpSQ1ZHZ2E5RHRhU3Y3Zmp1TExjYWx2NG1LcWEyV1g2T1lJM2VFVzJfMTd4SWlVcUUybFZ6LUJPUdIB5gFBVV95cUxOREdMTEFwemJ4ZkdOU3dFSXJQWjQ1b19KRXJYX2txTHJldnpzMzFrd0hZTUdad2pFRTZaTERlWWY4TU1ma1NZaldYVXVyT0hQUzIyQURLSXcwajhtUDBaV3g3S0dQbzVFWXZfVFBFM3hXazY1QW5Hb0xWcFpmLXBycF9hMGZUbnQwYm9BRDE4MVRScDVPdmZRRThXMDk4aXoweUJtYUFBQ0xubEN4U042eG1BQWdTM29BeHRGZ2NyQXV2Ym8wWW5laU9ZV0F1YnV4SFhSYlh5d0I2UUttVHpzblgzUlBFdw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "e304513ed72433bcf06f0157",
       "label_nl": "Claim: Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
       "headline_claim_ids": [
@@ -570,32 +532,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWtlUEpScEI3aXZTVk9wdVBPUDFKQ24ybU55X0R3WlVYR01kUTY0LVhUMjh5ZF9PUlpxbGZ0QUE0ZG9ieGlNbHNqQmxEclMxTzAwQ0FQRXJZbmdFSXNBaTlmVEVIcUJ6U1FQUlBzTUExVGlYaThsUTctLVlwaGxvNm9la3EtXzA?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "cd32696d5b66fb38782d4079",
-      "label_nl": "Claim: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow",
-      "headline_claim_ids": [
-        "849e3c5cea9a2f"
-      ],
-      "headline_claims": [
-        "Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd2Z2bzhZNlVNUnNyNkpod0U3N2U1VDJvZzJKN1ZpM0NidVNiUGZISElDa1pFaHRxSjEzOVRmOGtpOEVfZUF1d3BHUDJ2bjZVYXlXdWtCaWdlVkxKNnJWOUgxRVBTM2lkQ3JBeXZZR19sTS05NXVyak1EdXdSRHRnSC1Zcm1VNTUzVDI2bVZmQTJwZ2htb0w4X3BmZnF2TmdIZTNnRFVLeXJ5bjhLbThZVmwyOXlVamxYZ1RjcEtlSFNBcEQxbGhOaQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -664,16 +600,16 @@
       "probability_estimate": null
     },
     {
-      "id": "3cb3791b0c77d303eea7425f",
-      "label_nl": "Claim: Strait of Hormuz Attacks Increase Marine War-Risk Insurance Concerns - Beinsure",
+      "id": "e55131b2093e5c9ab0c83abd",
+      "label_nl": "Claim: Trump Says US and Iran Are Talking as Hormuz Mine Attacks Continue - https://houseofsaud.com/",
       "headline_claim_ids": [
-        "eff1c2296b7f65"
+        "63e3418268eced"
       ],
       "headline_claims": [
-        "Strait of Hormuz Attacks Increase Marine War-Risk Insurance Concerns - Beinsure"
+        "Trump Says US and Iran Are Talking as Hormuz Mine Attacks Continue - https://houseofsaud.com/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTFBvdTNFVm02Sk1tYXdhMWg4T3JBOHhxcXBKLWJBelBWaXdUTThDMC12ZXpIekhOMjhQZnNGRG5EajlCQV9mekVIX1BEbURlclVuMzRnbmJBaGNjaFBKX01fR3E3R0tKSGhCRWsyUk1XQm5LLTJiNmhXWWxxLVA?oc=5"
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kZXI4TlFQNlNoNm1lb1E4UC1feWdmVWdteXBsdEZtS2NDbkxGXzZlb09yQnFPRFJaLVMzUUlWaTJNNkgtR3FjUjVURGp5elE1aTBqcnNITW5HTFhoNkZOdm9FamVQSmVlV05wMFVLYTg?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -690,16 +626,16 @@
       "probability_estimate": null
     },
     {
-      "id": "d6e04c7662c8ce251f8201cb",
-      "label_nl": "Claim: Vance leads push for Iran ceasefire, nuclear talks - Egyptian Gazette",
+      "id": "3487d3b11f2d1c393488a01d",
+      "label_nl": "Claim: US-Iran Talks Continue as JD Vance Pushes for a New Ceasefire - Open Magazine",
       "headline_claim_ids": [
-        "8c6861fe95cd02"
+        "ae2996d3fedcea"
       ],
       "headline_claims": [
-        "Vance leads push for Iran ceasefire, nuclear talks - Egyptian Gazette"
+        "US-Iran Talks Continue as JD Vance Pushes for a New Ceasefire - Open Magazine"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWnFMVktRR1BWU2FqMmhDTU12UmVEVXNnVDloUDV3ZVkwa0tkVURyZTMyLXVTcHhadFVnUXBWZWg1UjROdkpYdmJsbVFDN3BCOXo1RDhiYmhxYXdfeC1jU0pwWUJQQUFSSEZvb0xXU0hhVncwNmlmMW1yaFkyWnFVT2ZxMko1aHV3ODk0SGN3?oc=5"
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTVdveldKaGdIdHF3Q01SdU9PN0JlYzB4eVRhd0xnaUhia2d3Wjd6WUVGb1FLdTZNajlvQjVlN3VXampZV0hvTFdKQktpNFVjdHd0VTVONjNSZzRXYkVyQ1hoSWt2TFdmUUIzSU9jNWNhUnJaVnVvdExLeGZuakNGdVdPR0hMaUdlNzBmcnplQzZ1NXhtZ2RGNU05RQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -752,6 +688,32 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTJjbzNoVjZ0VnNrSlQwMkhIVG9hZmJFM2FuTTMyOVh2bzlJem9IN0c3N1NFOWg3TlNhY2hjMzlrSWw3U2pnNGdSbVo2RGNRTFc1cWlwN1J5SGd6SnlPMkZmWFFwc01Gb0tJaDNYNW9ZbC03Z253OW1pN1lwbXp6NmZCNC1Uem1Jem9tLWdEMTE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "cd32696d5b66fb38782d4079",
+      "label_nl": "Claim: Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow",
+      "headline_claim_ids": [
+        "849e3c5cea9a2f"
+      ],
+      "headline_claims": [
+        "Oil Prices Unlikely to Fall as Houthi Attacks Threaten Saudi Export Routes, Middle East Expert Warns - EnergyNow"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd2Z2bzhZNlVNUnNyNkpod0U3N2U1VDJvZzJKN1ZpM0NidVNiUGZISElDa1pFaHRxSjEzOVRmOGtpOEVfZUF1d3BHUDJ2bjZVYXlXdWtCaWdlVkxKNnJWOUgxRVBTM2lkQ3JBeXZZR19sTS05NXVyak1EdXdSRHRnSC1Zcm1VNTUzVDI2bVZmQTJwZ2htb0w4X3BmZnF2TmdIZTNnRFVLeXJ5bjhLbThZVmwyOXlVamxYZ1RjcEtlSFNBcEQxbGhOaQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -832,8 +794,8 @@
       "total_tokens": 34113
     },
     "2026-11-07": {
-      "requests": 3,
-      "total_tokens": 8603
+      "requests": 6,
+      "total_tokens": 16573
     }
   }
 }
