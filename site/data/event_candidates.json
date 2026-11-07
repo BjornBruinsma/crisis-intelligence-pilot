@@ -1,12 +1,12 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-07T07:12:12.634663Z",
-  "fingerprint": "0f07befc6a028e94ef0c1c2f",
+  "last_attempt_utc": "2026-11-07T13:03:13.931442Z",
+  "fingerprint": "ba3b91a372777d23186e0713",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 22,
-  "event_candidate_count": 19,
+  "input_candidate_count": 21,
+  "event_candidate_count": 18,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
     "model_pair_proposals": 4,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-07T07:12:12.634663Z",
+    "recorded_at": "2026-11-07T13:03:13.931442Z",
     "groups": [
       {
         "ids": [
@@ -48,17 +48,6 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
-      },
-      {
-        "ids": [
-          "74d345785d102a"
-        ],
-        "label_nl": "Claim: US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airport disruptions amid rising tensions - inkl",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -95,9 +84,9 @@
       },
       {
         "ids": [
-          "4cee56291b8dd4"
+          "d6530190092fe1"
         ],
-        "label_nl": "Claim: Vance leads Iran peace push as Trump weighs fresh strikes, US offers $20 million for nuclear intelligence - The Statesman",
+        "label_nl": "Claim: Iran threatens to attack US without 'geographic restrictions' - NewsBytes",
         "actor": "",
         "action": "",
         "place": "",
@@ -161,9 +150,9 @@
       },
       {
         "ids": [
-          "63e3418268eced"
+          "f4c9f67c7419dc"
         ],
-        "label_nl": "Claim: Trump Says US and Iran Are Talking as Hormuz Mine Attacks Continue - https://houseofsaud.com/",
+        "label_nl": "Claim: Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’? - Al Jazeera",
         "actor": "",
         "action": "",
         "place": "",
@@ -172,9 +161,9 @@
       },
       {
         "ids": [
-          "ae2996d3fedcea"
+          "4cee56291b8dd4"
         ],
-        "label_nl": "Claim: US-Iran Talks Continue as JD Vance Pushes for a New Ceasefire - Open Magazine",
+        "label_nl": "Claim: Vance leads Iran peace push as Trump weighs fresh strikes, US offers $20 million for nuclear intelligence - The Statesman",
         "actor": "",
         "action": "",
         "place": "",
@@ -240,21 +229,20 @@
     "input_claim_ids": [
       "c5b0d33767bceb",
       "7e91e29dbeb9cf",
-      "74d345785d102a",
       "02db98ceb32df6",
       "1054a367dcca77",
       "f471d52b9a0707",
       "87bc19e381b3e4",
       "85ea0f15f8f413",
-      "4cee56291b8dd4",
+      "d6530190092fe1",
       "c6fa105888c450",
       "564f915e543bf4",
       "31d6b4c32b6147",
       "dc4d83aca3d116",
       "84e368d737229e",
       "1d14fbd7dc98d0",
-      "63e3418268eced",
-      "ae2996d3fedcea",
+      "f4c9f67c7419dc",
+      "4cee56291b8dd4",
       "d894d32d5fd8c0",
       "493079084a84e0",
       "849e3c5cea9a2f",
@@ -338,16 +326,16 @@
       "probability_estimate": null
     },
     {
-      "id": "fed57ed2139a04ab23783038",
-      "label_nl": "Claim: Vance leads Iran peace push as Trump weighs fresh strikes, US offers $20 million for nuclear intelligence - The Statesman",
+      "id": "fec28e693dddc21716cf9b38",
+      "label_nl": "Claim: Iran threatens to attack US without 'geographic restrictions' - NewsBytes",
       "headline_claim_ids": [
-        "4cee56291b8dd4"
+        "d6530190092fe1"
       ],
       "headline_claims": [
-        "Vance leads Iran peace push as Trump weighs fresh strikes, US offers $20 million for nuclear intelligence - The Statesman"
+        "Iran threatens to attack US without 'geographic restrictions' - NewsBytes"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxObUNjUWtVNlZPR045dDZoS09JcGNkZ0tVRWNyOEowdGc2SmI5TFVObFFrbUZtZXFLcm11VHVFRU5xTHJYdlY2WHYzdkdJQ3JneFJmR1E5OXhxSkJJYVZNZTljZ1BFUlpQY1JQTnBhNXk3SDkxVUR4bWpRcjBFRFhxc2h3bkFMMkFFSkRWODN3MzFrMWYycWpVYmZkdGREVDZVZEVXazFGakdnRzlaamk2VUdSemdpdlg0M2tPN1B30gHDAUFVX3lxTE5YajRzcEY5WnhKYk5Wd1UyUUdBUFZWYjRVS2pBZDZFckJWOENJdUktcXZNbXVya2k3OTdoTjgtSGhEUkNoeG1BZjdTZHhoNEllNmJrRjZSOExMbGM3amszRU5nb1NFRTlpM2pqVXBTb3A4UGJXR1A3cVktbkREd3RwT2p6THE2S3l1TEo2NDNKUUxWTjdUZjlvRHFnX0hsZkJpM2Q4Y1M1SVd0SDF4TTVoMkhpNEtpUWhnckVRTVo0dlIybw?oc=5"
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUY3MFgxSTN2TlpuZzkxTE5XN0dIVzRGdm1FSGlGS19TUVZQOHZUR2lKLWZhYWpwclpSWDl5Vzc0UzNEeFRzb3hzd0pxU1U5QUg2d05nZEhVcWVXT2pBV1BROWxFVy1ZX25iMUxaSXR3X3VzN3BUcHJnS2lOS2NDZ0tNMFo2c2g1ZzlTR1lYeS0?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -390,26 +378,25 @@
       "probability_estimate": null
     },
     {
-      "id": "1a46284acf7adf9fcb68027c",
-      "label_nl": "Claim: US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airport disruptions amid rising tensions - inkl",
+      "id": "fed57ed2139a04ab23783038",
+      "label_nl": "Claim: Vance leads Iran peace push as Trump weighs fresh strikes, US offers $20 million for nuclear intelligence - The Statesman",
       "headline_claim_ids": [
-        "74d345785d102a"
+        "4cee56291b8dd4"
       ],
       "headline_claims": [
-        "US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airport disruptions amid rising tensions - inkl"
+        "Vance leads Iran peace push as Trump weighs fresh strikes, US offers $20 million for nuclear intelligence - The Statesman"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcHJwY19XaWpsc2FoMmN1OTBrVExEWTJRdDBrXzBhcThGdGh3NVEwWXVLYVRKOTBuYjBRYnZtMEZpcGlycmY0anZ2WVFKcko2WVlZQVl2Rk1tdXFRbTZhUDJDeWZrTk5kRUkwYnNWaU1QVUN1ZDBXMHd5QzhKYjFIVDB1bDJsRlhQSFo4RXVXYkM1aUVZYU9GVmFnUTktbGtsNmZtNnQ1V21wV2FZeWd1VDlxSFJLVU85QkUyYjFGcE82c21XNS1EOTh3S0xzMnlE?oc=5",
-        "https://news.google.com/rss/articles/CBMikAJBVV95cUxOcWNad0hlYTY1YVcyOTBjS3hHd3hReDVBQXVGcGljbU1Zbzg5UEhQTDVaZVB0SF9LdzlRR013ak9HTWQzbVBEVEZ5cGZNM0F3YUlmRUsxRWtKUER0OEZhNjVFVlN3WlMyOXEyT3hHc0t6Njgzci10ZWo4TnoxQUN4a2c0QjZsVkkyQUJ1ZUlORnI2X09KUzhiTkQ5S1RVNnNabHRMc0ZWbW9BbGVTSE94aWMtdHVGaGFmZno1UjBIdE15ZXE3UDF5ZFZQbmdfR184a3B1ZzFGUk5XZ0hMR1FVZDFZdlNhdEVocWZRVmUzSV9LSldGMC1nWWwwV3FFY0VJdmxrMWFsZnc3TURCclpQNdIBkAJBVV95cUxOcWNad0hlYTY1YVcyOTBjS3hHd3hReDVBQXVGcGljbU1Zbzg5UEhQTDVaZVB0SF9LdzlRR013ak9HTWQzbVBEVEZ5cGZNM0F3YUlmRUsxRWtKUER0OEZhNjVFVlN3WlMyOXEyT3hHc0t6Njgzci10ZWo4TnoxQUN4a2c0QjZsVkkyQUJ1ZUlORnI2X09KUzhiTkQ5S1RVNnNabHRMc0ZWbW9BbGVTSE94aWMtdHVGaGFmZno1UjBIdE15ZXE3UDF5ZFZQbmdfR184a3B1ZzFGUk5XZ0hMR1FVZDFZdlNhdEVocWZRVmUzSV9LSldGMC1nWWwwV3FFY0VJdmxrMWFsZnc3TURCclpQNQ?oc=5"
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxObUNjUWtVNlZPR045dDZoS09JcGNkZ0tVRWNyOEowdGc2SmI5TFVObFFrbUZtZXFLcm11VHVFRU5xTHJYdlY2WHYzdkdJQ3JneFJmR1E5OXhxSkJJYVZNZTljZ1BFUlpQY1JQTnBhNXk3SDkxVUR4bWpRcjBFRFhxc2h3bkFMMkFFSkRWODN3MzFrMWYycWpVYmZkdGREVDZVZEVXazFGakdnRzlaamk2VUdSemdpdlg0M2tPN1B30gHDAUFVX3lxTE5YajRzcEY5WnhKYk5Wd1UyUUdBUFZWYjRVS2pBZDZFckJWOENJdUktcXZNbXVya2k3OTdoTjgtSGhEUkNoeG1BZjdTZHhoNEllNmJrRjZSOExMbGM3amszRU5nb1NFRTlpM2pqVXBTb3A4UGJXR1A3cVktbkREd3RwT2p6THE2S3l1TEo2NDNKUUxWTjdUZjlvRHFnX0hsZkJpM2Q4Y1M1SVd0SDF4TTVoMkhpNEtpUWhnckVRTVo0dlIybw?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
-      "editorial_importance": "medium",
+      "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
@@ -600,42 +587,16 @@
       "probability_estimate": null
     },
     {
-      "id": "e55131b2093e5c9ab0c83abd",
-      "label_nl": "Claim: Trump Says US and Iran Are Talking as Hormuz Mine Attacks Continue - https://houseofsaud.com/",
+      "id": "5949adb04febbf6b21acf2b3",
+      "label_nl": "Claim: Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’? - Al Jazeera",
       "headline_claim_ids": [
-        "63e3418268eced"
+        "f4c9f67c7419dc"
       ],
       "headline_claims": [
-        "Trump Says US and Iran Are Talking as Hormuz Mine Attacks Continue - https://houseofsaud.com/"
+        "Will Trump strike nuclear sites again as Iran engages ‘cognitive warfare’? - Al Jazeera"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kZXI4TlFQNlNoNm1lb1E4UC1feWdmVWdteXBsdEZtS2NDbkxGXzZlb09yQnFPRFJaLVMzUUlWaTJNNkgtR3FjUjVURGp5elE1aTBqcnNITW5HTFhoNkZOdm9FamVQSmVlV05wMFVLYTg?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "3487d3b11f2d1c393488a01d",
-      "label_nl": "Claim: US-Iran Talks Continue as JD Vance Pushes for a New Ceasefire - Open Magazine",
-      "headline_claim_ids": [
-        "ae2996d3fedcea"
-      ],
-      "headline_claims": [
-        "US-Iran Talks Continue as JD Vance Pushes for a New Ceasefire - Open Magazine"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTVdveldKaGdIdHF3Q01SdU9PN0JlYzB4eVRhd0xnaUhia2d3Wjd6WUVGb1FLdTZNajlvQjVlN3VXampZV0hvTFdKQktpNFVjdHd0VTVONjNSZzRXYkVyQ1hoSWt2TFdmUUIzSU9jNWNhUnJaVnVvdExLeGZuakNGdVdPR0hMaUdlNzBmcnplQzZ1NXhtZ2RGNU05RQ?oc=5"
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxORWd2ZHNRRjNUZE56eU5kdTU3cl9ja2dwemEtRWYyaG9GcEVBU2RBS3N5a3g1dFY4blY4a1d0eEtQa0VwdTFtNGVZRGhkWW9fZURoZFlnS0dZUXBndnJMME5EUjloYmthMDlOcnltMUNVblF2eHRXNU53RWdLNEZuRWtZYzF3M0d6QlllRjBMMnJaUU5SdVJ0YVVWUXM3V0hKeVg0YXV4ONIBrAFBVV95cUxPSXZRVmV6bnNJWlA5Zm5mcHZNMEdFNjBGbXdGYWJsYnllQUxFM0pQZ2N6OTdpYUZ5NUFtSHhjaG15YTF3VVg4TFM2MTFZVE1nOGN1dngxOFZfOExmajNUMXFJYVRwR3VISFRiMWFBVWlHOE9pSjJtdkJZTHlHMGFFN0xkOVVRRVotTjgzOVBFVGhBbGxETTRVN2JXNHV2OXRYVjlSQ3ROdFRTeFFF?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -794,8 +755,8 @@
       "total_tokens": 34113
     },
     "2026-11-07": {
-      "requests": 6,
-      "total_tokens": 16573
+      "requests": 9,
+      "total_tokens": 25683
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-11-07T07:10:35.400668Z",
+  "last_attempt_utc": "2026-11-07T13:01:38.436059Z",
   "sources": {
     "google_news_rss": {
       "ok": 12,
@@ -13,18 +13,18 @@
   "profiles": {
     "military": {
       "status": "ok",
-      "articles": 20,
-      "new": 4
+      "articles": 24,
+      "new": 5
     },
     "diplomacy": {
       "status": "ok",
-      "articles": 18,
-      "new": 9
+      "articles": 20,
+      "new": 8
     },
     "government": {
       "status": "ok",
-      "articles": 1,
-      "new": 0
+      "articles": 4,
+      "new": 1
     },
     "markets": {
       "status": "ok",
@@ -33,22 +33,22 @@
     },
     "energy": {
       "status": "ok",
-      "articles": 20,
+      "articles": 15,
       "new": 0
     },
     "trade": {
       "status": "ok",
-      "articles": 8,
-      "new": 2
+      "articles": 10,
+      "new": 1
     },
     "business": {
       "status": "ok",
-      "articles": 8,
+      "articles": 9,
       "new": 1
     },
     "economy": {
       "status": "ok",
-      "articles": 1,
+      "articles": 0,
       "new": 0
     },
     "iran-fa": {
@@ -59,17 +59,17 @@
     "china-zh": {
       "status": "ok",
       "articles": 8,
-      "new": 0
+      "new": 2
     },
     "pakistan-en": {
       "status": "ok",
-      "articles": 29,
-      "new": 5
+      "articles": 28,
+      "new": 2
     },
     "gulf-ar": {
       "status": "ok",
       "articles": 27,
-      "new": 1
+      "new": 5
     },
     "gdelt-iran": {
       "status": "error",
@@ -86,8 +86,8 @@
     "gdelt-iran": "HTTP 429 Too Many Requests",
     "gdelt-hormuz": "HTTP 429 Too Many Requests"
   },
-  "new_urls": 22,
-  "retained_urls": 2716,
+  "new_urls": 25,
+  "retained_urls": 2741,
   "queries_ok": 12,
   "queries_total": 14,
   "status": "partial"
