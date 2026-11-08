@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-08T13:03:24.847732Z",
-  "fingerprint": "e83868112e8f07f7711807fc",
+  "last_attempt_utc": "2026-11-08T18:56:15.787674Z",
+  "fingerprint": "eb51f17b7524664fdd269f91",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -22,13 +22,13 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-08T13:03:24.847732Z",
+    "recorded_at": "2026-11-08T18:56:15.787674Z",
     "groups": [
       {
         "ids": [
-          "b5a0e06109fbbb"
+          "36becc6b3adcdf"
         ],
-        "label_nl": "Claim: US Strikes Iran Amid Ongoing Tensions in Strait of Hormuz - SSBCrack",
+        "label_nl": "Claim: Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
         "actor": "",
         "action": "",
         "place": "",
@@ -103,9 +103,9 @@
       },
       {
         "ids": [
-          "7a50cc86182989"
+          "f9aee2a1e620b5"
         ],
-        "label_nl": "Claim: Blasts rock southern Iran, 2 tankers catch fire amid US blockade of Hormuz - India Today",
+        "label_nl": "Claim: U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News",
         "actor": "",
         "action": "",
         "place": "",
@@ -180,9 +180,9 @@
       },
       {
         "ids": [
-          "30083d4e905288"
+          "e44904218c7721"
         ],
-        "label_nl": "Claim: Saudi Coalition Intercepts Two Missiles Targeting Riyadh - NewzTodays",
+        "label_nl": "Claim: السعودية تعترض مسيّرة وصواريخ حوثية اطلقت باتجاه مناطق عدة - قناة المملكة",
         "actor": "",
         "action": "",
         "place": "",
@@ -191,9 +191,9 @@
       },
       {
         "ids": [
-          "0efff3db05b341"
+          "ee801c20cf8572"
         ],
-        "label_nl": "Claim: Trump Confirms New US Strikes on Iran as Qatar Presses 48-Hour Plan - https://houseofsaud.com/",
+        "label_nl": "Claim: Iran: US strikes ship after blockade breach - DW.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -257,22 +257,22 @@
       }
     ],
     "input_claim_ids": [
-      "b5a0e06109fbbb",
+      "36becc6b3adcdf",
       "7e91e29dbeb9cf",
       "4a62bd62f728fc",
       "02db98ceb32df6",
       "1054a367dcca77",
       "9f70f591b38cf7",
       "58d560645d25b4",
-      "7a50cc86182989",
+      "f9aee2a1e620b5",
       "4fb9ee5831c2c9",
       "267b44ae2268b6",
       "c6fa105888c450",
       "564f915e543bf4",
       "dc4d83aca3d116",
       "f471d52b9a0707",
-      "30083d4e905288",
-      "0efff3db05b341",
+      "e44904218c7721",
+      "ee801c20cf8572",
       "0468761132763e",
       "8357bffc4c7e82",
       "d894d32d5fd8c0",
@@ -281,19 +281,88 @@
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 0,
+  "direct_official_match_count": 5,
   "events": [
     {
-      "id": "0fd2df9c4543885ff0556588",
-      "label_nl": "Claim: US Strikes Iran Amid Ongoing Tensions in Strait of Hormuz - SSBCrack",
+      "id": "85dc6843b10f7a1896c74594",
+      "label_nl": "Claim: Iran warns of strong response to further US strikes - Malaysia Sun",
       "headline_claim_ids": [
-        "b5a0e06109fbbb"
+        "58d560645d25b4"
       ],
       "headline_claims": [
-        "US Strikes Iran Amid Ongoing Tensions in Strait of Hormuz - SSBCrack"
+        "Iran warns of strong response to further US strikes - Malaysia Sun"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWWt2dkc0WmotSkc4Z1FNNUJid0dQNDZOUUhJV3V6ZndvV0Rqb1BsT1lnS1ByOF8wV1d3NUxxTkxqMVpMVF9fU2N5dWx6MWJKU2IzdW5BYlVNZkRoN0V2SVFwN0tWVVhsSU5xT3lvQUtFUjVvUzdMQlpIeXd2UXFJN0FySmtNRkxJa2Y3LQ?oc=5"
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxORldGdFhPN3N0am9XNm9MVkFNQmpJcExWTUZpdHJCUjYwRlhxVlpSVHg5T1d0aS1uby1yX0NReXRXMjdFN2x0anVFNHg1WWhkeENqM1c0dG1YOG9rVmt2UGtZcjFMZVhpZHBoN01acnYwZG1fZzN2Z0s2UWROdHZMZ3ZfaG0xQV9rcjFkVmVld0RjU1ozbnhGeQ?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbWdOWjZaRkRuSy12Tmg1S2xQVk9FcnBrV0NyQ1RKUE5Jc2JaVVM3cFdLalZmLWY1TzctMVNvX3lzTjA5RkVKVEFNYnVUNW5JWjNWcE5EV1NtZjhIcnNZeEpxRUhrRVJpNFU2MjB2NFpuVnJTTUtnSEZEaDJQV3FwX1pucWFoSnM0RTczTWlFZktpaTRGdWc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p6",
+        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel, including, but not limited to, organisations, businesses, facilities, ",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim dat Iran heeft gewaarschuwd voor een sterke reactie op verdere Amerikaanse aanvallen.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "181e69a4804fb747bfd1cd75",
+      "label_nl": "Claim: U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News",
+      "headline_claim_ids": [
+        "f9aee2a1e620b5"
+      ],
+      "headline_claims": [
+        "U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMickFVX3lxTFAzNWx1SkNrcnZqQnk5RnpLMEtuN2RWcU1WbEJza1VFeXp1ZlZzdjNtV3JkbWl6YUJhaFdEUlFzbnZTYTZwQldfb0R0emZYb3FUYksyYWJOLVVWUmNGd0JWVVBsOHNEUms2TG8tQkZGOHhEdw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran. There are reports that suggest ports, roads, railways, bridges, energy facilities, oil production",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim over Amerikaanse aanvallen op Iraanse doelen.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "22861ae047774b122460ebe9",
+      "label_nl": "Claim: Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
+      "headline_claim_ids": [
+        "36becc6b3adcdf"
+      ],
+      "headline_claims": [
+        "Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXekdTSHhVZ19hOWdSdTEwRzE4dDFLV0hCVWdsT2plWkRKN0tiUjdicWRSaVQ1M2E2YnhMbDNsMVRSYTFXSy1WTFg3bm8ySDRIa29qUUZNWTFGTFVWLXd3cV9EdzlvSDJlSlVieUtQeTg?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -363,95 +432,16 @@
       "probability_estimate": null
     },
     {
-      "id": "85dc6843b10f7a1896c74594",
-      "label_nl": "Claim: Iran warns of strong response to further US strikes - Malaysia Sun",
+      "id": "2aee72e240cea0ed5e059138",
+      "label_nl": "Claim: Iran: US strikes ship after blockade breach - DW.com",
       "headline_claim_ids": [
-        "58d560645d25b4"
+        "ee801c20cf8572"
       ],
       "headline_claims": [
-        "Iran warns of strong response to further US strikes - Malaysia Sun"
+        "Iran: US strikes ship after blockade breach - DW.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimAFBVV95cUxORldGdFhPN3N0am9XNm9MVkFNQmpJcExWTUZpdHJCUjYwRlhxVlpSVHg5T1d0aS1uby1yX0NReXRXMjdFN2x0anVFNHg1WWhkeENqM1c0dG1YOG9rVmt2UGtZcjFMZVhpZHBoN01acnYwZG1fZzN2Z0s2UWROdHZMZ3ZfaG0xQV9rcjFkVmVld0RjU1ozbnhGeQ?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbWdOWjZaRkRuSy12Tmg1S2xQVk9FcnBrV0NyQ1RKUE5Jc2JaVVM3cFdLalZmLWY1TzctMVNvX3lzTjA5RkVKVEFNYnVUNW5JWjNWcE5EV1NtZjhIcnNZeEpxRUhrRVJpNFU2MjB2NFpuVnJTTUtnSEZEaDJQV3FwX1pucWFoSnM0RTczTWlFZktpaTRGdWc?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "d79e1ff88f228707376f50bc",
-      "label_nl": "Claim: Blasts rock southern Iran, 2 tankers catch fire amid US blockade of Hormuz - India Today",
-      "headline_claim_ids": [
-        "7a50cc86182989"
-      ],
-      "headline_claims": [
-        "Blasts rock southern Iran, 2 tankers catch fire amid US blockade of Hormuz - India Today"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLUpzN1JvMVM4R1BkaWctNG82eXdpV3dXamlZUXVDanRFcHk5TzlXMzRSUzlSQnVHUmxTVWJ4czBFcElLejJQbU5rVTgxZF9ZdmU0ZEUxSm13R1RRSzdiSWh2dl9PTVhtV0lfNlpubEhrUmxXUkg2cDM5TGpjcnVpdmlEZVZUMzExTXY3SzZsS2dPc2hJdmlKVDVqc0EzcXcwWXlGWkNNaDY2N0E1T0pERjA3QWR0aUMtRnhDYkxockJ2RVc1WlHSAcsBQVVfeXFMUHdUUVVPUkVwWVBQSDFiRVVvVDhuZDdWZFNGQTB2dWVsOEs5NmNmdDRmeklkZ1FtRDlUZmo1U2VGUDhuRmJDMWVKVXc2OGY2QmdzRS1LbHRGRVFIRWIzZnJNVDI3OGtXWm9ZT0JuUzFSdUhiYWdFTlQ0WlQ3X2U5NGxhSEFWZnZaR29lNng0cGxDZ2prME9wVFhZdHJhZ2JxS0RBSlh5NFVSWEpDX3FCT2tJLTBsaTQ4eE1LSnUydmIyOTFPaVZWREE1d0k?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "ff79089d13e8a63d29698ff6",
-      "label_nl": "Claim: Saudi Coalition Intercepts Two Missiles Targeting Riyadh - NewzTodays",
-      "headline_claim_ids": [
-        "30083d4e905288"
-      ],
-      "headline_claims": [
-        "Saudi Coalition Intercepts Two Missiles Targeting Riyadh - NewzTodays"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN2NBWkdvd290VWY5OG8zU212YzZmUDRWYjVjRk9fNkIxSjc5LXNkS01xWGFFcm5heVA0Smh0TzZtSWxNMnJkS0F0ZlVIOG5xa3FkS19uRjVkcnMwLTZNcXRZYk02a3VuRTNQMHRNSU9lZWJ5X1JqMDRRY292THlxTklmVUJ3VVE?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "6cefce3fe2c67a50309213e3",
-      "label_nl": "Claim: Trump Confirms New US Strikes on Iran as Qatar Presses 48-Hour Plan - https://houseofsaud.com/",
-      "headline_claim_ids": [
-        "0efff3db05b341"
-      ],
-      "headline_claims": [
-        "Trump Confirms New US Strikes on Iran as Qatar Presses 48-Hour Plan - https://houseofsaud.com/"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMia0FVX3lxTE5uU1RaSzV4OVRDRVJ0TmR3bUVTb1lQaDlGR2dkSGlqSy1HM190Q1h1QzVBbW00Q0RkLWFKYmFnR1praDNvNHgzdnNQYTh1b1JMOUVPMkZmS3FnSDRCU0toZHJTNWNic1hPcDlR?oc=5"
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZVZIRjBab183eXg3NERJTXhPTEZ1V0hmYVBiQy1pY1JOUDNVa3ZWdTNCdGZjV1VIT05UMDA1UkRCbWlacVY0STFnR0p3aGxNTXlqUF96RVZxNEJPR29NTkJRVWJTdzZjRlFQYjBueVVmLUxneTRnLWs5TjhPaEVBNHNOSTN5MUV1OFHSAYoBQVVfeXFMTWgyYWpENlJKM2N1MGM3emZnLUdubUc2RjVvNnpwMzBpQi1tVnJzemJaRGdValJqV2VHbXVPYjh0TF9QM1lmTW9oV0dnbnpFQktNYnRDY1daWnJmdGFETTBRNHN3QjJHSUhzSVdXTlctNUM0SlVTdC1fZ1FVeVpfbmgxZlFtLWtacXBB?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -514,8 +504,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_uae:p1",
+        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage bevestigt de verhoogde risico's van aanvallen in het Midden-Oosten, inclusief de waarschuwing voor Amerikaanse burgers.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -540,8 +538,50 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_saudi:p7",
+        "exact_excerpt": "There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energy infrastructure across Saudi Arabia",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim over de annulering van oorlog risicoverzekeringen in verband met de verhoogde dreiging van aanvallen.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "455ceb3bbb464abb01ff8858",
+      "label_nl": "Claim: Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS",
+      "headline_claim_ids": [
+        "dc4d83aca3d116"
+      ],
+      "headline_claims": [
+        "Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jS3JUUEtxbDM3OWdfNEw1ZktmXzJsNzlucGlQMkFMdnZORWxLSXNXMlhXRDREd19SRWRYM1RMSm9sczZKNFc4Zkd4ckZURzdQdEpsbUpGZy0wSGtFM1E?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p7",
+        "exact_excerpt": "British nationals in, or planning to travel through, the Middle East should be prepared for possible flight cancellations, airspace closures, and travel di",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage bevestigt de risico's voor reizigers in het Midden-Oosten, inclusief de mogelijkheid van evacuaties.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -677,16 +717,16 @@
       "probability_estimate": null
     },
     {
-      "id": "455ceb3bbb464abb01ff8858",
-      "label_nl": "Claim: Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS",
+      "id": "4f3925bc0d006d9e2ae12f56",
+      "label_nl": "Claim: Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International",
       "headline_claim_ids": [
-        "dc4d83aca3d116"
+        "f471d52b9a0707"
       ],
       "headline_claims": [
-        "Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS"
+        "Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jS3JUUEtxbDM3OWdfNEw1ZktmXzJsNzlucGlQMkFMdnZORWxLSXNXMlhXRDREd19SRWRYM1RMSm9sczZKNFc4Zkd4ckZURzdQdEpsbUpGZy0wSGtFM1E?oc=5"
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KMWg1MVpWdDRGbEY3R055bXhiLUE3MVVuM1lGRjhXOEFvNllNMmgwSjc1RGVYRjZqNmdqMldyOHVnb3hOdkwwLVlIWnZ0bU81N3c?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -703,16 +743,16 @@
       "probability_estimate": null
     },
     {
-      "id": "4f3925bc0d006d9e2ae12f56",
-      "label_nl": "Claim: Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International",
+      "id": "be634378359c78cda537cd5a",
+      "label_nl": "Claim: السعودية تعترض مسيّرة وصواريخ حوثية اطلقت باتجاه مناطق عدة - قناة المملكة",
       "headline_claim_ids": [
-        "f471d52b9a0707"
+        "e44904218c7721"
       ],
       "headline_claims": [
-        "Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International"
+        "السعودية تعترض مسيّرة وصواريخ حوثية اطلقت باتجاه مناطق عدة - قناة المملكة"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KMWg1MVpWdDRGbEY3R055bXhiLUE3MVVuM1lGRjhXOEFvNllNMmgwSjc1RGVYRjZqNmdqMldyOHVnb3hOdkwwLVlIWnZ0bU81N3c?oc=5"
+        "https://news.google.com/rss/articles/CBMimwNBVV95cUxPdlFEZjg1MTNsRzFvZkJyYUFiZkVXSU5nT3B4eEJoT1lGU2YtRUhfb1JxUkNoUVZQaVEycXpqV2JnWEI3ZEN1eVJhMmM0ZjlzSzA4VTNBSVFsbFpNemdELUtpMmh2Q0Nxd2hlUUlaWjM2RWdEQTNuemUxOEFpWWE5eEc4SktnN3dYcWEzdlM2aUctSGdJT3dleXdLMFRrb3QzTTJMX1ZzdnFTXzhCdGM3NDBQekk0MmRnVDhRb01FRTRPbWl3M2pCVHI5S2dHQThXX2htQXRrRV9QNWdrYXY3NXJFdVVHOE9DWXIwd21XOEVrWVpYSVM0THlGSGM3X29wYlJuS1llcGhhTUJMT0sxV3hKcy13dkI5cnR3R19KTVA5Yzg5eU9yTnFKOEpCT21uT2xuX2VrWkNEbEsyR0prZzlnMzdjZmxRUmVyNG9BYU1nOXlvTzFJN1pzLUNNRGtkMkFjSXlGREhMX01IMFJGMGNROE5oZkZ3aTRHMkplMENPSEZtLTJKR2FCa09BM3ptWVZjaEZsdXNmbm8?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -843,8 +883,8 @@
       "total_tokens": 33617
     },
     "2026-11-08": {
-      "requests": 9,
-      "total_tokens": 27244
+      "requests": 12,
+      "total_tokens": 35505
     }
   }
 }
