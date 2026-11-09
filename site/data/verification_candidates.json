@@ -1,23 +1,24 @@
 {
   "description": "Manually reviewable headline claims; no event verification, no risk scoring",
-  "source_generated_from": "2026-11-09T07:38:09.088473Z",
-  "source_groups_count": 547,
+  "source_generated_from": "2026-11-09T13:25:29.754733Z",
+  "source_groups_count": 541,
   "selection_method": "Category-balanced high/medium editorial candidates; NOT trained or calibrated",
   "candidates": [
     {
-      "id": "9fe00c49d9b4dc",
-      "headline_claim": "US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan",
+      "id": "c880533343ed35",
+      "headline_claim": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
-        "Militair & veiligheid"
+        "Militair & veiligheid",
+        "Regionaal: Pakistan"
       ],
-      "publication_day": "2026-11-08",
+      "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "latest news from azerbaijan"
+        "cnn"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -28,10 +29,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaFh1SWdwZ3RENEoyMnktWXotcl9EMkR5bGJqUnYwSmZpOHotejZnUFJMMWhDcmpEb2E3VGZOenplcUFXSFFnTzF1ZkxxV1J5WUhyU1RYdDNvcUxwUmZpalBIakdCWkhLYlNEd0d0M05TdTBnMGxYbWpaSk05NHFidXN3NkgtU1k?oc=5",
-          "publisher": "Latest news from Azerbaijan",
-          "published_at": "2026-11-08T19:10:47Z",
+          "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
+          "publisher": "CNN",
+          "published_at": "2026-11-09T05:00:15Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -111,18 +112,21 @@
       ]
     },
     {
-      "id": "5b49f9a8417702",
-      "headline_claim": "Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Yahoo Finance",
+      "id": "9975cd4d07fde4",
+      "headline_claim": "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
       "discovered_via": "Financiële markten",
       "other_search_labels": [
-        "Financiële markten"
+        "Financiële markten",
+        "Regionaal: Pakistan"
       ],
-      "publication_day": "2026-11-08",
+      "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "article_count": 3,
       "publisher_names": [
+        "business recorder",
+        "profit by pakistan today",
         "yahoo finance"
       ],
       "independent_corrob_count": null,
@@ -134,10 +138,24 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNlAzZzloUXMwWmVxZjBVSXA5UnVqUDZiODJna2hxeFFRblB2R19HM0hUOFFaVlllT05lQXV5eGJiNkp5TDV5MnowZmc0Ynd1bVo4TWEwYk5Md3NKX0E4Smp5cTJ3SVV0d2lVTlNVLTNic0ZDMkJFWXFFb0hNbWJXSEpxQzN2cG1tT2c?oc=5",
+          "title": "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYy13eXltNldJNUhUay02cHBib0ZsM1IydjZHdDhiRTZZNVlJeExSeUxWLWQzVDRqUHdpZUljZGZCakFXeTNIc3oxZktkdEltVlp2MnYtNmx2MGhxSzFWMExTbjFGeUdiTTZyQk9rd0dzZG5qVGNmdFdVYWtETXVITlNmaUpEamdVbGlySEsxaDNvTnFNQVBBWU44UHhsR3FCaEFZQk1qUTBzc2poQkd4eFAwSzhhVUHSAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5",
+          "publisher": "Business Recorder",
+          "published_at": "2026-11-09T12:34:52Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UNm1JTGhxR1lJbWlXTEpySG04ZGtxa0hvTUhUbEpwcEV1V200R1ctZk9zZmlwT2Q2bjVGZkhBcXVBTDJFMTRIdjVwUmpvR3F3aEZpRENBbU1aNE1mMDZ4OGRCdDBsbnZ5c0NQdDFpekUzQzJQRVR2THd3TQ?oc=5",
           "publisher": "Yahoo Finance",
-          "published_at": "2026-11-08T23:50:02Z",
+          "published_at": "2026-11-09T10:22:32Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Oil falls as Trump signals restraint on Iran despite fresh shipping attacks - Profit by Pakistan Today",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRkxqeXpOZ25JRzdwX0s3bnN2UGdSNTBQUWEzNkliYUN1Ykt3SVh4VFRJdUpvRDVXTFBRWURzeUxTZVpPb1FxbGhaOEhaWFN3dVJUTEwzVFE0eEVxZDhsVnVCM3dMYXRLcTh4UUlnUFJYX1ptVmlSSWhJcTRmXzFYanpuSFBlVE5mSzI2eURLMXZQME5zSU9qYzZzYmUyUmdWMEdoRUN6dXFoX0g0SS1ielRjOHBOdjNFclhaNnlEYw?oc=5",
+          "publisher": "Profit by Pakistan Today",
+          "published_at": "2026-11-09T08:59:47Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -175,14 +193,13 @@
       ]
     },
     {
-      "id": "bddcb11fbb94ee",
-      "headline_claim": "UAE flight updates: Airlines revise schedules; latest cancellations and delays for Nov 8 - Gulf News",
+      "id": "91564b255b7763",
+      "headline_claim": "UAE flights status update: Latest cancellations and delays for Nov 9 - Gulf News",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
-        "Regionaal: Pakistan",
         "Wereldhandel & logistiek"
       ],
-      "publication_day": "2026-11-08",
+      "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
@@ -199,10 +216,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "UAE flight updates: Airlines revise schedules; latest cancellations and delays for Nov 8 - Gulf News",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaDZNQllnQnItSWxVaGFKZEJaUWFlQnFLNkJqRUFGd2RSbWdSeTE1TnBnRzllZmZodmpIWWFwekdZS1U0Um5zU2xybjRrc3lOMTVYYk5HNUx0S0VhNVJDSVAwdkJvLUdGLTl2TkdNcE1QZnBfa1NRNXBkeWRoZGk0OEliODhQX2t0WE4xNTBOekx2Z2drRUdGcUEtNE4wcjNwX1pqTTVweUxFellMeVU4b25aUnk4eFNUYS0wZFdlcXpySllVSE1ZemdIOW0wWFNvcDA40gHmAUFVX3lxTE5vM2cyemtWQUxHVGZHTzRLZlREVTZmNTZFRW9qUk1yRDUtVW1RTTNDTkg1T3pGTFExb2dhOExzc3hBMUtlTXhCMVQ5SVFHSjQ1S1ZHQnh0V1ptS2RsRDhXLUllUHhPM1RlRzBmMHVHb3V4bG5ZSV9uZ3pNMHlqeUVSeHlVem0wNkNQdHBtb2VTUWx4WmI3cnlWSUN3Nlh1Sm9wZjlPS09uWWZDQThRc21mLWlYMlo3SkpBWTUwTS1EU2lnNGRsdEx6U3c0T2lMRHBvY0VkZ3IwRmdpMnQySDRkU3dPeGRR?oc=5",
+          "title": "UAE flights status update: Latest cancellations and delays for Nov 9 - Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT2pfT1pNbk12M0pZT2hYMG8wMlcwMi1hcW9DYjFGcUJ6QlRpa2xlMkRNYkZNRzZ3WDRSek5wRkVZMHFDb1ZNSjBDUEJhUTU0ZmFVaHJZRzhVQVlGZXZsRUZwb3BZRWE1VHhkLUtRazRmMVBJVktBUHIzQ0lMVUxDXzJpQVh6TWxGMDZCSXFPa1ZJZTRVZHY4b1o5NGdva0s5NVVGNVdWdGdfaUxaWUhB0gHCAUFVX3lxTE54QkRPWEdTRkJ0TndPaFFsQmVSY2VkdjNBSkJfM0o0UWRYN1RyT0lxb3BYenhDUVJQenFERHViUk1MMktqajVCS2hHQ2t4Ymx0WVRsbVJaRWtvZmJMc3NxbFNxTFZoYmpRLXg4SWJWTnlWS1paZmxKd0R2dzdRTXFDTEJFYkpQU1I5MzdQY0I2UHFWdV9DeEVIRmJRZDhRa2FYN19pMU05eFdhZE9KZzhibjFvR3dJZmY2bWpPVXZwVDRn?oc=5",
           "publisher": "Gulf News",
-          "published_at": "2026-11-08T03:07:54Z",
+          "published_at": "2026-11-09T09:18:15Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -240,19 +257,19 @@
       ]
     },
     {
-      "id": "9f70f591b38cf7",
-      "headline_claim": "Unemployment After the War: Millions of Jobs Destroyed in Iran - Iran Focus",
+      "id": "91bf9c16da9870",
+      "headline_claim": "US-Israeli War on Iran Deepens America’s Housing Affordability Crisis - تسنیم",
       "discovered_via": "Economie & samenleving",
       "other_search_labels": [
         "Economie & samenleving"
       ],
-      "publication_day": "2026-11-07",
+      "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
       "editorial_priority": "middel",
       "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
       "article_count": 1,
       "publisher_names": [
-        "iran focus"
+        "تسنیم"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -263,10 +280,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Unemployment After the War: Millions of Jobs Destroyed in Iran - Iran Focus",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSFE3eDdKazJvS0MzTmc4bWVEaFVsdVYyX2ZReDRIWUs2NmI5SnFMbGF6YnNJS0RsbmRfNHdBdDJhMk1jV0d2LTUyck5ac2J6bkIySlREdEVjSHVxeHVVX2xPd29RTW44Rk9RdmFtS2wtNUVqY0pFb1JxTGtqQ2ZWWWFWWUZFamVyMUtxdXdhQjZMSWdIRUYzQkhqcXdTeFNkZ29RcdIBpAFBVV95cUxPSFE3eDdKazJvS0MzTmc4bWVEaFVsdVYyX2ZReDRIWUs2NmI5SnFMbGF6YnNJS0RsbmRfNHdBdDJhMk1jV0d2LTUyck5ac2J6bkIySlREdEVjSHVxeHVVX2xPd29RTW44Rk9RdmFtS2wtNUVqY0pFb1JxTGtqQ2ZWWWFWWUZFamVyMUtxdXdhQjZMSWdIRUYzQkhqcXdTeFNkZ29RcQ?oc=5",
-          "publisher": "Iran Focus",
-          "published_at": "2026-11-07T19:41:43Z",
+          "title": "US-Israeli War on Iran Deepens America’s Housing Affordability Crisis - تسنیم",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOamtiNzJxMTUxTHYzTE1HZ0xhcGE3d0tadjlpaFRIajQ2ZEFic1FMWTctWlFxUHpNb0NHOV9yV1NFTGJ1cGlWV2dvaTB3RW9PZnRlUEFZODJrQ0NLdmJjOXowUG1FNXNidUF5QW1JMXhqSUVucDhMRXMzcFJGdWFDdDA4b1ZhcVQ2Mi1IdG9rVHhZcVcwd19LZGUzamoxcHpOX1gtQmtiWVp0RU5fTlhObGdLNmZXRS00UkZzeG5aVdIBxAFBVV95cUxQdVYzTEltZW5McFNFMUloZko2LWVWa1RjcDVDbWxyZDV0UkZuanNLN1dRX1hyT09pSXU2TEFVLVBFYm5wZjU1TEIyZzc1SlJ5QzJFX3RWeGR3clF1LS1iR3I5S2pnZnR4ZV9DRmlNNjRab3YxMWpsM3JpV0FqMFBiUVFCeHByaXNlYU5DWWFoc0lhSG1lUXp6Vmc4Zi1wZHNHdml1dWdOQXpNTnFuRzNpYmJmcjFiRmZxVmd0TTk4Xy00ZFpj?oc=5",
+          "publisher": "تسنیم",
+          "published_at": "2026-11-09T12:45:40Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -328,8 +345,8 @@
       ]
     },
     {
-      "id": "36becc6b3adcdf",
-      "headline_claim": "Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
+      "id": "9fe00c49d9b4dc",
+      "headline_claim": "US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
@@ -340,7 +357,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "telesur english"
+        "latest news from azerbaijan"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -351,17 +368,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXekdTSHhVZ19hOWdSdTEwRzE4dDFLV0hCVWdsT2plWkRKN0tiUjdicWRSaVQ1M2E2YnhMbDNsMVRSYTFXSy1WTFg3bm8ySDRIa29qUUZNWTFGTFVWLXd3cV9EdzlvSDJlSlVieUtQeTg?oc=5",
-          "publisher": "teleSUR English",
-          "published_at": "2026-11-08T14:10:33Z",
+          "title": "US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaFh1SWdwZ3RENEoyMnktWXotcl9EMkR5bGJqUnYwSmZpOHotejZnUFJMMWhDcmpEb2E3VGZOenplcUFXSFFnTzF1ZkxxV1J5WUhyU1RYdDNvcUxwUmZpalBIakdCWkhLYlNEd0d0M05TdTBnMGxYbWpaSk05NHFidXN3NkgtU1k?oc=5",
+          "publisher": "Latest news from Azerbaijan",
+          "published_at": "2026-11-08T19:10:47Z",
           "source_provider": "google_news_rss"
         }
       ]
     },
     {
-      "id": "742f95b15b6aaf",
-      "headline_claim": "Trump says fresh Iran strikes unlikely as peace talks continue - Daily Times",
+      "id": "abf3554c4b50d2",
+      "headline_claim": "Trump to Discuss Iran Cease-fire and Nuclear Negotiations with Qatari Prime Minister : Global : JKN - 재경일보",
       "discovered_via": "Politiek & diplomatie",
       "other_search_labels": [
         "Politiek & diplomatie"
@@ -372,7 +389,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "daily times"
+        "재경일보"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -383,10 +400,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Trump says fresh Iran strikes unlikely as peace talks continue - Daily Times",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOanpUMFdHYXctdHJTVHNSanpZTVpUQm5UN1RqR3dyZ3RZaDJhWjY1MlhudGtkNkhYWVlWcmpWVG5iWXhuVVQ3WTlVcDhhcThzYUs0TGwtUk45eHFaUjlVSjlqLXplOU5WRU1OeFFpSnBnSmhRMnk3eTBXSXpLMnoxMWtnNGd4ODA3OVd0VndFRURqNXdQZUxaWDFOc2JQQQ?oc=5",
-          "publisher": "Daily Times",
-          "published_at": "2026-11-09T07:03:26Z",
+          "title": "Trump to Discuss Iran Cease-fire and Nuclear Negotiations with Qatari Prime Minister : Global : JKN - 재경일보",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tc3FaMHZLT2R3eHVIZ3FuWXB5cUtyUDAxUjZ2MFJPa1I5LXJBaHIwaHhBSVJMcjFMc2FXZUJsQ1ZMbXNLSDVqSDM5M0l0VzVfSGh0bEc2a1NncUJfcDUteTVB?oc=5",
+          "publisher": "재경일보",
+          "published_at": "2026-11-09T12:55:17Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -424,19 +441,19 @@
       ]
     },
     {
-      "id": "02db98ceb32df6",
-      "headline_claim": "Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
+      "id": "5b49f9a8417702",
+      "headline_claim": "Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Yahoo Finance",
       "discovered_via": "Financiële markten",
       "other_search_labels": [
         "Financiële markten"
       ],
-      "publication_day": "2026-11-06",
+      "publication_day": "2026-11-08",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "www.businessinsurance.com"
+        "yahoo finance"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -447,10 +464,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3Y5SzhyN2hER0R4YXg4eEtOVjZSU0xfUzZfbU5sVW5WcmhzT19BZUprQ1lWRlpZWDBSVE9vM2ktWWJMcGhqbWNmWE44YlQxMjZNajNTejdFVEJFU1NsR3ZQMEFSb2RNekFrSVFlWG9VdkphSVlRODFuWWpxOVFqM1h3V1JWaGxNbm44?oc=5",
-          "publisher": "www.businessinsurance.com",
-          "published_at": "2026-11-06T01:27:04Z",
+          "title": "Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNlAzZzloUXMwWmVxZjBVSXA5UnVqUDZiODJna2hxeFFRblB2R19HM0hUOFFaVlllT05lQXV5eGJiNkp5TDV5MnowZmc0Ynd1bVo4TWEwYk5Md3NKX0E4Smp5cTJ3SVV0d2lVTlNVLTNic0ZDMkJFWXFFb0hNbWJXSEpxQzN2cG1tT2c?oc=5",
+          "publisher": "Yahoo Finance",
+          "published_at": "2026-11-08T23:50:02Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -488,17 +505,18 @@
       ]
     },
     {
-      "id": "70c102bf0eafcd",
-      "headline_claim": "UAE flight status: Cancellations, delays and latest Emirates, Etihad, flydubai updates - Gulf News",
+      "id": "bddcb11fbb94ee",
+      "headline_claim": "UAE flight updates: Airlines revise schedules; latest cancellations and delays for Nov 8 - Gulf News",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
+        "Regionaal: Pakistan",
         "Wereldhandel & logistiek"
       ],
-      "publication_day": "2026-11-07",
+      "publication_day": "2026-11-08",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 2,
+      "article_count": 1,
       "publisher_names": [
         "gulf news"
       ],
@@ -511,17 +529,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "UAE flight status: Cancellations, delays and latest Emirates, Etihad, flydubai updates - Gulf News",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVTdwa2NIOS1JNW5HeDhQMFcxc29lZ2lDQXdEWkE0OHVhY3FkSFBSYzNJX2poM2FoSTBEendMRWNMSFRmMzJRcU15dmJabE5zM3pTZUlDUDNOcG5LLXNzX05wbUNaeVItZ3g5RnRtR0pZZGMwREtoOUpBMlByRmJYT3NzRXNqQkFtcjlBbGFxc2lEQWFndGlfSk4tYTFkV3FETEIyWXVURHVQLUVrVEVxUndibTNySzZWRm9nZnNMMjl6STZGUmVPZ0VOekN6UQ?oc=5",
+          "title": "UAE flight updates: Airlines revise schedules; latest cancellations and delays for Nov 8 - Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaDZNQllnQnItSWxVaGFKZEJaUWFlQnFLNkJqRUFGd2RSbWdSeTE1TnBnRzllZmZodmpIWWFwekdZS1U0Um5zU2xybjRrc3lOMTVYYk5HNUx0S0VhNVJDSVAwdkJvLUdGLTl2TkdNcE1QZnBfa1NRNXBkeWRoZGk0OEliODhQX2t0WE4xNTBOekx2Z2drRUdGcUEtNE4wcjNwX1pqTTVweUxFellMeVU4b25aUnk4eFNUYS0wZFdlcXpySllVSE1ZemdIOW0wWFNvcDA40gHmAUFVX3lxTE5vM2cyemtWQUxHVGZHTzRLZlREVTZmNTZFRW9qUk1yRDUtVW1RTTNDTkg1T3pGTFExb2dhOExzc3hBMUtlTXhCMVQ5SVFHSjQ1S1ZHQnh0V1ptS2RsRDhXLUllUHhPM1RlRzBmMHVHb3V4bG5ZSV9uZ3pNMHlqeUVSeHlVem0wNkNQdHBtb2VTUWx4WmI3cnlWSUN3Nlh1Sm9wZjlPS09uWWZDQThRc21mLWlYMlo3SkpBWTUwTS1EU2lnNGRsdEx6U3c0T2lMRHBvY0VkZ3IwRmdpMnQySDRkU3dPeGRR?oc=5",
           "publisher": "Gulf News",
-          "published_at": "2026-11-07T06:14:51Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "UAE flight status: Cancellations, delays and latest Emirates, Etihad, flydubai updates - Gulf News",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVTdwa2NIOS1JNW5HeDhQMFcxc29lZ2lDQXdEWkE0OHVhY3FkSFBSYzNJX2poM2FoSTBEendMRWNMSFRmMzJRcU15dmJabE5zM3pTZUlDUDNOcG5LLXNzX05wbUNaeVItZ3g5RnRtR0pZZGMwREtoOUpBMlByRmJYT3NzRXNqQkFtcjlBbGFxc2lEQWFndGlfSk4tYTFkV3FETEIyWXVURHVQLUVrVEVxUndibTNySzZWRm9nZnNMMjl6STZGUmVPZ0VOekN6UdIB4AFBVV95cUxOVko1eV9XT1J1RFk5bHpjYkdtU0QtNUcwOVc5ejUxT0R5OG9KelNnaGZUMmJFXy1VNnlDOF95WW44Qkc4aWlSOGRRdkh4aHhHUHZpMUppYkVEZFlXM2xjV0I2c2hjX3ZTakQ4YmhJb2VXaVBxZm82cnFYYVpQUVJ3QU5wVFMyWVF0aU54SS1EaDJnOHAzcHhCS0M3Z2piMmlOVXRnZVZwSGszbGVDeDBLTVdhbmhZRjFrUnUzRWc3T1IwZkQ5cnVEWHUwSEVyUDhQVF9Cem90anpoYk1QRWtOWQ?oc=5",
-          "publisher": "Gulf News",
-          "published_at": "2026-11-07T06:14:51Z",
+          "published_at": "2026-11-08T03:07:54Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -559,19 +570,19 @@
       ]
     },
     {
-      "id": "f471d52b9a0707",
-      "headline_claim": "Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International",
+      "id": "9f70f591b38cf7",
+      "headline_claim": "Unemployment After the War: Millions of Jobs Destroyed in Iran - Iran Focus",
       "discovered_via": "Economie & samenleving",
       "other_search_labels": [
         "Economie & samenleving"
       ],
-      "publication_day": "2026-11-05",
+      "publication_day": "2026-11-07",
       "publication_day_is_event_date": false,
       "editorial_priority": "middel",
       "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
       "article_count": 1,
       "publisher_names": [
-        "iran international"
+        "iran focus"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -582,10 +593,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KMWg1MVpWdDRGbEY3R055bXhiLUE3MVVuM1lGRjhXOEFvNllNMmgwSjc1RGVYRjZqNmdqMldyOHVnb3hOdkwwLVlIWnZ0bU81N3c?oc=5",
-          "publisher": "Iran International",
-          "published_at": "2026-11-05T12:26:43Z",
+          "title": "Unemployment After the War: Millions of Jobs Destroyed in Iran - Iran Focus",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSFE3eDdKazJvS0MzTmc4bWVEaFVsdVYyX2ZReDRIWUs2NmI5SnFMbGF6YnNJS0RsbmRfNHdBdDJhMk1jV0d2LTUyck5ac2J6bkIySlREdEVjSHVxeHVVX2xPd29RTW44Rk9RdmFtS2wtNUVqY0pFb1JxTGtqQ2ZWWWFWWUZFamVyMUtxdXdhQjZMSWdIRUYzQkhqcXdTeFNkZ29RcdIBpAFBVV95cUxPSFE3eDdKazJvS0MzTmc4bWVEaFVsdVYyX2ZReDRIWUs2NmI5SnFMbGF6YnNJS0RsbmRfNHdBdDJhMk1jV0d2LTUyck5ac2J6bkIySlREdEVjSHVxeHVVX2xPd29RTW44Rk9RdmFtS2wtNUVqY0pFb1JxTGtqQ2ZWWWFWWUZFamVyMUtxdXdhQjZMSWdIRUYzQkhqcXdTeFNkZ29RcQ?oc=5",
+          "publisher": "Iran Focus",
+          "published_at": "2026-11-07T19:41:43Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -639,8 +650,8 @@
       ]
     },
     {
-      "id": "f9aee2a1e620b5",
-      "headline_claim": "U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News",
+      "id": "36becc6b3adcdf",
+      "headline_claim": "Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
@@ -651,7 +662,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "stl.news"
+        "telesur english"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -662,17 +673,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzNWx1SkNrcnZqQnk5RnpLMEtuN2RWcU1WbEJza1VFeXp1ZlZzdjNtV3JkbWl6YUJhaFdEUlFzbnZTYTZwQldfb0R0emZYb3FUYksyYWJOLVVWUmNGd0JWVVBsOHNEUms2TG8tQkZGOHhEdw?oc=5",
-          "publisher": "STL.News",
-          "published_at": "2026-11-08T14:00:19Z",
+          "title": "Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXekdTSHhVZ19hOWdSdTEwRzE4dDFLV0hCVWdsT2plWkRKN0tiUjdicWRSaVQ1M2E2YnhMbDNsMVRSYTFXSy1WTFg3bm8ySDRIa29qUUZNWTFGTFVWLXd3cV9EdzlvSDJlSlVieUtQeTg?oc=5",
+          "publisher": "teleSUR English",
+          "published_at": "2026-11-08T14:10:33Z",
           "source_provider": "google_news_rss"
         }
       ]
     },
     {
-      "id": "b7c63529ae62f2",
-      "headline_claim": "Rubio says diplomatic agreement with Iran may prove impossible - Yeni Şafak English",
+      "id": "eaa31d2e403d25",
+      "headline_claim": "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera",
       "discovered_via": "Politiek & diplomatie",
       "other_search_labels": [
         "Politiek & diplomatie"
@@ -683,7 +694,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "yeni şafak english"
+        "al jazeera"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -694,28 +705,28 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Rubio says diplomatic agreement with Iran may prove impossible - Yeni Şafak English",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU1lKeEhlaWNPd0hER2pZUE1fbkhObFhveWtPQVFNaGxwU3pESXJGT3dpVlo1TWJmQ2xETjdvLXd4ZldkU25VMXVOa1R4U0oxY3I5UVZDcmpKWjRRekJmak9CNDVzaWhzZC1CUF9CaE43U1M3TVBYSldrcGlsa1FXYU9nYVZfZmlldGdKSjNqN2RBQlVYV0d1a0dIZkVVRjdia3VF?oc=5",
-          "publisher": "Yeni Şafak English",
-          "published_at": "2026-11-09T07:02:43Z",
+          "title": "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTG54ck5HeEc1SFBfeF83WGR0SGxuS0FUcFhzQUtBa1pLOXphcDdvNk9QYS0xUkpBd1JnNkVybHoyOUlUeHVfYUF4eUpzWnd1Z2RWTW85VTdYdGVZb3NaekZOSUVsSmlWTXVqN1luWXV2ZjhtWWlpdElSY251Vkl4cTFWS3kxak9GZnBxS3JPckFmUlF6Nk9fOUl1R1gyckxIa19aX29mRdIBrAFBVV95cUxNYjNzN21zZTFQOFlUOUNqZndVM0IyMUgtZ2lZZlRtLWxRZm1ILV8yZ1pWc1NLWnJvd0p1QW13OS1mZERoLUkySDhFZDB6WmFmZEdHaDlCREdxeHd5N3ozVkJpeE5ndkl0YnJ3ekhYT1JaUGUtdXFSbWJDaUM0OU1VZWh5SU5ERGZWOVNPZEFWNTQ5dnVjMWxVd1Z2Z3I4ZDFmQ2laWC1MMnVaVE1O?oc=5",
+          "publisher": "Al Jazeera",
+          "published_at": "2026-11-09T09:33:41Z",
           "source_provider": "google_news_rss"
         }
       ]
     },
     {
-      "id": "8357bffc4c7e82",
-      "headline_claim": "U.S. Tightens Security Guidance for Middle East Travel - https://www.thetraveler.org/",
+      "id": "878bebd37ee57d",
+      "headline_claim": "Barclays opens Saudi office despite government travel warning - City AM",
       "discovered_via": "Overheden & crisismaatregelen",
       "other_search_labels": [
         "Overheden & crisismaatregelen"
       ],
-      "publication_day": "2026-11-08",
+      "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
       "editorial_priority": "middel",
       "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
       "article_count": 1,
       "publisher_names": [
-        "thetraveler.org"
+        "city am"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -726,28 +737,28 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "U.S. Tightens Security Guidance for Middle East Travel - https://www.thetraveler.org/",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVXl0dkNxbWlGQVV4VFA4OUxQOXE1ZmxsRXdEbkRPS3ZWRjQ1SXNVT21LZGlXanJXN3hkSWxOdG9GY3l6QmJ6R0dCb19MRnlyb3puM1o3dE1xWDJCVk9OZ3NWZXliaXFna20zRWtLT3E2VkNZajlKalFjYUZ0VG05RE42SnBwcy10bXc?oc=5",
-          "publisher": "https://www.thetraveler.org/",
-          "published_at": "2026-11-08T05:17:24Z",
+          "title": "Barclays opens Saudi office despite government travel warning - City AM",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQR1ZacDljX2FkMFUwbXM4QldfM3l0TTdNOU1VNnhQR3Y4UXdxMU1ITHktTHNtN081ZFI1cWx6T3ljNHlOemJZTENIVHVpdlZxR2xMUUY0aFJqNVg5YjBaVG0xNjhUUFBVbWpITEwzdDVMRGRJZFF4eUt0NW5tSlJ0dzNQYXJ2b2dpMTJINXhR?oc=5",
+          "publisher": "City AM",
+          "published_at": "2026-11-09T08:18:21Z",
           "source_provider": "google_news_rss"
         }
       ]
     },
     {
-      "id": "c6fa105888c450",
-      "headline_claim": "Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
+      "id": "02db98ceb32df6",
+      "headline_claim": "Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
       "discovered_via": "Financiële markten",
       "other_search_labels": [
         "Financiële markten"
       ],
-      "publication_day": "2026-11-04",
+      "publication_day": "2026-11-06",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "yahoo finance"
+        "www.businessinsurance.com"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -758,10 +769,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc0dQUUJKb1E5QjM5cllKTk5CQ0F6U1Mwcmw1THpLRkZ2bWhuUmlEeXBQZFVEaS00am9XT0ZJeXBXQkxmMFJ3N19Fb29PRmFkZXhLbklKU3JMeF92b2RXYmxjU0pXUFptVjZfMWtYaDlpajJENHM1b2QxUEZ0R3FKb0pOS0VoZkZBRVk4?oc=5",
-          "publisher": "Yahoo Finance",
-          "published_at": "2026-11-04T10:55:22Z",
+          "title": "Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3Y5SzhyN2hER0R4YXg4eEtOVjZSU0xfUzZfbU5sVW5WcmhzT19BZUprQ1lWRlpZWDBSVE9vM2ktWWJMcGhqbWNmWE44YlQxMjZNajNTejdFVEJFU1NsR3ZQMEFSb2RNekFrSVFlWG9VdkphSVlRODFuWWpxOVFqM1h3V1JWaGxNbm44?oc=5",
+          "publisher": "www.businessinsurance.com",
+          "published_at": "2026-11-06T01:27:04Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -799,19 +810,19 @@
       ]
     },
     {
-      "id": "31d6b4c32b6147",
-      "headline_claim": "Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue",
+      "id": "70c102bf0eafcd",
+      "headline_claim": "UAE flight status: Cancellations, delays and latest Emirates, Etihad, flydubai updates - Gulf News",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
         "Wereldhandel & logistiek"
       ],
-      "publication_day": "2026-11-06",
+      "publication_day": "2026-11-07",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "article_count": 2,
       "publisher_names": [
-        "the mary sue"
+        "gulf news"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -822,10 +833,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Pentagon says US troops are poised to strike Iran. Then 5 tankers are hit in the Strait of Hormuz - The Mary Sue",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQTDZRSU5BNDBTUmk3SUFDX2trU1RHaHh0b1Jidk8xT281SnlfbGxkQTdkWi1QS19RR2tTTmtQWEZSYm5LMy1BUU1tckJVYjZiUTFOaThIMTQxcHdJcWJEWk83eElNUTZNLVY5TUZzZzRPTWRWR2NjUFFWUWtjOERlQy1TYXFlc2RrSUhwSVdqcDFyZ1FQV054RGZPWE9wc0RWWWVlXy1vOFUxUGZJRUtIcHp4Mjg0OG44QldNOEJTN2xuTmdUUVRIaERncTNfVUJKOHdUXzlqNmhHNWhBelpBSHlDejU1WFRIaEliNXNEQVVHSHRjWXhFTnkwcw?oc=5",
-          "publisher": "The Mary Sue",
-          "published_at": "2026-11-06T21:45:00Z",
+          "title": "UAE flight status: Cancellations, delays and latest Emirates, Etihad, flydubai updates - Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVTdwa2NIOS1JNW5HeDhQMFcxc29lZ2lDQXdEWkE0OHVhY3FkSFBSYzNJX2poM2FoSTBEendMRWNMSFRmMzJRcU15dmJabE5zM3pTZUlDUDNOcG5LLXNzX05wbUNaeVItZ3g5RnRtR0pZZGMwREtoOUpBMlByRmJYT3NzRXNqQkFtcjlBbGFxc2lEQWFndGlfSk4tYTFkV3FETEIyWXVURHVQLUVrVEVxUndibTNySzZWRm9nZnNMMjl6STZGUmVPZ0VOekN6UQ?oc=5",
+          "publisher": "Gulf News",
+          "published_at": "2026-11-07T06:14:51Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "UAE flight status: Cancellations, delays and latest Emirates, Etihad, flydubai updates - Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVTdwa2NIOS1JNW5HeDhQMFcxc29lZ2lDQXdEWkE0OHVhY3FkSFBSYzNJX2poM2FoSTBEendMRWNMSFRmMzJRcU15dmJabE5zM3pTZUlDUDNOcG5LLXNzX05wbUNaeVItZ3g5RnRtR0pZZGMwREtoOUpBMlByRmJYT3NzRXNqQkFtcjlBbGFxc2lEQWFndGlfSk4tYTFkV3FETEIyWXVURHVQLUVrVEVxUndibTNySzZWRm9nZnNMMjl6STZGUmVPZ0VOekN6UdIB4AFBVV95cUxOVko1eV9XT1J1RFk5bHpjYkdtU0QtNUcwOVc5ejUxT0R5OG9KelNnaGZUMmJFXy1VNnlDOF95WW44Qkc4aWlSOGRRdkh4aHhHUHZpMUppYkVEZFlXM2xjV0I2c2hjX3ZTakQ4YmhJb2VXaVBxZm82cnFYYVpQUVJ3QU5wVFMyWVF0aU54SS1EaDJnOHAzcHhCS0M3Z2piMmlOVXRnZVZwSGszbGVDeDBLTVdhbmhZRjFrUnUzRWc3T1IwZkQ5cnVEWHUwSEVyUDhQVF9Cem90anpoYk1QRWtOWQ?oc=5",
+          "publisher": "Gulf News",
+          "published_at": "2026-11-07T06:14:51Z",
           "source_provider": "google_news_rss"
         }
       ]
