@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-09T01:22:43.431365Z",
+  "last_attempt_utc": "2026-11-09T07:40:02.139749Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 19,
-  "active_checked": 5,
+  "active_total": 21,
+  "active_checked": 8,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -3387,6 +3387,131 @@
           "text_excerpt": "The border with Armenia remains closed. The FCDO advises against all travel to within 5km of the border with Armenia, due to tensions between Azerbaijan and Armenia. Note that this does not include the border of Azerbaijan’s Nakhchivan exclave with A"
         }
       ]
+    },
+    "22861ae047774b122460ebe9": {
+      "event_id": "22861ae047774b122460ebe9",
+      "checked_at": "2026-11-09T07:40:02.139694Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "We also use cookies set by other sites to help us deliver content from their services."
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes",
+          "title": "Iran: country policy and information notes - GOV.UKGOV.UK",
+          "source_publication_date": "2026-10-21T13:43:42Z",
+          "text_excerpt": "We also use cookies set by other sites to help us deliver content from their services."
+        }
+      ]
+    },
+    "1b777df055618f93cc536b14": {
+      "event_id": "1b777df055618f93cc536b14",
+      "checked_at": "2026-11-09T07:40:02.139714Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-09T07:39:55.984226Z",
+          "exact_quote": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
+        }
+      ],
+      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "if advised to take shelter, stay indoors or find the nearest safe building or designated shelter. An interior stairwell or a room with as few external walls or windows as possible may provide additional protection. The greatest risk is from falling d"
+        }
+      ]
+    },
+    "181e69a4804fb747bfd1cd75": {
+      "event_id": "181e69a4804fb747bfd1cd75",
+      "checked_at": "2026-11-09T07:40:02.139721Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/government/news/e3-leaders-declaration-on-the-situation-in-the-middle-east-declaration-des-dirigeants-des-e3-sur-la-situation-au-moyen-orient",
+          "original_document_title": "E3 leaders’ declaration on the situation in the Middle East / Declaration des dirigeants des E3 sur la situation au Moyen orient - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-09T07:39:58.659128Z",
+          "exact_quote": "the United States has conducted targeted military strikes against nuclear facilities in Fordow, Natanz and Isfahan.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Niet voldoende specifiek: De officiële publicatiedatum ontbreekt voor deze specifieke gebeurtenisclaim.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
+        }
+      ],
+      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 5,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/government/news/e3-leaders-declaration-on-the-situation-in-the-middle-east-declaration-des-dirigeants-des-e3-sur-la-situation-au-moyen-orient",
+          "title": "E3 leaders’ declaration on the situation in the Middle East / Declaration des dirigeants des E3 sur la situation au Moyen orient - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Earlier today, the United States has conducted targeted military strikes against nuclear facilities in Fordow, Natanz and Isfahan. Our aim continues to be to prevent Iran from acquiring a nuclear weapon."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3401,9 +3526,9 @@
       "model_tokens": 4987
     },
     "2026-11-09": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 1938
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3578
     }
   },
   "last_error": null

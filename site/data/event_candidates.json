@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-09T01:22:22.284683Z",
-  "fingerprint": "9190905eefdb0480ed20dd9f",
+  "last_attempt_utc": "2026-11-09T07:39:42.152175Z",
+  "fingerprint": "2149e3af54d8e58c869313c2",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 20,
-  "event_candidate_count": 19,
+  "input_candidate_count": 21,
+  "event_candidate_count": 21,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 3,
-    "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 2,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "model_pair_proposals": 4,
+    "accepted_pair_connections": 0,
+    "rejected_pair_proposals": 4,
+    "multi_claim_groups": 0,
+    "claims_in_multi_groups": 0,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 2,
+    "auditor_approved_pairs": 1,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-09T01:22:22.284683Z",
+    "recorded_at": "2026-11-09T07:39:42.152175Z",
     "groups": [
       {
         "ids": [
@@ -48,9 +48,9 @@
       },
       {
         "ids": [
-          "4a62bd62f728fc"
+          "a7055c1b4d5629"
         ],
-        "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
+        "label_nl": "Claim: Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
         "actor": "",
         "action": "",
         "place": "",
@@ -59,9 +59,9 @@
       },
       {
         "ids": [
-          "02db98ceb32df6"
+          "5b49f9a8417702"
         ],
-        "label_nl": "Claim: Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
+        "label_nl": "Claim: Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Yahoo Finance",
         "actor": "",
         "action": "",
         "place": "",
@@ -114,9 +114,9 @@
       },
       {
         "ids": [
-          "4fb9ee5831c2c9"
+          "742f95b15b6aaf"
         ],
-        "label_nl": "Claim: JD Vance Leads Indirect Negotiations with Iran to Seek New Ceasefire and Nuclear Talks - VOI.ID",
+        "label_nl": "Claim: Trump says fresh Iran strikes unlikely as peace talks continue - Daily Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -125,9 +125,9 @@
       },
       {
         "ids": [
-          "8357bffc4c7e82"
+          "4a62bd62f728fc"
         ],
-        "label_nl": "Claim: U.S. Tightens Security Guidance for Middle East Travel - https://www.thetraveler.org/",
+        "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
         "actor": "",
         "action": "",
         "place": "",
@@ -136,15 +136,14 @@
       },
       {
         "ids": [
-          "c6fa105888c450",
-          "493079084a84e0"
+          "02db98ceb32df6"
         ],
-        "label_nl": "Claim: Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
+        "label_nl": "Claim: Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -203,9 +202,9 @@
       },
       {
         "ids": [
-          "0468761132763e"
+          "b7c63529ae62f2"
         ],
-        "label_nl": "Claim: US Vice President JD Vance Seeks New Ceasefire With Iran and Resumption of Nuclear Talks Through Qatari and Pakistani Mediators - SFG Media",
+        "label_nl": "Claim: Rubio says diplomatic agreement with Iran may prove impossible - Yeni Şafak English",
         "actor": "",
         "action": "",
         "place": "",
@@ -214,9 +213,31 @@
       },
       {
         "ids": [
-          "9fa82a0bec092f"
+          "8357bffc4c7e82"
         ],
-        "label_nl": "Claim: US Mission to UAE Warns Americans of Rising Middle East Risks - https://www.thetraveler.org/",
+        "label_nl": "Claim: U.S. Tightens Security Guidance for Middle East Travel - https://www.thetraveler.org/",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "c6fa105888c450"
+        ],
+        "label_nl": "Claim: Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "493079084a84e0"
+        ],
+        "label_nl": "Claim: Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
         "actor": "",
         "action": "",
         "place": "",
@@ -238,22 +259,23 @@
     "input_claim_ids": [
       "9fe00c49d9b4dc",
       "7e91e29dbeb9cf",
-      "4a62bd62f728fc",
-      "02db98ceb32df6",
+      "a7055c1b4d5629",
+      "5b49f9a8417702",
       "76245c595230d4",
       "9f70f591b38cf7",
       "f832294769ec0d",
       "36becc6b3adcdf",
-      "4fb9ee5831c2c9",
-      "8357bffc4c7e82",
-      "c6fa105888c450",
+      "742f95b15b6aaf",
+      "4a62bd62f728fc",
+      "02db98ceb32df6",
       "564f915e543bf4",
       "dc4d83aca3d116",
       "f471d52b9a0707",
       "b8087b2b94bc57",
       "f9aee2a1e620b5",
-      "0468761132763e",
-      "9fa82a0bec092f",
+      "b7c63529ae62f2",
+      "8357bffc4c7e82",
+      "c6fa105888c450",
       "493079084a84e0",
       "31d6b4c32b6147"
     ]
@@ -447,45 +469,16 @@
       "probability_estimate": null
     },
     {
-      "id": "5e595ca15960dfc6f933a6d9",
-      "label_nl": "Claim: Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
+      "id": "b7cc232b5ea13baa7e2c540a",
+      "label_nl": "Claim: Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
       "headline_claim_ids": [
-        "c6fa105888c450",
-        "493079084a84e0"
+        "a7055c1b4d5629"
       ],
       "headline_claims": [
-        "Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
-        "Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow"
+        "Middle East latest: Trump plays down prospect of new strikes on Iran - The National"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc0dQUUJKb1E5QjM5cllKTk5CQ0F6U1Mwcmw1THpLRkZ2bWhuUmlEeXBQZFVEaS00am9XT0ZJeXBXQkxmMFJ3N19Fb29PRmFkZXhLbklKU3JMeF92b2RXYmxjU0pXUFptVjZfMWtYaDlpajJENHM1b2QxUEZ0R3FKb0pOS0VoZkZBRVk4?oc=5",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTJjbzNoVjZ0VnNrSlQwMkhIVG9hZmJFM2FuTTMyOVh2bzlJem9IN0c3N1NFOWg3TlNhY2hjMzlrSWw3U2pnNGdSbVo2RGNRTFc1cWlwN1J5SGd6SnlPMkZmWFFwc01Gb0tJaDNYNW9ZbC03Z253OW1pN1lwbXp6NmZCNC1Uem1Jem9tLWdEMTE?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "4eba70a54447af3a928896b1",
-      "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
-      "headline_claim_ids": [
-        "4a62bd62f728fc"
-      ],
-      "headline_claims": [
-        "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFlleGE0RGJ4bDJkbVU3ekIxRGZubGd3MUNnS2lEV2RBT0hqLVBlSFhZMU80ckVqU2tFYjNVUlJwTlA1aVZKMXNRYjBRWThvT2xCb3k4SWNXbXJEWWgyT1FSYTVpU2N4UUE0OTdWaFRneTQ5YXU2Z3VHWTYxRjRpcDF5b0tfREpfVjVtQ3FhSmdoamlvS3BCYUlIaWU?oc=5"
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -502,16 +495,16 @@
       "probability_estimate": null
     },
     {
-      "id": "a7a89bd9d83bc8863bd55e5d",
-      "label_nl": "Claim: Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
+      "id": "87053721b608bd01977a1d2e",
+      "label_nl": "Claim: Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Yahoo Finance",
       "headline_claim_ids": [
-        "02db98ceb32df6"
+        "5b49f9a8417702"
       ],
       "headline_claims": [
-        "Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com"
+        "Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Yahoo Finance"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3Y5SzhyN2hER0R4YXg4eEtOVjZSU0xfUzZfbU5sVW5WcmhzT19BZUprQ1lWRlpZWDBSVE9vM2ktWWJMcGhqbWNmWE44YlQxMjZNajNTejdFVEJFU1NsR3ZQMEFSb2RNekFrSVFlWG9VdkphSVlRODFuWWpxOVFqM1h3V1JWaGxNbm44?oc=5"
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNlAzZzloUXMwWmVxZjBVSXA5UnVqUDZiODJna2hxeFFRblB2R19HM0hUOFFaVlllT05lQXV5eGJiNkp5TDV5MnowZmc0Ynd1bVo4TWEwYk5Md3NKX0E4Smp5cTJ3SVV0d2lVTlNVLTNic0ZDMkJFWXFFb0hNbWJXSEpxQzN2cG1tT2c?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -583,16 +576,16 @@
       "probability_estimate": null
     },
     {
-      "id": "aac5247bddbb5388eb5a50af",
-      "label_nl": "Claim: JD Vance Leads Indirect Negotiations with Iran to Seek New Ceasefire and Nuclear Talks - VOI.ID",
+      "id": "9abc3b2f5b36a81dce94cf24",
+      "label_nl": "Claim: Trump says fresh Iran strikes unlikely as peace talks continue - Daily Times",
       "headline_claim_ids": [
-        "4fb9ee5831c2c9"
+        "742f95b15b6aaf"
       ],
       "headline_claims": [
-        "JD Vance Leads Indirect Negotiations with Iran to Seek New Ceasefire and Nuclear Talks - VOI.ID"
+        "Trump says fresh Iran strikes unlikely as peace talks continue - Daily Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE90cFlyN1puY2RXYkRiM0RLV0R0R01HdFZKQ2Zza01yV25SaktabFVtekZ6SjZSbGxVeTlaeEszRmlVcVHSAUJBVV95cUxQOURYQ2FSY2pLblpjZFo2dHZ4NjBTY25kN1BCeDlfSlg0TktHWXpDY0NmcldzVHZ1QTYzVWlxd3VmNUE?oc=5"
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxOanpUMFdHYXctdHJTVHNSanpZTVpUQm5UN1RqR3dyZ3RZaDJhWjY1MlhudGtkNkhYWVlWcmpWVG5iWXhuVVQ3WTlVcDhhcThzYUs0TGwtUk45eHFaUjlVSjlqLXplOU5WRU1OeFFpSnBnSmhRMnk3eTBXSXpLMnoxMWtnNGd4ODA3OVd0VndFRURqNXdQZUxaWDFOc2JQQQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -609,16 +602,42 @@
       "probability_estimate": null
     },
     {
-      "id": "076b60f3d7629c0fea3f9762",
-      "label_nl": "Claim: U.S. Tightens Security Guidance for Middle East Travel - https://www.thetraveler.org/",
+      "id": "4eba70a54447af3a928896b1",
+      "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
       "headline_claim_ids": [
-        "8357bffc4c7e82"
+        "4a62bd62f728fc"
       ],
       "headline_claims": [
-        "U.S. Tightens Security Guidance for Middle East Travel - https://www.thetraveler.org/"
+        "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVXl0dkNxbWlGQVV4VFA4OUxQOXE1ZmxsRXdEbkRPS3ZWRjQ1SXNVT21LZGlXanJXN3hkSWxOdG9GY3l6QmJ6R0dCb19MRnlyb3puM1o3dE1xWDJCVk9OZ3NWZXliaXFna20zRWtLT3E2VkNZajlKalFjYUZ0VG05RE42SnBwcy10bXc?oc=5"
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFlleGE0RGJ4bDJkbVU3ekIxRGZubGd3MUNnS2lEV2RBT0hqLVBlSFhZMU80ckVqU2tFYjNVUlJwTlA1aVZKMXNRYjBRWThvT2xCb3k4SWNXbXJEWWgyT1FSYTVpU2N4UUE0OTdWaFRneTQ5YXU2Z3VHWTYxRjRpcDF5b0tfREpfVjVtQ3FhSmdoamlvS3BCYUlIaWU?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "a7a89bd9d83bc8863bd55e5d",
+      "label_nl": "Claim: Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
+      "headline_claim_ids": [
+        "02db98ceb32df6"
+      ],
+      "headline_claims": [
+        "Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3Y5SzhyN2hER0R4YXg4eEtOVjZSU0xfUzZfbU5sVW5WcmhzT19BZUprQ1lWRlpZWDBSVE9vM2ktWWJMcGhqbWNmWE44YlQxMjZNajNTejdFVEJFU1NsR3ZQMEFSb2RNekFrSVFlWG9VdkphSVlRODFuWWpxOVFqM1h3V1JWaGxNbm44?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -713,16 +732,16 @@
       "probability_estimate": null
     },
     {
-      "id": "a58b36f162a10475f76ad6d7",
-      "label_nl": "Claim: US Vice President JD Vance Seeks New Ceasefire With Iran and Resumption of Nuclear Talks Through Qatari and Pakistani Mediators - SFG Media",
+      "id": "c352c43fff3769030cbb2aee",
+      "label_nl": "Claim: Rubio says diplomatic agreement with Iran may prove impossible - Yeni Şafak English",
       "headline_claim_ids": [
-        "0468761132763e"
+        "b7c63529ae62f2"
       ],
       "headline_claims": [
-        "US Vice President JD Vance Seeks New Ceasefire With Iran and Resumption of Nuclear Talks Through Qatari and Pakistani Mediators - SFG Media"
+        "Rubio says diplomatic agreement with Iran may prove impossible - Yeni Şafak English"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTm9CTEVZMGppM05RaTg5VHdZWU0zYXJIQXVhVHFId0JNV0Q0NHk1T2FCNFNKeUF1R2ZnVjNKby1fOWZOakx2ZEgyVndnSkNCUWMzM3Z1TnpWWW56OHNMYzlJQm5kWE0zVmZXLUpZNUtkMENfUHl4RS1hcUotRVRzX2Z3?oc=5"
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU1lKeEhlaWNPd0hER2pZUE1fbkhObFhveWtPQVFNaGxwU3pESXJGT3dpVlo1TWJmQ2xETjdvLXd4ZldkU25VMXVOa1R4U0oxY3I5UVZDcmpKWjRRekJmak9CNDVzaWhzZC1CUF9CaE43U1M3TVBYSldrcGlsa1FXYU9nYVZfZmlldGdKSjNqN2RBQlVYV0d1a0dIZkVVRjdia3VF?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -739,16 +758,68 @@
       "probability_estimate": null
     },
     {
-      "id": "ec3a20c5148abc7a5c8b5b12",
-      "label_nl": "Claim: US Mission to UAE Warns Americans of Rising Middle East Risks - https://www.thetraveler.org/",
+      "id": "076b60f3d7629c0fea3f9762",
+      "label_nl": "Claim: U.S. Tightens Security Guidance for Middle East Travel - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "9fa82a0bec092f"
+        "8357bffc4c7e82"
       ],
       "headline_claims": [
-        "US Mission to UAE Warns Americans of Rising Middle East Risks - https://www.thetraveler.org/"
+        "U.S. Tightens Security Guidance for Middle East Travel - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaHNjZzZydnJ0bGtKM3JTejhLUVg1bG5sNWd1Tk5qY2Rpa1kzTUlsNE1aTk1VcGF4a1VvUXJIZ0lScDBtRFh3WExkR3FmdHNxUXR5QmtCdW85VjQ0VU5NaUtrMDdNcGp6UWoxUWFhQXQxc2s5S0ZGbTBTcWQwbVZjZ0czUUN4eUtoWVVqa3FKMzM2TWRhdHdz?oc=5"
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVXl0dkNxbWlGQVV4VFA4OUxQOXE1ZmxsRXdEbkRPS3ZWRjQ1SXNVT21LZGlXanJXN3hkSWxOdG9GY3l6QmJ6R0dCb19MRnlyb3puM1o3dE1xWDJCVk9OZ3NWZXliaXFna20zRWtLT3E2VkNZajlKalFjYUZ0VG05RE42SnBwcy10bXc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "e304513ed72433bcf06f0157",
+      "label_nl": "Claim: Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
+      "headline_claim_ids": [
+        "c6fa105888c450"
+      ],
+      "headline_claims": [
+        "Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc0dQUUJKb1E5QjM5cllKTk5CQ0F6U1Mwcmw1THpLRkZ2bWhuUmlEeXBQZFVEaS00am9XT0ZJeXBXQkxmMFJ3N19Fb29PRmFkZXhLbklKU3JMeF92b2RXYmxjU0pXUFptVjZfMWtYaDlpajJENHM1b2QxUEZ0R3FKb0pOS0VoZkZBRVk4?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "4114373316533e88178fe6de",
+      "label_nl": "Claim: Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
+      "headline_claim_ids": [
+        "493079084a84e0"
+      ],
+      "headline_claims": [
+        "Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTJjbzNoVjZ0VnNrSlQwMkhIVG9hZmJFM2FuTTMyOVh2bzlJem9IN0c3N1NFOWg3TlNhY2hjMzlrSWw3U2pnNGdSbVo2RGNRTFc1cWlwN1J5SGd6SnlPMkZmWFFwc01Gb0tJaDNYNW9ZbC03Z253OW1pN1lwbXp6NmZCNC1Uem1Jem9tLWdEMTE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -775,8 +846,8 @@
       "total_tokens": 35505
     },
     "2026-11-09": {
-      "requests": 3,
-      "total_tokens": 7781
+      "requests": 6,
+      "total_tokens": 15893
     }
   }
 }
