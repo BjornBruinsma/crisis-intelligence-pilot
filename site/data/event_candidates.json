@@ -1,34 +1,34 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-08T18:56:15.787674Z",
-  "fingerprint": "eb51f17b7524664fdd269f91",
+  "last_attempt_utc": "2026-11-09T01:22:22.284683Z",
+  "fingerprint": "9190905eefdb0480ed20dd9f",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 21,
-  "event_candidate_count": 21,
+  "input_candidate_count": 20,
+  "event_candidate_count": 19,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
     "model_pair_proposals": 3,
-    "accepted_pair_connections": 0,
-    "rejected_pair_proposals": 3,
-    "multi_claim_groups": 0,
-    "claims_in_multi_groups": 0,
+    "accepted_pair_connections": 1,
+    "rejected_pair_proposals": 2,
+    "multi_claim_groups": 1,
+    "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-08T18:56:15.787674Z",
+    "recorded_at": "2026-11-09T01:22:22.284683Z",
     "groups": [
       {
         "ids": [
-          "36becc6b3adcdf"
+          "9fe00c49d9b4dc"
         ],
-        "label_nl": "Claim: Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
+        "label_nl": "Claim: US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan",
         "actor": "",
         "action": "",
         "place": "",
@@ -70,9 +70,9 @@
       },
       {
         "ids": [
-          "1054a367dcca77"
+          "76245c595230d4"
         ],
-        "label_nl": "Claim: Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire - Quantisnow",
+        "label_nl": "Claim: US strike near Hormuz puts NZ fuel and fertiliser at risk - B2B News",
         "actor": "",
         "action": "",
         "place": "",
@@ -92,9 +92,9 @@
       },
       {
         "ids": [
-          "58d560645d25b4"
+          "f832294769ec0d"
         ],
-        "label_nl": "Claim: Iran warns of strong response to further US strikes - Malaysia Sun",
+        "label_nl": "Claim: Trump says renewed attacks on Iran highly unlikely if talks show progress",
         "actor": "",
         "action": "",
         "place": "",
@@ -103,9 +103,9 @@
       },
       {
         "ids": [
-          "f9aee2a1e620b5"
+          "36becc6b3adcdf"
         ],
-        "label_nl": "Claim: U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News",
+        "label_nl": "Claim: Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
         "actor": "",
         "action": "",
         "place": "",
@@ -125,9 +125,9 @@
       },
       {
         "ids": [
-          "267b44ae2268b6"
+          "8357bffc4c7e82"
         ],
-        "label_nl": "Claim: Middle East latest: Projectile damages tower in Riyadh’s financial district, reports say - The National",
+        "label_nl": "Claim: U.S. Tightens Security Guidance for Middle East Travel - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
@@ -136,14 +136,15 @@
       },
       {
         "ids": [
-          "c6fa105888c450"
+          "c6fa105888c450",
+          "493079084a84e0"
         ],
         "label_nl": "Claim: Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -180,9 +181,9 @@
       },
       {
         "ids": [
-          "e44904218c7721"
+          "b8087b2b94bc57"
         ],
-        "label_nl": "Claim: السعودية تعترض مسيّرة وصواريخ حوثية اطلقت باتجاه مناطق عدة - قناة المملكة",
+        "label_nl": "Claim: Houthi attack damages Aramco building in Riyadh",
         "actor": "",
         "action": "",
         "place": "",
@@ -191,9 +192,9 @@
       },
       {
         "ids": [
-          "ee801c20cf8572"
+          "f9aee2a1e620b5"
         ],
-        "label_nl": "Claim: Iran: US strikes ship after blockade breach - DW.com",
+        "label_nl": "Claim: U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News",
         "actor": "",
         "action": "",
         "place": "",
@@ -213,31 +214,9 @@
       },
       {
         "ids": [
-          "8357bffc4c7e82"
+          "9fa82a0bec092f"
         ],
-        "label_nl": "Claim: U.S. Tightens Security Guidance for Middle East Travel - https://www.thetraveler.org/",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "d894d32d5fd8c0"
-        ],
-        "label_nl": "Claim: Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns - WSJ",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "493079084a84e0"
-        ],
-        "label_nl": "Claim: Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
+        "label_nl": "Claim: US Mission to UAE Warns Americans of Rising Middle East Risks - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
@@ -257,112 +236,42 @@
       }
     ],
     "input_claim_ids": [
-      "36becc6b3adcdf",
+      "9fe00c49d9b4dc",
       "7e91e29dbeb9cf",
       "4a62bd62f728fc",
       "02db98ceb32df6",
-      "1054a367dcca77",
+      "76245c595230d4",
       "9f70f591b38cf7",
-      "58d560645d25b4",
-      "f9aee2a1e620b5",
+      "f832294769ec0d",
+      "36becc6b3adcdf",
       "4fb9ee5831c2c9",
-      "267b44ae2268b6",
+      "8357bffc4c7e82",
       "c6fa105888c450",
       "564f915e543bf4",
       "dc4d83aca3d116",
       "f471d52b9a0707",
-      "e44904218c7721",
-      "ee801c20cf8572",
+      "b8087b2b94bc57",
+      "f9aee2a1e620b5",
       "0468761132763e",
-      "8357bffc4c7e82",
-      "d894d32d5fd8c0",
+      "9fa82a0bec092f",
       "493079084a84e0",
       "31d6b4c32b6147"
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 5,
+  "direct_official_match_count": 0,
   "events": [
     {
-      "id": "85dc6843b10f7a1896c74594",
-      "label_nl": "Claim: Iran warns of strong response to further US strikes - Malaysia Sun",
+      "id": "71d605c8013517860fab7802",
+      "label_nl": "Claim: US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan",
       "headline_claim_ids": [
-        "58d560645d25b4"
+        "9fe00c49d9b4dc"
       ],
       "headline_claims": [
-        "Iran warns of strong response to further US strikes - Malaysia Sun"
+        "US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimAFBVV95cUxORldGdFhPN3N0am9XNm9MVkFNQmpJcExWTUZpdHJCUjYwRlhxVlpSVHg5T1d0aS1uby1yX0NReXRXMjdFN2x0anVFNHg1WWhkeENqM1c0dG1YOG9rVmt2UGtZcjFMZVhpZHBoN01acnYwZG1fZzN2Z0s2UWROdHZMZ3ZfaG0xQV9rcjFkVmVld0RjU1ozbnhGeQ?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbWdOWjZaRkRuSy12Tmg1S2xQVk9FcnBrV0NyQ1RKUE5Jc2JaVVM3cFdLalZmLWY1TzctMVNvX3lzTjA5RkVKVEFNYnVUNW5JWjNWcE5EV1NtZjhIcnNZeEpxRUhrRVJpNFU2MjB2NFpuVnJTTUtnSEZEaDJQV3FwX1pucWFoSnM0RTczTWlFZktpaTRGdWc?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel, including, but not limited to, organisations, businesses, facilities, ",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim dat Iran heeft gewaarschuwd voor een sterke reactie op verdere Amerikaanse aanvallen.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "181e69a4804fb747bfd1cd75",
-      "label_nl": "Claim: U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News",
-      "headline_claim_ids": [
-        "f9aee2a1e620b5"
-      ],
-      "headline_claims": [
-        "U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMickFVX3lxTFAzNWx1SkNrcnZqQnk5RnpLMEtuN2RWcU1WbEJza1VFeXp1ZlZzdjNtV3JkbWl6YUJhaFdEUlFzbnZTYTZwQldfb0R0emZYb3FUYksyYWJOLVVWUmNGd0JWVVBsOHNEUms2TG8tQkZGOHhEdw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p13",
-        "exact_excerpt": "The US and Israel have struck infrastructure across Iran. There are reports that suggest ports, roads, railways, bridges, energy facilities, oil production",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim over Amerikaanse aanvallen op Iraanse doelen.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "22861ae047774b122460ebe9",
-      "label_nl": "Claim: Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
-      "headline_claim_ids": [
-        "36becc6b3adcdf"
-      ],
-      "headline_claims": [
-        "Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXekdTSHhVZ19hOWdSdTEwRzE4dDFLV0hCVWdsT2plWkRKN0tiUjdicWRSaVQ1M2E2YnhMbDNsMVRSYTFXSy1WTFg3bm8ySDRIa29qUUZNWTFGTFVWLXd3cV9EdzlvSDJlSlVieUtQeTg?oc=5"
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaFh1SWdwZ3RENEoyMnktWXotcl9EMkR5bGJqUnYwSmZpOHotejZnUFJMMWhDcmpEb2E3VGZOenplcUFXSFFnTzF1ZkxxV1J5WUhyU1RYdDNvcUxwUmZpalBIakdCWkhLYlNEd0d0M05TdTBnMGxYbWpaSk05NHFidXN3NkgtU1k?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -432,16 +341,70 @@
       "probability_estimate": null
     },
     {
-      "id": "2aee72e240cea0ed5e059138",
-      "label_nl": "Claim: Iran: US strikes ship after blockade breach - DW.com",
+      "id": "22861ae047774b122460ebe9",
+      "label_nl": "Claim: Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
       "headline_claim_ids": [
-        "ee801c20cf8572"
+        "36becc6b3adcdf"
       ],
       "headline_claims": [
-        "Iran: US strikes ship after blockade breach - DW.com"
+        "Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZVZIRjBab183eXg3NERJTXhPTEZ1V0hmYVBiQy1pY1JOUDNVa3ZWdTNCdGZjV1VIT05UMDA1UkRCbWlacVY0STFnR0p3aGxNTXlqUF96RVZxNEJPR29NTkJRVWJTdzZjRlFQYjBueVVmLUxneTRnLWs5TjhPaEVBNHNOSTN5MUV1OFHSAYoBQVVfeXFMTWgyYWpENlJKM2N1MGM3emZnLUdubUc2RjVvNnpwMzBpQi1tVnJzemJaRGdValJqV2VHbXVPYjh0TF9QM1lmTW9oV0dnbnpFQktNYnRDY1daWnJmdGFETTBRNHN3QjJHSUhzSVdXTlctNUM0SlVTdC1fZ1FVeVpfbmgxZlFtLWtacXBB?oc=5"
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXekdTSHhVZ19hOWdSdTEwRzE4dDFLV0hCVWdsT2plWkRKN0tiUjdicWRSaVQ1M2E2YnhMbDNsMVRSYTFXSy1WTFg3bm8ySDRIa29qUUZNWTFGTFVWLXd3cV9EdzlvSDJlSlVieUtQeTg?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "1b777df055618f93cc536b14",
+      "label_nl": "Claim: Houthi attack damages Aramco building in Riyadh",
+      "headline_claim_ids": [
+        "b8087b2b94bc57"
+      ],
+      "headline_claims": [
+        "Houthi attack damages Aramco building in Riyadh"
+      ],
+      "related_news_links": [
+        "https://www.bordermail.com.au/story/9388058/houthi-attack-damages-aramco-building-in-riyadh/",
+        "https://www.dailyliberal.com.au/story/9388058/houthi-attack-damages-aramco-building-in-riyadh/",
+        "https://www.northerndailyleader.com.au/story/9388058/houthi-attack-damages-aramco-building-in-riyadh/"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "181e69a4804fb747bfd1cd75",
+      "label_nl": "Claim: U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News",
+      "headline_claim_ids": [
+        "f9aee2a1e620b5"
+      ],
+      "headline_claims": [
+        "U.S. Strikes Iran as Gulf Conflict Intensifies - STL.News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMickFVX3lxTFAzNWx1SkNrcnZqQnk5RnpLMEtuN2RWcU1WbEJza1VFeXp1ZlZzdjNtV3JkbWl6YUJhaFdEUlFzbnZTYTZwQldfb0R0emZYb3FUYksyYWJOLVVWUmNGd0JWVVBsOHNEUms2TG8tQkZGOHhEdw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -484,6 +447,35 @@
       "probability_estimate": null
     },
     {
+      "id": "5e595ca15960dfc6f933a6d9",
+      "label_nl": "Claim: Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
+      "headline_claim_ids": [
+        "c6fa105888c450",
+        "493079084a84e0"
+      ],
+      "headline_claims": [
+        "Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
+        "Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc0dQUUJKb1E5QjM5cllKTk5CQ0F6U1Mwcmw1THpLRkZ2bWhuUmlEeXBQZFVEaS00am9XT0ZJeXBXQkxmMFJ3N19Fb29PRmFkZXhLbklKU3JMeF92b2RXYmxjU0pXUFptVjZfMWtYaDlpajJENHM1b2QxUEZ0R3FKb0pOS0VoZkZBRVk4?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTJjbzNoVjZ0VnNrSlQwMkhIVG9hZmJFM2FuTTMyOVh2bzlJem9IN0c3N1NFOWg3TlNhY2hjMzlrSWw3U2pnNGdSbVo2RGNRTFc1cWlwN1J5SGd6SnlPMkZmWFFwc01Gb0tJaDNYNW9ZbC03Z253OW1pN1lwbXp6NmZCNC1Uem1Jem9tLWdEMTE?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "4eba70a54447af3a928896b1",
       "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
       "headline_claim_ids": [
@@ -504,16 +496,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_uae:p1",
-        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage bevestigt de verhoogde risico's van aanvallen in het Midden-Oosten, inclusief de waarschuwing voor Amerikaanse burgers.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -538,30 +522,22 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_saudi:p7",
-        "exact_excerpt": "There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energy infrastructure across Saudi Arabia",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim over de annulering van oorlog risicoverzekeringen in verband met de verhoogde dreiging van aanvallen.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "455ceb3bbb464abb01ff8858",
-      "label_nl": "Claim: Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS",
+      "id": "eeca466d7932869bc1785246",
+      "label_nl": "Claim: US strike near Hormuz puts NZ fuel and fertiliser at risk - B2B News",
       "headline_claim_ids": [
-        "dc4d83aca3d116"
+        "76245c595230d4"
       ],
       "headline_claims": [
-        "Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS"
+        "US strike near Hormuz puts NZ fuel and fertiliser at risk - B2B News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jS3JUUEtxbDM3OWdfNEw1ZktmXzJsNzlucGlQMkFMdnZORWxLSXNXMlhXRDREd19SRWRYM1RMSm9sczZKNFc4Zkd4ckZURzdQdEpsbUpGZy0wSGtFM1E?oc=5"
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxON1RiU3dlUk44dWFLbFNfNDFwcnpYNVNSaTdhSVdpT0ZnblBPeGFFXzJGWUk4NVpuQVQ1eGVzVEdhbGNYV0Fnd0xOeEJRZUxGMkhlWl9QUHoxenV4aFpGX3AyTGpZbXZuOGp4RHZiRkFqZ3c0Mkd6MVFmQXNoMnRxakE0UTlxemtXLUotQ2x3?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -572,34 +548,28 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p7",
-        "exact_excerpt": "British nationals in, or planning to travel through, the Middle East should be prepared for possible flight cancellations, airspace closures, and travel di",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage bevestigt de risico's voor reizigers in het Midden-Oosten, inclusief de mogelijkheid van evacuaties.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "9c75b241ca7ed9990529c66e",
-      "label_nl": "Claim: Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire - Quantisnow",
+      "id": "d738c085a19bb65825daf28d",
+      "label_nl": "Claim: Trump says renewed attacks on Iran highly unlikely if talks show progress",
       "headline_claim_ids": [
-        "1054a367dcca77"
+        "f832294769ec0d"
       ],
       "headline_claims": [
-        "Oil Looks to Doha and Washington for Signs of a U.S.-Iran Ceasefire - Quantisnow"
+        "Trump says renewed attacks on Iran highly unlikely if talks show progress"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc2JUS2ZCdklzVnI5RGVGUEFCQURJNjZGY1B5VnFMVWNDXzAtblBqSWV6OUN2cmtvWjc0cVplZXBNVklweERCS3o0cUFsZ0xaYkJ6YXBvRVRNVDlobVBhOU5YeE0ybmt2RVlkdlZDcVFEOFFldXVCUUFpY2Ezby1xZHJMZmNhM3QtTFlnRDdTYWpxMDFL?oc=5",
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTW90d1I3Y3ZfM21UVjZOY3ludmhWbEpXdzVvM1dNdnBHcFBDTmROS0NNWkxoMkZqdWtGcnB0ZUhnaE95Z2NCSVVFaHFJVEpVMkI5TTBxN3BpM09sLWFLVzdtR3pDaDBVN3h3VU5fT1JvTXg4Nkp5cEdwOXZUV0J3aDhUYXdnb25uM181SXRjaUttNlozeThibGV4QlIza2VsT0VFNDZPeXM4YmxRbW9HaTFvNlNrbXNlYW5WWWtR?oc=5"
+        "http://www.arabherald.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
+        "http://www.myanmarnews.net/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
+        "http://www.malaysiasun.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
+        "http://www.iranherald.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 4,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -623,162 +593,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE90cFlyN1puY2RXYkRiM0RLV0R0R01HdFZKQ2Zza01yV25SaktabFVtekZ6SjZSbGxVeTlaeEszRmlVcVHSAUJBVV95cUxQOURYQ2FSY2pLblpjZFo2dHZ4NjBTY25kN1BCeDlfSlg0TktHWXpDY0NmcldzVHZ1QTYzVWlxd3VmNUE?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "69e1802d77c5998befd2e055",
-      "label_nl": "Claim: Middle East latest: Projectile damages tower in Riyadh’s financial district, reports say - The National",
-      "headline_claim_ids": [
-        "267b44ae2268b6"
-      ],
-      "headline_claims": [
-        "Middle East latest: Projectile damages tower in Riyadh’s financial district, reports say - The National"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNME42cE40Mk9sODA3dHc5LWNWZTRab1JhY1RmcVA0WklGQ0VOUlRUSkhXc0x2eThQM3lCVE43VlpnSWgwVUFSb29RVW5oZnBPMjFzWXkxYXAxSEUtTHpRcmRFR3pBTUxIX1F4clI5clBrTVNodTRPOHl2c3dlREFqdW9ROWx3R2xoS1JLMWVPSXI?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "e304513ed72433bcf06f0157",
-      "label_nl": "Claim: Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance",
-      "headline_claim_ids": [
-        "c6fa105888c450"
-      ],
-      "headline_claims": [
-        "Oil Prices Fall as US Midterm Election Results and Iran Negotiations Create Market Uncertainty - Yahoo Finance"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc0dQUUJKb1E5QjM5cllKTk5CQ0F6U1Mwcmw1THpLRkZ2bWhuUmlEeXBQZFVEaS00am9XT0ZJeXBXQkxmMFJ3N19Fb29PRmFkZXhLbklKU3JMeF92b2RXYmxjU0pXUFptVjZfMWtYaDlpajJENHM1b2QxUEZ0R3FKb0pOS0VoZkZBRVk4?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "c4de436d52540a026464ab10",
-      "label_nl": "Claim: India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
-      "headline_claim_ids": [
-        "564f915e543bf4"
-      ],
-      "headline_claims": [
-        "India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWtlUEpScEI3aXZTVk9wdVBPUDFKQ24ybU55X0R3WlVYR01kUTY0LVhUMjh5ZF9PUlpxbGZ0QUE0ZG9ieGlNbHNqQmxEclMxTzAwQ0FQRXJZbmdFSXNBaTlmVEVIcUJ6U1FQUlBzTUExVGlYaThsUTctLVlwaGxvNm9la3EtXzA?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "4f3925bc0d006d9e2ae12f56",
-      "label_nl": "Claim: Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International",
-      "headline_claim_ids": [
-        "f471d52b9a0707"
-      ],
-      "headline_claims": [
-        "Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KMWg1MVpWdDRGbEY3R055bXhiLUE3MVVuM1lGRjhXOEFvNllNMmgwSjc1RGVYRjZqNmdqMldyOHVnb3hOdkwwLVlIWnZ0bU81N3c?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "be634378359c78cda537cd5a",
-      "label_nl": "Claim: السعودية تعترض مسيّرة وصواريخ حوثية اطلقت باتجاه مناطق عدة - قناة المملكة",
-      "headline_claim_ids": [
-        "e44904218c7721"
-      ],
-      "headline_claims": [
-        "السعودية تعترض مسيّرة وصواريخ حوثية اطلقت باتجاه مناطق عدة - قناة المملكة"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimwNBVV95cUxPdlFEZjg1MTNsRzFvZkJyYUFiZkVXSU5nT3B4eEJoT1lGU2YtRUhfb1JxUkNoUVZQaVEycXpqV2JnWEI3ZEN1eVJhMmM0ZjlzSzA4VTNBSVFsbFpNemdELUtpMmh2Q0Nxd2hlUUlaWjM2RWdEQTNuemUxOEFpWWE5eEc4SktnN3dYcWEzdlM2aUctSGdJT3dleXdLMFRrb3QzTTJMX1ZzdnFTXzhCdGM3NDBQekk0MmRnVDhRb01FRTRPbWl3M2pCVHI5S2dHQThXX2htQXRrRV9QNWdrYXY3NXJFdVVHOE9DWXIwd21XOEVrWVpYSVM0THlGSGM3X29wYlJuS1llcGhhTUJMT0sxV3hKcy13dkI5cnR3R19KTVA5Yzg5eU9yTnFKOEpCT21uT2xuX2VrWkNEbEsyR0prZzlnMzdjZmxRUmVyNG9BYU1nOXlvTzFJN1pzLUNNRGtkMkFjSXlGREhMX01IMFJGMGNROE5oZkZ3aTRHMkplMENPSEZtLTJKR2FCa09BM3ptWVZjaEZsdXNmbm8?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "a58b36f162a10475f76ad6d7",
-      "label_nl": "Claim: US Vice President JD Vance Seeks New Ceasefire With Iran and Resumption of Nuclear Talks Through Qatari and Pakistani Mediators - SFG Media",
-      "headline_claim_ids": [
-        "0468761132763e"
-      ],
-      "headline_claims": [
-        "US Vice President JD Vance Seeks New Ceasefire With Iran and Resumption of Nuclear Talks Through Qatari and Pakistani Mediators - SFG Media"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTm9CTEVZMGppM05RaTg5VHdZWU0zYXJIQXVhVHFId0JNV0Q0NHk1T2FCNFNKeUF1R2ZnVjNKby1fOWZOakx2ZEgyVndnSkNCUWMzM3Z1TnpWWW56OHNMYzlJQm5kWE0zVmZXLUpZNUtkMENfUHl4RS1hcUotRVRzX2Z3?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -821,16 +635,16 @@
       "probability_estimate": null
     },
     {
-      "id": "23c6a2bda5b9167bfcca5a7b",
-      "label_nl": "Claim: Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns - WSJ",
+      "id": "c4de436d52540a026464ab10",
+      "label_nl": "Claim: India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
       "headline_claim_ids": [
-        "d894d32d5fd8c0"
+        "564f915e543bf4"
       ],
       "headline_claims": [
-        "Oil Prices Rebound as U.S. Strikes on Iran Renew Supply Concerns - WSJ"
+        "India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanI0VE5sUnZXNzJ1Tm9vWmVYYTZWbWRuMGRoOUtSZnJTVVJrT3dub0FKa1VFdlpvLUg3SHJvd3RBN25LNWdZLTlCS2FScUg2UUdLdEhPZXlyeFg5a2Z0TURCVWw5Wkp1VWhVNTQ2UktXX2RJMzdRc0c4emVzbkMyYkRhd2xfZFNSZ05aSWI0amNlUUc0NThHQVdSMHlCdDRfNmh6LS1SeTdmQWNGZlpn?oc=5"
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWtlUEpScEI3aXZTVk9wdVBPUDFKQ24ybU55X0R3WlVYR01kUTY0LVhUMjh5ZF9PUlpxbGZ0QUE0ZG9ieGlNbHNqQmxEclMxTzAwQ0FQRXJZbmdFSXNBaTlmVEVIcUJ6U1FQUlBzTUExVGlYaThsUTctLVlwaGxvNm9la3EtXzA?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -847,16 +661,94 @@
       "probability_estimate": null
     },
     {
-      "id": "4114373316533e88178fe6de",
-      "label_nl": "Claim: Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
+      "id": "455ceb3bbb464abb01ff8858",
+      "label_nl": "Claim: Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS",
       "headline_claim_ids": [
-        "493079084a84e0"
+        "dc4d83aca3d116"
       ],
       "headline_claims": [
-        "Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow"
+        "Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTJjbzNoVjZ0VnNrSlQwMkhIVG9hZmJFM2FuTTMyOVh2bzlJem9IN0c3N1NFOWg3TlNhY2hjMzlrSWw3U2pnNGdSbVo2RGNRTFc1cWlwN1J5SGd6SnlPMkZmWFFwc01Gb0tJaDNYNW9ZbC03Z253OW1pN1lwbXp6NmZCNC1Uem1Jem9tLWdEMTE?oc=5"
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jS3JUUEtxbDM3OWdfNEw1ZktmXzJsNzlucGlQMkFMdnZORWxLSXNXMlhXRDREd19SRWRYM1RMSm9sczZKNFc4Zkd4ckZURzdQdEpsbUpGZy0wSGtFM1E?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "4f3925bc0d006d9e2ae12f56",
+      "label_nl": "Claim: Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International",
+      "headline_claim_ids": [
+        "f471d52b9a0707"
+      ],
+      "headline_claims": [
+        "Unpaid insurance bills push Iran's private hospitals into financial strain - Iran International"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KMWg1MVpWdDRGbEY3R055bXhiLUE3MVVuM1lGRjhXOEFvNllNMmgwSjc1RGVYRjZqNmdqMldyOHVnb3hOdkwwLVlIWnZ0bU81N3c?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "a58b36f162a10475f76ad6d7",
+      "label_nl": "Claim: US Vice President JD Vance Seeks New Ceasefire With Iran and Resumption of Nuclear Talks Through Qatari and Pakistani Mediators - SFG Media",
+      "headline_claim_ids": [
+        "0468761132763e"
+      ],
+      "headline_claims": [
+        "US Vice President JD Vance Seeks New Ceasefire With Iran and Resumption of Nuclear Talks Through Qatari and Pakistani Mediators - SFG Media"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTm9CTEVZMGppM05RaTg5VHdZWU0zYXJIQXVhVHFId0JNV0Q0NHk1T2FCNFNKeUF1R2ZnVjNKby1fOWZOakx2ZEgyVndnSkNCUWMzM3Z1TnpWWW56OHNMYzlJQm5kWE0zVmZXLUpZNUtkMENfUHl4RS1hcUotRVRzX2Z3?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "ec3a20c5148abc7a5c8b5b12",
+      "label_nl": "Claim: US Mission to UAE Warns Americans of Rising Middle East Risks - https://www.thetraveler.org/",
+      "headline_claim_ids": [
+        "9fa82a0bec092f"
+      ],
+      "headline_claims": [
+        "US Mission to UAE Warns Americans of Rising Middle East Risks - https://www.thetraveler.org/"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaHNjZzZydnJ0bGtKM3JTejhLUVg1bG5sNWd1Tk5qY2Rpa1kzTUlsNE1aTk1VcGF4a1VvUXJIZ0lScDBtRFh3WExkR3FmdHNxUXR5QmtCdW85VjQ0VU5NaUtrMDdNcGp6UWoxUWFhQXQxc2s5S0ZGbTBTcWQwbVZjZ0czUUN4eUtoWVVqa3FKMzM2TWRhdHdz?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -874,10 +766,6 @@
     }
   ],
   "usage_by_day": {
-    "2026-11-06": {
-      "requests": 12,
-      "total_tokens": 34113
-    },
     "2026-11-07": {
       "requests": 12,
       "total_tokens": 33617
@@ -885,6 +773,10 @@
     "2026-11-08": {
       "requests": 12,
       "total_tokens": 35505
+    },
+    "2026-11-09": {
+      "requests": 3,
+      "total_tokens": 7781
     }
   }
 }

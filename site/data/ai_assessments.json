@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-08T18:55:52.874392Z",
+  "last_attempt_utc": "2026-11-09T01:21:59.254237Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -4167,13 +4167,89 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-08T18:55:51.874188Z"
+    },
+    "9fe00c49d9b4dc": {
+      "id": "9fe00c49d9b4dc",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De VS en Iran melden aanvallen op schepen nabij de Straat van Hormuz.",
+      "claimed_event_nl": "Aanvallen op schepen nabij de Straat van Hormuz zijn gemeld door de VS en Iran.",
+      "reason_nl": "Dit is relevant vanwege de strategische ligging van de Straat van Hormuz en de mogelijke gevolgen voor de regionale stabiliteit.",
+      "limitations_nl": "De informatie is afkomstig van een niet-geverifieerde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-09T01:21:58.253997Z"
+    },
+    "76245c595230d4": {
+      "id": "76245c595230d4",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Een Amerikaanse aanval nabij de Straat van Hormuz zou de aanvoer van brandstof en kunstmest naar Nieuw-Zeeland in gevaar brengen.",
+      "claimed_event_nl": "Een Amerikaanse aanval nabij de Straat van Hormuz zou risico's met zich meebrengen voor Nieuw-Zeelandse brandstof en kunstmest.",
+      "reason_nl": "Dit is relevant omdat het economische gevolgen kan hebben voor Nieuw-Zeeland en de wereldwijde markten.",
+      "limitations_nl": "De claim is afkomstig van een niet-geverifieerde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-09T01:21:58.254019Z"
+    },
+    "f832294769ec0d": {
+      "id": "f832294769ec0d",
+      "relevance": "unclear",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "commentary",
+      "summary_nl": "Trump stelt dat hernieuwde aanvallen op Iran zeer onwaarschijnlijk zijn als de gesprekken vorderingen maken.",
+      "claimed_event_nl": "Trump zegt dat hernieuwde aanvallen op Iran onwaarschijnlijk zijn bij voortgang in gesprekken.",
+      "reason_nl": "Dit is onduidelijk omdat het een mening betreft en niet een feitelijke gebeurtenis.",
+      "limitations_nl": "De informatie is afkomstig van meerdere niet-geverifieerde bronnen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-09T01:21:58.254027Z"
+    },
+    "b8087b2b94bc57": {
+      "id": "b8087b2b94bc57",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Een Houthi-aanval heeft schade toegebracht aan een Aramco-gebouw in Riyad.",
+      "claimed_event_nl": "Een Houthi-aanval heeft een Aramco-gebouw in Riyad beschadigd.",
+      "reason_nl": "Dit is relevant vanwege de impact op de olie-infrastructuur en de bredere regionale spanningen.",
+      "limitations_nl": "De claim is afkomstig van niet-geverifieerde bronnen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-09T01:21:58.254032Z"
+    },
+    "0c41679f8de88d": {
+      "id": "0c41679f8de88d",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "market_move",
+      "summary_nl": "De goudprijs trekt zich terug van een hoogtepunt te midden van stijgende olieprijzen en voorzichtigheid voor CPI.",
+      "claimed_event_nl": "Goud trekt zich terug van een hoogtepunt door stijgende olieprijzen.",
+      "reason_nl": "Dit is niet direct relevant voor de situatie in Iran of de Golfregio.",
+      "limitations_nl": "De informatie is afkomstig van een niet-geverifieerde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-09T01:21:58.254041Z"
     }
   },
   "usage_by_day": {
-    "2026-11-06": {
-      "requests": 4,
-      "total_tokens": 4112
-    },
     "2026-11-07": {
       "requests": 4,
       "total_tokens": 5818
@@ -4181,6 +4257,10 @@
     "2026-11-08": {
       "requests": 4,
       "total_tokens": 5445
+    },
+    "2026-11-09": {
+      "requests": 1,
+      "total_tokens": 1731
     }
   }
 }

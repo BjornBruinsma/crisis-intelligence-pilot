@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-08T18:56:31.837937Z",
+  "last_attempt_utc": "2026-11-09T01:22:43.431365Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 21,
-  "active_checked": 6,
+  "active_total": 19,
+  "active_checked": 5,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -3074,7 +3074,7 @@
     },
     "5de1b423cc39b3a708c2b357": {
       "event_id": "5de1b423cc39b3a708c2b357",
-      "checked_at": "2026-11-08T01:18:46.616516Z",
+      "checked_at": "2026-11-09T01:22:43.431331Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3083,15 +3083,15 @@
           "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
           "original_document_title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
           "source_date": "Oct. 25, 2026",
-          "retrieved_at": "2026-11-08T01:18:36.864506Z",
-          "exact_quote": "\"Today, primary transit routes in the Strait of Hormuz remain free and clear of Iranian sea mines thanks to incredible efforts by our people,\" said Cooper.",
+          "retrieved_at": "2026-11-09T01:22:35.677113Z",
+          "exact_quote": "primary transit routes in the Strait of Hormuz remain free and clear of Iranian sea mines",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "Deze passage verwijst naar de veiligheid van de doorvaart in de Straat van Hormuz, maar ondersteunt de claim van aanvallen niet.",
+          "reason_nl": "Deze passage benadrukt dat de transitroutes vrij zijn van mijnen, maar zegt niets over luchtaanvallen op Iraanse doelen.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "Er zijn geen directe bevestigingen van aanvallen op Iraanse doelen, maar er zijn wel gerelateerde operaties en veiligheidsmaatregelen in de Straat van Hormuz.",
+      "summary_nl": "De tekst bevestigt dat de transitroutes in de Straat van Hormuz veilig zijn, maar er wordt geen bewijs geleverd voor luchtaanvallen op Iraanse doelen.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3118,12 +3118,12 @@
     },
     "2622fbdcb7308c38ffb315a2": {
       "event_id": "2622fbdcb7308c38ffb315a2",
-      "checked_at": "2026-11-08T01:18:46.616523Z",
+      "checked_at": "2026-11-09T01:22:43.431339Z",
       "version": "official-original-document-v1",
       "research_status": "documents_found_unassessed",
       "verified_event": false,
       "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over werkloosheid in Iran na de oorlog ondersteunen of tegenspreken.",
+      "summary_nl": "Er zijn geen relevante passages gevonden die de claim over werkloosheid in Iran ondersteunen of weerleggen.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3343,14 +3343,53 @@
           "text_excerpt": "The Prime Minister will write personally to councils in England on Armistice Day asking them to develop a specific plan to offer accommodation to any veterans sleeping rough ahead of the Christmas period."
         }
       ]
+    },
+    "71d605c8013517860fab7802": {
+      "event_id": "71d605c8013517860fab7802",
+      "checked_at": "2026-11-09T01:22:43.431310Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "original_document_title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_date": "Oct. 25, 2026",
+          "retrieved_at": "2026-11-09T01:22:34.437486Z",
+          "exact_quote": "more than 3,000 commercial vessels have successfully transited the Strait of Hormuz",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt dat veel commerciële schepen de Straat van Hormuz zijn gepasseerd, maar ondersteunt niet specifiek de claim van aanvallen op schepen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De gevonden tekst geeft aan dat duizenden commerciële schepen de Straat van Hormuz hebben gepasseerd, maar er wordt geen melding gemaakt van aanvallen op schepen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "Adm. Brad Cooper observed the current operational environment while flying in a U.S. Army CH-47 Chinook over the international waterway. More than 3,000 commercial vessels have successfully transited the Strait of Hormuz with support from CENTCOM for"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/azerbaijan",
+          "title": "Azerbaijan travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The border with Armenia remains closed. The FCDO advises against all travel to within 5km of the border with Armenia, due to tensions between Azerbaijan and Armenia. Note that this does not include the border of Azerbaijan’s Nakhchivan exclave with A"
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-06": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 4648
-    },
     "2026-11-07": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -3360,6 +3399,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 4987
+    },
+    "2026-11-09": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1938
     }
   },
   "last_error": null
