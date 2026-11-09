@@ -1,34 +1,34 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-09T13:27:11.285600Z",
-  "fingerprint": "34799d68a31b66f72db9df12",
+  "last_attempt_utc": "2026-11-09T19:07:13.237279Z",
+  "fingerprint": "6c3863bf3bf6082c67db8e7a",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 19,
-  "event_candidate_count": 19,
+  "event_candidate_count": 18,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
-    "accepted_pair_connections": 0,
+    "model_pair_proposals": 5,
+    "accepted_pair_connections": 1,
     "rejected_pair_proposals": 4,
-    "multi_claim_groups": 0,
-    "claims_in_multi_groups": 0,
+    "multi_claim_groups": 1,
+    "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 0,
+    "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-09T13:27:11.285600Z",
+    "recorded_at": "2026-11-09T19:07:13.237279Z",
     "groups": [
       {
         "ids": [
-          "c880533343ed35"
+          "326c6ace872075"
         ],
-        "label_nl": "Claim: US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
+        "label_nl": "Claim: US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress",
         "actor": "",
         "action": "",
         "place": "",
@@ -103,9 +103,9 @@
       },
       {
         "ids": [
-          "9fe00c49d9b4dc"
+          "7352020c24ccdc"
         ],
-        "label_nl": "Claim: US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan",
+        "label_nl": "Claim: US Launches Third Wave of Military Strikes on Iran's Qeshm Island in One Week - https://streamlinefeed.co.ke/",
         "actor": "",
         "action": "",
         "place": "",
@@ -147,9 +147,9 @@
       },
       {
         "ids": [
-          "564f915e543bf4"
+          "bd42ddc983b7fa"
         ],
-        "label_nl": "Claim: India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
+        "label_nl": "Claim: Hormuz Shutdown Worsens After US Hits Iranian Warship; Tankers Stranded for Fifth Day - EnergyNow.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -191,25 +191,15 @@
       },
       {
         "ids": [
-          "36becc6b3adcdf"
-        ],
-        "label_nl": "Claim: Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
+          "c880533343ed35",
           "eaa31d2e403d25"
         ],
-        "label_nl": "Claim: Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera",
+        "label_nl": "Claim: US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -224,9 +214,9 @@
       },
       {
         "ids": [
-          "493079084a84e0"
+          "564f915e543bf4"
         ],
-        "label_nl": "Claim: Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
+        "label_nl": "Claim: India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -235,25 +225,25 @@
       }
     ],
     "input_claim_ids": [
-      "c880533343ed35",
+      "326c6ace872075",
       "7e91e29dbeb9cf",
       "a7055c1b4d5629",
       "9975cd4d07fde4",
       "76245c595230d4",
       "91bf9c16da9870",
       "f832294769ec0d",
-      "9fe00c49d9b4dc",
+      "7352020c24ccdc",
       "abf3554c4b50d2",
       "4a62bd62f728fc",
       "5b49f9a8417702",
-      "564f915e543bf4",
+      "bd42ddc983b7fa",
       "dc4d83aca3d116",
       "9f70f591b38cf7",
       "b8087b2b94bc57",
-      "36becc6b3adcdf",
+      "c880533343ed35",
       "eaa31d2e403d25",
       "02db98ceb32df6",
-      "493079084a84e0"
+      "564f915e543bf4"
     ]
   },
   "official_sources_available": 15,
@@ -298,10 +288,11 @@
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYy13eXltNldJNUhUay02cHBib0ZsM1IydjZHdDhiRTZZNVlJeExSeUxWLWQzVDRqUHdpZUljZGZCakFXeTNIc3oxZktkdEltVlp2MnYtNmx2MGhxSzFWMExTbjFGeUdiTTZyQk9rd0dzZG5qVGNmdFdVYWtETXVITlNmaUpEamdVbGlySEsxaDNvTnFNQVBBWU44UHhsR3FCaEFZQk1qUTBzc2poQkd4eFAwSzhhVUHSAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5",
         "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UNm1JTGhxR1lJbWlXTEpySG04ZGtxa0hvTUhUbEpwcEV1V200R1ctZk9zZmlwT2Q2bjVGZkhBcXVBTDJFMTRIdjVwUmpvR3F3aEZpRENBbU1aNE1mMDZ4OGRCdDBsbnZ5c0NQdDFpekUzQzJQRVR2THd3TQ?oc=5",
-        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRkxqeXpOZ25JRzdwX0s3bnN2UGdSNTBQUWEzNkliYUN1Ykt3SVh4VFRJdUpvRDVXTFBRWURzeUxTZVpPb1FxbGhaOEhaWFN3dVJUTEwzVFE0eEVxZDhsVnVCM3dMYXRLcTh4UUlnUFJYX1ptVmlSSWhJcTRmXzFYanpuSFBlVE5mSzI2eURLMXZQME5zSU9qYzZzYmUyUmdWMEdoRUN6dXFoX0g0SS1ielRjOHBOdjNFclhaNnlEYw?oc=5"
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRkxqeXpOZ25JRzdwX0s3bnN2UGdSNTBQUWEzNkliYUN1Ykt3SVh4VFRJdUpvRDVXTFBRWURzeUxTZVpPb1FxbGhaOEhaWFN3dVJUTEwzVFE0eEVxZDhsVnVCM3dMYXRLcTh4UUlnUFJYX1ptVmlSSWhJcTRmXzFYanpuSFBlVE5mSzI2eURLMXZQME5zSU9qYzZzYmUyUmdWMEdoRUN6dXFoX0g0SS1ielRjOHBOdjNFclhaNnlEYw?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVm4tdVY4YVBOVGZaOFhUQnk4OEV4VjRSZklqVkRCQnY1aWdVbEZTRzBZX0pQZ00tbmZOX0pjSEVLMVlqVTd3dm5qSXV5UWNFeWVHdjB6ZXl0dEE0NDI4Q21lVmFFbnZJRVBIbTVLeTBlLUp5VDZyUHdRMlUxMzRVVGZFVFUxR1FkcmF5LXJDajYwRVkwSGlRdVI3RXF1MmpUNWpDWHFOdVBNcWtNTTR0UzBaLW4yUGJSVUlld1VfdU7SAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 3,
+      "news_url_count": 4,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -315,16 +306,42 @@
       "probability_estimate": null
     },
     {
-      "id": "71d605c8013517860fab7802",
-      "label_nl": "Claim: US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan",
+      "id": "804ee6a03e44eb1a0867ea6a",
+      "label_nl": "Claim: US Launches Third Wave of Military Strikes on Iran's Qeshm Island in One Week - https://streamlinefeed.co.ke/",
       "headline_claim_ids": [
-        "9fe00c49d9b4dc"
+        "7352020c24ccdc"
       ],
       "headline_claims": [
-        "US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan"
+        "US Launches Third Wave of Military Strikes on Iran's Qeshm Island in One Week - https://streamlinefeed.co.ke/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaFh1SWdwZ3RENEoyMnktWXotcl9EMkR5bGJqUnYwSmZpOHotejZnUFJMMWhDcmpEb2E3VGZOenplcUFXSFFnTzF1ZkxxV1J5WUhyU1RYdDNvcUxwUmZpalBIakdCWkhLYlNEd0d0M05TdTBnMGxYbWpaSk05NHFidXN3NkgtU1k?oc=5"
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZjJOVktpMC0wQ3VFRW5GQnRTY2FEZkM2aDRrWnhaNHVYS21ZeUlNeGtVck9CZmgxT3dXNDlMb1lrV2wtTVdpa3RVaU8yYjI1VzQwMWpiQVljazhZMjVJSWFpTnBCUFlzQ3NOd1Q2Wl9mbFVLU01Ld1pfSksxNkY4M0ZJNmtMTG9YUXpZMFFmZzlpUk5lTGpmeUlQZERteXJtbENsUHBpLThMSU1xMW9j?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "c8926839f5f294d29e65c60f",
+      "label_nl": "Claim: Hormuz Shutdown Worsens After US Hits Iranian Warship; Tankers Stranded for Fifth Day - EnergyNow.com",
+      "headline_claim_ids": [
+        "bd42ddc983b7fa"
+      ],
+      "headline_claims": [
+        "Hormuz Shutdown Worsens After US Hits Iranian Warship; Tankers Stranded for Fifth Day - EnergyNow.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQnppbk1GNDE4MHJ3aXRtay13TWV5NnFOTW1NMkE0RklyUGVaalVIRExqamwxNHZMNXZoZlVvTmJ6Yk1mWDd0cF8zUVR5Qk8zUFI2UENaczdjZjhPQXBsUWVUaHJjX2pPeERIc0VvR1NRdS1kY0pjT3JlN19XSlEtckZGMF9KeDhUMUp0eGROY21vd0R2SGRHa3dvMGotc19sUjFTb2ZtSXBnQzVTWGhMZ3p5YzNkQQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -395,45 +412,49 @@
       "probability_estimate": null
     },
     {
-      "id": "22861ae047774b122460ebe9",
-      "label_nl": "Claim: Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
+      "id": "4493d0be323c9e126c624b96",
+      "label_nl": "Claim: US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
       "headline_claim_ids": [
-        "36becc6b3adcdf"
+        "c880533343ed35",
+        "eaa31d2e403d25"
       ],
       "headline_claims": [
-        "Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English"
+        "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
+        "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXekdTSHhVZ19hOWdSdTEwRzE4dDFLV0hCVWdsT2plWkRKN0tiUjdicWRSaVQ1M2E2YnhMbDNsMVRSYTFXSy1WTFg3bm8ySDRIa29qUUZNWTFGTFVWLXd3cV9EdzlvSDJlSlVieUtQeTg?oc=5"
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTG54ck5HeEc1SFBfeF83WGR0SGxuS0FUcFhzQUtBa1pLOXphcDdvNk9QYS0xUkpBd1JnNkVybHoyOUlUeHVfYUF4eUpzWnd1Z2RWTW85VTdYdGVZb3NaekZOSUVsSmlWTXVqN1luWXV2ZjhtWWlpdElSY251Vkl4cTFWS3kxak9GZnBxS3JPckFmUlF6Nk9fOUl1R1gyckxIa19aX29mRdIBrAFBVV95cUxNYjNzN21zZTFQOFlUOUNqZndVM0IyMUgtZ2lZZlRtLWxRZm1ILV8yZ1pWc1NLWnJvd0p1QW13OS1mZERoLUkySDhFZDB6WmFmZEdHaDlCREdxeHd5N3ozVkJpeE5ndkl0YnJ3ekhYT1JaUGUtdXFSbWJDaUM0OU1VZWh5SU5ERGZWOVNPZEFWNTQ5dnVjMWxVd1Z2Z3I4ZDFmQ2laWC1MMnVaVE1O?oc=5"
       ],
-      "article_group_count": 1,
-      "news_url_count": 1,
+      "article_group_count": 2,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "editorial_importance": "medium",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "d5bc201af98d4fb3853ad662",
-      "label_nl": "Claim: US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
+      "id": "8d0bccc63ade73ec5e2ef45b",
+      "label_nl": "Claim: US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress",
       "headline_claim_ids": [
-        "c880533343ed35"
+        "326c6ace872075"
       ],
       "headline_claims": [
-        "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN"
+        "US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5"
+        "https://abc13.com/post/us-iran-war-news-donald-trump-says-renewed-attacks-nuclear-program-strait-hormuz-talks-show-progress/20024909/",
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTWtaaEdaaHBHU0NMSnNwcEE2ZmxWSnZrU21BVE1rUG9RMkhZYTRaSVBIY1RGcERUU1lJRV83NEJfcDVDdkN4MmFfRHJab1VMeXhPYVVWcmVnOXRnY3paaldnWG5TZWJVcmgwd2otVWFXV3BzUTZ3dFpmLWJmZlVpN202cTNVRTJlZVFTR3pHVTJsM1BoUHQ3MGx4eVFjRFJJMTd3aHNMMElkQTlocm9XNTZsWXRlSFU4aTFhUlUyLUxBbTVLbElxWlJZbUFuRElUMGfSAdcBQVVfeXFMT0k2NjZ2WkFhcWUtQThlb0JZRmc3MVloaW5fQlFrbF9CQi1INlZLZi1PWHZjYXhqLS1HM0p2dkExTThsTGxQeUMwcHNBXzhLRTR1WkRMRXk5ZGcwOGdWRDhxdkRmdVdqVG1CbFB2Rk5CWXl6dWVHWElzUzVkdWpsOXotZTBJNHlQRHh3QVB6N20wS2hNSFI0bmNQdGNhengxN0ZieHBEYnhERFVicy1zcjZBa1Blc21UckFib2NJenlRcnZDNmxlMmFCYU5jTTd5VV9tREtlR3M?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -632,32 +653,6 @@
       "probability_estimate": null
     },
     {
-      "id": "c4de436d52540a026464ab10",
-      "label_nl": "Claim: India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
-      "headline_claim_ids": [
-        "564f915e543bf4"
-      ],
-      "headline_claims": [
-        "India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWtlUEpScEI3aXZTVk9wdVBPUDFKQ24ybU55X0R3WlVYR01kUTY0LVhUMjh5ZF9PUlpxbGZ0QUE0ZG9ieGlNbHNqQmxEclMxTzAwQ0FQRXJZbmdFSXNBaTlmVEVIcUJ6U1FQUlBzTUExVGlYaThsUTctLVlwaGxvNm9la3EtXzA?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "455ceb3bbb464abb01ff8858",
       "label_nl": "Claim: Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS",
       "headline_claim_ids": [
@@ -668,32 +663,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jS3JUUEtxbDM3OWdfNEw1ZktmXzJsNzlucGlQMkFMdnZORWxLSXNXMlhXRDREd19SRWRYM1RMSm9sczZKNFc4Zkd4ckZURzdQdEpsbUpGZy0wSGtFM1E?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "0f6c701935125d65f608a3c5",
-      "label_nl": "Claim: Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera",
-      "headline_claim_ids": [
-        "eaa31d2e403d25"
-      ],
-      "headline_claims": [
-        "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTG54ck5HeEc1SFBfeF83WGR0SGxuS0FUcFhzQUtBa1pLOXphcDdvNk9QYS0xUkpBd1JnNkVybHoyOUlUeHVfYUF4eUpzWnd1Z2RWTW85VTdYdGVZb3NaekZOSUVsSmlWTXVqN1luWXV2ZjhtWWlpdElSY251Vkl4cTFWS3kxak9GZnBxS3JPckFmUlF6Nk9fOUl1R1gyckxIa19aX29mRdIBrAFBVV95cUxNYjNzN21zZTFQOFlUOUNqZndVM0IyMUgtZ2lZZlRtLWxRZm1ILV8yZ1pWc1NLWnJvd0p1QW13OS1mZERoLUkySDhFZDB6WmFmZEdHaDlCREdxeHd5N3ozVkJpeE5ndkl0YnJ3ekhYT1JaUGUtdXFSbWJDaUM0OU1VZWh5SU5ERGZWOVNPZEFWNTQ5dnVjMWxVd1Z2Z3I4ZDFmQ2laWC1MMnVaVE1O?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -736,16 +705,16 @@
       "probability_estimate": null
     },
     {
-      "id": "4114373316533e88178fe6de",
-      "label_nl": "Claim: Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
+      "id": "c4de436d52540a026464ab10",
+      "label_nl": "Claim: India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
       "headline_claim_ids": [
-        "493079084a84e0"
+        "564f915e543bf4"
       ],
       "headline_claims": [
-        "Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow"
+        "India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTJjbzNoVjZ0VnNrSlQwMkhIVG9hZmJFM2FuTTMyOVh2bzlJem9IN0c3N1NFOWg3TlNhY2hjMzlrSWw3U2pnNGdSbVo2RGNRTFc1cWlwN1J5SGd6SnlPMkZmWFFwc01Gb0tJaDNYNW9ZbC03Z253OW1pN1lwbXp6NmZCNC1Uem1Jem9tLWdEMTE?oc=5"
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWtlUEpScEI3aXZTVk9wdVBPUDFKQ24ybU55X0R3WlVYR01kUTY0LVhUMjh5ZF9PUlpxbGZ0QUE0ZG9ieGlNbHNqQmxEclMxTzAwQ0FQRXJZbmdFSXNBaTlmVEVIcUJ6U1FQUlBzTUExVGlYaThsUTctLVlwaGxvNm9la3EtXzA?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -772,8 +741,8 @@
       "total_tokens": 35505
     },
     "2026-11-09": {
-      "requests": 9,
-      "total_tokens": 23693
+      "requests": 12,
+      "total_tokens": 33011
     }
   }
 }

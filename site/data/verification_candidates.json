@@ -1,24 +1,25 @@
 {
   "description": "Manually reviewable headline claims; no event verification, no risk scoring",
-  "source_generated_from": "2026-11-09T13:25:29.754733Z",
-  "source_groups_count": 541,
+  "source_generated_from": "2026-11-09T19:05:38.853610Z",
+  "source_groups_count": 538,
   "selection_method": "Category-balanced high/medium editorial candidates; NOT trained or calibrated",
   "candidates": [
     {
-      "id": "c880533343ed35",
-      "headline_claim": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
+      "id": "326c6ace872075",
+      "headline_claim": "US - Iran war news : Donald Trump says renewed Iran attacks  unlikely  if nuclear program , Strait of Hormuz talks show progress",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
-        "Militair & veiligheid",
-        "Regionaal: Pakistan"
+        "Brede GDELT-detectie",
+        "Militair & veiligheid"
       ],
       "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "article_count": 2,
       "publisher_names": [
-        "cnn"
+        "abc13.com",
+        "abc7 bay area"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -29,10 +30,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
-          "publisher": "CNN",
-          "published_at": "2026-11-09T05:00:15Z",
+          "title": "US - Iran war news : Donald Trump says renewed Iran attacks  unlikely  if nuclear program , Strait of Hormuz talks show progress",
+          "url": "https://abc13.com/post/us-iran-war-news-donald-trump-says-renewed-attacks-nuclear-program-strait-hormuz-talks-show-progress/20024909/",
+          "publisher": "abc13.com",
+          "published_at": "2026-11-09T01:00:00Z",
+          "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress - ABC7 Bay Area",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTWtaaEdaaHBHU0NMSnNwcEE2ZmxWSnZrU21BVE1rUG9RMkhZYTRaSVBIY1RGcERUU1lJRV83NEJfcDVDdkN4MmFfRHJab1VMeXhPYVVWcmVnOXRnY3paaldnWG5TZWJVcmgwd2otVWFXV3BzUTZ3dFpmLWJmZlVpN202cTNVRTJlZVFTR3pHVTJsM1BoUHQ3MGx4eVFjRFJJMTd3aHNMMElkQTlocm9XNTZsWXRlSFU4aTFhUlUyLUxBbTVLbElxWlJZbUFuRElUMGfSAdcBQVVfeXFMT0k2NjZ2WkFhcWUtQThlb0JZRmc3MVloaW5fQlFrbF9CQi1INlZLZi1PWHZjYXhqLS1HM0p2dkExTThsTGxQeUMwcHNBXzhLRTR1WkRMRXk5ZGcwOGdWRDhxdkRmdVdqVG1CbFB2Rk5CWXl6dWVHWElzUzVkdWpsOXotZTBJNHlQRHh3QVB6N20wS2hNSFI0bmNQdGNhengxN0ZieHBEYnhERFVicy1zcjZBa1Blc21UckFib2NJenlRcnZDNmxlMmFCYU5jTTd5VV9tREtlR3M?oc=5",
+          "publisher": "ABC7 Bay Area",
+          "published_at": "2026-11-09T00:08:12Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -123,7 +131,7 @@
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 3,
+      "article_count": 4,
       "publisher_names": [
         "business recorder",
         "profit by pakistan today",
@@ -156,6 +164,13 @@
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRkxqeXpOZ25JRzdwX0s3bnN2UGdSNTBQUWEzNkliYUN1Ykt3SVh4VFRJdUpvRDVXTFBRWURzeUxTZVpPb1FxbGhaOEhaWFN3dVJUTEwzVFE0eEVxZDhsVnVCM3dMYXRLcTh4UUlnUFJYX1ptVmlSSWhJcTRmXzFYanpuSFBlVE5mSzI2eURLMXZQME5zSU9qYzZzYmUyUmdWMEdoRUN6dXFoX0g0SS1ielRjOHBOdjNFclhaNnlEYw?oc=5",
           "publisher": "Profit by Pakistan Today",
           "published_at": "2026-11-09T08:59:47Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVm4tdVY4YVBOVGZaOFhUQnk4OEV4VjRSZklqVkRCQnY1aWdVbEZTRzBZX0pQZ00tbmZOX0pjSEVLMVlqVTd3dm5qSXV5UWNFeWVHdjB6ZXl0dEE0NDI4Q21lVmFFbnZJRVBIbTVLeTBlLUp5VDZyUHdRMlUxMzRVVGZFVFUxR1FkcmF5LXJDajYwRVkwSGlRdVI3RXF1MmpUNWpDWHFOdVBNcWtNTTR0UzBaLW4yUGJSVUlld1VfdU7SAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5",
+          "publisher": "Business Recorder",
+          "published_at": "2026-11-09T04:58:05Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -345,19 +360,19 @@
       ]
     },
     {
-      "id": "9fe00c49d9b4dc",
-      "headline_claim": "US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan",
+      "id": "7352020c24ccdc",
+      "headline_claim": "US Launches Third Wave of Military Strikes on Iran's Qeshm Island in One Week - https://streamlinefeed.co.ke/",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
       ],
-      "publication_day": "2026-11-08",
+      "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "latest news from azerbaijan"
+        "https://streamlinefeed.co.ke/"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -368,10 +383,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "US and Iran report attacks on vessels near Strait of Hormuz - Latest news from Azerbaijan",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaFh1SWdwZ3RENEoyMnktWXotcl9EMkR5bGJqUnYwSmZpOHotejZnUFJMMWhDcmpEb2E3VGZOenplcUFXSFFnTzF1ZkxxV1J5WUhyU1RYdDNvcUxwUmZpalBIakdCWkhLYlNEd0d0M05TdTBnMGxYbWpaSk05NHFidXN3NkgtU1k?oc=5",
-          "publisher": "Latest news from Azerbaijan",
-          "published_at": "2026-11-08T19:10:47Z",
+          "title": "US Launches Third Wave of Military Strikes on Iran's Qeshm Island in One Week - https://streamlinefeed.co.ke/",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZjJOVktpMC0wQ3VFRW5GQnRTY2FEZkM2aDRrWnhaNHVYS21ZeUlNeGtVck9CZmgxT3dXNDlMb1lrV2wtTVdpa3RVaU8yYjI1VzQwMWpiQVljazhZMjVJSWFpTnBCUFlzQ3NOd1Q2Wl9mbFVLU01Ld1pfSksxNkY4M0ZJNmtMTG9YUXpZMFFmZzlpUk5lTGpmeUlQZERteXJtbENsUHBpLThMSU1xMW9j?oc=5",
+          "publisher": "https://streamlinefeed.co.ke/",
+          "published_at": "2026-11-09T09:26:06Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -473,13 +488,13 @@
       ]
     },
     {
-      "id": "564f915e543bf4",
-      "headline_claim": "India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
+      "id": "bd42ddc983b7fa",
+      "headline_claim": "Hormuz Shutdown Worsens After US Hits Iranian Warship; Tankers Stranded for Fifth Day - EnergyNow.com",
       "discovered_via": "Energie & grondstoffen",
       "other_search_labels": [
         "Energie & grondstoffen"
       ],
-      "publication_day": "2026-11-05",
+      "publication_day": "2026-11-07",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
@@ -496,10 +511,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWtlUEpScEI3aXZTVk9wdVBPUDFKQ24ybU55X0R3WlVYR01kUTY0LVhUMjh5ZF9PUlpxbGZ0QUE0ZG9ieGlNbHNqQmxEclMxTzAwQ0FQRXJZbmdFSXNBaTlmVEVIcUJ6U1FQUlBzTUExVGlYaThsUTctLVlwaGxvNm9la3EtXzA?oc=5",
+          "title": "Hormuz Shutdown Worsens After US Hits Iranian Warship; Tankers Stranded for Fifth Day - EnergyNow.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQnppbk1GNDE4MHJ3aXRtay13TWV5NnFOTW1NMkE0RklyUGVaalVIRExqamwxNHZMNXZoZlVvTmJ6Yk1mWDd0cF8zUVR5Qk8zUFI2UENaczdjZjhPQXBsUWVUaHJjX2pPeERIc0VvR1NRdS1kY0pjT3JlN19XSlEtckZGMF9KeDhUMUp0eGROY21vd0R2SGRHa3dvMGotc19sUjFTb2ZtSXBnQzVTWGhMZ3p5YzNkQQ?oc=5",
           "publisher": "EnergyNow.com",
-          "published_at": "2026-11-05T22:46:16Z",
+          "published_at": "2026-11-07T20:58:28Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -650,19 +665,20 @@
       ]
     },
     {
-      "id": "36becc6b3adcdf",
-      "headline_claim": "Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
+      "id": "c880533343ed35",
+      "headline_claim": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
-        "Militair & veiligheid"
+        "Militair & veiligheid",
+        "Regionaal: Pakistan"
       ],
-      "publication_day": "2026-11-08",
+      "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "telesur english"
+        "cnn"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -673,10 +689,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran Missile Range Restrictions Lifted: 228 US Sites Targeted - teleSUR English",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXekdTSHhVZ19hOWdSdTEwRzE4dDFLV0hCVWdsT2plWkRKN0tiUjdicWRSaVQ1M2E2YnhMbDNsMVRSYTFXSy1WTFg3bm8ySDRIa29qUUZNWTFGTFVWLXd3cV9EdzlvSDJlSlVieUtQeTg?oc=5",
-          "publisher": "teleSUR English",
-          "published_at": "2026-11-08T14:10:33Z",
+          "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
+          "publisher": "CNN",
+          "published_at": "2026-11-09T05:00:15Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -778,8 +794,8 @@
       ]
     },
     {
-      "id": "493079084a84e0",
-      "headline_claim": "Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
+      "id": "564f915e543bf4",
+      "headline_claim": "India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
       "discovered_via": "Energie & grondstoffen",
       "other_search_labels": [
         "Energie & grondstoffen"
@@ -790,7 +806,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "energynow"
+        "energynow.com"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -801,10 +817,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Oil Falls as Traders Digest Escalation in US-Iran Strikes - EnergyNow",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLTJjbzNoVjZ0VnNrSlQwMkhIVG9hZmJFM2FuTTMyOVh2bzlJem9IN0c3N1NFOWg3TlNhY2hjMzlrSWw3U2pnNGdSbVo2RGNRTFc1cWlwN1J5SGd6SnlPMkZmWFFwc01Gb0tJaDNYNW9ZbC03Z253OW1pN1lwbXp6NmZCNC1Uem1Jem9tLWdEMTE?oc=5",
-          "publisher": "EnergyNow",
-          "published_at": "2026-11-05T16:31:06Z",
+          "title": "India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWtlUEpScEI3aXZTVk9wdVBPUDFKQ24ybU55X0R3WlVYR01kUTY0LVhUMjh5ZF9PUlpxbGZ0QUE0ZG9ieGlNbHNqQmxEclMxTzAwQ0FQRXJZbmdFSXNBaTlmVEVIcUJ6U1FQUlBzTUExVGlYaThsUTctLVlwaGxvNm9la3EtXzA?oc=5",
+          "publisher": "EnergyNow.com",
+          "published_at": "2026-11-05T22:46:16Z",
           "source_provider": "google_news_rss"
         }
       ]
