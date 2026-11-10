@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-09T20:37:04.300944Z",
+  "generated_at": "2026-11-10T02:35:58.140327Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 2,
+  "candidate_count": 3,
   "recommendation_counts": {
-    "reserve": 2
+    "reserve": 3
   },
   "stories": [
     {
-      "id": "d258f380326034",
-      "editorial_score": 80,
+      "id": "69459c0791d241",
+      "editorial_score": 85,
       "editorial_decision": "reserve",
       "search_backend": "none",
       "search_model": "gpt-5-search-api",
@@ -24,13 +24,13 @@
       "evidence_quality": "low",
       "independence": "unclear",
       "significance": "unclear",
-      "verified_headline": "Salvamento Marítimo coordinates rescue of four cayucos with nearly 500 occupants",
+      "verified_headline": "Students commit to community work to improve healthcare access",
       "verified_summary": "",
       "verification_note": "Verification pipeline failed: RuntimeError: chat search failed [InternalServerError: Error code: 500 - The server had an error processing your request. Sorry about that! You can retry ",
       "publish_recommendation": "reserve"
     },
     {
-      "id": "61f835f2213c76",
+      "id": "32fc35b74cccbd",
       "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "none",
@@ -44,7 +44,27 @@
       "evidence_quality": "low",
       "independence": "unclear",
       "significance": "unclear",
-      "verified_headline": "Advancements in childhood literacy benefiting millions of students.",
+      "verified_headline": "River normalization prioritized for post-flood recovery in Sumatra",
+      "verified_summary": "",
+      "verification_note": "Verification pipeline failed: RuntimeError: chat search failed [InternalServerError: Error code: 500 - The server had an error processing your request. Sorry about that! You can retry ",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "88ae827137fa34",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "none",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "",
+      "citations": [],
+      "fallback_error": "",
+      "search_error": "RuntimeError: chat search failed [InternalServerError: Error code: 500 - The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our ",
+      "support": "unavailable",
+      "outcome_status": "unclear",
+      "evidence_quality": "low",
+      "independence": "unclear",
+      "significance": "unclear",
+      "verified_headline": "Lane Community College students train for wildfire preparedness",
       "verified_summary": "",
       "verification_note": "Verification pipeline failed: RuntimeError: chat search failed [InternalServerError: Error code: 500 - The server had an error processing your request. Sorry about that! You can retry ",
       "publish_recommendation": "reserve"
