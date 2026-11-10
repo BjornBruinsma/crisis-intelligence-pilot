@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-10T13:17:19.147847Z",
-  "fingerprint": "406feea794ffc7422369e2ef",
+  "last_attempt_utc": "2026-11-10T19:07:51.005747Z",
+  "fingerprint": "86ebec5d63dd9cf1441c5876",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 20,
-  "event_candidate_count": 19,
+  "event_candidate_count": 17,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 3,
-    "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 2,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "model_pair_proposals": 4,
+    "accepted_pair_connections": 3,
+    "rejected_pair_proposals": 1,
+    "multi_claim_groups": 3,
+    "claims_in_multi_groups": 6,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-10T13:17:19.147847Z",
+    "recorded_at": "2026-11-10T19:07:51.005747Z",
     "groups": [
       {
         "ids": [
@@ -38,14 +38,15 @@
       },
       {
         "ids": [
-          "af3227a79c0734"
+          "0ac261a7626b8f",
+          "ebde0f9b4c659f"
         ],
-        "label_nl": "Claim: Iran rules out US negotiations until 7 conditions met - Mashriq TV",
+        "label_nl": "Claim: US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -60,14 +61,15 @@
       },
       {
         "ids": [
-          "9975cd4d07fde4"
+          "9975cd4d07fde4",
+          "ee58054c5fa5f0"
         ],
         "label_nl": "Claim: Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -82,9 +84,9 @@
       },
       {
         "ids": [
-          "91bf9c16da9870"
+          "fe6e82dc91d387"
         ],
-        "label_nl": "Claim: US-Israeli War on Iran Deepens America’s Housing Affordability Crisis - تسنیم",
+        "label_nl": "Claim: Middle East latest: Ship attacked in UAE waters, says operator Adnoc - The National",
         "actor": "",
         "action": "",
         "place": "",
@@ -96,17 +98,6 @@
           "acccd138488d4e"
         ],
         "label_nl": "Claim: Iran suggests blasts are not U.S. attacks as both sides report ships hit - The Japan Times",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "abf3554c4b50d2"
-        ],
-        "label_nl": "Claim: Trump to Discuss Iran Cease-fire and Nuclear Negotiations with Qatari Prime Minister : Global : JKN - 재경일보",
         "actor": "",
         "action": "",
         "place": "",
@@ -148,20 +139,9 @@
       },
       {
         "ids": [
-          "9740c265b8ae52"
+          "91bf9c16da9870"
         ],
-        "label_nl": "Claim: Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "9f70f591b38cf7"
-        ],
-        "label_nl": "Claim: Unemployment After the War: Millions of Jobs Destroyed in Iran - Iran Focus",
+        "label_nl": "Claim: US-Israeli War on Iran Deepens America’s Housing Affordability Crisis - تسنیم",
         "actor": "",
         "action": "",
         "place": "",
@@ -181,9 +161,9 @@
       },
       {
         "ids": [
-          "7352020c24ccdc"
+          "db8e2bd7fc0747"
         ],
-        "label_nl": "Claim: US Launches Third Wave of Military Strikes on Iran's Qeshm Island in One Week - https://streamlinefeed.co.ke/",
+        "label_nl": "Claim: Iran Strikes Back As The US Launches New Attacks In ‘Dramatic Escalation’ - MintPress News",
         "actor": "",
         "action": "",
         "place": "",
@@ -192,9 +172,9 @@
       },
       {
         "ids": [
-          "eaa31d2e403d25"
+          "af3227a79c0734"
         ],
-        "label_nl": "Claim: Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera",
+        "label_nl": "Claim: Iran rules out US negotiations until 7 conditions met - Mashriq TV",
         "actor": "",
         "action": "",
         "place": "",
@@ -203,9 +183,9 @@
       },
       {
         "ids": [
-          "35f4c4d44b6807"
+          "f6799b184c439b"
         ],
-        "label_nl": "Claim: US Renews ‘Do Not Travel’ Alert for Six Middle East Nations - www.thetraveler.org",
+        "label_nl": "Claim: US Renews ‘Do Not Travel’ Alert for Six Middle East States - www.thetraveler.org",
         "actor": "",
         "action": "",
         "place": "",
@@ -214,9 +194,9 @@
       },
       {
         "ids": [
-          "ee58054c5fa5f0"
+          "3ba19b4585299c"
         ],
-        "label_nl": "Claim: Oil Futures Slide as Trump Says New Strikes on Iran Unlikely - WSJ",
+        "label_nl": "Claim: Hormuz LNG traffic hits highest in October since Iran war began - Business Recorder",
         "actor": "",
         "action": "",
         "place": "",
@@ -225,9 +205,9 @@
       },
       {
         "ids": [
-          "564f915e543bf4"
+          "9740c265b8ae52"
         ],
-        "label_nl": "Claim: India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
+        "label_nl": "Claim: Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
         "actor": "",
         "action": "",
         "place": "",
@@ -237,30 +217,62 @@
     ],
     "input_claim_ids": [
       "326c6ace872075",
-      "af3227a79c0734",
+      "0ac261a7626b8f",
       "aeb3339ffb3154",
       "9975cd4d07fde4",
       "76245c595230d4",
-      "91bf9c16da9870",
+      "fe6e82dc91d387",
       "f832294769ec0d",
       "acccd138488d4e",
-      "abf3554c4b50d2",
+      "ebde0f9b4c659f",
       "4a62bd62f728fc",
       "e195d26345d866",
       "bd42ddc983b7fa",
-      "9740c265b8ae52",
-      "9f70f591b38cf7",
+      "91bf9c16da9870",
       "b8087b2b94bc57",
-      "7352020c24ccdc",
-      "eaa31d2e403d25",
-      "35f4c4d44b6807",
+      "db8e2bd7fc0747",
+      "af3227a79c0734",
+      "f6799b184c439b",
       "ee58054c5fa5f0",
-      "564f915e543bf4"
+      "3ba19b4585299c",
+      "9740c265b8ae52"
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 0,
+  "direct_official_match_count": 2,
   "events": [
+    {
+      "id": "a5e3df3985394e418de65740",
+      "label_nl": "Claim: Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
+      "headline_claim_ids": [
+        "9975cd4d07fde4",
+        "ee58054c5fa5f0"
+      ],
+      "headline_claims": [
+        "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
+        "Oil Futures Slide as Trump Says New Strikes on Iran Unlikely - WSJ"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYy13eXltNldJNUhUay02cHBib0ZsM1IydjZHdDhiRTZZNVlJeExSeUxWLWQzVDRqUHdpZUljZGZCakFXeTNIc3oxZktkdEltVlp2MnYtNmx2MGhxSzFWMExTbjFGeUdiTTZyQk9rd0dzZG5qVGNmdFdVYWtETXVITlNmaUpEamdVbGlySEsxaDNvTnFNQVBBWU44UHhsR3FCaEFZQk1qUTBzc2poQkd4eFAwSzhhVUHSAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UNm1JTGhxR1lJbWlXTEpySG04ZGtxa0hvTUhUbEpwcEV1V200R1ctZk9zZmlwT2Q2bjVGZkhBcXVBTDJFMTRIdjVwUmpvR3F3aEZpRENBbU1aNE1mMDZ4OGRCdDBsbnZ5c0NQdDFpekUzQzJQRVR2THd3TQ?oc=5",
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRkxqeXpOZ25JRzdwX0s3bnN2UGdSNTBQUWEzNkliYUN1Ykt3SVh4VFRJdUpvRDVXTFBRWURzeUxTZVpPb1FxbGhaOEhaWFN3dVJUTEwzVFE0eEVxZDhsVnVCM3dMYXRLcTh4UUlnUFJYX1ptVmlSSWhJcTRmXzFYanpuSFBlVE5mSzI2eURLMXZQME5zSU9qYzZzYmUyUmdWMEdoRUN6dXFoX0g0SS1ielRjOHBOdjNFclhaNnlEYw?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVm4tdVY4YVBOVGZaOFhUQnk4OEV4VjRSZklqVkRCQnY1aWdVbEZTRzBZX0pQZ00tbmZOX0pjSEVLMVlqVTd3dm5qSXV5UWNFeWVHdjB6ZXl0dEE0NDI4Q21lVmFFbnZJRVBIbTVLeTBlLUp5VDZyUHdRMlUxMzRVVGZFVFUxR1FkcmF5LXJDajYwRVkwSGlRdVI3RXF1MmpUNWpDWHFOdVBNcWtNTTR0UzBaLW4yUGJSVUlld1VfdU7SAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFNfSjlGZWFOd01laGhIaG9idVhwaUxEOXctN1hkb1E2Qkd6YXEyaE5DUHFzMEdoT3dqWXNQbkxScXRFb3o2aGU4SEpWdnU5SGdKQUJXTUFMdS1kcHJKVnJPVnBUZk1XUjd6NXRLcnJwSGhXMFZVa2hqQ1VvVWkzM2FxT2tCNlhGN1VYYjgwRTdiY2Z6SElpNmtfMXRmTjF0RW5fX0JVVWhuZVlsX1lWdDBMU1g1ZzBFeXlGT2tZbUNyQjlLUFE?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 5,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
     {
       "id": "533e456c6c3e0214bf634471",
       "label_nl": "Claim: Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
@@ -288,22 +300,19 @@
       "probability_estimate": null
     },
     {
-      "id": "06b48ade8f94e5366f568035",
-      "label_nl": "Claim: Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
+      "id": "d22c29158a9763478a027d5f",
+      "label_nl": "Claim: Middle East latest: Ship attacked in UAE waters, says operator Adnoc - The National",
       "headline_claim_ids": [
-        "9975cd4d07fde4"
+        "fe6e82dc91d387"
       ],
       "headline_claims": [
-        "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder"
+        "Middle East latest: Ship attacked in UAE waters, says operator Adnoc - The National"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYy13eXltNldJNUhUay02cHBib0ZsM1IydjZHdDhiRTZZNVlJeExSeUxWLWQzVDRqUHdpZUljZGZCakFXeTNIc3oxZktkdEltVlp2MnYtNmx2MGhxSzFWMExTbjFGeUdiTTZyQk9rd0dzZG5qVGNmdFdVYWtETXVITlNmaUpEamdVbGlySEsxaDNvTnFNQVBBWU44UHhsR3FCaEFZQk1qUTBzc2poQkd4eFAwSzhhVUHSAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UNm1JTGhxR1lJbWlXTEpySG04ZGtxa0hvTUhUbEpwcEV1V200R1ctZk9zZmlwT2Q2bjVGZkhBcXVBTDJFMTRIdjVwUmpvR3F3aEZpRENBbU1aNE1mMDZ4OGRCdDBsbnZ5c0NQdDFpekUzQzJQRVR2THd3TQ?oc=5",
-        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRkxqeXpOZ25JRzdwX0s3bnN2UGdSNTBQUWEzNkliYUN1Ykt3SVh4VFRJdUpvRDVXTFBRWURzeUxTZVpPb1FxbGhaOEhaWFN3dVJUTEwzVFE0eEVxZDhsVnVCM3dMYXRLcTh4UUlnUFJYX1ptVmlSSWhJcTRmXzFYanpuSFBlVE5mSzI2eURLMXZQME5zSU9qYzZzYmUyUmdWMEdoRUN6dXFoX0g0SS1ielRjOHBOdjNFclhaNnlEYw?oc=5",
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVm4tdVY4YVBOVGZaOFhUQnk4OEV4VjRSZklqVkRCQnY1aWdVbEZTRzBZX0pQZ00tbmZOX0pjSEVLMVlqVTd3dm5qSXV5UWNFeWVHdjB6ZXl0dEE0NDI4Q21lVmFFbnZJRVBIbTVLeTBlLUp5VDZyUHdRMlUxMzRVVGZFVFUxR1FkcmF5LXJDajYwRVkwSGlRdVI3RXF1MmpUNWpDWHFOdVBNcWtNTTR0UzBaLW4yUGJSVUlld1VfdU7SAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdTMwLTRPRTZsZHJPR0lQTVNtNHdyWWxZNHMydXJzUjEySVZIZzJfUFlvbXZfQWJPc25aSm5kM3lzNmxFMFVMdFl3NTZLZWVjZnZPaTFyWjZtcl9peGd6ZlpDU2hnQmxDVFBLRlF1cVR3U2QwR2R4dWRRNEFDaDBzSTY2YUFWZEsyZ3dIOGQwX2tudV81a1pRRXQtVzl0TWYw?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 4,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -327,32 +336,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQnppbk1GNDE4MHJ3aXRtay13TWV5NnFOTW1NMkE0RklyUGVaalVIRExqamwxNHZMNXZoZlVvTmJ6Yk1mWDd0cF8zUVR5Qk8zUFI2UENaczdjZjhPQXBsUWVUaHJjX2pPeERIc0VvR1NRdS1kY0pjT3JlN19XSlEtckZGMF9KeDhUMUp0eGROY21vd0R2SGRHa3dvMGotc19sUjFTb2ZtSXBnQzVTWGhMZ3p5YzNkQQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "2622fbdcb7308c38ffb315a2",
-      "label_nl": "Claim: Unemployment After the War: Millions of Jobs Destroyed in Iran - Iran Focus",
-      "headline_claim_ids": [
-        "9f70f591b38cf7"
-      ],
-      "headline_claims": [
-        "Unemployment After the War: Millions of Jobs Destroyed in Iran - Iran Focus"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSFE3eDdKazJvS0MzTmc4bWVEaFVsdVYyX2ZReDRIWUs2NmI5SnFMbGF6YnNJS0RsbmRfNHdBdDJhMk1jV0d2LTUyck5ac2J6bkIySlREdEVjSHVxeHVVX2xPd29RTW44Rk9RdmFtS2wtNUVqY0pFb1JxTGtqQ2ZWWWFWWUZFamVyMUtxdXdhQjZMSWdIRUYzQkhqcXdTeFNkZ29RcdIBpAFBVV95cUxPSFE3eDdKazJvS0MzTmc4bWVEaFVsdVYyX2ZReDRIWUs2NmI5SnFMbGF6YnNJS0RsbmRfNHdBdDJhMk1jV0d2LTUyck5ac2J6bkIySlREdEVjSHVxeHVVX2xPd29RTW44Rk9RdmFtS2wtNUVqY0pFb1JxTGtqQ2ZWWWFWWUZFamVyMUtxdXdhQjZMSWdIRUYzQkhqcXdTeFNkZ29RcQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -397,16 +380,16 @@
       "probability_estimate": null
     },
     {
-      "id": "804ee6a03e44eb1a0867ea6a",
-      "label_nl": "Claim: US Launches Third Wave of Military Strikes on Iran's Qeshm Island in One Week - https://streamlinefeed.co.ke/",
+      "id": "7ca9bf12cb0a214f5dbd44cf",
+      "label_nl": "Claim: Iran Strikes Back As The US Launches New Attacks In ‘Dramatic Escalation’ - MintPress News",
       "headline_claim_ids": [
-        "7352020c24ccdc"
+        "db8e2bd7fc0747"
       ],
       "headline_claims": [
-        "US Launches Third Wave of Military Strikes on Iran's Qeshm Island in One Week - https://streamlinefeed.co.ke/"
+        "Iran Strikes Back As The US Launches New Attacks In ‘Dramatic Escalation’ - MintPress News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZjJOVktpMC0wQ3VFRW5GQnRTY2FEZkM2aDRrWnhaNHVYS21ZeUlNeGtVck9CZmgxT3dXNDlMb1lrV2wtTVdpa3RVaU8yYjI1VzQwMWpiQVljazhZMjVJSWFpTnBCUFlzQ3NOd1Q2Wl9mbFVLU01Ld1pfSksxNkY4M0ZJNmtMTG9YUXpZMFFmZzlpUk5lTGpmeUlQZERteXJtbENsUHBpLThMSU1xMW9j?oc=5"
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcjE5bzY3WGNVMFluNTBCQWY4WXVIazJ6MVU1cEJiR0w4ZzRvbnZqb01POUgtZWVlR3B5R3M4RFlhb3V5X2NJS2hNUko2Nlg5WDFjVHRZY2RLT0pKRmhySzN6U3NFUzRRbUhQa0NUYkx0YXNVRGE1VzREOUhocDh6cWZxMUxvNlR0djBLbWxQUEFOT3E4aTlzSGhXYVprM0RVbG9ZcUZwRjZxN2tGa3c?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -419,6 +402,76 @@
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "4eba70a54447af3a928896b1",
+      "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
+      "headline_claim_ids": [
+        "4a62bd62f728fc"
+      ],
+      "headline_claims": [
+        "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFlleGE0RGJ4bDJkbVU3ekIxRGZubGd3MUNnS2lEV2RBT0hqLVBlSFhZMU80ckVqU2tFYjNVUlJwTlA1aVZKMXNRYjBRWThvT2xCb3k4SWNXbXJEWWgyT1FSYTVpU2N4UUE0OTdWaFRneTQ5YXU2Z3VHWTYxRjRpcDF5b0tfREpfVjVtQ3FhSmdoamlvS3BCYUlIaWU?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
+        "authority": "US Department of State",
+        "evidence_id": "us_advisories:l7",
+        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage bevestigt de waarschuwing voor Amerikaanse burgers over de risico's in de regio.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "103d72cfd572efcdd0532a5d",
+      "label_nl": "Claim: US Renews ‘Do Not Travel’ Alert for Six Middle East States - www.thetraveler.org",
+      "headline_claim_ids": [
+        "f6799b184c439b"
+      ],
+      "headline_claims": [
+        "US Renews ‘Do Not Travel’ Alert for Six Middle East States - www.thetraveler.org"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNTc3UTNJZVlvYlNENWN5ZmhWajlGRlkwSXRVM1NHZm9CMUtVSTdiaTgwTVNmSk5ad3kwLTZOR202ZkctMGJqajdrVlNGTGhuR0hBcWZFSzZFX3B5MHZGcWhBMmhkbFp5NmRCUlI4VmpBYndEQVB5U293NjhtajdDd3M2Ti1SVG9sYkxTeU9LRFc?oc=5",
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNG1vRmsxZUFLcWtFZUcyc2g0Q01qN01YRTNLUzd2SG81d1dFdDdtYVZKTkYwS0l3TDROb1l1OXRzclFtV3lzb20wUFVROHdobVhlOHMxZUdFMVVVMUI0eHdSNzRNQmpoWlpGNFljdzJMdXE0WXoxZThwTGdUSzVXUUVhVmh2RlBpNkZKU19iWENTczg?oc=5",
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1pod1czckotTVhyMlFsVndCakF4WjI3Nkx6WFB3X2hLVHNfVDVFN1dPVEZra2JTWHJEX3oySmYwUkwzZENmQmU0UUh5aUJRWmt5ck1ka2RPNHJEd1lJV0lMcDJScFpjQmx0dEk3blZYZ0VxdllnR01oc1ZiTlhwNmhGSHA1T211TmNjNnBZcw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
+        "authority": "US Department of State",
+        "evidence_id": "us_advisories:l7",
+        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage bevestigt de waarschuwing voor Amerikaanse burgers over de risico's in de regio.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -457,26 +510,29 @@
       "probability_estimate": null
     },
     {
-      "id": "ea09b6bb60a2a62919ce369b",
-      "label_nl": "Claim: Iran rules out US negotiations until 7 conditions met - Mashriq TV",
+      "id": "9ea13c98e689809b58928ede",
+      "label_nl": "Claim: US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
       "headline_claim_ids": [
-        "af3227a79c0734"
+        "0ac261a7626b8f",
+        "ebde0f9b4c659f"
       ],
       "headline_claims": [
-        "Iran rules out US negotiations until 7 conditions met - Mashriq TV"
+        "US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
+        "Trump says fresh strikes on Iran ‘highly unlikely’ if peace talks progress - Georgia Today"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQmMwQW5ocmw4anJVajI3QWVaRmduWnZHQmIzMTY3Q2xPdWh5c0dfY3daVUJ4QXlzMGFDVDd4VURIUERNMmFjZVFWa0hVWUJRVHBNcl80c1dZMkpCWXNTaFpVcmhpMGlqOTNIS0ZHZFdiMzNpUW1aZTA4QXNQYWJfcVZCMG1VSERMTjZzMWV3Z1lIRlU?oc=5"
+        "https://news.google.com/rss/articles/CBMikAJBVV95cUxPNTJpd19EWjJ6dDhXVk8zUUswS1BnQUQ2TjQ0eFBhVXI5UmpEeVRsdElLUE40ZFJuTlUwUldrVnVONWJrUEpVS1RiUjJ6TEEzVVB2TjlDcndrejhsVHBKbmg0emF1OW1DcFpJSEkzYkdReVpkWF9FZnJFUkxhLU5pcGlUeHU4T0hmM0ROMFdlaGxCUjduME5ISnRHZkVIY1hqQjJHM09JNHFfOWQ4X3liTUVtUldXUVRueEhZckdpbVRpRDRXeURDaW1BZDlBR2NWdWY0cTJIR3d4T2hXZ3h6NFJqUXREb3JraHdhSnJ3M3R4ZVRLaXZ1bWgtUVRIazR1SllSaS1LRzd6dTJDZHVXQtIBlwJBVV95cUxPYXJjQ2JzUFp3a0Qxb2ZPV1EweTVOSkJpc1VFX1hROWJlZWNTN1piVFY5eER2ZHlJVUNQUVMwRi1heWlQa013VXZHZ3R1ZHgtRUhJM05odjVRSkRaXzhkbklnbDJ2dF9TeTNsai1hMlpsTnFjM21TMUVqd0djY0o4XzFPbGxrandTTjBvbkNDWHQ2b0ZSb0VzNktMa29rdmozd2FlZEdscTZiVWZ6SFB3MncxN28tSkRvdVA0MlN5LXN6REZDZ0V0RjdGRU5qUkVrV0R1QjZLeml3dGVYOEdHNFE1aExXcmVBU3JfQzlqTVFlZmNYeENGZGo1QXJlSjRyVUhYTUxuSlpGQkJPRm85UTV3N05TVG8?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxNbFdvUXNVcUpYWlFwQ2xkRV9JUHRvWGxFd3d5bERoSk85TXpvUUVKNmt5WEFaMnNpRTh3STMzY01uZXNzU1N1OXJmNzQ0aHhVV1RETFlzQi1ZNkhEeVItRnZjZTZfRElKZGdwUXpQc1Q2NFNLS2JjMklFTDlRX1lfVW1UYWYtbXp6cy1lNFBXVGJGMzFpcEtMSGdFVU93Zw?oc=5"
       ],
-      "article_group_count": 1,
-      "news_url_count": 1,
+      "article_group_count": 2,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -493,32 +549,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMijgFBVV95cUxON1RiU3dlUk44dWFLbFNfNDFwcnpYNVNSaTdhSVdpT0ZnblBPeGFFXzJGWUk4NVpuQVQ1eGVzVEdhbGNYV0Fnd0xOeEJRZUxGMkhlWl9QUHoxenV4aFpGX3AyTGpZbXZuOGp4RHZiRkFqZ3c0Mkd6MVFmQXNoMnRxakE0UTlxemtXLUotQ2x3?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "cee9882101f64f616183c0ab",
-      "label_nl": "Claim: US-Israeli War on Iran Deepens America’s Housing Affordability Crisis - تسنیم",
-      "headline_claim_ids": [
-        "91bf9c16da9870"
-      ],
-      "headline_claims": [
-        "US-Israeli War on Iran Deepens America’s Housing Affordability Crisis - تسنیم"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivwFBVV95cUxOamtiNzJxMTUxTHYzTE1HZ0xhcGE3d0tadjlpaFRIajQ2ZEFic1FMWTctWlFxUHpNb0NHOV9yV1NFTGJ1cGlWV2dvaTB3RW9PZnRlUEFZODJrQ0NLdmJjOXowUG1FNXNidUF5QW1JMXhqSUVucDhMRXMzcFJGdWFDdDA4b1ZhcVQ2Mi1IdG9rVHhZcVcwd19LZGUzamoxcHpOX1gtQmtiWVp0RU5fTlhObGdLNmZXRS00UkZzeG5aVdIBxAFBVV95cUxQdVYzTEltZW5McFNFMUloZko2LWVWa1RjcDVDbWxyZDV0UkZuanNLN1dRX1hyT09pSXU2TEFVLVBFYm5wZjU1TEIyZzc1SlJ5QzJFX3RWeGR3clF1LS1iR3I5S2pnZnR4ZV9DRmlNNjRab3YxMWpsM3JpV0FqMFBiUVFCeHByaXNlYU5DWWFoc0lhSG1lUXp6Vmc4Zi1wZHNHdml1dWdOQXpNTnFuRzNpYmJmcjFiRmZxVmd0TTk4Xy00ZFpj?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -562,58 +592,6 @@
       "probability_estimate": null
     },
     {
-      "id": "6730906c1b616fe74888b16c",
-      "label_nl": "Claim: Trump to Discuss Iran Cease-fire and Nuclear Negotiations with Qatari Prime Minister : Global : JKN - 재경일보",
-      "headline_claim_ids": [
-        "abf3554c4b50d2"
-      ],
-      "headline_claims": [
-        "Trump to Discuss Iran Cease-fire and Nuclear Negotiations with Qatari Prime Minister : Global : JKN - 재경일보"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tc3FaMHZLT2R3eHVIZ3FuWXB5cUtyUDAxUjZ2MFJPa1I5LXJBaHIwaHhBSVJMcjFMc2FXZUJsQ1ZMbXNLSDVqSDM5M0l0VzVfSGh0bEc2a1NncUJfcDUteTVB?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "4eba70a54447af3a928896b1",
-      "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
-      "headline_claim_ids": [
-        "4a62bd62f728fc"
-      ],
-      "headline_claims": [
-        "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFlleGE0RGJ4bDJkbVU3ekIxRGZubGd3MUNnS2lEV2RBT0hqLVBlSFhZMU80ckVqU2tFYjNVUlJwTlA1aVZKMXNRYjBRWThvT2xCb3k4SWNXbXJEWWgyT1FSYTVpU2N4UUE0OTdWaFRneTQ5YXU2Z3VHWTYxRjRpcDF5b0tfREpfVjVtQ3FhSmdoamlvS3BCYUlIaWU?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "cd28d09a533211ffb40c3347",
       "label_nl": "Claim: European gas prices hit 1-month lows as Trump pauses Iran strikes - Yahoo Finance",
       "headline_claim_ids": [
@@ -627,6 +605,86 @@
       ],
       "article_group_count": 1,
       "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "cee9882101f64f616183c0ab",
+      "label_nl": "Claim: US-Israeli War on Iran Deepens America’s Housing Affordability Crisis - تسنیم",
+      "headline_claim_ids": [
+        "91bf9c16da9870"
+      ],
+      "headline_claims": [
+        "US-Israeli War on Iran Deepens America’s Housing Affordability Crisis - تسنیم"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxOamtiNzJxMTUxTHYzTE1HZ0xhcGE3d0tadjlpaFRIajQ2ZEFic1FMWTctWlFxUHpNb0NHOV9yV1NFTGJ1cGlWV2dvaTB3RW9PZnRlUEFZODJrQ0NLdmJjOXowUG1FNXNidUF5QW1JMXhqSUVucDhMRXMzcFJGdWFDdDA4b1ZhcVQ2Mi1IdG9rVHhZcVcwd19LZGUzamoxcHpOX1gtQmtiWVp0RU5fTlhObGdLNmZXRS00UkZzeG5aVdIBxAFBVV95cUxQdVYzTEltZW5McFNFMUloZko2LWVWa1RjcDVDbWxyZDV0UkZuanNLN1dRX1hyT09pSXU2TEFVLVBFYm5wZjU1TEIyZzc1SlJ5QzJFX3RWeGR3clF1LS1iR3I5S2pnZnR4ZV9DRmlNNjRab3YxMWpsM3JpV0FqMFBiUVFCeHByaXNlYU5DWWFoc0lhSG1lUXp6Vmc4Zi1wZHNHdml1dWdOQXpNTnFuRzNpYmJmcjFiRmZxVmd0TTk4Xy00ZFpj?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "ea09b6bb60a2a62919ce369b",
+      "label_nl": "Claim: Iran rules out US negotiations until 7 conditions met - Mashriq TV",
+      "headline_claim_ids": [
+        "af3227a79c0734"
+      ],
+      "headline_claims": [
+        "Iran rules out US negotiations until 7 conditions met - Mashriq TV"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQmMwQW5ocmw4anJVajI3QWVaRmduWnZHQmIzMTY3Q2xPdWh5c0dfY3daVUJ4QXlzMGFDVDd4VURIUERNMmFjZVFWa0hVWUJRVHBNcl80c1dZMkpCWXNTaFpVcmhpMGlqOTNIS0ZHZFdiMzNpUW1aZTA4QXNQYWJfcVZCMG1VSERMTjZzMWV3Z1lIRlU?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "8a7c626237f74e4bd6d0586f",
+      "label_nl": "Claim: Hormuz LNG traffic hits highest in October since Iran war began - Business Recorder",
+      "headline_claim_ids": [
+        "3ba19b4585299c"
+      ],
+      "headline_claims": [
+        "Hormuz LNG traffic hits highest in October since Iran war began - Business Recorder"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMktsQUY4WjZhakh6aGtxMV9TV181cGhnVklaNTZnTnRhMy1jSVpGX1p3eDZ2NUVTTlBQUUNiaUdMa1M4dFVMRXAwN0V5UHJIRVNQYlpiR3JaUVlvdDh1VlNOT01pbE9SV3N1WEgwVms1Nlo2RF9pVm1GZ0FDaWlicEFkbGdxZXdhTWZRTHU5OG41SFk5UGk3bkpLX1F3NnNJVGg0blVR0gFWQVVfeXFMTTRmZXlkZ2xCYktJampVU19XU1FPdHlDOGU2UjhSRHpFekFWRHpHYm41TWlLbTJBZTVwNVdtS3VpYTdjLWhBU20wTmJnc0UxVk02eTZKRkE?oc=5",
+        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYS1wRnB5YlZ4b3lFVURkbENlZWE3MWdfa1dOTGZrbHdNX24ydXZWeW9hWFZ0QmFvZVE5VFdXQlNsa0tvRlhETFZMRTA3ZFNRcEQ1UnIzQnprRHMyWTNHZFYxUEpwMVZsRm5XVDBrcGd5SEdTNUt4ZjdQRnlESWZja28yTFZDSnYxUU4xU0kyemxPTzBaUGxuNmFBRm1XaWtkZHlyLXZaQXdUcWNyQ0FnRzNuVDlqM3JGZ0tPSDlObXJTZ0xDLWNXOUctQnpRa194ZWZMc1RYOHo1N1hNZEhFV9IB5gFBVV95cUxOVUVmdUV1NmxwM1d5U2V6WFdYRzlBQXhlNjVvNU14b1NqaUdZdFphLXJBMV9IX3k3SEdoRkMxbUtCQlJYc0NFV202bDllR2ZtNVQzQXVqRmZzWVlfT1JROEdxSHhucXJnTjZqbUVRa1djZG1qYTRfS1lHLTcxbVctQmc5R25UTklId1dXMWloeG1fUDcxYlk1SG9Ya3ozc1lhMHVFRVdzcWRpMlBnRUNPRlAwa09RMkxJY0MzVDMtcTF3azlpRWhMVnoxS2QzcU9nWW8tZ1dMQUp6ZHM1NThKcEY5czNtQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXRIOWVQTmcwYVdhbURkcUR6RGNkUHA1QVZhb0Jvc2xVa0RIQnVSdlRXQTZ5RFFhemxFYkY4bndDWHUyM0NUSTRVbzN6Z3NnOWIyRTBQazhYLXRmZUlMcnhUMDgydGJCdlp6cUc4ZUNUb3o3YWVXT1hxOFY5VFFIcUhrU3RlZFlSMnJGYWRfdGhXU2RVWlg2ZUl3TXg4VktPQWl2SThTcTZmTlc3MENKWWxB?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 3,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -664,110 +722,6 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
-    },
-    {
-      "id": "0f6c701935125d65f608a3c5",
-      "label_nl": "Claim: Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera",
-      "headline_claim_ids": [
-        "eaa31d2e403d25"
-      ],
-      "headline_claims": [
-        "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTG54ck5HeEc1SFBfeF83WGR0SGxuS0FUcFhzQUtBa1pLOXphcDdvNk9QYS0xUkpBd1JnNkVybHoyOUlUeHVfYUF4eUpzWnd1Z2RWTW85VTdYdGVZb3NaekZOSUVsSmlWTXVqN1luWXV2ZjhtWWlpdElSY251Vkl4cTFWS3kxak9GZnBxS3JPckFmUlF6Nk9fOUl1R1gyckxIa19aX29mRdIBrAFBVV95cUxNYjNzN21zZTFQOFlUOUNqZndVM0IyMUgtZ2lZZlRtLWxRZm1ILV8yZ1pWc1NLWnJvd0p1QW13OS1mZERoLUkySDhFZDB6WmFmZEdHaDlCREdxeHd5N3ozVkJpeE5ndkl0YnJ3ekhYT1JaUGUtdXFSbWJDaUM0OU1VZWh5SU5ERGZWOVNPZEFWNTQ5dnVjMWxVd1Z2Z3I4ZDFmQ2laWC1MMnVaVE1O?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "d8dbd4b86aa40ca711ce1f2d",
-      "label_nl": "Claim: US Renews ‘Do Not Travel’ Alert for Six Middle East Nations - www.thetraveler.org",
-      "headline_claim_ids": [
-        "35f4c4d44b6807"
-      ],
-      "headline_claims": [
-        "US Renews ‘Do Not Travel’ Alert for Six Middle East Nations - www.thetraveler.org"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa1pod1czckotTVhyMlFsVndCakF4WjI3Nkx6WFB3X2hLVHNfVDVFN1dPVEZra2JTWHJEX3oySmYwUkwzZENmQmU0UUh5aUJRWmt5ck1ka2RPNHJEd1lJV0lMcDJScFpjQmx0dEk3blZYZ0VxdllnR01oc1ZiTlhwNmhGSHA1T211TmNjNnBZcw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "ef34921ad85ac6573b0cb8fc",
-      "label_nl": "Claim: Oil Futures Slide as Trump Says New Strikes on Iran Unlikely - WSJ",
-      "headline_claim_ids": [
-        "ee58054c5fa5f0"
-      ],
-      "headline_claims": [
-        "Oil Futures Slide as Trump Says New Strikes on Iran Unlikely - WSJ"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFNfSjlGZWFOd01laGhIaG9idVhwaUxEOXctN1hkb1E2Qkd6YXEyaE5DUHFzMEdoT3dqWXNQbkxScXRFb3o2aGU4SEpWdnU5SGdKQUJXTUFMdS1kcHJKVnJPVnBUZk1XUjd6NXRLcnJwSGhXMFZVa2hqQ1VvVWkzM2FxT2tCNlhGN1VYYjgwRTdiY2Z6SElpNmtfMXRmTjF0RW5fX0JVVWhuZVlsX1lWdDBMU1g1ZzBFeXlGT2tZbUNyQjlLUFE?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "c4de436d52540a026464ab10",
-      "label_nl": "Claim: India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com",
-      "headline_claim_ids": [
-        "564f915e543bf4"
-      ],
-      "headline_claims": [
-        "India Sees Qatar LNG Supply Cut After Iran Strike - Energy News, Top Headlines, Commentaries, Features & Events - EnergyNow.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWtlUEpScEI3aXZTVk9wdVBPUDFKQ24ybU55X0R3WlVYR01kUTY0LVhUMjh5ZF9PUlpxbGZ0QUE0ZG9ieGlNbHNqQmxEclMxTzAwQ0FQRXJZbmdFSXNBaTlmVEVIcUJ6U1FQUlBzTUExVGlYaThsUTctLVlwaGxvNm9la3EtXzA?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
     }
   ],
   "usage_by_day": {
@@ -780,8 +734,8 @@
       "total_tokens": 33011
     },
     "2026-11-10": {
-      "requests": 9,
-      "total_tokens": 24334
+      "requests": 12,
+      "total_tokens": 33173
     }
   }
 }
