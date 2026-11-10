@@ -1,7 +1,7 @@
 {
   "description": "Manually reviewable headline claims; no event verification, no risk scoring",
-  "source_generated_from": "2026-11-10T01:13:27.049484Z",
-  "source_groups_count": 543,
+  "source_generated_from": "2026-11-10T07:22:45.461667Z",
+  "source_groups_count": 537,
   "selection_method": "Category-balanced high/medium editorial candidates; NOT trained or calibrated",
   "candidates": [
     {
@@ -17,10 +17,11 @@
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 2,
+      "article_count": 3,
       "publisher_names": [
         "abc13.com",
-        "abc7 bay area"
+        "abc7 bay area",
+        "abc7 new york"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -36,6 +37,13 @@
           "publisher": "abc13.com",
           "published_at": "2026-11-09T01:00:00Z",
           "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress - ABC7 New York",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMDI3RlFKanRPTHFyNk9iNEI0OHRCNDNJVGIzRkw1UWVxUXFNdkR0RTZyeGpTcGhWYXFkd2Mya2tYM0NxcHI4TGVsVm1kQ3NGMnZjRC11empBVnlDbHNHU2MxT054ekwzM29peEk2RUpGU21DWUNmNGJMbXZOLWtXeVpMcWdFc3BZQjUxaXZwbXlIdktKUkZIdnAya0luRklNZk5NSHhjU3RkOHdXdm9Hd1lta2hMbThCYjZuNWl1bWlvd2NCSU5aRWtrTnM0RkXSAdQBQVVfeXFMTWtrOGxQS1Z1N182NnVTcE5qTVpLRHZpV0liY2JFU3A0VmM3Y2NmdUZxRkVHdHh1Z1RoVUZjc3pPbTVNRndOZVo4S1g3dFlfWWtqS2F6SERBZkR3VFF3bUptVUhwWm1HOVNjRXRXcW1qT1hzaDJKY3p4S0lVX095blM0VXpVZ3FQdG42VHFqZkFDaWdYTlNGbmxIanhvQW5icmNjRmJfTnRta3RfUHg1T2IyNkQ1bHAxckQ0YjZBd2pDWks4ellqcmw1aGljeXRrNWhFRlo?oc=5",
+          "publisher": "ABC7 New York",
+          "published_at": "2026-11-09T00:08:55Z",
+          "source_provider": "google_news_rss"
         },
         {
           "title": "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress - ABC7 Bay Area",
@@ -415,21 +423,19 @@
       ]
     },
     {
-      "id": "a7055c1b4d5629",
-      "headline_claim": "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
+      "id": "4a62bd62f728fc",
+      "headline_claim": "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
       "discovered_via": "Overheden & crisismaatregelen",
       "other_search_labels": [
-        "Overheden & crisismaatregelen",
-        "Regionaal: Pakistan",
-        "Wereldhandel & logistiek"
+        "Overheden & crisismaatregelen"
       ],
-      "publication_day": "2026-11-09",
+      "publication_day": "2026-11-07",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "the national"
+        "urdupoint"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -440,10 +446,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5",
-          "publisher": "The National",
-          "published_at": "2026-11-09T05:03:30Z",
+          "title": "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFlleGE0RGJ4bDJkbVU3ekIxRGZubGd3MUNnS2lEV2RBT0hqLVBlSFhZMU80ckVqU2tFYjNVUlJwTlA1aVZKMXNRYjBRWThvT2xCb3k4SWNXbXJEWWgyT1FSYTVpU2N4UUE0OTdWaFRneTQ5YXU2Z3VHWTYxRjRpcDF5b0tfREpfVjVtQ3FhSmdoamlvS3BCYUlIaWU?oc=5",
+          "publisher": "UrduPoint",
+          "published_at": "2026-11-07T15:15:30Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -546,19 +552,19 @@
       ]
     },
     {
-      "id": "dc4d83aca3d116",
-      "headline_claim": "Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS",
+      "id": "9740c265b8ae52",
+      "headline_claim": "Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
       "discovered_via": "Bedrijfsleven & investeringen",
       "other_search_labels": [
         "Bedrijfsleven & investeringen"
       ],
-      "publication_day": "2026-11-05",
+      "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "editorial_priority": "middel",
+      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
       "article_count": 1,
       "publisher_names": [
-        "thai pbs"
+        "aerospace global news"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -569,10 +575,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jS3JUUEtxbDM3OWdfNEw1ZktmXzJsNzlucGlQMkFMdnZORWxLSXNXMlhXRDREd19SRWRYM1RMSm9sczZKNFc4Zkd4ckZURzdQdEpsbUpGZy0wSGtFM1E?oc=5",
-          "publisher": "Thai PBS",
-          "published_at": "2026-11-05T05:35:37Z",
+          "title": "Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTlI3bkxodEtSWnE3ckF3ZV8tZ0s3QTJ6aE50R2l4V2xnbTA1Qlo2MFdtLVo2ekozYnVETHhjVmh5ZkpqTU9fdkJMa0w3M054d3BVMmR5YUh3SERmTjZQaHhOT21VQXhpdE9EYlpwRVlvR0VjS1BCWFowUllBR1NvZlFJMVp2ZGRZR29yaTV2ZkdEdw?oc=5",
+          "publisher": "Aerospace Global News",
+          "published_at": "2026-11-09T15:01:00Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -658,12 +664,15 @@
       ]
     },
     {
-      "id": "c880533343ed35",
-      "headline_claim": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
+      "id": "a7055c1b4d5629",
+      "headline_claim": "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
+        "Bedrijfsleven & investeringen",
         "Militair & veiligheid",
-        "Regionaal: Pakistan"
+        "Overheden & crisismaatregelen",
+        "Regionaal: Pakistan",
+        "Wereldhandel & logistiek"
       ],
       "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
@@ -671,7 +680,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "cnn"
+        "the national"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -682,10 +691,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
-          "publisher": "CNN",
-          "published_at": "2026-11-09T05:00:15Z",
+          "title": "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5",
+          "publisher": "The National",
+          "published_at": "2026-11-09T05:03:30Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -723,19 +732,19 @@
       ]
     },
     {
-      "id": "4a62bd62f728fc",
-      "headline_claim": "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
+      "id": "878bebd37ee57d",
+      "headline_claim": "Barclays opens Saudi office despite government travel warning - City AM",
       "discovered_via": "Overheden & crisismaatregelen",
       "other_search_labels": [
         "Overheden & crisismaatregelen"
       ],
-      "publication_day": "2026-11-07",
+      "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "editorial_priority": "middel",
+      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
       "article_count": 1,
       "publisher_names": [
-        "urdupoint"
+        "city am"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -746,10 +755,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFlleGE0RGJ4bDJkbVU3ekIxRGZubGd3MUNnS2lEV2RBT0hqLVBlSFhZMU80ckVqU2tFYjNVUlJwTlA1aVZKMXNRYjBRWThvT2xCb3k4SWNXbXJEWWgyT1FSYTVpU2N4UUE0OTdWaFRneTQ5YXU2Z3VHWTYxRjRpcDF5b0tfREpfVjVtQ3FhSmdoamlvS3BCYUlIaWU?oc=5",
-          "publisher": "UrduPoint",
-          "published_at": "2026-11-07T15:15:30Z",
+          "title": "Barclays opens Saudi office despite government travel warning - City AM",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQR1ZacDljX2FkMFUwbXM4QldfM3l0TTdNOU1VNnhQR3Y4UXdxMU1ITHktTHNtN081ZFI1cWx6T3ljNHlOemJZTENIVHVpdlZxR2xMUUY0aFJqNVg5YjBaVG0xNjhUUFBVbWpITEwzdDVMRGRJZFF4eUt0NW5tSlJ0dzNQYXJ2b2dpMTJINXhR?oc=5",
+          "publisher": "City AM",
+          "published_at": "2026-11-09T08:18:21Z",
           "source_provider": "google_news_rss"
         }
       ]

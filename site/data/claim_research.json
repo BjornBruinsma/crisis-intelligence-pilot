@@ -1,14 +1,14 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-10T01:15:46.109031Z",
+  "last_attempt_utc": "2026-11-10T07:24:26.783964Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 18,
-  "active_checked": 7,
+  "active_total": 19,
+  "active_checked": 8,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
     "b34a28535597ce77758f40cb": {
       "event_id": "b34a28535597ce77758f40cb",
@@ -3118,12 +3118,12 @@
     },
     "2622fbdcb7308c38ffb315a2": {
       "event_id": "2622fbdcb7308c38ffb315a2",
-      "checked_at": "2026-11-09T01:22:43.431339Z",
+      "checked_at": "2026-11-10T07:24:26.783916Z",
       "version": "official-original-document-v1",
       "research_status": "documents_found_unassessed",
       "verified_event": false,
       "official_matches": [],
-      "summary_nl": "Er zijn geen relevante passages gevonden die de claim over werkloosheid in Iran ondersteunen of weerleggen.",
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over werkloosheid in Iran ondersteunen of weerleggen.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3759,6 +3759,82 @@
           "text_excerpt": "Country policy and information note: military service, Iran, August 2026 (accessible)"
         }
       ]
+    },
+    "c8926839f5f294d29e65c60f": {
+      "event_id": "c8926839f5f294d29e65c60f",
+      "checked_at": "2026-11-10T07:24:26.783889Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De officiële tekst bevestigt de vernietiging van Iraanse tankers door de VS na aanvallen op een oorlogsschip, maar biedt geen bewijs voor een verslechtering van de situatie in de Straat van Hormuz.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4593050/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship/",
+          "title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Sept. 8, 2026",
+          "text_excerpt": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship"
+        },
+        {
+          "url": "https://www.gov.uk/government/speeches/the-united-kingdom-unequivocally-condemns-the-dangerous-escalation-by-the-houthis-in-yemen-uk-statement-at-the-un-security-council",
+          "title": "The United Kingdom unequivocally condemns the dangerous escalation by the Houthis in Yemen: UK statement at the UN Security Council - GOV.UKGOV.UK",
+          "source_publication_date": "2026-10-09T10:00:00+01:00",
+          "text_excerpt": "Coming on top of months of Iranian attacks including against commercial shipping in the Strait of Hormuz, the Houthis’ actions risk further destabilising an already volatile region."
+        }
+      ]
+    },
+    "8d0bccc63ade73ec5e2ef45b": {
+      "event_id": "8d0bccc63ade73ec5e2ef45b",
+      "checked_at": "2026-11-10T07:24:26.783927Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-10T07:24:20.122770Z",
+          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar de onvoorspelbaarheid in het Midden-Oosten, maar biedt geen bewijs voor de claim over de kans op Iran-aanvallen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten verwijzen naar de onvoorspelbaarheid in de regio en een bezoek aan de Straat van Hormuz, maar bieden geen directe ondersteuning voor de claim over Iran-aanvallen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3773,9 +3849,9 @@
       "model_tokens": 5415
     },
     "2026-11-10": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 2014
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3963
     }
   },
   "last_error": null
