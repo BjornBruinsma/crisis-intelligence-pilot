@@ -1,19 +1,19 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-09T19:07:13.237279Z",
-  "fingerprint": "6c3863bf3bf6082c67db8e7a",
+  "last_attempt_utc": "2026-11-10T01:14:58.403992Z",
+  "fingerprint": "fe87d921f8634314973dac4b",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 19,
+  "input_candidate_count": 20,
   "event_candidate_count": 18,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 5,
-    "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 4,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "model_pair_proposals": 4,
+    "accepted_pair_connections": 2,
+    "rejected_pair_proposals": 2,
+    "multi_claim_groups": 2,
+    "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
     "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
@@ -22,24 +22,25 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-09T19:07:13.237279Z",
+    "recorded_at": "2026-11-10T01:14:58.403992Z",
     "groups": [
       {
         "ids": [
-          "326c6ace872075"
+          "326c6ace872075",
+          "f832294769ec0d"
         ],
         "label_nl": "Claim: US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
-          "7e91e29dbeb9cf"
+          "af3227a79c0734"
         ],
-        "label_nl": "Claim: U.S. Strikes Iranian Targets Along Strait of Hormuz Ahead of Midterm Elections as Diplomatic Talks Stall - Inter Press Service",
+        "label_nl": "Claim: Iran rules out US negotiations until 7 conditions met - Mashriq TV",
         "actor": "",
         "action": "",
         "place": "",
@@ -48,9 +49,9 @@
       },
       {
         "ids": [
-          "a7055c1b4d5629"
+          "aeb3339ffb3154"
         ],
-        "label_nl": "Claim: Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
+        "label_nl": "Claim: Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
         "actor": "",
         "action": "",
         "place": "",
@@ -59,14 +60,15 @@
       },
       {
         "ids": [
-          "9975cd4d07fde4"
+          "9975cd4d07fde4",
+          "fd2c43f6cd5584"
         ],
         "label_nl": "Claim: Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -84,17 +86,6 @@
           "91bf9c16da9870"
         ],
         "label_nl": "Claim: US-Israeli War on Iran Deepens America’s Housing Affordability Crisis - تسنیم",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "f832294769ec0d"
-        ],
-        "label_nl": "Claim: Trump says renewed attacks on Iran highly unlikely if talks show progress",
         "actor": "",
         "action": "",
         "place": "",
@@ -125,9 +116,9 @@
       },
       {
         "ids": [
-          "4a62bd62f728fc"
+          "a7055c1b4d5629"
         ],
-        "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
+        "label_nl": "Claim: Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
         "actor": "",
         "action": "",
         "place": "",
@@ -136,9 +127,9 @@
       },
       {
         "ids": [
-          "5b49f9a8417702"
+          "ee58054c5fa5f0"
         ],
-        "label_nl": "Claim: Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Yahoo Finance",
+        "label_nl": "Claim: Oil Futures Slide as Trump Says New Strikes on Iran Unlikely - WSJ",
         "actor": "",
         "action": "",
         "place": "",
@@ -191,21 +182,31 @@
       },
       {
         "ids": [
-          "c880533343ed35",
-          "eaa31d2e403d25"
+          "c880533343ed35"
         ],
         "label_nl": "Claim: US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
-          "02db98ceb32df6"
+          "eaa31d2e403d25"
         ],
-        "label_nl": "Claim: Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
+        "label_nl": "Claim: Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "4a62bd62f728fc"
+        ],
+        "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
         "actor": "",
         "action": "",
         "place": "",
@@ -226,23 +227,24 @@
     ],
     "input_claim_ids": [
       "326c6ace872075",
-      "7e91e29dbeb9cf",
-      "a7055c1b4d5629",
+      "af3227a79c0734",
+      "aeb3339ffb3154",
       "9975cd4d07fde4",
       "76245c595230d4",
       "91bf9c16da9870",
       "f832294769ec0d",
       "7352020c24ccdc",
       "abf3554c4b50d2",
-      "4a62bd62f728fc",
-      "5b49f9a8417702",
+      "a7055c1b4d5629",
+      "ee58054c5fa5f0",
       "bd42ddc983b7fa",
       "dc4d83aca3d116",
       "9f70f591b38cf7",
       "b8087b2b94bc57",
       "c880533343ed35",
       "eaa31d2e403d25",
-      "02db98ceb32df6",
+      "4a62bd62f728fc",
+      "fd2c43f6cd5584",
       "564f915e543bf4"
     ]
   },
@@ -250,20 +252,19 @@
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "5de1b423cc39b3a708c2b357",
-      "label_nl": "Claim: U.S. Strikes Iranian Targets Along Strait of Hormuz Ahead of Midterm Elections as Diplomatic Talks Stall - Inter Press Service",
+      "id": "533e456c6c3e0214bf634471",
+      "label_nl": "Claim: Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
       "headline_claim_ids": [
-        "7e91e29dbeb9cf"
+        "aeb3339ffb3154"
       ],
       "headline_claims": [
-        "U.S. Strikes Iranian Targets Along Strait of Hormuz Ahead of Midterm Elections as Diplomatic Talks Stall - Inter Press Service"
+        "Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSkFubFpFQmZLeTY2NVpIZ0FvUFhIRFdoazlzMUpqd3FtYkY1dnhIVk00ME9sbncxZ3NYXzFraHVCRXlvY2lOcW9FZlV3Wk5fUnJGNzR2TkhwdjRQRl81YnM5akJCSGFpVWpWcDBhYXdnOVpUWlFncXcwUloycE5VaEU3Q2ZWQ0dhaEE0SDM4Z1AzNjN0Q3VpZE1MdEJsZXJycjM3ZmgwWWYwMHVmTndSckRkdkN2WDRDckxreU5HUm5vRUpZYi1SSFBhMno5UEpBUkE?oc=5",
-        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jTDlzWXV5SEdFZFZUTFRhdm15OGt4aVlteUR3dFJ5eC1KNUNnZng0V0ZqV0oweXJMd0daNjZ2N21Eci1pdnlINmI5Z2l5ZHFBTUJBRkZlOXotb0pVMnM00gFkQVVfeXFMTVZHa1RXWDlWVVByS0dib0JrUEdNVG02ZVY5YTlUNWowMDg1bF9ENHhCS29QZVNOeXFXR0YxUVZHUmV5bDViYmF2dXNQbnVjc19fMEwwXzJpUlAxMFNZbjhkUkU2Ug?oc=5"
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaFNVVXl2cDBhMTVpZWRfWWJrSFFhYnRBZXlXT2Q0OWpWQVdHOUpRUnZPZDlWZ2xrOVVZWF9ieUFtaU1ieG9PZlBHQmJ5ZF9JNzl2OVZsSDlDNUxSZEllLUlVNzBEN2daNnBNWVpnZ3ltM0FGazdtMzFNX0pwVk13YW9BOU91UTNacDQwa2hJMkY4dU5xVUFOY1pwZi1Mem1RTm5GTHdQdkQ1LTNBYmZ3VldaVktSVk1CbnRBekNRVUZtTnFWWUFiSFh3SVRoTHdoRmNYUFB2OTYxbC1J?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -271,35 +272,82 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p7",
+        "exact_excerpt": "British nationals in, or planning to travel through, the Middle East should be prepared for possible flight cancellations, airspace closures, and travel di",
+        "relation": "related_only",
+        "reason_nl": "Deze passage verwijst naar mogelijke reisdisrupties in het Midden-Oosten, wat relevant is voor de claim over vluchtverstoring.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "06b48ade8f94e5366f568035",
-      "label_nl": "Claim: Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
+      "id": "1b777df055618f93cc536b14",
+      "label_nl": "Claim: Houthi attack damages Aramco building in Riyadh",
       "headline_claim_ids": [
-        "9975cd4d07fde4"
+        "b8087b2b94bc57"
       ],
       "headline_claims": [
-        "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder"
+        "Houthi attack damages Aramco building in Riyadh"
+      ],
+      "related_news_links": [
+        "https://www.bordermail.com.au/story/9388058/houthi-attack-damages-aramco-building-in-riyadh/",
+        "https://www.dailyliberal.com.au/story/9388058/houthi-attack-damages-aramco-building-in-riyadh/",
+        "https://www.northerndailyleader.com.au/story/9388058/houthi-attack-damages-aramco-building-in-riyadh/"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_saudi:p7",
+        "exact_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage bevestigt aanvallen door de Houthis, wat relevant is voor de claim over de aanval op Aramco.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "f46a294565a167f25da83486",
+      "label_nl": "Claim: Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
+      "headline_claim_ids": [
+        "9975cd4d07fde4",
+        "fd2c43f6cd5584"
+      ],
+      "headline_claims": [
+        "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
+        "Oil Prices Decline as Trump Signals Restraint on Iran Despite Shipping Attacks Near Strait of Hormuz - Yahoo Finance"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYy13eXltNldJNUhUay02cHBib0ZsM1IydjZHdDhiRTZZNVlJeExSeUxWLWQzVDRqUHdpZUljZGZCakFXeTNIc3oxZktkdEltVlp2MnYtNmx2MGhxSzFWMExTbjFGeUdiTTZyQk9rd0dzZG5qVGNmdFdVYWtETXVITlNmaUpEamdVbGlySEsxaDNvTnFNQVBBWU44UHhsR3FCaEFZQk1qUTBzc2poQkd4eFAwSzhhVUHSAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5",
         "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UNm1JTGhxR1lJbWlXTEpySG04ZGtxa0hvTUhUbEpwcEV1V200R1ctZk9zZmlwT2Q2bjVGZkhBcXVBTDJFMTRIdjVwUmpvR3F3aEZpRENBbU1aNE1mMDZ4OGRCdDBsbnZ5c0NQdDFpekUzQzJQRVR2THd3TQ?oc=5",
         "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRkxqeXpOZ25JRzdwX0s3bnN2UGdSNTBQUWEzNkliYUN1Ykt3SVh4VFRJdUpvRDVXTFBRWURzeUxTZVpPb1FxbGhaOEhaWFN3dVJUTEwzVFE0eEVxZDhsVnVCM3dMYXRLcTh4UUlnUFJYX1ptVmlSSWhJcTRmXzFYanpuSFBlVE5mSzI2eURLMXZQME5zSU9qYzZzYmUyUmdWMEdoRUN6dXFoX0g0SS1ielRjOHBOdjNFclhaNnlEYw?oc=5",
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVm4tdVY4YVBOVGZaOFhUQnk4OEV4VjRSZklqVkRCQnY1aWdVbEZTRzBZX0pQZ00tbmZOX0pjSEVLMVlqVTd3dm5qSXV5UWNFeWVHdjB6ZXl0dEE0NDI4Q21lVmFFbnZJRVBIbTVLeTBlLUp5VDZyUHdRMlUxMzRVVGZFVFUxR1FkcmF5LXJDajYwRVkwSGlRdVI3RXF1MmpUNWpDWHFOdVBNcWtNTTR0UzBaLW4yUGJSVUlld1VfdU7SAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVm4tdVY4YVBOVGZaOFhUQnk4OEV4VjRSZklqVkRCQnY1aWdVbEZTRzBZX0pQZ00tbmZOX0pjSEVLMVlqVTd3dm5qSXV5UWNFeWVHdjB6ZXl0dEE0NDI4Q21lVmFFbnZJRVBIbTVLeTBlLUp5VDZyUHdRMlUxMzRVVGZFVFUxR1FkcmF5LXJDajYwRVkwSGlRdVI3RXF1MmpUNWpDWHFOdVBNcWtNTTR0UzBaLW4yUGJSVUlld1VfdU7SAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaDlwaTgyc1VNUTNoZzBHN1ZBQWs4R1g4bWc1Wmd1d0IwM093Qkd4clhZWGNhbXBpc3BVQjlkdmJYZ0k5SElGMi15RU1FN280M0JnVHMtR2NPQVBybTFSRTNxM00yWmZmamdEdm5hZUo2MFU2SzBEWjJrV3dldEw0UmVSWGNPaDFRU3B5dUQ3Q0NDQ1k?oc=5"
       ],
-      "article_group_count": 1,
-      "news_url_count": 4,
+      "article_group_count": 2,
+      "news_url_count": 5,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -384,100 +432,16 @@
       "probability_estimate": null
     },
     {
-      "id": "1b777df055618f93cc536b14",
-      "label_nl": "Claim: Houthi attack damages Aramco building in Riyadh",
+      "id": "ea09b6bb60a2a62919ce369b",
+      "label_nl": "Claim: Iran rules out US negotiations until 7 conditions met - Mashriq TV",
       "headline_claim_ids": [
-        "b8087b2b94bc57"
+        "af3227a79c0734"
       ],
       "headline_claims": [
-        "Houthi attack damages Aramco building in Riyadh"
+        "Iran rules out US negotiations until 7 conditions met - Mashriq TV"
       ],
       "related_news_links": [
-        "https://www.bordermail.com.au/story/9388058/houthi-attack-damages-aramco-building-in-riyadh/",
-        "https://www.dailyliberal.com.au/story/9388058/houthi-attack-damages-aramco-building-in-riyadh/",
-        "https://www.northerndailyleader.com.au/story/9388058/houthi-attack-damages-aramco-building-in-riyadh/"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "4493d0be323c9e126c624b96",
-      "label_nl": "Claim: US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
-      "headline_claim_ids": [
-        "c880533343ed35",
-        "eaa31d2e403d25"
-      ],
-      "headline_claims": [
-        "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
-        "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTG54ck5HeEc1SFBfeF83WGR0SGxuS0FUcFhzQUtBa1pLOXphcDdvNk9QYS0xUkpBd1JnNkVybHoyOUlUeHVfYUF4eUpzWnd1Z2RWTW85VTdYdGVZb3NaekZOSUVsSmlWTXVqN1luWXV2ZjhtWWlpdElSY251Vkl4cTFWS3kxak9GZnBxS3JPckFmUlF6Nk9fOUl1R1gyckxIa19aX29mRdIBrAFBVV95cUxNYjNzN21zZTFQOFlUOUNqZndVM0IyMUgtZ2lZZlRtLWxRZm1ILV8yZ1pWc1NLWnJvd0p1QW13OS1mZERoLUkySDhFZDB6WmFmZEdHaDlCREdxeHd5N3ozVkJpeE5ndkl0YnJ3ekhYT1JaUGUtdXFSbWJDaUM0OU1VZWh5SU5ERGZWOVNPZEFWNTQ5dnVjMWxVd1Z2Z3I4ZDFmQ2laWC1MMnVaVE1O?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "8d0bccc63ade73ec5e2ef45b",
-      "label_nl": "Claim: US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress",
-      "headline_claim_ids": [
-        "326c6ace872075"
-      ],
-      "headline_claims": [
-        "US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress"
-      ],
-      "related_news_links": [
-        "https://abc13.com/post/us-iran-war-news-donald-trump-says-renewed-attacks-nuclear-program-strait-hormuz-talks-show-progress/20024909/",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTWtaaEdaaHBHU0NMSnNwcEE2ZmxWSnZrU21BVE1rUG9RMkhZYTRaSVBIY1RGcERUU1lJRV83NEJfcDVDdkN4MmFfRHJab1VMeXhPYVVWcmVnOXRnY3paaldnWG5TZWJVcmgwd2otVWFXV3BzUTZ3dFpmLWJmZlVpN202cTNVRTJlZVFTR3pHVTJsM1BoUHQ3MGx4eVFjRFJJMTd3aHNMMElkQTlocm9XNTZsWXRlSFU4aTFhUlUyLUxBbTVLbElxWlJZbUFuRElUMGfSAdcBQVVfeXFMT0k2NjZ2WkFhcWUtQThlb0JZRmc3MVloaW5fQlFrbF9CQi1INlZLZi1PWHZjYXhqLS1HM0p2dkExTThsTGxQeUMwcHNBXzhLRTR1WkRMRXk5ZGcwOGdWRDhxdkRmdVdqVG1CbFB2Rk5CWXl6dWVHWElzUzVkdWpsOXotZTBJNHlQRHh3QVB6N20wS2hNSFI0bmNQdGNhengxN0ZieHBEYnhERFVicy1zcjZBa1Blc21UckFib2NJenlRcnZDNmxlMmFCYU5jTTd5VV9tREtlR3M?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "b7cc232b5ea13baa7e2c540a",
-      "label_nl": "Claim: Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
-      "headline_claim_ids": [
-        "a7055c1b4d5629"
-      ],
-      "headline_claims": [
-        "Middle East latest: Trump plays down prospect of new strikes on Iran - The National"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5"
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQmMwQW5ocmw4anJVajI3QWVaRmduWnZHQmIzMTY3Q2xPdWh5c0dfY3daVUJ4QXlzMGFDVDd4VURIUERNMmFjZVFWa0hVWUJRVHBNcl80c1dZMkpCWXNTaFpVcmhpMGlqOTNIS0ZHZFdiMzNpUW1aZTA4QXNQYWJfcVZCMG1VSERMTjZzMWV3Z1lIRlU?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -488,6 +452,115 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p12",
+        "exact_excerpt": "Air, sea and land routes are under the control of the Iranian authorities.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage geeft aan dat routes onder controle van Iran zijn, wat relevant is voor de claim over onderhandelingen.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "455ceb3bbb464abb01ff8858",
+      "label_nl": "Claim: Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS",
+      "headline_claim_ids": [
+        "dc4d83aca3d116"
+      ],
+      "headline_claims": [
+        "Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jS3JUUEtxbDM3OWdfNEw1ZktmXzJsNzlucGlQMkFMdnZORWxLSXNXMlhXRDREd19SRWRYM1RMSm9sczZKNFc4Zkd4ckZURzdQdEpsbUpGZy0wSGtFM1E?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p11",
+        "exact_excerpt": "if you are advised to take shelter, stay indoors or find the nearest safe building or designated shelter.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage geeft advies over schuilen, wat relevant is voor de claim over de video van de luchthaven.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "4eba70a54447af3a928896b1",
+      "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
+      "headline_claim_ids": [
+        "4a62bd62f728fc"
+      ],
+      "headline_claims": [
+        "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFlleGE0RGJ4bDJkbVU3ekIxRGZubGd3MUNnS2lEV2RBT0hqLVBlSFhZMU80ckVqU2tFYjNVUlJwTlA1aVZKMXNRYjBRWThvT2xCb3k4SWNXbXJEWWgyT1FSYTVpU2N4UUE0OTdWaFRneTQ5YXU2Z3VHWTYxRjRpcDF5b0tfREpfVjVtQ3FhSmdoamlvS3BCYUlIaWU?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_uae:p1",
+        "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
+        "relation": "related_only",
+        "reason_nl": "Deze passage verwijst naar de onvoorspelbaarheid in het Midden-Oosten, wat relevant is voor de claim over de waarschuwing aan burgers.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "2c7bfe05b461a1bddc8a71ed",
+      "label_nl": "Claim: US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress",
+      "headline_claim_ids": [
+        "326c6ace872075",
+        "f832294769ec0d"
+      ],
+      "headline_claims": [
+        "US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress",
+        "Trump says renewed attacks on Iran highly unlikely if talks show progress"
+      ],
+      "related_news_links": [
+        "https://abc13.com/post/us-iran-war-news-donald-trump-says-renewed-attacks-nuclear-program-strait-hormuz-talks-show-progress/20024909/",
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTWtaaEdaaHBHU0NMSnNwcEE2ZmxWSnZrU21BVE1rUG9RMkhZYTRaSVBIY1RGcERUU1lJRV83NEJfcDVDdkN4MmFfRHJab1VMeXhPYVVWcmVnOXRnY3paaldnWG5TZWJVcmgwd2otVWFXV3BzUTZ3dFpmLWJmZlVpN202cTNVRTJlZVFTR3pHVTJsM1BoUHQ3MGx4eVFjRFJJMTd3aHNMMElkQTlocm9XNTZsWXRlSFU4aTFhUlUyLUxBbTVLbElxWlJZbUFuRElUMGfSAdcBQVVfeXFMT0k2NjZ2WkFhcWUtQThlb0JZRmc3MVloaW5fQlFrbF9CQi1INlZLZi1PWHZjYXhqLS1HM0p2dkExTThsTGxQeUMwcHNBXzhLRTR1WkRMRXk5ZGcwOGdWRDhxdkRmdVdqVG1CbFB2Rk5CWXl6dWVHWElzUzVkdWpsOXotZTBJNHlQRHh3QVB6N20wS2hNSFI0bmNQdGNhengxN0ZieHBEYnhERFVicy1zcjZBa1Blc21UckFib2NJenlRcnZDNmxlMmFCYU5jTTd5VV9tREtlR3M?oc=5",
+        "http://www.arabherald.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
+        "http://www.myanmarnews.net/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
+        "http://www.malaysiasun.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
+        "http://www.iranherald.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 6,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -546,35 +619,6 @@
       "probability_estimate": null
     },
     {
-      "id": "d738c085a19bb65825daf28d",
-      "label_nl": "Claim: Trump says renewed attacks on Iran highly unlikely if talks show progress",
-      "headline_claim_ids": [
-        "f832294769ec0d"
-      ],
-      "headline_claims": [
-        "Trump says renewed attacks on Iran highly unlikely if talks show progress"
-      ],
-      "related_news_links": [
-        "http://www.arabherald.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
-        "http://www.myanmarnews.net/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
-        "http://www.malaysiasun.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
-        "http://www.iranherald.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 4,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "6730906c1b616fe74888b16c",
       "label_nl": "Claim: Trump to Discuss Iran Cease-fire and Nuclear Negotiations with Qatari Prime Minister : Global : JKN - 재경일보",
       "headline_claim_ids": [
@@ -601,16 +645,16 @@
       "probability_estimate": null
     },
     {
-      "id": "4eba70a54447af3a928896b1",
-      "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
+      "id": "b7cc232b5ea13baa7e2c540a",
+      "label_nl": "Claim: Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
       "headline_claim_ids": [
-        "4a62bd62f728fc"
+        "a7055c1b4d5629"
       ],
       "headline_claims": [
-        "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint"
+        "Middle East latest: Trump plays down prospect of new strikes on Iran - The National"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFlleGE0RGJ4bDJkbVU3ekIxRGZubGd3MUNnS2lEV2RBT0hqLVBlSFhZMU80ckVqU2tFYjNVUlJwTlA1aVZKMXNRYjBRWThvT2xCb3k4SWNXbXJEWWgyT1FSYTVpU2N4UUE0OTdWaFRneTQ5YXU2Z3VHWTYxRjRpcDF5b0tfREpfVjVtQ3FhSmdoamlvS3BCYUlIaWU?oc=5"
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -627,16 +671,16 @@
       "probability_estimate": null
     },
     {
-      "id": "87053721b608bd01977a1d2e",
-      "label_nl": "Claim: Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Yahoo Finance",
+      "id": "ef34921ad85ac6573b0cb8fc",
+      "label_nl": "Claim: Oil Futures Slide as Trump Says New Strikes on Iran Unlikely - WSJ",
       "headline_claim_ids": [
-        "5b49f9a8417702"
+        "ee58054c5fa5f0"
       ],
       "headline_claims": [
-        "Oil falls on open as Trump says fresh Iran attacks 'unlikely' - Yahoo Finance"
+        "Oil Futures Slide as Trump Says New Strikes on Iran Unlikely - WSJ"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNlAzZzloUXMwWmVxZjBVSXA5UnVqUDZiODJna2hxeFFRblB2R19HM0hUOFFaVlllT05lQXV5eGJiNkp5TDV5MnowZmc0Ynd1bVo4TWEwYk5Md3NKX0E4Smp5cTJ3SVV0d2lVTlNVLTNic0ZDMkJFWXFFb0hNbWJXSEpxQzN2cG1tT2c?oc=5"
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFNfSjlGZWFOd01laGhIaG9idVhwaUxEOXctN1hkb1E2Qkd6YXEyaE5DUHFzMEdoT3dqWXNQbkxScXRFb3o2aGU4SEpWdnU5SGdKQUJXTUFMdS1kcHJKVnJPVnBUZk1XUjd6NXRLcnJwSGhXMFZVa2hqQ1VvVWkzM2FxT2tCNlhGN1VYYjgwRTdiY2Z6SElpNmtfMXRmTjF0RW5fX0JVVWhuZVlsX1lWdDBMU1g1ZzBFeXlGT2tZbUNyQjlLUFE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -653,16 +697,16 @@
       "probability_estimate": null
     },
     {
-      "id": "455ceb3bbb464abb01ff8858",
-      "label_nl": "Claim: Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS",
+      "id": "d5bc201af98d4fb3853ad662",
+      "label_nl": "Claim: US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN",
       "headline_claim_ids": [
-        "dc4d83aca3d116"
+        "c880533343ed35"
       ],
       "headline_claims": [
-        "Crowded Dubai airport video falsely claimed to show people fleeing Iran drone attack, but footage dates back to March 2026 - Thai PBS"
+        "US and Iran are quietly negotiating as Middle East remains on edge. Here’s what to know - CNN"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jS3JUUEtxbDM3OWdfNEw1ZktmXzJsNzlucGlQMkFMdnZORWxLSXNXMlhXRDREd19SRWRYM1RMSm9sczZKNFc4Zkd4ckZURzdQdEpsbUpGZy0wSGtFM1E?oc=5"
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OejVwb3pCVS10a0dlaVBzWnBYaHEzb3JqVnNmZGdDZ1BGTC1PdHBVMEZsUzFpTjI3b2ZoQVJEYVltdWdZZURVTTg5ZF8tVlR5NDVrR3ZGVHYzQ3luZy0zVzlYRUVUTC1QN2F4ZDhNR3MwTzhMcDdRMk1n?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -679,16 +723,16 @@
       "probability_estimate": null
     },
     {
-      "id": "a7a89bd9d83bc8863bd55e5d",
-      "label_nl": "Claim: Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com",
+      "id": "0f6c701935125d65f608a3c5",
+      "label_nl": "Claim: Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera",
       "headline_claim_ids": [
-        "02db98ceb32df6"
+        "eaa31d2e403d25"
       ],
       "headline_claims": [
-        "Insurers cancel war risk cover amid Iran conflict - www.businessinsurance.com"
+        "Qatar PM to meet Trump: What’s the latest on US-Iran negotiations? - Al Jazeera"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3Y5SzhyN2hER0R4YXg4eEtOVjZSU0xfUzZfbU5sVW5WcmhzT19BZUprQ1lWRlpZWDBSVE9vM2ktWWJMcGhqbWNmWE44YlQxMjZNajNTejdFVEJFU1NsR3ZQMEFSb2RNekFrSVFlWG9VdkphSVlRODFuWWpxOVFqM1h3V1JWaGxNbm44?oc=5"
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTG54ck5HeEc1SFBfeF83WGR0SGxuS0FUcFhzQUtBa1pLOXphcDdvNk9QYS0xUkpBd1JnNkVybHoyOUlUeHVfYUF4eUpzWnd1Z2RWTW85VTdYdGVZb3NaekZOSUVsSmlWTXVqN1luWXV2ZjhtWWlpdElSY251Vkl4cTFWS3kxak9GZnBxS3JPckFmUlF6Nk9fOUl1R1gyckxIa19aX29mRdIBrAFBVV95cUxNYjNzN21zZTFQOFlUOUNqZndVM0IyMUgtZ2lZZlRtLWxRZm1ILV8yZ1pWc1NLWnJvd0p1QW13OS1mZERoLUkySDhFZDB6WmFmZEdHaDlCREdxeHd5N3ozVkJpeE5ndkl0YnJ3ekhYT1JaUGUtdXFSbWJDaUM0OU1VZWh5SU5ERGZWOVNPZEFWNTQ5dnVjMWxVd1Z2Z3I4ZDFmQ2laWC1MMnVaVE1O?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -732,10 +776,6 @@
     }
   ],
   "usage_by_day": {
-    "2026-11-07": {
-      "requests": 12,
-      "total_tokens": 33617
-    },
     "2026-11-08": {
       "requests": 12,
       "total_tokens": 35505
@@ -743,6 +783,10 @@
     "2026-11-09": {
       "requests": 12,
       "total_tokens": 33011
+    },
+    "2026-11-10": {
+      "requests": 3,
+      "total_tokens": 9211
     }
   }
 }
