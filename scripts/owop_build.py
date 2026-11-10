@@ -20,8 +20,17 @@ def esc(v):
     return html.escape(str(v or ""))
 
 
-def source_links(story):
+def source_links(story, verification=None):
     items = []
+    verification = verification or {}
+    for s in (verification.get("citations") or [])[:5]:
+        url = str(s.get("url") or "")
+        if not url.startswith(("http://", "https://")):
+            continue
+        items.append(f'<a href="{esc(url)}" target="_blank" rel="noopener">{esc(s.get("title") or "verified source")}</a>')
+    if items:
+        return " · ".join(items)
+
     for s in story.get("sources", [])[:5]:
         url = str(s.get("url") or "")
         if not url.startswith(("http://", "https://")):
@@ -50,7 +59,7 @@ def card(story, verification=None):
       <p class="summary">{esc(verified_summary)}</p>
       <div class="verify">{esc(badge)}{(" · " + esc(recommendation)) if recommendation else ""}</div>
       <p class="why"><b>Why this is good news:</b> {esc(story.get('why_good'))}</p>
-      <div class="foot"><span>{esc(story.get('confidence'))} confidence · {int(story.get('source_count') or 0)} source(s)</span><span>{source_links(story)}</span></div>
+      <div class="foot"><span>{esc(story.get('confidence'))} confidence · {int(story.get('source_count') or 0)} discovery source(s)</span><span>{source_links(story, verification)}</span></div>
       <details><summary>AI editorial note</summary><p>{esc(story.get('editor_note'))}</p></details>
     </article>"""
 
@@ -60,7 +69,29 @@ def main():
     verification = load(DATA / "verification.json", {})
     verify_map = {str(x.get("id")): x for x in (verification.get("stories") or []) if x.get("id")}
     fetch = load(DATA / "fetch_status.json", {})
-    stories = editorial.get("stories") or []
+
+    # Verification is the final publication gate. A story is public only when the
+    # verifier explicitly recommends publish. This allows verified reserves to be
+    # promoted and editorial publishes to be demoted when evidence is weak.
+    editorial_pool = list(editorial.get("stories") or []) + list(editorial.get("reserves") or [])
+    stories = []
+    seen_ids = set()
+    for story in editorial_pool:
+        sid = str(story.get("id") or "")
+        if not sid or sid in seen_ids:
+            continue
+        verdict = verify_map.get(sid) or {}
+        if verdict.get("publish_recommendation") == "publish":
+            stories.append(story)
+            seen_ids.add(sid)
+
+    stories.sort(
+        key=lambda s: (
+            int((verify_map.get(str(s.get("id"))) or {}).get("evidence_quality") == "high"),
+            int(s.get("score") or 0),
+        ),
+        reverse=True,
+    )
     categories = Counter(s.get("category") or "Other" for s in stories)
     countries = Counter(s.get("country") or "Global" for s in stories)
 
@@ -69,7 +100,7 @@ def main():
         <section class="empty"><h2>AI editorial board is ready</h2>
         <p>The discovery pipeline is collecting stories. Add the repository secret <code>OPENAI_API_KEY</code> to enable autonomous scoring, translation and publishing.</p></section>"""
     elif not stories:
-        body = "<section class='empty'><h2>No stories passed the publish threshold in this run.</h2><p>That is allowed: OWOP should prefer silence over weak good-news claims.</p></section>"
+        body = "<section class='empty'><h2>No stories passed verification in this run.</h2><p>That is allowed: OWOP should prefer silence over publishing a positive claim that is not well supported.</p></section>"
     else:
         body = "".join(card(s, verify_map.get(str(s.get("id")))) for s in stories)
 
@@ -95,7 +126,7 @@ main{{padding:28px 0 70px}}.section-title{{display:flex;justify-content:space-be
 <header><div class="wrap hero"><h1>ONE WORLD.<br>ONE PEOPLE.</h1><div class="tag">Good things are happening everywhere.</div><p class="sub">An autonomous AI news pilot discovering positive, verifiable developments from sources around the world — without politics, doomscrolling or feel-good fluff.</p>
 <div class="stats"><span class="stat">{retained} source items retained</span><span class="stat">{candidate_groups} candidate story groups</span><span class="stat">{len(stories)} published this run</span><span class="stat">Updated {generated}</span></div>{chips}</div></header>
 <main><div class="wrap"><div class="section-title"><h3>Latest positive developments</h3><div class="geo">{geo}</div></div>{body}
-<div class="pilot"><b>Pilot 0.2:</b> AI editorial selection plus source-retrieval verification for the strongest candidates. Verification can remain uncertain when sources are inaccessible, duplicated or paywalled. Source links are provided for inspection.</div></div></main></body></html>"""
+<div class="pilot"><b>Pilot 0.3:</b> AI discovery and editorial selection followed by live-web source verification. Verification is the final publication gate: only stories with a verifier recommendation of <i>publish</i> appear here.</div></div></main></body></html>"""
     SITE.mkdir(parents=True, exist_ok=True)
     (SITE / "index.html").write_text(page, encoding="utf-8")
     print(f"Built OWOP page with {len(stories)} stories")
