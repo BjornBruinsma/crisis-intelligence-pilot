@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-11T13:24:19.392122Z",
+  "last_attempt_utc": "2026-11-11T19:10:47.485241Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -4967,6 +4967,70 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-11T13:24:18.391889Z"
+    },
+    "c167e5cc6350b2": {
+      "id": "c167e5cc6350b2",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "event_claim",
+      "summary_nl": "De VN veroordeelt een video van de Houthi's waarin gedetineerde medewerkers een 'gedwongen verklaring' afleggen.",
+      "claimed_event_nl": "VN veroordeelt Houthi-video van gedetineerde medewerkers.",
+      "reason_nl": "De relevantie voor de situatie in de Golfregio is beperkt en het heeft geen directe impact op economische of politieke stabiliteit.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T19:10:46.485002Z"
+    },
+    "cc822471a136f9": {
+      "id": "cc822471a136f9",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "Trump en de premier van Qatar hebben een 45 minuten durend gesprek gehad over onderhandelingen met Iran.",
+      "claimed_event_nl": "Trump en Qatar PM houden gesprek over Iran-onderhandelingen.",
+      "reason_nl": "Dit kan invloed hebben op de diplomatieke relaties en de situatie in de Golfregio.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T19:10:46.485026Z"
+    },
+    "bff1aa4c122c60": {
+      "id": "bff1aa4c122c60",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen in de Golf zijn terug op 80%, maar geraffineerde producten blijven op 35%.",
+      "claimed_event_nl": "Olieprijzen in de Golf stijgen, geraffineerde producten blijven laag.",
+      "reason_nl": "Dit heeft implicaties voor de energiemarkt en kan economische gevolgen hebben.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T19:10:46.485031Z"
+    },
+    "94f619b9584ccf": {
+      "id": "94f619b9584ccf",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "Brent- en LSGO-prijzen herstellen door het gebrek aan een deal tussen de VS en Iran.",
+      "claimed_event_nl": "Brent- en LSGO-prijzen stijgen door gebrek aan VS-Iran deal.",
+      "reason_nl": "Dit kan wijzen op fluctuaties in de olieprijzen die de economie kunnen beïnvloeden.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T19:10:46.485035Z"
     }
   },
   "usage_by_day": {
@@ -4979,8 +5043,8 @@
       "total_tokens": 6071
     },
     "2026-11-11": {
-      "requests": 5,
-      "total_tokens": 5773
+      "requests": 6,
+      "total_tokens": 7162
     }
   }
 }

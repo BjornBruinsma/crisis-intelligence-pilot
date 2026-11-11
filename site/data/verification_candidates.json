@@ -1,7 +1,7 @@
 {
   "description": "Manually reviewable headline claims; no event verification, no risk scoring",
-  "source_generated_from": "2026-11-11T13:22:58.166690Z",
-  "source_groups_count": 531,
+  "source_generated_from": "2026-11-11T19:09:33.241777Z",
+  "source_groups_count": 526,
   "selection_method": "Category-balanced high/medium editorial candidates; NOT trained or calibrated",
   "candidates": [
     {
@@ -167,19 +167,23 @@
       ]
     },
     {
-      "id": "76245c595230d4",
-      "headline_claim": "US strike near Hormuz puts NZ fuel and fertiliser at risk - B2B News",
+      "id": "3ba19b4585299c",
+      "headline_claim": "Hormuz LNG Traffic Hits Highest in October Since Iran War Began - EnergyNow.com",
       "discovered_via": "Energie & grondstoffen",
       "other_search_labels": [
-        "Energie & grondstoffen"
+        "Energie & grondstoffen",
+        "Wereldhandel & logistiek"
       ],
-      "publication_day": "2026-11-08",
+      "publication_day": "2026-11-10",
       "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "editorial_priority": "middel",
+      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "article_count": 5,
       "publisher_names": [
-        "b2b news"
+        "business recorder",
+        "energynow.com",
+        "reuters",
+        "the economic times"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -190,10 +194,38 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "US strike near Hormuz puts NZ fuel and fertiliser at risk - B2B News",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxON1RiU3dlUk44dWFLbFNfNDFwcnpYNVNSaTdhSVdpT0ZnblBPeGFFXzJGWUk4NVpuQVQ1eGVzVEdhbGNYV0Fnd0xOeEJRZUxGMkhlWl9QUHoxenV4aFpGX3AyTGpZbXZuOGp4RHZiRkFqZ3c0Mkd6MVFmQXNoMnRxakE0UTlxemtXLUotQ2x3?oc=5",
-          "publisher": "B2B News",
-          "published_at": "2026-11-08T01:40:17Z",
+          "title": "Hormuz LNG Traffic Hits Highest in October Since Iran War Began - EnergyNow.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWjB3ZVJPOG0wd2JESVpFVlpCbS0ydC04OFhaZGVXN0dLVHpDMGpHUWhCZ1U1UnJVY2x5U2Jvb09LRXpDY1pqcHViOUhFdUNfZTlHSlVXM1BKMVYxZVBDM2pvQjlERjZ2cHpXek81VndjQ1A1bzB3Uzh1dTdiUWlvMVE4Zkg2MHdPVzdOOWZ6ajAwWUZCbDBjakZn?oc=5",
+          "publisher": "EnergyNow.com",
+          "published_at": "2026-11-10T16:01:21Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Hormuz LNG traffic hits highest in October since Iran war began - Business Recorder",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMktsQUY4WjZhakh6aGtxMV9TV181cGhnVklaNTZnTnRhMy1jSVpGX1p3eDZ2NUVTTlBQUUNiaUdMa1M4dFVMRXAwN0V5UHJIRVNQYlpiR3JaUVlvdDh1VlNOT01pbE9SV3N1WEgwVms1Nlo2RF9pVm1GZ0FDaWlicEFkbGdxZXdhTWZRTHU5OG41SFk5UGk3bkpLX1F3NnNJVGg0blVR0gFWQVVfeXFMTTRmZXlkZ2xCYktJampVU19XU1FPdHlDOGU2UjhSRHpFekFWRHpHYm41TWlLbTJBZTVwNVdtS3VpYTdjLWhBU20wTmJnc0UxVk02eTZKRkE?oc=5",
+          "publisher": "Business Recorder",
+          "published_at": "2026-11-10T06:43:56Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Hormuz LNG traffic hits highest in October since Iran war began - Business Recorder",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03MEVrVUQ5ZWQxUmx4bWVnQTdkQUhvVnAxdmFfUUlCMUpsU05QV2h0R09LRUdId3Z0Z3BtTkVEbDFGbFY0ZFExeEhoR3k2R1M50gFWQVVfeXFMTTRmZXlkZ2xCYktJampVU19XU1FPdHlDOGU2UjhSRHpFekFWRHpHYm41TWlLbTJBZTVwNVdtS3VpYTdjLWhBU20wTmJnc0UxVk02eTZKRkE?oc=5",
+          "publisher": "Business Recorder",
+          "published_at": "2026-11-10T06:43:56Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Hormuz LNG traffic hits highest in October since Iran war began - The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYS1wRnB5YlZ4b3lFVURkbENlZWE3MWdfa1dOTGZrbHdNX24ydXZWeW9hWFZ0QmFvZVE5VFdXQlNsa0tvRlhETFZMRTA3ZFNRcEQ1UnIzQnprRHMyWTNHZFYxUEpwMVZsRm5XVDBrcGd5SEdTNUt4ZjdQRnlESWZja28yTFZDSnYxUU4xU0kyemxPTzBaUGxuNmFBRm1XaWtkZHlyLXZaQXdUcWNyQ0FnRzNuVDlqM3JGZ0tPSDlObXJTZ0xDLWNXOUctQnpRa194ZWZMc1RYOHo1N1hNZEhFV9IB5gFBVV95cUxOVUVmdUV1NmxwM1d5U2V6WFdYRzlBQXhlNjVvNU14b1NqaUdZdFphLXJBMV9IX3k3SEdoRkMxbUtCQlJYc0NFV202bDllR2ZtNVQzQXVqRmZzWVlfT1JROEdxSHhucXJnTjZqbUVRa1djZG1qYTRfS1lHLTcxbVctQmc5R25UTklId1dXMWloeG1fUDcxYlk1SG9Ya3ozc1lhMHVFRVdzcWRpMlBnRUNPRlAwa09RMkxJY0MzVDMtcTF3azlpRWhMVnoxS2QzcU9nWW8tZ1dMQUp6ZHM1NThKcEY5czNtQQ?oc=5",
+          "publisher": "The Economic Times",
+          "published_at": "2026-11-10T04:30:13Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Hormuz LNG traffic hits highest in October since Iran war began - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXRIOWVQTmcwYVdhbURkcUR6RGNkUHA1QVZhb0Jvc2xVa0RIQnVSdlRXQTZ5RFFhemxFYkY4bndDWHUyM0NUSTRVbzN6Z3NnOWIyRTBQazhYLXRmZUlMcnhUMDgydGJCdlp6cUc4ZUNUb3o3YWVXT1hxOFY5VFFIcUhrU3RlZFlSMnJGYWRfdGhXU2RVWlg2ZUl3TXg4VktPQWl2SThTcTZmTlc3MENKWWxB?oc=5",
+          "publisher": "Reuters",
+          "published_at": "2026-11-10T04:26:00Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -209,7 +241,7 @@
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "article_count": 2,
       "publisher_names": [
         "marine insight"
       ],
@@ -227,12 +259,19 @@
           "publisher": "Marine Insight",
           "published_at": "2026-11-11T11:55:13Z",
           "source_provider": "google_news_rss"
+        },
+        {
+          "title": "India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYmVQSDU4cXVobWVmc1lSNENtRnJPUGl4UERhSTlGT3ZPbXNnbU9yeWhoNDFSQm1uZGttU0VFMGJaZS14TzdVeVpvSURxVnM5YWg0UGVkTHZrTWZzMVlCTDVBQ0I5Wl9QMUdtVFozek1IVHhGOEFOR3Nfb3dGckxoMFBlRzg1dmZOc3pBWVZKOXNGcnNWelpzSEJuUVBfTmV0M2U0M194WXo3eHVCUVpnWXRLU0Nxc2FnWDVGNFo5UXJjQ2pOb3ZrdS1LMzdmMUgzRFBRMTdsOE1YczJjR2hEblNETVpPeERlRm5BdHd1Zl9nQ2dhV2ZwQkNqbFNpcDVqLVI0?oc=5",
+          "publisher": "Marine Insight",
+          "published_at": "2026-11-11T11:55:13Z",
+          "source_provider": "google_news_rss"
         }
       ]
     },
     {
-      "id": "7c0bcdcaa86cf9",
-      "headline_claim": "Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
+      "id": "c167e5cc6350b2",
+      "headline_claim": "UN condemns Houthi video of detained staff 'forced statement' - Yeni Safak English",
       "discovered_via": "Bedrijfsleven & investeringen",
       "other_search_labels": [
         "Bedrijfsleven & investeringen"
@@ -254,10 +293,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPblEtVk5pY1c4RHVxN2I1ZHdmRjgyU05Qd19ZOHRaQ1otNWt0bU9kbXdKbzcycFpFdzdJbjlWZE91WFhoX1dSLUJNRXpVREpTbXZBVXZqTzZoZVVocVVaT2w3dENHamRFUUp2NE9SMnhGcHRFZUIxbkRNYVoxNXRPVlQzdDhNMGVrOWcwOVhIUQ?oc=5",
+          "title": "UN condemns Houthi video of detained staff 'forced statement' - Yeni Safak English",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb1pTUEhxTFZLc2dobE1fY2dCN2VGdi1WbmV1R2xvRk5QWWUzVnFRNmU1eXNKN2pFUTZTT21UV1RWV2FUbC1BQ1h0Qkt3Um9uS3FHREhnSkRSS1pBLWlxS25IQzduWlJTV0Q3b3dBVXVqZUZKb1N4eVZxcTVwUUFTVE1QVEN3VU1fMHE4MERGM0ZCU01PWGtkT1hxWnRTbDg?oc=5",
           "publisher": "Yeni Safak English",
-          "published_at": "2026-11-11T06:12:25Z",
+          "published_at": "2026-11-11T09:03:25Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -391,8 +430,8 @@
       ]
     },
     {
-      "id": "0ac261a7626b8f",
-      "headline_claim": "US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
+      "id": "cc822471a136f9",
+      "headline_claim": "Trump and Qatar PM hold 45-minute call on Iran negotiations - scanx.trade",
       "discovered_via": "Politiek & diplomatie",
       "other_search_labels": [
         "Politiek & diplomatie"
@@ -403,7 +442,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "jagran josh"
+        "scanx.trade"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -414,10 +453,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
-          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPNTJpd19EWjJ6dDhXVk8zUUswS1BnQUQ2TjQ0eFBhVXI5UmpEeVRsdElLUE40ZFJuTlUwUldrVnVONWJrUEpVS1RiUjJ6TEEzVVB2TjlDcndrejhsVHBKbmg0emF1OW1DcFpJSEkzYkdReVpkWF9FZnJFUkxhLU5pcGlUeHU4T0hmM0ROMFdlaGxCUjduME5ISnRHZkVIY1hqQjJHM09JNHFfOWQ4X3liTUVtUldXUVRueEhZckdpbVRpRDRXeURDaW1BZDlBR2NWdWY0cTJIR3d4T2hXZ3h6NFJqUXREb3JraHdhSnJ3M3R4ZVRLaXZ1bWgtUVRIazR1SllSaS1LRzd6dTJDZHVXQtIBlwJBVV95cUxPYXJjQ2JzUFp3a0Qxb2ZPV1EweTVOSkJpc1VFX1hROWJlZWNTN1piVFY5eER2ZHlJVUNQUVMwRi1heWlQa013VXZHZ3R1ZHgtRUhJM05odjVRSkRaXzhkbklnbDJ2dF9TeTNsai1hMlpsTnFjM21TMUVqd0djY0o4XzFPbGxrandTTjBvbkNDWHQ2b0ZSb0VzNktMa29rdmozd2FlZEdscTZiVWZ6SFB3MncxN28tSkRvdVA0MlN5LXN6REZDZ0V0RjdGRU5qUkVrV0R1QjZLeml3dGVYOEdHNFE1aExXcmVBU3JfQzlqTVFlZmNYeENGZGo1QXJlSjRyVUhYTUxuSlpGQkJPRm85UTV3N05TVG8?oc=5",
-          "publisher": "Jagran Josh",
-          "published_at": "2026-11-10T14:06:29Z",
+          "title": "Trump and Qatar PM hold 45-minute call on Iran negotiations - scanx.trade",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY2lkbXJHdURaYTk3Y0MweHJsZzlmSHhfOEY1RFZXMk4yQ1VOZ2RwaDZHRjh0OWI2ei1UU1Awcms0ZGhtS0cwVHp4WVdrSDdqWmRqVnpuaTFmcS15QVF2b0tzb0RGQzlPQkRISUliZm5hSDZWNUxTWDhrXzd2Qy10UDVpUkNsMHpSYlN2TnpBb2JzVmlOa0d4WE9pYnlubUlRVFQ2amxSMF9zTm95NF8wVUtoZ0dGVEk?oc=5",
+          "publisher": "scanx.trade",
+          "published_at": "2026-11-10T18:38:18Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -511,19 +550,19 @@
       ]
     },
     {
-      "id": "bd42ddc983b7fa",
-      "headline_claim": "Hormuz Shutdown Worsens After US Hits Iranian Warship; Tankers Stranded for Fifth Day - EnergyNow.com",
+      "id": "bff1aa4c122c60",
+      "headline_claim": "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
       "discovered_via": "Energie & grondstoffen",
       "other_search_labels": [
         "Energie & grondstoffen"
       ],
-      "publication_day": "2026-11-07",
+      "publication_day": "2026-11-11",
       "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "editorial_priority": "middel",
+      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
       "article_count": 1,
       "publisher_names": [
-        "energynow.com"
+        "crude oil prices today | oilprice.com"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -534,10 +573,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Hormuz Shutdown Worsens After US Hits Iranian Warship; Tankers Stranded for Fifth Day - EnergyNow.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQnppbk1GNDE4MHJ3aXRtay13TWV5NnFOTW1NMkE0RklyUGVaalVIRExqamwxNHZMNXZoZlVvTmJ6Yk1mWDd0cF8zUVR5Qk8zUFI2UENaczdjZjhPQXBsUWVUaHJjX2pPeERIc0VvR1NRdS1kY0pjT3JlN19XSlEtckZGMF9KeDhUMUp0eGROY21vd0R2SGRHa3dvMGotc19sUjFTb2ZtSXBnQzVTWGhMZ3p5YzNkQQ?oc=5",
-          "publisher": "EnergyNow.com",
-          "published_at": "2026-11-07T20:58:28Z",
+          "title": "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzdHRm52Q05MRjJYSFozaWFlRmdLcnRRckpFbDJZZFlIaEl4NFRLOThWMl9rSDFqNHpJTkkzRFJ5QmxxXzZQWUlnTHEyTWduS295YUc3bnpsbDJ1cG0zVVR3MmFaYVBZRDlUaHh3MHZDUVY3QmNEWXUtU01IWkdiSl94Q1J4Z2xmQldZaGJ3TEhSZ2VCeUJjR1FxVlRvLXNxUkxvVExpNWZEVWF3c0FudmlHd3JfeWPSAbwBQVVfeXFMT2tldk9nVGNmZWVfSTlwamwzeUdPX0luaWEyZkQySTlrOFpUZmxXRURyYlhXQ1FiZEpzaHJMaEJVZnVtX2RqVjNNTTBPbGR6QUh6dEl2TE1GM0ZwejU2RGZjaGdhUm1JaGpRVFlEZWdsU055RkhqUjc2RWVYaFcyQUFLREVla09ZbUZzZkVEYTRNY285Q0tjUS00U3dmN25TaDVSTGtmanpNcFU4bF9UV3piZVNaRUFLZS03MkE?oc=5",
+          "publisher": "Crude Oil Prices Today | OilPrice.com",
+          "published_at": "2026-11-11T18:00:00Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -575,19 +614,19 @@
       ]
     },
     {
-      "id": "9740c265b8ae52",
-      "headline_claim": "Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
+      "id": "7c0bcdcaa86cf9",
+      "headline_claim": "Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
       "discovered_via": "Bedrijfsleven & investeringen",
       "other_search_labels": [
         "Bedrijfsleven & investeringen"
       ],
-      "publication_day": "2026-11-09",
+      "publication_day": "2026-11-11",
       "publication_day_is_event_date": false,
       "editorial_priority": "middel",
       "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
       "article_count": 1,
       "publisher_names": [
-        "aerospace global news"
+        "yeni safak english"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -598,10 +637,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTlI3bkxodEtSWnE3ckF3ZV8tZ0s3QTJ6aE50R2l4V2xnbTA1Qlo2MFdtLVo2ekozYnVETHhjVmh5ZkpqTU9fdkJMa0w3M054d3BVMmR5YUh3SERmTjZQaHhOT21VQXhpdE9EYlpwRVlvR0VjS1BCWFowUllBR1NvZlFJMVp2ZGRZR29yaTV2ZkdEdw?oc=5",
-          "publisher": "Aerospace Global News",
-          "published_at": "2026-11-09T15:01:00Z",
+          "title": "Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPblEtVk5pY1c4RHVxN2I1ZHdmRjgyU05Qd19ZOHRaQ1otNWt0bU9kbXdKbzcycFpFdzdJbjlWZE91WFhoX1dSLUJNRXpVREpTbXZBVXZqTzZoZVVocVVaT2w3dENHamRFUUp2NE9SMnhGcHRFZUIxbkRNYVoxNXRPVlQzdDhNMGVrOWcwOVhIUQ?oc=5",
+          "publisher": "Yeni Safak English",
+          "published_at": "2026-11-11T06:12:25Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -727,8 +766,8 @@
       ]
     },
     {
-      "id": "78bce485377102",
-      "headline_claim": "Qatar says US, Iran give ‘positive responses’ to mediation efforts - Anadolu Ajansı",
+      "id": "0ac261a7626b8f",
+      "headline_claim": "US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
       "discovered_via": "Politiek & diplomatie",
       "other_search_labels": [
         "Politiek & diplomatie"
@@ -739,7 +778,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "anadolu ajansı"
+        "jagran josh"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -750,10 +789,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Qatar says US, Iran give ‘positive responses’ to mediation efforts - Anadolu Ajansı",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdmhqaE81aFJQckVUSnRLZ1FMTGZFSFhyOUcxNUEzS25MT3JKc01LMGRtLUFSNzEzZ2lLNTFEdG8ySDRacmd3NzJBMkVoSlJkVVNTOFltX3lGUk5TeDgzYTRiVGgxcHZWa1F0QUQza2JOQmEwaDVQVTN4amQ3cHplMWtLb2RrMERWOHdfQzN3QkpWcU9ST3M5c1o3dmF5RzY3dkpFNHdGMHpKRDlJQXpJVTFmb0hSQQ?oc=5",
-          "publisher": "Anadolu Ajansı",
-          "published_at": "2026-11-10T11:38:44Z",
+          "title": "US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPNTJpd19EWjJ6dDhXVk8zUUswS1BnQUQ2TjQ0eFBhVXI5UmpEeVRsdElLUE40ZFJuTlUwUldrVnVONWJrUEpVS1RiUjJ6TEEzVVB2TjlDcndrejhsVHBKbmg0emF1OW1DcFpJSEkzYkdReVpkWF9FZnJFUkxhLU5pcGlUeHU4T0hmM0ROMFdlaGxCUjduME5ISnRHZkVIY1hqQjJHM09JNHFfOWQ4X3liTUVtUldXUVRueEhZckdpbVRpRDRXeURDaW1BZDlBR2NWdWY0cTJIR3d4T2hXZ3h6NFJqUXREb3JraHdhSnJ3M3R4ZVRLaXZ1bWgtUVRIazR1SllSaS1LRzd6dTJDZHVXQtIBlwJBVV95cUxPYXJjQ2JzUFp3a0Qxb2ZPV1EweTVOSkJpc1VFX1hROWJlZWNTN1piVFY5eER2ZHlJVUNQUVMwRi1heWlQa013VXZHZ3R1ZHgtRUhJM05odjVRSkRaXzhkbklnbDJ2dF9TeTNsai1hMlpsTnFjM21TMUVqd0djY0o4XzFPbGxrandTTjBvbkNDWHQ2b0ZSb0VzNktMa29rdmozd2FlZEdscTZiVWZ6SFB3MncxN28tSkRvdVA0MlN5LXN6REZDZ0V0RjdGRU5qUkVrV0R1QjZLeml3dGVYOEdHNFE1aExXcmVBU3JfQzlqTVFlZmNYeENGZGo1QXJlSjRyVUhYTUxuSlpGQkJPRm85UTV3N05TVG8?oc=5",
+          "publisher": "Jagran Josh",
+          "published_at": "2026-11-10T14:06:29Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -832,23 +871,19 @@
       ]
     },
     {
-      "id": "3ba19b4585299c",
-      "headline_claim": "Hormuz LNG Traffic Hits Highest in October Since Iran War Began - EnergyNow.com",
+      "id": "94f619b9584ccf",
+      "headline_claim": "West of Suez: Brent, LSGO rebounds on lack of US-Iran deal - Quantum Commodity Intelligence",
       "discovered_via": "Energie & grondstoffen",
       "other_search_labels": [
-        "Energie & grondstoffen",
-        "Wereldhandel & logistiek"
+        "Energie & grondstoffen"
       ],
-      "publication_day": "2026-11-10",
+      "publication_day": "2026-11-11",
       "publication_day_is_event_date": false,
       "editorial_priority": "middel",
       "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "article_count": 5,
+      "article_count": 1,
       "publisher_names": [
-        "business recorder",
-        "energynow.com",
-        "reuters",
-        "the economic times"
+        "quantum commodity intelligence"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -859,38 +894,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Hormuz LNG Traffic Hits Highest in October Since Iran War Began - EnergyNow.com",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWjB3ZVJPOG0wd2JESVpFVlpCbS0ydC04OFhaZGVXN0dLVHpDMGpHUWhCZ1U1UnJVY2x5U2Jvb09LRXpDY1pqcHViOUhFdUNfZTlHSlVXM1BKMVYxZVBDM2pvQjlERjZ2cHpXek81VndjQ1A1bzB3Uzh1dTdiUWlvMVE4Zkg2MHdPVzdOOWZ6ajAwWUZCbDBjakZn?oc=5",
-          "publisher": "EnergyNow.com",
-          "published_at": "2026-11-10T16:01:21Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "Hormuz LNG traffic hits highest in October since Iran war began - Business Recorder",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMktsQUY4WjZhakh6aGtxMV9TV181cGhnVklaNTZnTnRhMy1jSVpGX1p3eDZ2NUVTTlBQUUNiaUdMa1M4dFVMRXAwN0V5UHJIRVNQYlpiR3JaUVlvdDh1VlNOT01pbE9SV3N1WEgwVms1Nlo2RF9pVm1GZ0FDaWlicEFkbGdxZXdhTWZRTHU5OG41SFk5UGk3bkpLX1F3NnNJVGg0blVR0gFWQVVfeXFMTTRmZXlkZ2xCYktJampVU19XU1FPdHlDOGU2UjhSRHpFekFWRHpHYm41TWlLbTJBZTVwNVdtS3VpYTdjLWhBU20wTmJnc0UxVk02eTZKRkE?oc=5",
-          "publisher": "Business Recorder",
-          "published_at": "2026-11-10T06:43:56Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "Hormuz LNG traffic hits highest in October since Iran war began - Business Recorder",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03MEVrVUQ5ZWQxUmx4bWVnQTdkQUhvVnAxdmFfUUlCMUpsU05QV2h0R09LRUdId3Z0Z3BtTkVEbDFGbFY0ZFExeEhoR3k2R1M50gFWQVVfeXFMTTRmZXlkZ2xCYktJampVU19XU1FPdHlDOGU2UjhSRHpFekFWRHpHYm41TWlLbTJBZTVwNVdtS3VpYTdjLWhBU20wTmJnc0UxVk02eTZKRkE?oc=5",
-          "publisher": "Business Recorder",
-          "published_at": "2026-11-10T06:43:56Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "Hormuz LNG traffic hits highest in October since Iran war began - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYS1wRnB5YlZ4b3lFVURkbENlZWE3MWdfa1dOTGZrbHdNX24ydXZWeW9hWFZ0QmFvZVE5VFdXQlNsa0tvRlhETFZMRTA3ZFNRcEQ1UnIzQnprRHMyWTNHZFYxUEpwMVZsRm5XVDBrcGd5SEdTNUt4ZjdQRnlESWZja28yTFZDSnYxUU4xU0kyemxPTzBaUGxuNmFBRm1XaWtkZHlyLXZaQXdUcWNyQ0FnRzNuVDlqM3JGZ0tPSDlObXJTZ0xDLWNXOUctQnpRa194ZWZMc1RYOHo1N1hNZEhFV9IB5gFBVV95cUxOVUVmdUV1NmxwM1d5U2V6WFdYRzlBQXhlNjVvNU14b1NqaUdZdFphLXJBMV9IX3k3SEdoRkMxbUtCQlJYc0NFV202bDllR2ZtNVQzQXVqRmZzWVlfT1JROEdxSHhucXJnTjZqbUVRa1djZG1qYTRfS1lHLTcxbVctQmc5R25UTklId1dXMWloeG1fUDcxYlk1SG9Ya3ozc1lhMHVFRVdzcWRpMlBnRUNPRlAwa09RMkxJY0MzVDMtcTF3azlpRWhMVnoxS2QzcU9nWW8tZ1dMQUp6ZHM1NThKcEY5czNtQQ?oc=5",
-          "publisher": "The Economic Times",
-          "published_at": "2026-11-10T04:30:13Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "Hormuz LNG traffic hits highest in October since Iran war began - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXRIOWVQTmcwYVdhbURkcUR6RGNkUHA1QVZhb0Jvc2xVa0RIQnVSdlRXQTZ5RFFhemxFYkY4bndDWHUyM0NUSTRVbzN6Z3NnOWIyRTBQazhYLXRmZUlMcnhUMDgydGJCdlp6cUc4ZUNUb3o3YWVXT1hxOFY5VFFIcUhrU3RlZFlSMnJGYWRfdGhXU2RVWlg2ZUl3TXg4VktPQWl2SThTcTZmTlc3MENKWWxB?oc=5",
-          "publisher": "Reuters",
-          "published_at": "2026-11-10T04:26:00Z",
+          "title": "West of Suez: Brent, LSGO rebounds on lack of US-Iran deal - Quantum Commodity Intelligence",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOEk3bGdIRVhwOWZQVXFkdDJfbXFNT3VfbUJZSWQ5OHlUSVNoR2J1MlJaUktrQTczU1oyOEZCQWVWVS1TY081aVdPeDZZYW9qTDU0MHdfWk5UX3ZvSzd0WFFTMTlwVHgwYTZJTjloS2xvcVVRU3lPanROQndyaHZUUkVtM2tEZlQzWmJPZVhJUjAzOFhmZVBLNWRObDdHX0cw?oc=5",
+          "publisher": "Quantum Commodity Intelligence",
+          "published_at": "2026-11-11T17:54:39Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -928,8 +935,8 @@
       ]
     },
     {
-      "id": "c6db3595609ce9",
-      "headline_claim": "Barclays expands in Saudi Arabia as rivals scale back across the Gulf - Scottish Financial News",
+      "id": "9740c265b8ae52",
+      "headline_claim": "Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
       "discovered_via": "Bedrijfsleven & investeringen",
       "other_search_labels": [
         "Bedrijfsleven & investeringen"
@@ -940,7 +947,7 @@
       "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
       "article_count": 1,
       "publisher_names": [
-        "scottish financial news"
+        "aerospace global news"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -951,10 +958,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Barclays expands in Saudi Arabia as rivals scale back across the Gulf - Scottish Financial News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbFhUX21YM1Z4YnNqY2VTaVMwcE4zd1lfWVBBZXB6RXpSTGZTZnc5YzROemlmdkZ0TkhFSzByVEJDRlFIZ1dyX0ZVRC1hVGppbjlkX1AxeGpucDF1Ukt2aDVDalZlQ3FEeWdJNVgwSmE5TkktQVlIZjRyT00xTkJKOGtHaDdHUkxRczhTXzJaRXpqZU9DNEJ3Y2loR1JieUgtNGF5WlNrZjJySzNCaU11MEJQdWhjRk0?oc=5",
-          "publisher": "Scottish Financial News",
-          "published_at": "2026-11-09T11:23:55Z",
+          "title": "Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTlI3bkxodEtSWnE3ckF3ZV8tZ0s3QTJ6aE50R2l4V2xnbTA1Qlo2MFdtLVo2ekozYnVETHhjVmh5ZkpqTU9fdkJMa0w3M054d3BVMmR5YUh3SERmTjZQaHhOT21VQXhpdE9EYlpwRVlvR0VjS1BCWFowUllBR1NvZlFJMVp2ZGRZR29yaTV2ZkdEdw?oc=5",
+          "publisher": "Aerospace Global News",
+          "published_at": "2026-11-09T15:01:00Z",
           "source_provider": "google_news_rss"
         }
       ]
