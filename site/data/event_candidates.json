@@ -1,17 +1,17 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-11T07:28:48.292773Z",
-  "fingerprint": "9df0e41ad560a60b750f7a2f",
+  "last_attempt_utc": "2026-11-11T13:24:42.559050Z",
+  "fingerprint": "48e55ab05339213bbbdb5708",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 21,
-  "event_candidate_count": 20,
+  "input_candidate_count": 22,
+  "event_candidate_count": 21,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 2,
+    "model_pair_proposals": 1,
     "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 1,
+    "rejected_pair_proposals": 0,
     "multi_claim_groups": 1,
     "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-11T07:28:48.292773Z",
+    "recorded_at": "2026-11-11T13:24:42.559050Z",
     "groups": [
       {
         "ids": [
@@ -48,20 +48,9 @@
       },
       {
         "ids": [
-          "aeb3339ffb3154"
+          "e7555912fbbd42"
         ],
-        "label_nl": "Claim: Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "9975cd4d07fde4"
-        ],
-        "label_nl": "Claim: Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
+        "label_nl": "Claim: Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC",
         "actor": "",
         "action": "",
         "place": "",
@@ -81,9 +70,9 @@
       },
       {
         "ids": [
-          "9740c265b8ae52"
+          "9811a6e6039638"
         ],
-        "label_nl": "Claim: Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
+        "label_nl": "Claim: India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight",
         "actor": "",
         "action": "",
         "place": "",
@@ -92,9 +81,20 @@
       },
       {
         "ids": [
-          "070cffe9ab582a"
+          "7c0bcdcaa86cf9"
         ],
-        "label_nl": "Claim: Trump wants to keep Iran blockade. Can the Persian Gulf sustain the standoff? - Iran International",
+        "label_nl": "Claim: Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "cdbcccd715dbe0"
+        ],
+        "label_nl": "Claim: Missile city unveiling sparks anger over poverty, lack of shelters - Iran International",
         "actor": "",
         "action": "",
         "place": "",
@@ -126,9 +126,9 @@
       },
       {
         "ids": [
-          "4a62bd62f728fc"
+          "aeb3339ffb3154"
         ],
-        "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
+        "label_nl": "Claim: Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
         "actor": "",
         "action": "",
         "place": "",
@@ -137,9 +137,9 @@
       },
       {
         "ids": [
-          "6738a21be33922"
+          "9975cd4d07fde4"
         ],
-        "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
+        "label_nl": "Claim: Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
         "actor": "",
         "action": "",
         "place": "",
@@ -159,9 +159,31 @@
       },
       {
         "ids": [
-          "b1abcdbee39f00"
+          "d9e000219d109f"
         ],
-        "label_nl": "Claim: Iran faces economic attrition under US blockade, economist warns - Iran International",
+        "label_nl": "Claim: Why is Iran stepping up tanker attacks amid peace talks? The high-risk strategy behind the Hormuz escalation - Gulf News",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "9740c265b8ae52"
+        ],
+        "label_nl": "Claim: Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "070cffe9ab582a"
+        ],
+        "label_nl": "Claim: Trump wants to keep Iran blockade. Can the Persian Gulf sustain the standoff? - Iran International",
         "actor": "",
         "action": "",
         "place": "",
@@ -192,9 +214,9 @@
       },
       {
         "ids": [
-          "ebde0f9b4c659f"
+          "78bce485377102"
         ],
-        "label_nl": "Claim: Trump says fresh strikes on Iran ‘highly unlikely’ if peace talks progress - Georgia Today",
+        "label_nl": "Claim: Qatar says US, Iran give ‘positive responses’ to mediation efforts - Anadolu Ajansı",
         "actor": "",
         "action": "",
         "place": "",
@@ -214,9 +236,9 @@
       },
       {
         "ids": [
-          "e7555912fbbd42"
+          "6738a21be33922"
         ],
-        "label_nl": "Claim: Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - Reuters",
+        "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
         "actor": "",
         "action": "",
         "place": "",
@@ -233,41 +255,31 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "fec354d965644a"
-        ],
-        "label_nl": "Claim: Smuggled Iraqi oil refined in Iran, sold abroad to evade US sanctions - report - Iran International",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       }
     ],
     "input_claim_ids": [
       "326c6ace872075",
       "aaba81f4d07f24",
-      "aeb3339ffb3154",
-      "9975cd4d07fde4",
+      "e7555912fbbd42",
       "76245c595230d4",
-      "9740c265b8ae52",
-      "070cffe9ab582a",
+      "9811a6e6039638",
+      "7c0bcdcaa86cf9",
+      "cdbcccd715dbe0",
       "f832294769ec0d",
       "9ff229f67d3bbd",
       "0ac261a7626b8f",
-      "4a62bd62f728fc",
-      "6738a21be33922",
+      "aeb3339ffb3154",
+      "9975cd4d07fde4",
       "bd42ddc983b7fa",
-      "b1abcdbee39f00",
+      "d9e000219d109f",
+      "9740c265b8ae52",
+      "070cffe9ab582a",
       "b8087b2b94bc57",
       "acccd138488d4e",
-      "ebde0f9b4c659f",
+      "78bce485377102",
       "0952af4d82e05a",
-      "e7555912fbbd42",
-      "3ba19b4585299c",
-      "fec354d965644a"
+      "6738a21be33922",
+      "3ba19b4585299c"
     ]
   },
   "official_sources_available": 15,
@@ -381,16 +393,16 @@
       "probability_estimate": null
     },
     {
-      "id": "25712795fc5ac4ac43402790",
-      "label_nl": "Claim: Iran faces economic attrition under US blockade, economist warns - Iran International",
+      "id": "72e17e86f563c2b2b854dc21",
+      "label_nl": "Claim: Why is Iran stepping up tanker attacks amid peace talks? The high-risk strategy behind the Hormuz escalation - Gulf News",
       "headline_claim_ids": [
-        "b1abcdbee39f00"
+        "d9e000219d109f"
       ],
       "headline_claims": [
-        "Iran faces economic attrition under US blockade, economist warns - Iran International"
+        "Why is Iran stepping up tanker attacks amid peace talks? The high-risk strategy behind the Hormuz escalation - Gulf News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBxbEE5T2p1eDZ2U0wwRWZhcXBHengwalhVcXFLdVhmNEJRTl9KWVd5MF9Yck9TR3Bmc2dYcWFyeEJNRXlUaWU1WkN3WmRhX3A1aUE?oc=5"
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb0l4VTllSmlOcGdsX3VFTXN3TEg3TThKZFJfWHV2REJBTHctRThmRV9EVjNwY0t6RlJUclFMN3Z1UzJXLTYwZERuZWpwdU12enRRbWlHTGR2RElERDQtejFMRnJNSjRMR3dIVzExbFdwQ0I3SnhEMzZSZlR6NURrdVQ4NkxMWU9nMGt5ZkcwRmtWVXNOMVJYdzZFc3VVTHJDX25RQUdjano1RkZuUkRMYTZLU1phMzdNdzlSTklqb3p3eUVQSGFNZF85VlRleHNMSTBKajJnTTR0UE5z0gHvAUFVX3lxTE43TUNKN0NIVHFCdXBCV2VfMFA3WnJiTU4wamd0VkRUa3E5SGl1WlJCbm5NZ0RkU3RTck4tcmlZYVEyOTBjVXhzNkRNNWJReWhmUzF3Z2FkazF1bGFyS1FzSGg4WFZMcS1TeGxINzV3ajZUYUUzUUs2bW5qOWc0TkFOTGFXQ0loSUdiM0dqS25YLXc1dXB5eVBTTlpBdnFUdmNOZGtiRWhCdWpvQXpEUXlUaHNJTk9wTVJSSWpSVG54b2N4U2ltSkktYVg4b0xhbFVQUnY3UUx6S1QzakEyUUtkOGhRck0wUXlzdlFCa0F3?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -496,6 +508,34 @@
       "probability_estimate": null
     },
     {
+      "id": "99282ce9eb9ae0c836a1750b",
+      "label_nl": "Claim: Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC",
+      "headline_claim_ids": [
+        "e7555912fbbd42"
+      ],
+      "headline_claims": [
+        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazZ2WlZKeGZNYjh5YjBSZW1ORURVWjNfel93b0Z0VjAtRmJHUFJBNjRqYVlrS05ycE1qcEMyZXduQy1hci1heF9pUktMcm16LWtXZDlPM212RjNQbUJfdlk1cC1wc1N2aTVJT09iVWxYV3M5TDlUWXI4cGFKdEpMZVk1dk9lU282aHVETk9EVFItaWtzZ0t4QXhLdUlWbUljZ05uT3NQYmR1c3UyTUUwME51ZFh2dXM?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
+        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "eeca466d7932869bc1785246",
       "label_nl": "Claim: US strike near Hormuz puts NZ fuel and fertiliser at risk - B2B News",
       "headline_claim_ids": [
@@ -506,6 +546,110 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMijgFBVV95cUxON1RiU3dlUk44dWFLbFNfNDFwcnpYNVNSaTdhSVdpT0ZnblBPeGFFXzJGWUk4NVpuQVQ1eGVzVEdhbGNYV0Fnd0xOeEJRZUxGMkhlWl9QUHoxenV4aFpGX3AyTGpZbXZuOGp4RHZiRkFqZ3c0Mkd6MVFmQXNoMnRxakE0UTlxemtXLUotQ2x3?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "fbe1940a3fde6b91ec20828c",
+      "label_nl": "Claim: India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight",
+      "headline_claim_ids": [
+        "9811a6e6039638"
+      ],
+      "headline_claims": [
+        "India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaldNcGR6RGN3UF9ZS0NVZkxnSEEyY2MxeU1vcktCTW5HVTdrQlIzbFI2OEVjSUtvc2s5MnYwVTF1amZ2dnBwdlJobXJldUxSY09OUGtCSWhlcVprTG5feWJiZWZaQUJ6U2NFMTVqQkZqLUJ6WmNaNGU5ajJmR01hd1pBQkZ2NVk?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "c3034c595330464eb35994da",
+      "label_nl": "Claim: Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
+      "headline_claim_ids": [
+        "7c0bcdcaa86cf9"
+      ],
+      "headline_claims": [
+        "Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPblEtVk5pY1c4RHVxN2I1ZHdmRjgyU05Qd19ZOHRaQ1otNWt0bU9kbXdKbzcycFpFdzdJbjlWZE91WFhoX1dSLUJNRXpVREpTbXZBVXZqTzZoZVVocVVaT2w3dENHamRFUUp2NE9SMnhGcHRFZUIxbkRNYVoxNXRPVlQzdDhNMGVrOWcwOVhIUQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "f463d125a8e2ee4a8192eac2",
+      "label_nl": "Claim: Missile city unveiling sparks anger over poverty, lack of shelters - Iran International",
+      "headline_claim_ids": [
+        "cdbcccd715dbe0"
+      ],
+      "headline_claims": [
+        "Missile city unveiling sparks anger over poverty, lack of shelters - Iran International"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92QWYzSHl4UjR6bWJWNG9EMG5oa0dRV1UwLWw0el82aEwyaWdldExBZk9KNGN5RnFsNzE2ZndiZjJrYmppejFkT01aZ2Rlc3NIbUE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "055371bdd282bc1e9514db69",
+      "label_nl": "Claim: US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
+      "headline_claim_ids": [
+        "0ac261a7626b8f"
+      ],
+      "headline_claims": [
+        "US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMikAJBVV95cUxPNTJpd19EWjJ6dDhXVk8zUUswS1BnQUQ2TjQ0eFBhVXI5UmpEeVRsdElLUE40ZFJuTlUwUldrVnVONWJrUEpVS1RiUjJ6TEEzVVB2TjlDcndrejhsVHBKbmg0emF1OW1DcFpJSEkzYkdReVpkWF9FZnJFUkxhLU5pcGlUeHU4T0hmM0ROMFdlaGxCUjduME5ISnRHZkVIY1hqQjJHM09JNHFfOWQ4X3liTUVtUldXUVRueEhZckdpbVRpRDRXeURDaW1BZDlBR2NWdWY0cTJIR3d4T2hXZ3h6NFJqUXREb3JraHdhSnJ3M3R4ZVRLaXZ1bWgtUVRIazR1SllSaS1LRzd6dTJDZHVXQtIBlwJBVV95cUxPYXJjQ2JzUFp3a0Qxb2ZPV1EweTVOSkJpc1VFX1hROWJlZWNTN1piVFY5eER2ZHlJVUNQUVMwRi1heWlQa013VXZHZ3R1ZHgtRUhJM05odjVRSkRaXzhkbklnbDJ2dF9TeTNsai1hMlpsTnFjM21TMUVqd0djY0o4XzFPbGxrandTTjBvbkNDWHQ2b0ZSb0VzNktMa29rdmozd2FlZEdscTZiVWZ6SFB3MncxN28tSkRvdVA0MlN5LXN6REZDZ0V0RjdGRU5qUkVrV0R1QjZLeml3dGVYOEdHNFE1aExXcmVBU3JfQzlqTVFlZmNYeENGZGo1QXJlSjRyVUhYTUxuSlpGQkJPRm85UTV3N05TVG8?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -574,19 +718,20 @@
       "probability_estimate": null
     },
     {
-      "id": "055371bdd282bc1e9514db69",
-      "label_nl": "Claim: US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
+      "id": "f2fd026e156dbc1823a8dd35",
+      "label_nl": "Claim: Iran suggests blasts are not U.S. attacks as both sides report ships hit - The Japan Times",
       "headline_claim_ids": [
-        "0ac261a7626b8f"
+        "acccd138488d4e"
       ],
       "headline_claims": [
-        "US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh"
+        "Iran suggests blasts are not U.S. attacks as both sides report ships hit - The Japan Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAJBVV95cUxPNTJpd19EWjJ6dDhXVk8zUUswS1BnQUQ2TjQ0eFBhVXI5UmpEeVRsdElLUE40ZFJuTlUwUldrVnVONWJrUEpVS1RiUjJ6TEEzVVB2TjlDcndrejhsVHBKbmg0emF1OW1DcFpJSEkzYkdReVpkWF9FZnJFUkxhLU5pcGlUeHU4T0hmM0ROMFdlaGxCUjduME5ISnRHZkVIY1hqQjJHM09JNHFfOWQ4X3liTUVtUldXUVRueEhZckdpbVRpRDRXeURDaW1BZDlBR2NWdWY0cTJIR3d4T2hXZ3h6NFJqUXREb3JraHdhSnJ3M3R4ZVRLaXZ1bWgtUVRIazR1SllSaS1LRzd6dTJDZHVXQtIBlwJBVV95cUxPYXJjQ2JzUFp3a0Qxb2ZPV1EweTVOSkJpc1VFX1hROWJlZWNTN1piVFY5eER2ZHlJVUNQUVMwRi1heWlQa013VXZHZ3R1ZHgtRUhJM05odjVRSkRaXzhkbklnbDJ2dF9TeTNsai1hMlpsTnFjM21TMUVqd0djY0o4XzFPbGxrandTTjBvbkNDWHQ2b0ZSb0VzNktMa29rdmozd2FlZEdscTZiVWZ6SFB3MncxN28tSkRvdVA0MlN5LXN6REZDZ0V0RjdGRU5qUkVrV0R1QjZLeml3dGVYOEdHNFE1aExXcmVBU3JfQzlqTVFlZmNYeENGZGo1QXJlSjRyVUhYTUxuSlpGQkJPRm85UTV3N05TVG8?oc=5"
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpaU90d2I2eTJOY3lpRFJmOTBIanhmNU1qOVBBdTN5eFkwN2t0WlhVS0dxemdzR21CdTRwbmxjUG9uY3RiOXZVVlpCUzAyblBYdVVhc29IU2lMaVdPdUhQZWY4c2lNaE52QVFFd1BzUXNOd3lSc25CUXEzNV8?oc=5",
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yb2tXOU8xYVdDamJadUpxZ3ViUVhucWRqVWpKcXRvN0pHSWdNVFZHSTZqNGJUM1RkZTExVFlMbG1uQVY3M0RCTlBUOU56ZWdTMVJTZi0xemtfcXN0aFozZlVZNHNwMVFjUU1iT19OSkppZUhfalBycmRwZmI?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -600,16 +745,16 @@
       "probability_estimate": null
     },
     {
-      "id": "4eba70a54447af3a928896b1",
-      "label_nl": "Claim: Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint",
+      "id": "3e70ff7f7c0775b8927e3502",
+      "label_nl": "Claim: Qatar says US, Iran give ‘positive responses’ to mediation efforts - Anadolu Ajansı",
       "headline_claim_ids": [
-        "4a62bd62f728fc"
+        "78bce485377102"
       ],
       "headline_claims": [
-        "Risk Of Attacks Rises In Middle East, US Warns Citizens Including In UAE - UrduPoint"
+        "Qatar says US, Iran give ‘positive responses’ to mediation efforts - Anadolu Ajansı"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeFlleGE0RGJ4bDJkbVU3ekIxRGZubGd3MUNnS2lEV2RBT0hqLVBlSFhZMU80ckVqU2tFYjNVUlJwTlA1aVZKMXNRYjBRWThvT2xCb3k4SWNXbXJEWWgyT1FSYTVpU2N4UUE0OTdWaFRneTQ5YXU2Z3VHWTYxRjRpcDF5b0tfREpfVjVtQ3FhSmdoamlvS3BCYUlIaWU?oc=5"
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdmhqaE81aFJQckVUSnRLZ1FMTGZFSFhyOUcxNUEzS25MT3JKc01LMGRtLUFSNzEzZ2lLNTFEdG8ySDRacmd3NzJBMkVoSlJkVVNTOFltX3lGUk5TeDgzYTRiVGgxcHZWa1F0QUQza2JOQmEwaDVQVTN4amQ3cHplMWtLb2RrMERWOHdfQzN3QkpWcU9ST3M5c1o3dmF5RzY3dkpFNHdGMHpKRDlJQXpJVTFmb0hSQQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -653,86 +798,6 @@
       "probability_estimate": null
     },
     {
-      "id": "f2fd026e156dbc1823a8dd35",
-      "label_nl": "Claim: Iran suggests blasts are not U.S. attacks as both sides report ships hit - The Japan Times",
-      "headline_claim_ids": [
-        "acccd138488d4e"
-      ],
-      "headline_claims": [
-        "Iran suggests blasts are not U.S. attacks as both sides report ships hit - The Japan Times"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpaU90d2I2eTJOY3lpRFJmOTBIanhmNU1qOVBBdTN5eFkwN2t0WlhVS0dxemdzR21CdTRwbmxjUG9uY3RiOXZVVlpCUzAyblBYdVVhc29IU2lMaVdPdUhQZWY4c2lNaE52QVFFd1BzUXNOd3lSc25CUXEzNV8?oc=5",
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yb2tXOU8xYVdDamJadUpxZ3ViUVhucWRqVWpKcXRvN0pHSWdNVFZHSTZqNGJUM1RkZTExVFlMbG1uQVY3M0RCTlBUOU56ZWdTMVJTZi0xemtfcXN0aFozZlVZNHNwMVFjUU1iT19OSkppZUhfalBycmRwZmI?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "62675001f68d98e247f960b9",
-      "label_nl": "Claim: Trump says fresh strikes on Iran ‘highly unlikely’ if peace talks progress - Georgia Today",
-      "headline_claim_ids": [
-        "ebde0f9b4c659f"
-      ],
-      "headline_claims": [
-        "Trump says fresh strikes on Iran ‘highly unlikely’ if peace talks progress - Georgia Today"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxNbFdvUXNVcUpYWlFwQ2xkRV9JUHRvWGxFd3d5bERoSk85TXpvUUVKNmt5WEFaMnNpRTh3STMzY01uZXNzU1N1OXJmNzQ0aHhVV1RETFlzQi1ZNkhEeVItRnZjZTZfRElKZGdwUXpQc1Q2NFNLS2JjMklFTDlRX1lfVW1UYWYtbXp6cy1lNFBXVGJGMzFpcEtMSGdFVU93Zw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "99282ce9eb9ae0c836a1750b",
-      "label_nl": "Claim: Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - Reuters",
-      "headline_claim_ids": [
-        "e7555912fbbd42"
-      ],
-      "headline_claims": [
-        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - Reuters"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
-        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "8a7c626237f74e4bd6d0586f",
       "label_nl": "Claim: Hormuz LNG Traffic Hits Highest in October Since Iran War Began - EnergyNow.com",
       "headline_claim_ids": [
@@ -750,32 +815,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 5,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "d4b6bce7330a81f85bf01c62",
-      "label_nl": "Claim: Smuggled Iraqi oil refined in Iran, sold abroad to evade US sanctions - report - Iran International",
-      "headline_claim_ids": [
-        "fec354d965644a"
-      ],
-      "headline_claims": [
-        "Smuggled Iraqi oil refined in Iran, sold abroad to evade US sanctions - report - Iran International"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HVTJ0MmRfbFI2ckVBeUFiemo1dVFiWHdLQVdCMFh6MWNvYWdjeXdJSTRDYkQtVVZkZDZLaEIzUi1WeWIwOW1HajNOVk5nbWdLR3c?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -825,8 +864,8 @@
       "total_tokens": 33173
     },
     "2026-11-11": {
-      "requests": 6,
-      "total_tokens": 16316
+      "requests": 9,
+      "total_tokens": 23889
     }
   }
 }
