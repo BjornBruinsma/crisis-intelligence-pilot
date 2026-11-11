@@ -1,173 +1,182 @@
 {
-  "generated_at": "2026-11-11T08:00:13.645929Z",
+  "generated_at": "2026-11-11T08:41:55.954978Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 4,
+  "candidate_count": 5,
   "recommendation_counts": {
-    "reserve": 3,
-    "publish": 1
+    "publish": 1,
+    "reserve": 4
   },
   "stories": [
     {
-      "id": "c3d2da245a6861",
-      "editorial_score": 90,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a factual research note on the event “Thousands of rare wildflowers rescued from eroding Scottish coast,” based on primary or near-primary sources and independent verification where available:\n\n---\n\n## What happened\n\n- **What was moved:** Around **3,400** plants of the *One-flowered Wintergreen* (*Moneses uniflora*), a rare woodland wildflower found only in northeastern Scotland. ([goodnewsforthe.uk](https://goodnewsforthe.uk/story/8966/conservationists-rescue-3400-rare-one-flowered-wintergreens-from-eroding-moray-coastline?utm_source=openai))  \n- **Why:** These plants were located on a stretch of coastline at **Culbin Sands** (Moray, near Findhorn) threatened by coastal erosion. The land was under imminent risk of being lost to the sea. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n- **Who carried out the work:** The rescue/relocation was done by a partnership including Plantlife Scotland, Forestry and Land Scotland, NatureScot, with help from volunteers. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n- **Where the plants were moved to:** A more secure site within **Culbin Forest**—i.e. inland relative to the beach edge. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n\n---\n\n## Measured outcome vs. uncertainties\n\n- **Completed outcome:** The physical relocation of the ~3,400 *One-flowered Wintergreen* plants is completed. ([goodnewsforthe.uk](https://goodnewsforthe.uk/story/8966/conservationists-rescue-3400-rare-one-flowered-wintergreens-from-eroding-moray-coastline?utm_source=openai))  \n- **Unknowns:**\n  - It is **not yet known** how many of those plants will survive in their new location. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n  - Whether they will produce new seed or reestablish is also not yet established. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n\n---\n\n## Context & Conservation Status\n\n- More than **half** the UK’s population of this wildflower has been lost over the last **50 years**. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n- The plant typically grows in **pine woodland soils**—especially those rich in fungal networks (mycorrhizae)—and is sensitive to drying trends or disturbance. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n- Scotland acknowledges *One-flowered Wintergreen* as endangered, present at only about **seven sites** in Scotland, only some of which host healthy populations. ([presscentre.nature.scot](https://presscentre.nature.scot/news/scotland-sows-the-seed-to-save-the-nations-plants?utm_source=openai))  \n\n---\n\n## Independent verification & source type\n\n- The original/primary reporting appears to come from **BBC News** (10 Nov 2026), which describes directly the rescue of ~3,400 plants. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n- NatureScot has published photos and announcements confirming that this recent rescue is a conservation translocation effort for *One-flowered Wintergreen*. ([presscentre.nature.scot](https://presscentre.nature.scot/resources/endangered-plant-rescue-copyright-richard-spowartnaturescot?utm_source=openai))  \n- Multiple independent outlets (Tazzora, Good News for the UK, etc.) have repeated details consistent with the BBC/NatureScot version, though these seem derivative rather than additional primary investigations. ([goodnewsforthe.uk](https://goodnewsforthe.uk/story/8966/conservationists-rescue-3400-rare-one-flowered-wintergreens-from-eroding-moray-coastline?utm_source=openai))  \n\n---\n\n## Conclusion\n\n- This is a **real, completed conservation intervention**, not merely a proposal: ~3,400 one-flowered wintergreen plants were physically translocated from an eroding coastal area to a safer woodland location.  \n- However, the **success** of the intervention in terms of long-term survival, reproduction, and genetic viability remains **unmeasured at this stage**.  \n- The species remains under threat nationally, making this move potentially valuable and urgent.\n\n---\n\nIf you like, I can follow up later to see monitoring data (survival or seed set) once it becomes available.",
-      "citations": [
-        {
-          "title": "Conservationists rescue 3,400 rare one-flowered wintergreens from eroding Moray coastline | Good News For The UK",
-          "url": "https://goodnewsforthe.uk/story/8966/conservationists-rescue-3400-rare-one-flowered-wintergreens-from-eroding-moray-coastline?utm_source=openai"
-        },
-        {
-          "title": "About 3,400 rare wintergreens were moved off an eroding Scottish beach · Tazzora",
-          "url": "https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai"
-        },
-        {
-          "title": "Scotland sows the seed to save the nation’s plants",
-          "url": "https://presscentre.nature.scot/news/scotland-sows-the-seed-to-save-the-nations-plants?utm_source=openai"
-        },
-        {
-          "title": "Endangered plant rescue. Copyright Richard Spowart/NatureScot",
-          "url": "https://presscentre.nature.scot/resources/endangered-plant-rescue-copyright-richard-spowartnaturescot?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "completed",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Rare wildflowers relocated from eroding Scottish coastline",
-      "verified_summary": "Approximately 3,400 rare *One-flowered Wintergreen* plants were successfully relocated from an eroding coastal area to a safer woodland site in Scotland. The long-term survival and reproductive success of these plants remain unmeasured.",
-      "verification_note": "The relocation of the plants is confirmed, but their future viability is uncertain. The evidence comes from multiple sources, primarily reporting on the same event.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "a6d315250b6ba7",
-      "editorial_score": 90,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a factual research note on the event described:\n\n---\n\n## What Actually Happened\n\n- **Completion/Operational Status**  \n  Tata Power has deployed and commissioned *60 MWh* of Battery Energy Storage Systems (BESS) that are *operational* at three locations in Mumbai: Mahalaxmi, Saki, and Mankhurd. ([tatapower.com](https://www.tatapower.com/news-and-media/media-releases/tata-power-deploys-60-mwh-of-battery-energy-storage-systems--bess-to-strengthen-mumbai-s-power-reliability?utm_source=openai))\n\n- **Service Area and Beneficiaries**  \n  The distribution network served by these installations caters to *over 8 lakh* (800,000+) consumers in Mumbai. ([tatapower.com](https://www.tatapower.com/news-and-media/media-releases/tata-power-deploys-60-mwh-of-battery-energy-storage-systems--bess-to-strengthen-mumbai-s-power-reliability?utm_source=openai))\n\n- **Operational Details**  \n  The systems are grid-connected and decentralized. Key functionalities include:\n  - **Energy arbitrage**: storing electricity during lower-cost solar-generation hours and discharging during evening peak demand. ([tatapower.com](https://www.tatapower.com/news-and-media/media-releases/tata-power-deploys-60-mwh-of-battery-energy-storage-systems--bess-to-strengthen-mumbai-s-power-reliability?utm_source=openai))  \n  - **Fast-response and high ramp-rate capability** to respond to fluctuations in demand. ([energetica-india.net](https://www.energetica-india.net/news/tata-power-deploys-60-mwh-bess-across-three-locations-in-mumbai?utm_source=openai))  \n  - **Operating cycles** estimated at approximately *1 to 1.5 cycles per day*. ([tatapower.com](https://www.tatapower.com/news-and-media/media-releases/tata-power-deploys-60-mwh-of-battery-energy-storage-systems--bess-to-strengthen-mumbai-s-power-reliability?utm_source=openai))  \n  - **Black-start functionality** to help in restoring power during grid disturbances without relying entirely on external grid power. ([tatapower.com](https://www.tatapower.com/news-and-media/media-releases/tata-power-deploys-60-mwh-of-battery-energy-storage-systems--bess-to-strengthen-mumbai-s-power-reliability?utm_source=openai))\n\n- **Regulatory Approval and Longer-term Plan**  \n  In April 2025, Tata Power received approval from the Maharashtra Electricity Regulatory Commission (MERC) to deploy *200 MWh* of BESS across *10 strategic locations* in Mumbai. The 60 MWh just deployed is part of that broader initiative. ([tatapower.com](https://www.tatapower.com/news-and-media/media-releases/tata-power-deploys-60-mwh-of-battery-energy-storage-systems--bess-to-strengthen-mumbai-s-power-reliability?utm_source=openai))\n\n---\n\n## What Is Not Established / Pending\n\n- **Cost, Suppliers, Exact Configuration**  \n  The sources do **not** provide details about project costs, supplier names, or site-specific breakdowns (how much capacity is installed at each of the three locations). ([esgbroadcast.com](https://esgbroadcast.com/broadcast/tata-power-reports-60-mwh-of-bess-operational-in-mumbai/?utm_source=openai))\n\n- **Measured Outcomes or Independent Verification**  \n  No published data yet on:\n  - Actual power savings, cost savings, or emissions reductions achieved to date.  \n  - Performance verified by independent third parties beyond Tata Power’s own claims.  \n  - Duration of actual deployment timeline for the remaining 140 MWh under the 200 MWh approved plan. ([esgbroadcast.com](https://esgbroadcast.com/broadcast/tata-power-reports-60-mwh-of-bess-operational-in-mumbai/?utm_source=openai))\n\n---\n\n## Sources\n\n- **Primary / Official Source:**  \n  Tata Power’s media release, titled *“Tata Power deploys 60 MWh of Battery Energy Storage Systems (BESS) to strengthen Mumbai’s power reliability”*, published 6 November 2026. ([tatapower.com](https://www.tatapower.com/news-and-media/media-releases/tata-power-deploys-60-mwh-of-battery-energy-storage-systems--bess-to-strengthen-mumbai-s-power-reliability?utm_source=openai))\n\n- **Independent Sources:**  \n  - *Economictimes / ETEnergyworld*, reporting on the operationalization and use cases. ([energy.economictimes.indiatimes.com](https://energy.economictimes.indiatimes.com/news/power/tata-power-installs-60-mwh-energy-storage-projects-in-mumbai/135605375?utm_source=openai))  \n  - *Energetica India Magazine*, *SolarQuarter*, *Renewable Watch*, and others that relay the same set of facts. ([energetica-india.net](https://www.energetica-india.net/news/tata-power-deploys-60-mwh-bess-across-three-locations-in-mumbai?utm_source=openai))\n\n---\n\n## Summary\n\n- ✅ **Confirmed**: 60 MWh of battery storage is fully operational (i.e. installed and running) in Mumbai (three sites: Mahalaxmi, Saki, Mankhurd).  \n- ✅ **Confirmed plan**: This is part of a larger 200 MWh deployment across 10 locations, approved in April 2025.  \n- ❓ **Pending / not confirmed**: precise performance metrics, financial or emissions outcomes, supplier details, and status of the remaining capacity still being built or deployed.\n\n---\n\nIf you want, I can try to find or track later reports to see how this project performs in practice (cost savings, emissions, reliability improvements, etc.).",
-      "citations": [
-        {
-          "title": "Tata Power deploys 60 MWh of Battery Energy Storage Systems (BESS) to strengthen Mumbai’s power reliability",
-          "url": "https://www.tatapower.com/news-and-media/media-releases/tata-power-deploys-60-mwh-of-battery-energy-storage-systems--bess-to-strengthen-mumbai-s-power-reliability?utm_source=openai"
-        },
-        {
-          "title": "Tata Power Deploys 60 MWh BESS Across Three Locations in Mumbai - Asia Pacific | Energetica India Magazine",
-          "url": "https://www.energetica-india.net/news/tata-power-deploys-60-mwh-bess-across-three-locations-in-mumbai?utm_source=openai"
-        },
-        {
-          "title": "Tata Power reports 60 MWh of BESS operational in Mumbai",
-          "url": "https://esgbroadcast.com/broadcast/tata-power-reports-60-mwh-of-bess-operational-in-mumbai/?utm_source=openai"
-        },
-        {
-          "title": "Tata Power Boosts Mumbai's Energy Storage with 60 MWh Installation, ETEnergyworld",
-          "url": "https://energy.economictimes.indiatimes.com/news/power/tata-power-installs-60-mwh-energy-storage-projects-in-mumbai/135605375?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "completed",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Tata Power Deploys 60 MWh Battery Storage in Mumbai",
-      "verified_summary": "Tata Power has successfully deployed 60 MWh of battery energy storage systems across three locations in Mumbai, benefiting over 800,000 consumers. This deployment is part of a larger initiative to enhance power reliability.",
-      "verification_note": "While the deployment is confirmed, specific performance metrics and independent verification of outcomes are still pending.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "c6b462cd94dd68",
+      "id": "a32dcd9f1eefc9",
       "editorial_score": 85,
       "editorial_decision": "reserve",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Below is a factual research note, based on primary and independent sources, summarizing what is known as of **11 November 2026** regarding recovery efforts in Tesso Nilo National Park (Taman Nasional Tesso Nilo, Riau Province, Indonesia). This covers outcomes—not just plans or pledges—and distinguishes between measured progress and ongoing initiatives.\n\n---\n\n### What actually happened: measured outcomes\n\nFrom recent announcements by Indonesia’s Ministry of Forestry (Kemenhut) and allied agencies:\n\n- **Biodiversity indicators improved**: Camera traps registered increases in wildlife species in Tesso Nilo during the period 2024–2026. The number of species detected rose from **17 in 2024**, to **20 in 2025**, and **25 in 2026**. Among those species are key, protected ones: the Sumatran elephant, Sumatran tiger, tapir, sun bear (beruang madu), and sambar deer. ([kehutanan.go.id](https://www.kehutanan.go.id/news/kemenhut-fokus-pulihkan-taman-nasional-tesso-nilo-hasilnya-nyata?utm_source=openai))\n\n- **Illegal oil palm eradication**:  \n  - A **401-hectare** area of oil palm plantation in Desa Segati, Pelalawan, was cleared under coordinated action involving the Satgas PKH and Kemenhut. This occurred on or about **29 June 2025**. ([antaranews.com](https://www.antaranews.com/berita/4933545/satgas-pkh-dan-kemenhut-tumbangkan-sawit-seluas-401-ha-di-tesso-nilo?utm_source=openai))  \n  - Another action removed **311 hectares** of oil palm on **2 July 2025**. ([antaranews.com](https://www.antaranews.com/berita/4951641/menhut-pemerintah-siapkan-lahan-relokasi-warga-bekas-tn-tesso-nilo?utm_source=openai))  \n  - As of early-mid November 2026, illegal oil palm has been destroyed on **1,101.1 hectares** inside the conservation area. ([kehutanan.go.id](https://www.kehutanan.go.id/news/kemenhut-fokus-pulihkan-taman-nasional-tesso-nilo-hasilnya-nyata?utm_source=openai))\n\n- **Land recovery and conservation enforcement**:  \n  - Government agencies reclaimed **7,723.61 hectares** of conservation land by November 2026. ([kehutanan.go.id](https://www.kehutanan.go.id/news/kemenhut-fokus-pulihkan-taman-nasional-tesso-nilo-hasilnya-nyata?utm_source=openai))  \n  - Construction of patrol infrastructure: 9 out of a target of 14 guard posts have been built. Enforcement patrols are active, involving more than **190 personnel** (150 from TNI, 25 from Balai TN Tesso Nilo, and 18 from the conservation area security unit). ([kehutanan.go.id](https://www.kehutanan.go.id/news/kemenhut-fokus-pulihkan-taman-nasional-tesso-nilo-hasilnya-nyata?utm_source=openai))\n\n- **Community relocation and social measures**:  \n  - In December 2025, **227 families** were relocated from within the national park, covering a palm oil plantation of about **6,330.78 hectares**. ([en.antaranews.com](https://en.antaranews.com/news/397624/govt-has-relocated-227-families-from-tesso-nilo-national-park?utm_source=openai))  \n  - Authorities have prepared **8,077 hectares** of land to facilitate relocation of affected residents. ([en.antaranews.com](https://en.antaranews.com/news/397624/govt-has-relocated-227-families-from-tesso-nilo-national-park?utm_source=openai))\n\n---\n\n### What is planned or in progress—not yet outcome\n\nThe following are initiatives, targets, or ongoing measures rather than completed outcomes:\n\n- Reforestations and planting targets: e.g. in **March 2026**, the government launched reforestation aiming to restore **66,704 hectares** of degraded land by 2028, with **2,574 hectares** in the first phase, including planting 2,000 seedlings on ~400 hectares to begin. ([en.antaranews.com](https://en.antaranews.com/news/406839/indonesia-launches-major-reforestation-in-tesso-nilo-national-park?utm_source=openai))\n\n- Ecosystem recovery plan (“Rencana Pemulihan Ekosistem, RPE”) to rehabilitate ~6,095 hectares in two sub-units of the park over 2024–2028. Includes focus areas for rehabilitation of river basins, community engagement, etc. ([tntessonilo.ksdae.kehutanan.go.id](https://tntessonilo.ksdae.kehutanan.go.id/rencana-pemulihan-ekosistem-btn-tesso-nilo/?utm_source=openai))\n\n- Creation and strengthening of institutional and legal frameworks: formation of \"Tim Percepatan Pemulihan Ekosistem\" (Ecological Recovery Acceleration Team), revisions of legal guidelines and standards for ecosystem recovery (NSPK), etc. ([jdih.riau.go.id](https://jdih.riau.go.id/downloadAbstrak/177632745691.pdf?utm_source=openai))\n\n---\n\n### Caveats and context\n\n- Many of the numbers come from **government press releases** (Kemenhut), which are primary sources but possibly unverified by independent bodies. ([kehutanan.go.id](https://www.kehutanan.go.id/news/kemenhut-fokus-pulihkan-taman-nasional-tesso-nilo-hasilnya-nyata?utm_source=openai))  \n- Independent journalistic and agency reporting confirms many of the same actions (e.g., clearing of 401 ha, relocations, reforestation targets). ([antaranews.com](https://www.antaranews.com/berita/4933545/satgas-pkh-dan-kemenhut-tumbangkan-sawit-seluas-401-ha-di-tesso-nilo?utm_source=openai))  \n- Some measures still small in scale relative to the size of the park (~81,739 hectares). E.g., illegal oil palm removed (1,101 ha) vs. much larger invaded area; number of species recorded has risen but it's not clear how that scales relative to prior biodiversity baselines. ([kehutanan.go.id](https://www.kehutanan.go.id/pers/article-47?utm_source=openai))\n\n---\n\n### Research note: completed outcomes vs. launches\n\n- **Completed / measurable outcomes**:\n  1. Increase in wildlife species detected via camera traps (2024–2026).  \n  2. Removal of illegal oil palm plantations (e.g., 401 ha and 311 ha in mid-2025; 1,101 ha by Nov 2026).  \n  3. Reclaimed conservation land of 7,723.61 ha.  \n  4. Relocation of 227 families; preparation of qualifying land (8,077 ha).  \n  5. Construction of guard posts; installation of boundary markers etc.\n\n- **Launch / pledge / plan**:\n  1. RPE covering 6,095 hectares (2024-2028).  \n  2. Reforestation target 66,704 hectares by 2028; initial planting efforts.  \n  3. Institutional/legal framework revisions and team formations.\n\n---\n\nIf you like, I can also locate **independent scientific monitoring** or third-party data (e.g. from NGOs or academics) confirming these trends, to strengthen verification.",
+      "research_notes": "Here is a concise factual research note on the event “China’s southernmost city improves ecological monitoring to protect ecosystems,” focused on Sansha, Hainan Province, China:\n\n---\n\n### What was announced / discovered\n\n- Sansha City (China’s southernmost prefecture-level city, in Hainan Province) has intensified ecological monitoring and conservation efforts in recent years, especially in marine environments of the Xisha Islands. ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n- Key improvements include establishing the North Island Sea Turtle Rescue and Conservation Center (2021), using AI-based turtle identification systems, installing surveillance cameras to record nesting and nest-changes, restoring coastlines, planting corals, and coastline greening. ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n- In June 2026, it was confirmed that a stable breeding population of the greater crested tern (a nationally protected species) had formed at Zhongsha Sand, in the Xisha Islands. ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))\n\n---\n\n### Measured outcomes / data\n\n- Since the rescue center was established in 2021, **more than 1,540** green sea turtle nests have been recorded across the main islands and reefs of the Xisha Islands. Also, **1,561 injured sea turtles** have been rescued and released. ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n- On Yongxing Island and Zhaoshu Island, turtle nests were recorded again in 2025 after years without any sightings. ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n- In 2024 alone, 227 protected sea turtle nests were marked, and 77 injured or ill sea turtles rescued in the Xisha Islands, with hatchling survival rates significantly improved compared to before 2020. ([georgehbalazs.com](https://georgehbalazs.com/wp-content/uploads/2026/02/2025-Green-sea-turtle-nesting-site-found-in-S.-China-Sea-Chinadaily.com_.cn_.pdf?utm_source=openai))\n\n---\n\n### Original / Primary Sources\n\n- The CGTN and Hainan provincial websites published reports in September 2026 detailing these improvements and outcomes, especially as part of a story titled “Hainan marine conservation efforts entice more sea turtles to nest.” ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n- China Daily also published a report titled “Green sea turtle nesting site found in S. China Sea,” covering similar data for 2024 and referring to the protection action plan in Sansha (effective 2019). ([georgehbalazs.com](https://georgehbalazs.com/wp-content/uploads/2026/02/2025-Green-sea-turtle-nesting-site-found-in-S.-China-Sea-Chinadaily.com_.cn_.pdf?utm_source=openai))\n\n---\n\n### Independent / Contextual Verification or Caveats\n\n- The numbers reported (1,540+ nests; 1,561 rescued turtles) appear consistently in both CGTN and Hainan government sources, which are state media. These are primary sources but not fully independent. ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n- Independent third-party coverage (outside Chinese domestic media) is less prominent; much reporting echoes the same data. Thus, many articles likely repeat or derive from a state press release or official reports.  \n- The data are concrete (number of nests, rescue numbers, dates of center establishment). No evidence was found of falsification; however, external peer-reviewed scientific studies confirming long-term trends were not identified in this search.\n\n---\n\n### Completed vs Planned Actions\n\n**Completed / measured outcomes:**\n\n- Establishment of a rescue and conservation center (in 2021). ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n- Recorded sea turtle nests: 1,540+ nests across the islands since the center opened. ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n- Rescue and release of 1,561 injured sea turtles. ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n- Confirmation of stable breeding of greater crested terns at Zhongsha Sand in June 2026. ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n\n**Planned / ongoing efforts:**\n\n- Continued coastline and coral reef restoration; expanding monitoring (AI, cameras, surveillance). ([en.hainan.gov.cn](https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai))  \n- Protection action plan implemented in 2019 is ongoing. ([georgehbalazs.com](https://georgehbalazs.com/wp-content/uploads/2026/02/2025-Green-sea-turtle-nesting-site-found-in-S.-China-Sea-Chinadaily.com_.cn_.pdf?utm_source=openai))  \n\n---\n\n### Overall Assessment\n\nIn summary, the available evidence demonstrates that Sansha has implemented and achieved measurable outcomes in ecological monitoring and protection of marine ecosystems:\n\n- The rise in nesting activity of green sea turtles and the rescue of many injured individuals are concrete results.  \n- The appearance of new nests in islands where turtles had long been absent, and the confirmation of a stable breeding population of greater crested terns, further supports a genuine ecological improvement.  \n\nWhile much of the reporting comes from official or state-media sources, the data are consistent, with specific numbers and dates, suggesting these are real (not mere announcements) rather than future plans alone.",
       "citations": [
         {
-          "title": "Kemenhut Fokus Pulihkan Taman Nasional Tesso Nilo, Hasilnya Nyata",
-          "url": "https://www.kehutanan.go.id/news/kemenhut-fokus-pulihkan-taman-nasional-tesso-nilo-hasilnya-nyata?utm_source=openai"
+          "title": "Hainan marine conservation efforts entice more sea turtles to nest",
+          "url": "https://en.hainan.gov.cn/englishsite/Updates/202609/c2a7a97f2e2b4a6c99659929cf32bbe5.shtml?utm_source=openai"
         },
         {
-          "title": "Satgas PKH dan Kemenhut tumbangkan sawit seluas 401 ha di Tesso Nilo - ANTARA News",
-          "url": "https://www.antaranews.com/berita/4933545/satgas-pkh-dan-kemenhut-tumbangkan-sawit-seluas-401-ha-di-tesso-nilo?utm_source=openai"
-        },
-        {
-          "title": "Menhut: Pemerintah siapkan lahan relokasi warga bekas TN Tesso Nilo - ANTARA News",
-          "url": "https://www.antaranews.com/berita/4951641/menhut-pemerintah-siapkan-lahan-relokasi-warga-bekas-tn-tesso-nilo?utm_source=openai"
-        },
-        {
-          "title": "Gov't has relocated 227 families from Tesso Nilo National Park - ANTARA News",
-          "url": "https://en.antaranews.com/news/397624/govt-has-relocated-227-families-from-tesso-nilo-national-park?utm_source=openai"
-        },
-        {
-          "title": "Indonesia launches major reforestation in Tesso Nilo National Park - ANTARA News",
-          "url": "https://en.antaranews.com/news/406839/indonesia-launches-major-reforestation-in-tesso-nilo-national-park?utm_source=openai"
-        },
-        {
-          "title": "RENCANA PEMULIHAN EKOSISTEM BTN TESSO NILO - Taman Nasional Tesso Nilo",
-          "url": "https://tntessonilo.ksdae.kehutanan.go.id/rencana-pemulihan-ekosistem-btn-tesso-nilo/?utm_source=openai"
-        },
-        {
-          "title": "PEMBENTUKAN TIM PERCEPATAN – TAMAN NASIONAL TESSO NILO",
-          "url": "https://jdih.riau.go.id/downloadAbstrak/177632745691.pdf?utm_source=openai"
-        },
-        {
-          "title": "Kementerian Kehutanan",
-          "url": "https://www.kehutanan.go.id/pers/article-47?utm_source=openai"
+          "title": "Green sea turtle nesting site found in S. China Sea - Chinadaily.com.cn",
+          "url": "https://georgehbalazs.com/wp-content/uploads/2026/02/2025-Green-sea-turtle-nesting-site-found-in-S.-China-Sea-Chinadaily.com_.cn_.pdf?utm_source=openai"
         }
       ],
       "fallback_error": "",
       "search_error": "",
       "support": "supported",
       "outcome_status": "completed",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
+      "evidence_quality": "medium",
+      "independence": "likely_republication",
       "significance": "high",
-      "verified_headline": "Tesso Nilo National Park shows significant ecological recovery",
-      "verified_summary": "Recovery efforts in Tesso Nilo National Park have led to increased biodiversity, removal of illegal oil palm plantations, and the reclamation of conservation land. Additionally, 227 families were relocated to facilitate these efforts.",
-      "verification_note": "The evidence includes measurable outcomes such as increased wildlife species and significant land recovery, supported by multiple independent sources.",
+      "verified_headline": "Sansha City Achieves Marine Conservation Milestones",
+      "verified_summary": "Sansha City has recorded over 1,540 green sea turtle nests and rescued 1,561 injured turtles since establishing a conservation center in 2021. Additionally, a stable breeding population of greater crested terns has been confirmed.",
+      "verification_note": "The evidence shows measurable outcomes in marine conservation efforts, though sourced primarily from state media, indicating potential bias.",
       "publish_recommendation": "publish"
     },
     {
-      "id": "7ed438b716d307",
+      "id": "c3d2da245a6861",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here’s what can be established, based on available primary and reliable sources, about the reported rescue of rare wildflowers from Scotland’s eroding coast:\n\n---\n\n## What actually happened\n\n- Conservation groups relocated **3,400 one-flowered wintergreen** plants (*Moneses uniflora*) from **Culbin Sands**, Moray (northeast Scotland) to a safer area inland at **Culbin Forest**. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n- The rescue was triggered by ongoing **coastal erosion**: 2-3 metres of land have reportedly already collapsed into the sea in recent years at that site. ([theintelligent.co.uk](https://theintelligent.co.uk/environment/2026/rare-wintergreen-plants-moved-eroding-moray-coast-safer-forest-site?utm_source=openai))  \n- The organizations involved include **Plantlife Scotland**, **Forestry and Land Scotland**, **NatureScot**, and volunteers. The project has also received support from the **Scottish Government’s Nature Restoration Fund**. ([theintelligent.co.uk](https://theintelligent.co.uk/environment/2026/rare-wintergreen-plants-moved-eroding-moray-coast-safer-forest-site?utm_source=openai))  \n\n---\n\n## Biological context & ongoing risk\n\n- *One-flowered wintergreen* is extremely rare in the UK: it is found only in **pine woods in northeast Scotland**, existing at just **seven known sites**, only **three of which support healthy populations**. More than **half the UK population** is estimated to have been lost over the past 50 years. ([theguardian.com](https://www.theguardian.com/environment/2026/nov/11/one-flowered-wintergreen-rescue-eroding-coast-scotland?utm_source=openai))  \n- The plant relies significantly on soil fungal networks (“mycorrhizal” or “partial-mycoheterotrophic”) in woodland soils, which complicates both its habitat requirements and conservation efforts. Conservationists preserved soil around individual plants to maintain those fungal connections during relocation. ([theguardian.com](https://www.theguardian.com/environment/2026/nov/11/one-flowered-wintergreen-rescue-eroding-coast-scotland?utm_source=openai))  \n\n---\n\n## What is *measured* vs what is *not yet known*\n\n**Measured outcomes / completed actions:**\n\n- The relocation of **3,400 plants** from an eroding coastline to a safer location. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n- The physical transfer method included uprooting plants with blocks of soil to preserve fungal associations. ([theguardian.com](https://www.theguardian.com/environment/2026/nov/11/one-flowered-wintergreen-rescue-eroding-coast-scotland?utm_source=openai))  \n\n**Not yet known / pending outcomes:**\n\n- **Survival rate** of the rescued plants in their new location has **not yet been determined**. It is explicitly stated that “we don’t yet know how many plants will survive at their new home in Culbin Forest.” ([theguardian.com](https://www.theguardian.com/environment/2026/nov/11/one-flowered-wintergreen-rescue-eroding-coast-scotland?utm_source=openai))  \n- Whether the relocated plants will reproduce and establish a self-sustaining population remains to be seen. ([theguardian.com](https://www.theguardian.com/environment/2026/nov/11/one-flowered-wintergreen-rescue-eroding-coast-scotland?utm_source=openai))  \n\n---\n\n## Additional relevant context\n\n- Separate from this coastal rescue, a different translocation project in the Cairngorms produced older results: in autumn 2023, **109 one-flowered wintergreen rosettes** were moved into RSPB Abernethy. After **nine months**, roughly **70%** of those were still alive, and by summer 2024, **16 flowers** were seen on those moved plants, indicating seed production. ([cairngorms.co.uk](https://cairngorms.co.uk/wildlife/one-flowered-wintergreen?utm_source=openai))  \n- The new rescue at Culbin is not the same project; its outcome in terms of survival and flowering remains pending. ([theguardian.com](https://www.theguardian.com/environment/2026/nov/11/one-flowered-wintergreen-rescue-eroding-coast-scotland?utm_source=openai))  \n\n---\n\n## Sources\n\n- Primary source: *The Guardian* article “Rare wildflowers at risk of falling into sea rescued from eroding Scottish coast” (Nov 11, 2026) gives details of the rescue, numbers, and immediate risk. ([theguardian.com](https://www.theguardian.com/environment/2026/nov/11/one-flowered-wintergreen-rescue-eroding-coast-scotland?utm_source=openai))  \n- Independent / corroborating reporting: *BBC News* and multiple outlets summarizing BBC’s report confirm the numbers, location, species, and participating organisations. ([tazzora.com](https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai))  \n\n---\n\n## Summary\n\n- A concrete outcome: 3,400 *one-flowered wintergreen* plants have been moved to safety from an eroding coastline in Scotland.  \n- Unmeasured / ongoing: survival rate in new location and whether the relocation leads to viable, reproducing populations.  \n\n---\n\nLet me know if you’d like to track follow-up reports (e.g. survival data, flowering, genetic health) or explore similar conservation rescues globally.",
+      "citations": [
+        {
+          "title": "About 3,400 rare wintergreens were moved off an eroding Scottish beach · Tazzora",
+          "url": "https://www.tazzora.com/story/findhorn-wintergreen?utm_source=openai"
+        },
+        {
+          "title": "Rare wintergreen plants moved from eroding Moray coast to safer forest site",
+          "url": "https://theintelligent.co.uk/environment/2026/rare-wintergreen-plants-moved-eroding-moray-coast-safer-forest-site?utm_source=openai"
+        },
+        {
+          "title": "Rare wildflowers at risk of falling into sea rescued from eroding Scottish coast | Wild flowers | The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/nov/11/one-flowered-wintergreen-rescue-eroding-coast-scotland?utm_source=openai"
+        },
+        {
+          "title": "Cairngorms National Park | One-flowered wintergreen",
+          "url": "https://cairngorms.co.uk/wildlife/one-flowered-wintergreen?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "measured_progress",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "medium",
+      "verified_headline": "Rare wildflowers relocated from eroding Scottish coast to safer area",
+      "verified_summary": "Conservationists successfully relocated 3,400 one-flowered wintergreen plants from an eroding coastline in Scotland to a safer inland location. The survival and reproductive success of these plants in their new habitat remain to be determined.",
+      "verification_note": "The relocation of the plants is confirmed, but their survival and establishment in the new location are still unknown.",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "da25a40eccab5d",
       "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "responses_web_search",
       "search_model": "gpt-6-luna",
-      "research_notes": "### Research note\n\n**Finding:** On **11 November 2026**, President Prabowo said that “many areas” affected by disasters in Aceh, North Sumatra and West Sumatra had recovered “100 percent,” while other areas still had a few percent left to recover. This was a broad statement, not evidence that all affected regions had fully recovered. ([antaranews.com](https://www.antaranews.com/berita/5846031/prabowo-sebut-banyak-daerah-terdampak-bencana-di-aceh-pulih-total))\n\n**What the reported figures show:** In a **9 November** government briefing, the Home Affairs Minister reported that all 87 affected hospitals were operating again and national roads and bridges were 100% functional. But 99 of 4,922 affected schools were still using emergency classrooms; temporary housing was 99.84% complete; and permanent housing and other reconstruction were still underway, with recovery planned through 2028. ([setneg.go.id](https://setneg.go.id/baca/index/presiden_prabowo_gelar_ratas_evaluasi_progres_satu_tahun_pemulihan_pascabencana_sumatra))\n\nAn independent CNN Indonesia report, also based on the minister’s briefing, said 12 of 210 affected markets remained closed and just 66.7% of affected agricultural land had been restored as of 9 November. ([cnnindonesia.com](https://www.cnnindonesia.com/ekonomi/20261110101004-92-1425273/sumatra-belum-sepenuhnya-pulih-pasar-lahan-pertanian-masih-dibenahi))\n\n**Source note:** ANTARA reported Prabowo’s remarks and said they came from an official Presidential Secretariat release. This supports that he made the claim; it does not independently verify a region-wide 100% recovery. Reports repeating the same remarks should not be counted as separate measurements. ([antaranews.com](https://www.antaranews.com/berita/5846031/prabowo-sebut-banyak-daerah-terdampak-bencana-di-aceh-pulih-total))",
+      "research_notes": "### Research note — checked 11 November 2026\n\n- **The headline’s specific event is unverified.** I could not locate the cited *La Gazette de Nîmes* article or independent coverage confirming a “grande cérémonie” on 11 November.\n- **The restoration’s completion is supported.** The Culture Ministry says the cathedral has undergone major restoration work since 2016, with a large campaign on the western façade and bell tower from 2022 to 2025. It describes public study days on **22–23 October 2026** as marking the end of the restoration project—not as a ceremony on 11 November. ([culture.gouv.fr](https://www.culture.gouv.fr/de/regions/drac-occitanie/actualites/actualite-a-la-une/cathedrale-de-nimes-un-patrimoine-reexplore-des-connaissances-renouvelees-22-et-23-octobre))\n- The contractor Sèle separately reported on **23 March 2026** that its four-year conservation programme at the cathedral had ended, describing work on the western section and narthex terrace. That supports a completed work outcome, though it is the contractor’s own account. ([sele.fr](https://sele.fr/fr/actualites))\n- The City of Nîmes lists cathedral visits about the restored *Assomption de la Vierge* for **12 and 26 November**. I found no source tying those visits to the claimed 11 November ceremony. ([nimes.fr](https://www.nimes.fr/agenda/le-retour-de-lassomption-de-la-vierge))\n\n**Assessment:** Restoration work is documented as completed; the headline’s claimed celebratory ceremony is not verified. I found no matching articles that could be checked for repetition of a shared press release.",
       "citations": [
         {
-          "title": "Prabowo sebut banyak daerah terdampak bencana di Aceh pulih total - ANTARA News",
-          "url": "https://www.antaranews.com/berita/5846031/prabowo-sebut-banyak-daerah-terdampak-bencana-di-aceh-pulih-total"
+          "title": "Cathédrale de Nîmes : un patrimoine réexploré, des connaissances renouvelées (22 et 23 octobre) | Ministère de la Culture",
+          "url": "https://www.culture.gouv.fr/de/regions/drac-occitanie/actualites/actualite-a-la-une/cathedrale-de-nimes-un-patrimoine-reexplore-des-connaissances-renouvelees-22-et-23-octobre"
         },
         {
-          "title": "Presiden Prabowo Gelar Ratas Evaluasi Progres Satu Tahun Pemulihan Pascabencana Sumatra | Sekretariat Negara",
-          "url": "https://setneg.go.id/baca/index/presiden_prabowo_gelar_ratas_evaluasi_progres_satu_tahun_pemulihan_pascabencana_sumatra"
+          "title": "Chantiers en cours | Sèle",
+          "url": "https://sele.fr/fr/actualites"
         },
         {
-          "title": "Sumatra Belum Sepenuhnya Pulih, Pasar-Lahan Pertanian Masih Dibenahi",
-          "url": "https://www.cnnindonesia.com/ekonomi/20261110101004-92-1425273/sumatra-belum-sepenuhnya-pulih-pasar-lahan-pertanian-masih-dibenahi"
+          "title": "Ville de Nîmes: Le retour de l'Assomption de la Vierge",
+          "url": "https://www.nimes.fr/agenda/le-retour-de-lassomption-de-la-vierge"
         }
       ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 260. Please try again in 347ms. Visit https://platform.op",
+      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 279. Please try again in 372ms. Visit https://platform.op",
       "search_error": "",
       "support": "partially_supported",
-      "outcome_status": "unclear",
+      "outcome_status": "completed",
       "evidence_quality": "medium",
       "independence": "multiple_independent",
       "significance": "medium",
-      "verified_headline": "Recovery in Sumatra regions shows mixed results post-disaster",
-      "verified_summary": "While President Prabowo claimed many areas in Sumatra have achieved 100% recovery, independent reports indicate that significant portions of infrastructure and services remain incomplete, with ongoing recovery efforts planned through 2028.",
-      "verification_note": "The claim of 100% recovery is not fully supported by independent evidence, which shows ongoing recovery efforts and incomplete restoration in several areas.",
+      "verified_headline": "Restoration of Nîmes Cathedral Completed, Ceremony Unverified",
+      "verified_summary": "The restoration of the Cathedral of Nîmes has been completed, with public study days marking the end of the project. However, the claimed celebratory ceremony on 11 November is not verified by independent sources.",
+      "verification_note": "While the restoration is confirmed as completed, the specific ceremony mentioned in the headline lacks independent verification.",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "67db380dc5c7f5",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here’s a research-note summarizing what I found about the news item “В Приморье врачи спасли пациента с агрессивной лимфомой мозга”:\n\n---\n\n## What multiple sources report\n\nI found **two distinct stories**, both from Primorye (Russia) medical teams, but they appear to refer to *different patients and conditions*. They have been conflated in some outlets. Below are key details from each.\n\n### Case A: 40-year-old man, aggressive brain tumor / malignancy\n\n- A 40-year-old man in Vladivostok (Primorsky Krai) was diagnosed with an aggressive malignant brain tumor (initially presenting as headaches and double vision). ([osnmedia.ru](https://www.osnmedia.ru/obshhestvo/silnaya-ustalost-zhitelya-primorya-okazalas-agressivnoj-formoj-raka-mozga/amp/?utm_source=openai))  \n- He underwent neurosurgical removal of the tumor; histology confirmed it was malignant. Later, there was a relapse (recurrence) accompanied by dangerous brain swelling (edema). ([news.ru](https://news.ru/regions/v-primore-muzhchina-pobedil-agressivnuyu-opuhol-mozga?utm_source=openai))  \n- Hematologists then joined the treatment. Because of the blood-brain barrier, they employed high-dose therapy and four rounds (stages) of intensive treatment. ([news.ru](https://news.ru/regions/v-primore-muzhchina-pobedil-agressivnuyu-opuhol-mozga?utm_source=openai))  \n- Outcome: remission was achieved; by **autumn 2026** he had fully recovered and returned to his normal life. ([news.ru](https://news.ru/regions/v-primore-muzhchina-pobedil-agressivnuyu-opuhol-mozga?utm_source=openai))  \n\n### Case B: 29-year-old man, aggressive lymphoma in chest\n\n- A different man, aged 29, with aggressive lymphoma in the chest (not brain). The tumour was large (~15 cm), located in the chest cavity, pressing on heart, airways, major vessels, causing breathing difficulty and facial/neck swelling. ([sibnovosti.ru](https://sibnovosti.ru/news/458129/?utm_source=openai))  \n- Treatment was by hematologists at Krai Clinical Hospital No. 2 (Владивосток), using modern anti-cancer (chemotherapy) drugs. Unclear whether surgery was involved. ([dktr24.ru](https://www.dktr24.ru/news/medicine/15102026/19648?utm_source=openai))  \n- After only **one month** of treatment a **full remission** was observed; patient is now at home, recovering, returning to daily activities. ([dktr24.ru](https://www.dktr24.ru/news/medicine/15102026/19648?utm_source=openai))  \n\n---\n\n## Assessment & distinction\n\n- **These are **two separate cases**: one with a brain tumour in a middle-aged man (Case A), the other with chest lymphoma in a younger man (Case B). The chest lymphoma case (Case B) is *not* a brain lymphoma.  \n- The headline candidate you provided (“в Приморье врачи спасли пациента с агрессивной лимфомой мозга”—which translates to *doctors saved a patient with aggressive brain lymphoma*) seems to reflect **Case A** more closely—but even there the sources do *not* explicitly state a “lymphoma of the brain” (i.e. a central nervous system lymphoma). They describe an “aggressive malignant brain tumour” rather than clearly confirming “brain lymphoma.” ([news.ru](https://news.ru/regions/v-primore-muzhchina-pobedil-agressivnuyu-opuhol-mozga?utm_source=openai))  \n\n---\n\n## What is confirmed (completed outcomes vs announcements)\n\n- **Completed outcomes** (measured, actual):  \n  • In both cases the treatment resulted in **full remission**. Case A: remission of the brain tumour; Case B: remission of chest lymphoma. ([news.ru](https://news.ru/regions/v-primore-muzhchina-pobedil-agressivnuyu-opuhol-mozga?utm_source=openai))  \n  • Patients returned home and resumed normal life. ([sibnovosti.ru](https://sibnovosti.ru/news/458129/?utm_source=openai))  \n\n- **Uncertainties / announcements**:  \n  • In Case A, while a tumor in the brain was removed and after therapy remission achieved, it's **not confirmed** that the tumour was lymphoma (a lymphoid-derived cancer) in the brain. Some outlets seem to use “рак” or “злокачественная опухоль мозга” (malignant brain tumor) rather than specifying lymphoma. ([news.ru](https://news.ru/regions/v-primore-muzhchina-pobedil-agressivnuyu-opuhol-mozga?utm_source=openai))  \n  • In Case B, tumor clearly described as lymphoma, but located in chest cavity, not brain. ([sibnovosti.ru](https://sibnovosti.ru/news/458129/?utm_source=openai))  \n\n---\n\n## Original/Primary sources & reliability\n\n- The stories are based largely on **regional health ministry press offices** (Press-служба Минздрава Приморья) and regional hospital (Краевая клиническая больница № 2) statements. Case B is well documented in official statements. ([sibnovosti.ru](https://sibnovosti.ru/news/458129/?utm_source=openai))  \n- Case A’s info is derived from Telegram channel *Svodka25* as often cited, and regional news outlets referencing it. These are secondary sources but include direct hospital/doctor statements. ([news.ru](https://news.ru/regions/v-primore-muzhchina-pobedil-agressivnuyu-opuhol-mozga?utm_source=openai))  \n\n---\n\n## Conclusion: What actually happened\n\n- A 40-year-old Vladivostok man with an aggressive malignant tumour of the brain (not definitively confirmed as lymphoma) underwent surgery, then relapse, then high-dose therapy with four phases, resulting in remission in autumn 2026 and full recovery.  \n- Separately, a 29-year-old man with a ~15-cm aggressive lymphoma in the chest achieved full remission after one month of chemotherapy; now recovering at home.  \n\n---\n\n## Fit with candidate headline\n\n- The headline “В Приморье врачи спасли пациента с агрессивной лимфомой мозга” is **inaccurate or misleading** in at least two respects:  \n  1. **“лимфомой мозга”** — \"lymphoma of the brain\": that suggests a central nervous system lymphoma. In Case A, the tumour in the brain is described as malignant, but **not confidently identified as lymphoma** in sources.  \n  2. **Confusion with the 29-year-old chest lymphoma** case: that is really lymphoma, but not of the brain.  \n\n- So, if the headline refers to Case A, it's mis-categorizing the brain tumour as lymphoma. If it refers to Case B, it mislocates the tumour.  \n\n---\n\nIf you like, I can attempt to find a definitive medical record or statement clarifying the histological diagnosis for Case A (whether it was indeed a lymphoma), to settle the discrepancy.",
+      "citations": [
+        {
+          "title": "Сильная усталость жителя Приморья оказалась агрессивной формой рака мозга – ОСН",
+          "url": "https://www.osnmedia.ru/obshhestvo/silnaya-ustalost-zhitelya-primorya-okazalas-agressivnoj-formoj-raka-mozga/amp/?utm_source=openai"
+        },
+        {
+          "title": "Врачи Приморья вылечили мужчину от злокачественной опухоли мозга",
+          "url": "https://news.ru/regions/v-primore-muzhchina-pobedil-agressivnuyu-opuhol-mozga?utm_source=openai"
+        },
+        {
+          "title": "Приморские врачи спасли пациента с крупной опухолью - Сибновости",
+          "url": "https://sibnovosti.ru/news/458129/?utm_source=openai"
+        },
+        {
+          "title": "Приморские врачи спасли 29-летнего пациента с агрессивной формой лимфомы – Доктор 24, 15.10.2026",
+          "url": "https://www.dktr24.ru/news/medicine/15102026/19648?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "completed",
+      "evidence_quality": "medium",
+      "independence": "multiple_independent",
+      "significance": "medium",
+      "verified_headline": "Doctors in Primorye Achieve Remission for Two Cancer Patients",
+      "verified_summary": "Two patients in Primorye, Russia, achieved full remission from aggressive cancers. One had a malignant brain tumor, while the other had aggressive lymphoma in the chest.",
+      "verification_note": "The headline inaccurately conflates two separate cases. One patient had a brain tumor, not confirmed as lymphoma, while the other had chest lymphoma.",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "54c154b5856409",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "responses_web_search",
+      "search_model": "gpt-6-luna",
+      "research_notes": "### Research note\n\n- **The exact UNDP item could not be verified.** Searches for the supplied headline and title did not locate an original UNDP page dated **11 November 2026**. A related UNDP–EIB initiative is documented, but the available sources do not establish that it is the same story.\n- **What the related initiative involves:** In **October 2025**, UNDP and EIB expanded their cooperation, with more than **€9 million** for technical assistance over two years. The announced work covered three EIB recovery programmes and Ukraine’s District Heating Programme, targeting more than **500 projects in over 150 communities**. Those are programme targets, not evidence that all projects were funded or completed. ([rdo.in.ua](https://rdo.in.ua/sites/default/files/pdf/digest187_eng.pdf))\n- **Measured funding reported separately:** The EIB said in June 2026 that **€30 million had been disbursed** for district heating through Ukrainian banks. Its September 2026 announcement described a separate **€30 million EU grant** complementing **€200 million** in EIB financing; municipalities and other eligible applicants could seek financing through partner banks. The announcement itself is funding support, not a report of completed heating upgrades or measured community outcomes. ([eib.org](https://www.eib.org/en/stories/ukraine-investment-eu-trains-heating-schools-hospitals))\n- **Independent check:** CEE Bankwatch’s October 2026 review describes UNDP’s role as technical assistance and monitoring for a target of 500-plus projects across 150-plus communities. It cautions that announced financing and planned results are not the same as verified project progress, and recommends clearer public reporting on payments and outcomes. ([bankwatch.org](https://bankwatch.org/wp-content/uploads/2026/10/2026_10_EIB-in-Ukraine_Recovery-funds-slow-to-reach-communities-1.pdf))\n- **Source relationship:** The Ukraine Recovery Digest repeats an account attributed to Ukraine’s Ministry for Communities and Territories Development, so it is not independent confirmation of the partnership announcement. I found no independent report specifically matching the candidate headline. ([rdo.in.ua](https://rdo.in.ua/sites/default/files/pdf/digest187_eng.pdf))\n\n**Bottom line:** The available evidence supports UNDP technical assistance alongside EIB-backed heating finance in Ukraine, including reported disbursement. It does **not** verify the candidate’s specific dated story or establish that communities generally secured funding or achieved completed, measured heating outcomes.",
+      "citations": [
+        {
+          "title": "UKRAINE \nRECOVERY \nDIGEST №187\nWeekly overview of ",
+          "url": "https://rdo.in.ua/sites/default/files/pdf/digest187_eng.pdf"
+        },
+        {
+          "title": "EU investment that keeps Ukraine moving",
+          "url": "https://www.eib.org/en/stories/ukraine-investment-eu-trains-heating-schools-hospitals"
+        },
+        {
+          "title": "CEE Bankwatch Network",
+          "url": "https://bankwatch.org/wp-content/uploads/2026/10/2026_10_EIB-in-Ukraine_Recovery-funds-slow-to-reach-communities-1.pdf"
+        }
+      ],
+      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 282. Please try again in 376ms. Visit https://platform.op",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "announcement",
+      "evidence_quality": "medium",
+      "independence": "multiple_independent",
+      "significance": "medium",
+      "verified_headline": "UNDP and EIB collaborate on sustainable heating funding in Ukraine",
+      "verified_summary": "UNDP and EIB are involved in a partnership to support sustainable heating projects in Ukraine, with over €9 million allocated for technical assistance. However, specific outcomes or completed projects have not been verified.",
+      "verification_note": "While there is evidence of funding and partnership, specific community impacts or completed projects remain unverified.",
       "publish_recommendation": "reserve"
     }
   ],
