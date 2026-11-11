@@ -1,59 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-11T01:19:28.681253Z",
+  "last_attempt_utc": "2026-11-11T07:29:04.366353Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 17,
-  "active_checked": 8,
+  "active_total": 20,
+  "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
-    "28d01bea9fa7762f4251e7d0": {
-      "event_id": "28d01bea9fa7762f4251e7d0",
-      "checked_at": "2026-10-28T14:08:39.220685Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/yemen",
-          "original_document_title": "Yemen travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-10-28T14:08:32.661521Z",
-          "exact_quote": "Since July 2026, the Houthis have launched air strikes against Saudi territory",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt dat de Houthis luchtaanvallen hebben uitgevoerd, maar ondersteunt niet specifiek de claim over de aanval op Aden airport.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De Houthis hebben sinds juli 2026 luchtaanvallen uitgevoerd, maar er is geen specifieke bevestiging van een aanval op Aden airport.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/yemen",
-          "title": "Yemen travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The UK government cannot help British nationals leaving Yemen. There are no evacuation procedures in place."
-        },
-        {
-          "url": "https://www.gov.uk/guidance/air-strikes-against-houthi-military-targets-in-yemen",
-          "title": "Air strikes against Houthi military targets in Yemen - GOV.UKGOV.UK",
-          "source_publication_date": "2024-06-05T10:05:18Z",
-          "text_excerpt": "Joint Statement from Australia, Bahrain, Denmark, Canada, the Netherlands, New Zealand, United Kingdom, and United States on Additional Strikes Against the Houthis in Yemen: 24 February 2024"
-        }
-      ]
-    },
     "67160ec273191fe922f28e41": {
       "event_id": "67160ec273191fe922f28e41",
       "checked_at": "2026-10-28T14:08:39.220691Z",
@@ -3386,7 +3342,7 @@
     },
     "06b48ade8f94e5366f568035": {
       "event_id": "06b48ade8f94e5366f568035",
-      "checked_at": "2026-11-09T13:27:26.458500Z",
+      "checked_at": "2026-11-11T07:29:04.366323Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3395,15 +3351,15 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
           "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-09T13:27:20.042142Z",
-          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
+          "retrieved_at": "2026-11-11T07:28:57.732459Z",
+          "exact_quote": "the risk of sudden escalation is high.",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage beschrijft de onvoorspelbare situatie in het Midden-Oosten, maar ondersteunt niet specifiek de claim over Trump en olieprijzen.",
+          "reason_nl": "De passage verwijst naar de onvoorspelbaarheid in de regio, maar ondersteunt de claim over olieprijzen niet specifiek.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De officiële tekst benadrukt de onvoorspelbaarheid in het Midden-Oosten, maar biedt geen directe bevestiging of ontkenning van de claim over Trump en olieprijzen.",
+      "summary_nl": "De gevonden tekst wijst op een hoge risico op escalatie in de regio, maar biedt geen directe ondersteuning voor de claim over olieprijzen.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3620,12 +3576,24 @@
     },
     "c8926839f5f294d29e65c60f": {
       "event_id": "c8926839f5f294d29e65c60f",
-      "checked_at": "2026-11-10T07:24:26.783889Z",
+      "checked_at": "2026-11-11T07:29:04.366329Z",
       "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
+      "research_status": "related_official_material",
       "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De officiële tekst bevestigt de vernietiging van Iraanse tankers door de VS na aanvallen op een oorlogsschip, maar biedt geen bewijs voor een verslechtering van de situatie in de Straat van Hormuz.",
+      "official_matches": [
+        {
+          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4593050/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship/",
+          "original_document_title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_date": "Sept. 8, 2026",
+          "retrieved_at": "2026-11-11T07:28:58.858738Z",
+          "exact_quote": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship",
+          "relation": "related_only",
+          "older_document_than_claim": true,
+          "reason_nl": "Ouder document: toont geen bewijs van nieuwe gebeurtenis. De passage bevestigt de vernietiging van Iraanse tankers door de VS na aanvallen door Iran.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële tekst bevestigt dat de VS vijf Iraanse tankers hebben vernietigd na aanvallen door Iran, wat de claim ondersteunt.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3849,6 +3817,40 @@
           "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
         }
       ]
+    },
+    "24d14207c9ca37a0d92c3d02": {
+      "event_id": "24d14207c9ca37a0d92c3d02",
+      "checked_at": "2026-11-11T07:29:04.366282Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Geen relevante officiële tekst gevonden die de claim over Teheran's eisen ondersteunt of weerlegt.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
+          "title": "Home Secretary unveils new rules for migrants settling in the UK - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Entering and staying in the UK"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes",
+          "title": "Iran: country policy and information notes - GOV.UKGOV.UK",
+          "source_publication_date": "2026-10-21T13:43:42Z",
+          "text_excerpt": "Entering and staying in the UK"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3863,9 +3865,9 @@
       "model_tokens": 6064
     },
     "2026-11-11": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 2041
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3738
     }
   },
   "last_error": null

@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-11T01:18:36.759957Z",
+  "last_attempt_utc": "2026-11-11T07:28:25.405526Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -4759,6 +4759,102 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-11T01:18:35.759788Z"
+    },
+    "aaba81f4d07f24": {
+      "id": "aaba81f4d07f24",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Teheran eist volledige opheffing van sancties voordat het vredesgesprekken aangaat.",
+      "claimed_event_nl": "Teheran eist volledige opheffing van sancties voordat het vredesgesprekken aangaat.",
+      "reason_nl": "Deze eis kan de diplomatieke inspanningen bemoeilijken en de spanningen in de regio verhogen.",
+      "limitations_nl": "De claim is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T07:28:21.342826Z"
+    },
+    "070cffe9ab582a": {
+      "id": "070cffe9ab582a",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "opinion",
+      "summary_nl": "Trump wil de blokkade tegen Iran handhaven, wat vragen oproept over de duurzaamheid van de situatie in de Perzische Golf.",
+      "claimed_event_nl": "Trump wil de blokkade tegen Iran handhaven.",
+      "reason_nl": "De situatie kan leiden tot verdere spanningen in de regio, maar de impact op de economie is onzeker.",
+      "limitations_nl": "Dit is een opinieartikel zonder feitelijke onderbouwing.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T07:28:21.342851Z"
+    },
+    "6738a21be33922": {
+      "id": "6738a21be33922",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "De olieprijzen herstellen na aanvallen op scheepvaart in de Straat van Hormuz, wat de hoop op een Iran-truce ondermijnt.",
+      "claimed_event_nl": "De olieprijzen herstellen na aanvallen op scheepvaart in de Straat van Hormuz.",
+      "reason_nl": "De aanvallen kunnen de stabiliteit van de olieprijzen beïnvloeden en de economische situatie in de regio verergeren.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T07:28:21.342857Z"
+    },
+    "b1abcdbee39f00": {
+      "id": "b1abcdbee39f00",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran ondervindt economische schade door de Amerikaanse blokkade, volgens een econoom.",
+      "claimed_event_nl": "Iran ondervindt economische schade door de Amerikaanse blokkade.",
+      "reason_nl": "Dit kan leiden tot verdere economische en sociale onrust in Iran, wat de regionale stabiliteit kan beïnvloeden.",
+      "limitations_nl": "De claim is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T07:28:21.342860Z"
+    },
+    "e7555912fbbd42": {
+      "id": "e7555912fbbd42",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "De olieprijzen stijgen na aanvallen op scheepvaart, wat de hoop op een Iran-truce ondermijnt.",
+      "claimed_event_nl": "De olieprijzen stijgen na aanvallen op scheepvaart.",
+      "reason_nl": "De fluctuaties in olieprijzen kunnen economische gevolgen hebben voor de regio en de wereldmarkt.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T07:28:21.342864Z"
+    },
+    "fec354d965644a": {
+      "id": "fec354d965644a",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat gesmokkeld Irakese olie in Iran wordt geraffineerd en vervolgens in het buitenland wordt verkocht om Amerikaanse sancties te omzeilen.",
+      "claimed_event_nl": "Gesmokkeld Irakese olie wordt in Iran geraffineerd en verkocht.",
+      "reason_nl": "Dit is relevant omdat het de economische activiteiten van Iran en de impact van Amerikaanse sancties op de regio aantoont.",
+      "limitations_nl": "De informatie is afkomstig van een enkele bron en is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T07:28:24.405280Z"
     }
   },
   "usage_by_day": {
@@ -4771,8 +4867,8 @@
       "total_tokens": 6071
     },
     "2026-11-11": {
-      "requests": 1,
-      "total_tokens": 929
+      "requests": 3,
+      "total_tokens": 3244
     }
   }
 }
