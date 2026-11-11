@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-10T19:07:28.000107Z",
+  "last_attempt_utc": "2026-11-11T01:18:36.759957Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -4727,13 +4727,41 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-10T19:07:26.999901Z"
+    },
+    "9ff229f67d3bbd": {
+      "id": "9ff229f67d3bbd",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "deescalation",
+      "kind": "commentary",
+      "summary_nl": "Trump beweert dat hij onwaarschijnlijk is om aanvallen op Iran te bevelen als de gesprekken vorderen.",
+      "claimed_event_nl": "Trump zegt dat hij onwaarschijnlijk is om Iran-aanvallen te bevelen als de gesprekken vorderen.",
+      "reason_nl": "Deze uitspraak kan de spanningen in de regio verlagen als het leidt tot diplomatieke vooruitgang.",
+      "limitations_nl": "De bewering is gebaseerd op de mening van Trump en niet op feitelijke gebeurtenissen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T01:18:35.759768Z"
+    },
+    "0952af4d82e05a": {
+      "id": "0952af4d82e05a",
+      "relevance": "unclear",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "background",
+      "summary_nl": "De kop vraagt zich af of het veilig is om momenteel naar Saoedi-Arabië te reizen.",
+      "claimed_event_nl": "Vraag over de veiligheid van reizen naar Saoedi-Arabië.",
+      "reason_nl": "De relevantie is onduidelijk zonder context over de huidige situatie in Saoedi-Arabië.",
+      "limitations_nl": "De kop biedt geen specifieke informatie over de veiligheidssituatie.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-11T01:18:35.759788Z"
     }
   },
   "usage_by_day": {
-    "2026-11-08": {
-      "requests": 4,
-      "total_tokens": 5445
-    },
     "2026-11-09": {
       "requests": 5,
       "total_tokens": 6849
@@ -4741,6 +4769,10 @@
     "2026-11-10": {
       "requests": 5,
       "total_tokens": 6071
+    },
+    "2026-11-11": {
+      "requests": 1,
+      "total_tokens": 929
     }
   }
 }
