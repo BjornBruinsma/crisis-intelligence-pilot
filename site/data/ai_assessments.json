@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-12T01:26:26.092314Z",
+  "last_attempt_utc": "2026-11-12T07:32:03.711811Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -5095,6 +5095,70 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-12T01:26:25.092193Z"
+    },
+    "7a25e22a0e4986": {
+      "id": "7a25e22a0e4986",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "De kop suggereert dat de Amerikaanse vice-president directe gesprekken zoekt met een hoge Iraanse veiligheidsfunctionaris, mogelijk in het kader van onderhandelingen over Iran.",
+      "claimed_event_nl": "JD Vance zou de nieuwe onderhandelaar van Trump voor Iran worden.",
+      "reason_nl": "Dit is relevant omdat het de diplomatieke betrekkingen tussen de VS en Iran kan beïnvloeden.",
+      "limitations_nl": "De informatie is afkomstig van een niet-geverifieerde bron en er zijn geen onafhankelijke bevestigingen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-12T07:32:02.711598Z"
+    },
+    "addd2bf35e897c": {
+      "id": "addd2bf35e897c",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "deescalation",
+      "kind": "market_move",
+      "summary_nl": "De kop meldt dat de olieprijzen dalen en de goudprijzen stijgen na een afname van de kans op een aanval op Iran.",
+      "claimed_event_nl": "Er is een afname van de kans op een aanval op Iran.",
+      "reason_nl": "Dit is relevant omdat het economische implicaties heeft voor de olie- en goudmarkten in de regio.",
+      "limitations_nl": "De informatie is gebaseerd op niet-geverifieerde bronnen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-12T07:32:02.711623Z"
+    },
+    "3d791525f00101": {
+      "id": "3d791525f00101",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop meldt dat de olieprijzen stijgen door de risico's van aanvallen in de Straat van Hormuz en door Houthi-aanvallen.",
+      "claimed_event_nl": "Er zijn risico's van aanvallen in de Straat van Hormuz en door Houthi's.",
+      "reason_nl": "Dit is relevant omdat het de stabiliteit van de olievoorziening en de veiligheid in de regio beïnvloedt.",
+      "limitations_nl": "De informatie is afkomstig van een niet-geverifieerde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-12T07:32:02.711628Z"
+    },
+    "31f55bd390cc07": {
+      "id": "31f55bd390cc07",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop meldt dat Iran een ondergrondse raketbasis heeft onthuld te midden van spanningen in de Straat van Hormuz.",
+      "claimed_event_nl": "Iran heeft een ondergrondse raketbasis onthuld.",
+      "reason_nl": "Dit is relevant omdat het kan wijzen op een toename van militaire spanningen in de regio.",
+      "limitations_nl": "De informatie is afkomstig van een niet-geverifieerde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-12T07:32:02.711632Z"
     }
   },
   "usage_by_day": {
@@ -5107,8 +5171,8 @@
       "total_tokens": 7162
     },
     "2026-11-12": {
-      "requests": 1,
-      "total_tokens": 1336
+      "requests": 2,
+      "total_tokens": 2855
     }
   }
 }
