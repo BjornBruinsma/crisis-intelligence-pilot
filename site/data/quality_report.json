@@ -1,17 +1,17 @@
 {
-  "generated_at_utc": "2026-11-12T13:27:29.664450+00:00",
+  "generated_at_utc": "2026-11-12T19:09:25.573632+00:00",
   "definition": "Automatische procescontrole, geen wetenschappelijke validatie van gebeurteniswaarheid.",
   "technical": {
-    "collected_articles": 3637,
-    "tentative_headline_groups": 527,
+    "collected_articles": 3656,
+    "tentative_headline_groups": 525,
     "daily_shortlist": 25,
     "ai_reviewed_shortlist": 25,
     "ai_headline_status": "complete",
     "event_research_status": "complete",
     "event_input_claims": 20,
-    "event_groups_output": 18,
+    "event_groups_output": 19,
     "multiple_claim_clusters": 1,
-    "claims_in_multiple_claim_clusters": 3,
+    "claims_in_multiple_claim_clusters": 2,
     "ids_retained_without_duplicates": true,
     "official_sources_checked": 17,
     "official_sources_accessible": 15,
@@ -27,14 +27,14 @@
     "original_document_conflicting_statements": 0,
     "verified_events": 0,
     "clustering_method": "ai_pairwise_double_review",
-    "proposed_merge_pairs": 3,
-    "accepted_merge_connections": 2,
+    "proposed_merge_pairs": 2,
+    "accepted_merge_connections": 1,
     "rejected_merge_proposals": 1,
     "independent_auditor_ran": true,
-    "auditor_approved_pairs": 3,
+    "auditor_approved_pairs": 1,
     "rule_rejected_pairs": 0,
     "rss_profiles_ok": 12,
-    "gdelt_queries_ok": 2
+    "gdelt_queries_ok": 1
   },
   "source_breakdown": [
     {
@@ -98,7 +98,7 @@
       "id": "eia_energy",
       "status": "ok",
       "passages": 26,
-      "links": 18
+      "links": 17
     },
     {
       "authority": "UK Foreign, Commonwealth & Development Office",
@@ -158,7 +158,7 @@
     }
   ],
   "research_status_breakdown": {
-    "no_matching_primary_evidence": 18
+    "no_matching_primary_evidence": 19
   },
   "uncertainty": {
     "true_cluster_precision": null,

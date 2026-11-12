@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-12T13:27:10.173391Z",
-  "fingerprint": "379c8669e033290e535a82bc",
+  "last_attempt_utc": "2026-11-12T19:09:15.114763Z",
+  "fingerprint": "16b962b4422e4d1420eca2e7",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 20,
-  "event_candidate_count": 18,
+  "event_candidate_count": 19,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 3,
-    "accepted_pair_connections": 2,
+    "model_pair_proposals": 2,
+    "accepted_pair_connections": 1,
     "rejected_pair_proposals": 1,
     "multi_claim_groups": 1,
-    "claims_in_multi_groups": 3,
+    "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 3,
+    "auditor_approved_pairs": 1,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-12T13:27:10.173391Z",
+    "recorded_at": "2026-11-12T19:09:15.114763Z",
     "groups": [
       {
         "ids": [
@@ -49,8 +49,7 @@
       {
         "ids": [
           "6738a21be33922",
-          "e7555912fbbd42",
-          "1aff36425c48d4"
+          "e7555912fbbd42"
         ],
         "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
         "actor": "",
@@ -193,9 +192,9 @@
       },
       {
         "ids": [
-          "aa09f288eab313"
+          "945cb67734c14e"
         ],
-        "label_nl": "Claim: US Renews Middle East Warning for Americans Amid Rising Threats - https://www.thetraveler.org/",
+        "label_nl": "Claim: UK issues new Saudi Arabia travel warning for Britons - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
@@ -204,9 +203,20 @@
       },
       {
         "ids": [
-          "bff1aa4c122c60"
+          "1aff36425c48d4"
         ],
-        "label_nl": "Claim: Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
+        "label_nl": "Claim: Oil steadies as Hormuz attacks blunt hopes for Iran truce - Euronext Markets: Real-time Stock Market Data | live",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "54f5f0a8346372"
+        ],
+        "label_nl": "Claim: Europe Scrambles to Limit Effects of Energy Escalation in Iran War - EnergyNow.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -242,9 +252,9 @@
       "070cffe9ab582a",
       "0aaf4f4a430016",
       "7a25e22a0e4986",
-      "aa09f288eab313",
+      "945cb67734c14e",
       "1aff36425c48d4",
-      "bff1aa4c122c60",
+      "54f5f0a8346372",
       "7c0bcdcaa86cf9"
     ]
   },
@@ -261,10 +271,11 @@
         "\"You will not escape\": Iran shock, our missiles will hit Europe, forget Hormuz, Israel ready for attack, 2 war plans - Bankingnews"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPNkZ6cEpwM19INkZpUXZwY01uNEJ3czh6NHFIejQ1Y2luLUVvZ2NJN3pETHg0R2NKZTE3YkliXzk2YW5fc28zRm5hYUpadGxUd3FEamp3VDlFdGNjZFFHNmhoaTV1dWdRYVF3UDk2Ny0wUUpDeUFONTcwS0xLMVJMTVRQb1JiaW9rODEtQjNYYmViTm5jRmQzdk1DZ2ZuT0hLSnd2cDU1cnBMZ04yY0g0eWVQVFZZQTkzaGU5TVBpeklDVloyR0JuSU5nVTBzZ21BZ1ZJeWtJNGhyVFNyWlF1NHRqaDdXY2hJSkktODh1emRmQkdFNzdBdFV0NkptZw?oc=5"
+        "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPNkZ6cEpwM19INkZpUXZwY01uNEJ3czh6NHFIejQ1Y2luLUVvZ2NJN3pETHg0R2NKZTE3YkliXzk2YW5fc28zRm5hYUpadGxUd3FEamp3VDlFdGNjZFFHNmhoaTV1dWdRYVF3UDk2Ny0wUUpDeUFONTcwS0xLMVJMTVRQb1JiaW9rODEtQjNYYmViTm5jRmQzdk1DZ2ZuT0hLSnd2cDU1cnBMZ04yY0g0eWVQVFZZQTkzaGU5TVBpeklDVloyR0JuSU5nVTBzZ21BZ1ZJeWtJNGhyVFNyWlF1NHRqaDdXY2hJSkktODh1emRmQkdFNzdBdFV0NkptZw?oc=5",
+        "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTDVTV05yM1BwYmg4aW0tSFY2TFFlQ2lYcm1yVFpvZEVjQm5FZkFYRlNvbmNYUHJsdGxOZENlZEtYMVBIVTNta1VPWnNVOXhpTzRaZjR6a2ZKcmc2SjNCdEFUanpaNldZVDNSNkNhRElucjNLVm9fd1FhYzhkekZNNVNWRFFYdGlYSmZHRklzajJXZHNla1RvanA1MzMwS016TGFlSlp6bFM0SWYwckxKY1RYS1U5YUkwTDF2dndEUnBQdmd5REFFN3NZbERNX1NEZXRINVZfNENBV1pMRlNLeDg2MWlsVlFJdXl0bThMSjZEQQ?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -356,17 +367,41 @@
       "probability_estimate": null
     },
     {
-      "id": "0be81a183720908afb0a8259",
+      "id": "89eada273ada0641a8b73dbf",
+      "label_nl": "Claim: Europe Scrambles to Limit Effects of Energy Escalation in Iran War - EnergyNow.com",
+      "headline_claim_ids": [
+        "54f5f0a8346372"
+      ],
+      "headline_claims": [
+        "Europe Scrambles to Limit Effects of Energy Escalation in Iran War - EnergyNow.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxOWEZuMWpjWVFaeEdVRDVzSnZORUZlckExSEpVQW1MLTU4d25nMjVVbS1jSzZ5c0pZcDFqbnVDUWRnVTdacjVLR0pXSGExTTZVSE02c0pSWThJaE9ITkNrZ09DVFdLRnVqb00yOS1nck5ncHVZTVZ1NTBYOUVQbmM0YWZKdWNVTnFGYVNSWTZWaEMzNTBhLTM3LWo0M1NKQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "6a22ed511ba3209cec3a5099",
       "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
       "headline_claim_ids": [
         "6738a21be33922",
-        "e7555912fbbd42",
-        "1aff36425c48d4"
+        "e7555912fbbd42"
       ],
       "headline_claims": [
         "Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
-        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC",
-        "Oil steadies as Hormuz attacks blunt hopes for Iran truce - Euronext Markets: Real-time Stock Market Data | live"
+        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHJnOHJDbk5WaldJTElTSXJZN2hvVkxscE9YbEduNmd3SlFMSkVVYjd0ZWxEdUVQeVJnaDRGMVd6Z3BMZTk5SDhNenR1a1F4TnZLS18tdXc3VGZsLU1NcVV2eTIzY3lweTNkOTZhTmVuVWg4OVFtdWc0SWthWkhCN3ZmSVdYeUVEZnZYbTRFRFZKd0g2dGFrVk5fWDNENVNKNzlhWnNn0gGuAUFVX3lxTE1QMjNYU3BTUTc3RUFiYWUyUlhxdmg2SGdYemQzY0xMRHl0cXl4SWdNNENOa0NzVWhzRWcyMHNiVTJGdTVWZ1VsWjl5cDhlNTFYQUZvTEEwZ2twT1loaG9raTBRLUlJR1RHZ0dxaWQxeERxd3lBVEpoSmhMdGhHQVZUdWhNdm83UEkxaDdpZVhyM2hMZVNTd3cxVjJpem5CU1BoVXRvTEQ2Tm9yOEhRUQ?oc=5",
@@ -374,12 +409,10 @@
         "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObHVWWHRoVUVJZHdicUFRVzREYVhaUllhYXhUWnVCUE9PWTFmM2hTbE1fcWRocmRlV0x5eHVKS3FBTTNxd0lSMXNBR2tzeVZHRndYdVE3SEgyUzI1Wi1DaDhPV3dyQkFFNzZKalgzZWZMZHlCRDFqSndsNlNiTTBpT25DV3VNUUNOUGRWUGF2dGZmbEFVam9wdXlrd18yNHVaQWVRT0VtTW84UdIBVkFVX3lxTE9mMXROUlVpU3ZtMlRqc3JRdkc5aUYtT3huOWRZVlBnWVRnUGcxSDRvUzBYZlZFRlMzczlIZDg1Wjh6ZkpheWxRVXBQNHJmSnRrWG84aU5B?oc=5",
         "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazZ2WlZKeGZNYjh5YjBSZW1ORURVWjNfel93b0Z0VjAtRmJHUFJBNjRqYVlrS05ycE1qcEMyZXduQy1hci1heF9pUktMcm16LWtXZDlPM212RjNQbUJfdlk1cC1wc1N2aTVJT09iVWxYV3M5TDlUWXI4cGFKdEpMZVk1dk9lU282aHVETk9EVFItaWtzZ0t4QXhLdUlWbUljZ05uT3NQYmR1c3UyTUUwME51ZFh2dXM?oc=5",
         "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
-        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5",
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGRWc251RGh5YXhyLWZkQ28yVmMwd2U0aEE0Q3lQdnJ4Sk9nZTNJb2tZYkpKci1QUUNBTkZXcjZnSmxGdWhkcXpjYmg3Nkt4RGdLZFE5dWZXN2dUTk5GY0tvaG43SjQ4ZWh0bmNidFR6ZUx2eUZETVZpRkdIM003NnVISEVfODljLW5MTGpYdzZrMmJSamdxUExB?oc=5",
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHRYZkFLSGhYU1lFbVJlMTdpNEQ4V0RqU1BIbWxvSjF4c0xXZXV5T3IxRndVeWpRNmtyN3NqdkhIUGFic0NhcjVTcnBVMkVYT2RvamYxaWhiOUhwZXR1WEwtS1ZkdmkxRmxMQ21mZWE0Vzd6dGhTaS01TlpTXzVFSEhrSnAwa0lMakNwcHAweUJfX05SanA1YlZkMERQMi1hdldvOFRR?oc=5"
+        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5"
       ],
-      "article_group_count": 3,
-      "news_url_count": 8,
+      "article_group_count": 2,
+      "news_url_count": 6,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -642,7 +675,34 @@
         "US-Israel-Iran War Latest Live Updates: Is JD Vance Becoming Trump’s New Iran Negotiator? US Vice President Reportedly Seeks Direct Talks With Senior Iranian Security Official - The Sunday Guardian"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgJBVV95cUxQUVZMMDhsYVpIRXktcTBPb2VQdUw1NEJLS1BidzNOZDBhWEpIcTQ0Rkw2UjZyeWQ1OXk4bnBkdE1Vb2F3ajZCZzhmVl9OcEhLTVJwTjN0WlpOWkRhLVExOTR6NEExSjdHZFk5RDhEX3JOcXNITmFKTjEzcUFyeWhJZ240TUQ2UFlqUlhibGwzak9UeEIweWN5R04xS1QxVDJaTTZ5eExzZ0tfTG9zZU9YdnVmSnhHXzJLZ0lJQWJQaTYySU91c2NTZVdiX0ZuX2NrRUNNM3k4aldPb1hub1RYaXF5WjhBSHVUbWIwYkJNYjg0ZWNUS3NZeW11M2xFTUVrbENnM21nTTk1RVNlSDQ1WVFwUi1ZQTBrbVhUc2NHdmNEZGM0RmxPd0ZOakhnOWhZbVByaFRpaDk0cVZLVWfSAcMCQVVfeXFMTldMQXRwdHJyMEtDOVZ4T19RcldtSGdYVnNjSEUxQlZfLWIwWXJYYUVLYzRoM2JMaXZnUEptbWhRRXVZcnAxWDcyQzZfSXhYRFAtU3NHUllrSlg2WURZdmVUeXdVVERqN2QzMHVhWms1WFBVV2lVaElYNUd5Um9lZDNRUWdQWnA4SXYtUnJUUERSTHhkUUJiSXE0SVJrYzJrSS0zTFdYeFZqYmhzRG9pc0NROV9GYk1EMEFjUGNXVmh6SXZSWXVzdmNrM0xsTnFmd0xoTkZncjYyLXVkc2ZnajZ6RHZGVmd1X1FpczZXanRJT0lZNFVURFY2LUhPTFlrM05adXhIUlZxWnpPRmRtdmt0ejhFR1F2a2s5dURuN0l0YlAyRkRHalc0dElVY0t2WlV6cmxRQnF2V1JNQURJYlVLSGM?oc=5"
+        "https://news.google.com/rss/articles/CBMivgJBVV95cUxQUVZMMDhsYVpIRXktcTBPb2VQdUw1NEJLS1BidzNOZDBhWEpIcTQ0Rkw2UjZyeWQ1OXk4bnBkdE1Vb2F3ajZCZzhmVl9OcEhLTVJwTjN0WlpOWkRhLVExOTR6NEExSjdHZFk5RDhEX3JOcXNITmFKTjEzcUFyeWhJZ240TUQ2UFlqUlhibGwzak9UeEIweWN5R04xS1QxVDJaTTZ5eExzZ0tfTG9zZU9YdnVmSnhHXzJLZ0lJQWJQaTYySU91c2NTZVdiX0ZuX2NrRUNNM3k4aldPb1hub1RYaXF5WjhBSHVUbWIwYkJNYjg0ZWNUS3NZeW11M2xFTUVrbENnM21nTTk1RVNlSDQ1WVFwUi1ZQTBrbVhUc2NHdmNEZGM0RmxPd0ZOakhnOWhZbVByaFRpaDk0cVZLVWfSAcMCQVVfeXFMTldMQXRwdHJyMEtDOVZ4T19RcldtSGdYVnNjSEUxQlZfLWIwWXJYYUVLYzRoM2JMaXZnUEptbWhRRXVZcnAxWDcyQzZfSXhYRFAtU3NHUllrSlg2WURZdmVUeXdVVERqN2QzMHVhWms1WFBVV2lVaElYNUd5Um9lZDNRUWdQWnA4SXYtUnJUUERSTHhkUUJiSXE0SVJrYzJrSS0zTFdYeFZqYmhzRG9pc0NROV9GYk1EMEFjUGNXVmh6SXZSWXVzdmNrM0xsTnFmd0xoTkZncjYyLXVkc2ZnajZ6RHZGVmd1X1FpczZXanRJT0lZNFVURFY2LUhPTFlrM05adXhIUlZxWnpPRmRtdmt0ejhFR1F2a2s5dURuN0l0YlAyRkRHalc0dElVY0t2WlV6cmxRQnF2V1JNQURJYlVLSGM?oc=5",
+        "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOV0xBdHB0cnIwS0M5VnhPX1FyV21IZ1hWc2NIRTFCVl8tYjBZclhhRUtjNGgzYkxpdmdQSm1taFFFdVlycDFYNzJDNl9JeFhEUC1Tc0dSWWtKWDZZRFl2ZVR5d1VURGo3ZDMwdWFaazVYUFVXaVVoSVg1R3lSb2VkM1FRZ1BacDhJdi1SclRQRFJMeGRRQmJJcTRJUmtjMmtJLTNMV1h4VmpiaHNEb2lzQ1E5X0ZiTUQwQWNQY1dWaHpJdlJZdXN2Y2szTGxOcWZ3TGhORmdyNjItdWRzZmdqNnpEdkZWZ3VfUWlzNldqdElPSVk0VVREVjYtSE9MWWszTlp1eEhSVnFaek9GZG12a3R6OEVHUXZrazl1RG43SXRiUDJGREdqVzR0SVVjS3ZaVXpybFFCcXZXUk1BREliVUtIY9IBwwJBVV95cUxOV0xBdHB0cnIwS0M5VnhPX1FyV21IZ1hWc2NIRTFCVl8tYjBZclhhRUtjNGgzYkxpdmdQSm1taFFFdVlycDFYNzJDNl9JeFhEUC1Tc0dSWWtKWDZZRFl2ZVR5d1VURGo3ZDMwdWFaazVYUFVXaVVoSVg1R3lSb2VkM1FRZ1BacDhJdi1SclRQRFJMeGRRQmJJcTRJUmtjMmtJLTNMV1h4VmpiaHNEb2lzQ1E5X0ZiTUQwQWNQY1dWaHpJdlJZdXN2Y2szTGxOcWZ3TGhORmdyNjItdWRzZmdqNnpEdkZWZ3VfUWlzNldqdElPSVk0VVREVjYtSE9MWWszTlp1eEhSVnFaek9GZG12a3R6OEVHUXZrazl1RG43SXRiUDJGREdqVzR0SVVjS3ZaVXpybFFCcXZXUk1BREliVUtIYw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "5351ef5e41bd32bb87ddec7b",
+      "label_nl": "Claim: UK issues new Saudi Arabia travel warning for Britons - https://www.thetraveler.org/",
+      "headline_claim_ids": [
+        "945cb67734c14e"
+      ],
+      "headline_claims": [
+        "UK issues new Saudi Arabia travel warning for Britons - https://www.thetraveler.org/"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWWZDNnRscGpLb3ExVVBvcHJFMk0wLWZLYThWMHJLbU5BUEFOelo4ZDVqNWhnOU9OWThmTFdXRWhFTHJBWUltWXF4Vnp4SlJXMHhFYVpNU3ZEa3k2bnZ1dUVwejVaWVlRZ19WWTdxVWotOVhDMDBLY21OT2FxMU1vdFBDVWpFWUtodmc?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -659,43 +719,17 @@
       "probability_estimate": null
     },
     {
-      "id": "d333b4f52fcfbb8761983c45",
-      "label_nl": "Claim: US Renews Middle East Warning for Americans Amid Rising Threats - https://www.thetraveler.org/",
+      "id": "ec8e942e707b205f0c61da89",
+      "label_nl": "Claim: Oil steadies as Hormuz attacks blunt hopes for Iran truce - Euronext Markets: Real-time Stock Market Data | live",
       "headline_claim_ids": [
-        "aa09f288eab313"
+        "1aff36425c48d4"
       ],
       "headline_claims": [
-        "US Renews Middle East Warning for Americans Amid Rising Threats - https://www.thetraveler.org/"
+        "Oil steadies as Hormuz attacks blunt hopes for Iran truce - Euronext Markets: Real-time Stock Market Data | live"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdk5VZ2VXT0JUal9qM0JkS05jTGxaXzNlbm9INzJBMXpiSUJfclZRdlYyWG1laE1nblhQZ3BRNUgzem1pMnpROE1YWkpQbU15dG9aWmRibVljdTh5YXhIZGY2NkJCZVVUOUNEWWVJLXliTUlsckZpZnRvdGh4TGpKQzUzRk44djdlRy1fNXBGRXFYSTNmSEJv?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "235d713e176ff0e7096510ad",
-      "label_nl": "Claim: Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
-      "headline_claim_ids": [
-        "bff1aa4c122c60"
-      ],
-      "headline_claims": [
-        "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzdHRm52Q05MRjJYSFozaWFlRmdLcnRRckpFbDJZZFlIaEl4NFRLOThWMl9rSDFqNHpJTkkzRFJ5QmxxXzZQWUlnTHEyTWduS295YUc3bnpsbDJ1cG0zVVR3MmFaYVBZRDlUaHh3MHZDUVY3QmNEWXUtU01IWkdiSl94Q1J4Z2xmQldZaGJ3TEhSZ2VCeUJjR1FxVlRvLXNxUkxvVExpNWZEVWF3c0FudmlHd3JfeWPSAbwBQVVfeXFMT2tldk9nVGNmZWVfSTlwamwzeUdPX0luaWEyZkQySTlrOFpUZmxXRURyYlhXQ1FiZEpzaHJMaEJVZnVtX2RqVjNNTTBPbGR6QUh6dEl2TE1GM0ZwejU2RGZjaGdhUm1JaGpRVFlEZWdsU055RkhqUjc2RWVYaFcyQUFLREVla09ZbUZzZkVEYTRNY285Q0tjUS00U3dmN25TaDVSTGtmanpNcFU4bF9UV3piZVNaRUFLZS03MkE?oc=5",
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa2V2T2dUY2ZlZV9JOXBqbDN5R09fSW5pYTJmRDJJOWs4WlRmbFdFRHJiWFdDUWJkSnNockxoQlVmdW1fZGpWM01NME9sZHpBSHp0SXZMTUYzRnB6NTZEZmNoZ2FSbUloalFUWURlZ2xTTnlGSGpSNzZFZVhoVzJBQUtERWVrT1ltRnNmRURhNE1jbzlDS2NRLTRTd2Y3blNoNVJMa2Zqek1wVThsX1RXemJlU1pFQUtlLTcyQdIBvAFBVV95cUxPa2V2T2dUY2ZlZV9JOXBqbDN5R09fSW5pYTJmRDJJOWs4WlRmbFdFRHJiWFdDUWJkSnNockxoQlVmdW1fZGpWM01NME9sZHpBSHp0SXZMTUYzRnB6NTZEZmNoZ2FSbUloalFUWURlZ2xTTnlGSGpSNzZFZVhoVzJBQUtERWVrT1ltRnNmRURhNE1jbzlDS2NRLTRTd2Y3blNoNVJMa2Zqek1wVThsX1RXemJlU1pFQUtlLTcyQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGRWc251RGh5YXhyLWZkQ28yVmMwd2U0aEE0Q3lQdnJ4Sk9nZTNJb2tZYkpKci1QUUNBTkZXcjZnSmxGdWhkcXpjYmg3Nkt4RGdLZFE5dWZXN2dUTk5GY0tvaG43SjQ4ZWh0bmNidFR6ZUx2eUZETVZpRkdIM003NnVISEVfODljLW5MTGpYdzZrMmJSamdxUExB?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHRYZkFLSGhYU1lFbVJlMTdpNEQ4V0RqU1BIbWxvSjF4c0xXZXV5T3IxRndVeWpRNmtyN3NqdkhIUGFic0NhcjVTcnBVMkVYT2RvamYxaWhiOUhwZXR1WEwtS1ZkdmkxRmxMQ21mZWE0Vzd6dGhTaS01TlpTXzVFSEhrSnAwa0lMakNwcHAweUJfX05SanA1YlZkMERQMi1hdldvOFRR?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 2,
@@ -748,8 +782,8 @@
       "total_tokens": 33035
     },
     "2026-11-12": {
-      "requests": 9,
-      "total_tokens": 25253
+      "requests": 12,
+      "total_tokens": 32721
     }
   }
 }

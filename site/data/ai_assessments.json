@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-12T13:27:03.571505Z",
+  "last_attempt_utc": "2026-11-12T19:08:52.042195Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -5319,6 +5319,38 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-12T13:27:02.571306Z"
+    },
+    "945cb67734c14e": {
+      "id": "945cb67734c14e",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Het VK heeft een nieuwe reiswaarschuwing voor Britten naar Saoedi-Arabië uitgegeven.",
+      "claimed_event_nl": "Het VK heeft een reiswaarschuwing voor Saoedi-Arabië uitgegeven.",
+      "reason_nl": "Deze waarschuwing kan wijzen op een verhoogd risico in de regio, wat relevant is voor de veiligheid van reizigers.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-12T19:08:51.041948Z"
+    },
+    "54f5f0a8346372": {
+      "id": "54f5f0a8346372",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Europa probeert de effecten van de escalatie van de energiecrisis door de oorlog in Iran te beperken.",
+      "claimed_event_nl": "Europa onderneemt stappen om de gevolgen van de energie-escalatie door de oorlog in Iran te beperken.",
+      "reason_nl": "De situatie kan aanzienlijke economische gevolgen hebben voor Europa en de energiemarkt.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-12T19:08:51.041969Z"
     }
   },
   "usage_by_day": {
@@ -5331,8 +5363,8 @@
       "total_tokens": 7162
     },
     "2026-11-12": {
-      "requests": 4,
-      "total_tokens": 6050
+      "requests": 5,
+      "total_tokens": 6947
     }
   }
 }
