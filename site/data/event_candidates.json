@@ -1,34 +1,34 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-12T07:32:26.871192Z",
-  "fingerprint": "6372635396c4511f777070ea",
+  "last_attempt_utc": "2026-11-12T13:27:10.173391Z",
+  "fingerprint": "379c8669e033290e535a82bc",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 22,
-  "event_candidate_count": 21,
+  "input_candidate_count": 20,
+  "event_candidate_count": 18,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
-    "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 3,
+    "model_pair_proposals": 3,
+    "accepted_pair_connections": 2,
+    "rejected_pair_proposals": 1,
     "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "claims_in_multi_groups": 3,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-12T07:32:26.871192Z",
+    "recorded_at": "2026-11-12T13:27:10.173391Z",
     "groups": [
       {
         "ids": [
-          "fb734064403e55"
+          "76ed2644a08269"
         ],
-        "label_nl": "Claim: US Carries Out New Strikes in Iran Against Military Site, Official Says - EnergyNow.com",
+        "label_nl": "Claim: \"You will not escape\": Iran shock, our missiles will hit Europe, forget Hormuz, Israel ready for attack, 2 war plans - Bankingnews",
         "actor": "",
         "action": "",
         "place": "",
@@ -37,9 +37,9 @@
       },
       {
         "ids": [
-          "7a25e22a0e4986"
+          "81e4fceca9bbe0"
         ],
-        "label_nl": "Claim: US-Israel-Iran War Latest Live Updates: Is JD Vance Becoming Trump’s New Iran Negotiator? US Vice President Reportedly Seeks Direct Talks With Senior Iranian Security Official - The Sunday Guardian",
+        "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
         "actor": "",
         "action": "",
         "place": "",
@@ -49,7 +49,8 @@
       {
         "ids": [
           "6738a21be33922",
-          "e7555912fbbd42"
+          "e7555912fbbd42",
+          "1aff36425c48d4"
         ],
         "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
         "actor": "",
@@ -93,9 +94,9 @@
       },
       {
         "ids": [
-          "addd2bf35e897c"
+          "35e380a51e98ef"
         ],
-        "label_nl": "Claim: النفط ينخفض والذهب يرتفع بعد تراجع احتمال شن هجوم على إيران - ٢٦ سبتمبر نت",
+        "label_nl": "Claim: Iran tells COP31 it wants compensation for environmental damage from US - Israeli strikes",
         "actor": "",
         "action": "",
         "place": "",
@@ -104,9 +105,9 @@
       },
       {
         "ids": [
-          "aecbda51d9cebd"
+          "6d7462cc412c28"
         ],
-        "label_nl": "Claim: Iran threatens US bases in Europe if attacks resume - Iran International",
+        "label_nl": "Claim: Iran can still produce 50 ballistic missiles a month, despite US-Israeli strikes - report - The Jerusalem Post",
         "actor": "",
         "action": "",
         "place": "",
@@ -115,9 +116,9 @@
       },
       {
         "ids": [
-          "aaba81f4d07f24"
+          "9a40ee1b67fe3d"
         ],
-        "label_nl": "Claim: Tehran Demands Complete Sanctions Removal Before Entering Peace Talks - teleSUR English",
+        "label_nl": "Claim: Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi",
         "actor": "",
         "action": "",
         "place": "",
@@ -159,17 +160,6 @@
       },
       {
         "ids": [
-          "7c0bcdcaa86cf9"
-        ],
-        "label_nl": "Claim: Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
           "070cffe9ab582a"
         ],
         "label_nl": "Claim: Trump wants to keep Iran blockade. Can the Persian Gulf sustain the standoff? - Iran International",
@@ -181,9 +171,9 @@
       },
       {
         "ids": [
-          "3d791525f00101"
+          "0aaf4f4a430016"
         ],
-        "label_nl": "Claim: 今日原油：从两个月低位反弹，霍尔木兹海峡及胡塞武装袭击风险提供支撑 - 新浪财经",
+        "label_nl": "Claim: Iran warns of expanded retaliation as Israel reportedly readies to attack - Al Jazeera",
         "actor": "",
         "action": "",
         "place": "",
@@ -192,9 +182,9 @@
       },
       {
         "ids": [
-          "31f55bd390cc07"
+          "7a25e22a0e4986"
         ],
-        "label_nl": "Claim: Iran unveils underground missile base amid Strait of Hormuz tensions - Operativ Məlumat Mərkəzi",
+        "label_nl": "Claim: US-Israel-Iran War Latest Live Updates: Is JD Vance Becoming Trump’s New Iran Negotiator? US Vice President Reportedly Seeks Direct Talks With Senior Iranian Security Official - The Sunday Guardian",
         "actor": "",
         "action": "",
         "place": "",
@@ -203,31 +193,9 @@
       },
       {
         "ids": [
-          "cc822471a136f9"
+          "aa09f288eab313"
         ],
-        "label_nl": "Claim: Trump and Qatar PM hold 45-minute call on Iran negotiations - scanx.trade",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "aeb3339ffb3154"
-        ],
-        "label_nl": "Claim: Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "9975cd4d07fde4"
-        ],
-        "label_nl": "Claim: Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
+        "label_nl": "Claim: US Renews Middle East Warning for Americans Amid Rising Threats - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
@@ -247,9 +215,9 @@
       },
       {
         "ids": [
-          "9740c265b8ae52"
+          "7c0bcdcaa86cf9"
         ],
-        "label_nl": "Claim: Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
+        "label_nl": "Claim: Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
         "actor": "",
         "action": "",
         "place": "",
@@ -258,44 +226,42 @@
       }
     ],
     "input_claim_ids": [
-      "fb734064403e55",
-      "7a25e22a0e4986",
+      "76ed2644a08269",
+      "81e4fceca9bbe0",
       "6738a21be33922",
       "3ba19b4585299c",
       "9811a6e6039638",
       "cdbcccd715dbe0",
-      "addd2bf35e897c",
-      "aecbda51d9cebd",
-      "aaba81f4d07f24",
+      "35e380a51e98ef",
+      "6d7462cc412c28",
+      "9a40ee1b67fe3d",
       "a33babe4763f16",
       "e7555912fbbd42",
       "52400e9592f7f9",
       "d9e000219d109f",
-      "7c0bcdcaa86cf9",
       "070cffe9ab582a",
-      "3d791525f00101",
-      "31f55bd390cc07",
-      "cc822471a136f9",
-      "aeb3339ffb3154",
-      "9975cd4d07fde4",
+      "0aaf4f4a430016",
+      "7a25e22a0e4986",
+      "aa09f288eab313",
+      "1aff36425c48d4",
       "bff1aa4c122c60",
-      "9740c265b8ae52"
+      "7c0bcdcaa86cf9"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "4084f561e9a810955bce4f77",
-      "label_nl": "Claim: US Carries Out New Strikes in Iran Against Military Site, Official Says - EnergyNow.com",
+      "id": "07f6b8dadcd590f74a41b677",
+      "label_nl": "Claim: \"You will not escape\": Iran shock, our missiles will hit Europe, forget Hormuz, Israel ready for attack, 2 war plans - Bankingnews",
       "headline_claim_ids": [
-        "fb734064403e55"
+        "76ed2644a08269"
       ],
       "headline_claims": [
-        "US Carries Out New Strikes in Iran Against Military Site, Official Says - EnergyNow.com"
+        "\"You will not escape\": Iran shock, our missiles will hit Europe, forget Hormuz, Israel ready for attack, 2 war plans - Bankingnews"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc01hbXNvSFZmbHJuQzR5WC1mdTlILW9iTlZOMHNTcTJoVUNqeDdkOHdZQTJTSlhSRTJrMHlXcWphYmo1SUstcmhOaFo2Q2Q1UFBtdzBhUXZWWGFzbnJSVnYzMElucUVONWpORGFzY1g0SjNPbWVCelhBUjJIenprLWI2bHBTMVBVVmc1VEJGMWxadFZnbVprdVR3MFFKUkpRZktn?oc=5"
+        "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPNkZ6cEpwM19INkZpUXZwY01uNEJ3czh6NHFIejQ1Y2luLUVvZ2NJN3pETHg0R2NKZTE3YkliXzk2YW5fc28zRm5hYUpadGxUd3FEamp3VDlFdGNjZFFHNmhoaTV1dWdRYVF3UDk2Ny0wUUpDeUFONTcwS0xLMVJMTVRQb1JiaW9rODEtQjNYYmViTm5jRmQzdk1DZ2ZuT0hLSnd2cDU1cnBMZ04yY0g0eWVQVFZZQTkzaGU5TVBpeklDVloyR0JuSU5nVTBzZ21BZ1ZJeWtJNGhyVFNyWlF1NHRqaDdXY2hJSkktODh1emRmQkdFNzdBdFV0NkptZw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -312,42 +278,16 @@
       "probability_estimate": null
     },
     {
-      "id": "3b089ebe40cefdbc93da08f6",
-      "label_nl": "Claim: Iran threatens US bases in Europe if attacks resume - Iran International",
+      "id": "b5297516573b23452dbf2b66",
+      "label_nl": "Claim: Iran can still produce 50 ballistic missiles a month, despite US-Israeli strikes - report - The Jerusalem Post",
       "headline_claim_ids": [
-        "aecbda51d9cebd"
+        "6d7462cc412c28"
       ],
       "headline_claims": [
-        "Iran threatens US bases in Europe if attacks resume - Iran International"
+        "Iran can still produce 50 ballistic missiles a month, despite US-Israeli strikes - report - The Jerusalem Post"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vQ2NKenlpTlJWSXdMRE9xNXhfemZXbUpONlQyZnV4QnV3bWhUME1jbV9QU0V5YlNWLWtxNkxpUDdiaDBuR0hEWUJ3eW9LTTM5akE?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "24d14207c9ca37a0d92c3d02",
-      "label_nl": "Claim: Tehran Demands Complete Sanctions Removal Before Entering Peace Talks - teleSUR English",
-      "headline_claim_ids": [
-        "aaba81f4d07f24"
-      ],
-      "headline_claims": [
-        "Tehran Demands Complete Sanctions Removal Before Entering Peace Talks - teleSUR English"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTFBhWV9YM1plNVJSN2x0d3ZxUEVveVZhUThKekhlZU5Ib3U5MXpXRHB5SnlQcnpQR05NZ3RLUFFjVWVNS1ZZSUdHUWZsT05Md2pqNkVHYXlUWWhwd3ByQWRNRTB5d0RwbDN6ZFIzQl81b3ZTTmRSMWQ3c1hB?oc=5"
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fb2Nta0NnYU9oS3dnTkc3a2VPNVRSVXdUcS1wNFNlcXo3eG9kS0lZbWlFRy0wQ1pzSmUwZTNMZWVUbmFFT09MYXYzLS1JandqVWtTdnlyVWthRmo4Wm5xTmJOREwwU1pmMnc?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -390,16 +330,16 @@
       "probability_estimate": null
     },
     {
-      "id": "97ea63d1943dc3595eca26ad",
-      "label_nl": "Claim: Iran unveils underground missile base amid Strait of Hormuz tensions - Operativ Məlumat Mərkəzi",
+      "id": "f4286748efae897c1b8023b6",
+      "label_nl": "Claim: Iran warns of expanded retaliation as Israel reportedly readies to attack - Al Jazeera",
       "headline_claim_ids": [
-        "31f55bd390cc07"
+        "0aaf4f4a430016"
       ],
       "headline_claims": [
-        "Iran unveils underground missile base amid Strait of Hormuz tensions - Operativ Məlumat Mərkəzi"
+        "Iran warns of expanded retaliation as Israel reportedly readies to attack - Al Jazeera"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVTdLdV9ZdkgwVVNvQ2ItSmtpLUhvWGhCcjJheXRFWEhlOGt4UTFFdlV1REt6cHQ5TE9lRkZCOS0xYm94VzU4ZFhtODRBOTFiTlY3ZVdrVHNweUlieGJ4Y2NURFFGQUFwZkRHWHZoUjE4R1Zjb3ZkZmFGX3FzMDVVLUo0V2tBNDlaR1V2V0FhblhhLTVoZnJKdE5Sc2JfR2ZoZG9jM1M3MA?oc=5"
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -416,70 +356,17 @@
       "probability_estimate": null
     },
     {
-      "id": "533e456c6c3e0214bf634471",
-      "label_nl": "Claim: Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
-      "headline_claim_ids": [
-        "aeb3339ffb3154"
-      ],
-      "headline_claims": [
-        "Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaFNVVXl2cDBhMTVpZWRfWWJrSFFhYnRBZXlXT2Q0OWpWQVdHOUpRUnZPZDlWZ2xrOVVZWF9ieUFtaU1ieG9PZlBHQmJ5ZF9JNzl2OVZsSDlDNUxSZEllLUlVNzBEN2daNnBNWVpnZ3ltM0FGazdtMzFNX0pwVk13YW9BOU91UTNacDQwa2hJMkY4dU5xVUFOY1pwZi1Mem1RTm5GTHdQdkQ1LTNBYmZ3VldaVktSVk1CbnRBekNRVUZtTnFWWUFiSFh3SVRoTHdoRmNYUFB2OTYxbC1J?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "06b48ade8f94e5366f568035",
-      "label_nl": "Claim: Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder",
-      "headline_claim_ids": [
-        "9975cd4d07fde4"
-      ],
-      "headline_claims": [
-        "Oil slides as Trump signals restraint on Iran despite fresh shipping attacks - Business Recorder"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYy13eXltNldJNUhUay02cHBib0ZsM1IydjZHdDhiRTZZNVlJeExSeUxWLWQzVDRqUHdpZUljZGZCakFXeTNIc3oxZktkdEltVlp2MnYtNmx2MGhxSzFWMExTbjFGeUdiTTZyQk9rd0dzZG5qVGNmdFdVYWtETXVITlNmaUpEamdVbGlySEsxaDNvTnFNQVBBWU44UHhsR3FCaEFZQk1qUTBzc2poQkd4eFAwSzhhVUHSAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UNm1JTGhxR1lJbWlXTEpySG04ZGtxa0hvTUhUbEpwcEV1V200R1ctZk9zZmlwT2Q2bjVGZkhBcXVBTDJFMTRIdjVwUmpvR3F3aEZpRENBbU1aNE1mMDZ4OGRCdDBsbnZ5c0NQdDFpekUzQzJQRVR2THd3TQ?oc=5",
-        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRkxqeXpOZ25JRzdwX0s3bnN2UGdSNTBQUWEzNkliYUN1Ykt3SVh4VFRJdUpvRDVXTFBRWURzeUxTZVpPb1FxbGhaOEhaWFN3dVJUTEwzVFE0eEVxZDhsVnVCM3dMYXRLcTh4UUlnUFJYX1ptVmlSSWhJcTRmXzFYanpuSFBlVE5mSzI2eURLMXZQME5zSU9qYzZzYmUyUmdWMEdoRUN6dXFoX0g0SS1ielRjOHBOdjNFclhaNnlEYw?oc=5",
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVm4tdVY4YVBOVGZaOFhUQnk4OEV4VjRSZklqVkRCQnY1aWdVbEZTRzBZX0pQZ00tbmZOX0pjSEVLMVlqVTd3dm5qSXV5UWNFeWVHdjB6ZXl0dEE0NDI4Q21lVmFFbnZJRVBIbTVLeTBlLUp5VDZyUHdRMlUxMzRVVGZFVFUxR1FkcmF5LXJDajYwRVkwSGlRdVI3RXF1MmpUNWpDWHFOdVBNcWtNTTR0UzBaLW4yUGJSVUlld1VfdU7SAVZBVV95cUxPRjdWcFpwZm5IRHRTd3ZpRmxVWWE2ZjJfYzM2bmU3c3Rrc1BrYW04SE9uOHBLM294eXQ2V0lNc0otODd1dUFPazRncjhBOXkyUmZrUVdQUQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 4,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "6a22ed511ba3209cec3a5099",
+      "id": "0be81a183720908afb0a8259",
       "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
       "headline_claim_ids": [
         "6738a21be33922",
-        "e7555912fbbd42"
+        "e7555912fbbd42",
+        "1aff36425c48d4"
       ],
       "headline_claims": [
         "Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
-        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC"
+        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC",
+        "Oil steadies as Hormuz attacks blunt hopes for Iran truce - Euronext Markets: Real-time Stock Market Data | live"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHJnOHJDbk5WaldJTElTSXJZN2hvVkxscE9YbEduNmd3SlFMSkVVYjd0ZWxEdUVQeVJnaDRGMVd6Z3BMZTk5SDhNenR1a1F4TnZLS18tdXc3VGZsLU1NcVV2eTIzY3lweTNkOTZhTmVuVWg4OVFtdWc0SWthWkhCN3ZmSVdYeUVEZnZYbTRFRFZKd0g2dGFrVk5fWDNENVNKNzlhWnNn0gGuAUFVX3lxTE1QMjNYU3BTUTc3RUFiYWUyUlhxdmg2SGdYemQzY0xMRHl0cXl4SWdNNENOa0NzVWhzRWcyMHNiVTJGdTVWZ1VsWjl5cDhlNTFYQUZvTEEwZ2twT1loaG9raTBRLUlJR1RHZ0dxaWQxeERxd3lBVEpoSmhMdGhHQVZUdWhNdm83UEkxaDdpZVhyM2hMZVNTd3cxVjJpem5CU1BoVXRvTEQ2Tm9yOEhRUQ?oc=5",
@@ -487,10 +374,12 @@
         "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObHVWWHRoVUVJZHdicUFRVzREYVhaUllhYXhUWnVCUE9PWTFmM2hTbE1fcWRocmRlV0x5eHVKS3FBTTNxd0lSMXNBR2tzeVZHRndYdVE3SEgyUzI1Wi1DaDhPV3dyQkFFNzZKalgzZWZMZHlCRDFqSndsNlNiTTBpT25DV3VNUUNOUGRWUGF2dGZmbEFVam9wdXlrd18yNHVaQWVRT0VtTW84UdIBVkFVX3lxTE9mMXROUlVpU3ZtMlRqc3JRdkc5aUYtT3huOWRZVlBnWVRnUGcxSDRvUzBYZlZFRlMzczlIZDg1Wjh6ZkpheWxRVXBQNHJmSnRrWG84aU5B?oc=5",
         "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazZ2WlZKeGZNYjh5YjBSZW1ORURVWjNfel93b0Z0VjAtRmJHUFJBNjRqYVlrS05ycE1qcEMyZXduQy1hci1heF9pUktMcm16LWtXZDlPM212RjNQbUJfdlk1cC1wc1N2aTVJT09iVWxYV3M5TDlUWXI4cGFKdEpMZVk1dk9lU282aHVETk9EVFItaWtzZ0t4QXhLdUlWbUljZ05uT3NQYmR1c3UyTUUwME51ZFh2dXM?oc=5",
         "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
-        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5"
+        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGRWc251RGh5YXhyLWZkQ28yVmMwd2U0aEE0Q3lQdnJ4Sk9nZTNJb2tZYkpKci1QUUNBTkZXcjZnSmxGdWhkcXpjYmg3Nkt4RGdLZFE5dWZXN2dUTk5GY0tvaG43SjQ4ZWh0bmNidFR6ZUx2eUZETVZpRkdIM003NnVISEVfODljLW5MTGpYdzZrMmJSamdxUExB?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHRYZkFLSGhYU1lFbVJlMTdpNEQ4V0RqU1BIbWxvSjF4c0xXZXV5T3IxRndVeWpRNmtyN3NqdkhIUGFic0NhcjVTcnBVMkVYT2RvamYxaWhiOUhwZXR1WEwtS1ZkdmkxRmxMQ21mZWE0Vzd6dGhTaS01TlpTXzVFSEhrSnAwa0lMakNwcHAweUJfX05SanA1YlZkMERQMi1hdldvOFRR?oc=5"
       ],
-      "article_group_count": 2,
-      "news_url_count": 6,
+      "article_group_count": 3,
+      "news_url_count": 8,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -504,16 +393,16 @@
       "probability_estimate": null
     },
     {
-      "id": "244d034f0b3fe8ba42ef0bc6",
-      "label_nl": "Claim: US-Israel-Iran War Latest Live Updates: Is JD Vance Becoming Trump’s New Iran Negotiator? US Vice President Reportedly Seeks Direct Talks With Senior Iranian Security Official - The Sunday Guardian",
+      "id": "50ac7a3e82a4557551e50415",
+      "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
       "headline_claim_ids": [
-        "7a25e22a0e4986"
+        "81e4fceca9bbe0"
       ],
       "headline_claims": [
-        "US-Israel-Iran War Latest Live Updates: Is JD Vance Becoming Trump’s New Iran Negotiator? US Vice President Reportedly Seeks Direct Talks With Senior Iranian Security Official - The Sunday Guardian"
+        "Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgJBVV95cUxQUVZMMDhsYVpIRXktcTBPb2VQdUw1NEJLS1BidzNOZDBhWEpIcTQ0Rkw2UjZyeWQ1OXk4bnBkdE1Vb2F3ajZCZzhmVl9OcEhLTVJwTjN0WlpOWkRhLVExOTR6NEExSjdHZFk5RDhEX3JOcXNITmFKTjEzcUFyeWhJZ240TUQ2UFlqUlhibGwzak9UeEIweWN5R04xS1QxVDJaTTZ5eExzZ0tfTG9zZU9YdnVmSnhHXzJLZ0lJQWJQaTYySU91c2NTZVdiX0ZuX2NrRUNNM3k4aldPb1hub1RYaXF5WjhBSHVUbWIwYkJNYjg0ZWNUS3NZeW11M2xFTUVrbENnM21nTTk1RVNlSDQ1WVFwUi1ZQTBrbVhUc2NHdmNEZGM0RmxPd0ZOakhnOWhZbVByaFRpaDk0cVZLVWfSAcMCQVVfeXFMTldMQXRwdHJyMEtDOVZ4T19RcldtSGdYVnNjSEUxQlZfLWIwWXJYYUVLYzRoM2JMaXZnUEptbWhRRXVZcnAxWDcyQzZfSXhYRFAtU3NHUllrSlg2WURZdmVUeXdVVERqN2QzMHVhWms1WFBVV2lVaElYNUd5Um9lZDNRUWdQWnA4SXYtUnJUUERSTHhkUUJiSXE0SVJrYzJrSS0zTFdYeFZqYmhzRG9pc0NROV9GYk1EMEFjUGNXVmh6SXZSWXVzdmNrM0xsTnFmd0xoTkZncjYyLXVkc2ZnajZ6RHZGVmd1X1FpczZXanRJT0lZNFVURFY2LUhPTFlrM05adXhIUlZxWnpPRmRtdmt0ejhFR1F2a2s5dURuN0l0YlAyRkRHalc0dElVY0t2WlV6cmxRQnF2V1JNQURJYlVLSGM?oc=5"
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLTdvUGZhMDA2MGVTYWc0X2Fsc0FrOWtoOW9sNmI1TWZrcGtLT1BmQUd6MFN1NmhNNGtZV2doZ053T1BBNDg3N21QTk4wakljekxHZEZsVmNGRDJXRGctQ0RraTh1clFqSkMyUXRzcUkycTI3a1dEV1dwdjA2aEdGZnhFWGIwdUtXOVI3Q091ZTAwVi11aG1fVHJYRmZob0NXNThJUG9hMVpjSm1mSTZUU1hEZU9ZRkQ3NGplYlZwWk50Z1NpM2kyTkVEb18yUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -613,20 +502,46 @@
       "probability_estimate": null
     },
     {
-      "id": "87996862893cf79036c6f827",
-      "label_nl": "Claim: النفط ينخفض والذهب يرتفع بعد تراجع احتمال شن هجوم على إيران - ٢٦ سبتمبر نت",
+      "id": "e0a6d374da7819a10ed4605a",
+      "label_nl": "Claim: Iran tells COP31 it wants compensation for environmental damage from US - Israeli strikes",
       "headline_claim_ids": [
-        "addd2bf35e897c"
+        "35e380a51e98ef"
       ],
       "headline_claims": [
-        "النفط ينخفض والذهب يرتفع بعد تراجع احتمال شن هجوم على إيران - ٢٦ سبتمبر نت"
+        "Iran tells COP31 it wants compensation for environmental damage from US - Israeli strikes"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42Vmg4ODZ6TUlQV1hOVXFNeHVXS3FqTUFoWDF3cXNQZGFoVnI0SC1rbUFJQzJPT0JoUzFScno3RjNCRW5WZW5zVFpNNy1VN091aFNGYW5WSzBmM0k?oc=5",
-        "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPVlhBUldDSmpna2JyNkg1UnJlSW1WTmZSVjJEem9KRi1QbXZXRzNnT3FSNTdvbUxDWl96R3pWdTJyUjIzQkhqdzI3cDJfaG1WRV9zd1hIRm1Td25aZXhGYnhLcGJsOWh1bE9na2xWWjJaYm45MzJVS1AwVGNlcXNHbk9ZOWJEcEJlbTdOWjQxalJsMW8tMm0yM2VTdk5KOFk2SVJEanZTN1lCdWFmLWwwQjJqSnFxWFIwcWFWNkduYUh1UzZMN0wxYnNnZ1R6dTVxcjR4VVJ6cTEzeVhwQVUyVVR3MERYYS1CU3d4TDdxbXRUaUllajNZM2dRUklmaGVwak9iTDBiWWV5WWFfeHdMOTZCM1VHdk90M1BIY3ZMaWRuX0hJZUtqdkhMT3dmajhnWEhXT1RwVXJLWS0tbHUtbTYwd0FSVUtJ?oc=5"
+        "https://www.asiaone.com:443/asia/iran-tells-cop31-it-wants-compensation-environmental-damage-us-israeli-strikes",
+        "https://www.rappler.com/world/global-affairs/iran-compensation-environmental-damage-us-israeli-strikes-cop31/"
       ],
       "article_group_count": 1,
       "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "03bc04d024fab2c37b11f6fd",
+      "label_nl": "Claim: Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi",
+      "headline_claim_ids": [
+        "9a40ee1b67fe3d"
+      ],
+      "headline_claims": [
+        "Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLUVTNnM0Y2lHajFySWZQaFFQVlA5Sk1TQ1hROFVGWklCZDcxaG85bUFjVjZJdlNqc0MxeVhnYk5WT016NnJRdmdVM0Fsb29adUtMRS1kU2VYYWtuMkVRNGw2b0NWX1lpeElIbFotdmtkRzRpR3JJOGxBY2pObl81WVlJX3JOeGF5V0tQQTdIX3htY1JhMTc3S290dFdjNGRpb21LM0F4SVpuMHJDWHE5aVlKVGFNd0lEVzdFVmV0NFJiQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -692,32 +607,6 @@
       "probability_estimate": null
     },
     {
-      "id": "c3034c595330464eb35994da",
-      "label_nl": "Claim: Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
-      "headline_claim_ids": [
-        "7c0bcdcaa86cf9"
-      ],
-      "headline_claims": [
-        "Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPblEtVk5pY1c4RHVxN2I1ZHdmRjgyU05Qd19ZOHRaQ1otNWt0bU9kbXdKbzcycFpFdzdJbjlWZE91WFhoX1dSLUJNRXpVREpTbXZBVXZqTzZoZVVocVVaT2w3dENHamRFUUp2NE9SMnhGcHRFZUIxbkRNYVoxNXRPVlQzdDhNMGVrOWcwOVhIUQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "64bf4509168e90e4978ff8f5",
       "label_nl": "Claim: Trump wants to keep Iran blockade. Can the Persian Gulf sustain the standoff? - Iran International",
       "headline_claim_ids": [
@@ -744,16 +633,16 @@
       "probability_estimate": null
     },
     {
-      "id": "3e48586f4b7b37d3f0317438",
-      "label_nl": "Claim: 今日原油：从两个月低位反弹，霍尔木兹海峡及胡塞武装袭击风险提供支撑 - 新浪财经",
+      "id": "244d034f0b3fe8ba42ef0bc6",
+      "label_nl": "Claim: US-Israel-Iran War Latest Live Updates: Is JD Vance Becoming Trump’s New Iran Negotiator? US Vice President Reportedly Seeks Direct Talks With Senior Iranian Security Official - The Sunday Guardian",
       "headline_claim_ids": [
-        "3d791525f00101"
+        "7a25e22a0e4986"
       ],
       "headline_claims": [
-        "今日原油：从两个月低位反弹，霍尔木兹海峡及胡塞武装袭击风险提供支撑 - 新浪财经"
+        "US-Israel-Iran War Latest Live Updates: Is JD Vance Becoming Trump’s New Iran Negotiator? US Vice President Reportedly Seeks Direct Talks With Senior Iranian Security Official - The Sunday Guardian"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiowRBVV95cUxQNnpYc0E4TloyWGNJamFheUhDTkk2MWF5THMyb2ZUQ3piUHpobHl3Nm91b2FiNzF4TTUtd1FkZm9OVUhiVXNlT2lhRWZrZUFlR2ZVLUlWdnpfZ3dDMFBPVmQ0UUNHVmNGajdEOVZ0a2hEMGZsN3J3TG9zMHFzX1VNYjJYOUNLaURQZzVaeHdIY1E2UjZTb1ZnWE90ak5kb0JiQUdBZllKc3k5UXJqWXVBWjJ2VmlzYWpuMmlpWk9XbXlrakNNckREaGZGR1pDeXlzd0c4VFQwYzh5NHN3M0dhZDJDNXFvZ0tXNjVBeVRCLVFjTDVoNk9TQ1l1Z2p3bHBUdWFjRjJmTGU0YjBnTWRKYmt4QVBvMTNOWUw1YWhyS3cyUERNTzhqY3FVVHFGbG85bFdoZ0E0aUw5OVJGS2R5NjctaFMtZHJvb1J0WVBRTzNIRGZUbEtsN1FablNWRHhrNWRpNWFldVhKX1VYMWh3UnNjRUlKRGxJMG5PR2VDMnBGT0ZFcnJhdmhISGpuSXJiZkN2c2N4LTNZV2E5TmdxN0lkSmZxSVNVUllveHo0M2lkQ1VlOE5NaDNBTU4yeHk3ekdvanRlNXZUN2FzSTF2NV9kcnhzNTlTa1ZGZnQtMnNtRlRodWR0V3NKOFhKOW41bEktMnRyMVlfZXFHbGozUTRUUFB1UTBSOTRTTVVUdmtOS09CWXprVUJJVTF6MVdxc25R?oc=5"
+        "https://news.google.com/rss/articles/CBMivgJBVV95cUxQUVZMMDhsYVpIRXktcTBPb2VQdUw1NEJLS1BidzNOZDBhWEpIcTQ0Rkw2UjZyeWQ1OXk4bnBkdE1Vb2F3ajZCZzhmVl9OcEhLTVJwTjN0WlpOWkRhLVExOTR6NEExSjdHZFk5RDhEX3JOcXNITmFKTjEzcUFyeWhJZ240TUQ2UFlqUlhibGwzak9UeEIweWN5R04xS1QxVDJaTTZ5eExzZ0tfTG9zZU9YdnVmSnhHXzJLZ0lJQWJQaTYySU91c2NTZVdiX0ZuX2NrRUNNM3k4aldPb1hub1RYaXF5WjhBSHVUbWIwYkJNYjg0ZWNUS3NZeW11M2xFTUVrbENnM21nTTk1RVNlSDQ1WVFwUi1ZQTBrbVhUc2NHdmNEZGM0RmxPd0ZOakhnOWhZbVByaFRpaDk0cVZLVWfSAcMCQVVfeXFMTldMQXRwdHJyMEtDOVZ4T19RcldtSGdYVnNjSEUxQlZfLWIwWXJYYUVLYzRoM2JMaXZnUEptbWhRRXVZcnAxWDcyQzZfSXhYRFAtU3NHUllrSlg2WURZdmVUeXdVVERqN2QzMHVhWms1WFBVV2lVaElYNUd5Um9lZDNRUWdQWnA4SXYtUnJUUERSTHhkUUJiSXE0SVJrYzJrSS0zTFdYeFZqYmhzRG9pc0NROV9GYk1EMEFjUGNXVmh6SXZSWXVzdmNrM0xsTnFmd0xoTkZncjYyLXVkc2ZnajZ6RHZGVmd1X1FpczZXanRJT0lZNFVURFY2LUhPTFlrM05adXhIUlZxWnpPRmRtdmt0ejhFR1F2a2s5dURuN0l0YlAyRkRHalc0dElVY0t2WlV6cmxRQnF2V1JNQURJYlVLSGM?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -770,16 +659,16 @@
       "probability_estimate": null
     },
     {
-      "id": "af578ddb3c92c16f463c3a20",
-      "label_nl": "Claim: Trump and Qatar PM hold 45-minute call on Iran negotiations - scanx.trade",
+      "id": "d333b4f52fcfbb8761983c45",
+      "label_nl": "Claim: US Renews Middle East Warning for Americans Amid Rising Threats - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "cc822471a136f9"
+        "aa09f288eab313"
       ],
       "headline_claims": [
-        "Trump and Qatar PM hold 45-minute call on Iran negotiations - scanx.trade"
+        "US Renews Middle East Warning for Americans Amid Rising Threats - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY2lkbXJHdURaYTk3Y0MweHJsZzlmSHhfOEY1RFZXMk4yQ1VOZ2RwaDZHRjh0OWI2ei1UU1Awcms0ZGhtS0cwVHp4WVdrSDdqWmRqVnpuaTFmcS15QVF2b0tzb0RGQzlPQkRISUliZm5hSDZWNUxTWDhrXzd2Qy10UDVpUkNsMHpSYlN2TnpBb2JzVmlOa0d4WE9pYnlubUlRVFQ2amxSMF9zTm95NF8wVUtoZ0dGVEk?oc=5"
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdk5VZ2VXT0JUal9qM0JkS05jTGxaXzNlbm9INzJBMXpiSUJfclZRdlYyWG1laE1nblhQZ3BRNUgzem1pMnpROE1YWkpQbU15dG9aWmRibVljdTh5YXhIZGY2NkJCZVVUOUNEWWVJLXliTUlsckZpZnRvdGh4TGpKQzUzRk44djdlRy1fNXBGRXFYSTNmSEJv?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -805,10 +694,11 @@
         "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzdHRm52Q05MRjJYSFozaWFlRmdLcnRRckpFbDJZZFlIaEl4NFRLOThWMl9rSDFqNHpJTkkzRFJ5QmxxXzZQWUlnTHEyTWduS295YUc3bnpsbDJ1cG0zVVR3MmFaYVBZRDlUaHh3MHZDUVY3QmNEWXUtU01IWkdiSl94Q1J4Z2xmQldZaGJ3TEhSZ2VCeUJjR1FxVlRvLXNxUkxvVExpNWZEVWF3c0FudmlHd3JfeWPSAbwBQVVfeXFMT2tldk9nVGNmZWVfSTlwamwzeUdPX0luaWEyZkQySTlrOFpUZmxXRURyYlhXQ1FiZEpzaHJMaEJVZnVtX2RqVjNNTTBPbGR6QUh6dEl2TE1GM0ZwejU2RGZjaGdhUm1JaGpRVFlEZWdsU055RkhqUjc2RWVYaFcyQUFLREVla09ZbUZzZkVEYTRNY285Q0tjUS00U3dmN25TaDVSTGtmanpNcFU4bF9UV3piZVNaRUFLZS03MkE?oc=5"
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzdHRm52Q05MRjJYSFozaWFlRmdLcnRRckpFbDJZZFlIaEl4NFRLOThWMl9rSDFqNHpJTkkzRFJ5QmxxXzZQWUlnTHEyTWduS295YUc3bnpsbDJ1cG0zVVR3MmFaYVBZRDlUaHh3MHZDUVY3QmNEWXUtU01IWkdiSl94Q1J4Z2xmQldZaGJ3TEhSZ2VCeUJjR1FxVlRvLXNxUkxvVExpNWZEVWF3c0FudmlHd3JfeWPSAbwBQVVfeXFMT2tldk9nVGNmZWVfSTlwamwzeUdPX0luaWEyZkQySTlrOFpUZmxXRURyYlhXQ1FiZEpzaHJMaEJVZnVtX2RqVjNNTTBPbGR6QUh6dEl2TE1GM0ZwejU2RGZjaGdhUm1JaGpRVFlEZWdsU055RkhqUjc2RWVYaFcyQUFLREVla09ZbUZzZkVEYTRNY285Q0tjUS00U3dmN25TaDVSTGtmanpNcFU4bF9UV3piZVNaRUFLZS03MkE?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa2V2T2dUY2ZlZV9JOXBqbDN5R09fSW5pYTJmRDJJOWs4WlRmbFdFRHJiWFdDUWJkSnNockxoQlVmdW1fZGpWM01NME9sZHpBSHp0SXZMTUYzRnB6NTZEZmNoZ2FSbUloalFUWURlZ2xTTnlGSGpSNzZFZVhoVzJBQUtERWVrT1ltRnNmRURhNE1jbzlDS2NRLTRTd2Y3blNoNVJMa2Zqek1wVThsX1RXemJlU1pFQUtlLTcyQdIBvAFBVV95cUxPa2V2T2dUY2ZlZV9JOXBqbDN5R09fSW5pYTJmRDJJOWs4WlRmbFdFRHJiWFdDUWJkSnNockxoQlVmdW1fZGpWM01NME9sZHpBSHp0SXZMTUYzRnB6NTZEZmNoZ2FSbUloalFUWURlZ2xTTnlGSGpSNzZFZVhoVzJBQUtERWVrT1ltRnNmRURhNE1jbzlDS2NRLTRTd2Y3blNoNVJMa2Zqek1wVThsX1RXemJlU1pFQUtlLTcyQQ?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -822,16 +712,16 @@
       "probability_estimate": null
     },
     {
-      "id": "0a9ce9d5ff6ea6b5985711cc",
-      "label_nl": "Claim: Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News",
+      "id": "c3034c595330464eb35994da",
+      "label_nl": "Claim: Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
       "headline_claim_ids": [
-        "9740c265b8ae52"
+        "7c0bcdcaa86cf9"
       ],
       "headline_claims": [
-        "Russian Defense Ministry Tu-154 lands in Israel amid regional tensions - Aerospace Global News"
+        "Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTlI3bkxodEtSWnE3ckF3ZV8tZ0s3QTJ6aE50R2l4V2xnbTA1Qlo2MFdtLVo2ekozYnVETHhjVmh5ZkpqTU9fdkJMa0w3M054d3BVMmR5YUh3SERmTjZQaHhOT21VQXhpdE9EYlpwRVlvR0VjS1BCWFowUllBR1NvZlFJMVp2ZGRZR29yaTV2ZkdEdw?oc=5"
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPblEtVk5pY1c4RHVxN2I1ZHdmRjgyU05Qd19ZOHRaQ1otNWt0bU9kbXdKbzcycFpFdzdJbjlWZE91WFhoX1dSLUJNRXpVREpTbXZBVXZqTzZoZVVocVVaT2w3dENHamRFUUp2NE9SMnhGcHRFZUIxbkRNYVoxNXRPVlQzdDhNMGVrOWcwOVhIUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -858,8 +748,8 @@
       "total_tokens": 33035
     },
     "2026-11-12": {
-      "requests": 6,
-      "total_tokens": 17541
+      "requests": 9,
+      "total_tokens": 25253
     }
   }
 }

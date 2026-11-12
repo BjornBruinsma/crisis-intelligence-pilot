@@ -1,91 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-12T07:32:47.874633Z",
+  "last_attempt_utc": "2026-11-12T13:27:29.577202Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 21,
-  "active_checked": 7,
+  "active_total": 18,
+  "active_checked": 3,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
-    "c9953d8974285c857b10116e": {
-      "event_id": "c9953d8974285c857b10116e",
-      "checked_at": "2026-10-29T01:09:55.153922Z",
-      "version": "official-original-document-v1",
-      "research_status": "conflicting_official_statement",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/yemen",
-          "original_document_title": "Yemen travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-10-29T01:09:51.045220Z",
-          "exact_quote": "The UK government cannot help British nationals leaving Yemen. There are no evacuation procedures in place.",
-          "relation": "conflicting_statement",
-          "older_document_than_claim": false,
-          "reason_nl": "Deze passage stelt dat er geen evacuatieprocedures zijn, wat in tegenspraak is met de implicatie van een evacuatiewaarschuwing.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De officiële tekst stelt dat er geen evacuatieprocedures zijn voor Britse onderdanen in Yemen, wat tegenstrijdig is met de claim van een evacuatiewaarschuwing.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/yemen",
-          "title": "Yemen travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The UK government cannot help British nationals leaving Yemen. There are no evacuation procedures in place."
-        },
-        {
-          "url": "https://www.gov.uk/guidance/air-strikes-against-houthi-military-targets-in-yemen",
-          "title": "Air strikes against Houthi military targets in Yemen - GOV.UKGOV.UK",
-          "source_publication_date": "2024-06-05T10:05:18Z",
-          "text_excerpt": "Joint Statement from Australia, Bahrain, Denmark, Canada, the Netherlands, New Zealand, United Kingdom, and United States on Additional Strikes Against the Houthis in Yemen: 24 February 2024"
-        }
-      ]
-    },
-    "f1cb4a5e189da2ecb5368dec": {
-      "event_id": "f1cb4a5e189da2ecb5368dec",
-      "checked_at": "2026-11-01T01:21:20.588961Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen officiële verklaringen die de bewering ondersteunen of tegenspreken over de aanval op de luchthaven van Aden door de Houthis.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/yemen",
-          "title": "Yemen travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The UK government cannot help British nationals leaving Yemen. There are no evacuation procedures in place."
-        },
-        {
-          "url": "https://www.gov.uk/guidance/air-strikes-against-houthi-military-targets-in-yemen",
-          "title": "Air strikes against Houthi military targets in Yemen - GOV.UKGOV.UK",
-          "source_publication_date": "2024-06-05T10:05:18Z",
-          "text_excerpt": "Joint Statement from Australia, Bahrain, Denmark, Canada, the Netherlands, New Zealand, United Kingdom, and United States on Additional Strikes Against the Houthis in Yemen: 24 February 2024"
-        }
-      ]
-    },
     "35d6c51c16124c4739863b5e": {
       "event_id": "35d6c51c16124c4739863b5e",
       "checked_at": "2026-10-29T07:09:52.938957Z",
@@ -3602,7 +3526,7 @@
     },
     "72e17e86f563c2b2b854dc21": {
       "event_id": "72e17e86f563c2b2b854dc21",
-      "checked_at": "2026-11-11T13:24:57.777147Z",
+      "checked_at": "2026-11-12T13:27:29.577180Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3611,15 +3535,15 @@
           "source_url": "https://www.gov.uk/government/speeches/calling-for-full-respect-of-international-law-and-dialogue-in-the-middle-east",
           "original_document_title": "Calling for full respect of international law and dialogue in the Middle East - GOV.UKGOV.UK",
           "source_date": "2019-08-20T00:00:00+01:00",
-          "retrieved_at": "2026-11-11T13:24:48.951744Z",
-          "exact_quote": "a British flag tanker, STENA IMPERO was boarded by Iranian forces while transiting through the Straits of Hormuz",
+          "retrieved_at": "2026-11-12T13:27:24.039912Z",
+          "exact_quote": "the STENA IMPERO remains seized",
           "relation": "related_only",
           "older_document_than_claim": true,
-          "reason_nl": "Ouder document: toont geen bewijs van nieuwe gebeurtenis. De passage bevestigt dat een Britse tanker door Iraanse strijdkrachten is aangevallen in de Straat van Hormuz, wat de claim ondersteunt.",
+          "reason_nl": "Ouder document: toont geen bewijs van nieuwe gebeurtenis. De passage verwijst naar de inbeslagname van een tanker door Iran, wat gerelateerd is aan de context van aanvallen in de Straat van Hormuz, maar ondersteunt de specifieke claim niet.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De officiële tekst bevestigt dat de STENA IMPERO, een Britse tanker, door Iraanse strijdkrachten is aangevallen in de Straat van Hormuz.",
+      "summary_nl": "De tekst verwijst naar de inbeslagname van een tanker door Iran, wat relevant is voor de context van de situatie in de Straat van Hormuz, maar niet direct de claim over de escalatie van aanvallen ondersteunt.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3868,6 +3792,85 @@
           "text_excerpt": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz"
         }
       ]
+    },
+    "07f6b8dadcd590f74a41b677": {
+      "event_id": "07f6b8dadcd590f74a41b677",
+      "checked_at": "2026-11-12T13:27:29.577150Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/iran",
+          "original_document_title": "Iran travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-12T13:27:18.291724Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
+        }
+      ],
+      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/iran",
+          "title": "Iran travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/search-will-probate",
+          "title": "Search probate records for documents and wills (England and Wales) - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "A new probate record will be online approximately 14 days after probate has been issued."
+        }
+      ]
+    },
+    "b5297516573b23452dbf2b66": {
+      "event_id": "b5297516573b23452dbf2b66",
+      "checked_at": "2026-11-12T13:27:29.577175Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de productiecapaciteit van Iran voor ballistische raketten ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/check-mot-history",
+          "title": "Check the MOT history of a vehicle - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You cannot download MOT certificates using this service. If your MOT is still valid, you can apply for a duplicate certificate on NI Direct. You cannot get a duplicate certificate for an expired MOT."
+        },
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Universal Credit is a payment to help with your living costs. It’s paid monthly - or twice a month for some people in Scotland."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3882,9 +3885,9 @@
       "model_tokens": 5727
     },
     "2026-11-12": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 4394
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 6233
     }
   },
   "last_error": null
