@@ -1,39 +1,40 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-11T19:11:10.670841Z",
-  "fingerprint": "1af67c9e9c49a5be1c1652de",
+  "last_attempt_utc": "2026-11-12T01:26:49.133897Z",
+  "fingerprint": "c67faf2b74fd560035fc05ee",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 22,
-  "event_candidate_count": 21,
+  "event_candidate_count": 19,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 1,
-    "accepted_pair_connections": 1,
+    "model_pair_proposals": 3,
+    "accepted_pair_connections": 3,
     "rejected_pair_proposals": 0,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "multi_claim_groups": 3,
+    "claims_in_multi_groups": 6,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-11T19:11:10.670841Z",
+    "recorded_at": "2026-11-12T01:26:49.133897Z",
     "groups": [
       {
         "ids": [
-          "326c6ace872075"
+          "9ff229f67d3bbd",
+          "f832294769ec0d"
         ],
-        "label_nl": "Claim: US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress",
+        "label_nl": "Claim: Trump says he is highly unlikely to order Iran strikes if talks progress - Deccan Herald",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -48,14 +49,15 @@
       },
       {
         "ids": [
-          "e7555912fbbd42"
+          "e7555912fbbd42",
+          "6738a21be33922"
         ],
         "label_nl": "Claim: Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -92,15 +94,14 @@
       },
       {
         "ids": [
-          "f832294769ec0d",
-          "9ff229f67d3bbd"
+          "fb734064403e55"
         ],
-        "label_nl": "Claim: Trump says renewed attacks on Iran highly unlikely if talks show progress",
+        "label_nl": "Claim: US Carries Out New Strikes in Iran Against Military Site, Official Says - EnergyNow.com",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -115,14 +116,15 @@
       },
       {
         "ids": [
+          "a33babe4763f16",
           "aeb3339ffb3154"
         ],
-        "label_nl": "Claim: Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
+        "label_nl": "Claim: Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -137,9 +139,9 @@
       },
       {
         "ids": [
-          "bff1aa4c122c60"
+          "52400e9592f7f9"
         ],
-        "label_nl": "Claim: Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
+        "label_nl": "Claim: How the Iran War is transforming the liquefied natural gas industry - Marketplace.org",
         "actor": "",
         "action": "",
         "place": "",
@@ -192,9 +194,9 @@
       },
       {
         "ids": [
-          "acccd138488d4e"
+          "aecbda51d9cebd"
         ],
-        "label_nl": "Claim: Iran suggests blasts are not U.S. attacks as both sides report ships hit - The Japan Times",
+        "label_nl": "Claim: Iran threatens US bases in Europe if attacks resume - Iran International",
         "actor": "",
         "action": "",
         "place": "",
@@ -214,31 +216,9 @@
       },
       {
         "ids": [
-          "0952af4d82e05a"
+          "bff1aa4c122c60"
         ],
-        "label_nl": "Claim: Is It Safe to Travel to Saudi Arabia Right Now? - https://www.thetraveler.org/",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "6738a21be33922"
-        ],
-        "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "94f619b9584ccf"
-        ],
-        "label_nl": "Claim: West of Suez: Brent, LSGO rebounds on lack of US-Iran deal - Quantum Commodity Intelligence",
+        "label_nl": "Claim: Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -258,33 +238,62 @@
       }
     ],
     "input_claim_ids": [
-      "326c6ace872075",
+      "9ff229f67d3bbd",
       "aaba81f4d07f24",
       "e7555912fbbd42",
       "3ba19b4585299c",
       "9811a6e6039638",
       "cdbcccd715dbe0",
       "f832294769ec0d",
-      "9ff229f67d3bbd",
+      "fb734064403e55",
       "cc822471a136f9",
-      "aeb3339ffb3154",
+      "a33babe4763f16",
       "9975cd4d07fde4",
-      "bff1aa4c122c60",
+      "52400e9592f7f9",
       "d9e000219d109f",
       "7c0bcdcaa86cf9",
       "070cffe9ab582a",
       "b8087b2b94bc57",
-      "acccd138488d4e",
+      "aecbda51d9cebd",
       "0ac261a7626b8f",
-      "0952af4d82e05a",
+      "aeb3339ffb3154",
       "6738a21be33922",
-      "94f619b9584ccf",
+      "bff1aa4c122c60",
       "9740c265b8ae52"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
+    {
+      "id": "351d9a45643ac988892e2163",
+      "label_nl": "Claim: Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
+      "headline_claim_ids": [
+        "a33babe4763f16",
+        "aeb3339ffb3154"
+      ],
+      "headline_claims": [
+        "Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
+        "Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdWVWWkVkXzRmQzYxcEFtZHZwUmVUZmNVdE8yVlNWeG1sdWhvQkhwamlMaUgwTEY4QXhpdzR2UlQ0cHF0NlRnZHVlRlhlSjk1TzhleGE2RkRmczhOOXdlemdTZGhzZzBsd3dUek1tMzBaeFBNV0NWMEVab0JzZHBQai1YdDYtMXJROWVBazM1R1hTMUVWX0dLMUFWbklIemtFamVpQXl6aG5zakZyRG9icGFRRUVtUklxLXgwTXhlellHazM1UnYtcWlSZzM5YXd5LWc3NWtwS3ZjQTJlQkdNV0Zn?oc=5",
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaFNVVXl2cDBhMTVpZWRfWWJrSFFhYnRBZXlXT2Q0OWpWQVdHOUpRUnZPZDlWZ2xrOVVZWF9ieUFtaU1ieG9PZlBHQmJ5ZF9JNzl2OVZsSDlDNUxSZEllLUlVNzBEN2daNnBNWVpnZ3ltM0FGazdtMzFNX0pwVk13YW9BOU91UTNacDQwa2hJMkY4dU5xVUFOY1pwZi1Mem1RTm5GTHdQdkQ1LTNBYmZ3VldaVktSVk1CbnRBekNRVUZtTnFWWUFiSFh3SVRoTHdoRmNYUFB2OTYxbC1J?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
     {
       "id": "24d14207c9ca37a0d92c3d02",
       "label_nl": "Claim: Tehran Demands Complete Sanctions Removal Before Entering Peace Talks - teleSUR English",
@@ -312,16 +321,16 @@
       "probability_estimate": null
     },
     {
-      "id": "533e456c6c3e0214bf634471",
-      "label_nl": "Claim: Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
+      "id": "4084f561e9a810955bce4f77",
+      "label_nl": "Claim: US Carries Out New Strikes in Iran Against Military Site, Official Says - EnergyNow.com",
       "headline_claim_ids": [
-        "aeb3339ffb3154"
+        "fb734064403e55"
       ],
       "headline_claims": [
-        "Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East"
+        "US Carries Out New Strikes in Iran Against Military Site, Official Says - EnergyNow.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaFNVVXl2cDBhMTVpZWRfWWJrSFFhYnRBZXlXT2Q0OWpWQVdHOUpRUnZPZDlWZ2xrOVVZWF9ieUFtaU1ieG9PZlBHQmJ5ZF9JNzl2OVZsSDlDNUxSZEllLUlVNzBEN2daNnBNWVpnZ3ltM0FGazdtMzFNX0pwVk13YW9BOU91UTNacDQwa2hJMkY4dU5xVUFOY1pwZi1Mem1RTm5GTHdQdkQ1LTNBYmZ3VldaVktSVk1CbnRBekNRVUZtTnFWWUFiSFh3SVRoTHdoRmNYUFB2OTYxbC1J?oc=5"
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc01hbXNvSFZmbHJuQzR5WC1mdTlILW9iTlZOMHNTcTJoVUNqeDdkOHdZQTJTSlhSRTJrMHlXcWphYmo1SUstcmhOaFo2Q2Q1UFBtdzBhUXZWWGFzbnJSVnYzMElucUVONWpORGFzY1g0SjNPbWVCelhBUjJIenprLWI2bHBTMVBVVmc1VEJGMWxadFZnbVprdVR3MFFKUkpRZktn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -421,23 +430,49 @@
       "probability_estimate": null
     },
     {
-      "id": "7317aacec4d022e1f553dbf0",
-      "label_nl": "Claim: Trump says renewed attacks on Iran highly unlikely if talks show progress",
+      "id": "3b089ebe40cefdbc93da08f6",
+      "label_nl": "Claim: Iran threatens US bases in Europe if attacks resume - Iran International",
       "headline_claim_ids": [
-        "f832294769ec0d",
-        "9ff229f67d3bbd"
+        "aecbda51d9cebd"
       ],
       "headline_claims": [
-        "Trump says renewed attacks on Iran highly unlikely if talks show progress",
-        "Trump says he is highly unlikely to order Iran strikes if talks progress - Deccan Herald"
+        "Iran threatens US bases in Europe if attacks resume - Iran International"
       ],
       "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vQ2NKenlpTlJWSXdMRE9xNXhfemZXbUpONlQyZnV4QnV3bWhUME1jbV9QU0V5YlNWLWtxNkxpUDdiaDBuR0hEWUJ3eW9LTTM5akE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "7317aacec4d022e1f553dbf0",
+      "label_nl": "Claim: Trump says he is highly unlikely to order Iran strikes if talks progress - Deccan Herald",
+      "headline_claim_ids": [
+        "9ff229f67d3bbd",
+        "f832294769ec0d"
+      ],
+      "headline_claims": [
+        "Trump says he is highly unlikely to order Iran strikes if talks progress - Deccan Herald",
+        "Trump says renewed attacks on Iran highly unlikely if talks show progress"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTUU4bDNHMExpcUxTMERza0tCSlBDRmpPWkxvakxqUklsTlRYLWJ1UTJ2T0NQbWhTZy1fWkk3a2RPZ0NwQ0dZUGd1bENQUFZVWXUzMWR1UjFvUGhNbGZLYy1HcU5RU0F5ZV9EcngtMmVNYS1Edm9STXc2dERLckducUJIMllHdmhQWXlqQzBxYVlHRFpiVHdhLWZNM2VTT29jNGdRdW16OWFva0Nfc2o2Q2R2aFVUaFk3T3AzczlmR0g0NGlCMkNqalF3TEs?oc=5",
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE92ZmtGWnNQSnhmeE94U1FmZlV4LUgxUDVJb19QME9KUFNPR0VDV2s1Zm1Jd2pSb2hqN2VOQlhVMUdsNVpobm9POVB2MjY5Y0VkTE5Vd0ktbldScHpYQ2NrWGF0amxFRVdtblJKdTZCNFdWSWlMMEQw?oc=5",
         "http://www.arabherald.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
         "http://www.myanmarnews.net/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
         "http://www.malaysiasun.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
-        "http://www.iranherald.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress",
-        "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTUU4bDNHMExpcUxTMERza0tCSlBDRmpPWkxvakxqUklsTlRYLWJ1UTJ2T0NQbWhTZy1fWkk3a2RPZ0NwQ0dZUGd1bENQUFZVWXUzMWR1UjFvUGhNbGZLYy1HcU5RU0F5ZV9EcngtMmVNYS1Edm9STXc2dERLckducUJIMllHdmhQWXlqQzBxYVlHRFpiVHdhLWZNM2VTT29jNGdRdW16OWFva0Nfc2o2Q2R2aFVUaFk3T3AzczlmR0g0NGlCMkNqalF3TEs?oc=5",
-        "https://news.google.com/rss/articles/CBMid0FVX3lxTE92ZmtGWnNQSnhmeE94U1FmZlV4LUgxUDVJb19QME9KUFNPR0VDV2s1Zm1Jd2pSb2hqN2VOQlhVMUdsNVpobm9POVB2MjY5Y0VkTE5Vd0ktbldScHpYQ2NrWGF0amxFRVdtblJKdTZCNFdWSWlMMEQw?oc=5"
+        "http://www.iranherald.com/news/279420668/trump-says-renewed-attacks-on-iran-highly-unlikely-if-talks-show-progress"
       ],
       "article_group_count": 2,
       "news_url_count": 6,
@@ -454,56 +489,32 @@
       "probability_estimate": null
     },
     {
-      "id": "8d0bccc63ade73ec5e2ef45b",
-      "label_nl": "Claim: US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress",
-      "headline_claim_ids": [
-        "326c6ace872075"
-      ],
-      "headline_claims": [
-        "US - Iran war news : Donald Trump says renewed Iran attacks unlikely if nuclear program , Strait of Hormuz talks show progress"
-      ],
-      "related_news_links": [
-        "https://abc13.com/post/us-iran-war-news-donald-trump-says-renewed-attacks-nuclear-program-strait-hormuz-talks-show-progress/20024909/",
-        "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMDI3RlFKanRPTHFyNk9iNEI0OHRCNDNJVGIzRkw1UWVxUXFNdkR0RTZyeGpTcGhWYXFkd2Mya2tYM0NxcHI4TGVsVm1kQ3NGMnZjRC11empBVnlDbHNHU2MxT054ekwzM29peEk2RUpGU21DWUNmNGJMbXZOLWtXeVpMcWdFc3BZQjUxaXZwbXlIdktKUkZIdnAya0luRklNZk5NSHhjU3RkOHdXdm9Hd1lta2hMbThCYjZuNWl1bWlvd2NCSU5aRWtrTnM0RkXSAdQBQVVfeXFMTWtrOGxQS1Z1N182NnVTcE5qTVpLRHZpV0liY2JFU3A0VmM3Y2NmdUZxRkVHdHh1Z1RoVUZjc3pPbTVNRndOZVo4S1g3dFlfWWtqS2F6SERBZkR3VFF3bUptVUhwWm1HOVNjRXRXcW1qT1hzaDJKY3p4S0lVX095blM0VXpVZ3FQdG42VHFqZkFDaWdYTlNGbmxIanhvQW5icmNjRmJfTnRta3RfUHg1T2IyNkQ1bHAxckQ0YjZBd2pDWks4ellqcmw1aGljeXRrNWhFRlo?oc=5",
-        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTWtaaEdaaHBHU0NMSnNwcEE2ZmxWSnZrU21BVE1rUG9RMkhZYTRaSVBIY1RGcERUU1lJRV83NEJfcDVDdkN4MmFfRHJab1VMeXhPYVVWcmVnOXRnY3paaldnWG5TZWJVcmgwd2otVWFXV3BzUTZ3dFpmLWJmZlVpN202cTNVRTJlZVFTR3pHVTJsM1BoUHQ3MGx4eVFjRFJJMTd3aHNMMElkQTlocm9XNTZsWXRlSFU4aTFhUlUyLUxBbTVLbElxWlJZbUFuRElUMGfSAdcBQVVfeXFMT0k2NjZ2WkFhcWUtQThlb0JZRmc3MVloaW5fQlFrbF9CQi1INlZLZi1PWHZjYXhqLS1HM0p2dkExTThsTGxQeUMwcHNBXzhLRTR1WkRMRXk5ZGcwOGdWRDhxdkRmdVdqVG1CbFB2Rk5CWXl6dWVHWElzUzVkdWpsOXotZTBJNHlQRHh3QVB6N20wS2hNSFI0bmNQdGNhengxN0ZieHBEYnhERFVicy1zcjZBa1Blc21UckFib2NJenlRcnZDNmxlMmFCYU5jTTd5VV9tREtlR3M?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "99282ce9eb9ae0c836a1750b",
+      "id": "6a22ed511ba3209cec3a5099",
       "label_nl": "Claim: Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC",
       "headline_claim_ids": [
-        "e7555912fbbd42"
+        "e7555912fbbd42",
+        "6738a21be33922"
       ],
       "headline_claims": [
-        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC"
+        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC",
+        "Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazZ2WlZKeGZNYjh5YjBSZW1ORURVWjNfel93b0Z0VjAtRmJHUFJBNjRqYVlrS05ycE1qcEMyZXduQy1hci1heF9pUktMcm16LWtXZDlPM212RjNQbUJfdlk1cC1wc1N2aTVJT09iVWxYV3M5TDlUWXI4cGFKdEpMZVk1dk9lU282aHVETk9EVFItaWtzZ0t4QXhLdUlWbUljZ05uT3NQYmR1c3UyTUUwME51ZFh2dXM?oc=5",
         "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
-        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5"
+        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHJnOHJDbk5WaldJTElTSXJZN2hvVkxscE9YbEduNmd3SlFMSkVVYjd0ZWxEdUVQeVJnaDRGMVd6Z3BMZTk5SDhNenR1a1F4TnZLS18tdXc3VGZsLU1NcVV2eTIzY3lweTNkOTZhTmVuVWg4OVFtdWc0SWthWkhCN3ZmSVdYeUVEZnZYbTRFRFZKd0g2dGFrVk5fWDNENVNKNzlhWnNn0gGuAUFVX3lxTE1QMjNYU3BTUTc3RUFiYWUyUlhxdmg2SGdYemQzY0xMRHl0cXl4SWdNNENOa0NzVWhzRWcyMHNiVTJGdTVWZ1VsWjl5cDhlNTFYQUZvTEEwZ2twT1loaG9raTBRLUlJR1RHZ0dxaWQxeERxd3lBVEpoSmhMdGhHQVZUdWhNdm83UEkxaDdpZVhyM2hMZVNTd3cxVjJpem5CU1BoVXRvTEQ2Tm9yOEhRUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnp2T2NvaFVwT05pV1Q0ay0tcENiWU5HTGpwckZrT0I3OVhuN2JwYm12RkViWVBFU3hoYVZScHlDdVFuNVY1WWJPbDNfY2RJRHEzNGs1aFNsZG1aR2RvVnBpcm5SQXQyV01QUnRDejV4am5odXZubzRSa01Jb2N2ak55NHNRejY3ZlNVa2JWUHFDUEE1bFltUQ?oc=5"
       ],
-      "article_group_count": 1,
-      "news_url_count": 3,
+      "article_group_count": 2,
+      "news_url_count": 5,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -619,16 +630,16 @@
       "probability_estimate": null
     },
     {
-      "id": "235d713e176ff0e7096510ad",
-      "label_nl": "Claim: Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
+      "id": "f18170410bd3f2b6bfdda2db",
+      "label_nl": "Claim: How the Iran War is transforming the liquefied natural gas industry - Marketplace.org",
       "headline_claim_ids": [
-        "bff1aa4c122c60"
+        "52400e9592f7f9"
       ],
       "headline_claims": [
-        "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com"
+        "How the Iran War is transforming the liquefied natural gas industry - Marketplace.org"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzdHRm52Q05MRjJYSFozaWFlRmdLcnRRckpFbDJZZFlIaEl4NFRLOThWMl9rSDFqNHpJTkkzRFJ5QmxxXzZQWUlnTHEyTWduS295YUc3bnpsbDJ1cG0zVVR3MmFaYVBZRDlUaHh3MHZDUVY3QmNEWXUtU01IWkdiSl94Q1J4Z2xmQldZaGJ3TEhSZ2VCeUJjR1FxVlRvLXNxUkxvVExpNWZEVWF3c0FudmlHd3JfeWPSAbwBQVVfeXFMT2tldk9nVGNmZWVfSTlwamwzeUdPX0luaWEyZkQySTlrOFpUZmxXRURyYlhXQ1FiZEpzaHJMaEJVZnVtX2RqVjNNTTBPbGR6QUh6dEl2TE1GM0ZwejU2RGZjaGdhUm1JaGpRVFlEZWdsU055RkhqUjc2RWVYaFcyQUFLREVla09ZbUZzZkVEYTRNY285Q0tjUS00U3dmN25TaDVSTGtmanpNcFU4bF9UV3piZVNaRUFLZS03MkE?oc=5"
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT1haM0c5UVdiLXhzbjNDZXNfY0FHZFhmR1ZsVm9qV1Y4SE51OVM3ZGJYWG5UZGh2bGRKb1I4VFdTQ3lURXRkMC13ZGZKRlVCc3M4VHlZNkRjQkhiNGFUeVNyLTZQZ1RtRjVUWWUyY0tPY2ZlOHlaajFqaVB1SVU5dkVPSzNnblphLXRTcGIxTHlPTE9OVDNkQktUUEJUcllkS0ZF?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -697,33 +708,6 @@
       "probability_estimate": null
     },
     {
-      "id": "f2fd026e156dbc1823a8dd35",
-      "label_nl": "Claim: Iran suggests blasts are not U.S. attacks as both sides report ships hit - The Japan Times",
-      "headline_claim_ids": [
-        "acccd138488d4e"
-      ],
-      "headline_claims": [
-        "Iran suggests blasts are not U.S. attacks as both sides report ships hit - The Japan Times"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpaU90d2I2eTJOY3lpRFJmOTBIanhmNU1qOVBBdTN5eFkwN2t0WlhVS0dxemdzR21CdTRwbmxjUG9uY3RiOXZVVlpCUzAyblBYdVVhc29IU2lMaVdPdUhQZWY4c2lNaE52QVFFd1BzUXNOd3lSc25CUXEzNV8?oc=5",
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yb2tXOU8xYVdDamJadUpxZ3ViUVhucWRqVWpKcXRvN0pHSWdNVFZHSTZqNGJUM1RkZTExVFlMbG1uQVY3M0RCTlBUOU56ZWdTMVJTZi0xemtfcXN0aFozZlVZNHNwMVFjUU1iT19OSkppZUhfalBycmRwZmI?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "055371bdd282bc1e9514db69",
       "label_nl": "Claim: US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
       "headline_claim_ids": [
@@ -733,34 +717,8 @@
         "US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAJBVV95cUxPNTJpd19EWjJ6dDhXVk8zUUswS1BnQUQ2TjQ0eFBhVXI5UmpEeVRsdElLUE40ZFJuTlUwUldrVnVONWJrUEpVS1RiUjJ6TEEzVVB2TjlDcndrejhsVHBKbmg0emF1OW1DcFpJSEkzYkdReVpkWF9FZnJFUkxhLU5pcGlUeHU4T0hmM0ROMFdlaGxCUjduME5ISnRHZkVIY1hqQjJHM09JNHFfOWQ4X3liTUVtUldXUVRueEhZckdpbVRpRDRXeURDaW1BZDlBR2NWdWY0cTJIR3d4T2hXZ3h6NFJqUXREb3JraHdhSnJ3M3R4ZVRLaXZ1bWgtUVRIazR1SllSaS1LRzd6dTJDZHVXQtIBlwJBVV95cUxPYXJjQ2JzUFp3a0Qxb2ZPV1EweTVOSkJpc1VFX1hROWJlZWNTN1piVFY5eER2ZHlJVUNQUVMwRi1heWlQa013VXZHZ3R1ZHgtRUhJM05odjVRSkRaXzhkbklnbDJ2dF9TeTNsai1hMlpsTnFjM21TMUVqd0djY0o4XzFPbGxrandTTjBvbkNDWHQ2b0ZSb0VzNktMa29rdmozd2FlZEdscTZiVWZ6SFB3MncxN28tSkRvdVA0MlN5LXN6REZDZ0V0RjdGRU5qUkVrV0R1QjZLeml3dGVYOEdHNFE1aExXcmVBU3JfQzlqTVFlZmNYeENGZGo1QXJlSjRyVUhYTUxuSlpGQkJPRm85UTV3N05TVG8?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "274e0891fa2321bf96df304f",
-      "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
-      "headline_claim_ids": [
-        "6738a21be33922"
-      ],
-      "headline_claims": [
-        "Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHJnOHJDbk5WaldJTElTSXJZN2hvVkxscE9YbEduNmd3SlFMSkVVYjd0ZWxEdUVQeVJnaDRGMVd6Z3BMZTk5SDhNenR1a1F4TnZLS18tdXc3VGZsLU1NcVV2eTIzY3lweTNkOTZhTmVuVWg4OVFtdWc0SWthWkhCN3ZmSVdYeUVEZnZYbTRFRFZKd0g2dGFrVk5fWDNENVNKNzlhWnNn0gGuAUFVX3lxTE1QMjNYU3BTUTc3RUFiYWUyUlhxdmg2SGdYemQzY0xMRHl0cXl4SWdNNENOa0NzVWhzRWcyMHNiVTJGdTVWZ1VsWjl5cDhlNTFYQUZvTEEwZ2twT1loaG9raTBRLUlJR1RHZ0dxaWQxeERxd3lBVEpoSmhMdGhHQVZUdWhNdm83UEkxaDdpZVhyM2hMZVNTd3cxVjJpem5CU1BoVXRvTEQ2Tm9yOEhRUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnp2T2NvaFVwT05pV1Q0ay0tcENiWU5HTGpwckZrT0I3OVhuN2JwYm12RkViWVBFU3hoYVZScHlDdVFuNVY1WWJPbDNfY2RJRHEzNGs1aFNsZG1aR2RvVnBpcm5SQXQyV01QUnRDejV4am5odXZubzRSa01Jb2N2ak55NHNRejY3ZlNVa2JWUHFDUEE1bFltUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMikAJBVV95cUxPNTJpd19EWjJ6dDhXVk8zUUswS1BnQUQ2TjQ0eFBhVXI5UmpEeVRsdElLUE40ZFJuTlUwUldrVnVONWJrUEpVS1RiUjJ6TEEzVVB2TjlDcndrejhsVHBKbmg0emF1OW1DcFpJSEkzYkdReVpkWF9FZnJFUkxhLU5pcGlUeHU4T0hmM0ROMFdlaGxCUjduME5ISnRHZkVIY1hqQjJHM09JNHFfOWQ4X3liTUVtUldXUVRueEhZckdpbVRpRDRXeURDaW1BZDlBR2NWdWY0cTJIR3d4T2hXZ3h6NFJqUXREb3JraHdhSnJ3M3R4ZVRLaXZ1bWgtUVRIazR1SllSaS1LRzd6dTJDZHVXQtIBlwJBVV95cUxPYXJjQ2JzUFp3a0Qxb2ZPV1EweTVOSkJpc1VFX1hROWJlZWNTN1piVFY5eER2ZHlJVUNQUVMwRi1heWlQa013VXZHZ3R1ZHgtRUhJM05odjVRSkRaXzhkbklnbDJ2dF9TeTNsai1hMlpsTnFjM21TMUVqd0djY0o4XzFPbGxrandTTjBvbkNDWHQ2b0ZSb0VzNktMa29rdmozd2FlZEdscTZiVWZ6SFB3MncxN28tSkRvdVA0MlN5LXN6REZDZ0V0RjdGRU5qUkVrV0R1QjZLeml3dGVYOEdHNFE1aExXcmVBU3JfQzlqTVFlZmNYeENGZGo1QXJlSjRyVUhYTUxuSlpGQkJPRm85UTV3N05TVG8?oc=5",
+        "https://news.google.com/rss/articles/CBMilwJBVV95cUxPYXJjQ2JzUFp3a0Qxb2ZPV1EweTVOSkJpc1VFX1hROWJlZWNTN1piVFY5eER2ZHlJVUNQUVMwRi1heWlQa013VXZHZ3R1ZHgtRUhJM05odjVRSkRaXzhkbklnbDJ2dF9TeTNsai1hMlpsTnFjM21TMUVqd0djY0o4XzFPbGxrandTTjBvbkNDWHQ2b0ZSb0VzNktMa29rdmozd2FlZEdscTZiVWZ6SFB3MncxN28tSkRvdVA0MlN5LXN6REZDZ0V0RjdGRU5qUkVrV0R1QjZLeml3dGVYOEdHNFE1aExXcmVBU3JfQzlqTVFlZmNYeENGZGo1QXJlSjRyVUhYTUxuSlpGQkJPRm85UTV3N05TVG_SAZcCQVVfeXFMT2FyY0Nic1Bad2tEMW9mT1dRMHk1TkpCaXNVRV9YUTliZWVjUzdaYlRWOXhEdmR5SVVDUFFTMEYtYXlpUGtNd1V2R2d0dWR4LUVISTNOaHY1UUpEWl84ZG5JZ2wydnRfU3kzbGotYTJabE5xYzNtUzFFandHY2NKOF8xT2xsa2p3U04wb25DQ1h0Nm9GUm9FczZLTGtva3ZqM3dhZWRHbHE2YlVmekhQdzJ3MTdvLUpEb3VQNDJTeS1zekRGQ2dFdEY3RkVOalJFa1dEdUI2S3ppd3RlWDhHRzRRNWhMV3JlQVNyX0M5ak1RZWZjWHhDRmRqNUFyZUo0clVIWE1MbkpaRkJCT0ZvOVE1dzdOU1Rv?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 2,
@@ -777,16 +735,16 @@
       "probability_estimate": null
     },
     {
-      "id": "0b7e1b94880af5ad8988be8d",
-      "label_nl": "Claim: West of Suez: Brent, LSGO rebounds on lack of US-Iran deal - Quantum Commodity Intelligence",
+      "id": "235d713e176ff0e7096510ad",
+      "label_nl": "Claim: Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
       "headline_claim_ids": [
-        "94f619b9584ccf"
+        "bff1aa4c122c60"
       ],
       "headline_claims": [
-        "West of Suez: Brent, LSGO rebounds on lack of US-Iran deal - Quantum Commodity Intelligence"
+        "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOEk3bGdIRVhwOWZQVXFkdDJfbXFNT3VfbUJZSWQ5OHlUSVNoR2J1MlJaUktrQTczU1oyOEZCQWVWVS1TY081aVdPeDZZYW9qTDU0MHdfWk5UX3ZvSzd0WFFTMTlwVHgwYTZJTjloS2xvcVVRU3lPanROQndyaHZUUkVtM2tEZlQzWmJPZVhJUjAzOFhmZVBLNWRObDdHX0cw?oc=5"
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzdHRm52Q05MRjJYSFozaWFlRmdLcnRRckpFbDJZZFlIaEl4NFRLOThWMl9rSDFqNHpJTkkzRFJ5QmxxXzZQWUlnTHEyTWduS295YUc3bnpsbDJ1cG0zVVR3MmFaYVBZRDlUaHh3MHZDUVY3QmNEWXUtU01IWkdiSl94Q1J4Z2xmQldZaGJ3TEhSZ2VCeUJjR1FxVlRvLXNxUkxvVExpNWZEVWF3c0FudmlHd3JfeWPSAbwBQVVfeXFMT2tldk9nVGNmZWVfSTlwamwzeUdPX0luaWEyZkQySTlrOFpUZmxXRURyYlhXQ1FiZEpzaHJMaEJVZnVtX2RqVjNNTTBPbGR6QUh6dEl2TE1GM0ZwejU2RGZjaGdhUm1JaGpRVFlEZWdsU055RkhqUjc2RWVYaFcyQUFLREVla09ZbUZzZkVEYTRNY285Q0tjUS00U3dmN25TaDVSTGtmanpNcFU4bF9UV3piZVNaRUFLZS03MkE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -827,39 +785,9 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
-    },
-    {
-      "id": "b36eaf79b8fa917efa67e118",
-      "label_nl": "Claim: Is It Safe to Travel to Saudi Arabia Right Now? - https://www.thetraveler.org/",
-      "headline_claim_ids": [
-        "0952af4d82e05a"
-      ],
-      "headline_claims": [
-        "Is It Safe to Travel to Saudi Arabia Right Now? - https://www.thetraveler.org/"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV0F6SUczZElGQUtvZlh0bkota3dkM1RoY3NYUEIwa1RhSU5RTFZIb2l4RXlrLTZ3dm1vSU5scm9oVDFwdHhLLXgzdFJiOGJyYkJialpjck1PVnZ1N1RnRzRqNTVMbmQ5cWVCYnpsS2RsQVltWFQ5eFdQX1Y3TWdCeU10UQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "low",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-11-09": {
-      "requests": 12,
-      "total_tokens": 33011
-    },
     "2026-11-10": {
       "requests": 12,
       "total_tokens": 33173
@@ -867,6 +795,10 @@
     "2026-11-11": {
       "requests": 12,
       "total_tokens": 33035
+    },
+    "2026-11-12": {
+      "requests": 3,
+      "total_tokens": 9333
     }
   }
 }

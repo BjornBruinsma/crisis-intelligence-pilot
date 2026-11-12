@@ -1,27 +1,24 @@
 {
   "description": "Manually reviewable headline claims; no event verification, no risk scoring",
-  "source_generated_from": "2026-11-11T19:09:33.241777Z",
-  "source_groups_count": 526,
+  "source_generated_from": "2026-11-12T01:25:09.906507Z",
+  "source_groups_count": 520,
   "selection_method": "Category-balanced high/medium editorial candidates; NOT trained or calibrated",
   "candidates": [
     {
-      "id": "326c6ace872075",
-      "headline_claim": "US - Iran war news : Donald Trump says renewed Iran attacks  unlikely  if nuclear program , Strait of Hormuz talks show progress",
+      "id": "9ff229f67d3bbd",
+      "headline_claim": "Trump says he is highly unlikely to order Iran strikes if talks progress - Deccan Herald",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
-        "Brede GDELT-detectie",
-        "Militair & veiligheid",
-        "Regionaal: Pakistan"
+        "Militair & veiligheid"
       ],
       "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 3,
+      "article_count": 2,
       "publisher_names": [
-        "abc13.com",
-        "abc7 bay area",
-        "abc7 new york"
+        "deccan herald",
+        "yahoo news uk"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -32,24 +29,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "US - Iran war news : Donald Trump says renewed Iran attacks  unlikely  if nuclear program , Strait of Hormuz talks show progress",
-          "url": "https://abc13.com/post/us-iran-war-news-donald-trump-says-renewed-attacks-nuclear-program-strait-hormuz-talks-show-progress/20024909/",
-          "publisher": "abc13.com",
-          "published_at": "2026-11-09T01:00:00Z",
-          "source_provider": "gdelt_doc2"
-        },
-        {
-          "title": "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress - ABC7 New York",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMDI3RlFKanRPTHFyNk9iNEI0OHRCNDNJVGIzRkw1UWVxUXFNdkR0RTZyeGpTcGhWYXFkd2Mya2tYM0NxcHI4TGVsVm1kQ3NGMnZjRC11empBVnlDbHNHU2MxT054ekwzM29peEk2RUpGU21DWUNmNGJMbXZOLWtXeVpMcWdFc3BZQjUxaXZwbXlIdktKUkZIdnAya0luRklNZk5NSHhjU3RkOHdXdm9Hd1lta2hMbThCYjZuNWl1bWlvd2NCSU5aRWtrTnM0RkXSAdQBQVVfeXFMTWtrOGxQS1Z1N182NnVTcE5qTVpLRHZpV0liY2JFU3A0VmM3Y2NmdUZxRkVHdHh1Z1RoVUZjc3pPbTVNRndOZVo4S1g3dFlfWWtqS2F6SERBZkR3VFF3bUptVUhwWm1HOVNjRXRXcW1qT1hzaDJKY3p4S0lVX095blM0VXpVZ3FQdG42VHFqZkFDaWdYTlNGbmxIanhvQW5icmNjRmJfTnRta3RfUHg1T2IyNkQ1bHAxckQ0YjZBd2pDWks4ellqcmw1aGljeXRrNWhFRlo?oc=5",
-          "publisher": "ABC7 New York",
-          "published_at": "2026-11-09T00:08:55Z",
+          "title": "Trump says he is highly unlikely to order Iran strikes if talks progress - Deccan Herald",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTUU4bDNHMExpcUxTMERza0tCSlBDRmpPWkxvakxqUklsTlRYLWJ1UTJ2T0NQbWhTZy1fWkk3a2RPZ0NwQ0dZUGd1bENQUFZVWXUzMWR1UjFvUGhNbGZLYy1HcU5RU0F5ZV9EcngtMmVNYS1Edm9STXc2dERLckducUJIMllHdmhQWXlqQzBxYVlHRFpiVHdhLWZNM2VTT29jNGdRdW16OWFva0Nfc2o2Q2R2aFVUaFk3T3AzczlmR0g0NGlCMkNqalF3TEs?oc=5",
+          "publisher": "Deccan Herald",
+          "published_at": "2026-11-09T02:11:39Z",
           "source_provider": "google_news_rss"
         },
         {
-          "title": "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress - ABC7 Bay Area",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTWtaaEdaaHBHU0NMSnNwcEE2ZmxWSnZrU21BVE1rUG9RMkhZYTRaSVBIY1RGcERUU1lJRV83NEJfcDVDdkN4MmFfRHJab1VMeXhPYVVWcmVnOXRnY3paaldnWG5TZWJVcmgwd2otVWFXV3BzUTZ3dFpmLWJmZlVpN202cTNVRTJlZVFTR3pHVTJsM1BoUHQ3MGx4eVFjRFJJMTd3aHNMMElkQTlocm9XNTZsWXRlSFU4aTFhUlUyLUxBbTVLbElxWlJZbUFuRElUMGfSAdcBQVVfeXFMT0k2NjZ2WkFhcWUtQThlb0JZRmc3MVloaW5fQlFrbF9CQi1INlZLZi1PWHZjYXhqLS1HM0p2dkExTThsTGxQeUMwcHNBXzhLRTR1WkRMRXk5ZGcwOGdWRDhxdkRmdVdqVG1CbFB2Rk5CWXl6dWVHWElzUzVkdWpsOXotZTBJNHlQRHh3QVB6N20wS2hNSFI0bmNQdGNhengxN0ZieHBEYnhERFVicy1zcjZBa1Blc21UckFib2NJenlRcnZDNmxlMmFCYU5jTTd5VV9tREtlR3M?oc=5",
-          "publisher": "ABC7 Bay Area",
-          "published_at": "2026-11-09T00:08:12Z",
+          "title": "Trump says he is highly unlikely to order Iran strikes if talks progress - Yahoo News UK",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92ZmtGWnNQSnhmeE94U1FmZlV4LUgxUDVJb19QME9KUFNPR0VDV2s1Zm1Jd2pSb2hqN2VOQlhVMUdsNVpobm9POVB2MjY5Y0VkTE5Vd0ktbldScHpYQ2NrWGF0amxFRVdtblJKdTZCNFdWSWlMMEQw?oc=5",
+          "publisher": "Yahoo News UK",
+          "published_at": "2026-11-09T00:14:00Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -97,9 +87,10 @@
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "article_count": 2,
       "publisher_names": [
-        "bankingnews"
+        "bankingnews",
+        "bankingnews.gr"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -114,6 +105,13 @@
           "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPVWZYS2l4bFZDNnVRYWlGSlpnQnd5VGtrOENkZDdJcFhzQWQ4aU1KNm4ta1JrT3RxcWd3WTRvMVJja2Vqd21QVWotcHg2aDdoS0R1US1yVmh1WFljTm4xNGpBNVMzZkNUUF9rR0NmM3NqZ0hnZ1FwV0NDdkRtV0JkTHpPWk14NHhrdkstaGRQTzk3aXZnb3Z3V21xTGU1MVpXNVZJcTVia1g5TTFNZGlSTVFjSTNtNkc2a2VaRDRoZEYwMHkyRkNYUkExaHBOS2hVajFfWTlOOW1nZXJOTVFFQUJ4XzZMajlHbkZRQW1DTWJsQWk4RXNNR1pGeXVuVjNDQ28wY3lnTDZVQ25JWE5kYTZRQ18?oc=5",
           "publisher": "Bankingnews",
           "published_at": "2026-11-11T11:44:34Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Civil war in the US over the Persian Gulf, Bessent evacuated: Russia's line on Iran, \"hardliners\" want a nuclear bomb - bankingnews.gr",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNZDRlRE80M204YmdMYWlvWVhuR0QxZjh6WXFwUWZScnNNaHR5elVBTlhWMWlPLWVOZmwtSnowVlNjU1d4Y3ZPOFdiaHVnSnlyUVZtbUJMWUZ4MjE2ZC1UWV9mNkliMzB3ZkttVFpkZ1R3Ulhlck5pUlFpSmp3bm1fNkxsdmtXaGU0VVVSR3JMaGtpQi1Belc2V0p3TGlNTGtiMDlId3llc1lMa0dwSkNhcS1rNEJlRGdKLWxSaXgzRnNqYkdkZUJmQXdhV0pZYTZJaUdjaDQtTzJ2OFh3c19IaXVVbE5SWjVNR09MQU1xek8tTmZ5N05hV0pXenFmcG5ITnc?oc=5",
+          "publisher": "bankingnews.gr",
+          "published_at": "2026-11-11T08:50:59Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -390,20 +388,19 @@
       ]
     },
     {
-      "id": "9ff229f67d3bbd",
-      "headline_claim": "Trump says he is highly unlikely to order Iran strikes if talks progress - Deccan Herald",
+      "id": "fb734064403e55",
+      "headline_claim": "US Carries Out New Strikes in Iran Against Military Site, Official Says - EnergyNow.com",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
       ],
-      "publication_day": "2026-11-09",
+      "publication_day": "2026-11-11",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 2,
+      "article_count": 1,
       "publisher_names": [
-        "deccan herald",
-        "yahoo news uk"
+        "energynow.com"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -414,17 +411,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Trump says he is highly unlikely to order Iran strikes if talks progress - Deccan Herald",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTUU4bDNHMExpcUxTMERza0tCSlBDRmpPWkxvakxqUklsTlRYLWJ1UTJ2T0NQbWhTZy1fWkk3a2RPZ0NwQ0dZUGd1bENQUFZVWXUzMWR1UjFvUGhNbGZLYy1HcU5RU0F5ZV9EcngtMmVNYS1Edm9STXc2dERLckducUJIMllHdmhQWXlqQzBxYVlHRFpiVHdhLWZNM2VTT29jNGdRdW16OWFva0Nfc2o2Q2R2aFVUaFk3T3AzczlmR0g0NGlCMkNqalF3TEs?oc=5",
-          "publisher": "Deccan Herald",
-          "published_at": "2026-11-09T02:11:39Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "Trump says he is highly unlikely to order Iran strikes if talks progress - Yahoo News UK",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92ZmtGWnNQSnhmeE94U1FmZlV4LUgxUDVJb19QME9KUFNPR0VDV2s1Zm1Jd2pSb2hqN2VOQlhVMUdsNVpobm9POVB2MjY5Y0VkTE5Vd0ktbldScHpYQ2NrWGF0amxFRVdtblJKdTZCNFdWSWlMMEQw?oc=5",
-          "publisher": "Yahoo News UK",
-          "published_at": "2026-11-09T00:14:00Z",
+          "title": "US Carries Out New Strikes in Iran Against Military Site, Official Says - EnergyNow.com",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc01hbXNvSFZmbHJuQzR5WC1mdTlILW9iTlZOMHNTcTJoVUNqeDdkOHdZQTJTSlhSRTJrMHlXcWphYmo1SUstcmhOaFo2Q2Q1UFBtdzBhUXZWWGFzbnJSVnYzMElucUVONWpORGFzY1g0SjNPbWVCelhBUjJIenprLWI2bHBTMVBVVmc1VEJGMWxadFZnbVprdVR3MFFKUkpRZktn?oc=5",
+          "publisher": "EnergyNow.com",
+          "published_at": "2026-11-11T14:43:50Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -462,13 +452,13 @@
       ]
     },
     {
-      "id": "aeb3339ffb3154",
-      "headline_claim": "Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
+      "id": "a33babe4763f16",
+      "headline_claim": "Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
       "discovered_via": "Overheden & crisismaatregelen",
       "other_search_labels": [
         "Overheden & crisismaatregelen"
       ],
-      "publication_day": "2026-11-09",
+      "publication_day": "2026-11-11",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
@@ -485,10 +475,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaFNVVXl2cDBhMTVpZWRfWWJrSFFhYnRBZXlXT2Q0OWpWQVdHOUpRUnZPZDlWZ2xrOVVZWF9ieUFtaU1ieG9PZlBHQmJ5ZF9JNzl2OVZsSDlDNUxSZEllLUlVNzBEN2daNnBNWVpnZ3ltM0FGazdtMzFNX0pwVk13YW9BOU91UTNacDQwa2hJMkY4dU5xVUFOY1pwZi1Mem1RTm5GTHdQdkQ1LTNBYmZ3VldaVktSVk1CbnRBekNRVUZtTnFWWUFiSFh3SVRoTHdoRmNYUFB2OTYxbC1J?oc=5",
+          "title": "Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdWVWWkVkXzRmQzYxcEFtZHZwUmVUZmNVdE8yVlNWeG1sdWhvQkhwamlMaUgwTEY4QXhpdzR2UlQ0cHF0NlRnZHVlRlhlSjk1TzhleGE2RkRmczhOOXdlemdTZGhzZzBsd3dUek1tMzBaeFBNV0NWMEVab0JzZHBQai1YdDYtMXJROWVBazM1R1hTMUVWX0dLMUFWbklIemtFamVpQXl6aG5zakZyRG9icGFRRUVtUklxLXgwTXhlellHazM1UnYtcWlSZzM5YXd5LWc3NWtwS3ZjQTJlQkdNV0Zn?oc=5",
           "publisher": "Condé Nast Traveller Middle East",
-          "published_at": "2026-11-09T07:58:47Z",
+          "published_at": "2026-11-11T06:07:37Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -550,8 +540,8 @@
       ]
     },
     {
-      "id": "bff1aa4c122c60",
-      "headline_claim": "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
+      "id": "52400e9592f7f9",
+      "headline_claim": "How the Iran War is transforming the liquefied natural gas industry - Marketplace.org",
       "discovered_via": "Energie & grondstoffen",
       "other_search_labels": [
         "Energie & grondstoffen"
@@ -562,7 +552,7 @@
       "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
       "article_count": 1,
       "publisher_names": [
-        "crude oil prices today | oilprice.com"
+        "marketplace.org"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -573,10 +563,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzdHRm52Q05MRjJYSFozaWFlRmdLcnRRckpFbDJZZFlIaEl4NFRLOThWMl9rSDFqNHpJTkkzRFJ5QmxxXzZQWUlnTHEyTWduS295YUc3bnpsbDJ1cG0zVVR3MmFaYVBZRDlUaHh3MHZDUVY3QmNEWXUtU01IWkdiSl94Q1J4Z2xmQldZaGJ3TEhSZ2VCeUJjR1FxVlRvLXNxUkxvVExpNWZEVWF3c0FudmlHd3JfeWPSAbwBQVVfeXFMT2tldk9nVGNmZWVfSTlwamwzeUdPX0luaWEyZkQySTlrOFpUZmxXRURyYlhXQ1FiZEpzaHJMaEJVZnVtX2RqVjNNTTBPbGR6QUh6dEl2TE1GM0ZwejU2RGZjaGdhUm1JaGpRVFlEZWdsU055RkhqUjc2RWVYaFcyQUFLREVla09ZbUZzZkVEYTRNY285Q0tjUS00U3dmN25TaDVSTGtmanpNcFU4bF9UV3piZVNaRUFLZS03MkE?oc=5",
-          "publisher": "Crude Oil Prices Today | OilPrice.com",
-          "published_at": "2026-11-11T18:00:00Z",
+          "title": "How the Iran War is transforming the liquefied natural gas industry - Marketplace.org",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT1haM0c5UVdiLXhzbjNDZXNfY0FHZFhmR1ZsVm9qV1Y4SE51OVM3ZGJYWG5UZGh2bGRKb1I4VFdTQ3lURXRkMC13ZGZKRlVCc3M4VHlZNkRjQkhiNGFUeVNyLTZQZ1RtRjVUWWUyY0tPY2ZlOHlaajFqaVB1SVU5dkVPSzNnblphLXRTcGIxTHlPTE9OVDNkQktUUEJUcllkS0ZF?oc=5",
+          "publisher": "Marketplace.org",
+          "published_at": "2026-11-11T22:37:21Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -726,20 +716,19 @@
       ]
     },
     {
-      "id": "acccd138488d4e",
-      "headline_claim": "Iran suggests blasts are not U.S. attacks as both sides report ships hit - The Japan Times",
+      "id": "aecbda51d9cebd",
+      "headline_claim": "Iran threatens US bases in Europe if attacks resume - Iran International",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
       ],
-      "publication_day": "2026-11-08",
+      "publication_day": "2026-11-11",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 2,
+      "article_count": 1,
       "publisher_names": [
-        "cnbc",
-        "the japan times"
+        "iran international"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -750,17 +739,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran suggests blasts are not U.S. attacks as both sides report ships hit - The Japan Times",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpaU90d2I2eTJOY3lpRFJmOTBIanhmNU1qOVBBdTN5eFkwN2t0WlhVS0dxemdzR21CdTRwbmxjUG9uY3RiOXZVVlpCUzAyblBYdVVhc29IU2lMaVdPdUhQZWY4c2lNaE52QVFFd1BzUXNOd3lSc25CUXEzNV8?oc=5",
-          "publisher": "The Japan Times",
-          "published_at": "2026-11-08T22:37:00Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "Iran suggests blasts are not U.S. attacks as both sides report ships hit - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yb2tXOU8xYVdDamJadUpxZ3ViUVhucWRqVWpKcXRvN0pHSWdNVFZHSTZqNGJUM1RkZTExVFlMbG1uQVY3M0RCTlBUOU56ZWdTMVJTZi0xemtfcXN0aFozZlVZNHNwMVFjUU1iT19OSkppZUhfalBycmRwZmI?oc=5",
-          "publisher": "CNBC",
-          "published_at": "2026-11-08T09:56:23Z",
+          "title": "Iran threatens US bases in Europe if attacks resume - Iran International",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9vQ2NKenlpTlJWSXdMRE9xNXhfemZXbUpONlQyZnV4QnV3bWhUME1jbV9QU0V5YlNWLWtxNkxpUDdiaDBuR0hEWUJ3eW9LTTM5akE?oc=5",
+          "publisher": "Iran International",
+          "published_at": "2026-11-11T14:30:32Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -776,7 +758,7 @@
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "article_count": 2,
       "publisher_names": [
         "jagran josh"
       ],
@@ -794,23 +776,30 @@
           "publisher": "Jagran Josh",
           "published_at": "2026-11-10T14:06:29Z",
           "source_provider": "google_news_rss"
+        },
+        {
+          "title": "US-Iran War is ‘Effectively Over', Russia-Ukraine War Ceasefire Shows 'Very Strong Inclination': Trump; Are the 2 Big Conflicts Ending? - Jagran Josh",
+          "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPYXJjQ2JzUFp3a0Qxb2ZPV1EweTVOSkJpc1VFX1hROWJlZWNTN1piVFY5eER2ZHlJVUNQUVMwRi1heWlQa013VXZHZ3R1ZHgtRUhJM05odjVRSkRaXzhkbklnbDJ2dF9TeTNsai1hMlpsTnFjM21TMUVqd0djY0o4XzFPbGxrandTTjBvbkNDWHQ2b0ZSb0VzNktMa29rdmozd2FlZEdscTZiVWZ6SFB3MncxN28tSkRvdVA0MlN5LXN6REZDZ0V0RjdGRU5qUkVrV0R1QjZLeml3dGVYOEdHNFE1aExXcmVBU3JfQzlqTVFlZmNYeENGZGo1QXJlSjRyVUhYTUxuSlpGQkJPRm85UTV3N05TVG_SAZcCQVVfeXFMT2FyY0Nic1Bad2tEMW9mT1dRMHk1TkpCaXNVRV9YUTliZWVjUzdaYlRWOXhEdmR5SVVDUFFTMEYtYXlpUGtNd1V2R2d0dWR4LUVISTNOaHY1UUpEWl84ZG5JZ2wydnRfU3kzbGotYTJabE5xYzNtUzFFandHY2NKOF8xT2xsa2p3U04wb25DQ1h0Nm9GUm9FczZLTGtva3ZqM3dhZWRHbHE2YlVmekhQdzJ3MTdvLUpEb3VQNDJTeS1zekRGQ2dFdEY3RkVOalJFa1dEdUI2S3ppd3RlWDhHRzRRNWhMV3JlQVNyX0M5ak1RZWZjWHhDRmRqNUFyZUo0clVIWE1MbkpaRkJCT0ZvOVE1dzdOU1Rv?oc=5",
+          "publisher": "Jagran Josh",
+          "published_at": "2026-11-10T14:06:29Z",
+          "source_provider": "google_news_rss"
         }
       ]
     },
     {
-      "id": "0952af4d82e05a",
-      "headline_claim": "Is It Safe to Travel to Saudi Arabia Right Now? - https://www.thetraveler.org/",
+      "id": "aeb3339ffb3154",
+      "headline_claim": "Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
       "discovered_via": "Overheden & crisismaatregelen",
       "other_search_labels": [
         "Overheden & crisismaatregelen"
       ],
-      "publication_day": "2026-11-10",
+      "publication_day": "2026-11-09",
       "publication_day_is_event_date": false,
-      "editorial_priority": "middel",
-      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "thetraveler.org"
+        "condé nast traveller middle east"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -821,10 +810,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Is It Safe to Travel to Saudi Arabia Right Now? - https://www.thetraveler.org/",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV0F6SUczZElGQUtvZlh0bkota3dkM1RoY3NYUEIwa1RhSU5RTFZIb2l4RXlrLTZ3dm1vSU5scm9oVDFwdHhLLXgzdFJiOGJyYkJialpjck1PVnZ1N1RnRzRqNTVMbmQ5cWVCYnpsS2RsQVltWFQ5eFdQX1Y3TWdCeU10UQ?oc=5",
-          "publisher": "https://www.thetraveler.org/",
-          "published_at": "2026-11-10T18:37:37Z",
+          "title": "Dubai and Middle East flight disruption: the latest updates for passengers as Saudi Arabia faces more attacks - Condé Nast Traveller Middle East",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaFNVVXl2cDBhMTVpZWRfWWJrSFFhYnRBZXlXT2Q0OWpWQVdHOUpRUnZPZDlWZ2xrOVVZWF9ieUFtaU1ieG9PZlBHQmJ5ZF9JNzl2OVZsSDlDNUxSZEllLUlVNzBEN2daNnBNWVpnZ3ltM0FGazdtMzFNX0pwVk13YW9BOU91UTNacDQwa2hJMkY4dU5xVUFOY1pwZi1Mem1RTm5GTHdQdkQ1LTNBYmZ3VldaVktSVk1CbnRBekNRVUZtTnFWWUFiSFh3SVRoTHdoRmNYUFB2OTYxbC1J?oc=5",
+          "publisher": "Condé Nast Traveller Middle East",
+          "published_at": "2026-11-09T07:58:47Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -871,8 +860,8 @@
       ]
     },
     {
-      "id": "94f619b9584ccf",
-      "headline_claim": "West of Suez: Brent, LSGO rebounds on lack of US-Iran deal - Quantum Commodity Intelligence",
+      "id": "bff1aa4c122c60",
+      "headline_claim": "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
       "discovered_via": "Energie & grondstoffen",
       "other_search_labels": [
         "Energie & grondstoffen"
@@ -883,7 +872,7 @@
       "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
       "article_count": 1,
       "publisher_names": [
-        "quantum commodity intelligence"
+        "crude oil prices today | oilprice.com"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -894,10 +883,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "West of Suez: Brent, LSGO rebounds on lack of US-Iran deal - Quantum Commodity Intelligence",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOEk3bGdIRVhwOWZQVXFkdDJfbXFNT3VfbUJZSWQ5OHlUSVNoR2J1MlJaUktrQTczU1oyOEZCQWVWVS1TY081aVdPeDZZYW9qTDU0MHdfWk5UX3ZvSzd0WFFTMTlwVHgwYTZJTjloS2xvcVVRU3lPanROQndyaHZUUkVtM2tEZlQzWmJPZVhJUjAzOFhmZVBLNWRObDdHX0cw?oc=5",
-          "publisher": "Quantum Commodity Intelligence",
-          "published_at": "2026-11-11T17:54:39Z",
+          "title": "Crude Is Back at 80% in the Gulf, but Refined Products Are Stuck at 35% - Crude Oil Prices Today | OilPrice.com",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzdHRm52Q05MRjJYSFozaWFlRmdLcnRRckpFbDJZZFlIaEl4NFRLOThWMl9rSDFqNHpJTkkzRFJ5QmxxXzZQWUlnTHEyTWduS295YUc3bnpsbDJ1cG0zVVR3MmFaYVBZRDlUaHh3MHZDUVY3QmNEWXUtU01IWkdiSl94Q1J4Z2xmQldZaGJ3TEhSZ2VCeUJjR1FxVlRvLXNxUkxvVExpNWZEVWF3c0FudmlHd3JfeWPSAbwBQVVfeXFMT2tldk9nVGNmZWVfSTlwamwzeUdPX0luaWEyZkQySTlrOFpUZmxXRURyYlhXQ1FiZEpzaHJMaEJVZnVtX2RqVjNNTTBPbGR6QUh6dEl2TE1GM0ZwejU2RGZjaGdhUm1JaGpRVFlEZWdsU055RkhqUjc2RWVYaFcyQUFLREVla09ZbUZzZkVEYTRNY285Q0tjUS00U3dmN25TaDVSTGtmanpNcFU4bF9UV3piZVNaRUFLZS03MkE?oc=5",
+          "publisher": "Crude Oil Prices Today | OilPrice.com",
+          "published_at": "2026-11-11T18:00:00Z",
           "source_provider": "google_news_rss"
         }
       ]
