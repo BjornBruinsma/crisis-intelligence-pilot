@@ -1,269 +1,133 @@
 {
-  "generated_at": "2026-11-12T08:46:06.801389Z",
+  "generated_at": "2026-11-12T14:42:42.017946Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 7,
+  "candidate_count": 3,
   "recommendation_counts": {
-    "publish": 3,
-    "reserve": 4
+    "publish": 2,
+    "reject": 1
   },
   "stories": [
     {
-      "id": "d3c37ab63a6d94",
-      "editorial_score": 90,
-      "editorial_decision": "publish",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a concise factual research note about the claim: *“Maceió reports nutritional improvement for children and adolescents”*.\n\n---\n\n## Primary Source Confirmation\n\n- The Prefeitura de Maceió (Maceió City Hall), via the Secretary of Municipal Development Social, Early Childhood, and Food Security (Semdes), published an official bulletin **on November 11, 2026**, reporting that “Unidades de acolhimento de Maceió registram avanço nutricional de crianças e adolescentes”. ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai))  \n- This report presents results from a **nutritional evaluation carried out between October and November 2026** in the shelter‐care units (“unidades de acolhimento”). ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai))\n\n---\n\n## Key Findings (Measured Outcomes)\n\n- **Population assessed:** 67 children and adolescents living in four care units: Casa Lar, Acolher, Luzinete Soares, and Rubens Colaço. ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai))  \n- **Eutrophic (normal nutritional status):**  \n  • July 2026: ~ 62.7 % of those assessed ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai))  \n  • In October–November 2026: **74.6 %**, showing an increase. ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai))  \n- **Overweight/Obesity cases:**  \n  • Declined from ~ 30.5 % in July to **11.9 %** in the most recent evaluation. ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai))  \n- **Low weight cases:**  \n  • Currently 13.4 % of the assessed group. Of nine children in this group, 7 are clustered in a single unit; four arrived already underweight, three have Autism Spectrum Disorder or other limiting conditions affecting growth or feeding. ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai))\n\n---\n\n## Interventions & Processes\n\n- The improvement is attributed to several interventions by Semdes:  \n  • Reformulating meal plans (“cardápios”) in all four units, prioritizing fresh/nature or minimal‐processing foods, increasing fruits, vegetables, legumes per Brazil’s national dietary guidelines. ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai))  \n  • Implementing regular nutritional assessments; also monitoring, checklists; tracking individual follow‐ups; technical supervision in kitchen and food storage; and training of food preparation staff. ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai))\n\n---\n\n## Independent/Secondary Sources & Contrasts\n\n- A report from *Jornal Extra Alagoas* (October 2026) based on the same Consea evaluations described contrasting data: in earlier evaluations, some care units had **decreases in eutrophy** and **increases in low weight, overweight/obesity**. ([ojornalextra.com.br](https://ojornalextra.com.br/noticias/alagoas/2026/10/132110-consea-aponta-aumento-de-baixo-peso-e-obesidade-em-unidades-de-acolhimento?utm_source=openai))\n\n  For example:\n  - In the “Acolher” unit, eutrophy dropped from ~ 69.23 % to ~ 35.70 %, while overweight/obesity rose. ([ojornalextra.com.br](https://ojornalextra.com.br/noticias/alagoas/2026/10/132110-consea-aponta-aumento-de-baixo-peso-e-obesidade-em-unidades-de-acolhimento?utm_source=openai))\n  - In “Luzinete”, overweight/obesity increased from ~ 33.33 % to ~ 57.14 %; eutrophy fell accordingly. ([ojornalextra.com.br](https://ojornalextra.com.br/noticias/alagoas/2026/10/132110-consea-aponta-aumento-de-baixo-peso-e-obesidade-em-unidades-de-acolhimento?utm_source=openai))\n\n- These findings seem to reflect earlier moments, prior to the improvements reported in the November evaluation by Semdes.\n\n---\n\n## Summary & Assessment\n\n- **What really happened:** In Oct–Nov 2026, official measurements show that among 67 children/adolescents in Maceió’s institutional care units, approximately 74.6 % were in eutrophy (good nutritional status), up from ~ 62.7 % in July. Meanwhile, cases of overweight/obesity dropped markedly, and low‐weight cases were about 13.4 %. These are concrete, measured outcomes. ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai))\n\n- **Contextual contrast:** Earlier assessments had highlighted concerning trends—declines in eutrophy and rising overweight/obesity or low weight in some units. Those assessments appear to have informed the interventions. ([ojornalextra.com.br](https://ojornalextra.com.br/noticias/alagoas/2026/10/132110-consea-aponta-aumento-de-baixo-peso-e-obesidade-em-unidades-de-acolhimento?utm_source=openai))\n\n- **Completed outcome vs plan:** The improvements reported are **measured outcomes**, not just pledges or announcements. They follow changes in menus, training, and monitoring, all of which were already under way. Plans previously existed—like the establishment of a food/nutrition plan ([maceio.al.gov.br](https://maceio.al.gov.br/noticias/semdes/desenvolvimento-social-estabelece-plano-alimentar-e-nutricional-nas-unidades-de-acolhimento?utm_source=openai))—but the evaluation shows real shifts in nutritional status.\n\n---\n\nIf needed, I can trace full data tables by unit, or analyze which specific units saw the biggest changes.",
-      "citations": [
-        {
-          "title": "Prefeitura de Maceió | Unidades de acolhimento de Maceió registram…",
-          "url": "https://maceio.al.gov.br/noticias/semdes/unidades-de-acolhimento-de-maceio-registram-avanco-nutricional-de-criancas-e-adolescentes?utm_source=openai"
-        },
-        {
-          "title": "Consea aponta aumento de baixo peso e obesidade em unidades de acolhimento - Jornal Extra Alagoas",
-          "url": "https://ojornalextra.com.br/noticias/alagoas/2026/10/132110-consea-aponta-aumento-de-baixo-peso-e-obesidade-em-unidades-de-acolhimento?utm_source=openai"
-        },
-        {
-          "title": "Prefeitura de Maceió | Desenvolvimento Social estabelece Plano…",
-          "url": "https://maceio.al.gov.br/noticias/semdes/desenvolvimento-social-estabelece-plano-alimentar-e-nutricional-nas-unidades-de-acolhimento?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "supported",
-      "outcome_status": "completed",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
-      "significance": "high",
-      "verified_headline": "Maceió shows nutritional improvements for children and adolescents",
-      "verified_summary": "Maceió reported a rise in eutrophic status among children from 62.7% to 74.6% and a decline in overweight/obesity from 30.5% to 11.9% following community health interventions.",
-      "verification_note": "The improvements are based on official evaluations showing measurable outcomes in nutritional status, supported by multiple sources.",
-      "publish_recommendation": "publish"
-    },
-    {
-      "id": "7174b8c64b3c0a",
-      "editorial_score": 85,
-      "editorial_decision": "publish",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Below is a research note on the claim: **“China’s electric truck adoption surpasses 50% in October (2026)”**. It covers what the original sources report, what “surpassed 50%” refers to, what is known vs what isn’t, and whether multiple outlets are merely repeating one source.\n\n---\n\n### What the original / primary source(s) report\n\n- On **November 11–12, 2026**, the *China Association of Automobile Manufacturers* (CAAM / 中汽协) officially released data stating that in **October 2026**, China’s **new energy heavy-duty trucks** (新能源重卡) had a **single-month penetration rate** (i.e. among new heavy truck sales) that **exceeded 50%**. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai))  \n- The announcement noted this as a milestone: historically heavy-duty trucks have had high energy consumption, but now the sector is entering a “new stage” of electrification. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai))  \n- The source also references a report from the *China Automotive Technology & Research Center* (CATARC), saying full-load range for some new heavy-duty electric truck models has reached **500 km** under load, and that multiple fast charging / megawatt ultra-fast charging (“兆瓦超充”) and rapid battery swapping (“快速换电”) approaches are becoming more mature. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai))  \n- The CATARC also noted that in closed settings like **ports and mines**, the penetration rate of new energy heavy trucks has already exceeded **70%**. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai))  \n\n---\n\n### Independent / corroborating data & figures\n\n- An independent data source (First Commercial Vehicle Network / 第一商用车网), cited by *Investing.com*, estimates that in **October 2026**, China sold about **92,000 heavy trucks** (批发销量 including exports and new energy), down ~7% month-on-month and down ~13% year-on-year from around 106,200 in October 2025. ([cn.investing.com](https://cn.investing.com/news/stock-market-news/article-3644006?utm_source=openai))  \n- From that total, **new energy heavy-duty trucks’ “terminal actual sales”** are estimated at around **34,000 units**, nearly 70% higher than the same month in 2025 (which was about 20,000). That yields a monthly penetration rate “again above 50%,” estimated at **nearly 55%**. ([cn.investing.com](https://cn.investing.com/news/stock-market-news/article-3644006?utm_source=openai))  \n\n---\n\n### What is clear / measured vs what is announcement / interpretation\n\n| What is a measured/completed outcome | What remains announcement, less certain, or predictive |\n|--------------------------------------|----------------------------------------------------------|\n| In **October 2026**, new energy heavy-duty trucks **sold in China** made up **just over half** of **new heavy truck sales** (sales-month penetration >50%). Supported by CAAM and market sales estimates. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai)) | Exact value: some outlets give “more than 50%” without precise number; independent estimate says “nearly 55%” for one data set. |\n| Sales volume estimates: ~92,000 heavy trucks sold in October (all types), ~34,000 of them being new energy models. ([cn.investing.com](https://cn.investing.com/news/stock-market-news/article-3644006?utm_source=openai)) | The estimate includes bulk wholesale data (including exports); terminal sales “actual end-use” might differ. Also, certain technical performance figures (e.g. 500 km full-load range, maturation of charging/swap tech) are reported but may reflect some leading-edge models—not necessarily typical fleet performance. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai)) |\n\n---\n\n### Context & caveats\n\n- Earlier data: through **September 2026**, the cumulative penetration was much lower. For example: in September 2026 the new energy heavy truck penetration rate was about **33.5%**. ([pdf.dfcfw.com](https://pdf.dfcfw.com/pdf/H3_AP202611021831333692_1.pdf?1793649808000.pdf=&utm_source=openai))  \n- The CAAM figure refers to a **single month** (October), not year-to-date or cumulative share. Thus, October appears to be the first month where new energy heavy trucks crossed the 50% mark in terms of market share among heavy trucks sold. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai))  \n- The increase is tied to policy incentives, improvements in vehicle range and charging/swapping infrastructure, and falling total cost of ownership. These among others are cited in CAAM / CATARC reporting. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai))  \n\n---\n\n### Repetition and redundancy\n\n- Many news outlets (中新网 / China News Service; 东方财富 / EastMoney; 财联社; 一财 / Yicai; etc.) are reporting the same CAAM & CATARC data, often very similarly worded. These seem to be based on the same original press release or agency data. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai))  \n- The independent estimate from First Commercial Vehicle Network provides numerical detail (sales numbers, year-over-year growth) that aligns with but also expands on the CAAM statement. ([cn.investing.com](https://cn.investing.com/news/stock-market-news/article-3644006?utm_source=openai))  \n\n---\n\n### Bottom line (what actually happened)\n\n- In October 2026, **China’s new energy heavy-duty trucks** achieved a **monthly market penetration rate exceeding 50%**, meaning more than half of all heavy trucks sold that month in China were new energy (electric / alternative energy) models. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai))  \n- Estimated sales numbers: about **92,000 heavy trucks** sold in total (wholesale, including exports), with approximately **34,000** being new energy models. ([cn.investing.com](https://cn.investing.com/news/stock-market-news/article-3644006?utm_source=openai))  \n- This marks a key milestone in China’s heavy truck electrification, entering what officials are calling a “new stage” of electric adoption in a sector traditionally dominated by fossil-fueled diesel trucks. ([chinanews.com](https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai))  \n\n---\n\nIf you like, I can also track more data (e.g. regional breakdowns, year-on-year trends) to understand how durable or unusual this monthly jump is.",
-      "citations": [
-        {
-          "title": "中国汽车工业协会：10月份新能源重卡渗透率突破50%-中新网",
-          "url": "https://www.chinanews.com/cj/2026/11-12/10730586.shtml?utm_source=openai"
-        },
-        {
-          "title": "10月份重卡市场共计销售约9.2万辆 新能源重卡渗透率再度超过50% 提供者 智通财经",
-          "url": "https://cn.investing.com/news/stock-market-news/article-3644006?utm_source=openai"
-        },
-        {
-          "title": "政策持续加码，新能源重卡同比高增长。2026年1–9月，我国新能源重卡累计销量达到22.64万辆，同比增长64.30%，延续高增长趋势。其中，2026年9月，国内新能源重卡销量为3.31万辆，同比增长37.34%，渗透率达到33.54%。",
-          "url": "https://pdf.dfcfw.com/pdf/H3_AP202611021831333692_1.pdf?1793649808000.pdf=&utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "supported",
-      "outcome_status": "completed",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
-      "significance": "high",
-      "verified_headline": "China's electric truck adoption exceeds 50% in October 2026",
-      "verified_summary": "In October 2026, new energy heavy-duty trucks accounted for over 50% of heavy truck sales in China, marking a significant milestone in electrification. Approximately 34,000 new energy trucks were sold out of 92,000 total heavy trucks.",
-      "verification_note": "The claim is supported by data from the China Association of Automobile Manufacturers and independent estimates, confirming over 50% market penetration for electric trucks in October 2026.",
-      "publish_recommendation": "publish"
-    },
-    {
-      "id": "a18544a9c956a8",
-      "editorial_score": 90,
+      "id": "010851d8cab183",
+      "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here is what I found regarding the claim “Firefighters rescued 43 people in Nizhny Novgorod”:\n\n---\n\n### 🔍 Findings\n\n**What actually happened**  \n- On **October 4, 2026**, a large fire erupted in a multi-storey residential building in the *Kstovsky District* of Nizhny Novgorod, in the 2nd microdistrict. ([news.mail.ru](https://news.mail.ru/society/72595297/?utm_source=openai))  \n- According to the regional Main Directorate of the Ministry of Emergency Situations (MChS), **43 people** were evacuated, including **five children**. ([mk.ru](https://www.mk.ru/incident/2026/10/04/bolshe-40-chelovek-evakuirovali-iz-za-pozhara-v-mnogoetazhke-nizhnego-novgoroda.html?utm_source=openai))  \n- The fire affected **eight apartments** on floors 6 through 9. The blaze spread to balconies and property across these units. ([mk.ru](https://www.mk.ru/incident/2026/10/04/bolshe-40-chelovek-evakuirovali-iz-za-pozhara-v-mnogoetazhke-nizhnego-novgoroda.html?utm_source=openai))  \n- The fire area was approximately **90 square meters**. ([mk.ru](https://www.mk.ru/incident/2026/10/04/bolshe-40-chelovek-evakuirovali-iz-za-pozhara-v-mnogoetazhke-nizhnego-novgoroda.html?utm_source=openai))  \n- Critically: there were **no reported fatalities or injuries**. ([mk.ru](https://www.mk.ru/incident/2026/10/04/bolshe-40-chelovek-evakuirovali-iz-za-pozhara-v-mnogoetazhke-nizhnego-novgoroda.html?utm_source=openai))  \n- The preliminary cause is under investigation; early reports attribute it to *careless handling of fire* (неосторожное обращение с огнем). ([mk.ru](https://www.mk.ru/incident/2026/10/04/bolshe-40-chelovek-evakuirovali-iz-za-pozhara-v-mnogoetazhke-nizhnego-novgoroda.html?utm_source=openai))  \n\n---\n\n### ⚙ Sources & Reliability\n\n- **Independent sources** include *МК (Moskovsky Komsomolets)* and *News Mail/Rambler*, which reported the same basic facts (evacuation of 43, including five children; no injuries or deaths; approx. 90 m² damaged). ([mk.ru](https://www.mk.ru/incident/2026/10/04/bolshe-40-chelovek-evakuirovali-iz-za-pozhara-v-mnogoetazhke-nizhnego-novgoroda.html?utm_source=openai))  \n- **Official source** is the regional MChS statement, cited by those media outlets. This is standard for reporting events like this in Russia. ([mk.ru](https://www.mk.ru/incident/2026/10/04/bolshe-40-chelovek-evakuirovali-iz-za-pozhara-v-mnogoetazhke-nizhnego-novgoroda.html?utm_source=openai))  \n- I did *not* find any source matching the exact wording “firefighters rescued 43 people”. The reporting speaks of *evacuation* rather than *rescue from immediate danger*. There’s no mention of injuries or people being carried out from dangerously burning parts—just that people were evacuated from apartments. ([mk.ru](https://www.mk.ru/incident/2026/10/04/bolshe-40-chelovek-evakuirovali-iz-za-pozhara-v-mnogoetazhke-nizhnego-novgoroda.html?utm_source=openai))  \n\n---\n\n### ⚠ Clarifications & Corrections\n\n- The claim “Firefighters **rescued** 43 people” is a bit misleading according to sources. The media reports “evacuated 43 people,” a less specific term. “Rescue” often implies pulling people out of immediate danger zones or structurally compromised areas. Evacuation can be merely leading people out safely, perhaps from less acutely dangerous situations. No mention in the sources of people trapped or physically rescued from burning apartments (though balconies were involved).  \n- Date: **October 4, 2026**. The event did *not* occur on or by November 12, 2026—the current date when this query. ([mk.ru](https://www.mk.ru/incident/2026/10/04/bolshe-40-chelovek-evakuirovali-iz-za-pozhara-v-mnogoetazhke-nizhnego-novgoroda.html?utm_source=openai))  \n- Location: Kstovsky District, a suburban area of Nizhny Novgorod. Not all sources specify “Kstovsky” but those that do match the same event. ([news.mail.ru](https://news.mail.ru/society/72595297/?utm_source=openai))  \n\n---\n\n### ✅ Conclusion\n\n- **Measured outcome**: 43 people (including 5 children) were **evacuated** from a multi-apartment building fire in the Kstovsky District of Nizhny Novgorod on October 4, 2026, with no reported injuries or deaths.  \n- The claim that “firefighters **rescued** 43 people” overstates the sources: it is more accurate that 43 were evacuated, not necessarily rescued from direct peril.  \n\n---\n\nIf you want, I can check whether any follow-up revealed additional casualties or more details about how the evacuation was carried out.",
+      "research_notes": "Here is a factual research note on the story *“Children helped adults shape Natufian clay figurines 15,000 years ago, fingerprints reveal”*, distinguishing what was **actually discovered**, what is evidence vs. inference, and noting primary and secondary sources.\n\n---\n\n## What the study found (Primary source)\n\nThe core findings are in the peer-reviewed paper *Modelling symbols among the first-sedentary communities: Emergence of clay figurines in Epipaleolithic Southwest Asia (PLOS One, Nov 11, 2026)* by Laurent Davin et al. ([lifescience.net](https://www.lifescience.net/publications/2296924/modelling-symbols-among-the-first-sedentary-commun/?utm_source=openai))\n\nKey empirical outcomes:\n\n- Archaeologists re-examined **three Natufian sites in present-day Israel**—Eynan-Mallaha, Hayonim Terrace, and el-Wad Terrace—dating from about **15,000 to 11,650 calibrated years before present**. ([lifescience.net](https://www.lifescience.net/publications/2296924/modelling-symbols-among-the-first-sedentary-commun/?utm_source=openai))\n\n- Among previously ignored or fragmentary clay material, they identified **154 figurative clay artefacts** (15 fully recognizable figurines and 139 fragments) that depict birds, gazelles, humans, etc. ([science.report](https://science.report/discover/natufian-clay-figurines-reveal-an-early-symbolic-tradition-119179/?utm_source=openai))\n\n- Microscopic examination revealed **fingerprints, palm-prints, and other trace impressions** (tool marks, smoothing, groove lines, incisions) preserved in wet clay. ([heritagedaily.com](https://www.heritagedaily.com/2026/11/15000-year-old-clay-figurines-rewrite-origins-of-symbolic-art-in-southwest-asia/159991?utm_source=openai))\n\n- Ridge-spacing in many prints corresponds to **children/subadults (some likely younger than 10 years old)** as well as adult females and women; only a few prints match adult men. ([sciencenews.org](https://www.sciencenews.org/article/stone-age-children-made-art-clay-sculpt?utm_source=openai))\n\n- Notably, one figurine bears **overlapping prints**: an adult or young adult woman’s fingerprint, and a child’s print on the same piece—consistent with the adult possibly guiding or teaching while shaping the clay. ([science.report](https://science.report/discover/natufian-clay-figurines-reveal-an-early-symbolic-tradition-119179/?utm_source=openai))\n\n---\n\n## Inferences, interpretations & what remains uncertain\n\nWhat the authors suggest vs. what remains unproven:\n\n- Because children’s fingerprints are present in material shaped while wet, the study infers that children **actively participated** in manufacturing figurines—not merely as bystanders. ([sciencenews.org](https://www.sciencenews.org/article/stone-age-children-made-art-clay-sculpt?utm_source=openai))\n\n- The overlapping prints are taken as evidence of **intergenerational learning**: a scenario where an adult (woman) guides a child in the process. ([science.report](https://science.report/discover/natufian-clay-figurines-reveal-an-early-symbolic-tradition-119179/?utm_source=openai))\n\n- Authors also infer that symbolic clay figurine tradition was established among these hunter-gatherers long **before agriculture**, showing mature symbolic behaviour and craft technology in the Natufian period. ([heritagedaily.com](https://www.heritagedaily.com/2026/11/15000-year-old-clay-figurines-rewrite-origins-of-symbolic-art-in-southwest-asia/159991?utm_source=openai))\n\nUncertainties / what the evidence does *not* conclusively show:\n\n- The precise role of children (were they learning under supervision, were some figurines made by children alone?) is not fully resolvable. Only that their fingerprints are embedded in wet clay. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12998513?utm_source=openai))\n\n- The *purpose* of these clay figurines remains unknown: whether ritualistic, decorative, games, symbolic stories, social teaching, etc. ([sciencenews.org](https://www.sciencenews.org/article/stone-age-children-made-art-clay-sculpt?utm_source=openai))\n\n- It is not always clear whether all objects were intentionally fired (i.e. baked) or merely heated accidentally or dried passively. Some were found to have fire-related traces, but not all. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12998513?utm_source=openai))\n\n---\n\n## Independent verification / coverage\n\nSecondary reporting confirms and summarizes the findings, often citing the same primary paper:\n\n- **Science News** article (“Stone Age children left fingerprints…”) reports the study, reproducing the facts about 40-kg of clay, around 150 fragments, fingerprints of adults and children, intergenerational overlap. ([sciencenews.org](https://www.sciencenews.org/article/stone-age-children-made-art-clay-sculpt?utm_source=openai))\n\n- **HeritageDaily** and **The State of Israel** report similar details: 154 artifacts, 15 figurines, children’s fingerprints, adult-child overlapping print, that the tradition is the earliest known figurative clay tradition in Southwest Asia. ([thestateofisrael.com](https://thestateofisrael.com/news/story/2026-11-12-study-identifies-154-natufian-clay-artifacts-at-three-israeli-sites?utm_source=openai))\n\n---\n\n## Completed / measured outcomes vs. announcements or claims\n\nThis is not just a planned or hypothetical scenario. The outcomes are measured:\n\n- Concrete artefacts (clay figurines and fragments) have been identified and physically examined. ([lifescience.net](https://www.lifescience.net/publications/2296924/modelling-symbols-among-the-first-sedentary-commun/?utm_source=openai))\n\n- Fingerprints have been analyzed with ridge measures to assign probable age categories. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12998513?utm_source=openai))\n\n- A specific case of overlapping adult + child fingerprints has been documented. ([science.report](https://science.report/discover/natufian-clay-figurines-reveal-an-early-symbolic-tradition-119179/?utm_source=openai))\n\n---\n\n## Sources\n\n- Primary source: Davin, L., Sindel, M., Weinstein-Evron, M., Yeshurun, R., Grosman, L., Belfer-Cohen, A., Khalaily, H., Valla, F., et al. “Modelling symbols among the first-sedentary communities: Emergence of clay figurines in Epipaleolithic Southwest Asia.” *PLOS One,* vol. 21, nov 2026, e0360388. ([lifescience.net](https://www.lifescience.net/publications/2296924/modelling-symbols-among-the-first-sedentary-commun/?utm_source=openai))\n\n- Independent corroboration: \"Stone Age children left fingerprints on ancient art projects\" (Science News) ([sciencenews.org](https://www.sciencenews.org/article/stone-age-children-made-art-clay-sculpt?utm_source=openai)); “Study Identifies 154 Natufian Clay Artifacts at Three Israeli Sites” (The State of Israel) ([thestateofisrael.com](https://thestateofisrael.com/news/story/2026-11-12-study-identifies-154-natufian-clay-artifacts-at-three-israeli-sites?utm_source=openai))\n\n---\n\nIf desired, I can also pull up images or diagrams from the study, or compare with similar findings elsewhere to contextualize.",
       "citations": [
         {
-          "title": "43 человека эвакуировали во время пожара в Кстовском районе Нижнего Новгорода - Новости Mail",
-          "url": "https://news.mail.ru/society/72595297/?utm_source=openai"
+          "title": "Modelling symbols among the first-sedentary communities: Emergence of clay figurines in Epipaleolithic Southwest Asia.",
+          "url": "https://www.lifescience.net/publications/2296924/modelling-symbols-among-the-first-sedentary-commun/?utm_source=openai"
         },
         {
-          "title": "Больше 40 человек эвакуировали из-за пожара в многоэтажке Нижнего Новгорода - МК",
-          "url": "https://www.mk.ru/incident/2026/10/04/bolshe-40-chelovek-evakuirovali-iz-za-pozhara-v-mnogoetazhke-nizhnego-novgoroda.html?utm_source=openai"
+          "title": "Natufian Clay Figurines Reveal an Early Symbolic Tradition",
+          "url": "https://science.report/discover/natufian-clay-figurines-reveal-an-early-symbolic-tradition-119179/?utm_source=openai"
+        },
+        {
+          "title": "15,000-year-old clay figurines rewrite origins of symbolic art in Southwest Asia",
+          "url": "https://www.heritagedaily.com/2026/11/15000-year-old-clay-figurines-rewrite-origins-of-symbolic-art-in-southwest-asia/159991?utm_source=openai"
+        },
+        {
+          "title": "Stone Age children left fingerprints on ancient art projects",
+          "url": "https://www.sciencenews.org/article/stone-age-children-made-art-clay-sculpt?utm_source=openai"
+        },
+        {
+          "title": "Modeling identities among the first-sedentary communities: Emergence of clay personal ornaments in Epipaleolithic Southwest Asia",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12998513?utm_source=openai"
+        },
+        {
+          "title": "Study Identifies 154 Natufian Clay Artifacts at Three Israeli Sites · The State of Israel",
+          "url": "https://thestateofisrael.com/news/story/2026-11-12-study-identifies-154-natufian-clay-artifacts-at-three-israeli-sites?utm_source=openai"
         }
       ],
       "fallback_error": "",
       "search_error": "",
-      "support": "partially_supported",
+      "support": "supported",
       "outcome_status": "completed",
-      "evidence_quality": "medium",
+      "evidence_quality": "high",
       "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Firefighters evacuate 43 people from Nizhny Novgorod fire",
-      "verified_summary": "On October 4, 2026, firefighters evacuated 43 individuals, including five children, from a residential fire in Nizhny Novgorod. There were no reported injuries or fatalities.",
-      "verification_note": "The term 'rescued' is misleading; sources confirm 'evacuated' without indicating immediate danger. The event is significant but the wording should reflect the nature of the evacuation.",
-      "publish_recommendation": "reserve"
+      "significance": "high",
+      "verified_headline": "Children's fingerprints found on ancient Natufian clay figurines",
+      "verified_summary": "Archaeologists discovered 154 Natufian clay artifacts, including fingerprints of children and adults, indicating intergenerational participation in figurine creation. This suggests advanced symbolic behavior in early sedentary communities.",
+      "verification_note": "The findings are based on peer-reviewed research and corroborated by multiple independent sources, confirming the significance of children's involvement in ancient art.",
+      "publish_recommendation": "publish"
     },
     {
-      "id": "9256962f4d9e87",
+      "id": "850ce83ce9decc",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here’s a fact-checked summary of what can reliably be said about recent real progress in methane emission reductions by oil companies and countries (\"Countries and oil operators achieve real progress to reduce methane\") as of late 2026:\n\n---\n\n## What actually happened\n\n### Global initiatives showing measurable results\n\n- **GFMR Partnership (World Bank Group)**  \n  In its **FY 2026 report** (covering July 1, 2025 to June 30, 2026), the Global Flaring and Methane Reduction (GFMR) Partnership reports _initial methane reductions of 32,000 tonnes CH₄ per year_ from its supported projects. ([worldbank.org](https://www.worldbank.org/en/programs/gasflaringreduction/publication/gfmr-annual-progress-report-2026?utm_source=openai))  \n  The same report identifies **1,186 kilotonnes of CH₄/year** of abatable methane and **340 kt CO₂-e/year** of abatable gas flaring, across 16 countries. ([worldbank.org](https://www.worldbank.org/en/programs/gasflaringreduction/publication/gfmr-annual-progress-report-2026?utm_source=openai))\n\n- **OGMP 2.0 (UNEP’s Oil & Gas Methane Partnership 2.0)**  \n  The October 2026 report shows that among 163 member companies in 90 countries (covering 43% of global oil & gas production), **69% of reported methane emissions** are now based on measurement (rather than estimation) data. ([unep.org](https://www.unep.org/pt-br/node/29744?utm_source=openai))  \n  Also, over 16% of global oil & gas production is now reported at OGMP’s highest reporting level (“Level 5”), more than double last year’s share. ([unep.org](https://www.unep.org/pt-br/node/29744?utm_source=openai))\n\n- **OGCI (Oil & Gas Climate Initiative)**  \n  In its 2026 progress report, OGCI members have reduced **aggregate upstream methane intensity** from ~0.12% in 2024 to ~0.13% in 2025 due to improved measurement; meanwhile, upstream methane emissions from its members fell to **0.76 million tonnes in 2025**. ([ogci.com](https://www.ogci.com/news/ogci-2026-progress-report-what-the-results-show-and-what-comes-next/?utm_source=openai))  \n  Also, routine flaring from operated assets has dropped by **74% since 2018** among OGCI signatories. ([ogci.com](https://www.ogci.com/news/ogci-2026-progress-report-what-the-results-show-and-what-comes-next/?utm_source=openai))\n\n- **Turkmenistan leak closures via MARS alerts**  \n  Turkmenistan has responded to alerts through the UN’s Methane Alert and Response System (MARS), and **confirmed 8 major methane leaks sealed** by repairing faulty wells, pipelines, or failing flares. These leaks had been emitting roughly **27,000 tonnes of methane** before being addressed. ([whogains.org](https://whogains.org/case/turkmenistan-methane-super-emitters/?utm_source=openai))\n\n---\n\n## Interpretation of outcome vs pledges or plans\n\nThese instances represent **completed, documented emission reductions**, not just pledges or plans. Examples include:\n\n- The GFMR’s quantified emissions cuts (32,000 tonnes/year).\n- Turkmenistan’s action in sealing leaks, with verified past emissions (≈ 27,000 tonnes) stopped.\n- OGMP 2.0 and OGCI showing real measurement-based reporting and dropping emissions metrics.\n\n---\n\n## What remains to be done / limits of progress\n\n- While there are concrete reductions, the scale relative to global methane emissions remains small: GFMR’s ~32 kt CH₄/year is a fraction of global emissions from oil & gas which amount to tens of millions of tonnes per year. ([worldbank.org](https://www.worldbank.org/en/programs/gasflaringreduction/publication/gfmr-annual-progress-report-2026?utm_source=openai))  \n- Turkmenistan’s response rate to MARS alerts remains modest (~20%), and only a small share of its many satellite-detected leaks have been addressed. ([eurasianet.org](https://eurasianet.org/turkmenistan-tackling-methane-leak-problem?utm_source=openai))  \n- Many oil & gas producers remain outside these reporting/mitigation partnerships, and thousands of potential abatement opportunities are still awaiting implementation. ([unep.org](https://www.unep.org/pt-br/node/29744?utm_source=openai))\n\n---\n\n## Verification & source reliability\n\n- Most data comes from primary and credible sources: World Bank–GFMR reports, IEA’s Global Methane Tracker, UNEP and IMEO / OGMP 2.0 reports. ([worldbank.org](https://www.worldbank.org/en/programs/gasflaringreduction/publication/gfmr-annual-progress-report-2026?utm_source=openai))  \n- Independent media reporting (e.g. The Guardian) corroborates Turkmenistan’s leak closures using UN data. ([theguardian.com](https://www.theguardian.com/environment/2026/aug/31/turkmenistan-methane-leaks-un-alerts-mars?utm_source=openai))  \n\n---\n\n## Summary\n\nYes — there is real, measurable progress. Multiple country-level and industry-level actions have produced verified methane reductions. But these remain limited in global scope; the reductions so far, while genuine, are uneven and comparatively small versus the overall scale of methane emissions from oil and gas. More widespread adoption, faster response to satellite alerts, and implementation of proven abatement technologies are needed to shift from noticeable progress to large-scale climate impact.",
+      "citations": [
+        {
+          "title": "GFMR Annual Progress Report 2026",
+          "url": "https://www.worldbank.org/en/programs/gasflaringreduction/publication/gfmr-annual-progress-report-2026?utm_source=openai"
+        },
+        {
+          "title": "Spotlight on climate action | UNEP - UN Environment Programme",
+          "url": "https://www.unep.org/pt-br/node/29744?utm_source=openai"
+        },
+        {
+          "title": "OGCI | 2026 Progress Report: what the results show",
+          "url": "https://www.ogci.com/news/ogci-2026-progress-report-what-the-results-show-and-what-comes-next/?utm_source=openai"
+        },
+        {
+          "title": "Methane super-emitters in Turkmenistan's oil and gas fields · Who Gains from Saving Nature",
+          "url": "https://whogains.org/case/turkmenistan-methane-super-emitters/?utm_source=openai"
+        },
+        {
+          "title": "Turkmenistan tackling methane leak problem | Eurasianet",
+          "url": "https://eurasianet.org/turkmenistan-tackling-methane-leak-problem?utm_source=openai"
+        },
+        {
+          "title": "‘Breakthrough’ as Turkmenistan starts fixing ‘mindboggling’ methane mega-leaks | Greenhouse gas emissions | The Guardian",
+          "url": "https://www.theguardian.com/environment/2026/aug/31/turkmenistan-methane-leaks-un-alerts-mars?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "supported",
+      "outcome_status": "completed",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "medium",
+      "verified_headline": "Countries and oil operators reduce methane emissions significantly",
+      "verified_summary": "Countries and oil operators have achieved measurable methane reductions, including 32,000 tonnes per year from the GFMR Partnership and 8 major leaks sealed in Turkmenistan, indicating real progress in emission reductions.",
+      "verification_note": "The evidence shows documented reductions in methane emissions from credible sources, confirming the claims of progress made by countries and oil operators.",
+      "publish_recommendation": "publish"
+    },
+    {
+      "id": "7e584983916fa1",
       "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "responses_web_search",
       "search_model": "gpt-6-luna",
-      "research_notes": "### Research note\n\n- **Verified record:** Tianjin’s Beidagang Wetland Nature Reserve management center says staff counted **27 flamingos (greater flamingos) on October 13, 2026**, at the Wanquanmu fishpond area of the Duliujian River. The center calls this the highest number recorded there; its previous records since 2014 were groups of 3, 5, 8 and 13. This is a **completed observation**, not a project announcement. ([beidagang.cn](https://www.beidagang.cn/index.php?a=show&c=index&catid=12&id=2042&m=content&utm_source=openai))\n- **Independent coverage:** Hong Kong’s *Wen Wei Po* reported the same count on October 29, citing the reserve’s management center and naming a center official. It adds that the reserve had recorded more than 180,000 migratory birds across 60-plus species since October, but this coverage relies on reserve-provided data, so it is not independent monitoring. ([wenweipo.com](https://www.wenweipo.com/a/202610/29/AP6ae2e53de4b0fa89498ae5b8.html?utm_source=openai))\n- **Context, not proof of cause:** Tianjin’s government portal reported on November 9 that Qilihai Wetland had received more than 90,000 passing waterbirds that autumn and that its daily number of birds staying this spring exceeded 60,000, a historical high. The report also describes restoration and monitoring measures, but the observations alone do not establish that those measures caused the counts. ([tj.gov.cn](https://www.tj.gov.cn/sy/zwdt/gqdt/202611/t20261109_7652370.html?utm_source=openai))\n- **Source-chain caveat:** I could not verify the exact Sohu article in the hint. The flamingo item is corroborated by a reserve-management-center post and a separate newspaper report; the latter explicitly attributes its figures to the center. Thus, the evidence supports specific record observations, not a general conclusion that records across multiple reserves prove conservation efforts caused ecological improvement.",
+      "research_notes": "### Research note\n\n- **What is supported:** The LPO Bourgogne-Franche-Comté scheduled a volunteer workday at Ferme Fruirouge in Concœur for **Saturday, November 7, 2026**, from 9:30 a.m. to 5 p.m. Planned tasks included building and installing nest boxes and perches, and planting an orchard. ([lpo.fr](https://www.lpo.fr/lpo-locales/lpo-bourgogne-franche-comte/agenda-bourgogne-franche-comte/agenda-2026-bourgogne-fc/cote-d-or/appel-a-benevoles-semons-la-biodiversite-a-nuits-saint-georges?utm_source=openai))\n- **Outcome not verified:** The LPO page is an event listing, not a post-event report. I found no source confirming how many volunteers attended or which planned tasks were completed. So the candidate’s claim that volunteers *are actively working* is not established by the sources I found.\n- **Source independence:** Infos Dijon published the same details on October 30, labeling its item a **“Communiqué”**; it appears to repeat an announcement, not independently report results. ([infos-dijon.com](https://www.infos-dijon.com/news/cote-d-or/cote-d-or/environnement-la-lpo-organise-un-chantier-participatif-a-la-ferme-fruirouge-1793142000.html?utm_source=openai)) I could not locate the cited Le Bien Public article in live search.\n- **Bottom line:** Verified as a planned biodiversity workday; completed/measured impact remains unconfirmed.",
       "citations": [
         {
-          "title": "湿地保护简讯 - 工作动态 - 天津北大港湿地管理中心网站",
-          "url": "https://www.beidagang.cn/index.php?a=show&c=index&catid=12&id=2042&m=content&utm_source=openai"
+          "title": "APPEL À BÉNÉVOLES - Semons la biodiversité à Nuits-Saint-Georges ! - LPO (Ligue pour la Protection des Oiseaux) - Agir pour la biodiversité",
+          "url": "https://www.lpo.fr/lpo-locales/lpo-bourgogne-franche-comte/agenda-bourgogne-franche-comte/agenda-2026-bourgogne-fc/cote-d-or/appel-a-benevoles-semons-la-biodiversite-a-nuits-saint-georges?utm_source=openai"
         },
         {
-          "title": "27只火烈鳥飛抵北大港濕地　創觀測紀錄印證生態改善 - 神州 - 香港文匯報",
-          "url": "https://www.wenweipo.com/a/202610/29/AP6ae2e53de4b0fa89498ae5b8.html?utm_source=openai"
-        },
-        {
-          "title": "七里海湿地迎来候鸟迁徙高峰_各区动态_天津政务网",
-          "url": "https://www.tj.gov.cn/sy/zwdt/gqdt/202611/t20261109_7652370.html?utm_source=openai"
+          "title": "ENVIRONNEMENT : La LPO organise un chantier participatif à la Ferme Fruirouge - Infos Dijon",
+          "url": "https://www.infos-dijon.com/news/cote-d-or/cote-d-or/environnement-la-lpo-organise-un-chantier-participatif-a-la-ferme-fruirouge-1793142000.html?utm_source=openai"
         }
       ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 248. Please try again in 331ms. Visit https://platform.op",
+      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 271. Please try again in 362ms. Visit https://platform.op",
       "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "completed",
+      "support": "unsupported",
+      "outcome_status": "announcement",
       "evidence_quality": "medium",
       "independence": "likely_republication",
       "significance": "medium",
-      "verified_headline": "Record Flamingo Count Suggests Positive Environmental Trends",
-      "verified_summary": "The Beidagang Wetland Nature Reserve recorded 27 flamingos, the highest count since 2014. While this observation indicates potential ecological improvement, it does not definitively prove that conservation efforts caused the increase.",
-      "verification_note": "The evidence supports specific observations of flamingo counts but lacks independent verification of broader conservation impacts.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "5a625168452fab",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here are the verified facts from live sources regarding conservation achievements in China, along with notes on what is *measured outcomes* versus announcements/plans. I did **not** find confirmation of “19 世界遗产、34 处 IUCN 绿色名录保护地” in any primary or independent report as stated. Some numbers differ.  \n\n---\n\n## What actually has been measured / confirmed\n\n1. **China’s assessment of its natural heritage status**  \n   - In February 2026, China’s National Forestry and Grassland Administration published the first comprehensive, systematic assessment (covering 1985–2025) of its *world natural heritage* and *mixed cultural-natural heritage* sites. ([english.scio.gov.cn](https://english.scio.gov.cn/pressroom/2026-02/07/content_118322583.html?utm_source=openai))  \n   - Findings:\n     - China has **15 pure natural heritage sites** and **4 mixed natural + cultural heritage sites** — a total of **19 world heritage sites** in those categories. ([forestry.gov.cn](https://www.forestry.gov.cn/c/www/zxzb/659385.jhtml?utm_source=openai))  \n     - Together these cover roughly **80,000 square kilometers**, across 20 provincial-level regions, with diverse ecosystems (mountains, deserts, wetlands, coasts, etc.). ([forestry.gov.cn](https://www.forestry.gov.cn/c/www/zxzb/659385.jhtml?utm_source=openai))  \n     - None of these sites show *serious human-induced damage* or threats to their “outstanding universal value.” ([forestry.gov.cn](https://www.forestry.gov.cn/c/www/zxzb/659385.jhtml?utm_source=openai))  \n     - About **90%** of these sites were rated “excellent” or “good” overall in IUCN assessments, compared to global and Asian averages of ~61% and ~68% respectively. ([english.www.gov.cn](https://english.www.gov.cn/news/202606/14/content_WS6a2e07bec6d00ca5f9a0b917.html?utm_source=openai))  \n\n2. **Biosphere Reserves count in China**  \n   - As of late 2025, **China has 34 UNESCO-approved Biosphere Reserves**, which is the highest number in Asia. This is confirmed by official statistics. ([stats.gov.cn](https://www.stats.gov.cn/zs/tjwh/tjkw/tjqk/zgxxb/202509/P020250918317567479214.pdf?utm_source=openai))  \n\n3. **IUCN Green List entries for China**  \n   - As of October 2026, there are **112 listings** on the IUCN Green List globally, covering 240 sites in 23 countries. Among these, **three protected areas in China** (Beijing Yeyahu Nature Reserve, Fujian Liangyeshan National Nature Reserve, and Zhejiang Qingliangfeng National Nature Reserve) were added *for the first time* at the Green List Awards held during CBD COP17. ([iucn.org](https://iucn.org/press-release/202610/new-iucn-green-list-sites-revealed-25-protected-and-conserved-areas-honoured?utm_source=openai))  \n   - Earlier, in December 2025, **seven new sites in China** were added to the Green List, and *four existing Chinese sites* had their status renewed. One confirmed fact among those is that **Mount Huangshan Scenic Area** achieved forest coverage of ~98.29%, with **45 consecutive years without forest fires** and recognition toward being a zero-carbon mountain scenic area. ([iucn.org](https://iucn.org/news/202512/seven-new-sites-china-and-brazil-join-iucn-green-list-four-sites-renewed?utm_source=openai))  \n\n---\n\n## What *hasn’t* been confirmed or is contradicted by sources\n\n- **“34 IUCN Green List protected areas in China”** — this specific number does *not* appear in credible sources, as of current information. IUCN Green List data show that China’s Green List sites number much lower (in the dozens), not 34. ([iucngreenlist.org](https://iucngreenlist.org/country/china/?utm_source=openai))  \n- The candidate claim “两个全球第一” (“two global firsts”) isn’t clearly substantiated in the way the summary suggests. Some claims (e.g. having the most natural & mixed world heritage sites in China, or highest Biosphere Reserves in Asia) are “firsts” in regional or national comparisons, but not necessarily unique “global firsts” in all categories combined.\n\n---\n\n## Comparison with the candidate summary\n\n| Element | Candidate summary claim | Verified reality |\n|---|---|---|\n| “19 世界遗产” (“19 world heritage”) | Matches the candidate’s “19 world heritage” number | Confirmed: 15 natural + 4 mixed natural & cultural = 19. ([forestry.gov.cn](https://www.forestry.gov.cn/c/www/zxzb/659385.jhtml?utm_source=openai)) |\n| “34 处 IUCN 绿色名录保护地” (“34 IUCN Green List protected areas”) | Claimed as conservation achievement | Not confirmed; China’s Green List entries are fewer. Biosphere Reserves are 34 — but those are separate from IUCN Green List protected/conserved areas. ([stats.gov.cn](https://www.stats.gov.cn/zs/tjwh/tjkw/tjqk/zgxxb/202509/P020250918317567479214.pdf?utm_source=openai)) |\n| “两个全球第一” (“two global firsts”) | Implies China ranks first globally in two conservation categories | Partially true: China has **highest number in Asia** of biosphere reserves; also highest number of natural + mixed natural heritage sites among countries. But global “firsts” may be overstated if interpreted strictly. ([cciced.eco](https://cciced.eco/wp-content/uploads/2025/10/CCICED-2024-2025-Special-Policy-Study-Report-Governance-System-for-a-Harmonious-Coexistence-Between-Humans-and-Nature.pdf?utm_source=openai)) |\n\n---\n\n## Conclusion\n\n- Measured outcomes: China has 19 world heritage sites in the categories “natural” or “mixed natural + cultural”, covering ~80,000 km²; these sites are generally in “excellent/good” conservation status. ([forestry.gov.cn](https://www.forestry.gov.cn/c/www/zxzb/659385.jhtml?utm_source=openai))  \n- China has 34 UNESCO Biosphere Reserves — confirmed. ([stats.gov.cn](https://www.stats.gov.cn/zs/tjwh/tjkw/tjqk/zgxxb/202509/P020250918317567479214.pdf?utm_source=openai))  \n- China *has not* been confirmed to have 34 IUCN Green List sites; its Green List entries are fewer and numbers vary depending on time/date of reports.  \n- Some “global first” claims are accurate regionally (e.g. in Asia or among countries), but require precise framing.\n\nIf you like, I can try to track the Sohu article you mentioned and see how it derived the “34 IUCN Green List” number — it may be mixing up biosphere reserves with Green List sites.",
-      "citations": [
-        {
-          "title": "China's world natural heritage sites well conserved | english.scio.gov.cn",
-          "url": "https://english.scio.gov.cn/pressroom/2026-02/07/content_118322583.html?utm_source=openai"
-        },
-        {
-          "title": "中国世界自然遗产保护发展报告新闻发布会_国家林业和草原局政府网",
-          "url": "https://www.forestry.gov.cn/c/www/zxzb/659385.jhtml?utm_source=openai"
-        },
-        {
-          "title": "China's world natural heritage sites see sustained conservation improvement",
-          "url": "https://english.www.gov.cn/news/202606/14/content_WS6a2e07bec6d00ca5f9a0b917.html?utm_source=openai"
-        },
-        {
-          "title": "01B20250918C",
-          "url": "https://www.stats.gov.cn/zs/tjwh/tjkw/tjqk/zgxxb/202509/P020250918317567479214.pdf?utm_source=openai"
-        },
-        {
-          "title": "New IUCN Green List sites revealed as 25 protected and conserved areas honoured at Green List Awards - Press release | IUCN",
-          "url": "https://iucn.org/press-release/202610/new-iucn-green-list-sites-revealed-25-protected-and-conserved-areas-honoured?utm_source=openai"
-        },
-        {
-          "title": "Seven New Sites from China and Brazil Join the IUCN Green List, Four Sites Renewed - News | IUCN",
-          "url": "https://iucn.org/news/202512/seven-new-sites-china-and-brazil-join-iucn-green-list-four-sites-renewed?utm_source=openai"
-        },
-        {
-          "title": "IUCN Green List China - IUCN Green List",
-          "url": "https://iucngreenlist.org/country/china/?utm_source=openai"
-        },
-        {
-          "title": "China Council for International Cooperation on",
-          "url": "https://cciced.eco/wp-content/uploads/2025/10/CCICED-2024-2025-Special-Policy-Study-Report-Governance-System-for-a-Harmonious-Coexistence-Between-Humans-and-Nature.pdf?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "measured_progress",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "China's conservation efforts show measurable progress",
-      "verified_summary": "China has 19 world heritage sites in natural and mixed categories, with 90% rated in good condition. Additionally, it has 34 UNESCO Biosphere Reserves, the highest in Asia.",
-      "verification_note": "While some claims about conservation achievements are supported, others, like the number of IUCN Green List sites, are not confirmed. Overall, there is measurable progress in conservation.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "14ed7729d3dd95",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "responses_web_search",
-      "search_model": "gpt-6-luna",
-      "research_notes": "### Research note\n\n- **What happened:** Dan and Sharon Anderson’s Darling Creek Ranch, near Meadow in Perkins County, South Dakota, was selected for the **2026 South Dakota Leopold Conservation Award**, a **$10,000** award. Sand County Foundation announced the selection on **April 21, 2026**; that announcement said the family would receive the award later in the year. ([sandcountyfoundation.org](https://sandcountyfoundation.org/news/2026/darling-creek-ranch-to-receive-south-dakota-leopold-conservation-award?utm_source=openai))\n- **Completed outcome:** South Dakota State University reports the Anderson family was honored at a ceremony on **August 20, 2026**. So this was not only a selection or pledge—the award was presented. ([sdstate.edu](https://www.sdstate.edu/agriculture-food-environmental-sciences/cafesblog/2026-leopold-conservation-award-tour?utm_source=openai))\n- **Reported result:** SDSU says the ranch’s winter hay needs fell from **800 to 300 tons annually**, a 60% reduction, alongside the family’s adaptive grazing practices. This is a reported ranch outcome, not an independent environmental measurement. ([sdstate.edu](https://www.sdstate.edu/agriculture-food-environmental-sciences/cafesblog/2026-leopold-conservation-award-tour?utm_source=openai))\n- **Source check:** The primary source is Sand County Foundation. Western Livestock Journal credits its article to the Foundation, while AgUpdate’s account closely tracks the Foundation’s announcement; these are not clearly independent corroboration. SDSU provides a separate post-ceremony account. I could not verify the specific Farm Progress headline in the supplied source hint. ([wlj.net](https://www.wlj.net/darling-creek-ranch-to-receive-south-dakota-leopold-conservation-award/?utm_source=openai))",
-      "citations": [
-        {
-          "title": "Darling Creek Ranch to Receive South Dakota… | Sand County Foundation",
-          "url": "https://sandcountyfoundation.org/news/2026/darling-creek-ranch-to-receive-south-dakota-leopold-conservation-award?utm_source=openai"
-        },
-        {
-          "title": "2026 Leopold Conservation Award Tour | South Dakota State University",
-          "url": "https://www.sdstate.edu/agriculture-food-environmental-sciences/cafesblog/2026-leopold-conservation-award-tour?utm_source=openai"
-        },
-        {
-          "title": "Darling Creek Ranch to receive South Dakota Leopold Conservation Award | Western Livestock Journal",
-          "url": "https://www.wlj.net/darling-creek-ranch-to-receive-south-dakota-leopold-conservation-award/?utm_source=openai"
-        }
-      ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 254. Please try again in 339ms. Visit https://platform.op",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "measured_progress",
-      "evidence_quality": "medium",
-      "independence": "likely_republication",
-      "significance": "medium",
-      "verified_headline": "Darling Creek Ranch Receives Leopold Conservation Award",
-      "verified_summary": "Darling Creek Ranch was awarded the Leopold Conservation Award for its environmental efforts. The ranch reported a 60% reduction in winter hay needs due to adaptive grazing practices.",
-      "verification_note": "The award indicates recognition of conservation efforts, but the reported outcomes are not independently verified.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "2858aa179e7db1",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here is what my research found on the claim: “Review shows improvements in diabetes management for youth — A systematic review indicates improvements in treatment adherence for youth with type 1 diabetes.”  \n\n---\n\n## 🔍 Key findings from the evidence\n\n1. **Family‐based interventions meta-analysis (Nov 2026)**  \n   A recent systematic review and meta-analysis of randomized controlled trials (RCTs) (involving 19 trials with 2,054 adolescents with type 1 diabetes) compared family-based interventions vs usual care. These interventions led to modest but statistically significant improvements in a number of outcomes:  \n   • Mean reduction in HbA₁c of −0.31% (95% CI −0.55 to −0.07).  \n   • Self-management adherence was higher (standardized mean difference, SMD = 0.19; 95% CI 0.01 to 0.37).  \n   • More frequent blood glucose monitoring (mean difference = 0.77 checks/day; 95% CI 0.23 to 1.30).  \n   • Better quality of life (SMD = 0.30; 95% CI 0.15 to 0.46).  \n   • Less family conflict (SMD = −0.31; 95% CI −0.57 to −0.05).  \n   Certainty of evidence ranged from moderate to very low depending on the specific outcome. ([link.springer.com](https://link.springer.com/article/10.1186/s12902-026-02707-y?utm_source=openai))\n\n2. **Parental monitoring & adherence meta-analysis (Sept 2026)**  \n   Another systematic review / meta-analysis synthesized observational studies (cross-sectional, N = 1,209, ages 10-24) on how parental monitoring correlates with therapeutic adherence among youth with type 1 diabetes. Key outcome:  \n   • There is a significant positive association between parental monitoring (how much parents supervise or know about the adolescent’s self-management) and therapeutic adherence, with correlation coefficient r = 0.286 (95% CI 0.232-0.337). ([onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/full/10.1111/dme.70477?utm_source=openai))\n\n3. **Meta-analysis of behavioral interventions (up to Feb 2025)**  \n   A meta-analysis of 62 RCTs evaluating behavioral interventions to promote adherence (search through February 2025) examined their effect on HbA₁c and compared multicomponent, family-focused vs individual‐focused approaches. Results:  \n   • Behavioral interventions yielded a small benefit on HbA₁c (effect size g = 0.12 overall).  \n   • Multicomponent interventions had a larger effect (g = 0.19), especially family-focused ones (g = 0.29), compared to youth- or parent-only focused interventions. ([publications.aap.org](https://publications.aap.org/pediatrics/article/158/4/e2025075333/209467/Behavioral-Interventions-in-Pediatric-Type-1?utm_source=openai))\n\n4. **Digital / mHealth / tech-based interventions**  \n   Studies of digital health or mobile health (mHealth) tools show mixed results:  \n   • A scoping review (2026) of mHealth apps for children/adolescents with T1D (≤18 years) found that among 12 studies, 4 showed statistically significant improvements in HbA₁c; others showed stability or no change. Several reported improved adherence and self-efficacy. ([mhealth.jmir.org](https://mhealth.jmir.org/2026/1/e79338/PDF?utm_source=openai))  \n   • Another systematic review of digital interventions (2025) also reports that digital health tools can enhance glycaemic control in T1D patients, though heterogeneity across studies limits certainty. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12752127/?utm_source=openai))\n\n---\n\n## ✔️ What *actually happened*\n\n- There *are* multiple recent systematic reviews and meta-analyses showing **measured, modest improvements** in treatment adherence, self-management behavior, glucose monitoring frequency, and HbA₁c among youth (adolescents, adolescents/young adults) with type 1 diabetes, particularly when interventions are family-based or multicomponent.  \n- The evidence comes from RCTs (for the trials of family-based or behavioral interventions) and from observational studies (for the parental monitoring review).  \n- The improvements are modest: e.g. HbA₁c falling by about 0.3%, glucose checks increasing by less than one additional check per day on average.  \n\n---\n\n## ⚠️ What is *not* supported / what is uncertain\n\n- The exact phrase “improvements in treatment adherence” is broadly supported, but the degree of improvement is small to moderate, and not universal across all settings or intervention types.  \n- Certainty of evidence is mixed: some outcomes have moderate evidence, others low or very low; risk of bias exists in many studies. ([link.springer.com](https://link.springer.com/article/10.1186/s12902-026-02707-y?utm_source=openai))  \n- Evidence for which specific interventions (which components) are the most effective is still limited. Subgroup analyses in the family-based interventions study did *not* clearly establish which adolescents benefit most or which intervention elements are superior. ([link.springer.com](https://link.springer.com/article/10.1186/s12902-026-02707-y?utm_source=openai))  \n- Some studies (e.g. digital interventions) showed no change in HbA₁c, so not all approaches yield measurable improvements. ([mhealth.jmir.org](https://mhealth.jmir.org/2026/1/e79338/PDF?utm_source=openai))  \n\n---\n\n## 📝 Comparison to the “candidate” description\n\n- The claim in the candidate: “Review shows improvements in treatment adherence for youth with type 1 diabetes.” This is generally accurate in light of multiple recent systematic reviews.  \n- The candidate’s summary refers to a “systematic review indicates improvements in treatment adherence for youth with type 1 diabetes” — this is supported, particularly by the family-based interventions meta-analysis and the parental monitoring study.  \n\n---\n\n## 📌 Research note summary\n\n- Several high-quality reviews (meta-analyses, RCTs) published in 2025-2026 find **measurable improvements** in adherence and self-management among youth with type 1 diabetes when interventions are family-based, behavioral, or multicomponent.  \n- Measured improvements include modest reductions in HbA₁c (about 0.3%), more frequent blood monitoring, improved quality of life, and better adherence behaviors.  \n- Parental monitoring correlates positively with adherence (r ≈ 0.29) among youth aged ~10-24.  \n- The evidence supports the claim that improvements are occurring, but results are modest and variable; certainty ranges from moderate to low depending on outcome and intervention.  \n\nIf you want, I can try to locate the specific *“护理及护理相关干预改善青少年1型糖尿病治疗依从性/自我管理的系统评价 – 生物通”* original article, to see if it adds new or different evidence. Do you want me to pull that up?",
-      "citations": [
-        {
-          "title": "Family-based interventions for glycemic control and psychosocial outcomes in adolescents with type 1 diabetes: a systematic review and meta-analysis",
-          "url": "https://link.springer.com/article/10.1186/s12902-026-02707-y?utm_source=openai"
-        },
-        {
-          "title": "Parental monitoring and therapeutic adherence in adolescents and young adults with type 1 diabetes mellitus: Systematic review with meta-analysis",
-          "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/dme.70477?utm_source=openai"
-        },
-        {
-          "title": "Behavioral Interventions in Pediatric Type 1 Diabetes Management: An Updated Meta-Analysis",
-          "url": "https://publications.aap.org/pediatrics/article/158/4/e2025075333/209467/Behavioral-Interventions-in-Pediatric-Type-1?utm_source=openai"
-        },
-        {
-          "title": "JMIR MHEALTH AND UHEALTH                                                                 Beh et al",
-          "url": "https://mhealth.jmir.org/2026/1/e79338/PDF?utm_source=openai"
-        },
-        {
-          "title": "Effect of digital interventions on adherence to the management of type 1 diabetes mellitus patients: a systematic review",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12752127/?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "supported",
-      "outcome_status": "completed",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
-      "significance": "high",
-      "verified_headline": "Improvements in diabetes management for youth confirmed by reviews",
-      "verified_summary": "Recent systematic reviews and meta-analyses show measurable improvements in treatment adherence and self-management behaviors among youth with type 1 diabetes, particularly with family-based interventions. Improvements include modest reductions in HbA₁c and increased blood glucose monitoring.",
-      "verification_note": "The claim is supported by multiple systematic reviews indicating measurable improvements in diabetes management for youth, though the improvements are modest and vary by intervention type.",
-      "publish_recommendation": "publish"
+      "verified_headline": "Volunteers planned to enhance biodiversity at Fruirouge farm",
+      "verified_summary": "A volunteer workday is scheduled at Fruirouge farm to promote biodiversity, but no evidence confirms volunteer participation or task completion.",
+      "verification_note": "The claim of active volunteer work is unverified; the sources only confirm a planned event without measurable outcomes.",
+      "publish_recommendation": "reject"
     }
   ],
   "pilot_note": "Live-web verification pilot; cited search evidence is re-evaluated by a separate verifier model."
