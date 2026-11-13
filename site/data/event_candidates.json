@@ -1,17 +1,17 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-12T19:09:15.114763Z",
-  "fingerprint": "16b962b4422e4d1420eca2e7",
+  "last_attempt_utc": "2026-11-13T01:22:50.332560Z",
+  "fingerprint": "9793525dd50526aa1c6d67ce",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 20,
-  "event_candidate_count": 19,
+  "input_candidate_count": 19,
+  "event_candidate_count": 18,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 2,
+    "model_pair_proposals": 4,
     "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 1,
+    "rejected_pair_proposals": 3,
     "multi_claim_groups": 1,
     "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
@@ -22,13 +22,13 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-12T19:09:15.114763Z",
+    "recorded_at": "2026-11-13T01:22:50.332560Z",
     "groups": [
       {
         "ids": [
-          "76ed2644a08269"
+          "94ff2b9e4d8a06"
         ],
-        "label_nl": "Claim: \"You will not escape\": Iran shock, our missiles will hit Europe, forget Hormuz, Israel ready for attack, 2 war plans - Bankingnews",
+        "label_nl": "Claim: Iran launches missile attack on US ships as Trump unleashes new strikes in Middle East - AOL.co.uk",
         "actor": "",
         "action": "",
         "place": "",
@@ -37,9 +37,9 @@
       },
       {
         "ids": [
-          "81e4fceca9bbe0"
+          "56728258f55cb6"
         ],
-        "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
+        "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -71,9 +71,9 @@
       },
       {
         "ids": [
-          "9811a6e6039638"
+          "c6ad0f7287f5c3"
         ],
-        "label_nl": "Claim: India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight",
+        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -104,9 +104,9 @@
       },
       {
         "ids": [
-          "6d7462cc412c28"
+          "76ed2644a08269"
         ],
-        "label_nl": "Claim: Iran can still produce 50 ballistic missiles a month, despite US-Israeli strikes - report - The Jerusalem Post",
+        "label_nl": "Claim: \"You will not escape\": Iran shock, our missiles will hit Europe, forget Hormuz, Israel ready for attack, 2 war plans - Bankingnews",
         "actor": "",
         "action": "",
         "place": "",
@@ -115,9 +115,9 @@
       },
       {
         "ids": [
-          "9a40ee1b67fe3d"
+          "81e4fceca9bbe0"
         ],
-        "label_nl": "Claim: Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi",
+        "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
         "actor": "",
         "action": "",
         "place": "",
@@ -137,20 +137,9 @@
       },
       {
         "ids": [
-          "52400e9592f7f9"
+          "9811a6e6039638"
         ],
-        "label_nl": "Claim: How the Iran War is transforming the liquefied natural gas industry - Marketplace.org",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "d9e000219d109f"
-        ],
-        "label_nl": "Claim: Why is Iran stepping up tanker attacks amid peace talks? The high-risk strategy behind the Hormuz escalation - Gulf News",
+        "label_nl": "Claim: India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight",
         "actor": "",
         "action": "",
         "place": "",
@@ -170,9 +159,9 @@
       },
       {
         "ids": [
-          "0aaf4f4a430016"
+          "6d7462cc412c28"
         ],
-        "label_nl": "Claim: Iran warns of expanded retaliation as Israel reportedly readies to attack - Al Jazeera",
+        "label_nl": "Claim: Iran can still produce 50 ballistic missiles a month, despite US-Israeli strikes - report - The Jerusalem Post",
         "actor": "",
         "action": "",
         "place": "",
@@ -181,9 +170,9 @@
       },
       {
         "ids": [
-          "7a25e22a0e4986"
+          "9a40ee1b67fe3d"
         ],
-        "label_nl": "Claim: US-Israel-Iran War Latest Live Updates: Is JD Vance Becoming Trump’s New Iran Negotiator? US Vice President Reportedly Seeks Direct Talks With Senior Iranian Security Official - The Sunday Guardian",
+        "label_nl": "Claim: Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi",
         "actor": "",
         "action": "",
         "place": "",
@@ -214,9 +203,9 @@
       },
       {
         "ids": [
-          "54f5f0a8346372"
+          "d9e000219d109f"
         ],
-        "label_nl": "Claim: Europe Scrambles to Limit Effects of Energy Escalation in Iran War - EnergyNow.com",
+        "label_nl": "Claim: Why is Iran stepping up tanker attacks amid peace talks? The high-risk strategy behind the Hormuz escalation - Gulf News",
         "actor": "",
         "action": "",
         "place": "",
@@ -236,31 +225,56 @@
       }
     ],
     "input_claim_ids": [
-      "76ed2644a08269",
-      "81e4fceca9bbe0",
+      "94ff2b9e4d8a06",
+      "56728258f55cb6",
       "6738a21be33922",
       "3ba19b4585299c",
-      "9811a6e6039638",
+      "c6ad0f7287f5c3",
       "cdbcccd715dbe0",
       "35e380a51e98ef",
-      "6d7462cc412c28",
-      "9a40ee1b67fe3d",
+      "76ed2644a08269",
+      "81e4fceca9bbe0",
       "a33babe4763f16",
       "e7555912fbbd42",
-      "52400e9592f7f9",
-      "d9e000219d109f",
+      "9811a6e6039638",
       "070cffe9ab582a",
-      "0aaf4f4a430016",
-      "7a25e22a0e4986",
+      "6d7462cc412c28",
+      "9a40ee1b67fe3d",
       "945cb67734c14e",
       "1aff36425c48d4",
-      "54f5f0a8346372",
+      "d9e000219d109f",
       "7c0bcdcaa86cf9"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
+    {
+      "id": "64baf849840e16b39cd45ca3",
+      "label_nl": "Claim: Iran launches missile attack on US ships as Trump unleashes new strikes in Middle East - AOL.co.uk",
+      "headline_claim_ids": [
+        "94ff2b9e4d8a06"
+      ],
+      "headline_claims": [
+        "Iran launches missile attack on US ships as Trump unleashes new strikes in Middle East - AOL.co.uk"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TSjdEUHhvT2J2Sk93ZmhIZDZWbU40VzMtSHpoZjJ5ampzY2Vrcy1TdG1lNTZWeFVqVG1hUTU2Njlrbld0WEdsOFZ6T2ZqQ3h6OWRwWnBDVmxQdnA0U3N4S3V5THRzMzN6RnlxZkNaWHYtZmJBMFVyWkNsRUs?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
     {
       "id": "07f6b8dadcd590f74a41b677",
       "label_nl": "Claim: \"You will not escape\": Iran shock, our missiles will hit Europe, forget Hormuz, Israel ready for attack, 2 war plans - Bankingnews",
@@ -341,58 +355,6 @@
       "probability_estimate": null
     },
     {
-      "id": "f4286748efae897c1b8023b6",
-      "label_nl": "Claim: Iran warns of expanded retaliation as Israel reportedly readies to attack - Al Jazeera",
-      "headline_claim_ids": [
-        "0aaf4f4a430016"
-      ],
-      "headline_claims": [
-        "Iran warns of expanded retaliation as Israel reportedly readies to attack - Al Jazeera"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaGV6WFJxeUNSa0ZVZFFWdC1mUGJUbEtIZldwSjJDWGQxUnFodTZ5akhnY010WTRLMXYtNjh5akpyczZkNjg1LXlUUnlQakJ5WmxORm9xQ0M4ck81WU9WWlhHU0x5WU1neXJrbTU0ZDRtd0JWa01TUTdRNjN1SDZfUkRObDg1dmJySkR3THpuaWh1TU94NVVMSHBJbEZ6VHNWUTlCNC1tTklKWFZlLXBvTHJWVkRtZ9IBuwFBVV95cUxPNmpBLWlIVTN1aUhtZ3R0amt5bWlCWGliV19MV2x5WExRRndaY2o0Nmc3cjVnZnFhX0Y3ZzVRMzBoQV9lZnctRWNiSlZ4LUtMV0JYVEVqaWpwSHo0STQ5Qzc0V0ZmMGlEZDBDNlduRVp2TUx1TjhURlRKYXdzS1N3Z1FKZ3ZJQjBTbGxyOW9tVHJaWXpDZkFqY0pEbVNEaDVkOUNmVmdoUFpQQTJTQnktZU94d3JMVm1iNFVR?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "89eada273ada0641a8b73dbf",
-      "label_nl": "Claim: Europe Scrambles to Limit Effects of Energy Escalation in Iran War - EnergyNow.com",
-      "headline_claim_ids": [
-        "54f5f0a8346372"
-      ],
-      "headline_claims": [
-        "Europe Scrambles to Limit Effects of Energy Escalation in Iran War - EnergyNow.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxOWEZuMWpjWVFaeEdVRDVzSnZORUZlckExSEpVQW1MLTU4d25nMjVVbS1jSzZ5c0pZcDFqbnVDUWRnVTdacjVLR0pXSGExTTZVSE02c0pSWThJaE9ITkNrZ09DVFdLRnVqb00yOS1nck5ncHVZTVZ1NTBYOUVQbmM0YWZKdWNVTnFGYVNSWTZWaEMzNTBhLTM3LWo0M1NKQQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "6a22ed511ba3209cec3a5099",
       "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
       "headline_claim_ids": [
@@ -426,16 +388,16 @@
       "probability_estimate": null
     },
     {
-      "id": "50ac7a3e82a4557551e50415",
-      "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
+      "id": "15ea6fdf8c80c909afed8168",
+      "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
       "headline_claim_ids": [
-        "81e4fceca9bbe0"
+        "56728258f55cb6"
       ],
       "headline_claims": [
-        "Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News"
+        "Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLTdvUGZhMDA2MGVTYWc0X2Fsc0FrOWtoOW9sNmI1TWZrcGtLT1BmQUd6MFN1NmhNNGtZV2doZ053T1BBNDg3N21QTk4wakljekxHZEZsVmNGRDJXRGctQ0RraTh1clFqSkMyUXRzcUkycTI3a1dEV1dwdjA2aEdGZnhFWGIwdUtXOVI3Q091ZTAwVi11aG1fVHJYRmZob0NXNThJUG9hMVpjSm1mSTZUU1hEZU9ZRkQ3NGplYlZwWk50Z1NpM2kyTkVEb18yUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcV9aQ0xEcFYySmNhZGkwSERycmM4WEVDTXE1NXVxb1NZRnphN1pYVlVTRWxhT3psVTVMYllhdFh5dHl4aGN1ZENIaVMtQVdTem1EVlo0ek5nZDMwSG1RNE11V1NPVnNKVGdHNVhvSkNDMHJfNVd3RGF2RmtMNzlLTm9jU3owTmVvdmpxU2VPcFJBaHhhQVBrM1hCeHFUY3FIVkROZUV5dGNtX0ozc3NsVEVqMVdObWdoSG9JSGFR0gHEAUFVX3lxTE9Rd3YtT2huSUxlcGZiSzRmQzRtX09qT1JWRUpQSk9vYUMzQlVScWpZNUNjZG9EWDFWeEZ3eVRQc0RyZEVnSXZBemRTMkVUc19Kc2Q5RlNNbkhxai1WeEY4cmNIYklTYWU3VTVOMS04aGEzeW9xaTNVNkYxcVd5eDlyTi10YzJFTy10VUNjSmJVdi0xbWZVeF9mTXpGNFVPN3E0ZWxtTk11QXlLcjFVMWlDWGV1enFwTlJtcENTQkpWeGltOUs?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -482,20 +444,19 @@
       "probability_estimate": null
     },
     {
-      "id": "fbe1940a3fde6b91ec20828c",
-      "label_nl": "Claim: India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight",
+      "id": "59ebd2d83838699822ab96a6",
+      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
       "headline_claim_ids": [
-        "9811a6e6039638"
+        "c6ad0f7287f5c3"
       ],
       "headline_claims": [
-        "India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight"
+        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaldNcGR6RGN3UF9ZS0NVZkxnSEEyY2MxeU1vcktCTW5HVTdrQlIzbFI2OEVjSUtvc2s5MnYwVTF1amZ2dnBwdlJobXJldUxSY09OUGtCSWhlcVprTG5feWJiZWZaQUJ6U2NFMTVqQkZqLUJ6WmNaNGU5ajJmR01hd1pBQkZ2NVk?oc=5",
-        "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYmVQSDU4cXVobWVmc1lSNENtRnJPUGl4UERhSTlGT3ZPbXNnbU9yeWhoNDFSQm1uZGttU0VFMGJaZS14TzdVeVpvSURxVnM5YWg0UGVkTHZrTWZzMVlCTDVBQ0I5Wl9QMUdtVFozek1IVHhGOEFOR3Nfb3dGckxoMFBlRzg1dmZOc3pBWVZKOXNGcnNWelpzSEJuUVBfTmV0M2U0M194WXo3eHVCUVpnWXRLU0Nxc2FnWDVGNFo5UXJjQ2pOb3ZrdS1LMzdmMUgzRFBRMTdsOE1YczJjR2hEblNETVpPeERlRm5BdHd1Zl9nQ2dhV2ZwQkNqbFNpcDVqLVI0?oc=5"
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -562,16 +523,16 @@
       "probability_estimate": null
     },
     {
-      "id": "03bc04d024fab2c37b11f6fd",
-      "label_nl": "Claim: Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi",
+      "id": "50ac7a3e82a4557551e50415",
+      "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
       "headline_claim_ids": [
-        "9a40ee1b67fe3d"
+        "81e4fceca9bbe0"
       ],
       "headline_claims": [
-        "Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi"
+        "Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLUVTNnM0Y2lHajFySWZQaFFQVlA5Sk1TQ1hROFVGWklCZDcxaG85bUFjVjZJdlNqc0MxeVhnYk5WT016NnJRdmdVM0Fsb29adUtMRS1kU2VYYWtuMkVRNGw2b0NWX1lpeElIbFotdmtkRzRpR3JJOGxBY2pObl81WVlJX3JOeGF5V0tQQTdIX3htY1JhMTc3S290dFdjNGRpb21LM0F4SVpuMHJDWHE5aVlKVGFNd0lEVzdFVmV0NFJiQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLTdvUGZhMDA2MGVTYWc0X2Fsc0FrOWtoOW9sNmI1TWZrcGtLT1BmQUd6MFN1NmhNNGtZV2doZ053T1BBNDg3N21QTk4wakljekxHZEZsVmNGRDJXRGctQ0RraTh1clFqSkMyUXRzcUkycTI3a1dEV1dwdjA2aEdGZnhFWGIwdUtXOVI3Q091ZTAwVi11aG1fVHJYRmZob0NXNThJUG9hMVpjSm1mSTZUU1hEZU9ZRkQ3NGplYlZwWk50Z1NpM2kyTkVEb18yUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -614,19 +575,20 @@
       "probability_estimate": null
     },
     {
-      "id": "f18170410bd3f2b6bfdda2db",
-      "label_nl": "Claim: How the Iran War is transforming the liquefied natural gas industry - Marketplace.org",
+      "id": "fbe1940a3fde6b91ec20828c",
+      "label_nl": "Claim: India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight",
       "headline_claim_ids": [
-        "52400e9592f7f9"
+        "9811a6e6039638"
       ],
       "headline_claims": [
-        "How the Iran War is transforming the liquefied natural gas industry - Marketplace.org"
+        "India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiowFBVV95cUxPT1haM0c5UVdiLXhzbjNDZXNfY0FHZFhmR1ZsVm9qV1Y4SE51OVM3ZGJYWG5UZGh2bGRKb1I4VFdTQ3lURXRkMC13ZGZKRlVCc3M4VHlZNkRjQkhiNGFUeVNyLTZQZ1RtRjVUWWUyY0tPY2ZlOHlaajFqaVB1SVU5dkVPSzNnblphLXRTcGIxTHlPTE9OVDNkQktUUEJUcllkS0ZF?oc=5"
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaldNcGR6RGN3UF9ZS0NVZkxnSEEyY2MxeU1vcktCTW5HVTdrQlIzbFI2OEVjSUtvc2s5MnYwVTF1amZ2dnBwdlJobXJldUxSY09OUGtCSWhlcVprTG5feWJiZWZaQUJ6U2NFMTVqQkZqLUJ6WmNaNGU5ajJmR01hd1pBQkZ2NVk?oc=5",
+        "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYmVQSDU4cXVobWVmc1lSNENtRnJPUGl4UERhSTlGT3ZPbXNnbU9yeWhoNDFSQm1uZGttU0VFMGJaZS14TzdVeVpvSURxVnM5YWg0UGVkTHZrTWZzMVlCTDVBQ0I5Wl9QMUdtVFozek1IVHhGOEFOR3Nfb3dGckxoMFBlRzg1dmZOc3pBWVZKOXNGcnNWelpzSEJuUVBfTmV0M2U0M194WXo3eHVCUVpnWXRLU0Nxc2FnWDVGNFo5UXJjQ2pOb3ZrdS1LMzdmMUgzRFBRMTdsOE1YczJjR2hEblNETVpPeERlRm5BdHd1Zl9nQ2dhV2ZwQkNqbFNpcDVqLVI0?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -666,20 +628,19 @@
       "probability_estimate": null
     },
     {
-      "id": "244d034f0b3fe8ba42ef0bc6",
-      "label_nl": "Claim: US-Israel-Iran War Latest Live Updates: Is JD Vance Becoming Trump’s New Iran Negotiator? US Vice President Reportedly Seeks Direct Talks With Senior Iranian Security Official - The Sunday Guardian",
+      "id": "03bc04d024fab2c37b11f6fd",
+      "label_nl": "Claim: Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi",
       "headline_claim_ids": [
-        "7a25e22a0e4986"
+        "9a40ee1b67fe3d"
       ],
       "headline_claims": [
-        "US-Israel-Iran War Latest Live Updates: Is JD Vance Becoming Trump’s New Iran Negotiator? US Vice President Reportedly Seeks Direct Talks With Senior Iranian Security Official - The Sunday Guardian"
+        "Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgJBVV95cUxQUVZMMDhsYVpIRXktcTBPb2VQdUw1NEJLS1BidzNOZDBhWEpIcTQ0Rkw2UjZyeWQ1OXk4bnBkdE1Vb2F3ajZCZzhmVl9OcEhLTVJwTjN0WlpOWkRhLVExOTR6NEExSjdHZFk5RDhEX3JOcXNITmFKTjEzcUFyeWhJZ240TUQ2UFlqUlhibGwzak9UeEIweWN5R04xS1QxVDJaTTZ5eExzZ0tfTG9zZU9YdnVmSnhHXzJLZ0lJQWJQaTYySU91c2NTZVdiX0ZuX2NrRUNNM3k4aldPb1hub1RYaXF5WjhBSHVUbWIwYkJNYjg0ZWNUS3NZeW11M2xFTUVrbENnM21nTTk1RVNlSDQ1WVFwUi1ZQTBrbVhUc2NHdmNEZGM0RmxPd0ZOakhnOWhZbVByaFRpaDk0cVZLVWfSAcMCQVVfeXFMTldMQXRwdHJyMEtDOVZ4T19RcldtSGdYVnNjSEUxQlZfLWIwWXJYYUVLYzRoM2JMaXZnUEptbWhRRXVZcnAxWDcyQzZfSXhYRFAtU3NHUllrSlg2WURZdmVUeXdVVERqN2QzMHVhWms1WFBVV2lVaElYNUd5Um9lZDNRUWdQWnA4SXYtUnJUUERSTHhkUUJiSXE0SVJrYzJrSS0zTFdYeFZqYmhzRG9pc0NROV9GYk1EMEFjUGNXVmh6SXZSWXVzdmNrM0xsTnFmd0xoTkZncjYyLXVkc2ZnajZ6RHZGVmd1X1FpczZXanRJT0lZNFVURFY2LUhPTFlrM05adXhIUlZxWnpPRmRtdmt0ejhFR1F2a2s5dURuN0l0YlAyRkRHalc0dElVY0t2WlV6cmxRQnF2V1JNQURJYlVLSGM?oc=5",
-        "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOV0xBdHB0cnIwS0M5VnhPX1FyV21IZ1hWc2NIRTFCVl8tYjBZclhhRUtjNGgzYkxpdmdQSm1taFFFdVlycDFYNzJDNl9JeFhEUC1Tc0dSWWtKWDZZRFl2ZVR5d1VURGo3ZDMwdWFaazVYUFVXaVVoSVg1R3lSb2VkM1FRZ1BacDhJdi1SclRQRFJMeGRRQmJJcTRJUmtjMmtJLTNMV1h4VmpiaHNEb2lzQ1E5X0ZiTUQwQWNQY1dWaHpJdlJZdXN2Y2szTGxOcWZ3TGhORmdyNjItdWRzZmdqNnpEdkZWZ3VfUWlzNldqdElPSVk0VVREVjYtSE9MWWszTlp1eEhSVnFaek9GZG12a3R6OEVHUXZrazl1RG43SXRiUDJGREdqVzR0SVVjS3ZaVXpybFFCcXZXUk1BREliVUtIY9IBwwJBVV95cUxOV0xBdHB0cnIwS0M5VnhPX1FyV21IZ1hWc2NIRTFCVl8tYjBZclhhRUtjNGgzYkxpdmdQSm1taFFFdVlycDFYNzJDNl9JeFhEUC1Tc0dSWWtKWDZZRFl2ZVR5d1VURGo3ZDMwdWFaazVYUFVXaVVoSVg1R3lSb2VkM1FRZ1BacDhJdi1SclRQRFJMeGRRQmJJcTRJUmtjMmtJLTNMV1h4VmpiaHNEb2lzQ1E5X0ZiTUQwQWNQY1dWaHpJdlJZdXN2Y2szTGxOcWZ3TGhORmdyNjItdWRzZmdqNnpEdkZWZ3VfUWlzNldqdElPSVk0VVREVjYtSE9MWWszTlp1eEhSVnFaek9GZG12a3R6OEVHUXZrazl1RG43SXRiUDJGREdqVzR0SVVjS3ZaVXpybFFCcXZXUk1BREliVUtIYw?oc=5"
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLUVTNnM0Y2lHajFySWZQaFFQVlA5Sk1TQ1hROFVGWklCZDcxaG85bUFjVjZJdlNqc0MxeVhnYk5WT016NnJRdmdVM0Fsb29adUtMRS1kU2VYYWtuMkVRNGw2b0NWX1lpeElIbFotdmtkRzRpR3JJOGxBY2pObl81WVlJX3JOeGF5V0tQQTdIX3htY1JhMTc3S290dFdjNGRpb21LM0F4SVpuMHJDWHE5aVlKVGFNd0lEVzdFVmV0NFJiQQ?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -773,10 +734,6 @@
     }
   ],
   "usage_by_day": {
-    "2026-11-10": {
-      "requests": 12,
-      "total_tokens": 33173
-    },
     "2026-11-11": {
       "requests": 12,
       "total_tokens": 33035
@@ -784,6 +741,10 @@
     "2026-11-12": {
       "requests": 12,
       "total_tokens": 32721
+    },
+    "2026-11-13": {
+      "requests": 3,
+      "total_tokens": 7575
     }
   }
 }

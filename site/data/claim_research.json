@@ -1,126 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-12T19:09:25.484643Z",
+  "last_attempt_utc": "2026-11-13T01:23:28.637927Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 19,
-  "active_checked": 3,
+  "active_total": 18,
+  "active_checked": 6,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "35d6c51c16124c4739863b5e": {
-      "event_id": "35d6c51c16124c4739863b5e",
-      "checked_at": "2026-10-29T07:09:52.938957Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over een mogelijke Amerikaanse aanval op Iran ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
-          "title": "HMRC online services: sign in or set up an account: Sign in or set up an account - GOV.UK\nGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Reports, analysis and official statistics"
-        },
-        {
-          "url": "https://www.gov.uk/universal-credit",
-          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Reports, analysis and official statistics"
-        }
-      ]
-    },
-    "e36ceecdbc7ce6972495e4ed": {
-      "event_id": "e36ceecdbc7ce6972495e4ed",
-      "checked_at": "2026-11-01T01:21:20.588934Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen officiële verklaringen die de bewering ondersteunen of tegenspreken over het neerschieten van een drone door het Iraanse leger.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
-          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
-          "source_publication_date": null,
-          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
-        },
-        {
-          "url": "https://www.gov.uk/government/speeches/budget-2026-speech",
-          "title": "Budget 2026 speech - GOV.UKGOV.UK",
-          "source_publication_date": "2026-10-28T00:00:00+00:00",
-          "text_excerpt": "And this government continues to work with our allies to end the conflict and restore shipping through the Strait of Hormuz."
-        }
-      ]
-    },
-    "d88aad9f7ecf933926aa5318": {
-      "event_id": "d88aad9f7ecf933926aa5318",
-      "checked_at": "2026-10-29T13:10:21.677717Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/turkey",
-          "original_document_title": "Turkey travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-10-29T13:10:11.143957Z",
-          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intenties van Iran, maar ondersteunt niet de claim dat de Amerikaanse militaire acties de mijnaanvallen van Iran verwerpen.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De documenten bevatten geen directe ontkenning van de claim, maar vermelden wel de intenties van Iran om Amerikaanse locaties te targeten.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 5,
-      "search_errors": [
-        "document: ValueError",
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes",
-          "title": "Iran: country policy and information notes - GOV.UKGOV.UK",
-          "source_publication_date": "2026-10-21T13:43:42Z",
-          "text_excerpt": "Refugee, asylum and human rights claims"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/turkey",
-          "title": "Turkey travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
     "2675daa85ab025d6b99c9208": {
       "event_id": "2675daa85ab025d6b99c9208",
       "checked_at": "2026-10-31T12:59:23.161794Z",
@@ -3871,14 +3760,156 @@
           "text_excerpt": "Universal Credit is a payment to help with your living costs. It’s paid monthly - or twice a month for some people in Scotland."
         }
       ]
+    },
+    "64baf849840e16b39cd45ca3": {
+      "event_id": "64baf849840e16b39cd45ca3",
+      "checked_at": "2026-11-13T01:23:28.637875Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-13T01:23:12.730731Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
+        },
+        {
+          "source_url": "https://www.gov.uk/government/speeches/prime-ministers-oral-statement-on-iran-2-march-2026",
+          "original_document_title": "Prime Minister's Oral Statement on Iran: 2 March 2026 - GOV.UKGOV.UK",
+          "source_date": "2026-03-02T00:00:00+00:00",
+          "retrieved_at": "2026-11-13T01:23:13.709590Z",
+          "exact_quote": "Iran has lashed out across the region. It has launched hundreds of missiles and drones at countries which did not attack it",
+          "relation": "related_only",
+          "older_document_than_claim": true,
+          "reason_nl": "Ouder document: toont geen bewijs van nieuwe gebeurtenis. De bron vermeldt dat Iran honderden raketten en drones heeft gelanceerd, maar specificeert niet dat dit gericht was op Amerikaanse schepen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/government/speeches/prime-ministers-oral-statement-on-iran-2-march-2026",
+          "title": "Prime Minister's Oral Statement on Iran: 2 March 2026 - GOV.UKGOV.UK",
+          "source_publication_date": "2026-03-02T00:00:00+00:00",
+          "text_excerpt": "President Trump has expressed his disagreement with our decision not to join the initial strikes. But it is my duty to judge what is in Britain’s national interest, and that is the judgement I made. I stand by it."
+        }
+      ]
+    },
+    "6a22ed511ba3209cec3a5099": {
+      "event_id": "6a22ed511ba3209cec3a5099",
+      "checked_at": "2026-11-13T01:23:28.637900Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-13T01:23:16.122160Z",
+          "exact_quote": "the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De bron geeft aan dat Iran locaties van de VS wil targeten, maar er is geen directe bevestiging van aanvallen op scheepvaart in de Straat van Hormuz.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/iran",
+          "original_document_title": "Iran travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-13T01:23:16.355770Z",
+          "exact_quote": "There have been strikes and retaliatory attacks by Iran and others across the region against civilian and US",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De bron vermeldt aanvallen door Iran, maar specificeert niet dat deze aanvallen de scheepvaart in de Straat van Hormuz beïnvloeden.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten wijzen op de intentie van Iran om Amerikaanse locaties te targeten en bevestigen aanvallen in de regio, maar er is geen specifieke informatie over aanvallen op scheepvaart.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/iran",
+          "title": "Iran travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
+    },
+    "15ea6fdf8c80c909afed8168": {
+      "event_id": "15ea6fdf8c80c909afed8168",
+      "checked_at": "2026-11-13T01:23:28.637904Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de zeven voorwaarden voor onderhandelingen door Iran ondersteunen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
+          "title": "Home Secretary unveils new rules for migrants settling in the UK - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Anyone seeking settlement, regardless of when they arrived in the country, will first need to meet 4 non-negotiable conditions:"
+        },
+        {
+          "url": "https://www.gov.uk/pay-self-assessment-tax-bill",
+          "title": "Pay your Self Assessment tax bill: Overview - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Online payment services may be slow during busy times. Check if there are any current problems or times they are not available."
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-10": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 6064
-    },
     "2026-11-11": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -3888,6 +3919,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 6233
+    },
+    "2026-11-13": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 2212
     }
   },
   "last_error": null
