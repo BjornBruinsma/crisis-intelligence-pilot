@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-13T07:30:17.029837Z",
-  "fingerprint": "6153cdc468115a036a5d12fc",
+  "last_attempt_utc": "2026-11-13T13:23:21.391243Z",
+  "fingerprint": "f2a7b52a1a347d3e13a2af08",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -12,8 +12,8 @@
     "model_pair_proposals": 3,
     "accepted_pair_connections": 2,
     "rejected_pair_proposals": 1,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 3,
+    "multi_claim_groups": 2,
+    "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
     "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
@@ -22,24 +22,25 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-13T07:30:17.029837Z",
+    "recorded_at": "2026-11-13T13:23:21.391243Z",
     "groups": [
       {
         "ids": [
+          "8e862354e46434",
           "86c76159ea1ffa"
         ],
-        "label_nl": "Claim: Iran Attacks 4 Tankers As Trump's US Navy Watches Hellfire in Hormuz | Firstpost Live - Firstpost",
+        "label_nl": "Claim: Iran claims attack on US radar, reports tanker explosion in Hormuz - The Arab Weekly",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
-          "56728258f55cb6"
+          "6dc6cd7e45b30f"
         ],
-        "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
+        "label_nl": "Claim: Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance",
         "actor": "",
         "action": "",
         "place": "",
@@ -49,8 +50,7 @@
       {
         "ids": [
           "6738a21be33922",
-          "e7555912fbbd42",
-          "62be6bd1fd27b2"
+          "e7555912fbbd42"
         ],
         "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
         "actor": "",
@@ -72,9 +72,9 @@
       },
       {
         "ids": [
-          "92dd73fb45de4a"
+          "e010f9a0d63572"
         ],
-        "label_nl": "Claim: Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand",
+        "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
         "actor": "",
         "action": "",
         "place": "",
@@ -105,9 +105,9 @@
       },
       {
         "ids": [
-          "81e4fceca9bbe0"
+          "6ed976d8cec497"
         ],
-        "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
+        "label_nl": "Claim: US President Donald Trump said further military strikes on Iran were “highly unlikely” if negotiations progress. However, he warned that military action remains possible without a strong agreement addressi",
         "actor": "",
         "action": "",
         "place": "",
@@ -116,9 +116,9 @@
       },
       {
         "ids": [
-          "2c0657d84a30ec"
+          "bde81b0a60a540"
         ],
-        "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
+        "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
@@ -127,9 +127,9 @@
       },
       {
         "ids": [
-          "c6ad0f7287f5c3"
+          "92dd73fb45de4a"
         ],
-        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+        "label_nl": "Claim: Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand",
         "actor": "",
         "action": "",
         "place": "",
@@ -149,9 +149,9 @@
       },
       {
         "ids": [
-          "dc7d13d4130da7"
+          "56728258f55cb6"
         ],
-        "label_nl": "Claim: Iran claims strike on US radar in Bahrain as Trump rules out need for deal with Tehran - Hum News English",
+        "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -160,9 +160,9 @@
       },
       {
         "ids": [
-          "9a40ee1b67fe3d"
+          "2c0657d84a30ec"
         ],
-        "label_nl": "Claim: Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi",
+        "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
@@ -171,9 +171,9 @@
       },
       {
         "ids": [
-          "a33babe4763f16"
+          "0550ef4f8093d4"
         ],
-        "label_nl": "Claim: Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
+        "label_nl": "Claim: Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance",
         "actor": "",
         "action": "",
         "place": "",
@@ -182,9 +182,9 @@
       },
       {
         "ids": [
-          "ed5c87f9304606"
+          "c6ad0f7287f5c3"
         ],
-        "label_nl": "Claim: Oil prices set for second weekly decline as Trump to stay with Iran blockade - The Business Times",
+        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -204,23 +204,23 @@
       }
     ],
     "input_claim_ids": [
-      "86c76159ea1ffa",
-      "56728258f55cb6",
+      "8e862354e46434",
+      "6dc6cd7e45b30f",
       "6738a21be33922",
       "3ba19b4585299c",
-      "92dd73fb45de4a",
+      "e010f9a0d63572",
       "cdbcccd715dbe0",
       "35e380a51e98ef",
-      "81e4fceca9bbe0",
-      "2c0657d84a30ec",
+      "86c76159ea1ffa",
+      "6ed976d8cec497",
+      "bde81b0a60a540",
       "e7555912fbbd42",
-      "c6ad0f7287f5c3",
+      "92dd73fb45de4a",
       "070cffe9ab582a",
-      "dc7d13d4130da7",
-      "9a40ee1b67fe3d",
-      "a33babe4763f16",
-      "62be6bd1fd27b2",
-      "ed5c87f9304606",
+      "56728258f55cb6",
+      "2c0657d84a30ec",
+      "0550ef4f8093d4",
+      "c6ad0f7287f5c3",
       "7c0bcdcaa86cf9"
     ]
   },
@@ -228,29 +228,22 @@
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "ed5fe562a8e0235219450ed7",
-      "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
+      "id": "2d04e7c0d6bb3bdc15768660",
+      "label_nl": "Claim: Iran claims attack on US radar, reports tanker explosion in Hormuz - The Arab Weekly",
       "headline_claim_ids": [
-        "6738a21be33922",
-        "e7555912fbbd42",
-        "62be6bd1fd27b2"
+        "8e862354e46434",
+        "86c76159ea1ffa"
       ],
       "headline_claims": [
-        "Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
-        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC",
-        "Oil prices rebound as Hormuz attacks fuel supply concerns - Aaj English TV"
+        "Iran claims attack on US radar, reports tanker explosion in Hormuz - The Arab Weekly",
+        "Iran Attacks 4 Tankers As Trump's US Navy Watches Hellfire in Hormuz | Firstpost Live - Firstpost"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHJnOHJDbk5WaldJTElTSXJZN2hvVkxscE9YbEduNmd3SlFMSkVVYjd0ZWxEdUVQeVJnaDRGMVd6Z3BMZTk5SDhNenR1a1F4TnZLS18tdXc3VGZsLU1NcVV2eTIzY3lweTNkOTZhTmVuVWg4OVFtdWc0SWthWkhCN3ZmSVdYeUVEZnZYbTRFRFZKd0g2dGFrVk5fWDNENVNKNzlhWnNn0gGuAUFVX3lxTE1QMjNYU3BTUTc3RUFiYWUyUlhxdmg2SGdYemQzY0xMRHl0cXl4SWdNNENOa0NzVWhzRWcyMHNiVTJGdTVWZ1VsWjl5cDhlNTFYQUZvTEEwZ2twT1loaG9raTBRLUlJR1RHZ0dxaWQxeERxd3lBVEpoSmhMdGhHQVZUdWhNdm83UEkxaDdpZVhyM2hMZVNTd3cxVjJpem5CU1BoVXRvTEQ2Tm9yOEhRUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnp2T2NvaFVwT05pV1Q0ay0tcENiWU5HTGpwckZrT0I3OVhuN2JwYm12RkViWVBFU3hoYVZScHlDdVFuNVY1WWJPbDNfY2RJRHEzNGs1aFNsZG1aR2RvVnBpcm5SQXQyV01QUnRDejV4am5odXZubzRSa01Jb2N2ak55NHNRejY3ZlNVa2JWUHFDUEE1bFltUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObHVWWHRoVUVJZHdicUFRVzREYVhaUllhYXhUWnVCUE9PWTFmM2hTbE1fcWRocmRlV0x5eHVKS3FBTTNxd0lSMXNBR2tzeVZHRndYdVE3SEgyUzI1Wi1DaDhPV3dyQkFFNzZKalgzZWZMZHlCRDFqSndsNlNiTTBpT25DV3VNUUNOUGRWUGF2dGZmbEFVam9wdXlrd18yNHVaQWVRT0VtTW84UdIBVkFVX3lxTE9mMXROUlVpU3ZtMlRqc3JRdkc5aUYtT3huOWRZVlBnWVRnUGcxSDRvUzBYZlZFRlMzczlIZDg1Wjh6ZkpheWxRVXBQNHJmSnRrWG84aU5B?oc=5",
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazZ2WlZKeGZNYjh5YjBSZW1ORURVWjNfel93b0Z0VjAtRmJHUFJBNjRqYVlrS05ycE1qcEMyZXduQy1hci1heF9pUktMcm16LWtXZDlPM212RjNQbUJfdlk1cC1wc1N2aTVJT09iVWxYV3M5TDlUWXI4cGFKdEpMZVk1dk9lU282aHVETk9EVFItaWtzZ0t4QXhLdUlWbUljZ05uT3NQYmR1c3UyTUUwME51ZFh2dXM?oc=5",
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
-        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5",
-        "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRFRXa3J1QWI0LWlDSnJsQ2hNcEtsdU9FdUdVWmluYUtmMVpUcjdZVm0zQmpjVnFVLVpfRFJTWll6R0pGSHhmdzV3dzI4TldwZEZKbUI2dENyY3BtQ0U4Nk1vRHBNSHZaSmRONTVEM3B3Sk56QzBCU3JDNjdEVGJ1TVg0NTI3T0hLMnpQaDhCNnhzWnlGbGxkczhnYw?oc=5"
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdVRIdDRQZFByNllsRlFIZTlCU0swZ1VfMHBSNmxNakotbHZRZjlsOVU2ZWd4bGpjeUxod19XQU5xZ2IzVUExcGpEdE1waXk2T3ptSzNEUHRZMzJkX2N3aTBKR0VqQWJ5amdVSFdub0tRQ2RUOG1yUVlGUk1YalNNOUwxNTVkLXVVSkV1UzF3?oc=5",
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT1dyWEdFYU1rbUwtZkIzQ1NHRjJfUkxTUXY2dDczMm9KM2s1Uk5JU253NmV3X1FlS2JsZkd6aEFPVVVEV1N2VS1iTGF2ZjdKQ3p2aFRhUXJHbTdSUDhpeFVWdHNWTUZFRmkteDBMR1dnODdrTG5vWEpVMW5IdmlCaWVpM24xWmdPZzdMbnhmX1AwbENFZlJFd0lZeW8zS2RaNTlOaVM0ZlAtVi10dlBTYUduNExDSXJVOFVIT21wVFh4S092dTJwSW9UcFVZaGw1dWpWZlJ1NDdwMEXSAeABQVVfeXFMT2EyTzl0cGRFY2RtMUJoSjQ4NVpwMWVaV2JacWtYc0hNWFZ4dXkta0VlVmw4bjk3b2ZHYndqSnRXcnFXVDVFTndkaEJSZUNqYXB3S3hOZXpLQlFYN3JMRG54b2J6eWFYeUFhdk51R1o5VVY2SjRRbUZfMzd6TnpNOXNVRl9jY1JqMnJObW1rcFAwQXh0VG5XZWk1czdMZS0xWFFCYUdHRU9HLU9EbW53SXEyUEpGUlRJcW8yS2NaZWxjNEhNZVNJRm8yZlZWRGR1azl0cnVjd3E4VkdUNU91bVI?oc=5"
       ],
-      "article_group_count": 3,
-      "news_url_count": 7,
+      "article_group_count": 2,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -264,68 +257,49 @@
       "probability_estimate": null
     },
     {
-      "id": "e3d525fb791783e83d81676b",
-      "label_nl": "Claim: Iran Attacks 4 Tankers As Trump's US Navy Watches Hellfire in Hormuz | Firstpost Live - Firstpost",
+      "id": "6a22ed511ba3209cec3a5099",
+      "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
       "headline_claim_ids": [
-        "86c76159ea1ffa"
+        "6738a21be33922",
+        "e7555912fbbd42"
       ],
       "headline_claims": [
-        "Iran Attacks 4 Tankers As Trump's US Navy Watches Hellfire in Hormuz | Firstpost Live - Firstpost"
+        "Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
+        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT1dyWEdFYU1rbUwtZkIzQ1NHRjJfUkxTUXY2dDczMm9KM2s1Uk5JU253NmV3X1FlS2JsZkd6aEFPVVVEV1N2VS1iTGF2ZjdKQ3p2aFRhUXJHbTdSUDhpeFVWdHNWTUZFRmkteDBMR1dnODdrTG5vWEpVMW5IdmlCaWVpM24xWmdPZzdMbnhmX1AwbENFZlJFd0lZeW8zS2RaNTlOaVM0ZlAtVi10dlBTYUduNExDSXJVOFVIT21wVFh4S092dTJwSW9UcFVZaGw1dWpWZlJ1NDdwMEXSAeABQVVfeXFMT2EyTzl0cGRFY2RtMUJoSjQ4NVpwMWVaV2JacWtYc0hNWFZ4dXkta0VlVmw4bjk3b2ZHYndqSnRXcnFXVDVFTndkaEJSZUNqYXB3S3hOZXpLQlFYN3JMRG54b2J6eWFYeUFhdk51R1o5VVY2SjRRbUZfMzd6TnpNOXNVRl9jY1JqMnJObW1rcFAwQXh0VG5XZWk1czdMZS0xWFFCYUdHRU9HLU9EbW53SXEyUEpGUlRJcW8yS2NaZWxjNEhNZVNJRm8yZlZWRGR1azl0cnVjd3E4VkdUNU91bVI?oc=5"
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHJnOHJDbk5WaldJTElTSXJZN2hvVkxscE9YbEduNmd3SlFMSkVVYjd0ZWxEdUVQeVJnaDRGMVd6Z3BMZTk5SDhNenR1a1F4TnZLS18tdXc3VGZsLU1NcVV2eTIzY3lweTNkOTZhTmVuVWg4OVFtdWc0SWthWkhCN3ZmSVdYeUVEZnZYbTRFRFZKd0g2dGFrVk5fWDNENVNKNzlhWnNn0gGuAUFVX3lxTE1QMjNYU3BTUTc3RUFiYWUyUlhxdmg2SGdYemQzY0xMRHl0cXl4SWdNNENOa0NzVWhzRWcyMHNiVTJGdTVWZ1VsWjl5cDhlNTFYQUZvTEEwZ2twT1loaG9raTBRLUlJR1RHZ0dxaWQxeERxd3lBVEpoSmhMdGhHQVZUdWhNdm83UEkxaDdpZVhyM2hMZVNTd3cxVjJpem5CU1BoVXRvTEQ2Tm9yOEhRUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnp2T2NvaFVwT05pV1Q0ay0tcENiWU5HTGpwckZrT0I3OVhuN2JwYm12RkViWVBFU3hoYVZScHlDdVFuNVY1WWJPbDNfY2RJRHEzNGs1aFNsZG1aR2RvVnBpcm5SQXQyV01QUnRDejV4am5odXZubzRSa01Jb2N2ak55NHNRejY3ZlNVa2JWUHFDUEE1bFltUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObHVWWHRoVUVJZHdicUFRVzREYVhaUllhYXhUWnVCUE9PWTFmM2hTbE1fcWRocmRlV0x5eHVKS3FBTTNxd0lSMXNBR2tzeVZHRndYdVE3SEgyUzI1Wi1DaDhPV3dyQkFFNzZKalgzZWZMZHlCRDFqSndsNlNiTTBpT25DV3VNUUNOUGRWUGF2dGZmbEFVam9wdXlrd18yNHVaQWVRT0VtTW84UdIBVkFVX3lxTE9mMXROUlVpU3ZtMlRqc3JRdkc5aUYtT3huOWRZVlBnWVRnUGcxSDRvUzBYZlZFRlMzczlIZDg1Wjh6ZkpheWxRVXBQNHJmSnRrWG84aU5B?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazZ2WlZKeGZNYjh5YjBSZW1ORURVWjNfel93b0Z0VjAtRmJHUFJBNjRqYVlrS05ycE1qcEMyZXduQy1hci1heF9pUktMcm16LWtXZDlPM212RjNQbUJfdlk1cC1wc1N2aTVJT09iVWxYV3M5TDlUWXI4cGFKdEpMZVk1dk9lU282aHVETk9EVFItaWtzZ0t4QXhLdUlWbUljZ05uT3NQYmR1c3UyTUUwME51ZFh2dXM?oc=5",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
+        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5"
       ],
-      "article_group_count": 1,
-      "news_url_count": 1,
+      "article_group_count": 2,
+      "news_url_count": 6,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "editorial_importance": "medium",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "97796d41c18e915d39a213f6",
-      "label_nl": "Claim: Iran claims strike on US radar in Bahrain as Trump rules out need for deal with Tehran - Hum News English",
+      "id": "a9a083444aa3ac9a87ff7893",
+      "label_nl": "Claim: Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance",
       "headline_claim_ids": [
-        "dc7d13d4130da7"
+        "6dc6cd7e45b30f"
       ],
       "headline_claims": [
-        "Iran claims strike on US radar in Bahrain as Trump rules out need for deal with Tehran - Hum News English"
+        "Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkFkX2JYVWV3aS1CLVlDNjRlX3g5WjlvWDh1eVhSdWwwQ1g3TmEzOUpIbTQzeUNUUldLa0c5M3BLVnh6MmZjNVRQX2c5ZW1VcXJjb0Uway00RjJBZThFY2lEb0VZWGo2SG1ycnFHakJHX3lVVmk1ZWxKdVU0dy1aQmpxejYySG9udzh6RDZyRGZDS0VieVk2QU9HVFY1b3Q1UWxZd05NcklGYXVnWlEzYmgzQ2Z6Si1H?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "15ea6fdf8c80c909afed8168",
-      "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
-      "headline_claim_ids": [
-        "56728258f55cb6"
-      ],
-      "headline_claims": [
-        "Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcV9aQ0xEcFYySmNhZGkwSERycmM4WEVDTXE1NXVxb1NZRnphN1pYVlVTRWxhT3psVTVMYllhdFh5dHl4aGN1ZENIaVMtQVdTem1EVlo0ek5nZDMwSG1RNE11V1NPVnNKVGdHNVhvSkNDMHJfNVd3RGF2RmtMNzlLTm9jU3owTmVvdmpxU2VPcFJBaHhhQVBrM1hCeHFUY3FIVkROZUV5dGNtX0ozc3NsVEVqMVdObWdoSG9JSGFR0gHEAUFVX3lxTE9Rd3YtT2huSUxlcGZiSzRmQzRtX09qT1JWRUpQSk9vYUMzQlVScWpZNUNjZG9EWDFWeEZ3eVRQc0RyZEVnSXZBemRTMkVUc19Kc2Q5RlNNbkhxai1WeEY4cmNIYklTYWU3VTVOMS04aGEzeW9xaTNVNkYxcVd5eDlyTi10YzJFTy10VUNjSmJVdi0xbWZVeF9mTXpGNFVPN3E0ZWxtTk11QXlLcjFVMWlDWGV1enFwTlJtcENTQkpWeGltOUs?oc=5"
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCVWs3WFJLb3N0bEN2VldkOTJNaFRlMk92djBuRE1XOWFsSVY1c0ZIWU1BQlNMSnJNRUs0aXJiQlZ2bGFfdmdCVWxhbk5JdUVjYVYyM2N0b0x6VXVRakE2UlNjUWdSSWxWS0FYc3NRRVFkYTV6VFE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -370,16 +344,16 @@
       "probability_estimate": null
     },
     {
-      "id": "24aaedd79e8ea7b4e939a81e",
-      "label_nl": "Claim: Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand",
+      "id": "1c3e20fdadcb5bed9848f241",
+      "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
       "headline_claim_ids": [
-        "92dd73fb45de4a"
+        "e010f9a0d63572"
       ],
       "headline_claims": [
-        "Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand"
+        "Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jY0FuRm5vb0tZV1JvVXpJbWQ3MHJUR1p4OHJUTnRjYnhzZ1VNaF8xVTJ1eEdvakJZZ0RYYW40TVhQS0NZR2UwZjNzTnZ0TjVsaG5wX2VjZGo5NV9HM1Nv?oc=5"
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZmVJVmdwRGtUTGtOSUlCZmhBT3pZME5QWFlRcE5IYVExT2x4bS1MeV94X1F3Zl8zcGVDeXlDdXdOWVVKTllmOVk1UDVVNVBvcVlaS1RKTnM5MlF3anFMamM4enk1Rmh2cUNVZkViZzVlMzdaUmJIdEVBRVpaVC1GMHZXZWlkbjRXT19heWoxTi1hOC1xTWF1Y1RRTDhwd0lHcHFVUGVTT0hvU2k4UXozOXdUUEhGeVlyWWRVdXEtb09PWHJpYVNrY1ZVM27SAdIBQVVfeXFMT1N0dFFXUW5LeU9Rb1VBZVdkZTBNZTAxcEJSOUV5OWw1QXlLRmpBYTVsQnNscHhmMUdTNHA5TVBlVW51dXhZVTZzV2JJaThrUDltWm1VMXBOaFpGT0hjOG9xZVRBQ0wzMmUwNkJ6ZVFYLUxnbDRLVnpCUG5hU08wa1VZbmdzc1BndlhabHRpdkxXU1ZRZEl0NHpBX0dBS3NJVmhPRUg3OUJfTEpYWFliblhvWUZzWkN3WU9SQm41RFpJQVZ6LWFOMGlPQUYzWHpZd2pn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -449,16 +423,16 @@
       "probability_estimate": null
     },
     {
-      "id": "50ac7a3e82a4557551e50415",
-      "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
+      "id": "d57b5af78dcaee63091e21e4",
+      "label_nl": "Claim: US President Donald Trump said further military strikes on Iran were “highly unlikely” if negotiations progress. However, he warned that military action remains possible without a strong agreement addressi",
       "headline_claim_ids": [
-        "81e4fceca9bbe0"
+        "6ed976d8cec497"
       ],
       "headline_claims": [
-        "Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News"
+        "US President Donald Trump said further military strikes on Iran were “highly unlikely” if negotiations progress. However, he warned that military action remains possible without a strong agreement addressing Tehran’s nuclear program and the reopening of the - Facebook"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLTdvUGZhMDA2MGVTYWc0X2Fsc0FrOWtoOW9sNmI1TWZrcGtLT1BmQUd6MFN1NmhNNGtZV2doZ053T1BBNDg3N21QTk4wakljekxHZEZsVmNGRDJXRGctQ0RraTh1clFqSkMyUXRzcUkycTI3a1dEV1dwdjA2aEdGZnhFWGIwdUtXOVI3Q091ZTAwVi11aG1fVHJYRmZob0NXNThJUG9hMVpjSm1mSTZUU1hEZU9ZRkQ3NGplYlZwWk50Z1NpM2kyTkVEb18yUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPd2Z0VElMcEY1UUUzdjdVdENhbmUwZl9ncTBtVFhZOGRTTkNzMF9HQUF3bGNlaU41TWVGZHotQzJKMVo1V1JJaWJFUGFTMVViWjQ4blcySzNXZzdjRllNSjVZMU9qa294U0FpdVZtcl9yZlRiRml1aERYU2RZYkt5UWNBMldTMlgwcmFlQVZHMU95ZXY1TnlmWGlvem1nSU1QalVPMm0tLTdqRXFlZlViSEFoSU1qajA1OXR3YUFUcFJsdnFGNWlXenE4NlpoSklfQ0IyWEVaVm0?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -475,16 +449,16 @@
       "probability_estimate": null
     },
     {
-      "id": "a3f2f7ce70d033dcad8db379",
-      "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
+      "id": "5cd6d39ccc362292fc1b8bfa",
+      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "2c0657d84a30ec"
+        "bde81b0a60a540"
       ],
       "headline_claims": [
-        "UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/"
+        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlsNHc0c3pGN1ZNNGl1cjdqMW9oNlVVUzM5V1JIS1ZCOWRlN3NrdjFwcWRld2FURmpfUWdoSUlUY3B4RUdneW94dnNOYVluLXg4RThxM2ZVRk5INENzTy1OR1M1NXRsN1lNUFI3cjhXZ1JicUpLekJYb1dUQmtYejcyRnMtTnpCNFFKRTZqUDUyUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -501,16 +475,16 @@
       "probability_estimate": null
     },
     {
-      "id": "59ebd2d83838699822ab96a6",
-      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+      "id": "24aaedd79e8ea7b4e939a81e",
+      "label_nl": "Claim: Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand",
       "headline_claim_ids": [
-        "c6ad0f7287f5c3"
+        "92dd73fb45de4a"
       ],
       "headline_claims": [
-        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
+        "Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5"
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jY0FuRm5vb0tZV1JvVXpJbWQ3MHJUR1p4OHJUTnRjYnhzZ1VNaF8xVTJ1eEdvakJZZ0RYYW40TVhQS0NZR2UwZjNzTnZ0TjVsaG5wX2VjZGo5NV9HM1Nv?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -553,16 +527,16 @@
       "probability_estimate": null
     },
     {
-      "id": "03bc04d024fab2c37b11f6fd",
-      "label_nl": "Claim: Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi",
+      "id": "15ea6fdf8c80c909afed8168",
+      "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
       "headline_claim_ids": [
-        "9a40ee1b67fe3d"
+        "56728258f55cb6"
       ],
       "headline_claims": [
-        "Iran Sets 7 Conditions to Reopen Strait of Hormuz and Resume US Talks; Warns Against Renewed Strikes - Pragativadi"
+        "Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPLUVTNnM0Y2lHajFySWZQaFFQVlA5Sk1TQ1hROFVGWklCZDcxaG85bUFjVjZJdlNqc0MxeVhnYk5WT016NnJRdmdVM0Fsb29adUtMRS1kU2VYYWtuMkVRNGw2b0NWX1lpeElIbFotdmtkRzRpR3JJOGxBY2pObl81WVlJX3JOeGF5V0tQQTdIX3htY1JhMTc3S290dFdjNGRpb21LM0F4SVpuMHJDWHE5aVlKVGFNd0lEVzdFVmV0NFJiQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcV9aQ0xEcFYySmNhZGkwSERycmM4WEVDTXE1NXVxb1NZRnphN1pYVlVTRWxhT3psVTVMYllhdFh5dHl4aGN1ZENIaVMtQVdTem1EVlo0ek5nZDMwSG1RNE11V1NPVnNKVGdHNVhvSkNDMHJfNVd3RGF2RmtMNzlLTm9jU3owTmVvdmpxU2VPcFJBaHhhQVBrM1hCeHFUY3FIVkROZUV5dGNtX0ozc3NsVEVqMVdObWdoSG9JSGFR0gHEAUFVX3lxTE9Rd3YtT2huSUxlcGZiSzRmQzRtX09qT1JWRUpQSk9vYUMzQlVScWpZNUNjZG9EWDFWeEZ3eVRQc0RyZEVnSXZBemRTMkVUc19Kc2Q5RlNNbkhxai1WeEY4cmNIYklTYWU3VTVOMS04aGEzeW9xaTNVNkYxcVd5eDlyTi10YzJFTy10VUNjSmJVdi0xbWZVeF9mTXpGNFVPN3E0ZWxtTk11QXlLcjFVMWlDWGV1enFwTlJtcENTQkpWeGltOUs?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -579,16 +553,16 @@
       "probability_estimate": null
     },
     {
-      "id": "d367c478f28e9f6d6fe0fd64",
-      "label_nl": "Claim: Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
+      "id": "a3f2f7ce70d033dcad8db379",
+      "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "a33babe4763f16"
+        "2c0657d84a30ec"
       ],
       "headline_claims": [
-        "Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East"
+        "UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdWVWWkVkXzRmQzYxcEFtZHZwUmVUZmNVdE8yVlNWeG1sdWhvQkhwamlMaUgwTEY4QXhpdzR2UlQ0cHF0NlRnZHVlRlhlSjk1TzhleGE2RkRmczhOOXdlemdTZGhzZzBsd3dUek1tMzBaeFBNV0NWMEVab0JzZHBQai1YdDYtMXJROWVBazM1R1hTMUVWX0dLMUFWbklIemtFamVpQXl6aG5zakZyRG9icGFRRUVtUklxLXgwTXhlellHazM1UnYtcWlSZzM5YXd5LWc3NWtwS3ZjQTJlQkdNV0Zn?oc=5"
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlsNHc0c3pGN1ZNNGl1cjdqMW9oNlVVUzM5V1JIS1ZCOWRlN3NrdjFwcWRld2FURmpfUWdoSUlUY3B4RUdneW94dnNOYVluLXg4RThxM2ZVRk5INENzTy1OR1M1NXRsN1lNUFI3cjhXZ1JicUpLekJYb1dUQmtYejcyRnMtTnpCNFFKRTZqUDUyUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -605,16 +579,43 @@
       "probability_estimate": null
     },
     {
-      "id": "67362f09bdd7a65c23c68f89",
-      "label_nl": "Claim: Oil prices set for second weekly decline as Trump to stay with Iran blockade - The Business Times",
+      "id": "03833776d351cf021164aca7",
+      "label_nl": "Claim: Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance",
       "headline_claim_ids": [
-        "ed5c87f9304606"
+        "0550ef4f8093d4"
       ],
       "headline_claims": [
-        "Oil prices set for second weekly decline as Trump to stay with Iran blockade - The Business Times"
+        "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZU03U0NsZDNRZ0pNNmFwZG51aWVnNVhDZGFxYmxjT1d4bGxoYXhQZkcyWE81ZUc4ZkFKTF91M0JHMWlqTlphcWp3TjBYeGFrVjZmM21YVHZ6d09SOEVBUU81VldmRDNZUFVJT1REX0ZWZlVDbk51eENSMnM3Wm9zd0FzYm5NaURlZnBQTnlnSXZKRTdwbUZEQVZubDJHTzY3M2toTkpTa1Rad0hQb2dRUThWSldINFN6akl0b19pcUcyb2JJOUI2Nk1Bbw?oc=5"
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWmRESjNOczRIRDFCaEpQZERVbHpUUV90cTc2eVNVbmVjQmpxb09qekJzbmpHbEtDc1I4ODJRbFZiMFpuWWZzbE5XdFk5MWtKc2pfZjBPS2doNG1UZTNRdnlRcFJCRy1xZEppdDgwRjZHU01QTlJ2WEJGZkl2djF4RTJqaUI5NjIyaEJjQzVn?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbl8tRXIyVnZ1NkY0dXIwd3prZ1pYSGZERndDTWlITUhtRjl4WjkyYzQ5eXBqUlNhbFM4RFpCSlJuY1BQY0pRV0M0WkNNNzNldGYzV1hnalphY3lUS1FBWnNwR1J1REtWQ2ZQd194N0hhQ1FhdEhPSTJ5ZmFBVTFQRnYtM0tLSE1OeUN3dDRBdXcyc2RkeEFyZDFlbFE3OUpQWHFHcXY4NmVPMHoxcC1jcUIxR1hFNmvSAVZBVV95cUxNam5WY3ExSnNaTnZfNkFKUE9fb3FLVmluWWNwUVVscFktSWxZZVI0WnBIQUlWanVrUDBPeFZ4dDVnV0E2eFhqRUQzcWNHSmEyaWtIdXd1dw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "59ebd2d83838699822ab96a6",
+      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+      "headline_claim_ids": [
+        "c6ad0f7287f5c3"
+      ],
+      "headline_claims": [
+        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -667,8 +668,8 @@
       "total_tokens": 32721
     },
     "2026-11-13": {
-      "requests": 6,
-      "total_tokens": 14702
+      "requests": 9,
+      "total_tokens": 22028
     }
   }
 }

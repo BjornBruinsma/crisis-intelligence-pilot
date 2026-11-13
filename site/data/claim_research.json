@@ -1,166 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-13T07:30:47.115252Z",
+  "last_attempt_utc": "2026-11-13T13:23:39.444902Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 16,
-  "active_checked": 4,
+  "active_checked": 5,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
-    "04d5e7e35fb81919e5477a48": {
-      "event_id": "04d5e7e35fb81919e5477a48",
-      "checked_at": "2026-10-30T01:12:23.640265Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-10-30T01:12:12.819725Z",
-          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage bevestigt de intentie van Iran om doelwitten te raken, maar niet specifiek dat de VS bondgenoten waarschuwt voor mogelijke aanvallen.",
-          "claim_validated_as_fact": false
-        },
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-10-30T01:12:13.375391Z",
-          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage bevestigt de intentie van Iran om doelwitten te raken, maar niet specifiek dat de VS bondgenoten waarschuwt voor mogelijke aanvallen.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De officiële teksten bevestigen dat Iran de intentie heeft om doelwitten te raken die geassocieerd zijn met de VS en Israël, maar er is geen directe bevestiging van waarschuwingen aan bondgenoten.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 6,
-      "search_errors": [
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "In addition to the threat from Houthi attacks, the wider context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associat"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
-    "68900d812fcf0e01bd800d49": {
-      "event_id": "68900d812fcf0e01bd800d49",
-      "checked_at": "2026-10-30T01:12:23.640270Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.eia.gov/finance/markets/crudeoil/",
-          "original_document_title": "What drives crude oil prices: Overview - U.S. Energy Information Administration (EIA)",
-          "source_date": null,
-          "retrieved_at": "2026-10-30T01:12:17.236464Z",
-          "exact_quote": "increasing prices for crude oil and petroleum products amid persistent conflict in the Middle East",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage verwijst naar stijgende olieprijzen door aanhoudend conflict, maar bevestigt niet specifiek een nieuwe escalatie na de Amerikaanse midterms.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De officiële teksten vermelden stijgende olieprijzen door aanhoudend conflict in het Midden-Oosten, maar er is geen specifieke bevestiging van een nieuwe escalatie na de Amerikaanse midterms.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.eia.gov/finance/markets/crudeoil/",
-          "title": "What drives crude oil prices: Overview - U.S. Energy Information Administration (EIA)",
-          "source_publication_date": null,
-          "text_excerpt": "Here, we present an analysis of the seven key factors that influence crude oil markets, including both physical market dynamics and influences from trading and finance, and examine their connection to crude oil prices."
-        },
-        {
-          "url": "https://www.gov.uk/government/speeches/statement-by-edward-davey-on-petrol-prices-and-the-cost-of-living",
-          "title": "Statement by Edward Davey on petrol prices and the cost of living - GOV.UKGOV.UK",
-          "source_publication_date": "2013-05-15T12:30:00+01:00",
-          "text_excerpt": "This Government believes strongly that it is in our mutual interest for motorists and businesses to be confident that they are being treated fairly, and that when wholesale costs come down; these reductions are passed on transparently, and without un"
-        }
-      ]
-    },
-    "2696c34aae64f1f8619df658": {
-      "event_id": "2696c34aae64f1f8619df658",
-      "checked_at": "2026-11-02T13:22:28.359946Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-02T13:22:20.774233Z",
-          "exact_quote": "King Khalid International Airport was struck by a missile on 10 October 2026.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
-          "claim_validated_as_fact": false,
-          "specificity_check": "downgraded"
-        }
-      ],
-      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 5,
-      "search_errors": [
-        "document: ValueError",
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/universal-credit",
-          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "You’ll stop getting these benefits when you or your partner claim Universal Credit. If you or your partner gets Pension Credit, this will also stop if one of you claims Universal Credit."
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026. The airport continues to be targeted and remains at risk of further attacks."
-        }
-      ]
-    },
     "da156649e45bd16d34a9b53e": {
       "event_id": "da156649e45bd16d34a9b53e",
       "checked_at": "2026-10-30T07:10:01.330788Z",
@@ -3892,6 +3741,119 @@
           "text_excerpt": "Detailed guidance, regulations and rules"
         }
       ]
+    },
+    "2d04e7c0d6bb3bdc15768660": {
+      "event_id": "2d04e7c0d6bb3bdc15768660",
+      "checked_at": "2026-11-13T13:23:39.444847Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        },
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Reports, analysis and official statistics"
+        }
+      ]
+    },
+    "a9a083444aa3ac9a87ff7893": {
+      "event_id": "a9a083444aa3ac9a87ff7893",
+      "checked_at": "2026-11-13T13:23:39.444870Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er is een vermelding van militaire steun aan Saudi-Arabië, maar geen directe link naar de stijging van Brent Crude of de Iran-deal.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/renew-driving-licence",
+          "title": "Renew your driving licence - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "a cheque or postal order for £17, payable to DVLA (no fee is needed if you have a medical short period licence or you’re aged 70 or over)"
+        },
+        {
+          "url": "https://www.gov.uk/government/speeches/pm-statement-to-the-house-of-commons-12-october-2026",
+          "title": "PM statement to the House of Commons: 12 October 2026 - GOV.UKGOV.UK",
+          "source_publication_date": "2026-10-12T00:00:00+01:00",
+          "text_excerpt": "I raised this with President Trump in New York. It is what Ukraine wants to see. And so I welcome President Trump’s announcement yesterday of a reciprocal energy ceasefire. President Zelenskyy has assured me Ukraine would immediately implement it whe"
+        }
+      ]
+    },
+    "8a7c626237f74e4bd6d0586f": {
+      "event_id": "8a7c626237f74e4bd6d0586f",
+      "checked_at": "2026-11-13T13:23:39.444877Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/oman",
+          "original_document_title": "Oman travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-13T13:23:33.989827Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
+          "claim_validated_as_fact": false,
+          "specificity_check": "downgraded"
+        }
+      ],
+      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes",
+          "title": "Iran: country policy and information notes - GOV.UKGOV.UK",
+          "source_publication_date": "2026-10-21T13:43:42Z",
+          "text_excerpt": "Country medical note, Iran, October 2026 (accessible)"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/oman",
+          "title": "Oman travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3906,9 +3868,9 @@
       "model_tokens": 6233
     },
     "2026-11-13": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 4339
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 5959
     }
   },
   "last_error": null
