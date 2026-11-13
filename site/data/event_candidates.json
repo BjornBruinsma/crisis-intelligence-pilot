@@ -1,34 +1,34 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-13T01:22:50.332560Z",
-  "fingerprint": "9793525dd50526aa1c6d67ce",
+  "last_attempt_utc": "2026-11-13T07:30:17.029837Z",
+  "fingerprint": "6153cdc468115a036a5d12fc",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 19,
-  "event_candidate_count": 18,
+  "input_candidate_count": 18,
+  "event_candidate_count": 16,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
-    "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 3,
+    "model_pair_proposals": 3,
+    "accepted_pair_connections": 2,
+    "rejected_pair_proposals": 1,
     "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "claims_in_multi_groups": 3,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-13T01:22:50.332560Z",
+    "recorded_at": "2026-11-13T07:30:17.029837Z",
     "groups": [
       {
         "ids": [
-          "94ff2b9e4d8a06"
+          "86c76159ea1ffa"
         ],
-        "label_nl": "Claim: Iran launches missile attack on US ships as Trump unleashes new strikes in Middle East - AOL.co.uk",
+        "label_nl": "Claim: Iran Attacks 4 Tankers As Trump's US Navy Watches Hellfire in Hormuz | Firstpost Live - Firstpost",
         "actor": "",
         "action": "",
         "place": "",
@@ -49,7 +49,8 @@
       {
         "ids": [
           "6738a21be33922",
-          "e7555912fbbd42"
+          "e7555912fbbd42",
+          "62be6bd1fd27b2"
         ],
         "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
         "actor": "",
@@ -71,9 +72,9 @@
       },
       {
         "ids": [
-          "c6ad0f7287f5c3"
+          "92dd73fb45de4a"
         ],
-        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+        "label_nl": "Claim: Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand",
         "actor": "",
         "action": "",
         "place": "",
@@ -104,17 +105,6 @@
       },
       {
         "ids": [
-          "76ed2644a08269"
-        ],
-        "label_nl": "Claim: \"You will not escape\": Iran shock, our missiles will hit Europe, forget Hormuz, Israel ready for attack, 2 war plans - Bankingnews",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
           "81e4fceca9bbe0"
         ],
         "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
@@ -126,9 +116,9 @@
       },
       {
         "ids": [
-          "a33babe4763f16"
+          "2c0657d84a30ec"
         ],
-        "label_nl": "Claim: Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
+        "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
@@ -137,9 +127,9 @@
       },
       {
         "ids": [
-          "9811a6e6039638"
+          "c6ad0f7287f5c3"
         ],
-        "label_nl": "Claim: India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight",
+        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -159,9 +149,9 @@
       },
       {
         "ids": [
-          "6d7462cc412c28"
+          "dc7d13d4130da7"
         ],
-        "label_nl": "Claim: Iran can still produce 50 ballistic missiles a month, despite US-Israeli strikes - report - The Jerusalem Post",
+        "label_nl": "Claim: Iran claims strike on US radar in Bahrain as Trump rules out need for deal with Tehran - Hum News English",
         "actor": "",
         "action": "",
         "place": "",
@@ -181,9 +171,9 @@
       },
       {
         "ids": [
-          "945cb67734c14e"
+          "a33babe4763f16"
         ],
-        "label_nl": "Claim: UK issues new Saudi Arabia travel warning for Britons - https://www.thetraveler.org/",
+        "label_nl": "Claim: Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
         "actor": "",
         "action": "",
         "place": "",
@@ -192,20 +182,9 @@
       },
       {
         "ids": [
-          "1aff36425c48d4"
+          "ed5c87f9304606"
         ],
-        "label_nl": "Claim: Oil steadies as Hormuz attacks blunt hopes for Iran truce - Euronext Markets: Real-time Stock Market Data | live",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "d9e000219d109f"
-        ],
-        "label_nl": "Claim: Why is Iran stepping up tanker attacks amid peace talks? The high-risk strategy behind the Hormuz escalation - Gulf News",
+        "label_nl": "Claim: Oil prices set for second weekly decline as Trump to stay with Iran blockade - The Business Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -225,24 +204,23 @@
       }
     ],
     "input_claim_ids": [
-      "94ff2b9e4d8a06",
+      "86c76159ea1ffa",
       "56728258f55cb6",
       "6738a21be33922",
       "3ba19b4585299c",
-      "c6ad0f7287f5c3",
+      "92dd73fb45de4a",
       "cdbcccd715dbe0",
       "35e380a51e98ef",
-      "76ed2644a08269",
       "81e4fceca9bbe0",
-      "a33babe4763f16",
+      "2c0657d84a30ec",
       "e7555912fbbd42",
-      "9811a6e6039638",
+      "c6ad0f7287f5c3",
       "070cffe9ab582a",
-      "6d7462cc412c28",
+      "dc7d13d4130da7",
       "9a40ee1b67fe3d",
-      "945cb67734c14e",
-      "1aff36425c48d4",
-      "d9e000219d109f",
+      "a33babe4763f16",
+      "62be6bd1fd27b2",
+      "ed5c87f9304606",
       "7c0bcdcaa86cf9"
     ]
   },
@@ -250,120 +228,17 @@
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "64baf849840e16b39cd45ca3",
-      "label_nl": "Claim: Iran launches missile attack on US ships as Trump unleashes new strikes in Middle East - AOL.co.uk",
-      "headline_claim_ids": [
-        "94ff2b9e4d8a06"
-      ],
-      "headline_claims": [
-        "Iran launches missile attack on US ships as Trump unleashes new strikes in Middle East - AOL.co.uk"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TSjdEUHhvT2J2Sk93ZmhIZDZWbU40VzMtSHpoZjJ5ampzY2Vrcy1TdG1lNTZWeFVqVG1hUTU2Njlrbld0WEdsOFZ6T2ZqQ3h6OWRwWnBDVmxQdnA0U3N4S3V5THRzMzN6RnlxZkNaWHYtZmJBMFVyWkNsRUs?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "07f6b8dadcd590f74a41b677",
-      "label_nl": "Claim: \"You will not escape\": Iran shock, our missiles will hit Europe, forget Hormuz, Israel ready for attack, 2 war plans - Bankingnews",
-      "headline_claim_ids": [
-        "76ed2644a08269"
-      ],
-      "headline_claims": [
-        "\"You will not escape\": Iran shock, our missiles will hit Europe, forget Hormuz, Israel ready for attack, 2 war plans - Bankingnews"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPNkZ6cEpwM19INkZpUXZwY01uNEJ3czh6NHFIejQ1Y2luLUVvZ2NJN3pETHg0R2NKZTE3YkliXzk2YW5fc28zRm5hYUpadGxUd3FEamp3VDlFdGNjZFFHNmhoaTV1dWdRYVF3UDk2Ny0wUUpDeUFONTcwS0xLMVJMTVRQb1JiaW9rODEtQjNYYmViTm5jRmQzdk1DZ2ZuT0hLSnd2cDU1cnBMZ04yY0g0eWVQVFZZQTkzaGU5TVBpeklDVloyR0JuSU5nVTBzZ21BZ1ZJeWtJNGhyVFNyWlF1NHRqaDdXY2hJSkktODh1emRmQkdFNzdBdFV0NkptZw?oc=5",
-        "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOTDVTV05yM1BwYmg4aW0tSFY2TFFlQ2lYcm1yVFpvZEVjQm5FZkFYRlNvbmNYUHJsdGxOZENlZEtYMVBIVTNta1VPWnNVOXhpTzRaZjR6a2ZKcmc2SjNCdEFUanpaNldZVDNSNkNhRElucjNLVm9fd1FhYzhkekZNNVNWRFFYdGlYSmZHRklzajJXZHNla1RvanA1MzMwS016TGFlSlp6bFM0SWYwckxKY1RYS1U5YUkwTDF2dndEUnBQdmd5REFFN3NZbERNX1NEZXRINVZfNENBV1pMRlNLeDg2MWlsVlFJdXl0bThMSjZEQQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "b5297516573b23452dbf2b66",
-      "label_nl": "Claim: Iran can still produce 50 ballistic missiles a month, despite US-Israeli strikes - report - The Jerusalem Post",
-      "headline_claim_ids": [
-        "6d7462cc412c28"
-      ],
-      "headline_claims": [
-        "Iran can still produce 50 ballistic missiles a month, despite US-Israeli strikes - report - The Jerusalem Post"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fb2Nta0NnYU9oS3dnTkc3a2VPNVRSVXdUcS1wNFNlcXo3eG9kS0lZbWlFRy0wQ1pzSmUwZTNMZWVUbmFFT09MYXYzLS1JandqVWtTdnlyVWthRmo4Wm5xTmJOREwwU1pmMnc?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "72e17e86f563c2b2b854dc21",
-      "label_nl": "Claim: Why is Iran stepping up tanker attacks amid peace talks? The high-risk strategy behind the Hormuz escalation - Gulf News",
-      "headline_claim_ids": [
-        "d9e000219d109f"
-      ],
-      "headline_claims": [
-        "Why is Iran stepping up tanker attacks amid peace talks? The high-risk strategy behind the Hormuz escalation - Gulf News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPb0l4VTllSmlOcGdsX3VFTXN3TEg3TThKZFJfWHV2REJBTHctRThmRV9EVjNwY0t6RlJUclFMN3Z1UzJXLTYwZERuZWpwdU12enRRbWlHTGR2RElERDQtejFMRnJNSjRMR3dIVzExbFdwQ0I3SnhEMzZSZlR6NURrdVQ4NkxMWU9nMGt5ZkcwRmtWVXNOMVJYdzZFc3VVTHJDX25RQUdjano1RkZuUkRMYTZLU1phMzdNdzlSTklqb3p3eUVQSGFNZF85VlRleHNMSTBKajJnTTR0UE5z0gHvAUFVX3lxTE43TUNKN0NIVHFCdXBCV2VfMFA3WnJiTU4wamd0VkRUa3E5SGl1WlJCbm5NZ0RkU3RTck4tcmlZYVEyOTBjVXhzNkRNNWJReWhmUzF3Z2FkazF1bGFyS1FzSGg4WFZMcS1TeGxINzV3ajZUYUUzUUs2bW5qOWc0TkFOTGFXQ0loSUdiM0dqS25YLXc1dXB5eVBTTlpBdnFUdmNOZGtiRWhCdWpvQXpEUXlUaHNJTk9wTVJSSWpSVG54b2N4U2ltSkktYVg4b0xhbFVQUnY3UUx6S1QzakEyUUtkOGhRck0wUXlzdlFCa0F3?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "6a22ed511ba3209cec3a5099",
+      "id": "ed5fe562a8e0235219450ed7",
       "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
       "headline_claim_ids": [
         "6738a21be33922",
-        "e7555912fbbd42"
+        "e7555912fbbd42",
+        "62be6bd1fd27b2"
       ],
       "headline_claims": [
         "Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
-        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC"
+        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC",
+        "Oil prices rebound as Hormuz attacks fuel supply concerns - Aaj English TV"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHJnOHJDbk5WaldJTElTSXJZN2hvVkxscE9YbEduNmd3SlFMSkVVYjd0ZWxEdUVQeVJnaDRGMVd6Z3BMZTk5SDhNenR1a1F4TnZLS18tdXc3VGZsLU1NcVV2eTIzY3lweTNkOTZhTmVuVWg4OVFtdWc0SWthWkhCN3ZmSVdYeUVEZnZYbTRFRFZKd0g2dGFrVk5fWDNENVNKNzlhWnNn0gGuAUFVX3lxTE1QMjNYU3BTUTc3RUFiYWUyUlhxdmg2SGdYemQzY0xMRHl0cXl4SWdNNENOa0NzVWhzRWcyMHNiVTJGdTVWZ1VsWjl5cDhlNTFYQUZvTEEwZ2twT1loaG9raTBRLUlJR1RHZ0dxaWQxeERxd3lBVEpoSmhMdGhHQVZUdWhNdm83UEkxaDdpZVhyM2hMZVNTd3cxVjJpem5CU1BoVXRvTEQ2Tm9yOEhRUQ?oc=5",
@@ -371,17 +246,70 @@
         "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObHVWWHRoVUVJZHdicUFRVzREYVhaUllhYXhUWnVCUE9PWTFmM2hTbE1fcWRocmRlV0x5eHVKS3FBTTNxd0lSMXNBR2tzeVZHRndYdVE3SEgyUzI1Wi1DaDhPV3dyQkFFNzZKalgzZWZMZHlCRDFqSndsNlNiTTBpT25DV3VNUUNOUGRWUGF2dGZmbEFVam9wdXlrd18yNHVaQWVRT0VtTW84UdIBVkFVX3lxTE9mMXROUlVpU3ZtMlRqc3JRdkc5aUYtT3huOWRZVlBnWVRnUGcxSDRvUzBYZlZFRlMzczlIZDg1Wjh6ZkpheWxRVXBQNHJmSnRrWG84aU5B?oc=5",
         "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazZ2WlZKeGZNYjh5YjBSZW1ORURVWjNfel93b0Z0VjAtRmJHUFJBNjRqYVlrS05ycE1qcEMyZXduQy1hci1heF9pUktMcm16LWtXZDlPM212RjNQbUJfdlk1cC1wc1N2aTVJT09iVWxYV3M5TDlUWXI4cGFKdEpMZVk1dk9lU282aHVETk9EVFItaWtzZ0t4QXhLdUlWbUljZ05uT3NQYmR1c3UyTUUwME51ZFh2dXM?oc=5",
         "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
-        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5"
+        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5",
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRFRXa3J1QWI0LWlDSnJsQ2hNcEtsdU9FdUdVWmluYUtmMVpUcjdZVm0zQmpjVnFVLVpfRFJTWll6R0pGSHhmdzV3dzI4TldwZEZKbUI2dENyY3BtQ0U4Nk1vRHBNSHZaSmRONTVEM3B3Sk56QzBCU3JDNjdEVGJ1TVg0NTI3T0hLMnpQaDhCNnhzWnlGbGxkczhnYw?oc=5"
       ],
-      "article_group_count": 2,
-      "news_url_count": 6,
+      "article_group_count": 3,
+      "news_url_count": 7,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
-      "editorial_importance": "medium",
+      "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "e3d525fb791783e83d81676b",
+      "label_nl": "Claim: Iran Attacks 4 Tankers As Trump's US Navy Watches Hellfire in Hormuz | Firstpost Live - Firstpost",
+      "headline_claim_ids": [
+        "86c76159ea1ffa"
+      ],
+      "headline_claims": [
+        "Iran Attacks 4 Tankers As Trump's US Navy Watches Hellfire in Hormuz | Firstpost Live - Firstpost"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT1dyWEdFYU1rbUwtZkIzQ1NHRjJfUkxTUXY2dDczMm9KM2s1Uk5JU253NmV3X1FlS2JsZkd6aEFPVVVEV1N2VS1iTGF2ZjdKQ3p2aFRhUXJHbTdSUDhpeFVWdHNWTUZFRmkteDBMR1dnODdrTG5vWEpVMW5IdmlCaWVpM24xWmdPZzdMbnhmX1AwbENFZlJFd0lZeW8zS2RaNTlOaVM0ZlAtVi10dlBTYUduNExDSXJVOFVIT21wVFh4S092dTJwSW9UcFVZaGw1dWpWZlJ1NDdwMEXSAeABQVVfeXFMT2EyTzl0cGRFY2RtMUJoSjQ4NVpwMWVaV2JacWtYc0hNWFZ4dXkta0VlVmw4bjk3b2ZHYndqSnRXcnFXVDVFTndkaEJSZUNqYXB3S3hOZXpLQlFYN3JMRG54b2J6eWFYeUFhdk51R1o5VVY2SjRRbUZfMzd6TnpNOXNVRl9jY1JqMnJObW1rcFAwQXh0VG5XZWk1czdMZS0xWFFCYUdHRU9HLU9EbW53SXEyUEpGUlRJcW8yS2NaZWxjNEhNZVNJRm8yZlZWRGR1azl0cnVjd3E4VkdUNU91bVI?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "97796d41c18e915d39a213f6",
+      "label_nl": "Claim: Iran claims strike on US radar in Bahrain as Trump rules out need for deal with Tehran - Hum News English",
+      "headline_claim_ids": [
+        "dc7d13d4130da7"
+      ],
+      "headline_claims": [
+        "Iran claims strike on US radar in Bahrain as Trump rules out need for deal with Tehran - Hum News English"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkFkX2JYVWV3aS1CLVlDNjRlX3g5WjlvWDh1eVhSdWwwQ1g3TmEzOUpIbTQzeUNUUldLa0c5M3BLVnh6MmZjNVRQX2c5ZW1VcXJjb0Uway00RjJBZThFY2lEb0VZWGo2SG1ycnFHakJHX3lVVmk1ZWxKdVU0dy1aQmpxejYySG9udzh6RDZyRGZDS0VieVk2QU9HVFY1b3Q1UWxZd05NcklGYXVnWlEzYmgzQ2Z6Si1H?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -425,12 +353,10 @@
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWjB3ZVJPOG0wd2JESVpFVlpCbS0ydC04OFhaZGVXN0dLVHpDMGpHUWhCZ1U1UnJVY2x5U2Jvb09LRXpDY1pqcHViOUhFdUNfZTlHSlVXM1BKMVYxZVBDM2pvQjlERjZ2cHpXek81VndjQ1A1bzB3Uzh1dTdiUWlvMVE4Zkg2MHdPVzdOOWZ6ajAwWUZCbDBjakZn?oc=5",
         "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMktsQUY4WjZhakh6aGtxMV9TV181cGhnVklaNTZnTnRhMy1jSVpGX1p3eDZ2NUVTTlBQUUNiaUdMa1M4dFVMRXAwN0V5UHJIRVNQYlpiR3JaUVlvdDh1VlNOT01pbE9SV3N1WEgwVms1Nlo2RF9pVm1GZ0FDaWlicEFkbGdxZXdhTWZRTHU5OG41SFk5UGk3bkpLX1F3NnNJVGg0blVR0gFWQVVfeXFMTTRmZXlkZ2xCYktJampVU19XU1FPdHlDOGU2UjhSRHpFekFWRHpHYm41TWlLbTJBZTVwNVdtS3VpYTdjLWhBU20wTmJnc0UxVk02eTZKRkE?oc=5",
-        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03MEVrVUQ5ZWQxUmx4bWVnQTdkQUhvVnAxdmFfUUlCMUpsU05QV2h0R09LRUdId3Z0Z3BtTkVEbDFGbFY0ZFExeEhoR3k2R1M50gFWQVVfeXFMTTRmZXlkZ2xCYktJampVU19XU1FPdHlDOGU2UjhSRHpFekFWRHpHYm41TWlLbTJBZTVwNVdtS3VpYTdjLWhBU20wTmJnc0UxVk02eTZKRkE?oc=5",
-        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYS1wRnB5YlZ4b3lFVURkbENlZWE3MWdfa1dOTGZrbHdNX24ydXZWeW9hWFZ0QmFvZVE5VFdXQlNsa0tvRlhETFZMRTA3ZFNRcEQ1UnIzQnprRHMyWTNHZFYxUEpwMVZsRm5XVDBrcGd5SEdTNUt4ZjdQRnlESWZja28yTFZDSnYxUU4xU0kyemxPTzBaUGxuNmFBRm1XaWtkZHlyLXZaQXdUcWNyQ0FnRzNuVDlqM3JGZ0tPSDlObXJTZ0xDLWNXOUctQnpRa194ZWZMc1RYOHo1N1hNZEhFV9IB5gFBVV95cUxOVUVmdUV1NmxwM1d5U2V6WFdYRzlBQXhlNjVvNU14b1NqaUdZdFphLXJBMV9IX3k3SEdoRkMxbUtCQlJYc0NFV202bDllR2ZtNVQzQXVqRmZzWVlfT1JROEdxSHhucXJnTjZqbUVRa1djZG1qYTRfS1lHLTcxbVctQmc5R25UTklId1dXMWloeG1fUDcxYlk1SG9Ya3ozc1lhMHVFRVdzcWRpMlBnRUNPRlAwa09RMkxJY0MzVDMtcTF3azlpRWhMVnoxS2QzcU9nWW8tZ1dMQUp6ZHM1NThKcEY5czNtQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXRIOWVQTmcwYVdhbURkcUR6RGNkUHA1QVZhb0Jvc2xVa0RIQnVSdlRXQTZ5RFFhemxFYkY4bndDWHUyM0NUSTRVbzN6Z3NnOWIyRTBQazhYLXRmZUlMcnhUMDgydGJCdlp6cUc4ZUNUb3o3YWVXT1hxOFY5VFFIcUhrU3RlZFlSMnJGYWRfdGhXU2RVWlg2ZUl3TXg4VktPQWl2SThTcTZmTlc3MENKWWxB?oc=5"
+        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03MEVrVUQ5ZWQxUmx4bWVnQTdkQUhvVnAxdmFfUUlCMUpsU05QV2h0R09LRUdId3Z0Z3BtTkVEbDFGbFY0ZFExeEhoR3k2R1M50gFWQVVfeXFMTTRmZXlkZ2xCYktJampVU19XU1FPdHlDOGU2UjhSRHpFekFWRHpHYm41TWlLbTJBZTVwNVdtS3VpYTdjLWhBU20wTmJnc0UxVk02eTZKRkE?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 5,
+      "news_url_count": 3,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -444,16 +370,16 @@
       "probability_estimate": null
     },
     {
-      "id": "59ebd2d83838699822ab96a6",
-      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+      "id": "24aaedd79e8ea7b4e939a81e",
+      "label_nl": "Claim: Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand",
       "headline_claim_ids": [
-        "c6ad0f7287f5c3"
+        "92dd73fb45de4a"
       ],
       "headline_claims": [
-        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
+        "Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5"
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jY0FuRm5vb0tZV1JvVXpJbWQ3MHJUR1p4OHJUTnRjYnhzZ1VNaF8xVTJ1eEdvakJZZ0RYYW40TVhQS0NZR2UwZjNzTnZ0TjVsaG5wX2VjZGo5NV9HM1Nv?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -549,16 +475,16 @@
       "probability_estimate": null
     },
     {
-      "id": "d367c478f28e9f6d6fe0fd64",
-      "label_nl": "Claim: Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
+      "id": "a3f2f7ce70d033dcad8db379",
+      "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "a33babe4763f16"
+        "2c0657d84a30ec"
       ],
       "headline_claims": [
-        "Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East"
+        "UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdWVWWkVkXzRmQzYxcEFtZHZwUmVUZmNVdE8yVlNWeG1sdWhvQkhwamlMaUgwTEY4QXhpdzR2UlQ0cHF0NlRnZHVlRlhlSjk1TzhleGE2RkRmczhOOXdlemdTZGhzZzBsd3dUek1tMzBaeFBNV0NWMEVab0JzZHBQai1YdDYtMXJROWVBazM1R1hTMUVWX0dLMUFWbklIemtFamVpQXl6aG5zakZyRG9icGFRRUVtUklxLXgwTXhlellHazM1UnYtcWlSZzM5YXd5LWc3NWtwS3ZjQTJlQkdNV0Zn?oc=5"
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlsNHc0c3pGN1ZNNGl1cjdqMW9oNlVVUzM5V1JIS1ZCOWRlN3NrdjFwcWRld2FURmpfUWdoSUlUY3B4RUdneW94dnNOYVluLXg4RThxM2ZVRk5INENzTy1OR1M1NXRsN1lNUFI3cjhXZ1JicUpLekJYb1dUQmtYejcyRnMtTnpCNFFKRTZqUDUyUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -575,20 +501,19 @@
       "probability_estimate": null
     },
     {
-      "id": "fbe1940a3fde6b91ec20828c",
-      "label_nl": "Claim: India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight",
+      "id": "59ebd2d83838699822ab96a6",
+      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
       "headline_claim_ids": [
-        "9811a6e6039638"
+        "c6ad0f7287f5c3"
       ],
       "headline_claims": [
-        "India Reiterates Call For Free & Safe Navigation Through Strait Of Hormuz As Attacks On Ships Rise - Marine Insight"
+        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaldNcGR6RGN3UF9ZS0NVZkxnSEEyY2MxeU1vcktCTW5HVTdrQlIzbFI2OEVjSUtvc2s5MnYwVTF1amZ2dnBwdlJobXJldUxSY09OUGtCSWhlcVprTG5feWJiZWZaQUJ6U2NFMTVqQkZqLUJ6WmNaNGU5ajJmR01hd1pBQkZ2NVk?oc=5",
-        "https://news.google.com/rss/articles/CBMigwJBVV95cUxOYmVQSDU4cXVobWVmc1lSNENtRnJPUGl4UERhSTlGT3ZPbXNnbU9yeWhoNDFSQm1uZGttU0VFMGJaZS14TzdVeVpvSURxVnM5YWg0UGVkTHZrTWZzMVlCTDVBQ0I5Wl9QMUdtVFozek1IVHhGOEFOR3Nfb3dGckxoMFBlRzg1dmZOc3pBWVZKOXNGcnNWelpzSEJuUVBfTmV0M2U0M194WXo3eHVCUVpnWXRLU0Nxc2FnWDVGNFo5UXJjQ2pOb3ZrdS1LMzdmMUgzRFBRMTdsOE1YczJjR2hEblNETVpPeERlRm5BdHd1Zl9nQ2dhV2ZwQkNqbFNpcDVqLVI0?oc=5"
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -654,16 +579,16 @@
       "probability_estimate": null
     },
     {
-      "id": "5351ef5e41bd32bb87ddec7b",
-      "label_nl": "Claim: UK issues new Saudi Arabia travel warning for Britons - https://www.thetraveler.org/",
+      "id": "d367c478f28e9f6d6fe0fd64",
+      "label_nl": "Claim: Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East",
       "headline_claim_ids": [
-        "945cb67734c14e"
+        "a33babe4763f16"
       ],
       "headline_claims": [
-        "UK issues new Saudi Arabia travel warning for Britons - https://www.thetraveler.org/"
+        "Dubai and Middle East flight disruption: latest airline cancellations as Saudi Arabia faces fresh missile attacks - Condé Nast Traveller Middle East"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWWZDNnRscGpLb3ExVVBvcHJFMk0wLWZLYThWMHJLbU5BUEFOelo4ZDVqNWhnOU9OWThmTFdXRWhFTHJBWUltWXF4Vnp4SlJXMHhFYVpNU3ZEa3k2bnZ1dUVwejVaWVlRZ19WWTdxVWotOVhDMDBLY21OT2FxMU1vdFBDVWpFWUtodmc?oc=5"
+        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOdWVWWkVkXzRmQzYxcEFtZHZwUmVUZmNVdE8yVlNWeG1sdWhvQkhwamlMaUgwTEY4QXhpdzR2UlQ0cHF0NlRnZHVlRlhlSjk1TzhleGE2RkRmczhOOXdlemdTZGhzZzBsd3dUek1tMzBaeFBNV0NWMEVab0JzZHBQai1YdDYtMXJROWVBazM1R1hTMUVWX0dLMUFWbklIemtFamVpQXl6aG5zakZyRG9icGFRRUVtUklxLXgwTXhlellHazM1UnYtcWlSZzM5YXd5LWc3NWtwS3ZjQTJlQkdNV0Zn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -680,20 +605,19 @@
       "probability_estimate": null
     },
     {
-      "id": "ec8e942e707b205f0c61da89",
-      "label_nl": "Claim: Oil steadies as Hormuz attacks blunt hopes for Iran truce - Euronext Markets: Real-time Stock Market Data | live",
+      "id": "67362f09bdd7a65c23c68f89",
+      "label_nl": "Claim: Oil prices set for second weekly decline as Trump to stay with Iran blockade - The Business Times",
       "headline_claim_ids": [
-        "1aff36425c48d4"
+        "ed5c87f9304606"
       ],
       "headline_claims": [
-        "Oil steadies as Hormuz attacks blunt hopes for Iran truce - Euronext Markets: Real-time Stock Market Data | live"
+        "Oil prices set for second weekly decline as Trump to stay with Iran blockade - The Business Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdGRWc251RGh5YXhyLWZkQ28yVmMwd2U0aEE0Q3lQdnJ4Sk9nZTNJb2tZYkpKci1QUUNBTkZXcjZnSmxGdWhkcXpjYmg3Nkt4RGdLZFE5dWZXN2dUTk5GY0tvaG43SjQ4ZWh0bmNidFR6ZUx2eUZETVZpRkdIM003NnVISEVfODljLW5MTGpYdzZrMmJSamdxUExB?oc=5",
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHRYZkFLSGhYU1lFbVJlMTdpNEQ4V0RqU1BIbWxvSjF4c0xXZXV5T3IxRndVeWpRNmtyN3NqdkhIUGFic0NhcjVTcnBVMkVYT2RvamYxaWhiOUhwZXR1WEwtS1ZkdmkxRmxMQ21mZWE0Vzd6dGhTaS01TlpTXzVFSEhrSnAwa0lMakNwcHAweUJfX05SanA1YlZkMERQMi1hdldvOFRR?oc=5"
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZU03U0NsZDNRZ0pNNmFwZG51aWVnNVhDZGFxYmxjT1d4bGxoYXhQZkcyWE81ZUc4ZkFKTF91M0JHMWlqTlphcWp3TjBYeGFrVjZmM21YVHZ6d09SOEVBUU81VldmRDNZUFVJT1REX0ZWZlVDbk51eENSMnM3Wm9zd0FzYm5NaURlZnBQTnlnSXZKRTdwbUZEQVZubDJHTzY3M2toTkpTa1Rad0hQb2dRUThWSldINFN6akl0b19pcUcyb2JJOUI2Nk1Bbw?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -743,8 +667,8 @@
       "total_tokens": 32721
     },
     "2026-11-13": {
-      "requests": 3,
-      "total_tokens": 7575
+      "requests": 6,
+      "total_tokens": 14702
     }
   }
 }
