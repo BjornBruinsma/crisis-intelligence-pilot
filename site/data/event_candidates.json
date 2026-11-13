@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-13T13:23:21.391243Z",
-  "fingerprint": "f2a7b52a1a347d3e13a2af08",
+  "last_attempt_utc": "2026-11-13T19:07:19.480560Z",
+  "fingerprint": "a62123c2f794a1b3345dde11",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -9,9 +9,9 @@
   "event_candidate_count": 16,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 3,
+    "model_pair_proposals": 4,
     "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 1,
+    "rejected_pair_proposals": 2,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
@@ -22,14 +22,14 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-13T13:23:21.391243Z",
+    "recorded_at": "2026-11-13T19:07:19.480560Z",
     "groups": [
       {
         "ids": [
-          "8e862354e46434",
-          "86c76159ea1ffa"
+          "1d08cacfb570b6",
+          "8e862354e46434"
         ],
-        "label_nl": "Claim: Iran claims attack on US radar, reports tanker explosion in Hormuz - The Arab Weekly",
+        "label_nl": "Claim: Iran Strikes U.S. Military Radar in Bahrain, Claims Retaliation - Udaipur Kiran",
         "actor": "",
         "action": "",
         "place": "",
@@ -58,17 +58,6 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
-      },
-      {
-        "ids": [
-          "3ba19b4585299c"
-        ],
-        "label_nl": "Claim: Hormuz LNG Traffic Hits Highest in October Since Iran War Began - EnergyNow.com",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -105,9 +94,20 @@
       },
       {
         "ids": [
-          "6ed976d8cec497"
+          "02753692adc238"
         ],
-        "label_nl": "Claim: US President Donald Trump said further military strikes on Iran were “highly unlikely” if negotiations progress. However, he warned that military action remains possible without a strong agreement addressi",
+        "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "56728258f55cb6"
+        ],
+        "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -149,9 +149,9 @@
       },
       {
         "ids": [
-          "56728258f55cb6"
+          "81e4fceca9bbe0"
         ],
-        "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
+        "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
         "actor": "",
         "action": "",
         "place": "",
@@ -204,20 +204,20 @@
       }
     ],
     "input_claim_ids": [
-      "8e862354e46434",
+      "1d08cacfb570b6",
       "6dc6cd7e45b30f",
       "6738a21be33922",
-      "3ba19b4585299c",
       "e010f9a0d63572",
       "cdbcccd715dbe0",
       "35e380a51e98ef",
-      "86c76159ea1ffa",
-      "6ed976d8cec497",
+      "02753692adc238",
+      "56728258f55cb6",
       "bde81b0a60a540",
       "e7555912fbbd42",
       "92dd73fb45de4a",
       "070cffe9ab582a",
-      "56728258f55cb6",
+      "8e862354e46434",
+      "81e4fceca9bbe0",
       "2c0657d84a30ec",
       "0550ef4f8093d4",
       "c6ad0f7287f5c3",
@@ -225,22 +225,22 @@
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 0,
+  "direct_official_match_count": 2,
   "events": [
     {
-      "id": "2d04e7c0d6bb3bdc15768660",
-      "label_nl": "Claim: Iran claims attack on US radar, reports tanker explosion in Hormuz - The Arab Weekly",
+      "id": "753a6f70c963be3eeaa4685c",
+      "label_nl": "Claim: Iran Strikes U.S. Military Radar in Bahrain, Claims Retaliation - Udaipur Kiran",
       "headline_claim_ids": [
-        "8e862354e46434",
-        "86c76159ea1ffa"
+        "1d08cacfb570b6",
+        "8e862354e46434"
       ],
       "headline_claims": [
-        "Iran claims attack on US radar, reports tanker explosion in Hormuz - The Arab Weekly",
-        "Iran Attacks 4 Tankers As Trump's US Navy Watches Hellfire in Hormuz | Firstpost Live - Firstpost"
+        "Iran Strikes U.S. Military Radar in Bahrain, Claims Retaliation - Udaipur Kiran",
+        "Iran claims attack on US radar, reports tanker explosion in Hormuz - The Arab Weekly"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdVRIdDRQZFByNllsRlFIZTlCU0swZ1VfMHBSNmxNakotbHZRZjlsOVU2ZWd4bGpjeUxod19XQU5xZ2IzVUExcGpEdE1waXk2T3ptSzNEUHRZMzJkX2N3aTBKR0VqQWJ5amdVSFdub0tRQ2RUOG1yUVlGUk1YalNNOUwxNTVkLXVVSkV1UzF3?oc=5",
-        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT1dyWEdFYU1rbUwtZkIzQ1NHRjJfUkxTUXY2dDczMm9KM2s1Uk5JU253NmV3X1FlS2JsZkd6aEFPVVVEV1N2VS1iTGF2ZjdKQ3p2aFRhUXJHbTdSUDhpeFVWdHNWTUZFRmkteDBMR1dnODdrTG5vWEpVMW5IdmlCaWVpM24xWmdPZzdMbnhmX1AwbENFZlJFd0lZeW8zS2RaNTlOaVM0ZlAtVi10dlBTYUduNExDSXJVOFVIT21wVFh4S092dTJwSW9UcFVZaGw1dWpWZlJ1NDdwMEXSAeABQVVfeXFMT2EyTzl0cGRFY2RtMUJoSjQ4NVpwMWVaV2JacWtYc0hNWFZ4dXkta0VlVmw4bjk3b2ZHYndqSnRXcnFXVDVFTndkaEJSZUNqYXB3S3hOZXpLQlFYN3JMRG54b2J6eWFYeUFhdk51R1o5VVY2SjRRbUZfMzd6TnpNOXNVRl9jY1JqMnJObW1rcFAwQXh0VG5XZWk1czdMZS0xWFFCYUdHRU9HLU9EbW53SXEyUEpGUlRJcW8yS2NaZWxjNEhNZVNJRm8yZlZWRGR1azl0cnVjd3E4VkdUNU91bVI?oc=5"
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUE96RUdEbWllMFdaTzA5WERDTGdkNmlIQ01HMjRnZF9VVnVEcUJaamk1b21veWVEVG45bU5YSkJWMWVJMGdFZ1NNQnB4dzdHWnpKRFpkUERnTHg3MjNtdW52dXRhY2c5U043aEVlQXB5aHViZVBPRElzWXAtX2N6Q2FSUENCZDBuR2JYbDNFeUw?oc=5",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdVRIdDRQZFByNllsRlFIZTlCU0swZ1VfMHBSNmxNakotbHZRZjlsOVU2ZWd4bGpjeUxod19XQU5xZ2IzVUExcGpEdE1waXk2T3ptSzNEUHRZMzJkX2N3aTBKR0VqQWJ5amdVSFdub0tRQ2RUOG1yUVlGUk1YalNNOUwxNTVkLXVVSkV1UzF3?oc=5"
       ],
       "article_group_count": 2,
       "news_url_count": 2,
@@ -251,8 +251,50 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_bahrain:p1",
+        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel, including, but not limited to, organisations, businesses, facilities, ",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim dat Iran militaire doelen heeft gesteld die verband houden met de VS, wat relevant is voor de beschuldiging van een aanval.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "325c2bc2ce531f9b655322b8",
+      "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
+      "headline_claim_ids": [
+        "02753692adc238"
+      ],
+      "headline_claims": [
+        "US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN1p5YjNMaDdCanEwSGJZMzhjWWRTSmk5MURQX21yd3VTUVRzMDNJNl9pbmNlZE5WbEpaWW5Rb0tkVVhXVUpUY1QtbUVtWVVhc042VTlBeXJ6bS1IcWZSSGdCdlYzSkRSQjhfb21MMWZRNHFqcTV1VXY3eEZkcGFrMi1idk1BRWVZZXN4bDZZcENVMUJJb1Nxejd3R3FSLW1CeHVlYmNoX3NCQ3JGLVY2UXpTaXpaM251QXgwYWtR0gHDAUFVX3lxTE5RTThzUWs3WDJGX2VsX0gzbmpmZG83WHp3MXFlclRYR0dlQUFpMFRCOUR5UkYyQm54Sjk3M3J3V0ptdGdaSHFYQi13T2o0Y1VzYmFkVUlDYkJCY2QzYlgyYUlfWXo0bi1YRkhtY0NGRmc0N2JiTFgxb0ZmdjUwZnFyTk5VWVFuV1ZrVTh4VlRPTFU2LXZIVkR3aUZwYktqY0I4TUszamNsY2owcnI2VVBKczI4UXBTVkt4T0Fpb1NiQkdfcw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_bahrain:p1",
+        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others across the region against civilian and US military infrastructure.",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim dat er aanvallen zijn geweest door Iran op militaire infrastructuur van de VS.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -303,34 +345,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "8a7c626237f74e4bd6d0586f",
-      "label_nl": "Claim: Hormuz LNG Traffic Hits Highest in October Since Iran War Began - EnergyNow.com",
-      "headline_claim_ids": [
-        "3ba19b4585299c"
-      ],
-      "headline_claims": [
-        "Hormuz LNG Traffic Hits Highest in October Since Iran War Began - EnergyNow.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWjB3ZVJPOG0wd2JESVpFVlpCbS0ydC04OFhaZGVXN0dLVHpDMGpHUWhCZ1U1UnJVY2x5U2Jvb09LRXpDY1pqcHViOUhFdUNfZTlHSlVXM1BKMVYxZVBDM2pvQjlERjZ2cHpXek81VndjQ1A1bzB3Uzh1dTdiUWlvMVE4Zkg2MHdPVzdOOWZ6ajAwWUZCbDBjakZn?oc=5",
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMktsQUY4WjZhakh6aGtxMV9TV181cGhnVklaNTZnTnRhMy1jSVpGX1p3eDZ2NUVTTlBQUUNiaUdMa1M4dFVMRXAwN0V5UHJIRVNQYlpiR3JaUVlvdDh1VlNOT01pbE9SV3N1WEgwVms1Nlo2RF9pVm1GZ0FDaWlicEFkbGdxZXdhTWZRTHU5OG41SFk5UGk3bkpLX1F3NnNJVGg0blVR0gFWQVVfeXFMTTRmZXlkZ2xCYktJampVU19XU1FPdHlDOGU2UjhSRHpFekFWRHpHYm41TWlLbTJBZTVwNVdtS3VpYTdjLWhBU20wTmJnc0UxVk02eTZKRkE?oc=5",
-        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE03MEVrVUQ5ZWQxUmx4bWVnQTdkQUhvVnAxdmFfUUlCMUpsU05QV2h0R09LRUdId3Z0Z3BtTkVEbDFGbFY0ZFExeEhoR3k2R1M50gFWQVVfeXFMTTRmZXlkZ2xCYktJampVU19XU1FPdHlDOGU2UjhSRHpFekFWRHpHYm41TWlLbTJBZTVwNVdtS3VpYTdjLWhBU20wTmJnc0UxVk02eTZKRkE?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 3,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -423,16 +437,16 @@
       "probability_estimate": null
     },
     {
-      "id": "d57b5af78dcaee63091e21e4",
-      "label_nl": "Claim: US President Donald Trump said further military strikes on Iran were “highly unlikely” if negotiations progress. However, he warned that military action remains possible without a strong agreement addressi",
+      "id": "15ea6fdf8c80c909afed8168",
+      "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
       "headline_claim_ids": [
-        "6ed976d8cec497"
+        "56728258f55cb6"
       ],
       "headline_claims": [
-        "US President Donald Trump said further military strikes on Iran were “highly unlikely” if negotiations progress. However, he warned that military action remains possible without a strong agreement addressing Tehran’s nuclear program and the reopening of the - Facebook"
+        "Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPd2Z0VElMcEY1UUUzdjdVdENhbmUwZl9ncTBtVFhZOGRTTkNzMF9HQUF3bGNlaU41TWVGZHotQzJKMVo1V1JJaWJFUGFTMVViWjQ4blcySzNXZzdjRllNSjVZMU9qa294U0FpdVZtcl9yZlRiRml1aERYU2RZYkt5UWNBMldTMlgwcmFlQVZHMU95ZXY1TnlmWGlvem1nSU1QalVPMm0tLTdqRXFlZlViSEFoSU1qajA1OXR3YUFUcFJsdnFGNWlXenE4NlpoSklfQ0IyWEVaVm0?oc=5"
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcV9aQ0xEcFYySmNhZGkwSERycmM4WEVDTXE1NXVxb1NZRnphN1pYVlVTRWxhT3psVTVMYllhdFh5dHl4aGN1ZENIaVMtQVdTem1EVlo0ek5nZDMwSG1RNE11V1NPVnNKVGdHNVhvSkNDMHJfNVd3RGF2RmtMNzlLTm9jU3owTmVvdmpxU2VPcFJBaHhhQVBrM1hCeHFUY3FIVkROZUV5dGNtX0ozc3NsVEVqMVdObWdoSG9JSGFR0gHEAUFVX3lxTE9Rd3YtT2huSUxlcGZiSzRmQzRtX09qT1JWRUpQSk9vYUMzQlVScWpZNUNjZG9EWDFWeEZ3eVRQc0RyZEVnSXZBemRTMkVUc19Kc2Q5RlNNbkhxai1WeEY4cmNIYklTYWU3VTVOMS04aGEzeW9xaTNVNkYxcVd5eDlyTi10YzJFTy10VUNjSmJVdi0xbWZVeF9mTXpGNFVPN3E0ZWxtTk11QXlLcjFVMWlDWGV1enFwTlJtcENTQkpWeGltOUs?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -527,16 +541,16 @@
       "probability_estimate": null
     },
     {
-      "id": "15ea6fdf8c80c909afed8168",
-      "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
+      "id": "50ac7a3e82a4557551e50415",
+      "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
       "headline_claim_ids": [
-        "56728258f55cb6"
+        "81e4fceca9bbe0"
       ],
       "headline_claims": [
-        "Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times"
+        "Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcV9aQ0xEcFYySmNhZGkwSERycmM4WEVDTXE1NXVxb1NZRnphN1pYVlVTRWxhT3psVTVMYllhdFh5dHl4aGN1ZENIaVMtQVdTem1EVlo0ek5nZDMwSG1RNE11V1NPVnNKVGdHNVhvSkNDMHJfNVd3RGF2RmtMNzlLTm9jU3owTmVvdmpxU2VPcFJBaHhhQVBrM1hCeHFUY3FIVkROZUV5dGNtX0ozc3NsVEVqMVdObWdoSG9JSGFR0gHEAUFVX3lxTE9Rd3YtT2huSUxlcGZiSzRmQzRtX09qT1JWRUpQSk9vYUMzQlVScWpZNUNjZG9EWDFWeEZ3eVRQc0RyZEVnSXZBemRTMkVUc19Kc2Q5RlNNbkhxai1WeEY4cmNIYklTYWU3VTVOMS04aGEzeW9xaTNVNkYxcVd5eDlyTi10YzJFTy10VUNjSmJVdi0xbWZVeF9mTXpGNFVPN3E0ZWxtTk11QXlLcjFVMWlDWGV1enFwTlJtcENTQkpWeGltOUs?oc=5"
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLTdvUGZhMDA2MGVTYWc0X2Fsc0FrOWtoOW9sNmI1TWZrcGtLT1BmQUd6MFN1NmhNNGtZV2doZ053T1BBNDg3N21QTk4wakljekxHZEZsVmNGRDJXRGctQ0RraTh1clFqSkMyUXRzcUkycTI3a1dEV1dwdjA2aEdGZnhFWGIwdUtXOVI3Q091ZTAwVi11aG1fVHJYRmZob0NXNThJUG9hMVpjSm1mSTZUU1hEZU9ZRkQ3NGplYlZwWk50Z1NpM2kyTkVEb18yUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -589,10 +603,11 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWmRESjNOczRIRDFCaEpQZERVbHpUUV90cTc2eVNVbmVjQmpxb09qekJzbmpHbEtDc1I4ODJRbFZiMFpuWWZzbE5XdFk5MWtKc2pfZjBPS2doNG1UZTNRdnlRcFJCRy1xZEppdDgwRjZHU01QTlJ2WEJGZkl2djF4RTJqaUI5NjIyaEJjQzVn?oc=5",
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbl8tRXIyVnZ1NkY0dXIwd3prZ1pYSGZERndDTWlITUhtRjl4WjkyYzQ5eXBqUlNhbFM4RFpCSlJuY1BQY0pRV0M0WkNNNzNldGYzV1hnalphY3lUS1FBWnNwR1J1REtWQ2ZQd194N0hhQ1FhdEhPSTJ5ZmFBVTFQRnYtM0tLSE1OeUN3dDRBdXcyc2RkeEFyZDFlbFE3OUpQWHFHcXY4NmVPMHoxcC1jcUIxR1hFNmvSAVZBVV95cUxNam5WY3ExSnNaTnZfNkFKUE9fb3FLVmluWWNwUVVscFktSWxZZVI0WnBIQUlWanVrUDBPeFZ4dDVnV0E2eFhqRUQzcWNHSmEyaWtIdXd1dw?oc=5"
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbl8tRXIyVnZ1NkY0dXIwd3prZ1pYSGZERndDTWlITUhtRjl4WjkyYzQ5eXBqUlNhbFM4RFpCSlJuY1BQY0pRV0M0WkNNNzNldGYzV1hnalphY3lUS1FBWnNwR1J1REtWQ2ZQd194N0hhQ1FhdEhPSTJ5ZmFBVTFQRnYtM0tLSE1OeUN3dDRBdXcyc2RkeEFyZDFlbFE3OUpQWHFHcXY4NmVPMHoxcC1jcUIxR1hFNmvSAVZBVV95cUxNam5WY3ExSnNaTnZfNkFKUE9fb3FLVmluWWNwUVVscFktSWxZZVI0WnBIQUlWanVrUDBPeFZ4dDVnV0E2eFhqRUQzcWNHSmEyaWtIdXd1dw?oc=5",
+        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01THdRVEFHLVFMVlB3RlROYW9Ka2lrM2Zmc1dJN2xZTThpeUlmMjdRYmpYY181U0VsQU9CbnA0WXV5OUV5MzdKLUdFbWp3cnUz0gFWQVVfeXFMTWpuVmNxMUpzWk52XzZBSlBPX29xS1ZpblljcFFVbHBZLUlsWWVSNFpwSEFJVmp1a1AwT3hWeHQ1Z1dBNnhYakVEM3FjR0phMmlrSHV3dXc?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 3,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -668,8 +683,8 @@
       "total_tokens": 32721
     },
     "2026-11-13": {
-      "requests": 9,
-      "total_tokens": 22028
+      "requests": 12,
+      "total_tokens": 29391
     }
   }
 }
