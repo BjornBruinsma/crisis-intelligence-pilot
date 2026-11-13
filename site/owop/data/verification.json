@@ -1,245 +1,30 @@
 {
-  "generated_at": "2026-11-13T08:45:32.497850Z",
+  "generated_at": "2026-11-13T14:42:09.230069Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 8,
+  "candidate_count": 2,
   "recommendation_counts": {
-    "publish": 2,
-    "reserve": 5,
-    "reject": 1
+    "publish": 1,
+    "reserve": 1
   },
   "stories": [
     {
-      "id": "29d47ab5281322",
-      "editorial_score": 80,
-      "editorial_decision": "publish",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a research note on the event: *“First footage of pangolins captured in nature reserve — Huangshan Jiulongfeng, China”* (黄山九龙峰省级自然保护区首次拍到中华穿山甲野外影像).\n\n---\n\n## What actually happened\n\n**Event type**: Measured outcome (actual wildlife footage recorded in the field), not just an announcement or pledge.\n\n- A monitoring team operating in the *Jiulongfeng Provincial Nature Reserve* (九龙峰省级自然保护区), in Huangshan, Anhui province, China, used infrared (trail) cameras to record *the first-ever confirmed wild footage* of the *Chinese pangolin* (中华穿山甲) in that reserve. ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))  \n- The footage was taken at night, showing the pangolin moving across forest underbrush. ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))\n\n---\n\n## Timing, sources, and novelty\n\n- The article was published on **November 12, 2026** by *People’s Daily, Anhui channel*, reporting the recent find. ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))  \n- The discovery marks the *first time* such infrared-camera footage has been obtained of this species in this particular nature reserve. Prior evidence of pangolins in the area was mainly from oral accounts by older residents, lacking photographic or video confirmation. ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))\n\n---\n\n## Supporting details & monitoring context\n\n- The detection was made during routine processing of infrared camera data by the reserve’s monitoring team. ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))  \n- The monitoring and anti-poaching efforts are backed by cooperation between the local Huangshan district government and *Taohuayuan Ecological Protection Foundation* (桃花源生态保护基金会). ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))  \n- To increase detection efficiency, they are using an AI-assisted system called “Shan Si” (山思), developed by Taohuayuan, to filter infrared camera images and aid species identification. ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))  \n- Over the past year, the AI system processed **83,215 infrared camera images** from the Jiulongfeng area. ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))  \n\n---\n\n## Conservation status & implications\n\n- The Chinese pangolin is a *national first-class protected species* in China, and is categorized by the IUCN as *Critically Endangered (CR)*. ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))  \n- The image/video evidence fills a data gap: previously, there was *no visual record* confirming pangolin presence in Jiulongfeng reserve. This strengthens the case for the reserve being part of the species’ current range. ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))  \n- The reserve plans to increase the density of infrared camera placement and continue monitoring, with aims to inform improved habitat protection and patrol management based on these findings. ([ah.people.com.cn](https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai))  \n\n---\n\n## Independent / secondary verification\n\n- So far, the key source is the *People’s Daily* report (People.cn, Anhui channel), and no other independent media outlets with foreign-language coverage have yet reported significantly different details.  \n- The event appears not to be merely a repeat of a press release: while many Chinese news outlets often reflect centralized source material, this one provides specifics—image counts, AI system name, cooperating institutions—which suggest original reporting.  \n\n---\n\n## Summary of measured outcomes vs announcements\n\nWhat is *measured/outcome*:\n\n- Actual trail-camera (infrared camera) footage recorded of a Chinese pangolin in the Jiulongfeng reserve.\n- First visual confirmation for that reserve.\n- Image quantity processed: over 83,000 in the past year.\n- The pangolin is nocturnal and rarely observed; this footage is concrete evidence.\n\nWhat is *not*:\n\n- This is not a pledge, grant, or plan only — though the reserve does plan further monitoring and camera deployment, those are future actions.\n\n---\n\nIf you want, I can look up whether the video or still imagery from the footage has been published/released to the public, or whether experts have weighed in on the implications more broadly.",
-      "citations": [
-        {
-          "title": "九龙峰自然保护区红外相机首次拍摄到中华穿山甲影像",
-          "url": "https://ah.people.com.cn/n2/2026/1112/c374164-41749393.html?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "supported",
-      "outcome_status": "completed",
-      "evidence_quality": "high",
-      "independence": "single_source",
-      "significance": "high",
-      "verified_headline": "First confirmed footage of pangolins in Chinese nature reserve",
-      "verified_summary": "Infrared cameras recorded the first-ever confirmed wild footage of the Chinese pangolin in Jiulongfeng Provincial Nature Reserve, marking a significant conservation milestone. This evidence supports the species' presence in the area, previously unverified by visual means.",
-      "verification_note": "The footage represents a concrete conservation success, confirming the presence of a critically endangered species in the reserve. However, the evidence comes from a single source.",
-      "publish_recommendation": "publish"
-    },
-    {
-      "id": "d8e549108a8ac4",
-      "editorial_score": 90,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s what I found in verifying the claim “Africa’s top gold producer launches a $10 billion plan to boost jobs and production without borrowing.” The location is Ghana. The story is largely accurate, but with nuances. It appears in many outlets that there is confusion or slippage in details (e.g. 4 vs. 5 years; whether absolutely “no borrowing” vs. “minimal new debt”). Below is a research note drawing solely on primary or independent sources.  \n\n---\n\n### What exactly was announced\n\n- On **November 12, 2026**, Ghana’s Finance Minister Cassiel Ato Forson presented the 2027 Budget to Parliament. He unveiled a programme titled **“The New Economy: New Ghana, Jobs and Prosperity”** covering **2027 to 2030**, with a total investment of **US$10 billion** over those four years, i.e. about US$2.5 billion annually. ([intellinews.com](https://www.intellinews.com/ghana-unveils-10bn-investment-programme-in-2027-budget-as-opposition-questions-financing-and-jobs-484709/?source=ghana&utm_source=openai))\n\n- The programme targets multiple strategic sectors, notably: commercial agriculture; energy infrastructure; critical minerals value addition; textiles and garments; pharmaceuticals and biomanufacturing; the technology economy; tourism, culture and creative arts; macroeconomic stability and affordable finance. ([gbcghanaonline.com](https://www.gbcghanaonline.com/general/government-jobs-production/2026/?utm_source=openai))\n\n- The agriculture/agro-processing sector is allocated **about half** of the US$10 billion programme (≈ US$5 billion) under earlier statements by President Mahama. In the budget presentation, **US$3 billion** across the 2027–2030 period is specifically earmarked for commercial agriculture. ([gna.org.gh](https://gna.org.gh/2026/08/mahama-announces-us10bn-new-economy-investment-programme/?utm_source=openai))\n\n---\n\n### Key claims relevant to “without borrowing”\n\n- Ghanaian authorities have said the programme will be **financed primarily from domestic resources**, i.e. revenue mobilisation, improved tax compliance, revenue from mineral royalties etc., and **not through new external Eurobond issuance or major external borrowing**. ([intellinews.com](https://www.intellinews.com/ghana-unveils-10bn-investment-programme-in-2027-budget-as-opposition-questions-financing-and-jobs-484709/?source=ghana&utm_source=openai))\n\n- The 2027 Fiscal Strategy Document rules out issuing new Eurobonds from 2027 to 2030 for this programme, instead relying on domestic borrowing and financing from development partners. ([intellinews.com](https://www.intellinews.com/ghana-unveils-10bn-investment-programme-in-2027-budget-as-opposition-questions-financing-and-jobs-484709/?source=ghana&utm_source=openai))\n\n---\n\n### What is *not* yet confirmed / is still a plan\n\n- There is **no confirmed measurable outcome yet** — e.g. number of jobs created, precise increase in production, dates when specific projects will begin/end. The announcement is policy/plan-level, not a completed outcome.\n\n- There is some ambiguity about duration: some statements refer to four years (2027–2030), others to five years, with nine sectors instead of seven. But the formal budget and fiscal strategy documents confirm **four years and eight priority sectors**. ([intellinews.com](https://www.intellinews.com/ghana-unveils-10bn-investment-programme-in-2027-budget-as-opposition-questions-financing-and-jobs-484709/?source=ghana&utm_source=openai))\n\n---\n\n### Assessment relative to original claim\n\n| Claim component | Status |\n|------------------|--------|\n| “Africa’s top gold producer” | Ghana is Africa’s top gold producer (by volume, for 2025) according to multiple independent sources. ([pulse.com.gh](https://www.pulse.com.gh/story/top-10-gold-producers-in-africa-2025-2026082410265802696?utm_source=openai)) |\n| “launches a $10 billion plan” | True — the plan has been officially launched via government announcement and budget documents. ([gna.org.gh](https://gna.org.gh/2026/08/mahama-announces-us10bn-new-economy-investment-programme/?utm_source=openai)) |\n| “to boost jobs and production” | True in goal/intended outcome — boosting domestic production, exports, industry capacity and employment are core aims. ([streetinsider.com](https://www.streetinsider.com/Reuters/Ghana%2Bunveils%2B%2410%2Bbillion%2BNew%2BEconomy%2Bplan%2Bin%2B2027%2Bbudget/27337408.html?utm_source=openai)) |\n| “without borrowing” | Partially true — external borrowing (Eurobonds etc.) is explicitly ruled out; “without borrowing” might overstate it — domestic financing (which can include domestic borrowing) is part of the funding mix. ([intellinews.com](https://www.intellinews.com/ghana-unveils-10bn-investment-programme-in-2027-budget-as-opposition-questions-financing-and-jobs-484709/?source=ghana&utm_source=openai)) |\n\n---\n\n### Sources\n\n**Primary / official sources:**\n\n- Ghana’s 2027 Budget Statement & Economic Policy presented by Finance Minister Cassiel Ato Forson to Parliament on 12 November 2026. ([intellinews.com](https://www.intellinews.com/ghana-unveils-10bn-investment-programme-in-2027-budget-as-opposition-questions-financing-and-jobs-484709/?source=ghana&utm_source=openai))  \n- Government of Ghana / Presidency Communications announcing “The New Economy” plan in August 2026. ([isd.gov.gh](https://www.isd.gov.gh/president-mahama-announces-10bn-new-economy-investment-programme/?utm_source=openai))  \n\n**Independent reporting:**\n\n- Reuters: “Ghana unveils $10 billion 'New Economy' plan in 2027 budget …” ([streetinsider.com](https://www.streetinsider.com/Reuters/Ghana%2Bunveils%2B%2410%2Bbillion%2BNew%2BEconomy%2Bplan%2Bin%2B2027%2Bbudget/27337408.html?utm_source=openai))  \n- Intellinews: “Ghana unveils $10bn investment programme in 2027–2030 …” ([intellinews.com](https://www.intellinews.com/ghana-unveils-10bn-investment-programme-in-2027-budget-as-opposition-questions-financing-and-jobs-484709/?source=ghana&utm_source=openai))  \n\n---\n\n### Conclusion\n\nYes — the story is **real**: Ghana has launched a policy plan to invest US$10 billion over four years (2027-2030) aimed at boosting production and job creation, especially in agriculture, critical minerals, manufacturing and other sectors. The finance is meant to come from internal/domestic resources, not external borrowing in the form of new Eurobonds or foreign debt — though domestic borrowing is not explicitly ruled out and plays a role.\n\nWhat remains unmeasured or pending are concrete results: job numbers, production increases, projects completed. As of now, these are targets and policy commitments rather than outcomes.\n\nIf you want, I can monitor for evaluations or reports that measure whether Ghana is meeting those targets.",
-      "citations": [
-        {
-          "title": "Ghana unveils $10bn investment programme in 2027 budget as opposition questions financing and jobs",
-          "url": "https://www.intellinews.com/ghana-unveils-10bn-investment-programme-in-2027-budget-as-opposition-questions-financing-and-jobs-484709/?source=ghana&utm_source=openai"
-        },
-        {
-          "title": "Government plans $10bn investment to boost local production and jobs",
-          "url": "https://www.gbcghanaonline.com/general/government-jobs-production/2026/?utm_source=openai"
-        },
-        {
-          "title": "Mahama announces US$10bn ‘New Economy’ investment programme | Ghana News Agency",
-          "url": "https://gna.org.gh/2026/08/mahama-announces-us10bn-new-economy-investment-programme/?utm_source=openai"
-        },
-        {
-          "title": "Top 10 Largest Gold Producers in Africa: 2026 Rankings | Pulse Ghana",
-          "url": "https://www.pulse.com.gh/story/top-10-gold-producers-in-africa-2025-2026082410265802696?utm_source=openai"
-        },
-        {
-          "title": "Ghana unveils $10 billion 'New Economy' plan in 2027 budget",
-          "url": "https://www.streetinsider.com/Reuters/Ghana%2Bunveils%2B%2410%2Bbillion%2BNew%2BEconomy%2Bplan%2Bin%2B2027%2Bbudget/27337408.html?utm_source=openai"
-        },
-        {
-          "title": "President Mahama Announces $10bn New Economy Investment Programme - Information Services Department",
-          "url": "https://www.isd.gov.gh/president-mahama-announces-10bn-new-economy-investment-programme/?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "announcement",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Ghana announces $10 billion plan for jobs and production boost",
-      "verified_summary": "Ghana has launched a $10 billion investment programme aimed at enhancing jobs and production from 2027 to 2030, primarily funded through domestic resources. However, measurable outcomes such as job creation and production increases are not yet confirmed.",
-      "verification_note": "The plan is officially announced but lacks confirmed measurable outcomes. It aims to boost jobs and production without major external borrowing, though domestic financing may still be involved.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "d01ef8f43f7312",
+      "id": "6e17d9f60c24e9",
       "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a factual research note on the news event “Volunteers in India map riverside trees to make a case for urban conservation,” based on Mongabay reporting and independent sources:\n\n---\n\n## What Happened\n\n- A grassroots group called *Pune River Revival* (in Pune, Maharashtra, India) has been systematically mapping trees along the banks of the Mula and Mutha rivers. ([news.mongabay.com](https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai))  \n- They use smartphones, measuring tapes, and the iNaturalist citizen science platform to record data: species, tree height, trunk girth, photographs, and GPS location. ([news.mongabay.com](https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai))  \n\n---\n\n## Why It Matters\n\n- The mapping is intended to protect riparian zones (the riverside vegetated strips) by providing evidence in cases of tree felling or proposed development. ([news.mongabay.com](https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai))  \n- One concrete example: after 529 trees were cut down on Ganeshkhind Road, volunteers documented more than 500 trees in that area within a month. ([news.mongabay.com](https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai))  \n- Another focus is the **Ram-Mula Devrai**, a sacred grove at the confluence of the Ram and Mula rivers. Official reports (referenced in the Mongabay article) indicate about 1,000 heritage trees are in that grove, along with ~450 plant and animal species, and ~160 bird species. ([tazzora.com](https://www.tazzora.com/story/pune-riverbank-trees?utm_source=openai))  \n\n---\n\n## Outcomes & Measures\n\n- As a result of the mapping and advocacy, the city of Pune has **revised its riverfront development plans** for the Ram-Mula Devrai to reduce the risk of heavy development. According to the reporting, the grove now faces a lower risk from the planned riverfront project. ([news.mongabay.com](https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai))  \n- The municipal government conducts an official tree census every five years (mandated under a 1975 law), and Pune River Revival’s volunteer-generated data is officially accepted *as supplementary information*, provided the city contractor verifies it. ([tazzora.com](https://www.tazzora.com/story/pune-riverbank-trees?utm_source=openai))  \n\n---\n\n## Figures & Timeline\n\n- Mapping has been systematic since **2024**. Earlier efforts (before 2024) were ad hoc or manual and lacked technical rigor. ([news.mongabay.com](https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai))  \n- After the Ganeshkhind Road tree felling event: 529 trees cut → ~500 trees mapped in that same area within one month. ([news.mongabay.com](https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai))  \n- Pune lost about **40 hectares** of natural forest in 2025 according to Global Forest Watch. ([news.mongabay.com](https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai))  \n- The Pune Riverfront Development Project (along Mula-Mutha rivers) is estimated at about **₹4,727 crore** (~US$500 million). ([news.mongabay.com](https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai))  \n\n---\n\n## Source Notes & Credibility\n\n- The original/signal reporting comes from *Mongabay-India* (an environmental news outlet). ([news.mongabay.com](https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai))  \n- Independent summaries or reports (e.g. The Good News Daily, Tazzora) are drawing directly from the Mongabay account and do not add new primary data. They mostly restate the Mongabay findings. ([the-goodnews-daily.com](https://the-goodnews-daily.com/articles/pune-river-revival-citizen-scientists-map-trees-inaturalist?utm_source=openai))  \n- There is no indication yet of a peer-reviewed scientific study covering the volunteer tree mapping — the data is mainly used for advocacy and local government decision-making.  \n\n---\n\n## What Is Not Yet Confirmed\n\n- The long-term impact (beyond plan revisions and advocacy) of the mapping: e.g. whether development near Ram-Mula Devrai is fully halted, or whether the mapped trees are protected in law, is not confirmed.  \n- Survival rates of the mapped trees, or whether tree felling has declined as a consequence, are not documented yet.  \n\n---\n\nIf you want, I can also try to locate any government documents (e.g. Pune Municipal Corporation) or legal orders that codify protections for the grove or riverbanks, to verify how binding the outcomes are.",
+      "research_notes": "Here are verified facts for the candidate story: “Iowa Stops Hunger recap: Table to Table rescues 2.7 million pounds of food”  \n\n---\n\n### What happened  \n\n- According to Table to Table’s *FY 24 Annual Report* (July 2023–June 2024), the organization delivered (rescued and redistributed) **2.7 million pounds of food** in that fiscal year. ([table2table.org](https://table2table.org/wp-content/uploads/2024/11/FY24-FINAL-Annual-Report-Online.pdf?utm_source=openai))  \n- Table to Table is a food-rescue nonprofit in Iowa City whose mission is to reduce environmental harm and increase food equity by collecting surplus edible food and distributing it through partners who serve people facing food insecurity. ([table2table.org](https://table2table.org/wp-content/uploads/2024/11/FY24-FINAL-Annual-Report-Online.pdf?utm_source=openai))  \n\n---\n\n### Supporting evidence & context  \n\n- The *Food Waste Prevention & Management Study* by the Iowa Department of Natural Resources reports that — for the “most recent year (typically 2023 at time of interviews)” — Table to Table accepted and distributed **2,700,000 pounds of food**. ([iowadnr.gov](https://www.iowadnr.gov/media/8921/download?inline=&utm_source=openai))  \n- From their FY 24 report:  \n  • They increased the quantity of food rescued and delivered to 2.7 million pounds. ([table2table.org](https://table2table.org/wp-content/uploads/2024/11/FY24-FINAL-Annual-Report-Online.pdf?utm_source=openai))  \n  • About 60% of that food was classified as “highly-sought after” items — produce, protein, and dairy. ([table2table.org](https://table2table.org/wp-content/uploads/2024/11/FY24-FINAL-Annual-Report-Online.pdf?utm_source=openai))  \n\n---\n\n### What this *is not*  \n\n- This is **not** a pledge, plan, or estimate — it is a completed outcome: 2.7 million pounds were actually rescued and delivered during fiscal year 2023-2024. ([table2table.org](https://table2table.org/wp-content/uploads/2024/11/FY24-FINAL-Annual-Report-Online.pdf?utm_source=openai))  \n- It is not limited to a single donor, or a forthcoming event; it is the summary of past performance.  \n\n---\n\nIf you want, I can also pull up related data like meal equivalents, cost-savings, or comparisons from prior years.",
       "citations": [
         {
-          "title": "How citizen scientists are mapping Pune’s trees, with hopes of a greener future",
-          "url": "https://news.mongabay.com/2026/10/how-citizen-scientists-are-mapping-punes-trees-with-hopes-of-a-greener-future/?utm_source=openai"
+          "title": "|  | Impact Report",
+          "url": "https://table2table.org/wp-content/uploads/2024/11/FY24-FINAL-Annual-Report-Online.pdf?utm_source=openai"
         },
         {
-          "title": "Pune volunteers are mapping riverside trees one weekend at a time · Tazzora",
-          "url": "https://www.tazzora.com/story/pune-riverbank-trees?utm_source=openai"
-        },
-        {
-          "title": "Pune Volunteers Map Riverside Trees to Protect the Urban Forest",
-          "url": "https://the-goodnews-daily.com/articles/pune-river-revival-citizen-scientists-map-trees-inaturalist?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "measured_progress",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Volunteers Map Trees in Pune for Urban Conservation Efforts",
-      "verified_summary": "Volunteers from Pune River Revival are mapping trees along riversides to advocate for urban conservation. Their efforts have led to revisions in riverfront development plans, reducing risks to a sacred grove.",
-      "verification_note": "The mapping initiative has shown measurable progress in advocacy, but long-term impacts and legal protections remain unconfirmed.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "04a48a980af3a6",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a research note based on searches for the specific candidate event “Tree planting initiative demonstrates measurable ecological recovery efforts” in Depok (248 trees at Tahura Pancoran Mas):\n\n---\n\n## Search Findings: “248 trees planted at Tahura Pancoran Mas”\n\n### Key Points\n\n1. **No evidence found**  \n   - A thorough search using Indonesian- and English-language news sources and city government portals produced **no record** confirming that *248 trees* were planted in Tahura Pancoran Mas by Pemkot Depok, as of any recent date including 2026.  \n   - Neither local government releases, mainstream media, nor community news detailed such an action matching those numbers and location in concrete terms.\n\n2. **Existing initiatives in region**  \n   Several ecological or tree-planting actions in Depok and Pancoran Mas were found—though with different numbers, locations, and contexts:\n\n   - In **October 2026**, Depok’s DLHK (Environment & Sanitation Dept.) reported planting **956 trees** across various strategic public spaces in the city. ([siarandepok.com](https://www.siarandepok.com/baca/20261104/hijaukan-kota-depok-tanam-ratusan-pohon-sepanjang-oktober.html?utm_source=openai))  \n   - Also in October 2026, DLHK distributed 255 seedlings to residents, pruned/cared for many trees, removed some dead ones, and handled trees damaged by storms/external factors. ([siarandepok.com](https://www.siarandepok.com/baca/20261104/hijaukan-kota-depok-tanam-ratusan-pohon-sepanjang-oktober.html?utm_source=openai))  \n   - A political party (PPP Depok) planted “ratusan pohon produktif” (hundreds of fruit-bearing trees) in a former illegal waste site in **Kelurahan Pancoran Mas** on **12 September 2026**. Number varied but one report said “100 pohon” in that location. ([jurnaldepok.id](https://jurnaldepok.id/2026/09/gencar-tanam-pohon-ppp-depok-sulap-kawasan-tps-liar-jadi-kebun-buah/?utm_source=openai))  \n\n3. **Tahura Pancoran Mas condition & revitalization**  \n   - The Tahura (Taman Hutan Raya) Pancoran Mas is a conserved urban forest area of about **7.2 hectares** in Pancoran Mas, Depok. ([prokopim.depok.go.id](https://prokopim.depok.go.id/wali-kota-depok-tinjau-langsung-taman-hutan-raya-pancoran-mas-percepat-proses-revitalisasi/?utm_source=openai))  \n   - As of reports over 2025–2026, it has been undergoing **revitalization efforts**: plans include infrastructure improvements (jogging tracks, fences), cleaning up invasive undergrowth, establishing educational/visitor facilities, and initiating ecological restoration (planting new trees among other interventions). ([prokopim.depok.go.id](https://prokopim.depok.go.id/wali-kota-depok-tinjau-langsung-taman-hutan-raya-pancoran-mas-percepat-proses-revitalisasi/?utm_source=openai))  \n\n4. **No primary source for “248 trees at Tahura Pancoran Mas”**  \n   - There is no evidence—official city documentation or credible independent reporting—of an event where **exactly 248 trees** were planted in Tahura Pancoran Mas completing an ecological recovery action.\n   - The supposed source “Pemerintah Kota Depok: Tanam 248 Pohon, Pemkot Depok Pulihkan Ekosistem Tahura Pancoran Mas” does **not appear** in search results (using variations of the title in both English and Indonesian). This suggests it may be a misquoted headline, a future plan not yet implemented, or perhaps a non-existent or mistaken claim.\n\n---\n\n## Conclusion: What Can Be Asserted, What Is Not Verified\n\n| Statement | Verified / Supported | Details / Source |\n|-----------|-----------------------|------------------|\n| Planting of 248 trees in Tahura Pancoran Mas has occurred | **Not verified** | No reliable source confirms this specific number/event as completed. |\n| Tahura Pancoran Mas has been undergoing revitalization including tree-planting | **Verified** | Multiple sources (e.g. DetikTravel, local government websites) describe plans and actions toward ecosystem recovery, but not with that exact figure. ([travel.detik.com](https://travel.detik.com/travel-news/d-8317339/revitalisasi-cagar-alam-depok-buat-apa-sih?utm_source=openai)) |\n| Months of Depok-wide tree planting in 2026 show hundreds of trees planted in various locations | **Verified** | For example, 956 trees across different public spaces in October 2026 per DLHK Depok. ([siarandepok.com](https://www.siarandepok.com/baca/20261104/hijaukan-kota-depok-tanam-ratusan-pohon-sepanjang-oktober.html?utm_source=openai)) |\n\n---\n\n## Implications\n\n- **Incomplete or unsubstantiated event**: The claim “248 trees planted” in Tahura Pancoran Mas seems likely to be either **incorrect**, **premature (pledged but not completed)**, or **misreported**.\n- **Strong basis for positive environmental action**: Depok is clearly active in ecological restoration and tree-planting programs, including in Tahura Pancoran Mas, but the details must be precisely confirmed before citing as measured outcome.\n\n---\n\nIf you want, I can try digging further (e.g. contacting city data, or locating internal reports) to see whether the “248 trees” event is documented but not widely publicized.",
-      "citations": [
-        {
-          "title": "Hijaukan Kota, Depok Tanam Ratusan Pohon Sepanjang Oktober – Siaran Depok",
-          "url": "https://www.siarandepok.com/baca/20261104/hijaukan-kota-depok-tanam-ratusan-pohon-sepanjang-oktober.html?utm_source=openai"
-        },
-        {
-          "title": "Gencar Tanam Pohon, PPP Depok Sulap Kawasan TPS Liar jadi Kebun Buah | JurnalDepok",
-          "url": "https://jurnaldepok.id/2026/09/gencar-tanam-pohon-ppp-depok-sulap-kawasan-tps-liar-jadi-kebun-buah/?utm_source=openai"
-        },
-        {
-          "title": "Wali Kota Depok Tinjau Langsung Taman Hutan Raya Pancoran Mas, Percepat Proses Revitalisasi – Prokopim Kota Depok",
-          "url": "https://prokopim.depok.go.id/wali-kota-depok-tinjau-langsung-taman-hutan-raya-pancoran-mas-percepat-proses-revitalisasi/?utm_source=openai"
-        },
-        {
-          "title": "Revitalisasi Cagar Alam Depok Buat Apa Sih?",
-          "url": "https://travel.detik.com/travel-news/d-8317339/revitalisasi-cagar-alam-depok-buat-apa-sih?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "unsupported",
-      "outcome_status": "unclear",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Tree planting in Depok lacks verification for specific claims",
-      "verified_summary": "No evidence confirms that 248 trees were planted in Tahura Pancoran Mas. However, Depok has been active in ecological restoration efforts, including tree planting in various locations.",
-      "verification_note": "The claim of 248 trees planted is unsupported by reliable sources, though broader tree-planting initiatives in Depok are verified.",
-      "publish_recommendation": "reject"
-    },
-    {
-      "id": "b6169637d7d4f7",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "responses_web_search",
-      "search_model": "gpt-6-luna",
-      "research_notes": "**Research note — Malang City tree planting**\n\nOn **November 13, 2026**, Polresta Malang Kota and Malang’s mayor joined a planting event at the **Tugu Tirta PDAM reservoir in Merjosari, Lowokwaru**. The East Java Police news service reports **200 trees planted**; an independent local outlet also reports 200 at the Merjosari site. ([tribratanews.jatim.polri.go.id](https://tribratanews.jatim.polri.go.id/green-policing-polresta-malang-kota-tanam-200-pohon-kapolresta-dan-wali-kota-malang-perkuat-konservasi-sumber-air?utm_source=openai))\n\nThis supports a **completed planting activity**, not a measured conservation result. The sources describe hoped-for benefits to water absorption and the surrounding environment, but provide no follow-up data on tree survival or changes in water supply. The police report is an official account from an organizing agency; the local coverage corroborates the event but does not establish those longer-term outcomes. ([tribratanews.jatim.polri.go.id](https://tribratanews.jatim.polri.go.id/green-policing-polresta-malang-kota-tanam-200-pohon-kapolresta-dan-wali-kota-malang-perkuat-konservasi-sumber-air?utm_source=openai))\n\n**Source caution:** Several articles dated October 30 describe a separate 200-tree planting at **Sumber Juwet**, with different details. Don’t conflate that event with the November 13 Merjosari planting. ([restamalangkota.jatim.polri.go.id](https://restamalangkota.jatim.polri.go.id/gelorakan-green-policing-kapolresta-malang-kota-ajak-masyarakat-lestarikan-mata-air-dengan-tanam-200-pohon-buah-di-sumber-juwet/?utm_source=openai))",
-      "citations": [
-        {
-          "title": "Green Policing Polresta Malang Kota Tanam 200 Pohon, Kapolresta dan Wali Kota Malang Perkuat Konservasi Sumber Air - Polda Jatim",
-          "url": "https://tribratanews.jatim.polri.go.id/green-policing-polresta-malang-kota-tanam-200-pohon-kapolresta-dan-wali-kota-malang-perkuat-konservasi-sumber-air?utm_source=openai"
-        },
-        {
-          "title": "Gelorakan \"Green Policing\", Kapolresta Malang Kota Ajak Masyarakat Lestarikan Mata Air, Dengan Tanam 200 Pohon Buah di Sumber Juwet - Polres Malang Kota",
-          "url": "https://restamalangkota.jatim.polri.go.id/gelorakan-green-policing-kapolresta-malang-kota-ajak-masyarakat-lestarikan-mata-air-dengan-tanam-200-pohon-buah-di-sumber-juwet/?utm_source=openai"
-        }
-      ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 269. Please try again in 359ms. Visit https://platform.op",
-      "search_error": "",
-      "support": "unsupported",
-      "outcome_status": "completed",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Malang City plants 200 trees for water conservation efforts",
-      "verified_summary": "On November 13, 2026, Malang City planted 200 trees at the Tugu Tirta PDAM reservoir to enhance water conservation. However, there is no follow-up data on the trees' survival or their impact on water supply.",
-      "verification_note": "The initiative is completed, but lacks evidence of measurable conservation outcomes or long-term benefits.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "3c31b0b01670de",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "responses_web_search",
-      "search_model": "gpt-6-luna",
-      "research_notes": "### Research note\n\n- **Candidate article not verified:** I could not locate the exact International Online/CRI headline in live search. The source hint is therefore **not confirmed**, and the supplied summary’s claims about specific community benefits cannot be checked from that article.\n- **Measured outcome:** China’s Ministry of Ecology and Environment reported that the share of monitored water sections in the Yangtze Economic Belt meeting Grade I–III standards rose from **67% in 2015 to 96.5% in 2025**. It also reported the Yangtze finless porpoise population at **1,426**. These are reported outcomes, not plans or pledges. The same briefing noted that ecological improvement remains incomplete. ([cjjjd.ndrc.gov.cn](https://cjjjd.ndrc.gov.cn/gongzuodongtai/bumendongtai/202607/t20260713_1406489.htm))\n- **Economic/community claim needs qualification:** The ministry also reported average disposable income rising from **¥23,000 to ¥44,000** over the period, but that regionwide comparison does not establish that ecological protection caused the increase or demonstrate benefits to a particular community. ([cjjjd.ndrc.gov.cn](https://cjjjd.ndrc.gov.cn/gongzuodongtai/bumendongtai/202607/t20260713_1406489.htm))\n- **Independent evidence:** A 2026 *Nature Reviews Biodiversity* research highlight summarizes a *Science* study as finding initial evidence of biodiversity recovery after the fishing ban and related interventions. It also notes that dams still impede migratory species and that no single intervention is sufficient. ([nature.com](https://www.nature.com/articles/s44358-026-00145-1?error=cookies_not_supported&code=03f36cf9-0375-4ea1-ae5f-2dc12443175f))\n- **Sourcing caveat:** Several ten-year retrospectives repeat figures from official briefings or Xinhua/CCTV reporting; they should not be counted as independent confirmation. The CRI ten-year item located in this search explicitly credits CCTV News as its source. ([news.cri.cn](https://news.cri.cn/20260520/5ac9e7a3-72c9-442c-b996-0a9fde43d7f7.html))\n\n**Bottom line:** There is support for measurable, basin-wide water-quality improvement and some biodiversity recovery. The specific candidate’s local community-impact claim remains unverified; the available regional statistics do not by themselves prove a local or causal livelihood benefit.",
-      "citations": [
-        {
-          "title": "〖生态环境部：“十四五”全国水生态环境质量实现转折性变化〗-长江经济带",
-          "url": "https://cjjjd.ndrc.gov.cn/gongzuodongtai/bumendongtai/202607/t20260713_1406489.htm"
-        },
-        {
-          "title": "Promising biodiversity recovery in the Yangtze River | Nature Reviews Biodiversity",
-          "url": "https://www.nature.com/articles/s44358-026-00145-1?error=cookies_not_supported&code=03f36cf9-0375-4ea1-ae5f-2dc12443175f"
-        },
-        {
-          "title": "联播一瞬丨太空视角！见证长江岸线十年蝶变-国际在线",
-          "url": "https://news.cri.cn/20260520/5ac9e7a3-72c9-442c-b996-0a9fde43d7f7.html"
-        }
-      ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 271. Please try again in 362ms. Visit https://platform.op",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "measured_progress",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Yangtze River ecological efforts show measurable improvements",
-      "verified_summary": "Ecological protection efforts along the Yangtze River have led to improved water quality and some biodiversity recovery. However, specific claims about community benefits remain unverified.",
-      "verification_note": "While there are measurable improvements in water quality and biodiversity, the candidate's claims about community impact lack independent verification.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "3303fafd256d25",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a concise factual research note on **“Mapping 25 million brain cells advances neuroscience research”**, based on live sources.  \n\n---\n\n### What actually happened: the core scientific outcome\n\n- On **November 12, 2026**, an international consortium of neuroscientists published a landmark cellular atlas of the **basal ganglia**, a key brain region linked to movement, habit formation, decision-making, and disorders such as Parkinson’s, Huntington’s disease, addiction, OCD, bipolar disorder, and schizophrenia. ([nature.com](https://www.nature.com/articles/d41586-026-03565-3?utm_source=openai))  \n- The atlas profiles **25.5 million individual brain cells** (cell types) across three primate species: approximately **21 million human cells**, **3 million macaque cells**, and **1.5 million marmoset cells**. ([alleninstitute.org](https://alleninstitute.org/news/scientists-create-landmark-cellular-atlas-of-one-of-the-brains-most-important-regions?utm_source=openai))  \n- The work was published as a **package of 26–28 papers** across several **Cell Press journals**. ([salk.edu](https://www.salk.edu/news-release/brain-initiative-scientists-map-human-basal-ganglia/?utm_source=openai))  \n\n---\n\n### Key features and findings\n\n- The atlas is **multi-modal**: it integrates information on gene expression (single-cell RNA sequencing), epigenetic regulation (such as DNA accessibility and methylation), and spatial metadata (where cells are located in three dimensions), as well as species comparison. ([alleninstitute.org](https://alleninstitute.org/news/scientists-create-landmark-cellular-atlas-of-one-of-the-brains-most-important-regions?utm_source=openai))  \n- A common **cell-type taxonomy or “parts list”** for the basal ganglia was created, based on these cross-species data, to standardize how cell types are named, classified, and compared across humans, macaques, marmosets, and referencing mouse brain data. ([thetransmitter.org](https://www.thetransmitter.org/basal-ganglia/new-phase-of-brain-initiative-spawns-basal-ganglia-parts-list/?utm_source=openai))  \n- Among novel discoveries:\n  - Identification of previously under-characterized cell types in the basal ganglia that are **conserved across species** over ~76 million years of evolution. ([nature.com](https://www.nature.com/articles/d41586-026-03565-3?utm_source=openai))  \n  - A specific neuronal subtype (spiny projection neurons) newly linked to **schizophrenia and bipolar disorder**. ([alleninstitute.org](https://alleninstitute.org/news/scientists-create-landmark-cellular-atlas-of-one-of-the-brains-most-important-regions?utm_source=openai))  \n  - Demonstration in a **mouse model of Parkinson’s disease** that using genetic tools targeting a subset of basal ganglia cells can reduce symptoms comparably to generalized treatments, with fewer side effects. ([nih.gov](https://www.nih.gov/news-events/news-releases/first-time-researchers-map-out-brains-behavioral-gatekeeper?utm_source=openai))  \n\n---\n\n### What is measured vs. what is planned/announced\n\n- **Measured outcome**: The atlas—over 25.5 million cells profiled; cross-species comparisons; identification of cell types and their locations; proof-of-concept functional experiments in animal models. ([nature.com](https://www.nature.com/articles/d41586-026-03565-3?utm_source=openai))  \n- **Announcements, pledges, future plans**: The work is positioned as a first major step of the BRAIN Initiative Cell Atlas Network (BICAN), with goals to map remaining brain regions. There are tools released (web platforms, computational methods) to enable mapping of other brain data onto this reference. But no new therapies in humans have yet been proven. ([nih.gov](https://www.nih.gov/news-events/news-releases/first-time-researchers-map-out-brains-behavioral-gatekeeper?utm_source=openai))  \n\n---\n\n### Sources & verification\n\n- **Primary sources**:  \n  - NIH BRAIN Initiative announcements describe the project details and date. ([nih.gov](https://www.nih.gov/news-events/news-releases/first-time-researchers-map-out-brains-behavioral-gatekeeper?utm_source=openai))  \n  - Original research published in multiple **Cell Press journals** (including Cell, Neuron, Cell Reports, etc.) on **Nov 12, 2026**, as part of the BICAN consortia. ([nature.com](https://www.nature.com/articles/d41586-026-03565-3?utm_source=openai))  \n\n- **Independent reporting**:  \n  - Nature (“Massive atlas…”), STAT, Penn Today, The Scientist, and various science media. These sources confirm the figures (25.5 million cells; species breakdown; disease links) and offer interpretation of implications. ([nature.com](https://www.nature.com/articles/d41586-026-03565-3?utm_source=openai))  \n\n---\n\n### Summary\n\nThis is a **completed scientific outcome**: an extensive, multi-species, multi-modal atlas of basal ganglia cells, officially published, with measurable data (25.5 million cells, disease-linked cell types, etc.). It is **not** a future plan, pledge, or proposal—it has already been achieved and made public.  \n\nThe atlas is expected to be a **tool/resource** that will aid future research into neurological and psychiatric disorders, help map genetic risk against specific cell types, and accelerate precision therapies—but these follow-on uses are, as of Nov 2026, potential applications rather than proven treatments.",
-      "citations": [
-        {
-          "title": "Massive atlas of brain region linked to a host of diseases is the most detailed yet",
-          "url": "https://www.nature.com/articles/d41586-026-03565-3?utm_source=openai"
-        },
-        {
-          "title": "Scientists create landmark cellular atlas of one of the brain’s most important regions",
-          "url": "https://alleninstitute.org/news/scientists-create-landmark-cellular-atlas-of-one-of-the-brains-most-important-regions?utm_source=openai"
-        },
-        {
-          "title": "",
-          "url": "https://www.salk.edu/news-release/brain-initiative-scientists-map-human-basal-ganglia/?utm_source=openai"
-        },
-        {
-          "title": "New BRAIN Initiative phase spawns basal ganglia ‘parts’ | The Transmitter: Neuroscience News and Perspectives",
-          "url": "https://www.thetransmitter.org/basal-ganglia/new-phase-of-brain-initiative-spawns-basal-ganglia-parts-list/?utm_source=openai"
-        },
-        {
-          "title": "For the first time, researchers map out the brain’s behavioral gatekeeper   | National Institutes of Health (NIH)",
-          "url": "https://www.nih.gov/news-events/news-releases/first-time-researchers-map-out-brains-behavioral-gatekeeper?utm_source=openai"
+          "title": "Food Waste Prevention & Management Study",
+          "url": "https://www.iowadnr.gov/media/8921/download?inline=&utm_source=openai"
         }
       ],
       "fallback_error": "",
@@ -249,38 +34,50 @@
       "evidence_quality": "high",
       "independence": "multiple_independent",
       "significance": "high",
-      "verified_headline": "New brain cell atlas enhances neuroscience research",
-      "verified_summary": "An international consortium published a detailed atlas of 25.5 million brain cells from multiple species, aiding research into neurological disorders. This completed work provides measurable outcomes and insights into cell types linked to diseases.",
-      "verification_note": "The research confirms the completion of a significant scientific atlas with measurable outcomes, supporting its impact on neuroscience.",
+      "verified_headline": "Table to Table rescues 2.7 million pounds of food in Iowa",
+      "verified_summary": "Table to Table rescued and redistributed 2.7 million pounds of food in the fiscal year 2023-2024, significantly impacting food insecurity in Iowa.",
+      "verification_note": "The claim is supported by multiple independent sources confirming the food rescue figures and the organization's mission.",
       "publish_recommendation": "publish"
     },
     {
-      "id": "a2e6f92c9a3bb8",
+      "id": "75a9edd6b72b09",
       "editorial_score": 80,
       "editorial_decision": "reserve",
-      "search_backend": "responses_web_search",
-      "search_model": "gpt-6-luna",
-      "research_notes": "### Research note\n\n- **What happened:** Researchers conducted a **completed, one-year field trial** of biochar microbial fertilizer on flue-cured tobacco in Zaoyang, Hubei, China. The original study was published **January 23, 2026**; its version of record is dated **February 16, 2026**. This was a measured experiment, not an announcement or launch. ([link.springer.com](https://link.springer.com/article/10.1186/s13213-026-01843-z))\n- **What was measured:** The randomized-block trial had 12 plots—four treatments, three replicates each. The paper reports the highest yield, **142.92 kg per mu**, in the T3 treatment; its methods specify that T3 received 150 kg/acre of the fertilizer. The researchers also measured changes in soil nutrients and microbial communities. Some results varied by treatment and sampling time. ([link.springer.com](https://link.springer.com/article/10.1186/s13213-026-01843-z))\n- **Limits on the claim:** The finding concerns **one tobacco crop at one site**, not crops generally. The authors say multi-year trials are needed to assess long-term effects. The broad headline “enhances crop yield and soil health” overstates what this specific study establishes. ([link.springer.com](https://link.springer.com/article/10.1186/s13213-026-01843-z))\n- **Source check:** The primary source is the *Annals of Microbiology* paper. Bioengineer’s article is dated **November 13, 2026**, but identifies Scienmag as its news source; it is therefore not independent confirmation. I found no independent reporting that separately verifies the results. ([bioengineer.org](https://bioengineer.org/biochar-microbial-fertilizer-enhances-flue-cured-tobacco-yield-and-rhizosphere-soil-health/))",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here is a research note summarizing what actually has been established so far regarding “abundant saline infusion after thrombolysis” in acute ischemic stroke.\n\n---\n\n## What has been completed (measured outcomes)\n\n1. **Preliminary (“pilot”) study from Taiwan**  \n   - Published in *Emergency Medicine International* in April 2025. This single-arm interventional study involved 20 acute ischemic stroke (AIS) patients treated with rt-PA who showed evidence of hypovolemia (measured by elevated blood urea nitrogen–creatinine ratio, BCR>15) compared to a historical control group of 170 similar patients. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12041639/?utm_source=openai))  \n   - Intervention: after rt-PA, the treatment arm got enhanced hydration with 0.9% NaCl at 20 mL/kg body weight (one-third as bolus, rest over 8 hours), then maintenance at 40-80 mL/h over the next 16 hours. Control patients received standard hydration (40-60 mL/h over the first 24 h). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12041639/?utm_source=openai))  \n   - Outcome at 3 months: 45.0% of the enhanced hydration group achieved favorable functional outcome (modified Rankin Scale [mRS] ≤2), compared to 21.2% in the control group. This difference was statistically significant (p = 0.018). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12041639/?utm_source=openai))  \n   - Early neurological deterioration (END) (worsening NIHSS ≥4 within 72 hours): no significant difference between groups (10.0% vs. 10.6%, p=0.661) in the full AIS population; subgroup analysis showed benefits in the lower-severity group (NIHSS 4-10) but not in higher severity (NIHSS 11-24). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12041639/?utm_source=openai))  \n   - Safety: No patient in the enhanced hydration group had major adverse events such as heart failure, pulmonary edema etc., and complication rates were not significantly different between groups. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12041639/?utm_source=openai))  \n\n2. **NS-STAR / NS-STROKE (China)**  \n   - This is a *completed* Phase II randomized controlled trial conducted by Tianjin Medical University General Hospital (3 sites in China), registered as NCT05993078 (“NS-STAR”) targeting **acute ischemic stroke** treated with intravenous thrombolysis (IVT) with a large saline infusion (2,000 mL normal saline at 200 mL/h) vs control (200–400 mL NS) immediately after IVT. ([syfrah.com](https://www.syfrah.com/trial/NCT05993078?utm_source=openai))  \n   - Results: According to a dataset published Aug 7, 2025, the NS-STROKE trial found that \"early administration of abundant intravenous normal saline\" after thrombolysis *improved 90-day outcomes* without increasing risk of death or cardiac dysfunction. ([data.mendeley.com](https://data.mendeley.com/datasets/mkf7ffnb2z/1?utm_source=openai))  \n   - Data details: primary outcome was favorable functional independence at 90 days (mRS 0-2 vs 3-6). Secondary outcomes included NIHSS changes, early neurological deterioration, imaging/lab metrics, mortality etc. Safety endpoints included intracranial hemorrhage, blood pressure fluctuations, etc. ([syfrah.com](https://www.syfrah.com/trial/NCT05993078?utm_source=openai))  \n\n---\n\n## What remains a launch/planned / not yet fully established\n\n- **Phase III trial** (“NS-STROKE-2”, ClinicalTrials.gov NCT07497542) is planned (or recently initiated) to test “immediate abundant intravenous normal saline infusion” (2,000-2,500 mL) vs small volume (≤600 mL) after thrombolysis. Enrollment and completion dates are in the future (2026-2029). No results yet. ([clinicaltrials.gov](https://clinicaltrials.gov/study/NCT07497542?lastUpdPost=2020-01-10_&utm_source=openai))  \n- Previous hydration trials (e.g. “REVIVE”) had tested enhanced vs standard hydration based on BUN/Cr criteria, but not specifically *immediately after* thrombolysis, or with such large bolus saline volumes; those did **not** show improved outcomes at 72 hours for early neurological deterioration. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11528967/?utm_source=openai))  \n\n---\n\n## Conclusion\n\n- There **is evidence** from both pilot/interventional and randomized trials that abundant (large-volume) normal saline infusion *after thrombolysis* may improve functional recovery (e.g. mRS 0-2 at 90 days) in acute ischemic stroke, **without major safety signals**—particularly in patients with mild to moderate stroke severity and evidence of hypovolemia.  \n- However, the strongest evidence so far remains preliminary (small sample in Taiwan) and phase II RCTs (NS-STAR). A large multicenter randomized phase III is planned; its completion (expected ~2029) is needed for definitive confirmation.  \n\n---\n\nIf you want, I can retrieve more details (e.g. numbers needed to treat, confidence intervals) or assess the trial designs and limitations.",
       "citations": [
         {
-          "title": "Biochar microbial fertilizer enhances flue-cured tobacco quality and yield by regulating rhizosphere soil nutrients and microbial community | Annals of Microbiology | Springer Nature Link",
-          "url": "https://link.springer.com/article/10.1186/s13213-026-01843-z"
+          "title": "Association Between Enhanced Hydration Therapy and Improved Prognosis in Patients With Acute Ischemic Stroke Who Were Treated With Thrombolytics: A Preliminary Study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12041639/?utm_source=openai"
         },
         {
-          "title": "Biochar Microbial Fertilizer Enhances Flue-Cured Tobacco Yield and",
-          "url": "https://bioengineer.org/biochar-microbial-fertilizer-enhances-flue-cured-tobacco-yield-and-rhizosphere-soil-health/"
+          "title": "NCT05993078 - Normal Saline Infusion for Stroke After Intravenous Thrombolysis | Syfrah",
+          "url": "https://www.syfrah.com/trial/NCT05993078?utm_source=openai"
+        },
+        {
+          "title": "NS-STROKE Trial",
+          "url": "https://data.mendeley.com/datasets/mkf7ffnb2z/1?utm_source=openai"
+        },
+        {
+          "title": "Study Details | NCT07497542 | Normal Saline Infusion After Intravenous Thrombolysis in Stroke | ClinicalTrials.gov",
+          "url": "https://clinicaltrials.gov/study/NCT07497542?lastUpdPost=2020-01-10_&utm_source=openai"
+        },
+        {
+          "title": "Enhanced versus standard hydration in acute ischemic stroke: REVIVE—A randomized clinical trial",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11528967/?utm_source=openai"
         }
       ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 263. Please try again in 351ms. Visit https://platform.op",
+      "fallback_error": "",
       "search_error": "",
       "support": "partially_supported",
       "outcome_status": "measured_progress",
       "evidence_quality": "medium",
-      "independence": "single_source",
-      "significance": "medium",
-      "verified_headline": "Biochar fertilizer improves tobacco yield in field trial",
-      "verified_summary": "A one-year field trial in China showed that biochar microbial fertilizer increased tobacco yield and positively affected soil health. However, results are limited to one crop at one site.",
-      "verification_note": "The study shows measurable benefits for tobacco yield but is limited in scope and requires further research for broader applicability.",
+      "independence": "multiple_independent",
+      "significance": "high",
+      "verified_headline": "Saline infusion after thrombolysis shows promise for stroke recovery",
+      "verified_summary": "Research indicates that abundant saline infusion after thrombolysis may improve recovery outcomes for acute ischemic stroke patients, particularly those with mild to moderate severity. However, further large-scale studies are needed for definitive conclusions.",
+      "verification_note": "Evidence from pilot and phase II trials suggests improved outcomes, but larger phase III trials are planned for confirmation.",
       "publish_recommendation": "reserve"
     }
   ],
