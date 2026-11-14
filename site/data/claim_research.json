@@ -1,136 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-13T19:07:33.841088Z",
+  "last_attempt_utc": "2026-11-14T01:16:35.573047Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 16,
-  "active_checked": 3,
+  "active_checked": 6,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "da156649e45bd16d34a9b53e": {
-      "event_id": "da156649e45bd16d34a9b53e",
-      "checked_at": "2026-10-30T07:10:01.330788Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
-          "original_document_title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
-          "source_date": "Oct. 25, 2026",
-          "retrieved_at": "2026-10-30T07:09:54.173701Z",
-          "exact_quote": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt een bezoek aan de Straat van Hormuz, maar ondersteunt de claim niet.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "Er zijn geen officiële verklaringen die de claim over explosies en aanvallen ondersteunen, maar er zijn wel gerelateerde opmerkingen over de situatie in de Straat van Hormuz.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
-          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
-          "source_publication_date": "Oct. 25, 2026",
-          "text_excerpt": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
-        },
-        {
-          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
-          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
-          "source_publication_date": null,
-          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
-        }
-      ]
-    },
-    "8ac52fbfea2531bf2b150f6e": {
-      "event_id": "8ac52fbfea2531bf2b150f6e",
-      "checked_at": "2026-10-30T07:10:01.330796Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-10-30T07:09:56.306697Z",
-          "exact_quote": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
-          "claim_validated_as_fact": false,
-          "specificity_check": "downgraded"
-        }
-      ],
-      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://home.treasury.gov/news/press-releases/sb0668/",
-          "title": "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23 | U.S. Department of the TreasuryLock",
-          "source_publication_date": "2026-10-28T14:30:00Z",
-          "text_excerpt": "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
-        }
-      ]
-    },
-    "d9d2b32e7d19916be0888340": {
-      "event_id": "d9d2b32e7d19916be0888340",
-      "checked_at": "2026-10-30T13:08:07.221344Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over explosies op Qeshm Island ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/sign-in-universal-credit",
-          "title": "Sign in to your Universal Credit account - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Reports, analysis and official statistics"
-        },
-        {
-          "url": "https://www.gov.uk/evisa",
-          "title": "eVisas: access and use your online immigration status: What an eVisa is - GOV.UK\nGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Reports, analysis and official statistics"
-        }
-      ]
-    },
     "4405f50a8f20a4dee31138ec": {
       "event_id": "4405f50a8f20a4dee31138ec",
       "checked_at": "2026-10-31T01:11:27.879940Z",
@@ -3854,14 +3733,129 @@
           "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
         }
       ]
+    },
+    "325c2bc2ce531f9b655322b8": {
+      "event_id": "325c2bc2ce531f9b655322b8",
+      "checked_at": "2026-11-14T01:16:35.572991Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-14T01:16:25.066021Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten, maar bevestigt niet specifiek de aanval op het radarsysteem.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële tekst vermeldt de intenties van Iran, maar biedt geen bevestiging of ontkenning van de specifieke aanval op het radarsysteem in Bahrein.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "follow advice from the local authorities. Saudi Civil Defence may issue early warning alerts to people in affected areas"
+        }
+      ]
+    },
+    "5cc83ce993f61c0ec5ae4a35": {
+      "event_id": "5cc83ce993f61c0ec5ae4a35",
+      "checked_at": "2026-11-14T01:16:35.573014Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/government/speeches/middle-east-update-oral-statement",
+          "original_document_title": "Middle East Update Oral Statement - GOV.UKGOV.UK",
+          "source_date": "2026-03-09T18:00:00+00:00",
+          "retrieved_at": "2026-11-14T01:16:27.301168Z",
+          "exact_quote": "Iran still then struck multiple countries with drones and missiles, including Bahrain",
+          "relation": "related_only",
+          "older_document_than_claim": true,
+          "reason_nl": "Ouder document: toont geen bewijs van nieuwe gebeurtenis. De passage bevestigt dat Iran aanvallen heeft uitgevoerd, maar specificeert niet de aanval op het Amerikaanse radarsysteem.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De tekst bevestigt dat Iran aanvallen heeft uitgevoerd in Bahrein, maar biedt geen specifieke informatie over de aanval op het radarsysteem.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/government/speeches/middle-east-update-oral-statement",
+          "title": "Middle East Update Oral Statement - GOV.UKGOV.UK",
+          "source_publication_date": "2026-03-09T18:00:00+00:00",
+          "text_excerpt": "Even after the Iranian President’s apology and promise to Gulf states over the weekend, Iran still then struck multiple countries with drones and missiles, including Bahrain where 32 civilians were injured in one attack and a desalination plant was h"
+        }
+      ]
+    },
+    "b1ebe69d82a8c970b59be87a": {
+      "event_id": "b1ebe69d82a8c970b59be87a",
+      "checked_at": "2026-11-14T01:16:35.573021Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over het neerschieten van Iraanse drones ondersteunen of ontkennen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/check-state-pension",
+          "title": "Check your State Pension forecast - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You might be able to pay voluntary contributions to fill in gaps in your National Insurance record (such as, from when you were not working or claiming benefits)."
+        },
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Do not include personal or financial information like your National Insurance number or credit card details."
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-11": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 5727
-    },
     "2026-11-12": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -3871,6 +3865,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 5959
+    },
+    "2026-11-14": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1707
     }
   },
   "last_error": null

@@ -1,40 +1,39 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-13T19:07:19.480560Z",
-  "fingerprint": "a62123c2f794a1b3345dde11",
+  "last_attempt_utc": "2026-11-14T01:15:55.522388Z",
+  "fingerprint": "2d1243a742d695a845f7db66",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 18,
+  "input_candidate_count": 19,
   "event_candidate_count": 16,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
-    "accepted_pair_connections": 2,
+    "model_pair_proposals": 5,
+    "accepted_pair_connections": 3,
     "rejected_pair_proposals": 2,
-    "multi_claim_groups": 2,
-    "claims_in_multi_groups": 4,
+    "multi_claim_groups": 3,
+    "claims_in_multi_groups": 6,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 2,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-13T19:07:19.480560Z",
+    "recorded_at": "2026-11-14T01:15:55.522388Z",
     "groups": [
       {
         "ids": [
-          "1d08cacfb570b6",
-          "8e862354e46434"
+          "02753692adc238"
         ],
-        "label_nl": "Claim: Iran Strikes U.S. Military Radar in Bahrain, Claims Retaliation - Udaipur Kiran",
+        "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -61,14 +60,26 @@
       },
       {
         "ids": [
-          "e010f9a0d63572"
+          "20481f3a50a697"
+        ],
+        "label_nl": "Claim: Oil futures: Crude extends gains as US-Iran talks stall - Quantum Commodity Intelligence",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "e010f9a0d63572",
+          "c6ad0f7287f5c3"
         ],
         "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -94,9 +105,9 @@
       },
       {
         "ids": [
-          "02753692adc238"
+          "c4beb0da202327"
         ],
-        "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
+        "label_nl": "Claim: US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain - AOL.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -105,9 +116,9 @@
       },
       {
         "ids": [
-          "56728258f55cb6"
+          "e1f7860ac4b6bb"
         ],
-        "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
+        "label_nl": "Claim: Trump halts Vance's negotiations with Iran, marking a \"180-degree shift\": pivoting to a \"no war, no talks\" stance. - 富途牛牛",
         "actor": "",
         "action": "",
         "place": "",
@@ -116,14 +127,15 @@
       },
       {
         "ids": [
-          "bde81b0a60a540"
+          "bde81b0a60a540",
+          "2c0657d84a30ec"
         ],
         "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -149,9 +161,9 @@
       },
       {
         "ids": [
-          "81e4fceca9bbe0"
+          "3beda646604c5f"
         ],
-        "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
+        "label_nl": "Claim: Middle East latest: US says it shot down Iranian drones launched toward Bahrain - The National",
         "actor": "",
         "action": "",
         "place": "",
@@ -160,9 +172,9 @@
       },
       {
         "ids": [
-          "2c0657d84a30ec"
+          "56728258f55cb6"
         ],
-        "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
+        "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -182,17 +194,6 @@
       },
       {
         "ids": [
-          "c6ad0f7287f5c3"
-        ],
-        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
           "7c0bcdcaa86cf9"
         ],
         "label_nl": "Claim: Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
@@ -204,20 +205,21 @@
       }
     ],
     "input_claim_ids": [
-      "1d08cacfb570b6",
+      "02753692adc238",
       "6dc6cd7e45b30f",
       "6738a21be33922",
+      "20481f3a50a697",
       "e010f9a0d63572",
       "cdbcccd715dbe0",
       "35e380a51e98ef",
-      "02753692adc238",
-      "56728258f55cb6",
+      "c4beb0da202327",
+      "e1f7860ac4b6bb",
       "bde81b0a60a540",
       "e7555912fbbd42",
       "92dd73fb45de4a",
       "070cffe9ab582a",
-      "8e862354e46434",
-      "81e4fceca9bbe0",
+      "3beda646604c5f",
+      "56728258f55cb6",
       "2c0657d84a30ec",
       "0550ef4f8093d4",
       "c6ad0f7287f5c3",
@@ -225,45 +227,8 @@
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 2,
+  "direct_official_match_count": 0,
   "events": [
-    {
-      "id": "753a6f70c963be3eeaa4685c",
-      "label_nl": "Claim: Iran Strikes U.S. Military Radar in Bahrain, Claims Retaliation - Udaipur Kiran",
-      "headline_claim_ids": [
-        "1d08cacfb570b6",
-        "8e862354e46434"
-      ],
-      "headline_claims": [
-        "Iran Strikes U.S. Military Radar in Bahrain, Claims Retaliation - Udaipur Kiran",
-        "Iran claims attack on US radar, reports tanker explosion in Hormuz - The Arab Weekly"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUE96RUdEbWllMFdaTzA5WERDTGdkNmlIQ01HMjRnZF9VVnVEcUJaamk1b21veWVEVG45bU5YSkJWMWVJMGdFZ1NNQnB4dzdHWnpKRFpkUERnTHg3MjNtdW52dXRhY2c5U043aEVlQXB5aHViZVBPRElzWXAtX2N6Q2FSUENCZDBuR2JYbDNFeUw?oc=5",
-        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdVRIdDRQZFByNllsRlFIZTlCU0swZ1VfMHBSNmxNakotbHZRZjlsOVU2ZWd4bGpjeUxod19XQU5xZ2IzVUExcGpEdE1waXk2T3ptSzNEUHRZMzJkX2N3aTBKR0VqQWJ5amdVSFdub0tRQ2RUOG1yUVlGUk1YalNNOUwxNTVkLXVVSkV1UzF3?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_bahrain:p1",
-        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel, including, but not limited to, organisations, businesses, facilities, ",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim dat Iran militaire doelen heeft gesteld die verband houden met de VS, wat relevant is voor de beschuldiging van een aanval.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
-      "verified_event": false,
-      "probability_estimate": null
-    },
     {
       "id": "325c2bc2ce531f9b655322b8",
       "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
@@ -274,7 +239,34 @@
         "US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN1p5YjNMaDdCanEwSGJZMzhjWWRTSmk5MURQX21yd3VTUVRzMDNJNl9pbmNlZE5WbEpaWW5Rb0tkVVhXVUpUY1QtbUVtWVVhc042VTlBeXJ6bS1IcWZSSGdCdlYzSkRSQjhfb21MMWZRNHFqcTV1VXY3eEZkcGFrMi1idk1BRWVZZXN4bDZZcENVMUJJb1Nxejd3R3FSLW1CeHVlYmNoX3NCQ3JGLVY2UXpTaXpaM251QXgwYWtR0gHDAUFVX3lxTE5RTThzUWs3WDJGX2VsX0gzbmpmZG83WHp3MXFlclRYR0dlQUFpMFRCOUR5UkYyQm54Sjk3M3J3V0ptdGdaSHFYQi13T2o0Y1VzYmFkVUlDYkJCY2QzYlgyYUlfWXo0bi1YRkhtY0NGRmc0N2JiTFgxb0ZmdjUwZnFyTk5VWVFuV1ZrVTh4VlRPTFU2LXZIVkR3aUZwYktqY0I4TUszamNsY2owcnI2VVBKczI4UXBTVkt4T0Fpb1NiQkdfcw?oc=5"
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN1p5YjNMaDdCanEwSGJZMzhjWWRTSmk5MURQX21yd3VTUVRzMDNJNl9pbmNlZE5WbEpaWW5Rb0tkVVhXVUpUY1QtbUVtWVVhc042VTlBeXJ6bS1IcWZSSGdCdlYzSkRSQjhfb21MMWZRNHFqcTV1VXY3eEZkcGFrMi1idk1BRWVZZXN4bDZZcENVMUJJb1Nxejd3R3FSLW1CeHVlYmNoX3NCQ3JGLVY2UXpTaXpaM251QXgwYWtR0gHDAUFVX3lxTE5RTThzUWs3WDJGX2VsX0gzbmpmZG83WHp3MXFlclRYR0dlQUFpMFRCOUR5UkYyQm54Sjk3M3J3V0ptdGdaSHFYQi13T2o0Y1VzYmFkVUlDYkJCY2QzYlgyYUlfWXo0bi1YRkhtY0NGRmc0N2JiTFgxb0ZmdjUwZnFyTk5VWVFuV1ZrVTh4VlRPTFU2LXZIVkR3aUZwYktqY0I4TUszamNsY2owcnI2VVBKczI4UXBTVkt4T0Fpb1NiQkdfcw?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "5cc83ce993f61c0ec5ae4a35",
+      "label_nl": "Claim: US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain - AOL.com",
+      "headline_claim_ids": [
+        "c4beb0da202327"
+      ],
+      "headline_claims": [
+        "US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain - AOL.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbDRfR2NJS05lekhQX2ZnM0tuemFhQkQ0dmZpRVlfQlhqYUVfdl9oOGQ3aDQ4WGJMS3RlcmNONU5KaU56b0VOQjRwUE9XUDN3aENZekROdWJkRVBHUlpKNXN4UllycURGb09vcWxEN0RGcnczeTRyazRiOFBiaHBkajJuRV9HbzNDS003OQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -285,16 +277,34 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_bahrain:p1",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others across the region against civilian and US military infrastructure.",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim dat er aanvallen zijn geweest door Iran op militaire infrastructuur van de VS.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "b1ebe69d82a8c970b59be87a",
+      "label_nl": "Claim: Middle East latest: US says it shot down Iranian drones launched toward Bahrain - The National",
+      "headline_claim_ids": [
+        "3beda646604c5f"
+      ],
+      "headline_claims": [
+        "Middle East latest: US says it shot down Iranian drones launched toward Bahrain - The National"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbHpya1kzWkI5N2YyUmx5cl9nOGJWV1lldzUyN0ZqcVRyQW11LW00TVRJQjA4d2ExS1VGWXduYmxPZjBOclZXamg1TWFHZ3FnSHpDcXRrd3RwUE5mQjhVYWhQdGsxcFBVaXpfdmJmcDc3T052cHFvUGN1RUJqZ1NiZ01WNFFIam1KZlFtRDRJMDRVclRJTmU4?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -326,8 +336,90 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p12",
+        "exact_excerpt": "Air, sea and land routes are under the control of the Iranian authorities.",
+        "relation": "related_only",
+        "reason_nl": "De passage is gerelateerd aan de situatie in de regio, maar bevestigt geen specifieke aanval of gebeurtenis.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "5823c0c277de14d30ac8e586",
+      "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
+      "headline_claim_ids": [
+        "e010f9a0d63572",
+        "c6ad0f7287f5c3"
+      ],
+      "headline_claims": [
+        "Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
+        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZmVJVmdwRGtUTGtOSUlCZmhBT3pZME5QWFlRcE5IYVExT2x4bS1MeV94X1F3Zl8zcGVDeXlDdXdOWVVKTllmOVk1UDVVNVBvcVlaS1RKTnM5MlF3anFMamM4enk1Rmh2cUNVZkViZzVlMzdaUmJIdEVBRVpaVC1GMHZXZWlkbjRXT19heWoxTi1hOC1xTWF1Y1RRTDhwd0lHcHFVUGVTT0hvU2k4UXozOXdUUEhGeVlyWWRVdXEtb09PWHJpYVNrY1ZVM27SAdIBQVVfeXFMT1N0dFFXUW5LeU9Rb1VBZVdkZTBNZTAxcEJSOUV5OWw1QXlLRmpBYTVsQnNscHhmMUdTNHA5TVBlVW51dXhZVTZzV2JJaThrUDltWm1VMXBOaFpGT0hjOG9xZVRBQ0wzMmUwNkJ6ZVFYLUxnbDRLVnpCUG5hU08wa1VZbmdzc1BndlhabHRpdkxXU1ZRZEl0NHpBX0dBS3NJVmhPRUg3OUJfTEpYWFliblhvWUZzWkN3WU9SQm41RFpJQVZ6LWFOMGlPQUYzWHpZd2pn?oc=5",
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "085e9d01c68d5fa1d4f7afdd",
+      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
+      "headline_claim_ids": [
+        "bde81b0a60a540",
+        "2c0657d84a30ec"
+      ],
+      "headline_claims": [
+        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
+        "UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlsNHc0c3pGN1ZNNGl1cjdqMW9oNlVVUzM5V1JIS1ZCOWRlN3NrdjFwcWRld2FURmpfUWdoSUlUY3B4RUdneW94dnNOYVluLXg4RThxM2ZVRk5INENzTy1OR1M1NXRsN1lNUFI3cjhXZ1JicUpLekJYb1dUQmtYejcyRnMtTnpCNFFKRTZqUDUyUQ?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_saudi:p7",
+        "exact_excerpt": "There is a heightened threat against airports, Saudi military",
+        "relation": "related_only",
+        "reason_nl": "De passage is gerelateerd aan de dreiging in de regio, maar bevestigt geen specifieke aanval of gebeurtenis.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -352,22 +444,30 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "1c3e20fdadcb5bed9848f241",
-      "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
+      "id": "10465fad17fbe18b9901eb2f",
+      "label_nl": "Claim: Oil futures: Crude extends gains as US-Iran talks stall - Quantum Commodity Intelligence",
       "headline_claim_ids": [
-        "e010f9a0d63572"
+        "20481f3a50a697"
       ],
       "headline_claims": [
-        "Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal"
+        "Oil futures: Crude extends gains as US-Iran talks stall - Quantum Commodity Intelligence"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZmVJVmdwRGtUTGtOSUlCZmhBT3pZME5QWFlRcE5IYVExT2x4bS1MeV94X1F3Zl8zcGVDeXlDdXdOWVVKTllmOVk1UDVVNVBvcVlaS1RKTnM5MlF3anFMamM4enk1Rmh2cUNVZkViZzVlMzdaUmJIdEVBRVpaVC1GMHZXZWlkbjRXT19heWoxTi1hOC1xTWF1Y1RRTDhwd0lHcHFVUGVTT0hvU2k4UXozOXdUUEhGeVlyWWRVdXEtb09PWHJpYVNrY1ZVM27SAdIBQVVfeXFMT1N0dFFXUW5LeU9Rb1VBZVdkZTBNZTAxcEJSOUV5OWw1QXlLRmpBYTVsQnNscHhmMUdTNHA5TVBlVW51dXhZVTZzV2JJaThrUDltWm1VMXBOaFpGT0hjOG9xZVRBQ0wzMmUwNkJ6ZVFYLUxnbDRLVnpCUG5hU08wa1VZbmdzc1BndlhabHRpdkxXU1ZRZEl0NHpBX0dBS3NJVmhPRUg3OUJfTEpYWFliblhvWUZzWkN3WU9SQm41RFpJQVZ6LWFOMGlPQUYzWHpZd2pn?oc=5"
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxPbk5HWXZ0Mzl4dm9Nd1djMHRrS1hWSVVkcmV4cF9janhvY1UtQ3oxSHJXWnJjcjJGVWJ1MUZhcnBFaEdDOTd5ajF4U0syOElONlNLQjdfYzJEOXBjZ2hSR1lCOEk4bGlLTjA1SWptM3RSTWp2TDdoUzJUaDlWRTFLdENjUDNSSjVWdnh6anlMNDlCY1BKZ29PTXhHOUxNUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -378,8 +478,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -404,8 +512,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -431,22 +547,30 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "15ea6fdf8c80c909afed8168",
-      "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
+      "id": "db3c23a86eccae5413800702",
+      "label_nl": "Claim: Trump halts Vance's negotiations with Iran, marking a \"180-degree shift\": pivoting to a \"no war, no talks\" stance. - 富途牛牛",
       "headline_claim_ids": [
-        "56728258f55cb6"
+        "e1f7860ac4b6bb"
       ],
       "headline_claims": [
-        "Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times"
+        "Trump halts Vance's negotiations with Iran, marking a \"180-degree shift\": pivoting to a \"no war, no talks\" stance. - 富途牛牛"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcV9aQ0xEcFYySmNhZGkwSERycmM4WEVDTXE1NXVxb1NZRnphN1pYVlVTRWxhT3psVTVMYllhdFh5dHl4aGN1ZENIaVMtQVdTem1EVlo0ek5nZDMwSG1RNE11V1NPVnNKVGdHNVhvSkNDMHJfNVd3RGF2RmtMNzlLTm9jU3owTmVvdmpxU2VPcFJBaHhhQVBrM1hCeHFUY3FIVkROZUV5dGNtX0ozc3NsVEVqMVdObWdoSG9JSGFR0gHEAUFVX3lxTE9Rd3YtT2huSUxlcGZiSzRmQzRtX09qT1JWRUpQSk9vYUMzQlVScWpZNUNjZG9EWDFWeEZ3eVRQc0RyZEVnSXZBemRTMkVUc19Kc2Q5RlNNbkhxai1WeEY4cmNIYklTYWU3VTVOMS04aGEzeW9xaTNVNkYxcVd5eDlyTi10YzJFTy10VUNjSmJVdi0xbWZVeF9mTXpGNFVPN3E0ZWxtTk11QXlLcjFVMWlDWGV1enFwTlJtcENTQkpWeGltOUs?oc=5"
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcUxQT0VjS05wOU9ySmxIR1Y0ZElJQTFvMXNGT1J3SzhGR3ZyTlVubjVVR256ZFZxb1hLeFpXSWVrbnpqcUEyaFZhZ3RMcG1qRTNLWkw3SlRvRC0wYXBMbF84WnB0Y0ctdEg3SUFnZk9oM3dfenZndlJQMWFhR0h2TXkxQk42NEgzVzlQQ0Q1ZnlHNGtXbUFPSGRaeG1yYlhZ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -457,34 +581,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "5cd6d39ccc362292fc1b8bfa",
-      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
-      "headline_claim_ids": [
-        "bde81b0a60a540"
-      ],
-      "headline_claims": [
-        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -509,8 +615,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -535,22 +649,30 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "50ac7a3e82a4557551e50415",
-      "label_nl": "Claim: Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News",
+      "id": "15ea6fdf8c80c909afed8168",
+      "label_nl": "Claim: Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times",
       "headline_claim_ids": [
-        "81e4fceca9bbe0"
+        "56728258f55cb6"
       ],
       "headline_claims": [
-        "Iran to decide on negotiations after seven conditions are met: Basij chief - ANI News"
+        "Iran Sets Seven Conditions for Negotiations; US VP Vance Explores Talks - Lokmat Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLTdvUGZhMDA2MGVTYWc0X2Fsc0FrOWtoOW9sNmI1TWZrcGtLT1BmQUd6MFN1NmhNNGtZV2doZ053T1BBNDg3N21QTk4wakljekxHZEZsVmNGRDJXRGctQ0RraTh1clFqSkMyUXRzcUkycTI3a1dEV1dwdjA2aEdGZnhFWGIwdUtXOVI3Q091ZTAwVi11aG1fVHJYRmZob0NXNThJUG9hMVpjSm1mSTZUU1hEZU9ZRkQ3NGplYlZwWk50Z1NpM2kyTkVEb18yUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcV9aQ0xEcFYySmNhZGkwSERycmM4WEVDTXE1NXVxb1NZRnphN1pYVlVTRWxhT3psVTVMYllhdFh5dHl4aGN1ZENIaVMtQVdTem1EVlo0ek5nZDMwSG1RNE11V1NPVnNKVGdHNVhvSkNDMHJfNVd3RGF2RmtMNzlLTm9jU3owTmVvdmpxU2VPcFJBaHhhQVBrM1hCeHFUY3FIVkROZUV5dGNtX0ozc3NsVEVqMVdObWdoSG9JSGFR0gHEAUFVX3lxTE9Rd3YtT2huSUxlcGZiSzRmQzRtX09qT1JWRUpQSk9vYUMzQlVScWpZNUNjZG9EWDFWeEZ3eVRQc0RyZEVnSXZBemRTMkVUc19Kc2Q5RlNNbkhxai1WeEY4cmNIYklTYWU3VTVOMS04aGEzeW9xaTNVNkYxcVd5eDlyTi10YzJFTy10VUNjSmJVdi0xbWZVeF9mTXpGNFVPN3E0ZWxtTk11QXlLcjFVMWlDWGV1enFwTlJtcENTQkpWeGltOUs?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -561,34 +683,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "a3f2f7ce70d033dcad8db379",
-      "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
-      "headline_claim_ids": [
-        "2c0657d84a30ec"
-      ],
-      "headline_claims": [
-        "UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlsNHc0c3pGN1ZNNGl1cjdqMW9oNlVVUzM5V1JIS1ZCOWRlN3NrdjFwcWRld2FURmpfUWdoSUlUY3B4RUdneW94dnNOYVluLXg4RThxM2ZVRk5INENzTy1OR1M1NXRsN1lNUFI3cjhXZ1JicUpLekJYb1dUQmtYejcyRnMtTnpCNFFKRTZqUDUyUQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -615,34 +719,16 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "59ebd2d83838699822ab96a6",
-      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
-      "headline_claim_ids": [
-        "c6ad0f7287f5c3"
-      ],
-      "headline_claims": [
-        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -667,17 +753,21 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_iran:p3",
+        "exact_excerpt": "FCDO advises against all travel to Iran.",
+        "relation": "related_only",
+        "reason_nl": "De passage geeft aan dat er een reisadvies is tegen reizen naar Iran, wat relevant is voor de context van de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
       "verified_event": false,
       "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-11-11": {
-      "requests": 12,
-      "total_tokens": 33035
-    },
     "2026-11-12": {
       "requests": 12,
       "total_tokens": 32721
@@ -685,6 +775,10 @@
     "2026-11-13": {
       "requests": 12,
       "total_tokens": 29391
+    },
+    "2026-11-14": {
+      "requests": 3,
+      "total_tokens": 8583
     }
   }
 }
