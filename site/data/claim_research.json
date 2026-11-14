@@ -1,148 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-14T07:16:56.899952Z",
+  "last_attempt_utc": "2026-11-14T13:04:12.479685Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 16,
-  "active_checked": 6,
+  "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
-    "9334f7563f948ef39a57fe53": {
-      "event_id": "9334f7563f948ef39a57fe53",
-      "checked_at": "2026-10-31T01:11:27.879967Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-10-31T01:11:21.632305Z",
-          "exact_quote": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
-          "claim_validated_as_fact": false,
-          "specificity_check": "downgraded"
-        }
-      ],
-      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/saudi-arabia-prisoner-pack",
-          "title": "Arrested or in prison in Saudi Arabia - GOV.UKGOV.UK",
-          "source_publication_date": "2025-07-15T09:23:44Z",
-          "text_excerpt": "Emergency help for British nationals in Saudi Arabia"
-        }
-      ]
-    },
-    "77d85b7313793607f5bc93eb": {
-      "event_id": "77d85b7313793607f5bc93eb",
-      "checked_at": "2026-10-31T07:03:40.556399Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
-          "original_document_title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
-          "source_date": "Oct. 25, 2026",
-          "retrieved_at": "2026-10-31T07:03:32.528152Z",
-          "exact_quote": "U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de olie-export door de VS, maar ondersteunt niet direct de claim over de olieprijsstijging na een tankeraanval.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "Er zijn geen directe bevestigingen van de claim over de olieprijsstijging na een tankeraanval, maar er zijn wel verwijzingen naar de olie-export en de onopgeloste situatie in de Straat van Hormuz.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
-          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
-          "source_publication_date": "Oct. 25, 2026",
-          "text_excerpt": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
-        },
-        {
-          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
-          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
-          "source_publication_date": null,
-          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
-        }
-      ]
-    },
-    "b5c1067e5180f0787598a0b8": {
-      "event_id": "b5c1067e5180f0787598a0b8",
-      "checked_at": "2026-11-01T07:12:36.631580Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
-          "original_document_title": "Six months of uncertainty for seafarers in Strait of Hormuz",
-          "source_date": null,
-          "retrieved_at": "2026-11-01T07:12:32.044552Z",
-          "exact_quote": "the situation in the Strait of Hormuz is unresolved",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage verwijst naar de onopgeloste situatie in de Straat van Hormuz, maar bevestigt niet de claim over olie-tankers.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De teksten verwijzen naar de onzekere situatie in de Straat van Hormuz, maar bieden geen bewijs voor de claim over de olie-tankers.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
-          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
-          "source_publication_date": null,
-          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
-        },
-        {
-          "url": "https://www.gov.uk/government/news/darlington-pair-sentenced-after-major-diesel-fire-leads-to-evacuation-of-homes",
-          "title": "Darlington pair sentenced after major diesel fire leads to evacuation of homes - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Darlington pair sentenced after major diesel fire leads to evacuation of homes"
-        }
-      ]
-    },
     "ac0dcf59cf2c30a13c876ba2": {
       "event_id": "ac0dcf59cf2c30a13c876ba2",
       "checked_at": "2026-10-31T07:03:40.556427Z",
@@ -3846,6 +3713,130 @@
           "text_excerpt": "Get advice and warnings about travel abroad, including entry requirements, safety and security, health risks and legal differences."
         }
       ]
+    },
+    "6d199bdffa038667b82d065e": {
+      "event_id": "6d199bdffa038667b82d065e",
+      "checked_at": "2026-11-14T13:04:12.479615Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-14T13:04:01.764976Z",
+          "exact_quote": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt dat de Houthis raketten en drones hebben gelanceerd naar verschillende locaties in Saoedi-Arabië, maar bevestigt niet de claim van de GCC over het aantal raketten en drones van Iran.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De bron vermeldt dat de Houthis raketten en drones hebben gelanceerd naar Saoedi-Arabië, maar er is geen bevestiging van de GCC-claim over Iran.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/israel",
+          "title": "Israel travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "If you are in Israel and Palestine, be aware that whilst the frequency of missile and drone attacks has decreased there is a risk of rocket and drone attacks throughout Israel. There is a risk of shrapnel from intercepted missiles falling across Isra"
+        }
+      ]
+    },
+    "10465fad17fbe18b9901eb2f": {
+      "event_id": "10465fad17fbe18b9901eb2f",
+      "checked_at": "2026-11-14T13:04:12.479643Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Model gaf geen bruikbare beoordeling.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
+          "title": "HMRC online services: sign in or set up an account: Sign in or set up an account - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "your Capital Gains Tax on UK property account"
+        },
+        {
+          "url": "https://www.gov.uk/government/speeches/budget-2026-speech",
+          "title": "Budget 2026 speech - GOV.UKGOV.UK",
+          "source_publication_date": "2026-10-28T00:00:00+00:00",
+          "text_excerpt": "I am reducing the threshold for Business Asset Disposal Relief in Capital Gains Tax from £1m to £500,000, meaning no change for 3 in 4 claimants."
+        }
+      ]
+    },
+    "59ebd2d83838699822ab96a6": {
+      "event_id": "59ebd2d83838699822ab96a6",
+      "checked_at": "2026-11-14T13:04:12.479649Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_date": null,
+          "retrieved_at": "2026-11-14T13:04:08.525059Z",
+          "exact_quote": "more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage geeft aan dat er meer dan 130 aanvallen op commerciële schepen zijn geweest in de Straat van Hormuz, maar het ondersteunt niet specifiek de claim over aanvallen op Saoedische energie-infrastructuur.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De bron meldt meer dan 130 aanvallen op commerciële schepen in de Straat van Hormuz, maar biedt geen specifieke details over aanvallen op Saoedische energie-infrastructuur.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
+        },
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "​IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026. At least 25 seafarers have lost their lives, with others missing or injured."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3860,9 +3851,9 @@
       "model_tokens": 5959
     },
     "2026-11-14": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 3540
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 5368
     }
   },
   "last_error": null

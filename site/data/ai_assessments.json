@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-14T07:16:13.763228Z",
+  "last_attempt_utc": "2026-11-14T13:03:28.575060Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -5815,6 +5815,22 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-14T07:16:12.762995Z"
+    },
+    "12f6dea5ead8d4": {
+      "id": "12f6dea5ead8d4",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Golfstaten eisen dat Iran compensatie betaalt voor raket- en drone-aanvallen.",
+      "claimed_event_nl": "Golfstaten eisen compensatie van Iran voor aanvallen.",
+      "reason_nl": "Deze eis kan leiden tot verhoogde spanningen tussen Iran en de Golfstaten.",
+      "limitations_nl": "De claim is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-14T13:03:27.574860Z"
     }
   },
   "usage_by_day": {
@@ -5827,8 +5843,8 @@
       "total_tokens": 7781
     },
     "2026-11-14": {
-      "requests": 2,
-      "total_tokens": 2524
+      "requests": 3,
+      "total_tokens": 3175
     }
   }
 }

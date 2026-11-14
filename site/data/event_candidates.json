@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-14T07:16:36.933016Z",
-  "fingerprint": "02c048767d93ae701191a055",
+  "last_attempt_utc": "2026-11-14T13:03:51.522052Z",
+  "fingerprint": "ef118aff9f5883e95f4cd0ed",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-14T07:16:36.933016Z",
+    "recorded_at": "2026-11-14T13:03:51.522052Z",
     "groups": [
       {
         "ids": [
@@ -71,9 +71,9 @@
       },
       {
         "ids": [
-          "e010f9a0d63572"
+          "c6ad0f7287f5c3"
         ],
-        "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
+        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -104,14 +104,15 @@
       },
       {
         "ids": [
-          "4ced6140f6ae3b"
+          "4ced6140f6ae3b",
+          "12f6dea5ead8d4"
         ],
         "label_nl": "Claim: GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -126,21 +127,9 @@
       },
       {
         "ids": [
-          "bde81b0a60a540",
-          "2c0657d84a30ec"
+          "bde81b0a60a540"
         ],
         "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
-      },
-      {
-        "ids": [
-          "92dd73fb45de4a"
-        ],
-        "label_nl": "Claim: Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand",
         "actor": "",
         "action": "",
         "place": "",
@@ -171,6 +160,17 @@
       },
       {
         "ids": [
+          "2c0657d84a30ec"
+        ],
+        "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "0550ef4f8093d4"
         ],
         "label_nl": "Claim: Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance",
@@ -182,9 +182,9 @@
       },
       {
         "ids": [
-          "c6ad0f7287f5c3"
+          "e010f9a0d63572"
         ],
-        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+        "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
         "actor": "",
         "action": "",
         "place": "",
@@ -208,25 +208,54 @@
       "6dc6cd7e45b30f",
       "6738a21be33922",
       "20481f3a50a697",
-      "e010f9a0d63572",
+      "c6ad0f7287f5c3",
       "cdbcccd715dbe0",
       "35e380a51e98ef",
       "4ced6140f6ae3b",
       "e1f7860ac4b6bb",
       "bde81b0a60a540",
       "e7555912fbbd42",
-      "92dd73fb45de4a",
+      "12f6dea5ead8d4",
       "070cffe9ab582a",
       "c4beb0da202327",
       "2c0657d84a30ec",
       "0550ef4f8093d4",
-      "c6ad0f7287f5c3",
+      "e010f9a0d63572",
       "7c0bcdcaa86cf9"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
+    {
+      "id": "6d199bdffa038667b82d065e",
+      "label_nl": "Claim: GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/",
+      "headline_claim_ids": [
+        "4ced6140f6ae3b",
+        "12f6dea5ead8d4"
+      ],
+      "headline_claims": [
+        "GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/",
+        "Gulf states demand Iran pay compensation for missile and drone attacks - Aaj English TV"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IZ0NhOERhS3lha1FqXzVodXVkck5jLVZkY0RodkRsYUF4N3N5bnJoTlg3V1I5eFdFWHRKTnkxTldkSDl4MHNEM3hWeWVwb19RQTczQWsxUFNjMkJ1aVhWWkE1ZDA?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVm5wbC1MRDJvYTdweG1Ua3IzSGg4X2RKa1pFS3drNzFFNVV1ZVp2Y2tkUHo0Ukx6bGRsLXdFNUZMS0lQRnYzQnVKN0ZiRDZ6S285R2NBLXVsM1laMUNvOEJDMFBuVDZEcnZpVUFyTlZHaDl3YnkxYXBSNjBDbzd2S2t0MWkxR3BBNGFVYURJdjJhNVRqZjJ3UExRVlV5REZTeDd6dHRPNkxyd0xM?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
     {
       "id": "325c2bc2ce531f9b655322b8",
       "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
@@ -242,32 +271,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "4dd323927f3bf2d6c0931b25",
-      "label_nl": "Claim: GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/",
-      "headline_claim_ids": [
-        "4ced6140f6ae3b"
-      ],
-      "headline_claims": [
-        "GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IZ0NhOERhS3lha1FqXzVodXVkck5jLVZkY0RodkRsYUF4N3N5bnJoTlg3V1I5eFdFWHRKTnkxTldkSDl4MHNEM3hWeWVwb19RQTczQWsxUFNjMkJ1aVhWWkE1ZDA?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -340,35 +343,6 @@
       "probability_estimate": null
     },
     {
-      "id": "085e9d01c68d5fa1d4f7afdd",
-      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
-      "headline_claim_ids": [
-        "bde81b0a60a540",
-        "2c0657d84a30ec"
-      ],
-      "headline_claims": [
-        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
-        "UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5",
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlsNHc0c3pGN1ZNNGl1cjdqMW9oNlVVUzM5V1JIS1ZCOWRlN3NrdjFwcWRld2FURmpfUWdoSUlUY3B4RUdneW94dnNOYVluLXg4RThxM2ZVRk5INENzTy1OR1M1NXRsN1lNUFI3cjhXZ1JicUpLekJYb1dUQmtYejcyRnMtTnpCNFFKRTZqUDUyUQ?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "a9a083444aa3ac9a87ff7893",
       "label_nl": "Claim: Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance",
       "headline_claim_ids": [
@@ -421,19 +395,20 @@
       "probability_estimate": null
     },
     {
-      "id": "1c3e20fdadcb5bed9848f241",
-      "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
+      "id": "59ebd2d83838699822ab96a6",
+      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
       "headline_claim_ids": [
-        "e010f9a0d63572"
+        "c6ad0f7287f5c3"
       ],
       "headline_claims": [
-        "Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal"
+        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZmVJVmdwRGtUTGtOSUlCZmhBT3pZME5QWFlRcE5IYVExT2x4bS1MeV94X1F3Zl8zcGVDeXlDdXdOWVVKTllmOVk1UDVVNVBvcVlaS1RKTnM5MlF3anFMamM4enk1Rmh2cUNVZkViZzVlMzdaUmJIdEVBRVpaVC1GMHZXZWlkbjRXT19heWoxTi1hOC1xTWF1Y1RRTDhwd0lHcHFVUGVTT0hvU2k4UXozOXdUUEhGeVlyWWRVdXEtb09PWHJpYVNrY1ZVM27SAdIBQVVfeXFMT1N0dFFXUW5LeU9Rb1VBZVdkZTBNZTAxcEJSOUV5OWw1QXlLRmpBYTVsQnNscHhmMUdTNHA5TVBlVW51dXhZVTZzV2JJaThrUDltWm1VMXBOaFpGT0hjOG9xZVRBQ0wzMmUwNkJ6ZVFYLUxnbDRLVnpCUG5hU08wa1VZbmdzc1BndlhabHRpdkxXU1ZRZEl0NHpBX0dBS3NJVmhPRUg3OUJfTEpYWFliblhvWUZzWkN3WU9SQm41RFpJQVZ6LWFOMGlPQUYzWHpZd2pn?oc=5"
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -526,16 +501,16 @@
       "probability_estimate": null
     },
     {
-      "id": "24aaedd79e8ea7b4e939a81e",
-      "label_nl": "Claim: Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand",
+      "id": "5cd6d39ccc362292fc1b8bfa",
+      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "92dd73fb45de4a"
+        "bde81b0a60a540"
       ],
       "headline_claims": [
-        "Brent rises 3.3% on November 12 amid Saudi attack claims - Nation Thailand"
+        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jY0FuRm5vb0tZV1JvVXpJbWQ3MHJUR1p4OHJUTnRjYnhzZ1VNaF8xVTJ1eEdvakJZZ0RYYW40TVhQS0NZR2UwZjNzTnZ0TjVsaG5wX2VjZGo5NV9HM1Nv?oc=5"
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -562,6 +537,32 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52c1RDMlBOZjhGZFNSNE05MWRKOUM3LWJFOTlhTEQ2c2JVQk5veWNwQ2NMN3pxdjdBMURpRjhPRmh3MzhXdHF3ei1XUGVKanl6SXc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "a3f2f7ce70d033dcad8db379",
+      "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
+      "headline_claim_ids": [
+        "2c0657d84a30ec"
+      ],
+      "headline_claims": [
+        "UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlsNHc0c3pGN1ZNNGl1cjdqMW9oNlVVUzM5V1JIS1ZCOWRlN3NrdjFwcWRld2FURmpfUWdoSUlUY3B4RUdneW94dnNOYVluLXg4RThxM2ZVRk5INENzTy1OR1M1NXRsN1lNUFI3cjhXZ1JicUpLekJYb1dUQmtYejcyRnMtTnpCNFFKRTZqUDUyUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -606,16 +607,16 @@
       "probability_estimate": null
     },
     {
-      "id": "59ebd2d83838699822ab96a6",
-      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+      "id": "1c3e20fdadcb5bed9848f241",
+      "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
       "headline_claim_ids": [
-        "c6ad0f7287f5c3"
+        "e010f9a0d63572"
       ],
       "headline_claims": [
-        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
+        "Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5"
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZmVJVmdwRGtUTGtOSUlCZmhBT3pZME5QWFlRcE5IYVExT2x4bS1MeV94X1F3Zl8zcGVDeXlDdXdOWVVKTllmOVk1UDVVNVBvcVlaS1RKTnM5MlF3anFMamM4enk1Rmh2cUNVZkViZzVlMzdaUmJIdEVBRVpaVC1GMHZXZWlkbjRXT19heWoxTi1hOC1xTWF1Y1RRTDhwd0lHcHFVUGVTT0hvU2k4UXozOXdUUEhGeVlyWWRVdXEtb09PWHJpYVNrY1ZVM27SAdIBQVVfeXFMT1N0dFFXUW5LeU9Rb1VBZVdkZTBNZTAxcEJSOUV5OWw1QXlLRmpBYTVsQnNscHhmMUdTNHA5TVBlVW51dXhZVTZzV2JJaThrUDltWm1VMXBOaFpGT0hjOG9xZVRBQ0wzMmUwNkJ6ZVFYLUxnbDRLVnpCUG5hU08wa1VZbmdzc1BndlhabHRpdkxXU1ZRZEl0NHpBX0dBS3NJVmhPRUg3OUJfTEpYWFliblhvWUZzWkN3WU9SQm41RFpJQVZ6LWFOMGlPQUYzWHpZd2pn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -668,8 +669,8 @@
       "total_tokens": 29391
     },
     "2026-11-14": {
-      "requests": 6,
-      "total_tokens": 15933
+      "requests": 9,
+      "total_tokens": 23363
     }
   }
 }
