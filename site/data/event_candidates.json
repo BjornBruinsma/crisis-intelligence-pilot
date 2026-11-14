@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-14T13:03:51.522052Z",
-  "fingerprint": "ef118aff9f5883e95f4cd0ed",
+  "last_attempt_utc": "2026-11-14T18:56:44.634617Z",
+  "fingerprint": "e1002a89f8e48e5c67fdb120",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 18,
-  "event_candidate_count": 16,
+  "event_candidate_count": 17,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
-    "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 2,
-    "multi_claim_groups": 2,
-    "claims_in_multi_groups": 4,
+    "model_pair_proposals": 5,
+    "accepted_pair_connections": 1,
+    "rejected_pair_proposals": 4,
+    "multi_claim_groups": 1,
+    "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 2,
+    "auditor_approved_pairs": 1,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-14T13:03:51.522052Z",
+    "recorded_at": "2026-11-14T18:56:44.634617Z",
     "groups": [
       {
         "ids": [
@@ -82,6 +82,17 @@
       },
       {
         "ids": [
+          "55f2df73d28b7e"
+        ],
+        "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "cdbcccd715dbe0"
         ],
         "label_nl": "Claim: Missile city unveiling sparks anger over poverty, lack of shelters - Iran International",
@@ -104,15 +115,14 @@
       },
       {
         "ids": [
-          "4ced6140f6ae3b",
-          "12f6dea5ead8d4"
+          "4ced6140f6ae3b"
         ],
         "label_nl": "Claim: GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -130,6 +140,17 @@
           "bde81b0a60a540"
         ],
         "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "f79dfbe788282c"
+        ],
+        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
         "actor": "",
         "action": "",
         "place": "",
@@ -182,20 +203,9 @@
       },
       {
         "ids": [
-          "e010f9a0d63572"
+          "2f3a641fd0bffa"
         ],
-        "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "7c0bcdcaa86cf9"
-        ],
-        "label_nl": "Claim: Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
+        "label_nl": "Claim: Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id",
         "actor": "",
         "action": "",
         "place": "",
@@ -209,53 +219,24 @@
       "6738a21be33922",
       "20481f3a50a697",
       "c6ad0f7287f5c3",
+      "55f2df73d28b7e",
       "cdbcccd715dbe0",
       "35e380a51e98ef",
       "4ced6140f6ae3b",
       "e1f7860ac4b6bb",
       "bde81b0a60a540",
       "e7555912fbbd42",
-      "12f6dea5ead8d4",
+      "f79dfbe788282c",
       "070cffe9ab582a",
       "c4beb0da202327",
       "2c0657d84a30ec",
       "0550ef4f8093d4",
-      "e010f9a0d63572",
-      "7c0bcdcaa86cf9"
+      "2f3a641fd0bffa"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
-    {
-      "id": "6d199bdffa038667b82d065e",
-      "label_nl": "Claim: GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/",
-      "headline_claim_ids": [
-        "4ced6140f6ae3b",
-        "12f6dea5ead8d4"
-      ],
-      "headline_claims": [
-        "GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/",
-        "Gulf states demand Iran pay compensation for missile and drone attacks - Aaj English TV"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IZ0NhOERhS3lha1FqXzVodXVkck5jLVZkY0RodkRsYUF4N3N5bnJoTlg3V1I5eFdFWHRKTnkxTldkSDl4MHNEM3hWeWVwb19RQTczQWsxUFNjMkJ1aVhWWkE1ZDA?oc=5",
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVm5wbC1MRDJvYTdweG1Ua3IzSGg4X2RKa1pFS3drNzFFNVV1ZVp2Y2tkUHo0Ukx6bGRsLXdFNUZMS0lQRnYzQnVKN0ZiRDZ6S285R2NBLXVsM1laMUNvOEJDMFBuVDZEcnZpVUFyTlZHaDl3YnkxYXBSNjBDbzd2S2t0MWkxR3BBNGFVYURJdjJhNVRqZjJ3UExRVlV5REZTeDd6dHRPNkxyd0xM?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
     {
       "id": "325c2bc2ce531f9b655322b8",
       "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
@@ -284,6 +265,58 @@
       "probability_estimate": null
     },
     {
+      "id": "4dd323927f3bf2d6c0931b25",
+      "label_nl": "Claim: GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/",
+      "headline_claim_ids": [
+        "4ced6140f6ae3b"
+      ],
+      "headline_claims": [
+        "GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IZ0NhOERhS3lha1FqXzVodXVkck5jLVZkY0RodkRsYUF4N3N5bnJoTlg3V1I5eFdFWHRKTnkxTldkSDl4MHNEM3hWeWVwb19RQTczQWsxUFNjMkJ1aVhWWkE1ZDA?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "8fb0e91f4400c02980aacecd",
+      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
+      "headline_claim_ids": [
+        "f79dfbe788282c"
+      ],
+      "headline_claims": [
+        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "5cc83ce993f61c0ec5ae4a35",
       "label_nl": "Claim: US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain - AOL.com",
       "headline_claim_ids": [
@@ -294,6 +327,32 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbDRfR2NJS05lekhQX2ZnM0tuemFhQkQ0dmZpRVlfQlhqYUVfdl9oOGQ3aDQ4WGJMS3RlcmNONU5KaU56b0VOQjRwUE9XUDN3aENZekROdWJkRVBHUlpKNXN4UllycURGb09vcWxEN0RGcnczeTRyazRiOFBiaHBkajJuRV9HbzNDS003OQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "2e7c7e78f0b26ca2e345147f",
+      "label_nl": "Claim: Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id",
+      "headline_claim_ids": [
+        "2f3a641fd0bffa"
+      ],
+      "headline_claims": [
+        "Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sTzJ0TjRPNWx4cXV1UHRkbU51Z3dxOXRSYklJME5QT0tRVm91VVpYUkJ1ejNNVmQxQl8tc2VvaURoblJUeU9yb1FUYk9FWEc0dFJRUldQeGVHcTVxVzE4SkR1NUxBWFZkbkI0?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -409,6 +468,32 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "97587c95d6dea3505c43bdca",
+      "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
+      "headline_claim_ids": [
+        "55f2df73d28b7e"
+      ],
+      "headline_claims": [
+        "Airline, travel industries scramble with fallout from Middle East conflict - DD News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1BTZ0pmejlOdEtoU2tnbWRacmUtUjZXb0hnTTUzZGowdXo1VzRiNkZNLXdqcWpXUThCTzJzRDRGU0w4UkV5ZTAyZHg3TkNVZFM2T1pJSTlINXZtRk9YRFdJMTk2dUFNa2JnRk1oNWdnVHRDUXFrTUR2UHRKaWVfano5VGdqQXVIYXBDV3M2emNKSHVla2ZDNUJObk1TTHJ2?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -605,58 +690,6 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
-    },
-    {
-      "id": "1c3e20fdadcb5bed9848f241",
-      "label_nl": "Claim: Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal",
-      "headline_claim_ids": [
-        "e010f9a0d63572"
-      ],
-      "headline_claims": [
-        "Crude Oil Prices Surge Past $95 As Trump Rejects Iran Deal, Saudi Oil Facilities Face Attacks - Free Press Journal"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZmVJVmdwRGtUTGtOSUlCZmhBT3pZME5QWFlRcE5IYVExT2x4bS1MeV94X1F3Zl8zcGVDeXlDdXdOWVVKTllmOVk1UDVVNVBvcVlaS1RKTnM5MlF3anFMamM4enk1Rmh2cUNVZkViZzVlMzdaUmJIdEVBRVpaVC1GMHZXZWlkbjRXT19heWoxTi1hOC1xTWF1Y1RRTDhwd0lHcHFVUGVTT0hvU2k4UXozOXdUUEhGeVlyWWRVdXEtb09PWHJpYVNrY1ZVM27SAdIBQVVfeXFMT1N0dFFXUW5LeU9Rb1VBZVdkZTBNZTAxcEJSOUV5OWw1QXlLRmpBYTVsQnNscHhmMUdTNHA5TVBlVW51dXhZVTZzV2JJaThrUDltWm1VMXBOaFpGT0hjOG9xZVRBQ0wzMmUwNkJ6ZVFYLUxnbDRLVnpCUG5hU08wa1VZbmdzc1BndlhabHRpdkxXU1ZRZEl0NHpBX0dBS3NJVmhPRUg3OUJfTEpYWFliblhvWUZzWkN3WU9SQm41RFpJQVZ6LWFOMGlPQUYzWHpZd2pn?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "c3034c595330464eb35994da",
-      "label_nl": "Claim: Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English",
-      "headline_claim_ids": [
-        "7c0bcdcaa86cf9"
-      ],
-      "headline_claims": [
-        "Fire breaks out at Iran South Pars gas platform | Middle East News - Yeni Safak English"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPblEtVk5pY1c4RHVxN2I1ZHdmRjgyU05Qd19ZOHRaQ1otNWt0bU9kbXdKbzcycFpFdzdJbjlWZE91WFhoX1dSLUJNRXpVREpTbXZBVXZqTzZoZVVocVVaT2w3dENHamRFUUp2NE9SMnhGcHRFZUIxbkRNYVoxNXRPVlQzdDhNMGVrOWcwOVhIUQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
     }
   ],
   "usage_by_day": {
@@ -669,8 +702,8 @@
       "total_tokens": 29391
     },
     "2026-11-14": {
-      "requests": 9,
-      "total_tokens": 23363
+      "requests": 12,
+      "total_tokens": 32006
     }
   }
 }
