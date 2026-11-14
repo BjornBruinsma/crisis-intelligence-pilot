@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-14T01:15:32.576377Z",
+  "last_attempt_utc": "2026-11-14T07:16:13.763228Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -5783,6 +5783,38 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-14T01:15:31.576152Z"
+    },
+    "4ced6140f6ae3b": {
+      "id": "4ced6140f6ae3b",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De GCC beweert dat Iran meer dan 7.000 raketten en drones op Golfstaten heeft afgevuurd.",
+      "claimed_event_nl": "Iran zou meer dan 7.000 raketten en drones op Golfstaten hebben afgevuurd.",
+      "reason_nl": "Deze claim is relevant vanwege de mogelijke gevolgen voor de regionale veiligheid en spanningen in de Golfregio.",
+      "limitations_nl": "De claim is afkomstig van een niet-geverifieerde bron en er zijn geen onafhankelijke bevestigingen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-14T07:16:12.762973Z"
+    },
+    "f8aa019b2d17b0": {
+      "id": "f8aa019b2d17b0",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "commentary",
+      "summary_nl": "Trump stelt dat er geen deal met Iran nodig is en richt zich op binnenlandse politiek.",
+      "claimed_event_nl": "",
+      "reason_nl": "Deze uitspraak is meer een politieke opinie dan een directe claim over de situatie met Iran.",
+      "limitations_nl": "De relevantie voor de huidige situatie in de Golfregio is beperkt.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-14T07:16:12.762995Z"
     }
   },
   "usage_by_day": {
@@ -5795,8 +5827,8 @@
       "total_tokens": 7781
     },
     "2026-11-14": {
-      "requests": 1,
-      "total_tokens": 1587
+      "requests": 2,
+      "total_tokens": 2524
     }
   }
 }
