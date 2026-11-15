@@ -1,17 +1,17 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-15T07:17:57.237590Z",
-  "fingerprint": "8828dac3bc9cb4f65a2fe6d6",
+  "last_attempt_utc": "2026-11-15T13:06:27.783577Z",
+  "fingerprint": "39ac71085f1cf6dd5ecbc547",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 19,
-  "event_candidate_count": 18,
+  "input_candidate_count": 18,
+  "event_candidate_count": 17,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 3,
+    "model_pair_proposals": 1,
     "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 2,
+    "rejected_pair_proposals": 0,
     "multi_claim_groups": 1,
     "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-15T07:17:57.237590Z",
+    "recorded_at": "2026-11-15T13:06:27.783577Z",
     "groups": [
       {
         "ids": [
@@ -51,17 +51,6 @@
           "0550ef4f8093d4"
         ],
         "label_nl": "Claim: Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "c6ad0f7287f5c3"
-        ],
-        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -103,14 +92,15 @@
       },
       {
         "ids": [
-          "a110ca626de3ea"
+          "3665b07b2da7ed",
+          "a74eb1766ece5d"
         ],
-        "label_nl": "Claim: Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions - The Economic Times",
+        "label_nl": "Claim: Iran claims attack on US military airbase in Bahrain - France 24",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -158,21 +148,9 @@
       },
       {
         "ids": [
-          "f79dfbe788282c",
-          "2f3a641fd0bffa"
+          "c6ad0f7287f5c3"
         ],
-        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
-      },
-      {
-        "ids": [
-          "692d6c67618c85"
-        ],
-        "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
+        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -181,9 +159,9 @@
       },
       {
         "ids": [
-          "cdf48158597397"
+          "692d6c67618c85"
         ],
-        "label_nl": "Claim: Middle East latest: Bahrain issues nationwide threat alert amid Iran attack claims - The National",
+        "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
         "actor": "",
         "action": "",
         "place": "",
@@ -222,47 +200,57 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "f79dfbe788282c"
+        ],
+        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       }
     ],
     "input_claim_ids": [
       "02753692adc238",
       "6dc6cd7e45b30f",
       "0550ef4f8093d4",
-      "c6ad0f7287f5c3",
       "55f2df73d28b7e",
       "cdbcccd715dbe0",
       "35e380a51e98ef",
-      "a110ca626de3ea",
+      "3665b07b2da7ed",
       "e1f7860ac4b6bb",
       "ec097c020da3ff",
       "6a77d40e3f43b2",
       "6a33e3d3f5959f",
-      "f79dfbe788282c",
+      "c6ad0f7287f5c3",
       "692d6c67618c85",
-      "cdf48158597397",
+      "a74eb1766ece5d",
       "bde81b0a60a540",
       "75a5fe23d0357a",
       "20481f3a50a697",
-      "2f3a641fd0bffa"
+      "f79dfbe788282c"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "8aa22e259d34c2d53fa1fc5a",
-      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
+      "id": "2e622fa386df08e24fe1f178",
+      "label_nl": "Claim: Iran claims attack on US military airbase in Bahrain - France 24",
       "headline_claim_ids": [
-        "f79dfbe788282c",
-        "2f3a641fd0bffa"
+        "3665b07b2da7ed",
+        "a74eb1766ece5d"
       ],
       "headline_claims": [
-        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
-        "Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id"
+        "Iran claims attack on US military airbase in Bahrain - France 24",
+        "Iran strikes Bahrain base, repeats path to U.S. deal remains open - The Japan Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5",
-        "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sTzJ0TjRPNWx4cXV1UHRkbU51Z3dxOXRSYklJME5QT0tRVm91VVpYUkJ1ejNNVmQxQl8tc2VvaURoblJUeU9yb1FUYk9FWEc0dFJRUldQeGVHcTVxVzE4SkR1NUxBWFZkbkI0?oc=5"
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc1c4aEZGVWxpWDlYajhJZXFCbTBRa0NTTlZDWEpBMWNacEw5aEFOUnZGLTVGMXVlZkFVOEwzSEFFZXo4SW1nc0E5dUQzYzVqZmx5WXpBNlRERy10Uk1WdFd3S1VkOXFvUXg3VlF0ZFBlM1ZXMU53WXdVT2VKZG14ckNoVF9mWXdRckdxc1N2SWNETmo0Nzd3alA2YzNsRnNwVFdv?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV0RhaW9oNk5fWGVOTUJXY1dzZWxqTTREVW54cVBnOUdTU1hVbEtuV0U3NE5FUkNvUGF0aFNmYUxjWnkxc2RPY0tGUDE0ejVicHlUTG9DTjNRYWtabGlPUFV5MzFYY3cyUFJibHhmc1U3MlhQcEU1YnpNTGt0UUlLcmFXMA?oc=5"
       ],
       "article_group_count": 2,
       "news_url_count": 2,
@@ -306,32 +294,6 @@
       "probability_estimate": null
     },
     {
-      "id": "eb28bcfe247b846feede8f73",
-      "label_nl": "Claim: Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions - The Economic Times",
-      "headline_claim_ids": [
-        "a110ca626de3ea"
-      ],
-      "headline_claims": [
-        "Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions - The Economic Times"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR3dDbTZlcHo5dlpoNDJsVG81MEpfZ1ZnMlJCVmRNV1FUSkZsZEh5UjRZcjNuOUJGbV9aT0RzSUlRWVd0eXRwRjktWkh3Y25PVGE5TG5nY2dtQU1falVaaXZhMUphV1ZmdXZxa2R3NGFZZnJ6RXlSSFlJYTRNenBZZGFkSEMyTTJuRERnS1JfcVV2cWR3QlZzSVdDR0l6cW9qMGE4cGpBRXJEb2lBaWE4Wml0Q3VYUlFMdDdWOXpLSW9hU29kRHFzTWpCM3dGNWJOZngxOTRScGNhN3g1XzA00gHkAUFVX3lxTE9ycDdHWTJQcU1zMlJyeS14aWl5Y2tZX21NMmp4Mm9xWHFVa2hBcGtqaU0zT0RoSEdObFNIZjc4MWZhb2VZUTB5c1NVTDdvZ0VPZDNDU0N6YTQ3X2M1S3c5WTdLWEwzOWhxSWtMRTRMSG16RXlKMnlIb3dFbkNSNHo3MnlkcWIxVUxBSC01VEUycGp5QThGRU9pd0RyNU0yTTRhYlNyRkQ1VWNZZWg1Tk45WW1uV1B3M2k3MjVRU3dGS2N4eVhRbjRIZUFHSGVrT1ZDVWhTMUhtaDBMaUw4cHNtWXVVag?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "6eb69e6f93605d8874d0f76d",
       "label_nl": "Claim: Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com",
       "headline_claim_ids": [
@@ -358,16 +320,16 @@
       "probability_estimate": null
     },
     {
-      "id": "9246dfc6a9d7d7368bd130a4",
-      "label_nl": "Claim: Middle East latest: Bahrain issues nationwide threat alert amid Iran attack claims - The National",
+      "id": "8fb0e91f4400c02980aacecd",
+      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
       "headline_claim_ids": [
-        "cdf48158597397"
+        "f79dfbe788282c"
       ],
       "headline_claims": [
-        "Middle East latest: Bahrain issues nationwide threat alert amid Iran attack claims - The National"
+        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5"
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -425,33 +387,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "59ebd2d83838699822ab96a6",
-      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
-      "headline_claim_ids": [
-        "c6ad0f7287f5c3"
-      ],
-      "headline_claims": [
-        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5",
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -622,6 +557,33 @@
       "probability_estimate": null
     },
     {
+      "id": "59ebd2d83838699822ab96a6",
+      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+      "headline_claim_ids": [
+        "c6ad0f7287f5c3"
+      ],
+      "headline_claims": [
+        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "b7185776f9b7eebaf24559fd",
       "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
       "headline_claim_ids": [
@@ -736,8 +698,8 @@
       "total_tokens": 32006
     },
     "2026-11-15": {
-      "requests": 6,
-      "total_tokens": 14423
+      "requests": 9,
+      "total_tokens": 21210
     }
   }
 }

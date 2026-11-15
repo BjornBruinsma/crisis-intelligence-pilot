@@ -1,7 +1,7 @@
 {
   "description": "Manually reviewable headline claims; no event verification, no risk scoring",
-  "source_generated_from": "2026-11-15T07:16:18.413383Z",
-  "source_groups_count": 537,
+  "source_generated_from": "2026-11-15T13:04:44.533936Z",
+  "source_groups_count": 527,
   "selection_method": "Category-balanced high/medium editorial candidates; NOT trained or calibrated",
   "candidates": [
     {
@@ -197,20 +197,21 @@
       ]
     },
     {
-      "id": "c6ad0f7287f5c3",
-      "headline_claim": "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+      "id": "980cf34930307c",
+      "headline_claim": "Israeli drone strike kills 2 Palestinians in Gaza , and other Mideast news",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
+        "Brede GDELT-detectie",
         "Wereldhandel & logistiek"
       ],
-      "publication_day": "2026-11-12",
+      "publication_day": "2026-11-14",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 2,
       "publisher_names": [
-        "reuters",
-        "the business times"
+        "bakersfieldnow.com",
+        "ksat"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -221,17 +222,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5",
-          "publisher": "The Business Times",
-          "published_at": "2026-11-12T22:14:00Z",
-          "source_provider": "google_news_rss"
+          "title": "Israeli drone strike kills 2 Palestinians in Gaza , and other Mideast news",
+          "url": "https://bakersfieldnow.com/news/nation-world/israeli-drone-strike-kills-2-palestinians-in-gaza-and-other-mideast-news",
+          "publisher": "bakersfieldnow.com",
+          "published_at": "2026-11-14T20:00:00Z",
+          "source_provider": "gdelt_doc2"
         },
         {
-          "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5",
-          "publisher": "Reuters",
-          "published_at": "2026-11-12T20:09:58Z",
+          "title": "Israeli drone strike kills 2 Palestinians in Gaza, and other Mideast news - KSAT",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeWpuZm1DT3NGdTZDS1pkUkZBU3BOTk5PbG85LWROZUV3QUVFYWVGOTRUdkNGZE1rRkdjQVZ3U0ZqLUNlc2NXT0ZJczJmM2xkSnR3VG5nMFF2cWJTV3pGWGhLeXlKellBSHVnTks5TTlYTV81WGV2aEhMNlJNVzc2d0U5ZnQtVDBWUFdEQk45aFczemZfUmVKajJ2RmY0MDFEdEMxNFRNUFVocExrdnNj?oc=5",
+          "publisher": "KSAT",
+          "published_at": "2026-11-14T13:53:30Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -341,8 +342,8 @@
       ]
     },
     {
-      "id": "a110ca626de3ea",
-      "headline_claim": "Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions - The Economic Times",
+      "id": "3665b07b2da7ed",
+      "headline_claim": "Iran claims attack on US military airbase in Bahrain - France 24",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
@@ -353,7 +354,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "the economic times"
+        "france 24"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -364,10 +365,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR3dDbTZlcHo5dlpoNDJsVG81MEpfZ1ZnMlJCVmRNV1FUSkZsZEh5UjRZcjNuOUJGbV9aT0RzSUlRWVd0eXRwRjktWkh3Y25PVGE5TG5nY2dtQU1falVaaXZhMUphV1ZmdXZxa2R3NGFZZnJ6RXlSSFlJYTRNenBZZGFkSEMyTTJuRERnS1JfcVV2cWR3QlZzSVdDR0l6cW9qMGE4cGpBRXJEb2lBaWE4Wml0Q3VYUlFMdDdWOXpLSW9hU29kRHFzTWpCM3dGNWJOZngxOTRScGNhN3g1XzA00gHkAUFVX3lxTE9ycDdHWTJQcU1zMlJyeS14aWl5Y2tZX21NMmp4Mm9xWHFVa2hBcGtqaU0zT0RoSEdObFNIZjc4MWZhb2VZUTB5c1NVTDdvZ0VPZDNDU0N6YTQ3X2M1S3c5WTdLWEwzOWhxSWtMRTRMSG16RXlKMnlIb3dFbkNSNHo3MnlkcWIxVUxBSC01VEUycGp5QThGRU9pd0RyNU0yTTRhYlNyRkQ1VWNZZWg1Tk45WW1uV1B3M2k3MjVRU3dGS2N4eVhRbjRIZUFHSGVrT1ZDVWhTMUhtaDBMaUw4cHNtWXVVag?oc=5",
-          "publisher": "The Economic Times",
-          "published_at": "2026-11-15T06:43:13Z",
+          "title": "Iran claims attack on US military airbase in Bahrain - France 24",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc1c4aEZGVWxpWDlYajhJZXFCbTBRa0NTTlZDWEpBMWNacEw5aEFOUnZGLTVGMXVlZkFVOEwzSEFFZXo4SW1nc0E5dUQzYzVqZmx5WXpBNlRERy10Uk1WdFd3S1VkOXFvUXg3VlF0ZFBlM1ZXMU53WXdVT2VKZG14ckNoVF9mWXdRckdxc1N2SWNETmo0Nzd3alA2YzNsRnNwVFdv?oc=5",
+          "publisher": "France 24",
+          "published_at": "2026-11-15T09:57:35Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -501,19 +502,20 @@
       ]
     },
     {
-      "id": "f79dfbe788282c",
-      "headline_claim": "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
+      "id": "c6ad0f7287f5c3",
+      "headline_claim": "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
         "Wereldhandel & logistiek"
       ],
-      "publication_day": "2026-11-14",
+      "publication_day": "2026-11-12",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "article_count": 2,
       "publisher_names": [
-        "investing.com india"
+        "reuters",
+        "the business times"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -524,10 +526,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5",
-          "publisher": "Investing.com India",
-          "published_at": "2026-11-14T17:09:33Z",
+          "title": "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5",
+          "publisher": "The Business Times",
+          "published_at": "2026-11-12T22:14:00Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5",
+          "publisher": "Reuters",
+          "published_at": "2026-11-12T20:09:58Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -637,13 +646,11 @@
       ]
     },
     {
-      "id": "cdf48158597397",
-      "headline_claim": "Middle East latest: Bahrain issues nationwide threat alert amid Iran attack claims - The National",
+      "id": "a74eb1766ece5d",
+      "headline_claim": "Iran strikes Bahrain base, repeats path to U.S. deal remains open - The Japan Times",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
-        "Militair & veiligheid",
-        "Regionaal: Pakistan",
-        "Wereldhandel & logistiek"
+        "Militair & veiligheid"
       ],
       "publication_day": "2026-11-15",
       "publication_day_is_event_date": false,
@@ -651,7 +658,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "the national"
+        "the japan times"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -662,10 +669,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Middle East latest: Bahrain issues nationwide threat alert amid Iran attack claims - The National",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5",
-          "publisher": "The National",
-          "published_at": "2026-11-15T04:51:26Z",
+          "title": "Iran strikes Bahrain base, repeats path to U.S. deal remains open - The Japan Times",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQV0RhaW9oNk5fWGVOTUJXY1dzZWxqTTREVW54cVBnOUdTU1hVbEtuV0U3NE5FUkNvUGF0aFNmYUxjWnkxc2RPY0tGUDE0ejVicHlUTG9DTjNRYWtabGlPUFV5MzFYY3cyUFJibHhmc1U3MlhQcEU1YnpNTGt0UUlLcmFXMA?oc=5",
+          "publisher": "The Japan Times",
+          "published_at": "2026-11-15T09:49:00Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -806,8 +813,8 @@
       ]
     },
     {
-      "id": "2f3a641fd0bffa",
-      "headline_claim": "Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id",
+      "id": "f79dfbe788282c",
+      "headline_claim": "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
         "Wereldhandel & logistiek"
@@ -818,7 +825,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "demokratis.co.id"
+        "investing.com india"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -829,10 +836,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sTzJ0TjRPNWx4cXV1UHRkbU51Z3dxOXRSYklJME5QT0tRVm91VVpYUkJ1ejNNVmQxQl8tc2VvaURoblJUeU9yb1FUYk9FWEc0dFJRUldQeGVHcTVxVzE4SkR1NUxBWFZkbkI0?oc=5",
-          "publisher": "Demokratis.co.id",
-          "published_at": "2026-11-14T14:56:56Z",
+          "title": "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5",
+          "publisher": "Investing.com India",
+          "published_at": "2026-11-14T17:09:33Z",
           "source_provider": "google_news_rss"
         }
       ]
