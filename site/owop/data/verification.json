@@ -1,141 +1,34 @@
 {
-  "generated_at": "2026-11-14T20:21:06.468112Z",
+  "generated_at": "2026-11-15T02:36:13.278442Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 5,
+  "candidate_count": 2,
   "recommendation_counts": {
-    "reserve": 4,
-    "reject": 1
+    "reserve": 1,
+    "publish": 1
   },
   "stories": [
     {
-      "id": "02be368f2c8a00",
-      "editorial_score": 80,
-      "editorial_decision": "publish",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a research note summarizing what can be verified so far about the statement “Lula hails PH’s record-low poverty rate, higher income status”:\n\n---\n\n## What the sources say\n\n### What President Lula said  \n- On **November 14, 2026**, Brazilian President Luiz Inácio Lula da Silva, during a state luncheon hosted by Philippine President Ferdinand R. Marcos Jr., said:  \n  1. The Philippines has reached “the lowest rate of poverty in its history.” ([pna.gov.ph](https://www.pna.gov.ph/article/lula-hails-phs-record-low-poverty-rate-higher-income-status?utm_source=openai))  \n  2. For the first time, the Philippines has been considered a “medium to high-income country by the UN.” ([pna.gov.ph](https://www.pna.gov.ph/article/lula-hails-phs-record-low-poverty-rate-higher-income-status?utm_source=openai))  \n\nThese are Lula’s claims; they attribute these achievements to Marcos Jr.’s leadership.\n\n---\n\n### Data on poverty from Philippine Statistics Authority (PSA)\n\nThe PSA’s latest official statistics support part of Lula’s statement about poverty:\n\n- In **2025**, the poverty incidence among **families** dropped to **6.4 %**, equivalent to about **1.90 million families**. ([psa.gov.ph](https://psa.gov.ph/content/poverty-incidence-all-regions-declined-between-2023-and-2025?utm_source=openai))  \n- Among the **population**, poverty incidence was estimated at **9.7 %**, or about **11.08 million people**. ([psa.gov.ph](https://psa.gov.ph/content/poverty-incidence-all-regions-declined-between-2023-and-2025?utm_source=openai))  \n- These figures mark statistically significant declines from 2023: in that year, the incidence among families was 10.9 %, and among population 15.5 %. ([psa.gov.ph](https://psa.gov.ph/content/percentage-filipino-families-classified-poor-declined-109-percent-2023?utm_source=openai))  \n\nSo the claim of “record-low poverty rate” is supported for those metrics: poverty is lower in 2025 than in prior recorded years.\n\n---\n\n### Data on “higher income status”\n\nThe “higher income status” claim appears to refer to the Philippines being reclassified by income group. Key facts:\n\n- On **July 1, 2026**, the World Bank officially classified the Philippines as an **upper-middle-income country (UMIC)**. ([worldbank.org](https://www.worldbank.org/en/news/press-release/2026/08/03/ph-reaches-upper-middle-income-status-bolder-reforms-critical-for-more-inclusive?utm_source=openai))  \n- This reclassification was based on the Philippines’ **gross national income (GNI) per capita** reaching **US$4,850**, which is above the UMIC threshold of **US$4,636**. ([pna.gov.ph](https://www.pna.gov.ph/index.php/articles/1278510?utm_source=openai))  \n\n---\n\n## What is true, what is ambiguous, and what is not supported\n\n| Claim | Supported by verifiable outcome? | Source(s) |\n|---|---|---|\n| Philippines has “record-low poverty rate” | **Partially yes** — for 2025 poverty incidence among families (6.4%) and population (9.7%) — these are the lowest in recent recorded years. | PSA statistics ([psa.gov.ph](https://psa.gov.ph/statistics/poverty/node/1684084074?utm_source=openai)) |\n| Philippines has become a “medium to high-income country by the UN” | **No evidence found** — no UN source confirming that classification; but the WB has classified the Philippines as **upper-middle income** in 2026. | World Bank classification ([pna.gov.ph](https://www.pna.gov.ph/index.php/articles/1278510?utm_source=openai)) |\n| Lula’s statement is fully accurate | **Partially accurate** — his praise matches the POV rate drops and the WB classification, but the “UN medium to high income” part appears to be a loose or incorrect attribution. | Comparison of PSA, WB and Lula’s statement ([pna.gov.ph](https://www.pna.gov.ph/article/lula-hails-phs-record-low-poverty-rate-higher-income-status?utm_source=openai)) |\n\n---\n\n## Conclusions\n\n- The Philippines’ poverty levels (both families and population) in 2025 are indeed at their lowest in recent measurement history. These are measured outcomes.  \n- The Philippines was officially reclassified by the World Bank as an **upper-middle-income** country in mid-2026, based on GNI per capita.  \n- The claim that the Philippines is “considered a medium to high-income country by the UN” is **not supported** by available primary sources at this time — no UN document was found confirming that. It’s likely a misstatement or conflation of what the World Bank classification is.\n\n---\n\nIf you like, I can also check whether the Philippines meets UN thresholds, and whether any UN report has adopted the upper-middle income classification.",
-      "citations": [
-        {
-          "title": "Lula hails PH’s record-low poverty rate, higher income status | Philippine News Agency",
-          "url": "https://www.pna.gov.ph/article/lula-hails-phs-record-low-poverty-rate-higher-income-status?utm_source=openai"
-        },
-        {
-          "title": "Poverty Incidence in All Regions Declined Between 2023 and 2025 | Philippine Statistics Authority",
-          "url": "https://psa.gov.ph/content/poverty-incidence-all-regions-declined-between-2023-and-2025?utm_source=openai"
-        },
-        {
-          "title": "Percentage of Filipino Families Classified as Poor Declined to 10.9 percent in 2023 | Philippine Statistics Authority",
-          "url": "https://psa.gov.ph/content/percentage-filipino-families-classified-poor-declined-109-percent-2023?utm_source=openai"
-        },
-        {
-          "title": "Philippines Reaches Upper-Middle-Income Status; Bolder Reforms Critical for More Inclusive Growth and Job Creation",
-          "url": "https://www.worldbank.org/en/news/press-release/2026/08/03/ph-reaches-upper-middle-income-status-bolder-reforms-critical-for-more-inclusive?utm_source=openai"
-        },
-        {
-          "title": "World Bank: PH now an upper-middle income country | Philippine News Agency",
-          "url": "https://www.pna.gov.ph/index.php/articles/1278510?utm_source=openai"
-        },
-        {
-          "title": "Content | Philippine Statistics Authority",
-          "url": "https://psa.gov.ph/statistics/poverty/node/1684084074?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "completed",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "high",
-      "verified_headline": "Philippines Achieves Record-Low Poverty Rate and Upper-Middle-Income Status",
-      "verified_summary": "The Philippines has reached a record-low poverty rate of 6.4% among families and has been classified as an upper-middle-income country by the World Bank. However, the claim regarding UN classification lacks supporting evidence.",
-      "verification_note": "While poverty rates have significantly declined, the claim about UN income classification is unsupported. The World Bank's classification is confirmed.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "61bdb2c0285283",
-      "editorial_score": 90,
+      "id": "259842c31c6a48",
+      "editorial_score": 85,
       "editorial_decision": "reserve",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here is what I found regarding the candidate story “Health insurance saves infant from rare congenital tumor” for Tanta, Egypt. I found no credible source confirming *that* specific event; instead, I found a different, similar recent medical case in *Assiut*, and multiple past stories involving Tanta and other hospitals. Below is a breakdown of what I discovered.\n\n---\n\n## ✔ Confirmed Case in Assiut (Not Tanta)\n\n- El Watan News reports a successful surgery in *Assiut*, not Tanta. ([elwatannews.com](https://www.elwatannews.com/news/details/8392191?utm_source=openai))  \n- A 2.5-month-old infant (“شهرين ونصف”) had a rare teratomatous tumor (“ورم مسخي”) connected to the lower spine (“متصل بأسفل العمود الفقري”) removed. The tumor weighed approximately **1 kilogram**. ([elwatannews.com](https://www.elwatannews.com/news/details/8392191?utm_source=openai))  \n- The surgery was completed without complications, the infant made a full recovery, left the hospital in stable condition. ([elwatannews.com](https://www.elwatannews.com/news/details/8392191?utm_source=openai))  \n- The incidence of this kind of tumor is noted as about **one case per 40,000 live births**. ([elwatannews.com](https://www.elwatannews.com/news/details/8392191?utm_source=openai))  \n\nThis is a *completed and measured outcome* — not a pledge or plan.\n\n---\n\n## ✖ No Confirmation for Tanta Case with Source Hints\n\n- The candidate headline claims it occurred in **Tanta**, at “مستشفى مبرة طنطا” under health insurance (“التأمين الصحي”). However, I found no credible reporting of this event specific to Tanta.\n\n- The source clue provided (“اليوم السابع — التأمين الصحي ينجح في إنقاذ رضيع من ورم خلقي نادر بمستشفى مبرة طنطا”) appears not to actually exist: searches in today’s pages of Youm7 (or “اليوم السابع”) returned no article matching those headline details.  \n\n- Recent articles about rare congenital tumors and medical interventions in Tanta relate to earlier cases (e.g., in 2023 or before) or different hospitals. ([m.akhbarelyom.com](https://m.akhbarelyom.com/news/newdetails/4069208/1/%D8%A5%D9%86%D9%82%D8%A7%D8%B0-%D8%AD%D9%8A%D8%A7%D8%A9-%D8%B7%D9%81%D9%84%D9%8A%D9%86-%D8%A8%D8%AC%D8%B1%D8%A7%D8%AD%D8%A7%D8%AA-%D9%86%D8%A7%D8%AF%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89/amp?utm_source=openai))  \n\n---\n\n## ⚠ Potential Confusion\n\n- It's possible this candidate is a mis-report or a conflation of the Assiut case with Tanta, or a planned report not yet verified.\n\n- Multiple similar stories exist of infants saved from rare congenital tumors both in Assiut and in other Egyptian provinces, which may be contributing to confusion.  \n\n---\n\n## 🔍 Conclusion\n\nBased on available evidence:\n\n- There *is* a confirmed event: In Assiut, a 2.5-month-old infant had a rare teratoma (congenital tumor) weighing about 1 kg, surgically removed, full recovery. ([elwatannews.com](https://www.elwatannews.com/news/details/8392191?utm_source=openai))  \n- The candidate claim of “Health insurance saves infant from rare congenital tumor” *occurring in Tanta* has **no confirmed source** as of now, despite the “source hint”.\n\n---\n\nIf you want, I can try to trace whether this Tanta version emerges later (e.g. by hospital press release) or whether the intended story was *that Assiut* case—with a mistranslation or location error. Do you want me to continue digging that angle?",
+      "research_notes": "Here is what I found on the story “Iowa County youth organize 5K for mental health facility,” revised with accurate details and noting what is confirmed vs. what is proposed:\n\n---\n\n## What is happening / what is proposed\n\nMultiple sources describe plans, not a concluded event or facility. The initiative has these confirmed details:\n\n- **Event:** A *fundraising walk / run* (“5K walk / 1-mile walk or run”) called *Run Forward* is scheduled for **Saturday, November 14, 2026**, at 9:00 a.m. at the Iowa County Sheriff’s Office in **Dodgeville, Wisconsin**. ([stayhappening.com](https://stayhappening.com/e/run-forward-5k-1mile-walk-run-E2ISYY5CP7V?utm_source=openai))  \n- **Organizer:** Youth Emergency Services (YES), a program associated with the Iowa County Sheriff’s Office. ([runscore.runsignup.com](https://runscore.runsignup.com/Race/WI/Dodgeville/RunForwardRunWalkToBenefitHiddenBeautyRetreat?utm_source=openai))  \n- **Purpose:** The event aims to *raise funds* for the creation of the **Hidden Beauty Retreat**, a proposed mental-health and addiction treatment facility reserved *exclusively for first responders*. ([hyperlocalloop.com](https://hyperlocalloop.com/first-responders-5k-walk-supports-hidden-beauty-retreat-mental-health-center-in-iowa-county/?utm_source=openai))  \n- **Proposed facility:** Hidden Beauty Retreat is planned as a **25-acre** site for mental health and addiction treatment. ([hyperlocalloop.com](https://hyperlocalloop.com/first-responders-5k-walk-supports-hidden-beauty-retreat-mental-health-center-in-iowa-county/?utm_source=openai))  \n- **Support/backing:** Local businesses and Green Bay Packers quarterback Jordan Love are involved in supporting the event and facility proposals. ([hyperlocalloop.com](https://hyperlocalloop.com/first-responders-5k-walk-supports-hidden-beauty-retreat-mental-health-center-in-iowa-county/?utm_source=openai))  \n\n---\n\n## What is *not* yet confirmed or is still planned\n\nThese are details that remain in planning/proposal stage, rather than completed or measured outcomes:\n\n- **Facility status:** There is no evidence that the Hidden Beauty Retreat has yet been built or opened. The campaign remains in the fundraising/proposal phase. ([hyperlocalloop.com](https://hyperlocalloop.com/first-responders-5k-walk-supports-hidden-beauty-retreat-mental-health-center-in-iowa-county/?utm_source=openai))  \n- **Funding or land acquired:** As of the latest reporting, it’s not confirmed that the land for the retreat has been purchased or that construction has begun. ([hyperlocalloop.com](https://hyperlocalloop.com/first-responders-5k-walk-supports-hidden-beauty-retreat-mental-health-center-in-iowa-county/?utm_source=openai))  \n- **Outcome of the 5K event:** Because the event is scheduled for Nov 14, 2026, there are no reports yet of its results (attendance, money raised, follow-through). ([stayhappening.com](https://stayhappening.com/e/run-forward-5k-1mile-walk-run-E2ISYY5CP7V?utm_source=openai))  \n\n---\n\n## Summary and assessment\n\n| Element | Confirmed | Proposed / Planned |\n|---|---|---|\n| 5K walk/run event | ✔ Scheduled for Nov 14, 2026, in Dodgeville, Wisconsin for first responders’ mental health support. | — |\n| Hidden Beauty Retreat facility | ✔ A proposed 25-acre mental health/addiction treatment center exclusively for first responders. | — |\n| Facility opening or construction | — | Still in planning/fundraising, not yet built or opened. |\n| Measured outcomes (funds raised, beneficiaries served) | — | Not yet available. |\n\n---\n\n## Sources\n\n- Event registration page (“Run Forward”) provides primary source information about the date, location, organizer, pricing, and that proceeds go to Hidden Beauty Retreat. ([runscore.runsignup.com](https://runscore.runsignup.com/Race/WI/Dodgeville/RunForwardRunWalkToBenefitHiddenBeautyRetreat?utm_source=openai))  \n- Hyperlocal reporting (Hyperlocal Loop) offers independent coverage that repeats many of the claims, confirms partners like Jordan Love and business backers, and describes the facility as proposed. ([hyperlocalloop.com](https://hyperlocalloop.com/first-responders-5k-walk-supports-hidden-beauty-retreat-mental-health-center-in-iowa-county/?utm_source=openai))  \n\n---\n\nIn short, this story reflects a **planned event** and **proposal**, not yet a completed outcome. Youth in Iowa County are organizing a 5K to support the *creation* of a mental health facility for first responders, but the facility itself is not yet established, and final results of the fundraising are not yet available.",
       "citations": [
         {
-          "title": "إنجاز طبي جديد لفرع أسيوط للتأمين الصحي.. استئصال ورم نادر لطفلة رضيعة - الوطن",
-          "url": "https://www.elwatannews.com/news/details/8392191?utm_source=openai"
+          "title": "RUN FORWARD 5k/1mile walk/run Tickets, Iowa County, Wisconsin, Dodgeville, 14 November 2026",
+          "url": "https://stayhappening.com/e/run-forward-5k-1mile-walk-run-E2ISYY5CP7V?utm_source=openai"
         },
         {
-          "title": "إنقاذ حياة طفلين بجراحات نادرة في مستشفى المبرة بطنطا  | بوابة أخبار اليوم الإلكترونية",
-          "url": "https://m.akhbarelyom.com/news/newdetails/4069208/1/%D8%A5%D9%86%D9%82%D8%A7%D8%B0-%D8%AD%D9%8A%D8%A7%D8%A9-%D8%B7%D9%81%D9%84%D9%8A%D9%86-%D8%A8%D8%AC%D8%B1%D8%A7%D8%AD%D8%A7%D8%AA-%D9%86%D8%A7%D8%AF%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89/amp?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "unsupported",
-      "outcome_status": "unclear",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "No confirmation of infant's surgery in Tanta, Egypt",
-      "verified_summary": "A confirmed case of a successful surgery for a rare congenital tumor occurred in Assiut, not Tanta. No credible sources verify the Tanta claim.",
-      "verification_note": "The candidate's claim lacks confirmation; a similar case exists in Assiut, but no evidence supports the Tanta event.",
-      "publish_recommendation": "reject"
-    },
-    {
-      "id": "25a5ed787f75ea",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "responses_web_search",
-      "search_model": "gpt-6-luna",
-      "research_notes": "### Research note\n\n- **What happened:** Minas Gerais’ official news agency, Agência Minas, published a state-government/CBMMG tally on **November 11, 2026**: **16,680 hectares** burned in state conservation units through November. The state reported this as **68.79% below its historical annual average**. This is a **partial-year measured outcome**, not a year-end total; the fire season was still underway. ([agenciaminas.mg.gov.br](https://www.agenciaminas.mg.gov.br/noticia/balanco-2023-2026-area-queimada-em-unidades-de-conservacao-de-minas-gerais-cai-6879-em-relacao-a-media-historica))\n- **Comparison and caveat:** The agency also reported a **55.45% decrease** from the **37,440-hectare average for 2024–2025**. The release does **not specify the years used to calculate the broader “historical average,”** so that comparison cannot be fully assessed from the published figures. ([agenciaminas.mg.gov.br](https://www.agenciaminas.mg.gov.br/noticia/balanco-2023-2026-area-queimada-em-unidades-de-conservacao-de-minas-gerais-cai-6879-em-relacao-a-media-historica))\n- **Independent coverage:** *Estado de Minas* reported the same figures on November 11. *Mais Minas* likewise reported them and explicitly noted that the historical-average period was not given. These provide additional reporting, but the matching figures and details appear to trace back to the same CBMMG/state-government tally—not separate verification of the underlying data. ([em.com.br](https://www.em.com.br/gerais/2026/11/amp/7536691-incendios-florestais-em-minas-caem-quase-70-com-estrategia-dos-bombeiros.html))\n- **Source assessment:** Agência Minas is the primary public source located; I did not find an underlying dataset or separate technical report linked in the release. The reported scope is **state conservation units**, not all of Minas Gerais.",
-      "citations": [
-        {
-          "title": "Balanço 2023-2026: Área queimada em Unidades de Conservação de Minas Gerais cai 68,79% em relação à média histórica | Agência Minas",
-          "url": "https://www.agenciaminas.mg.gov.br/noticia/balanco-2023-2026-area-queimada-em-unidades-de-conservacao-de-minas-gerais-cai-6879-em-relacao-a-media-historica"
+          "title": "Run Forward- Run/walk to benefit Hidden Beauty Retreat",
+          "url": "https://runscore.runsignup.com/Race/WI/Dodgeville/RunForwardRunWalkToBenefitHiddenBeautyRetreat?utm_source=openai"
         },
         {
-          "title": "Incêndios florestais em Minas caem quase 70% com estratégia dos bombeiros - Estado de MinasEstado de Minas",
-          "url": "https://www.em.com.br/gerais/2026/11/amp/7536691-incendios-florestais-em-minas-caem-quase-70-com-estrategia-dos-bombeiros.html"
-        }
-      ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 282. Please try again in 376ms. Visit https://platform.op",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "measured_progress",
-      "evidence_quality": "medium",
-      "independence": "likely_republication",
-      "significance": "high",
-      "verified_headline": "Burned Areas in Minas Gerais Conservation Units Decrease by 68.79%",
-      "verified_summary": "In 2026, burned areas in conservation units of Minas Gerais decreased by 68.79% compared to historical averages, according to state reports. This figure reflects a partial-year outcome as the fire season was still ongoing.",
-      "verification_note": "The reported decrease is significant, but the historical average period is unspecified, limiting full assessment. Multiple sources report the same figures, but they trace back to a single government tally.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "d893247fd2348a",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a fact-checked research note on the “Middle Cedar Watershed receives $1.28M conservation boost” story (“Growing Resilience” project). It clarifies *what has been done/is being done*, the *financial and contractual commitments*, and the *measurable outcomes vs. planned initiatives*.  \n\n---\n\n## What *is* happening\n\n- A project called **Growing Resilience in the Middle Cedar Watershed (GR-MCW)** has been *launched*. ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n- The project was *formally announced* via a City of Cedar Rapids press release on **November 13, 2026**. It runs from **January 2026 through December 2028**. ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n\n---\n\n## Funding and scope\n\n- Federal funding of **$1.28 million** has been awarded, through the **U.S. Environmental Protection Agency (EPA) Farmer-to-Farmer grant**. ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n- On government grants data, the award to the City of Cedar Rapids is listed exactly as **$1,286,180**, under EPA Region 4, for ecosystem restoration and natural infrastructure in the Middle Cedar Watershed through 2028. ([govtribe.com](https://govtribe.com/award/federal-grant-award/project-grant-05d44225?utm_source=openai))  \n\n---\n\n## Partners and management structure\n\n- Partners include:\n  • City of Cedar Rapids  \n  • Middle Cedar Watershed Management Authority (MCWMA)  \n  • University of Iowa  \n  • Iowa Geological Survey  \n  • Iowa Department of Agriculture and Land Stewardship (IDALS)  \n  • The Nature Conservancy  \n  • Great Outdoors Foundation  \n  • Farmer cooperators ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n- The MCWMA is the lead local authority, and a *watershed coordinator* has been hired to manage outreach, liaise with farmers, and oversee implementation. ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n\n---\n\n## Goals, actions & deliverables\n\n### Actions planned\n\n- Work with farmers and communities to **identify and implement natural infrastructure and conservation practices** that benefit downstream water quality, and habitat and watershed resilience. ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n- Use **monitoring** (soil & water) to evaluate practices. The Iowa Geological Survey and the University of Iowa will lead this evaluation. ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n- Restoration of features like **oxbow lakes**, along with farm-scale practices, especially in four high-priority sub-watersheds identified in the Middle Cedar Watershed Management Plan. ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n\n### Measurable outcomes so far vs. those expected\n\n- The outcome here is still *planned*; the grant is meant to fund demonstration / monitoring of practices, and outreach; these are not yet completed as of the announcement. ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n- As with most such conservation grants, measurable outcomes (pollutant reductions, habitat metrics) will be evaluated *over time* (2026-2028). ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n\n---\n\n## How this relates to past or parallel programs\n\n- The GR-MCW appears to build on — but is **distinct from** — earlier conservation efforts in the Middle Cedar Watershed, such as the “Batch and Build” project in **Tama and Grundy Counties**, which installed 14 saturated buffers & 4 bioreactors (18 conservation practices), treating 24 tile outlets. That project was under Iowa Department of Agriculture and Land Stewardship and expected to complete in Fall 2025. ([iowaagriculture.gov](https://iowaagriculture.gov/news/mid-cedar-WS-batch-and-build?utm_source=openai))  \n- Also, the region is part of the *Iowa Watershed Approach (IWA)*, funded by HUD, with much larger historic investment (≈ $97 million) covering watershed planning and multiple conservation practices across the Middle Cedar Watershed. ([middlecedarwma.com](https://www.middlecedarwma.com/?utm_source=openai))  \n\n---\n\n## Summary: What is confirmed vs. what is not\n\n| **Confirmed** | **Not yet confirmed or completed** |\n|---------------|-------------------------------------|\n| $1,286,180 awarded to City of Cedar Rapids (EPA grant) for 2026-28 GR-MCW project. | Actual pollutant reduction metrics (sediment, nutrient load etc.) from GR-MCW practices (because practices are just starting). |\n| Launch (announcement) of the project as of Nov 2026; duration and partners specified. | Any completed conservation practices under GR-MCW as of now. |\n| Scope includes four priority sub-watersheds; collaboration involves multiple agencies/farmers. | Exact number of acres or practices to be implemented under GR-MCW at maturity are not fully detailed in the announcement. |\n\n---\n\n## Independent sources & corroboration\n\n- The federal grant award details are listed independently via **USAspending.gov / GovTribe**: $1,286,180 obligated to the City of Cedar Rapids for this project. ([govtribe.com](https://govtribe.com/award/federal-grant-award/project-grant-05d44225?utm_source=openai))  \n- The City of Cedar Rapids press release confirms the grant and the purpose. ([pubt.io](https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai))  \n\n---\n\n## What remains to be measured / what to watch\n\n- Deployment: how many farms, acres, and specific conservation practices are implemented under GR-MCW in 2026-2028.  \n- Environmental impact: precise changes in water quality — reductions in nitrates, sediment, etc., downstream in tile water or rivers.  \n- Long-term maintenance and community participation.  \n- How the data from monitoring is used to refine best practices.\n\n---\n\n## Conclusion\n\nThe headline “Middle Cedar Watershed receives $1.28M conservation boost” refers to a **new grant awarded** (not a completed outcome) — namely, a $1.286 million EPA Farmer-to-Farmer grant awarded to City of Cedar Rapids to fund the Growing Resilience project over three years (2026-28). The purpose is to implement and monitor natural infrastructure and conservation practices in priority sub-watersheds, with the aim of improving water quality and resilience. No measured environmental results from this new grant have yet been reported; the work is in the planning and early implementation stages.",
-      "citations": [
-        {
-          "title": "City of Cedar Rapids, IA (via Public) / Growing Resilience Project Strengthens Drinking Water and Farm Resilience",
-          "url": "https://pubt.io/view/0B64D2561D39A2FE6CEBFDD650D3148AED908648?utm_source=openai"
-        },
-        {
-          "title": "This agreement provides funding under the… (05D44225) – Project Grant to City Of Cedar Rapids | GovTribe",
-          "url": "https://govtribe.com/award/federal-grant-award/project-grant-05d44225?utm_source=openai"
-        },
-        {
-          "title": "Secretary Naig Announces Start of Construction on Middle Cedar Watershed ‘Batch and Build’ Project | Iowa Department of Agriculture and Land Stewardship",
-          "url": "https://iowaagriculture.gov/news/mid-cedar-WS-batch-and-build?utm_source=openai"
-        },
-        {
-          "title": "Home | Middle Cedar WMA",
-          "url": "https://www.middlecedarwma.com/?utm_source=openai"
+          "title": "First responders’ 5K walk supports Hidden Beauty Retreat mental health center in Iowa County – Hyperlocal Loop",
+          "url": "https://hyperlocalloop.com/first-responders-5k-walk-supports-hidden-beauty-retreat-mental-health-center-in-iowa-county/?utm_source=openai"
         }
       ],
       "fallback_error": "",
@@ -145,39 +38,43 @@
       "evidence_quality": "medium",
       "independence": "multiple_independent",
       "significance": "medium",
-      "verified_headline": "Middle Cedar Watershed receives $1.28M for conservation project",
-      "verified_summary": "The Middle Cedar Watershed has been awarded a $1.28 million grant for the Growing Resilience project, aimed at implementing conservation practices from 2026 to 2028. No measurable environmental outcomes have been reported yet as the project is still in the planning phase.",
-      "verification_note": "The funding announcement does not confirm any completed conservation outcomes, as the project is just beginning and measurable impacts will be evaluated over time.",
+      "verified_headline": "Iowa County youth plan 5K for mental health facility fundraising",
+      "verified_summary": "Youth in Iowa County are organizing a 5K run scheduled for November 14, 2026, to raise funds for the proposed Hidden Beauty Retreat, a mental health facility for first responders. The facility has not yet been built or opened.",
+      "verification_note": "The event is planned for the future, and the facility is still in the proposal stage without confirmed funding or construction.",
       "publish_recommendation": "reserve"
     },
     {
-      "id": "fb66fc02c3c633",
+      "id": "a130be24c64d27",
       "editorial_score": 80,
       "editorial_decision": "reserve",
-      "search_backend": "responses_web_search",
-      "search_model": "gpt-6-luna",
-      "research_notes": "**Research note — Egypt, not a global initiative**\n\n- **What happened:** The source hint appears to refer to a Ministry of Health briefing reported by *Youm7* on **October 1, 2026**—not a story dated November 14. The minister presented a retrospective of health initiatives under the “100 Million Health” umbrella. The reported figures describe measured changes; they are not a new launch or pledge. ([youm7.com](https://www.youm7.com/story/2026/10/1/10-%D8%B3%D9%86%D9%88%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D8%A7%D8%B2-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D9%85%D8%B5%D8%B1-%D8%AD%D9%82%D9%82%D8%AA-%D8%AA%D8%AD%D9%88%D9%84%D8%A7/7563828))\n- **Reported outcomes:** The ministry’s figures put anemia among school students at **7.81% in 2026**, down from **42.3% in 2019**. It also reported hepatitis C prevalence falling from about **7% to 0.24%**, after screening more than **70 million** people. These are government-reported statistics; the article does not provide the underlying datasets or an independent causal evaluation showing how much of the change the initiative produced. ([youm7.com](https://www.youm7.com/story/2026/10/1/10-%D8%B3%D9%86%D9%88%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D8%A7%D8%B2-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D9%85%D8%B5%D8%B1-%D8%AD%D9%82%D9%82%D8%AA-%D8%AA%D8%AD%D9%88%D9%84%D8%A7/7563828))\n- **Independent coverage:** *Ahram Online* separately reported on September 15 that the health minister said child anemia fell from **42.3% to 8%**. That broadly supports the direction of the claim, though it reports a rounded figure and describes children rather than specifically school students. Its account also relies on officials’ remarks, rather than an independent audit of the data. ([english.ahram.org.eg](https://english.ahram.org.eg/NewsContentP/1/576675/Egypt/Child-anaemia-falls-to-8-stunting-to-4-in-Egypt.aspx))\n- **Source relationship and caveat:** Several Egyptian outlets published the October 1 figures from the same ministerial briefing/report, so those articles should not be counted as separate corroboration. The Ministry’s initiative portal confirms that the umbrella comprises ongoing screening and treatment programs, but does not independently validate the reported impact figures. ([youm7.com](https://www.youm7.com/story/2026/10/1/10-%D8%B3%D9%86%D9%88%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D8%A7%D8%B2-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D9%85%D8%B5%D8%B1-%D8%AD%D9%82%D9%82%D8%AA-%D8%AA%D8%AD%D9%88%D9%84%D8%A7/7563828))",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Research Note: “Premature baby weighing 850 grams rescued in Ulan-Ude”\n\n---\n\n### ✅ Found Evidence Supporting the Story\n\nThere *is* credible reporting on a case from Ulan-Ude involving a premature baby weighing **850 grams** (≈ 1 pound 14 ounces). Key specifics:\n\n- The baby is a **girl** named *Ulyana*. ([news.mail.ru](https://news.mail.ru/society/63702821/?utm_source=openai))  \n- She was born **on 28 July 2022**. ([news.mail.ru](https://news.mail.ru/society/63702821/?utm_source=openai))  \n- At birth, her weight was **850 grams**, and her length was **34 centimeters**. ([news.mail.ru](https://news.mail.ru/society/63702821/?utm_source=openai))  \n- She was born **prematurely**, at **28 weeks’ gestation**. ([news.mail.ru](https://news.mail.ru/society/63702821/?utm_source=openai))  \n\nAdditional details of the medical course:\n\n- Immediately after birth, she could not breathe on her own and was placed on mechanical ventilation. ([news.mail.ru](https://news.mail.ru/society/63702821/?utm_source=openai))  \n- She spent around **one month in the neonatal intensive care / perinatal center** for initial stabilization. ([dktr24.ru](https://www.dktr24.ru/news/medicine/18112024/6789?utm_source=openai))  \n- After that, she was transferred to an intensive therapy and then to a ward for premature and newborn babies. ([dktr24.ru](https://www.dktr24.ru/news/medicine/18112024/6789?utm_source=openai))  \n- Over time, with special restorative therapy (including feeding methods and respiratory support), she gained weight and developed appropriately. ([dktr24.ru](https://www.dktr24.ru/news/medicine/18112024/6789?utm_source=openai))  \n\nOutcomes:\n\n- As of the reporting date (November 2024), Ulyana was about **2½ years old**, attending kindergarten, and reportedly “undistinguishable from her peers” in development. ([dktr24.ru](https://www.dktr24.ru/news/medicine/18112024/6789?utm_source=openai))  \n\n---\n\n### ⚠️ Caveats & Clarifications\n\n- The story is **not new**; most reporting dates back to **November 2024**, describing events starting in **2022**. ([dktr24.ru](https://www.dktr24.ru/news/medicine/18112024/6789?utm_source=openai))  \n- There is **no indication** that the baby weighed more or less than 850 grams in the original birth (this is the reported birth weight).  \n- The claim in the candidate (“rescued in Ulan-Ude”) aligns with these facts but some publications may mistake or rephrase aspects that slightly differ (e.g. 940 g, 990 g etc.), referring to different cases. ([bur.aif.ru](https://bur.aif.ru/society/ne-mogla-dyshat-otkroveniya-materi-rodivshey-dochku-vesom-menshe-kilogramma?utm_source=openai))  \n\n---\n\n### 🔍 Independent Sources\n\n- *Doctor 24* — detailed medical reporting including original statements from the children's republican clinical hospital in Ulan-Ude. ([dktr24.ru](https://www.dktr24.ru/news/medicine/18112024/6789?utm_source=openai))  \n- *Mail.ru* — includes an interview with the mother, confirming date, weight, gestational age, and long-term outcome. ([news.mail.ru](https://news.mail.ru/society/63702821/?utm_source=openai))  \n\n---\n\n### 📋 Conclusion\n\n- **What actually happened**: In July 2022, a baby girl named Ulyana was born in Ulan-Ude at 28 weeks gestation, weighing 850 g and measuring 34 cm. Medical team cared for her in NICU with ventilatory support and specialized feeding; by late 2024 she had reached age ~2½, was attending kindergarten, and deemed developmentally within normal range.\n\n- **Is this a launch/pledge/etc.?** No — this is a **measured outcome**, a completed rescue and successful medical treatment with follow-up confirming developmental progress.\n\n- **Multiple reports** exist, but they appear to draw on the same underlying case; some mix with other similar neonatal stories (e.g. 990 g or 940 g babies) but Ulyana’s case is distinct and well-documented across at least two independent sources.\n\n---\n\nIf you like, I can attempt to locate the exact press release from the hospital or quote medical journals confirming Ulyana’s latest health metrics.",
       "citations": [
         {
-          "title": "10 سنوات من الإنجاز الصحي.. وزير الصحة: مصر حققت تحولا تاريخيا في مكافحة فيروس سي وتحسين صحة المرأة والطفل.. اكتشاف 66 ألف حالة حاملة لجينات أنيميا البحر المتوسط الثلاسيميا.. وانخفاض نسبة زواج الأقارب بنسبة 30% - اليوم السابع",
-          "url": "https://www.youm7.com/story/2026/10/1/10-%D8%B3%D9%86%D9%88%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D8%A7%D8%B2-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D9%85%D8%B5%D8%B1-%D8%AD%D9%82%D9%82%D8%AA-%D8%AA%D8%AD%D9%88%D9%84%D8%A7/7563828"
+          "title": "«Хрупкая, как птенчик, была чуть больше чем с ладонь»: исповедь матери, чья дочь родилась весом 850 граммов - Новости Mail",
+          "url": "https://news.mail.ru/society/63702821/?utm_source=openai"
         },
         {
-          "title": "Child anaemia falls to 8%, stunting to 4% in Egypt - Health - Egypt - Ahram Online",
-          "url": "https://english.ahram.org.eg/NewsContentP/1/576675/Egypt/Child-anaemia-falls-to-8-stunting-to-4-in-Egypt.aspx"
+          "title": "Врачи из Бурятии выходили недоношенную девочку весом 850 граммов – Доктор 24, 18.11.2024",
+          "url": "https://www.dktr24.ru/news/medicine/18112024/6789?utm_source=openai"
+        },
+        {
+          "title": "Не могла дышать. Откровения матери, родившей дочку весом меньше килограмма | АиФ Бурятия",
+          "url": "https://bur.aif.ru/society/ne-mogla-dyshat-otkroveniya-materi-rodivshey-dochku-vesom-menshe-kilogramma?utm_source=openai"
         }
       ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 332. Please try again in 443ms. Visit https://platform.op",
+      "fallback_error": "",
       "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "measured_progress",
-      "evidence_quality": "medium",
+      "support": "supported",
+      "outcome_status": "completed",
+      "evidence_quality": "high",
       "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Egypt reports significant improvements in disease management metrics",
-      "verified_summary": "Egypt's health initiatives reportedly reduced anemia among school students from 42.3% in 2019 to 7.81% in 2026, and hepatitis C prevalence from 7% to 0.24% after screening over 70 million people. These figures are based on government reports.",
-      "verification_note": "While the reported improvements in health metrics are significant, they rely on government data without independent verification of causality.",
-      "publish_recommendation": "reserve"
+      "significance": "high",
+      "verified_headline": "Premature baby weighing 850 grams thrives after rescue in Ulan-Ude",
+      "verified_summary": "A premature baby girl named Ulyana, born at 28 weeks and weighing 850 grams, received successful medical care and is now developmentally normal at age 2½. She attended kindergarten and is indistinguishable from her peers.",
+      "verification_note": "The case of Ulyana is well-documented with multiple independent sources confirming her birth details and successful medical outcomes.",
+      "publish_recommendation": "publish"
     }
   ],
   "pilot_note": "Live-web verification pilot; cited search evidence is re-evaluated by a separate verifier model."
