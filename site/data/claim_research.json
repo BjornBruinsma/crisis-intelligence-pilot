@@ -1,59 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-14T18:57:07.888444Z",
+  "last_attempt_utc": "2026-11-15T01:20:44.417859Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 17,
+  "active_total": 18,
   "active_checked": 7,
   "direct_matches": 0,
-  "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "contradictions": 1,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "ac0dcf59cf2c30a13c876ba2": {
-      "event_id": "ac0dcf59cf2c30a13c876ba2",
-      "checked_at": "2026-10-31T07:03:40.556427Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-10-31T07:03:35.302911Z",
-          "exact_quote": "the wider context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage verwijst naar de onvoorspelbare situatie in het Midden-Oosten, maar biedt geen bewijs voor de claim over aanvallen op schepen in oktober.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "Er zijn geen directe bevestigingen van de claim over de aanvallen op schepen in oktober, maar er zijn verwijzingen naar de onvoorspelbare situatie en aanvallen door de Houthis.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/government/publications/budget-2026-document",
-          "title": "Budget 2026 document - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Do not include personal or financial information like your National Insurance number or credit card details."
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026. The airport continues to be targeted and remains at risk of further attacks."
-        }
-      ]
-    },
     "646433939c91ce5b513352e0": {
       "event_id": "646433939c91ce5b513352e0",
       "checked_at": "2026-11-01T13:00:33.381025Z",
@@ -3504,7 +3460,7 @@
     },
     "325c2bc2ce531f9b655322b8": {
       "event_id": "325c2bc2ce531f9b655322b8",
-      "checked_at": "2026-11-14T01:16:35.572991Z",
+      "checked_at": "2026-11-15T01:20:44.417805Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3513,15 +3469,15 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
           "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-14T01:16:25.066021Z",
+          "retrieved_at": "2026-11-15T01:20:31.057537Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten, maar bevestigt niet specifiek de aanval op het radarsysteem.",
+          "reason_nl": "De passage vermeldt de intenties van Iran, maar bevestigt niet specifiek de aanval op de radar in Bahrein.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De officiële tekst vermeldt de intenties van Iran, maar biedt geen bevestiging of ontkenning van de specifieke aanval op het radarsysteem in Bahrein.",
+      "summary_nl": "De documenten vermelden de intenties van Iran om locaties van de VS en Israël te targeten, maar bieden geen directe bevestiging of ontkenning van de aanval op de radar in Bahrein.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3548,24 +3504,35 @@
     },
     "5cc83ce993f61c0ec5ae4a35": {
       "event_id": "5cc83ce993f61c0ec5ae4a35",
-      "checked_at": "2026-11-14T01:16:35.573014Z",
+      "checked_at": "2026-11-15T01:20:44.417833Z",
       "version": "official-original-document-v1",
-      "research_status": "related_official_material",
+      "research_status": "conflicting_official_statement",
       "verified_event": false,
       "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-15T01:20:34.344012Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intenties van Iran, maar bevestigt niet de claim over de drones of de aanval op de radar.",
+          "claim_validated_as_fact": false
+        },
         {
           "source_url": "https://www.gov.uk/government/speeches/middle-east-update-oral-statement",
           "original_document_title": "Middle East Update Oral Statement - GOV.UKGOV.UK",
           "source_date": "2026-03-09T18:00:00+00:00",
-          "retrieved_at": "2026-11-14T01:16:27.301168Z",
-          "exact_quote": "Iran still then struck multiple countries with drones and missiles, including Bahrain",
-          "relation": "related_only",
+          "retrieved_at": "2026-11-15T01:20:34.931438Z",
+          "exact_quote": "Iran still then struck multiple countries with drones and missiles, including Bahrain where 32 civilians were injured",
+          "relation": "conflicting_statement",
           "older_document_than_claim": true,
-          "reason_nl": "Ouder document: toont geen bewijs van nieuwe gebeurtenis. De passage bevestigt dat Iran aanvallen heeft uitgevoerd, maar specificeert niet de aanval op het Amerikaanse radarsysteem.",
+          "reason_nl": "Ouder document: toont geen bewijs van nieuwe gebeurtenis. Deze passage bevestigt dat Iran aanvallen heeft uitgevoerd, maar het is niet duidelijk of dit de claim over de drones van de VS ondersteunt.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De tekst bevestigt dat Iran aanvallen heeft uitgevoerd in Bahrein, maar biedt geen specifieke informatie over de aanval op het radarsysteem.",
+      "summary_nl": "De documenten vermelden aanvallen door Iran, maar bieden geen directe bevestiging van de claim over de neergeschoten drones of de aanval op de radar.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3837,14 +3804,53 @@
           "text_excerpt": "​IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026. At least 25 seafarers have lost their lives, with others missing or injured."
         }
       ]
+    },
+    "8fb0e91f4400c02980aacecd": {
+      "event_id": "8fb0e91f4400c02980aacecd",
+      "checked_at": "2026-11-15T01:20:44.417827Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_date": null,
+          "retrieved_at": "2026-11-15T01:20:33.304055Z",
+          "exact_quote": "more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt aanvallen op commerciële schepen, maar bevestigt niet specifiek de brand op de tanker.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De documenten vermelden aanvallen op commerciële schepen in de Straat van Hormuz, maar bieden geen bewijs voor de specifieke brand op de tanker.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
+        },
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "The Secretary-General of the International Maritime Organization (IMO) Mr. Arsenio Dominguez has called for stronger action from IMO Member States to enforce maritime safety and security regulations in and around the Strait of Hormuz. Amid continued "
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-12": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 6233
-    },
     "2026-11-13": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -3854,6 +3860,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 5368
+    },
+    "2026-11-15": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 2225
     }
   },
   "last_error": null

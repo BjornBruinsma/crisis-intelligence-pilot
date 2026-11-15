@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-14T18:56:44.634617Z",
-  "fingerprint": "e1002a89f8e48e5c67fdb120",
+  "last_attempt_utc": "2026-11-15T01:20:22.621133Z",
+  "fingerprint": "d7314fedf51971b67e256774",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 18,
-  "event_candidate_count": 17,
+  "event_candidate_count": 18,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 5,
-    "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 4,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "model_pair_proposals": 2,
+    "accepted_pair_connections": 0,
+    "rejected_pair_proposals": 2,
+    "multi_claim_groups": 0,
+    "claims_in_multi_groups": 0,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 0,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-14T18:56:44.634617Z",
+    "recorded_at": "2026-11-15T01:20:22.621133Z",
     "groups": [
       {
         "ids": [
@@ -48,15 +48,14 @@
       },
       {
         "ids": [
-          "6738a21be33922",
-          "e7555912fbbd42"
+          "0550ef4f8093d4"
         ],
-        "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
+        "label_nl": "Claim: Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -148,6 +147,17 @@
       },
       {
         "ids": [
+          "6738a21be33922"
+        ],
+        "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "f79dfbe788282c"
         ],
         "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
@@ -159,9 +169,9 @@
       },
       {
         "ids": [
-          "070cffe9ab582a"
+          "692d6c67618c85"
         ],
-        "label_nl": "Claim: Trump wants to keep Iran blockade. Can the Persian Gulf sustain the standoff? - Iran International",
+        "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
         "actor": "",
         "action": "",
         "place": "",
@@ -192,9 +202,9 @@
       },
       {
         "ids": [
-          "0550ef4f8093d4"
+          "6a77d40e3f43b2"
         ],
-        "label_nl": "Claim: Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance",
+        "label_nl": "Claim: Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -216,7 +226,7 @@
     "input_claim_ids": [
       "02753692adc238",
       "6dc6cd7e45b30f",
-      "6738a21be33922",
+      "0550ef4f8093d4",
       "20481f3a50a697",
       "c6ad0f7287f5c3",
       "55f2df73d28b7e",
@@ -225,12 +235,12 @@
       "4ced6140f6ae3b",
       "e1f7860ac4b6bb",
       "bde81b0a60a540",
-      "e7555912fbbd42",
+      "6738a21be33922",
       "f79dfbe788282c",
-      "070cffe9ab582a",
+      "692d6c67618c85",
       "c4beb0da202327",
       "2c0657d84a30ec",
-      "0550ef4f8093d4",
+      "6a77d40e3f43b2",
       "2f3a641fd0bffa"
     ]
   },
@@ -343,6 +353,32 @@
       "probability_estimate": null
     },
     {
+      "id": "6eb69e6f93605d8874d0f76d",
+      "label_nl": "Claim: Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com",
+      "headline_claim_ids": [
+        "6a77d40e3f43b2"
+      ],
+      "headline_claims": [
+        "Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc21LZ1RJUkk2QU9mMzl5ZmVXU0I4MkhEc3JNU09TenlNTkR2Z3M3WmpEeEVXeTZkdUhVQjdKWTdBcEk2c1Y4RGhBdEVTQ1otNUtpLTY2SDBQUVhpVW8yZ0lGMjNPdnMwNW1jM1hTNkI5SnJfN29xYmNDb2dHNDlNLTJ4R2tHVExVYkQtem41N3lJS2RnY3BnNDhOTFBTXzdkZTJsSVg2dVJZYXJxWnNyZkc5bEIwMWx3VEhzOTRPUmltbkRoYm1PYkxYeGtrVlowX1kwWVJEQWszWF9vc0Q4MHFsVXM0NW1Bd1hvNA?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "2e7c7e78f0b26ca2e345147f",
       "label_nl": "Claim: Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id",
       "headline_claim_ids": [
@@ -369,39 +405,6 @@
       "probability_estimate": null
     },
     {
-      "id": "6a22ed511ba3209cec3a5099",
-      "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
-      "headline_claim_ids": [
-        "6738a21be33922",
-        "e7555912fbbd42"
-      ],
-      "headline_claims": [
-        "Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
-        "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes - CNBC"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHJnOHJDbk5WaldJTElTSXJZN2hvVkxscE9YbEduNmd3SlFMSkVVYjd0ZWxEdUVQeVJnaDRGMVd6Z3BMZTk5SDhNenR1a1F4TnZLS18tdXc3VGZsLU1NcVV2eTIzY3lweTNkOTZhTmVuVWg4OVFtdWc0SWthWkhCN3ZmSVdYeUVEZnZYbTRFRFZKd0g2dGFrVk5fWDNENVNKNzlhWnNn0gGuAUFVX3lxTE1QMjNYU3BTUTc3RUFiYWUyUlhxdmg2SGdYemQzY0xMRHl0cXl4SWdNNENOa0NzVWhzRWcyMHNiVTJGdTVWZ1VsWjl5cDhlNTFYQUZvTEEwZ2twT1loaG9raTBRLUlJR1RHZ0dxaWQxeERxd3lBVEpoSmhMdGhHQVZUdWhNdm83UEkxaDdpZVhyM2hMZVNTd3cxVjJpem5CU1BoVXRvTEQ2Tm9yOEhRUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnp2T2NvaFVwT05pV1Q0ay0tcENiWU5HTGpwckZrT0I3OVhuN2JwYm12RkViWVBFU3hoYVZScHlDdVFuNVY1WWJPbDNfY2RJRHEzNGs1aFNsZG1aR2RvVnBpcm5SQXQyV01QUnRDejV4am5odXZubzRSa01Jb2N2ak55NHNRejY3ZlNVa2JWUHFDUEE1bFltUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObHVWWHRoVUVJZHdicUFRVzREYVhaUllhYXhUWnVCUE9PWTFmM2hTbE1fcWRocmRlV0x5eHVKS3FBTTNxd0lSMXNBR2tzeVZHRndYdVE3SEgyUzI1Wi1DaDhPV3dyQkFFNzZKalgzZWZMZHlCRDFqSndsNlNiTTBpT25DV3VNUUNOUGRWUGF2dGZmbEFVam9wdXlrd18yNHVaQWVRT0VtTW84UdIBVkFVX3lxTE9mMXROUlVpU3ZtMlRqc3JRdkc5aUYtT3huOWRZVlBnWVRnUGcxSDRvUzBYZlZFRlMzczlIZDg1Wjh6ZkpheWxRVXBQNHJmSnRrWG84aU5B?oc=5",
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazZ2WlZKeGZNYjh5YjBSZW1ORURVWjNfel93b0Z0VjAtRmJHUFJBNjRqYVlrS05ycE1qcEMyZXduQy1hci1heF9pUktMcm16LWtXZDlPM212RjNQbUJfdlk1cC1wc1N2aTVJT09iVWxYV3M5TDlUWXI4cGFKdEpMZVk1dk9lU282aHVETk9EVFItaWtzZ0t4QXhLdUlWbUljZ05uT3NQYmR1c3UyTUUwME51ZFh2dXM?oc=5",
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
-        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQ1M3a0kxSnExNEhQZnl0RTd6TXk2d1lzQWhNaHQ0QzV6Tjg5NzdjZXhycjdudldUS1ZIQXNDMVFVakpYRjVFa21uZTY3UHdqYUc1WkdOWFRMYm96NnIwWTBCZkxYTVBGSzY1ekd1S2s3czNQR3JXeG9qaHBISDY3MGxUdXpEZ3RWdUl0SkVaQ0VpN0ZFRlZHR0hSdy01VFJkQ0F5VmVMU0dET05RcUZ0c0F4R25EZ3I5NjdWVDFic2ZrV3lWcEtFWUhfcG85VW05YW1PVXVEc2hWa3g2RGRJeDFNUE5QVl81WUd3YWF6RdIB9AFBVV95cUxPUUtfMmdIMkJPd3hlUHZVajhfQkNaX09sSG5vMGNQQk01bUc5Vk9rbm1JeVpFbUdjR3o2SlJScWFJQnFSZm9ZWmNTTnVRT0VKLTI4bS1xOHZtb1EwZlNpTllQaTMwR0dIc1VmYUIzX3IySnZ2cURWLTJuZDNsWF9NaWVXY0IwWlQ5S2J5ejVaUWZIUmVRZlQyR0ZPbm1KcXR5YmVWWmNVQlgxZXhlR3JWaTBvdUJDRTRPeHB6cl9DMXlxLTRId1ZnaEJBZXNYOHdBTUp1XzJKaGRRVW42WlRDMFYwNmN5QWhhb0JXd1hOQkZPbV9s?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 6,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "a9a083444aa3ac9a87ff7893",
       "label_nl": "Claim: Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance",
       "headline_claim_ids": [
@@ -415,6 +418,34 @@
       ],
       "article_group_count": 1,
       "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "03833776d351cf021164aca7",
+      "label_nl": "Claim: Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance",
+      "headline_claim_ids": [
+        "0550ef4f8093d4"
+      ],
+      "headline_claims": [
+        "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWmRESjNOczRIRDFCaEpQZERVbHpUUV90cTc2eVNVbmVjQmpxb09qekJzbmpHbEtDc1I4ODJRbFZiMFpuWWZzbE5XdFk5MWtKc2pfZjBPS2doNG1UZTNRdnlRcFJCRy1xZEppdDgwRjZHU01QTlJ2WEJGZkl2djF4RTJqaUI5NjIyaEJjQzVn?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbl8tRXIyVnZ1NkY0dXIwd3prZ1pYSGZERndDTWlITUhtRjl4WjkyYzQ5eXBqUlNhbFM4RFpCSlJuY1BQY0pRV0M0WkNNNzNldGYzV1hnalphY3lUS1FBWnNwR1J1REtWQ2ZQd194N0hhQ1FhdEhPSTJ5ZmFBVTFQRnYtM0tLSE1OeUN3dDRBdXcyc2RkeEFyZDFlbFE3OUpQWHFHcXY4NmVPMHoxcC1jcUIxR1hFNmvSAVZBVV95cUxNam5WY3ExSnNaTnZfNkFKUE9fb3FLVmluWWNwUVVscFktSWxZZVI0WnBIQUlWanVrUDBPeFZ4dDVnV0E2eFhqRUQzcWNHSmEyaWtIdXd1dw?oc=5",
+        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01THdRVEFHLVFMVlB3RlROYW9Ka2lrM2Zmc1dJN2xZTThpeUlmMjdRYmpYY181U0VsQU9CbnA0WXV5OUV5MzdKLUdFbWp3cnUz0gFWQVVfeXFMTWpuVmNxMUpzWk52XzZBSlBPX29xS1ZpblljcFFVbHBZLUlsWWVSNFpwSEFJVmp1a1AwT3hWeHQ1Z1dBNnhYakVEM3FjR0phMmlrSHV3dXc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 3,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -612,16 +643,43 @@
       "probability_estimate": null
     },
     {
-      "id": "64bf4509168e90e4978ff8f5",
-      "label_nl": "Claim: Trump wants to keep Iran blockade. Can the Persian Gulf sustain the standoff? - Iran International",
+      "id": "274e0891fa2321bf96df304f",
+      "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
       "headline_claim_ids": [
-        "070cffe9ab582a"
+        "6738a21be33922"
       ],
       "headline_claims": [
-        "Trump wants to keep Iran blockade. Can the Persian Gulf sustain the standoff? - Iran International"
+        "Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52c1RDMlBOZjhGZFNSNE05MWRKOUM3LWJFOTlhTEQ2c2JVQk5veWNwQ2NMN3pxdjdBMURpRjhPRmh3MzhXdHF3ei1XUGVKanl6SXc?oc=5"
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHJnOHJDbk5WaldJTElTSXJZN2hvVkxscE9YbEduNmd3SlFMSkVVYjd0ZWxEdUVQeVJnaDRGMVd6Z3BMZTk5SDhNenR1a1F4TnZLS18tdXc3VGZsLU1NcVV2eTIzY3lweTNkOTZhTmVuVWg4OVFtdWc0SWthWkhCN3ZmSVdYeUVEZnZYbTRFRFZKd0g2dGFrVk5fWDNENVNKNzlhWnNn0gGuAUFVX3lxTE1QMjNYU3BTUTc3RUFiYWUyUlhxdmg2SGdYemQzY0xMRHl0cXl4SWdNNENOa0NzVWhzRWcyMHNiVTJGdTVWZ1VsWjl5cDhlNTFYQUZvTEEwZ2twT1loaG9raTBRLUlJR1RHZ0dxaWQxeERxd3lBVEpoSmhMdGhHQVZUdWhNdm83UEkxaDdpZVhyM2hMZVNTd3cxVjJpem5CU1BoVXRvTEQ2Tm9yOEhRUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnp2T2NvaFVwT05pV1Q0ay0tcENiWU5HTGpwckZrT0I3OVhuN2JwYm12RkViWVBFU3hoYVZScHlDdVFuNVY1WWJPbDNfY2RJRHEzNGs1aFNsZG1aR2RvVnBpcm5SQXQyV01QUnRDejV4am5odXZubzRSa01Jb2N2ak55NHNRejY3ZlNVa2JWUHFDUEE1bFltUQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "b7185776f9b7eebaf24559fd",
+      "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
+      "headline_claim_ids": [
+        "692d6c67618c85"
+      ],
+      "headline_claims": [
+        "How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc1pQWldJNV9iYmpNNU8xSl9rSm1VcDA1aXdkNllocndTamt3T0kwaUhQb3JvUW9KdzBtQ0pfM0ZveGs2UzdWOWgxcC1EdV9Ball5NDFWZjdmcDJRUDI4Yml3anIybFNadUF3TzlBejlQT2t4SnhjbXBBM2ZpQ1JfSFZyZENuckdjQ1IyUmtqY0FPT3VUanJxWmtmc004R0xYMlNiR1Yyd0dXMGlWblVUQnlZWlFZa3FfZ1VnU01BMEwyQVZjTFh1N3phOXU5U2lJSWtQUENYRkpneEXSAeIBQVVfeXFMUC1Vak5vWkF5bHpQeEthYWw0cGhRR0VMc3dqMzA2ZkFzdUM4SnZ3YWRyWlVrTm14TWNuSWZPSmdpbU9Dd0RNUWtmRTdSSGZ2WFRYMlpmX3RfM0t4eVVsRnpxNThJbGZ0VzcxX0lhX2ZOWmwxeEpBVURRT1FJVVJ2d25mZ3RleDNHYWNzRTRwa040dDVrZGJpbmJzVHdyVmhfdWJkYTk1dHBEaUp1VkxPTkt6am5rZll6M293OWlxMUZRRE1ndkQweVl0bmlVSm1iZG5QV09HVXZCYVdiYW9xYkg3dw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -662,41 +720,9 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
-    },
-    {
-      "id": "03833776d351cf021164aca7",
-      "label_nl": "Claim: Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance",
-      "headline_claim_ids": [
-        "0550ef4f8093d4"
-      ],
-      "headline_claims": [
-        "Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWmRESjNOczRIRDFCaEpQZERVbHpUUV90cTc2eVNVbmVjQmpxb09qekJzbmpHbEtDc1I4ODJRbFZiMFpuWWZzbE5XdFk5MWtKc2pfZjBPS2doNG1UZTNRdnlRcFJCRy1xZEppdDgwRjZHU01QTlJ2WEJGZkl2djF4RTJqaUI5NjIyaEJjQzVn?oc=5",
-        "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbl8tRXIyVnZ1NkY0dXIwd3prZ1pYSGZERndDTWlITUhtRjl4WjkyYzQ5eXBqUlNhbFM4RFpCSlJuY1BQY0pRV0M0WkNNNzNldGYzV1hnalphY3lUS1FBWnNwR1J1REtWQ2ZQd194N0hhQ1FhdEhPSTJ5ZmFBVTFQRnYtM0tLSE1OeUN3dDRBdXcyc2RkeEFyZDFlbFE3OUpQWHFHcXY4NmVPMHoxcC1jcUIxR1hFNmvSAVZBVV95cUxNam5WY3ExSnNaTnZfNkFKUE9fb3FLVmluWWNwUVVscFktSWxZZVI0WnBIQUlWanVrUDBPeFZ4dDVnV0E2eFhqRUQzcWNHSmEyaWtIdXd1dw?oc=5",
-        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE01THdRVEFHLVFMVlB3RlROYW9Ka2lrM2Zmc1dJN2xZTThpeUlmMjdRYmpYY181U0VsQU9CbnA0WXV5OUV5MzdKLUdFbWp3cnUz0gFWQVVfeXFMTWpuVmNxMUpzWk52XzZBSlBPX29xS1ZpblljcFFVbHBZLUlsWWVSNFpwSEFJVmp1a1AwT3hWeHQ1Z1dBNnhYakVEM3FjR0phMmlrSHV3dXc?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-11-12": {
-      "requests": 12,
-      "total_tokens": 32721
-    },
     "2026-11-13": {
       "requests": 12,
       "total_tokens": 29391
@@ -704,6 +730,10 @@
     "2026-11-14": {
       "requests": 12,
       "total_tokens": 32006
+    },
+    "2026-11-15": {
+      "requests": 3,
+      "total_tokens": 7083
     }
   }
 }
