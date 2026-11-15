@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-15T01:20:22.621133Z",
-  "fingerprint": "d7314fedf51971b67e256774",
+  "last_attempt_utc": "2026-11-15T07:17:57.237590Z",
+  "fingerprint": "8828dac3bc9cb4f65a2fe6d6",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 18,
+  "input_candidate_count": 19,
   "event_candidate_count": 18,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 2,
-    "accepted_pair_connections": 0,
+    "model_pair_proposals": 3,
+    "accepted_pair_connections": 1,
     "rejected_pair_proposals": 2,
-    "multi_claim_groups": 0,
-    "claims_in_multi_groups": 0,
+    "multi_claim_groups": 1,
+    "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 0,
+    "auditor_approved_pairs": 1,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-15T01:20:22.621133Z",
+    "recorded_at": "2026-11-15T07:17:57.237590Z",
     "groups": [
       {
         "ids": [
@@ -51,17 +51,6 @@
           "0550ef4f8093d4"
         ],
         "label_nl": "Claim: Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "20481f3a50a697"
-        ],
-        "label_nl": "Claim: Oil futures: Crude extends gains as US-Iran talks stall - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
@@ -114,9 +103,9 @@
       },
       {
         "ids": [
-          "4ced6140f6ae3b"
+          "a110ca626de3ea"
         ],
-        "label_nl": "Claim: GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/",
+        "label_nl": "Claim: Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions - The Economic Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -136,64 +125,9 @@
       },
       {
         "ids": [
-          "bde81b0a60a540"
+          "ec097c020da3ff"
         ],
-        "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "6738a21be33922"
-        ],
-        "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "f79dfbe788282c"
-        ],
-        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "692d6c67618c85"
-        ],
-        "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "c4beb0da202327"
-        ],
-        "label_nl": "Claim: US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain - AOL.com",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "2c0657d84a30ec"
-        ],
-        "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
+        "label_nl": "Claim: Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id",
         "actor": "",
         "action": "",
         "place": "",
@@ -213,9 +147,76 @@
       },
       {
         "ids": [
+          "6a33e3d3f5959f"
+        ],
+        "label_nl": "Claim: Iran War: The Strait of Hormuz Oil Shock Is Now Heading West - EnergyNow.com",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "f79dfbe788282c",
           "2f3a641fd0bffa"
         ],
-        "label_nl": "Claim: Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id",
+        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+      },
+      {
+        "ids": [
+          "692d6c67618c85"
+        ],
+        "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "cdf48158597397"
+        ],
+        "label_nl": "Claim: Middle East latest: Bahrain issues nationwide threat alert amid Iran attack claims - The National",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "bde81b0a60a540"
+        ],
+        "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "75a5fe23d0357a"
+        ],
+        "label_nl": "Claim: The Oil Market Is Brimming With Crude Despite Tanker Attacks - Yahoo Finance",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "20481f3a50a697"
+        ],
+        "label_nl": "Claim: Oil futures: Crude extends gains as US-Iran talks stall - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
@@ -227,26 +228,56 @@
       "02753692adc238",
       "6dc6cd7e45b30f",
       "0550ef4f8093d4",
-      "20481f3a50a697",
       "c6ad0f7287f5c3",
       "55f2df73d28b7e",
       "cdbcccd715dbe0",
       "35e380a51e98ef",
-      "4ced6140f6ae3b",
+      "a110ca626de3ea",
       "e1f7860ac4b6bb",
-      "bde81b0a60a540",
-      "6738a21be33922",
+      "ec097c020da3ff",
+      "6a77d40e3f43b2",
+      "6a33e3d3f5959f",
       "f79dfbe788282c",
       "692d6c67618c85",
-      "c4beb0da202327",
-      "2c0657d84a30ec",
-      "6a77d40e3f43b2",
+      "cdf48158597397",
+      "bde81b0a60a540",
+      "75a5fe23d0357a",
+      "20481f3a50a697",
       "2f3a641fd0bffa"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
+    {
+      "id": "8aa22e259d34c2d53fa1fc5a",
+      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
+      "headline_claim_ids": [
+        "f79dfbe788282c",
+        "2f3a641fd0bffa"
+      ],
+      "headline_claims": [
+        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
+        "Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5",
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sTzJ0TjRPNWx4cXV1UHRkbU51Z3dxOXRSYklJME5QT0tRVm91VVpYUkJ1ejNNVmQxQl8tc2VvaURoblJUeU9yb1FUYk9FWEc0dFJRUldQeGVHcTVxVzE4SkR1NUxBWFZkbkI0?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
     {
       "id": "325c2bc2ce531f9b655322b8",
       "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
@@ -275,68 +306,16 @@
       "probability_estimate": null
     },
     {
-      "id": "4dd323927f3bf2d6c0931b25",
-      "label_nl": "Claim: GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/",
+      "id": "eb28bcfe247b846feede8f73",
+      "label_nl": "Claim: Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions - The Economic Times",
       "headline_claim_ids": [
-        "4ced6140f6ae3b"
+        "a110ca626de3ea"
       ],
       "headline_claims": [
-        "GCC Tells UN Iran Fired Over 7,000 Missiles and Drones at Gulf States - https://houseofsaud.com/"
+        "Iran claims attack on US radar in Bahrain as tanker fires raise Hormuz tensions - The Economic Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IZ0NhOERhS3lha1FqXzVodXVkck5jLVZkY0RodkRsYUF4N3N5bnJoTlg3V1I5eFdFWHRKTnkxTldkSDl4MHNEM3hWeWVwb19RQTczQWsxUFNjMkJ1aVhWWkE1ZDA?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "8fb0e91f4400c02980aacecd",
-      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
-      "headline_claim_ids": [
-        "f79dfbe788282c"
-      ],
-      "headline_claims": [
-        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "5cc83ce993f61c0ec5ae4a35",
-      "label_nl": "Claim: US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain - AOL.com",
-      "headline_claim_ids": [
-        "c4beb0da202327"
-      ],
-      "headline_claims": [
-        "US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain - AOL.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbDRfR2NJS05lekhQX2ZnM0tuemFhQkQ0dmZpRVlfQlhqYUVfdl9oOGQ3aDQ4WGJMS3RlcmNONU5KaU56b0VOQjRwUE9XUDN3aENZekROdWJkRVBHUlpKNXN4UllycURGb09vcWxEN0RGcnczeTRyazRiOFBiaHBkajJuRV9HbzNDS003OQ?oc=5"
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNR3dDbTZlcHo5dlpoNDJsVG81MEpfZ1ZnMlJCVmRNV1FUSkZsZEh5UjRZcjNuOUJGbV9aT0RzSUlRWVd0eXRwRjktWkh3Y25PVGE5TG5nY2dtQU1falVaaXZhMUphV1ZmdXZxa2R3NGFZZnJ6RXlSSFlJYTRNenBZZGFkSEMyTTJuRERnS1JfcVV2cWR3QlZzSVdDR0l6cW9qMGE4cGpBRXJEb2lBaWE4Wml0Q3VYUlFMdDdWOXpLSW9hU29kRHFzTWpCM3dGNWJOZngxOTRScGNhN3g1XzA00gHkAUFVX3lxTE9ycDdHWTJQcU1zMlJyeS14aWl5Y2tZX21NMmp4Mm9xWHFVa2hBcGtqaU0zT0RoSEdObFNIZjc4MWZhb2VZUTB5c1NVTDdvZ0VPZDNDU0N6YTQ3X2M1S3c5WTdLWEwzOWhxSWtMRTRMSG16RXlKMnlIb3dFbkNSNHo3MnlkcWIxVUxBSC01VEUycGp5QThGRU9pd0RyNU0yTTRhYlNyRkQ1VWNZZWg1Tk45WW1uV1B3M2k3MjVRU3dGS2N4eVhRbjRIZUFHSGVrT1ZDVWhTMUhtaDBMaUw4cHNtWXVVag?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -379,16 +358,16 @@
       "probability_estimate": null
     },
     {
-      "id": "2e7c7e78f0b26ca2e345147f",
-      "label_nl": "Claim: Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id",
+      "id": "9246dfc6a9d7d7368bd130a4",
+      "label_nl": "Claim: Middle East latest: Bahrain issues nationwide threat alert amid Iran attack claims - The National",
       "headline_claim_ids": [
-        "2f3a641fd0bffa"
+        "cdf48158597397"
       ],
       "headline_claims": [
-        "Iran Reports Five Tanker Mine Strikes in Strait of Hormuz - Demokratis.co.id"
+        "Middle East latest: Bahrain issues nationwide threat alert amid Iran attack claims - The National"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sTzJ0TjRPNWx4cXV1UHRkbU51Z3dxOXRSYklJME5QT0tRVm91VVpYUkJ1ejNNVmQxQl8tc2VvaURoblJUeU9yb1FUYk9FWEc0dFJRUldQeGVHcTVxVzE4SkR1NUxBWFZkbkI0?oc=5"
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWFZVVhzUDVtSFIwNTY3QjZWN2NIRzJXVmdMWEc4ZEtKQlpQb1NBZ2VnUGxtaFZtc1IyLUZ0ZGFXZUtaUEVsd1lSNG1vSmF0Sy1KRndMcDdSYTdYaWI0ZXowSEwzLUhRN0ZKTVlhZ2ZiT2M1RTRwMEF4dEJQVGY4aExtUnF5T1RQLTlOMHdsLTVUblN2QUN1SXhmZ3hjZWV1?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -446,32 +425,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "10465fad17fbe18b9901eb2f",
-      "label_nl": "Claim: Oil futures: Crude extends gains as US-Iran talks stall - Quantum Commodity Intelligence",
-      "headline_claim_ids": [
-        "20481f3a50a697"
-      ],
-      "headline_claims": [
-        "Oil futures: Crude extends gains as US-Iran talks stall - Quantum Commodity Intelligence"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxPbk5HWXZ0Mzl4dm9Nd1djMHRrS1hWSVVkcmV4cF9janhvY1UtQ3oxSHJXWnJjcjJGVWJ1MUZhcnBFaEdDOTd5ajF4U0syOElONlNLQjdfYzJEOXBjZ2hSR1lCOEk4bGlLTjA1SWptM3RSTWp2TDdoUzJUaDlWRTFLdENjUDNSSjVWdnh6anlMNDlCY1BKZ29PTXhHOUxNUQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -617,16 +570,16 @@
       "probability_estimate": null
     },
     {
-      "id": "5cd6d39ccc362292fc1b8bfa",
-      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
+      "id": "e7e3fc4990e804b70bf50c71",
+      "label_nl": "Claim: Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id",
       "headline_claim_ids": [
-        "bde81b0a60a540"
+        "ec097c020da3ff"
       ],
       "headline_claims": [
-        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/"
+        "Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5"
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrUHctTld0ckpxeUZWNnFndk1qY2trYWpiTXVVejdsY0N3U0tTTm50QnhBNGpxemVRTmJLRWFkRkNGakNkUm85YzNYUi1TLWI5SWt0V2N2UkhKV0x1YV9mSGR4clV5UFlSMUk4Q1JEY09yZTk0eHdZc0hB?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -643,20 +596,19 @@
       "probability_estimate": null
     },
     {
-      "id": "274e0891fa2321bf96df304f",
-      "label_nl": "Claim: Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune",
+      "id": "4a5faa7b2dcf1a96f8e15688",
+      "label_nl": "Claim: Iran War: The Strait of Hormuz Oil Shock Is Now Heading West - EnergyNow.com",
       "headline_claim_ids": [
-        "6738a21be33922"
+        "6a33e3d3f5959f"
       ],
       "headline_claims": [
-        "Oil rebounds as Hormuz shipping attacks blunt hopes for Iran truce - The Express Tribune"
+        "Iran War: The Strait of Hormuz Oil Shock Is Now Heading West - EnergyNow.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeHJnOHJDbk5WaldJTElTSXJZN2hvVkxscE9YbEduNmd3SlFMSkVVYjd0ZWxEdUVQeVJnaDRGMVd6Z3BMZTk5SDhNenR1a1F4TnZLS18tdXc3VGZsLU1NcVV2eTIzY3lweTNkOTZhTmVuVWg4OVFtdWc0SWthWkhCN3ZmSVdYeUVEZnZYbTRFRFZKd0g2dGFrVk5fWDNENVNKNzlhWnNn0gGuAUFVX3lxTE1QMjNYU3BTUTc3RUFiYWUyUlhxdmg2SGdYemQzY0xMRHl0cXl4SWdNNENOa0NzVWhzRWcyMHNiVTJGdTVWZ1VsWjl5cDhlNTFYQUZvTEEwZ2twT1loaG9raTBRLUlJR1RHZ0dxaWQxeERxd3lBVEpoSmhMdGhHQVZUdWhNdm83UEkxaDdpZVhyM2hMZVNTd3cxVjJpem5CU1BoVXRvTEQ2Tm9yOEhRUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnp2T2NvaFVwT05pV1Q0ay0tcENiWU5HTGpwckZrT0I3OVhuN2JwYm12RkViWVBFU3hoYVZScHlDdVFuNVY1WWJPbDNfY2RJRHEzNGs1aFNsZG1aR2RvVnBpcm5SQXQyV01QUnRDejV4am5odXZubzRSa01Jb2N2ak55NHNRejY3ZlNVa2JWUHFDUEE1bFltUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRUoyWnROemxWVUpiYzVCeEZDYlhIUFY2VUFhUmN1Z1FpcXlHcmh4UmNIOTlaZkdrUzlRMEkyUEtUYXVGb1lLTEFBQXQ5MUs3M1R0cjEtQkZkR1RSUW5rZF93LUZzTnl0MHZTdURvY1dDRkJ3NEFoVmE2dDRwXy1yME9NaHNkcUpCRXBiWVVqamVoOEtu?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -696,16 +648,68 @@
       "probability_estimate": null
     },
     {
-      "id": "a3f2f7ce70d033dcad8db379",
-      "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
+      "id": "5cd6d39ccc362292fc1b8bfa",
+      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "2c0657d84a30ec"
+        "bde81b0a60a540"
       ],
       "headline_claims": [
-        "UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/"
+        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlsNHc0c3pGN1ZNNGl1cjdqMW9oNlVVUzM5V1JIS1ZCOWRlN3NrdjFwcWRld2FURmpfUWdoSUlUY3B4RUdneW94dnNOYVluLXg4RThxM2ZVRk5INENzTy1OR1M1NXRsN1lNUFI3cjhXZ1JicUpLekJYb1dUQmtYejcyRnMtTnpCNFFKRTZqUDUyUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "bcae45c9f3e5b7ed93b5e482",
+      "label_nl": "Claim: The Oil Market Is Brimming With Crude Despite Tanker Attacks - Yahoo Finance",
+      "headline_claim_ids": [
+        "75a5fe23d0357a"
+      ],
+      "headline_claims": [
+        "The Oil Market Is Brimming With Crude Despite Tanker Attacks - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxORlF2eEwxWlAtQjVxVGNkYmhYczNPSkhnRWhQd3V4NVE2SEpSWVI0c3lVcVNxZm5ZTG9hd2RNY3FtR3dzSkRyY0t2ZVlVUkFoajZCVEVKRXgwZmdDZEVWbndWMUtuU1pKNmFwWTl6ZmY1SjBFdXRBS2RSWm9KMlcwM3NmaFRqRXJNQTJ4d01uVVVpeGxh?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "10465fad17fbe18b9901eb2f",
+      "label_nl": "Claim: Oil futures: Crude extends gains as US-Iran talks stall - Quantum Commodity Intelligence",
+      "headline_claim_ids": [
+        "20481f3a50a697"
+      ],
+      "headline_claims": [
+        "Oil futures: Crude extends gains as US-Iran talks stall - Quantum Commodity Intelligence"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxPbk5HWXZ0Mzl4dm9Nd1djMHRrS1hWSVVkcmV4cF9janhvY1UtQ3oxSHJXWnJjcjJGVWJ1MUZhcnBFaEdDOTd5ajF4U0syOElONlNLQjdfYzJEOXBjZ2hSR1lCOEk4bGlLTjA1SWptM3RSTWp2TDdoUzJUaDlWRTFLdENjUDNSSjVWdnh6anlMNDlCY1BKZ29PTXhHOUxNUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -732,8 +736,8 @@
       "total_tokens": 32006
     },
     "2026-11-15": {
-      "requests": 3,
-      "total_tokens": 7083
+      "requests": 6,
+      "total_tokens": 14423
     }
   }
 }

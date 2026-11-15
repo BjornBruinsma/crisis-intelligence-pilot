@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-15T01:19:59.589434Z",
+  "last_attempt_utc": "2026-11-15T07:17:34.310755Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -5911,6 +5911,102 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-15T01:19:58.589232Z"
+    },
+    "364a03d2860705": {
+      "id": "364a03d2860705",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "other",
+      "summary_nl": "De kop claimt dat Canada meer olie produceert dan het nodig heeft, maar het blijft energie importeren.",
+      "claimed_event_nl": "Canada produceert meer olie dan het nodig heeft.",
+      "reason_nl": "Deze informatie is niet direct gerelateerd aan de situatie in Iran of de Golfregio.",
+      "limitations_nl": "Geen relevante context voor regionale escalatie of economische gevolgen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-15T07:17:29.804435Z"
+    },
+    "a110ca626de3ea": {
+      "id": "a110ca626de3ea",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran claimt een aanval op een Amerikaanse radar in Bahrein, wat de spanningen in de Straat van Hormuz verhoogt.",
+      "claimed_event_nl": "Iran heeft een aanval op een Amerikaanse radar in Bahrein uitgevoerd.",
+      "reason_nl": "Deze claim kan leiden tot verhoogde spanningen en escalatie in de regio.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-15T07:17:29.804456Z"
+    },
+    "ec097c020da3ff": {
+      "id": "ec097c020da3ff",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De Saoedische coalitie claimt dat ze raketten en drones heeft onderschept die gericht waren op Riyadh.",
+      "claimed_event_nl": "Saoedi-Arabië heeft raketten en drones onderschept.",
+      "reason_nl": "Dit kan wijzen op een verhoogde militaire activiteit en spanningen in de regio.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-15T07:17:29.804463Z"
+    },
+    "6a33e3d3f5959f": {
+      "id": "6a33e3d3f5959f",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "opinion",
+      "summary_nl": "De kop suggereert dat de oliecrisis in de Straat van Hormuz zich naar het westen verplaatst.",
+      "claimed_event_nl": "De oliecrisis in de Straat van Hormuz verplaatst zich naar het westen.",
+      "reason_nl": "Dit kan economische gevolgen hebben voor de olievoorziening en markten.",
+      "limitations_nl": "Het betreft een toekomstverwachting zonder concrete feiten.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-15T07:17:29.804468Z"
+    },
+    "cdf48158597397": {
+      "id": "cdf48158597397",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Bahrein heeft een landelijke dreigingsalarm afgegeven naar aanleiding van de claims van een aanval door Iran.",
+      "claimed_event_nl": "Bahrein heeft een dreigingsalarm afgegeven.",
+      "reason_nl": "Dit kan duiden op een verhoogde staat van paraatheid en spanningen in de regio.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-15T07:17:29.804476Z"
+    },
+    "75a5fe23d0357a": {
+      "id": "75a5fe23d0357a",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "market_move",
+      "summary_nl": "De olieprijs zou stabiel blijven ondanks aanvallen op tankers, volgens een claim van Yahoo Finance.",
+      "claimed_event_nl": "De olievoorraad is overvloedig ondanks aanvallen op tankers.",
+      "reason_nl": "Deze claim is relevant voor de financiële markten en kan invloed hebben op olieprijzen en economische stabiliteit.",
+      "limitations_nl": "De informatie is afkomstig van een enkele bron en is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-15T07:17:33.310551Z"
     }
   },
   "usage_by_day": {
@@ -5923,8 +6019,8 @@
       "total_tokens": 4290
     },
     "2026-11-15": {
-      "requests": 1,
-      "total_tokens": 970
+      "requests": 3,
+      "total_tokens": 3183
     }
   }
 }
