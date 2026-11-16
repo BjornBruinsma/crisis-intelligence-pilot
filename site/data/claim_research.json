@@ -1,47 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-15T18:58:08.570344Z",
+  "last_attempt_utc": "2026-11-16T01:37:12.997698Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 16,
-  "active_checked": 6,
+  "active_total": 18,
+  "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "dc2160088928a88bc0fe03af": {
-      "event_id": "dc2160088928a88bc0fe03af",
-      "checked_at": "2026-11-01T13:00:33.381032Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante passages gevonden die de claim over een Qatarese LNG-tanker die in de Golfwateren is aangevallen ondersteunen of ontkennen.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/check-state-pension",
-          "title": "Check your State Pension forecast - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Check your State Pension forecast"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "monitor local and international media for the latest information, including updates relating to airports and airspace which could close at short notice"
-        }
-      ]
-    },
     "41dc90d1f9b360d26d0b40e8": {
       "event_id": "41dc90d1f9b360d26d0b40e8",
       "checked_at": "2026-11-02T01:19:58.991011Z",
@@ -3246,7 +3214,7 @@
     },
     "325c2bc2ce531f9b655322b8": {
       "event_id": "325c2bc2ce531f9b655322b8",
-      "checked_at": "2026-11-15T01:20:44.417805Z",
+      "checked_at": "2026-11-16T01:37:12.997659Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3255,15 +3223,15 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
           "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-15T01:20:31.057537Z",
+          "retrieved_at": "2026-11-16T01:37:05.927640Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intenties van Iran, maar bevestigt niet specifiek de aanval op de radar in Bahrein.",
+          "reason_nl": "De passage vermeldt de intenties van Iran, maar bevestigt niet specifiek de claim van de VS over een aanval.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De documenten vermelden de intenties van Iran om locaties van de VS en Israël te targeten, maar bieden geen directe bevestiging of ontkenning van de aanval op de radar in Bahrein.",
+      "summary_nl": "De teksten vermelden de intenties van Iran, maar bieden geen directe bevestiging of ontkenning van de claim.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3593,24 +3561,12 @@
     },
     "8fb0e91f4400c02980aacecd": {
       "event_id": "8fb0e91f4400c02980aacecd",
-      "checked_at": "2026-11-15T01:20:44.417827Z",
+      "checked_at": "2026-11-16T01:37:12.997665Z",
       "version": "official-original-document-v1",
-      "research_status": "related_official_material",
+      "research_status": "documents_found_unassessed",
       "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
-          "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
-          "source_date": null,
-          "retrieved_at": "2026-11-15T01:20:33.304055Z",
-          "exact_quote": "more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt aanvallen op commerciële schepen, maar bevestigt niet specifiek de brand op de tanker.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De documenten vermelden aanvallen op commerciële schepen in de Straat van Hormuz, maar bieden geen bewijs voor de specifieke brand op de tanker.",
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3839,14 +3795,41 @@
           "text_excerpt": "the rate for the second tax payment onwards"
         }
       ]
+    },
+    "eb439cb1796b205155fe84d0": {
+      "event_id": "eb439cb1796b205155fe84d0",
+      "checked_at": "2026-11-16T01:37:12.997634Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You have accepted additional cookies. You can change your cookie settings at any time."
+        },
+        {
+          "url": "https://www.gov.uk/self-assessment-tax-returns",
+          "title": "Self Assessment tax returns: Overview - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You have accepted additional cookies. You can change your cookie settings at any time."
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-13": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 5959
-    },
     "2026-11-14": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -3856,6 +3839,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 5819
+    },
+    "2026-11-16": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 2037
     }
   },
   "last_error": null

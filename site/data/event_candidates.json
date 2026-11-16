@@ -1,12 +1,12 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-15T18:57:59.313564Z",
-  "fingerprint": "9e422738f22955951ddda751",
+  "last_attempt_utc": "2026-11-16T01:36:58.033126Z",
+  "fingerprint": "4b3985f9e80cd3f87c16c874",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 17,
-  "event_candidate_count": 16,
+  "input_candidate_count": 19,
+  "event_candidate_count": 18,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
     "model_pair_proposals": 2,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-15T18:57:59.313564Z",
+    "recorded_at": "2026-11-16T01:36:58.033126Z",
     "groups": [
       {
         "ids": [
@@ -48,6 +48,17 @@
       },
       {
         "ids": [
+          "ec097c020da3ff"
+        ],
+        "label_nl": "Claim: Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "0550ef4f8093d4"
         ],
         "label_nl": "Claim: Oil prices set for second weekly decline as Trump sticks with Iran blockade - Yahoo Finance",
@@ -59,14 +70,15 @@
       },
       {
         "ids": [
-          "617cbf97e7ab69"
+          "617cbf97e7ab69",
+          "baffe74ccf840a"
         ],
         "label_nl": "Claim: Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -103,18 +115,6 @@
       },
       {
         "ids": [
-          "7a24fd43f6fd37",
-          "8f020cc0c665f9"
-        ],
-        "label_nl": "Claim: Iran holds 2,500 missiles with 4,000 km range and 33 underground bases, strikes Bahrain - Bankingnews",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
-      },
-      {
-        "ids": [
           "e1f7860ac4b6bb"
         ],
         "label_nl": "Claim: Trump halts Vance's negotiations with Iran, marking a \"180-degree shift\": pivoting to a \"no war, no talks\" stance. - 富途牛牛",
@@ -126,9 +126,9 @@
       },
       {
         "ids": [
-          "ec097c020da3ff"
+          "bde81b0a60a540"
         ],
-        "label_nl": "Claim: Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id",
+        "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
@@ -148,9 +148,9 @@
       },
       {
         "ids": [
-          "c6ad0f7287f5c3"
+          "f79dfbe788282c"
         ],
-        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
         "actor": "",
         "action": "",
         "place": "",
@@ -159,9 +159,20 @@
       },
       {
         "ids": [
-          "bde81b0a60a540"
+          "221dabd8ce00af"
         ],
-        "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
+        "label_nl": "Claim: Iran launches drone attacks against US military base in Bahrain - The Guardian",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "2c0657d84a30ec"
+        ],
+        "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
@@ -192,9 +203,20 @@
       },
       {
         "ids": [
-          "f79dfbe788282c"
+          "c6ad0f7287f5c3"
         ],
-        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
+        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "692d6c67618c85"
+        ],
+        "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
         "actor": "",
         "action": "",
         "place": "",
@@ -205,40 +227,42 @@
     "input_claim_ids": [
       "02753692adc238",
       "6dc6cd7e45b30f",
+      "ec097c020da3ff",
       "0550ef4f8093d4",
       "617cbf97e7ab69",
       "55f2df73d28b7e",
       "cdbcccd715dbe0",
       "35e380a51e98ef",
-      "7a24fd43f6fd37",
+      "baffe74ccf840a",
       "e1f7860ac4b6bb",
-      "ec097c020da3ff",
-      "6a77d40e3f43b2",
-      "c6ad0f7287f5c3",
-      "8f020cc0c665f9",
       "bde81b0a60a540",
+      "6a77d40e3f43b2",
+      "f79dfbe788282c",
+      "221dabd8ce00af",
+      "2c0657d84a30ec",
       "75a5fe23d0357a",
       "6a33e3d3f5959f",
-      "f79dfbe788282c"
+      "c6ad0f7287f5c3",
+      "692d6c67618c85"
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 3,
+  "direct_official_match_count": 0,
   "events": [
     {
-      "id": "5e549b75f7b734158cbc196f",
-      "label_nl": "Claim: Iran holds 2,500 missiles with 4,000 km range and 33 underground bases, strikes Bahrain - Bankingnews",
+      "id": "eb439cb1796b205155fe84d0",
+      "label_nl": "Claim: Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
       "headline_claim_ids": [
-        "7a24fd43f6fd37",
-        "8f020cc0c665f9"
+        "617cbf97e7ab69",
+        "baffe74ccf840a"
       ],
       "headline_claims": [
-        "Iran holds 2,500 missiles with 4,000 km range and 33 underground bases, strikes Bahrain - Bankingnews",
-        "Iran targets US military base in Bahrain with drone attack - BBC"
+        "Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
+        "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain - Reuters"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYnZ0aXg5bEt4RWJ6UktNVTAwZkpNM0NVZ2V4aGdlTnQzLXcxRE1YaEl6NVlBc0tCODlobGc5QWtWZGxKaTJPWHNUWUR1am9UaWtDNno0OWlsckxPeGpqNUFvc29FNnF0MU5YeGM2Ml9zN3I0Y3VFTURSRThLTVMyMVdsRzlJY0NtaTd1Zk11UXJUbnBCelkwaHQ2dk5kTnVaVXE4UU0zWmc5QTRrY01iUDFYY3o3V2hkOG15bUFXeDJOZ3RLUk1uRDgtZXQ3eFlyX00w?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54d1BneWo3NFRhV3MxVkVJa1p4SXJkTE5rbFZvUTVTWkM0UDFrVWp2WWloenJjMmcwTDBKdkV1N3QtRVgxWV91NEpXN2pCbUxtTFNaSjBQM0t6dEk?oc=5"
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTYzY3FhQ29pMm5tRFc1WHZmbm9RLU9iS0VqbWpiQkFDSUlEbGU1LXM4MVhiYTlheTJVR250OEtuMlhGcl9Ta08wOTgxSm01bWZsVW1UUHNOSUVyTklBdDZaQUFvSTl3c21vMlIwdFhhVlF3VjVmVjMwWUtQWS1NV01idjExYWZqSDR0SjgxNTJMMTFkbHg2dmRaeUI5U0ZHSEJvTkZuWmRteS15?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTFBcWR1YzJhai1UdGgzMHpvdm40VExxeXFqM0NtbU9YVmNSNXpNeDlXTGllRXFtczhIUzVsaFFWdVV5TGxESWdneGlXbER1Qlg2b2VhQ2lqMmxVaEd4U01nZmNXcFY2bmNhSTdIN0VycE84MWJDRXdZOGxMRGo0U1k1UjhiamFNQ1JIQmp1MUdxNlZGRm1UanBvaENxR3V2N25NdFVOaWpXX1E?oc=5"
       ],
       "article_group_count": 2,
       "news_url_count": 2,
@@ -249,16 +273,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_bahrain:p1",
-        "exact_excerpt": "Iran has stated its intention to target locations associated",
-        "relation": "supports_specific_claim",
-        "reason_nl": "De passage ondersteunt de claim dat Iran locaties die geassocieerd zijn met de VS en Israël wil aanvallen.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -284,50 +300,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_bahrain:p1",
-        "exact_excerpt": "Iran has stated its intention to target locations associated",
-        "relation": "supports_specific_claim",
-        "reason_nl": "De passage ondersteunt de claim dat Iran locaties die geassocieerd zijn met de VS en Israël wil aanvallen.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "f6adb74dfa67300b9f1dfc22",
-      "label_nl": "Claim: Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
-      "headline_claim_ids": [
-        "617cbf97e7ab69"
-      ],
-      "headline_claims": [
-        "Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTYzY3FhQ29pMm5tRFc1WHZmbm9RLU9iS0VqbWpiQkFDSUlEbGU1LXM4MVhiYTlheTJVR250OEtuMlhGcl9Ta08wOTgxSm01bWZsVW1UUHNOSUVyTklBdDZaQUFvSTl3c21vMlIwdFhhVlF3VjVmVjMwWUtQWS1NV01idjExYWZqSDR0SjgxNTJMMTFkbHg2dmRaeUI5U0ZHSEJvTkZuWmRteS15?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_bahrain:p1",
-        "exact_excerpt": "Iran has stated its intention to target locations associated",
-        "relation": "supports_specific_claim",
-        "reason_nl": "De passage ondersteunt de claim dat Iran locaties die geassocieerd zijn met de VS en Israël wil aanvallen.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -359,15 +333,42 @@
     },
     {
       "id": "8fb0e91f4400c02980aacecd",
-      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India",
+      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
       "headline_claim_ids": [
         "f79dfbe788282c"
       ],
       "headline_claims": [
-        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com India"
+        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada"
       ],
       "related_news_links": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ25zZFhyeE1IVnNrTjJ6MkRVVnlzVGl0NEVUQmJZbWtCODRyVFFaZWVFQnJGaGRDOS1nclJiMjVZZTFUT0VVbXdRc2NidEpfVFNFa3dKWGZqM2pVMlBGTFZEakVsX0pNR0t2aG9LN3kyZDhfeTFEd3cwU2tablhBQW5VelZiTU1QRmx4dUhWNE5XRXRTOEQ3RkVMb285N0ZmZHJ3OTJYZGRpVzBIczRzM0JvOVRGb2s5alFaVQ?oc=5",
         "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "f0b95cf6abac304e3a13b8d8",
+      "label_nl": "Claim: Iran launches drone attacks against US military base in Bahrain - The Guardian",
+      "headline_claim_ids": [
+        "221dabd8ce00af"
+      ],
+      "headline_claims": [
+        "Iran launches drone attacks against US military base in Bahrain - The Guardian"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS0RnUlBTa1J0QTBzR0RHcldQd0twTEtaUWwzV2xlSzJOSURDRW9hcHVqaUNtUVp3YU9uMGZ1N2djRU1xeGdsTzlBLU9Jdm1iSTQ5RDlzc1VPb293V2xkNk1Ddms0VHZvMVJ3VklsXy1KUGtkTW03RnY1VUZ5VU1jaTFTNDlUYU9UVEw4MVlEVkdPNnNWX3hQejRueUotWmxEal9lTnJhaloyNTBCTFE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -384,40 +385,6 @@
       "probability_estimate": null
     },
     {
-      "id": "97587c95d6dea3505c43bdca",
-      "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
-      "headline_claim_ids": [
-        "55f2df73d28b7e"
-      ],
-      "headline_claims": [
-        "Airline, travel industries scramble with fallout from Middle East conflict - DD News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1BTZ0pmejlOdEtoU2tnbWRacmUtUjZXb0hnTTUzZGowdXo1VzRiNkZNLXdqcWpXUThCTzJzRDRGU0w4UkV5ZTAyZHg3TkNVZFM2T1pJSTlINXZtRk9YRFdJMTk2dUFNa2JnRk1oNWdnVHRDUXFrTUR2UHRKaWVfano5VGdqQXVIYXBDV3M2emNKSHVla2ZDNUJObk1TTHJ2?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_bahrain:p2",
-        "exact_excerpt": "British nationals in, or planning to travel through, the Middle East should be prepared for possible flight cancellations",
-        "relation": "related_only",
-        "reason_nl": "De passage verwijst naar reisrisico's in het Midden-Oosten, maar bevestigt geen specifieke aanval of evacuatie.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "a9a083444aa3ac9a87ff7893",
       "label_nl": "Claim: Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance",
       "headline_claim_ids": [
@@ -428,6 +395,32 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCVWs3WFJLb3N0bEN2VldkOTJNaFRlMk92djBuRE1XOWFsSVY1c0ZIWU1BQlNMSnJNRUs0aXJiQlZ2bGFfdmdCVWxhbk5JdUVjYVYyM2N0b0x6VXVRakE2UlNjUWdSSWxWS0FYc3NRRVFkYTV6VFE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "e7e3fc4990e804b70bf50c71",
+      "label_nl": "Claim: Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id",
+      "headline_claim_ids": [
+        "ec097c020da3ff"
+      ],
+      "headline_claims": [
+        "Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrUHctTld0ckpxeUZWNnFndk1qY2trYWpiTXVVejdsY0N3U0tTTm50QnhBNGpxemVRTmJLRWFkRkNGakNkUm85YzNYUi1TLWI5SWt0V2N2UkhKV0x1YV9mSGR4clV5UFlSMUk4Q1JEY09yZTk0eHdZc0hB?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -459,6 +452,32 @@
       ],
       "article_group_count": 1,
       "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "97587c95d6dea3505c43bdca",
+      "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
+      "headline_claim_ids": [
+        "55f2df73d28b7e"
+      ],
+      "headline_claims": [
+        "Airline, travel industries scramble with fallout from Middle East conflict - DD News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1BTZ0pmejlOdEtoU2tnbWRacmUtUjZXb0hnTTUzZGowdXo1VzRiNkZNLXdqcWpXUThCTzJzRDRGU0w4UkV5ZTAyZHg3TkNVZFM2T1pJSTlINXZtRk9YRFdJMTk2dUFNa2JnRk1oNWdnVHRDUXFrTUR2UHRKaWVfano5VGdqQXVIYXBDV3M2emNKSHVla2ZDNUJObk1TTHJ2?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -551,16 +570,16 @@
       "probability_estimate": null
     },
     {
-      "id": "e7e3fc4990e804b70bf50c71",
-      "label_nl": "Claim: Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id",
+      "id": "5cd6d39ccc362292fc1b8bfa",
+      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "ec097c020da3ff"
+        "bde81b0a60a540"
       ],
       "headline_claims": [
-        "Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id"
+        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrUHctTld0ckpxeUZWNnFndk1qY2trYWpiTXVVejdsY0N3U0tTTm50QnhBNGpxemVRTmJLRWFkRkNGakNkUm85YzNYUi1TLWI5SWt0V2N2UkhKV0x1YV9mSGR4clV5UFlSMUk4Q1JEY09yZTk0eHdZc0hB?oc=5"
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -577,43 +596,16 @@
       "probability_estimate": null
     },
     {
-      "id": "59ebd2d83838699822ab96a6",
-      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+      "id": "a3f2f7ce70d033dcad8db379",
+      "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "c6ad0f7287f5c3"
+        "2c0657d84a30ec"
       ],
       "headline_claims": [
-        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
+        "UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5",
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "5cd6d39ccc362292fc1b8bfa",
-      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
-      "headline_claim_ids": [
-        "bde81b0a60a540"
-      ],
-      "headline_claims": [
-        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5"
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlsNHc0c3pGN1ZNNGl1cjdqMW9oNlVVUzM5V1JIS1ZCOWRlN3NrdjFwcWRld2FURmpfUWdoSUlUY3B4RUdneW94dnNOYVluLXg4RThxM2ZVRk5INENzTy1OR1M1NXRsN1lNUFI3cjhXZ1JicUpLekJYb1dUQmtYejcyRnMtTnpCNFFKRTZqUDUyUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -680,13 +672,62 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
+    },
+    {
+      "id": "59ebd2d83838699822ab96a6",
+      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+      "headline_claim_ids": [
+        "c6ad0f7287f5c3"
+      ],
+      "headline_claims": [
+        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "b7185776f9b7eebaf24559fd",
+      "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
+      "headline_claim_ids": [
+        "692d6c67618c85"
+      ],
+      "headline_claims": [
+        "How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc1pQWldJNV9iYmpNNU8xSl9rSm1VcDA1aXdkNllocndTamt3T0kwaUhQb3JvUW9KdzBtQ0pfM0ZveGs2UzdWOWgxcC1EdV9Ball5NDFWZjdmcDJRUDI4Yml3anIybFNadUF3TzlBejlQT2t4SnhjbXBBM2ZpQ1JfSFZyZENuckdjQ1IyUmtqY0FPT3VUanJxWmtmc004R0xYMlNiR1Yyd0dXMGlWblVUQnlZWlFZa3FfZ1VnU01BMEwyQVZjTFh1N3phOXU5U2lJSWtQUENYRkpneEXSAeIBQVVfeXFMUC1Vak5vWkF5bHpQeEthYWw0cGhRR0VMc3dqMzA2ZkFzdUM4SnZ3YWRyWlVrTm14TWNuSWZPSmdpbU9Dd0RNUWtmRTdSSGZ2WFRYMlpmX3RfM0t4eVVsRnpxNThJbGZ0VzcxX0lhX2ZOWmwxeEpBVURRT1FJVVJ2d25mZ3RleDNHYWNzRTRwa040dDVrZGJpbmJzVHdyVmhfdWJkYTk1dHBEaUp1VkxPTkt6am5rZll6M293OWlxMUZRRE1ndkQweVl0bmlVSm1iZG5QV09HVXZCYVdiYW9xYkg3dw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-11-13": {
-      "requests": 12,
-      "total_tokens": 29391
-    },
     "2026-11-14": {
       "requests": 12,
       "total_tokens": 32006
@@ -694,6 +735,10 @@
     "2026-11-15": {
       "requests": 12,
       "total_tokens": 28395
+    },
+    "2026-11-16": {
+      "requests": 3,
+      "total_tokens": 7061
     }
   }
 }
