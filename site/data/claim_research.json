@@ -1,135 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-16T08:58:47.885966Z",
+  "last_attempt_utc": "2026-11-16T15:19:09.789819Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 19,
-  "active_checked": 8,
+  "active_total": 20,
+  "active_checked": 10,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
-    "808e49b08f33b269c498031e": {
-      "event_id": "808e49b08f33b269c498031e",
-      "checked_at": "2026-11-02T01:19:58.991040Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-02T01:19:55.550212Z",
-          "exact_quote": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage beschrijft de aanvallen van de Houthis, maar bevestigt niet de belofte van Trump om Iran en de Houthis te straffen.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De tekst vermeldt de aanvallen van de Houthis, maar biedt geen bewijs voor de belofte van Trump om actie te ondernemen.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
-    "7ce7c6ef3cffdb674cd486cf": {
-      "event_id": "7ce7c6ef3cffdb674cd486cf",
-      "checked_at": "2026-11-02T07:39:43.096558Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De officiële tekst wijst op een verhoogde dreiging in Saudi-Arabië, maar er is geen directe bevestiging van de terugtrekking van Amerikaanse werknemers.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "all but essential travel to the rest of Saudi Arabia"
-        },
-        {
-          "url": "https://www.gov.uk/guidance/employment-disputes-in-saudi-arabia",
-          "title": "Employment disputes in Saudi Arabia - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Employment disputes in Saudi Arabia"
-        }
-      ]
-    },
-    "122f3903e5d72c1ece476016": {
-      "event_id": "122f3903e5d72c1ece476016",
-      "checked_at": "2026-11-02T07:39:43.096591Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-02T07:39:39.086784Z",
-          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage verwijst naar de onvoorspelbare situatie in het Midden-Oosten, maar biedt geen specifieke informatie over de rol van de Golfstaten in de mediatie.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De tekst benadrukt de onvoorspelbare situatie in het Midden-Oosten, maar biedt geen specifieke details over de mediatie door de Golfstaten.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/book-driving-test",
-          "title": "Book your driving test - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "This page is Part of Learn to drive a car: step by step"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
     "fd86324a5728a2bbfc7a3b11": {
       "event_id": "fd86324a5728a2bbfc7a3b11",
       "checked_at": "2026-11-02T13:22:28.359874Z",
@@ -3841,6 +3721,107 @@
           "text_excerpt": "You cannot download MOT certificates using this service. If your MOT is still valid, you can apply for a duplicate certificate on NI Direct. You cannot get a duplicate certificate for an expired MOT."
         }
       ]
+    },
+    "f6adb74dfa67300b9f1dfc22": {
+      "event_id": "f6adb74dfa67300b9f1dfc22",
+      "checked_at": "2026-11-16T15:19:09.789765Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You have accepted additional cookies. You can change your cookie settings at any time."
+        },
+        {
+          "url": "https://www.gov.uk/self-assessment-tax-returns",
+          "title": "Self Assessment tax returns: Overview - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You have accepted additional cookies. You can change your cookie settings at any time."
+        }
+      ]
+    },
+    "ee723a494e006e0aa85f539e": {
+      "event_id": "ee723a494e006e0aa85f539e",
+      "checked_at": "2026-11-16T15:19:09.789784Z",
+      "version": "official-original-document-v1",
+      "research_status": "primary_document_not_found",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 0,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": []
+    },
+    "fe46f6438511643d750fc3e6": {
+      "event_id": "fe46f6438511643d750fc3e6",
+      "checked_at": "2026-11-16T15:19:09.789790Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-16T15:19:07.390488Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om doelen te raken die geassocieerd zijn met de VS, maar bevestigt niet specifiek de interceptie door Bahrein.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De gevonden tekst geeft aan dat Iran de intentie heeft om Amerikaanse locaties te targeten, maar biedt geen bewijs voor de interceptie door Bahrein.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You’ll stop getting these benefits when you or your partner claim Universal Credit. If you or your partner gets Pension Credit, this will also stop if one of you claims Universal Credit."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3855,9 +3836,9 @@
       "model_tokens": 5819
     },
     "2026-11-16": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 3673
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 4817
     }
   },
   "last_error": null

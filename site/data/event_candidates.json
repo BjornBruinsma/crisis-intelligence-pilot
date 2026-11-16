@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-16T08:58:29.663790Z",
-  "fingerprint": "e9755c3d6e40a96ec94dd4e5",
+  "last_attempt_utc": "2026-11-16T15:18:55.186024Z",
+  "fingerprint": "0a80230d5f44abb08d1de70a",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 20,
-  "event_candidate_count": 19,
+  "event_candidate_count": 20,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 2,
-    "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 1,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "model_pair_proposals": 4,
+    "accepted_pair_connections": 0,
+    "rejected_pair_proposals": 4,
+    "multi_claim_groups": 0,
+    "claims_in_multi_groups": 0,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 0,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-16T08:58:29.663790Z",
+    "recorded_at": "2026-11-16T15:18:55.186024Z",
     "groups": [
       {
         "ids": [
@@ -70,21 +70,31 @@
       },
       {
         "ids": [
-          "617cbf97e7ab69",
-          "7a24fd43f6fd37"
+          "617cbf97e7ab69"
         ],
         "label_nl": "Claim: Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
           "55f2df73d28b7e"
         ],
         "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "504f736c5ef687"
+        ],
+        "label_nl": "Claim: Iran fuel crisis deepens amid war and sanctions - DW.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -104,9 +114,9 @@
       },
       {
         "ids": [
-          "a8ad3b7a946697"
+          "e36279df3572bb"
         ],
-        "label_nl": "Claim: The Real Reason Donald Trump Isn't Attacking Iran: Tehran Might Have 2,500 Missiles to Strike Back and Cause Major Damage - National Security Journal",
+        "label_nl": "Claim: Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets - CBS News",
         "actor": "",
         "action": "",
         "place": "",
@@ -159,9 +169,20 @@
       },
       {
         "ids": [
-          "692d6c67618c85"
+          "0dbc4f472779e3"
         ],
-        "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
+        "label_nl": "Claim: Senior Guards commander admits deep Israeli intelligence infiltration - Iran International",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "a8ad3b7a946697"
+        ],
+        "label_nl": "Claim: The Real Reason Donald Trump Isn't Attacking Iran: Tehran Might Have 2,500 Missiles to Strike Back and Cause Major Damage - National Security Journal",
         "actor": "",
         "action": "",
         "place": "",
@@ -222,17 +243,6 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "9d4a7610cabe9b"
-        ],
-        "label_nl": "Claim: Iran Faces Severe Economic Collapse: Inflation Soars to 76%, GDP Shrinks by 7.7%, and Poverty Surges - 112.ua",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       }
     ],
     "input_claim_ids": [
@@ -242,55 +252,25 @@
       "0550ef4f8093d4",
       "617cbf97e7ab69",
       "55f2df73d28b7e",
+      "504f736c5ef687",
       "35e380a51e98ef",
-      "a8ad3b7a946697",
+      "e36279df3572bb",
       "6dc6cd7e45b30f",
       "bde81b0a60a540",
       "6a77d40e3f43b2",
       "f79dfbe788282c",
-      "692d6c67618c85",
-      "7a24fd43f6fd37",
+      "0dbc4f472779e3",
+      "a8ad3b7a946697",
       "e1f7860ac4b6bb",
       "2c0657d84a30ec",
       "75a5fe23d0357a",
       "6a33e3d3f5959f",
-      "c6ad0f7287f5c3",
-      "9d4a7610cabe9b"
+      "c6ad0f7287f5c3"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
-    {
-      "id": "fd58dc8d1b811c2b9d89e404",
-      "label_nl": "Claim: Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
-      "headline_claim_ids": [
-        "617cbf97e7ab69",
-        "7a24fd43f6fd37"
-      ],
-      "headline_claims": [
-        "Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
-        "Iran holds 2,500 missiles with 4,000 km range and 33 underground bases, strikes Bahrain - Bankingnews"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTYzY3FhQ29pMm5tRFc1WHZmbm9RLU9iS0VqbWpiQkFDSUlEbGU1LXM4MVhiYTlheTJVR250OEtuMlhGcl9Ta08wOTgxSm01bWZsVW1UUHNOSUVyTklBdDZaQUFvSTl3c21vMlIwdFhhVlF3VjVmVjMwWUtQWS1NV01idjExYWZqSDR0SjgxNTJMMTFkbHg2dmRaeUI5U0ZHSEJvTkZuWmRteS15?oc=5",
-        "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQWms0VDNKMUJ0N2FXbFJKV1NMVW1UdnRIVXNOTFc4R0RsZzFZY1F5dXpIRjBZZHZFaTE4NmszdDRQcm01TlVMcXhQY3dGNjlqaEh5TWxkNmlfVG9ydENLVzhWQnBsM2dCRENXZUhQa2QyUnR3T1o2WGxBWFdlWWhaT2NOd2hiYUdjMlZ4LTJ2WEpRWkZaRTRJOF9RbHNYMTh6RlFXRXNWQ1EwaDJMc2RRTzQzSWhQa1lOVzNfZlU0WU9Cd3BIVW56ekRwTTM5WFV3QzNVc0p3MHpqN2x2bzNWNnRWaEdIOWhwTzRtSnFoa3paQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQYnZ0aXg5bEt4RWJ6UktNVTAwZkpNM0NVZ2V4aGdlTnQzLXcxRE1YaEl6NVlBc0tCODlobGc5QWtWZGxKaTJPWHNUWUR1am9UaWtDNno0OWlsckxPeGpqNUFvc29FNnF0MU5YeGM2Ml9zN3I0Y3VFTURSRThLTVMyMVdsRzlJY0NtaTd1Zk11UXJUbnBCelkwaHQ2dk5kTnVaVXE4UU0zWmc5QTRrY01iUDFYY3o3V2hkOG15bUFXeDJOZ3RLUk1uRDgtZXQ3eFlyX00w?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
     {
       "id": "325c2bc2ce531f9b655322b8",
       "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
@@ -329,6 +309,84 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNXgyTjZmckh0RHlPU2hmSXRscjk0MlgtbjhmenAyRW91Sk1qMnZkZlNmTDBpRDBCOVR4b2l6c1FoWmk4ak9Db3NZRElrbzhYNVBldGJMTGpFdm9KRWJra2JpMzhTM0NVOVFSVG9OQWRVUWg3QlpkeHF6WVlmdnFVSm56WTNjRTlfSklDSDVhT1BvSTVpV1RYNThSTjJJeXFuU2hwSG9fcVRZdDRYcXdVLVc4MWNGY3owMXZ5U0hiLXhramNjMDJudm1OR1E2RHR6OVpwVzY5S1QyQmpYM2paWDJvbW9TNHlpTVpCZ2RSdzh6OUI5VXJjM3RxMHbSAYICQVVfeXFMTTdlQm5KUnJNa1kzcndBUWRyeGVOQ0d6aWRIZVlKcDZ5cGVSWXBhbVVTVkZhQW5VdUJJRU9pcGd0OVA3MkstT3FkZTVKU3QxZlluQURQc0I4dm9BSTNzQV9WUHhzYnZLcjFJdUk1WWZNejVnS2xWQ3cxWHY2N0Z6Tm9DVG9jSG5NeThJMVhENHdndnVQRHVldHhTMnJqQjV3aTUtZk51N2NhVjdCSVFuUjNxeXFZUFlvd21nd214QWhqRXVZS2taTHNGRE41c1RUUFQ5c3V3LWlGckx6T29sSzhmMGJfVVBzSmZCSy00cmZ6Vl9BNkRRWG5NNmhSSVZmZVln?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "f6adb74dfa67300b9f1dfc22",
+      "label_nl": "Claim: Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
+      "headline_claim_ids": [
+        "617cbf97e7ab69"
+      ],
+      "headline_claims": [
+        "Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTYzY3FhQ29pMm5tRFc1WHZmbm9RLU9iS0VqbWpiQkFDSUlEbGU1LXM4MVhiYTlheTJVR250OEtuMlhGcl9Ta08wOTgxSm01bWZsVW1UUHNOSUVyTklBdDZaQUFvSTl3c21vMlIwdFhhVlF3VjVmVjMwWUtQWS1NV01idjExYWZqSDR0SjgxNTJMMTFkbHg2dmRaeUI5U0ZHSEJvTkZuWmRteS15?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "ee723a494e006e0aa85f539e",
+      "label_nl": "Claim: Iran fuel crisis deepens amid war and sanctions - DW.com",
+      "headline_claim_ids": [
+        "504f736c5ef687"
+      ],
+      "headline_claims": [
+        "Iran fuel crisis deepens amid war and sanctions - DW.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "fe46f6438511643d750fc3e6",
+      "label_nl": "Claim: Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets - CBS News",
+      "headline_claim_ids": [
+        "e36279df3572bb"
+      ],
+      "headline_claims": [
+        "Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets - CBS News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeU5UZDJHMEc4OWsycksxeTkxZEs1R2s4clJCbG5wR2tMS3lyLWpsZU8zY1pFajlxSWtoeW42YzNxR0RZbTgyenlZYUFfQ3pBdzFiUDgwSEFWR1JZaGwta2hsZy1TMm15eHdrZm1OMmdpcXhBdzl3RDdPUnFiOFNsYXRjX2VVTHc?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -385,32 +443,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "2f31bfa2f1b1ff53582f3ab0",
-      "label_nl": "Claim: Iran Faces Severe Economic Collapse: Inflation Soars to 76%, GDP Shrinks by 7.7%, and Poverty Surges - 112.ua",
-      "headline_claim_ids": [
-        "9d4a7610cabe9b"
-      ],
-      "headline_claims": [
-        "Iran Faces Severe Economic Collapse: Inflation Soars to 76%, GDP Shrinks by 7.7%, and Poverty Surges - 112.ua"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNFZDbnl5QzBYZ0JHcHlfeHFSM3BRYl8tZWNPZVRXT1R1OW0xTGdwbGJCeDZ3cFBOZ2FpZ3hQYm13Rk10U2hqX0F1LTJINnNBMWNKd1ZhdXJRanN5U0FtZmMteGYwTjlJZmd4WnhVQWVXOTBiMzlUTUlGZExMVlRzMHBTV09TVlpsOWt6djIxamRTekozZDJ1R2lBSUVFd0tZZjY1Ml9n?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -531,32 +563,6 @@
       "probability_estimate": null
     },
     {
-      "id": "2f952d2fe7a323515aa05a34",
-      "label_nl": "Claim: The Real Reason Donald Trump Isn't Attacking Iran: Tehran Might Have 2,500 Missiles to Strike Back and Cause Major Damage - National Security Journal",
-      "headline_claim_ids": [
-        "a8ad3b7a946697"
-      ],
-      "headline_claims": [
-        "The Real Reason Donald Trump Isn't Attacking Iran: Tehran Might Have 2,500 Missiles to Strike Back and Cause Major Damage - National Security Journal"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVFMXB5RTN6VHlVQnNxeUZiNFpEQzNUN08tSURHOEdUQU9BRk5vTjBnMGJHd1IwZTMzUWJ6SWxkSklQWGstTEFtcW5jYnR2U2EyeE92S201NUxxRWN5NlRDVUI2VG1YUlVBNWVMa0RYVElhMF9zSEY0M25SNEROcVNaSGMwa2RMYW1LVU5GWUE4bEl1NmFzSlhjZS0wZ1JkTE5Dai1Tc090Y0I4bUprSHBWbjJMNVI0RDhRZFlfcFh3cTRwZmFnUVFLamYwWkZSbkJPaE1kenR4ZFp2VmJaQTRJR3lrU2YxZXU0?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "a9a083444aa3ac9a87ff7893",
       "label_nl": "Claim: Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance",
       "headline_claim_ids": [
@@ -609,16 +615,42 @@
       "probability_estimate": null
     },
     {
-      "id": "b7185776f9b7eebaf24559fd",
-      "label_nl": "Claim: How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express",
+      "id": "64ef2e697f7b86601412a5f6",
+      "label_nl": "Claim: Senior Guards commander admits deep Israeli intelligence infiltration - Iran International",
       "headline_claim_ids": [
-        "692d6c67618c85"
+        "0dbc4f472779e3"
       ],
       "headline_claims": [
-        "How can the world face a 1.7 million bpd oil surplus in the coming months? IEA explains - The Financial Express"
+        "Senior Guards commander admits deep Israeli intelligence infiltration - Iran International"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPc1pQWldJNV9iYmpNNU8xSl9rSm1VcDA1aXdkNllocndTamt3T0kwaUhQb3JvUW9KdzBtQ0pfM0ZveGs2UzdWOWgxcC1EdV9Ball5NDFWZjdmcDJRUDI4Yml3anIybFNadUF3TzlBejlQT2t4SnhjbXBBM2ZpQ1JfSFZyZENuckdjQ1IyUmtqY0FPT3VUanJxWmtmc004R0xYMlNiR1Yyd0dXMGlWblVUQnlZWlFZa3FfZ1VnU01BMEwyQVZjTFh1N3phOXU5U2lJSWtQUENYRkpneEXSAeIBQVVfeXFMUC1Vak5vWkF5bHpQeEthYWw0cGhRR0VMc3dqMzA2ZkFzdUM4SnZ3YWRyWlVrTm14TWNuSWZPSmdpbU9Dd0RNUWtmRTdSSGZ2WFRYMlpmX3RfM0t4eVVsRnpxNThJbGZ0VzcxX0lhX2ZOWmwxeEpBVURRT1FJVVJ2d25mZ3RleDNHYWNzRTRwa040dDVrZGJpbmJzVHdyVmhfdWJkYTk1dHBEaUp1VkxPTkt6am5rZll6M293OWlxMUZRRE1ndkQweVl0bmlVSm1iZG5QV09HVXZCYVdiYW9xYkg3dw?oc=5"
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10Sk1MYXZ6Wm5VUHdxeVF5aDN5bE5wRm9EYmg3Ujd2SzVtTmxwaUdvb3JseG9ra2VJMUQ4TXpIMGNzV3RpMllndlM2M3VDUzQ4RkE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "2f952d2fe7a323515aa05a34",
+      "label_nl": "Claim: The Real Reason Donald Trump Isn't Attacking Iran: Tehran Might Have 2,500 Missiles to Strike Back and Cause Major Damage - National Security Journal",
+      "headline_claim_ids": [
+        "a8ad3b7a946697"
+      ],
+      "headline_claims": [
+        "The Real Reason Donald Trump Isn't Attacking Iran: Tehran Might Have 2,500 Missiles to Strike Back and Cause Major Damage - National Security Journal"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVFMXB5RTN6VHlVQnNxeUZiNFpEQzNUN08tSURHOEdUQU9BRk5vTjBnMGJHd1IwZTMzUWJ6SWxkSklQWGstTEFtcW5jYnR2U2EyeE92S201NUxxRWN5NlRDVUI2VG1YUlVBNWVMa0RYVElhMF9zSEY0M25SNEROcVNaSGMwa2RMYW1LVU5GWUE4bEl1NmFzSlhjZS0wZ1JkTE5Dai1Tc090Y0I4bUprSHBWbjJMNVI0RDhRZFlfcFh3cTRwZmFnUVFLamYwWkZSbkJPaE1kenR4ZFp2VmJaQTRJR3lrU2YxZXU0?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -776,8 +808,8 @@
       "total_tokens": 28395
     },
     "2026-11-16": {
-      "requests": 6,
-      "total_tokens": 14532
+      "requests": 9,
+      "total_tokens": 22433
     }
   }
 }
