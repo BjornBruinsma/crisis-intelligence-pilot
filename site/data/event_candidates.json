@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-16T15:18:55.186024Z",
-  "fingerprint": "0a80230d5f44abb08d1de70a",
+  "last_attempt_utc": "2026-11-16T19:09:07.737638Z",
+  "fingerprint": "f3515aa58846eac1951ff1b1",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-16T15:18:55.186024Z",
+    "recorded_at": "2026-11-16T19:09:07.737638Z",
     "groups": [
       {
         "ids": [
@@ -70,9 +70,9 @@
       },
       {
         "ids": [
-          "617cbf97e7ab69"
+          "29add07e06097f"
         ],
-        "label_nl": "Claim: Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
+        "label_nl": "Claim: Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
@@ -250,7 +250,7 @@
       "ec903596e30953",
       "ec097c020da3ff",
       "0550ef4f8093d4",
-      "617cbf97e7ab69",
+      "29add07e06097f",
       "55f2df73d28b7e",
       "504f736c5ef687",
       "35e380a51e98ef",
@@ -325,19 +325,20 @@
       "probability_estimate": null
     },
     {
-      "id": "f6adb74dfa67300b9f1dfc22",
-      "label_nl": "Claim: Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
+      "id": "906cd0ce08220b5baba4e605",
+      "label_nl": "Claim: Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
       "headline_claim_ids": [
-        "617cbf97e7ab69"
+        "29add07e06097f"
       ],
       "headline_claims": [
-        "Iran targets Bahrain air base second time in 48hrs, hosts US radar - Quantum Commodity Intelligence"
+        "Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence"
       ],
       "related_news_links": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTy1DY25Vdmt6alVTVFczSmJoR3ZuSDVSRWRqTjUwNnNkaFRLMVFkMS1OaVZGYTdkdTRob0lYcFFKOExDal9MMTN1OGZkcmI4c3V5dGw3ZXVEbGVJY3l1OUFXUFlWS2FSZGRYRVFYWFFuNG01c1phSU54c0wtTHNxUzF0dlFoQ3JqcF9aUGtJLS1LS2s1MlNXdnI0eWNqeEs0MlpMcC1MS0NXSi1rRWN3X2Nn?oc=5",
         "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTYzY3FhQ29pMm5tRFc1WHZmbm9RLU9iS0VqbWpiQkFDSUlEbGU1LXM4MVhiYTlheTJVR250OEtuMlhGcl9Ta08wOTgxSm01bWZsVW1UUHNOSUVyTklBdDZaQUFvSTl3c21vMlIwdFhhVlF3VjVmVjMwWUtQWS1NV01idjExYWZqSDR0SjgxNTJMMTFkbHg2dmRaeUI5U0ZHSEJvTkZuWmRteS15?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -808,8 +809,8 @@
       "total_tokens": 28395
     },
     "2026-11-16": {
-      "requests": 9,
-      "total_tokens": 22433
+      "requests": 12,
+      "total_tokens": 30312
     }
   }
 }
