@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-16T01:36:35.137859Z",
+  "last_attempt_utc": "2026-11-16T08:58:06.690248Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -6151,6 +6151,54 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-16T01:36:34.137634Z"
+    },
+    "ec903596e30953": {
+      "id": "ec903596e30953",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran's Deputy FM claimt dat Teheran voorbereid is op diplomatie, blokkade of militaire actie tegen de VS.",
+      "claimed_event_nl": "Iran is voorbereid op verschillende acties tegen de VS.",
+      "reason_nl": "Deze uitspraak kan wijzen op een verhoogde spanning tussen Iran en de VS, wat relevant is voor de regionale stabiliteit.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-16T08:58:05.690104Z"
+    },
+    "a8ad3b7a946697": {
+      "id": "a8ad3b7a946697",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "opinion",
+      "summary_nl": "De claim is dat Donald Trump Iran niet aanvalt omdat Teheran mogelijk 2.500 raketten heeft die aanzienlijke schade kunnen aanrichten.",
+      "claimed_event_nl": "Trump's terughoudendheid om Iran aan te vallen is gebaseerd op de raketcapaciteit van Iran.",
+      "reason_nl": "Dit biedt inzicht in de militaire overwegingen van de VS, maar is speculatief van aard.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd en het betreft een mening.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-16T08:58:05.690122Z"
+    },
+    "9d4a7610cabe9b": {
+      "id": "9d4a7610cabe9b",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Er wordt geclaimd dat Iran geconfronteerd wordt met een ernstige economische ineenstorting, met hoge inflatie en een krimpende economie.",
+      "claimed_event_nl": "Iran ervaart een ernstige economische crisis.",
+      "reason_nl": "De economische situatie in Iran kan leiden tot sociale onrust en regionale destabilisatie.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-16T08:58:05.690126Z"
     }
   },
   "usage_by_day": {
@@ -6163,8 +6211,8 @@
       "total_tokens": 5640
     },
     "2026-11-16": {
-      "requests": 1,
-      "total_tokens": 856
+      "requests": 2,
+      "total_tokens": 2056
     }
   }
 }

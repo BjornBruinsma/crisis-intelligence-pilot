@@ -1,91 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-16T01:37:12.997698Z",
+  "last_attempt_utc": "2026-11-16T08:58:47.885966Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 18,
-  "active_checked": 7,
+  "active_total": 19,
+  "active_checked": 8,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
-    "41dc90d1f9b360d26d0b40e8": {
-      "event_id": "41dc90d1f9b360d26d0b40e8",
-      "checked_at": "2026-11-02T01:19:58.991011Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De officiële tekst wijst op een verhoogde dreiging in Saudi-Arabië, maar er is geen directe bevestiging van de terugtrekking van Amerikaanse werknemers.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "all but essential travel to the rest of Saudi Arabia"
-        },
-        {
-          "url": "https://www.gov.uk/guidance/family-law-in-saudi-arabia",
-          "title": "Family law in Saudi Arabia  - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Help and services around the world"
-        }
-      ]
-    },
-    "e7f4b711800fbd1cd19da0b2": {
-      "event_id": "e7f4b711800fbd1cd19da0b2",
-      "checked_at": "2026-11-02T01:19:58.991033Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-02T01:19:54.879511Z",
-          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage verwijst naar de onvoorspelbaarheid in het Midden-Oosten, maar ondersteunt niet specifiek de claim over olieprijzen en aanvallen.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De tekst benadrukt de onvoorspelbaarheid in het Midden-Oosten, maar biedt geen specifieke ondersteuning voor de claim over olieprijzen.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026. The airport continues to be targeted and remains at risk of further attacks."
-        }
-      ]
-    },
     "808e49b08f33b269c498031e": {
       "event_id": "808e49b08f33b269c498031e",
       "checked_at": "2026-11-02T01:19:58.991040Z",
@@ -3671,12 +3595,35 @@
     },
     "6eb69e6f93605d8874d0f76d": {
       "event_id": "6eb69e6f93605d8874d0f76d",
-      "checked_at": "2026-11-15T07:18:20.933043Z",
+      "checked_at": "2026-11-16T08:58:47.885941Z",
       "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
+      "research_status": "related_official_material",
       "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De tekst vermeldt dat Iran locaties gerelateerd aan de VS en Israël wil aanvallen, maar biedt geen bewijs dat deze aanvallen de olieprijzen hebben beïnvloed.",
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/iran",
+          "original_document_title": "Iran travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-16T08:58:43.259717Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om doelwitten te raken, maar specificeert geen acties of gevolgen met betrekking tot olieprijzen.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/israel",
+          "original_document_title": "Israel travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-16T08:58:44.096510Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om doelwitten te raken, maar specificeert geen acties of gevolgen met betrekking tot olieprijzen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De teksten vermelden de intentie van Iran om doelwitten te raken die geassocieerd zijn met de VS en Israël, maar bieden geen bewijs voor een directe link met olieprijzen of een oliecrisis.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3827,6 +3774,73 @@
           "text_excerpt": "You have accepted additional cookies. You can change your cookie settings at any time."
         }
       ]
+    },
+    "fd58dc8d1b811c2b9d89e404": {
+      "event_id": "fd58dc8d1b811c2b9d89e404",
+      "checked_at": "2026-11-16T08:58:47.885926Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You have accepted additional cookies. You can change your cookie settings at any time."
+        },
+        {
+          "url": "https://www.gov.uk/self-assessment-tax-returns",
+          "title": "Self Assessment tax returns: Overview - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You have accepted additional cookies. You can change your cookie settings at any time."
+        }
+      ]
+    },
+    "c50bdb5bad4a0a6848fbb537": {
+      "event_id": "c50bdb5bad4a0a6848fbb537",
+      "checked_at": "2026-11-16T08:58:47.885937Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 5,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/check-state-pension",
+          "title": "Check your State Pension forecast - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Check your State Pension forecast"
+        },
+        {
+          "url": "https://www.gov.uk/check-mot-history",
+          "title": "Check the MOT history of a vehicle - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You cannot download MOT certificates using this service. If your MOT is still valid, you can apply for a duplicate certificate on NI Direct. You cannot get a duplicate certificate for an expired MOT."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3841,9 +3855,9 @@
       "model_tokens": 5819
     },
     "2026-11-16": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 2037
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3673
     }
   },
   "last_error": null
