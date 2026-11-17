@@ -1,116 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-16T19:09:15.125868Z",
+  "last_attempt_utc": "2026-11-17T01:26:58.735617Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 20,
-  "active_checked": 9,
+  "active_checked": 11,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "fd86324a5728a2bbfc7a3b11": {
-      "event_id": "fd86324a5728a2bbfc7a3b11",
-      "checked_at": "2026-11-02T13:22:28.359874Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De officiële tekst biedt reisadviezen voor Pakistan, maar er is geen relevante informatie over de aanval op de LNG-tanker.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/pakistan",
-          "title": "Pakistan travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "FCDO advises against all travel to within 10 miles of the border between Pakistan and Afghanistan."
-        },
-        {
-          "url": "https://www.gov.uk/check-uk-visa",
-          "title": "Check if you need a UK visa - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Travel or do business in Europe: Brexit guidance"
-        }
-      ]
-    },
-    "63b72545542b76f3add4d4a5": {
-      "event_id": "63b72545542b76f3add4d4a5",
-      "checked_at": "2026-11-02T13:22:28.359954Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De officiële tekst veroordeelt Iran's acties en stelt dat zij de Straat van Hormuz willen sluiten, wat tegenstrijdig is met de claim.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
-          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
-          "source_publication_date": null,
-          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
-        },
-        {
-          "url": "https://www.gov.uk/government/speeches/devastation-and-suffering-in-the-middle-east-must-act-as-a-powerful-reminder-of-the-very-purpose-of-the-security-council-and-spur-us-into-action-uk-st",
-          "title": "Devastation and suffering in the Middle East must act as a powerful reminder of the very purpose of the Security Council and spur us into action: UK statement at the UN S",
-          "source_publication_date": "2026-06-10T10:00:00+01:00",
-          "text_excerpt": "We condemn Iran’s continued attempts to hold the global economy to ransom by closing the Strait of Hormuz, as well as their attacks on the region including overnight against Bahrain, Kuwait and Jordan. We stand with our partners in the Gulf in the fa"
-        }
-      ]
-    },
-    "2670e8a0e9d9e41a259adcd8": {
-      "event_id": "2670e8a0e9d9e41a259adcd8",
-      "checked_at": "2026-11-03T01:17:21.768343Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 5,
-      "search_errors": [
-        "document: ValueError",
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "read If you’re affected by a crisis abroad - GOV.UK. This includes guidance on “how to prepare for a crisis” with suggestions on what you might include in your emergency supplies and “what to do in a crisis”"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "read If you’re affected by a crisis abroad - GOV.UK. This includes guidance on “how to prepare for a crisis” including suggestedemergency supplies and “what to do in a crisis”"
-        }
-      ]
-    },
     "a98a0866c76a43093a8dc090": {
       "event_id": "a98a0866c76a43093a8dc090",
       "checked_at": "2026-11-03T01:17:21.768365Z",
@@ -3822,14 +3721,107 @@
           "text_excerpt": "You’ll stop getting these benefits when you or your partner claim Universal Credit. If you or your partner gets Pension Credit, this will also stop if one of you claims Universal Credit."
         }
       ]
+    },
+    "de58a553abad32fedd8e021f": {
+      "event_id": "de58a553abad32fedd8e021f",
+      "checked_at": "2026-11-17T01:26:58.735557Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You have accepted additional cookies. You can change your cookie settings at any time."
+        },
+        {
+          "url": "https://www.gov.uk/self-assessment-tax-returns",
+          "title": "Self Assessment tax returns: Overview - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You have accepted additional cookies. You can change your cookie settings at any time."
+        }
+      ]
+    },
+    "1a5d6c816feee21ddb6b1da5": {
+      "event_id": "1a5d6c816feee21ddb6b1da5",
+      "checked_at": "2026-11-17T01:26:58.735580Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/find-energy-certificate",
+          "title": "Find an energy certificate - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Find an energy certificate for a property in England, Wales or Northern Ireland. This includes homes, business properties and public buildings."
+        },
+        {
+          "url": "https://www.gov.uk/find-a-job",
+          "title": "Find a job - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Find and apply for full or part-time jobs in England, Scotland and Wales."
+        }
+      ]
+    },
+    "19b16f3d09534b85d1673352": {
+      "event_id": "19b16f3d09534b85d1673352",
+      "checked_at": "2026-11-17T01:26:58.735587Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/government/speeches/first-sea-lord-speech-at-rusi",
+          "title": "First Sea Lord Speech at RUSI - GOV.UKGOV.UK",
+          "source_publication_date": "2026-04-29T10:00:00+01:00",
+          "text_excerpt": "And our third, Atlantic Strike, is about enhancing our conventional deterrence, our reach, and ensuring that if an adversary attacks us, we have the capabilities to hit back decisively. That means hybrid carrier strike groups, it means enhancing our "
+        },
+        {
+          "url": "https://www.gov.uk/vehicle-tax",
+          "title": "Tax your vehicle - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "you’re disabled and taxing your car for the first time"
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-14": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 5368
-    },
     "2026-11-15": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -3839,6 +3831,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 4817
+    },
+    "2026-11-17": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1460
     }
   },
   "last_error": null

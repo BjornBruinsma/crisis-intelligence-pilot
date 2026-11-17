@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-16T19:09:07.737638Z",
-  "fingerprint": "f3515aa58846eac1951ff1b1",
+  "last_attempt_utc": "2026-11-17T01:26:47.398270Z",
+  "fingerprint": "b1520348d012ad1c04501266",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 20,
+  "input_candidate_count": 21,
   "event_candidate_count": 20,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
-    "accepted_pair_connections": 0,
-    "rejected_pair_proposals": 4,
-    "multi_claim_groups": 0,
-    "claims_in_multi_groups": 0,
+    "model_pair_proposals": 1,
+    "accepted_pair_connections": 1,
+    "rejected_pair_proposals": 0,
+    "multi_claim_groups": 1,
+    "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 0,
+    "auditor_approved_pairs": 1,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-16T19:09:07.737638Z",
+    "recorded_at": "2026-11-17T01:26:47.398270Z",
     "groups": [
       {
         "ids": [
@@ -70,20 +70,21 @@
       },
       {
         "ids": [
-          "29add07e06097f"
+          "29add07e06097f",
+          "7c3afbab7c1c97"
         ],
         "label_nl": "Claim: Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
-          "55f2df73d28b7e"
+          "6175299b758bdf"
         ],
-        "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
+        "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
         "actor": "",
         "action": "",
         "place": "",
@@ -103,9 +104,9 @@
       },
       {
         "ids": [
-          "35e380a51e98ef"
+          "29cfbe4e6557d7"
         ],
-        "label_nl": "Claim: Iran tells COP31 it wants compensation for environmental damage from US - Israeli strikes",
+        "label_nl": "Claim: 3rd US Carrier Reaches Middle East as Iran Warns It May Strike First - https://houseofsaud.com/",
         "actor": "",
         "action": "",
         "place": "",
@@ -114,9 +115,9 @@
       },
       {
         "ids": [
-          "e36279df3572bb"
+          "6f164dcda92bb1"
         ],
-        "label_nl": "Claim: Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets - CBS News",
+        "label_nl": "Claim: Iran Reports Tanker Sinking After Mine Strike in Hormuz - Demokratis.co.id",
         "actor": "",
         "action": "",
         "place": "",
@@ -169,9 +170,9 @@
       },
       {
         "ids": [
-          "0dbc4f472779e3"
+          "55f2df73d28b7e"
         ],
-        "label_nl": "Claim: Senior Guards commander admits deep Israeli intelligence infiltration - Iran International",
+        "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
         "actor": "",
         "action": "",
         "place": "",
@@ -180,9 +181,9 @@
       },
       {
         "ids": [
-          "a8ad3b7a946697"
+          "0dbc4f472779e3"
         ],
-        "label_nl": "Claim: The Real Reason Donald Trump Isn't Attacking Iran: Tehran Might Have 2,500 Missiles to Strike Back and Cause Major Damage - National Security Journal",
+        "label_nl": "Claim: Senior Guards commander admits deep Israeli intelligence infiltration - Iran International",
         "actor": "",
         "action": "",
         "place": "",
@@ -251,16 +252,17 @@
       "ec097c020da3ff",
       "0550ef4f8093d4",
       "29add07e06097f",
-      "55f2df73d28b7e",
+      "6175299b758bdf",
       "504f736c5ef687",
-      "35e380a51e98ef",
-      "e36279df3572bb",
+      "29cfbe4e6557d7",
+      "6f164dcda92bb1",
       "6dc6cd7e45b30f",
       "bde81b0a60a540",
       "6a77d40e3f43b2",
       "f79dfbe788282c",
+      "55f2df73d28b7e",
       "0dbc4f472779e3",
-      "a8ad3b7a946697",
+      "7c3afbab7c1c97",
       "e1f7860ac4b6bb",
       "2c0657d84a30ec",
       "75a5fe23d0357a",
@@ -271,6 +273,36 @@
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
+    {
+      "id": "de58a553abad32fedd8e021f",
+      "label_nl": "Claim: Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
+      "headline_claim_ids": [
+        "29add07e06097f",
+        "7c3afbab7c1c97"
+      ],
+      "headline_claims": [
+        "Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
+        "特朗普“铁门”封锁，伊朗无人机三天内两次袭击巴林美军基地，油价为何涨不动了？ - Fx678"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTy1DY25Vdmt6alVTVFczSmJoR3ZuSDVSRWRqTjUwNnNkaFRLMVFkMS1OaVZGYTdkdTRob0lYcFFKOExDal9MMTN1OGZkcmI4c3V5dGw3ZXVEbGVJY3l1OUFXUFlWS2FSZGRYRVFYWFFuNG01c1phSU54c0wtTHNxUzF0dlFoQ3JqcF9aUGtJLS1LS2s1MlNXdnI0eWNqeEs0MlpMcC1MS0NXSi1rRWN3X2Nn?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTYzY3FhQ29pMm5tRFc1WHZmbm9RLU9iS0VqbWpiQkFDSUlEbGU1LXM4MVhiYTlheTJVR250OEtuMlhGcl9Ta08wOTgxSm01bWZsVW1UUHNOSUVyTklBdDZaQUFvSTl3c21vMlIwdFhhVlF3VjVmVjMwWUtQWS1NV01idjExYWZqSDR0SjgxNTJMMTFkbHg2dmRaeUI5U0ZHSEJvTkZuWmRteS15?oc=5",
+        "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhYXRpNnNlZmUwOEdzRDFUNDhlbk1vRDhIR1ZRVkpWYVM4YXFadEppZWtOT3BoSzJ0UXBYa2V2alF1Q05IU292ZzE3elVtdU1ZX19ScXpkSG5CQ0k?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
     {
       "id": "325c2bc2ce531f9b655322b8",
       "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
@@ -325,20 +357,19 @@
       "probability_estimate": null
     },
     {
-      "id": "906cd0ce08220b5baba4e605",
-      "label_nl": "Claim: Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
+      "id": "1a5d6c816feee21ddb6b1da5",
+      "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
       "headline_claim_ids": [
-        "29add07e06097f"
+        "6175299b758bdf"
       ],
       "headline_claims": [
-        "Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence"
+        "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTy1DY25Vdmt6alVTVFczSmJoR3ZuSDVSRWRqTjUwNnNkaFRLMVFkMS1OaVZGYTdkdTRob0lYcFFKOExDal9MMTN1OGZkcmI4c3V5dGw3ZXVEbGVJY3l1OUFXUFlWS2FSZGRYRVFYWFFuNG01c1phSU54c0wtTHNxUzF0dlFoQ3JqcF9aUGtJLS1LS2s1MlNXdnI0eWNqeEs0MlpMcC1MS0NXSi1rRWN3X2Nn?oc=5",
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTYzY3FhQ29pMm5tRFc1WHZmbm9RLU9iS0VqbWpiQkFDSUlEbGU1LXM4MVhiYTlheTJVR250OEtuMlhGcl9Ta08wOTgxSm01bWZsVW1UUHNOSUVyTklBdDZaQUFvSTl3c21vMlIwdFhhVlF3VjVmVjMwWUtQWS1NV01idjExYWZqSDR0SjgxNTJMMTFkbHg2dmRaeUI5U0ZHSEJvTkZuWmRteS15?oc=5"
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEtxTVNnWUVXRlAzQmltYXZWRl8ybFR6WmlKb05PQWxaaDBTS0hyMnp6X04wd3I2Xy1WUHpnRUYtUFgyNml2NTFVeDc1T1NfcDhaU0pWc1BoSGZFdU5MZE9PN3Boem90OW9udGpYOTRfTTltMGYtaDJQZ29xQWVQY2xZYjZydnY2SWc4M3JDY3U2X0o4RlAxaWxicXNIRklrX1FDYjhtaGZLSXPSAbABQVVfeXFMTjFLSGNkSm5LMVJtUlB2S1RmMzZTWHVpUVJNbDBmYmh1azE3NEpyY0lxWXlJMEF3UGJfOEtCUUU3bk9QUlZxeGZ4eWtfal9GaDRxVk5jV0ZsajFsRTR1RlV6Z0c3UEFjU1pObkR5VXZfRkhtZXJWRmN3R3plRmF5ZjMwN1UtYjdMZ3QtaDV2QmZYYmlBYmk4c2ZKancxUlVxZGpuUlNXdlRVakR6ZlJxd1k?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -378,16 +409,42 @@
       "probability_estimate": null
     },
     {
-      "id": "fe46f6438511643d750fc3e6",
-      "label_nl": "Claim: Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets - CBS News",
+      "id": "19b16f3d09534b85d1673352",
+      "label_nl": "Claim: 3rd US Carrier Reaches Middle East as Iran Warns It May Strike First - https://houseofsaud.com/",
       "headline_claim_ids": [
-        "e36279df3572bb"
+        "29cfbe4e6557d7"
       ],
       "headline_claims": [
-        "Bahrain says it intercepted Iranian attacks after Tehran claims it targeted U.S. assets - CBS News"
+        "3rd US Carrier Reaches Middle East as Iran Warns It May Strike First - https://houseofsaud.com/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeU5UZDJHMEc4OWsycksxeTkxZEs1R2s4clJCbG5wR2tMS3lyLWpsZU8zY1pFajlxSWtoeW42YzNxR0RZbTgyenlZYUFfQ3pBdzFiUDgwSEFWR1JZaGwta2hsZy1TMm15eHdrZm1OMmdpcXhBdzl3RDdPUnFiOFNsYXRjX2VVTHc?oc=5"
+        "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RcGVWUEpDNzRlcEJwSjY3eHlHSVNQNjZZZXNxYkN4Zll6ZDVfRkM2WXQwYzZBb0xMcko2MWtoMmxkaVBTTVhOc2lhcHFhdHRySDhwZW1qVnZrNFFidmxaY21fanhGQ3cxUXJBZGoweXJsWGpEQm5MM3pSbw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "15be654e0889e3834cd780d1",
+      "label_nl": "Claim: Iran Reports Tanker Sinking After Mine Strike in Hormuz - Demokratis.co.id",
+      "headline_claim_ids": [
+        "6f164dcda92bb1"
+      ],
+      "headline_claims": [
+        "Iran Reports Tanker Sinking After Mine Strike in Hormuz - Demokratis.co.id"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EVzZsaXJTMmFha3ljNDhtTDZMVWxMRFRDTmdXcWNjU3ZKMzRKZ05SX241aTk5MzBvQ0Z6WHpneGVyQTJZVmpDcG52bGo0a2hzRUh3RVZmS2VTcGVobDliTDE4WlJ3VGJpeFZxM2VtUmk4Z0RP?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -511,59 +568,6 @@
       "probability_estimate": null
     },
     {
-      "id": "97587c95d6dea3505c43bdca",
-      "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
-      "headline_claim_ids": [
-        "55f2df73d28b7e"
-      ],
-      "headline_claims": [
-        "Airline, travel industries scramble with fallout from Middle East conflict - DD News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1BTZ0pmejlOdEtoU2tnbWRacmUtUjZXb0hnTTUzZGowdXo1VzRiNkZNLXdqcWpXUThCTzJzRDRGU0w4UkV5ZTAyZHg3TkNVZFM2T1pJSTlINXZtRk9YRFdJMTk2dUFNa2JnRk1oNWdnVHRDUXFrTUR2UHRKaWVfano5VGdqQXVIYXBDV3M2emNKSHVla2ZDNUJObk1TTHJ2?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "e0a6d374da7819a10ed4605a",
-      "label_nl": "Claim: Iran tells COP31 it wants compensation for environmental damage from US - Israeli strikes",
-      "headline_claim_ids": [
-        "35e380a51e98ef"
-      ],
-      "headline_claims": [
-        "Iran tells COP31 it wants compensation for environmental damage from US - Israeli strikes"
-      ],
-      "related_news_links": [
-        "https://www.asiaone.com:443/asia/iran-tells-cop31-it-wants-compensation-environmental-damage-us-israeli-strikes",
-        "https://www.rappler.com/world/global-affairs/iran-compensation-environmental-damage-us-israeli-strikes-cop31/"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "a9a083444aa3ac9a87ff7893",
       "label_nl": "Claim: Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance",
       "headline_claim_ids": [
@@ -616,16 +620,16 @@
       "probability_estimate": null
     },
     {
-      "id": "64ef2e697f7b86601412a5f6",
-      "label_nl": "Claim: Senior Guards commander admits deep Israeli intelligence infiltration - Iran International",
+      "id": "97587c95d6dea3505c43bdca",
+      "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
       "headline_claim_ids": [
-        "0dbc4f472779e3"
+        "55f2df73d28b7e"
       ],
       "headline_claims": [
-        "Senior Guards commander admits deep Israeli intelligence infiltration - Iran International"
+        "Airline, travel industries scramble with fallout from Middle East conflict - DD News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10Sk1MYXZ6Wm5VUHdxeVF5aDN5bE5wRm9EYmg3Ujd2SzVtTmxwaUdvb3JseG9ra2VJMUQ4TXpIMGNzV3RpMllndlM2M3VDUzQ4RkE?oc=5"
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1BTZ0pmejlOdEtoU2tnbWRacmUtUjZXb0hnTTUzZGowdXo1VzRiNkZNLXdqcWpXUThCTzJzRDRGU0w4UkV5ZTAyZHg3TkNVZFM2T1pJSTlINXZtRk9YRFdJMTk2dUFNa2JnRk1oNWdnVHRDUXFrTUR2UHRKaWVfano5VGdqQXVIYXBDV3M2emNKSHVla2ZDNUJObk1TTHJ2?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -642,16 +646,16 @@
       "probability_estimate": null
     },
     {
-      "id": "2f952d2fe7a323515aa05a34",
-      "label_nl": "Claim: The Real Reason Donald Trump Isn't Attacking Iran: Tehran Might Have 2,500 Missiles to Strike Back and Cause Major Damage - National Security Journal",
+      "id": "64ef2e697f7b86601412a5f6",
+      "label_nl": "Claim: Senior Guards commander admits deep Israeli intelligence infiltration - Iran International",
       "headline_claim_ids": [
-        "a8ad3b7a946697"
+        "0dbc4f472779e3"
       ],
       "headline_claims": [
-        "The Real Reason Donald Trump Isn't Attacking Iran: Tehran Might Have 2,500 Missiles to Strike Back and Cause Major Damage - National Security Journal"
+        "Senior Guards commander admits deep Israeli intelligence infiltration - Iran International"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNkVFMXB5RTN6VHlVQnNxeUZiNFpEQzNUN08tSURHOEdUQU9BRk5vTjBnMGJHd1IwZTMzUWJ6SWxkSklQWGstTEFtcW5jYnR2U2EyeE92S201NUxxRWN5NlRDVUI2VG1YUlVBNWVMa0RYVElhMF9zSEY0M25SNEROcVNaSGMwa2RMYW1LVU5GWUE4bEl1NmFzSlhjZS0wZ1JkTE5Dai1Tc090Y0I4bUprSHBWbjJMNVI0RDhRZFlfcFh3cTRwZmFnUVFLamYwWkZSbkJPaE1kenR4ZFp2VmJaQTRJR3lrU2YxZXU0?oc=5"
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10Sk1MYXZ6Wm5VUHdxeVF5aDN5bE5wRm9EYmg3Ujd2SzVtTmxwaUdvb3JseG9ra2VJMUQ4TXpIMGNzV3RpMllndlM2M3VDUzQ4RkE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -800,10 +804,6 @@
     }
   ],
   "usage_by_day": {
-    "2026-11-14": {
-      "requests": 12,
-      "total_tokens": 32006
-    },
     "2026-11-15": {
       "requests": 12,
       "total_tokens": 28395
@@ -811,6 +811,10 @@
     "2026-11-16": {
       "requests": 12,
       "total_tokens": 30312
+    },
+    "2026-11-17": {
+      "requests": 3,
+      "total_tokens": 7438
     }
   }
 }
