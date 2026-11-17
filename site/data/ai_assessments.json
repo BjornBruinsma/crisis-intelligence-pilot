@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-17T07:32:57.809699Z",
+  "last_attempt_utc": "2026-11-17T13:24:07.591539Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -6423,6 +6423,70 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-17T07:32:56.809502Z"
+    },
+    "a551a42a30336d": {
+      "id": "a551a42a30336d",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran zou een Amerikaanse militaire basis in Bahrein hebben aangevallen.",
+      "claimed_event_nl": "Iran heeft een Amerikaanse militaire basis in Bahrein aangevallen.",
+      "reason_nl": "Deze claim is relevant vanwege de mogelijke escalatie van militaire conflicten in de regio.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd en komt uit meerdere niet-ondersteunde bronnen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-17T13:24:06.591286Z"
+    },
+    "d511c8f0cbc235": {
+      "id": "d511c8f0cbc235",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "event_claim",
+      "summary_nl": "Qatar zou doorgaan met een bijeenkomst met Iran terwijl de VS-Iran bemiddeling voortduurt te midden van regionale spanningen.",
+      "claimed_event_nl": "Qatar dringt aan op een bijeenkomst met Iran terwijl de VS-Iran bemiddeling voortduurt.",
+      "reason_nl": "Deze claim is relevant voor de diplomatieke ontwikkelingen in de regio.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd en komt uit een niet-ondersteunde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-17T13:24:06.591311Z"
+    },
+    "9384f566cb96e5": {
+      "id": "9384f566cb96e5",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "event_claim",
+      "summary_nl": "De EU zou verwachten dat de eurozone-economie standhoudt ondanks de oorlog in Iran.",
+      "claimed_event_nl": "De EU ziet dat de eurozone-economie standhoudt ondanks de oorlog in Iran.",
+      "reason_nl": "Deze claim is relevant voor de economische impact van de situatie in Iran op de eurozone.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd en komt uit een niet-ondersteunde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-17T13:24:06.591318Z"
+    },
+    "9d6c49d18578fb": {
+      "id": "9d6c49d18578fb",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De VS zou worstelen met hoe ze Iran moeten aanvallen en wat de gevolgen zouden zijn.",
+      "claimed_event_nl": "De VS worstelt met hoe ze Iran moeten aanvallen en wat de gevolgen zouden zijn.",
+      "reason_nl": "Deze claim is relevant vanwege de implicaties voor de militaire strategie en mogelijke escalatie.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd en komt uit een niet-ondersteunde bron.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-17T13:24:06.591323Z"
     }
   },
   "usage_by_day": {
@@ -6435,8 +6499,8 @@
       "total_tokens": 3852
     },
     "2026-11-17": {
-      "requests": 2,
-      "total_tokens": 3150
+      "requests": 3,
+      "total_tokens": 4532
     }
   }
 }

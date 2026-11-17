@@ -1,47 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-17T07:33:42.066289Z",
+  "last_attempt_utc": "2026-11-17T13:24:51.024624Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 19,
-  "active_checked": 11,
+  "active_checked": 10,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
-    "a9d55b8888126a8ff3f878cb": {
-      "event_id": "a9d55b8888126a8ff3f878cb",
-      "checked_at": "2026-11-03T07:25:08.164003Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De officiële tekst geeft aan dat Iran locaties die met de VS zijn geassocieerd wil aanvallen, maar er is geen bevestiging van een aanval op Qeshm Island.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/check-uk-visa",
-          "title": "Check if you need a UK visa - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Travel or do business in Europe: Brexit guidance"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
     "4e40a77ef83708f14af58f67": {
       "event_id": "4e40a77ef83708f14af58f67",
       "checked_at": "2026-11-03T07:25:08.164029Z",
@@ -3175,12 +3143,24 @@
     },
     "8fb0e91f4400c02980aacecd": {
       "event_id": "8fb0e91f4400c02980aacecd",
-      "checked_at": "2026-11-16T01:37:12.997665Z",
+      "checked_at": "2026-11-17T13:24:51.024593Z",
       "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
+      "research_status": "related_official_material",
       "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
+      "official_matches": [
+        {
+          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_date": null,
+          "retrieved_at": "2026-11-17T13:24:44.090963Z",
+          "exact_quote": "more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt een aantal aanvallen op commerciële schepen, maar biedt geen bewijs voor de specifieke claim over een tankerbrand.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten vermelden aanvallen op commerciële schepen in de Straat van Hormuz, maar er is geen bevestiging van een specifieke brandstofbrand na een mijnaanval.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3285,7 +3265,7 @@
     },
     "6eb69e6f93605d8874d0f76d": {
       "event_id": "6eb69e6f93605d8874d0f76d",
-      "checked_at": "2026-11-16T08:58:47.885941Z",
+      "checked_at": "2026-11-17T13:24:51.024586Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3294,26 +3274,15 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/iran",
           "original_document_title": "Iran travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-16T08:58:43.259717Z",
+          "retrieved_at": "2026-11-17T13:24:41.107370Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intentie van Iran om doelwitten te raken, maar specificeert geen acties of gevolgen met betrekking tot olieprijzen.",
-          "claim_validated_as_fact": false
-        },
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/israel",
-          "original_document_title": "Israel travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-16T08:58:44.096510Z",
-          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intentie van Iran om doelwitten te raken, maar specificeert geen acties of gevolgen met betrekking tot olieprijzen.",
+          "reason_nl": "De passage geeft aan dat Iran locaties wil targeten die met de VS en Israël geassocieerd zijn, maar ondersteunt niet specifiek de claim over een olieprijsdaling.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De teksten vermelden de intentie van Iran om doelwitten te raken die geassocieerd zijn met de VS en Israël, maar bieden geen bewijs voor een directe link met olieprijzen of een oliecrisis.",
+      "summary_nl": "De teksten wijzen op de intenties van Iran en aanhoudende aanvallen, maar er is geen directe link naar de claim dat deze aanvallen geen olieprijsshock hebben veroorzaakt.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3818,6 +3787,61 @@
           "text_excerpt": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz"
         }
       ]
+    },
+    "cfb2c0b1a1714b43c4124bdc": {
+      "event_id": "cfb2c0b1a1714b43c4124bdc",
+      "checked_at": "2026-11-17T13:24:51.024561Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-17T13:24:37.858993Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS, maar bevestigt geen specifieke aanval op een militaire basis in Bahrein.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/government/news/uk-defence-industry-steps-up-support-for-gulf-partners-facing-iranian-attacks",
+          "original_document_title": "UK defence industry steps up support for Gulf partners facing Iranian attacks - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-17T13:24:38.067419Z",
+          "exact_quote": "Iranian attacks against our partners in the Gulf continue",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar aanhoudende aanvallen door Iran tegen partners in de Golf, maar specificeert geen aanval op een militaire basis in Bahrein.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten vermelden de intenties van Iran en aanhoudende aanvallen in de regio, maar er is geen specifieke bevestiging van een aanval op een Amerikaanse militaire basis in Bahrein.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/government/news/uk-defence-industry-steps-up-support-for-gulf-partners-facing-iranian-attacks",
+          "title": "UK defence industry steps up support for Gulf partners facing Iranian attacks - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "As Iranian attacks against our partners in the Gulf continue, the UK is stepping up our support - both military and industrial. We are committed to defending British people, interests, and partners across the region."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3832,9 +3856,9 @@
       "model_tokens": 4817
     },
     "2026-11-17": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 3686
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 5934
     }
   },
   "last_error": null

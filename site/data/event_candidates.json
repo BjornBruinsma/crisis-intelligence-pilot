@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-17T07:33:20.911982Z",
-  "fingerprint": "9756d2434300af42582c939d",
+  "last_attempt_utc": "2026-11-17T13:24:30.960680Z",
+  "fingerprint": "1d54ea6b701c1b258ddb4760",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -12,8 +12,8 @@
     "model_pair_proposals": 2,
     "accepted_pair_connections": 2,
     "rejected_pair_proposals": 0,
-    "multi_claim_groups": 2,
-    "claims_in_multi_groups": 4,
+    "multi_claim_groups": 1,
+    "claims_in_multi_groups": 3,
     "all_input_ids_retained": true,
     "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
@@ -22,13 +22,26 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-17T07:33:20.911982Z",
+    "recorded_at": "2026-11-17T13:24:30.960680Z",
     "groups": [
       {
         "ids": [
-          "02753692adc238"
+          "a551a42a30336d",
+          "29add07e06097f",
+          "7c3afbab7c1c97"
         ],
-        "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
+        "label_nl": "Claim: Iran attacks US military base in Bahrain - AOL.co.uk",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+      },
+      {
+        "ids": [
+          "d511c8f0cbc235"
+        ],
+        "label_nl": "Claim: Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn",
         "actor": "",
         "action": "",
         "place": "",
@@ -59,18 +72,6 @@
       },
       {
         "ids": [
-          "29add07e06097f",
-          "7c3afbab7c1c97"
-        ],
-        "label_nl": "Claim: Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
-      },
-      {
-        "ids": [
           "504f736c5ef687"
         ],
         "label_nl": "Claim: Iran fuel crisis deepens amid war and sanctions - DW.com",
@@ -93,20 +94,9 @@
       },
       {
         "ids": [
-          "aa0c92bfc6e210"
+          "02753692adc238"
         ],
-        "label_nl": "Claim: Middle East latest: Tanker attacked in Strait of Hormuz off Oman, UKMTO says - The National",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "ec903596e30953"
-        ],
-        "label_nl": "Claim: 'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World",
+        "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
         "actor": "",
         "action": "",
         "place": "",
@@ -148,15 +138,14 @@
       },
       {
         "ids": [
-          "f79dfbe788282c",
-          "6f164dcda92bb1"
+          "f79dfbe788282c"
         ],
         "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -171,9 +160,9 @@
       },
       {
         "ids": [
-          "0dbc4f472779e3"
+          "9384f566cb96e5"
         ],
-        "label_nl": "Claim: Senior Guards commander admits deep Israeli intelligence infiltration - Iran International",
+        "label_nl": "Claim: EU Sees Eurozone Economy Hold Up Despite Iran War - شبكة تواصل الإخبارية",
         "actor": "",
         "action": "",
         "place": "",
@@ -182,9 +171,20 @@
       },
       {
         "ids": [
-          "3781ab8511d688"
+          "9d6c49d18578fb"
         ],
-        "label_nl": "Claim: Iran Closes Strait of Hormuz Again and Says its Negotiating Team With U.S. is Heading to Switzerland - EnergyNow.com",
+        "label_nl": "Claim: The US is grappling with how to attack Iran and what the consequences would be. - Vietnam.vn",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "ec903596e30953"
+        ],
+        "label_nl": "Claim: 'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World",
         "actor": "",
         "action": "",
         "place": "",
@@ -237,23 +237,23 @@
       }
     ],
     "input_claim_ids": [
-      "02753692adc238",
+      "a551a42a30336d",
+      "d511c8f0cbc235",
       "ec097c020da3ff",
       "0550ef4f8093d4",
       "29add07e06097f",
       "504f736c5ef687",
       "29cfbe4e6557d7",
-      "aa0c92bfc6e210",
-      "ec903596e30953",
+      "02753692adc238",
       "bde81b0a60a540",
       "6a77d40e3f43b2",
       "a7e56eff303089",
       "f79dfbe788282c",
       "6175299b758bdf",
-      "0dbc4f472779e3",
+      "9384f566cb96e5",
       "7c3afbab7c1c97",
-      "6f164dcda92bb1",
-      "3781ab8511d688",
+      "9d6c49d18578fb",
+      "ec903596e30953",
       "2c0657d84a30ec",
       "75a5fe23d0357a",
       "c6ad0f7287f5c3",
@@ -264,23 +264,27 @@
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "de58a553abad32fedd8e021f",
-      "label_nl": "Claim: Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
+      "id": "cfb2c0b1a1714b43c4124bdc",
+      "label_nl": "Claim: Iran attacks US military base in Bahrain - AOL.co.uk",
       "headline_claim_ids": [
+        "a551a42a30336d",
         "29add07e06097f",
         "7c3afbab7c1c97"
       ],
       "headline_claims": [
+        "Iran attacks US military base in Bahrain - AOL.co.uk",
         "Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
         "特朗普“铁门”封锁，伊朗无人机三天内两次袭击巴林美军基地，油价为何涨不动了？ - Fx678"
       ],
       "related_news_links": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMTd4NjVNa2h6X01tUHkyakM3OUpIVVhUTnhDbjlGS1BIT2ZCU1gxWHBFbEQwa1J6eVpwcV9WU291Mm1la0hvS290TUZxNGg3RGIyNDZlaUJ0ajFWZUh3b0RndEVVMG51OE10MWotRzd2djNLem1UakNpOFZzbkJHYlFKcEk?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GNkJDbW9oVG9jU1ZWRGZvZm9kSEpocGJOMzhhalhLUmZfZkFqOXk3MkFCZXNqQjl0U0swNzMxNTB3Y3JWRjdPeDl3TkpUSFpEclFGdVk0Nm1YWVFxS1NfODJRSUFRVEdGRE15eUFFTUVqVjZjWkRaVQ?oc=5",
         "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTy1DY25Vdmt6alVTVFczSmJoR3ZuSDVSRWRqTjUwNnNkaFRLMVFkMS1OaVZGYTdkdTRob0lYcFFKOExDal9MMTN1OGZkcmI4c3V5dGw3ZXVEbGVJY3l1OUFXUFlWS2FSZGRYRVFYWFFuNG01c1phSU54c0wtTHNxUzF0dlFoQ3JqcF9aUGtJLS1LS2s1MlNXdnI0eWNqeEs0MlpMcC1MS0NXSi1rRWN3X2Nn?oc=5",
         "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTYzY3FhQ29pMm5tRFc1WHZmbm9RLU9iS0VqbWpiQkFDSUlEbGU1LXM4MVhiYTlheTJVR250OEtuMlhGcl9Ta08wOTgxSm01bWZsVW1UUHNOSUVyTklBdDZaQUFvSTl3c21vMlIwdFhhVlF3VjVmVjMwWUtQWS1NV01idjExYWZqSDR0SjgxNTJMMTFkbHg2dmRaeUI5U0ZHSEJvTkZuWmRteS15?oc=5",
         "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhYXRpNnNlZmUwOEdzRDFUNDhlbk1vRDhIR1ZRVkpWYVM4YXFadEppZWtOT3BoSzJ0UXBYa2V2alF1Q05IU292ZzE3elVtdU1ZX19ScXpkSG5CQ0k?oc=5"
       ],
-      "article_group_count": 2,
-      "news_url_count": 3,
+      "article_group_count": 3,
+      "news_url_count": 5,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -288,63 +292,6 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "c56873dbb18771702b4dab33",
-      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
-      "headline_claim_ids": [
-        "f79dfbe788282c",
-        "6f164dcda92bb1"
-      ],
-      "headline_claims": [
-        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
-        "Iran Reports Tanker Sinking After Mine Strike in Hormuz - Demokratis.co.id"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ25zZFhyeE1IVnNrTjJ6MkRVVnlzVGl0NEVUQmJZbWtCODRyVFFaZWVFQnJGaGRDOS1nclJiMjVZZTFUT0VVbXdRc2NidEpfVFNFa3dKWGZqM2pVMlBGTFZEakVsX0pNR0t2aG9LN3kyZDhfeTFEd3cwU2tablhBQW5VelZiTU1QRmx4dUhWNE5XRXRTOEQ3RkVMb285N0ZmZHJ3OTJYZGRpVzBIczRzM0JvOVRGb2s5alFaVQ?oc=5",
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5",
-        "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EVzZsaXJTMmFha3ljNDhtTDZMVWxMRFRDTmdXcWNjU3ZKMzRKZ05SX241aTk5MzBvQ0Z6WHpneGVyQTJZVmpDcG52bGo0a2hzRUh3RVZmS2VTcGVobDliTDE4WlJ3VGJpeFZxM2VtUmk4Z0RP?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "325c2bc2ce531f9b655322b8",
-      "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
-      "headline_claim_ids": [
-        "02753692adc238"
-      ],
-      "headline_claims": [
-        "US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN1p5YjNMaDdCanEwSGJZMzhjWWRTSmk5MURQX21yd3VTUVRzMDNJNl9pbmNlZE5WbEpaWW5Rb0tkVVhXVUpUY1QtbUVtWVVhc042VTlBeXJ6bS1IcWZSSGdCdlYzSkRSQjhfb21MMWZRNHFqcTV1VXY3eEZkcGFrMi1idk1BRWVZZXN4bDZZcENVMUJJb1Nxejd3R3FSLW1CeHVlYmNoX3NCQ3JGLVY2UXpTaXpaM251QXgwYWtR0gHDAUFVX3lxTE5RTThzUWs3WDJGX2VsX0gzbmpmZG83WHp3MXFlclRYR0dlQUFpMFRCOUR5UkYyQm54Sjk3M3J3V0ptdGdaSHFYQi13T2o0Y1VzYmFkVUlDYkJCY2QzYlgyYUlfWXo0bi1YRkhtY0NGRmc0N2JiTFgxb0ZmdjUwZnFyTk5VWVFuV1ZrVTh4VlRPTFU2LXZIVkR3aUZwYktqY0I4TUszamNsY2owcnI2VVBKczI4UXBTVkt4T0Fpb1NiQkdfcw?oc=5",
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -403,16 +350,122 @@
       "probability_estimate": null
     },
     {
-      "id": "7868c9e4e0791bc00ba93062",
-      "label_nl": "Claim: Middle East latest: Tanker attacked in Strait of Hormuz off Oman, UKMTO says - The National",
+      "id": "325c2bc2ce531f9b655322b8",
+      "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
       "headline_claim_ids": [
-        "aa0c92bfc6e210"
+        "02753692adc238"
       ],
       "headline_claims": [
-        "Middle East latest: Tanker attacked in Strait of Hormuz off Oman, UKMTO says - The National"
+        "US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbTl5RWVWNzJOd1BBVC1RZmR6aHBLUFZTaEtvZkFYVEtzV2N4c01TS05Oek15M2U2NS1lZk5MQkI4QU8zSm9va1JlU213c0dwS3doMXJ6N1RSZVA3OWUzbVI3Vk16MGtobTRKVTNQRFJrMTRvQVlNTzFRY2Z3dG82MWRGb21pNjF0djB0VjFGVVplRE9IRVNoY2ZtQjVkRkk?oc=5"
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN1p5YjNMaDdCanEwSGJZMzhjWWRTSmk5MURQX21yd3VTUVRzMDNJNl9pbmNlZE5WbEpaWW5Rb0tkVVhXVUpUY1QtbUVtWVVhc042VTlBeXJ6bS1IcWZSSGdCdlYzSkRSQjhfb21MMWZRNHFqcTV1VXY3eEZkcGFrMi1idk1BRWVZZXN4bDZZcENVMUJJb1Nxejd3R3FSLW1CeHVlYmNoX3NCQ3JGLVY2UXpTaXpaM251QXgwYWtR0gHDAUFVX3lxTE5RTThzUWs3WDJGX2VsX0gzbmpmZG83WHp3MXFlclRYR0dlQUFpMFRCOUR5UkYyQm54Sjk3M3J3V0ptdGdaSHFYQi13T2o0Y1VzYmFkVUlDYkJCY2QzYlgyYUlfWXo0bi1YRkhtY0NGRmc0N2JiTFgxb0ZmdjUwZnFyTk5VWVFuV1ZrVTh4VlRPTFU2LXZIVkR3aUZwYktqY0I4TUszamNsY2owcnI2VVBKczI4UXBTVkt4T0Fpb1NiQkdfcw?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "6eb69e6f93605d8874d0f76d",
+      "label_nl": "Claim: Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com",
+      "headline_claim_ids": [
+        "6a77d40e3f43b2"
+      ],
+      "headline_claims": [
+        "Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc21LZ1RJUkk2QU9mMzl5ZmVXU0I4MkhEc3JNU09TenlNTkR2Z3M3WmpEeEVXeTZkdUhVQjdKWTdBcEk2c1Y4RGhBdEVTQ1otNUtpLTY2SDBQUVhpVW8yZ0lGMjNPdnMwNW1jM1hTNkI5SnJfN29xYmNDb2dHNDlNLTJ4R2tHVExVYkQtem41N3lJS2RnY3BnNDhOTFBTXzdkZTJsSVg2dVJZYXJxWnNyZkc5bEIwMWx3VEhzOTRPUmltbkRoYm1PYkxYeGtrVlowX1kwWVJEQWszWF9vc0Q4MHFsVXM0NW1Bd1hvNA?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "8fb0e91f4400c02980aacecd",
+      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
+      "headline_claim_ids": [
+        "f79dfbe788282c"
+      ],
+      "headline_claims": [
+        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ25zZFhyeE1IVnNrTjJ6MkRVVnlzVGl0NEVUQmJZbWtCODRyVFFaZWVFQnJGaGRDOS1nclJiMjVZZTFUT0VVbXdRc2NidEpfVFNFa3dKWGZqM2pVMlBGTFZEakVsX0pNR0t2aG9LN3kyZDhfeTFEd3cwU2tablhBQW5VelZiTU1QRmx4dUhWNE5XRXRTOEQ3RkVMb285N0ZmZHJ3OTJYZGRpVzBIczRzM0JvOVRGb2s5alFaVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "1a5d6c816feee21ddb6b1da5",
+      "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
+      "headline_claim_ids": [
+        "6175299b758bdf"
+      ],
+      "headline_claims": [
+        "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEtxTVNnWUVXRlAzQmltYXZWRl8ybFR6WmlKb05PQWxaaDBTS0hyMnp6X04wd3I2Xy1WUHpnRUYtUFgyNml2NTFVeDc1T1NfcDhaU0pWc1BoSGZFdU5MZE9PN3Boem90OW9udGpYOTRfTTltMGYtaDJQZ29xQWVQY2xZYjZydnY2SWc4M3JDY3U2X0o4RlAxaWxicXNIRklrX1FDYjhtaGZLSXPSAbABQVVfeXFMTjFLSGNkSm5LMVJtUlB2S1RmMzZTWHVpUVJNbDBmYmh1azE3NEpyY0lxWXlJMEF3UGJfOEtCUUU3bk9QUlZxeGZ4eWtfal9GaDRxVk5jV0ZsajFsRTR1RlV6Z0c3UEFjU1pObkR5VXZfRkhtZXJWRmN3R3plRmF5ZjMwN1UtYjdMZ3QtaDV2QmZYYmlBYmk4c2ZKancxUlVxZGpuUlNXdlRVakR6ZlJxd1k?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "807ac471576389cf1dff7db6",
+      "label_nl": "Claim: The US is grappling with how to attack Iran and what the consequences would be. - Vietnam.vn",
+      "headline_claim_ids": [
+        "9d6c49d18578fb"
+      ],
+      "headline_claims": [
+        "The US is grappling with how to attack Iran and what the consequences would be. - Vietnam.vn"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ011TUp4YzNSbENHQ3lrbzRqakltaHZQbHFOaWFadE1ndFlLNDR4MGExa1ZMd08tckItSU1iNW9NNU0yVUpTODJ2T0k0Wi1TZ1Uybkg5cTlqa1BveUcxVlJaN3dWSm5XLWhMaGk5Uk0yWV9hNUI3c2M0LUhpZC1Ddlg2NkFpR3c?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -455,16 +508,16 @@
       "probability_estimate": null
     },
     {
-      "id": "6eb69e6f93605d8874d0f76d",
-      "label_nl": "Claim: Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com",
+      "id": "e796a9576fe0ef028308aa71",
+      "label_nl": "Claim: Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn",
       "headline_claim_ids": [
-        "6a77d40e3f43b2"
+        "d511c8f0cbc235"
       ],
       "headline_claims": [
-        "Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com"
+        "Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc21LZ1RJUkk2QU9mMzl5ZmVXU0I4MkhEc3JNU09TenlNTkR2Z3M3WmpEeEVXeTZkdUhVQjdKWTdBcEk2c1Y4RGhBdEVTQ1otNUtpLTY2SDBQUVhpVW8yZ0lGMjNPdnMwNW1jM1hTNkI5SnJfN29xYmNDb2dHNDlNLTJ4R2tHVExVYkQtem41N3lJS2RnY3BnNDhOTFBTXzdkZTJsSVg2dVJZYXJxWnNyZkc5bEIwMWx3VEhzOTRPUmltbkRoYm1PYkxYeGtrVlowX1kwWVJEQWszWF9vc0Q4MHFsVXM0NW1Bd1hvNA?oc=5"
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRTI1RVVKT21ROHh2Wi1MVkNkVkNXYUo2bEpLNkYzeFc5OGRoNkdyVFNrNnVJNTBUZ2JWdWJlTjFMa25tU01KVkY1Si1BTXZqbVlUUXc2OUVaZEJJa25hTDJrbE5tTEJFNWpTMlNsNk51LV9UVlo4amllN0FiSHAwN3RBVXRiM2ZIZ2VUWTVTWkFybTdKaERpT2lQVjBiM3F4WVFvOV9YdEgzU1ptMW1pMnVvYXd5c2JVczNjdFUzU2NabVUyNE92dHBwOGhOY3hLdThRWGhGckdxeVpfUzh3?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -473,59 +526,7 @@
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "1a5d6c816feee21ddb6b1da5",
-      "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
-      "headline_claim_ids": [
-        "6175299b758bdf"
-      ],
-      "headline_claims": [
-        "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEtxTVNnWUVXRlAzQmltYXZWRl8ybFR6WmlKb05PQWxaaDBTS0hyMnp6X04wd3I2Xy1WUHpnRUYtUFgyNml2NTFVeDc1T1NfcDhaU0pWc1BoSGZFdU5MZE9PN3Boem90OW9udGpYOTRfTTltMGYtaDJQZ29xQWVQY2xZYjZydnY2SWc4M3JDY3U2X0o4RlAxaWxicXNIRklrX1FDYjhtaGZLSXPSAbABQVVfeXFMTjFLSGNkSm5LMVJtUlB2S1RmMzZTWHVpUVJNbDBmYmh1azE3NEpyY0lxWXlJMEF3UGJfOEtCUUU3bk9QUlZxeGZ4eWtfal9GaDRxVk5jV0ZsajFsRTR1RlV6Z0c3UEFjU1pObkR5VXZfRkhtZXJWRmN3R3plRmF5ZjMwN1UtYjdMZ3QtaDV2QmZYYmlBYmk4c2ZKancxUlVxZGpuUlNXdlRVakR6ZlJxd1k?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "7f1e5570b3e7c2d406de7ef8",
-      "label_nl": "Claim: Iran Closes Strait of Hormuz Again and Says its Negotiating Team With U.S. is Heading to Switzerland - EnergyNow.com",
-      "headline_claim_ids": [
-        "3781ab8511d688"
-      ],
-      "headline_claims": [
-        "Iran Closes Strait of Hormuz Again and Says its Negotiating Team With U.S. is Heading to Switzerland - EnergyNow.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxObGl4TGh6NXhISExseWhVM1oyb3MyS2xwSk9oZ3BEU0NudjYyWkRqRDhDZ3AxeGZ4NVlhTnZ4TkZUV3IwVExZLXFDRnpqcW14Q1FTRjRfU0pNenlUOENya1oyWVByVDU3NkMwLUdFbi1QeWV2RjI0ZXNvRnVKZTRmcUNUVVFCTWI0dVo2aW5lWlQwR2FWeE5KeUNUTWdVWlFxVUwxSm5rWkc0YTB4U0FyOUltYkxoLWhaQW5IczA5bWdMY3FzclpKLUJn?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
+      "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
@@ -639,16 +640,16 @@
       "probability_estimate": null
     },
     {
-      "id": "64ef2e697f7b86601412a5f6",
-      "label_nl": "Claim: Senior Guards commander admits deep Israeli intelligence infiltration - Iran International",
+      "id": "7e6c55a33d77cc4cdf40b7cd",
+      "label_nl": "Claim: EU Sees Eurozone Economy Hold Up Despite Iran War - شبكة تواصل الإخبارية",
       "headline_claim_ids": [
-        "0dbc4f472779e3"
+        "9384f566cb96e5"
       ],
       "headline_claims": [
-        "Senior Guards commander admits deep Israeli intelligence infiltration - Iran International"
+        "EU Sees Eurozone Economy Hold Up Despite Iran War - شبكة تواصل الإخبارية"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10Sk1MYXZ6Wm5VUHdxeVF5aDN5bE5wRm9EYmg3Ujd2SzVtTmxwaUdvb3JseG9ra2VJMUQ4TXpIMGNzV3RpMllndlM2M3VDUzQ4RkE?oc=5"
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yb3BZbVV2Y0paOG1CRFlzRDYwR2ZROXhhSENxdW4wWkw5U1dqSk5HcDkydzk4aDRFZkVBeFNudnIySlU1Y1F1ZldmYXBkYmZiVVY4?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -780,8 +781,8 @@
       "total_tokens": 30312
     },
     "2026-11-17": {
-      "requests": 6,
-      "total_tokens": 14960
+      "requests": 9,
+      "total_tokens": 22425
     }
   }
 }
