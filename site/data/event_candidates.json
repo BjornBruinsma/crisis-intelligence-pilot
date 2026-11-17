@@ -1,45 +1,34 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-17T01:26:47.398270Z",
-  "fingerprint": "b1520348d012ad1c04501266",
+  "last_attempt_utc": "2026-11-17T07:33:20.911982Z",
+  "fingerprint": "9756d2434300af42582c939d",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 21,
-  "event_candidate_count": 20,
+  "event_candidate_count": 19,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 1,
-    "accepted_pair_connections": 1,
+    "model_pair_proposals": 2,
+    "accepted_pair_connections": 2,
     "rejected_pair_proposals": 0,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "multi_claim_groups": 2,
+    "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-17T01:26:47.398270Z",
+    "recorded_at": "2026-11-17T07:33:20.911982Z",
     "groups": [
       {
         "ids": [
           "02753692adc238"
         ],
         "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "ec903596e30953"
-        ],
-        "label_nl": "Claim: 'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World",
         "actor": "",
         "action": "",
         "place": "",
@@ -82,17 +71,6 @@
       },
       {
         "ids": [
-          "6175299b758bdf"
-        ],
-        "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
           "504f736c5ef687"
         ],
         "label_nl": "Claim: Iran fuel crisis deepens amid war and sanctions - DW.com",
@@ -115,9 +93,9 @@
       },
       {
         "ids": [
-          "6f164dcda92bb1"
+          "aa0c92bfc6e210"
         ],
-        "label_nl": "Claim: Iran Reports Tanker Sinking After Mine Strike in Hormuz - Demokratis.co.id",
+        "label_nl": "Claim: Middle East latest: Tanker attacked in Strait of Hormuz off Oman, UKMTO says - The National",
         "actor": "",
         "action": "",
         "place": "",
@@ -126,9 +104,9 @@
       },
       {
         "ids": [
-          "6dc6cd7e45b30f"
+          "ec903596e30953"
         ],
-        "label_nl": "Claim: Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance",
+        "label_nl": "Claim: 'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World",
         "actor": "",
         "action": "",
         "place": "",
@@ -159,9 +137,9 @@
       },
       {
         "ids": [
-          "f79dfbe788282c"
+          "a7e56eff303089"
         ],
-        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
+        "label_nl": "Claim: Iran War: The Strait of Hormuz Oil Shock Is Now Heading West - EnergyNow",
         "actor": "",
         "action": "",
         "place": "",
@@ -170,9 +148,21 @@
       },
       {
         "ids": [
-          "55f2df73d28b7e"
+          "f79dfbe788282c",
+          "6f164dcda92bb1"
         ],
-        "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
+        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+      },
+      {
+        "ids": [
+          "6175299b758bdf"
+        ],
+        "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
         "actor": "",
         "action": "",
         "place": "",
@@ -192,9 +182,9 @@
       },
       {
         "ids": [
-          "e1f7860ac4b6bb"
+          "3781ab8511d688"
         ],
-        "label_nl": "Claim: Trump halts Vance's negotiations with Iran, marking a \"180-degree shift\": pivoting to a \"no war, no talks\" stance. - 富途牛牛",
+        "label_nl": "Claim: Iran Closes Strait of Hormuz Again and Says its Negotiating Team With U.S. is Heading to Switzerland - EnergyNow.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -225,9 +215,9 @@
       },
       {
         "ids": [
-          "6a33e3d3f5959f"
+          "c6ad0f7287f5c3"
         ],
-        "label_nl": "Claim: Iran War: The Strait of Hormuz Oil Shock Is Now Heading West - EnergyNow.com",
+        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -236,9 +226,9 @@
       },
       {
         "ids": [
-          "c6ad0f7287f5c3"
+          "55f2df73d28b7e"
         ],
-        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+        "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
         "actor": "",
         "action": "",
         "place": "",
@@ -248,26 +238,26 @@
     ],
     "input_claim_ids": [
       "02753692adc238",
-      "ec903596e30953",
       "ec097c020da3ff",
       "0550ef4f8093d4",
       "29add07e06097f",
-      "6175299b758bdf",
       "504f736c5ef687",
       "29cfbe4e6557d7",
-      "6f164dcda92bb1",
-      "6dc6cd7e45b30f",
+      "aa0c92bfc6e210",
+      "ec903596e30953",
       "bde81b0a60a540",
       "6a77d40e3f43b2",
+      "a7e56eff303089",
       "f79dfbe788282c",
-      "55f2df73d28b7e",
+      "6175299b758bdf",
       "0dbc4f472779e3",
       "7c3afbab7c1c97",
-      "e1f7860ac4b6bb",
+      "6f164dcda92bb1",
+      "3781ab8511d688",
       "2c0657d84a30ec",
       "75a5fe23d0357a",
-      "6a33e3d3f5959f",
-      "c6ad0f7287f5c3"
+      "c6ad0f7287f5c3",
+      "55f2df73d28b7e"
     ]
   },
   "official_sources_available": 15,
@@ -304,6 +294,36 @@
       "probability_estimate": null
     },
     {
+      "id": "c56873dbb18771702b4dab33",
+      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
+      "headline_claim_ids": [
+        "f79dfbe788282c",
+        "6f164dcda92bb1"
+      ],
+      "headline_claims": [
+        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
+        "Iran Reports Tanker Sinking After Mine Strike in Hormuz - Demokratis.co.id"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ25zZFhyeE1IVnNrTjJ6MkRVVnlzVGl0NEVUQmJZbWtCODRyVFFaZWVFQnJGaGRDOS1nclJiMjVZZTFUT0VVbXdRc2NidEpfVFNFa3dKWGZqM2pVMlBGTFZEakVsX0pNR0t2aG9LN3kyZDhfeTFEd3cwU2tablhBQW5VelZiTU1QRmx4dUhWNE5XRXRTOEQ3RkVMb285N0ZmZHJ3OTJYZGRpVzBIczRzM0JvOVRGb2s5alFaVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EVzZsaXJTMmFha3ljNDhtTDZMVWxMRFRDTmdXcWNjU3ZKMzRKZ05SX241aTk5MzBvQ0Z6WHpneGVyQTJZVmpDcG52bGo0a2hzRUh3RVZmS2VTcGVobDliTDE4WlJ3VGJpeFZxM2VtUmk4Z0RP?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "325c2bc2ce531f9b655322b8",
       "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
       "headline_claim_ids": [
@@ -318,58 +338,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "c50bdb5bad4a0a6848fbb537",
-      "label_nl": "Claim: 'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World",
-      "headline_claim_ids": [
-        "ec903596e30953"
-      ],
-      "headline_claims": [
-        "'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNXgyTjZmckh0RHlPU2hmSXRscjk0MlgtbjhmenAyRW91Sk1qMnZkZlNmTDBpRDBCOVR4b2l6c1FoWmk4ak9Db3NZRElrbzhYNVBldGJMTGpFdm9KRWJra2JpMzhTM0NVOVFSVG9OQWRVUWg3QlpkeHF6WVlmdnFVSm56WTNjRTlfSklDSDVhT1BvSTVpV1RYNThSTjJJeXFuU2hwSG9fcVRZdDRYcXdVLVc4MWNGY3owMXZ5U0hiLXhramNjMDJudm1OR1E2RHR6OVpwVzY5S1QyQmpYM2paWDJvbW9TNHlpTVpCZ2RSdzh6OUI5VXJjM3RxMHbSAYICQVVfeXFMTTdlQm5KUnJNa1kzcndBUWRyeGVOQ0d6aWRIZVlKcDZ5cGVSWXBhbVVTVkZhQW5VdUJJRU9pcGd0OVA3MkstT3FkZTVKU3QxZlluQURQc0I4dm9BSTNzQV9WUHhzYnZLcjFJdUk1WWZNejVnS2xWQ3cxWHY2N0Z6Tm9DVG9jSG5NeThJMVhENHdndnVQRHVldHhTMnJqQjV3aTUtZk51N2NhVjdCSVFuUjNxeXFZUFlvd21nd214QWhqRXVZS2taTHNGRE41c1RUUFQ5c3V3LWlGckx6T29sSzhmMGJfVVBzSmZCSy00cmZ6Vl9BNkRRWG5NNmhSSVZmZVln?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "1a5d6c816feee21ddb6b1da5",
-      "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
-      "headline_claim_ids": [
-        "6175299b758bdf"
-      ],
-      "headline_claims": [
-        "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEtxTVNnWUVXRlAzQmltYXZWRl8ybFR6WmlKb05PQWxaaDBTS0hyMnp6X04wd3I2Xy1WUHpnRUYtUFgyNml2NTFVeDc1T1NfcDhaU0pWc1BoSGZFdU5MZE9PN3Boem90OW9udGpYOTRfTTltMGYtaDJQZ29xQWVQY2xZYjZydnY2SWc4M3JDY3U2X0o4RlAxaWxicXNIRklrX1FDYjhtaGZLSXPSAbABQVVfeXFMTjFLSGNkSm5LMVJtUlB2S1RmMzZTWHVpUVJNbDBmYmh1azE3NEpyY0lxWXlJMEF3UGJfOEtCUUU3bk9QUlZxeGZ4eWtfal9GaDRxVk5jV0ZsajFsRTR1RlV6Z0c3UEFjU1pObkR5VXZfRkhtZXJWRmN3R3plRmF5ZjMwN1UtYjdMZ3QtaDV2QmZYYmlBYmk4c2ZKancxUlVxZGpuUlNXdlRVakR6ZlJxd1k?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -435,16 +403,42 @@
       "probability_estimate": null
     },
     {
-      "id": "15be654e0889e3834cd780d1",
-      "label_nl": "Claim: Iran Reports Tanker Sinking After Mine Strike in Hormuz - Demokratis.co.id",
+      "id": "7868c9e4e0791bc00ba93062",
+      "label_nl": "Claim: Middle East latest: Tanker attacked in Strait of Hormuz off Oman, UKMTO says - The National",
       "headline_claim_ids": [
-        "6f164dcda92bb1"
+        "aa0c92bfc6e210"
       ],
       "headline_claims": [
-        "Iran Reports Tanker Sinking After Mine Strike in Hormuz - Demokratis.co.id"
+        "Middle East latest: Tanker attacked in Strait of Hormuz off Oman, UKMTO says - The National"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EVzZsaXJTMmFha3ljNDhtTDZMVWxMRFRDTmdXcWNjU3ZKMzRKZ05SX241aTk5MzBvQ0Z6WHpneGVyQTJZVmpDcG52bGo0a2hzRUh3RVZmS2VTcGVobDliTDE4WlJ3VGJpeFZxM2VtUmk4Z0RP?oc=5"
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbTl5RWVWNzJOd1BBVC1RZmR6aHBLUFZTaEtvZkFYVEtzV2N4c01TS05Oek15M2U2NS1lZk5MQkI4QU8zSm9va1JlU213c0dwS3doMXJ6N1RSZVA3OWUzbVI3Vk16MGtobTRKVTNQRFJrMTRvQVlNTzFRY2Z3dG82MWRGb21pNjF0djB0VjFGVVplRE9IRVNoY2ZtQjVkRkk?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "c50bdb5bad4a0a6848fbb537",
+      "label_nl": "Claim: 'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World",
+      "headline_claim_ids": [
+        "ec903596e30953"
+      ],
+      "headline_claims": [
+        "'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNXgyTjZmckh0RHlPU2hmSXRscjk0MlgtbjhmenAyRW91Sk1qMnZkZlNmTDBpRDBCOVR4b2l6c1FoWmk4ak9Db3NZRElrbzhYNVBldGJMTGpFdm9KRWJra2JpMzhTM0NVOVFSVG9OQWRVUWg3QlpkeHF6WVlmdnFVSm56WTNjRTlfSklDSDVhT1BvSTVpV1RYNThSTjJJeXFuU2hwSG9fcVRZdDRYcXdVLVc4MWNGY3owMXZ5U0hiLXhramNjMDJudm1OR1E2RHR6OVpwVzY5S1QyQmpYM2paWDJvbW9TNHlpTVpCZ2RSdzh6OUI5VXJjM3RxMHbSAYICQVVfeXFMTTdlQm5KUnJNa1kzcndBUWRyeGVOQ0d6aWRIZVlKcDZ5cGVSWXBhbVVTVkZhQW5VdUJJRU9pcGd0OVA3MkstT3FkZTVKU3QxZlluQURQc0I4dm9BSTNzQV9WUHhzYnZLcjFJdUk1WWZNejVnS2xWQ3cxWHY2N0Z6Tm9DVG9jSG5NeThJMVhENHdndnVQRHVldHhTMnJqQjV3aTUtZk51N2NhVjdCSVFuUjNxeXFZUFlvd21nd214QWhqRXVZS2taTHNGRE41c1RUUFQ5c3V3LWlGckx6T29sSzhmMGJfVVBzSmZCSy00cmZ6Vl9BNkRRWG5NNmhSSVZmZVln?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -487,20 +481,45 @@
       "probability_estimate": null
     },
     {
-      "id": "8fb0e91f4400c02980aacecd",
-      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
+      "id": "1a5d6c816feee21ddb6b1da5",
+      "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
       "headline_claim_ids": [
-        "f79dfbe788282c"
+        "6175299b758bdf"
       ],
       "headline_claims": [
-        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada"
+        "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ25zZFhyeE1IVnNrTjJ6MkRVVnlzVGl0NEVUQmJZbWtCODRyVFFaZWVFQnJGaGRDOS1nclJiMjVZZTFUT0VVbXdRc2NidEpfVFNFa3dKWGZqM2pVMlBGTFZEakVsX0pNR0t2aG9LN3kyZDhfeTFEd3cwU2tablhBQW5VelZiTU1QRmx4dUhWNE5XRXRTOEQ3RkVMb285N0ZmZHJ3OTJYZGRpVzBIczRzM0JvOVRGb2s5alFaVQ?oc=5",
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5"
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEtxTVNnWUVXRlAzQmltYXZWRl8ybFR6WmlKb05PQWxaaDBTS0hyMnp6X04wd3I2Xy1WUHpnRUYtUFgyNml2NTFVeDc1T1NfcDhaU0pWc1BoSGZFdU5MZE9PN3Boem90OW9udGpYOTRfTTltMGYtaDJQZ29xQWVQY2xZYjZydnY2SWc4M3JDY3U2X0o4RlAxaWxicXNIRklrX1FDYjhtaGZLSXPSAbABQVVfeXFMTjFLSGNkSm5LMVJtUlB2S1RmMzZTWHVpUVJNbDBmYmh1azE3NEpyY0lxWXlJMEF3UGJfOEtCUUU3bk9QUlZxeGZ4eWtfal9GaDRxVk5jV0ZsajFsRTR1RlV6Z0c3UEFjU1pObkR5VXZfRkhtZXJWRmN3R3plRmF5ZjMwN1UtYjdMZ3QtaDV2QmZYYmlBYmk4c2ZKancxUlVxZGpuUlNXdlRVakR6ZlJxd1k?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "7f1e5570b3e7c2d406de7ef8",
+      "label_nl": "Claim: Iran Closes Strait of Hormuz Again and Says its Negotiating Team With U.S. is Heading to Switzerland - EnergyNow.com",
+      "headline_claim_ids": [
+        "3781ab8511d688"
+      ],
+      "headline_claims": [
+        "Iran Closes Strait of Hormuz Again and Says its Negotiating Team With U.S. is Heading to Switzerland - EnergyNow.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxObGl4TGh6NXhISExseWhVM1oyb3MyS2xwSk9oZ3BEU0NudjYyWkRqRDhDZ3AxeGZ4NVlhTnZ4TkZUV3IwVExZLXFDRnpqcW14Q1FTRjRfU0pNenlUOENya1oyWVByVDU3NkMwLUdFbi1QeWV2RjI0ZXNvRnVKZTRmcUNUVVFCTWI0dVo2aW5lWlQwR2FWeE5KeUNUTWdVWlFxVUwxSm5rWkc0YTB4U0FyOUltYkxoLWhaQW5IczA5bWdMY3FzclpKLUJn?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -568,32 +587,6 @@
       "probability_estimate": null
     },
     {
-      "id": "a9a083444aa3ac9a87ff7893",
-      "label_nl": "Claim: Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance",
-      "headline_claim_ids": [
-        "6dc6cd7e45b30f"
-      ],
-      "headline_claims": [
-        "Brent Crude Jumps 3.3% After Trump Says Iran Deal Not Needed; Ceasefire Talks in Limbo - BigGo Finance"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCVWs3WFJLb3N0bEN2VldkOTJNaFRlMk92djBuRE1XOWFsSVY1c0ZIWU1BQlNMSnJNRUs0aXJiQlZ2bGFfdmdCVWxhbk5JdUVjYVYyM2N0b0x6VXVRakE2UlNjUWdSSWxWS0FYc3NRRVFkYTV6VFE?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "5cd6d39ccc362292fc1b8bfa",
       "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
       "headline_claim_ids": [
@@ -620,16 +613,16 @@
       "probability_estimate": null
     },
     {
-      "id": "97587c95d6dea3505c43bdca",
-      "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
+      "id": "0627cd395f4914578bffe713",
+      "label_nl": "Claim: Iran War: The Strait of Hormuz Oil Shock Is Now Heading West - EnergyNow",
       "headline_claim_ids": [
-        "55f2df73d28b7e"
+        "a7e56eff303089"
       ],
       "headline_claims": [
-        "Airline, travel industries scramble with fallout from Middle East conflict - DD News"
+        "Iran War: The Strait of Hormuz Oil Shock Is Now Heading West - EnergyNow"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1BTZ0pmejlOdEtoU2tnbWRacmUtUjZXb0hnTTUzZGowdXo1VzRiNkZNLXdqcWpXUThCTzJzRDRGU0w4UkV5ZTAyZHg3TkNVZFM2T1pJSTlINXZtRk9YRFdJMTk2dUFNa2JnRk1oNWdnVHRDUXFrTUR2UHRKaWVfano5VGdqQXVIYXBDV3M2emNKSHVla2ZDNUJObk1TTHJ2?oc=5"
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNclFDVnNHWEdUcGRrbGpPT1JZWXN0TmV6SnBZVS1hN1loeDRSNGRuNTVEcFZjLUJYX0cweDUzZXFFQWMzREhsTVJJalNmNGhBWmZjaFllREIzWmcxYnlscGhzWjhPODVSLUdEUC1qYnRpTjFsUFlVX09DYVYyZWVRSENYdlFUREt3N3QzYTFkd09vTE0?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -656,32 +649,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10Sk1MYXZ6Wm5VUHdxeVF5aDN5bE5wRm9EYmg3Ujd2SzVtTmxwaUdvb3JseG9ra2VJMUQ4TXpIMGNzV3RpMllndlM2M3VDUzQ4RkE?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "db3c23a86eccae5413800702",
-      "label_nl": "Claim: Trump halts Vance's negotiations with Iran, marking a \"180-degree shift\": pivoting to a \"no war, no talks\" stance. - 富途牛牛",
-      "headline_claim_ids": [
-        "e1f7860ac4b6bb"
-      ],
-      "headline_claims": [
-        "Trump halts Vance's negotiations with Iran, marking a \"180-degree shift\": pivoting to a \"no war, no talks\" stance. - 富途牛牛"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcUxQT0VjS05wOU9ySmxIR1Y0ZElJQTFvMXNGT1J3SzhGR3ZyTlVubjVVR256ZFZxb1hLeFpXSWVrbnpqcUEyaFZhZ3RMcG1qRTNLWkw3SlRvRC0wYXBMbF84WnB0Y0ctdEg3SUFnZk9oM3dfenZndlJQMWFhR0h2TXkxQk42NEgzVzlQQ0Q1ZnlHNGtXbUFPSGRaeG1yYlhZ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -750,32 +717,6 @@
       "probability_estimate": null
     },
     {
-      "id": "4a5faa7b2dcf1a96f8e15688",
-      "label_nl": "Claim: Iran War: The Strait of Hormuz Oil Shock Is Now Heading West - EnergyNow.com",
-      "headline_claim_ids": [
-        "6a33e3d3f5959f"
-      ],
-      "headline_claims": [
-        "Iran War: The Strait of Hormuz Oil Shock Is Now Heading West - EnergyNow.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRUoyWnROemxWVUpiYzVCeEZDYlhIUFY2VUFhUmN1Z1FpcXlHcmh4UmNIOTlaZkdrUzlRMEkyUEtUYXVGb1lLTEFBQXQ5MUs3M1R0cjEtQkZkR1RSUW5rZF93LUZzTnl0MHZTdURvY1dDRkJ3NEFoVmE2dDRwXy1yME9NaHNkcUpCRXBiWVVqamVoOEtu?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "59ebd2d83838699822ab96a6",
       "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
       "headline_claim_ids": [
@@ -801,6 +742,32 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
+    },
+    {
+      "id": "97587c95d6dea3505c43bdca",
+      "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
+      "headline_claim_ids": [
+        "55f2df73d28b7e"
+      ],
+      "headline_claims": [
+        "Airline, travel industries scramble with fallout from Middle East conflict - DD News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1BTZ0pmejlOdEtoU2tnbWRacmUtUjZXb0hnTTUzZGowdXo1VzRiNkZNLXdqcWpXUThCTzJzRDRGU0w4UkV5ZTAyZHg3TkNVZFM2T1pJSTlINXZtRk9YRFdJMTk2dUFNa2JnRk1oNWdnVHRDUXFrTUR2UHRKaWVfano5VGdqQXVIYXBDV3M2emNKSHVla2ZDNUJObk1TTHJ2?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
     }
   ],
   "usage_by_day": {
@@ -813,8 +780,8 @@
       "total_tokens": 30312
     },
     "2026-11-17": {
-      "requests": 3,
-      "total_tokens": 7438
+      "requests": 6,
+      "total_tokens": 14960
     }
   }
 }

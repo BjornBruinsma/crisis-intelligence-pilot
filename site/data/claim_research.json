@@ -1,92 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-17T01:26:58.735617Z",
+  "last_attempt_utc": "2026-11-17T07:33:42.066289Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 20,
+  "active_total": 19,
   "active_checked": 11,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
-    "a98a0866c76a43093a8dc090": {
-      "event_id": "a98a0866c76a43093a8dc090",
-      "checked_at": "2026-11-03T01:17:21.768365Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Geen relevante officiële teksten gevonden die de claim ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "UK help and services in the United Arab Emirates"
-        },
-        {
-          "url": "https://www.gov.uk/government/speeches/the-days-of-britains-retreat-from-latin-america-are-over",
-          "title": "\"The days of Britain's retreat from Latin America are over\" - GOV.UKGOV.UK",
-          "source_publication_date": "2012-01-19T00:00:00+00:00",
-          "text_excerpt": "As we see it, in Libya limited military force was used to protect civilians and civilian-populated areas under threat of attack and to implement a no-fly zone, only after Colonel Qadhafi had refused to end the violence and when called for by all the "
-        }
-      ]
-    },
-    "54b6bded498d0a5bc3b20513": {
-      "event_id": "54b6bded498d0a5bc3b20513",
-      "checked_at": "2026-11-06T13:19:51.230341Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-06T13:19:39.269541Z",
-          "exact_quote": "King Khalid International Airport was struck by a missile on 10 October 2026.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
-          "claim_validated_as_fact": false,
-          "specificity_check": "downgraded"
-        }
-      ],
-      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026. The airport continues to be targeted and remains at risk of further attacks."
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/yemen",
-          "title": "Yemen travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
     "a9d55b8888126a8ff3f878cb": {
       "event_id": "a9d55b8888126a8ff3f878cb",
       "checked_at": "2026-11-03T07:25:08.164003Z",
@@ -2917,24 +2840,12 @@
     },
     "325c2bc2ce531f9b655322b8": {
       "event_id": "325c2bc2ce531f9b655322b8",
-      "checked_at": "2026-11-16T01:37:12.997659Z",
+      "checked_at": "2026-11-17T07:33:42.066256Z",
       "version": "official-original-document-v1",
-      "research_status": "related_official_material",
+      "research_status": "documents_found_unassessed",
       "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
-          "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-16T01:37:05.927640Z",
-          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intenties van Iran, maar bevestigt niet specifiek de claim van de VS over een aanval.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De teksten vermelden de intenties van Iran, maar bieden geen directe bevestiging of ontkenning van de claim.",
+      "official_matches": [],
+      "summary_nl": "De tekst beschrijft de intenties van Iran om bepaalde locaties te targeten, maar bevat geen directe ontkenning van de claim over de aanval op de radar.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3819,6 +3730,94 @@
           "text_excerpt": "you’re disabled and taxing your car for the first time"
         }
       ]
+    },
+    "c56873dbb18771702b4dab33": {
+      "event_id": "c56873dbb18771702b4dab33",
+      "checked_at": "2026-11-17T07:33:42.066231Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_date": null,
+          "retrieved_at": "2026-11-17T07:33:29.398599Z",
+          "exact_quote": "IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt dat er meer dan 130 aanvallen zijn geverifieerd, maar ondersteunt niet specifiek de claim over een tankerbrand na een mijnaanval.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële tekst bevestigt dat er veel aanvallen op commerciële schepen zijn geweest in de Straat van Hormuz, maar biedt geen specifieke details over de brand op de tanker.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
+        },
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "The Secretary-General of the International Maritime Organization (IMO) Mr. Arsenio Dominguez has called for stronger action from IMO Member States to enforce maritime safety and security regulations in and around the Strait of Hormuz. Amid continued "
+        }
+      ]
+    },
+    "7868c9e4e0791bc00ba93062": {
+      "event_id": "7868c9e4e0791bc00ba93062",
+      "checked_at": "2026-11-17T07:33:42.066262Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_date": null,
+          "retrieved_at": "2026-11-17T07:33:33.140624Z",
+          "exact_quote": "IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage bevestigt dat er veel aanvallen op commerciële schepen zijn geweest in de Straat van Hormuz, maar ondersteunt niet specifiek de claim over een tanker die is aangevallen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële tekst bevestigt dat er een groot aantal aanvallen op commerciële schepen in de Straat van Hormuz heeft plaatsgevonden, maar biedt geen specifieke details over de aanval op de tanker.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
+        },
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3833,9 +3832,9 @@
       "model_tokens": 4817
     },
     "2026-11-17": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 1460
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3686
     }
   },
   "last_error": null
