@@ -1,35 +1,43 @@
 {
-  "generated_at": "2026-11-17T14:43:08.856873Z",
+  "generated_at": "2026-11-17T20:36:07.579130Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 4,
+  "candidate_count": 5,
   "recommendation_counts": {
-    "publish": 1,
-    "reserve": 1,
-    "reject": 2
+    "publish": 2,
+    "reject": 2,
+    "reserve": 1
   },
   "stories": [
     {
-      "id": "f3d5480c1bc5f6",
-      "editorial_score": 90,
+      "id": "e01a3dba0b2128",
+      "editorial_score": 80,
       "editorial_decision": "publish",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a factual research note on the story “Brain-computer interface aids recovery for stroke patients” (湖北：“意念训练”脑机接口助偏瘫老人手脚恢复自如), based on original and independent sources:\n\n---\n\n## What Happened / Outcome\n\n- **Patient details**: A 79-year-old man in Wuhan, China, suffered from left-side limb weakness following an ischemic stroke affecting the right basal ganglia. After the initial hospital stay, although some spontaneous recovery occurred, his condition plateaued. ([jwview.com](https://www.jwview.com/jingwei/html/11-17/697349.shtml?utm_source=openai))\n\n- **Intervention**: While hospitalized in the Neurosurgery Department, Wuhan Central Hospital (Yangchunhu Campus), the patient underwent **seven sessions** of non-invasive brain-computer interface (BCI) rehabilitation training, each session lasting approximately **30 minutes per day**. Training included wearing an EEG cap, using a pneumatic glove on the left hand, and using the system to decode “motor imagery” (thinking about making a fist), which triggered the glove to open/close. Visual feedback was provided via a 3D virtual hand mirroring the imagined motion—creating a closed loop from intention to act to sensory feedback. ([jwview.com](https://www.jwview.com/jingwei/html/11-17/697349.shtml?utm_source=openai))\n\n- **Measured outcomes**: Following those seven BCI sessions:\n\n  • The patient’s **left hand muscle strength** improved from **grade 3 to grade 5**.  \n  • He regained practical function: he could lift a thermos filled with water over his head, grasp and hold objects independently. ([jwview.com](https://www.jwview.com/jingwei/html/11-17/697349.shtml?utm_source=openai))  \n  • Leg strength also improved: he was able to walk independently (without support) upon discharge. ([jwview.com](https://www.jwview.com/jingwei/html/11-17/697349.shtml?utm_source=openai))\n\n---\n\n## Time / Dates\n\n- The news report is dated **November 17, 2026**. ([jwview.com](https://www.jwview.com/jingwei/html/11-17/697349.shtml?utm_source=openai))  \n- The stroke occurred about “one month ago” prior to BCI training; the seven sessions and progress happened during the hospital stay in that period. ([jwview.com](https://www.jwview.com/jingwei/html/11-17/697349.shtml?utm_source=openai))\n\n---\n\n## Source Reliability & Uniqueness\n\n- The primary source for this story appears to be **China News Service / 中新经纬 (中国新闻网)**. The report is based on hospital data and direct evaluation by clinicians. ([jwview.com](https://www.jwview.com/jingwei/html/11-17/697349.shtml?utm_source=openai))  \n- There is no indication in searches that another outlet has published substantially different figures—other reports (e.g., on other patients or trials) appear in separate but related stories. This suggests the detailed outcome (grade recovery, ability to lift objects, walk independently) is specific to this individual case, not just a press release plan.  \n\n---\n\n## How This Fits with Broader Evidence\n\n- Meta-analytic evidence shows that **motor imagery-based BCI** interventions do significantly improve upper limb motor function and daily living in stroke survivors. For example, a Chinese meta-analysis covering **543 patients** found that BCI training led to **mean differences** in motor ability scales (Fugl Meyer, Wolf Motor, Barthel index) all favoring BCI groups over controls. ([cjter.com](https://www.cjter.com/CN/10.12307/2026.440?utm_source=openai))  \n- Another randomized controlled trial with 296 ischemic stroke patients across 17 centers in China found BCI + usual rehab yielded an improvement in upper limb motor function (FMA-UE scale) of **~13.17 points** vs ~9.83 in control group after one month (difference ~3.35 points). ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/38642555/?utm_source=openai))  \n\n---\n\n## Limitations & Plausibility\n\n- The reported case is **single-patient**, so while measured, the results may not generalize.\n- The duration (seven sessions over perhaps one week?) is relatively short; larger trials usually involve weeks-long interventions for BCI to show lasting effect. ([cjter.com](https://www.cjter.com/CN/10.12307/2026.440?utm_source=openai))  \n- The technique used here is **non-invasive**, which avoids risks of surgery but may have limitations in signal fidelity compared to invasive BCI systems.  \n\n---\n\n## Conclusion: What Is Known\n\n- This is not a pledge or plan: the reported individual has completed BCI training, with assessed functional improvements.\n- Concrete measurable outcomes: hand regaining full strength (grade 5), ability to lift a water-filled thermos overhead, grasp objects independently, independent ambulation of lower limbs supported by improved strength.\n\n---\n\nIf you like, I can compare this case with other similar recent cases in China or elsewhere, to see how typical or exceptional it is.",
+      "research_notes": "Here’s a factual research note on the report that “Doctors in Moscow saved a newborn girl weighing 330 grams”:\n\n---\n\n## What Happened (Verified Facts)\n\n- A girl was born prematurely in Moscow at **330 grams** and **25 centimeters** in length. ([vm.ru](https://vm.ru/news/1374849-mediki-mmkc-kommunarka-vyhodili-devochku-vesom-vsego-330-grammov?utm_source=openai))  \n- The birth took place via **emergency cesarean section** due to **severe preeclampsia** in the mother. ([fontanka.ru](https://www.fontanka.ru/2026/11/17/76771914/?utm_source=openai))  \n- She remained in the hospital for **just over four months** (≈ 4+ months). ([vm.ru](https://vm.ru/news/1374849-mediki-mmkc-kommunarka-vyhodili-devochku-vesom-vsego-330-grammov?utm_source=openai))  \n- She was first in the **neonatal intensive care / reanimation unit**, then transferred to the pathology unit for newborns and premature infants. ([mr.moscow](https://mr.moscow/v-moskve-spasli-devochku-vesom-330-grammov/?utm_source=openai))  \n- Over her time in care, she gained weight up to about **2,020 grams (≈ 2.02 kg)**. Afterwards, she was **discharged home**. ([vm.ru](https://vm.ru/news/1374849-mediki-mmkc-kommunarka-vyhodili-devochku-vesom-vsego-330-grammov?utm_source=openai))  \n\n---\n\n## Context & Additional Details\n\n- The case occurred at the **perinatal center “Kommunarka”**, in Moscow. ([vm.ru](https://vm.ru/news/1374849-mediki-mmkc-kommunarka-vyhodili-devochku-vesom-vsego-330-grammov?utm_source=openai))  \n- According to Anastasya Rakova, Deputy Mayor of Moscow for Social Development, this girl is **the lightest premature newborn in Moscow in the past five years** to survive to discharge. ([vm.ru](https://vm.ru/news/1374849-mediki-mmkc-kommunarka-vyhodili-devochku-vesom-vsego-330-grammov?utm_source=openai))  \n- Preterm labor was prompted by the mother’s health complication—severe preeclampsia—which risked both maternal and fetal health. ([fontanka.ru](https://www.fontanka.ru/2026/11/17/76771914/?utm_source=openai))  \n- After discharge, her health and development are being monitored by specialists at the “Early Help” center associated with Kommunarka. ([mir24.tv](https://mir24.tv/news/16693210/moskovskie-vrachi-spasli-zhizni-krohotnoj-novorozhdennoj-vesom-330-grammov?utm_source=openai))  \n\n---\n\n## Sources & Originality\n\n- The story appears to originate from statements by the **Moscow Department of Health** and public officials (including Deputy Mayor Rakova), reported in multiple local media outlets. ([fontanka.ru](https://www.fontanka.ru/2026/11/17/76771914/?utm_source=openai))  \n- Media coverage by independent Russian outlets—Fontanka.ru, VM.ru, and others—corroborate the same details, suggesting they are not purely reposting a press release but also secondary reporting. ([vm.ru](https://vm.ru/news/1374849-mediki-mmkc-kommunarka-vyhodili-devochku-vesom-vsego-330-grammov?utm_source=openai))  \n\n---\n\n## What Is *Not* Verified / Unclear\n\n- The gestational age at birth is reported in some outlets as **24 weeks and two days**. This figure is not confirmed by all sources, but is explicitly stated in some reports. ([mel.fm](https://mel.fm/novosti/7261859-moskovskiye-vrachi-vykhodili-nedonoshennuyu-devochku-s-rekordno-nizkim-vesom?utm_source=openai))  \n- Long-term health outcomes beyond discharge (neurodevelopmental, etc.) are not yet documented. Monitoring is ongoing. ([mir24.tv](https://mir24.tv/news/16693210/moskovskie-vrachi-spasli-zhizni-krohotnoj-novorozhdennoj-vesom-330-grammov?utm_source=openai))  \n\n---\n\n## Conclusion\n\nThis is a completed medical outcome: a newborn girl who weighed 330 grams at birth was successfully cared for over a period of more than 4 months at a Moscow perinatal center and was discharged home at about 2,020 grams. The achievement is presented by city officials as a record of survival for such a low birth weight in Moscow in recent years. Monitoring continues for her development post-discharge.\n\nIf you’d like, I can check whether this is among the lowest birth weights globally for survival, for comparison.",
       "citations": [
         {
-          "title": "湖北：“意念训练”脑机接口助偏瘫老人手脚恢复自如-中新经纬",
-          "url": "https://www.jwview.com/jingwei/html/11-17/697349.shtml?utm_source=openai"
+          "title": "Московские врачи выходили новорожденную девочку весом всего 330 граммов",
+          "url": "https://vm.ru/news/1374849-mediki-mmkc-kommunarka-vyhodili-devochku-vesom-vsego-330-grammov?utm_source=openai"
         },
         {
-          "title": "基于运动想象脑机接口康复训练改善脑卒中患者上肢运动功能的Meta分析",
-          "url": "https://www.cjter.com/CN/10.12307/2026.440?utm_source=openai"
+          "title": "Врачи спасли новорожденную весом 330 граммов в Москве - 17 ноября 2026 | ФОНТАНКА.ру",
+          "url": "https://www.fontanka.ru/2026/11/17/76771914/?utm_source=openai"
         },
         {
-          "title": "Rehabilitation with brain-computer interface and upper limb motor function in ischemic stroke: A randomized controlled trial",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38642555/?utm_source=openai"
+          "title": "В Москве спасли девочку весом 330 граммов | МОЙ РАЙON",
+          "url": "https://mr.moscow/v-moskve-spasli-devochku-vesom-330-grammov/?utm_source=openai"
+        },
+        {
+          "title": "Московские врачи спасли жизни крохотной новорожденной весом 330 граммов",
+          "url": "https://mir24.tv/news/16693210/moskovskie-vrachi-spasli-zhizni-krohotnoj-novorozhdennoj-vesom-330-grammov?utm_source=openai"
+        },
+        {
+          "title": "Неонатологи из Москвы выходили недоношенную девочку с рекордно низким весом — всего 330 г",
+          "url": "https://mel.fm/novosti/7261859-moskovskiye-vrachi-vykhodili-nedonoshennuyu-devochku-s-rekordno-nizkim-vesom?utm_source=openai"
         }
       ],
       "fallback_error": "",
@@ -39,75 +47,91 @@
       "evidence_quality": "high",
       "independence": "multiple_independent",
       "significance": "high",
-      "verified_headline": "Brain-computer interface shows recovery in stroke patient",
-      "verified_summary": "A 79-year-old stroke patient in Wuhan improved significantly after seven sessions of brain-computer interface training, regaining full hand strength and independent walking. This case aligns with broader evidence supporting BCI's effectiveness in stroke rehabilitation.",
-      "verification_note": "The evidence includes measurable outcomes from a specific patient case and corroborating meta-analyses, indicating significant recovery due to BCI training.",
+      "verified_headline": "Moscow doctors save newborn girl weighing 330 grams",
+      "verified_summary": "A newborn girl weighing 330 grams was successfully cared for in Moscow and discharged after gaining weight to 2,020 grams. This case is noted as a significant medical achievement in neonatal care.",
+      "verification_note": "The evidence confirms the successful medical intervention and discharge of the newborn, highlighting a significant healthcare achievement.",
       "publish_recommendation": "publish"
     },
     {
-      "id": "37735448f5fe04",
+      "id": "030ef98d6309e6",
       "editorial_score": 90,
       "editorial_decision": "reserve",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a research note on the claim “79 GW of Renewable Energy Projects Reshape Saudi Arabia’s Power Landscape,” based on primary and independent sources.\n\n---\n\n## What was announced\n\n- On **November 17, 2026**, *Asharq Al-Awsat English* reported that Saudi Arabia’s Energy Minister, Prince Abdulaziz bin Salman, said that the country’s **renewable energy project pipeline has reached approximately 79 gigawatts (GW)**. ([english.aawsat.com](https://english.aawsat.com/business/5342226-79-gw-renewable-energy-projects-reshape-saudi-arabia%E2%80%99s-power-landscape?utm_source=openai))  \n- The same percentage is cited in other outlets noting the figure was announced during **COP31 in Antalya**. ([cleantech.media](https://cleantech.media/saudi-arabia-highlights-79-gw-renewable-energy-projects-at-cop31/?utm_source=openai))  \n\n---\n\n## Key context and status of these projects\n\n- The 79 GW figure refers to **capacity under development**—that is, projects in the planning, tendered, or prequalification stages, not yet operating. ([english.aawsat.com](https://english.aawsat.com/business/5342226-79-gw-renewable-energy-projects-reshape-saudi-arabia%E2%80%99s-power-landscape?utm_source=openai))  \n- At least one part of that pipeline includes three projects under the National Renewable Energy Program (NREP) Round 8, totaling **3.2 GW** (1.9 GW solar + 1.3 GW wind). These are in prequalification; none have yet reached construction or contract award stages. ([english.aawsat.com](https://english.aawsat.com/business/5342226-79-gw-renewable-energy-projects-reshape-saudi-arabia%E2%80%99s-power-landscape?utm_source=openai))  \n\n---\n\n## Related achievements\n\n- Saudi Arabia’s **NREP target** is between **100–130 GW** of renewable energy capacity by **2030**. ([english.aawsat.com](https://english.aawsat.com/business/5342226-79-gw-renewable-energy-projects-reshape-saudi-arabia%E2%80%99s-power-landscape?utm_source=openai))  \n- As of the latest tracker (September 2026), projects that are operating, under development, or tendered sum to ~**70.3 GW**, across **58 renewable-energy projects**. ([renewablevision.com.sa](https://renewablevision.com.sa/en/data/renewables/saudi-arabia?utm_source=openai))  \n- Projects already awarded with financial close include seven solar PV and wind plants totaling **15 GW**, valued at ~$8.2 billion, expected to come online between **H2 2027 and H1 2028**. ([acwapower.com](https://acwapower.com/en/media-center/latest-news/acwa-power-badeel-and-aramco-subsidiary-sapco-achieve-us-82-billion-financial-close-to-develop-15-gw-of-renewables-in-saudi-arabia/?utm_source=openai))  \n\n---\n\n## Measured vs Planned capacities\n\n- **Measured / operational capacity**: By end of 2024, Saudi Arabia had about **6,551 MW** (6.55 GW) of renewable capacity commissioned. ([stats.gov.sa](https://www.stats.gov.sa/documents/20117/2435281/Renewable%2Benergy%2Bstatistics%2B2024-%2BEN%2B%281%29.pdf/c325b937-bfcd-3667-a147-5af885fa5d74?t=1752486868718&utm_source=openai))  \n- **Under development / tendered / proposed**: As of September 2026, ~70–79 GW is in the pipeline (across various stages). ([renewablevision.com.sa](https://renewablevision.com.sa/en/data/renewables/saudi-arabia?utm_source=openai))  \n\n---\n\n## Independent confirmation and caveats\n\n- The Saudi projects tracker “Renewable Vision” confirms ~70.3 GW in total project capacity tracked across 58 projects in different stages. ([renewablevision.com.sa](https://renewablevision.com.sa/en/data/renewables/saudi-arabia?utm_source=openai))  \n- Another independent media article (*Cleantech.media*) also reports the “79 GW under development” figure, quoting the Energy Minister at COP31. ([cleantech.media](https://cleantech.media/saudi-arabia-highlights-79-gw-renewable-energy-projects-at-cop31/?utm_source=openai))  \n- Important caveat: “under development” does **not** mean operational output; many projects have not been awarded contracts or reached construction or completion. ([english.aawsat.com](https://english.aawsat.com/business/5342226-79-gw-renewable-energy-projects-reshape-saudi-arabia%E2%80%99s-power-landscape?utm_source=openai))  \n\n---\n\n## Outcome vs. announcement\n\n- The announcement is **recent and declarative**: the figure of 79 GW is a **statement of pipeline capacity**.\n- The only measured/completed outcome among the figures: about **6.55 GW** of operational renewable capacity by end-2024. ([stats.gov.sa](https://www.stats.gov.sa/documents/20117/2435281/Renewable%2Benergy%2Bstatistics%2B2024-%2BEN%2B%281%29.pdf/c325b937-bfcd-3667-a147-5af885fa5d74?t=1752486868718&utm_source=openai))  \n- The 15 GW of projects recently reaching financial close are a **milestone towards development**, but not yet generating energy. ([acwapower.com](https://acwapower.com/en/media-center/latest-news/acwa-power-badeel-and-aramco-subsidiary-sapco-achieve-us-82-billion-financial-close-to-develop-15-gw-of-renewables-in-saudi-arabia/?utm_source=openai))  \n\n---\n\n## Bottom line\n\n- The “79 GW” refers to projects in planning, tendering, or early development across Saudi Arabia under its renewable energy program—not existing capacity.  \n- Operational renewable capacity remains far lower (≈ 6.6 GW as of end-2024).  \n- Several large-scale projects, including a batch of seven solar/wind plants totaling 15 GW, have financially closed and are expected to begin operations in late 2027–early 2028.  \n\n---\n\nWould you like a breakout by region, energy type (solar vs wind), or expected impact on emissions?",
+      "research_notes": "Here’s a factual research note on the news event “Bhutan and Niue ocean trust win 2026 Earthshot Prizes,” based on original/primary sources and independent reporting:\n\n---\n\n### What Happened\n\n- On **November 17, 2026**, at the Earthshot Prize Awards Night in **Mumbai, India**, the winners of the sixth annual Earthshot Prize were announced. ([earthshotprize.org](https://earthshotprize.org/news/2026-earthshot-prize-winners-crowned/?utm_source=openai))  \n- Among the five winners were **Bhutan** and the **Niue Ocean Wide Trust (NOW Trust)**. Bhutan won in the *Protect and Restore Nature* category; Niue won in *Revive Our Oceans*. ([earthshotprize.org](https://earthshotprize.org/news/2026-earthshot-prize-winners-crowned/?utm_source=openai))  \n\n---\n\n### Primary Source Information\n\nFrom the official Earthshot Prize announcement:\n\n#### Bhutan\n- Bhutan is lauded for its constitutional protection of nature, maintaining nearly **70% forest cover** and safeguarding over **50% of its land** via a national protected areas network. ([earthshotprize.org](https://earthshotprize.org/winners-finalists/2026/?utm_source=openai))  \n- Its forests and watersheds support water security for an estimated **1.6 billion people** across South Asia. ([earthshotprize.org](https://earthshotprize.org/winners-finalists/bhutan/?utm_source=openai))  \n- Through *Restore Bhutan*, launched in **2025**, Bhutan aims to restore **50,000 hectares** of degraded forests, agricultural lands, and urban landscapes by **2030**, yielding nearly **2 million tonnes of CO₂** avoided and securing **133 billion liters of water** among the benefits. ([conservation.org](https://www.conservation.org/press/conservation-international-congratulates-bhutan-on-2026-earthshot-prize-win-?utm_source=openai))  \n\n#### Niue Ocean Wide Trust\n- NOW Trust operates the *Ocean Conservation Commitments* (OCCs), a financing model that sells commitments (to protect marine areas) rather than relying on short-term grants. ([conservation.org](https://www.conservation.org/press/conservation-international-congratulates-niue-ocean-wide-trust-on-earthshot-prize-win?utm_source=openai))  \n- Aimed at creating a **NZ$32 million endowment** to protect Niue’s 327,000 square kilometres of ocean territory permanently. ([conservation.org](https://www.conservation.org/press/conservation-international-congratulates-niue-ocean-wide-trust-on-earthshot-prize-win?utm_source=openai))  \n- As of the award, the endowment is “beyond halfway” toward that goal. ([conservation.org](https://www.conservation.org/press/conservation-international-congratulates-niue-ocean-wide-trust-on-earthshot-prize-win?utm_source=openai))  \n- Measured ecosystem results since 2016:  \n  • Fish biomass up ~**60%** ([earthshotprize.org](https://earthshotprize.org/winners-finalists/niue-ocean-wide-trust/?trk=public_post_comment-text&utm_source=openai))  \n  • Top predators up ~**45%** ([earthshotprize.org](https://earthshotprize.org/winners-finalists/niue-ocean-wide-trust/?trk=public_post_comment-text&utm_source=openai))  \n  • Coral cover increased by ~**10%** ([earthshotprize.org](https://earthshotprize.org/winners-finalists/niue-ocean-wide-trust/?trk=public_post_comment-text&utm_source=openai))  \n\n---\n\n### Independent Coverage\n\n- The **Associated Press** confirms the winners, listing Bhutan and Niue among the five, each receiving £1 million. ([apnews.com](https://apnews.com/article/ca7f09a7254de67709750b0cb3f6ae77?utm_source=openai))  \n- Media outlets like *Town & Country* also report details about Bhutan’s constitutional protections and Niue’s use of OCCs to protect marine territories. ([townandcountrymag.com](https://www.townandcountrymag.com/society/tradition/a74455525/prince-william-earthshot-prize-winners-2026/?utm_source=openai))  \n- The Washington Post similarly describes Niue Ocean Wide Trust as “protecting marine ecosystems” and Bhutan for “conserving Himalayan forests,” matching the primary source descriptions. ([washingtonpost.com](https://www.washingtonpost.com/world/2026/11/17/india-britain-royals-prince-william-earthshot-prize/acb9fbc8-e2ae-11f1-a99e-b3e3805c6b8b_story.html?utm_source=openai))  \n\n---\n\n### Completed/Measured Outcomes vs. Plans & Pledges\n\n**Measured Outcomes:**\n- Niue: fish biomass +60%, top predators +45%, coral cover +10% since 2016 in its ocean territory. ([earthshotprize.org](https://earthshotprize.org/winners-finalists/niue-ocean-wide-trust/?trk=public_post_comment-text&utm_source=openai))  \n- Bhutan: nearly 70% forest cover currently maintained; protects over 50% land area. ([earthshotprize.org](https://earthshotprize.org/winners-finalists/bhutan/?utm_source=openai))  \n\n**Plans / Pledges / Grants / Goals:**\n- Bhutan: plan to restore 50,000 hectares by 2030; under its *Restore Bhutan* initiative. ([conservation.org](https://www.conservation.org/press/conservation-international-congratulates-bhutan-on-2026-earthshot-prize-win-?utm_source=openai))  \n- Niue: endowment target of NZ$32 million; “beyond halfway” at time of award; model to protect ocean for generations; OCCs sold to individuals, companies, governments. ([conservation.org](https://www.conservation.org/press/conservation-international-congratulates-niue-ocean-wide-trust-on-earthshot-prize-win?utm_source=openai))  \n\n---\n\n### Summary\n\n- The report is accurate: Bhutan and Niue Ocean Wide Trust *did win* Earthshot Prizes in their respective categories on November 17, 2026. This is more than just a pledge or announcement—it’s an award that includes verified achievements and funding.  \n- Both winners combine existing measurable environmental outcomes (e.g. improved fish biomass, high forest cover) with forward-looking goals (restoration targets, funding endowment) to expand their impact.  \n\n---\n\nIf you’d like, I can also pull together a timeline of how their projects evolved over time, or compare their achievements to similar efforts in other countries.",
       "citations": [
         {
-          "title": "79 GW of Renewable Energy Projects Reshape Saudi Arabia’s Power Landscape",
-          "url": "https://english.aawsat.com/business/5342226-79-gw-renewable-energy-projects-reshape-saudi-arabia%E2%80%99s-power-landscape?utm_source=openai"
+          "title": "2026 Earthshot Prize Winners Crowned - The Earthshot Prize",
+          "url": "https://earthshotprize.org/news/2026-earthshot-prize-winners-crowned/?utm_source=openai"
         },
         {
-          "title": "Saudi Arabia Highlights 79 GW Renewable Energy Projects at COP31 - cleantech.media",
-          "url": "https://cleantech.media/saudi-arabia-highlights-79-gw-renewable-energy-projects-at-cop31/?utm_source=openai"
+          "title": "The Earthshot Prize 2026 Winners & Finalists",
+          "url": "https://earthshotprize.org/winners-finalists/2026/?utm_source=openai"
         },
         {
-          "title": "Saudi Renewables Tracker · Renewable Vision",
-          "url": "https://renewablevision.com.sa/en/data/renewables/saudi-arabia?utm_source=openai"
+          "title": "Bhutan - The Earthshot Prize 2026 Finalist",
+          "url": "https://earthshotprize.org/winners-finalists/bhutan/?utm_source=openai"
         },
         {
-          "title": "Acwa | ACWA Power, Badeel, and Aramco subsidiary “SAPCO” achieve US$ 8.2 billion financial close to develop 15 GW of renewables in Saudi Arabia",
-          "url": "https://acwapower.com/en/media-center/latest-news/acwa-power-badeel-and-aramco-subsidiary-sapco-achieve-us-82-billion-financial-close-to-develop-15-gw-of-renewables-in-saudi-arabia/?utm_source=openai"
+          "title": "Conservation International Congratulates Bhutan on 2026 Earthshot Prize Win | Conservation International",
+          "url": "https://www.conservation.org/press/conservation-international-congratulates-bhutan-on-2026-earthshot-prize-win-?utm_source=openai"
         },
         {
-          "title": "Renewable energy statistics 2024",
-          "url": "https://www.stats.gov.sa/documents/20117/2435281/Renewable%2Benergy%2Bstatistics%2B2024-%2BEN%2B%281%29.pdf/c325b937-bfcd-3667-a147-5af885fa5d74?t=1752486868718&utm_source=openai"
+          "title": "Conservation International Congratulates Niue Ocean Wide Trust on 2026 Earthshot Prize Win | Conservation International",
+          "url": "https://www.conservation.org/press/conservation-international-congratulates-niue-ocean-wide-trust-on-earthshot-prize-win?utm_source=openai"
+        },
+        {
+          "title": "Niue Ocean Wide Trust - The Earthshot Prize 2026 Finalist",
+          "url": "https://earthshotprize.org/winners-finalists/niue-ocean-wide-trust/?trk=public_post_comment-text&utm_source=openai"
+        },
+        {
+          "title": "Prince William's presents Earthshot Prize winners with $1.3M each in Mumbai",
+          "url": "https://apnews.com/article/ca7f09a7254de67709750b0cb3f6ae77?utm_source=openai"
+        },
+        {
+          "title": "This Year’s Winners of Prince William’s Earthshot Prize Revealed",
+          "url": "https://www.townandcountrymag.com/society/tradition/a74455525/prince-william-earthshot-prize-winners-2026/?utm_source=openai"
+        },
+        {
+          "title": "Prince William’s presents Earthshot Prize winners with $1.3M each in Mumbai - The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/11/17/india-britain-royals-prince-william-earthshot-prize/acb9fbc8-e2ae-11f1-a99e-b3e3805c6b8b_story.html?utm_source=openai"
         }
       ],
       "fallback_error": "",
       "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "announcement",
-      "evidence_quality": "medium",
+      "support": "supported",
+      "outcome_status": "completed",
+      "evidence_quality": "high",
       "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Saudi Arabia's Renewable Energy Pipeline Reaches 79 GW",
-      "verified_summary": "Saudi Arabia's renewable energy project pipeline has reached approximately 79 GW, as announced by the Energy Minister. However, only about 6.55 GW of renewable capacity is currently operational.",
-      "verification_note": "The 79 GW figure refers to projects in various stages of development, not operational capacity. Only 6.55 GW is currently operational, indicating limited immediate impact.",
-      "publish_recommendation": "reserve"
+      "significance": "high",
+      "verified_headline": "Bhutan and Niue win 2026 Earthshot Prizes for environmental efforts",
+      "verified_summary": "Bhutan and the Niue Ocean Wide Trust won the 2026 Earthshot Prizes for their significant environmental conservation efforts. Bhutan maintains 70% forest cover, while Niue has seen a 60% increase in fish biomass since 2016.",
+      "verification_note": "The evidence confirms the award and highlights measurable environmental improvements, supporting the claim of significant positive impact.",
+      "publish_recommendation": "publish"
     },
     {
       "id": "26209557bf585f",
-      "editorial_score": 85,
+      "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s what I found regarding the claim: *“Yampa Valley Community Foundation awarded grant for mental healthcare expansion” for **$125,000** on or by **November 17, 2026*. My review suggests this event does *not* appear in credible sources. Below is a breakdown of what could be verified, what could not, and how the candidate claim may have arisen.\n\n---\n\n## What the Trusted Sources Show\n\n### Yampa Valley Community Foundation’s (YVCF) Mental Health Initiatives  \n- YVCF runs a **Mental Health Initiative** that supports regional organizations, capacity building, and a 24/7 peer-staffed hotline pilot (the HOPE Initiative) for people who are in distress but not in crisis. ([yvcf.org](https://yvcf.org/mental-health-initiative/?utm_source=openai))  \n- It also works on measurement and data through a Mental & Behavioral Health Survey and a shared dashboard for mountain resort communities. ([yvcf.org](https://yvcf.org/mental-health-initiative/?utm_source=openai))  \n\n### Grants & Grant Cycles  \n- YVCF’s **2026 Community Grant Cycle** awarded approximately **$725,979** to 91 nonprofits in Routt and Moffat counties. Many of these grants spanned human services, environment, youth development, education, and mental health/ crisis intervention among other categories. ([home.turangga.workers.dev](https://home.turangga.workers.dev/read-https-www.steamboatpilot.com/news/yampa-valley-community-foundation-grants-nearly-726k-to-91-area-nonprofits/?utm_source=openai))  \n- Within that, the foundation offers smaller grants: general operating or program grants capped at **$10,000**, with Impact Grants (for collaborative, transformative projects) of up to **$30,000**. ([yvcf.org](https://yvcf.org/impact-grants/?utm_source=openai))  \n\n---\n\n## What *Could Not* Be Found\n\n- I was unable to locate **any credible source** (news article, press release, or official YVCF documentation) confirming that YVCF received or awarded a **single grant of $125,000** *specifically* for “mental healthcare expansion and substance use treatment” as of **November 17, 2026**.  \n- I did *not* find a SteamboatToday or Steamboat Pilot article that matches exactly that headline or description. Searches for “$125,000 grant mental health YVCF” yielded no results in trusted news outlets.\n\n---\n\n## Likely Origins of the Mis-Claim\n\n- It’s possible the $125,000 figure was confused with funding in other grant cycles—for instance **general community support funding** allocations by the City of Steamboat Springs, which include a $125,000 line for “Human Services” in the 2025 budget. However, that pertains to city allocations broadly, *not* a specific mental health expansion grant from YVCF. ([steamboatsprings.net](https://www.steamboatsprings.net/DocumentCenter/View/35900/City-Allocates-More-Than-850000-to-Local-Organizations?utm_source=openai))  \n- Another possibility is conflating different grant streams (YVCF’s community grants, impact grants, mental health initiatives) which typically involve smaller individual amounts than $125,000 per recipient.  \n\n---\n\n## Conclusion\n\n- **Was there a $125K grant awarded for mental health / substance use treatment expansion by YVCF?**  \n  No verifiable evidence supports that claim as of the date stated.  \n\n- **Have there been related grants and activities?**  \n  Yes—YVCF has ongoing work in mental health, and its 2026 grant cycle funded many organizations with mental health or crisis intervention components, but those were generally much smaller amounts per organization.  \n\n- **Verdict on Candidate:**  \n  The story appears to be **unsubstantiated** (no evidence) for the specific figure and purpose claimed.\n\n---\n\nIf you want, I can dig further (e.g. non-major local news, internal grant reports) to see if there is any obscure source matching the $125,000 claim. Want me to try that?",
+      "research_notes": "I searched for evidence confirming the claim that the Yampa Valley Community Foundation (YVCF) was awarded a **$125,000 grant to expand mental healthcare and substance use treatment**, but found **no credible source to support this specific story**. Below is a detailed breakdown of what I found, what’s missing, and what seems likely based on the foundation’s recent activities.\n\n---\n\n## What I Did Find: Related Actions by YVCF\n\n1. **Mental Health Initiative & HOPE Initiative**  \n   - YVCF has established a *Mental Health Initiative* that focuses on rural Colorado’s challenges—such as isolation, substance use, lack of access to care, and stigma. ([yvcf.org](https://yvcf.org/mental-health-initiative/?utm_source=openai))  \n   - Under this initiative, they created the *HOPE Initiative*, which includes a 24/7 peer-staffed hotline to offer listening, resource navigation, and referrals for people in distress but not in immediate crisis. ([yvcf.org](https://yvcf.org/mental-health-initiative/?utm_source=openai))  \n   - These programs are still being developed or piloted—they are not described as fully implemented with measured outcomes yet. ([yvcf.org](https://yvcf.org/mental-health-initiative/?utm_source=openai))  \n\n2. **Grant Amounts & Grant Cycles**  \n   - In September 2026, YVCF announced awarding **$725,979** to **91 nonprofits** in Routt and Moffat counties through its 2026 Community Grant Cycle. ([steamboatradio.com](https://www.steamboatradio.com/2026/09/09/yvcf-awards-over-700k-to-91-nonprofits-in-routt-and-moffat-counties/?utm_source=openai))  \n   - The grant cycle typically grants in smaller amounts—*up to $10,000* for general operating or programmatic grants; *up to $30,000* for specially invited “Impact Grants.” ([yvcf.org](https://yvcf.org/wp-content/uploads/2026/03/CGC-2026-Webpage-PDF.pdf?utm_source=openai))  \n\n3. **Funding Opportunities & Nonprofit Needs Funding**  \n   - YVCF has a program for *Nonprofit Needs Funding* intended for unexpected, unplanned needs, which might include expanded services. ([yvcf.org](https://yvcf.org/emergent-needs/?utm_source=openai))  \n   - Their policy document and grant cycles do **not** suggest awards as large as $125,000 in a single grant for mental health or substance use treatment under these programs. ([yvcf.org](https://yvcf.org/wp-content/uploads/2026/03/CGC-2026-Webpage-PDF.pdf?utm_source=openai))  \n\n---\n\n## What I Did *Not* Find: Evidence for the $125,000 Grant Claim\n\n- No official press release or announcement on the YVCF website or in local reputable news outlets confirming a $125,000 grant specifically for expanding mental healthcare and substance use treatment as described.  \n- No grant recipient or media story matching that specific dollar figure tied to mental health or substance use under YVCF listings.  \n- SteamboatToday.com—cited in the candidate prompt—was blocked by robots.txt during the search, so I could not verify the original article from that source.  \n\n---\n\n## Conclusion: What Seems Likely vs. What is Unsupported\n\n- **Unsupported claim**: The specific assertion that YVCF was awarded (or awarded something to someone) a *$125,000 grant for expanded mental healthcare and substance use treatment* is **not confirmed** by any primary or independent source found in the available record.  \n- **Likely related activity**: YVCF *is* actively engaged in mental health activities, planning and funding programs (e.g. HOPE, data dashboards, peer hotline). These would align with the broader goals described in the summary.  \n\n---\n\nIf you like, I can try deeper—e.g. accessing local news archives or direct contact—to verify whether there was a recent but not widely published development matching that claim. Would you prefer I do that?",
       "citations": [
         {
           "title": "Initiative: Mental Health - Yampa Valley Community Foundation",
           "url": "https://yvcf.org/mental-health-initiative/?utm_source=openai"
         },
         {
-          "title": "🔍 Deep Dive: Yampa Valley Community Foundation grants nearly $726K to 91 area nonprofits | SteamboatToday.com | Tech Viral News",
-          "url": "https://home.turangga.workers.dev/read-https-www.steamboatpilot.com/news/yampa-valley-community-foundation-grants-nearly-726k-to-91-area-nonprofits/?utm_source=openai"
+          "title": "YVCF awards over $700K to 91 nonprofits in Routt and Moffat counties | Steamboat Radio",
+          "url": "https://www.steamboatradio.com/2026/09/09/yvcf-awards-over-700k-to-91-nonprofits-in-routt-and-moffat-counties/?utm_source=openai"
         },
         {
-          "title": "Impact Grants - Yampa Valley Community Foundation",
-          "url": "https://yvcf.org/impact-grants/?utm_source=openai"
+          "title": "Microsoft Word - Website - CGC Webpage PDF",
+          "url": "https://yvcf.org/wp-content/uploads/2026/03/CGC-2026-Webpage-PDF.pdf?utm_source=openai"
         },
         {
-          "title": "For Immediate Release",
-          "url": "https://www.steamboatsprings.net/DocumentCenter/View/35900/City-Allocates-More-Than-850000-to-Local-Organizations?utm_source=openai"
+          "title": "YVCF Nonprofit Needs Funding - Yampa Valley Community Foundation",
+          "url": "https://yvcf.org/emergent-needs/?utm_source=openai"
         }
       ],
       "fallback_error": "",
@@ -115,44 +139,77 @@
       "support": "unsupported",
       "outcome_status": "unclear",
       "evidence_quality": "low",
-      "independence": "multiple_independent",
+      "independence": "single_source",
       "significance": "medium",
-      "verified_headline": "No evidence for $125K mental healthcare grant by Yampa Valley Foundation",
-      "verified_summary": "No credible sources confirm that the Yampa Valley Community Foundation awarded a $125,000 grant for mental healthcare expansion. While the foundation supports mental health initiatives, the specific claim lacks verification.",
-      "verification_note": "The claim of a $125K grant for mental healthcare expansion is unsupported by credible sources. Ongoing mental health initiatives exist, but no evidence confirms the specific grant amount or purpose.",
+      "verified_headline": "No evidence for $125K grant to expand mental healthcare",
+      "verified_summary": "The claim of a $125,000 grant awarded by Yampa Valley Community Foundation for mental healthcare expansion is unsupported by credible sources. While YVCF is involved in mental health initiatives, no confirmation of this specific grant exists.",
+      "verification_note": "The search found no credible evidence for the $125K grant claim, only related initiatives without confirmed outcomes.",
       "publish_recommendation": "reject"
     },
     {
-      "id": "73aead15841713",
+      "id": "9038a5e7fa5954",
       "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "responses_web_search",
       "search_model": "gpt-6-luna",
-      "research_notes": "**Research note — 17 November 2026**\n\n- **What happened:** Researchers at the Technical University of Denmark (DTU) developed an experimental mRNA vaccine encoding a synthetic “consensus” allergen, designed to target several related lipid-transfer-protein allergens found in foods and pollen. The underlying study was published in *Nature Communications* on **5 February 2026**—months before the November news coverage. ([nature.com](https://www.nature.com/articles/s41467-026-69134-4?utm_source=openai))\n- **What the study found:** In mice, vaccination induced antibodies that recognized multiple related allergens. In laboratory tests, those antibodies blocked allergic-patient IgE binding and reduced activation of allergy effector cells. But in the allergic-mouse challenge model, the vaccine **did not establish protection against anaphylaxis**. The evidence is preclinical; the human-sample tests were laboratory experiments, not treatment of people. ([nature.com](https://www.nature.com/articles/s41467-026-69134-4?utm_source=openai))\n- **Status:** This is proof-of-concept research, not a demonstrated human treatment. DTU says researchers are refining the formulation and aim to generate data needed to seek approval for human testing; larger mouse studies are also planned. ([dtu.dk](https://www.dtu.dk/english/newsarchive/2026/11/eating-without-fear-a-single-vaccine-against-multiple-food-allergies))\n- **Source tracing:** The *Youm7* article says it is based on Medical Xpress. Medical Xpress credits the story to DTU and identifies DTU as the provider; DTU’s 16 November article reports the same study. These are **not independent confirmations**. A *ScienceNordic* article also discusses the study, but its authors are DTU researchers, so it is not independent reporting either. ([youm7.com](https://www.youm7.com/story/2026/11/17/%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D9%81%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A8-%D9%84%D9%82%D8%A7%D8%AD-%D9%8A%D8%AD%D9%82%D9%82-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D9%88%D8%A7%D8%B9%D8%AF%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%B3%D9%8A%D8%A9/7621958))\n\n**Bottom line:** The real result is a mouse-and-laboratory proof of concept for an experimental vaccine—not evidence that a vaccine has been shown to protect people from food allergies.",
+      "research_notes": "### Research note\n\n- **What was reported:** On **November 17, 2026**, Kursk regional Health Minister Svetlana Yermolova said that **more than 5,000 babies born prematurely had been born at the Regional Perinatal Center since 2011**. She also said the region handles about **300 premature deliveries annually**, with **98%** at that center. In 2026 to that date, the center had handled **224 premature deliveries**, resulting in **226 babies**, including **12 weighing under 1,000 grams** at birth. ([news-kursk.ru](https://news-kursk.ru/society/2026/11/17/239046.html?utm_source=openai))\n- **Primary source:** The figures are attributed to Yermolova’s post on the **Kursk Region Health Ministry’s MAX channel**. The available page reproduces the post and identifies that channel as its source. This is a ministerial statement, not a published audited count. ([news-kursk.ru](https://news-kursk.ru/society/2026/11/17/239046.html?utm_source=openai))\n- **Independent coverage / repetition:** *Kursk Now* also reported the figures, attributing them to Yermolova. Its wording and figures track the minister’s statement, so it is corroboration that the announcement was reported—not independent verification of the cumulative total. ([now46.ru](https://now46.ru/news/20261117/v-kurskoy-oblasti-v-etom-godu-prinyali-224-prezhdevremennykh-rodov?utm_source=openai))\n- **Accuracy note:** The headline’s “saved over 5,000” is stronger than the stated statistic: the minister said **over 5,000 prematurely born babies were born at the center**. The figures support a reported cumulative birth total, but do not by themselves establish a separately measured survival count.",
       "citations": [
         {
-          "title": "An mRNA-delivered consensus allergen induces a neutralizing IgG response against food and pollen allergens",
-          "url": "https://www.nature.com/articles/s41467-026-69134-4?utm_source=openai"
+          "title": "Министр здравоохранения Курской области Светлана Ермолова: - Лента новостей Курска",
+          "url": "https://news-kursk.ru/society/2026/11/17/239046.html?utm_source=openai"
         },
         {
-          "title": "Eating without fear: A single vaccine against multiple food allergies",
-          "url": "https://www.dtu.dk/english/newsarchive/2026/11/eating-without-fear-a-single-vaccine-against-multiple-food-allergies"
-        },
-        {
-          "title": "حماية كبيرة فى التجارب.. لقاح يحقق نتائج واعدة ضد الحساسية الغذائية - اليوم السابع",
-          "url": "https://www.youm7.com/story/2026/11/17/%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D9%83%D8%A8%D9%8A%D8%B1%D8%A9-%D9%81%D9%89-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A8-%D9%84%D9%82%D8%A7%D8%AD-%D9%8A%D8%AD%D9%82%D9%82-%D9%86%D8%AA%D8%A7%D8%A6%D8%AC-%D9%88%D8%A7%D8%B9%D8%AF%D8%A9-%D8%B6%D8%AF-%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D8%B3%D9%8A%D8%A9/7621958"
+          "title": "В Курской области в этом году приняли 224 преждевременных родов | Курск Сейчас",
+          "url": "https://now46.ru/news/20261117/v-kurskoy-oblasti-v-etom-godu-prinyali-224-prezhdevremennykh-rodov?utm_source=openai"
         }
       ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 271. Please try again in 362ms. Visit https://platform.op",
+      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 287. Please try again in 383ms. Visit https://platform.op",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "unclear",
+      "evidence_quality": "medium",
+      "independence": "likely_republication",
+      "significance": "medium",
+      "verified_headline": "Kursk region reports over 5,000 premature births since 2011",
+      "verified_summary": "Since 2011, over 5,000 premature infants have been born at the Regional Perinatal Center in Kursk. The center handles about 300 premature deliveries annually, but survival rates are not clearly established.",
+      "verification_note": "The claim of saving over 5,000 infants is not directly supported by survival statistics, only cumulative birth figures are provided.",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "eb2694f82d8b2b",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here’s what I found, based on available reporting and public sources, about the claim that “Moon Beam Farm [is] protected by a conservation easement”:\n\n---\n\n### What actually is Moon Beam Farm\n\n- Moon Beam Farm is a small farm in Blue Hill, Maine, run by Reid Calhoun and Nikki Burtis. It includes a one-acre market garden with lettuces, root crops, peppers, squash, tomatoes, and more. ([bangordailynews.com](https://www.bangordailynews.com/2025/08/24/homestead/farm-life/2-young-farmers-protect-fertile-strip-maines-developing-coast-joam40zk0w/?utm_source=openai))  \n- The farm is located on Route 15 and is part of a corridor of high-quality agricultural soils in Hancock County, which has been a priority for farmland conservation. ([bangordailynews.com](https://www.bangordailynews.com/2025/08/24/homestead/farm-life/2-young-farmers-protect-fertile-strip-maines-developing-coast-joam40zk0w/?utm_source=openai))  \n\n---\n\n### What has been announced or launched\n\n- Moon Beam Farm is *in the process* of placing a conservation easement on the land. The parties involved are Maine Farmland Trust (MFT) and Blue Hill Heritage Trust (BHHT). ([bangordailynews.com](https://www.bangordailynews.com/2025/08/24/homestead/farm-life/2-young-farmers-protect-fertile-strip-maines-developing-coast-joam40zk0w/?utm_source=openai))  \n- There was an event (“Farm Tour: Moon Beam Farm”) in September 2025 featuring the owners and representatives of MFT and BHHT, to explain the easement process etc. ([mainefarmlandtrust.org](https://www.mainefarmlandtrust.org/events/farm-tour-moon-beam-farm?utm_source=openai))  \n\n- Moon Beam Farm was awarded a grant ($20,000) from a fund called *Land for Communities* for the specific purpose of obtaining a permanent conservation easement. ([mainecf.org](https://www.mainecf.org/apply-for-a-grant/recent-grants/land-for-communities/?utm_source=openai))  \n\n---\n\n### What has *not* been confirmed / what is uncertain\n\n- There is **no confirmation that the conservation easement has been completed or finalized** as of the most recent sources. All mention the farm is “in the process” of obtaining one. ([bangordailynews.com](https://www.bangordailynews.com/2025/08/24/homestead/farm-life/2-young-farmers-protect-fertile-strip-maines-developing-coast-joam40zk0w/?utm_source=openai))  \n- There are **no public documents or project listings** (that I found) confirming that the easement has been signed, recorded, or legally formalized. The Maine Farmland Trust’s list of “recent projects” does *not* explicitly include Moon Beam Farm as a completed easement project. ([mainefarmlandtrust.org](https://www.mainefarmlandtrust.org/blogs/looking-back-at-2025-through-farmland-protection?utm_source=openai))  \n\n---\n\n### Conclusion: What is established vs. what remains\n\nEstablished facts:\n\n- Moon Beam Farm is owned/operated by Reid Calhoun and Nikki Burtis in Blue Hill, Maine.  \n- There is a publicly recognized plan and active effort involving Maine Farmland Trust and Blue Hill Heritage Trust to place a permanent agricultural conservation easement on the farm.  \n- The farm has received a $20,000 grant toward obtaining that easement.  \n\nNot yet established:\n\n- Whether the conservation easement has been fully completed (i.e. signed, recorded, legally in effect).  \n- If it is completed, there are no details yet (in the sources I found) about the specific terms: acreage, what activities are allowed or restricted, whether there is public access, etc.  \n\n---\n\nIf you want, I can try to check local government land records or BHHT/MFT updates to see if a more recent source confirms that the easement has now been finalized. Do you want me to pursue that?",
+      "citations": [
+        {
+          "title": "2 young farmers work to protect a fertile strip of Maine’s developing coast",
+          "url": "https://www.bangordailynews.com/2025/08/24/homestead/farm-life/2-young-farmers-protect-fertile-strip-maines-developing-coast-joam40zk0w/?utm_source=openai"
+        },
+        {
+          "title": "Farm Tour: Moon Beam Farm",
+          "url": "https://www.mainefarmlandtrust.org/events/farm-tour-moon-beam-farm?utm_source=openai"
+        },
+        {
+          "title": "Land for Communities - Maine Community Foundation",
+          "url": "https://www.mainecf.org/apply-for-a-grant/recent-grants/land-for-communities/?utm_source=openai"
+        },
+        {
+          "title": "Protecting Maine's Farmland: Success Stories and Initiatives",
+          "url": "https://www.mainefarmlandtrust.org/blogs/looking-back-at-2025-through-farmland-protection?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
       "search_error": "",
       "support": "unsupported",
       "outcome_status": "unclear",
       "evidence_quality": "medium",
-      "independence": "single_source",
+      "independence": "multiple_independent",
       "significance": "medium",
-      "verified_headline": "Experimental vaccine shows promise against food allergies in mice",
-      "verified_summary": "Researchers developed an mRNA vaccine that induced antibodies in mice, but it did not protect against anaphylaxis. The results are preclinical and not yet applicable to humans.",
-      "verification_note": "The study shows proof-of-concept in mice but lacks evidence of human efficacy or safety.",
+      "verified_headline": "Moon Beam Farm's conservation easement not yet finalized",
+      "verified_summary": "Moon Beam Farm is in the process of obtaining a conservation easement, supported by a grant. However, there is no confirmation that the easement has been completed or legally formalized.",
+      "verification_note": "The claim lacks confirmation of completion for the conservation easement, which is still in process.",
       "publish_recommendation": "reject"
     }
   ],
