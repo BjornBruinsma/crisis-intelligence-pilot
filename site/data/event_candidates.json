@@ -1,34 +1,35 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-17T13:24:30.960680Z",
-  "fingerprint": "1d54ea6b701c1b258ddb4760",
+  "last_attempt_utc": "2026-11-17T19:15:23.951021Z",
+  "fingerprint": "cf1054f48e10487d1263834c",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 21,
-  "event_candidate_count": 19,
+  "event_candidate_count": 18,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 2,
-    "accepted_pair_connections": 2,
+    "model_pair_proposals": 3,
+    "accepted_pair_connections": 3,
     "rejected_pair_proposals": 0,
     "multi_claim_groups": 1,
-    "claims_in_multi_groups": 3,
+    "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 2,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-17T13:24:30.960680Z",
+    "recorded_at": "2026-11-17T19:15:23.951021Z",
     "groups": [
       {
         "ids": [
           "a551a42a30336d",
           "29add07e06097f",
-          "7c3afbab7c1c97"
+          "7c3afbab7c1c97",
+          "94423523a129b9"
         ],
         "label_nl": "Claim: Iran attacks US military base in Bahrain - AOL.co.uk",
         "actor": "",
@@ -39,9 +40,9 @@
       },
       {
         "ids": [
-          "d511c8f0cbc235"
+          "8700f82af7c7c4"
         ],
-        "label_nl": "Claim: Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn",
+        "label_nl": "Claim: Qatar to hold meeting with Iran as Doha warns regional escalation threatens diplomatic efforts - Doha News",
         "actor": "",
         "action": "",
         "place": "",
@@ -50,9 +51,9 @@
       },
       {
         "ids": [
-          "ec097c020da3ff"
+          "77603d8aa1f637"
         ],
-        "label_nl": "Claim: Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id",
+        "label_nl": "Claim: Exclusive: US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say - CNN",
         "actor": "",
         "action": "",
         "place": "",
@@ -105,9 +106,20 @@
       },
       {
         "ids": [
-          "bde81b0a60a540"
+          "3e0c54fcccdf45"
         ],
-        "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
+        "label_nl": "Claim: Qatar continues mediation between US and Iran, warns against escalation - Qatar Tribune",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "ec097c020da3ff"
+        ],
+        "label_nl": "Claim: Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id",
         "actor": "",
         "action": "",
         "place": "",
@@ -149,20 +161,9 @@
       },
       {
         "ids": [
-          "6175299b758bdf"
-        ],
-        "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
           "9384f566cb96e5"
         ],
-        "label_nl": "Claim: EU Sees Eurozone Economy Hold Up Despite Iran War - شبكة تواصل الإخبارية",
+        "label_nl": "Claim: EU sees eurozone economy hold up despite Iran war - 24NewsHD",
         "actor": "",
         "action": "",
         "place": "",
@@ -171,9 +172,9 @@
       },
       {
         "ids": [
-          "9d6c49d18578fb"
+          "d511c8f0cbc235"
         ],
-        "label_nl": "Claim: The US is grappling with how to attack Iran and what the consequences would be. - Vietnam.vn",
+        "label_nl": "Claim: Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn",
         "actor": "",
         "action": "",
         "place": "",
@@ -182,20 +183,9 @@
       },
       {
         "ids": [
-          "ec903596e30953"
+          "bde81b0a60a540"
         ],
-        "label_nl": "Claim: 'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "2c0657d84a30ec"
-        ],
-        "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
+        "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
         "actor": "",
         "action": "",
         "place": "",
@@ -226,9 +216,9 @@
       },
       {
         "ids": [
-          "55f2df73d28b7e"
+          "6175299b758bdf"
         ],
-        "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
+        "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
         "actor": "",
         "action": "",
         "place": "",
@@ -238,53 +228,56 @@
     ],
     "input_claim_ids": [
       "a551a42a30336d",
-      "d511c8f0cbc235",
-      "ec097c020da3ff",
+      "8700f82af7c7c4",
+      "77603d8aa1f637",
       "0550ef4f8093d4",
       "29add07e06097f",
       "504f736c5ef687",
       "29cfbe4e6557d7",
       "02753692adc238",
-      "bde81b0a60a540",
+      "3e0c54fcccdf45",
+      "ec097c020da3ff",
       "6a77d40e3f43b2",
       "a7e56eff303089",
       "f79dfbe788282c",
-      "6175299b758bdf",
       "9384f566cb96e5",
       "7c3afbab7c1c97",
-      "9d6c49d18578fb",
-      "ec903596e30953",
-      "2c0657d84a30ec",
+      "94423523a129b9",
+      "d511c8f0cbc235",
+      "bde81b0a60a540",
       "75a5fe23d0357a",
       "c6ad0f7287f5c3",
-      "55f2df73d28b7e"
+      "6175299b758bdf"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "cfb2c0b1a1714b43c4124bdc",
+      "id": "8924cb054f1935a789e48068",
       "label_nl": "Claim: Iran attacks US military base in Bahrain - AOL.co.uk",
       "headline_claim_ids": [
         "a551a42a30336d",
         "29add07e06097f",
-        "7c3afbab7c1c97"
+        "7c3afbab7c1c97",
+        "94423523a129b9"
       ],
       "headline_claims": [
         "Iran attacks US military base in Bahrain - AOL.co.uk",
         "Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
-        "特朗普“铁门”封锁，伊朗无人机三天内两次袭击巴林美军基地，油价为何涨不动了？ - Fx678"
+        "特朗普“铁门”封锁，伊朗无人机三天内两次袭击巴林美军基地，油价为何涨不动了？ - Fx678",
+        "Iran launches third round of strikes on Bahrain, host of U.S. Navy's 5th Fleet - NPR"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMTd4NjVNa2h6X01tUHkyakM3OUpIVVhUTnhDbjlGS1BIT2ZCU1gxWHBFbEQwa1J6eVpwcV9WU291Mm1la0hvS290TUZxNGg3RGIyNDZlaUJ0ajFWZUh3b0RndEVVMG51OE10MWotRzd2djNLem1UakNpOFZzbkJHYlFKcEk?oc=5",
         "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GNkJDbW9oVG9jU1ZWRGZvZm9kSEpocGJOMzhhalhLUmZfZkFqOXk3MkFCZXNqQjl0U0swNzMxNTB3Y3JWRjdPeDl3TkpUSFpEclFGdVk0Nm1YWVFxS1NfODJRSUFRVEdGRE15eUFFTUVqVjZjWkRaVQ?oc=5",
         "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTy1DY25Vdmt6alVTVFczSmJoR3ZuSDVSRWRqTjUwNnNkaFRLMVFkMS1OaVZGYTdkdTRob0lYcFFKOExDal9MMTN1OGZkcmI4c3V5dGw3ZXVEbGVJY3l1OUFXUFlWS2FSZGRYRVFYWFFuNG01c1phSU54c0wtTHNxUzF0dlFoQ3JqcF9aUGtJLS1LS2s1MlNXdnI0eWNqeEs0MlpMcC1MS0NXSi1rRWN3X2Nn?oc=5",
         "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRTYzY3FhQ29pMm5tRFc1WHZmbm9RLU9iS0VqbWpiQkFDSUlEbGU1LXM4MVhiYTlheTJVR250OEtuMlhGcl9Ta08wOTgxSm01bWZsVW1UUHNOSUVyTklBdDZaQUFvSTl3c21vMlIwdFhhVlF3VjVmVjMwWUtQWS1NV01idjExYWZqSDR0SjgxNTJMMTFkbHg2dmRaeUI5U0ZHSEJvTkZuWmRteS15?oc=5",
-        "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhYXRpNnNlZmUwOEdzRDFUNDhlbk1vRDhIR1ZRVkpWYVM4YXFadEppZWtOT3BoSzJ0UXBYa2V2alF1Q05IU292ZzE3elVtdU1ZX19ScXpkSG5CQ0k?oc=5"
+        "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhYXRpNnNlZmUwOEdzRDFUNDhlbk1vRDhIR1ZRVkpWYVM4YXFadEppZWtOT3BoSzJ0UXBYa2V2alF1Q05IU292ZzE3elVtdU1ZX19ScXpkSG5CQ0k?oc=5",
+        "https://news.google.com/rss/articles/CBMie0FVX3lxTFA3RGxpNDRlLU9XRVNDenV4bWMzQU03QzRvRlc0eEN0aFF5aV9OYkg3VGZtT3M1UUNyRnpWVmFnbDdRbmRKazhsQnNmVjh2MFJUNk45dmVIaUtucWh5bW9haDR0Z2ZIZjBfMU1QVVhFc05BMlVIZnB4RUF0WQ?oc=5"
       ],
-      "article_group_count": 3,
-      "news_url_count": 5,
+      "article_group_count": 4,
+      "news_url_count": 6,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -292,6 +285,32 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "6425f9d146c714d6ba1700f9",
+      "label_nl": "Claim: Exclusive: US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say - CNN",
+      "headline_claim_ids": [
+        "77603d8aa1f637"
+      ],
+      "headline_claims": [
+        "Exclusive: US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say - CNN"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMie0FVX3lxTE03SEs1dzdtOVl4RVo4TjcxOHpLMmpKZlZ4cGFCQjQtMnV3OWhMSnhvemduUWxJSnlYYWstUk5PYURBSmxLQ2VDY3NyUG9fNXhDTlRwSDFEVFNCN29vWWtOaWRhTDlPYk04TThPOTREX2FVSzhZdEExSVVyQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -456,94 +475,16 @@
       "probability_estimate": null
     },
     {
-      "id": "807ac471576389cf1dff7db6",
-      "label_nl": "Claim: The US is grappling with how to attack Iran and what the consequences would be. - Vietnam.vn",
+      "id": "4341d06d5a13135c1522b91f",
+      "label_nl": "Claim: Qatar to hold meeting with Iran as Doha warns regional escalation threatens diplomatic efforts - Doha News",
       "headline_claim_ids": [
-        "9d6c49d18578fb"
+        "8700f82af7c7c4"
       ],
       "headline_claims": [
-        "The US is grappling with how to attack Iran and what the consequences would be. - Vietnam.vn"
+        "Qatar to hold meeting with Iran as Doha warns regional escalation threatens diplomatic efforts - Doha News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ011TUp4YzNSbENHQ3lrbzRqakltaHZQbHFOaWFadE1ndFlLNDR4MGExa1ZMd08tckItSU1iNW9NNU0yVUpTODJ2T0k0Wi1TZ1Uybkg5cTlqa1BveUcxVlJaN3dWSm5XLWhMaGk5Uk0yWV9hNUI3c2M0LUhpZC1Ddlg2NkFpR3c?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "c50bdb5bad4a0a6848fbb537",
-      "label_nl": "Claim: 'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World",
-      "headline_claim_ids": [
-        "ec903596e30953"
-      ],
-      "headline_claims": [
-        "'Still in State of War': Iran's Deputy FM Says Tehran Prepared for Diplomacy, Blockade or Military Action with US - Republic World"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNXgyTjZmckh0RHlPU2hmSXRscjk0MlgtbjhmenAyRW91Sk1qMnZkZlNmTDBpRDBCOVR4b2l6c1FoWmk4ak9Db3NZRElrbzhYNVBldGJMTGpFdm9KRWJra2JpMzhTM0NVOVFSVG9OQWRVUWg3QlpkeHF6WVlmdnFVSm56WTNjRTlfSklDSDVhT1BvSTVpV1RYNThSTjJJeXFuU2hwSG9fcVRZdDRYcXdVLVc4MWNGY3owMXZ5U0hiLXhramNjMDJudm1OR1E2RHR6OVpwVzY5S1QyQmpYM2paWDJvbW9TNHlpTVpCZ2RSdzh6OUI5VXJjM3RxMHbSAYICQVVfeXFMTTdlQm5KUnJNa1kzcndBUWRyeGVOQ0d6aWRIZVlKcDZ5cGVSWXBhbVVTVkZhQW5VdUJJRU9pcGd0OVA3MkstT3FkZTVKU3QxZlluQURQc0I4dm9BSTNzQV9WUHhzYnZLcjFJdUk1WWZNejVnS2xWQ3cxWHY2N0Z6Tm9DVG9jSG5NeThJMVhENHdndnVQRHVldHhTMnJqQjV3aTUtZk51N2NhVjdCSVFuUjNxeXFZUFlvd21nd214QWhqRXVZS2taTHNGRE41c1RUUFQ5c3V3LWlGckx6T29sSzhmMGJfVVBzSmZCSy00cmZ6Vl9BNkRRWG5NNmhSSVZmZVln?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "e796a9576fe0ef028308aa71",
-      "label_nl": "Claim: Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn",
-      "headline_claim_ids": [
-        "d511c8f0cbc235"
-      ],
-      "headline_claims": [
-        "Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRTI1RVVKT21ROHh2Wi1MVkNkVkNXYUo2bEpLNkYzeFc5OGRoNkdyVFNrNnVJNTBUZ2JWdWJlTjFMa25tU01KVkY1Si1BTXZqbVlUUXc2OUVaZEJJa25hTDJrbE5tTEJFNWpTMlNsNk51LV9UVlo4amllN0FiSHAwN3RBVXRiM2ZIZ2VUWTVTWkFybTdKaERpT2lQVjBiM3F4WVFvOV9YdEgzU1ptMW1pMnVvYXd5c2JVczNjdFUzU2NabVUyNE92dHBwOGhOY3hLdThRWGhGckdxeVpfUzh3?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "e7e3fc4990e804b70bf50c71",
-      "label_nl": "Claim: Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id",
-      "headline_claim_ids": [
-        "ec097c020da3ff"
-      ],
-      "headline_claims": [
-        "Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrUHctTld0ckpxeUZWNnFndk1qY2trYWpiTXVVejdsY0N3U0tTTm50QnhBNGpxemVRTmJLRWFkRkNGakNkUm85YzNYUi1TLWI5SWt0V2N2UkhKV0x1YV9mSGR4clV5UFlSMUk4Q1JEY09yZTk0eHdZc0hB?oc=5"
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxObHJ2Tlg5bWp1bm01WG94VEJqVmRCcUhWeHdubUtSUzNoeDc4OWVyUmhpZVFQXzR4Q3lsUzE0Q3pULVNnVFpWNzg3MXZNM3NTS2M1WE5Rd2dLdm5SU0tRNE00N0FYU25fYmt6SE5pUW5CVkNxNXROYnV5QzczckVIRTUzVEtDYkdYOU81QTBtbnNReGR0OTdXR3p6ZVJGaF80VnNzem9VM3FzbHc2UzlVUjdoOVRrQQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -588,16 +529,42 @@
       "probability_estimate": null
     },
     {
-      "id": "5cd6d39ccc362292fc1b8bfa",
-      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
+      "id": "afcfeb4b84439f519e7acc10",
+      "label_nl": "Claim: Qatar continues mediation between US and Iran, warns against escalation - Qatar Tribune",
       "headline_claim_ids": [
-        "bde81b0a60a540"
+        "3e0c54fcccdf45"
       ],
       "headline_claims": [
-        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/"
+        "Qatar continues mediation between US and Iran, warns against escalation - Qatar Tribune"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5"
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSE5sVXFOYzlhVE0xTl9WYU52V3JGVzg4YmM0UlAtbUl2eEhTVXpldnNrVlFidEtNM2FPUl8xZ2c1M1BxVVhSSFBwNGZ2MUE1a1haTTJubGlFUVhENWRUSU10eFI2djQyNmZzcnJnQXZEM0xHcmtpWGxkcUNIamVHR2ZjRUFkNGVPdThPV1VQMXN6LXdHUTgwZVdjRHJxZWh3LTd6T1NKdlRrNjBTTnI2YmE1a1FBeGEtbkZ3TUhkbGVPeEI3THc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "e7e3fc4990e804b70bf50c71",
+      "label_nl": "Claim: Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id",
+      "headline_claim_ids": [
+        "ec097c020da3ff"
+      ],
+      "headline_claims": [
+        "Saudi Coalition Intercepts Missiles and Drones Targeting Riyadh - Demokratis.co.id"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrUHctTld0ckpxeUZWNnFndk1qY2trYWpiTXVVejdsY0N3U0tTTm50QnhBNGpxemVRTmJLRWFkRkNGakNkUm85YzNYUi1TLWI5SWt0V2N2UkhKV0x1YV9mSGR4clV5UFlSMUk4Q1JEY09yZTk0eHdZc0hB?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -641,15 +608,42 @@
     },
     {
       "id": "7e6c55a33d77cc4cdf40b7cd",
-      "label_nl": "Claim: EU Sees Eurozone Economy Hold Up Despite Iran War - شبكة تواصل الإخبارية",
+      "label_nl": "Claim: EU sees eurozone economy hold up despite Iran war - 24NewsHD",
       "headline_claim_ids": [
         "9384f566cb96e5"
       ],
       "headline_claims": [
-        "EU Sees Eurozone Economy Hold Up Despite Iran War - شبكة تواصل الإخبارية"
+        "EU sees eurozone economy hold up despite Iran war - 24NewsHD"
       ],
       "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3M0SDJYWThTYTV4czQ2b25fN2FfdllfYlRqVzBXRXgwZjlRYkF6VkUwcVJ1YzRmVTFQbWtPYkRjREppVlBWUGFBNTFHV2pkSGlpRHk3QmFSQTdkeWdWV2htTmV0bFd1Y0NoSlhQTVlCb2dpOHJxbl9LbnNTZl9GT2hybjNWVzR0R3c?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yb3BZbVV2Y0paOG1CRFlzRDYwR2ZROXhhSENxdW4wWkw5U1dqSk5HcDkydzk4aDRFZkVBeFNudnIySlU1Y1F1ZldmYXBkYmZiVVY4?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "e796a9576fe0ef028308aa71",
+      "label_nl": "Claim: Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn",
+      "headline_claim_ids": [
+        "d511c8f0cbc235"
+      ],
+      "headline_claims": [
+        "Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRTI1RVVKT21ROHh2Wi1MVkNkVkNXYUo2bEpLNkYzeFc5OGRoNkdyVFNrNnVJNTBUZ2JWdWJlTjFMa25tU01KVkY1Si1BTXZqbVlUUXc2OUVaZEJJa25hTDJrbE5tTEJFNWpTMlNsNk51LV9UVlo4amllN0FiSHAwN3RBVXRiM2ZIZ2VUWTVTWkFybTdKaERpT2lQVjBiM3F4WVFvOV9YdEgzU1ptMW1pMnVvYXd5c2JVczNjdFUzU2NabVUyNE92dHBwOGhOY3hLdThRWGhGckdxeVpfUzh3?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -666,16 +660,16 @@
       "probability_estimate": null
     },
     {
-      "id": "a3f2f7ce70d033dcad8db379",
-      "label_nl": "Claim: UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/",
+      "id": "5cd6d39ccc362292fc1b8bfa",
+      "label_nl": "Claim: UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "2c0657d84a30ec"
+        "bde81b0a60a540"
       ],
       "headline_claims": [
-        "UK Toughens Saudi Arabia Travel Warning Over Missile Threat - https://www.thetraveler.org/"
+        "UK Tightens Saudi Arabia Travel Advice After Missile Strikes - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlsNHc0c3pGN1ZNNGl1cjdqMW9oNlVVUzM5V1JIS1ZCOWRlN3NrdjFwcWRld2FURmpfUWdoSUlUY3B4RUdneW94dnNOYVluLXg4RThxM2ZVRk5INENzTy1OR1M1NXRsN1lNUFI3cjhXZ1JicUpLekJYb1dUQmtYejcyRnMtTnpCNFFKRTZqUDUyUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTVZMUNVckJXeWNfWFc5RU91dFYzN3RiaExXbzI5Qm5ITnhUcGtZV1YyekdkTkYzZkNiZ1Q0bkdPVmxGb0pCLTJTVTZ4em5uVHU1V0I5UFZ4cXVKSEJvTFVBaUVfYm1fRDZJejN3R3FYOTVNNXNyUEsyWERKU29CTERwdDhzWnNSX3BGb1VGeDJkdm8?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -743,32 +737,6 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
-    },
-    {
-      "id": "97587c95d6dea3505c43bdca",
-      "label_nl": "Claim: Airline, travel industries scramble with fallout from Middle East conflict - DD News",
-      "headline_claim_ids": [
-        "55f2df73d28b7e"
-      ],
-      "headline_claims": [
-        "Airline, travel industries scramble with fallout from Middle East conflict - DD News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1BTZ0pmejlOdEtoU2tnbWRacmUtUjZXb0hnTTUzZGowdXo1VzRiNkZNLXdqcWpXUThCTzJzRDRGU0w4UkV5ZTAyZHg3TkNVZFM2T1pJSTlINXZtRk9YRFdJMTk2dUFNa2JnRk1oNWdnVHRDUXFrTUR2UHRKaWVfano5VGdqQXVIYXBDV3M2emNKSHVla2ZDNUJObk1TTHJ2?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
     }
   ],
   "usage_by_day": {
@@ -781,8 +749,8 @@
       "total_tokens": 30312
     },
     "2026-11-17": {
-      "requests": 9,
-      "total_tokens": 22425
+      "requests": 12,
+      "total_tokens": 30086
     }
   }
 }
