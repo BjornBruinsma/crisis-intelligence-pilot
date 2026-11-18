@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-17T19:15:18.864764Z",
+  "last_attempt_utc": "2026-11-18T01:30:00.180349Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -6567,13 +6567,89 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-17T19:15:17.864559Z"
+    },
+    "935e83b8754632": {
+      "id": "935e83b8754632",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "market_move",
+      "summary_nl": "Goldman voorspelt een overschot van 2 miljoen vaten olie per dag in 2027, terwijl er een tekort aan diesel aanhoudt.",
+      "claimed_event_nl": "Goldman ziet een olieoverschot van 2 miljoen vaten per dag in 2027.",
+      "reason_nl": "Deze voorspelling heeft geen directe impact op de huidige situatie in Iran of de Golfregio.",
+      "limitations_nl": "Het betreft een toekomstverwachting zonder directe relevantie voor de huidige geopolitieke situatie.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-18T01:29:59.180096Z"
+    },
+    "3d1f3e433bf31a": {
+      "id": "3d1f3e433bf31a",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Er wordt gemeld dat de Amerikaanse strijdkrachten een aanval hebben uitgevoerd op een belangrijke eiland in de Straat van Hormuz, waarbij een Iraanse raketpositie is geraakt.",
+      "claimed_event_nl": "Amerikaanse troepen hebben een Iraanse raketbasis aangevallen.",
+      "reason_nl": "Deze aanval kan leiden tot een escalatie van de spanningen tussen de VS en Iran in de regio.",
+      "limitations_nl": "De details van de aanval zijn niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-18T01:29:59.180123Z"
+    },
+    "cca12ccdc9dadc": {
+      "id": "cca12ccdc9dadc",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen worden beïnvloed door stijgende exporten uit het Midden-Oosten en aanvallen op tankers.",
+      "claimed_event_nl": "Olieprijzen worden beïnvloed door exporten en aanvallen.",
+      "reason_nl": "De situatie kan economische gevolgen hebben voor de olieprijzen en de stabiliteit in de regio.",
+      "limitations_nl": "De impact van deze factoren op de olieprijzen is niet eenduidig.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-18T01:29:59.180129Z"
+    },
+    "c83c1a4a63c9b7": {
+      "id": "c83c1a4a63c9b7",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Er zijn meldingen van wederzijdse aanvallen tussen Iran en de VS, ondanks lopende bemiddelingsgesprekken.",
+      "claimed_event_nl": "Iran en de VS wisselen aanvallen uit ondanks diplomatieke pogingen.",
+      "reason_nl": "Deze ontwikkelingen kunnen de spanningen in de regio verder verhogen.",
+      "limitations_nl": "De details van de aanvallen zijn niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-18T01:29:59.180131Z"
+    },
+    "a6006d73231d63": {
+      "id": "a6006d73231d63",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De VS hebben een raketlocatie van de IRGC op het Iraanse eiland Qeshm aangevallen na een drone-aanval op een basis in Bahrein.",
+      "claimed_event_nl": "De VS hebben een Iraanse raketbasis aangevallen na een drone-aanval.",
+      "reason_nl": "Deze actie kan leiden tot een verdere escalatie van het conflict in de regio.",
+      "limitations_nl": "De details van de aanval zijn niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-18T01:29:59.180135Z"
     }
   },
   "usage_by_day": {
-    "2026-11-15": {
-      "requests": 5,
-      "total_tokens": 5640
-    },
     "2026-11-16": {
       "requests": 4,
       "total_tokens": 3852
@@ -6581,6 +6657,10 @@
     "2026-11-17": {
       "requests": 4,
       "total_tokens": 6076
+    },
+    "2026-11-18": {
+      "requests": 1,
+      "total_tokens": 1694
     }
   }
 }
