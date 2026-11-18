@@ -1,35 +1,35 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-18T01:30:04.281004Z",
-  "fingerprint": "4c94385e4f9fc29d50296de6",
+  "last_attempt_utc": "2026-11-18T07:31:33.702919Z",
+  "fingerprint": "527fd1810e80c76fcf57f92d",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 21,
-  "event_candidate_count": 20,
+  "event_candidate_count": 19,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 2,
-    "accepted_pair_connections": 1,
+    "model_pair_proposals": 3,
+    "accepted_pair_connections": 2,
     "rejected_pair_proposals": 1,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "multi_claim_groups": 2,
+    "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-18T01:30:04.281004Z",
+    "recorded_at": "2026-11-18T07:31:33.702919Z",
     "groups": [
       {
         "ids": [
-          "a551a42a30336d",
-          "29add07e06097f"
+          "9a039bb82e353f",
+          "3d1f3e433bf31a"
         ],
-        "label_nl": "Claim: Iran attacks US military base in Bahrain - AOL.co.uk",
+        "label_nl": "Claim: US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -82,9 +82,9 @@
       },
       {
         "ids": [
-          "3d1f3e433bf31a"
+          "eb96303a914278"
         ],
-        "label_nl": "Claim: 美伊突发重磅！美军突袭霍尔木兹海峡关键岛屿 伊朗导弹阵地遭精准打击 - 金融界",
+        "label_nl": "Claim: 伊朗袭击科威特和巴林，围绕霍尔木兹海峡的冲突进一步升级 - 华尔街日报中文网",
         "actor": "",
         "action": "",
         "place": "",
@@ -93,14 +93,15 @@
       },
       {
         "ids": [
-          "02753692adc238"
+          "a551a42a30336d",
+          "29add07e06097f"
         ],
-        "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
+        "label_nl": "Claim: Iran attacks US military base in Bahrain - AOL.co.uk",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -159,20 +160,9 @@
       },
       {
         "ids": [
-          "c83c1a4a63c9b7"
+          "02753692adc238"
         ],
-        "label_nl": "Claim: تبادل الضربات بين إيران وأميركا رغم محادثات الوساطة - زاد الاردن",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "a6006d73231d63"
-        ],
-        "label_nl": "Claim: US Strikes IRGC Missile Site on Iran's Qeshm Island After Drone Attack on Bahrain Base - theopenpress.in",
+        "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
         "actor": "",
         "action": "",
         "place": "",
@@ -225,9 +215,9 @@
       },
       {
         "ids": [
-          "c6ad0f7287f5c3"
+          "66688442ff15eb"
         ],
-        "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+        "label_nl": "Claim: India condemns attack on LPG tanker in Strait of Hormuz; 21 Indians evacuated, one still missing - Firstpost",
         "actor": "",
         "action": "",
         "place": "",
@@ -247,32 +237,62 @@
       }
     ],
     "input_claim_ids": [
-      "a551a42a30336d",
+      "9a039bb82e353f",
       "8700f82af7c7c4",
       "77603d8aa1f637",
       "0550ef4f8093d4",
       "504f736c5ef687",
-      "3d1f3e433bf31a",
-      "02753692adc238",
+      "eb96303a914278",
+      "a551a42a30336d",
       "3e0c54fcccdf45",
       "ec097c020da3ff",
       "cca12ccdc9dadc",
       "29add07e06097f",
       "f79dfbe788282c",
       "9384f566cb96e5",
-      "c83c1a4a63c9b7",
-      "a6006d73231d63",
+      "3d1f3e433bf31a",
+      "02753692adc238",
       "d511c8f0cbc235",
       "bde81b0a60a540",
       "6a77d40e3f43b2",
       "a7e56eff303089",
-      "c6ad0f7287f5c3",
+      "66688442ff15eb",
       "6175299b758bdf"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
+    {
+      "id": "9d13697a280792febd647f74",
+      "label_nl": "Claim: US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
+      "headline_claim_ids": [
+        "9a039bb82e353f",
+        "3d1f3e433bf31a"
+      ],
+      "headline_claims": [
+        "US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
+        "美伊突发重磅！美军突袭霍尔木兹海峡关键岛屿 伊朗导弹阵地遭精准打击 - 金融界"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOakFzQUJBZHhibjIyMVpSc2hBNVFnN0lMdVFBY0hNVXJtYVQ1WWk2bTdCbzhxcGs1eUlsWTlXNjlVcHB5RnBiVDlYZW0zVmloX1BNcm1vSVdsRmVHTzFIY2p1VGdLQlJUQzBUOWNJYXlERG9ya1g3ckFPSW5sX01zT1NyemRZRzFrblJwXzhvNmotSE80eTIwLS1SVHFaTEl2SWpfWnp1YXl0RF9DMTlkb0Y3ZXBxWVF3c3ItVVctWnRjRFFOcjRlWEJZbFRtNF81ZWw3UNIB2gFBVV95cUxQY3ZKR3MtbkRJODhlV2pmRjNUR0RiWXRQLWcwY1pBMTBjOTUtYjN1QWc5VW5WaXJUbTBBZGVDQmRBOVRGemd6RmpMUmJma081ejM4LU8yZzZrZUlONkRLdFUtNGNncU94MWN6NElrNzJhSk9tYkF1WnN3cG5STzZpeU1TWkowejhNNTNfMF9nY2R3ZTE2dm56QldkQWluQlRlejBpTlpHSzRQQnBGLVpYb2FpbldpVG1RLWoySWV2RzVKQ09MVWd2UDB6TmhRZmpxaU43eXhNYzdXUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVM1SG1uSnA0ek10Q0piREtlSmg0eHdNUXUyY3pjSFRxdXRTZ0Vva2NrMldobGV6QzJxamxFcjVmbTRiczBramRNLXJjdDcyY1pxN2lMN0ZFcVB3Q2FMejNwb0FrYXRhOGxBUVhfTGxZSnVDUFNNSXdlaERZMHpKc3QxM0E1bU1Qb24yUHY2TXBuU1VvVlFtN2NxTjVaRmRt?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTFBld2N2SE12WHZCN2VGU2hMcEdxSWFBdHM0MEpBVzhwTUZKR09iT3l4cXBWbEhYem1NUk9XTWt4el9fdThUVE90OXVwbGE2T2VLVEU3NnhHVXRjRnNITFIyamh5TjlBSERYcTJoYzFrRGZzaHY4?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
     {
       "id": "12f8c4099f512f9884f2bdfc",
       "label_nl": "Claim: Iran attacks US military base in Bahrain - AOL.co.uk",
@@ -357,46 +377,19 @@
       "probability_estimate": null
     },
     {
-      "id": "e197c0a37d147e7a23bdaf04",
-      "label_nl": "Claim: 美伊突发重磅！美军突袭霍尔木兹海峡关键岛屿 伊朗导弹阵地遭精准打击 - 金融界",
+      "id": "734c9d80c784450c30d80cd9",
+      "label_nl": "Claim: 伊朗袭击科威特和巴林，围绕霍尔木兹海峡的冲突进一步升级 - 华尔街日报中文网",
       "headline_claim_ids": [
-        "3d1f3e433bf31a"
+        "eb96303a914278"
       ],
       "headline_claims": [
-        "美伊突发重磅！美军突袭霍尔木兹海峡关键岛屿 伊朗导弹阵地遭精准打击 - 金融界"
+        "伊朗袭击科威特和巴林，围绕霍尔木兹海峡的冲突进一步升级 - 华尔街日报中文网"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMidEFVX3lxTFBld2N2SE12WHZCN2VGU2hMcEdxSWFBdHM0MEpBVzhwTUZKR09iT3l4cXBWbEhYem1NUk9XTWt4el9fdThUVE90OXVwbGE2T2VLVEU3NnhHVXRjRnNITFIyamh5TjlBSERYcTJoYzFrRGZzaHY4?oc=5"
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMHAwaF9SMmUwdFFudk1VbUZFdlczS195X2hwZkREYk1OYTdyVk9VYzNTNVM5SERBdFY3MWFINDFad05QNm5oT2Y1MlU2M01jaUVyVUdKSHo0VVZad1llYTYzWk91SENKVFZhRHVzTDlMTUhaZ2twVk9yc05aVVdaZUtLMlplN1hVZWNtakZFcWNzN0xfUkZsVGNweHJaVDcyMWoxdkNFOVE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "325c2bc2ce531f9b655322b8",
-      "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
-      "headline_claim_ids": [
-        "02753692adc238"
-      ],
-      "headline_claims": [
-        "US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN1p5YjNMaDdCanEwSGJZMzhjWWRTSmk5MURQX21yd3VTUVRzMDNJNl9pbmNlZE5WbEpaWW5Rb0tkVVhXVUpUY1QtbUVtWVVhc042VTlBeXJ6bS1IcWZSSGdCdlYzSkRSQjhfb21MMWZRNHFqcTV1VXY3eEZkcGFrMi1idk1BRWVZZXN4bDZZcENVMUJJb1Nxejd3R3FSLW1CeHVlYmNoX3NCQ3JGLVY2UXpTaXpaM251QXgwYWtR0gHDAUFVX3lxTE5RTThzUWs3WDJGX2VsX0gzbmpmZG83WHp3MXFlclRYR0dlQUFpMFRCOUR5UkYyQm54Sjk3M3J3V0ptdGdaSHFYQi13T2o0Y1VzYmFkVUlDYkJCY2QzYlgyYUlfWXo0bi1YRkhtY0NGRmc0N2JiTFgxb0ZmdjUwZnFyTk5VWVFuV1ZrVTh4VlRPTFU2LXZIVkR3aUZwYktqY0I4TUszamNsY2owcnI2VVBKczI4UXBTVkt4T0Fpb1NiQkdfcw?oc=5",
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -437,45 +430,20 @@
       "probability_estimate": null
     },
     {
-      "id": "2625b2d91f042e65831e68d9",
-      "label_nl": "Claim: تبادل الضربات بين إيران وأميركا رغم محادثات الوساطة - زاد الاردن",
+      "id": "325c2bc2ce531f9b655322b8",
+      "label_nl": "Claim: US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English",
       "headline_claim_ids": [
-        "c83c1a4a63c9b7"
+        "02753692adc238"
       ],
       "headline_claims": [
-        "تبادل الضربات بين إيران وأميركا رغم محادثات الوساطة - زاد الاردن"
+        "US denies Iran’s claim that it attacked early-warning radar in Bahrain - Al Arabiya English"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nekpaTnc3aG81ZlR4TkRzU0VBN1BBZ0d6emlsMHJPNm94SFltSmFyc3pjN3A3RXBrcmNjRjEzeHdzbWhzZWFKb2VCOXdGbEZQSmhhbGFsYWVibHpnbWQzbFdsUTZQZFRCWlE?oc=5"
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN1p5YjNMaDdCanEwSGJZMzhjWWRTSmk5MURQX21yd3VTUVRzMDNJNl9pbmNlZE5WbEpaWW5Rb0tkVVhXVUpUY1QtbUVtWVVhc042VTlBeXJ6bS1IcWZSSGdCdlYzSkRSQjhfb21MMWZRNHFqcTV1VXY3eEZkcGFrMi1idk1BRWVZZXN4bDZZcENVMUJJb1Nxejd3R3FSLW1CeHVlYmNoX3NCQ3JGLVY2UXpTaXpaM251QXgwYWtR0gHDAUFVX3lxTE5RTThzUWs3WDJGX2VsX0gzbmpmZG83WHp3MXFlclRYR0dlQUFpMFRCOUR5UkYyQm54Sjk3M3J3V0ptdGdaSHFYQi13T2o0Y1VzYmFkVUlDYkJCY2QzYlgyYUlfWXo0bi1YRkhtY0NGRmc0N2JiTFgxb0ZmdjUwZnFyTk5VWVFuV1ZrVTh4VlRPTFU2LXZIVkR3aUZwYktqY0I4TUszamNsY2owcnI2VVBKczI4UXBTVkt4T0Fpb1NiQkdfcw?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjhnZVFHWnV4RHpscnFyUjFWOEl5VndNZ0Y4MFdEVlpueUNaeHRPMVdCbjA4Mmktc0tYWnFsZWdZSkd4dFNvTmszUHFWdC15S0pja2ozaTg0R0dOdEY3aDJtenZwREh5dmRvTGVTUkxVUDNjN3huQU1TRTU1bEVBampuYzdsTjJJZ2tBUXQwal85QnRsWDU4OWNvbDVzN0VUR1R0clNkZmpkaXZMaWh5dExSNHRCUQ?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "756675987fc6a61bd9d9c2b9",
-      "label_nl": "Claim: US Strikes IRGC Missile Site on Iran's Qeshm Island After Drone Attack on Bahrain Base - theopenpress.in",
-      "headline_claim_ids": [
-        "a6006d73231d63"
-      ],
-      "headline_claims": [
-        "US Strikes IRGC Missile Site on Iran's Qeshm Island After Drone Attack on Bahrain Base - theopenpress.in"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVM1SG1uSnA0ek10Q0piREtlSmg0eHdNUXUyY3pjSFRxdXRTZ0Vva2NrMldobGV6QzJxamxFcjVmbTRiczBramRNLXJjdDcyY1pxN2lMN0ZFcVB3Q2FMejNwb0FrYXRhOGxBUVhfTGxZSnVDUFNNSXdlaERZMHpKc3QxM0E1bU1Qb24yUHY2TXBuU1VvVlFtN2NxTjVaRmRt?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -778,20 +746,19 @@
       "probability_estimate": null
     },
     {
-      "id": "59ebd2d83838699822ab96a6",
-      "label_nl": "Claim: Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times",
+      "id": "036ca0ba3258736284b2555a",
+      "label_nl": "Claim: India condemns attack on LPG tanker in Strait of Hormuz; 21 Indians evacuated, one still missing - Firstpost",
       "headline_claim_ids": [
-        "c6ad0f7287f5c3"
+        "66688442ff15eb"
       ],
       "headline_claims": [
-        "Oil settles US$3 higher on attacks on Saudi energy sites, Hormuz strait disruptions - The Business Times"
+        "India condemns attack on LPG tanker in Strait of Hormuz; 21 Indians evacuated, one still missing - Firstpost"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOOWZjN3RnaXdNbHZUcHBaVERUTlFrQkJLUlplVXUwUzVpS2JyV1NyeEdRdWI4cTNNcmVRUFoyYjVlQ0UyS29sRlF0dVVORnhNTS00VzhfQktsSFV5cUliMGpkV3JEUmEwQ3pzcW54aVcydnRsMC0tWjdjbGtTb2I2RlVuWS1FTWVlWURjN2tvVU1rVmtpUU1fM2ROMG52dmtnZGVPbTJDdlFnc0xsM0RYdWNvdDN4M2E1Z2ZNcWVCMlVTS0U2UUlKRWNMeFBJeVhiRmZ1bkVNY2l3QXNJRmc?oc=5",
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5"
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOEFDbzhSRnlvanhOX0VMdzFkcHFvWXZVZVdnQnRjODlYaXdzQ1gyeE45Z0Mwc0NWbG5Hcm5tbHpDajZKVDVndHRoWHhIM2tXMU12dmNacUNSa2h3aXVEaFBuV0JZS0FHUlJZNGVtVmI5RWtIVjlUTzloQ0FzS2MtdjdFN0YwNWNoQWI0bUZicmRJYV9rQTBjWERTNnhXMk40YmpTR3VwNTJPWENDckZ0SE1oRkFqYTNfckNCczhoQk9zaTU2QjZ1NFBhWnBrWThMdll0YkhfN1UxMm0z0gHcAUFVX3lxTE44QUNvOFJGeW9qeE5fRUx3MWRwcW9ZdlVlV2dCdGM4OVhpd3NDWDJ4TjlnQzBzQ1Zsbkdybm1sekNqNkpUNWd0dGhYeEgza1cxTXZ2Y1pxQ1JraHdpdURoUG5XQllLQUdSUlk0ZW1WYjlFa0hWOVRPOWhDQXNLYy12N0U3RjA1Y2hBYjRtRmJyZElhX2tBMGNYRFM2eFcyTjRialNHdXA1Mk9YQ0NyRnRITWhGQWphM19yQ0JzOGhCT3NpNTZCNnU0UGFacGtZOEx2WXRiSF83VTEybTM?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -815,8 +782,8 @@
       "total_tokens": 30086
     },
     "2026-11-18": {
-      "requests": 3,
-      "total_tokens": 9015
+      "requests": 6,
+      "total_tokens": 16664
     }
   }
 }
