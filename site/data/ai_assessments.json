@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-18T07:31:10.692004Z",
+  "last_attempt_utc": "2026-11-18T13:27:44.702654Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -6695,6 +6695,70 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-18T07:31:09.691786Z"
+    },
+    "2d8a7b3704f988": {
+      "id": "2d8a7b3704f988",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat luchtvaartmaatschappijen hun vluchten naar Saoedi-Arabië hebben geannuleerd vanwege escalatie van aanvallen in de Golfregio.",
+      "claimed_event_nl": "UAE flights status update: Etihad, flydubai extend Saudi cancellations as Gulf attacks escalate.",
+      "reason_nl": "Dit is relevant omdat het wijst op een verslechterende veiligheidssituatie in de regio, wat economische gevolgen kan hebben.",
+      "limitations_nl": "De informatie is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-18T13:27:43.702429Z"
+    },
+    "85d42763e677f4": {
+      "id": "85d42763e677f4",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "background",
+      "summary_nl": "De kop biedt uitleg over dieselexporten uit het Midden-Oosten, zonder directe link naar actuele gebeurtenissen.",
+      "claimed_event_nl": "",
+      "reason_nl": "Dit is niet relevant voor de huidige situatie in de Golfregio of mogelijke escalatie.",
+      "limitations_nl": "De inhoud lijkt informatief maar niet urgent of direct gerelateerd aan een crisis.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-18T13:27:43.702455Z"
+    },
+    "2f9719d1fd8639": {
+      "id": "2f9719d1fd8639",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Iran zijn aanvallen in de Golf heeft uitgebreid, met specifieke doelen in Koeweit en Bahrein.",
+      "claimed_event_nl": "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain.",
+      "reason_nl": "Dit is relevant omdat het wijst op een verhoogde militaire activiteit en spanningen in de regio.",
+      "limitations_nl": "De informatie is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-18T13:27:43.702459Z"
+    },
+    "068790073299a6": {
+      "id": "068790073299a6",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat een schip van Adnoc L&S is aangevallen in de Straat van Hormuz, met een vermist bemanningslid.",
+      "claimed_event_nl": "Adnoc L&S ship attacked in Strait of Hormuz with one crew member missing.",
+      "reason_nl": "Dit is relevant omdat het wijst op een directe bedreiging voor de scheepvaart en de veiligheid in een cruciaal gebied.",
+      "limitations_nl": "De informatie is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-18T13:27:43.702461Z"
     }
   },
   "usage_by_day": {
@@ -6707,8 +6771,8 @@
       "total_tokens": 6076
     },
     "2026-11-18": {
-      "requests": 2,
-      "total_tokens": 2903
+      "requests": 3,
+      "total_tokens": 4300
     }
   }
 }

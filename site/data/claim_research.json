@@ -1,84 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-18T07:31:45.125359Z",
+  "last_attempt_utc": "2026-11-18T13:28:27.473861Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 19,
-  "active_checked": 10,
+  "active_total": 18,
+  "active_checked": 9,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
-    "aa552d0b9d0bed6feccaf4d7": {
-      "event_id": "aa552d0b9d0bed6feccaf4d7",
-      "checked_at": "2026-11-05T07:32:06.977715Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
-          "original_document_title": "Six months of uncertainty for seafarers in Strait of Hormuz",
-          "source_date": null,
-          "retrieved_at": "2026-11-05T07:31:59.210773Z",
-          "exact_quote": "the situation in the Strait of Hormuz is unresolved.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Deze passage verwijst naar de onopgeloste situatie in de Straat van Hormuz, maar bevestigt niet de specifieke claim van Amerikaanse aanvallen op Iraanse doelen.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "Er zijn geen directe of tegenstrijdige verklaringen gevonden over Amerikaanse aanvallen op Iraanse doelen in de Straat van Hormuz. De situatie blijft onopgelost.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/Statement-on-the-ongoing-crisis-in-the-Strait-of-Hormuz.aspx",
-          "title": "Six months of uncertainty for seafarers in Strait of Hormuz",
-          "source_publication_date": null,
-          "text_excerpt": "Six months of uncertainty for seafarers in Strait of Hormuz"
-        },
-        {
-          "url": "https://home.treasury.gov/news/press-releases/sb0681/",
-          "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime | U.S. Department of the TreasuryLock",
-          "source_publication_date": "2026-11-04T18:00:00Z",
-          "text_excerpt": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime"
-        }
-      ]
-    },
-    "a35beaefd0b7ee42d4b804ed": {
-      "event_id": "a35beaefd0b7ee42d4b804ed",
-      "checked_at": "2026-11-05T07:32:06.977692Z",
-      "version": "official-original-document-v1",
-      "research_status": "primary_document_not_found",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 0,
-      "official_link_candidates": 6,
-      "search_errors": [
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": []
-    },
     "0a8ce6afb955350505b24c67": {
       "event_id": "0a8ce6afb955350505b24c67",
       "checked_at": "2026-11-04T01:18:14.465431Z",
@@ -3128,7 +3059,7 @@
     },
     "6eb69e6f93605d8874d0f76d": {
       "event_id": "6eb69e6f93605d8874d0f76d",
-      "checked_at": "2026-11-17T13:24:51.024586Z",
+      "checked_at": "2026-11-18T13:28:27.473835Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3137,15 +3068,26 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/iran",
           "original_document_title": "Iran travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-17T13:24:41.107370Z",
+          "retrieved_at": "2026-11-18T13:28:21.472008Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage geeft aan dat Iran locaties wil targeten die met de VS en Israël geassocieerd zijn, maar ondersteunt niet specifiek de claim over een olieprijsdaling.",
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS, maar geeft geen specifieke informatie over de impact op olieprijzen.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/israel",
+          "original_document_title": "Israel travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-18T13:28:22.135014Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage bevestigt de intenties van Iran, maar biedt geen bewijs dat de aanvallen hebben geleid tot een olieprijs shock.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De teksten wijzen op de intenties van Iran en aanhoudende aanvallen, maar er is geen directe link naar de claim dat deze aanvallen geen olieprijsshock hebben veroorzaakt.",
+      "summary_nl": "De officiële teksten bevestigen de intenties van Iran, maar bieden geen bewijs dat de aanvallen hebben geleid tot een olieprijs shock.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3857,6 +3799,93 @@
       "search_errors": [],
       "ai_error": null,
       "original_documents_retrieved": []
+    },
+    "62c4c3bc00e7f5d830f2878b": {
+      "event_id": "62c4c3bc00e7f5d830f2878b",
+      "checked_at": "2026-11-18T13:28:27.473805Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-18T13:28:16.937871Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS, maar bevestigt geen specifieke aanval op een militaire basis in Bahrein.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/government/news/uk-defence-industry-steps-up-support-for-gulf-partners-facing-iranian-attacks",
+          "original_document_title": "UK defence industry steps up support for Gulf partners facing Iranian attacks - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-18T13:28:17.186165Z",
+          "exact_quote": "As Iranian attacks against our partners in the Gulf continue, the UK is stepping up our support",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage verwijst naar de voortgang van Iraanse aanvallen in de Golf, maar noemt geen specifieke aanval op een militaire basis in Bahrein.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten vermelden de intenties van Iran en de voortgang van aanvallen in de regio, maar bevestigen geen specifieke aanval op een Amerikaanse militaire basis in Bahrein.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/government/news/uk-defence-industry-steps-up-support-for-gulf-partners-facing-iranian-attacks",
+          "title": "UK defence industry steps up support for Gulf partners facing Iranian attacks - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "As Iranian attacks against our partners in the Gulf continue, the UK is stepping up our support - both military and industrial. We are committed to defending British people, interests, and partners across the region."
+        }
+      ]
+    },
+    "0c19bcb0ce763f4d7bd90880": {
+      "event_id": "0c19bcb0ce763f4d7bd90880",
+      "checked_at": "2026-11-18T13:28:27.473831Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de status van de vluchten van Etihad en flydubai ondersteunen of weerleggen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/check-mot-status",
+          "title": "Check the MOT status of a vehicle - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Check the MOT status of a vehicle"
+        },
+        {
+          "url": "https://www.gov.uk/evisa",
+          "title": "eVisas: access and use your online immigration status: What an eVisa is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "eVisas: access and use your online immigration status"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3871,9 +3900,9 @@
       "model_tokens": 5934
     },
     "2026-11-18": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 2481
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 4295
     }
   },
   "last_error": null
