@@ -1,33 +1,33 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-18T13:28:07.704085Z",
-  "fingerprint": "916057b619fc1908b3b12ec8",
+  "last_attempt_utc": "2026-11-18T19:10:03.400437Z",
+  "fingerprint": "307858090a622b9cf1196dec",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 20,
-  "event_candidate_count": 18,
+  "event_candidate_count": 17,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
     "model_pair_proposals": 4,
-    "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 2,
+    "accepted_pair_connections": 3,
+    "rejected_pair_proposals": 1,
     "multi_claim_groups": 2,
-    "claims_in_multi_groups": 4,
+    "claims_in_multi_groups": 5,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 2,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-18T13:28:07.704085Z",
+    "recorded_at": "2026-11-18T19:10:03.400437Z",
     "groups": [
       {
         "ids": [
           "9a039bb82e353f",
-          "3d1f3e433bf31a"
+          "973374659ac86f"
         ],
         "label_nl": "Claim: US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
         "actor": "",
@@ -71,6 +71,17 @@
       },
       {
         "ids": [
+          "9b5230aef3852f"
+        ],
+        "label_nl": "Claim: ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "504f736c5ef687"
         ],
         "label_nl": "Claim: Iran fuel crisis deepens amid war and sanctions - DW.com",
@@ -82,21 +93,11 @@
       },
       {
         "ids": [
-          "eb96303a914278"
-        ],
-        "label_nl": "Claim: 伊朗袭击科威特和巴林，围绕霍尔木兹海峡的冲突进一步升级 - 华尔街日报中文网",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
+          "304017063b28f3",
           "a551a42a30336d",
-          "2f9719d1fd8639"
+          "ffb8209abc59e4"
         ],
-        "label_nl": "Claim: Iran attacks US military base in Bahrain - AOL.co.uk",
+        "label_nl": "Claim: Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
         "actor": "",
         "action": "",
         "place": "",
@@ -160,6 +161,17 @@
       },
       {
         "ids": [
+          "8a713af75f9594"
+        ],
+        "label_nl": "Claim: Iran attacks US air base in Kuwait - The Hill",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "d511c8f0cbc235"
         ],
         "label_nl": "Claim: Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn",
@@ -201,28 +213,6 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "068790073299a6"
-        ],
-        "label_nl": "Claim: Adnoc L&S ship attacked in Strait of Hormuz with one crew member missing - The National",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "6175299b758bdf"
-        ],
-        "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       }
     ],
     "input_claim_ids": [
@@ -230,45 +220,57 @@
       "8700f82af7c7c4",
       "2d8a7b3704f988",
       "cca12ccdc9dadc",
+      "9b5230aef3852f",
       "504f736c5ef687",
-      "eb96303a914278",
+      "304017063b28f3",
       "a551a42a30336d",
       "3e0c54fcccdf45",
       "77603d8aa1f637",
       "6a77d40e3f43b2",
       "f79dfbe788282c",
       "9384f566cb96e5",
-      "3d1f3e433bf31a",
-      "2f9719d1fd8639",
+      "ffb8209abc59e4",
+      "8a713af75f9594",
       "d511c8f0cbc235",
       "ec097c020da3ff",
       "75a5fe23d0357a",
       "29add07e06097f",
-      "068790073299a6",
-      "6175299b758bdf"
+      "973374659ac86f"
     ]
   },
-  "official_sources_available": 15,
+  "official_sources_available": 14,
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "9d13697a280792febd647f74",
-      "label_nl": "Claim: US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
+      "id": "13bb698c990a77d72c86ddff",
+      "label_nl": "Claim: Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
       "headline_claim_ids": [
-        "9a039bb82e353f",
-        "3d1f3e433bf31a"
+        "304017063b28f3",
+        "a551a42a30336d",
+        "ffb8209abc59e4"
       ],
       "headline_claims": [
-        "US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
-        "美伊突发重磅！美军突袭霍尔木兹海峡关键岛屿 伊朗导弹阵地遭精准打击 - 金融界"
+        "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
+        "Iran attacks US military base in Bahrain - AOL.co.uk",
+        "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOakFzQUJBZHhibjIyMVpSc2hBNVFnN0lMdVFBY0hNVXJtYVQ1WWk2bTdCbzhxcGs1eUlsWTlXNjlVcHB5RnBiVDlYZW0zVmloX1BNcm1vSVdsRmVHTzFIY2p1VGdLQlJUQzBUOWNJYXlERG9ya1g3ckFPSW5sX01zT1NyemRZRzFrblJwXzhvNmotSE80eTIwLS1SVHFaTEl2SWpfWnp1YXl0RF9DMTlkb0Y3ZXBxWVF3c3ItVVctWnRjRFFOcjRlWEJZbFRtNF81ZWw3UNIB2gFBVV95cUxQY3ZKR3MtbkRJODhlV2pmRjNUR0RiWXRQLWcwY1pBMTBjOTUtYjN1QWc5VW5WaXJUbTBBZGVDQmRBOVRGemd6RmpMUmJma081ejM4LU8yZzZrZUlONkRLdFUtNGNncU94MWN6NElrNzJhSk9tYkF1WnN3cG5STzZpeU1TWkowejhNNTNfMF9nY2R3ZTE2dm56QldkQWluQlRlejBpTlpHSzRQQnBGLVpYb2FpbldpVG1RLWoySWV2RzVKQ09MVWd2UDB6TmhRZmpxaU43eXhNYzdXUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVM1SG1uSnA0ek10Q0piREtlSmg0eHdNUXUyY3pjSFRxdXRTZ0Vva2NrMldobGV6QzJxamxFcjVmbTRiczBramRNLXJjdDcyY1pxN2lMN0ZFcVB3Q2FMejNwb0FrYXRhOGxBUVhfTGxZSnVDUFNNSXdlaERZMHpKc3QxM0E1bU1Qb24yUHY2TXBuU1VvVlFtN2NxTjVaRmRt?oc=5",
-        "https://news.google.com/rss/articles/CBMidEFVX3lxTFBld2N2SE12WHZCN2VGU2hMcEdxSWFBdHM0MEpBVzhwTUZKR09iT3l4cXBWbEhYem1NUk9XTWt4el9fdThUVE90OXVwbGE2T2VLVEU3NnhHVXRjRnNITFIyamh5TjlBSERYcTJoYzFrRGZzaHY4?oc=5"
+        "https://www.kwit.org/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://news.prairiepublic.org/news-from-npr/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://www.kazu.org/npr-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://www.publicradiotulsa.org/npr-national-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://www.kccu.org/world/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMTd4NjVNa2h6X01tUHkyakM3OUpIVVhUTnhDbjlGS1BIT2ZCU1gxWHBFbEQwa1J6eVpwcV9WU291Mm1la0hvS290TUZxNGg3RGIyNDZlaUJ0ajFWZUh3b0RndEVVMG51OE10MWotRzd2djNLem1UakNpOFZzbkJHYlFKcEk?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GNkJDbW9oVG9jU1ZWRGZvZm9kSEpocGJOMzhhalhLUmZfZkFqOXk3MkFCZXNqQjl0U0swNzMxNTB3Y3JWRjdPeDl3TkpUSFpEclFGdVk0Nm1YWVFxS1NfODJRSUFRVEdGRE15eUFFTUVqVjZjWkRaVQ?oc=5",
+        "https://www.thisiswiltshire.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://www.guardian-series.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://www.wiltsglosstandard.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://www.harrowtimes.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://www.hexham-courant.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://www.richmondandtwickenhamtimes.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/"
       ],
-      "article_group_count": 2,
-      "news_url_count": 3,
+      "article_group_count": 3,
+      "news_url_count": 13,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -282,20 +284,20 @@
       "probability_estimate": null
     },
     {
-      "id": "62c4c3bc00e7f5d830f2878b",
-      "label_nl": "Claim: Iran attacks US military base in Bahrain - AOL.co.uk",
+      "id": "0f18a17b00e7da4fae9c47a8",
+      "label_nl": "Claim: US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
       "headline_claim_ids": [
-        "a551a42a30336d",
-        "2f9719d1fd8639"
+        "9a039bb82e353f",
+        "973374659ac86f"
       ],
       "headline_claims": [
-        "Iran attacks US military base in Bahrain - AOL.co.uk",
-        "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald"
+        "US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
+        "Iran War Strikes Escalate as US Hits Qeshm Island, Tehran Fires Drones at Kuwait Base and Bahrain Radar - International Business Times Australia"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMTd4NjVNa2h6X01tUHkyakM3OUpIVVhUTnhDbjlGS1BIT2ZCU1gxWHBFbEQwa1J6eVpwcV9WU291Mm1la0hvS290TUZxNGg3RGIyNDZlaUJ0ajFWZUh3b0RndEVVMG51OE10MWotRzd2djNLem1UakNpOFZzbkJHYlFKcEk?oc=5",
-        "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GNkJDbW9oVG9jU1ZWRGZvZm9kSEpocGJOMzhhalhLUmZfZkFqOXk3MkFCZXNqQjl0U0swNzMxNTB3Y3JWRjdPeDl3TkpUSFpEclFGdVk0Nm1YWVFxS1NfODJRSUFRVEdGRE15eUFFTUVqVjZjWkRaVQ?oc=5",
-        "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUxXbHlBVzJ5ZjRUR0lKRnF5MmpFNThseTVlNVRuTlVnXy0wQWZxanNpaXFnam9XQlJoWkpRMlpIY0cwRnlTTVpuaUh4b2lLMDJVRDVtQ1FLSVEwZ19WTHk4dnIzVEJzdENDNHhXbTE5LUJhSEJTMzZUZklkNjdSR1gyRQ?oc=5"
+        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOakFzQUJBZHhibjIyMVpSc2hBNVFnN0lMdVFBY0hNVXJtYVQ1WWk2bTdCbzhxcGs1eUlsWTlXNjlVcHB5RnBiVDlYZW0zVmloX1BNcm1vSVdsRmVHTzFIY2p1VGdLQlJUQzBUOWNJYXlERG9ya1g3ckFPSW5sX01zT1NyemRZRzFrblJwXzhvNmotSE80eTIwLS1SVHFaTEl2SWpfWnp1YXl0RF9DMTlkb0Y3ZXBxWVF3c3ItVVctWnRjRFFOcjRlWEJZbFRtNF81ZWw3UNIB2gFBVV95cUxQY3ZKR3MtbkRJODhlV2pmRjNUR0RiWXRQLWcwY1pBMTBjOTUtYjN1QWc5VW5WaXJUbTBBZGVDQmRBOVRGemd6RmpMUmJma081ejM4LU8yZzZrZUlONkRLdFUtNGNncU94MWN6NElrNzJhSk9tYkF1WnN3cG5STzZpeU1TWkowejhNNTNfMF9nY2R3ZTE2dm56QldkQWluQlRlejBpTlpHSzRQQnBGLVpYb2FpbldpVG1RLWoySWV2RzVKQ09MVWd2UDB6TmhRZmpxaU43eXhNYzdXUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVM1SG1uSnA0ek10Q0piREtlSmg0eHdNUXUyY3pjSFRxdXRTZ0Vva2NrMldobGV6QzJxamxFcjVmbTRiczBramRNLXJjdDcyY1pxN2lMN0ZFcVB3Q2FMejNwb0FrYXRhOGxBUVhfTGxZSnVDUFNNSXdlaERZMHpKc3QxM0E1bU1Qb24yUHY2TXBuU1VvVlFtN2NxTjVaRmRt?oc=5",
+        "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRE5KN3RaSEJSQUhFY3BGenViYXFfeUFsaHVraVZwUVBBQjRNOEJ2aXVsOWsxNlJYTW5CSXNXeFVDS016czZpaDU3VGtWaEZUeVp6YjZuOUJzTkRzemcyQjE0dk40TmFIbDM0Q3g4OVB4cUtRc0xwX05Ib2puV0JpZVFFZjhFTENnMkE?oc=5"
       ],
       "article_group_count": 2,
       "news_url_count": 3,
@@ -338,16 +340,16 @@
       "probability_estimate": null
     },
     {
-      "id": "ee723a494e006e0aa85f539e",
-      "label_nl": "Claim: Iran fuel crisis deepens amid war and sanctions - DW.com",
+      "id": "379fde8be38e359c47adbf77",
+      "label_nl": "Claim: ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
       "headline_claim_ids": [
-        "504f736c5ef687"
+        "9b5230aef3852f"
       ],
       "headline_claims": [
-        "Iran fuel crisis deepens amid war and sanctions - DW.com"
+        "ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5"
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcEZMcVZlSk5tVHJMNjI0cVliZlpNWm5kVTBqdVhacGJsWkJVTDZvaE9KSDZDOXFIcFJPbjYtRjl5THY0VV9MWVczbVZfYWUzT1FDZmZtcTZ5YWhKbTFvSmhiZ1hhM1BnZWVkbHFfb3RCNG4ydlAtb0dpanZlcktCb3ZQaC1Yczg4TkdHNkhOVEQtQVNnZ3F0SDl2NUpMY2lDU2FuLWFhN2Jhek1XSmJZTGpzVldUR1BDaFlJYllLem8zWnJv?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -364,16 +366,16 @@
       "probability_estimate": null
     },
     {
-      "id": "734c9d80c784450c30d80cd9",
-      "label_nl": "Claim: 伊朗袭击科威特和巴林，围绕霍尔木兹海峡的冲突进一步升级 - 华尔街日报中文网",
+      "id": "ee723a494e006e0aa85f539e",
+      "label_nl": "Claim: Iran fuel crisis deepens amid war and sanctions - DW.com",
       "headline_claim_ids": [
-        "eb96303a914278"
+        "504f736c5ef687"
       ],
       "headline_claims": [
-        "伊朗袭击科威特和巴林，围绕霍尔木兹海峡的冲突进一步升级 - 华尔街日报中文网"
+        "Iran fuel crisis deepens amid war and sanctions - DW.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMHAwaF9SMmUwdFFudk1VbUZFdlczS195X2hwZkREYk1OYTdyVk9VYzNTNVM5SERBdFY3MWFINDFad05QNm5oT2Y1MlU2M01jaUVyVUdKSHo0VVZad1llYTYzWk91SENKVFZhRHVzTDlMTUhaZ2twVk9yc05aVVdaZUtLMlplN1hVZWNtakZFcWNzN0xfUkZsVGNweHJaVDcyMWoxdkNFOVE?oc=5"
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -469,6 +471,32 @@
       "probability_estimate": null
     },
     {
+      "id": "7c7cc6552ad0864c20bbcd1b",
+      "label_nl": "Claim: Iran attacks US air base in Kuwait - The Hill",
+      "headline_claim_ids": [
+        "8a713af75f9594"
+      ],
+      "headline_claims": [
+        "Iran attacks US air base in Kuwait - The Hill"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxONHpmSHlDSi1ndFFSVmhoMnFfM3RrZVpxa0JLOWFWbTZTUEItT2ozT0ZuRW9rNkU3cUZOenJldm91cEhUcEI5cHhiWTQ4VDZvcDY1WndHRGJxRWFfUGF6MVl0V05Fam05eHp1Uk4zVXVtZlVoMFg4OHlyRk5STmpFb9IBhgFBVV95cUxQaVJDY0RQY0VHOENNQ0FSdV9MU2lIaUNWanFDSGFZMHV0SlJBV3h3N3d6akRqVWFxdzRhanExcXRZOWhBSVVjX25SRlFfZGpzd3VUclZseWJiQ1N1WUR2THFuazZQYVVybUdVa1psRm1fYVMwS18wSUFPTGR2eVNadlFGbXBEQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "906cd0ce08220b5baba4e605",
       "label_nl": "Claim: Iran targets Bahrain air base for second time in 48hrs, hosts US radar - Quantum Commodity Intelligence",
       "headline_claim_ids": [
@@ -483,58 +511,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "e972add6f2d4fb0bbedeb25a",
-      "label_nl": "Claim: Adnoc L&S ship attacked in Strait of Hormuz with one crew member missing - The National",
-      "headline_claim_ids": [
-        "068790073299a6"
-      ],
-      "headline_claims": [
-        "Adnoc L&S ship attacked in Strait of Hormuz with one crew member missing - The National"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ3VacGM4Zk9FdHRLZmZaRTZQYVNXQjYzYkJnc2hwcEJWMl84bDdVdWpTVG5xNmJUWENoZ3FtYWlzQnpWSzE2WWUycFVtMzR3aHMtcUlZZUJlVkdKYWVDdTRuVWQ4eDRObDZCb0Q1cXVaNFk1ZG42N1FnUmltQnFzeXdSZXh0Zm5pUk9kOUVydTNEV1VFU0l3TDFxZC1vUVJCanJxWl9SRUdsbmRGTXd4aWt0SnVHVHBLRHZmWHIxeVlUdHkwTW9SV1Jabw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "1a5d6c816feee21ddb6b1da5",
-      "label_nl": "Claim: Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
-      "headline_claim_ids": [
-        "6175299b758bdf"
-      ],
-      "headline_claims": [
-        "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEtxTVNnWUVXRlAzQmltYXZWRl8ybFR6WmlKb05PQWxaaDBTS0hyMnp6X04wd3I2Xy1WUHpnRUYtUFgyNml2NTFVeDc1T1NfcDhaU0pWc1BoSGZFdU5MZE9PN3Boem90OW9udGpYOTRfTTltMGYtaDJQZ29xQWVQY2xZYjZydnY2SWc4M3JDY3U2X0o4RlAxaWxicXNIRklrX1FDYjhtaGZLSXPSAbABQVVfeXFMTjFLSGNkSm5LMVJtUlB2S1RmMzZTWHVpUVJNbDBmYmh1azE3NEpyY0lxWXlJMEF3UGJfOEtCUUU3bk9QUlZxeGZ4eWtfal9GaDRxVk5jV0ZsajFsRTR1RlV6Z0c3UEFjU1pObkR5VXZfRkhtZXJWRmN3R3plRmF5ZjMwN1UtYjdMZ3QtaDV2QmZYYmlBYmk4c2ZKancxUlVxZGpuUlNXdlRVakR6ZlJxd1k?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -741,8 +717,8 @@
       "total_tokens": 30086
     },
     "2026-11-18": {
-      "requests": 9,
-      "total_tokens": 24455
+      "requests": 12,
+      "total_tokens": 31822
     }
   }
 }

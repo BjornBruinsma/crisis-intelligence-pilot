@@ -1,7 +1,7 @@
 {
   "description": "Manually reviewable headline claims; no event verification, no risk scoring",
-  "source_generated_from": "2026-11-18T13:26:36.412407Z",
-  "source_groups_count": 542,
+  "source_generated_from": "2026-11-18T19:08:17.001189Z",
+  "source_groups_count": 533,
   "selection_method": "Category-balanced high/medium editorial candidates; NOT trained or calibrated",
   "candidates": [
     {
@@ -215,19 +215,19 @@
       ]
     },
     {
-      "id": "2bb3179eab673c",
-      "headline_claim": "Middle East latest: 21 Indians evacuated following strikes on tanker - The National",
+      "id": "9b5230aef3852f",
+      "headline_claim": "ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
       "discovered_via": "Bedrijfsleven & investeringen",
       "other_search_labels": [
         "Bedrijfsleven & investeringen"
       ],
-      "publication_day": "2026-11-17",
+      "publication_day": "2026-11-18",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "the national"
+        "forbes middle east"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -238,10 +238,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Middle East latest: 21 Indians evacuated following strikes on tanker - The National",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS1lqMnhfdVg2OGtJamZFSnh3Uzc2YzhteVFUemRxWTNsdjl6cU1nbDJyN2xJTUR4dGsyTEdDVC1YOXYtR0VjemJDSktyTlZFcTJBazM3cGJjRTVSWE8wVHJTaVkxTks2TjhSam95R2lWSWpySW1RclEtcmRQV1V6SVdHNUdkUEhUTGRkZngwcjExdjUwYXBGc3hQNG9KUQ?oc=5",
-          "publisher": "The National",
-          "published_at": "2026-11-17T16:57:32Z",
+          "title": "ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcEZMcVZlSk5tVHJMNjI0cVliZlpNWm5kVTBqdVhacGJsWkJVTDZvaE9KSDZDOXFIcFJPbjYtRjl5THY0VV9MWVczbVZfYWUzT1FDZmZtcTZ5YWhKbTFvSmhiZ1hhM1BnZWVkbHFfb3RCNG4ydlAtb0dpanZlcktCb3ZQaC1Yczg4TkdHNkhOVEQtQVNnZ3F0SDl2NUpMY2lDU2FuLWFhN2Jhek1XSmJZTGpzVldUR1BDaFlJYllLem8zWnJv?oc=5",
+          "publisher": "Forbes Middle East",
+          "published_at": "2026-11-18T14:16:33Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -279,19 +279,23 @@
       ]
     },
     {
-      "id": "eb96303a914278",
-      "headline_claim": "伊朗袭击科威特和巴林，围绕霍尔木兹海峡的冲突进一步升级 - 华尔街日报中文网",
+      "id": "304017063b28f3",
+      "headline_claim": "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
       "discovered_via": "Regionale perspectieven",
       "other_search_labels": [
-        "Regionaal: China / Chinees"
+        "Brede GDELT-detectie"
       ],
       "publication_day": "2026-11-18",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "article_count": 5,
       "publisher_names": [
-        "华尔街日报中文网"
+        "kazu.org",
+        "kccu.org",
+        "kwit.org",
+        "news.prairiepublic.org",
+        "publicradiotulsa.org"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -302,11 +306,39 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "伊朗袭击科威特和巴林，围绕霍尔木兹海峡的冲突进一步升级 - 华尔街日报中文网",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMHAwaF9SMmUwdFFudk1VbUZFdlczS195X2hwZkREYk1OYTdyVk9VYzNTNVM5SERBdFY3MWFINDFad05QNm5oT2Y1MlU2M01jaUVyVUdKSHo0VVZad1llYTYzWk91SENKVFZhRHVzTDlMTUhaZ2twVk9yc05aVVdaZUtLMlplN1hVZWNtakZFcWNzN0xfUkZsVGNweHJaVDcyMWoxdkNFOVE?oc=5",
-          "publisher": "华尔街日报中文网",
-          "published_at": "2026-11-18T05:32:00Z",
-          "source_provider": "google_news_rss"
+          "title": "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
+          "url": "https://www.kwit.org/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+          "publisher": "kwit.org",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
+          "url": "https://news.prairiepublic.org/news-from-npr/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+          "publisher": "news.prairiepublic.org",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
+          "url": "https://www.kazu.org/npr-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+          "publisher": "kazu.org",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
+          "url": "https://www.publicradiotulsa.org/npr-national-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+          "publisher": "publicradiotulsa.org",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
+          "url": "https://www.kccu.org/world/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+          "publisher": "kccu.org",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
         }
       ]
     },
@@ -519,8 +551,8 @@
       ]
     },
     {
-      "id": "40b586407ae22c",
-      "headline_claim": "United Airlines restores systems after technology outage delays departures - Gulf Business",
+      "id": "2bb3179eab673c",
+      "headline_claim": "Middle East latest: 21 Indians evacuated following strikes on tanker - The National",
       "discovered_via": "Bedrijfsleven & investeringen",
       "other_search_labels": [
         "Bedrijfsleven & investeringen"
@@ -531,7 +563,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "gulf business"
+        "the national"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -542,10 +574,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "United Airlines restores systems after technology outage delays departures - Gulf Business",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWQyTDFtSVQyTVNFMFk4VUpCbTVzb2dyVlhlSU1VWlVQMndSdkFGTVY3WGhiOFB1UG1Yc1gzNjZoand3SDdrTTRqY3JpWmNmQ1ZLZ056V01qMjVHeFFRNEdCZkdiVHRvVVBPaFRDSGtWWkVlblk0SlJGUjcwRFZxSW5kNzFsdFlEV1BrQ3NReVpnMW5Cc0tmRl9UWmloVDVNd2pBN3JXSXJXNm5JU0tkZXJpRTVrM01Q?oc=5",
-          "publisher": "Gulf Business",
-          "published_at": "2026-11-17T05:13:20Z",
+          "title": "Middle East latest: 21 Indians evacuated following strikes on tanker - The National",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS1lqMnhfdVg2OGtJamZFSnh3Uzc2YzhteVFUemRxWTNsdjl6cU1nbDJyN2xJTUR4dGsyTEdDVC1YOXYtR0VjemJDSktyTlZFcTJBazM3cGJjRTVSWE8wVHJTaVkxTks2TjhSam95R2lWSWpySW1RclEtcmRQV1V6SVdHNUdkUEhUTGRkZngwcjExdjUwYXBGc3hQNG9KUQ?oc=5",
+          "publisher": "The National",
+          "published_at": "2026-11-17T16:57:32Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -591,19 +623,24 @@
       ]
     },
     {
-      "id": "3d1f3e433bf31a",
-      "headline_claim": "美伊突发重磅！美军突袭霍尔木兹海峡关键岛屿 伊朗导弹阵地遭精准打击 - 金融界",
+      "id": "ffb8209abc59e4",
+      "headline_claim": "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
       "discovered_via": "Regionale perspectieven",
       "other_search_labels": [
-        "Regionaal: China / Chinees"
+        "Brede GDELT-detectie"
       ],
       "publication_day": "2026-11-18",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "article_count": 6,
       "publisher_names": [
-        "金融界"
+        "guardian-series.co.uk",
+        "harrowtimes.co.uk",
+        "hexham-courant.co.uk",
+        "richmondandtwickenhamtimes.co.uk",
+        "thisiswiltshire.co.uk",
+        "wiltsglosstandard.co.uk"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -614,17 +651,52 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "美伊突发重磅！美军突袭霍尔木兹海峡关键岛屿 伊朗导弹阵地遭精准打击 - 金融界",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBld2N2SE12WHZCN2VGU2hMcEdxSWFBdHM0MEpBVzhwTUZKR09iT3l4cXBWbEhYem1NUk9XTWt4el9fdThUVE90OXVwbGE2T2VLVEU3NnhHVXRjRnNITFIyamh5TjlBSERYcTJoYzFrRGZzaHY4?oc=5",
-          "publisher": "金融界",
-          "published_at": "2026-11-18T00:00:08Z",
-          "source_provider": "google_news_rss"
+          "title": "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+          "url": "https://www.thisiswiltshire.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+          "publisher": "thisiswiltshire.co.uk",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+          "url": "https://www.guardian-series.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+          "publisher": "guardian-series.co.uk",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+          "url": "https://www.wiltsglosstandard.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+          "publisher": "wiltsglosstandard.co.uk",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+          "url": "https://www.harrowtimes.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+          "publisher": "harrowtimes.co.uk",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+          "url": "https://www.hexham-courant.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+          "publisher": "hexham-courant.co.uk",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
+        },
+        {
+          "title": "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+          "url": "https://www.richmondandtwickenhamtimes.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+          "publisher": "richmondandtwickenhamtimes.co.uk",
+          "published_at": "2026-11-18T01:15:00Z",
+          "source_provider": "gdelt_doc2"
         }
       ]
     },
     {
-      "id": "2f9719d1fd8639",
-      "headline_claim": "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
+      "id": "8a713af75f9594",
+      "headline_claim": "Iran attacks US air base in Kuwait - The Hill",
       "discovered_via": "Militair & veiligheid",
       "other_search_labels": [
         "Militair & veiligheid"
@@ -635,7 +707,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "boston herald"
+        "the hill"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -646,10 +718,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUxXbHlBVzJ5ZjRUR0lKRnF5MmpFNThseTVlNVRuTlVnXy0wQWZxanNpaXFnam9XQlJoWkpRMlpIY0cwRnlTTVpuaUh4b2lLMDJVRDVtQ1FLSVEwZ19WTHk4dnIzVEJzdENDNHhXbTE5LUJhSEJTMzZUZklkNjdSR1gyRQ?oc=5",
-          "publisher": "Boston Herald",
-          "published_at": "2026-11-18T12:39:34Z",
+          "title": "Iran attacks US air base in Kuwait - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONHpmSHlDSi1ndFFSVmhoMnFfM3RrZVpxa0JLOWFWbTZTUEItT2ozT0ZuRW9rNkU3cUZOenJldm91cEhUcEI5cHhiWTQ4VDZvcDY1WndHRGJxRWFfUGF6MVl0V05Fam05eHp1Uk4zVXVtZlVoMFg4OHlyRk5STmpFb9IBhgFBVV95cUxQaVJDY0RQY0VHOENNQ0FSdV9MU2lIaUNWanFDSGFZMHV0SlJBV3h3N3d6akRqVWFxdzRhanExcXRZOWhBSVVjX25SRlFfZGpzd3VUclZseWJiQ1N1WUR2THFuazZQYVVybUdVa1psRm1fYVMwS18wSUFPTGR2eVNadlFGbXBEQQ?oc=5",
+          "publisher": "The Hill",
+          "published_at": "2026-11-18T16:24:00Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -791,8 +863,8 @@
       ]
     },
     {
-      "id": "068790073299a6",
-      "headline_claim": "Adnoc L&S ship attacked in Strait of Hormuz with one crew member missing - The National",
+      "id": "973374659ac86f",
+      "headline_claim": "Iran War Strikes Escalate as US Hits Qeshm Island, Tehran Fires Drones at Kuwait Base and Bahrain Radar - International Business Times Australia",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
         "Wereldhandel & logistiek"
@@ -803,7 +875,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "the national"
+        "international business times australia"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -814,28 +886,28 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Adnoc L&S ship attacked in Strait of Hormuz with one crew member missing - The National",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQ3VacGM4Zk9FdHRLZmZaRTZQYVNXQjYzYkJnc2hwcEJWMl84bDdVdWpTVG5xNmJUWENoZ3FtYWlzQnpWSzE2WWUycFVtMzR3aHMtcUlZZUJlVkdKYWVDdTRuVWQ4eDRObDZCb0Q1cXVaNFk1ZG42N1FnUmltQnFzeXdSZXh0Zm5pUk9kOUVydTNEV1VFU0l3TDFxZC1vUVJCanJxWl9SRUdsbmRGTXd4aWt0SnVHVHBLRHZmWHIxeVlUdHkwTW9SV1Jabw?oc=5",
-          "publisher": "The National",
-          "published_at": "2026-11-18T10:28:20Z",
+          "title": "Iran War Strikes Escalate as US Hits Qeshm Island, Tehran Fires Drones at Kuwait Base and Bahrain Radar - International Business Times Australia",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRE5KN3RaSEJSQUhFY3BGenViYXFfeUFsaHVraVZwUVBBQjRNOEJ2aXVsOWsxNlJYTW5CSXNXeFVDS016czZpaDU3VGtWaEZUeVp6YjZuOUJzTkRzemcyQjE0dk40TmFIbDM0Q3g4OVB4cUtRc0xwX05Ib2puV0JpZVFFZjhFTENnMkE?oc=5",
+          "publisher": "International Business Times Australia",
+          "published_at": "2026-11-18T15:41:48Z",
           "source_provider": "google_news_rss"
         }
       ]
     },
     {
-      "id": "6175299b758bdf",
-      "headline_claim": "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
+      "id": "40b586407ae22c",
+      "headline_claim": "United Airlines restores systems after technology outage delays departures - Gulf Business",
       "discovered_via": "Bedrijfsleven & investeringen",
       "other_search_labels": [
         "Bedrijfsleven & investeringen"
       ],
-      "publication_day": "2026-11-15",
+      "publication_day": "2026-11-17",
       "publication_day_is_event_date": false,
-      "editorial_priority": "middel",
-      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "fox news"
+        "gulf business"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -846,10 +918,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Iran vows ‘we will find you’ to 2 US Navy officers the day warship returns from Middle East - Fox News",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSEtxTVNnWUVXRlAzQmltYXZWRl8ybFR6WmlKb05PQWxaaDBTS0hyMnp6X04wd3I2Xy1WUHpnRUYtUFgyNml2NTFVeDc1T1NfcDhaU0pWc1BoSGZFdU5MZE9PN3Boem90OW9udGpYOTRfTTltMGYtaDJQZ29xQWVQY2xZYjZydnY2SWc4M3JDY3U2X0o4RlAxaWxicXNIRklrX1FDYjhtaGZLSXPSAbABQVVfeXFMTjFLSGNkSm5LMVJtUlB2S1RmMzZTWHVpUVJNbDBmYmh1azE3NEpyY0lxWXlJMEF3UGJfOEtCUUU3bk9QUlZxeGZ4eWtfal9GaDRxVk5jV0ZsajFsRTR1RlV6Z0c3UEFjU1pObkR5VXZfRkhtZXJWRmN3R3plRmF5ZjMwN1UtYjdMZ3QtaDV2QmZYYmlBYmk4c2ZKancxUlVxZGpuUlNXdlRVakR6ZlJxd1k?oc=5",
-          "publisher": "Fox News",
-          "published_at": "2026-11-15T20:58:36Z",
+          "title": "United Airlines restores systems after technology outage delays departures - Gulf Business",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWQyTDFtSVQyTVNFMFk4VUpCbTVzb2dyVlhlSU1VWlVQMndSdkFGTVY3WGhiOFB1UG1Yc1gzNjZoand3SDdrTTRqY3JpWmNmQ1ZLZ056V01qMjVHeFFRNEdCZkdiVHRvVVBPaFRDSGtWWkVlblk0SlJGUjcwRFZxSW5kNzFsdFlEV1BrQ3NReVpnMW5Cc0tmRl9UWmloVDVNd2pBN3JXSXJXNm5JU0tkZXJpRTVrM01Q?oc=5",
+          "publisher": "Gulf Business",
+          "published_at": "2026-11-17T05:13:20Z",
           "source_provider": "google_news_rss"
         }
       ]
