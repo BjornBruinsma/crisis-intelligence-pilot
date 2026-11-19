@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-11-19T13:32:09.372715Z",
+  "last_attempt_utc": "2026-11-19T19:13:21.645514Z",
   "description": "Official-source texts and links, not automatic verification of events",
   "sources": [
     {
@@ -7,7 +7,7 @@
       "authority": "US Central Command",
       "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-19T13:32:04.227687Z",
+      "retrieved_at": "2026-11-19T19:12:59.467519Z",
       "status": "ok",
       "title": "US Central Command",
       "passages": [
@@ -58,7 +58,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/iran",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-19T13:32:04.219632Z",
+      "retrieved_at": "2026-11-19T19:12:59.887041Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -170,7 +170,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-19T13:32:04.234694Z",
+      "retrieved_at": "2026-11-19T19:12:59.900629Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -271,7 +271,7 @@
       "authority": "US Department of State",
       "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
       "kind": "official_rss",
-      "retrieved_at": "2026-11-19T13:32:04.138745Z",
+      "retrieved_at": "2026-11-19T19:12:59.169696Z",
       "status": "ok",
       "title": "US travel advice RSS (filtered: Middle East)",
       "passages": [],
@@ -643,7 +643,7 @@
       "authority": "International Maritime Organization",
       "url": "https://www.imo.org/en/mediacentre/pressbriefings/default.aspx",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-19T13:32:04.863816Z",
+      "retrieved_at": "2026-11-19T19:12:59.965803Z",
       "status": "ok",
       "title": "International Maritime Organization",
       "passages": [
@@ -701,9 +701,9 @@
       "authority": "Pakistan Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.pk/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-19T13:32:06.039427Z",
+      "retrieved_at": "2026-11-19T19:13:21.644994Z",
       "status": "error",
-      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
+      "error": "URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
       "passages": [],
       "links": []
     },
@@ -712,7 +712,7 @@
       "authority": "China Ministry of Foreign Affairs",
       "url": "https://www.fmprc.gov.cn/mfa_eng/index.html",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-19T13:32:04.692653Z",
+      "retrieved_at": "2026-11-19T19:13:00.558211Z",
       "status": "ok",
       "title": "China Ministry of Foreign Affairs",
       "passages": [],
@@ -736,10 +736,6 @@
         {
           "title": "China-Russia-U.S. Heads of State Declaration toward Peace",
           "url": "https://www.fmprc.gov.cn/mfa_eng/xw/zyxw/202611/t20261119_12063224.html"
-        },
-        {
-          "title": "Remarks by H.E. Xi Jinping at the 33rd APEC Economic Leaders’ Meeting",
-          "url": "https://www.fmprc.gov.cn/mfa_eng/xw/zyxw/202611/t20261119_12062666.html"
         },
         {
           "title": "Xi Jinping to Attend the 33rd APEC Economic Leaders’ Meeting and Related Events",
@@ -780,7 +776,7 @@
       "authority": "US Treasury",
       "url": "https://home.treasury.gov/news/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-19T13:32:04.406606Z",
+      "retrieved_at": "2026-11-19T19:13:00.069527Z",
       "status": "ok",
       "title": "US Treasury",
       "passages": [
@@ -795,11 +791,10 @@
         "Outbound Investment Security Program",
         "Macroeconomic and Foreign Exchange Policies of Major Trading Partners",
         "U.S.-China Comprehensive Strategic Economic Dialogue (CED)",
+        "Treasury Sanctions Major Drug Trafficking Organizations Supporting Terrorist Cartels",
         "Treasury’s Office of Cybersecurity and Critical Infrastructure Protection Issues Annual Consumer Advisory on Holiday Scams",
         "Operation Economic Outcast Targets Iran’s Proxy Networks",
         "Treasury Sanctions Guatemalan Drug Trafficking Organizations Supporting Mexican Narco-Terrorist Cartels",
-        "Operation Economic Outcast Sanctions Eight Canadian Money Services Businesses Enabling Iranian Regime",
-        "Operation Economic Outcast Severs MEXC Global’s Access to the U.S. Financial System",
         "Alcohol and Tobacco Tax and Trade (TTB)"
       ],
       "links": [
@@ -824,6 +819,10 @@
           "url": "https://home.treasury.gov/policy-issues/international/us-china-comprehensive-economic-dialogue/"
         },
         {
+          "title": "Treasury Sanctions Major Drug Trafficking Organizations Supporting Terrorist Cartels",
+          "url": "https://home.treasury.gov/news/press-releases/sb0696/"
+        },
+        {
           "title": "Treasury’s Office of Cybersecurity and Critical Infrastructure Protection Issues Annual Consumer Advisory on Holiday Scams",
           "url": "https://home.treasury.gov/news/press-releases/sb0694/"
         },
@@ -834,14 +833,6 @@
         {
           "title": "Treasury Sanctions Guatemalan Drug Trafficking Organizations Supporting Mexican Narco-Terrorist Cartels",
           "url": "https://home.treasury.gov/news/press-releases/sb0689/"
-        },
-        {
-          "title": "Operation Economic Outcast Sanctions Eight Canadian Money Services Businesses Enabling Iranian Regime",
-          "url": "https://home.treasury.gov/news/press-releases/sb0686/"
-        },
-        {
-          "title": "Operation Economic Outcast Severs MEXC Global’s Access to the U.S. Financial System",
-          "url": "https://home.treasury.gov/news/press-releases/sb0685/"
         }
       ]
     },
@@ -850,7 +841,7 @@
       "authority": "US Energy Information Administration",
       "url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-19T13:32:04.437242Z",
+      "retrieved_at": "2026-11-19T19:13:00.093835Z",
       "status": "ok",
       "title": "US Energy Information Administration",
       "passages": [
@@ -957,7 +948,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-19T13:32:04.641794Z",
+      "retrieved_at": "2026-11-19T19:13:00.118029Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1045,7 +1036,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-19T13:32:04.673500Z",
+      "retrieved_at": "2026-11-19T19:13:00.271330Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1131,7 +1122,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/qatar",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-19T13:32:04.854561Z",
+      "retrieved_at": "2026-11-19T19:13:00.289706Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1219,7 +1210,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-19T13:32:04.895418Z",
+      "retrieved_at": "2026-11-19T19:13:00.260147Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1313,7 +1304,7 @@
       "authority": "United Arab Emirates Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.ae/en",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-19T13:32:09.353835Z",
+      "retrieved_at": "2026-11-19T19:13:02.754753Z",
       "status": "ok",
       "title": "United Arab Emirates Ministry of Foreign Affairs",
       "passages": [
@@ -1322,6 +1313,7 @@
         "Services show submenu for Services Services for Individuals Documents Attestation Return document Twajudi Emergency communications for the Emirati traveler Travel requirements by destination To Whom It May Concern Return document (Golden Visa Holders) Document Verification Services for Businesses Documents Attestation Commercial Invoices Attestation (Via eDAS 2.0) Services for Government Entities Diplomatic, Special and Mission Passport Issuance Diplomatic and Special Passport Renewal Diplomatic and Special Passport Replacement Diplomatic and Special and Mission Passport Cancellation Invitations & Communications Services Services for Foreign Missions Diplomatic Notes Gateway New Diplomatic, Consular, International Organizations, Special ID Cards Issuance Airport Entry Permits Visits & Meet",
         "Foreign Policy show submenu for Foreign Policy Agreements Critical Emerging Advanced Technology Cultural and public Diplomacy Climate Action Cop28 Development Assistance Economic Diplomacy Combatting Human Trafficking Labour Rights UAE’s Candidacy for the United Nations Human Rights Council 2022-2024 Women's rights Water Scarcity",
         "Services show submenu for Services Services for Individuals Documents Attestation Return document Twajudi Emergency communications for the Emirati traveler Travel requirements by destination To Whom It May Concern Return document (Golden Visa Holders) Document Verification Services for Businesses Documents Attestation Commercial Invoices Attestation (Via eDAS 2.0) Services for Government Entities Diplomatic, Special and Mission Passport Issuance Diplomatic and Special Passport Renewal Diplomatic and Special Passport Replacement Diplomatic and Special and Mission Passport Cancellation Invitations & Communications Services Services for Foreign Missions Diplomatic Notes Gateway New Diplomatic, Consular, International Organizations, Special ID Cards Issuance Airport Entry Permits Visits & Meet",
+        "UAE Strongly Condemns Houthi Group’s Attempt to Target Several Areas in Saudi Arabia",
         "Abdullah bin Zayed, Qatar Prime Minister discuss bilateral ties, regional developments",
         "Abdullah bin Zayed attends Luxembourg Embassy's 15th anniversary celebration",
         "Travel requirements by destination for Emirati travelers",
@@ -1344,7 +1336,7 @@
       "authority": "Islamic Republic of Iran Ministry of Foreign Affairs",
       "url": "https://en.mfa.ir/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-19T13:32:05.810868Z",
+      "retrieved_at": "2026-11-19T19:13:03.864690Z",
       "status": "error",
       "error": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
       "passages": [],
@@ -1355,12 +1347,12 @@
       "authority": "Permanent Mission of Pakistan to the United Nations",
       "url": "https://pakun.org/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-19T13:32:05.300058Z",
+      "retrieved_at": "2026-11-19T19:13:01.046997Z",
       "status": "ok",
       "title": "Permanent Mission of Pakistan to the United Nations",
       "passages": [
+        "Explanation of Vote by First Secretary Saad Ahmad at the Adoption of Country-Specific Resolutions, (The Situation of Human Rights in Iran) in the Third Committee of the UN General Assembly (18 November 2026)",
         "Statement by Ambassador Syed Haider Shah, Permanent Representative of Pakistan of Pakistan to the UN, at the Security Council Briefing on the International Criminal Court’s Investigations in Libya (18 November 2026)",
-        "Explanation of Vote by First Secretary Zulifqar Ali, at the Adoption of Country-Specific Resolutions, (The Situation of Human Rights in Iran) in the Third Committee of the UN General Assembly (18 November 2026)",
         "Statement by Ambassador Syed Haider Shah, Permanent Representative of Pakistan to the United Nations, at the Security Council Briefing on the Political and Humanitarian Situation in Syria (16 November 2026)"
       ],
       "links": []
@@ -1370,7 +1362,7 @@
       "authority": "Permanent Mission of China to the United Nations",
       "url": "https://un.china-mission.gov.cn/eng/fyrth/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-19T13:32:05.986435Z",
+      "retrieved_at": "2026-11-19T19:13:01.436011Z",
       "status": "ok",
       "title": "Permanent Mission of China to the United Nations",
       "passages": [
@@ -1503,7 +1495,7 @@
     }
   ],
   "errors": {
-    "pakistan_mofa": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
+    "pakistan_mofa": "URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
     "iran_mfa": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
   }
 }

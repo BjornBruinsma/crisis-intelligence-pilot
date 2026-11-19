@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-19T13:32:03.921082Z",
+  "last_attempt_utc": "2026-11-19T19:12:58.963477Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -7015,6 +7015,102 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-19T13:32:02.920700Z"
+    },
+    "2837ba97639697": {
+      "id": "2837ba97639697",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "commentary",
+      "summary_nl": "Rahul Gandhi bekritiseert het buitenlandse beleid van premier Modi en stelt dat India een bijrol speelt, met verwijzing naar de rol van Pakistan in de Iran-VS gesprekken.",
+      "claimed_event_nl": "Rahul Gandhi beweert dat India een bijrol heeft in de internationale politiek.",
+      "reason_nl": "De kritiek op het buitenlandse beleid van India is politiek van aard en heeft geen directe impact op de situatie in de Golfregio.",
+      "limitations_nl": "De bewering is subjectief en weerspiegelt een politieke opinie.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-19T19:12:54.741947Z"
+    },
+    "ba90122f657ad0": {
+      "id": "ba90122f657ad0",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran zou zijn aanvallen op olietankers in de Straat van Hormuz hebben geïntensiveerd terwijl de olieprijzen met 20% zijn gedaald.",
+      "claimed_event_nl": "Iran heeft zijn aanvallen op olietankers in de Straat van Hormuz geïntensiveerd.",
+      "reason_nl": "De escalatie van aanvallen kan leiden tot verhoogde spanningen in de regio en invloed hebben op de olieprijzen.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd en kan speculatief zijn.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-19T19:12:54.741971Z"
+    },
+    "404824c16d80c4": {
+      "id": "404824c16d80c4",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen stijgen weer na een daling, terwijl de spanningen tussen de VS en Iran in de gaten worden gehouden.",
+      "claimed_event_nl": "Olieprijzen stijgen weer na eerdere dalingen.",
+      "reason_nl": "De fluctuaties in olieprijzen kunnen economische gevolgen hebben, afhankelijk van de geopolitieke situatie.",
+      "limitations_nl": "De relatie tussen olieprijzen en geopolitieke spanningen is complex en niet altijd direct.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-19T19:12:54.741980Z"
+    },
+    "9a2b2244c0fc6d": {
+      "id": "9a2b2244c0fc6d",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "event_claim",
+      "summary_nl": "De IEA ziet mogelijkheden voor soepelere olie- en LNG-markten na de crisis in de Straat van Hormuz.",
+      "claimed_event_nl": "De IEA claimt dat er potentieel is voor soepelere olie- en LNG-markten.",
+      "reason_nl": "Dit kan wijzen op een mogelijke stabilisatie van de markten na een periode van spanning.",
+      "limitations_nl": "De claim is gebaseerd op een voorspelling en kan variëren afhankelijk van toekomstige ontwikkelingen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-19T19:12:54.741986Z"
+    },
+    "813223a4dd62f2": {
+      "id": "813223a4dd62f2",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De tarieven voor VLCC's in het Midden-Oosten zijn gedaald door een afname van de vraag naar langeafstandstransport.",
+      "claimed_event_nl": "VLCC-tarieven in het Midden-Oosten zijn gedaald.",
+      "reason_nl": "Dit kan wijzen op veranderingen in de vraag naar olie en de impact van geopolitieke spanningen op de markt.",
+      "limitations_nl": "De daling van tarieven kan door verschillende factoren worden beïnvloed en is niet uitsluitend te wijten aan geopolitieke situaties.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-19T19:12:54.741991Z"
+    },
+    "597f73ea55af8b": {
+      "id": "597f73ea55af8b",
+      "relevance": "irrelevant",
+      "importance": "low",
+      "direction": "neutral",
+      "kind": "event_claim",
+      "summary_nl": "Letland claimt een repatriëringsvlucht vanuit het Midden-Oosten te organiseren met airBaltic.",
+      "claimed_event_nl": "Letland organiseert een repatriëringsvlucht vanuit het Midden-Oosten.",
+      "reason_nl": "De claim heeft geen directe relevantie voor de situatie in Iran of de Golfregio.",
+      "limitations_nl": "De informatie is niet geverifieerd en betreft een toekomstige gebeurtenis.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-19T19:12:57.963265Z"
     }
   },
   "usage_by_day": {
@@ -7027,8 +7123,8 @@
       "total_tokens": 6091
     },
     "2026-11-19": {
-      "requests": 3,
-      "total_tokens": 3868
+      "requests": 5,
+      "total_tokens": 6235
     }
   }
 }
