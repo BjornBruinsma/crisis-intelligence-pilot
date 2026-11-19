@@ -1,17 +1,17 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-19T01:27:39.576079Z",
-  "fingerprint": "c624c302731c61461374656f",
+  "last_attempt_utc": "2026-11-19T07:31:56.068150Z",
+  "fingerprint": "afe218e8613e3095ee5578cd",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 20,
-  "event_candidate_count": 18,
+  "input_candidate_count": 22,
+  "event_candidate_count": 20,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
+    "model_pair_proposals": 3,
     "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 2,
+    "rejected_pair_proposals": 1,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-19T01:27:39.576079Z",
+    "recorded_at": "2026-11-19T07:31:56.068150Z",
     "groups": [
       {
         "ids": [
@@ -71,6 +71,17 @@
       },
       {
         "ids": [
+          "27c66f92687313"
+        ],
+        "label_nl": "Claim: Oil futures: Crude steadies at lower levels, US-Iran diplomacy eyed - Quantum Commodity Intelligence",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "9b5230aef3852f"
         ],
         "label_nl": "Claim: ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
@@ -104,15 +115,14 @@
       },
       {
         "ids": [
-          "2f9719d1fd8639",
-          "2f4491d905ebac"
+          "2f9719d1fd8639"
         ],
         "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -149,6 +159,17 @@
       },
       {
         "ids": [
+          "28bffd78d9d636"
+        ],
+        "label_nl": "Claim: Energy markets can ‘manage without’ the Strait of Hormuz, says IEA - Financial Times",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "f79dfbe788282c"
         ],
         "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
@@ -171,14 +192,15 @@
       },
       {
         "ids": [
-          "ffb8209abc59e4"
+          "ffb8209abc59e4",
+          "2f4491d905ebac"
         ],
         "label_nl": "Claim: Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -230,6 +252,7 @@
       "8700f82af7c7c4",
       "2d8a7b3704f988",
       "cca12ccdc9dadc",
+      "27c66f92687313",
       "9b5230aef3852f",
       "504f736c5ef687",
       "304017063b28f3",
@@ -237,6 +260,7 @@
       "3e0c54fcccdf45",
       "77603d8aa1f637",
       "6a77d40e3f43b2",
+      "28bffd78d9d636",
       "f79dfbe788282c",
       "9384f566cb96e5",
       "ffb8209abc59e4",
@@ -249,7 +273,7 @@
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 0,
+  "direct_official_match_count": 2,
   "events": [
     {
       "id": "60c5dee2ede2328bc6271a4b",
@@ -280,51 +304,13 @@
       "primary_evidence": {
         "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
         "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated",
-        "relation": "related_only",
-        "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS, maar bevestigt geen specifieke aanval of gebeurtenis.",
+        "evidence_id": "uk_iran:p13",
+        "exact_excerpt": "The US and Israel have struck infrastructure across Iran.",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage ondersteunt de claim dat de VS betrokken zijn bij militaire acties tegen Iran.",
         "automatic_match_only": true
       },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "b14ca61f521f040e05ae6345",
-      "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
-      "headline_claim_ids": [
-        "2f9719d1fd8639",
-        "2f4491d905ebac"
-      ],
-      "headline_claims": [
-        "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
-        "Iran hits U.S. Kuwait base, widens Gulf attacks - Ticker News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUxXbHlBVzJ5ZjRUR0lKRnF5MmpFNThseTVlNVRuTlVnXy0wQWZxanNpaXFnam9XQlJoWkpRMlpIY0cwRnlTTVpuaUh4b2lLMDJVRDVtQ1FLSVEwZ19WTHk4dnIzVEJzdENDNHhXbTE5LUJhSEJTMzZUZklkNjdSR1gyRQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbFIwdXVqTU1ETUpaMXZDY2c2NWFaTlpvMnNnd0xrX2lqTFBtUHF3aHBWR2NYSTBLY0xuTTVTblZCeEltUWlzcjUxakpZenhBRGNRX1FxZDdQVEoyeEFaVm1uekcyeXhteEJfUlJUbURLLWRuY2NIelRmVHpTVnRWOE53?oc=5",
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN0xDemZGVjhEMkx4d3BhU3hqcVJsWi1zMlY2Nkd0WTFaYmJzbU9fQVZsZk5QLU5RMHk3dmg4T0JHOGxfZkV4VU9mc1JldWxhbmdqaFJNbS1Ibmp5OTJXWmIzM2xRU1BMUmlVWnpxRGt6bUJoeEN4TVlMMHF4QVlsWXBNODJDaGoyQjU1d0kzMA?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began",
-        "relation": "related_only",
-        "reason_nl": "De passage spreekt over de risico's in de regio, maar bevestigt geen specifieke aanvallen op Amerikaanse bases.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -350,15 +336,49 @@
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
+        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
         "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others",
-        "relation": "related_only",
-        "reason_nl": "De passage vermeldt aanvallen in de regio, maar bevestigt geen specifieke statusupdate van vluchten of datums.",
+        "evidence_id": "uk_saudi:p6",
+        "exact_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026.",
+        "relation": "supports_specific_claim",
+        "reason_nl": "Deze passage bevestigt dat er aanvallen op luchthavens in de regio plaatsvinden.",
         "automatic_match_only": true
       },
-      "research_status": "related_official_material_only",
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "271e52f86db18af1fc462993",
+      "label_nl": "Claim: Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+      "headline_claim_ids": [
+        "ffb8209abc59e4",
+        "2f4491d905ebac"
+      ],
+      "headline_claims": [
+        "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+        "Iran hits U.S. Kuwait base, widens Gulf attacks - Ticker News"
+      ],
+      "related_news_links": [
+        "https://www.thisiswiltshire.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://www.guardian-series.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://www.wiltsglosstandard.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://www.harrowtimes.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://www.hexham-courant.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://www.richmondandtwickenhamtimes.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN0xDemZGVjhEMkx4d3BhU3hqcVJsWi1zMlY2Nkd0WTFaYmJzbU9fQVZsZk5QLU5RMHk3dmg4T0JHOGxfZkV4VU9mc1JldWxhbmdqaFJNbS1Ibmp5OTJXWmIzM2xRU1BMUmlVWnpxRGt6bUJoeEN4TVlMMHF4QVlsWXBNODJDaGoyQjU1d0kzMA?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 7,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -383,16 +403,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others",
-        "relation": "related_only",
-        "reason_nl": "De passage verwijst naar aanvallen in de regio, maar bevestigt geen specifieke aanval op een schip of details over ADNOC.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -417,16 +429,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began",
-        "relation": "related_only",
-        "reason_nl": "De passage vermeldt de onvoorspelbaarheid van de situatie in Iran, maar bevestigt geen specifieke crisis of sancties.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -455,16 +459,35 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated",
-        "relation": "related_only",
-        "reason_nl": "De passage verwijst naar de intenties van Iran, maar bevestigt geen specifieke aanvallen op Bahrein.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "c55315301af87256a2599c5a",
+      "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
+      "headline_claim_ids": [
+        "2f9719d1fd8639"
+      ],
+      "headline_claims": [
+        "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUxXbHlBVzJ5ZjRUR0lKRnF5MmpFNThseTVlNVRuTlVnXy0wQWZxanNpaXFnam9XQlJoWkpRMlpIY0cwRnlTTVpuaUh4b2lLMDJVRDVtQ1FLSVEwZ19WTHk4dnIzVEJzdENDNHhXbTE5LUJhSEJTMzZUZklkNjdSR1gyRQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbFIwdXVqTU1ETUpaMXZDY2c2NWFaTlpvMnNnd0xrX2lqTFBtUHF3aHBWR2NYSTBLY0xuTTVTblZCeEltUWlzcjUxakpZenhBRGNRX1FxZDdQVEoyeEFaVm1uekcyeXhteEJfUlJUbURLLWRuY2NIelRmVHpTVnRWOE53?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -489,16 +512,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated",
-        "relation": "related_only",
-        "reason_nl": "De passage vermeldt de intenties van Iran, maar bevestigt geen specifieke plannen voor een vuile bom.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -523,16 +538,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began",
-        "relation": "related_only",
-        "reason_nl": "De passage spreekt over de risico's in de regio, maar bevestigt geen specifieke informatie over olieprijzen.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -558,55 +565,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others",
-        "relation": "related_only",
-        "reason_nl": "De passage verwijst naar aanvallen in de regio, maar bevestigt geen specifieke brand of mijnaanval.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "abea84438467d8dc3ddbfabe",
-      "label_nl": "Claim: Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
-      "headline_claim_ids": [
-        "ffb8209abc59e4"
-      ],
-      "headline_claims": [
-        "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation"
-      ],
-      "related_news_links": [
-        "https://www.thisiswiltshire.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
-        "https://www.guardian-series.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
-        "https://www.wiltsglosstandard.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
-        "https://www.harrowtimes.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
-        "https://www.hexham-courant.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
-        "https://www.richmondandtwickenhamtimes.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 6,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others",
-        "relation": "related_only",
-        "reason_nl": "De passage verwijst naar aanvallen in de regio, maar bevestigt geen specifieke informatie over een nieuwe aanval in Bahrein.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -631,13 +591,73 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "e6ff41356f432db67663a801",
+      "label_nl": "Claim: Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance",
+      "headline_claim_ids": [
+        "cca12ccdc9dadc"
+      ],
+      "headline_claims": [
+        "Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWXJ2aExLekNjeW00aGRET2wyTWZxVUhYTnpmNGx5SUx5OTFZc3VYQmhIS01YMTVlZHFPd2RZaTVXbU82aEY2Q3BYTW56TkhzY3pYanpGQy1sMlJheWFuZkNJdTFMd1Ffa0NCclBGT0JTVkdVWGl6ZzNyVE01SkxSQS00cVhDZ2d2c1FidDVreml0RVE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated",
+        "official_url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
+        "authority": "US Energy Information Administration",
+        "evidence_id": "eia_energy:p22",
+        "exact_excerpt": "Energy & Financial Markets: What Drives Crude Oil Prices?",
         "relation": "related_only",
-        "reason_nl": "De passage vermeldt de intenties van Iran, maar bevestigt geen specifieke bedreigingen aan Amerikaanse marineofficieren.",
+        "reason_nl": "Deze passage is gerelateerd aan de olieprijzen, maar biedt geen specifieke ondersteuning voor de claim.",
+        "automatic_match_only": true
+      },
+      "research_status": "related_official_material_only",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "2d903dc5e8b2c357be363341",
+      "label_nl": "Claim: Oil futures: Crude steadies at lower levels, US-Iran diplomacy eyed - Quantum Commodity Intelligence",
+      "headline_claim_ids": [
+        "27c66f92687313"
+      ],
+      "headline_claims": [
+        "Oil futures: Crude steadies at lower levels, US-Iran diplomacy eyed - Quantum Commodity Intelligence"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxORDBKYXowTUZjUVZTMjFUbmFwUno5RU5xZWZmMUR2SHVhS1Q4Zi1UeXNLcW9TTjNDUS1tb3dlbTAzb09PdHN1WGoyalJyWkZKSDZPUHpBN1FnTlhhd0QzaDBZcFVaY2JqY1JxZjI5SkVQS3A3TFBFTk5LcG5MTWtMUm82RUVRaTF5cjZTSGVONzdqeFNmc2xNcUQ2SFNiRDFhZXBDT3dXWWRpTEJG?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
+        "authority": "US Energy Information Administration",
+        "evidence_id": "eia_energy:p22",
+        "exact_excerpt": "Energy & Financial Markets: What Drives Crude Oil Prices?",
+        "relation": "related_only",
+        "reason_nl": "Deze passage is gerelateerd aan de olieprijzen, maar biedt geen specifieke ondersteuning voor de claim.",
         "automatic_match_only": true
       },
       "research_status": "related_official_material_only",
@@ -665,50 +685,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began",
-        "relation": "related_only",
-        "reason_nl": "De passage verwijst naar de onvoorspelbaarheid in de regio en de mogelijkheid van escalatie, maar bevestigt geen specifieke bijeenkomst of diplomatiek overleg.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "e6ff41356f432db67663a801",
-      "label_nl": "Claim: Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance",
-      "headline_claim_ids": [
-        "cca12ccdc9dadc"
-      ],
-      "headline_claims": [
-        "Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWXJ2aExLekNjeW00aGRET2wyTWZxVUhYTnpmNGx5SUx5OTFZc3VYQmhIS01YMTVlZHFPd2RZaTVXbU82aEY2Q3BYTW56TkhzY3pYanpGQy1sMlJheWFuZkNJdTFMd1Ffa0NCclBGT0JTVkdVWGl6ZzNyVE01SkxSQS00cVhDZ2d2c1FidDVreml0RVE?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began",
-        "relation": "related_only",
-        "reason_nl": "De passage spreekt over de risico's in de regio, maar bevestigt geen specifieke informatie over olieprijzen of aanvallen.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -733,16 +711,34 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began",
-        "relation": "related_only",
-        "reason_nl": "De passage verwijst naar de onvoorspelbaarheid in de regio, maar bevestigt geen specifieke bemiddelingsinspanningen.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "66d664bb7480fcc4512f2599",
+      "label_nl": "Claim: Energy markets can ‘manage without’ the Strait of Hormuz, says IEA - Financial Times",
+      "headline_claim_ids": [
+        "28bffd78d9d636"
+      ],
+      "headline_claims": [
+        "Energy markets can ‘manage without’ the Strait of Hormuz, says IEA - Financial Times"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxQclpkNktKMTQyVEd2elBKSFpFaHVBM0FXTEdaLVRIcVVUbEpNZk5nLXZWR0FiZ0FtUTVNcjh3aXNkYXBzOE91NFFfOTJtQjlMWFFIenprVF83QUk1ZDlpYmlSTW9qRFZZLXk4ZlhSMEJnZ3Z6clJ2T3BJOXkxNENzTThUOU8?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -768,16 +764,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began",
-        "relation": "related_only",
-        "reason_nl": "De passage spreekt over de risico's in de regio, maar bevestigt geen specifieke informatie over de eurozone.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -802,50 +790,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began",
-        "relation": "related_only",
-        "reason_nl": "De passage spreekt over de risico's in de regio, maar bevestigt geen specifieke informatie over de bijeenkomst in Qatar.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "bcae45c9f3e5b7ed93b5e482",
-      "label_nl": "Claim: The Oil Market Is Brimming With Crude Despite Tanker Attacks - Yahoo Finance",
-      "headline_claim_ids": [
-        "75a5fe23d0357a"
-      ],
-      "headline_claims": [
-        "The Oil Market Is Brimming With Crude Despite Tanker Attacks - Yahoo Finance"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxORlF2eEwxWlAtQjVxVGNkYmhYczNPSkhnRWhQd3V4NVE2SEpSWVI0c3lVcVNxZm5ZTG9hd2RNY3FtR3dzSkRyY0t2ZVlVUkFoajZCVEVKRXgwZmdDZEVWbndWMUtuU1pKNmFwWTl6ZmY1SjBFdXRBS2RSWm9KMlcwM3NmaFRqRXJNQTJ4d01uVVVpeGxh?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high. Since conflict began",
-        "relation": "related_only",
-        "reason_nl": "De passage spreekt over de risico's in de regio, maar bevestigt geen specifieke informatie over de olieprijzen.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -874,6 +820,32 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
+    },
+    {
+      "id": "bcae45c9f3e5b7ed93b5e482",
+      "label_nl": "Claim: The Oil Market Is Brimming With Crude Despite Tanker Attacks - Yahoo Finance",
+      "headline_claim_ids": [
+        "75a5fe23d0357a"
+      ],
+      "headline_claims": [
+        "The Oil Market Is Brimming With Crude Despite Tanker Attacks - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxORlF2eEwxWlAtQjVxVGNkYmhYczNPSkhnRWhQd3V4NVE2SEpSWVI0c3lVcVNxZm5ZTG9hd2RNY3FtR3dzSkRyY0t2ZVlVUkFoajZCVEVKRXgwZmdDZEVWbndWMUtuU1pKNmFwWTl6ZmY1SjBFdXRBS2RSWm9KMlcwM3NmaFRqRXJNQTJ4d01uVVVpeGxh?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
     }
   ],
   "usage_by_day": {
@@ -886,8 +858,8 @@
       "total_tokens": 31822
     },
     "2026-11-19": {
-      "requests": 3,
-      "total_tokens": 8856
+      "requests": 6,
+      "total_tokens": 18257
     }
   }
 }
