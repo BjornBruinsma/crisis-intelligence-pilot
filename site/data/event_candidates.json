@@ -1,12 +1,12 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-19T07:31:56.068150Z",
-  "fingerprint": "afe218e8613e3095ee5578cd",
+  "last_attempt_utc": "2026-11-19T13:32:09.444226Z",
+  "fingerprint": "58bc8ac8416bf0e24e1621cf",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 22,
-  "event_candidate_count": 20,
+  "input_candidate_count": 23,
+  "event_candidate_count": 21,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
     "model_pair_proposals": 3,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-19T07:31:56.068150Z",
+    "recorded_at": "2026-11-19T13:32:09.444226Z",
     "groups": [
       {
         "ids": [
@@ -38,9 +38,9 @@
       },
       {
         "ids": [
-          "8700f82af7c7c4"
+          "d52fa888c7b143"
         ],
-        "label_nl": "Claim: Qatar to hold meeting with Iran as Doha warns regional escalation threatens diplomatic efforts - Doha News",
+        "label_nl": "Claim: Trump calls Vance's Iran ceasefire memorandum a ‘waste of time’ after midterm losses | Hindustan Times - Hindustan Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -60,9 +60,9 @@
       },
       {
         "ids": [
-          "cca12ccdc9dadc"
+          "1e760350a8a234"
         ],
-        "label_nl": "Claim: Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance",
+        "label_nl": "Claim: Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
         "actor": "",
         "action": "",
         "place": "",
@@ -71,9 +71,9 @@
       },
       {
         "ids": [
-          "27c66f92687313"
+          "6608540c8138df"
         ],
-        "label_nl": "Claim: Oil futures: Crude steadies at lower levels, US-Iran diplomacy eyed - Quantum Commodity Intelligence",
+        "label_nl": "Claim: Oil futures: Crude lifts of lows, US-Iran conflict eyed - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
@@ -126,9 +126,9 @@
       },
       {
         "ids": [
-          "3e0c54fcccdf45"
+          "c096e7dafa831d"
         ],
-        "label_nl": "Claim: Qatar continues mediation between US and Iran, warns against escalation - Qatar Tribune",
+        "label_nl": "Claim: Trump ‘Not Happy’ With Iran, Touts Strait ‘100% Shut’ - EnergyNow.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -148,9 +148,9 @@
       },
       {
         "ids": [
-          "6a77d40e3f43b2"
+          "cca12ccdc9dadc"
         ],
-        "label_nl": "Claim: Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com",
+        "label_nl": "Claim: Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance",
         "actor": "",
         "action": "",
         "place": "",
@@ -159,9 +159,9 @@
       },
       {
         "ids": [
-          "28bffd78d9d636"
+          "27c66f92687313"
         ],
-        "label_nl": "Claim: Energy markets can ‘manage without’ the Strait of Hormuz, says IEA - Financial Times",
+        "label_nl": "Claim: Oil futures: Crude steadies at lower levels, US-Iran diplomacy eyed - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
@@ -204,9 +204,9 @@
       },
       {
         "ids": [
-          "d511c8f0cbc235"
+          "8700f82af7c7c4"
         ],
-        "label_nl": "Claim: Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn",
+        "label_nl": "Claim: Qatar to hold meeting with Iran as Doha warns regional escalation threatens diplomatic efforts - Doha News",
         "actor": "",
         "action": "",
         "place": "",
@@ -226,9 +226,20 @@
       },
       {
         "ids": [
-          "75a5fe23d0357a"
+          "6a77d40e3f43b2"
         ],
-        "label_nl": "Claim: The Oil Market Is Brimming With Crude Despite Tanker Attacks - Yahoo Finance",
+        "label_nl": "Claim: Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "28bffd78d9d636"
+        ],
+        "label_nl": "Claim: Energy markets can ‘manage without’ the Strait of Hormuz, says IEA - Financial Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -249,31 +260,32 @@
     ],
     "input_claim_ids": [
       "cb4439dd785f73",
-      "8700f82af7c7c4",
+      "d52fa888c7b143",
       "2d8a7b3704f988",
-      "cca12ccdc9dadc",
-      "27c66f92687313",
+      "1e760350a8a234",
+      "6608540c8138df",
       "9b5230aef3852f",
       "504f736c5ef687",
       "304017063b28f3",
       "2f9719d1fd8639",
-      "3e0c54fcccdf45",
+      "c096e7dafa831d",
       "77603d8aa1f637",
-      "6a77d40e3f43b2",
-      "28bffd78d9d636",
+      "cca12ccdc9dadc",
+      "27c66f92687313",
       "f79dfbe788282c",
       "9384f566cb96e5",
       "ffb8209abc59e4",
       "9a039bb82e353f",
-      "d511c8f0cbc235",
+      "8700f82af7c7c4",
       "ec097c020da3ff",
-      "75a5fe23d0357a",
+      "6a77d40e3f43b2",
+      "28bffd78d9d636",
       "2f4491d905ebac",
       "6175299b758bdf"
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 2,
+  "direct_official_match_count": 0,
   "events": [
     {
       "id": "60c5dee2ede2328bc6271a4b",
@@ -301,50 +313,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p13",
-        "exact_excerpt": "The US and Israel have struck infrastructure across Iran.",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim dat de VS betrokken zijn bij militaire acties tegen Iran.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "0c19bcb0ce763f4d7bd90880",
-      "label_nl": "Claim: UAE flights status update: Etihad, flydubai extend Saudi cancellations as Gulf attacks escalate on November 18 - Gulf News",
-      "headline_claim_ids": [
-        "2d8a7b3704f988"
-      ],
-      "headline_claims": [
-        "UAE flights status update: Etihad, flydubai extend Saudi cancellations as Gulf attacks escalate on November 18 - Gulf News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZGJfdGd2ZUFuUFZXUnlVaFBDYnd0RDRIc21vZ0FkMEVGWFozbWlYVjBob1FYZzF6UFluZmE0RlR5d2hudVMybHc2TlJSRE1ULXFUSkVVQmRIMDFydlZKR2VqamdJcnRzS1pwb0dORzdTZF9iQ0ZoM0QwZG1laE8xRzNaeW1IdTlyMkdOZlN2WWVyRkN0WWZGZjFOSTZvSE5tNUc0MGdORGZWeUxUcGZzTFV1bDQ0cGlPVndwMldqYThHcWIzamNKb2VINDY3YVdHaHV5dFY4Z25semJrVktjRnpIUlNVaUtSMVBFbks3Z9IBhAJBVV95cUxNU0VTalJZcUdmOEFoQXhGS1ZHTTFmZS1yYTliN1FZZjUwU2ZwRHd6eXhXTklXMm95QU5kNDlXazJGMGVWekFmSllUVDRweEdHck5xd0RWRmRrbjB1Q19WSkxxd2hTM1BWVUFVQWJjdzZnMkpmRmtWMzhEbXg5TUFPdEMyUGtucE50MV9rdEJ1NDc4eFZqV25WekxHMFFHaUZmdFV0dzZkc2hKUkNCMnFaTWpTczlnT09rLXoza0JQRWtPZHhmcmtRcjRTUmM2Tm44aUR6eFc5SS1pQVNFS25JYm8tajJPc0RFa2dJUk9ST1VxYmR4aEk0R01sQUhJeUxiQy1CNA?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_saudi:p6",
-        "exact_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026.",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage bevestigt dat er aanvallen op luchthavens in de regio plaatsvinden.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -377,6 +347,58 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "0c19bcb0ce763f4d7bd90880",
+      "label_nl": "Claim: UAE flights status update: Etihad, flydubai extend Saudi cancellations as Gulf attacks escalate on November 18 - Gulf News",
+      "headline_claim_ids": [
+        "2d8a7b3704f988"
+      ],
+      "headline_claims": [
+        "UAE flights status update: Etihad, flydubai extend Saudi cancellations as Gulf attacks escalate on November 18 - Gulf News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZGJfdGd2ZUFuUFZXUnlVaFBDYnd0RDRIc21vZ0FkMEVGWFozbWlYVjBob1FYZzF6UFluZmE0RlR5d2hudVMybHc2TlJSRE1ULXFUSkVVQmRIMDFydlZKR2VqamdJcnRzS1pwb0dORzdTZF9iQ0ZoM0QwZG1laE8xRzNaeW1IdTlyMkdOZlN2WWVyRkN0WWZGZjFOSTZvSE5tNUc0MGdORGZWeUxUcGZzTFV1bDQ0cGlPVndwMldqYThHcWIzamNKb2VINDY3YVdHaHV5dFY4Z25semJrVktjRnpIUlNVaUtSMVBFbks3Z9IBhAJBVV95cUxNU0VTalJZcUdmOEFoQXhGS1ZHTTFmZS1yYTliN1FZZjUwU2ZwRHd6eXhXTklXMm95QU5kNDlXazJGMGVWekFmSllUVDRweEdHck5xd0RWRmRrbjB1Q19WSkxxd2hTM1BWVUFVQWJjdzZnMkpmRmtWMzhEbXg5TUFPdEMyUGtucE50MV9rdEJ1NDc4eFZqV25WekxHMFFHaUZmdFV0dzZkc2hKUkNCMnFaTWpTczlnT09rLXoza0JQRWtPZHhmcmtRcjRTUmM2Tm44aUR6eFc5SS1pQVNFS25JYm8tajJPc0RFa2dJUk9ST1VxYmR4aEk0R01sQUhJeUxiQy1CNA?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "50726f4342db702299df37ed",
+      "label_nl": "Claim: Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
+      "headline_claim_ids": [
+        "1e760350a8a234"
+      ],
+      "headline_claims": [
+        "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUU05SE9NUnE2RUpRRlNtTVRjTDc0Ykh0Rlk1TTVXZDZTTkRQTURicXJBVnZJNXhpZWVSXzczWUhOUXNnanlwTERRNTVHTjE4NW9DTml0dGt2NTRzOEpWczVYdENfaUVpbXdKUTZKbHgtdFBDSDNWNVBHYnczejM0djRvV3I?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -518,32 +540,6 @@
       "probability_estimate": null
     },
     {
-      "id": "6eb69e6f93605d8874d0f76d",
-      "label_nl": "Claim: Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com",
-      "headline_claim_ids": [
-        "6a77d40e3f43b2"
-      ],
-      "headline_claims": [
-        "Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc21LZ1RJUkk2QU9mMzl5ZmVXU0I4MkhEc3JNU09TenlNTkR2Z3M3WmpEeEVXeTZkdUhVQjdKWTdBcEk2c1Y4RGhBdEVTQ1otNUtpLTY2SDBQUVhpVW8yZ0lGMjNPdnMwNW1jM1hTNkI5SnJfN29xYmNDb2dHNDlNLTJ4R2tHVExVYkQtem41N3lJS2RnY3BnNDhOTFBTXzdkZTJsSVg2dVJZYXJxWnNyZkc5bEIwMWx3VEhzOTRPUmltbkRoYm1PYkxYeGtrVlowX1kwWVJEQWszWF9vc0Q4MHFsVXM0NW1Bd1hvNA?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "8fb0e91f4400c02980aacecd",
       "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
       "headline_claim_ids": [
@@ -558,6 +554,32 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "6eb69e6f93605d8874d0f76d",
+      "label_nl": "Claim: Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com",
+      "headline_claim_ids": [
+        "6a77d40e3f43b2"
+      ],
+      "headline_claims": [
+        "Iran war, Hormuz attacks fail to trigger oil shock as Gulf producers ramp up output, prices slide - Moneycontrol.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOc21LZ1RJUkk2QU9mMzl5ZmVXU0I4MkhEc3JNU09TenlNTkR2Z3M3WmpEeEVXeTZkdUhVQjdKWTdBcEk2c1Y4RGhBdEVTQ1otNUtpLTY2SDBQUVhpVW8yZ0lGMjNPdnMwNW1jM1hTNkI5SnJfN29xYmNDb2dHNDlNLTJ4R2tHVExVYkQtem41N3lJS2RnY3BnNDhOTFBTXzdkZTJsSVg2dVJZYXJxWnNyZkc5bEIwMWx3VEhzOTRPUmltbkRoYm1PYkxYeGtrVlowX1kwWVJEQWszWF9vc0Q4MHFsVXM0NW1Bd1hvNA?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -597,6 +619,84 @@
       "probability_estimate": null
     },
     {
+      "id": "b1c403cb1c13b2bd378b22a6",
+      "label_nl": "Claim: Trump calls Vance's Iran ceasefire memorandum a ‘waste of time’ after midterm losses | Hindustan Times - Hindustan Times",
+      "headline_claim_ids": [
+        "d52fa888c7b143"
+      ],
+      "headline_claims": [
+        "Trump calls Vance's Iran ceasefire memorandum a ‘waste of time’ after midterm losses | Hindustan Times - Hindustan Times"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTER4U3RZeWozbHota0F5al9hTXdSeExPdFlZZkp5Q1pWWlJWT0Yzc3N5YnN0NGw0NzZFUUg4cTRkTWdSeXhldGFkanMwZENsMzZubkd4dkJDOHM1OUxiSDlTTjZTbjlacmhoM1dpMTk1c3k2RWh4N0RSOUFqSkdUbGZrNEVTU1NZM2pJVGkzd0o5eDVSek1FdXE2NUhSRWZKVU1zdHd3NmEwQ2VfU20xVS01SEJUZ3ZjcENaSDBnc1IxRG1EZXF3Zl9ub0Z4MjFYNlFGczZjdmtOZ0hTRk1ERFF0SElsanN1Y1gxUFM1elAxRFRZdFZsdVBR0gH6AUFVX3lxTE5MRHhTdFl5ajNsei1rQXlqX2FNd1J4TE90WVlmSnlDWlZaUlZPRjNzc3lic3Q0bDQ3NkVRSDhxNGRNZ1J5eGV0YWRqczBkQ2wzNm5uR3h2QkM4czU5TGJIOVNONlNuOVpyaGgzV2kxOTVzeTZFaHg3RFI5QWpKR1RsZms0RVNTU1kzaklUaTN3Sjl4NVJ6TUV1cTY1SFJFZkpVTXN0d3c2YTBDZV9TbTFVLTVIQlRndmNwQ1pIMGdzUjFEbURlcXdmX25vRngyMVg2UUZzNmN2a05nSFNGTUREUXRISWxqc3VjWDFQUzV6UDFEVFl0Vmx1UFE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "1bd0e554a736a6b687633efa",
+      "label_nl": "Claim: Oil futures: Crude lifts of lows, US-Iran conflict eyed - Quantum Commodity Intelligence",
+      "headline_claim_ids": [
+        "6608540c8138df"
+      ],
+      "headline_claims": [
+        "Oil futures: Crude lifts of lows, US-Iran conflict eyed - Quantum Commodity Intelligence"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdzA0dGJwcWN4RC1wdjU5OGlpb3RIRG5VOFRGWlRiSXBWV01zYjNIUEU2bFVxdUtjVl9xSFA2c1l2RHNDUEFWOS1GVHphSDFic2ZsRXh0ZjFTS3dwRWMwOWxQeW9hMUR4ajZwbnhLR3I5cTNWNjBHdjQ1eVRfZ21FTlltRTBDOGlEekZaczNWd2ZuS0hLOXljQTNKYTc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "63dbb0985b48d40176f381e1",
+      "label_nl": "Claim: Trump ‘Not Happy’ With Iran, Touts Strait ‘100% Shut’ - EnergyNow.com",
+      "headline_claim_ids": [
+        "c096e7dafa831d"
+      ],
+      "headline_claims": [
+        "Trump ‘Not Happy’ With Iran, Touts Strait ‘100% Shut’ - EnergyNow.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxOb0c5bG5fSWxmRnpRTkhLRXdORXRiaEF1eV80YTRLVkFLT2hiS3lRaGlmczJzTVRHakloY25raDVSMHNGbUdXUDZZc2NhaXQyS3h3VUZvMTJRaE9lS2pyREN4a1hFeTJSSWtBaE9hZEVaUF8tUmNRMWJkTkJNU2pXZlFFRkE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "e6ff41356f432db67663a801",
       "label_nl": "Claim: Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance",
       "headline_claim_ids": [
@@ -617,16 +717,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
-        "authority": "US Energy Information Administration",
-        "evidence_id": "eia_energy:p22",
-        "exact_excerpt": "Energy & Financial Markets: What Drives Crude Oil Prices?",
-        "relation": "related_only",
-        "reason_nl": "Deze passage is gerelateerd aan de olieprijzen, maar biedt geen specifieke ondersteuning voor de claim.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -641,92 +733,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMirAFBVV95cUxORDBKYXowTUZjUVZTMjFUbmFwUno5RU5xZWZmMUR2SHVhS1Q4Zi1UeXNLcW9TTjNDUS1tb3dlbTAzb09PdHN1WGoyalJyWkZKSDZPUHpBN1FnTlhhd0QzaDBZcFVaY2JqY1JxZjI5SkVQS3A3TFBFTk5LcG5MTWtMUm82RUVRaTF5cjZTSGVONzdqeFNmc2xNcUQ2SFNiRDFhZXBDT3dXWWRpTEJG?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
-        "authority": "US Energy Information Administration",
-        "evidence_id": "eia_energy:p22",
-        "exact_excerpt": "Energy & Financial Markets: What Drives Crude Oil Prices?",
-        "relation": "related_only",
-        "reason_nl": "Deze passage is gerelateerd aan de olieprijzen, maar biedt geen specifieke ondersteuning voor de claim.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "4341d06d5a13135c1522b91f",
-      "label_nl": "Claim: Qatar to hold meeting with Iran as Doha warns regional escalation threatens diplomatic efforts - Doha News",
-      "headline_claim_ids": [
-        "8700f82af7c7c4"
-      ],
-      "headline_claims": [
-        "Qatar to hold meeting with Iran as Doha warns regional escalation threatens diplomatic efforts - Doha News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxObHJ2Tlg5bWp1bm01WG94VEJqVmRCcUhWeHdubUtSUzNoeDc4OWVyUmhpZVFQXzR4Q3lsUzE0Q3pULVNnVFpWNzg3MXZNM3NTS2M1WE5Rd2dLdm5SU0tRNE00N0FYU25fYmt6SE5pUW5CVkNxNXROYnV5QzczckVIRTUzVEtDYkdYOU81QTBtbnNReGR0OTdXR3p6ZVJGaF80VnNzem9VM3FzbHc2UzlVUjdoOVRrQQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "afcfeb4b84439f519e7acc10",
-      "label_nl": "Claim: Qatar continues mediation between US and Iran, warns against escalation - Qatar Tribune",
-      "headline_claim_ids": [
-        "3e0c54fcccdf45"
-      ],
-      "headline_claims": [
-        "Qatar continues mediation between US and Iran, warns against escalation - Qatar Tribune"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSE5sVXFOYzlhVE0xTl9WYU52V3JGVzg4YmM0UlAtbUl2eEhTVXpldnNrVlFidEtNM2FPUl8xZ2c1M1BxVVhSSFBwNGZ2MUE1a1haTTJubGlFUVhENWRUSU10eFI2djQyNmZzcnJnQXZEM0xHcmtpWGxkcUNIamVHR2ZjRUFkNGVPdThPV1VQMXN6LXdHUTgwZVdjRHJxZWh3LTd6T1NKdlRrNjBTTnI2YmE1a1FBeGEtbkZ3TUhkbGVPeEI3THc?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "66d664bb7480fcc4512f2599",
-      "label_nl": "Claim: Energy markets can ‘manage without’ the Strait of Hormuz, says IEA - Financial Times",
-      "headline_claim_ids": [
-        "28bffd78d9d636"
-      ],
-      "headline_claims": [
-        "Energy markets can ‘manage without’ the Strait of Hormuz, says IEA - Financial Times"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihAFBVV95cUxQclpkNktKMTQyVEd2elBKSFpFaHVBM0FXTEdaLVRIcVVUbEpNZk5nLXZWR0FiZ0FtUTVNcjh3aXNkYXBzOE91NFFfOTJtQjlMWFFIenprVF83QUk1ZDlpYmlSTW9qRFZZLXk4ZlhSMEJnZ3Z6clJ2T3BJOXkxNENzTThUOU8?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -770,16 +776,16 @@
       "probability_estimate": null
     },
     {
-      "id": "e796a9576fe0ef028308aa71",
-      "label_nl": "Claim: Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn",
+      "id": "4341d06d5a13135c1522b91f",
+      "label_nl": "Claim: Qatar to hold meeting with Iran as Doha warns regional escalation threatens diplomatic efforts - Doha News",
       "headline_claim_ids": [
-        "d511c8f0cbc235"
+        "8700f82af7c7c4"
       ],
       "headline_claims": [
-        "Qatar presses ahead with Iran meeting as US-Iran mediation continues amid regional tensions - Business Upturn"
+        "Qatar to hold meeting with Iran as Doha warns regional escalation threatens diplomatic efforts - Doha News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRTI1RVVKT21ROHh2Wi1MVkNkVkNXYUo2bEpLNkYzeFc5OGRoNkdyVFNrNnVJNTBUZ2JWdWJlTjFMa25tU01KVkY1Si1BTXZqbVlUUXc2OUVaZEJJa25hTDJrbE5tTEJFNWpTMlNsNk51LV9UVlo4amllN0FiSHAwN3RBVXRiM2ZIZ2VUWTVTWkFybTdKaERpT2lQVjBiM3F4WVFvOV9YdEgzU1ptMW1pMnVvYXd5c2JVczNjdFUzU2NabVUyNE92dHBwOGhOY3hLdThRWGhGckdxeVpfUzh3?oc=5"
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxObHJ2Tlg5bWp1bm01WG94VEJqVmRCcUhWeHdubUtSUzNoeDc4OWVyUmhpZVFQXzR4Q3lsUzE0Q3pULVNnVFpWNzg3MXZNM3NTS2M1WE5Rd2dLdm5SU0tRNE00N0FYU25fYmt6SE5pUW5CVkNxNXROYnV5QzczckVIRTUzVEtDYkdYOU81QTBtbnNReGR0OTdXR3p6ZVJGaF80VnNzem9VM3FzbHc2UzlVUjdoOVRrQQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -822,16 +828,16 @@
       "probability_estimate": null
     },
     {
-      "id": "bcae45c9f3e5b7ed93b5e482",
-      "label_nl": "Claim: The Oil Market Is Brimming With Crude Despite Tanker Attacks - Yahoo Finance",
+      "id": "66d664bb7480fcc4512f2599",
+      "label_nl": "Claim: Energy markets can ‘manage without’ the Strait of Hormuz, says IEA - Financial Times",
       "headline_claim_ids": [
-        "75a5fe23d0357a"
+        "28bffd78d9d636"
       ],
       "headline_claims": [
-        "The Oil Market Is Brimming With Crude Despite Tanker Attacks - Yahoo Finance"
+        "Energy markets can ‘manage without’ the Strait of Hormuz, says IEA - Financial Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxORlF2eEwxWlAtQjVxVGNkYmhYczNPSkhnRWhQd3V4NVE2SEpSWVI0c3lVcVNxZm5ZTG9hd2RNY3FtR3dzSkRyY0t2ZVlVUkFoajZCVEVKRXgwZmdDZEVWbndWMUtuU1pKNmFwWTl6ZmY1SjBFdXRBS2RSWm9KMlcwM3NmaFRqRXJNQTJ4d01uVVVpeGxh?oc=5"
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxQclpkNktKMTQyVEd2elBKSFpFaHVBM0FXTEdaLVRIcVVUbEpNZk5nLXZWR0FiZ0FtUTVNcjh3aXNkYXBzOE91NFFfOTJtQjlMWFFIenprVF83QUk1ZDlpYmlSTW9qRFZZLXk4ZlhSMEJnZ3Z6clJ2T3BJOXkxNENzTThUOU8?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -858,8 +864,8 @@
       "total_tokens": 31822
     },
     "2026-11-19": {
-      "requests": 6,
-      "total_tokens": 18257
+      "requests": 9,
+      "total_tokens": 27697
     }
   }
 }
