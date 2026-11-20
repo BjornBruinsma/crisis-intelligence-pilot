@@ -1,47 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-20T07:32:07.147670Z",
+  "last_attempt_utc": "2026-11-20T13:28:07.980615Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 19,
-  "active_checked": 9,
+  "active_total": 21,
+  "active_checked": 10,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
-    "50d91e1f94fdcdf3132e71b1": {
-      "event_id": "50d91e1f94fdcdf3132e71b1",
-      "checked_at": "2026-11-05T01:20:19.651697Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over Amerikaanse aanvallen op een Iraanse eiland ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/find-energy-certificate",
-          "title": "Find an energy certificate - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Find an energy certificate for a property in England, Wales or Northern Ireland. This includes homes, business properties and public buildings."
-        },
-        {
-          "url": "https://www.eia.gov/energyexplained/what-is-energy/",
-          "title": "What is energy? explained - U.S. Energy Information Administration (EIA)",
-          "source_publication_date": null,
-          "text_excerpt": "U.S. Energy Information Administration - EIA - Independent Statistics and Analysis"
-        }
-      ]
-    },
     "c74bff116f0cf742d5db0f4c": {
       "event_id": "c74bff116f0cf742d5db0f4c",
       "checked_at": "2026-11-05T13:25:41.265379Z",
@@ -3006,7 +2974,7 @@
     },
     "ee723a494e006e0aa85f539e": {
       "event_id": "ee723a494e006e0aa85f539e",
-      "checked_at": "2026-11-19T07:32:27.882604Z",
+      "checked_at": "2026-11-20T13:28:07.980557Z",
       "version": "official-original-document-v1",
       "research_status": "primary_document_not_found",
       "verified_event": false,
@@ -3709,7 +3677,7 @@
     },
     "1a9f48dca198837d801e6a1c": {
       "event_id": "1a9f48dca198837d801e6a1c",
-      "checked_at": "2026-11-19T07:32:27.882611Z",
+      "checked_at": "2026-11-20T13:28:07.980581Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3718,15 +3686,15 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
           "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-19T07:32:23.883796Z",
+          "retrieved_at": "2026-11-20T13:28:00.678016Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "Deze passage vermeldt de intentie van Iran om doelen te raken, maar specificeert geen derde ronde van aanvallen op Bahrain.",
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS, maar bevestigt niet specifiek een aanval op Bahrein.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "Er zijn geen directe bevestigingen van de claim, maar er is een vermelding van de intenties van Iran in de regio.",
+      "summary_nl": "De officiële tekst geeft aan dat Iran locaties gerelateerd aan de VS en Israël wil aanvallen, maar er is geen specifieke bevestiging van een aanval op Bahrein.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3958,6 +3926,41 @@
           "text_excerpt": "If your vehicle is new, you must get an MOT test by the third anniversary of its registration."
         }
       ]
+    },
+    "8bb1a6dbf2198ad5acfb5ffc": {
+      "event_id": "8bb1a6dbf2198ad5acfb5ffc",
+      "checked_at": "2026-11-20T13:28:07.980587Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De tekst beschrijft een eerdere inbeslagname van een tanker door Iran, maar biedt geen informatie over een recente aanval op een tanker nabij Oman.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 5,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/government/news/iran-tanker-seizure-uk-government-response",
+          "title": "Iran tanker seizure: UK government response - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "This page sets out our response to the situation in the Gulf after Iranian forces seized a British-flagged tanker, Stena Impero, in the Strait of Hormuz."
+        },
+        {
+          "url": "https://www.gov.uk/guidance/maritime-security",
+          "title": "Ship security - GOV.UKGOV.UK",
+          "source_publication_date": "2026-10-01T08:20:52Z",
+          "text_excerpt": "using effective communications with relevant authorities and reporting incidents before, during or after an attack"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3972,9 +3975,9 @@
       "model_tokens": 4488
     },
     "2026-11-20": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 3851
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 5107
     }
   },
   "last_error": null
