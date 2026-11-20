@@ -1,80 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-19T19:13:28.623645Z",
+  "last_attempt_utc": "2026-11-20T01:22:13.139889Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 19,
+  "active_total": 20,
   "active_checked": 9,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "bec8b6b635082182407aa2ac": {
-      "event_id": "bec8b6b635082182407aa2ac",
-      "checked_at": "2026-11-05T13:25:41.265371Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de onderhandelingen tussen Iran en de VS ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 1,
-      "official_link_candidates": 6,
-      "search_errors": [
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/change-driving-test",
-          "title": "Change your driving test appointment - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "How many times you can change your test"
-        }
-      ]
-    },
-    "92419c4eef1a82eb9e16ded4": {
-      "event_id": "92419c4eef1a82eb9e16ded4",
-      "checked_at": "2026-11-05T01:20:19.651664Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over een Amerikaanse aanval op Qeshm Island ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/check-uk-visa",
-          "title": "Check if you need a UK visa - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Travel or do business in Europe: Brexit guidance"
-        },
-        {
-          "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
-          "title": "HMRC online services: sign in or set up an account: Sign in or set up an account - GOV.UK\nGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Sign in to your HM Revenue and Customs (HMRC) online account for things like a personal or business tax account, Self Assessment, Corporation Tax, PAYE for employers, VAT and the Construction Industry Scheme."
-        }
-      ]
-    },
     "7f061a06993871a137f3044b": {
       "event_id": "7f061a06993871a137f3044b",
       "checked_at": "2026-11-05T01:20:19.651692Z",
@@ -2700,7 +2635,7 @@
     },
     "8fb0e91f4400c02980aacecd": {
       "event_id": "8fb0e91f4400c02980aacecd",
-      "checked_at": "2026-11-17T13:24:51.024593Z",
+      "checked_at": "2026-11-20T01:22:13.139853Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -2709,15 +2644,15 @@
           "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
           "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
           "source_date": null,
-          "retrieved_at": "2026-11-17T13:24:44.090963Z",
-          "exact_quote": "more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz",
+          "retrieved_at": "2026-11-20T01:22:09.642159Z",
+          "exact_quote": "continued attacks against commercial ships in the area",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt een aantal aanvallen op commerciële schepen, maar biedt geen bewijs voor de specifieke claim over een tankerbrand.",
+          "reason_nl": "De passage spreekt over voortdurende aanvallen op commerciële schepen, maar bevestigt geen specifieke brand of mijnaanval door Iran.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De officiële teksten vermelden aanvallen op commerciële schepen in de Straat van Hormuz, maar er is geen bevestiging van een specifieke brandstofbrand na een mijnaanval.",
+      "summary_nl": "De passage verwijst naar voortdurende aanvallen op commerciële schepen in de Straat van Hormuz, maar biedt geen specifieke details over een tankerbrand na een mijnaanval.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3912,14 +3847,97 @@
           "text_excerpt": "We also use cookies set by other sites to help us deliver content from their services."
         }
       ]
+    },
+    "5ee1485b189fff49f2b42b18": {
+      "event_id": "5ee1485b189fff49f2b42b18",
+      "checked_at": "2026-11-20T01:22:13.139820Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-20T01:22:05.200833Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten, maar bevestigt geen specifieke aanvallen op Bahrain.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële tekst vermeldt dat Iran locaties gerelateerd aan de VS en Israël wil aanvallen, maar er is geen directe bevestiging van aanvallen op Bahrain.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/check-mot-status",
+          "title": "Check the MOT status of a vehicle - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "If your vehicle is new, you must get an MOT test by the third anniversary of its registration."
+        }
+      ]
+    },
+    "7913aaff5e81bd9954dbfde0": {
+      "event_id": "7913aaff5e81bd9954dbfde0",
+      "checked_at": "2026-11-20T01:22:13.139845Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_date": null,
+          "retrieved_at": "2026-11-20T01:22:07.648758Z",
+          "exact_quote": "more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar aanvallen op commerciële schepen in de Straat van Hormuz, maar specificeert geen aanvallen door Iran op olie tankers.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De tekst meldt meer dan 130 aanvallen op commerciële schepen in de Straat van Hormuz, maar biedt geen bewijs voor specifieke aanvallen door Iran op olietankers.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "STRAIT OF HORMUZ — The commander of U.S. Central Command (CENTCOM) visited the Strait of Hormuz, Oct. 25, as U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer."
+        },
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "​IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026. At least 25 seafarers have lost their lives, with others missing or injured."
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-17": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 5934
-    },
     "2026-11-18": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -3929,6 +3947,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 4488
+    },
+    "2026-11-20": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 2112
     }
   },
   "last_error": null

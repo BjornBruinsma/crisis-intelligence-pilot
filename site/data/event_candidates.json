@@ -1,17 +1,17 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-19T19:13:21.741855Z",
-  "fingerprint": "2fb3496d0d468f16c271f66f",
+  "last_attempt_utc": "2026-11-20T01:21:53.082474Z",
+  "fingerprint": "35a2cbd3edcd0ceeef8236db",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 21,
-  "event_candidate_count": 19,
+  "input_candidate_count": 22,
+  "event_candidate_count": 20,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
+    "model_pair_proposals": 7,
     "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 2,
+    "rejected_pair_proposals": 5,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-19T19:13:21.741855Z",
+    "recorded_at": "2026-11-20T01:21:53.082474Z",
     "groups": [
       {
         "ids": [
@@ -60,9 +60,20 @@
       },
       {
         "ids": [
-          "404824c16d80c4"
+          "ac909109dd5a27"
         ],
-        "label_nl": "Claim: Oil futures: Crude lifts of lows, US-Iran tensions eyed - Quantum Commodity Intelligence",
+        "label_nl": "Claim: Oil futures: Crude lifts off lows, US-Iran tensions eyed - Quantum Commodity Intelligence",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "f79dfbe788282c"
+        ],
+        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
         "actor": "",
         "action": "",
         "place": "",
@@ -93,21 +104,10 @@
       },
       {
         "ids": [
-          "304017063b28f3"
+          "304017063b28f3",
+          "2f9719d1fd8639"
         ],
         "label_nl": "Claim: Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "2f9719d1fd8639",
-          "2f4491d905ebac"
-        ],
-        "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
         "actor": "",
         "action": "",
         "place": "",
@@ -160,9 +160,9 @@
       },
       {
         "ids": [
-          "f79dfbe788282c"
+          "2f4491d905ebac"
         ],
-        "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
+        "label_nl": "Claim: Iran hits U.S. Kuwait base, widens Gulf attacks - Ticker News",
         "actor": "",
         "action": "",
         "place": "",
@@ -234,13 +234,25 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "23254499885bff"
+        ],
+        "label_nl": "Claim: Tanker hit by unknown projectile near Oman in latest Hormuz attack - Gulf News",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       }
     ],
     "input_claim_ids": [
       "cb4439dd785f73",
       "2d8a7b3704f988",
       "ba90122f657ad0",
-      "404824c16d80c4",
+      "ac909109dd5a27",
+      "f79dfbe788282c",
       "9b5230aef3852f",
       "504f736c5ef687",
       "304017063b28f3",
@@ -249,7 +261,7 @@
       "77603d8aa1f637",
       "1e760350a8a234",
       "9a2b2244c0fc6d",
-      "f79dfbe788282c",
+      "2f4491d905ebac",
       "9384f566cb96e5",
       "ffb8209abc59e4",
       "9a039bb82e353f",
@@ -257,7 +269,7 @@
       "ec097c020da3ff",
       "cca12ccdc9dadc",
       "813223a4dd62f2",
-      "2f4491d905ebac"
+      "23254499885bff"
     ]
   },
   "official_sources_available": 15,
@@ -295,23 +307,27 @@
       "probability_estimate": null
     },
     {
-      "id": "b14ca61f521f040e05ae6345",
-      "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
+      "id": "5ee1485b189fff49f2b42b18",
+      "label_nl": "Claim: Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
       "headline_claim_ids": [
-        "2f9719d1fd8639",
-        "2f4491d905ebac"
+        "304017063b28f3",
+        "2f9719d1fd8639"
       ],
       "headline_claims": [
-        "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
-        "Iran hits U.S. Kuwait base, widens Gulf attacks - Ticker News"
+        "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
+        "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald"
       ],
       "related_news_links": [
+        "https://www.kwit.org/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://news.prairiepublic.org/news-from-npr/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://www.kazu.org/npr-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://www.publicradiotulsa.org/npr-national-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://www.kccu.org/world/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
         "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUxXbHlBVzJ5ZjRUR0lKRnF5MmpFNThseTVlNVRuTlVnXy0wQWZxanNpaXFnam9XQlJoWkpRMlpIY0cwRnlTTVpuaUh4b2lLMDJVRDVtQ1FLSVEwZ19WTHk4dnIzVEJzdENDNHhXbTE5LUJhSEJTMzZUZklkNjdSR1gyRQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbFIwdXVqTU1ETUpaMXZDY2c2NWFaTlpvMnNnd0xrX2lqTFBtUHF3aHBWR2NYSTBLY0xuTTVTblZCeEltUWlzcjUxakpZenhBRGNRX1FxZDdQVEoyeEFaVm1uekcyeXhteEJfUlJUbURLLWRuY2NIelRmVHpTVnRWOE53?oc=5",
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN0xDemZGVjhEMkx4d3BhU3hqcVJsWi1zMlY2Nkd0WTFaYmJzbU9fQVZsZk5QLU5RMHk3dmg4T0JHOGxfZkV4VU9mc1JldWxhbmdqaFJNbS1Ibmp5OTJXWmIzM2xRU1BMUmlVWnpxRGt6bUJoeEN4TVlMMHF4QVlsWXBNODJDaGoyQjU1d0kzMA?oc=5"
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbFIwdXVqTU1ETUpaMXZDY2c2NWFaTlpvMnNnd0xrX2lqTFBtUHF3aHBWR2NYSTBLY0xuTTVTblZCeEltUWlzcjUxakpZenhBRGNRX1FxZDdQVEoyeEFaVm1uekcyeXhteEJfUlJUbURLLWRuY2NIelRmVHpTVnRWOE53?oc=5"
       ],
       "article_group_count": 2,
-      "news_url_count": 3,
+      "news_url_count": 7,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -377,6 +393,33 @@
       "probability_estimate": null
     },
     {
+      "id": "8fb0e91f4400c02980aacecd",
+      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
+      "headline_claim_ids": [
+        "f79dfbe788282c"
+      ],
+      "headline_claims": [
+        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ25zZFhyeE1IVnNrTjJ6MkRVVnlzVGl0NEVUQmJZbWtCODRyVFFaZWVFQnJGaGRDOS1nclJiMjVZZTFUT0VVbXdRc2NidEpfVFNFa3dKWGZqM2pVMlBGTFZEakVsX0pNR0t2aG9LN3kyZDhfeTFEd3cwU2tablhBQW5VelZiTU1QRmx4dUhWNE5XRXRTOEQ3RkVMb285N0ZmZHJ3OTJYZGRpVzBIczRzM0JvOVRGb2s5alFaVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "379fde8be38e359c47adbf77",
       "label_nl": "Claim: ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
       "headline_claim_ids": [
@@ -416,36 +459,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "1a9f48dca198837d801e6a1c",
-      "label_nl": "Claim: Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
-      "headline_claim_ids": [
-        "304017063b28f3"
-      ],
-      "headline_claims": [
-        "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet"
-      ],
-      "related_news_links": [
-        "https://www.kwit.org/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
-        "https://news.prairiepublic.org/news-from-npr/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
-        "https://www.kazu.org/npr-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
-        "https://www.publicradiotulsa.org/npr-national-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
-        "https://www.kccu.org/world/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 5,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -511,20 +524,19 @@
       "probability_estimate": null
     },
     {
-      "id": "8fb0e91f4400c02980aacecd",
-      "label_nl": "Claim: Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada",
+      "id": "b87d9c04d906f0d50efb89cb",
+      "label_nl": "Claim: Iran hits U.S. Kuwait base, widens Gulf attacks - Ticker News",
       "headline_claim_ids": [
-        "f79dfbe788282c"
+        "2f4491d905ebac"
       ],
       "headline_claims": [
-        "Iran reports tanker fire after mine strike as Strait of Hormuz tensions mount - Investing.com Canada"
+        "Iran hits U.S. Kuwait base, widens Gulf attacks - Ticker News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ25zZFhyeE1IVnNrTjJ6MkRVVnlzVGl0NEVUQmJZbWtCODRyVFFaZWVFQnJGaGRDOS1nclJiMjVZZTFUT0VVbXdRc2NidEpfVFNFa3dKWGZqM2pVMlBGTFZEakVsX0pNR0t2aG9LN3kyZDhfeTFEd3cwU2tablhBQW5VelZiTU1QRmx4dUhWNE5XRXRTOEQ3RkVMb285N0ZmZHJ3OTJYZGRpVzBIczRzM0JvOVRGb2s5alFaVQ?oc=5",
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbUhzMkM2cGtaY2V0cmMxR2NoSHpxcThyWGZXTl9HV0k2YVAtaHUzU1BWYWctZTlBdHBPTGEzcG0xeTdlYkhacEV4YXFzejhvbWxrRmE4R0djbllWUHc2RDZJWGlaTW9YMFVYOWlNYzNhUXFERHNQS0tzanZYWEMtN1BGekh4STZ4NTY0YTN0T1AzUDdNY3lEclBib2dBVFA5VkRSLWlXVU1OTW00aVFTSXFLelJWYWoyUUphYw?oc=5"
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN0xDemZGVjhEMkx4d3BhU3hqcVJsWi1zMlY2Nkd0WTFaYmJzbU9fQVZsZk5QLU5RMHk3dmg4T0JHOGxfZkV4VU9mc1JldWxhbmdqaFJNbS1Ibmp5OTJXWmIzM2xRU1BMUmlVWnpxRGt6bUJoeEN4TVlMMHF4QVlsWXBNODJDaGoyQjU1d0kzMA?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -569,19 +581,46 @@
       "probability_estimate": null
     },
     {
-      "id": "7ed26b38d8e402176e74d755",
-      "label_nl": "Claim: Oil futures: Crude lifts of lows, US-Iran tensions eyed - Quantum Commodity Intelligence",
+      "id": "8bb1a6dbf2198ad5acfb5ffc",
+      "label_nl": "Claim: Tanker hit by unknown projectile near Oman in latest Hormuz attack - Gulf News",
       "headline_claim_ids": [
-        "404824c16d80c4"
+        "23254499885bff"
       ],
       "headline_claims": [
-        "Oil futures: Crude lifts of lows, US-Iran tensions eyed - Quantum Commodity Intelligence"
+        "Tanker hit by unknown projectile near Oman in latest Hormuz attack - Gulf News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2FkUGxmR1YwT0lyUTNWQ18zeTJVWmY0MVZtYWhJOUQ2RE1tTGY5d1FrNE1xTk5jV1BnR2lsRlFFZWtCWFhwdnQ1a1lDSjRKQTc3NDZpT3hzcWpoTlh6TGtIUm5aMlhQZWNRa19kTjhBb0FzQmlLRHU1WkJWV1EwMThiUEpqclk5elFic2RDR1JaY01qWXVsZllHR3Y?oc=5"
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmdhTDBxR2xVLXdReDQ1SU13cWc5cHhsRFVtY1lpVzJPTWQ4ZmdvajlJazVVd3lFWUlQSjBMaDNfNk5aa1RvbUl6ZzZDdkdNNWVsSEpUWkwtN3d5SEhYSUZDWDJlZzE2OXplb2dRSnk4QXNVZWtOY21UazVXUTE5TUlrZGhpdU5WNFRpV2lkZlFwUTZwT1ZDTEV1S3hJNlJYLThESV9FOEY4MHRLSXdKV3NWdW5lZ9IBywFBVV95cUxPMVRiamZQeTJTbGVxbmxPNi1GbW1kNlhyOGF5R296Q1JjLU5KQVVQbTVScXhXWDBaZ0hhTGJpQzJwMWdxbkM4VGJQN216eHdueUZURU9fMEdjV3JVZF9Bc05OaG45amRFVmQxVG5PSGFqcE02bDh1eWhPaERPQ0R2NnFlTmZGV3hjWGFKNHBqU251X3EwRDA3MVQzTllBWDIwODc5Vl9rT3pidGN6Mm9GOG04enhCOV9ObGU2ZEtaaXV0UGtSakZCdk9Ucw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "811654bc02add2cc7b52c15e",
+      "label_nl": "Claim: Oil futures: Crude lifts off lows, US-Iran tensions eyed - Quantum Commodity Intelligence",
+      "headline_claim_ids": [
+        "ac909109dd5a27"
+      ],
+      "headline_claims": [
+        "Oil futures: Crude lifts off lows, US-Iran tensions eyed - Quantum Commodity Intelligence"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxQeVpaeXNPdjZoNDNrUDVfQ0ZnWEJJcWpqNVRzWE44Z0lTaWg5R0xPdm5OcGR1dU5sMHp5M19LTVdaV19WcG1ET2lWeF9LSzliQklsd1ZfdXJ6T3UyVHZVci02OWJfQWhrRU5NQ2FoQXJpWTA0T2VITlZqTjBheXB6MzZidGtIUFBaRlE1UkFYdGEwaTV6VkpLODVaRjdwZw?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2FkUGxmR1YwT0lyUTNWQ18zeTJVWmY0MVZtYWhJOUQ2RE1tTGY5d1FrNE1xTk5jV1BnR2lsRlFFZWtCWFhwdnQ1a1lDSjRKQTc3NDZpT3hzcWpoTlh6TGtIUm5aMlhQZWNRa19kTjhBb0FzQmlLRHU1WkJWV1EwMThiUEpqclk5elFic2RDR1JaY01qWXVsZllHR3Y?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -779,10 +818,6 @@
     }
   ],
   "usage_by_day": {
-    "2026-11-17": {
-      "requests": 12,
-      "total_tokens": 30086
-    },
     "2026-11-18": {
       "requests": 12,
       "total_tokens": 31822
@@ -790,6 +825,10 @@
     "2026-11-19": {
       "requests": 12,
       "total_tokens": 35333
+    },
+    "2026-11-20": {
+      "requests": 3,
+      "total_tokens": 8386
     }
   }
 }
