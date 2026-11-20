@@ -1,47 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-20T01:22:13.139889Z",
+  "last_attempt_utc": "2026-11-20T07:32:07.147670Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 20,
+  "active_total": 19,
   "active_checked": 9,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
-    "7f061a06993871a137f3044b": {
-      "event_id": "7f061a06993871a137f3044b",
-      "checked_at": "2026-11-05T01:20:19.651692Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over Amerikaanse aanvallen op Qeshm Island ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Reports, analysis and official statistics"
-        },
-        {
-          "url": "https://www.gov.uk/sign-in-universal-credit",
-          "title": "Sign in to your Universal Credit account - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Reports, analysis and official statistics"
-        }
-      ]
-    },
     "50d91e1f94fdcdf3132e71b1": {
       "event_id": "50d91e1f94fdcdf3132e71b1",
       "checked_at": "2026-11-05T01:20:19.651697Z",
@@ -3587,12 +3555,12 @@
     },
     "60c5dee2ede2328bc6271a4b": {
       "event_id": "60c5dee2ede2328bc6271a4b",
-      "checked_at": "2026-11-19T01:28:03.492185Z",
+      "checked_at": "2026-11-20T07:32:07.147611Z",
       "version": "official-original-document-v1",
       "research_status": "documents_found_unassessed",
       "verified_event": false,
       "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de Amerikaanse luchtaanval op een Iraanse raketsite ondersteunen of tegenspreken.",
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de Amerikaanse aanval op een Iraanse raketsite ondersteunen of tegenspreken.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3619,24 +3587,35 @@
     },
     "b14ca61f521f040e05ae6345": {
       "event_id": "b14ca61f521f040e05ae6345",
-      "checked_at": "2026-11-19T01:28:03.492210Z",
+      "checked_at": "2026-11-20T07:32:07.147635Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
       "official_matches": [
         {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
-          "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_url": "https://www.gov.uk/foreign-travel-advice/kuwait",
+          "original_document_title": "Kuwait travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-19T01:27:58.835090Z",
+          "retrieved_at": "2026-11-20T07:32:00.746945Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS, maar bevestigt niet specifiek de aanvallen op de luchtbasis in Koeweit of de locaties in Bahrein.",
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS, maar bevestigt niet specifiek de aanval op de Amerikaanse basis in Koeweit.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-20T07:32:01.339481Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage herhaalt de intentie van Iran om doelwitten te kiezen die verband houden met de VS, maar biedt geen bewijs voor de specifieke aanval.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De officiële tekst vermeldt de intentie van Iran om Amerikaanse locaties te targeten, maar biedt geen bevestiging van specifieke aanvallen op de luchtbasis in Koeweit of andere locaties.",
+      "summary_nl": "De officiële teksten bevestigen de intentie van Iran om Amerikaanse locaties te targeten, maar bieden geen bewijs voor de specifieke aanval op de Amerikaanse basis in Koeweit.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3648,16 +3627,16 @@
       "ai_error": null,
       "original_documents_retrieved": [
         {
-          "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
-          "title": "Bahrain travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "We also use cookies set by other sites to help us deliver content from their services."
-        },
-        {
           "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
           "title": "Kuwait travel advice - GOV.UKGOV.UK",
           "source_publication_date": null,
-          "text_excerpt": "We also use cookies set by other sites to help us deliver content from their services."
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
         }
       ]
     },
@@ -3935,6 +3914,50 @@
           "text_excerpt": "​IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026. At least 25 seafarers have lost their lives, with others missing or injured."
         }
       ]
+    },
+    "a9a712da2eff8fdf81ca8c2c": {
+      "event_id": "a9a712da2eff8fdf81ca8c2c",
+      "checked_at": "2026-11-20T07:32:07.147641Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-20T07:32:02.573634Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage geeft aan dat Iran locaties die verband houden met de VS wil aanvallen, maar bevestigt niet specifiek de aanvallen op Bahrein.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten vermelden de intentie van Iran om Amerikaanse locaties te targeten, maar bieden geen bewijs voor de specifieke aanvallen op Bahrein.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
+          "title": "Bahrain travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/check-mot-status",
+          "title": "Check the MOT status of a vehicle - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "If your vehicle is new, you must get an MOT test by the third anniversary of its registration."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3949,9 +3972,9 @@
       "model_tokens": 4488
     },
     "2026-11-20": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 2112
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3851
     }
   },
   "last_error": null
