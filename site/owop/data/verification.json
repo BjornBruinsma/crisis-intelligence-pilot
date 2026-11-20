@@ -1,45 +1,43 @@
 {
-  "generated_at": "2026-11-20T08:47:52.580522Z",
+  "generated_at": "2026-11-20T14:40:19.367676Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 1,
+  "candidate_count": 5,
   "recommendation_counts": {
-    "publish": 1
+    "publish": 2,
+    "reject": 1,
+    "reserve": 2
   },
   "stories": [
     {
-      "id": "dd8565112b865c",
-      "editorial_score": 80,
+      "id": "b87bd240e8d24a",
+      "editorial_score": 100,
       "editorial_decision": "reserve",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a factual research note on *“Community efforts preserve Lantern Bay Park trees”*, based on municipal documents and independent reporting.\n\n---\n\n## What Happened\n\n- On **November 17, 2026**, the Dana Point City Council adopted the recommendation from the Lantern Bay Park subcommittee to *preserve all existing trees* in Lantern Bay Park. The resolution specifies: “with no trees designated for removal under Condition 18 of Planning Commission Resolution No. 25-09-22-32.” ([danapoint.org](https://www.danapoint.org/files/assets/city/v/1/city-council/documents/meetings-agendas-and-minutes/2026/11172026/a111726_linked.pdf?utm_source=openai))\n\n- Alongside preserving the trees, the Council took several related actions:\n\n  1. **Ocean Cliffs at Dana Point** (a JW Marriott resort) was relieved of its financial obligation under *Condition 20* of that same Planning Commission resolution, *but* maintained its duties under *Conditions 15 and 16* to restore areas disturbed by the waterline installation and the area leading up to the resort’s pool wall. ([danapoint.org](https://www.danapoint.org/files/assets/city/v/1/city-council/documents/meetings-agendas-and-minutes/2026/11172026/a111726_linked.pdf?utm_source=openai))\n\n  2. The Council decided that any future improvements to Lantern Bay Park should be placed on the **City’s Capital Improvement Program** (CIP) and funded by the City, rather than by the resort. ([danapoint.org](https://www.danapoint.org/files/assets/city/v/1/city-council/documents/meetings-agendas-and-minutes/2026/11172026/a111726_linked.pdf?utm_source=openai))\n\n  3. The City Council also **sunset** (ended) the Lantern Bay Park Subcommittee. ([danapoint.org](https://www.danapoint.org/files/assets/city/v/1/city-council/documents/meetings-agendas-and-minutes/2026/11172026/a111726_linked.pdf?utm_source=openai))\n\n---\n\n## Background / Context\n\n- The controversy dates back to a proposal from Marriott (Ocean Cliffs) tied to a water-line installation in the park: The resort proposed to fund and build significant park renovations in exchange for that right-of-entry, including a botanical garden, amphitheater improvements, walkways, and removal of two stands of mature pine trees (Torrey pines and Stone pines). ([ocdevelopment.net](https://ocdevelopment.net/article/dana-point-council-seeks-tree-preservation-in-lantern-bay-park-renovation-plans-ih07p?utm_source=openai))\n\n- On **October 6, 2026**, the City Council voted 3-2 in favor of advancing the conceptual design and agreement—with tree removal under Condition 18 included. However, because of strong public opposition, the Council also formed a *subcommittee* (Mayor Pro Tem Frost and Council Member Pagano) to work with the resort and community to revise the plan. ([mytownview.com](https://mytownview.com/california/orange/dana-point/meetings/7763-city-council-2026-10-06?utm_source=openai))\n\n- Community mobilization included more than **3,000 petition signatures**, over 120 public comments, rallies, and a survey of 75 park users (45 residents) which found that more than half wanted to keep existing landscaping and add shade/seating, while only a few favored removing trees to open up harbor views. ([siliconvalleymovingpost.com](https://siliconvalleymovingpost.com/residents-lobby-for-preservation-of-pine-trees-in-dana-points-lantern-bay-park/?utm_source=openai))\n\n---\n\n## Outcome vs. Plan\n\n- **Completed outcome (as of Nov 17, 2026):** The Council officially resolved to preserve *all existing trees* in the park (i.e. none to be removed under the relevant resolution’s tree-removal condition). Improvements will only proceed under City funding through its CIP. Ocean Cliffs is freed from funding obligations for park improvements tied to the earlier agreement under Condition 20, except for restoring disturbed areas. ([danapoint.org](https://www.danapoint.org/files/assets/city/v/1/city-council/documents/meetings-agendas-and-minutes/2026/11172026/a111726_linked.pdf?utm_source=openai))\n\n- **What was proposed but not approved / what was altered:**\n  \n  - Original plans (as of October 6) that included removal of mature pine stands (around 70 trees) have been superseded by the subcommittee recommendation for zero tree removal. ([ocdevelopment.net](https://ocdevelopment.net/article/dana-point-council-seeks-tree-preservation-in-lantern-bay-park-renovation-plans-ih07p?utm_source=openai))\n\n  - The proposal for resort-funded park renovations has been changed so that future improvements will be city-funded via the CIP, rather than under the resort’s obligations. ([danapoint.org](https://www.danapoint.org/files/assets/city/v/1/city-council/documents/meetings-agendas-and-minutes/2026/11172026/a111726_linked.pdf?utm_source=openai))\n\n---\n\n## Sources\n\n**Primary Sources:**\n\n- City of Dana Point City Council Agenda, *Item #13: Lantern Bay Park Subcommittee Recommendation*, November 17, 2026. ([danapoint.org](https://www.danapoint.org/files/assets/city/v/1/city-council/documents/meetings-agendas-and-minutes/2026/11172026/a111726_linked.pdf?utm_source=openai))  \n- Public staff report & minutes from the November 17 meeting (including Condition 18 and 20 references). ([danapoint.org](https://www.danapoint.org/files/assets/city/v/1/city-council/documents/meetings-agendas-and-minutes/2026/11172026/13.-lantern-bay-park.pdf?utm_source=openai))\n\n**Independent Sources:**\n\n- San Clemente Source: *“Dana Point Residents Rally, Council Moves to Save Lantern Bay Park Trees”* (Oct 22, 2026). ([sanclementesource.com](https://sanclementesource.com/article/dana-point-residents-rally-council-moves-to-save-lantern-bay-park-trees-uhtxr?utm_source=openai))  \n- Orange County Register: *“Residents lobby for preservation of pine trees in Dana Point’s Lantern Bay Park”* (Oct 16, 2026). ([siliconvalleymovingpost.com](https://siliconvalleymovingpost.com/residents-lobby-for-preservation-of-pine-trees-in-dana-points-lantern-bay-park/?utm_source=openai))  \n\n---\n\nIf you want, I can also pull together images of the location, or reactions from the community after Nov 17 to see how the outcome is being received.",
+      "research_notes": "Here is what the latest reporting shows actually *happened* at Potawatomi Zoo under the headline “New babies … promote conservation” — with confirmed, measured outcomes, not just announcements or pledges:\n\n---\n\n## Confirmed Births & Their Significance\n\n### 1. Masai Giraffe Calf\n\n- On **Monday, November 16, 2026**, Potawatomi Zoo welcomed a **male Masai giraffe calf**, born to mother *Zindzhi* and father *Kellan*. ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-11-18/potawatomi-zoo-welcomes-new-masai-giraffe-calf?utm_source=openai))  \n- At birth, the calf weighed about **179 pounds**, stood **6 feet, 2 inches tall**, and was up and nursing within a few hours. ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-11-18/potawatomi-zoo-welcomes-new-masai-giraffe-calf?utm_source=openai))  \n- This is the *second giraffe born* at the zoo since it opened its giraffe exhibit in 2022, and notably the **first male giraffe bred and born there**. ([abc57.com](https://www.abc57.com/news/potawatomi-zoo-announces-birth-of-second-giraffe-calf?utm_source=openai))  \n- The zoo officials emphasize its importance for conservation: Masai giraffes are an endangered subspecies, and this birth contributes to their breeding program aimed at bolstering the population. ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-11-18/potawatomi-zoo-welcomes-new-masai-giraffe-calf?utm_source=openai))  \n\n### 2. Amur Leopard Cub\n\n- On **September 8, 2026**, Potawatomi Zoo announced the birth of an endangered **Amur leopard cub**, a critically endangered species. ([abc57.com](https://abc57.com/news/potawatomi-zoo-welcomes-endangered-amur-leopard-cub?utm_source=openai))  \n- The parents are *Anastasia* and *Mango*, and the pairing was part of the Amur Leopard Species Survival Plan (SSP). ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-10-23/potawatomi-zoo-announces-endangered-amur-leopard-cub-birth?utm_source=openai))  \n- The cub is male and remains unnamed. ([abc57.com](https://abc57.com/news/potawatomi-zoo-welcomes-endangered-amur-leopard-cub?utm_source=openai))  \n- Because the mother did not show consistent maternal care (ignored the cub outdoors, letting it lose body temperature), zoo staff intervened and **hand-reared and bottle-fed** the cub. ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-10-23/potawatomi-zoo-announces-endangered-amur-leopard-cub-birth?utm_source=openai))  \n- The public won’t see the cub until **spring**, coinciding with the opening of the new **Big Cat Tracks habitat**. ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-10-23/potawatomi-zoo-announces-endangered-amur-leopard-cub-birth?utm_source=openai))  \n\n---\n\n## Completed Outcomes vs Plans or Announcements\n\nThese are *completed outcomes*:\n\n- Two animals have already been born: the Masai giraffe calf (Nov 16, 2026) and the Amur leopard cub (Sep 8, 2026). ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-11-18/potawatomi-zoo-welcomes-new-masai-giraffe-calf?utm_source=openai))  \n- Both births have measurable details (weights, dates, parentage). ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-11-18/potawatomi-zoo-welcomes-new-masai-giraffe-calf?utm_source=openai))  \n\nThese are activities/plans *in progress or forthcoming*:\n\n- The giraffe calf may become visible to visitors, weather depending. ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-11-18/potawatomi-zoo-welcomes-new-masai-giraffe-calf?utm_source=openai))  \n- The Amur cub is being cared for off exhibit; public display will begin when the new habitat opens in **spring 2027**. ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-10-23/potawatomi-zoo-announces-endangered-amur-leopard-cub-birth?utm_source=openai))  \n\n---\n\n## Conservation Context & Broader Contribution\n\n- Both species are part of **AZA-managed conservation programs**: the Masai giraffes via their breeding program, the Amur leopard via its SSP. These programs aim to maintain sustainable populations of endangered animals in captivity and to support conservation in the wild. ([wvpe.org](https://www.wvpe.org/wvpe-news/2026-11-18/potawatomi-zoo-welcomes-new-masai-giraffe-calf?utm_source=openai))  \n- Potawatomi Zoo has stated its active involvement in **SAFE programs** (“Saving Animals From Extinction”) and supports international conservation efforts including those for giraffes, leopards, red pandas, etc. ([potawatomizoo.org](https://potawatomizoo.org/get-connected/conservation/?utm_source=openai))  \n\n---\n\nIf you like, I can pull up whether local or international experts have commented on these births’ significance for wild population recovery, beyond the zoo setting.",
       "citations": [
         {
-          "title": "City of Dana Point",
-          "url": "https://www.danapoint.org/files/assets/city/v/1/city-council/documents/meetings-agendas-and-minutes/2026/11172026/a111726_linked.pdf?utm_source=openai"
+          "title": "Potawatomi Zoo welcomes new Masai giraffe calf",
+          "url": "https://www.wvpe.org/wvpe-news/2026-11-18/potawatomi-zoo-welcomes-new-masai-giraffe-calf?utm_source=openai"
         },
         {
-          "title": "OC Dana Point: Lantern Bay Park Tree Preservation Priority | OC Development",
-          "url": "https://ocdevelopment.net/article/dana-point-council-seeks-tree-preservation-in-lantern-bay-park-renovation-plans-ih07p?utm_source=openai"
+          "title": "Potawatomi Zoo announces birth of second giraffe calf",
+          "url": "https://www.abc57.com/news/potawatomi-zoo-announces-birth-of-second-giraffe-calf?utm_source=openai"
         },
         {
-          "title": "Dana Point, CA City Council Meeting, Oct 6, 2026: Council approves Lantern Bay Park improvements despite tree removal",
-          "url": "https://mytownview.com/california/orange/dana-point/meetings/7763-city-council-2026-10-06?utm_source=openai"
+          "title": "Potawatomi Zoo welcomes endangered Amur leopard cub",
+          "url": "https://abc57.com/news/potawatomi-zoo-welcomes-endangered-amur-leopard-cub?utm_source=openai"
         },
         {
-          "title": "Residents lobby for preservation of pine trees in Dana Point’s Lantern Bay Park - Silicon Valley Moving Post",
-          "url": "https://siliconvalleymovingpost.com/residents-lobby-for-preservation-of-pine-trees-in-dana-points-lantern-bay-park/?utm_source=openai"
+          "title": "Potawatomi Zoo announces endangered Amur leopard cub birth",
+          "url": "https://www.wvpe.org/wvpe-news/2026-10-23/potawatomi-zoo-announces-endangered-amur-leopard-cub-birth?utm_source=openai"
         },
         {
-          "title": "11/17/26　　　　　　　　　　　　　　　　 Page 2　　　　　　　　　　　　　　　　 Item #13",
-          "url": "https://www.danapoint.org/files/assets/city/v/1/city-council/documents/meetings-agendas-and-minutes/2026/11172026/13.-lantern-bay-park.pdf?utm_source=openai"
-        },
-        {
-          "title": "Dana Point: Residents & Council Save Lantern Bay Park | San Clemente Source",
-          "url": "https://sanclementesource.com/article/dana-point-residents-rally-council-moves-to-save-lantern-bay-park-trees-uhtxr?utm_source=openai"
+          "title": "Conservation Efforts - Potawatomi Zoo",
+          "url": "https://potawatomizoo.org/get-connected/conservation/?utm_source=openai"
         }
       ],
       "fallback_error": "",
@@ -49,10 +47,146 @@
       "evidence_quality": "high",
       "independence": "multiple_independent",
       "significance": "high",
-      "verified_headline": "Dana Point Council Preserves Trees in Lantern Bay Park",
-      "verified_summary": "On November 17, 2026, the Dana Point City Council resolved to preserve all existing trees in Lantern Bay Park, responding to strong community opposition against proposed tree removals. This decision followed significant public mobilization, including over 3,000 petition signatures.",
-      "verification_note": "The evidence shows a completed outcome where the City Council officially preserved all trees, backed by multiple independent sources detailing community efforts and council actions.",
+      "verified_headline": "Potawatomi Zoo welcomes endangered animal births for conservation",
+      "verified_summary": "Potawatomi Zoo has successfully welcomed a male Masai giraffe calf and an Amur leopard cub, both contributing to conservation efforts for endangered species. These births are part of established breeding programs aimed at bolstering their populations.",
+      "verification_note": "The births of both animals are confirmed with measurable details and are part of recognized conservation programs, supporting their significance.",
       "publish_recommendation": "publish"
+    },
+    {
+      "id": "7e4d812e054936",
+      "editorial_score": 100,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here is a research note on the claim:\n\n---\n\n### Claim Investigated  \n“Nerja suelta al mar una tortuga boba tras su recuperación en el CEGMA de Algeciras”  \ni.e. A rescued loggerhead turtle is released back into the sea after recovery at CEGMA in Algeciras.  \n\n---\n\n### What is Actually Known (based on primary and independent sources)\n\n- There is no credible, recent source confirming a release **from Nerja** on **20 November 2026** of a turtle rescued at CEGMA of Algeciras. Searches in major and local Spanish media did **not** find an article matching that headline on that date.  \n\n- What *is* documented:  \n  - The Junta de Andalucía reported that **35 loggerhead turtles (Caretta caretta)** were released along various parts of the Andalusian coast in **2026** after being treated at the CEGMA (Centre of Marine Environment Management) in Algeciras. ([juntadeandalucia.es](https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente/servicios/actualidad/noticias/detalle/681058.html?utm_source=openai))  \n  - These releases were carried out in **six separate events** in different locations, not specifically Nerja. ([juntadeandalucia.es](https://www.juntadeandalucia.es/medioambiente/portal/landing-page/-/asset_publisher/4V1kD5gLiJkq/content/andaluc%C3%ADa-suelta-en-el-mar-35-tortugas-bobas-tras-su-cuidado-y-recuperaci%C3%B3n-durante-2026/20151?utm_source=openai))  \n  - The turtles came from three main paths:  \n    1. Four via live strandings (“varamientos”)  \n    2. Two from accidental captures in fishing operations (SOS CARETTA project)  \n    3. Twenty-nine from two nests located in **2025** on beaches in Almería (Mojácar and Roquetas de Mar) ([juntadeandalucia.es](https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente/servicios/actualidad/noticias/detalle/681058.html?utm_source=openai))\n\n- For individual turtles, some specific releases are documented:  \n  - **Manuelita** and **Barbara**, released 5 June on Playa de Getares (Algeciras), after recovery from reduced mobility and algae growth. ([juntadeandalucia.es](https://www.juntadeandalucia.es/medioambiente/portal/landing-page/-/asset_publisher/4V1kD5gLiJkq/content/andaluc%C3%ADa-suelta-en-el-mar-35-tortugas-bobas-tras-su-cuidado-y-recuperaci%C3%B3n-durante-2026/20151?utm_source=openai))  \n  - Others include “El Guapo” (adult male ~43 kg) and “Antonio” (juvenile ~4 kg); both were released after recovery from injuries caused by accidental fishing capture. ([andaluciainformacion.es](https://www.andaluciainformacion.es/articulo/campo-gibraltar-algeciras/devueltas-litoral-andaluz-35-tortugas-bobas-recuperacion-cegma-algeciras/202608261217143461608.html?utm_source=openai))  \n\n---\n\n### What is Not Supported / Problems with the Claim\n\n- There is no source confirming a turtle release in **Nerja** on **20 November 2026**, nor specifying Nerja as the place of release.  \n- The 35 turtle release operations, while real, do **not** mention Nerja in the identified six release events. The named locations include Getares, Mojácar, Roquetas de Mar, etc., but not Nerja. ([juntadeandalucia.es](https://www.juntadeandalucia.es/medioambiente/portal/landing-page/-/asset_publisher/4V1kD5gLiJkq/content/andaluc%C3%ADa-suelta-en-el-mar-35-tortugas-bobas-tras-su-cuidado-y-recuperaci%C3%B3n-durante-2026/20151?utm_source=openai))  \n- Therefore the specific combination in the candidate (“Nerja suelta…”) appears unsubstantiated in available recent reporting. It may be a misreporting, combining elements from the broader set of releases with local place names not supported by sources.\n\n---\n\n### Conclusion\n\n- **Completed / Measured Outcome**: Yes — in 2026, **35 loggerhead turtles** were **released to the sea**, after recovery / nurturing at the CEGMA of Algeciras, across six separate release events. ([juntadeandalucia.es](https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente/servicios/actualidad/noticias/detalle/681058.html?utm_source=openai))  \n- **“Nerja” version of the claim**: Not verified. There is no credible source that specifies a release of a turtle from Nerja on the date or in the way claimed.  \n\n---\n\nIf you want, I can try to dig into more local/regional outlets around Nerja to see if there’s a smaller version of the event that hasn’t been widely reported.",
+      "citations": [
+        {
+          "title": "Andalucía suelta en el mar 35 tortugas bobas tras su cuidado y recuperación durante 2026 - Noticias - Junta de Andalucía",
+          "url": "https://www.juntadeandalucia.es/organismos/sostenibilidadymedioambiente/servicios/actualidad/noticias/detalle/681058.html?utm_source=openai"
+        },
+        {
+          "title": "Andalucía suelta en el mar 35 tortugas bobas tras su cuidado y recuperación durante 2026",
+          "url": "https://www.juntadeandalucia.es/medioambiente/portal/landing-page/-/asset_publisher/4V1kD5gLiJkq/content/andaluc%C3%ADa-suelta-en-el-mar-35-tortugas-bobas-tras-su-cuidado-y-recuperaci%C3%B3n-durante-2026/20151?utm_source=openai"
+        },
+        {
+          "title": "Devueltas al litoral andaluz 35 tortugas bobas tras su recuperación en el CEGMA de Algeciras",
+          "url": "https://www.andaluciainformacion.es/articulo/campo-gibraltar-algeciras/devueltas-litoral-andaluz-35-tortugas-bobas-recuperacion-cegma-algeciras/202608261217143461608.html?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "unsupported",
+      "outcome_status": "completed",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "medium",
+      "verified_headline": "Loggerhead turtles released in Andalusia, not specifically Nerja",
+      "verified_summary": "In 2026, 35 loggerhead turtles were released along the Andalusian coast after recovery at CEGMA in Algeciras. However, there is no evidence of a specific release in Nerja as claimed.",
+      "verification_note": "The claim of a turtle release in Nerja is unsupported; credible sources confirm releases occurred in other locations.",
+      "publish_recommendation": "reject"
+    },
+    {
+      "id": "cb628c13d7a954",
+      "editorial_score": 90,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here is a factual research note, based on recent reporting and scholarly work, on what is known about how conservation has helped American bison (often called plains bison, *Bison bison bison*) recover from near-extinction:\n\n---\n\n## What actually happened\n\n### Population collapse in the 19th century  \n- By the late 1800s, American plains bison were nearly eradicated. Some estimates suggest only a few hundred individuals remained.([usgs.gov](https://www.usgs.gov/mission-areas/ecosystems/news/towards-continental-conservation-a-metapopulation-strategy-support?amputm_campaign=news&amputm_medium=rss&utm_source=openai))  \n- The primary drivers were overhunting, habitat loss, and deliberate government policy.([worldwildlife.org](https://www.worldwildlife.org/news/stories/native-nations-lead-the-way-to-returning-bison-to-their-traditional-homelands/?utm_source=openai))  \n\n### Conservation efforts begin  \n- Private individuals, ranchers, Indigenous peoples, and government bodies initiated efforts in the early-to-mid 20th century to protect remnant bison, establish captive herds, and reintroduce individuals.([usgs.gov](https://www.usgs.gov/mission-areas/ecosystems/news/towards-continental-conservation-a-metapopulation-strategy-support?amputm_campaign=news&amputm_medium=rss&utm_source=openai))  \n- Yellowstone National Park played a central role: after just a few dozen survivors, captive breeding and protection programs were established. Yellowstone’s herds grew to several thousand by the late 20th century.([nps.gov](https://www.nps.gov/yell/learn/management/upload/BISON-Conservation-Update-2020.pdf?utm_source=openai))  \n\n### Genetic restoration and contemporary numbers  \n- A recent scientific study (“Paleogenomic insight into the collapse, recovery, and management of American bison”, *Science*, August 6, 2026) sequenced ancient and modern genomes to assess diversity. It confirms that while bison went through a severe genetic bottleneck, much diversity remains, and modern conservation can still act to restore genetic connectivity.([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/42561076/?utm_source=openai))  \n- The U.S. Geological Survey (USGS) reports that in the 20th century conservation herds were established; those roughly 20,000 bison in conservation herds are now managed across North America. The Department of the Interior (DOI) manages about 11,000 in 18–19 conservation herds across 12 states.([usgs.gov](https://www.usgs.gov/mission-areas/ecosystems/news/towards-continental-conservation-a-metapopulation-strategy-support?amputm_campaign=news&amputm_medium=rss&utm_source=openai))  \n\n---\n\n## Figures & outcomes\n\n| Metric | Value and Context |\n|---|---|\n| Pre-collapse population | Tens of millions (often quoted as 30–60 million) before late 19th-century declines.([worldwildlife.org](https://www.worldwildlife.org/news/stories/native-nations-lead-the-way-to-returning-bison-to-their-traditional-homelands/?utm_source=openai)) |\n| Low-point survival | Only a few hundred bison by the late 1800s.([usgs.gov](https://www.usgs.gov/mission-areas/ecosystems/news/towards-continental-conservation-a-metapopulation-strategy-support?amputm_campaign=news&amputm_medium=rss&utm_source=openai)) |\n| Number in conservation herds today (North America) | Approximately 20,000 bison are managed as conservation herds.([usgs.gov](https://www.usgs.gov/mission-areas/ecosystems/news/towards-continental-conservation-a-metapopulation-strategy-support?amputm_campaign=news&amputm_medium=rss&utm_source=openai)) |\n| DOI-managed bison in conservation herds | ~11,000 individuals in 18–19 herds, across 12 U.S. states.([usgs.gov](https://www.usgs.gov/mission-areas/ecosystems/news/towards-continental-conservation-a-metapopulation-strategy-support?amputm_campaign=news&amputm_medium=rss&utm_source=openai)) |\n| Yellowstone herd size | Averages around 5,000 animals.([besjournals.onlinelibrary.wiley.com](https://besjournals.onlinelibrary.wiley.com/doi/10.1002/jwmg.70207?af=R&utm_source=openai)) |\n\n---\n\n## On the “news” article\n\n- The *InvestigateTV* article “How conservation efforts helped bison recover from near extinction” (Nov. 20, 2026) claims “nearly half a million” bison currently and growing.([wbko.com](https://www.wbko.com/2026/11/20/how-conservation-efforts-helped-bison-recover-near-extinction/?utm_source=openai))  \n- The article attributes this figure to Ilana Xinos of the North American Bison Discovery Center. However, this number appears significantly higher than other recent scientific and government sources, which report around 20,000 in conservation herds and ~11,000 DOI-managed animals.([usgs.gov](https://www.usgs.gov/mission-areas/ecosystems/news/towards-continental-conservation-a-metapopulation-strategy-support?amputm_campaign=news&amputm_medium=rss&utm_source=openai))  \n\n---\n\n## Assessment & caveats\n\n- The ~500,000 figure seems to include bison broadly—likely counting commercial and private herds, not just wild or conservation-managed populations. The InvestigateTV piece uses that large number without clearly defining whether those are wild, conservation, or commercial herds.([wbko.com](https://www.wbko.com/2026/11/20/how-conservation-efforts-helped-bison-recover-near-extinction/?utm_source=openai))  \n- In contrast, peer-reviewed publications and government bodies focus on conservation herds, wild populations, and gene conservation, placing those populations well below that larger figure.([usgs.gov](https://www.usgs.gov/mission-areas/ecosystems/news/towards-continental-conservation-a-metapopulation-strategy-support?amputm_campaign=news&amputm_medium=rss&utm_source=openai))  \n- Genetic bottlenecks remain a concern: many herds are small, isolated, and historically crossbred with cattle, which complicates conservation efforts.([usgs.gov](https://www.usgs.gov/mission-areas/ecosystems/news/towards-continental-conservation-a-metapopulation-strategy-support?amputm_campaign=news&amputm_medium=rss&utm_source=openai))  \n\n---\n\n## Conclusion\n\nConservation efforts over more than a century—including protection of remnant populations, captive breeding, reintroduction, and partnerships with Indigenous peoples—have prevented the extinction of American plains bison and enabled substantial recovery. There are today approximately 20,000 bison in conservation herds in North America, of which around 11,000 are managed by the U.S. Department of the Interior. Yellowstone’s herd is about 5,000 animals. \n\nThe claim of “nearly half a million and growing” likely refers to a broader aggregation (including private/commercial herds) rather than purely conservation or wild populations. Thus, while the story of recovery is accurate, the scale depends heavily on how “recovered” is defined.",
+      "citations": [
+        {
+          "title": "Towards Continental Conservation: A Metapopulation Strategy to Support Collaborative Bison Restoration and Management | U.S. Geological Survey",
+          "url": "https://www.usgs.gov/mission-areas/ecosystems/news/towards-continental-conservation-a-metapopulation-strategy-support?amputm_campaign=news&amputm_medium=rss&utm_source=openai"
+        },
+        {
+          "title": "Native Nations Lead Bison Restoration | WWF | WWF",
+          "url": "https://www.worldwildlife.org/news/stories/native-nations-lead-the-way-to-returning-bison-to-their-traditional-homelands/?utm_source=openai"
+        },
+        {
+          "title": "Bison Conservation Update, 2020, Yellowstone National Park",
+          "url": "https://www.nps.gov/yell/learn/management/upload/BISON-Conservation-Update-2020.pdf?utm_source=openai"
+        },
+        {
+          "title": "Paleogenomic insight into the collapse, recovery, and management of American bison.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42561076/?utm_source=openai"
+        },
+        {
+          "title": "Predicted genetic consequences of alternative population control strategies for North American plains bison in Yellowstone National Park",
+          "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1002/jwmg.70207?af=R&utm_source=openai"
+        },
+        {
+          "title": "Conservation efforts helped bison recover from near extinction",
+          "url": "https://www.wbko.com/2026/11/20/how-conservation-efforts-helped-bison-recover-near-extinction/?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "supported",
+      "outcome_status": "completed",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "high",
+      "verified_headline": "Bison populations recover due to conservation efforts",
+      "verified_summary": "Conservation efforts have led to the recovery of American bison populations, with approximately 20,000 bison now managed in conservation herds across North America. This recovery follows a near extinction in the late 1800s.",
+      "verification_note": "The evidence confirms significant recovery of bison populations due to conservation efforts, with reliable sources reporting current numbers and historical context.",
+      "publish_recommendation": "publish"
+    },
+    {
+      "id": "b13bbe227caf4d",
+      "editorial_score": 90,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here is what I found after researching whether Spain has recently “achieved a record paper and cardboard recycling rate” of the kind described. I focused on verifying actual figures and outcomes vs. plans or announcements.\n\n---\n\n## What *actually happened*\n\nFrom independent and official sources:\n\n- In 2024, Spain recycled **5.2 million tonnes** of paper and cardboard, which corresponded to a **recycling rate of 83.6%** (paper/cardboard used vs. recovered) for that year. ([aspapel.es](https://www.aspapel.es/wp-content/uploads/2026/05/Reciclar-papel-y-carton-un-habito-consolidado-el-855-de-los-espanoles-lo-hace-de-manera-habitual.pdf?utm_source=openai))  \n- In the same year, the collection (i.e. separate collection for recycling) of paper and cardboard was approximately **4.5 million tonnes**, with a “collection rate” (collected vs. total consumption) of about **71.6%**. ([aspapel.es](https://www.aspapel.es/wp-content/uploads/2026/03/ASPAPEL_MemoriaSostenibilidad_2024.pdf?utm_source=openai))  \n- The sector also reported that the 5.2 million tonnes recycled in 2024 avoided emissions of about **6.8 million tonnes of CO₂ equivalent**. ([aspapel.es](https://www.aspapel.es/wp-content/uploads/2026/03/ASPAPEL_MemoriaSostenibilidad_2024.pdf?utm_source=openai))  \n\nThese are measured and completed outcomes, not projections or pledges.\n\n---\n\n## Comparison with the candidate’s claims\n\nCandidate claim: *“Spain Achieves Record Paper and Cardboard Recycling Rate”*, “Reports significant recycling achievement with measurable impact.”\n\nWhat actually matches or diverges:\n\n| Component | Matches | Diverges or Needs Context |\n|-----------|---------|----------------------------|\n| Measured outcome (recycled tonnage and rate) | **Yes** — 5.2 million tonnes and 83.6% recycling rate are current and supported with data. ([aspapel.es](https://www.aspapel.es/wp-content/uploads/2026/05/Reciclar-papel-y-carton-un-habito-consolidado-el-855-de-los-espanoles-lo-hace-de-manera-habitual.pdf?utm_source=openai)) |\n| Whether this is a “record” | **Probably yes** — 83.6% is high compared to previous years (for example, rates of ~78–80% in the early 2020s). ([aspapel.es](https://www.aspapel.es/wp-content/uploads/2026/03/ASPAPEL_MemoriaSostenibilidad_2024.pdf?utm_source=openai)) |\n| Claim of “best collection in a decade” or reaching 4.6 million tonnes | **No firm support** — recent collection is 4.5 million tonnes (2024), not 4.6. The 4.6 figure appears in different contexts (e.g. collection or production) in some reporting (see below). ([capitalradio.es](https://www.capitalradio.es/eventos/espana-tercer-pais-europeo-mas-recicla-papel-carton_144680042.html?utm_source=openai)) |\n| Timing (2026-11-20) | The data are from 2024 or reports published in mid-2026 about 2024 results. No individual source has published *new* 2025 data showing a leap to a “record” beyond those stats. ([aspapel.es](https://www.aspapel.es/wp-content/uploads/2026/05/Reciclar-papel-y-carton-un-habito-consolidado-el-855-de-los-espanoles-lo-hace-de-manera-habitual.pdf?utm_source=openai)) |\n\n---\n\n## Additional relevant context\n\n- According to ASPAPEL, Spain is ranked **third in Europe** for paper and cardboard recycling, behind Germany and Italy, when measured by volume. ([aspapel.es](https://www.aspapel.es/wp-content/uploads/2026/05/Reciclar-papel-y-carton-un-habito-consolidado-el-855-de-los-espanoles-lo-hace-de-manera-habitual.pdf?utm_source=openai))  \n- The “collection rate” (paper/cardboard collected vs consumed) in 2024 was ~71.6%, while the “recycling rate” (paper and cardboard used as raw material in industry) was ~83.6%. The distinction is important: collection rate refers to how much is collected; recycling rate refers to how much collected material is re-used in production. ([aspapel.es](https://www.aspapel.es/wp-content/uploads/2026/03/ASPAPEL_MemoriaSostenibilidad_2024.pdf?utm_source=openai))  \n\n---\n\n## Conclusion: What can be established\n\n- It is true that Spain **recycled** 5.2 million tonnes of paper and cardboard in 2024, reaching an **83.6% recycling rate**, which is one of the highest rates achieved in recent years. That qualifies as a measurable outcome.  \n- The **collection rate** is ~71.6%, which is lower than the recycling rate because not all material consumed is collected.  \n- The exact claim “record paper and cardboard recycling rate” is broadly supported for 2024 (maybe a record in recent years), but I did *not* find verification of a new 2025 or 2026 figure exceeding that.  \n- The number “4.6 million tonnes” cited in some media (e.g. in articles quoting Repacar) appears to reflect a different measurement or approximated collection figure, and is slightly inconsistent with the 4.5 million tonnes reported by ASPAPEL for 2024. One of those may be a projection or rounding. ([capitalradio.es](https://www.capitalradio.es/eventos/espana-tercer-pais-europeo-mas-recicla-papel-carton_144680042.html?utm_source=openai))  \n\n---\n\nIf you like, I can try to locate the very latest data (2025 or 2026) to see whether Spain has *just now* surpassed that 83.6% figure — that would confirm whether “record” applies to *now*.",
+      "citations": [
+        {
+          "title": "Nota de Prensa ASPAPEL",
+          "url": "https://www.aspapel.es/wp-content/uploads/2026/05/Reciclar-papel-y-carton-un-habito-consolidado-el-855-de-los-espanoles-lo-hace-de-manera-habitual.pdf?utm_source=openai"
+        },
+        {
+          "title": "Memoria de",
+          "url": "https://www.aspapel.es/wp-content/uploads/2026/03/ASPAPEL_MemoriaSostenibilidad_2024.pdf?utm_source=openai"
+        },
+        {
+          "title": "España es el tercer país europeo en reciclaje de papel y cartón",
+          "url": "https://www.capitalradio.es/eventos/espana-tercer-pais-europeo-mas-recicla-papel-carton_144680042.html?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "completed",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "medium",
+      "verified_headline": "Spain Recycles 5.2 Million Tonnes of Paper and Cardboard in 2024",
+      "verified_summary": "In 2024, Spain achieved a recycling rate of 83.6% for paper and cardboard, recycling 5.2 million tonnes. This accomplishment avoided approximately 6.8 million tonnes of CO₂ emissions.",
+      "verification_note": "The claim of a record recycling rate is broadly supported, but the exact status as a record compared to previous years is unclear without 2025 data.",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "e8b437dc970892",
+      "editorial_score": 85,
+      "editorial_decision": "reserve",
+      "search_backend": "responses_web_search",
+      "search_model": "gpt-6-luna",
+      "research_notes": "**Research note — Health**\n\n- **What happened:** A peer-reviewed paper reported a *secondary analysis* of data from a single-center, four-arm randomized study involving 140 adults undergoing functional endoscopic sinus surgery in Shantou, China. The paper was published **July 14, 2026**—not November 20, the date attached to this candidate. ([link.springer.com](https://link.springer.com/article/10.1186/s13741-026-00724-y))\n- **Measured result:** Compared with saline, the lidocaine-plus-esketamine group had higher patient-reported QoR-40 recovery scores on postoperative day 1 (adjusted mean difference **10.5 points**, 95% CI 5.7–15.3) and day 2 (**8.2 points**, 95% CI 4.6–11.8). These are study outcomes, not evidence of a broadly established treatment advance. The analysis was secondary, and the authors describe day-7 results as exploratory. ([link.springer.com](https://link.springer.com/article/10.1186/s13741-026-00724-y))\n- **Qualification:** Emergence agitation was numerically lower with the combination than with saline (11.4% vs. 31.4%), but the confidence interval crossed unity, so that result was not conclusive. ([link.springer.com](https://link.springer.com/article/10.1186/s13741-026-00724-y))\n- **Source check:** The primary source is the journal article. Bioengineer’s November 20 item summarizes that same paper and names **Scienmag** as its news source; I found no independent reporting that separately verifies the study. Treat those news items as repetition of the paper or a shared news release, not independent confirmation. ([link.springer.com](https://link.springer.com/article/10.1186/s13741-026-00724-y))",
+      "citations": [
+        {
+          "title": "Perioperative intravenous lidocaine plus esketamine and patient-reported recovery after functional endoscopic sinus surgery | Perioperative Medicine | Springer Nature Link",
+          "url": "https://link.springer.com/article/10.1186/s13741-026-00724-y"
+        }
+      ],
+      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 260. Please try again in 347ms. Visit https://platform.op",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "measured_progress",
+      "evidence_quality": "medium",
+      "independence": "single_source",
+      "significance": "medium",
+      "verified_headline": "Lidocaine and Esketamine Improve Recovery After Sinus Surgery",
+      "verified_summary": "A study found that lidocaine plus esketamine improved recovery scores after sinus surgery compared to saline. However, results are based on secondary analysis and require further validation.",
+      "verification_note": "The study shows improved recovery scores but is based on secondary analysis, limiting its conclusiveness. Independent verification is lacking.",
+      "publish_recommendation": "reserve"
     }
   ],
   "pilot_note": "Live-web verification pilot; cited search evidence is re-evaluated by a separate verifier model."
