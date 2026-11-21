@@ -1,79 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-21T01:26:43.767438Z",
+  "last_attempt_utc": "2026-11-21T07:28:08.500051Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 21,
-  "active_checked": 8,
+  "active_checked": 10,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
-    "8c9b71e5b1fe65a440cea544": {
-      "event_id": "8c9b71e5b1fe65a440cea544",
-      "checked_at": "2026-11-06T01:23:21.249553Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de aanvallen op Qeshm Island ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Reports, analysis and official statistics"
-        },
-        {
-          "url": "https://www.gov.uk/sign-in-universal-credit",
-          "title": "Sign in to your Universal Credit account - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Reports, analysis and official statistics"
-        }
-      ]
-    },
-    "fd7a494671e879a31708c133": {
-      "event_id": "fd7a494671e879a31708c133",
-      "checked_at": "2026-11-07T07:12:32.240757Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De officiële tekst bevestigt dat de VS aanvallen hebben uitgevoerd op IRGC-doelen in Iran, wat de claim over aanvallen op Iraanse doelen ondersteunt.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
-          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
-          "source_publication_date": "Oct. 25, 2026",
-          "text_excerpt": "\"Today, primary transit routes in the Strait of Hormuz remain free and clear of Iranian sea mines thanks to incredible efforts by our people,\" said Cooper. \"We remain intensely focused on keeping commercial traffic flowing as we work with our teammat"
-        },
-        {
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4588389/centcom-completes-strikes-on-irgc-targets-in-iran/",
-          "title": "CENTCOM Completes Strikes on IRGC Targets in Iran > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
-          "source_publication_date": "Sept. 1, 2026",
-          "text_excerpt": "The strikes follow recent attempted attacks by the IRGC against commercial shipping in the Strait of Hormuz and against American service members."
-        }
-      ]
-    },
     "dbf181e44d8d4bcf84ca2ec1": {
       "event_id": "dbf181e44d8d4bcf84ca2ec1",
       "checked_at": "2026-11-06T01:23:21.249583Z",
@@ -3687,7 +3623,7 @@
     },
     "50726f4342db702299df37ed": {
       "event_id": "50726f4342db702299df37ed",
-      "checked_at": "2026-11-19T13:32:46.732176Z",
+      "checked_at": "2026-11-21T07:28:08.499979Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3696,15 +3632,15 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/yemen",
           "original_document_title": "Yemen travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-19T13:32:40.432313Z",
-          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
+          "retrieved_at": "2026-11-21T07:28:01.688203Z",
+          "exact_quote": "the context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage spreekt over de onvoorspelbaarheid in de regio, maar biedt geen directe ondersteuning voor de claim over olieprijzen.",
+          "reason_nl": "De passage beschrijft de onvoorspelbaarheid van de situatie in het Midden-Oosten, maar biedt geen specifieke informatie over olieprijzen of aanvallen op scheepvaart.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De tekst wijst op de onvoorspelbaarheid in het Midden-Oosten, maar bevat geen specifieke informatie over de stijging van olieprijzen.",
+      "summary_nl": "De teksten wijzen op een onvoorspelbare situatie in het Midden-Oosten, maar er is geen directe link naar de stijging van olieprijzen of aanvallen op scheepvaart.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3971,6 +3907,95 @@
           "text_excerpt": "The Group emphasises the need for de-escalation and efforts by all parties to ensure that the conflict in Yemen is not further drawn into growing regional tensions. In this regard, the Group condemns in the strongest terms the increased intensity of "
         }
       ]
+    },
+    "97361ea04c61a12479e71e63": {
+      "event_id": "97361ea04c61a12479e71e63",
+      "checked_at": "2026-11-21T07:28:08.499953Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-21T07:28:00.236498Z",
+          "exact_quote": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt dat de Houthis aanvallen hebben uitgevoerd op verschillende locaties in Saoedi-Arabië, maar het ondersteunt niet specifiek de bewering over dreigementen om havens te bombarderen.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "original_document_title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-21T07:28:00.379410Z",
+          "exact_quote": "the Houthis have launched air strikes against Saudi territory and Saudi shipping vessels in the Red Sea.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage bevestigt dat de Houthis luchtaanvallen hebben uitgevoerd op Saoedi-Arabië, maar biedt geen bewijs voor de specifieke dreigementen over havens.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten bevestigen dat de Houthis aanvallen hebben uitgevoerd op Saoedi-Arabië, maar er is geen specifieke vermelding van dreigementen om havens te bombarderen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/yemen",
+          "title": "Yemen travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Since July 2026, the Houthis have launched air strikes against Saudi territory and Saudi shipping vessels in the Red Sea. There is an ongoing risk of further military escalation, including in Yemen and the Red Sea, which could occur at short notice."
+        }
+      ]
+    },
+    "b87d9c04d906f0d50efb89cb": {
+      "event_id": "b87d9c04d906f0d50efb89cb",
+      "checked_at": "2026-11-21T07:28:08.499984Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De teksten geven aan dat Iran doelen wil aanvallen die verband houden met de VS en Israël, maar er is geen bevestiging van specifieke aanvallen op een Amerikaanse basis in Koeweit.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
+          "title": "Kuwait travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -3985,9 +4010,9 @@
       "model_tokens": 5107
     },
     "2026-11-21": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 2130
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 4067
     }
   },
   "last_error": null
