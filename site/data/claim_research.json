@@ -1,49 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-20T19:15:20.748682Z",
+  "last_attempt_utc": "2026-11-21T01:26:43.767438Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 21,
-  "active_checked": 5,
+  "active_checked": 8,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "c74bff116f0cf742d5db0f4c": {
-      "event_id": "c74bff116f0cf742d5db0f4c",
-      "checked_at": "2026-11-05T13:25:41.265379Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de onzekere toekomst van de Iran-vredesgesprekken ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/universal-credit",
-          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "If you get a Migration Notice, you must move to Universal Credit by the deadline date in your letter to keep getting financial support."
-        },
-        {
-          "url": "https://www.gov.uk/self-assessment-tax-returns",
-          "title": "Self Assessment tax returns: Overview - GOV.UK\nGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Send your tax return by the deadline."
-        }
-      ]
-    },
     "8c9b71e5b1fe65a440cea544": {
       "event_id": "8c9b71e5b1fe65a440cea544",
       "checked_at": "2026-11-06T01:23:21.249553Z",
@@ -3797,7 +3763,7 @@
     },
     "5ee1485b189fff49f2b42b18": {
       "event_id": "5ee1485b189fff49f2b42b18",
-      "checked_at": "2026-11-20T01:22:13.139820Z",
+      "checked_at": "2026-11-21T01:26:43.767372Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3806,15 +3772,15 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
           "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-20T01:22:05.200833Z",
+          "retrieved_at": "2026-11-21T01:26:33.847799Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten, maar bevestigt geen specifieke aanvallen op Bahrain.",
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS, maar bevestigt geen specifieke aanvallen op Bahrain.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De officiële tekst vermeldt dat Iran locaties gerelateerd aan de VS en Israël wil aanvallen, maar er is geen directe bevestiging van aanvallen op Bahrain.",
+      "summary_nl": "De officiële tekst vermeldt de intentie van Iran om locaties te targeten die verband houden met de VS, maar er is geen directe bevestiging van aanvallen op Bahrain.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3841,7 +3807,7 @@
     },
     "7913aaff5e81bd9954dbfde0": {
       "event_id": "7913aaff5e81bd9954dbfde0",
-      "checked_at": "2026-11-20T01:22:13.139845Z",
+      "checked_at": "2026-11-21T01:26:43.767404Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3850,11 +3816,11 @@
           "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
           "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
           "source_date": null,
-          "retrieved_at": "2026-11-20T01:22:07.648758Z",
+          "retrieved_at": "2026-11-21T01:26:38.294649Z",
           "exact_quote": "more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage verwijst naar aanvallen op commerciële schepen in de Straat van Hormuz, maar specificeert geen aanvallen door Iran op olie tankers.",
+          "reason_nl": "De passage vermeldt meer dan 130 aanvallen op commerciële schepen in de Straat van Hormuz, maar bevestigt geen specifieke aanvallen door Iran op olietankers.",
           "claim_validated_as_fact": false
         }
       ],
@@ -3961,14 +3927,53 @@
           "text_excerpt": "using effective communications with relevant authorities and reporting incidents before, during or after an attack"
         }
       ]
+    },
+    "7eb004b4bf49dbcebcbdc8c4": {
+      "event_id": "7eb004b4bf49dbcebcbdc8c4",
+      "checked_at": "2026-11-21T01:26:43.767396Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/government/news/yemen-joint-communique-signed-at-un-general-assembly",
+          "original_document_title": "Yemen joint communiqué, signed at UN General Assembly 2019 - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-21T01:26:36.051898Z",
+          "exact_quote": "the increased intensity of Houthi attacks on Saudi Arabia",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar de intensiteit van Houthi-aanvallen op Saudi-Arabië, maar bevestigt geen specifieke aanvallen door Saoedi-leger op Jemen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De tekst verwijst naar de intensiteit van Houthi-aanvallen op Saudi-Arabië, maar biedt geen bewijs voor aanvallen door Saoedi-leger op Jemen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/government/publications/yemen-country-policy-and-information-notes",
+          "title": "Yemen: country policy and information notes - GOV.UKGOV.UK",
+          "source_publication_date": "2025-03-31T14:11:12Z",
+          "text_excerpt": "Yemen: country policy and information notes"
+        },
+        {
+          "url": "https://www.gov.uk/government/news/yemen-joint-communique-signed-at-un-general-assembly",
+          "title": "Yemen joint communiqué, signed at UN General Assembly 2019 - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The Group emphasises the need for de-escalation and efforts by all parties to ensure that the conflict in Yemen is not further drawn into growing regional tensions. In this regard, the Group condemns in the strongest terms the increased intensity of "
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-18": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 4295
-    },
     "2026-11-19": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -3978,6 +3983,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 5107
+    },
+    "2026-11-21": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 2130
     }
   },
   "last_error": null
