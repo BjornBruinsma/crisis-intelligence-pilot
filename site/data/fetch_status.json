@@ -1,8 +1,8 @@
 {
-  "last_attempt_utc": "2026-11-21T07:23:02.419122Z",
+  "last_attempt_utc": "2026-11-21T13:09:39.925664Z",
   "sources": {
     "google_news_rss": {
-      "ok": 0,
+      "ok": 12,
       "total": 12
     },
     "gdelt_doc2": {
@@ -12,64 +12,64 @@
   },
   "profiles": {
     "military": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 22,
+      "new": 6
     },
     "diplomacy": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 22,
+      "new": 11
     },
     "government": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 7,
+      "new": 0
     },
     "markets": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 8,
+      "new": 1
     },
     "energy": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 14,
+      "new": 2
     },
     "trade": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 8,
+      "new": 5
     },
     "business": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 4,
+      "new": 0
     },
     "economy": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 0,
+      "new": 0
     },
     "iran-fa": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 0,
+      "new": 0
     },
     "china-zh": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 11,
+      "new": 5
     },
     "pakistan-en": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 10,
+      "new": 3
     },
     "gulf-ar": {
-      "status": "error",
-      "error": "HTTP 503 Service Unavailable",
-      "articles": 0
+      "status": "ok",
+      "articles": 29,
+      "new": 8
     },
     "gdelt-iran": {
       "status": "ok",
@@ -83,23 +83,11 @@
     }
   },
   "errors": {
-    "rss:military": "HTTP 503 Service Unavailable",
-    "rss:diplomacy": "HTTP 503 Service Unavailable",
-    "rss:government": "HTTP 503 Service Unavailable",
-    "rss:markets": "HTTP 503 Service Unavailable",
-    "rss:energy": "HTTP 503 Service Unavailable",
-    "rss:trade": "HTTP 503 Service Unavailable",
-    "rss:business": "HTTP 503 Service Unavailable",
-    "rss:economy": "HTTP 503 Service Unavailable",
-    "rss:iran-fa": "HTTP 503 Service Unavailable",
-    "rss:china-zh": "HTTP 503 Service Unavailable",
-    "rss:pakistan-en": "HTTP 503 Service Unavailable",
-    "rss:gulf-ar": "HTTP 503 Service Unavailable",
     "gdelt-hormuz": "HTTP 429 Too Many Requests"
   },
-  "new_urls": 40,
-  "retained_urls": 4679,
-  "queries_ok": 1,
+  "new_urls": 81,
+  "retained_urls": 4760,
+  "queries_ok": 13,
   "queries_total": 14,
   "status": "partial"
 }

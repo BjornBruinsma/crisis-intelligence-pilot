@@ -1,83 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-21T07:28:08.500051Z",
+  "last_attempt_utc": "2026-11-21T13:11:56.420485Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 21,
-  "active_checked": 10,
+  "active_total": 22,
+  "active_checked": 9,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
-    "dbf181e44d8d4bcf84ca2ec1": {
-      "event_id": "dbf181e44d8d4bcf84ca2ec1",
-      "checked_at": "2026-11-06T01:23:21.249583Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de stijging van olieprijzen na een vermeende aanval op Qeshm Island ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/check-uk-visa",
-          "title": "Check if you need a UK visa - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Travel or do business in Europe: Brexit guidance"
-        },
-        {
-          "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
-          "title": "HMRC online services: sign in or set up an account: Sign in or set up an account - GOV.UK\nGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Sign in to your HM Revenue and Customs (HMRC) online account for things like a personal or business tax account, Self Assessment, Corporation Tax, PAYE for employers, VAT and the Construction Industry Scheme."
-        }
-      ]
-    },
-    "4182bf229cc38f504183786d": {
-      "event_id": "4182bf229cc38f504183786d",
-      "checked_at": "2026-11-06T07:29:23.964315Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de nucleaire voorstellen van Iran ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/find-a-visa-application-centre",
-          "title": "Find a visa application centre - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Micronesia, Federated States of - choose a centre in a different country"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/the-strategic-defence-review-2025-making-britain-safer-secure-at-home-strong-abroad",
-          "title": "The Strategic Defence Review 2025 - Making Britain Safer: secure at home, strong abroad - GOV.UKGOV.UK",
-          "source_publication_date": "2025-07-08T14:34:49Z",
-          "text_excerpt": "The world has changed. The threat we now face is more serious and less predictable than at any time since the Cold War. The UK faces war in Europe, growing Russian aggression, new nuclear risks, and daily cyber-attacks at home. Our adversaries are wo"
-        }
-      ]
-    },
     "10d51c330032bd946fa5fdd4": {
       "event_id": "10d51c330032bd946fa5fdd4",
       "checked_at": "2026-11-06T13:19:51.230310Z",
@@ -3425,12 +3357,12 @@
     },
     "60c5dee2ede2328bc6271a4b": {
       "event_id": "60c5dee2ede2328bc6271a4b",
-      "checked_at": "2026-11-20T07:32:07.147611Z",
+      "checked_at": "2026-11-21T13:11:56.420427Z",
       "version": "official-original-document-v1",
       "research_status": "documents_found_unassessed",
       "verified_event": false,
       "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de Amerikaanse aanval op een Iraanse raketsite ondersteunen of tegenspreken.",
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de Amerikaanse luchtaanval op een Iraanse raketsite ondersteunen of tegenspreken.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3996,6 +3928,83 @@
           "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
         }
       ]
+    },
+    "f7fab86ffc880536de29a129": {
+      "event_id": "f7fab86ffc880536de29a129",
+      "checked_at": "2026-11-21T13:11:56.420450Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_date": null,
+          "retrieved_at": "2026-11-21T13:11:45.362721Z",
+          "exact_quote": "more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt aanvallen op commerciële schepen in de Straat van Hormuz, maar ondersteunt niet specifiek de claim over Iraanse aanvallen op olietankers.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "Er is een vermelding van aanvallen op commerciële schepen in de Straat van Hormuz, maar geen specifieke bevestiging van Iraanse aanvallen op olietankers.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "error",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [
+        "govuk search: HTTPError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "STRAIT OF HORMUZ — The commander of U.S. Central Command (CENTCOM) visited the Strait of Hormuz, Oct. 25, as U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer."
+        },
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "​IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026. At least 25 seafarers have lost their lives, with others missing or injured."
+        }
+      ]
+    },
+    "fd04fc014231361a1fc4c80f": {
+      "event_id": "fd04fc014231361a1fc4c80f",
+      "checked_at": "2026-11-21T13:11:56.420456Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de stilgevallen US-Iran gesprekken ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 1,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/eta",
+          "title": "Get an electronic travel authorisation (ETA) to visit the UK: Overview - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "An ETA does not guarantee entry to the UK, Jersey, Guernsey or the Isle of Man."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -4010,9 +4019,9 @@
       "model_tokens": 5107
     },
     "2026-11-21": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 4067
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 5675
     }
   },
   "last_error": null

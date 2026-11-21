@@ -1,17 +1,17 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-21T01:26:23.468936Z",
-  "fingerprint": "17f42bcb9fc864939dcb2f4e",
+  "last_attempt_utc": "2026-11-21T13:11:27.699246Z",
+  "fingerprint": "98270cb98f513b4de3ea6e69",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 23,
-  "event_candidate_count": 21,
+  "input_candidate_count": 24,
+  "event_candidate_count": 22,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 6,
+    "model_pair_proposals": 5,
     "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 4,
+    "rejected_pair_proposals": 3,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-21T01:26:23.468936Z",
+    "recorded_at": "2026-11-21T13:11:27.699246Z",
     "groups": [
       {
         "ids": [
@@ -38,9 +38,9 @@
       },
       {
         "ids": [
-          "f79d8e79083eb1"
+          "f0c7313171dd59"
         ],
-        "label_nl": "Claim: US, Qatar Discuss Restoring Iran Ceasefire, Restarting Nuclear Talks - bloomingbit",
+        "label_nl": "Claim: US-Iran talks stall as mediators fail to guarantee ceasefire - samaa tv",
         "actor": "",
         "action": "",
         "place": "",
@@ -60,20 +60,21 @@
       },
       {
         "ids": [
-          "ba90122f657ad0"
+          "ba90122f657ad0",
+          "33adb45819fb8c"
         ],
         "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
-          "be99529b8f50e4"
+          "9cf1cb8397c5b2"
         ],
-        "label_nl": "Claim: Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
+        "label_nl": "Claim: Oil Prices Could Normalize to $70 by 2027 - Wisevoter",
         "actor": "",
         "action": "",
         "place": "",
@@ -82,9 +83,9 @@
       },
       {
         "ids": [
-          "1087ab7747e1c3"
+          "1c7f31c0e13783"
         ],
-        "label_nl": "Claim: Oil Spills Affect UAE, Oman Beaches as Hormuz Strikes Go On - Skift",
+        "label_nl": "Claim: IRGC Claims 58th US MQ-9 Drone Downed Over Hormuz, US Silent - https://houseofsaud.com/",
         "actor": "",
         "action": "",
         "place": "",
@@ -104,9 +105,9 @@
       },
       {
         "ids": [
-          "504f736c5ef687"
+          "9384f566cb96e5"
         ],
-        "label_nl": "Claim: Iran fuel crisis deepens amid war and sanctions - DW.com",
+        "label_nl": "Claim: EU sees eurozone economy hold up despite Iran war - 24NewsHD",
         "actor": "",
         "action": "",
         "place": "",
@@ -115,21 +116,31 @@
       },
       {
         "ids": [
-          "304017063b28f3",
-          "2f9719d1fd8639"
+          "304017063b28f3"
         ],
         "label_nl": "Claim: Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
-          "4d6d41e95d9490"
+          "2f9719d1fd8639"
         ],
-        "label_nl": "Claim: Scoop: Witkoff and Kushner meet Qatari mediators to discuss Iran negotiations - Axios",
+        "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "6e571838c04c2e"
+        ],
+        "label_nl": "Claim: Tehran Seeks Agreement to Prevent Future War, Araghchi Says - باسنیوز",
         "actor": "",
         "action": "",
         "place": "",
@@ -160,20 +171,9 @@
       },
       {
         "ids": [
-          "21a3153df04cfa"
+          "be99529b8f50e4"
         ],
-        "label_nl": "Claim: Tankers Are Being Hit Daily. So Why Is Oil Falling - Crude Oil Prices Today | OilPrice.com",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "2f4491d905ebac"
-        ],
-        "label_nl": "Claim: Iran hits U.S. Kuwait base, widens Gulf attacks - Ticker News",
+        "label_nl": "Claim: Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
         "actor": "",
         "action": "",
         "place": "",
@@ -193,9 +193,9 @@
       },
       {
         "ids": [
-          "9384f566cb96e5"
+          "0dbc4f472779e3"
         ],
-        "label_nl": "Claim: EU sees eurozone economy hold up despite Iran war - 24NewsHD",
+        "label_nl": "Claim: Senior Guards commander admits deep Israeli intelligence infiltration - Iran International",
         "actor": "",
         "action": "",
         "place": "",
@@ -207,6 +207,17 @@
           "ffb8209abc59e4"
         ],
         "label_nl": "Claim: Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "f79d8e79083eb1"
+        ],
+        "label_nl": "Claim: US, Qatar Discuss Restoring Iran Ceasefire, Restarting Nuclear Talks - bloomingbit",
         "actor": "",
         "action": "",
         "place": "",
@@ -237,9 +248,9 @@
       },
       {
         "ids": [
-          "ac909109dd5a27"
+          "21a3153df04cfa"
         ],
-        "label_nl": "Claim: Oil futures: Crude lifts off lows, US-Iran tensions eyed - Quantum Commodity Intelligence",
+        "label_nl": "Claim: Tankers Are Being Hit Daily. So Why Is Oil Falling - Crude Oil Prices Today | OilPrice.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -248,9 +259,9 @@
       },
       {
         "ids": [
-          "23254499885bff"
+          "598f6ef771aca3"
         ],
-        "label_nl": "Claim: Tanker hit by unknown projectile near Oman in latest Hormuz attack - Gulf News",
+        "label_nl": "Claim: UAE flights status update: Saudi cancellations extend as regional tensions rise on November 20 - Gulf News",
         "actor": "",
         "action": "",
         "place": "",
@@ -260,28 +271,29 @@
     ],
     "input_claim_ids": [
       "cb4439dd785f73",
-      "f79d8e79083eb1",
+      "f0c7313171dd59",
       "e71596ea79f752",
       "ba90122f657ad0",
-      "be99529b8f50e4",
-      "1087ab7747e1c3",
+      "9cf1cb8397c5b2",
+      "1c7f31c0e13783",
       "dd1392117ea1ab",
-      "504f736c5ef687",
+      "9384f566cb96e5",
       "304017063b28f3",
       "2f9719d1fd8639",
-      "4d6d41e95d9490",
+      "6e571838c04c2e",
       "08d1274ced6c48",
       "1e760350a8a234",
-      "21a3153df04cfa",
-      "2f4491d905ebac",
+      "be99529b8f50e4",
+      "33adb45819fb8c",
       "9b5230aef3852f",
-      "9384f566cb96e5",
+      "0dbc4f472779e3",
       "ffb8209abc59e4",
       "9a039bb82e353f",
+      "f79d8e79083eb1",
       "4e61c35f40cba0",
       "cca12ccdc9dadc",
-      "ac909109dd5a27",
-      "23254499885bff"
+      "21a3153df04cfa",
+      "598f6ef771aca3"
     ]
   },
   "official_sources_available": 15,
@@ -319,27 +331,22 @@
       "probability_estimate": null
     },
     {
-      "id": "5ee1485b189fff49f2b42b18",
-      "label_nl": "Claim: Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
+      "id": "f7fab86ffc880536de29a129",
+      "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
       "headline_claim_ids": [
-        "304017063b28f3",
-        "2f9719d1fd8639"
+        "ba90122f657ad0",
+        "33adb45819fb8c"
       ],
       "headline_claims": [
-        "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
-        "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald"
+        "Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
+        "Two tanker attacks reported near Hormuz in fresh blow to vital oil route - Business Upturn"
       ],
       "related_news_links": [
-        "https://www.kwit.org/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
-        "https://news.prairiepublic.org/news-from-npr/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
-        "https://www.kazu.org/npr-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
-        "https://www.publicradiotulsa.org/npr-national-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
-        "https://www.kccu.org/world/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
-        "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUxXbHlBVzJ5ZjRUR0lKRnF5MmpFNThseTVlNVRuTlVnXy0wQWZxanNpaXFnam9XQlJoWkpRMlpIY0cwRnlTTVpuaUh4b2lLMDJVRDVtQ1FLSVEwZ19WTHk4dnIzVEJzdENDNHhXbTE5LUJhSEJTMzZUZklkNjdSR1gyRQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbFIwdXVqTU1ETUpaMXZDY2c2NWFaTlpvMnNnd0xrX2lqTFBtUHF3aHBWR2NYSTBLY0xuTTVTblZCeEltUWlzcjUxakpZenhBRGNRX1FxZDdQVEoyeEFaVm1uekcyeXhteEJfUlJUbURLLWRuY2NIelRmVHpTVnRWOE53?oc=5"
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY1JvWks1V2o1dUVqaW1KVTVuTF9qb2xXY0JsdDNnSEFVY0lRWW9tUFFMWUZxek5HN3ZNUGZFQ2tzWTlMWmRuU3VJOUhtVXZqc0JIaXFEUERiZnVqWmktVzhrNHNCZ0dxTWJHQ2RpMUNqeEt6YlVyMExVblhNTmp1NmRVNlFOdC1JVDVUT25zVG9BUF9qWURJTnVFREo5clZRT3o5bDJzLS1tMDBQZWppT1V4VmFkbkNuV0xZdm5qTGFuVzRpV1hIME1kTEV5QnpmSXpfczhLMlZ2UFhOcVE?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNDdmT1NGYzR0TjhiWXltVlN5aXdmYkc2Y2VXd2xKeFhPNHc0dktnc2Rmd1RrbmdMVnFyVW1iNkdIYl9HRDRYSmVwOVIxQjhwSUpJTVBrX0lTeVhya2FmdkZieERDSUo5b0RMR2lDU3ZBZU03dnMybmYzdHVDVm40TFF6VXpXekRZeTNfcDlvcG1ycnEwa3lTc0lzSC12VjZOQmozUU9Vci1zTDVFX0xjd1hyQUhjZ0Yzd05GQnU3X1puQQ?oc=5"
       ],
       "article_group_count": 2,
-      "news_url_count": 7,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -347,6 +354,32 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "fd04fc014231361a1fc4c80f",
+      "label_nl": "Claim: US-Iran talks stall as mediators fail to guarantee ceasefire - samaa tv",
+      "headline_claim_ids": [
+        "f0c7313171dd59"
+      ],
+      "headline_claims": [
+        "US-Iran talks stall as mediators fail to guarantee ceasefire - samaa tv"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNR1VSNGllOXY3WWs5bjVvQ2hqbE40RGZKRENwMGI5Q0U3cU5JOEJzcTdGeVBWZU5nbkNTdW9OR3pxOFlLT3U3S2JSdDdEVDVxbXFOd1JzOWlkLTZNMFBlOVZoVFJpeER6VmtLM0YxSHBsbDdNemZLdlBzVWhrRWRBV2VIbHN2Zmw2R3QwWkVEWktvUUo0eTlr?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -380,16 +413,16 @@
       "probability_estimate": null
     },
     {
-      "id": "7913aaff5e81bd9954dbfde0",
-      "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
+      "id": "304807e4425d6b705036bb2e",
+      "label_nl": "Claim: IRGC Claims 58th US MQ-9 Drone Downed Over Hormuz, US Silent - https://houseofsaud.com/",
       "headline_claim_ids": [
-        "ba90122f657ad0"
+        "1c7f31c0e13783"
       ],
       "headline_claims": [
-        "Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com"
+        "IRGC Claims 58th US MQ-9 Drone Downed Over Hormuz, US Silent - https://houseofsaud.com/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY1JvWks1V2o1dUVqaW1KVTVuTF9qb2xXY0JsdDNnSEFVY0lRWW9tUFFMWUZxek5HN3ZNUGZFQ2tzWTlMWmRuU3VJOUhtVXZqc0JIaXFEUERiZnVqWmktVzhrNHNCZ0dxTWJHQ2RpMUNqeEt6YlVyMExVblhNTmp1NmRVNlFOdC1JVDVUT25zVG9BUF9qWURJTnVFREo5clZRT3o5bDJzLS1tMDBQZWppT1V4VmFkbkNuV0xZdm5qTGFuVzRpV1hIME1kTEV5QnpmSXpfczhLMlZ2UFhOcVE?oc=5"
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE53dmFaZVFNbUdEVGw3c3dIaFk5UEkxam5aOXV3UEJaX0ZiOVVpa24tTDkzMHIxOC15UC1zdU44Uno5emhnOFFFbDBIc2NXOXE0SWxKb09NTjZ0T094aGpZTVoxSkhobXBhTHEzM3hhcTNOUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -406,19 +439,50 @@
       "probability_estimate": null
     },
     {
-      "id": "ee723a494e006e0aa85f539e",
-      "label_nl": "Claim: Iran fuel crisis deepens amid war and sanctions - DW.com",
+      "id": "1a9f48dca198837d801e6a1c",
+      "label_nl": "Claim: Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
       "headline_claim_ids": [
-        "504f736c5ef687"
+        "304017063b28f3"
       ],
       "headline_claims": [
-        "Iran fuel crisis deepens amid war and sanctions - DW.com"
+        "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUs5UENpTE0wZDRNcWxmeVR6cEk4cXJ1ZmhJT21ycG9EdFRMRXdxMEU3ZS1RUng3RFJQelZTN09ZanBtdUY5V2pFdWliZVZLenNpejc5VEt6YmFYZ2dIUEROV0xDUUZVdmp5aWdILVZfS0RKLUxHOEUxc2l0amhzTE1fTGV4TVHSAYcBQVVfeXFMTnZTUXBPQ2stQm0tdGp2TGVuLWt2V1FUdmthSzdBQy1yTlBZbi0zZzZ3VFJWejl3R2VUR2p4cFdoZmVSbWU3QVRLU3hEbUxlV09uNlFUQ25weTF0YXFfZUJ3N1J0NXJqajdUU3pGSmhKUEZ0cVdYMVVxYm1hdE5Zakh0dXdMSnNR?oc=5"
+        "https://www.kwit.org/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://news.prairiepublic.org/news-from-npr/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://www.kazu.org/npr-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://www.publicradiotulsa.org/npr-national-news/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+        "https://www.kccu.org/world/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 5,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "c55315301af87256a2599c5a",
+      "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
+      "headline_claim_ids": [
+        "2f9719d1fd8639"
+      ],
+      "headline_claims": [
+        "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUxXbHlBVzJ5ZjRUR0lKRnF5MmpFNThseTVlNVRuTlVnXy0wQWZxanNpaXFnam9XQlJoWkpRMlpIY0cwRnlTTVpuaUh4b2lLMDJVRDVtQ1FLSVEwZ19WTHk4dnIzVEJzdENDNHhXbTE5LUJhSEJTMzZUZklkNjdSR1gyRQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbFIwdXVqTU1ETUpaMXZDY2c2NWFaTlpvMnNnd0xrX2lqTFBtUHF3aHBWR2NYSTBLY0xuTTVTblZCeEltUWlzcjUxakpZenhBRGNRX1FxZDdQVEoyeEFaVm1uekcyeXhteEJfUlJUbURLLWRuY2NIelRmVHpTVnRWOE53?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -468,32 +532,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUU05SE9NUnE2RUpRRlNtTVRjTDc0Ykh0Rlk1TTVXZDZTTkRQTURicXJBVnZJNXhpZWVSXzczWUhOUXNnanlwTERRNTVHTjE4NW9DTml0dGt2NTRzOEpWczVYdENfaUVpbXdKUTZKbHgtdFBDSDNWNVBHYnczejM0djRvV3I?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "b87d9c04d906f0d50efb89cb",
-      "label_nl": "Claim: Iran hits U.S. Kuwait base, widens Gulf attacks - Ticker News",
-      "headline_claim_ids": [
-        "2f4491d905ebac"
-      ],
-      "headline_claims": [
-        "Iran hits U.S. Kuwait base, widens Gulf attacks - Ticker News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN0xDemZGVjhEMkx4d3BhU3hqcVJsWi1zMlY2Nkd0WTFaYmJzbU9fQVZsZk5QLU5RMHk3dmg4T0JHOGxfZkV4VU9mc1JldWxhbmdqaFJNbS1Ibmp5OTJXWmIzM2xRU1BMUmlVWnpxRGt6bUJoeEN4TVlMMHF4QVlsWXBNODJDaGoyQjU1d0kzMA?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -593,94 +631,16 @@
       "probability_estimate": null
     },
     {
-      "id": "8bb1a6dbf2198ad5acfb5ffc",
-      "label_nl": "Claim: Tanker hit by unknown projectile near Oman in latest Hormuz attack - Gulf News",
+      "id": "e6a3025f7bcb3d566c27b6d5",
+      "label_nl": "Claim: Oil Prices Could Normalize to $70 by 2027 - Wisevoter",
       "headline_claim_ids": [
-        "23254499885bff"
+        "9cf1cb8397c5b2"
       ],
       "headline_claims": [
-        "Tanker hit by unknown projectile near Oman in latest Hormuz attack - Gulf News"
+        "Oil Prices Could Normalize to $70 by 2027 - Wisevoter"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmdhTDBxR2xVLXdReDQ1SU13cWc5cHhsRFVtY1lpVzJPTWQ4ZmdvajlJazVVd3lFWUlQSjBMaDNfNk5aa1RvbUl6ZzZDdkdNNWVsSEpUWkwtN3d5SEhYSUZDWDJlZzE2OXplb2dRSnk4QXNVZWtOY21UazVXUTE5TUlrZGhpdU5WNFRpV2lkZlFwUTZwT1ZDTEV1S3hJNlJYLThESV9FOEY4MHRLSXdKV3NWdW5lZ9IBywFBVV95cUxPMVRiamZQeTJTbGVxbmxPNi1GbW1kNlhyOGF5R296Q1JjLU5KQVVQbTVScXhXWDBaZ0hhTGJpQzJwMWdxbkM4VGJQN216eHdueUZURU9fMEdjV3JVZF9Bc05OaG45amRFVmQxVG5PSGFqcE02bDh1eWhPaERPQ0R2NnFlTmZGV3hjWGFKNHBqU251X3EwRDA3MVQzTllBWDIwODc5Vl9rT3pidGN6Mm9GOG04enhCOV9ObGU2ZEtaaXV0UGtSakZCdk9Ucw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "21ae369be00ffd91bc3efa21",
-      "label_nl": "Claim: US, Qatar Discuss Restoring Iran Ceasefire, Restarting Nuclear Talks - bloomingbit",
-      "headline_claim_ids": [
-        "f79d8e79083eb1"
-      ],
-      "headline_claims": [
-        "US, Qatar Discuss Restoring Iran Ceasefire, Restarting Nuclear Talks - bloomingbit"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wQkxkNDVueTdTXzNiZi04bmdKNXRfX2UwOC11LTlTQUUzYmJ6ai1RXzRMODZNeUJkdHZtVEp2a1BrNUpaRGRBdkxIN1JSVWpYN3luQQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "284969439c01fb0e6bf729ad",
-      "label_nl": "Claim: Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
-      "headline_claim_ids": [
-        "be99529b8f50e4"
-      ],
-      "headline_claims": [
-        "Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2Y0TTZzX2tCSnFzQ1l4Q2toN2FyNHdWaVJSTEpUdWV1R2ppMk5IMEFfczBBM284c0YxX1RQVEdFZDk1N05xbjYtWlBzSlNxWVhlV2c4T1ZRRG9CaW1vSy1oTEZ5MExnMXlDUWpxQzB4b2ZjNjBjT1JGN3E0VHFtRlV6NlM0RVNMSVQ2WHVDeUREaHMyOTByYWRFNmZtM003UmhYc0ZTeC12akJSZFFIYmhRc2w2NkZkdkh0U3NoUlNHRzQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "72ba52f51b142b028fee9360",
-      "label_nl": "Claim: Oil Spills Affect UAE, Oman Beaches as Hormuz Strikes Go On - Skift",
-      "headline_claim_ids": [
-        "1087ab7747e1c3"
-      ],
-      "headline_claims": [
-        "Oil Spills Affect UAE, Oman Beaches as Hormuz Strikes Go On - Skift"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYWw2a2h4XzhGMElVOUVjQXg2bURraUE1V0ppZGRSZVM4dUdDZ2UzbGY1dlNaWF9YMkoySUEzd21waFJwalZhWnJLRVN6NllYU0ZaS0ctOW5waWRkWHl1S2ZIaVgtaDFTTjRoZi15Yjg5ZzBIYWs2Sl9GRlV6RDZ3NGxJSk14VnVNRTFfU1RoakdhZw?oc=5"
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4cnBCY3BOWTNaNzVzbkVXZG9taEF3czhBRWZZRDJtM0c2VFcwU2llUFd2Ukg4d1h1dGU1Q0Z5TzV3bjJYR1V1UjN0YlIwaWxYOFZNRzJWa0lJT2FZbzE3QkVRYWlvTUpoZnoxTXhaMldiX2JPLWh5alU3TjhxQQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -707,58 +667,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRFNxMGFTejQxLUNNQ3VsTEdsZ0kyZ0JfSWw0dGN0RHU0b0Eta3lveWgwNENUNzlQOG1lV0l2TEFhNlNWU0JTajZfX0h4cEZvZUdHd25aYnZKTGE0YU0yVVR4Q2NzdGRTWHNzdF9mWWxIcy1jOG5kM1R6UFd2TWptN0s5NEtuNFVzRHJGVdIBkgFBVV95cUxNRExrOVl2TlpFRS1Sdlljcjh3b1VoWG5TcDkyRXpsZ2ZheWhESVFFSmlPWUZ6UTF3QjFPb2RSV081S1EydjIyMGdyVm5pWlN1MHZfV3NMeGhVV2pueTdVbnloVEZuNUwxSDIwQWM4SENfMVpreDU3TUZuQnhWS0s3NzZ1RkdyTXZOLWxlSkZqZy16dw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "fec681f861eadd2d515174d1",
-      "label_nl": "Claim: Scoop: Witkoff and Kushner meet Qatari mediators to discuss Iran negotiations - Axios",
-      "headline_claim_ids": [
-        "4d6d41e95d9490"
-      ],
-      "headline_claims": [
-        "Scoop: Witkoff and Kushner meet Qatari mediators to discuss Iran negotiations - Axios"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaUJNYkNiQm5OX0tYbUNBcTR4VUZTRm1ZYlF0ajJHM2JudHNwSEJ3dGxCNDhVdUE5QWVoMk1mSjRxc2pkVUxaV1p6dXRpUTVZcE9VWDFvMW5JbDBDRmtPVk01enNSQi10ZVFYYWUzd2lRRHh3clhKQXIyQkZQTzcySw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "0e7d974a0c858b160397294a",
-      "label_nl": "Claim: Tankers Are Being Hit Daily. So Why Is Oil Falling - Crude Oil Prices Today | OilPrice.com",
-      "headline_claim_ids": [
-        "21a3153df04cfa"
-      ],
-      "headline_claims": [
-        "Tankers Are Being Hit Daily. So Why Is Oil Falling - Crude Oil Prices Today | OilPrice.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY0dfUWo5UkVzamhLcGpra1c4WGxEaUZ1RkhsMnoyUzlRNmRMdmFsRDhjOVNROGJ3S3V4N3kzemhTMmZsTHZUWXpucFNCMU1iLXlYVDRPVWxlNVphZmxXVl95dnFOcTVtT1lVSExjbnRvbXhFNVJLVkdWWVJfZElWUXI5STFUQnZlZXNWM1k4REV3WWdaLWxOVnFscmTSAZwBQVVfeXFMTWNHX1FqOVJFc2poS3Bqa2tXOFhsRGlGdUZIbDJ6MlM5UTZkTHZhbEQ4YzlTUThid0t1eDd5M3poUzJmbEx2VFl6bnBTQjFNYi15WFQ0T1VsZTVaYWZsV1ZfeXZxTnE1bU9ZVUhMY250b214RTVSS1ZHVllSX2RJVlFyOUkxVEJ2ZWVzVjNZOERFd1lnWi1sTlZxbHJk?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -802,6 +710,110 @@
       "probability_estimate": null
     },
     {
+      "id": "bf8b93f510d03d1c275efc4a",
+      "label_nl": "Claim: Tehran Seeks Agreement to Prevent Future War, Araghchi Says - باسنیوز",
+      "headline_claim_ids": [
+        "6e571838c04c2e"
+      ],
+      "headline_claims": [
+        "Tehran Seeks Agreement to Prevent Future War, Araghchi Says - باسنیوز"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5jNHdZQy1NT1ZhN01ZS21aZ1VTMnBqWHMzTWRLeUZvMzBIaS02RXk4V1J2V1E0NzhSdWRoV1piQnl1eHZJYWhzNGx6MVdndk1U?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "284969439c01fb0e6bf729ad",
+      "label_nl": "Claim: Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
+      "headline_claim_ids": [
+        "be99529b8f50e4"
+      ],
+      "headline_claims": [
+        "Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2Y0TTZzX2tCSnFzQ1l4Q2toN2FyNHdWaVJSTEpUdWV1R2ppMk5IMEFfczBBM284c0YxX1RQVEdFZDk1N05xbjYtWlBzSlNxWVhlV2c4T1ZRRG9CaW1vSy1oTEZ5MExnMXlDUWpxQzB4b2ZjNjBjT1JGN3E0VHFtRlV6NlM0RVNMSVQ2WHVDeUREaHMyOTByYWRFNmZtM003UmhYc0ZTeC12akJSZFFIYmhRc2w2NkZkdkh0U3NoUlNHRzQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "64ef2e697f7b86601412a5f6",
+      "label_nl": "Claim: Senior Guards commander admits deep Israeli intelligence infiltration - Iran International",
+      "headline_claim_ids": [
+        "0dbc4f472779e3"
+      ],
+      "headline_claims": [
+        "Senior Guards commander admits deep Israeli intelligence infiltration - Iran International"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10Sk1MYXZ6Wm5VUHdxeVF5aDN5bE5wRm9EYmg3Ujd2SzVtTmxwaUdvb3JseG9ra2VJMUQ4TXpIMGNzV3RpMllndlM2M3VDUzQ4RkE?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "21ae369be00ffd91bc3efa21",
+      "label_nl": "Claim: US, Qatar Discuss Restoring Iran Ceasefire, Restarting Nuclear Talks - bloomingbit",
+      "headline_claim_ids": [
+        "f79d8e79083eb1"
+      ],
+      "headline_claims": [
+        "US, Qatar Discuss Restoring Iran Ceasefire, Restarting Nuclear Talks - bloomingbit"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wQkxkNDVueTdTXzNiZi04bmdKNXRfX2UwOC11LTlTQUUzYmJ6ai1RXzRMODZNeUJkdHZtVEp2a1BrNUpaRGRBdkxIN1JSVWpYN3luQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "e6ff41356f432db67663a801",
       "label_nl": "Claim: Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance",
       "headline_claim_ids": [
@@ -828,20 +840,46 @@
       "probability_estimate": null
     },
     {
-      "id": "811654bc02add2cc7b52c15e",
-      "label_nl": "Claim: Oil futures: Crude lifts off lows, US-Iran tensions eyed - Quantum Commodity Intelligence",
+      "id": "0e7d974a0c858b160397294a",
+      "label_nl": "Claim: Tankers Are Being Hit Daily. So Why Is Oil Falling - Crude Oil Prices Today | OilPrice.com",
       "headline_claim_ids": [
-        "ac909109dd5a27"
+        "21a3153df04cfa"
       ],
       "headline_claims": [
-        "Oil futures: Crude lifts off lows, US-Iran tensions eyed - Quantum Commodity Intelligence"
+        "Tankers Are Being Hit Daily. So Why Is Oil Falling - Crude Oil Prices Today | OilPrice.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxQeVpaeXNPdjZoNDNrUDVfQ0ZnWEJJcWpqNVRzWE44Z0lTaWg5R0xPdm5OcGR1dU5sMHp5M19LTVdaV19WcG1ET2lWeF9LSzliQklsd1ZfdXJ6T3UyVHZVci02OWJfQWhrRU5NQ2FoQXJpWTA0T2VITlZqTjBheXB6MzZidGtIUFBaRlE1UkFYdGEwaTV6VkpLODVaRjdwZw?oc=5",
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM2FkUGxmR1YwT0lyUTNWQ18zeTJVWmY0MVZtYWhJOUQ2RE1tTGY5d1FrNE1xTk5jV1BnR2lsRlFFZWtCWFhwdnQ1a1lDSjRKQTc3NDZpT3hzcWpoTlh6TGtIUm5aMlhQZWNRa19kTjhBb0FzQmlLRHU1WkJWV1EwMThiUEpqclk5elFic2RDR1JaY01qWXVsZllHR3Y?oc=5"
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY0dfUWo5UkVzamhLcGpra1c4WGxEaUZ1RkhsMnoyUzlRNmRMdmFsRDhjOVNROGJ3S3V4N3kzemhTMmZsTHZUWXpucFNCMU1iLXlYVDRPVWxlNVphZmxXVl95dnFOcTVtT1lVSExjbnRvbXhFNVJLVkdWWVJfZElWUXI5STFUQnZlZXNWM1k4REV3WWdaLWxOVnFscmTSAZwBQVVfeXFMTWNHX1FqOVJFc2poS3Bqa2tXOFhsRGlGdUZIbDJ6MlM5UTZkTHZhbEQ4YzlTUThid0t1eDd5M3poUzJmbEx2VFl6bnBTQjFNYi15WFQ0T1VsZTVaYWZsV1ZfeXZxTnE1bU9ZVUhMY250b214RTVSS1ZHVllSX2RJVlFyOUkxVEJ2ZWVzVjNZOERFd1lnWi1sTlZxbHJk?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNkVuN2hKSkxKQTdtQl84WTJabnJNWlI1SWVaQ1lJMDVPY181SmNaLWEweGxLcVhZamdJS0ZyQWJxNnpzUmV0aUFmZldyUUpCTW5HRTMyYVc3Zk5DSHVNUzAyb0Y1UlpPb0NidGlWdTRqaVVwS2p5RTFWQkMwdElZS2NsdkEwTXVBTGRtVTJMeC1XNEtWenp30gGcAUFVX3lxTE1jR19RajlSRXNqaEtwamtrVzhYbERpRnVGSGwyejJTOVE2ZEx2YWxEOGM5U1E4YndLdXg3eTN6aFMyZmxMdlRZem5wU0IxTWIteVhUNE9VbGU1WmFmbFdWX3l2cU5xNW1PWVVITGNudG9teEU1UktWR1ZZUl9kSVZRcjlJMVRCdmVlc1YzWThERXdZZ1otbE5WcWxyZA?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "a8bf1af72abbdcace27e5768",
+      "label_nl": "Claim: UAE flights status update: Saudi cancellations extend as regional tensions rise on November 20 - Gulf News",
+      "headline_claim_ids": [
+        "598f6ef771aca3"
+      ],
+      "headline_claims": [
+        "UAE flights status update: Saudi cancellations extend as regional tensions rise on November 20 - Gulf News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYUl0RDBLX2FKVVZFeFhaUTFoRnhoYkRSdGQ0SHpmQzRidzVVOF9xcVNMMkVPNG16STM5SzNlRkQ5QmNSeDFoYWtrRVVhTnJpNUlQandwU1VwS0xmUmJlOUY0SDBFT1FtcFNqQVJ4YW1vbzhYLVVNbDZES2VOcldBWl8zaGpwQ0cyQXJ6dzFGNnJzN2MzaERnXzN3WXRuY2lmeWNuNkgyQ1kxMjZlX1U2YnJCWHFxdUJMY01ra3RxMzNzV2VjeWlTcnkxTzFuaHBwRm9zM1NJSW5GR05V0gHvAUFVX3lxTE1ubEZ4WUU0V0xLaE1BZG1IdF94TDNhZS1tX01uUkhCQ2ZoLUFia1R4T0xFMHU0b2g1QkVUc0hQdHVrMzF0eV9uZEFWaWlFYkRHcl9GOUxiU3BoNFl2MFE0Z0pWZnZLRUhTNjh5QkItU0dkVVo2Q19Hdmg5ZW9MTGdnSXJ6RVBPYVY1a3RjWjVZMXJHcTlsaEw2SG5DeUZNWnkyQVZpSFU4ZUQ0eUxOdVBqMW5kUnNKXzBjd2kxRjlmRDliaVVNUThjcEk2a0cyeWVaVExfdHF4a0kxeExPYVBKVmg1dnJDUmFjRE9yR1lV?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -865,8 +903,8 @@
       "total_tokens": 32011
     },
     "2026-11-21": {
-      "requests": 3,
-      "total_tokens": 8510
+      "requests": 6,
+      "total_tokens": 16909
     }
   }
 }
