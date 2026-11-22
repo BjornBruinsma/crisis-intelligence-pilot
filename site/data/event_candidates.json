@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-22T01:22:53.572956Z",
-  "fingerprint": "e904d095b2ea0182b88119e4",
+  "last_attempt_utc": "2026-11-22T07:25:16.030535Z",
+  "fingerprint": "6fa8159f9c9981d0ae794a42",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -9,26 +9,26 @@
   "event_candidate_count": 21,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
+    "model_pair_proposals": 5,
     "accepted_pair_connections": 3,
-    "rejected_pair_proposals": 1,
-    "multi_claim_groups": 2,
-    "claims_in_multi_groups": 5,
+    "rejected_pair_proposals": 2,
+    "multi_claim_groups": 1,
+    "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 3,
+    "auditor_approved_pairs": 4,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-22T01:22:53.572956Z",
+    "recorded_at": "2026-11-22T07:25:16.030535Z",
     "groups": [
       {
         "ids": [
-          "cb4439dd785f73"
+          "7b646e9047a13a"
         ],
-        "label_nl": "Claim: U.S. strikes Iranian missile site in ‘self-defense’ - Heartlander News",
+        "label_nl": "Claim: Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id",
         "actor": "",
         "action": "",
         "place": "",
@@ -61,6 +61,7 @@
         "ids": [
           "ba90122f657ad0",
           "33adb45819fb8c",
+          "9b5230aef3852f",
           "3a865ee9c32af7"
         ],
         "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
@@ -72,15 +73,14 @@
       },
       {
         "ids": [
-          "3cc1b9a90f34dd",
-          "9cf1cb8397c5b2"
+          "ca32394c56a5f8"
         ],
-        "label_nl": "Claim: Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
+        "label_nl": "Claim: Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines - Business Standard",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -106,17 +106,6 @@
       },
       {
         "ids": [
-          "9384f566cb96e5"
-        ],
-        "label_nl": "Claim: EU sees eurozone economy hold up despite Iran war - 24NewsHD",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
           "304017063b28f3"
         ],
         "label_nl": "Claim: Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
@@ -128,9 +117,9 @@
       },
       {
         "ids": [
-          "2f9719d1fd8639"
+          "cb4439dd785f73"
         ],
-        "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
+        "label_nl": "Claim: U.S. strikes Iranian missile site in ‘self-defense’ - Heartlander News",
         "actor": "",
         "action": "",
         "place": "",
@@ -172,9 +161,9 @@
       },
       {
         "ids": [
-          "9b5230aef3852f"
+          "3cc1b9a90f34dd"
         ],
-        "label_nl": "Claim: ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
+        "label_nl": "Claim: Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
         "actor": "",
         "action": "",
         "place": "",
@@ -194,9 +183,9 @@
       },
       {
         "ids": [
-          "9a039bb82e353f"
+          "2f9719d1fd8639"
         ],
-        "label_nl": "Claim: US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
+        "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
         "actor": "",
         "action": "",
         "place": "",
@@ -227,9 +216,9 @@
       },
       {
         "ids": [
-          "cca12ccdc9dadc"
+          "b9a5a4290d0f5b"
         ],
-        "label_nl": "Claim: Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance",
+        "label_nl": "Claim: Oil prices set for third straight weekly decline on strong Middle East export flows - Yahoo Finance",
         "actor": "",
         "action": "",
         "place": "",
@@ -238,9 +227,9 @@
       },
       {
         "ids": [
-          "be99529b8f50e4"
+          "9cf1cb8397c5b2"
         ],
-        "label_nl": "Claim: Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
+        "label_nl": "Claim: Oil Prices Could Normalize to $70 by 2027 - Wisevoter",
         "actor": "",
         "action": "",
         "place": "",
@@ -257,59 +246,73 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "9a039bb82e353f"
+        ],
+        "label_nl": "Claim: US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       }
     ],
     "input_claim_ids": [
-      "cb4439dd785f73",
+      "7b646e9047a13a",
       "478f708153773a",
       "e71596ea79f752",
       "ba90122f657ad0",
-      "3cc1b9a90f34dd",
+      "ca32394c56a5f8",
       "1c7f31c0e13783",
       "dd1392117ea1ab",
-      "9384f566cb96e5",
       "304017063b28f3",
-      "2f9719d1fd8639",
+      "cb4439dd785f73",
       "ff97192744c232",
       "08d1274ced6c48",
       "1e760350a8a234",
-      "9cf1cb8397c5b2",
+      "3cc1b9a90f34dd",
       "33adb45819fb8c",
       "9b5230aef3852f",
       "ffb8209abc59e4",
-      "9a039bb82e353f",
+      "2f9719d1fd8639",
       "e8196d665afede",
       "4e61c35f40cba0",
-      "cca12ccdc9dadc",
-      "be99529b8f50e4",
+      "b9a5a4290d0f5b",
+      "9cf1cb8397c5b2",
       "598f6ef771aca3",
-      "3a865ee9c32af7"
+      "3a865ee9c32af7",
+      "9a039bb82e353f"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "e94ccf4b30f17b7b69278e45",
+      "id": "80d39b804725c40d4edf9fef",
       "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
       "headline_claim_ids": [
         "ba90122f657ad0",
         "33adb45819fb8c",
+        "9b5230aef3852f",
         "3a865ee9c32af7"
       ],
       "headline_claims": [
         "Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
         "Two tanker attacks reported near Hormuz in fresh blow to vital oil route - Business Upturn",
+        "ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
         "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY1JvWks1V2o1dUVqaW1KVTVuTF9qb2xXY0JsdDNnSEFVY0lRWW9tUFFMWUZxek5HN3ZNUGZFQ2tzWTlMWmRuU3VJOUhtVXZqc0JIaXFEUERiZnVqWmktVzhrNHNCZ0dxTWJHQ2RpMUNqeEt6YlVyMExVblhNTmp1NmRVNlFOdC1JVDVUT25zVG9BUF9qWURJTnVFREo5clZRT3o5bDJzLS1tMDBQZWppT1V4VmFkbkNuV0xZdm5qTGFuVzRpV1hIME1kTEV5QnpmSXpfczhLMlZ2UFhOcVE?oc=5",
         "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNDdmT1NGYzR0TjhiWXltVlN5aXdmYkc2Y2VXd2xKeFhPNHc0dktnc2Rmd1RrbmdMVnFyVW1iNkdIYl9HRDRYSmVwOVIxQjhwSUpJTVBrX0lTeVhya2FmdkZieERDSUo5b0RMR2lDU3ZBZU03dnMybmYzdHVDVm40TFF6VXpXekRZeTNfcDlvcG1ycnEwa3lTc0lzSC12VjZOQmozUU9Vci1zTDVFX0xjd1hyQUhjZ0Yzd05GQnU3X1puQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcEZMcVZlSk5tVHJMNjI0cVliZlpNWm5kVTBqdVhacGJsWkJVTDZvaE9KSDZDOXFIcFJPbjYtRjl5THY0VV9MWVczbVZfYWUzT1FDZmZtcTZ5YWhKbTFvSmhiZ1hhM1BnZWVkbHFfb3RCNG4ydlAtb0dpanZlcktCb3ZQaC1Yczg4TkdHNkhOVEQtQVNnZ3F0SDl2NUpMY2lDU2FuLWFhN2Jhek1XSmJZTGpzVldUR1BDaFlJYllLem8zWnJv?oc=5",
         "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
         "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5"
       ],
-      "article_group_count": 3,
-      "news_url_count": 4,
+      "article_group_count": 4,
+      "news_url_count": 5,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -323,17 +326,17 @@
       "probability_estimate": null
     },
     {
-      "id": "e84a956a42d286fddf67c2ef",
-      "label_nl": "Claim: U.S. strikes Iranian missile site in ‘self-defense’ - Heartlander News",
+      "id": "7929cc830ed1d05c1d1c3049",
+      "label_nl": "Claim: Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id",
       "headline_claim_ids": [
-        "cb4439dd785f73"
+        "7b646e9047a13a"
       ],
       "headline_claims": [
-        "U.S. strikes Iranian missile site in ‘self-defense’ - Heartlander News"
+        "Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ3ViTkhJVWJWMV9VOVpWV3dZN3l1UG5HSGxvemFzR3lxcWE5clhDQUlsS18tamRkMEYzYmtuQi1IeTJqNWQ3OEdXY0JGek0xakZnMGl5RVg4ZU1oeE9TMWp2U2x5dWRVY3pxYldhS0x3Y20yeUx4SHpWWm42WXRzaWwtSQ?oc=5",
-        "https://www.wyomingnewsnow.tv/news/national/u-s-strikes-iranian-missile-site-in-self-defense/article_23c1f7c2-09ae-5b60-b29e-9f3959037d85.html"
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xX0dtYlpzQ0VSR1ZqLWdHWHJCVm96N3hLN3dwc25lV2tyZjE2YWVSSVNkYkVWRW1tZ2VVNkJveHRqM3I3aFZacVlnQndPeTdUWUlBVmxqMllRRTZBcmE1YnN3?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzZ3lFaWFpcDlPSk54dWUtMGZYcTZLd0V2c05UQTJRVEU3YnVDdTNPNkc0LTRBTHFhYzFuM0NTQTlpSUgxVDFJRlBIWUtRaGVJY3hsNTFLVk5XeFhIVUlRQ0dBLWw1ZnM?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 2,
@@ -433,17 +436,17 @@
       "probability_estimate": null
     },
     {
-      "id": "c55315301af87256a2599c5a",
-      "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
+      "id": "e84a956a42d286fddf67c2ef",
+      "label_nl": "Claim: U.S. strikes Iranian missile site in ‘self-defense’ - Heartlander News",
       "headline_claim_ids": [
-        "2f9719d1fd8639"
+        "cb4439dd785f73"
       ],
       "headline_claims": [
-        "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald"
+        "U.S. strikes Iranian missile site in ‘self-defense’ - Heartlander News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUxXbHlBVzJ5ZjRUR0lKRnF5MmpFNThseTVlNVRuTlVnXy0wQWZxanNpaXFnam9XQlJoWkpRMlpIY0cwRnlTTVpuaUh4b2lLMDJVRDVtQ1FLSVEwZ19WTHk4dnIzVEJzdENDNHhXbTE5LUJhSEJTMzZUZklkNjdSR1gyRQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbFIwdXVqTU1ETUpaMXZDY2c2NWFaTlpvMnNnd0xrX2lqTFBtUHF3aHBWR2NYSTBLY0xuTTVTblZCeEltUWlzcjUxakpZenhBRGNRX1FxZDdQVEoyeEFaVm1uekcyeXhteEJfUlJUbURLLWRuY2NIelRmVHpTVnRWOE53?oc=5"
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ3ViTkhJVWJWMV9VOVpWV3dZN3l1UG5HSGxvemFzR3lxcWE5clhDQUlsS18tamRkMEYzYmtuQi1IeTJqNWQ3OEdXY0JGek0xakZnMGl5RVg4ZU1oeE9TMWp2U2x5dWRVY3pxYldhS0x3Y20yeUx4SHpWWm42WXRzaWwtSQ?oc=5",
+        "https://www.wyomingnewsnow.tv/news/national/u-s-strikes-iranian-missile-site-in-self-defense/article_23c1f7c2-09ae-5b60-b29e-9f3959037d85.html"
       ],
       "article_group_count": 1,
       "news_url_count": 2,
@@ -538,32 +541,6 @@
       "probability_estimate": null
     },
     {
-      "id": "379fde8be38e359c47adbf77",
-      "label_nl": "Claim: ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
-      "headline_claim_ids": [
-        "9b5230aef3852f"
-      ],
-      "headline_claims": [
-        "ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcEZMcVZlSk5tVHJMNjI0cVliZlpNWm5kVTBqdVhacGJsWkJVTDZvaE9KSDZDOXFIcFJPbjYtRjl5THY0VV9MWVczbVZfYWUzT1FDZmZtcTZ5YWhKbTFvSmhiZ1hhM1BnZWVkbHFfb3RCNG4ydlAtb0dpanZlcktCb3ZQaC1Yczg4TkdHNkhOVEQtQVNnZ3F0SDl2NUpMY2lDU2FuLWFhN2Jhek1XSmJZTGpzVldUR1BDaFlJYllLem8zWnJv?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "abea84438467d8dc3ddbfabe",
       "label_nl": "Claim: Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
       "headline_claim_ids": [
@@ -595,17 +572,17 @@
       "probability_estimate": null
     },
     {
-      "id": "8b89aeec6d3a7de67bda10cf",
-      "label_nl": "Claim: US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
+      "id": "c55315301af87256a2599c5a",
+      "label_nl": "Claim: Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald",
       "headline_claim_ids": [
-        "9a039bb82e353f"
+        "2f9719d1fd8639"
       ],
       "headline_claims": [
-        "US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times"
+        "Iran widens Gulf attacks, targeting US air base in Kuwait and sites in Bahrain - Boston Herald"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOakFzQUJBZHhibjIyMVpSc2hBNVFnN0lMdVFBY0hNVXJtYVQ1WWk2bTdCbzhxcGs1eUlsWTlXNjlVcHB5RnBiVDlYZW0zVmloX1BNcm1vSVdsRmVHTzFIY2p1VGdLQlJUQzBUOWNJYXlERG9ya1g3ckFPSW5sX01zT1NyemRZRzFrblJwXzhvNmotSE80eTIwLS1SVHFaTEl2SWpfWnp1YXl0RF9DMTlkb0Y3ZXBxWVF3c3ItVVctWnRjRFFOcjRlWEJZbFRtNF81ZWw3UNIB2gFBVV95cUxQY3ZKR3MtbkRJODhlV2pmRjNUR0RiWXRQLWcwY1pBMTBjOTUtYjN1QWc5VW5WaXJUbTBBZGVDQmRBOVRGemd6RmpMUmJma081ejM4LU8yZzZrZUlONkRLdFUtNGNncU94MWN6NElrNzJhSk9tYkF1WnN3cG5STzZpeU1TWkowejhNNTNfMF9nY2R3ZTE2dm56QldkQWluQlRlejBpTlpHSzRQQnBGLVpYb2FpbldpVG1RLWoySWV2RzVKQ09MVWd2UDB6TmhRZmpxaU43eXhNYzdXUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVM1SG1uSnA0ek10Q0piREtlSmg0eHdNUXUyY3pjSFRxdXRTZ0Vva2NrMldobGV6QzJxamxFcjVmbTRiczBramRNLXJjdDcyY1pxN2lMN0ZFcVB3Q2FMejNwb0FrYXRhOGxBUVhfTGxZSnVDUFNNSXdlaERZMHpKc3QxM0E1bU1Qb24yUHY2TXBuU1VvVlFtN2NxTjVaRmRt?oc=5"
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeUxXbHlBVzJ5ZjRUR0lKRnF5MmpFNThseTVlNVRuTlVnXy0wQWZxanNpaXFnam9XQlJoWkpRMlpIY0cwRnlTTVpuaUh4b2lLMDJVRDVtQ1FLSVEwZ19WTHk4dnIzVEJzdENDNHhXbTE5LUJhSEJTMzZUZklkNjdSR1gyRQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbFIwdXVqTU1ETUpaMXZDY2c2NWFaTlpvMnNnd0xrX2lqTFBtUHF3aHBWR2NYSTBLY0xuTTVTblZCeEltUWlzcjUxakpZenhBRGNRX1FxZDdQVEoyeEFaVm1uekcyeXhteEJfUlJUbURLLWRuY2NIelRmVHpTVnRWOE53?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 2,
@@ -648,29 +625,27 @@
       "probability_estimate": null
     },
     {
-      "id": "576df1538a9e9404dd99626e",
-      "label_nl": "Claim: Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
+      "id": "8b89aeec6d3a7de67bda10cf",
+      "label_nl": "Claim: US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times",
       "headline_claim_ids": [
-        "3cc1b9a90f34dd",
-        "9cf1cb8397c5b2"
+        "9a039bb82e353f"
       ],
       "headline_claims": [
-        "Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
-        "Oil Prices Could Normalize to $70 by 2027 - Wisevoter"
+        "US strikes Iran's Qeshm Island missile site after attack on Bahrain base - The Economic Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNVdvcUJzOVY4Qk1MQ0pkc3dlVGdzNUZJS1lrbTlROHFYUzN2dFBicjhkUThtckxsSlZFdnlwaWpvYzVxQnFjTVlQNlJBYlA4OGJBd2JUdjNxbUE1UVhTRS05QnNHaHlsSHBIMDQ5TXFCZkp0cFlsRkgyUDJMSXU5Ry03aTZ6SDZXVDlDODJ3NE1iSnBZU3F6RE45eDkyX2hRSzllR0tvRzlxemcwR2lFSlhpUWJDV2NFeTJyYVFweUhGd2ZRZjJtX3RwdGpVUURwQ0Zz0gHaAUFVX3lxTE9TZjhzN1ZycFR3aldlLWN2T0lkNDRGeU1kZTExMU1HcXZ3OU1jUjhMaS1nOS00MVBsS0doUDU2amcyQlpVbGlNNkJUSUlxaDV2bjFBTjI4VVZ3UlQxOC0wUll4Q3FYTHZDNWZQYVVEN3RLMmxDeWZLaXl1UzRsM09qdWNSUk5GZzJPeTRCX0RGRjlxblBjOWk0a2VuVnRQemU2cjVFQ24xTWVvek5GelV3b0JEU3ltU3BzREE2S0l5dDFaUGFOMXEtMWpwWUtoY3hrQmtfSlZpVmxn?oc=5",
-        "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4cnBCY3BOWTNaNzVzbkVXZG9taEF3czhBRWZZRDJtM0c2VFcwU2llUFd2Ukg4d1h1dGU1Q0Z5TzV3bjJYR1V1UjN0YlIwaWxYOFZNRzJWa0lJT2FZbzE3QkVRYWlvTUpoZnoxTXhaMldiX2JPLWh5alU3TjhxQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOakFzQUJBZHhibjIyMVpSc2hBNVFnN0lMdVFBY0hNVXJtYVQ1WWk2bTdCbzhxcGs1eUlsWTlXNjlVcHB5RnBiVDlYZW0zVmloX1BNcm1vSVdsRmVHTzFIY2p1VGdLQlJUQzBUOWNJYXlERG9ya1g3ckFPSW5sX01zT1NyemRZRzFrblJwXzhvNmotSE80eTIwLS1SVHFaTEl2SWpfWnp1YXl0RF9DMTlkb0Y3ZXBxWVF3c3ItVVctWnRjRFFOcjRlWEJZbFRtNF81ZWw3UNIB2gFBVV95cUxQY3ZKR3MtbkRJODhlV2pmRjNUR0RiWXRQLWcwY1pBMTBjOTUtYjN1QWc5VW5WaXJUbTBBZGVDQmRBOVRGemd6RmpMUmJma081ejM4LU8yZzZrZUlONkRLdFUtNGNncU94MWN6NElrNzJhSk9tYkF1WnN3cG5STzZpeU1TWkowejhNNTNfMF9nY2R3ZTE2dm56QldkQWluQlRlejBpTlpHSzRQQnBGLVpYb2FpbldpVG1RLWoySWV2RzVKQ09MVWd2UDB6TmhRZmpxaU43eXhNYzdXUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMVM1SG1uSnA0ek10Q0piREtlSmg0eHdNUXUyY3pjSFRxdXRTZ0Vva2NrMldobGV6QzJxamxFcjVmbTRiczBramRNLXJjdDcyY1pxN2lMN0ZFcVB3Q2FMejNwb0FrYXRhOGxBUVhfTGxZSnVDUFNNSXdlaERZMHpKc3QxM0E1bU1Qb24yUHY2TXBuU1VvVlFtN2NxTjVaRmRt?oc=5"
       ],
-      "article_group_count": 2,
+      "article_group_count": 1,
       "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -687,6 +662,32 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVUE4UnlFM21MWkRnNzU3TWcwSG9PbzBTc1pJLWw5TGhNMXpJNmhrYU9iYV9UMGU2M2ZhekRZLXJtUU56Qlpad3lNOE1LTDNxSHBsdFdldmlFOW1RVkYzSWRTczNicVJua2hRbkh6Q2NFX3RKeTZ6NU5YTVBzV0k2QlRQSFcxdXFjT2FOY1pocw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "2f27488f0e54d0fa4e5cc59b",
+      "label_nl": "Claim: Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines - Business Standard",
+      "headline_claim_ids": [
+        "ca32394c56a5f8"
+      ],
+      "headline_claims": [
+        "Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines - Business Standard"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZm5ueWI0VFl1WVJrVUF1SGw5Sy1WU3hmdFotOU5Ld2toSVBnYlBXYVlPMk1GYm9fcXJFSnRJYnBtVGdiMkN5VDYzUnE0RTR5M19hdGwyTUFtaHExYlJxcjFmTFdYOV9kYlRMOS1WUzNnb1lZY2dHVHB0MWhEVmFkVDlsRE01Q1ZQQmMyOWItQUtVZTNBTjNDOVRwTWdqTVhYY2FFdEFuY3ZmOURlZnZpZkdQaEVMTEx3dlZNNFBPbzlvSjNfMkd4LXdHRVrSAdIBQVVfeXFMTnZhMkQxTHBaN2ZQd0R5ODFFc3JmWEZTbzlMTGx1eXZ0NWhtbG0zWGxXYTdnZTg5ajFmU1k3cy10eDJfdHk3Rm5rMS12aGRpQlB0M0lJbUVWU0U5anZtem1FZVZVSzFmdmxuR2puQWJlVWR2cEtvNjhUSnltSURZclJwMlNfeFdHX0lySU4tVHcxUEdVNk55YVBLUmVfUnp1VmpKRjdnMi03UF9CU2FJTHZhNXBzdFNfUHp6elV1UktsV1pIaDBtUWgyYUdtb0NLSHNR?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -729,20 +730,19 @@
       "probability_estimate": null
     },
     {
-      "id": "7e6c55a33d77cc4cdf40b7cd",
-      "label_nl": "Claim: EU sees eurozone economy hold up despite Iran war - 24NewsHD",
+      "id": "a5721fb6eb97bc74926b077d",
+      "label_nl": "Claim: Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
       "headline_claim_ids": [
-        "9384f566cb96e5"
+        "3cc1b9a90f34dd"
       ],
       "headline_claims": [
-        "EU sees eurozone economy hold up despite Iran war - 24NewsHD"
+        "Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3M0SDJYWThTYTV4czQ2b25fN2FfdllfYlRqVzBXRXgwZjlRYkF6VkUwcVJ1YzRmVTFQbWtPYkRjREppVlBWUGFBNTFHV2pkSGlpRHk3QmFSQTdkeWdWV2htTmV0bFd1Y0NoSlhQTVlCb2dpOHJxbl9LbnNTZl9GT2hybjNWVzR0R3c?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yb3BZbVV2Y0paOG1CRFlzRDYwR2ZROXhhSENxdW4wWkw5U1dqSk5HcDkydzk4aDRFZkVBeFNudnIySlU1Y1F1ZldmYXBkYmZiVVY4?oc=5"
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNVdvcUJzOVY4Qk1MQ0pkc3dlVGdzNUZJS1lrbTlROHFYUzN2dFBicjhkUThtckxsSlZFdnlwaWpvYzVxQnFjTVlQNlJBYlA4OGJBd2JUdjNxbUE1UVhTRS05QnNHaHlsSHBIMDQ5TXFCZkp0cFlsRkgyUDJMSXU5Ry03aTZ6SDZXVDlDODJ3NE1iSnBZU3F6RE45eDkyX2hRSzllR0tvRzlxemcwR2lFSlhpUWJDV2NFeTJyYVFweUhGd2ZRZjJtX3RwdGpVUURwQ0Zz0gHaAUFVX3lxTE9TZjhzN1ZycFR3aldlLWN2T0lkNDRGeU1kZTExMU1HcXZ3OU1jUjhMaS1nOS00MVBsS0doUDU2amcyQlpVbGlNNkJUSUlxaDV2bjFBTjI4VVZ3UlQxOC0wUll4Q3FYTHZDNWZQYVVEN3RLMmxDeWZLaXl1UzRsM09qdWNSUk5GZzJPeTRCX0RGRjlxblBjOWk0a2VuVnRQemU2cjVFQ24xTWVvek5GelV3b0JEU3ltU3BzREE2S0l5dDFaUGFOMXEtMWpwWUtoY3hrQmtfSlZpVmxn?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -782,19 +782,20 @@
       "probability_estimate": null
     },
     {
-      "id": "e6ff41356f432db67663a801",
-      "label_nl": "Claim: Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance",
+      "id": "3edc4a686cbdd8098d4a8229",
+      "label_nl": "Claim: Oil prices set for third straight weekly decline on strong Middle East export flows - Yahoo Finance",
       "headline_claim_ids": [
-        "cca12ccdc9dadc"
+        "b9a5a4290d0f5b"
       ],
       "headline_claims": [
-        "Oil prices caught between rising Mideast exports and tanker attacks - Yahoo Finance"
+        "Oil prices set for third straight weekly decline on strong Middle East export flows - Yahoo Finance"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWXJ2aExLekNjeW00aGRET2wyTWZxVUhYTnpmNGx5SUx5OTFZc3VYQmhIS01YMTVlZHFPd2RZaTVXbU82aEY2Q3BYTW56TkhzY3pYanpGQy1sMlJheWFuZkNJdTFMd1Ffa0NCclBGT0JTVkdVWGl6ZzNyVE01SkxSQS00cVhDZ2d2c1FidDVreml0RVE?oc=5"
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdjEzd29VMWN4cDVjTDkxRTZEd0V0ZFgyMDVpb1VfRG9jaXBEY2ppakhnNUIyNXBDUzIyaVFCNVRXZ0R4OEJ2VklXempSMlFEbUNZRXlmLUh2MXhaQnZiekwwa2cwcjlnbEphYTJnYy1mV1hRVVV2OTRkelJHX3lnZg?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SV3VLcC1fUXZ3eUN2ckZpSzd3akdsSE55cFRrUEZFNDZtVUFxcDRCWng5dHB3XzBDaUliLUowaGdqdDVkaW5va25nUkx5OVc4UXZoVU9qem1NdWFUNndPWldTeXFhVnVo0gFuQVVfeXFMTXRDbE5XQlFpNEF3ZVBycUpzZXFqQXJOdmVWTWVlX2NWLTNPc2w2TEk5TVdEb3FSZTV3c1JpSEJpUTlaX1g3cVhfY0o1cnFZd2xLZm03ZkJWTjRCelpOU2V5bl9pYlk0RkJsZnQtS1E?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -808,16 +809,16 @@
       "probability_estimate": null
     },
     {
-      "id": "284969439c01fb0e6bf729ad",
-      "label_nl": "Claim: Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
+      "id": "e6a3025f7bcb3d566c27b6d5",
+      "label_nl": "Claim: Oil Prices Could Normalize to $70 by 2027 - Wisevoter",
       "headline_claim_ids": [
-        "be99529b8f50e4"
+        "9cf1cb8397c5b2"
       ],
       "headline_claims": [
-        "Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal"
+        "Oil Prices Could Normalize to $70 by 2027 - Wisevoter"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2Y0TTZzX2tCSnFzQ1l4Q2toN2FyNHdWaVJSTEpUdWV1R2ppMk5IMEFfczBBM284c0YxX1RQVEdFZDk1N05xbjYtWlBzSlNxWVhlV2c4T1ZRRG9CaW1vSy1oTEZ5MExnMXlDUWpxQzB4b2ZjNjBjT1JGN3E0VHFtRlV6NlM0RVNMSVQ2WHVDeUREaHMyOTByYWRFNmZtM003UmhYc0ZTeC12akJSZFFIYmhRc2w2NkZkdkh0U3NoUlNHRzQ?oc=5"
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4cnBCY3BOWTNaNzVzbkVXZG9taEF3czhBRWZZRDJtM0c2VFcwU2llUFd2Ukg4d1h1dGU1Q0Z5TzV3bjJYR1V1UjN0YlIwaWxYOFZNRzJWa0lJT2FZbzE3QkVRYWlvTUpoZnoxTXhaMldiX2JPLWh5alU3TjhxQQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -870,8 +871,8 @@
       "total_tokens": 25760
     },
     "2026-11-22": {
-      "requests": 3,
-      "total_tokens": 8185
+      "requests": 6,
+      "total_tokens": 18030
     }
   }
 }
