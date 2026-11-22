@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-22T13:09:00.658825Z",
+  "last_attempt_utc": "2026-11-22T19:01:25.207142Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -7575,6 +7575,22 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-22T13:08:59.658647Z"
+    },
+    "a82ebb7b3814cf": {
+      "id": "a82ebb7b3814cf",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "opinion",
+      "summary_nl": "De kop suggereert dat Iran's leiderschap onder druk staat door een economische oorlog die ernstiger is dan militaire dreigingen.",
+      "claimed_event_nl": "Iran's leiderschap zou beginnen te kraken onder druk van economische omstandigheden.",
+      "reason_nl": "Deze claim is relevant omdat het de stabiliteit van het Iraanse regime en de mogelijke gevolgen voor de regio kan beïnvloeden.",
+      "limitations_nl": "De bewering is gebaseerd op een opinie en niet op feitelijke gegevens.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-22T19:01:24.206925Z"
     }
   },
   "usage_by_day": {
@@ -7587,8 +7603,8 @@
       "total_tokens": 4829
     },
     "2026-11-22": {
-      "requests": 3,
-      "total_tokens": 3177
+      "requests": 4,
+      "total_tokens": 3848
     }
   }
 }
