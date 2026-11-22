@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-22T07:24:53.221628Z",
+  "last_attempt_utc": "2026-11-22T13:09:00.658825Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -7543,6 +7543,38 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-22T07:24:52.221429Z"
+    },
+    "12f9d0e075cfa5": {
+      "id": "12f9d0e075cfa5",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran dreigt Europese landen met raketaanvallen en clandestiene operaties als de VS opnieuw bombarderen.",
+      "claimed_event_nl": "Iran dreigt met raketaanvallen op Europese landen.",
+      "reason_nl": "Deze dreiging kan leiden tot verhoogde spanningen tussen Iran en Europese landen, wat de regionale stabiliteit beïnvloedt.",
+      "limitations_nl": "De claim is afkomstig van een sociale media-post en is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-22T13:08:59.658623Z"
+    },
+    "868a4166aae228": {
+      "id": "868a4166aae228",
+      "relevance": "unclear",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "opinion",
+      "summary_nl": "Er wordt gespeculeerd over de impact van de Hormuz-blokkade op energie-dominantie.",
+      "claimed_event_nl": "De 'Donroe Doctrine' zou invloed hebben op energie-dominantie door de Hormuz-blokkade.",
+      "reason_nl": "De speculatie over energie-dominantie kan economische gevolgen hebben, maar de claim is niet onderbouwd met feiten.",
+      "limitations_nl": "De inhoud is gebaseerd op een opinie en niet op concrete gebeurtenissen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-22T13:08:59.658647Z"
     }
   },
   "usage_by_day": {
@@ -7555,8 +7587,8 @@
       "total_tokens": 4829
     },
     "2026-11-22": {
-      "requests": 2,
-      "total_tokens": 2192
+      "requests": 3,
+      "total_tokens": 3177
     }
   }
 }

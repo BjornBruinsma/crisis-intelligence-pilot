@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-22T07:25:16.030535Z",
-  "fingerprint": "6fa8159f9c9981d0ae794a42",
+  "last_attempt_utc": "2026-11-22T13:09:23.729361Z",
+  "fingerprint": "77b890a50bda9df0da583cdf",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 24,
-  "event_candidate_count": 21,
+  "event_candidate_count": 22,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 5,
-    "accepted_pair_connections": 3,
-    "rejected_pair_proposals": 2,
+    "model_pair_proposals": 3,
+    "accepted_pair_connections": 2,
+    "rejected_pair_proposals": 1,
     "multi_claim_groups": 1,
-    "claims_in_multi_groups": 4,
+    "claims_in_multi_groups": 3,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 4,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-22T07:25:16.030535Z",
+    "recorded_at": "2026-11-22T13:09:23.729361Z",
     "groups": [
       {
         "ids": [
@@ -37,9 +37,9 @@
       },
       {
         "ids": [
-          "478f708153773a"
+          "12f9d0e075cfa5"
         ],
-        "label_nl": "Claim: Israel's Relentless Lebanon Strikes Are Threatening to Unravel Washington's Peace Deal - Latin Times",
+        "label_nl": "Claim: DW News. . Iran is openly threatening European countries with missile attacks and clandestine operations if the US bombs again. How big of a threat is the Islamic Republic really for Europe? #dwgeopolitics",
         "actor": "",
         "action": "",
         "place": "",
@@ -61,7 +61,6 @@
         "ids": [
           "ba90122f657ad0",
           "33adb45819fb8c",
-          "9b5230aef3852f",
           "3a865ee9c32af7"
         ],
         "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
@@ -73,9 +72,9 @@
       },
       {
         "ids": [
-          "ca32394c56a5f8"
+          "868a4166aae228"
         ],
-        "label_nl": "Claim: Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines - Business Standard",
+        "label_nl": "Claim: Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스",
         "actor": "",
         "action": "",
         "place": "",
@@ -128,9 +127,9 @@
       },
       {
         "ids": [
-          "ff97192744c232"
+          "478f708153773a"
         ],
-        "label_nl": "Claim: Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id",
+        "label_nl": "Claim: Israel's Relentless Lebanon Strikes Are Threatening to Unravel Washington's Peace Deal - Latin Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -139,9 +138,9 @@
       },
       {
         "ids": [
-          "08d1274ced6c48"
+          "0f4405b361cf4f"
         ],
-        "label_nl": "Claim: Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
+        "label_nl": "Claim: Saudi coalition issues Hodeida evacuation warning, sparking Houthi threats - Edition.mv",
         "actor": "",
         "action": "",
         "place": "",
@@ -161,9 +160,20 @@
       },
       {
         "ids": [
-          "3cc1b9a90f34dd"
+          "ca32394c56a5f8"
         ],
-        "label_nl": "Claim: Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
+        "label_nl": "Claim: Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines - Business Standard",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "9b5230aef3852f"
+        ],
+        "label_nl": "Claim: ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
         "actor": "",
         "action": "",
         "place": "",
@@ -194,9 +204,9 @@
       },
       {
         "ids": [
-          "e8196d665afede"
+          "ff97192744c232"
         ],
-        "label_nl": "Claim: Qatar Leads Mediation to Ease US Iran Tensions - bsinews.id",
+        "label_nl": "Claim: Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id",
         "actor": "",
         "action": "",
         "place": "",
@@ -205,9 +215,9 @@
       },
       {
         "ids": [
-          "4e61c35f40cba0"
+          "08d1274ced6c48"
         ],
-        "label_nl": "Claim: Iran-aligned Houthi terrorists prepare to strike Saudi Red Sea ports - The Jerusalem Post",
+        "label_nl": "Claim: Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
         "actor": "",
         "action": "",
         "place": "",
@@ -227,9 +237,9 @@
       },
       {
         "ids": [
-          "9cf1cb8397c5b2"
+          "3cc1b9a90f34dd"
         ],
-        "label_nl": "Claim: Oil Prices Could Normalize to $70 by 2027 - Wisevoter",
+        "label_nl": "Claim: Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
         "actor": "",
         "action": "",
         "place": "",
@@ -261,26 +271,26 @@
     ],
     "input_claim_ids": [
       "7b646e9047a13a",
-      "478f708153773a",
+      "12f9d0e075cfa5",
       "e71596ea79f752",
       "ba90122f657ad0",
-      "ca32394c56a5f8",
+      "868a4166aae228",
       "1c7f31c0e13783",
       "dd1392117ea1ab",
       "304017063b28f3",
       "cb4439dd785f73",
-      "ff97192744c232",
-      "08d1274ced6c48",
+      "478f708153773a",
+      "0f4405b361cf4f",
       "1e760350a8a234",
-      "3cc1b9a90f34dd",
+      "ca32394c56a5f8",
       "33adb45819fb8c",
       "9b5230aef3852f",
       "ffb8209abc59e4",
       "2f9719d1fd8639",
-      "e8196d665afede",
-      "4e61c35f40cba0",
+      "ff97192744c232",
+      "08d1274ced6c48",
       "b9a5a4290d0f5b",
-      "9cf1cb8397c5b2",
+      "3cc1b9a90f34dd",
       "598f6ef771aca3",
       "3a865ee9c32af7",
       "9a039bb82e353f"
@@ -290,29 +300,26 @@
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "80d39b804725c40d4edf9fef",
+      "id": "e94ccf4b30f17b7b69278e45",
       "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
       "headline_claim_ids": [
         "ba90122f657ad0",
         "33adb45819fb8c",
-        "9b5230aef3852f",
         "3a865ee9c32af7"
       ],
       "headline_claims": [
         "Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
         "Two tanker attacks reported near Hormuz in fresh blow to vital oil route - Business Upturn",
-        "ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
         "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY1JvWks1V2o1dUVqaW1KVTVuTF9qb2xXY0JsdDNnSEFVY0lRWW9tUFFMWUZxek5HN3ZNUGZFQ2tzWTlMWmRuU3VJOUhtVXZqc0JIaXFEUERiZnVqWmktVzhrNHNCZ0dxTWJHQ2RpMUNqeEt6YlVyMExVblhNTmp1NmRVNlFOdC1JVDVUT25zVG9BUF9qWURJTnVFREo5clZRT3o5bDJzLS1tMDBQZWppT1V4VmFkbkNuV0xZdm5qTGFuVzRpV1hIME1kTEV5QnpmSXpfczhLMlZ2UFhOcVE?oc=5",
         "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNDdmT1NGYzR0TjhiWXltVlN5aXdmYkc2Y2VXd2xKeFhPNHc0dktnc2Rmd1RrbmdMVnFyVW1iNkdIYl9HRDRYSmVwOVIxQjhwSUpJTVBrX0lTeVhya2FmdkZieERDSUo5b0RMR2lDU3ZBZU03dnMybmYzdHVDVm40TFF6VXpXekRZeTNfcDlvcG1ycnEwa3lTc0lzSC12VjZOQmozUU9Vci1zTDVFX0xjd1hyQUhjZ0Yzd05GQnU3X1puQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcEZMcVZlSk5tVHJMNjI0cVliZlpNWm5kVTBqdVhacGJsWkJVTDZvaE9KSDZDOXFIcFJPbjYtRjl5THY0VV9MWVczbVZfYWUzT1FDZmZtcTZ5YWhKbTFvSmhiZ1hhM1BnZWVkbHFfb3RCNG4ydlAtb0dpanZlcktCb3ZQaC1Yczg4TkdHNkhOVEQtQVNnZ3F0SDl2NUpMY2lDU2FuLWFhN2Jhek1XSmJZTGpzVldUR1BDaFlJYllLem8zWnJv?oc=5",
         "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
         "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5"
       ],
-      "article_group_count": 4,
-      "news_url_count": 5,
+      "article_group_count": 3,
+      "news_url_count": 4,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -340,6 +347,32 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "ad199f77dc58dc3a8ea7a641",
+      "label_nl": "Claim: DW News. . Iran is openly threatening European countries with missile attacks and clandestine operations if the US bombs again. How big of a threat is the Islamic Republic really for Europe? #dwgeopolitics",
+      "headline_claim_ids": [
+        "12f9d0e075cfa5"
+      ],
+      "headline_claims": [
+        "DW News. . Iran is openly threatening European countries with missile attacks and clandestine operations if the US bombs again. How big of a threat is the Islamic Republic really for Europe? #dwgeopolitics - Facebook"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdjhYZHFjTTNnQWVNLTVnRHpOeFYyM2Q2YVpDUjByMkFabjVqV1RqdEVYZ1BmRzVjdjQteWlqY0daZ0g5aFd3LTNBQ1lpY09ZaGNHMk10aHBfRS1CdEVtanZhVkFHZ3VNUHI3UXAtUnNULUVDT2t4S2pCejJHSTlENzRwOGlpYzNVWGg0SXN2bUZQMzJsSmY3enpXZVV1NHFjZFdB?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -463,58 +496,6 @@
       "probability_estimate": null
     },
     {
-      "id": "4287e7182a12c968bc264a0a",
-      "label_nl": "Claim: Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id",
-      "headline_claim_ids": [
-        "ff97192744c232"
-      ],
-      "headline_claims": [
-        "Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hUXVZaFk5NjV2UXRjYnRpQXpZSFVBRTZvYm4xamdhT1RTODhDdTBHUUtwYldlejBWV3JTTVUzOF9jWGdyb1BnNkRMMWZSall6N2c5MkhTZHRhdWhSdnFsT2xNcDBsQQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "97361ea04c61a12479e71e63",
-      "label_nl": "Claim: Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
-      "headline_claim_ids": [
-        "08d1274ced6c48"
-      ],
-      "headline_claims": [
-        "Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0lyUzFUbGtKdUpJRmQ5eE1DT3c1QmE1RFdHOTdDNjRHNkVQSEIwSTN6eXVtUllIMFJWM3pWd0g0RTRRRUhhazlIVlY1Y29nelc5Sk93X3hyVng0b1BmV3ZOMWN3bnhNU0NNaGJoaV8wWnNRc01lakY2Zy1ZSWRILXdid2U1cW1Kby05ZkxDTW9XWWNJTG0zMVFEdjk1ZGdURktjODJkWdIBrAFBVV95cUxQUzJzcWRXOGZtQU81NmZYaFNzaklQYzhtdHNUZWVWMUFjVHlPa1dmb0RCN1AxSVZEV0plazBYS09oYmhGNXY4WFZvcVZKU05JT1JMekpfR2pFNWpnUVJ5bHpsbl8xZFRreGdtUkhkWkE2cWZnVEYtbmc0X2VpeldEc21LaXdwU0cteVYtaUlSeFk4bmNYekpXYVc5UUdxd01SMVhGXy1BMXhJcXNx?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "50726f4342db702299df37ed",
       "label_nl": "Claim: Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
       "headline_claim_ids": [
@@ -525,6 +506,32 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUU05SE9NUnE2RUpRRlNtTVRjTDc0Ykh0Rlk1TTVXZDZTTkRQTURicXJBVnZJNXhpZWVSXzczWUhOUXNnanlwTERRNTVHTjE4NW9DTml0dGt2NTRzOEpWczVYdENfaUVpbXdKUTZKbHgtdFBDSDNWNVBHYnczejM0djRvV3I?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "379fde8be38e359c47adbf77",
+      "label_nl": "Claim: ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East",
+      "headline_claim_ids": [
+        "9b5230aef3852f"
+      ],
+      "headline_claims": [
+        "ADNOC L&S Confirms Vessel Attack Amid Hormuz Tensions - Forbes Middle East"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcEZMcVZlSk5tVHJMNjI0cVliZlpNWm5kVTBqdVhacGJsWkJVTDZvaE9KSDZDOXFIcFJPbjYtRjl5THY0VV9MWVczbVZfYWUzT1FDZmZtcTZ5YWhKbTFvSmhiZ1hhM1BnZWVkbHFfb3RCNG4ydlAtb0dpanZlcktCb3ZQaC1Yczg4TkdHNkhOVEQtQVNnZ3F0SDl2NUpMY2lDU2FuLWFhN2Jhek1XSmJZTGpzVldUR1BDaFlJYllLem8zWnJv?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -599,16 +606,42 @@
       "probability_estimate": null
     },
     {
-      "id": "56bc14f53ef39d2f40be7190",
-      "label_nl": "Claim: Iran-aligned Houthi terrorists prepare to strike Saudi Red Sea ports - The Jerusalem Post",
+      "id": "4287e7182a12c968bc264a0a",
+      "label_nl": "Claim: Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id",
       "headline_claim_ids": [
-        "4e61c35f40cba0"
+        "ff97192744c232"
       ],
       "headline_claims": [
-        "Iran-aligned Houthi terrorists prepare to strike Saudi Red Sea ports - The Jerusalem Post"
+        "Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsSE01Slg2cWdST3c0R3lkUUJzUUI5V2ptMHRDa05mcGhmZmdBbkRSXzZnTDhIeVo1WC1jVHhIdlM4ZGpXcUU2b01hOXR0OVZPTGhYa3c4WjhjVmh0?oc=5"
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hUXVZaFk5NjV2UXRjYnRpQXpZSFVBRTZvYm4xamdhT1RTODhDdTBHUUtwYldlejBWV3JTTVUzOF9jWGdyb1BnNkRMMWZSall6N2c5MkhTZHRhdWhSdnFsT2xNcDBsQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "97361ea04c61a12479e71e63",
+      "label_nl": "Claim: Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
+      "headline_claim_ids": [
+        "08d1274ced6c48"
+      ],
+      "headline_claims": [
+        "Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0lyUzFUbGtKdUpJRmQ5eE1DT3c1QmE1RFdHOTdDNjRHNkVQSEIwSTN6eXVtUllIMFJWM3pWd0g0RTRRRUhhazlIVlY1Y29nelc5Sk93X3hyVng0b1BmV3ZOMWN3bnhNU0NNaGJoaV8wWnNRc01lakY2Zy1ZSWRILXdid2U1cW1Kby05ZkxDTW9XWWNJTG0zMVFEdjk1ZGdURktjODJkWdIBrAFBVV95cUxQUzJzcWRXOGZtQU81NmZYaFNzaklQYzhtdHNUZWVWMUFjVHlPa1dmb0RCN1AxSVZEV0plazBYS09oYmhGNXY4WFZvcVZKU05JT1JMekpfR2pFNWpnUVJ5bHpsbl8xZFRreGdtUkhkWkE2cWZnVEYtbmc0X2VpeldEc21LaXdwU0cteVYtaUlSeFk4bmNYekpXYVc5UUdxd01SMVhGXy1BMXhJcXNx?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -652,42 +685,16 @@
       "probability_estimate": null
     },
     {
-      "id": "9a314f8139458de7d0c581ad",
-      "label_nl": "Claim: Israel's Relentless Lebanon Strikes Are Threatening to Unravel Washington's Peace Deal - Latin Times",
+      "id": "4d6dd05109d9a865a41a64c0",
+      "label_nl": "Claim: Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스",
       "headline_claim_ids": [
-        "478f708153773a"
+        "868a4166aae228"
       ],
       "headline_claims": [
-        "Israel's Relentless Lebanon Strikes Are Threatening to Unravel Washington's Peace Deal - Latin Times"
+        "Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVUE4UnlFM21MWkRnNzU3TWcwSG9PbzBTc1pJLWw5TGhNMXpJNmhrYU9iYV9UMGU2M2ZhekRZLXJtUU56Qlpad3lNOE1LTDNxSHBsdFdldmlFOW1RVkYzSWRTczNicVJua2hRbkh6Q2NFX3RKeTZ6NU5YTVBzV0k2QlRQSFcxdXFjT2FOY1pocw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "2f27488f0e54d0fa4e5cc59b",
-      "label_nl": "Claim: Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines - Business Standard",
-      "headline_claim_ids": [
-        "ca32394c56a5f8"
-      ],
-      "headline_claims": [
-        "Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines - Business Standard"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZm5ueWI0VFl1WVJrVUF1SGw5Sy1WU3hmdFotOU5Ld2toSVBnYlBXYVlPMk1GYm9fcXJFSnRJYnBtVGdiMkN5VDYzUnE0RTR5M19hdGwyTUFtaHExYlJxcjFmTFdYOV9kYlRMOS1WUzNnb1lZY2dHVHB0MWhEVmFkVDlsRE01Q1ZQQmMyOWItQUtVZTNBTjNDOVRwTWdqTVhYY2FFdEFuY3ZmOURlZnZpZkdQaEVMTEx3dlZNNFBPbzlvSjNfMkd4LXdHRVrSAdIBQVVfeXFMTnZhMkQxTHBaN2ZQd0R5ODFFc3JmWEZTbzlMTGx1eXZ0NWhtbG0zWGxXYTdnZTg5ajFmU1k3cy10eDJfdHk3Rm5rMS12aGRpQlB0M0lJbUVWU0U5anZtem1FZVZVSzFmdmxuR2puQWJlVWR2cEtvNjhUSnltSURZclJwMlNfeFdHX0lySU4tVHcxUEdVNk55YVBLUmVfUnp1VmpKRjdnMi03UF9CU2FJTHZhNXBzdFNfUHp6elV1UktsV1pIaDBtUWgyYUdtb0NLSHNR?oc=5"
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xeFpPVFE4OVJidWlnX3BhXzBMa1BXTFd4M2dTSzFUY08tQjRVQ2NaYzVIc1M3TzlNdWxHLXVnVEFlODBNNGVRNk1VSXc3N3NoRHdBQkRpX2M?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -730,16 +737,16 @@
       "probability_estimate": null
     },
     {
-      "id": "a5721fb6eb97bc74926b077d",
-      "label_nl": "Claim: Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
+      "id": "9a314f8139458de7d0c581ad",
+      "label_nl": "Claim: Israel's Relentless Lebanon Strikes Are Threatening to Unravel Washington's Peace Deal - Latin Times",
       "headline_claim_ids": [
-        "3cc1b9a90f34dd"
+        "478f708153773a"
       ],
       "headline_claims": [
-        "Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express"
+        "Israel's Relentless Lebanon Strikes Are Threatening to Unravel Washington's Peace Deal - Latin Times"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNVdvcUJzOVY4Qk1MQ0pkc3dlVGdzNUZJS1lrbTlROHFYUzN2dFBicjhkUThtckxsSlZFdnlwaWpvYzVxQnFjTVlQNlJBYlA4OGJBd2JUdjNxbUE1UVhTRS05QnNHaHlsSHBIMDQ5TXFCZkp0cFlsRkgyUDJMSXU5Ry03aTZ6SDZXVDlDODJ3NE1iSnBZU3F6RE45eDkyX2hRSzllR0tvRzlxemcwR2lFSlhpUWJDV2NFeTJyYVFweUhGd2ZRZjJtX3RwdGpVUURwQ0Zz0gHaAUFVX3lxTE9TZjhzN1ZycFR3aldlLWN2T0lkNDRGeU1kZTExMU1HcXZ3OU1jUjhMaS1nOS00MVBsS0doUDU2amcyQlpVbGlNNkJUSUlxaDV2bjFBTjI4VVZ3UlQxOC0wUll4Q3FYTHZDNWZQYVVEN3RLMmxDeWZLaXl1UzRsM09qdWNSUk5GZzJPeTRCX0RGRjlxblBjOWk0a2VuVnRQemU2cjVFQ24xTWVvek5GelV3b0JEU3ltU3BzREE2S0l5dDFaUGFOMXEtMWpwWUtoY3hrQmtfSlZpVmxn?oc=5"
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVUE4UnlFM21MWkRnNzU3TWcwSG9PbzBTc1pJLWw5TGhNMXpJNmhrYU9iYV9UMGU2M2ZhekRZLXJtUU56Qlpad3lNOE1LTDNxSHBsdFdldmlFOW1RVkYzSWRTczNicVJua2hRbkh6Q2NFX3RKeTZ6NU5YTVBzV0k2QlRQSFcxdXFjT2FOY1pocw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -756,16 +763,43 @@
       "probability_estimate": null
     },
     {
-      "id": "ed8097f22efde32a3758f970",
-      "label_nl": "Claim: Qatar Leads Mediation to Ease US Iran Tensions - bsinews.id",
+      "id": "1be28dc61fa7e7858c3fda47",
+      "label_nl": "Claim: Saudi coalition issues Hodeida evacuation warning, sparking Houthi threats - Edition.mv",
       "headline_claim_ids": [
-        "e8196d665afede"
+        "0f4405b361cf4f"
       ],
       "headline_claims": [
-        "Qatar Leads Mediation to Ease US Iran Tensions - bsinews.id"
+        "Saudi coalition issues Hodeida evacuation warning, sparking Houthi threats - Edition.mv"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85NDBzSHFJci1PMDg0QTlqOFE2cy1DMGc1eTBGS2MydUVnTWtJR0Y0T3BQRnZrbURVX3djQzJSbFhrbC14WHhZU0hnMUhsdDBiNmxXUENzZ043VVI4VkZRcw?oc=5"
+        "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HMGRZVGZYMHMtUnEzXzF4dWYzcElHQzE4ZWRqcmZ1OXpNazhISkJCQ0x1Z1NrYnFWSVAzMThEd2RaNUlzR19TR0pzZGxodHVQSVhjSWRtdmhhZw?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQWZwMFpSZGxNT3BmSkZmRkpXWUNfWVU0WU1LcTJuQmpHTzdCNnFfNWhlNmp0SThpS1ctdGNqWkE2OVlzOUxhVWVEOFI2UVpUSHhFcU5GeVRxVHRNSnZsa3ZldEtDcWhXLXRLWGhtMFhFMXFZYnZQYkowZDNpUkRxTTViMU15WW13dFltQ3djRlVuNEczWmNQZ0tnMVI3Sk5qMWdOWVJ3OFZmUFRTei1pVzdLYW8zS1ZkT2NLRjUycGZRd9IBzwFBVV95cUxQWmFwckJpSDQxVGtUUlJNMUdDOHlmY0RwNE5JZmRUbG01QVhxLVdWR2xvLXU4Tm9GbzFpMmtUWmRmOXhyakkxdzM3dXE0UHRXVS00eElESnF1d1lnMk1PSVAtSm1waUtMeEk1YjBLaWJqMDdSdlkzbHhJUVYwV3o4MUUyeDkyd2h3MFJHUVhvNFBocGVxSlotMnJwOXZudS04ZE1NMGstdV9XR21tOWVCanhObWpKTXQxLTNQWldHSnAwNFFKU1prLUhNdUZYaGM?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "2f27488f0e54d0fa4e5cc59b",
+      "label_nl": "Claim: Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines - Business Standard",
+      "headline_claim_ids": [
+        "ca32394c56a5f8"
+      ],
+      "headline_claims": [
+        "Oil, gas import bill up 60% in Oct as Brent surges, LPG use declines - Business Standard"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZm5ueWI0VFl1WVJrVUF1SGw5Sy1WU3hmdFotOU5Ld2toSVBnYlBXYVlPMk1GYm9fcXJFSnRJYnBtVGdiMkN5VDYzUnE0RTR5M19hdGwyTUFtaHExYlJxcjFmTFdYOV9kYlRMOS1WUzNnb1lZY2dHVHB0MWhEVmFkVDlsRE01Q1ZQQmMyOWItQUtVZTNBTjNDOVRwTWdqTVhYY2FFdEFuY3ZmOURlZnZpZkdQaEVMTEx3dlZNNFBPbzlvSjNfMkd4LXdHRVrSAdIBQVVfeXFMTnZhMkQxTHBaN2ZQd0R5ODFFc3JmWEZTbzlMTGx1eXZ0NWhtbG0zWGxXYTdnZTg5ajFmU1k3cy10eDJfdHk3Rm5rMS12aGRpQlB0M0lJbUVWU0U5anZtem1FZVZVSzFmdmxuR2puQWJlVWR2cEtvNjhUSnltSURZclJwMlNfeFdHX0lySU4tVHcxUEdVNk55YVBLUmVfUnp1VmpKRjdnMi03UF9CU2FJTHZhNXBzdFNfUHp6elV1UktsV1pIaDBtUWgyYUdtb0NLSHNR?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -809,16 +843,16 @@
       "probability_estimate": null
     },
     {
-      "id": "e6a3025f7bcb3d566c27b6d5",
-      "label_nl": "Claim: Oil Prices Could Normalize to $70 by 2027 - Wisevoter",
+      "id": "a5721fb6eb97bc74926b077d",
+      "label_nl": "Claim: Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
       "headline_claim_ids": [
-        "9cf1cb8397c5b2"
+        "3cc1b9a90f34dd"
       ],
       "headline_claims": [
-        "Oil Prices Could Normalize to $70 by 2027 - Wisevoter"
+        "Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4cnBCY3BOWTNaNzVzbkVXZG9taEF3czhBRWZZRDJtM0c2VFcwU2llUFd2Ukg4d1h1dGU1Q0Z5TzV3bjJYR1V1UjN0YlIwaWxYOFZNRzJWa0lJT2FZbzE3QkVRYWlvTUpoZnoxTXhaMldiX2JPLWh5alU3TjhxQQ?oc=5"
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNVdvcUJzOVY4Qk1MQ0pkc3dlVGdzNUZJS1lrbTlROHFYUzN2dFBicjhkUThtckxsSlZFdnlwaWpvYzVxQnFjTVlQNlJBYlA4OGJBd2JUdjNxbUE1UVhTRS05QnNHaHlsSHBIMDQ5TXFCZkp0cFlsRkgyUDJMSXU5Ry03aTZ6SDZXVDlDODJ3NE1iSnBZU3F6RE45eDkyX2hRSzllR0tvRzlxemcwR2lFSlhpUWJDV2NFeTJyYVFweUhGd2ZRZjJtX3RwdGpVUURwQ0Zz0gHaAUFVX3lxTE9TZjhzN1ZycFR3aldlLWN2T0lkNDRGeU1kZTExMU1HcXZ3OU1jUjhMaS1nOS00MVBsS0doUDU2amcyQlpVbGlNNkJUSUlxaDV2bjFBTjI4VVZ3UlQxOC0wUll4Q3FYTHZDNWZQYVVEN3RLMmxDeWZLaXl1UzRsM09qdWNSUk5GZzJPeTRCX0RGRjlxblBjOWk0a2VuVnRQemU2cjVFQ24xTWVvek5GelV3b0JEU3ltU3BzREE2S0l5dDFaUGFOMXEtMWpwWUtoY3hrQmtfSlZpVmxn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -871,8 +905,8 @@
       "total_tokens": 25760
     },
     "2026-11-22": {
-      "requests": 6,
-      "total_tokens": 18030
+      "requests": 9,
+      "total_tokens": 26175
     }
   }
 }
