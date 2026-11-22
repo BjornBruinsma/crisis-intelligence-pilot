@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-21T19:00:25.259809Z",
-  "fingerprint": "fab498fc29fc798a01cbf419",
+  "last_attempt_utc": "2026-11-22T01:22:53.572956Z",
+  "fingerprint": "e904d095b2ea0182b88119e4",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 24,
-  "event_candidate_count": 23,
+  "event_candidate_count": 21,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 7,
-    "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 6,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "model_pair_proposals": 4,
+    "accepted_pair_connections": 3,
+    "rejected_pair_proposals": 1,
+    "multi_claim_groups": 2,
+    "claims_in_multi_groups": 5,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 3,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-21T19:00:25.259809Z",
+    "recorded_at": "2026-11-22T01:22:53.572956Z",
     "groups": [
       {
         "ids": [
@@ -59,25 +59,28 @@
       },
       {
         "ids": [
-          "ba90122f657ad0"
+          "ba90122f657ad0",
+          "33adb45819fb8c",
+          "3a865ee9c32af7"
         ],
         "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
+          "3cc1b9a90f34dd",
           "9cf1cb8397c5b2"
         ],
-        "label_nl": "Claim: Oil Prices Could Normalize to $70 by 2027 - Wisevoter",
+        "label_nl": "Claim: Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -136,15 +139,14 @@
       },
       {
         "ids": [
-          "ff97192744c232",
-          "e8196d665afede"
+          "ff97192744c232"
         ],
         "label_nl": "Claim: Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -162,28 +164,6 @@
           "1e760350a8a234"
         ],
         "label_nl": "Claim: Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "be99529b8f50e4"
-        ],
-        "label_nl": "Claim: Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "33adb45819fb8c"
-        ],
-        "label_nl": "Claim: Two tanker attacks reported near Hormuz in fresh blow to vital oil route - Business Upturn",
         "actor": "",
         "action": "",
         "place": "",
@@ -225,6 +205,17 @@
       },
       {
         "ids": [
+          "e8196d665afede"
+        ],
+        "label_nl": "Claim: Qatar Leads Mediation to Ease US Iran Tensions - bsinews.id",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "4e61c35f40cba0"
         ],
         "label_nl": "Claim: Iran-aligned Houthi terrorists prepare to strike Saudi Red Sea ports - The Jerusalem Post",
@@ -247,9 +238,9 @@
       },
       {
         "ids": [
-          "21a3153df04cfa"
+          "be99529b8f50e4"
         ],
-        "label_nl": "Claim: Tankers Are Being Hit Daily. So Why Is Oil Falling - Crude Oil Prices Today | OilPrice.com",
+        "label_nl": "Claim: Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
         "actor": "",
         "action": "",
         "place": "",
@@ -266,17 +257,6 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "48dad00d31567a"
-        ],
-        "label_nl": "Claim: Saudi Arabia condemns Iranian attacks on Kuwait, Bahrain and UAE oil tanker - Islamabad Post",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       }
     ],
     "input_claim_ids": [
@@ -284,7 +264,7 @@
       "478f708153773a",
       "e71596ea79f752",
       "ba90122f657ad0",
-      "9cf1cb8397c5b2",
+      "3cc1b9a90f34dd",
       "1c7f31c0e13783",
       "dd1392117ea1ab",
       "9384f566cb96e5",
@@ -293,7 +273,7 @@
       "ff97192744c232",
       "08d1274ced6c48",
       "1e760350a8a234",
-      "be99529b8f50e4",
+      "9cf1cb8397c5b2",
       "33adb45819fb8c",
       "9b5230aef3852f",
       "ffb8209abc59e4",
@@ -301,31 +281,35 @@
       "e8196d665afede",
       "4e61c35f40cba0",
       "cca12ccdc9dadc",
-      "21a3153df04cfa",
+      "be99529b8f50e4",
       "598f6ef771aca3",
-      "48dad00d31567a"
+      "3a865ee9c32af7"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "73e0c726260790294a4ffef6",
-      "label_nl": "Claim: Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id",
+      "id": "e94ccf4b30f17b7b69278e45",
+      "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
       "headline_claim_ids": [
-        "ff97192744c232",
-        "e8196d665afede"
+        "ba90122f657ad0",
+        "33adb45819fb8c",
+        "3a865ee9c32af7"
       ],
       "headline_claims": [
-        "Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id",
-        "Qatar Leads Mediation to Ease US Iran Tensions - bsinews.id"
+        "Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
+        "Two tanker attacks reported near Hormuz in fresh blow to vital oil route - Business Upturn",
+        "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hUXVZaFk5NjV2UXRjYnRpQXpZSFVBRTZvYm4xamdhT1RTODhDdTBHUUtwYldlejBWV3JTTVUzOF9jWGdyb1BnNkRMMWZSall6N2c5MkhTZHRhdWhSdnFsT2xNcDBsQQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85NDBzSHFJci1PMDg0QTlqOFE2cy1DMGc1eTBGS2MydUVnTWtJR0Y0T3BQRnZrbURVX3djQzJSbFhrbC14WHhZU0hnMUhsdDBiNmxXUENzZ043VVI4VkZRcw?oc=5"
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY1JvWks1V2o1dUVqaW1KVTVuTF9qb2xXY0JsdDNnSEFVY0lRWW9tUFFMWUZxek5HN3ZNUGZFQ2tzWTlMWmRuU3VJOUhtVXZqc0JIaXFEUERiZnVqWmktVzhrNHNCZ0dxTWJHQ2RpMUNqeEt6YlVyMExVblhNTmp1NmRVNlFOdC1JVDVUT25zVG9BUF9qWURJTnVFREo5clZRT3o5bDJzLS1tMDBQZWppT1V4VmFkbkNuV0xZdm5qTGFuVzRpV1hIME1kTEV5QnpmSXpfczhLMlZ2UFhOcVE?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNDdmT1NGYzR0TjhiWXltVlN5aXdmYkc2Y2VXd2xKeFhPNHc0dktnc2Rmd1RrbmdMVnFyVW1iNkdIYl9HRDRYSmVwOVIxQjhwSUpJTVBrX0lTeVhya2FmdkZieERDSUo5b0RMR2lDU3ZBZU03dnMybmYzdHVDVm40TFF6VXpXekRZeTNfcDlvcG1ycnEwa3lTc0lzSC12VjZOQmozUU9Vci1zTDVFX0xjd1hyQUhjZ0Yzd05GQnU3X1puQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
+        "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5"
       ],
-      "article_group_count": 2,
-      "news_url_count": 2,
+      "article_group_count": 3,
+      "news_url_count": 4,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -380,32 +364,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "7913aaff5e81bd9954dbfde0",
-      "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
-      "headline_claim_ids": [
-        "ba90122f657ad0"
-      ],
-      "headline_claims": [
-        "Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY1JvWks1V2o1dUVqaW1KVTVuTF9qb2xXY0JsdDNnSEFVY0lRWW9tUFFMWUZxek5HN3ZNUGZFQ2tzWTlMWmRuU3VJOUhtVXZqc0JIaXFEUERiZnVqWmktVzhrNHNCZ0dxTWJHQ2RpMUNqeEt6YlVyMExVblhNTmp1NmRVNlFOdC1JVDVUT25zVG9BUF9qWURJTnVFREo5clZRT3o5bDJzLS1tMDBQZWppT1V4VmFkbkNuV0xZdm5qTGFuVzRpV1hIME1kTEV5QnpmSXpfczhLMlZ2UFhOcVE?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -502,6 +460,32 @@
       "probability_estimate": null
     },
     {
+      "id": "4287e7182a12c968bc264a0a",
+      "label_nl": "Claim: Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id",
+      "headline_claim_ids": [
+        "ff97192744c232"
+      ],
+      "headline_claims": [
+        "Qatar Leads Mediation as US Weighs Military Action Against Iran - Peradaban.id"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hUXVZaFk5NjV2UXRjYnRpQXpZSFVBRTZvYm4xamdhT1RTODhDdTBHUUtwYldlejBWV3JTTVUzOF9jWGdyb1BnNkRMMWZSall6N2c5MkhTZHRhdWhSdnFsT2xNcDBsQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "97361ea04c61a12479e71e63",
       "label_nl": "Claim: Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
       "headline_claim_ids": [
@@ -538,32 +522,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUU05SE9NUnE2RUpRRlNtTVRjTDc0Ykh0Rlk1TTVXZDZTTkRQTURicXJBVnZJNXhpZWVSXzczWUhOUXNnanlwTERRNTVHTjE4NW9DTml0dGt2NTRzOEpWczVYdENfaUVpbXdKUTZKbHgtdFBDSDNWNVBHYnczejM0djRvV3I?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "2a15ee45d3ab6566ca1e3af9",
-      "label_nl": "Claim: Two tanker attacks reported near Hormuz in fresh blow to vital oil route - Business Upturn",
-      "headline_claim_ids": [
-        "33adb45819fb8c"
-      ],
-      "headline_claims": [
-        "Two tanker attacks reported near Hormuz in fresh blow to vital oil route - Business Upturn"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNDdmT1NGYzR0TjhiWXltVlN5aXdmYkc2Y2VXd2xKeFhPNHc0dktnc2Rmd1RrbmdMVnFyVW1iNkdIYl9HRDRYSmVwOVIxQjhwSUpJTVBrX0lTeVhya2FmdkZieERDSUo5b0RMR2lDU3ZBZU03dnMybmYzdHVDVm40TFF6VXpXekRZeTNfcDlvcG1ycnEwa3lTc0lzSC12VjZOQmozUU9Vci1zTDVFX0xjd1hyQUhjZ0Yzd05GQnU3X1puQQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -690,6 +648,35 @@
       "probability_estimate": null
     },
     {
+      "id": "576df1538a9e9404dd99626e",
+      "label_nl": "Claim: Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
+      "headline_claim_ids": [
+        "3cc1b9a90f34dd",
+        "9cf1cb8397c5b2"
+      ],
+      "headline_claims": [
+        "Crude oil prices to fall to $70 by 2027? Why global oil market may see a major surplus - The Financial Express",
+        "Oil Prices Could Normalize to $70 by 2027 - Wisevoter"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNVdvcUJzOVY4Qk1MQ0pkc3dlVGdzNUZJS1lrbTlROHFYUzN2dFBicjhkUThtckxsSlZFdnlwaWpvYzVxQnFjTVlQNlJBYlA4OGJBd2JUdjNxbUE1UVhTRS05QnNHaHlsSHBIMDQ5TXFCZkp0cFlsRkgyUDJMSXU5Ry03aTZ6SDZXVDlDODJ3NE1iSnBZU3F6RE45eDkyX2hRSzllR0tvRzlxemcwR2lFSlhpUWJDV2NFeTJyYVFweUhGd2ZRZjJtX3RwdGpVUURwQ0Zz0gHaAUFVX3lxTE9TZjhzN1ZycFR3aldlLWN2T0lkNDRGeU1kZTExMU1HcXZ3OU1jUjhMaS1nOS00MVBsS0doUDU2amcyQlpVbGlNNkJUSUlxaDV2bjFBTjI4VVZ3UlQxOC0wUll4Q3FYTHZDNWZQYVVEN3RLMmxDeWZLaXl1UzRsM09qdWNSUk5GZzJPeTRCX0RGRjlxblBjOWk0a2VuVnRQemU2cjVFQ24xTWVvek5GelV3b0JEU3ltU3BzREE2S0l5dDFaUGFOMXEtMWpwWUtoY3hrQmtfSlZpVmxn?oc=5",
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4cnBCY3BOWTNaNzVzbkVXZG9taEF3czhBRWZZRDJtM0c2VFcwU2llUFd2Ukg4d1h1dGU1Q0Z5TzV3bjJYR1V1UjN0YlIwaWxYOFZNRzJWa0lJT2FZbzE3QkVRYWlvTUpoZnoxTXhaMldiX2JPLWh5alU3TjhxQQ?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "9a314f8139458de7d0c581ad",
       "label_nl": "Claim: Israel's Relentless Lebanon Strikes Are Threatening to Unravel Washington's Peace Deal - Latin Times",
       "headline_claim_ids": [
@@ -700,32 +687,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVUE4UnlFM21MWkRnNzU3TWcwSG9PbzBTc1pJLWw5TGhNMXpJNmhrYU9iYV9UMGU2M2ZhekRZLXJtUU56Qlpad3lNOE1LTDNxSHBsdFdldmlFOW1RVkYzSWRTczNicVJua2hRbkh6Q2NFX3RKeTZ6NU5YTVBzV0k2QlRQSFcxdXFjT2FOY1pocw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "e6a3025f7bcb3d566c27b6d5",
-      "label_nl": "Claim: Oil Prices Could Normalize to $70 by 2027 - Wisevoter",
-      "headline_claim_ids": [
-        "9cf1cb8397c5b2"
-      ],
-      "headline_claims": [
-        "Oil Prices Could Normalize to $70 by 2027 - Wisevoter"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4cnBCY3BOWTNaNzVzbkVXZG9taEF3czhBRWZZRDJtM0c2VFcwU2llUFd2Ukg4d1h1dGU1Q0Z5TzV3bjJYR1V1UjN0YlIwaWxYOFZNRzJWa0lJT2FZbzE3QkVRYWlvTUpoZnoxTXhaMldiX2JPLWh5alU3TjhxQQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -795,16 +756,16 @@
       "probability_estimate": null
     },
     {
-      "id": "284969439c01fb0e6bf729ad",
-      "label_nl": "Claim: Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
+      "id": "ed8097f22efde32a3758f970",
+      "label_nl": "Claim: Qatar Leads Mediation to Ease US Iran Tensions - bsinews.id",
       "headline_claim_ids": [
-        "be99529b8f50e4"
+        "e8196d665afede"
       ],
       "headline_claims": [
-        "Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal"
+        "Qatar Leads Mediation to Ease US Iran Tensions - bsinews.id"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2Y0TTZzX2tCSnFzQ1l4Q2toN2FyNHdWaVJSTEpUdWV1R2ppMk5IMEFfczBBM284c0YxX1RQVEdFZDk1N05xbjYtWlBzSlNxWVhlV2c4T1ZRRG9CaW1vSy1oTEZ5MExnMXlDUWpxQzB4b2ZjNjBjT1JGN3E0VHFtRlV6NlM0RVNMSVQ2WHVDeUREaHMyOTByYWRFNmZtM003UmhYc0ZTeC12akJSZFFIYmhRc2w2NkZkdkh0U3NoUlNHRzQ?oc=5"
+        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85NDBzSHFJci1PMDg0QTlqOFE2cy1DMGc1eTBGS2MydUVnTWtJR0Y0T3BQRnZrbURVX3djQzJSbFhrbC14WHhZU0hnMUhsdDBiNmxXUENzZ043VVI4VkZRcw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -847,20 +808,19 @@
       "probability_estimate": null
     },
     {
-      "id": "0e7d974a0c858b160397294a",
-      "label_nl": "Claim: Tankers Are Being Hit Daily. So Why Is Oil Falling - Crude Oil Prices Today | OilPrice.com",
+      "id": "284969439c01fb0e6bf729ad",
+      "label_nl": "Claim: Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
       "headline_claim_ids": [
-        "21a3153df04cfa"
+        "be99529b8f50e4"
       ],
       "headline_claims": [
-        "Tankers Are Being Hit Daily. So Why Is Oil Falling - Crude Oil Prices Today | OilPrice.com"
+        "Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY0dfUWo5UkVzamhLcGpra1c4WGxEaUZ1RkhsMnoyUzlRNmRMdmFsRDhjOVNROGJ3S3V4N3kzemhTMmZsTHZUWXpucFNCMU1iLXlYVDRPVWxlNVphZmxXVl95dnFOcTVtT1lVSExjbnRvbXhFNVJLVkdWWVJfZElWUXI5STFUQnZlZXNWM1k4REV3WWdaLWxOVnFscmTSAZwBQVVfeXFMTWNHX1FqOVJFc2poS3Bqa2tXOFhsRGlGdUZIbDJ6MlM5UTZkTHZhbEQ4YzlTUThid0t1eDd5M3poUzJmbEx2VFl6bnBTQjFNYi15WFQ0T1VsZTVaYWZsV1ZfeXZxTnE1bU9ZVUhMY250b214RTVSS1ZHVllSX2RJVlFyOUkxVEJ2ZWVzVjNZOERFd1lnWi1sTlZxbHJk?oc=5",
-        "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNkVuN2hKSkxKQTdtQl84WTJabnJNWlI1SWVaQ1lJMDVPY181SmNaLWEweGxLcVhZamdJS0ZyQWJxNnpzUmV0aUFmZldyUUpCTW5HRTMyYVc3Zk5DSHVNUzAyb0Y1UlpPb0NidGlWdTRqaVVwS2p5RTFWQkMwdElZS2NsdkEwTXVBTGRtVTJMeC1XNEtWenp30gGcAUFVX3lxTE1jR19RajlSRXNqaEtwamtrVzhYbERpRnVGSGwyejJTOVE2ZEx2YWxEOGM5U1E4YndLdXg3eTN6aFMyZmxMdlRZem5wU0IxTWIteVhUNE9VbGU1WmFmbFdWX3l2cU5xNW1PWVVITGNudG9teEU1UktWR1ZZUl9kSVZRcjlJMVRCdmVlc1YzWThERXdZZ1otbE5WcWxyZA?oc=5"
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2Y0TTZzX2tCSnFzQ1l4Q2toN2FyNHdWaVJSTEpUdWV1R2ppMk5IMEFfczBBM284c0YxX1RQVEdFZDk1N05xbjYtWlBzSlNxWVhlV2c4T1ZRRG9CaW1vSy1oTEZ5MExnMXlDUWpxQzB4b2ZjNjBjT1JGN3E0VHFtRlV6NlM0RVNMSVQ2WHVDeUREaHMyOTByYWRFNmZtM003UmhYc0ZTeC12akJSZFFIYmhRc2w2NkZkdkh0U3NoUlNHRzQ?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -898,40 +858,9 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
-    },
-    {
-      "id": "c4b4aab997bb4a82e2364f85",
-      "label_nl": "Claim: Saudi Arabia condemns Iranian attacks on Kuwait, Bahrain and UAE oil tanker - Islamabad Post",
-      "headline_claim_ids": [
-        "48dad00d31567a"
-      ],
-      "headline_claims": [
-        "Saudi Arabia condemns Iranian attacks on Kuwait, Bahrain and UAE oil tanker - Islamabad Post"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY1dGWWtkLVkwNDRBNnN4a3gyQW02N240alRPaDZJYVN3clVkRlQzVHdtb3FtRW0zOGZMRTgzRjlHRGdYMXdaWExWQ2YxZi0xZk1XRjNMSnFya3FxeDFZTk9CaWdiX2M4SUtremkwSWpyMk1MODV4XzVvM29VOG44WTVQdURrbHI5SG50a0F0VVdkaFh6R0F6ZlY3MFl1ZDViTzFEVEhXNA?oc=5",
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxObTkyN1ZoSzc5TVNHSTl5VlJmMGZVUkxWMXpxTGI2R0wtRVdPQXdGRHRzUVEtMkdfam9hUTduakphc0NUT2xFNWNZVnE0MmEwTzlkZGRieXE0TkMyMzFSeU5kU1hjQXItTDV4cTA3YWUwTzFRNF9KV2dvRGQ4bHd0aDU4akFmWmJnMUJLS3NnRkFqTEtodktkWEtlSER5QQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-11-19": {
-      "requests": 12,
-      "total_tokens": 35333
-    },
     "2026-11-20": {
       "requests": 12,
       "total_tokens": 32011
@@ -939,6 +868,10 @@
     "2026-11-21": {
       "requests": 9,
       "total_tokens": 25760
+    },
+    "2026-11-22": {
+      "requests": 3,
+      "total_tokens": 8185
     }
   }
 }
