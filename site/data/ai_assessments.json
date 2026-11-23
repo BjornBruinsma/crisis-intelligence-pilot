@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-23T01:28:32.265161Z",
+  "last_attempt_utc": "2026-11-23T07:49:44.903009Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -7703,6 +7703,134 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-23T01:28:31.264954Z"
+    },
+    "b31e14151604c6": {
+      "id": "b31e14151604c6",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Trump waarschuwt voor een militaire aanval op Iran in 2027 als de gesprekken mislukken.",
+      "claimed_event_nl": "Trump claimt een militaire aanval op Iran in 2027.",
+      "reason_nl": "Deze uitspraak kan de spanningen in de regio verhogen en heeft invloed op de diplomatieke relaties.",
+      "limitations_nl": "De bewering is gebaseerd op een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T07:49:38.248315Z"
+    },
+    "fd30f0d3d81bf6": {
+      "id": "fd30f0d3d81bf6",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De olieprijzen dalen door een wereldwijde verkoopgolf, terwijl aanvallen in de Golf de verliezen beperken.",
+      "claimed_event_nl": "Olieprijzen dalen door marktsentiment en Gulf-aanvallen.",
+      "reason_nl": "De daling van olieprijzen kan economische gevolgen hebben voor de regio en de wereldmarkt.",
+      "limitations_nl": "De situatie is dynamisch en afhankelijk van meerdere factoren.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T07:49:38.248342Z"
+    },
+    "60645877f7c412": {
+      "id": "60645877f7c412",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "event_claim",
+      "summary_nl": "Trump beweert dat nieuwe aanvallen zijn mislukt, terwijl Iran stroomonderbrekingen oplegt.",
+      "claimed_event_nl": "Trump claimt dat aanvallen op Iran zijn mislukt.",
+      "reason_nl": "Deze bewering kan de perceptie van de militaire situatie in de regio beïnvloeden.",
+      "limitations_nl": "De bron is niet onafhankelijk en de situatie is onduidelijk.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T07:49:38.248351Z"
+    },
+    "a36beccc25787b": {
+      "id": "a36beccc25787b",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Teheran heeft aanvallen aangekondigd op twee Amerikaanse bases in Bahrein.",
+      "claimed_event_nl": "Teheran claimt aanvallen op Amerikaanse bases in Bahrein.",
+      "reason_nl": "Dit kan leiden tot een escalatie van de militaire spanningen in de regio.",
+      "limitations_nl": "De bewering is niet bevestigd door onafhankelijke bronnen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T07:49:38.248356Z"
+    },
+    "b1d730560d2ff3": {
+      "id": "b1d730560d2ff3",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "commentary",
+      "summary_nl": "Een commentaar bespreekt hoe de olieherstel na de oorlog met Iran een aanhoudend tekort aan diesel verbergt.",
+      "claimed_event_nl": "Commentaar over olieherstel en dieseltekort.",
+      "reason_nl": "Dit kan inzicht geven in de economische gevolgen van de situatie in Iran.",
+      "limitations_nl": "Het is een mening en geen feitelijke gebeurtenis.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T07:49:38.248361Z"
+    },
+    "41c874aa739184": {
+      "id": "41c874aa739184",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran heeft grondtroepen nabij de Straat van Hormuz ingezet te midden van een opbouw van Amerikaanse marineschepen en toenemende maritieme aanvallen.",
+      "claimed_event_nl": "Iran heeft grondtroepen nabij de Straat van Hormuz ingezet.",
+      "reason_nl": "Deze claim is relevant vanwege de mogelijke impact op de regionale veiligheid en spanningen in de Golfregio.",
+      "limitations_nl": "De informatie is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T07:49:43.902767Z"
+    },
+    "8afa925c9659aa": {
+      "id": "8afa925c9659aa",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "market_move",
+      "summary_nl": "De prijs van Brent-olie is bijna verdubbeld, en India heeft in oktober $6 miljard extra uitgegeven aan olie- en gasimporten.",
+      "claimed_event_nl": "De prijs van Brent-olie is bijna verdubbeld en India heeft extra geld uitgegeven aan olie- en gasimporten.",
+      "reason_nl": "Deze claim is relevant omdat het de economische gevolgen van de situatie in de Golfregio kan weerspiegelen.",
+      "limitations_nl": "De informatie is gebaseerd op een enkele bron zonder onafhankelijke verificatie.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T07:49:43.902789Z"
+    },
+    "4b97305c7138c5": {
+      "id": "4b97305c7138c5",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Twee mensen, waaronder een Pakistaan, zijn gewond geraakt bij aanvallen van Iran, aldus Bahrein.",
+      "claimed_event_nl": "Twee mensen zijn gewond geraakt bij aanvallen van Iran.",
+      "reason_nl": "Deze claim is relevant vanwege de mogelijke escalatie van geweld en de impact op de regionale stabiliteit.",
+      "limitations_nl": "De informatie is afkomstig van een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T07:49:43.902796Z"
     }
   },
   "usage_by_day": {
@@ -7715,8 +7843,8 @@
       "total_tokens": 3848
     },
     "2026-11-23": {
-      "requests": 2,
-      "total_tokens": 2609
+      "requests": 4,
+      "total_tokens": 5340
     }
   }
 }
