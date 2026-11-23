@@ -1,72 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-22T19:01:41.009187Z",
+  "last_attempt_utc": "2026-11-23T01:29:15.037772Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 22,
-  "active_checked": 11,
+  "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "1a46284acf7adf9fcb68027c": {
-      "event_id": "1a46284acf7adf9fcb68027c",
-      "checked_at": "2026-11-07T07:12:32.240789Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De passage beschrijft Houthi-aanvallen in Saudi-Arabië, maar biedt geen specifiek bewijs voor de waarschuwingen van de Amerikaanse ambassade.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/employment-tribunal-decisions/ms-a-costantine-v-the-royal-embassy-of-saudi-arabia-cultural-bureau-2201753-slash-2018",
-          "title": "Ms A Costantine v The Royal Embassy of Saudi Arabia (Cultural Bureau): 2201753/2018 - GOV.UKGOV.UK",
-          "source_publication_date": "2024-08-15T12:10:20Z",
-          "text_excerpt": "Ms A Costantine v The Royal Embassy of Saudi Arabia (Cultural Bureau): 2201753/2018"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "King Khalid International Airport was struck by a missile on 10 October 2026. The airport continues to be targeted and remains at risk of further attacks."
-        }
-      ]
-    },
-    "fec28e693dddc21716cf9b38": {
-      "event_id": "fec28e693dddc21716cf9b38",
-      "checked_at": "2026-11-07T13:04:04.824136Z",
-      "version": "official-original-document-v1",
-      "research_status": "primary_document_not_found",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 0,
-      "official_link_candidates": 6,
-      "search_errors": [
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": []
-    },
     "a7a89bd9d83bc8863bd55e5d": {
       "event_id": "a7a89bd9d83bc8863bd55e5d",
       "checked_at": "2026-11-07T13:04:04.824160Z",
@@ -3432,7 +3375,7 @@
     },
     "7913aaff5e81bd9954dbfde0": {
       "event_id": "7913aaff5e81bd9954dbfde0",
-      "checked_at": "2026-11-21T01:26:43.767404Z",
+      "checked_at": "2026-11-23T01:29:15.037748Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3441,15 +3384,26 @@
           "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
           "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
           "source_date": null,
-          "retrieved_at": "2026-11-21T01:26:38.294649Z",
+          "retrieved_at": "2026-11-23T01:29:10.121811Z",
           "exact_quote": "more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt meer dan 130 aanvallen op commerciële schepen in de Straat van Hormuz, maar bevestigt geen specifieke aanvallen door Iran op olietankers.",
+          "reason_nl": "De passage vermeldt het aantal aanvallen op commerciële schepen, maar ondersteunt de claim over een intensivering van aanvallen door Iran niet specifiek.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "original_document_title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_date": "Oct. 25, 2026",
+          "retrieved_at": "2026-11-23T01:29:09.271643Z",
+          "exact_quote": "U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage verwijst naar de rol van de VS in de regio, maar biedt geen bewijs voor de claim over de intensivering van aanvallen door Iran.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De tekst meldt meer dan 130 aanvallen op commerciële schepen in de Straat van Hormuz, maar biedt geen bewijs voor specifieke aanvallen door Iran op olietankers.",
+      "summary_nl": "De documenten vermelden aanvallen op commerciële schepen en de betrokkenheid van de VS, maar bieden geen directe bevestiging van een intensivering van aanvallen door Iran.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -4013,14 +3967,78 @@
           "text_excerpt": "Travel or do business in Europe: Brexit guidance"
         }
       ]
+    },
+    "122ca1fb61961484d469d024": {
+      "event_id": "122ca1fb61961484d469d024",
+      "checked_at": "2026-11-23T01:29:15.037725Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-23T01:29:06.188464Z",
+          "exact_quote": "the risk of sudden escalation is high.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar de onvoorspelbaarheid in de regio en de risico's, maar ondersteunt de specifieke claim over een evacuatiewaarschuwing niet.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De documenten verwijzen naar de onvoorspelbaarheid en mogelijke waarschuwingen in de regio, maar bieden geen directe bevestiging van een evacuatiewaarschuwing door de Saudi-coalitie.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/vehicle-tax",
+          "title": "Tax your vehicle - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "a recent vehicle tax reminder or ‘last chance’ warning letter from DVLA"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "In addition to the threat from Houthi attacks, the wider context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associat"
+        }
+      ]
+    },
+    "447206b71a065406afc22d23": {
+      "event_id": "447206b71a065406afc22d23",
+      "checked_at": "2026-11-23T01:29:15.037743Z",
+      "version": "official-original-document-v1",
+      "research_status": "primary_document_not_found",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 0,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": []
     }
   },
   "usage_by_day": {
-    "2026-11-20": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 5107
-    },
     "2026-11-21": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -4030,6 +4048,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 5876
+    },
+    "2026-11-23": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1601
     }
   },
   "last_error": null
