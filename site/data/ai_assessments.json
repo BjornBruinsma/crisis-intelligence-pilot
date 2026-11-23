@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-23T13:33:28.970174Z",
+  "last_attempt_utc": "2026-11-23T19:14:47.579285Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -7911,6 +7911,70 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-23T13:33:27.969977Z"
+    },
+    "83a916f4a98d7b": {
+      "id": "83a916f4a98d7b",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat spanningen in de Golf de wereldwijde energievoorziening en scheepvaart bedreigen.",
+      "claimed_event_nl": "Gulf tensions threaten global energy and shipping.",
+      "reason_nl": "Deze claim is relevant vanwege de mogelijke impact op de wereldwijde economie en energieprijzen.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T19:14:46.579055Z"
+    },
+    "121147f4f37ed3": {
+      "id": "121147f4f37ed3",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Iraanse aanvallen in de Straat van Hormuz op het hoogste niveau zijn sinds het begin van het conflict.",
+      "claimed_event_nl": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began.",
+      "reason_nl": "Deze claim is relevant omdat het wijst op een verhoogd risico op militaire escalatie in een cruciaal gebied voor de oliehandel.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T19:14:46.579080Z"
+    },
+    "d594355e013762": {
+      "id": "d594355e013762",
+      "relevance": "unclear",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "market_move",
+      "summary_nl": "De kop claimt dat olie raffinerijen in het Midden-Oosten hun productie kunnen verhogen binnen 40-60 dagen na het einde van de crisis.",
+      "claimed_event_nl": "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis.",
+      "reason_nl": "Deze claim is van belang voor de olieprijzen, maar de toekomstverwachting is speculatief.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T19:14:46.579085Z"
+    },
+    "5e0896f3a54f86": {
+      "id": "5e0896f3a54f86",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "mixed",
+      "kind": "opinion",
+      "summary_nl": "De kop claimt dat de economische confrontatie tussen de VS en Iran duidelijke kosten met zich meebrengt.",
+      "claimed_event_nl": "The most obvious cost of the US-Iran economic confrontation.",
+      "reason_nl": "Deze claim is relevant omdat het inzicht biedt in de economische gevolgen van geopolitieke spanningen.",
+      "limitations_nl": "De bron is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-23T19:14:46.579089Z"
     }
   },
   "usage_by_day": {
@@ -7923,8 +7987,8 @@
       "total_tokens": 3848
     },
     "2026-11-23": {
-      "requests": 5,
-      "total_tokens": 7007
+      "requests": 6,
+      "total_tokens": 8382
     }
   }
 }
