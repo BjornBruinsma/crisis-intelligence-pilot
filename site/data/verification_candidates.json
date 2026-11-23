@@ -1,6 +1,6 @@
 {
   "description": "Manually reviewable headline claims; no event verification, no risk scoring",
-  "source_generated_from": "2026-11-23T07:48:29.505546Z",
+  "source_generated_from": "2026-11-23T13:32:07.553814Z",
   "source_groups_count": 558,
   "selection_method": "Category-balanced high/medium editorial candidates; NOT trained or calibrated",
   "candidates": [
@@ -118,19 +118,21 @@
       ]
     },
     {
-      "id": "fd30f0d3d81bf6",
-      "headline_claim": "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
+      "id": "dd1a408a51dac8",
+      "headline_claim": "Oil holds in tight range as Gulf attacks sustain risk premium - The Express Tribune",
       "discovered_via": "Financiële markten",
       "other_search_labels": [
-        "Financiële markten"
+        "Financiële markten",
+        "Regionaal: Pakistan"
       ],
       "publication_day": "2026-11-23",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
+      "article_count": 2,
       "publisher_names": [
-        "the times of india"
+        "the express tribune",
+        "yahoo finance"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -141,10 +143,17 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQTU5YQWlmZzBFeFVvNjFqTEJuaGV4NWp2OUxqQzJJLXM3RXUtY0VpeTdpZkpaZ25HOTJlekZhSlJHODNYNG9iSk5hcWZ3VUo1RU9ORFdoRnIxcE5OcnR4YVJ2TjIwTnZ3cENjVDlKV3BtcTdCejY4Wi1vOVJ3ZUFXNDZZUDdpRGxRREFFN2hzZHBLenVfMGM2Zy0walExM3Fqa2xoOGUwQ3pKNXVtZkFLbWV2T01JME9INl9SYlVqN0l2a3V2V3pybDhnOU1TTVpYVzViSTI2WThqQjRkX3BySXdsVjBnWjF1OUxvVFB1a1hJX1pEN1I0YlpXc3Z3NU9SNW9vQ1k1aEt0TmxV0gGSAkFVX3lxTE1fQWR6NlFpendyQjA2a0NJVUdxanlVeV91b2VPOUtYLWxPN3ZMNXhFVUJTRXZGS3ZyLXRrajd6YkdnSXlXNG5tN0huOEpVazRzcW5MeGFheWQxLTJMYVlqOEpjV3MzaHNtN0Z3RnEwS1VNY1hzQm93V1cxbW13N0M0QU1hNEZTWnRCbTQ4SDN0OGlPa0swQzNoU0xxRl9mSDgxZXh4R2RHajQza0lDdDJrdUM2UnZNcVlWVWRuaExQckxvaWUzYUNPX096M2g3elNxUEM1cVJIMnZjYjlwd1BYd3pHd2kwOXBFaTdKby01T0V0VHhERjY3ZVFKajJkVmtZTlN3V0xMZHBXU2FmVDhacEE?oc=5",
-          "publisher": "The Times of India",
-          "published_at": "2026-11-23T03:28:00Z",
+          "title": "Oil holds in tight range as Gulf attacks sustain risk premium - The Express Tribune",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMUJkdk02MlpxSVRTb3ZwX3hmaFd6c1RBdFBhb0ItMmowcHpDdzFnaDFoaWZiMWNUNXVlRDZKdWZVMlJrSUdEYmNmV1N4OWlBOC1Ib0dXZ3c3TlZxUy1BX1RRZURkOTl3Sk1zV1ViN0JnMG5YVURMZDZKcTljM0RpNWNlcFVtM0ZwUUFFLS1reDZLa3p0M1FCQ2p6TFBDTEHSAacBQVVfeXFMUEJmMVFTdm9sSkN2YW5saFEyWmxWYk9kaUU3Zlc5MFMxZmtIRWRid19HeGtwYUFoZ1NkeVhYUUQycVJvWmhEYk83VXFjamxldkYwRkUyOWdfcmZnNFpVUE13VmYxcjRZTXpQaTR5UktuVVZuNk9xR1RiUnQ2NEZaLUpYYWFJTEdhRUtjZm5oT2dQempSOGltOTlrOVVsdjFLQTBkRW5yVU0?oc=5",
+          "publisher": "The Express Tribune",
+          "published_at": "2026-11-23T08:37:41Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Oil holds in tight range as Gulf attacks sustain risk premium - Yahoo Finance",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQkZ6X3VSZlAyQ2ppSkp0STBBVk1NMzkwXy1Ec1Z6ZEM3M284VjUtMExKU0xiM1ZxNjVMSHlseS1uRHY1NDhYd0xyaHlDYlFacmFaR2pQQkZtM2JLeTM3UFo4UjVjazZNRF9OQXY0aFBRWWFWNTduMlZTS1BBUDJvdHNLOEtNTWFaUkF2eA?oc=5",
+          "publisher": "Yahoo Finance",
+          "published_at": "2026-11-23T07:47:00Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -182,43 +191,11 @@
       ]
     },
     {
-      "id": "c72ce900964c10",
-      "headline_claim": "Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos",
+      "id": "d526ebd7e8aeb3",
+      "headline_claim": "Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert - Gulf News",
       "discovered_via": "Wereldhandel & logistiek",
       "other_search_labels": [
         "Wereldhandel & logistiek"
-      ],
-      "publication_day": "2026-11-21",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
-      "publisher_names": [
-        "abc news - breaking news, latest news and videos"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWHRGNHdBbkpIa3IyWTlmV2l5aDVwZ0pLUE1WRzhIVjRqM3p4c3ZsSWNtaVo4YnU4WHBwbUREbzJoX1VzeENVb0xFclVKaW9HY2lVb2lxRnFzWUhNb3RvTDlPYjRfUTVWOUU1dHJ4b2lfZGNPV3h0SGZfdEJLX3NacWxLam1QV1pnb08xRVFDei1OaFZIQXduTmJjbkNqYXFuaGk4a3p4OE5YR0HSAbABQVVfeXFMT3JyZk0yRTFISFBvWF9WMnZrUnp2NHBtMG9pRHo2OUlfaHd0QkZOWmEwWjJLMHJMdlMxal9WQ0lfU1pyd0RLejdCaEtWS2tGUGoyN0ZDVFJOWUZoR3RBQjBsUS1RV2xWcGlVSWNsd3c5aTR5a0dMWkUtMWtVeV95ajVhMkJBc0FrdVo3OWlmVUlPY2tLRU5VWmwtQzRKTXktQnBYVHpSN2k1U2xwUDJVdHU?oc=5",
-          "publisher": "ABC News - Breaking News, Latest News and Videos",
-          "published_at": "2026-11-21T11:18:44Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
-      "id": "60645877f7c412",
-      "headline_claim": "Middle East latest: New attacks have failed, claims Trump, as Iran imposes power cuts - The National",
-      "discovered_via": "Bedrijfsleven & investeringen",
-      "other_search_labels": [
-        "Bedrijfsleven & investeringen"
       ],
       "publication_day": "2026-11-23",
       "publication_day_is_event_date": false,
@@ -226,7 +203,7 @@
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
       "article_count": 1,
       "publisher_names": [
-        "the national"
+        "gulf news"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -237,10 +214,42 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Middle East latest: New attacks have failed, claims Trump, as Iran imposes power cuts - The National",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZDlXbXpiU2cwRGZTckR6TUc1RXMyUlBoS1hGd0NBdmEzYTZOQ3hLdElPbkVlU1lfX2g3RGJ4UnZVOFRCY3drMURtdGRBU1FCcDdRVm1RVkNZRS1GRlVUOHhqYmxPRXlvM1FIUzk2ejU4N0xrRW5VOWVZVUVmVFUwTEp3?oc=5",
-          "publisher": "The National",
-          "published_at": "2026-11-23T07:45:27Z",
+          "title": "Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert - Gulf News",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWC12eVNzX3JDYnB5TGd1NWZkX3NmMUdEM3FZcHN3SEhZdVVPVkVJU19OTWdkSTJxOU1JSW05MnFhTmVrcVM5MlMtTWF4U25rOFk2cG5WT1JOUldWWEdINUtLdTFnWHg5cFNsWVBpc2FrbHhma0hIMzBoYWZENUs0UmZEdzQtMEJ5RnZwbHNFTzdnQ3VIbXBKdVFLc3hqbXJvQVlfckd2dVRfVVhKR1dVczAzN1ZfaEoyQ3djQnFTSTFZY3BhZk5Jc3VxQjlrc3libkhlVDh2MEJBY3EyX0hB0gHyAUFVX3lxTFBCdlZ4VHFmM0RWUU9BLU5SYVVaZG9WVi1zMU9VU2pZYmtDTGRXMjZjdjJCaGhSY1JHdnZkQi1pdnZ2STR6cHpjX0V1ekZKZVFkZ1ZCSU1DQkpEQjc5WWk2dlB4YmhvRm1Gc3dXWU5ZSDFXaldzT3R6SWY5MGZHQXVYWndJQ01SSGZkbFc2VDB4UVVCMHVwU3h5Y012STJHOEVxZFJWLXdKOEFIVHQ2Q1dpU2EtdFo5b0RPVXV1Q21pVHhtaUx2RU5NOWFhUzNQUkl4MWI5cEZsTUZ6WmowektjYnZQRV83NEk0aGNXVzJveXh3?oc=5",
+          "publisher": "Gulf News",
+          "published_at": "2026-11-23T07:22:49Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
+      "id": "dd1392117ea1ab",
+      "headline_claim": "Houthis threaten Saudi ports if Hodeidah is attacked - The Siasat Daily",
+      "discovered_via": "Bedrijfsleven & investeringen",
+      "other_search_labels": [
+        "Bedrijfsleven & investeringen"
+      ],
+      "publication_day": "2026-11-20",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "article_count": 1,
+      "publisher_names": [
+        "the siasat daily"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "Houthis threaten Saudi ports if Hodeidah is attacked - The Siasat Daily",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRFNxMGFTejQxLUNNQ3VsTEdsZ0kyZ0JfSWw0dGN0RHU0b0Eta3lveWgwNENUNzlQOG1lV0l2TEFhNlNWU0JTajZfX0h4cEZvZUdHd25aYnZKTGE0YU0yVVR4Q2NzdGRTWHNzdF9mWWxIcy1jOG5kM1R6UFd2TWptN0s5NEtuNFVzRHJGVdIBkgFBVV95cUxNRExrOVl2TlpFRS1Sdlljcjh3b1VoWG5TcDkyRXpsZ2ZheWhESVFFSmlPWUZ6UTF3QjFPb2RSV081S1EydjIyMGdyVm5pWlN1MHZfV3NMeGhVV2pueTdVbnloVEZuNUwxSDIwQWM4SENfMVpreDU3TUZuQnhWS0s3NzZ1RkdyTXZOLWxlSkZqZy16dw?oc=5",
+          "publisher": "The Siasat Daily",
+          "published_at": "2026-11-20T12:13:29Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -318,6 +327,281 @@
       ]
     },
     {
+      "id": "60645877f7c412",
+      "headline_claim": "Middle East latest: New attacks have failed, claims Trump, as Iran imposes power cuts - The National",
+      "discovered_via": "Militair & veiligheid",
+      "other_search_labels": [
+        "Bedrijfsleven & investeringen",
+        "Militair & veiligheid",
+        "Overheden & crisismaatregelen",
+        "Regionaal: Pakistan"
+      ],
+      "publication_day": "2026-11-23",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "article_count": 1,
+      "publisher_names": [
+        "the national"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "Middle East latest: New attacks have failed, claims Trump, as Iran imposes power cuts - The National",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZDlXbXpiU2cwRGZTckR6TUc1RXMyUlBoS1hGd0NBdmEzYTZOQ3hLdElPbkVlU1lfX2g3RGJ4UnZVOFRCY3drMURtdGRBU1FCcDdRVm1RVkNZRS1GRlVUOHhqYmxPRXlvM1FIUzk2ejU4N0xrRW5VOWVZVUVmVFUwTEp3?oc=5",
+          "publisher": "The National",
+          "published_at": "2026-11-23T07:45:27Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
+      "id": "da13c94063dcca",
+      "headline_claim": "Trump ‘Not Happy’ With Iran, Touts Strait ‘100% Shut’ - EnergyNow",
+      "discovered_via": "Politiek & diplomatie",
+      "other_search_labels": [
+        "Politiek & diplomatie"
+      ],
+      "publication_day": "2026-11-22",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "article_count": 1,
+      "publisher_names": [
+        "energynow"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "Trump ‘Not Happy’ With Iran, Touts Strait ‘100% Shut’ - EnergyNow",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZ3NQRElOUkY2czd3VkdBdWVyTVVwQVRRREZ3OG4yd2l2RS1HQ0RsT3ZPdTdWVzY3Z1VTSXZCdlptT0lOSDFpUzRxQW9tb2EtY2VHNGFHN19RMWhhU1NIcGZmWUdvNnNFWWR1bDl2UGRZZEl5aUN2YnFvOVVKTnV3cWxfMA?oc=5",
+          "publisher": "EnergyNow",
+          "published_at": "2026-11-22T16:01:00Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
+      "id": "0f4405b361cf4f",
+      "headline_claim": "Saudi coalition issues Hodeida evacuation warning, sparking Houthi threats - Edition.mv",
+      "discovered_via": "Overheden & crisismaatregelen",
+      "other_search_labels": [
+        "Overheden & crisismaatregelen"
+      ],
+      "publication_day": "2026-11-20",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "article_count": 2,
+      "publisher_names": [
+        "edition.mv",
+        "the new indian express"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "Saudi coalition issues Hodeida evacuation warning, sparking Houthi threats - Edition.mv",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HMGRZVGZYMHMtUnEzXzF4dWYzcElHQzE4ZWRqcmZ1OXpNazhISkJCQ0x1Z1NrYnFWSVAzMThEd2RaNUlzR19TR0pzZGxodHVQSVhjSWRtdmhhZw?oc=5",
+          "publisher": "Edition.mv",
+          "published_at": "2026-11-20T14:27:56Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "Saudi coalition issues Hodeida evacuation warning, sparking Houthi threats - The New Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQWZwMFpSZGxNT3BmSkZmRkpXWUNfWVU0WU1LcTJuQmpHTzdCNnFfNWhlNmp0SThpS1ctdGNqWkE2OVlzOUxhVWVEOFI2UVpUSHhFcU5GeVRxVHRNSnZsa3ZldEtDcWhXLXRLWGhtMFhFMXFZYnZQYkowZDNpUkRxTTViMU15WW13dFltQ3djRlVuNEczWmNQZ0tnMVI3Sk5qMWdOWVJ3OFZmUFRTei1pVzdLYW8zS1ZkT2NLRjUycGZRd9IBzwFBVV95cUxQWmFwckJpSDQxVGtUUlJNMUdDOHlmY0RwNE5JZmRUbG01QVhxLVdWR2xvLXU4Tm9GbzFpMmtUWmRmOXhyakkxdzM3dXE0UHRXVS00eElESnF1d1lnMk1PSVAtSm1waUtMeEk1YjBLaWJqMDdSdlkzbHhJUVYwV3o4MUUyeDkyd2h3MFJHUVhvNFBocGVxSlotMnJwOXZudS04ZE1NMGstdV9XR21tOWVCanhObWpKTXQxLTNQWldHSnAwNFFKU1prLUhNdUZYaGM?oc=5",
+          "publisher": "The New Indian Express",
+          "published_at": "2026-11-20T12:57:07Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
+      "id": "fd30f0d3d81bf6",
+      "headline_claim": "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
+      "discovered_via": "Financiële markten",
+      "other_search_labels": [
+        "Financiële markten"
+      ],
+      "publication_day": "2026-11-23",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "article_count": 1,
+      "publisher_names": [
+        "the times of india"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQTU5YQWlmZzBFeFVvNjFqTEJuaGV4NWp2OUxqQzJJLXM3RXUtY0VpeTdpZkpaZ25HOTJlekZhSlJHODNYNG9iSk5hcWZ3VUo1RU9ORFdoRnIxcE5OcnR4YVJ2TjIwTnZ3cENjVDlKV3BtcTdCejY4Wi1vOVJ3ZUFXNDZZUDdpRGxRREFFN2hzZHBLenVfMGM2Zy0walExM3Fqa2xoOGUwQ3pKNXVtZkFLbWV2T01JME9INl9SYlVqN0l2a3V2V3pybDhnOU1TTVpYVzViSTI2WThqQjRkX3BySXdsVjBnWjF1OUxvVFB1a1hJX1pEN1I0YlpXc3Z3NU9SNW9vQ1k1aEt0TmxV0gGSAkFVX3lxTE1fQWR6NlFpendyQjA2a0NJVUdxanlVeV91b2VPOUtYLWxPN3ZMNXhFVUJTRXZGS3ZyLXRrajd6YkdnSXlXNG5tN0huOEpVazRzcW5MeGFheWQxLTJMYVlqOEpjV3MzaHNtN0Z3RnEwS1VNY1hzQm93V1cxbW13N0M0QU1hNEZTWnRCbTQ4SDN0OGlPa0swQzNoU0xxRl9mSDgxZXh4R2RHajQza0lDdDJrdUM2UnZNcVlWVWRuaExQckxvaWUzYUNPX096M2g3elNxUEM1cVJIMnZjYjlwd1BYd3pHd2kwOXBFaTdKby01T0V0VHhERjY3ZVFKajJkVmtZTlN3V0xMZHBXU2FmVDhacEE?oc=5",
+          "publisher": "The Times of India",
+          "published_at": "2026-11-23T03:28:00Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
+      "id": "1f0fe72aa4c98f",
+      "headline_claim": "Oil's Iran war recovery masks a diesel shortage - Oman Observer",
+      "discovered_via": "Energie & grondstoffen",
+      "other_search_labels": [
+        "Energie & grondstoffen"
+      ],
+      "publication_day": "2026-11-23",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "middel",
+      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "article_count": 1,
+      "publisher_names": [
+        "oman observer"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "Oil's Iran war recovery masks a diesel shortage - Oman Observer",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQandTTUJIVFd6NU5PclZJQlFfOWVSNEo5QjVUMlZqOE5hX1oxTDd1REV5OTdiWjJkdDNxYjRFQnFsRi1yMTdMTktjWU5NSEZ2NXNpZnMzWVZVQnFyUERXaU5xU05Bc3BZMVNiWVhRUXZBZFRyRWtpQndQbFFoZDBsWVg2LVlwbkF2bjFmeVRha3IzWWJoeDJJTU5zemllQThDMUQzRzEtYVhGX03SAVpBVV95cUxPLURKbm5VUHJBVkdpdTRMVWthN3RtMmhINmE2a0xJZ1AxeUF0NDFuWmpiRmh5cFpLcFFjV1lpQmJaNF93cTlaYWljeVR2NmJKdnBxWUZESHBnS3c?oc=5",
+          "publisher": "Oman Observer",
+          "published_at": "2026-11-23T07:19:52Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
+      "id": "c72ce900964c10",
+      "headline_claim": "Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos",
+      "discovered_via": "Wereldhandel & logistiek",
+      "other_search_labels": [
+        "Wereldhandel & logistiek"
+      ],
+      "publication_day": "2026-11-21",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "article_count": 1,
+      "publisher_names": [
+        "abc news - breaking news, latest news and videos"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWHRGNHdBbkpIa3IyWTlmV2l5aDVwZ0pLUE1WRzhIVjRqM3p4c3ZsSWNtaVo4YnU4WHBwbUREbzJoX1VzeENVb0xFclVKaW9HY2lVb2lxRnFzWUhNb3RvTDlPYjRfUTVWOUU1dHJ4b2lfZGNPV3h0SGZfdEJLX3NacWxLam1QV1pnb08xRVFDei1OaFZIQXduTmJjbkNqYXFuaGk4a3p4OE5YR0HSAbABQVVfeXFMT3JyZk0yRTFISFBvWF9WMnZrUnp2NHBtMG9pRHo2OUlfaHd0QkZOWmEwWjJLMHJMdlMxal9WQ0lfU1pyd0RLejdCaEtWS2tGUGoyN0ZDVFJOWUZoR3RBQjBsUS1RV2xWcGlVSWNsd3c5aTR5a0dMWkUtMWtVeV95ajVhMkJBc0FrdVo3OWlmVUlPY2tLRU5VWmwtQzRKTXktQnBYVHpSN2k1U2xwUDJVdHU?oc=5",
+          "publisher": "ABC News - Breaking News, Latest News and Videos",
+          "published_at": "2026-11-21T11:18:44Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
+      "id": "597f73ea55af8b",
+      "headline_claim": "Latvia to organize Middle East repatriation flight using airBaltic / Article - LSM",
+      "discovered_via": "Bedrijfsleven & investeringen",
+      "other_search_labels": [
+        "Bedrijfsleven & investeringen"
+      ],
+      "publication_day": "2026-11-19",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "middel",
+      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
+      "article_count": 1,
+      "publisher_names": [
+        "lsm"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "Latvia to organize Middle East repatriation flight using airBaltic / Article - LSM",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSlc0T19lckkyOVZ4X3FtN1pMdWFmd1Z2V0Z4UURVTV9tOFVtdVYtUGhBZ3EzelgtZmg5TVFDVnVwUkZGamd4QVhOMnNudV9hemhYSDRnOXRZbnRnTjZRMWZubGJ2dlF2Tk1vOFMwYzlTdThtbEx1bHNkT2h4bXV1cVg5OFlMUEF5QzRXcWxJVmtLREtvWXpFSml6Q3BmVHpkSkU2Z0RpdnlVM2hNRWREQjhsSGJrNDAwOGRnYlhNOF9ZcW9IQVJoZTVXNA?oc=5",
+          "publisher": "LSM",
+          "published_at": "2026-11-19T08:25:11Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
+      "id": "3a865ee9c32af7",
+      "headline_claim": "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
+      "discovered_via": "Regionale perspectieven",
+      "other_search_labels": [
+        "Regionaal: Golfstaten / Arabisch"
+      ],
+      "publication_day": "2026-11-21",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "article_count": 2,
+      "publisher_names": [
+        "mosaique fm",
+        "الشرق الأوسط"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
+          "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
+          "publisher": "الشرق الأوسط",
+          "published_at": "2026-11-21T20:13:51Z",
+          "source_provider": "google_news_rss"
+        },
+        {
+          "title": "هجوم على ناقلتي نفط في مضيق هرمز - Mosaique FM",
+          "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5",
+          "publisher": "Mosaique FM",
+          "published_at": "2026-11-21T14:26:00Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
       "id": "a36beccc25787b",
       "headline_claim": "Tehran announced strikes on two American bases in Bahrain - open.kg",
       "discovered_via": "Militair & veiligheid",
@@ -382,20 +666,20 @@
       ]
     },
     {
-      "id": "0f4405b361cf4f",
-      "headline_claim": "Saudi coalition issues Hodeida evacuation warning, sparking Houthi threats - Edition.mv",
+      "id": "08d1274ced6c48",
+      "headline_claim": "Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
       "discovered_via": "Overheden & crisismaatregelen",
       "other_search_labels": [
+        "Bedrijfsleven & investeringen",
         "Overheden & crisismaatregelen"
       ],
       "publication_day": "2026-11-20",
       "publication_day_is_event_date": false,
       "editorial_priority": "hoog",
       "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 2,
+      "article_count": 1,
       "publisher_names": [
-        "edition.mv",
-        "the new indian express"
+        "al jazeera"
       ],
       "independent_corrob_count": null,
       "verification_status": "unreviewed",
@@ -406,17 +690,10 @@
       "possible_same_event_ids": [],
       "sources": [
         {
-          "title": "Saudi coalition issues Hodeida evacuation warning, sparking Houthi threats - Edition.mv",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HMGRZVGZYMHMtUnEzXzF4dWYzcElHQzE4ZWRqcmZ1OXpNazhISkJCQ0x1Z1NrYnFWSVAzMThEd2RaNUlzR19TR0pzZGxodHVQSVhjSWRtdmhhZw?oc=5",
-          "publisher": "Edition.mv",
-          "published_at": "2026-11-20T14:27:56Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "Saudi coalition issues Hodeida evacuation warning, sparking Houthi threats - The New Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQWZwMFpSZGxNT3BmSkZmRkpXWUNfWVU0WU1LcTJuQmpHTzdCNnFfNWhlNmp0SThpS1ctdGNqWkE2OVlzOUxhVWVEOFI2UVpUSHhFcU5GeVRxVHRNSnZsa3ZldEtDcWhXLXRLWGhtMFhFMXFZYnZQYkowZDNpUkRxTTViMU15WW13dFltQ3djRlVuNEczWmNQZ0tnMVI3Sk5qMWdOWVJ3OFZmUFRTei1pVzdLYW8zS1ZkT2NLRjUycGZRd9IBzwFBVV95cUxQWmFwckJpSDQxVGtUUlJNMUdDOHlmY0RwNE5JZmRUbG01QVhxLVdWR2xvLXU4Tm9GbzFpMmtUWmRmOXhyakkxdzM3dXE0UHRXVS00eElESnF1d1lnMk1PSVAtSm1waUtMeEk1YjBLaWJqMDdSdlkzbHhJUVYwV3o4MUUyeDkyd2h3MFJHUVhvNFBocGVxSlotMnJwOXZudS04ZE1NMGstdV9XR21tOWVCanhObWpKTXQxLTNQWldHSnAwNFFKU1prLUhNdUZYaGM?oc=5",
-          "publisher": "The New Indian Express",
-          "published_at": "2026-11-20T12:57:07Z",
+          "title": "Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0lyUzFUbGtKdUpJRmQ5eE1DT3c1QmE1RFdHOTdDNjRHNkVQSEIwSTN6eXVtUllIMFJWM3pWd0g0RTRRRUhhazlIVlY1Y29nelc5Sk93X3hyVng0b1BmV3ZOMWN3bnhNU0NNaGJoaV8wWnNRc01lakY2Zy1ZSWRILXdid2U1cW1Kby05ZkxDTW9XWWNJTG0zMVFEdjk1ZGdURktjODJkWdIBrAFBVV95cUxQUzJzcWRXOGZtQU81NmZYaFNzaklQYzhtdHNUZWVWMUFjVHlPa1dmb0RCN1AxSVZEV0plazBYS09oYmhGNXY4WFZvcVZKU05JT1JMekpfR2pFNWpnUVJ5bHpsbl8xZFRreGdtUkhkWkE2cWZnVEYtbmc0X2VpeldEc21LaXdwU0cteVYtaUlSeFk4bmNYekpXYVc5UUdxd01SMVhGXy1BMXhJcXNx?oc=5",
+          "publisher": "Al Jazeera",
+          "published_at": "2026-11-20T14:59:12Z",
           "source_provider": "google_news_rss"
         }
       ]
@@ -518,304 +795,6 @@
       ]
     },
     {
-      "id": "dd1392117ea1ab",
-      "headline_claim": "Houthis threaten Saudi ports if Hodeidah is attacked - The Siasat Daily",
-      "discovered_via": "Bedrijfsleven & investeringen",
-      "other_search_labels": [
-        "Bedrijfsleven & investeringen"
-      ],
-      "publication_day": "2026-11-20",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
-      "publisher_names": [
-        "the siasat daily"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "Houthis threaten Saudi ports if Hodeidah is attacked - The Siasat Daily",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRFNxMGFTejQxLUNNQ3VsTEdsZ0kyZ0JfSWw0dGN0RHU0b0Eta3lveWgwNENUNzlQOG1lV0l2TEFhNlNWU0JTajZfX0h4cEZvZUdHd25aYnZKTGE0YU0yVVR4Q2NzdGRTWHNzdF9mWWxIcy1jOG5kM1R6UFd2TWptN0s5NEtuNFVzRHJGVdIBkgFBVV95cUxNRExrOVl2TlpFRS1Sdlljcjh3b1VoWG5TcDkyRXpsZ2ZheWhESVFFSmlPWUZ6UTF3QjFPb2RSV081S1EydjIyMGdyVm5pWlN1MHZfV3NMeGhVV2pueTdVbnloVEZuNUwxSDIwQWM4SENfMVpreDU3TUZuQnhWS0s3NzZ1RkdyTXZOLWxlSkZqZy16dw?oc=5",
-          "publisher": "The Siasat Daily",
-          "published_at": "2026-11-20T12:13:29Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
-      "id": "3a865ee9c32af7",
-      "headline_claim": "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
-      "discovered_via": "Regionale perspectieven",
-      "other_search_labels": [
-        "Regionaal: Golfstaten / Arabisch"
-      ],
-      "publication_day": "2026-11-21",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 2,
-      "publisher_names": [
-        "mosaique fm",
-        "الشرق الأوسط"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
-          "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
-          "publisher": "الشرق الأوسط",
-          "published_at": "2026-11-21T20:13:51Z",
-          "source_provider": "google_news_rss"
-        },
-        {
-          "title": "هجوم على ناقلتي نفط في مضيق هرمز - Mosaique FM",
-          "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5",
-          "publisher": "Mosaique FM",
-          "published_at": "2026-11-21T14:26:00Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
-      "id": "41c874aa739184",
-      "headline_claim": "Iran Deploys Ground Troops Near Hormuz Amid US Carrier Build-Up And Rising Maritime Attacks - The Times of India",
-      "discovered_via": "Militair & veiligheid",
-      "other_search_labels": [
-        "Militair & veiligheid"
-      ],
-      "publication_day": "2026-11-23",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
-      "publisher_names": [
-        "the times of india"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "Iran Deploys Ground Troops Near Hormuz Amid US Carrier Build-Up And Rising Maritime Attacks - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPaThTNkhZdHlCU0RJUm5nZ1pUTnNUQnRLQzY0S0VNQ0xNc0NPaGV2emxJWW9UUDZmeUhoWEwzTmcwTHVTUGsxTG4yQmZoZ1dTU3M2TmZiQkN4cklINXdVMU1YYU9EWjVNV2NrRnN3bVU5TC12akYySXVjZGpETEdvLVRPdE9uWUxxXzctRUpmUVRHc0tvRDNLTVFWbHNZM2V2Z3JXdU5wUl9vRzA2WExfUTRvcE51djFrNVQ1ZWR5eGVNT2toUjg0OHZrR29VMVVlYWdZbjFBR1VOUk5ZLTlPUW9nU2RaSXI5M2czSDVzVmtxQmVzNXBKUlVBU1kwTUxEeVHSAYcCQVVfeXFMTlpITkxObjlTSkZkcDdkblpsR0hLOV9qWmloa1RRRC1hME5NcjdaQV9tQm0tdW9WZ2pDUTUzUzNqeE4zbGpRU3Fpakh1b0NIajlWeF9YczhNR2VEU2FGZ3BRaEtBc3JkZ19GdzVYQkZqQzJ6Sm4yRmtscmgtTVNOVHRPN0FQYVJydFNFWlpFajczd2g5Y2JIZUk0QUZtYkVvUXpaVXR1dmZVOXZqN0lFbEF5bVRPWVhLeWRUYWtvNWVZdHdhd0VzZVQzdU81c3lUS2VEam44NHlMWHFya2dGcGJCeWpkRUs2eFljc2pVTENJRTc3X1B2ald6T0lLUHl6V3pmM1RYWjg?oc=5",
-          "publisher": "The Times of India",
-          "published_at": "2026-11-23T01:45:18Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
-      "id": "478f708153773a",
-      "headline_claim": "Israel's Relentless Lebanon Strikes Are Threatening to Unravel Washington's Peace Deal - Latin Times",
-      "discovered_via": "Politiek & diplomatie",
-      "other_search_labels": [
-        "Politiek & diplomatie"
-      ],
-      "publication_day": "2026-11-21",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
-      "publisher_names": [
-        "latin times"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "Israel's Relentless Lebanon Strikes Are Threatening to Unravel Washington's Peace Deal - Latin Times",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVUE4UnlFM21MWkRnNzU3TWcwSG9PbzBTc1pJLWw5TGhNMXpJNmhrYU9iYV9UMGU2M2ZhekRZLXJtUU56Qlpad3lNOE1LTDNxSHBsdFdldmlFOW1RVkYzSWRTczNicVJua2hRbkh6Q2NFX3RKeTZ6NU5YTVBzV0k2QlRQSFcxdXFjT2FOY1pocw?oc=5",
-          "publisher": "Latin Times",
-          "published_at": "2026-11-21T18:28:31Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
-      "id": "08d1274ced6c48",
-      "headline_claim": "Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
-      "discovered_via": "Overheden & crisismaatregelen",
-      "other_search_labels": [
-        "Bedrijfsleven & investeringen",
-        "Overheden & crisismaatregelen"
-      ],
-      "publication_day": "2026-11-20",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
-      "publisher_names": [
-        "al jazeera"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0lyUzFUbGtKdUpJRmQ5eE1DT3c1QmE1RFdHOTdDNjRHNkVQSEIwSTN6eXVtUllIMFJWM3pWd0g0RTRRRUhhazlIVlY1Y29nelc5Sk93X3hyVng0b1BmV3ZOMWN3bnhNU0NNaGJoaV8wWnNRc01lakY2Zy1ZSWRILXdid2U1cW1Kby05ZkxDTW9XWWNJTG0zMVFEdjk1ZGdURktjODJkWdIBrAFBVV95cUxQUzJzcWRXOGZtQU81NmZYaFNzaklQYzhtdHNUZWVWMUFjVHlPa1dmb0RCN1AxSVZEV0plazBYS09oYmhGNXY4WFZvcVZKU05JT1JMekpfR2pFNWpnUVJ5bHpsbl8xZFRreGdtUkhkWkE2cWZnVEYtbmc0X2VpeldEc21LaXdwU0cteVYtaUlSeFk4bmNYekpXYVc5UUdxd01SMVhGXy1BMXhJcXNx?oc=5",
-          "publisher": "Al Jazeera",
-          "published_at": "2026-11-20T14:59:12Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
-      "id": "1e760350a8a234",
-      "headline_claim": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
-      "discovered_via": "Financiële markten",
-      "other_search_labels": [
-        "Financiële markten",
-        "Wereldhandel & logistiek"
-      ],
-      "publication_day": "2026-11-19",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
-      "publisher_names": [
-        "yahoo finance"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUU05SE9NUnE2RUpRRlNtTVRjTDc0Ykh0Rlk1TTVXZDZTTkRQTURicXJBVnZJNXhpZWVSXzczWUhOUXNnanlwTERRNTVHTjE4NW9DTml0dGt2NTRzOEpWczVYdENfaUVpbXdKUTZKbHgtdFBDSDNWNVBHYnczejM0djRvV3I?oc=5",
-          "publisher": "Yahoo Finance",
-          "published_at": "2026-11-19T13:02:50Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
-      "id": "8afa925c9659aa",
-      "headline_claim": "Brent Crude Nearly Doubles, India Spends an Extra $6 Billion on Oil and Gas Imports in October - BigGo Finance",
-      "discovered_via": "Energie & grondstoffen",
-      "other_search_labels": [
-        "Energie & grondstoffen"
-      ],
-      "publication_day": "2026-11-23",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "middel",
-      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "article_count": 1,
-      "publisher_names": [
-        "biggo finance"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "Brent Crude Nearly Doubles, India Spends an Extra $6 Billion on Oil and Gas Imports in October - BigGo Finance",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBnTlItZnJSc0ZyZWFIUUE4NzljcTN6ejNBdGlicENSWXhfNGNTcGNDU3M1T1R5a0ptajliQ3ZoVWkxVVFaS0lPQzQ4SHZENlFCWXROMUZpSXBud0o1OE9tV3RTLUVDSS1weFhPVUlyTng0Z3Z6WkE?oc=5",
-          "publisher": "BigGo Finance",
-          "published_at": "2026-11-23T06:56:00Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
-      "id": "598f6ef771aca3",
-      "headline_claim": "UAE flights status update: Saudi cancellations extend as regional tensions rise on November 20 - Gulf News",
-      "discovered_via": "Wereldhandel & logistiek",
-      "other_search_labels": [
-        "Wereldhandel & logistiek"
-      ],
-      "publication_day": "2026-11-21",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "hoog",
-      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
-      "article_count": 1,
-      "publisher_names": [
-        "gulf news"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "UAE flights status update: Saudi cancellations extend as regional tensions rise on November 20 - Gulf News",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQYUl0RDBLX2FKVVZFeFhaUTFoRnhoYkRSdGQ0SHpmQzRidzVVOF9xcVNMMkVPNG16STM5SzNlRkQ5QmNSeDFoYWtrRVVhTnJpNUlQandwU1VwS0xmUmJlOUY0SDBFT1FtcFNqQVJ4YW1vbzhYLVVNbDZES2VOcldBWl8zaGpwQ0cyQXJ6dzFGNnJzN2MzaERnXzN3WXRuY2lmeWNuNkgyQ1kxMjZlX1U2YnJCWHFxdUJMY01ra3RxMzNzV2VjeWlTcnkxTzFuaHBwRm9zM1NJSW5GR05V0gHvAUFVX3lxTE1ubEZ4WUU0V0xLaE1BZG1IdF94TDNhZS1tX01uUkhCQ2ZoLUFia1R4T0xFMHU0b2g1QkVUc0hQdHVrMzF0eV9uZEFWaWlFYkRHcl9GOUxiU3BoNFl2MFE0Z0pWZnZLRUhTNjh5QkItU0dkVVo2Q19Hdmg5ZW9MTGdnSXJ6RVBPYVY1a3RjWjVZMXJHcTlsaEw2SG5DeUZNWnkyQVZpSFU4ZUQ0eUxOdVBqMW5kUnNKXzBjd2kxRjlmRDliaVVNUThjcEk2a0cyeWVaVExfdHF4a0kxeExPYVBKVmg1dnJDUmFjRE9yR1lV?oc=5",
-          "publisher": "Gulf News",
-          "published_at": "2026-11-21T08:37:17Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
-      "id": "597f73ea55af8b",
-      "headline_claim": "Latvia to organize Middle East repatriation flight using airBaltic / Article - LSM",
-      "discovered_via": "Bedrijfsleven & investeringen",
-      "other_search_labels": [
-        "Bedrijfsleven & investeringen"
-      ],
-      "publication_day": "2026-11-19",
-      "publication_day_is_event_date": false,
-      "editorial_priority": "middel",
-      "editorial_reason": "Relevante regio/markt; aard van ontwikkeling controleren",
-      "article_count": 1,
-      "publisher_names": [
-        "lsm"
-      ],
-      "independent_corrob_count": null,
-      "verification_status": "unreviewed",
-      "primary_evidence_confirmed": false,
-      "named_event_actor": null,
-      "claimed_event_action": null,
-      "event_date": null,
-      "possible_same_event_ids": [],
-      "sources": [
-        {
-          "title": "Latvia to organize Middle East repatriation flight using airBaltic / Article - LSM",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSlc0T19lckkyOVZ4X3FtN1pMdWFmd1Z2V0Z4UURVTV9tOFVtdVYtUGhBZ3EzelgtZmg5TVFDVnVwUkZGamd4QVhOMnNudV9hemhYSDRnOXRZbnRnTjZRMWZubGJ2dlF2Tk1vOFMwYzlTdThtbEx1bHNkT2h4bXV1cVg5OFlMUEF5QzRXcWxJVmtLREtvWXpFSml6Q3BmVHpkSkU2Z0RpdnlVM2hNRWREQjhsSGJrNDAwOGRnYlhNOF9ZcW9IQVJoZTVXNA?oc=5",
-          "publisher": "LSM",
-          "published_at": "2026-11-19T08:25:11Z",
-          "source_provider": "google_news_rss"
-        }
-      ]
-    },
-    {
       "id": "4b97305c7138c5",
       "headline_claim": "Pakistani among two injured in Iranian attacks, Bahrain says - Daily Times",
       "discovered_via": "Regionale perspectieven",
@@ -843,6 +822,38 @@
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPc1FoZW1UbkQtM2NyQ0VUcVVqSU9nVFJiLVVlclZmVjVOMlFEa0hpcVJjNkFsbUVSXzZmMTRRZTJlNExZRkpqMkhfVDVQbHI1czNYcnpmeERHbEU3MTk2NkNhanl5MXE2ZEx3NDNBNWh3Wjk5aUZWQkh6REN4aDlobjg3X2RPc0lFSlZmRU9ndUpORWwzeG9hQ3J3?oc=5",
           "publisher": "Daily Times",
           "published_at": "2026-11-23T04:34:17Z",
+          "source_provider": "google_news_rss"
+        }
+      ]
+    },
+    {
+      "id": "e5deafc7557008",
+      "headline_claim": "'BURN TO ASHES': Iran's Chilling Underwater Attack On Supertankers In Hormuz Mine Trap | Watch - The Times of India",
+      "discovered_via": "Militair & veiligheid",
+      "other_search_labels": [
+        "Militair & veiligheid"
+      ],
+      "publication_day": "2026-11-23",
+      "publication_day_is_event_date": false,
+      "editorial_priority": "hoog",
+      "editorial_reason": "Relevante regio/markt + mogelijke concrete actie",
+      "article_count": 1,
+      "publisher_names": [
+        "the times of india"
+      ],
+      "independent_corrob_count": null,
+      "verification_status": "unreviewed",
+      "primary_evidence_confirmed": false,
+      "named_event_actor": null,
+      "claimed_event_action": null,
+      "event_date": null,
+      "possible_same_event_ids": [],
+      "sources": [
+        {
+          "title": "'BURN TO ASHES': Iran's Chilling Underwater Attack On Supertankers In Hormuz Mine Trap | Watch - The Times of India",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOOTJoeFZ0V29oM3ZMMDdscGQxbW9nRWpBOUF1dUJhOFJwb0liY1Q2QU53d21VZk1GUlRldUVEaFFGdkpvbVRGX19qRVBHWklYWWFHQnZTVllvNlNqX0ZPOFMtNm1IOWc4QXpvTm1DSWZyYS1XaXdHU3dSc0lkd1F2aVB5NGlFLTR6WjlqbElXeU5RZkFtVDM2bWJldlJ4ajl5dFl4OHhST3Y5NTJ6VVh4T3FKVmZ3QWl6UWpHb0I0Sm1RMGgtYXVjSk1ubi1fc0RRRjNSeWhIQzBUYVVGZW9wYUZzbUdLYmtWQ3kybWdWWUZQWENQU0ZJeWVpbklnUdIBgwJBVV95cUxOZkViT2lWaGdFd0Yxbm5mQlpSVXRsQk9oOE04Z2RNUWJhVTd3NWd0aXpiVzNHcnJoWkE3ZFo1VVVIS2I1cHMzMkZkR0dNbXd0empKYTUxRmpqelp3SkZkLVM5UjlqZnJlNExZSVdiMEVBUVdIRXJoNlJTZ2std2NwYTF3cDVKSVVOOFd3Y3RUemdNWDdaMjV1ZW4tWC1Sc3BVeThrSHJ0aXY0RGdfei1tWUhjeUF1aE43Ukp5NjdzOU9rMnNBbjJDTHBuajhlLWd2UHRCRWYtdDFtX0pOeGRkSmNyWTU3bTFGQ3FIdDFQX2hEUWFKWG14MDhZUm1kRU1iRlBv?oc=5",
+          "publisher": "The Times of India",
+          "published_at": "2026-11-23T03:02:18Z",
           "source_provider": "google_news_rss"
         }
       ]

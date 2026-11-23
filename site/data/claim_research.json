@@ -1,59 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-23T07:50:48.349493Z",
+  "last_attempt_utc": "2026-11-23T13:34:22.642171Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 22,
-  "active_checked": 9,
+  "active_total": 21,
+  "active_checked": 8,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
-    "5de1b423cc39b3a708c2b357": {
-      "event_id": "5de1b423cc39b3a708c2b357",
-      "checked_at": "2026-11-09T01:22:43.431331Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
-          "original_document_title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
-          "source_date": "Oct. 25, 2026",
-          "retrieved_at": "2026-11-09T01:22:35.677113Z",
-          "exact_quote": "primary transit routes in the Strait of Hormuz remain free and clear of Iranian sea mines",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Deze passage benadrukt dat de transitroutes vrij zijn van mijnen, maar zegt niets over luchtaanvallen op Iraanse doelen.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De tekst bevestigt dat de transitroutes in de Straat van Hormuz veilig zijn, maar er wordt geen bewijs geleverd voor luchtaanvallen op Iraanse doelen.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
-          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
-          "source_publication_date": "Oct. 25, 2026",
-          "text_excerpt": "\"Today, primary transit routes in the Strait of Hormuz remain free and clear of Iranian sea mines thanks to incredible efforts by our people,\" said Cooper. \"We remain intensely focused on keeping commercial traffic flowing as we work with our teammat"
-        },
-        {
-          "url": "https://home.treasury.gov/news/press-releases/sb0681/",
-          "title": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime | U.S. Department of the TreasuryLock",
-          "source_publication_date": "2026-11-04T18:00:00Z",
-          "text_excerpt": "Operation Economic Outcast Targets Global Maritime Fraud Network Supporting Iranian Regime"
-        }
-      ]
-    },
     "2622fbdcb7308c38ffb315a2": {
       "event_id": "2622fbdcb7308c38ffb315a2",
       "checked_at": "2026-11-10T07:24:26.783916Z",
@@ -3408,12 +3364,12 @@
     },
     "7eb004b4bf49dbcebcbdc8c4": {
       "event_id": "7eb004b4bf49dbcebcbdc8c4",
-      "checked_at": "2026-11-22T07:25:53.400986Z",
+      "checked_at": "2026-11-23T13:34:22.642130Z",
       "version": "official-original-document-v1",
       "research_status": "documents_found_unassessed",
       "verified_event": false,
       "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de aanvallen van Saoedi-Arabië op een haven in Jemen ondersteunen of ontkrachten.",
+      "summary_nl": "De documenten bevatten geen relevante informatie over de specifieke aanvallen van Saoedi-Arabië op een haven in Jemen.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -3529,7 +3485,7 @@
     },
     "f7fab86ffc880536de29a129": {
       "event_id": "f7fab86ffc880536de29a129",
-      "checked_at": "2026-11-21T13:11:56.420450Z",
+      "checked_at": "2026-11-23T13:34:22.642103Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3538,25 +3494,23 @@
           "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
           "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
           "source_date": null,
-          "retrieved_at": "2026-11-21T13:11:45.362721Z",
-          "exact_quote": "more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz",
+          "retrieved_at": "2026-11-23T13:34:09.825783Z",
+          "exact_quote": "IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026.",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt aanvallen op commerciële schepen in de Straat van Hormuz, maar ondersteunt niet specifiek de claim over Iraanse aanvallen op olietankers.",
+          "reason_nl": "De passage vermeldt een aantal aanvallen op commerciële schepen in de Straat van Hormuz, maar specificeert niet dat deze aanvallen door Iran zijn uitgevoerd.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "Er is een vermelding van aanvallen op commerciële schepen in de Straat van Hormuz, maar geen specifieke bevestiging van Iraanse aanvallen op olietankers.",
+      "summary_nl": "Er zijn meldingen van aanvallen op commerciële schepen in de Straat van Hormuz, maar geen specifieke bevestiging dat Iran deze aanvallen heeft geïntensiveerd.",
       "search_status": "ok",
       "search_providers": {
-        "govuk_official_search": "error",
+        "govuk_official_search": "ok",
         "bing_issuer_queries": "ok"
       },
       "documents_fetched": 2,
       "official_link_candidates": 3,
-      "search_errors": [
-        "govuk search: HTTPError"
-      ],
+      "search_errors": [],
       "ai_error": null,
       "original_documents_retrieved": [
         {
@@ -4056,6 +4010,50 @@
           "text_excerpt": "STRAIT OF HORMUZ — The commander of U.S. Central Command (CENTCOM) visited the Strait of Hormuz, Oct. 25, as U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer."
         }
       ]
+    },
+    "0e533722b9b7f64cd1c7c654": {
+      "event_id": "0e533722b9b7f64cd1c7c654",
+      "checked_at": "2026-11-23T13:34:22.642139Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "original_document_title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_date": null,
+          "retrieved_at": "2026-11-23T13:34:12.461426Z",
+          "exact_quote": "IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt aanvallen op commerciële schepen, maar specificeert niet dat deze aanvallen door Iran zijn uitgevoerd.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "Er zijn meldingen van aanvallen op schepen en de betrokkenheid van de IRGC, wat wijst op een verhoogde activiteit in de Straat van Hormuz.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "STRAIT OF HORMUZ — The commander of U.S. Central Command (CENTCOM) visited the Strait of Hormuz, Oct. 25, as U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer."
+        },
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "​IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026. At least 25 seafarers have lost their lives, with others missing or injured."
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -4070,9 +4068,9 @@
       "model_tokens": 5876
     },
     "2026-11-23": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 3594
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 6288
     }
   },
   "last_error": null
