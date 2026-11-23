@@ -1,227 +1,45 @@
 {
-  "generated_at": "2026-11-22T20:33:06.759622Z",
+  "generated_at": "2026-11-23T02:44:36.402728Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 7,
+  "candidate_count": 3,
   "recommendation_counts": {
-    "publish": 3,
-    "reserve": 4
+    "reserve": 3
   },
   "stories": [
     {
-      "id": "2d1712b080e398",
-      "editorial_score": 85,
-      "editorial_decision": "publish",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a brief factual research note on the event “Okinawa celebrates restored Shuri Castle hall 7 years after fire,” based on primary or original sources and independent reporting. Key distinguishing between what was completed and what remains planned.\n\n---\n\n## What actually happened (completed outcomes)\n\n- The **Seiden main hall** (正殿) of **Shuri Castle** in **Naha, Okinawa Prefecture** was destroyed by fire on **October 31, 2019**, along with adjacent halls and other structures. ([japantimes.co.jp](https://www.japantimes.co.jp/news/2026/11/22/japan/shuri-castle-restored/?utm_source=openai))  \n- Restoration of the Seiden main hall began in **November 2022**. ([japantimes.co.jp](https://www.japantimes.co.jp/news/2026/11/22/japan/shuri-castle-restored/?utm_source=openai))  \n- The restoration was **completed in September 2026**. ([japantimes.co.jp](https://www.japantimes.co.jp/news/2026/10/31/japan/shuri-castle-reopen-november/?utm_source=openai))  \n- On **Sunday, November 22, 2026**, a government-sponsored ceremony was held to mark the completion of the Seiden main hall’s restoration. ([jen.jiji.com](https://jen.jiji.com/japan/society/2026112200267/?utm_source=openai))  \n- The restored main hall will **open to the public** starting **Monday, November 23, 2026**. ([japantimes.co.jp](https://www.japantimes.co.jp/news/2026/11/22/japan/shuri-castle-restored/?utm_source=openai))  \n\n---\n\n## Key features of the restoration\n\n- The restored hall incorporates research done since the earlier 1992 restoration to make its appearance more faithful to the **18th-century original**, based on historical documents and high-resolution old photographs. ([japantimes.co.jp](https://www.japantimes.co.jp/news/2026/11/22/japan/shuri-castle-restored/?utm_source=openai))  \n- A pigment called **Kushimagiribengara**, derived from bacteria found in waterside areas in northern Okinawa, was used for exteriors; this yields a deeper, more subdued red than the previous version. ([japantimes.co.jp](https://www.japantimes.co.jp/news/2026/11/22/japan/shuri-castle-restored/?utm_source=openai))  \n- Fire-safety and disaster-prevention features were significantly upgraded: inclusion of a sprinkler system, ground-fault circuit interrupters, seismic-sensing circuit breakers, low-light surveillance cameras (night capable), automatic fire reporting system, fire doors, etc. ([japantimes.co.jp](https://www.japantimes.co.jp/news/2026/11/22/japan/shuri-castle-restored/?utm_source=openai))  \n\n---\n\n## Cost, funding, and scope\n\n- The total cost of restoring the main hall is about **¥12 billion**. ([japantimes.co.jp](https://www.japantimes.co.jp/news/2026/11/22/japan/shuri-castle-restored/?utm_source=openai))  \n- By end of October/September 2026, approximately **¥6.2 billion** had been raised via donations from both domestic and international donors. ([japantimes.co.jp](https://www.japantimes.co.jp/news/2026/10/31/japan/shuri-castle-reopen-november/?utm_source=openai))  \n\n---\n\n## What remains and what was planned\n\n- Other structures (“north hall,” “south hall,” and multiple adjacent buildings) that were destroyed or damaged in the 2019 fire are still under restoration and reconstruction and may take **more than a decade** to complete. ([ntv.co.jp](https://www.ntv.co.jp/englishnews/articles/20216ek89k6w3rnfor73.html?utm_source=openai))  \n- While exterior and core restoration is complete, work on interior decoration, guide panels, and finishing touches remained ongoing up to the reopening. ([japantimes.co.jp](https://www.japantimes.co.jp/news/2026/10/31/japan/shuri-castle-reopen-november/?utm_source=openai))  \n\n---\n\n## Sources and confirmation\n\n- Primary/original sources include **Jiji Press**, which is cited for the official ceremony, construction timeline, costs, and government statements. ([jen.jiji.com](https://jen.jiji.com/japan/society/2026112200267/?utm_source=openai))  \n- Independent reporting by **The Japan Times**, **Associated Press**, **Nippon.com**, and others confirm the facts: date of fire, restoration timeline, reopening, cost, and restored features. ([nippon.com](https://www.nippon.com/en/articles/-/56698?utm_source=openai))  \n\n---\n\nIf you want, I can also try to locate government documents or architectural reports showing detailed design plans or blueprints, or results on visitor numbers or impacts since reopening.",
-      "citations": [
-        {
-          "title": "Main hall of Okinawa’s Shuri Castle restored seven years after fire - The Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/22/japan/shuri-castle-restored/?utm_source=openai"
-        },
-        {
-          "title": "Seven years after fire, Okinawa’s Shuri Castle is inches away from reopening - The Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/10/31/japan/shuri-castle-reopen-november/?utm_source=openai"
-        },
-        {
-          "title": "(Update) Main Hall of Okinawa's Shuri Castle Restored 7 Yrs after Fire | JIJI PRESS",
-          "url": "https://jen.jiji.com/japan/society/2026112200267/?utm_source=openai"
-        },
-        {
-          "title": "Okinawa's World Heritage Shuri Castle main hall restored 7 years after fire | Nippon TV NEWS 24 JAPAN",
-          "url": "https://www.ntv.co.jp/englishnews/articles/20216ek89k6w3rnfor73.html?utm_source=openai"
-        },
-        {
-          "title": "7 Yrs after Fire, Final Preparations Underway to Reopen Shuri Castle | Nippon.com",
-          "url": "https://www.nippon.com/en/articles/-/56698?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "supported",
-      "outcome_status": "completed",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
-      "significance": "high",
-      "verified_headline": "Shuri Castle hall restoration completed after 7 years",
-      "verified_summary": "The restoration of the Seiden main hall of Shuri Castle was completed in September 2026, seven years after it was destroyed by fire. The hall will open to the public on November 23, 2026.",
-      "verification_note": "The restoration is confirmed by multiple independent sources, detailing completion and features of the project.",
-      "publish_recommendation": "publish"
-    },
-    {
-      "id": "a7dd31ef7a7053",
+      "id": "72ad80d2be98b7",
       "editorial_score": 80,
       "editorial_decision": "publish",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a research note on the alleged event titled \"A Medical Center’s Story of Recovery and Resilience in Western North Carolina\":\n\n---\n\n## What the Story Claims\n\nAccording to an article published November 22, 2026 by EIN Presswire titled *“A Medical Center’s Story of Recovery and Resilience in Western North Carolina”*:\n\n- Earlier in 2026, heavy rainfall caused water intrusion at a medical center in Western North Carolina. A blocked roof gutter overflowed, leading water to enter via the ceiling into the staff break room, electrical room, and another back room along an exterior wall. ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))  \n- The medical center is older, unusually tall for a single-story building. Water soaked through wall insulation, leading to concerns of hidden moisture. ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))  \n- The water damage restoration contractor, First Restoration Services (based in Fletcher, NC), carried out mitigation. The work included setting up containment, protecting floors, using funnels to divert water away from electrical panels, HEPA vacuuming, damp wiping, running dehumidifiers and air scrubbers, and monitoring over 11 site visits. ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))  \n- The back wall’s insulation was removed and the cavity remediated. Whitney Commercial Real Estate managed the property and communicated with both the restoration team and the medical center’s practice manager. ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))\n\n---\n\n## Checking for Independent Coverage or Confirmation\n\n- A search did **not** find any independent local or regional news outlets (including the *Cincinnati Enquirer*, *The Des Moines Register*, or Western NC local media) reporting this incident. The only hit was the EIN Presswire release and its syndication through outlets like Odessa NEWSnet. ([odessa.newsnetmedia.com](https://odessa.newsnetmedia.com/story/599511/a-medical-centers-story-of-recovery-and-resilience-in-western-north-carolina/?utm_source=openai))  \n- The story appears to be a **press release** issued via PR channel (Restoration Digital Marketing for First Restoration Services). There is no indication of a follow-up article or investigative piece by independent media confirming details, impact, or outcome. ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))  \n\n---\n\n## What We Can Confirm as Completed / Measured Outcome\n\nFrom the press release, we can confirm that:\n\n- The restoration and mitigation work **was carried out** by First Restoration Services. There was a completed process: containment, equipment use, removal of wet insulation and remediation. ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))  \n- There were **11 site visits** logged during the restoration project. ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))  \n- The damage involved multiple specific areas of the building (staff break room, electrical room, back exterior wall). ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))  \n\n---\n\n## What Remains Unconfirmed or Missing\n\n- The exact identity of the medical center: name, address, or affiliation—these are **not provided** in the release. ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))  \n- The cost of damages or repair. ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))  \n- Any impact on patient care (e.g., closures, delays) beyond the building damage. ([einnews.com](https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai))  \n- Independent confirmation or local reporting, which is important for verifying the claims. As of now, none found.\n\n---\n\n## Conclusion\n\n- The event **has likely occurred**, as described in the press release: a medical center in Western North Carolina experienced water intrusion leading to damage, and a contractor performed restoration work with documented steps and outcomes.  \n- However, because the story is primarily based on a self-published press release (from First Restoration Services via EIN Presswire), with no independent journalistic confirmation, its broader impact (on patient services, public health, etc.) remains unverified.  \n\nIf you like, I can try to locate local news articles or regulatory filings that might confirm the incident further.",
+      "research_notes": "Here’s what I was able to establish from live-web research about the claim “Clean energy aids Earth’s recovery” attributed to China Daily, with verification of what is supported, what is unsubstantiated, and what actually happened.\n\n---\n\n## What I searched for & what turned up\n\n- I searched for the exact China Daily article titled **“Clean energy aids Earth’s recovery”**, global China Daily, and looked for primary evidence of clean energy initiatives having shown measurable positive environmental (Earth recovery) outcomes as claimed in the summary.\n- I also reviewed independent science reports for measurable data on clean energy's effects (emissions avoided, health improvements, ecosystem recovery, etc.).\n\n---\n\n## Findings\n\n### 1. No corroborating article found under that headline\n\n- I did *not* find a China Daily Global Edition article or China Daily article exactly titled *“Clean energy aids Earth’s recovery”* in searches through multiple archives. No credible link or primary source with that title could be located.  \n- There are similar China Daily articles claiming that **China’s renewable energy efforts and Clean Energy technologies** are benefiting global energy transition and climate goals. For example, the white paper *“China’s Energy Transition”* highlights that in 2023, clean energy consumption in China reached **26.4% of its total energy use**, up from 15.5% in 2013. ([capitalfm.africa](https://capitalfm.africa/chinas-energy-transition-benefits-world-china-daily/?utm_source=openai))\n\n### 2. Does clean energy show measurable positive impact?\n\nYes — multiple peer-reviewed studies and reports show that clean energy initiatives are already yielding measurable environmental, health, and climate benefits. Some of the concrete outcomes:\n\n- **Global Energy Review 2025 (by IEA)**: Deployment of five key technologies (solar PV, wind, nuclear, electric vehicles, and heat pumps) between 2019-2024 avoided more than **30 exajoules (EJ)** of fossil fuel energy demand annually. This is about 6% of global fossil fuel demand in 2024 or more than Japan & Korea combined. These technologies now prevent around **2.6 gigatonnes (Gt)** of CO₂ emissions annually (about 7% of global energy-related CO₂ emissions). Without them, emission growth since 2019 would be about three times larger. ([iea.blob.core.windows.net](https://iea.blob.core.windows.net/assets/909b7120-1cbd-439a-a9da-e971a4419977/GlobalEnergyReview2025.pdf?utm_source=openai))\n\n- **“China’s clean-tech machine is reshaping the global climate fight” (Reuters analysis, November 2026)**: China exported a record amount of clean energy technology and equipment; these exports will help reduce global emissions. For example, exports from China to developing countries are estimated to avoid **257 million metric tons of CO₂ per year** once deployed. ([apnews.com](https://apnews.com/article/7e690fb8b89f8faa82fa241bf551940e?utm_source=openai))\n\n- **Research on wind power (2014-2023)**: Global wind power generated cumulative net carbon mitigation benefits of **3,690 million tonnes (Mt) CO₂ equivalent**, with life-cycle emissions being only ~8.5% of direct mitigation by avoiding fossil fuel electricity. ([cc.oaecdn.com](https://cc.oaecdn.com/articles/cf.2026.63?utm_source=openai))\n\n- **Systematic review of renewable energy technologies (RETs)** (147 studies from 2009-2025): shows that RET deployment is consistently associated with reductions in greenhouse gases and local air pollutants; improved air & water quality; health benefits; reductions in energy poverty; stronger energy security; and positive economic outcomes. In China, one case found a renewable heating policy reduced SO₂ by ~28.3%, CO by ~7.6%, NO₂ by ~5.7%, and PM₂.₅ by ~7.2% in certain regions. ([mdpi.com](https://www.mdpi.com/2673-9941/6/1/3?utm_source=openai))\n\n---\n\n## What is known vs. what's uncertain\n\n| Aspect | Supported by Sources | Unsubstantiated / Missing |\n|---|---|---|\n| Clean energy avoids fossil fuel demand, lowers emissions | Yes – Global Energy Review, wind power study, etc. ([iea.blob.core.windows.net](https://iea.blob.core.windows.net/assets/909b7120-1cbd-439a-a9da-e971a4419977/GlobalEnergyReview2025.pdf?utm_source=openai)) |\n| Health benefits (e.g., fewer premature deaths, better air quality) | Yes – e.g. systematic review outcomes, US wind+solar study showing avoided mortalities ([mdpi.com](https://www.mdpi.com/2673-9941/6/1/3?utm_source=openai)) |\n| China’s contribution to cost declines & global deployment | Yes – multiple China Daily/IRENA/Reuters sources ([chinadailyasia.com](https://www.chinadailyasia.com/upload/main/pdf/2025/09/24/05687c1582f8d16a7e14ff3b8fe20e5d.pdf?utm_source=openai)) |\n| “Earth’s recovery” as a phrase implying observable ecosystem restoration, reversing climate change etc. | **Not yet clearly evidenced** by these sources; most metrics are of emissions avoided, pollution reduced, health improved—not full recovery of ecosystems or reversal of climate damage. |\n| Existence of a specific article under the headline “Clean energy aids Earth's recovery” | **No verified origin** found during searches. Likely a paraphrase or mis-titled summary rather than direct headline. |\n\n---\n\n## Verdict: What actually *happened*\n\n- **Clean energy initiatives are having measurable positive effects**, including:\n  - Avoided CO₂ emissions (billions of tonnes globally annually).\n  - Significant reductions in air pollutants (SO₂, NOₓ, PM₂.₅).\n  - Health gains (reduced premature deaths, improved respiratory outcomes).\n  - Economic benefits (lower costs for renewables, cost savings vs. fossil fuels).\n- **China is playing a substantial role**, both by adopting clean energy itself and by exporting clean energy technologies which enable emissions reductions abroad.\n- However, there's **no evidence** so far that “Earth’s recovery” in a broad environmental/ecosystem sense is yet occurring; most gains are partial, incremental, and measured in specific metrics, not full restoration.\n- The specific headline “Clean energy aids Earth’s recovery” appears not to match a traceable primary source; it may be a summary or reinterpretation of multiple reports rather than a distinct published article with that title.\n\n---\n\n## Conclusion\n\nWhile the generalized claim “clean energy initiatives show measurable positive impact on Earth’s recovery” is **real and backed by scientific evidence** in terms of emissions avoided, health improvements, and pollution reductions, the **original source** suggested by China Daily under that exact headline could not be found. There is solid evidence for measurable outcomes, but no sign that full ecological recovery or reversal of climate damage has been achieved as of now.\n\n---\n\nIf you like, I can try to track down printing archives or paid content behind paywalls to see if the headline does exist in print or local editions. Would you like me to dig further into that possibility?",
       "citations": [
         {
-          "title": "A Medical Center’s Story of Recovery and Resilience in Western North Carolina - EIN Presswire",
-          "url": "https://www.einnews.com/pr_news/958262299/a-medical-center-s-story-of-recovery-and-resilience-in-western-north-carolina?utm_source=openai"
+          "title": "China’s energy transition benefits world: China Daily – Capital FM",
+          "url": "https://capitalfm.africa/chinas-energy-transition-benefits-world-china-daily/?utm_source=openai"
         },
         {
-          "title": "A Medical Center’s Story of Recovery and Resilience in Western North Carolina – NEWSnet Odessa",
-          "url": "https://odessa.newsnetmedia.com/story/599511/a-medical-centers-story-of-recovery-and-resilience-in-western-north-carolina/?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "completed",
-      "evidence_quality": "medium",
-      "independence": "single_source",
-      "significance": "medium",
-      "verified_headline": "Medical Center Completes Water Damage Restoration in North Carolina",
-      "verified_summary": "A medical center in Western North Carolina experienced water intrusion due to heavy rainfall, leading to restoration work by First Restoration Services. The restoration included multiple site visits and remediation of affected areas.",
-      "verification_note": "While the restoration work was completed, the lack of independent confirmation and details on patient impact limits the overall significance of the story.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "7368c8e69674ce",
-      "editorial_score": 80,
-      "editorial_decision": "publish",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a factual research note, based on independent and primary reporting, about the conservation event in Jiangsu-Yancheng (“盐城”) focused on cranes (丹顶鹤, red-crowned or Japanese cranes). It clarifies what actually occurred—distinguishing measured outcomes from announcements.\n\n---\n\n## What Happened\n\n- On **11-22-2026**, the “2026 China Crane Research and Conservation Exchange” (**中国鹤类研究与保护交流活动**) officially began in Yancheng (江苏盐城), Jiangsu Province. ([kandian.sina.cn](https://kandian.sina.cn/article_1653603955_628ffe7302001z8ps.html?from=news&utm_source=openai))  \n- One of its main public moments was the live release (“野化放归直播”) of several captive-bred red-crowned cranes (丹顶鹤) into the wild in the Yancheng Wetland Rare Birds National Nature Reserve. ([kandian.sina.cn](https://kandian.sina.cn/article_1653603955_628ffe7302001z8ps.html?from=news&utm_source=openai))  \n- The event also included a ceremony honoring the “Xuxiujuan Crane Protection Vanguard Team” (徐秀娟护鹤先锋队), a public bird-watching carnival (“观鸟嘉年华”), expert seminars on habitat restoration, monitoring, and human-crane coexistence. ([kandian.sina.cn](https://kandian.sina.cn/article_1653603955_628ffe7302001z8ps.html?from=news&utm_source=openai))  \n\n---\n\n## Measured Outcomes / Established Conservation Results\n\nThese are the concrete, measured outcomes reported in the sources:\n\n1. **Population Numbers & Trends**\n\n   - As of the 2025-2026 wintering season (越冬季), there were **635** red-crowned cranes counted wintering along the Yancheng coast, the highest number in the past decade. ([nbs.cn](https://www.nbs.cn/news/7/202604/t20260430_783311.html?utm_source=openai))  \n   - Back in 2021, the same count was **354**, showing a **79.3% increase** over 5 years. ([nbs.cn](https://www.nbs.cn/news/7/202604/t20260430_783311.html?utm_source=openai))  \n   - Overall in Jiangsu Province, 637 red-crowned cranes were monitored; **99.7%** of them were in the coastal Yancheng area. ([js.people.com.cn](https://js.people.com.cn/n2/2026/1122/c360304-41757307.html?utm_source=openai))  \n\n2. **Captive Breeding & Wild Reintroduction (“野化放归”)**\n\n   - Artificial breeding has been ongoing since 1986, when just **3 eggs** were brought in from Zhalong (扎龙保护区). ([forestry.gov.cn](https://www.forestry.gov.cn/lyj/1/dfdt/20260507/669814.html?utm_source=openai))  \n   - Today, the captive population exceeds **300** red-crowned cranes. ([forestry.gov.cn](https://www.forestry.gov.cn/lyj/1/dfdt/20260507/669814.html?utm_source=openai))  \n   - A total of **144** of those captive-bred cranes have been released (“野化放归”) into the wild. ([kandian.sina.cn](https://kandian.sina.cn/article_1653603955_628ffe7302001z8ps.html?from=news&utm_source=openai))  \n\n3. **Reproduction in the Wild from Released Birds**\n\n   - For **10 consecutive years**, red-crowned cranes released into the wild from Yancheng have returned to nest, hatch eggs, and raise chicks. ([kandian.sina.cn](https://kandian.sina.cn/article_1653603955_628ffe7302001z8ps.html?from=news&utm_source=openai))  \n\n4. **Winter Arrival of Migratory Cranes**\n\n   - By November 2026, over **200** migratory red-crowned cranes had arrived in Yancheng to overwinter (this is the first batch arriving for the season). ([js.people.com.cn](https://js.people.com.cn/n2/2026/1122/c360304-41757307.html?utm_source=openai))  \n\n---\n\n## Outcomes vs Plans / Announcements\n\n- The launch of the conservation exchange event, the public ceremonies, and the pledge to further engage communities are **plans or ongoing initiatives**, not in themselves measured outcomes. ([kandian.sina.cn](https://kandian.sina.cn/article_1653603955_628ffe7302001z8ps.html?from=news&utm_source=openai))  \n- What is measured and completed are the population counts (e.g. 635 birds wintering, 300+ captive population), documented releases (144 birds), and breeding success in the wild over many years (including recent annual reproduction). ([kandian.sina.cn](https://kandian.sina.cn/article_1653603955_628ffe7302001z8ps.html?from=news&utm_source=openai))  \n\n---\n\n## Summary\n\nYes—this conservation event brought together researchers, managers, and the public, but distinct from these activities, there is strong evidence of substantial, positive, measured outcomes:\n\n- A sharp increase in the wild wintering population (635 red-crowned cranes in winter 2025-26, up ~79% since 2021).  \n- A captive stock of 300+ birds, 144 of which have been released into the wild.  \n- Wild breeding by released birds documented for 10 consecutive years.\n\nThese are tangible successes demonstrating that the release and wintering programs are not just aspirations but are producing real, sustained ecological recovery in the Yancheng region.",
-      "citations": [
-        {
-          "title": "鹤类保护盛会落地江苏盐城，野化丹顶鹤同步走向湿地",
-          "url": "https://kandian.sina.cn/article_1653603955_628ffe7302001z8ps.html?from=news&utm_source=openai"
+          "title": "Global Energy Review 2025",
+          "url": "https://iea.blob.core.windows.net/assets/909b7120-1cbd-439a-a9da-e971a4419977/GlobalEnergyReview2025.pdf?utm_source=openai"
         },
         {
-          "title": "江苏盐城：越冬丹顶鹤首破600只 湿地生态持续向好-南京广播电视台",
-          "url": "https://www.nbs.cn/news/7/202604/t20260430_783311.html?utm_source=openai"
+          "title": "China's record-breaking exports of clean tech are making a big dent in emissions, report says",
+          "url": "https://apnews.com/article/7e690fb8b89f8faa82fa241bf551940e?utm_source=openai"
         },
         {
-          "title": "今年首批200余只丹顶鹤回盐城越冬",
-          "url": "https://js.people.com.cn/n2/2026/1122/c360304-41757307.html?utm_source=openai"
+          "title": "Assessing global carbon mitigation benefits of wind power with spatiotemporal characteristics and production-deployment pathways",
+          "url": "https://cc.oaecdn.com/articles/cf.2026.63?utm_source=openai"
         },
         {
-          "title": "江苏盐城：从3枚鹤卵到300+鹤群_国家林业和草原局政府网",
-          "url": "https://www.forestry.gov.cn/lyj/1/dfdt/20260507/669814.html?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "supported",
-      "outcome_status": "completed",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
-      "significance": "high",
-      "verified_headline": "Successful crane conservation event in Jiangsu Yancheng",
-      "verified_summary": "The conservation event in Jiangsu Yancheng resulted in a significant increase in the red-crowned crane population, with 635 counted in winter 2025-26, a 79.3% increase since 2021. Additionally, 144 captive-bred cranes have been successfully released into the wild.",
-      "verification_note": "The event demonstrated measurable outcomes, including increased crane populations and successful breeding, supported by multiple independent sources.",
-      "publish_recommendation": "publish"
-    },
-    {
-      "id": "cdacb52a012462",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a factual research note on the news event “Sloth returns to nature one month after rescue from roadside” in Brazil. Sources include original reports from involved organizations and independent media.\n\n---\n\n### What Happened\n\n- A female sloth was rescued on **October 15, 2026**, from beside the *Rodovia Padre Manoel da Nóbrega (SP-055)* in the municipality of Pedro de Toledo, São Paulo. The animal was found in a situation with high risk of being hit by traffic. ([metropoles.com](https://www.metropoles.com/sao-paulo/bicho-preguica-retorna-a-natureza-um-mes-apos-resgate-as-margens-de-rodovia?utm_source=openai))\n\n- After rescue, the sloth received care and underwent evaluation and treatment over approximately one month. ([metropoles.com](https://www.metropoles.com/sao-paulo/bicho-preguica-retorna-a-natureza-um-mes-apos-resgate-as-margens-de-rodovia?utm_source=openai))\n\n- On **November 19, 2026**, the sloth was released (reintroduced) into its natural habitat in **Peruíbe**, a coastal city in São Paulo state. The release was carried out with the involvement of **Concessionária Novo Litoral (CNL)** and **Instituto Ambiecco**, the latter a wildlife rehabilitation partner. ([artesp.sp.gov.br](https://www.artesp.sp.gov.br/artesp/concessoes/metroferroviario/%21ut/p/z0/fcxBCoMwEEDRE5UJUYKuW5BKU7opxNmUQaIdajMyCZ5fT-Dyw-MDQgBMtPFMhSXRcvSA7mMaV9uqM1X7ft6Me7Svrr773jYGesBzcBys-qufAVcq3wunSSCMksaYs8QM4R-LyhRVZWNSFlh_OOx05qxp/?1dmy=&pswid=Z7_086423G03P6OD063UB6S239RS4&urile=wcm%3Apath%3A%2Fwcm%2Fconnect%2Fartesp_content%2Fartesp%2Fnoticias%2Fcnl+bicho+preguica+peruibe&utm_source=openai))\n\n---\n\n### Key Details & Outcome\n\n- The sloth’s species is not explicitly named in the sources. It is referred to generically as a “feminine sloth / female sloth / bicho-preguiça”. ([metropoles.com](https://www.metropoles.com/sao-paulo/bicho-preguica-retorna-a-natureza-um-mes-apos-resgate-as-margens-de-rodovia?utm_source=openai))\n\n- The incident also involved injuries: notably, ferimentos (wounds) to her claws and scrapes (escoriações) on her paws. ([plantaoguaruja.com.br](https://www.plantaoguaruja.com.br/noticia/bicho-preguica-resgatado-com-filhote-nas-costas-volta-a-natureza-apos-um-mes-de-recuperacao?utm_source=openai))\n\n- There was an associated baby sloth (“filhote nas costas”) carried by the mother at the time of rescue. Unfortunately, the baby did **not survive**. ([plantaoguaruja.com.br](https://www.plantaoguaruja.com.br/noticia/bicho-preguica-resgatado-com-filhote-nas-costas-volta-a-natureza-apos-um-mes-de-recuperacao?utm_source=openai))\n\n- The rescue team included traffic inspection crews (of CNL) and the Centro de Triagem de Animais Silvestres managed by Instituto Ambiecco. ([metropoles.com](https://www.metropoles.com/sao-paulo/bicho-preguica-retorna-a-natureza-um-mes-apos-resgate-as-margens-de-rodovia?utm_source=openai))\n\n- The reintroduction (release) was successful: the sloth was considered healthy and suitable for return to its habitat. Unlike many instances of pledges or announcements, this reports a completed outcome (actual return to nature). ([radarmobilidade.com.br](https://radarmobilidade.com.br/bicho-preguica-resgatado-na-rodovia-e-devolvido-a-natureza-em-peruibe/?utm_source=openai))\n\n---\n\n### Source Analysis & Verification\n\n- **Primary/local sources**:  \n  • *CNL (Concessionária Novo Litoral)* public announcements—“Um mês após resgate, CNL reintroduz bicho-preguiça na natureza, em Peruíbe” from **Artesp** portal associated with CNL. ([artesp.sp.gov.br](https://www.artesp.sp.gov.br/artesp/concessoes/metroferroviario/%21ut/p/z0/fcxBCoMwEEDRE5UJUYKuW5BKU7opxNmUQaIdajMyCZ5fT-Dyw-MDQgBMtPFMhSXRcvSA7mMaV9uqM1X7ft6Me7Svrr773jYGesBzcBys-qufAVcq3wunSSCMksaYs8QM4R-LyhRVZWNSFlh_OOx05qxp/?1dmy=&pswid=Z7_086423G03P6OD063UB6S239RS4&urile=wcm%3Apath%3A%2Fwcm%2Fconnect%2Fartesp_content%2Fartesp%2Fnoticias%2Fcnl+bicho+preguica+peruibe&utm_source=openai))  \n  • Reports from *Instituto Ambiecco* confirming involvement in reintroduction and rehabilitation. ([ambiecco.org.br](https://www.ambiecco.org.br/?utm_source=openai))\n\n- **Independent media confirmation**:  \n  • *Metrópoles* published detailed coverage on November 21, 2026, confirming rescue date, care period, entities involved, and release location. ([metropoles.com](https://www.metropoles.com/sao-paulo/bicho-preguica-retorna-a-natureza-um-mes-apos-resgate-as-margens-de-rodovia?utm_source=openai))  \n  • Local press *Plantão Guarujá* reported added details (injuries, baby’s death) not featured in all reports. ([plantaoguaruja.com.br](https://www.plantaoguaruja.com.br/noticia/bicho-preguica-resgatado-com-filhote-nas-costas-volta-a-natureza-apos-um-mes-de-recuperacao?utm_source=openai))  \n\n---\n\n### Summary Statement\n\nA female sloth, rescued from beside a risky stretch of SP-055 on **October 15, 2026**, after being found near a roadway in Pedro de Toledo, São Paulo, received approximately one month of veterinary care—including treatment for claw wounds and paw scratches. The sloth, whose baby (carried at rescue) did not survive, was deemed fit and released into the wild in **Peruíbe** on **November 19, 2026**. The operation was led by Concessionária Novo Litoral and Instituto Ambiecco, representing a completed conservation outcome rather than just an announcement or plan.",
-      "citations": [
-        {
-          "title": "Bicho-preguiça retorna à natureza um mês após resgate às margens de rodovia",
-          "url": "https://www.metropoles.com/sao-paulo/bicho-preguica-retorna-a-natureza-um-mes-apos-resgate-as-margens-de-rodovia?utm_source=openai"
+          "title": "Societal Welfare Implications of Solar and Renewable Energy Deployment: A Systematic Review",
+          "url": "https://www.mdpi.com/2673-9941/6/1/3?utm_source=openai"
         },
         {
-          "title": "Notícias",
-          "url": "https://www.artesp.sp.gov.br/artesp/concessoes/metroferroviario/%21ut/p/z0/fcxBCoMwEEDRE5UJUYKuW5BKU7opxNmUQaIdajMyCZ5fT-Dyw-MDQgBMtPFMhSXRcvSA7mMaV9uqM1X7ft6Me7Svrr773jYGesBzcBys-qufAVcq3wunSSCMksaYs8QM4R-LyhRVZWNSFlh_OOx05qxp/?1dmy=&pswid=Z7_086423G03P6OD063UB6S239RS4&urile=wcm%3Apath%3A%2Fwcm%2Fconnect%2Fartesp_content%2Fartesp%2Fnoticias%2Fcnl+bicho+preguica+peruibe&utm_source=openai"
-        },
-        {
-          "title": "Bicho-preguiça resgatado com filhote nas costas volta à natureza após um mês de recuperação",
-          "url": "https://www.plantaoguaruja.com.br/noticia/bicho-preguica-resgatado-com-filhote-nas-costas-volta-a-natureza-apos-um-mes-de-recuperacao?utm_source=openai"
-        },
-        {
-          "title": "Bicho-preguiça resgatado na rodovia é devolvido à natureza em Peruíbe – Radar Mobilidade",
-          "url": "https://radarmobilidade.com.br/bicho-preguica-resgatado-na-rodovia-e-devolvido-a-natureza-em-peruibe/?utm_source=openai"
-        },
-        {
-          "title": "Home | Instituto Ambiecco | Projetos Socioambientais | Peruíbe",
-          "url": "https://www.ambiecco.org.br/?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "supported",
-      "outcome_status": "completed",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
-      "significance": "high",
-      "verified_headline": "Sloth successfully returned to nature after rescue in Brazil",
-      "verified_summary": "A female sloth was rescued from a roadside in São Paulo on October 15, 2026, and after a month of rehabilitation, was successfully released back into the wild on November 19, 2026.",
-      "verification_note": "The rescue and successful reintroduction of the sloth into its natural habitat is well-documented by multiple independent sources, confirming the positive conservation outcome.",
-      "publish_recommendation": "publish"
-    },
-    {
-      "id": "ae0cb8e13f0f44",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "responses_web_search",
-      "search_model": "gpt-6-luna",
-      "research_notes": "**Research note — Pacific walrus habitat, Point Lay, Alaska**\n\nThe Conservation Fund announced on **November 18, 2026** that it had purchased a **permanent conservation easement covering 47,473 acres** from Cully Corporation, an Alaska Native corporation. The easement includes land around the Point Lay walrus haul-out and is intended to prevent development, including coal and gravel projects; the release says subsistence and cultural use will continue. This is a completed land-protection transaction, not just a pledge or proposed refuge. ([conservationfund.org](https://www.conservationfund.org/our-impact/press-room/the-conservation-fund-permanently-protects-critical-pacific-walrus-habitat/?utm_source=openai))\n\nThe claim that this is North America’s largest Pacific walrus haul-out—and that **more than 200,000 walruses** use it—comes from The Conservation Fund’s announcement; it is not a measured result of the easement. The protection is intended to reduce development and disturbance, but the sources do not report a subsequent change in walrus numbers or survival. ([conservationfund.org](https://www.conservationfund.org/our-impact/press-room/the-conservation-fund-permanently-protects-critical-pacific-walrus-habitat/?utm_source=openai))\n\n**Independent reporting:** Alaska News separately reported that Cully sold the easement, while CNN reported on the agreement and included outside expert comment. The Conservation Fund’s own release remains the primary source for the transaction’s acreage and terms. Some other coverage, including the FlipItMoney item, appears to repeat the announcement rather than independently verify outcomes. ([alaskanews.com](https://alaskanews.com/c/alaska-news/point-lay-village-corporation-sells-permanent-easement-around-walrus-haulout?utm_source=openai))\n\n**Date clarification:** the transaction was announced November 18; November 22 is the candidate’s date, not the announcement date. ([conservationfund.org](https://www.conservationfund.org/our-impact/press-room/the-conservation-fund-permanently-protects-critical-pacific-walrus-habitat/?utm_source=openai))",
-      "citations": [
-        {
-          "title": "The Conservation Fund Permanently Protects Critical Pacific Walrus Habitat - The Conservation Fund",
-          "url": "https://www.conservationfund.org/our-impact/press-room/the-conservation-fund-permanently-protects-critical-pacific-walrus-habitat/?utm_source=openai"
-        },
-        {
-          "title": "Point Lay village corporation sells permanent easement around walrus haulout | Alaska News",
-          "url": "https://alaskanews.com/c/alaska-news/point-lay-village-corporation-sells-permanent-easement-around-walrus-haulout?utm_source=openai"
-        }
-      ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 264. Please try again in 352ms. Visit https://platform.op",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "completed",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Conservation Fund protects Pacific walrus habitat in Alaska",
-      "verified_summary": "The Conservation Fund has purchased a permanent conservation easement covering 47,473 acres around Point Lay, Alaska, to protect walrus habitat from development. While the easement is completed, there is no reported change in walrus numbers or survival.",
-      "verification_note": "The easement is a completed transaction, but the impact on walrus populations remains unmeasured. Independent sources confirm the sale but do not provide evidence of improved outcomes.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "a7c49c130367e4",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here is a concise research note establishing what has actually been reported about the event “Rotary Clubs unite to help families affected by storm in Tupanciretã,” based on available primary and independent sources as of November 22, 2026. I did *not* find confirmation matching exactly the headline/summary in your candidate, but found many overlapping reports. I indicate clearly what is confirmed, what remains uncertain or unverified.\n\n---\n\n## What reliably *happened*\n\n**Event:**  \n- On the night of **Friday, November 20, 2026**, Tupanciretã (Rio Grande do Sul, Brazil) was hit by a severe **storm** characterized by strong winds and hail. ([gauchazh.clicrbs.com.br](https://gauchazh.clicrbs.com.br/viral/noticia/2026/11/saiba-como-ajudar-as-familias-atingidas-pelo-temporal-em-tupancireta-cmwp9q6fr01sg017a27bye7ol.html?utm_source=openai))  \n- The storm caused massive destruction: approximately **8,000 out of 8,600** houses in the municipality were damaged or lost their roofs; utility infrastructure was hit—power lines, hospital facility, public buildings. ([jornaldecandelaria.com.br](https://jornaldecandelaria.com.br/destaques/bombeiros-e-rotary-de-candelaria-se-mobilizam-para-ajudar-tupancireta/?utm_source=openai))  \n- Casualties: At least **three people died**, and dozens were injured. ([jornaldecandelaria.com.br](https://jornaldecandelaria.com.br/destaques/bombeiros-e-rotary-de-candelaria-se-mobilizam-para-ajudar-tupancireta/?utm_source=openai))  \n\n**Response & Solidarity Efforts:**\n\n- Multiple Rotary Clubs and municipal administrations across Rio Grande do Sul launched donation and aid campaigns. ([radiomissioneira.com](https://www.radiomissioneira.com/campanhas-solidarias-em-sao-luiz-gonzaga-buscam-arrecadar-donativos-para-familias-atingidas-pelo-temporal-em-tupancireta/?utm_source=openai))  \n- One specific campaign from **Santa Cruz do Sul**, in partnership with the group Roxinhas Solidárias and a Rotary Club, collected and transported **foods, blankets, personal hygiene items, water, and tarpaulins** to affected families in Tupanciretã. The delivery took place on **Saturday, November 21, 2026**. ([gaz.com.br](https://www.gaz.com.br/santa-cruz-envia-donativos-para-familias-atingidas-por-temporal-em-tupancireta/?utm_source=openai))  \n- In Tapejara, community members, including the volunteer firefighters, JCI group, Escoteiros (Scouts), and others mobilized to collect and transport donations. They also distributed over **1,000 snacks** to both volunteers working in recovery and affected residents. ([radiotapejara.com.br](https://www.radiotapejara.com.br/noticia/101104/solidariedade-de-tapejara-leva-alimentos-donativos-e-apoio-as-familias-atingidas-em-tupancireta?utm_source=openai))  \n\n**Official/Organized Relief:**\n\n- The **Defesa Civil** (Civil Defense) of Tupanciretã is registering affected households to organize aid (especially roof materials like tiles) prioritizing people in vulnerable groups (elderly, children, people with disabilities). ([tupa.fm.br](https://tupa.fm.br/index.php/noticias-interna/confira-os-pontos-de-apoio-e-atendimento-as-familias-atingidas-pelo-temporal-em-tupancireta-23935?utm_source=openai))  \n- Points of aid/donation have been established (e.g. behind the municipal government building, local church hall), with guidance to use them rather than traveling to Tupanciretã unnecessarily. ([tupa.fm.br](https://tupa.fm.br/index.php/noticias-interna/confira-os-pontos-de-apoio-e-atendimento-as-familias-atingidas-pelo-temporal-em-tupancireta-23935?utm_source=openai))  \n\n---\n\n## What is *not* yet reliable or is unverified\n\n- The specific claim in your candidate: **“Rotary Clubs in Novo Hamburgo** collected donations for families impacted by a storm in Tupanciretã.” I found **no source** confirming an initiative specifically **from Rotary Clubs in *Novo Hamburgo*** doing this. There is no mention in multiple local reports of Novo Hamburgo Rotary being involved. So this part remains unverified.  \n\n- The named publisher “DuduNews” with the title “Todos os Rotary Club de Novo Hamburgo juntos…” is not found in my research so far (no result from searches directly citing DuduNews with that exact headline). It may exist but I did not locate it in reputable press or local government sources.\n\n- Whether all Rotary Clubs in Novo Hamburgo united as one campaign is not confirmed; Rotary clubs in various municipalities (Candelária, Santa Cruz, etc.) *are* participating but not clearly from Novo Hamburgo.  \n\n---\n\n## Measured/Completed Outcomes vs. Announcements or Plans\n\n**Completed / ongoing actions**:\n\n- Donations have been collected and transported (e.g. Santa Cruz do Sul delivered on November 21). ([gaz.com.br](https://www.gaz.com.br/santa-cruz-envia-donativos-para-familias-atingidas-por-temporal-em-tupancireta/?utm_source=openai))  \n- Distribution of supplies (food, blankets, hygiene materials) to affected families is underway. ([radiotapejara.com.br](https://www.radiotapejara.com.br/noticia/101104/solidariedade-de-tapejara-leva-alimentos-donativos-e-apoio-as-familias-atingidas-em-tupancireta?utm_source=openai))  \n- The civil defense is already registering affected households to deliver roof materials and aid. ([tupa.fm.br](https://tupa.fm.br/index.php/noticias-interna/confira-os-pontos-de-apoio-e-atendimento-as-familias-atingidas-pelo-temporal-em-tupancireta-23935?utm_source=openai))  \n\n**Announcements / pledges / campaigns**:\n\n- Many campaigns are soliciting donations (monetary, material). ([radiomissioneira.com](https://www.radiomissioneira.com/campanhas-solidarias-em-sao-luiz-gonzaga-buscam-arrecadar-donativos-para-familias-atingidas-pelo-temporal-em-tupancireta/?utm_source=openai))  \n- Rotary Clubs and others have announced collection points and how to donate via Pix, etc. ([rotaryfbgaleradochapeu.org.br](https://rotaryfbgaleradochapeu.org.br/noticia/220844?utm_source=openai))  \n\n---\n\n## Summary & Conclusion\n\n- The storm and its severe impacts in Tupanciretã are well-supported by multiple independent sources.  \n- Rotary Clubs are *among* the entities mobilizing aid—but **no confirmation** was found that they mustered specifically from *Novo Hamburgo* (as in your candidate).  \n- Aid is already being delivered; campaigns are underway; donations and material support are *active outcomes* rather than just announcements.  \n\nIf you like, I can try to track down whether there is a DuduNews article for that claim, and whether the Rotary Clubs of Novo Hamburgo are indeed involved. Would you prefer I do that?",
-      "citations": [
-        {
-          "title": "Saiba como ajudar as famílias atingidas pelo temporal em Tupanciretã | GZH",
-          "url": "https://gauchazh.clicrbs.com.br/viral/noticia/2026/11/saiba-como-ajudar-as-familias-atingidas-pelo-temporal-em-tupancireta-cmwp9q6fr01sg017a27bye7ol.html?utm_source=openai"
-        },
-        {
-          "title": "Bombeiros e Rotary de Candelária se mobilizam para ajudar Tupanciretã - Jornal de Candelária",
-          "url": "https://jornaldecandelaria.com.br/destaques/bombeiros-e-rotary-de-candelaria-se-mobilizam-para-ajudar-tupancireta/?utm_source=openai"
-        },
-        {
-          "title": "Rádio Missioneira 94.9 FM » Campanhas solidárias em São Luiz Gonzaga buscam arrecadar donativos para famílias atingidas pelo temporal em Tupanciretã",
-          "url": "https://www.radiomissioneira.com/campanhas-solidarias-em-sao-luiz-gonzaga-buscam-arrecadar-donativos-para-familias-atingidas-pelo-temporal-em-tupancireta/?utm_source=openai"
-        },
-        {
-          "title": "Santa Cruz envia donativos para famílias atingidas por temporal em Tupanciretã",
-          "url": "https://www.gaz.com.br/santa-cruz-envia-donativos-para-familias-atingidas-por-temporal-em-tupancireta/?utm_source=openai"
-        },
-        {
-          "title": "Solidariedade de Tapejara leva alimentos, donativos e apoio às famílias atingidas em Tupanciretã - Rádio Tapejara FM 101.5",
-          "url": "https://www.radiotapejara.com.br/noticia/101104/solidariedade-de-tapejara-leva-alimentos-donativos-e-apoio-as-familias-atingidas-em-tupancireta?utm_source=openai"
-        },
-        {
-          "title": "Confira os pontos de apoio e atendimento às famílias atingidas pelo temporal em Tupanciretã | Notícias - Rádio Tupã FM",
-          "url": "https://tupa.fm.br/index.php/noticias-interna/confira-os-pontos-de-apoio-e-atendimento-as-familias-atingidas-pelo-temporal-em-tupancireta-23935?utm_source=openai"
-        },
-        {
-          "title": "Tupanciretã precisa de nós: Rotary mobiliza solidariedade para apoiar famílias atingidas por evento climático | Distrito 4640 - Rotary International",
-          "url": "https://rotaryfbgaleradochapeu.org.br/noticia/220844?utm_source=openai"
+          "title": "20250924_CNDY_omPrintsite_BSECT_HKG-BRO_WOR_002_014_omSpread-014-014_C_omVersion_omTime",
+          "url": "https://www.chinadailyasia.com/upload/main/pdf/2025/09/24/05687c1582f8d16a7e14ff3b8fe20e5d.pdf?utm_source=openai"
         }
       ],
       "fallback_error": "",
@@ -231,34 +49,75 @@
       "evidence_quality": "medium",
       "independence": "multiple_independent",
       "significance": "medium",
-      "verified_headline": "Rotary Clubs mobilize aid for storm victims in Tupanciretã",
-      "verified_summary": "Rotary Clubs and local communities are actively collecting and delivering aid to families affected by a severe storm in Tupanciretã, Brazil. Donations of food, blankets, and hygiene items have been transported to those in need.",
-      "verification_note": "While the storm's impact and community response are well-documented, the specific involvement of Rotary Clubs from Novo Hamburgo remains unverified.",
+      "verified_headline": "Clean energy initiatives show measurable positive impacts",
+      "verified_summary": "Clean energy initiatives have led to significant reductions in CO₂ emissions and air pollutants, along with health benefits. However, there is no evidence of full ecological recovery as implied by the claim.",
+      "verification_note": "While clean energy initiatives show measurable benefits, the specific claim of aiding Earth's recovery lacks direct evidence and the original source could not be verified.",
       "publish_recommendation": "reserve"
     },
     {
-      "id": "fb735196308e17",
+      "id": "fd6502126fc878",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here’s a researched summary of the event **“Borno youths develop affordable local foods to tackle child malnutrition”**, based on The Sun Nigeria and related sources, clarifying what is *announced* versus what has been *achieved*.  \n\n---\n\n## What the reporting states\n\nFrom *The Sun Nigeria* (Nov 23, 2026):  \n- Young innovators in Borno State unveiled locally produced, ready-to-use nutritious foods intended to combat child malnutrition. ([thesun.ng](https://thesun.ng/borno-youths-develop-affordable-local-foods-to-tackle-child-malnutrition/?utm_source=openai))  \n- These products were introduced at a **youth-led Nutrition Challenge** organized by UNICEF in Maiduguri over the weekend, in observance of **2026 World Children’s Day**. ([thesun.ng](https://thesun.ng/borno-youths-develop-affordable-local-foods-to-tackle-child-malnutrition/?utm_source=openai))  \n- Officials described the foods as nutritious and affordable. UNICEF appreciated the initiative as a demonstration of youth-driven, community-based innovation. ([thesun.ng](https://thesun.ng/borno-youths-develop-affordable-local-foods-to-tackle-child-malnutrition/?utm_source=openai))  \n\n**What is not in the report**:\n- There are *no figures* on how many children have been reached, how many youth innovators participated, or the measurable nutritional impact yet achieved.  \n- The report does not document outcomes (e.g. reduction in malnutrition rates) or long-term deployment; it focuses on the unveiling/launch of the innovation.\n\n---\n\n## Independent/background sources & related events\n\nWhile The Sun article appears to be unique in reporting this **specific unveiling**, there are earlier reports describing the launch phase of the same initiative:\n\n- *Punch Nigeria* reported in **October 2026** the commencement of a **“Youth-led Nutrition Challenge”** in Maiduguri that aims to develop locally made nutritious meal plans for pregnant women and children. It noted that the challenge’s first phase targets two local government areas (Jere and Maiduguri Metropolitan Council Area) and includes a prize of ₦300,000 for the winning plan. ([punchng.com](https://punchng.com/unicef-urges-youth-to-invent-local-food-nutrition-for-mothers-children/?utm_source=openai))  \n- *BusinessDay Nigeria* similarly covered the launch: young people are to design local food-based nutrition solutions for pregnant women and under-fives; it also specified the involvement of UNICEF, state government, and UK government funding support through FCDO. ([businessday.ng](https://businessday.ng/news/article/unicef-borno-govt-launch-youth-led-awareness-to-fight-acute-malnurtrition/?utm_source=openai))  \n\nThese earlier reports match the event described in The Sun article, confirming it is part of a recently launched program rather than a fully executed program with outcomes yet.\n\n---\n\n## What is confirmed vs what is still pending\n\n| Verified Event/Component | Source(s) |\n|---------------------------|-----------|\n| **Launch of the Youth-led Nutrition Challenge** in Borno State by UNICEF & State government. | Punch Nigeria ([punchng.com](https://punchng.com/unicef-urges-youth-to-invent-local-food-nutrition-for-mothers-children/?utm_source=openai)); BusinessDay ([businessday.ng](https://businessday.ng/news/article/unicef-borno-govt-launch-youth-led-awareness-to-fight-acute-malnurtrition/?utm_source=openai)) |\n| **Objective**: develop affordable, locally-produced nutrition solutions for pregnant women and children (especially under five), particularly against acute malnutrition. | Punch Nigeria ([punchng.com](https://punchng.com/unicef-urges-youth-to-invent-local-food-nutrition-for-mothers-children/?utm_source=openai)); BusinessDay ([businessday.ng](https://businessday.ng/news/article/unicef-borno-govt-launch-youth-led-awareness-to-fight-acute-malnurtrition/?utm_source=openai)) |\n| **Target areas for the pilot phase**: Jere and Maiduguri Metropolitan Council (MMC). | BusinessDay ([businessday.ng](https://businessday.ng/news/article/unicef-borno-govt-launch-youth-led-awareness-to-fight-acute-malnurtrition/?utm_source=openai)); Punch Nigeria ([punchng.com](https://punchng.com/unicef-urges-youth-to-invent-local-food-nutrition-for-mothers-children/?utm_source=openai)) |\n| **Unveiling of local foods innovations** at a youth-led competition during World Children’s Day 2026, in Maiduguri. | The Sun Nigeria ([thesun.ng](https://thesun.ng/borno-youths-develop-affordable-local-foods-to-tackle-child-malnutrition/?utm_source=openai)) |\n\n| Pending / Not Yet Confirmed | Reason / Evidence Gap |\n|-----------------------------|-------------------------|\n| **Measured nutritional impact (e.g. number of malnourished children treated, change in malnutrition rates, scale of distribution)** | No data provided in any source yet. |\n| **Long-term plans for scaling up production / deployment of these foods beyond the contest** | Not specified; prize for winners mentioned, but follow-on institutionalization or adoption lacks detail. |\n| **Precise cost, price of the food products, or affordability metrics for communities** | Referred to as \"affordable\", but no numbers given. |\n\n---\n\n## Conclusions\n\n- **What *happened***: A youth-led initiative—“Youth-led Nutrition Challenge”—was launched by UNICEF and the Borno State government to encourage young innovators to design affordable, locally sourced nutritional foods for vulnerable children and pregnant women. The innovations from this challenge were unveiled in Maiduguri in November 2026 (around World Children’s Day).  \n\n- **What is not yet demonstrated**: The initiative has not yet reported outcomes such as how many children benefited, any improvement in nutritional status, or whether these foods will be produced and distributed at scale. As of now, the event is at the **launch/unveiling stage**, not completed rollout.\n\n---\n\nIf you want, I can try to find follow-up reports in coming weeks to see whether outcomes have been tracked or published.",
+      "citations": [
+        {
+          "title": "Borno youths develop affordable local foods to tackle child malnutrition – The Sun Nigeria",
+          "url": "https://thesun.ng/borno-youths-develop-affordable-local-foods-to-tackle-child-malnutrition/?utm_source=openai"
+        },
+        {
+          "title": "UNICEF launches youth nutrition challenge in Borno",
+          "url": "https://punchng.com/unicef-urges-youth-to-invent-local-food-nutrition-for-mothers-children/?utm_source=openai"
+        },
+        {
+          "title": "Unicef, Borno govt launch youth-led awareness to fight acute-malnurtrition – Businessday NG",
+          "url": "https://businessday.ng/news/article/unicef-borno-govt-launch-youth-led-awareness-to-fight-acute-malnurtrition/?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "unsupported",
+      "outcome_status": "announcement",
+      "evidence_quality": "medium",
+      "independence": "multiple_independent",
+      "significance": "medium",
+      "verified_headline": "Borno youths unveil local foods to combat child malnutrition",
+      "verified_summary": "Borno youths introduced locally produced nutritious foods at a UNICEF-led event aimed at addressing child malnutrition. However, no measurable outcomes or impacts have been reported yet.",
+      "verification_note": "The initiative is in the launch phase with no evidence of achieved outcomes or measurable impact on child malnutrition.",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "1cf34c9bb06754",
       "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "responses_web_search",
       "search_model": "gpt-6-luna",
-      "research_notes": "### Research note\n\n- **What happened:** On **November 18, 2026**, The Conservation Fund announced it had purchased a **permanent conservation easement covering 47,473 acres** near Point Lay, Alaska, from the Cully Corporation, an Alaska Native village corporation. The easement is intended to protect the land—including walrus haulout areas—from development and reduce human disturbance. The land remains owned by Cully Corporation; the deal protects specified uses rather than creating a public wildlife refuge. ([conservationfund.org](https://www.conservationfund.org/our-impact/press-room/the-conservation-fund-permanently-protects-critical-pacific-walrus-habitat/?utm_source=openai))\n- **Walrus figure and context:** The “more than 200,000” figure describes walruses said to use the Point Lay haulout; it is not a count of walruses newly protected by the easement. The Conservation Fund’s announcement is the source for that site-specific figure. A 2025 peer-reviewed study reported a separate 2022 herd estimate of **184,000**, with a **90% prediction interval of 153,000–214,000**—not a new measurement of the Point Lay site in 2026. ([conservationfund.org](https://www.conservationfund.org/our-impact/press-room/the-conservation-fund-permanently-protects-critical-pacific-walrus-habitat/?utm_source=openai))\n- **Outcome versus intent:** The easement purchase is a completed land-protection transaction, according to the Fund. Reduced disturbance and protection of walrus habitat are intended effects, not measured outcomes reported in the announcement. CNN’s report also quotes a marine scientist cautioning that land cannot fully replace the sea-ice habitat walruses are losing. ([conservationfund.org](https://www.conservationfund.org/our-impact/press-room/the-conservation-fund-permanently-protects-critical-pacific-walrus-habitat/?utm_source=openai))\n- **Source overlap:** The Conservation Fund is the primary source for the agreement and acreage. The Times of India headline appears to describe that same announcement; multiple other outlets reproduce a CNN Newsource report, so those should not be treated as wholly independent confirmations. Alaska News separately reports the easement transaction and clarifies that it is an easement purchase, not a transfer of the land. ([conservationfund.org](https://www.conservationfund.org/our-impact/press-room/the-conservation-fund-permanently-protects-critical-pacific-walrus-habitat/?utm_source=openai))",
+      "research_notes": "**Research note — Denison, Texas**\n\n- **Completed event:** KXII reported that the Rucker family served **more than 900 free meals on Saturday, November 21, 2026**, at a community dinner in Denison. The station says the tradition began 50 years earlier with Thomas Rucker Jr. and a single turkey. The 900-plus figure is reported by KXII; I found no separate count or documentation verifying it. ([kxii.com](https://www.kxii.com/2026/11/22/denison-family-serves-more-than-900-free-community-meal50-years-after-it-began/?outputType=amp&utm_source=openai))\n- **Independent coverage:** KTEN separately reported on the family’s 50-year Thanksgiving tradition, but the accessible report does not independently confirm the 900-plus total. Its coverage appears to concern the same event, not a separate meal. ([intelligentrelations.com](https://www.intelligentrelations.com/publication/kten-com/?utm_source=openai))\n- **Source overlap:** Denison Weekly’s advance notice cites both KXII and KTEN; it is not independent confirmation of the post-event meal count. ([denisonweekly.news](https://denisonweekly.news/article/rucker-family-s-free-community-meal-marks-its-50th-year-saturday-on-north-fannin?utm_source=openai))\n- **Assessment:** This was a completed community meal, not a launch or pledge. The reported turnout is a single-event figure; these sources do not establish a broader measured impact beyond the family’s ongoing tradition.",
       "citations": [
         {
-          "title": "The Conservation Fund Permanently Protects Critical Pacific Walrus Habitat - The Conservation Fund",
-          "url": "https://www.conservationfund.org/our-impact/press-room/the-conservation-fund-permanently-protects-critical-pacific-walrus-habitat/?utm_source=openai"
+          "title": "Denison family serves more than 900 at free community meal—50 years after it began",
+          "url": "https://www.kxii.com/2026/11/22/denison-family-serves-more-than-900-free-community-meal50-years-after-it-began/?outputType=amp&utm_source=openai"
+        },
+        {
+          "title": "KTEN.com - Preston Media Database - Intelligent Relations",
+          "url": "https://www.intelligentrelations.com/publication/kten-com/?utm_source=openai"
+        },
+        {
+          "title": "Rucker family's free community meal marks its 50th year Saturday on North Fannin | Denison",
+          "url": "https://denisonweekly.news/article/rucker-family-s-free-community-meal-marks-its-50th-year-saturday-on-north-fannin?utm_source=openai"
         }
       ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 287. Please try again in 383ms. Visit https://platform.op",
+      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 251. Please try again in 335ms. Visit https://platform.op",
       "search_error": "",
       "support": "partially_supported",
       "outcome_status": "completed",
       "evidence_quality": "medium",
       "independence": "likely_republication",
       "significance": "medium",
-      "verified_headline": "Conservation easement protects walrus habitat in Alaska",
-      "verified_summary": "The Conservation Fund has purchased a permanent conservation easement covering 47,473 acres near Point Lay, Alaska, to protect walrus haulout areas from development. However, the intended ecological benefits are not yet measured outcomes.",
-      "verification_note": "The easement purchase is completed, but the actual impact on walrus populations remains unmeasured. The primary source is the Conservation Fund, with limited independent verification.",
+      "verified_headline": "Denison family serves over 900 meals at community dinner",
+      "verified_summary": "The Rucker family served more than 900 free meals at a community dinner in Denison, Texas, marking a 50-year tradition. However, the reported meal count lacks independent verification.",
+      "verification_note": "The event was completed, but the meal count is based on reports without independent confirmation, limiting the evidence of broader impact.",
       "publish_recommendation": "reserve"
     }
   ],
