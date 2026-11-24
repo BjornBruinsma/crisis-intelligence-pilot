@@ -1,17 +1,19 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-24T01:27:14.919818Z",
-  "fingerprint": "79e9140eb14f206c7d447078",
-  "status": "complete",
-  "errors": [],
+  "last_attempt_utc": "2026-11-24T07:34:14.222440Z",
+  "fingerprint": "21e023aa205d9161511c9cea",
+  "status": "clustered",
+  "errors": [
+    "JSONDecodeError: Expecting ',' delimiter: line 156 column 1 (char 9600)"
+  ],
   "model": "gpt-4o-mini",
   "input_candidate_count": 24,
   "event_candidate_count": 22,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 2,
+    "model_pair_proposals": 3,
     "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 0,
+    "rejected_pair_proposals": 1,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
@@ -297,43 +299,8 @@
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 1,
+  "direct_official_match_count": 0,
   "events": [
-    {
-      "id": "7929cc830ed1d05c1d1c3049",
-      "label_nl": "Claim: Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id",
-      "headline_claim_ids": [
-        "7b646e9047a13a"
-      ],
-      "headline_claims": [
-        "Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xX0dtYlpzQ0VSR1ZqLWdHWHJCVm96N3hLN3dwc25lV2tyZjE2YWVSSVNkYkVWRW1tZ2VVNkJveHRqM3I3aFZacVlnQndPeTdUWUlBVmxqMllRRTZBcmE1YnN3?oc=5",
-        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzZ3lFaWFpcDlPSk54dWUtMGZYcTZLd0V2c05UQTJRVEU3YnVDdTNPNkc0LTRBTHFhYzFuM0NTQTlpSUgxVDFJRlBIWUtRaGVJY3hsNTFLVk5XeFhIVUlRQ0dBLWw1ZnM?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_bahrain:p1",
-        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel, including, but not limited to, organisations, businesses, facilities, ",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim dat Iran doelwitten heeft aangegeven die verband houden met de VS, wat relevant is voor de bewering over aanvallen op Amerikaanse bases.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
-      "verified_event": false,
-      "probability_estimate": null
-    },
     {
       "id": "c6388eb01f092c56565b7a0f",
       "label_nl": "Claim: Iran Strikes 3 Tankers In Strait Of Hormuz, Shows Off New Missile Launchers - New Telegraph",
@@ -364,19 +331,19 @@
       "probability_estimate": null
     },
     {
-      "id": "724ef67cb0d45f993994e5a9",
+      "id": "edb7498c63ac48296694c42c",
       "label_nl": "Claim: Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos",
       "headline_claim_ids": [
         "c72ce900964c10",
-        "121147f4f37ed3"
+        "1d9c4b866ddb24"
       ],
       "headline_claims": [
         "Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos",
-        "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began - Egypt Independent"
+        "Attacks on Ships in Strait of Hormuz Reach Highest Level Since Iran War Began - Pakistan Matters"
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWHRGNHdBbkpIa3IyWTlmV2l5aDVwZ0pLUE1WRzhIVjRqM3p4c3ZsSWNtaVo4YnU4WHBwbUREbzJoX1VzeENVb0xFclVKaW9HY2lVb2lxRnFzWUhNb3RvTDlPYjRfUTVWOUU1dHJ4b2lfZGNPV3h0SGZfdEJLX3NacWxLam1QV1pnb08xRVFDei1OaFZIQXduTmJjbkNqYXFuaGk4a3p4OE5YR0HSAbABQVVfeXFMT3JyZk0yRTFISFBvWF9WMnZrUnp2NHBtMG9pRHo2OUlfaHd0QkZOWmEwWjJLMHJMdlMxal9WQ0lfU1pyd0RLejdCaEtWS2tGUGoyN0ZDVFJOWUZoR3RBQjBsUS1RV2xWcGlVSWNsd3c5aTR5a0dMWkUtMWtVeV95ajVhMkJBc0FrdVo3OWlmVUlPY2tLRU5VWmwtQzRKTXktQnBYVHpSN2k1U2xwUDJVdHU?oc=5",
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQallDOXNRVXVqbnE2MGsybWVsZ0c2ZGdTMDlJeGVnYTI5MkQySmcwNVBxM29QLTg5WWNvalhNaDVBdl8zSEJMb3pHZEhqQTM0YWN0eG1LamREQzNzOFdCZzNRTm5IR1REYkt4emVxMjRudGR3WUs0ajE2QzF4WGJHemlCeDlreWQtdHVOekpSb0k1QU1iMXVfMHlaUkxud1JsdkJQVG84TUt1c1FMRjczUlFTWG1hUjJLLVByN1JkbnJIUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTnllWVRnOEstenpEYnZxNy1KTmJpSzJQWHpPV2taai1EZGhKNnNlUUhfOXZGV092aVAwWXlaM25NcXZ4cGFaNWh0QXRtak9Dal9PNGlCckdFa1ZPdXBFVVI1elFQQzNxM1hXZC05R25hTjNDdjI1XzBYeW8zekRLWFI0cVFqMUxMVndSZGxIY2ZzMnBlemgtR3RDTVZaam1QTnZGRi1GdGxPQURSTWJkRDNkUkdpWEVUYU1z?oc=5"
       ],
       "article_group_count": 2,
       "news_url_count": 2,
@@ -387,6 +354,33 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "7929cc830ed1d05c1d1c3049",
+      "label_nl": "Claim: Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id",
+      "headline_claim_ids": [
+        "7b646e9047a13a"
+      ],
+      "headline_claims": [
+        "Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xX0dtYlpzQ0VSR1ZqLWdHWHJCVm96N3hLN3dwc25lV2tyZjE2YWVSSVNkYkVWRW1tZ2VVNkJveHRqM3I3aFZacVlnQndPeTdUWUlBVmxqMllRRTZBcmE1YnN3?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzZ3lFaWFpcDlPSk54dWUtMGZYcTZLd0V2c05UQTJRVEU3YnVDdTNPNkc0LTRBTHFhYzFuM0NTQTlpSUgxVDFJRlBIWUtRaGVJY3hsNTFLVk5XeFhIVUlRQ0dBLWw1ZnM?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
       "primary_evidence": null,
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
@@ -499,32 +493,6 @@
       "probability_estimate": null
     },
     {
-      "id": "f945dcd7bd70d51775d7f2c9",
-      "label_nl": "Claim: Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit",
-      "headline_claim_ids": [
-        "b31e14151604c6"
-      ],
-      "headline_claims": [
-        "Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94b0tDYVRLNXRfbFRlb3diNnRUNzUxOG0yN0FWZy11Q2lOd3VIUjJxeE13VUl3bXJrN0N3cm9zZHBickx2SGx0cmtLZmIyX0p0RUhiUQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "97361ea04c61a12479e71e63",
       "label_nl": "Claim: Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
       "headline_claim_ids": [
@@ -578,16 +546,16 @@
       "probability_estimate": null
     },
     {
-      "id": "b2087a8aeb9f3402ed902bc7",
-      "label_nl": "Claim: Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News",
+      "id": "4db199510dffe4089923bfac",
+      "label_nl": "Claim: Qatar PM’s visit to Washington part of attempt to revive US-Iran ceasefire talks - Bangladesh Post",
       "headline_claim_ids": [
-        "dcfe9c1e6228af"
+        "5ad002ab6284ed"
       ],
       "headline_claims": [
-        "Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News"
+        "Qatar PM’s visit to Washington part of attempt to revive US-Iran ceasefire talks - Bangladesh Post"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXBNY2dwblQ2ajRXOHZqQjJPOXVpTlRpLW80aFZackZ6UmJJeDRUWHFMOGNtMWZialgxa3JxU0hVMDRIODM4UWE1ZHBPenFZc1VtMzVLLVJxLVdycThvZjNSR2g5LTF3d1U1NFlJdkVXc1MtMjhLVHlxTG1uY2FUTjJFaDBWaDVONldTRnZRRktjRHFxU05hNFFPUXE0aVY4WWVRelZETnVLcU1qeTdJRDJQTGZFZnox?oc=5"
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMTI3NFM5bllPQzd2YlV1MVVqY1VlY2JNMU1KTFY2cG9qclV0RnEyUC1sRnBVWEZRU2hnazFMalYzbEw2WG1zenR5SV9kOHRDSFZMbERXclZmcW9SRlg2Y3N1MjBESmgxQkRNZkFTQ2UtWW1hdzFHdHNHbE5NQUpzdXhHNV9nQWVsa0xZMkdZZ3ZjeXpfMV9UZUpfNDBiZUc2YlJVam9rVG1CcW5tZURkb3lBNTlzMW1ibEtPZg?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -737,16 +705,16 @@
       "probability_estimate": null
     },
     {
-      "id": "ba938b55c5c5dd4e3116d7b0",
-      "label_nl": "Claim: Israel fears UN resolution protecting mediators could restrict its ability to assassinate negotiators - Middle East Monitor",
+      "id": "b2087a8aeb9f3402ed902bc7",
+      "label_nl": "Claim: Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News",
       "headline_claim_ids": [
-        "11ea1a49a16290"
+        "dcfe9c1e6228af"
       ],
       "headline_claims": [
-        "Israel fears UN resolution protecting mediators could restrict its ability to assassinate negotiators - Middle East Monitor"
+        "Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTlUwMkU0YjhOQ0NHUkxqT0RoUzlFRkVneWlVdkozNWc3eUZlY0R2alJ5VV9EREtQVjR6blNKZDFUVldwa21oenp3MndZUDlHYk5oTjdBcDRrNC1vcEZmekVoMEdjNzBvaDBPZUFDU3U4Wm82THZ1VXVTcjdnMGZ0WFp6QVY3UzJzVU0tU3pqbjVpVzZsanBZNHZWQlpPUjd4TmkyR0U1VE5rbU9TRjBZMUFBVlpSUkxEcFVjZUJRLVFaSlFBczlGNHlvRmxZUTJYcFl0dzBLZTRBclFSTGfSAeMBQVVfeXFMTmVCeEtiMENBMjE3REtYUkp0bHNxVnBFOTlIVkFHTXpyUGRsY296OG5lSndmZTMxRWpGZ0ZSLV9EV2lMNGNWdjc5aWhPNEZPb0xLY0V4WV9Xc3d1dzUwQUdHVTFJbGszb05sblFvUXVNaEdDQUMtZWRiRUFDYUZ0ci1HaWg0SVJMQkRzaGljLVRuUFJEdUV3SUhoVHhvdlJ3VjZKVHpRZjBDdzlnTmZDZm1yUk82dExucUhNQnllRzRyVjV1SlVQVFVLZ3FCWVBSSEVoMkF3OXh3ZkVzd0NSa1duOG8?oc=5"
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXBNY2dwblQ2ajRXOHZqQjJPOXVpTlRpLW80aFZackZ6UmJJeDRUWHFMOGNtMWZialgxa3JxU0hVMDRIODM4UWE1ZHBPenFZc1VtMzVLLVJxLVdycThvZjNSR2g5LTF3d1U1NFlJdkVXc1MtMjhLVHlxTG1uY2FUTjJFaDBWaDVONldTRnZRRktjRHFxU05hNFFPUXE0aVY4WWVRelZETnVLcU1qeTdJRDJQTGZFZnox?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -842,20 +810,45 @@
       "probability_estimate": null
     },
     {
-      "id": "3edc4a686cbdd8098d4a8229",
-      "label_nl": "Claim: Oil prices set for third straight weekly decline on strong Middle East export flows - Yahoo Finance",
+      "id": "ba938b55c5c5dd4e3116d7b0",
+      "label_nl": "Claim: Israel fears UN resolution protecting mediators could restrict its ability to assassinate negotiators - Middle East Monitor",
       "headline_claim_ids": [
-        "b9a5a4290d0f5b"
+        "11ea1a49a16290"
       ],
       "headline_claims": [
-        "Oil prices set for third straight weekly decline on strong Middle East export flows - Yahoo Finance"
+        "Israel fears UN resolution protecting mediators could restrict its ability to assassinate negotiators - Middle East Monitor"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdjEzd29VMWN4cDVjTDkxRTZEd0V0ZFgyMDVpb1VfRG9jaXBEY2ppakhnNUIyNXBDUzIyaVFCNVRXZ0R4OEJ2VklXempSMlFEbUNZRXlmLUh2MXhaQnZiekwwa2cwcjlnbEphYTJnYy1mV1hRVVV2OTRkelJHX3lnZg?oc=5",
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SV3VLcC1fUXZ3eUN2ckZpSzd3akdsSE55cFRrUEZFNDZtVUFxcDRCWng5dHB3XzBDaUliLUowaGdqdDVkaW5va25nUkx5OVc4UXZoVU9qem1NdWFUNndPWldTeXFhVnVo0gFuQVVfeXFMTXRDbE5XQlFpNEF3ZVBycUpzZXFqQXJOdmVWTWVlX2NWLTNPc2w2TEk5TVdEb3FSZTV3c1JpSEJpUTlaX1g3cVhfY0o1cnFZd2xLZm03ZkJWTjRCelpOU2V5bl9pYlk0RkJsZnQtS1E?oc=5"
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTlUwMkU0YjhOQ0NHUkxqT0RoUzlFRkVneWlVdkozNWc3eUZlY0R2alJ5VV9EREtQVjR6blNKZDFUVldwa21oenp3MndZUDlHYk5oTjdBcDRrNC1vcEZmekVoMEdjNzBvaDBPZUFDU3U4Wm82THZ1VXVTcjdnMGZ0WFp6QVY3UzJzVU0tU3pqbjVpVzZsanBZNHZWQlpPUjd4TmkyR0U1VE5rbU9TRjBZMUFBVlpSUkxEcFVjZUJRLVFaSlFBczlGNHlvRmxZUTJYcFl0dzBLZTRBclFSTGfSAeMBQVVfeXFMTmVCeEtiMENBMjE3REtYUkp0bHNxVnBFOTlIVkFHTXpyUGRsY296OG5lSndmZTMxRWpGZ0ZSLV9EV2lMNGNWdjc5aWhPNEZPb0xLY0V4WV9Xc3d1dzUwQUdHVTFJbGszb05sblFvUXVNaEdDQUMtZWRiRUFDYUZ0ci1HaWg0SVJMQkRzaGljLVRuUFJEdUV3SUhoVHhvdlJ3VjZKVHpRZjBDdzlnTmZDZm1yUk82dExucUhNQnllRzRyVjV1SlVQVFVLZ3FCWVBSSEVoMkF3OXh3ZkVzd0NSa1duOG8?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "cd9496d81af5cb1582ae0e77",
+      "label_nl": "Claim: Oil prices near three-month lows as rising supply offsets Hormuz threat - Yahoo Finance",
+      "headline_claim_ids": [
+        "678fd0f89a707a"
+      ],
+      "headline_claims": [
+        "Oil prices near three-month lows as rising supply offsets Hormuz threat - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR184MFAyM2tCU0RsVVp3YW9hMU8zM3pxUWVWTnl5aGZfRHdUUzVjQ2NmQ1Q2NG1VV3F4ZWxlTkJmMl9lU3lkcTd4cWIzdWpuQ21zRkpBMFQwbld2RmFCV0k2elhEb2lkSGRVRWp0N2lXdTlFbXFWeEd3OF9KQ3RPX1IxX1JSVUlFa1p1cw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -905,8 +898,8 @@
       "total_tokens": 38026
     },
     "2026-11-24": {
-      "requests": 3,
-      "total_tokens": 8267
+      "requests": 6,
+      "total_tokens": 11959
     }
   }
 }
