@@ -1,17 +1,17 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-23T19:15:10.725620Z",
-  "fingerprint": "09998725016a61d9df9825d8",
+  "last_attempt_utc": "2026-11-24T01:27:14.919818Z",
+  "fingerprint": "79e9140eb14f206c7d447078",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 23,
-  "event_candidate_count": 21,
+  "input_candidate_count": 24,
+  "event_candidate_count": 22,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
+    "model_pair_proposals": 2,
     "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 2,
+    "rejected_pair_proposals": 0,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-23T19:15:10.725620Z",
+    "recorded_at": "2026-11-24T01:27:14.919818Z",
     "groups": [
       {
         "ids": [
@@ -37,9 +37,9 @@
       },
       {
         "ids": [
-          "b31e14151604c6"
+          "dcfe9c1e6228af"
         ],
-        "label_nl": "Claim: Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit",
+        "label_nl": "Claim: Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News",
         "actor": "",
         "action": "",
         "place": "",
@@ -125,15 +125,26 @@
       },
       {
         "ids": [
-          "121147f4f37ed3",
-          "d526ebd7e8aeb3"
+          "d22ec47b82c48f",
+          "0c9d7ab5292b4c"
         ],
-        "label_nl": "Claim: Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began - Egypt Independent",
+        "label_nl": "Claim: Iran Strikes 3 Tankers In Strait Of Hormuz, Shows Off New Missile Launchers - New Telegraph",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
         "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+      },
+      {
+        "ids": [
+          "11ea1a49a16290"
+        ],
+        "label_nl": "Claim: Israel fears UN resolution protecting mediators could restrict its ability to assassinate negotiators - Middle East Monitor",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -159,9 +170,9 @@
       },
       {
         "ids": [
-          "d594355e013762"
+          "d526ebd7e8aeb3"
         ],
-        "label_nl": "Claim: Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
+        "label_nl": "Claim: Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert - Gulf News",
         "actor": "",
         "action": "",
         "place": "",
@@ -181,21 +192,9 @@
       },
       {
         "ids": [
-          "3a865ee9c32af7",
-          "c72ce900964c10"
+          "ef8f55e79cc200"
         ],
-        "label_nl": "Claim: هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
-      },
-      {
-        "ids": [
-          "60645877f7c412"
-        ],
-        "label_nl": "Claim: Middle East latest: New attacks have failed, claims Trump, as Iran imposes power cuts - The National",
+        "label_nl": "Claim: 巴林称伊朗袭击工业设施 霍峡有两艘油轮遭攻击 - 诗华日报",
         "actor": "",
         "action": "",
         "place": "",
@@ -204,9 +203,9 @@
       },
       {
         "ids": [
-          "12f9d0e075cfa5"
+          "b31e14151604c6"
         ],
-        "label_nl": "Claim: DW News. . Iran is openly threatening European countries with missile attacks and clandestine operations if the US bombs again. How big of a threat is the Islamic Republic really for Europe? #dwgeopolitics",
+        "label_nl": "Claim: Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit",
         "actor": "",
         "action": "",
         "place": "",
@@ -226,9 +225,9 @@
       },
       {
         "ids": [
-          "ba90122f657ad0"
+          "b9a5a4290d0f5b"
         ],
-        "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
+        "label_nl": "Claim: Oil prices set for third straight weekly decline on strong Middle East export flows - Yahoo Finance",
         "actor": "",
         "action": "",
         "place": "",
@@ -237,9 +236,9 @@
       },
       {
         "ids": [
-          "1f0fe72aa4c98f"
+          "2f92a7530b44f3"
         ],
-        "label_nl": "Claim: Oil's Iran war recovery masks a diesel shortage - Oman Observer",
+        "label_nl": "Claim: Three-Week Crude Pullback Tests Fragile Persian Gulf Supply Gains - Hart Energy",
         "actor": "",
         "action": "",
         "place": "",
@@ -248,9 +247,21 @@
       },
       {
         "ids": [
-          "4b97305c7138c5"
+          "c72ce900964c10",
+          "121147f4f37ed3"
         ],
-        "label_nl": "Claim: Pakistani among two injured in Iranian attacks, Bahrain says - Daily Times",
+        "label_nl": "Claim: Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+      },
+      {
+        "ids": [
+          "3a865ee9c32af7"
+        ],
+        "label_nl": "Claim: هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
         "actor": "",
         "action": "",
         "place": "",
@@ -260,7 +271,7 @@
     ],
     "input_claim_ids": [
       "7b646e9047a13a",
-      "b31e14151604c6",
+      "dcfe9c1e6228af",
       "e71596ea79f752",
       "dd1a408a51dac8",
       "868a4166aae228",
@@ -268,100 +279,26 @@
       "dd1392117ea1ab",
       "a82ebb7b3814cf",
       "1bc239531e1f44",
-      "121147f4f37ed3",
+      "d22ec47b82c48f",
+      "11ea1a49a16290",
       "0f4405b361cf4f",
       "fd30f0d3d81bf6",
-      "d594355e013762",
       "d526ebd7e8aeb3",
       "5e0896f3a54f86",
-      "3a865ee9c32af7",
-      "60645877f7c412",
-      "12f9d0e075cfa5",
+      "ef8f55e79cc200",
+      "0c9d7ab5292b4c",
+      "b31e14151604c6",
       "08d1274ced6c48",
-      "ba90122f657ad0",
-      "1f0fe72aa4c98f",
+      "b9a5a4290d0f5b",
+      "2f92a7530b44f3",
       "c72ce900964c10",
-      "4b97305c7138c5"
+      "3a865ee9c32af7",
+      "121147f4f37ed3"
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 3,
+  "direct_official_match_count": 1,
   "events": [
-    {
-      "id": "9aacf089490cba4df9a8f128",
-      "label_nl": "Claim: Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began - Egypt Independent",
-      "headline_claim_ids": [
-        "121147f4f37ed3",
-        "d526ebd7e8aeb3"
-      ],
-      "headline_claims": [
-        "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began - Egypt Independent",
-        "Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert - Gulf News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQallDOXNRVXVqbnE2MGsybWVsZ0c2ZGdTMDlJeGVnYTI5MkQySmcwNVBxM29QLTg5WWNvalhNaDVBdl8zSEJMb3pHZEhqQTM0YWN0eG1LamREQzNzOFdCZzNRTm5IR1REYkt4emVxMjRudGR3WUs0ajE2QzF4WGJHemlCeDlreWQtdHVOekpSb0k1QU1iMXVfMHlaUkxud1JsdkJQVG84TUt1c1FMRjczUlFTWG1hUjJLLVByN1JkbnJIUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWC12eVNzX3JDYnB5TGd1NWZkX3NmMUdEM3FZcHN3SEhZdVVPVkVJU19OTWdkSTJxOU1JSW05MnFhTmVrcVM5MlMtTWF4U25rOFk2cG5WT1JOUldWWEdINUtLdTFnWHg5cFNsWVBpc2FrbHhma0hIMzBoYWZENUs0UmZEdzQtMEJ5RnZwbHNFTzdnQ3VIbXBKdVFLc3hqbXJvQVlfckd2dVRfVVhKR1dVczAzN1ZfaEoyQ3djQnFTSTFZY3BhZk5Jc3VxQjlrc3libkhlVDh2MEJBY3EyX0hB0gHyAUFVX3lxTFBCdlZ4VHFmM0RWUU9BLU5SYVVaZG9WVi1zMU9VU2pZYmtDTGRXMjZjdjJCaGhSY1JHdnZkQi1pdnZ2STR6cHpjX0V1ekZKZVFkZ1ZCSU1DQkpEQjc5WWk2dlB4YmhvRm1Gc3dXWU5ZSDFXaldzT3R6SWY5MGZHQXVYWndJQ01SSGZkbFc2VDB4UVVCMHVwU3h5Y012STJHOEVxZFJWLXdKOEFIVHQ2Q1dpU2EtdFo5b0RPVXV1Q21pVHhtaUx2RU5NOWFhUzNQUkl4MWI5cEZsTUZ6WmowektjYnZQRV83NEk0aGNXVzJveXh3?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de onvoorspelbaarheid in de regio, maar ondersteunt geen specifieke claim over aanvallen in de Straat van Hormuz.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "82b00a9d70fae44e0b154d10",
-      "label_nl": "Claim: هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
-      "headline_claim_ids": [
-        "3a865ee9c32af7",
-        "c72ce900964c10"
-      ],
-      "headline_claims": [
-        "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
-        "Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
-        "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5",
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWHRGNHdBbkpIa3IyWTlmV2l5aDVwZ0pLUE1WRzhIVjRqM3p4c3ZsSWNtaVo4YnU4WHBwbUREbzJoX1VzeENVb0xFclVKaW9HY2lVb2lxRnFzWUhNb3RvTDlPYjRfUTVWOUU1dHJ4b2lfZGNPV3h0SGZfdEJLX3NacWxLam1QV1pnb08xRVFDei1OaFZIQXduTmJjbkNqYXFuaGk4a3p4OE5YR0HSAbABQVVfeXFMT3JyZk0yRTFISFBvWF9WMnZrUnp2NHBtMG9pRHo2OUlfaHd0QkZOWmEwWjJLMHJMdlMxal9WQ0lfU1pyd0RLejdCaEtWS2tGUGoyN0ZDVFJOWUZoR3RBQjBsUS1RV2xWcGlVSWNsd3c5aTR5a0dMWkUtMWtVeV95ajVhMkJBc0FrdVo3OWlmVUlPY2tLRU5VWmwtQzRKTXktQnBYVHpSN2k1U2xwUDJVdHU?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de onvoorspelbaarheid in de regio, maar ondersteunt geen specifieke claim over aanvallen op olietankers.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
     {
       "id": "7929cc830ed1d05c1d1c3049",
       "label_nl": "Claim: Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id",
@@ -390,7 +327,7 @@
         "evidence_id": "uk_bahrain:p1",
         "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel, including, but not limited to, organisations, businesses, facilities, ",
         "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim dat Iran aanvallen heeft uitgevoerd op locaties die geassocieerd zijn met de VS, wat relevant is voor de bewering over aanvallen op Amerikaanse bases in Bahrein.",
+        "reason_nl": "Deze passage ondersteunt de claim dat Iran doelwitten heeft aangegeven die verband houden met de VS, wat relevant is voor de bewering over aanvallen op Amerikaanse bases.",
         "automatic_match_only": true
       },
       "research_status": "potential_primary_text_match_needs_review",
@@ -398,36 +335,60 @@
       "probability_estimate": null
     },
     {
-      "id": "f945dcd7bd70d51775d7f2c9",
-      "label_nl": "Claim: Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit",
+      "id": "c6388eb01f092c56565b7a0f",
+      "label_nl": "Claim: Iran Strikes 3 Tankers In Strait Of Hormuz, Shows Off New Missile Launchers - New Telegraph",
       "headline_claim_ids": [
-        "b31e14151604c6"
+        "d22ec47b82c48f",
+        "0c9d7ab5292b4c"
       ],
       "headline_claims": [
-        "Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit"
+        "Iran Strikes 3 Tankers In Strait Of Hormuz, Shows Off New Missile Launchers - New Telegraph",
+        "Iran strikes three oil tankers as it unveils new missile launcher - The Business Standard"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94b0tDYVRLNXRfbFRlb3diNnRUNzUxOG0yN0FWZy11Q2lOd3VIUjJxeE13VUl3bXJrN0N3cm9zZHBickx2SGx0cmtLZmIyX0p0RUhiUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOXFObWFsbzRhQlNaOWhZRDFSQTctb0tFU0FhSnVfMF9PVE8zRVRqN2x1SDJxa2Y0MVpaTU9FQmQyVG1BdGllV2ZwMTlnUC1kelR4SGp0UWZHN0xjUlVMcUN0V1BRMkZmdzJjZ1F5QUprY3lQbTZlMUxDeS1ONTZaeTlKZFl4aEdsRG5LTW8zNXBKTVFwVDIzYnZBTkt4R3E1N0dHcw?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM0MtUEhyd0J0Y3dueE1WRy0wOVhPOXlRc3VZQml2X1h2cEJyeVJYdVYwazlQSkNGMEhQUmctQ3dkTnFXdzhzZFFYZEZJRlJzUXdKdFlaSnRkcnd0cUk1cGsyNU9jM1ZYMWY3NnIwNk5mNm9ZYkJQcDVrS2xLbDItaU5lNy1aWE10S0U1eUpkR3czbFBTRDNxOTlJOXNHU0dUUHFrc3ozSlRQTlR2ZlE5V05DRndXdw?oc=5"
       ],
-      "article_group_count": 1,
-      "news_url_count": 1,
+      "article_group_count": 2,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
       "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel, including, but not limited to, organisations, businesses, facilities, ",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim dat Iran militaire acties overweegt tegen de VS als gesprekken mislukken.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "724ef67cb0d45f993994e5a9",
+      "label_nl": "Claim: Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos",
+      "headline_claim_ids": [
+        "c72ce900964c10",
+        "121147f4f37ed3"
+      ],
+      "headline_claims": [
+        "Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos",
+        "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began - Egypt Independent"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWHRGNHdBbkpIa3IyWTlmV2l5aDVwZ0pLUE1WRzhIVjRqM3p4c3ZsSWNtaVo4YnU4WHBwbUREbzJoX1VzeENVb0xFclVKaW9HY2lVb2lxRnFzWUhNb3RvTDlPYjRfUTVWOUU1dHJ4b2lfZGNPV3h0SGZfdEJLX3NacWxLam1QV1pnb08xRVFDei1OaFZIQXduTmJjbkNqYXFuaGk4a3p4OE5YR0HSAbABQVVfeXFMT3JyZk0yRTFISFBvWF9WMnZrUnp2NHBtMG9pRHo2OUlfaHd0QkZOWmEwWjJLMHJMdlMxal9WQ0lfU1pyd0RLejdCaEtWS2tGUGoyN0ZDVFJOWUZoR3RBQjBsUS1RV2xWcGlVSWNsd3c5aTR5a0dMWkUtMWtVeV95ajVhMkJBc0FrdVo3OWlmVUlPY2tLRU5VWmwtQzRKTXktQnBYVHpSN2k1U2xwUDJVdHU?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQallDOXNRVXVqbnE2MGsybWVsZ0c2ZGdTMDlJeGVnYTI5MkQySmcwNVBxM29QLTg5WWNvalhNaDVBdl8zSEJMb3pHZEhqQTM0YWN0eG1LamREQzNzOFdCZzNRTm5IR1REYkt4emVxMjRudGR3WUs0ajE2QzF4WGJHemlCeDlreWQtdHVOekpSb0k1QU1iMXVfMHlaUkxud1JsdkJQVG84TUt1c1FMRjczUlFTWG1hUjJLLVByN1JkbnJIUQ?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -453,16 +414,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_saudi:p7",
-        "exact_excerpt": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage bevestigt de claim dat de door Saudi-Arabië geleide strijdkrachten aanvallen uitvoeren op Jemen, wat relevant is voor de bewering over aanvallen op een haven.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -487,30 +440,22 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de algemene risico's in de Golfregio, maar niet specifiek de claim over de impact op de wereldwijde energie- en scheepvaart.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "ad199f77dc58dc3a8ea7a641",
-      "label_nl": "Claim: DW News. . Iran is openly threatening European countries with missile attacks and clandestine operations if the US bombs again. How big of a threat is the Islamic Republic really for Europe? #dwgeopolitics",
+      "id": "0e533722b9b7f64cd1c7c654",
+      "label_nl": "Claim: Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert - Gulf News",
       "headline_claim_ids": [
-        "12f9d0e075cfa5"
+        "d526ebd7e8aeb3"
       ],
       "headline_claims": [
-        "DW News. . Iran is openly threatening European countries with missile attacks and clandestine operations if the US bombs again. How big of a threat is the Islamic Republic really for Europe? #dwgeopolitics - Facebook"
+        "Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert - Gulf News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdjhYZHFjTTNnQWVNLTVnRHpOeFYyM2Q2YVpDUjByMkFabjVqV1RqdEVYZ1BmRzVjdjQteWlqY0daZ0g5aFd3LTNBQ1lpY09ZaGNHMk10aHBfRS1CdEVtanZhVkFHZ3VNUHI3UXAtUnNULUVDT2t4S2pCejJHSTlENzRwOGlpYzNVWGg0SXN2bUZQMzJsSmY3enpXZVV1NHFjZFdB?oc=5"
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWC12eVNzX3JDYnB5TGd1NWZkX3NmMUdEM3FZcHN3SEhZdVVPVkVJU19OTWdkSTJxOU1JSW05MnFhTmVrcVM5MlMtTWF4U25rOFk2cG5WT1JOUldWWEdINUtLdTFnWHg5cFNsWVBpc2FrbHhma0hIMzBoYWZENUs0UmZEdzQtMEJ5RnZwbHNFTzdnQ3VIbXBKdVFLc3hqbXJvQVlfckd2dVRfVVhKR1dVczAzN1ZfaEoyQ3djQnFTSTFZY3BhZk5Jc3VxQjlrc3libkhlVDh2MEJBY3EyX0hB0gHyAUFVX3lxTFBCdlZ4VHFmM0RWUU9BLU5SYVVaZG9WVi1zMU9VU2pZYmtDTGRXMjZjdjJCaGhSY1JHdnZkQi1pdnZ2STR6cHpjX0V1ekZKZVFkZ1ZCSU1DQkpEQjc5WWk2dlB4YmhvRm1Gc3dXWU5ZSDFXaldzT3R6SWY5MGZHQXVYWndJQ01SSGZkbFc2VDB4UVVCMHVwU3h5Y012STJHOEVxZFJWLXdKOEFIVHQ2Q1dpU2EtdFo5b0RPVXV1Q21pVHhtaUx2RU5NOWFhUzNQUkl4MWI5cEZsTUZ6WmowektjYnZQRV83NEk0aGNXVzJveXh3?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -521,30 +466,49 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de onvoorspelbaarheid in de regio, maar ondersteunt geen specifieke claim over dreigingen aan Europese landen.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "7913aaff5e81bd9954dbfde0",
-      "label_nl": "Claim: Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com",
+      "id": "739018109991f2cfec91a670",
+      "label_nl": "Claim: 巴林称伊朗袭击工业设施 霍峡有两艘油轮遭攻击 - 诗华日报",
       "headline_claim_ids": [
-        "ba90122f657ad0"
+        "ef8f55e79cc200"
       ],
       "headline_claims": [
-        "Iran intensifies attacks on oil tankers in Strait Of Hormuz as crude prices slide 20% - Moneycontrol.com"
+        "巴林称伊朗袭击工业设施 霍峡有两艘油轮遭攻击 - 诗华日报"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQY1JvWks1V2o1dUVqaW1KVTVuTF9qb2xXY0JsdDNnSEFVY0lRWW9tUFFMWUZxek5HN3ZNUGZFQ2tzWTlMWmRuU3VJOUhtVXZqc0JIaXFEUERiZnVqWmktVzhrNHNCZ0dxTWJHQ2RpMUNqeEt6YlVyMExVblhNTmp1NmRVNlFOdC1JVDVUT25zVG9BUF9qWURJTnVFREo5clZRT3o5bDJzLS1tMDBQZWppT1V4VmFkbkNuV0xZdm5qTGFuVzRpV1hIME1kTEV5QnpmSXpfczhLMlZ2UFhOcVE?oc=5"
+        "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAxZWhRangwX1lKUGZDRDF1OFozbjdESEgzb1lfdEZhbTZ5RFBSV3QzMzIzWXMxS3hzVHIwTFRDd1ZkZHZ3bEN2LXdHLTdsZw?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hMUl1VzlURmczSkJNRTNsZEpTRHNTV25zTm1WUkZBTENFdnNyVUR3UFViMk9YT3I2UnhEVVNiWUhxajg5aURKWHMzUV9BdWloZFp1V2d3ZXFHZm95aUdqbHhuUWo5YUFuMVlLdkV5NTlTSGRCQlVuQQ?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "f945dcd7bd70d51775d7f2c9",
+      "label_nl": "Claim: Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit",
+      "headline_claim_ids": [
+        "b31e14151604c6"
+      ],
+      "headline_claims": [
+        "Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94b0tDYVRLNXRfbFRlb3diNnRUNzUxOG0yN0FWZy11Q2lOd3VIUjJxeE13VUl3bXJrN0N3cm9zZHBickx2SGx0cmtLZmIyX0p0RUhiUQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -555,16 +519,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de onvoorspelbaarheid in de regio, maar ondersteunt geen specifieke claim over aanvallen op olietankers.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -595,6 +551,87 @@
       "probability_estimate": null
     },
     {
+      "id": "04ae2de0974f76bd01edcd1d",
+      "label_nl": "Claim: هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
+      "headline_claim_ids": [
+        "3a865ee9c32af7"
+      ],
+      "headline_claims": [
+        "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
+        "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "b2087a8aeb9f3402ed902bc7",
+      "label_nl": "Claim: Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News",
+      "headline_claim_ids": [
+        "dcfe9c1e6228af"
+      ],
+      "headline_claims": [
+        "Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXBNY2dwblQ2ajRXOHZqQjJPOXVpTlRpLW80aFZackZ6UmJJeDRUWHFMOGNtMWZialgxa3JxU0hVMDRIODM4UWE1ZHBPenFZc1VtMzVLLVJxLVdycThvZjNSR2g5LTF3d1U1NFlJdkVXc1MtMjhLVHlxTG1uY2FUTjJFaDBWaDVONldTRnZRRktjRHFxU05hNFFPUXE0aVY4WWVRelZETnVLcU1qeTdJRDJQTGZFZnox?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "562cbb789186122f5cfa353d",
+      "label_nl": "Claim: Oil holds in tight range as Gulf attacks sustain risk premium - The Express Tribune",
+      "headline_claim_ids": [
+        "dd1a408a51dac8"
+      ],
+      "headline_claims": [
+        "Oil holds in tight range as Gulf attacks sustain risk premium - The Express Tribune"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmYxUVN2b2xKQ3ZhbmxoUTJabFZiT2RpRTdmVzkwUzFma0hFZGJ3X0d4a3BhQWhnU2R5WFhRRDJxUm9aaERiTzdVcWNqbGV2RjBGRTI5Z19yZmc0WlVQTXdWZjFyNFlNelBpNHlSS25VVm42T3FHVGJSdDY0RlotSlhhYUlMR2FFS2NmbmhPZ1B6alI4aW05OWs5VWx2MUtBMGRFbnJVTdIBpwFBVV95cUxQQmYxUVN2b2xKQ3ZhbmxoUTJabFZiT2RpRTdmVzkwUzFma0hFZGJ3X0d4a3BhQWhnU2R5WFhRRDJxUm9aaERiTzdVcWNqbGV2RjBGRTI5Z19yZmc0WlVQTXdWZjFyNFlNelBpNHlSS25VVm42T3FHVGJSdDY0RlotSlhhYUlMR2FFS2NmbmhPZ1B6alI4aW05OWs5VWx2MUtBMGRFbnJVTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMUJkdk02MlpxSVRTb3ZwX3hmaFd6c1RBdFBhb0ItMmowcHpDdzFnaDFoaWZiMWNUNXVlRDZKdWZVMlJrSUdEYmNmV1N4OWlBOC1Ib0dXZ3c3TlZxUy1BX1RRZURkOTl3Sk1zV1ViN0JnMG5YVURMZDZKcTljM0RpNWNlcFVtM0ZwUUFFLS1reDZLa3p0M1FCQ2p6TFBDTEHSAacBQVVfeXFMUEJmMVFTdm9sSkN2YW5saFEyWmxWYk9kaUU3Zlc5MFMxZmtIRWRid19HeGtwYUFoZ1NkeVhYUUQycVJvWmhEYk83VXFjamxldkYwRkUyOWdfcmZnNFpVUE13VmYxcjRZTXpQaTR5UktuVVZuNk9xR1RiUnQ2NEZaLUpYYWFJTEdhRUtjZm5oT2dQempSOGltOTlrOVVsdjFLQTBkRW5yVU0?oc=5",
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQkZ6X3VSZlAyQ2ppSkp0STBBVk1NMzkwXy1Ec1Z6ZEM3M284VjUtMExKU0xiM1ZxNjVMSHlseS1uRHY1NDhYd0xyaHlDYlFacmFaR2pQQkZtM2JLeTM3UFo4UjVjazZNRF9OQXY0aFBRWWFWNTduMlZTS1BBUDJvdHNLOEtNTWFaUkF2eA?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 3,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "4d6dd05109d9a865a41a64c0",
       "label_nl": "Claim: Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스",
       "headline_claim_ids": [
@@ -615,16 +652,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage verwijst naar de onvoorspelbaarheid in de regio, maar ondersteunt geen specifieke claim over de 'Donroe Doctrine'.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -649,16 +678,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_saudi:p7",
-        "exact_excerpt": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de dreiging van de Houthis, maar niet specifiek de claim over hun dreigementen tegen Saoedische havens.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -683,16 +704,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage verwijst naar de onvoorspelbaarheid in de regio, maar ondersteunt geen specifieke claim over de economische situatie in Iran.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -718,171 +731,25 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de algemene risico's, maar niet specifiek de claim over Trump die over aanvallen op Iran spreekt.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "4ec32dec7d080f9d668c2f86",
-      "label_nl": "Claim: Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com",
+      "id": "ba938b55c5c5dd4e3116d7b0",
+      "label_nl": "Claim: Israel fears UN resolution protecting mediators could restrict its ability to assassinate negotiators - Middle East Monitor",
       "headline_claim_ids": [
-        "d594355e013762"
+        "11ea1a49a16290"
       ],
       "headline_claims": [
-        "Middle East Oil Refineries Could Ramp Up Output in 40-60 Days From End of Crisis, Vitol Bahrain Says - EnergyNow.com"
+        "Israel fears UN resolution protecting mediators could restrict its ability to assassinate negotiators - Middle East Monitor"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUGVBN1EyZ0xKOURvRndfTkhLMkZWNW5seHVaNGNvWE9TV0dJa0hjQ05ZQzA3TGlpQWk0R2s1bnROQmVnamJ1YkFKM25sTGpIbmRldjRybW02YXlLMFcyNEs4VF9OYVBERUk2M3JLaEkwSGhKM244cTJ5WG5HNjRNTDU1eTQyZmd3TVhCZVczbWVreWd3WmJSS1IzRUl0VzUtYmxORER2U1pyQnJ2Z1F4UFhWRmlGWHdvZzRoRmpqeVZzdWNsaDdpTFBn?oc=5"
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTlUwMkU0YjhOQ0NHUkxqT0RoUzlFRkVneWlVdkozNWc3eUZlY0R2alJ5VV9EREtQVjR6blNKZDFUVldwa21oenp3MndZUDlHYk5oTjdBcDRrNC1vcEZmekVoMEdjNzBvaDBPZUFDU3U4Wm82THZ1VXVTcjdnMGZ0WFp6QVY3UzJzVU0tU3pqbjVpVzZsanBZNHZWQlpPUjd4TmkyR0U1VE5rbU9TRjBZMUFBVlpSUkxEcFVjZUJRLVFaSlFBczlGNHlvRmxZUTJYcFl0dzBLZTRBclFSTGfSAeMBQVVfeXFMTmVCeEtiMENBMjE3REtYUkp0bHNxVnBFOTlIVkFHTXpyUGRsY296OG5lSndmZTMxRWpGZ0ZSLV9EV2lMNGNWdjc5aWhPNEZPb0xLY0V4WV9Xc3d1dzUwQUdHVTFJbGszb05sblFvUXVNaEdDQUMtZWRiRUFDYUZ0ci1HaWg0SVJMQkRzaGljLVRuUFJEdUV3SUhoVHhvdlJ3VjZKVHpRZjBDdzlnTmZDZm1yUk82dExucUhNQnllRzRyVjV1SlVQVFVLZ3FCWVBSSEVoMkF3OXh3ZkVzd0NSa1duOG8?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de onvoorspelbaarheid in de regio, maar ondersteunt geen specifieke claim over olieproductie.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "10cc0c6d19ba196d9f1a5e27",
-      "label_nl": "Claim: The most obvious cost of the US-Iran economic confrontation. - Vietnam.vn",
-      "headline_claim_ids": [
-        "5e0896f3a54f86"
-      ],
-      "headline_claims": [
-        "The most obvious cost of the US-Iran economic confrontation. - Vietnam.vn"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihgFBVV95cUxPckMxb2FaYmFyWTVHTEM2dkZJV090eTNnUGRzUTdZWG5CcXBPNFQxeTNZRC1YT1NrMjN3ZG50cW9CeUtYMGhJQnpMMUFQMThMemwyaklLNnBlQVlxRnk1NldTQ3I0TFlvdGo0WllxUUJKXzE1cEdZc1RQX2dzaFpNVll0OXFHZw?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de algemene risico's, maar niet specifiek de claim over de kosten van de economische confrontatie met de VS.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "f0a3ac84ae99e7e481442e1f",
-      "label_nl": "Claim: Middle East latest: New attacks have failed, claims Trump, as Iran imposes power cuts - The National",
-      "headline_claim_ids": [
-        "60645877f7c412"
-      ],
-      "headline_claims": [
-        "Middle East latest: New attacks have failed, claims Trump, as Iran imposes power cuts - The National"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZDlXbXpiU2cwRGZTckR6TUc1RXMyUlBoS1hGd0NBdmEzYTZOQ3hLdElPbkVlU1lfX2g3RGJ4UnZVOFRCY3drMURtdGRBU1FCcDdRVm1RVkNZRS1GRlVUOHhqYmxPRXlvM1FIUzk2ejU4N0xrRW5VOWVZVUVmVFUwTEp3?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de algemene risico's, maar niet specifiek de claim over de situatie in Iran.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "facba582b42d24943c79c474",
-      "label_nl": "Claim: Oil's Iran war recovery masks a diesel shortage - Oman Observer",
-      "headline_claim_ids": [
-        "1f0fe72aa4c98f"
-      ],
-      "headline_claims": [
-        "Oil's Iran war recovery masks a diesel shortage - Oman Observer"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQandTTUJIVFd6NU5PclZJQlFfOWVSNEo5QjVUMlZqOE5hX1oxTDd1REV5OTdiWjJkdDNxYjRFQnFsRi1yMTdMTktjWU5NSEZ2NXNpZnMzWVZVQnFyUERXaU5xU05Bc3BZMVNiWVhRUXZBZFRyRWtpQndQbFFoZDBsWVg2LVlwbkF2bjFmeVRha3IzWWJoeDJJTU5zemllQThDMUQzRzEtYVhGX03SAVpBVV95cUxPLURKbm5VUHJBVkdpdTRMVWthN3RtMmhINmE2a0xJZ1AxeUF0NDFuWmpiRmh5cFpLcFFjV1lpQmJaNF93cTlaYWljeVR2NmJKdnBxWUZESHBnS3c?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage bevestigt de algemene risico's, maar niet specifiek de claim over de olieoorlog.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "562cbb789186122f5cfa353d",
-      "label_nl": "Claim: Oil holds in tight range as Gulf attacks sustain risk premium - The Express Tribune",
-      "headline_claim_ids": [
-        "dd1a408a51dac8"
-      ],
-      "headline_claims": [
-        "Oil holds in tight range as Gulf attacks sustain risk premium - The Express Tribune"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmYxUVN2b2xKQ3ZhbmxoUTJabFZiT2RpRTdmVzkwUzFma0hFZGJ3X0d4a3BhQWhnU2R5WFhRRDJxUm9aaERiTzdVcWNqbGV2RjBGRTI5Z19yZmc0WlVQTXdWZjFyNFlNelBpNHlSS25VVm42T3FHVGJSdDY0RlotSlhhYUlMR2FFS2NmbmhPZ1B6alI4aW05OWs5VWx2MUtBMGRFbnJVTdIBpwFBVV95cUxQQmYxUVN2b2xKQ3ZhbmxoUTJabFZiT2RpRTdmVzkwUzFma0hFZGJ3X0d4a3BhQWhnU2R5WFhRRDJxUm9aaERiTzdVcWNqbGV2RjBGRTI5Z19yZmc0WlVQTXdWZjFyNFlNelBpNHlSS25VVm42T3FHVGJSdDY0RlotSlhhYUlMR2FFS2NmbmhPZ1B6alI4aW05OWs5VWx2MUtBMGRFbnJVTQ?oc=5",
-        "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMUJkdk02MlpxSVRTb3ZwX3hmaFd6c1RBdFBhb0ItMmowcHpDdzFnaDFoaWZiMWNUNXVlRDZKdWZVMlJrSUdEYmNmV1N4OWlBOC1Ib0dXZ3c3TlZxUy1BX1RRZURkOTl3Sk1zV1ViN0JnMG5YVURMZDZKcTljM0RpNWNlcFVtM0ZwUUFFLS1reDZLa3p0M1FCQ2p6TFBDTEHSAacBQVVfeXFMUEJmMVFTdm9sSkN2YW5saFEyWmxWYk9kaUU3Zlc5MFMxZmtIRWRid19HeGtwYUFoZ1NkeVhYUUQycVJvWmhEYk83VXFjamxldkYwRkUyOWdfcmZnNFpVUE13VmYxcjRZTXpQaTR5UktuVVZuNk9xR1RiUnQ2NEZaLUpYYWFJTEdhRUtjZm5oT2dQempSOGltOTlrOVVsdjFLQTBkRW5yVU0?oc=5",
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQkZ6X3VSZlAyQ2ppSkp0STBBVk1NMzkwXy1Ec1Z6ZEM3M284VjUtMExKU0xiM1ZxNjVMSHlseS1uRHY1NDhYd0xyaHlDYlFacmFaR2pQQkZtM2JLeTM3UFo4UjVjazZNRF9OQXY0aFBRWWFWNTduMlZTS1BBUDJvdHNLOEtNTWFaUkF2eA?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 3,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -949,16 +816,69 @@
       "probability_estimate": null
     },
     {
-      "id": "e6cd5ca19a7bbe364cf492f3",
-      "label_nl": "Claim: Pakistani among two injured in Iranian attacks, Bahrain says - Daily Times",
+      "id": "10cc0c6d19ba196d9f1a5e27",
+      "label_nl": "Claim: The most obvious cost of the US-Iran economic confrontation. - Vietnam.vn",
       "headline_claim_ids": [
-        "4b97305c7138c5"
+        "5e0896f3a54f86"
       ],
       "headline_claims": [
-        "Pakistani among two injured in Iranian attacks, Bahrain says - Daily Times"
+        "The most obvious cost of the US-Iran economic confrontation. - Vietnam.vn"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPc1FoZW1UbkQtM2NyQ0VUcVVqSU9nVFJiLVVlclZmVjVOMlFEa0hpcVJjNkFsbUVSXzZmMTRRZTJlNExZRkpqMkhfVDVQbHI1czNYcnpmeERHbEU3MTk2NkNhanl5MXE2ZEx3NDNBNWh3Wjk5aUZWQkh6REN4aDlobjg3X2RPc0lFSlZmRU9ndUpORWwzeG9hQ3J3?oc=5"
+        "https://news.google.com/rss/articles/CBMihgFBVV95cUxPckMxb2FaYmFyWTVHTEM2dkZJV090eTNnUGRzUTdZWG5CcXBPNFQxeTNZRC1YT1NrMjN3ZG50cW9CeUtYMGhJQnpMMUFQMThMemwyaklLNnBlQVlxRnk1NldTQ3I0TFlvdGo0WllxUUJKXzE1cEdZc1RQX2dzaFpNVll0OXFHZw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "3edc4a686cbdd8098d4a8229",
+      "label_nl": "Claim: Oil prices set for third straight weekly decline on strong Middle East export flows - Yahoo Finance",
+      "headline_claim_ids": [
+        "b9a5a4290d0f5b"
+      ],
+      "headline_claims": [
+        "Oil prices set for third straight weekly decline on strong Middle East export flows - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdjEzd29VMWN4cDVjTDkxRTZEd0V0ZFgyMDVpb1VfRG9jaXBEY2ppakhnNUIyNXBDUzIyaVFCNVRXZ0R4OEJ2VklXempSMlFEbUNZRXlmLUh2MXhaQnZiekwwa2cwcjlnbEphYTJnYy1mV1hRVVV2OTRkelJHX3lnZg?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SV3VLcC1fUXZ3eUN2ckZpSzd3akdsSE55cFRrUEZFNDZtVUFxcDRCWng5dHB3XzBDaUliLUowaGdqdDVkaW5va25nUkx5OVc4UXZoVU9qem1NdWFUNndPWldTeXFhVnVo0gFuQVVfeXFMTXRDbE5XQlFpNEF3ZVBycUpzZXFqQXJOdmVWTWVlX2NWLTNPc2w2TEk5TVdEb3FSZTV3c1JpSEJpUTlaX1g3cVhfY0o1cnFZd2xLZm03ZkJWTjRCelpOU2V5bl9pYlk0RkJsZnQtS1E?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "f13ab9dcf0c433541bf1a377",
+      "label_nl": "Claim: Three-Week Crude Pullback Tests Fragile Persian Gulf Supply Gains - Hart Energy",
+      "headline_claim_ids": [
+        "2f92a7530b44f3"
+      ],
+      "headline_claims": [
+        "Three-Week Crude Pullback Tests Fragile Persian Gulf Supply Gains - Hart Energy"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSTM5ZW5RZl9XeDlEUUlrR0N1anVWX3RwLS1qRGljRURWTk5iR016ZkZyUHJDMDlNcE8wdmtBTlJQMUkzN1Y2THBiWHI0ZlNjQkV5M2RfVkxmZGhNcVJjSXUtbk1EaUtDRUZyeHNyX1l1aVRnSENMNGg3d1E0cElPcExBVkRYRkdoUG81NzI0bmo0Z1ZoVVE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -976,10 +896,6 @@
     }
   ],
   "usage_by_day": {
-    "2026-11-21": {
-      "requests": 9,
-      "total_tokens": 25760
-    },
     "2026-11-22": {
       "requests": 12,
       "total_tokens": 34364
@@ -987,6 +903,10 @@
     "2026-11-23": {
       "requests": 12,
       "total_tokens": 38026
+    },
+    "2026-11-24": {
+      "requests": 3,
+      "total_tokens": 8267
     }
   }
 }

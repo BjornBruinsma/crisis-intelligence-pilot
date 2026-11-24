@@ -1,90 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-23T19:15:42.368012Z",
+  "last_attempt_utc": "2026-11-24T01:27:36.222591Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 21,
-  "active_checked": 6,
+  "active_total": 22,
+  "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "2622fbdcb7308c38ffb315a2": {
-      "event_id": "2622fbdcb7308c38ffb315a2",
-      "checked_at": "2026-11-10T07:24:26.783916Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over werkloosheid in Iran ondersteunen of weerleggen.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 1,
-      "official_link_candidates": 6,
-      "search_errors": [
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError",
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/make-a-sorn",
-          "title": "Register your vehicle as off the road (SORN) - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "You can get a duplicate log book (V5C) if your original one is lost, stolen, damaged or destroyed."
-        }
-      ]
-    },
-    "0fd2df9c4543885ff0556588": {
-      "event_id": "0fd2df9c4543885ff0556588",
-      "checked_at": "2026-11-08T07:15:20.767973Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
-          "original_document_title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
-          "source_date": "Oct. 25, 2026",
-          "retrieved_at": "2026-11-08T07:15:09.760834Z",
-          "exact_quote": "U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de betrokkenheid van de VS in de regio, maar ondersteunt niet de claim van een aanval op Iran.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "Er zijn geen directe bevestigingen van een Amerikaanse aanval op Iran, maar er zijn wel aanwijzingen van spanningen en betrokkenheid van de VS in de regio.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
-          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
-          "source_publication_date": "Oct. 25, 2026",
-          "text_excerpt": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/iran",
-          "title": "Iran travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
     "d79e1ff88f228707376f50bc": {
       "event_id": "d79e1ff88f228707376f50bc",
       "checked_at": "2026-11-08T07:15:20.767999Z",
@@ -3734,7 +3659,7 @@
     },
     "7929cc830ed1d05c1d1c3049": {
       "event_id": "7929cc830ed1d05c1d1c3049",
-      "checked_at": "2026-11-22T07:25:53.400980Z",
+      "checked_at": "2026-11-24T01:27:36.222540Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3743,15 +3668,26 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
           "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-22T07:25:46.195692Z",
+          "retrieved_at": "2026-11-24T01:27:24.170297Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage geeft aan dat Iran van plan is om locaties te targeten die geassocieerd zijn met de VS en Israël, maar bevestigt geen specifieke aanval op Amerikaanse bases in Bahrein.",
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten, maar bevestigt geen specifieke aanval op Amerikaanse bases in Bahrein.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-24T01:27:25.104968Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage herhaalt de intentie van Iran, maar biedt geen bewijs voor een specifieke aanval op Amerikaanse bases.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "Iran heeft aangegeven locaties te willen aanvallen die geassocieerd zijn met de VS, maar er zijn geen specifieke bevestigingen van aanvallen op Amerikaanse bases in Bahrein.",
+      "summary_nl": "De documenten vermelden de intentie van Iran om Amerikaanse en Israëlische locaties te targeten, maar er is geen bevestiging van een specifieke aanval op bases in Bahrein.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -4054,14 +3990,72 @@
           "text_excerpt": "​IMO has verified more than 130 attacks on internationally-trading commercial vessels in the Strait of Hormuz since 28 February 2026. At least 25 seafarers have lost their lives, with others missing or injured."
         }
       ]
+    },
+    "c6388eb01f092c56565b7a0f": {
+      "event_id": "c6388eb01f092c56565b7a0f",
+      "checked_at": "2026-11-24T01:27:36.222556Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De documenten vermelden aanvallen op commerciële schepen in de Straat van Hormuz, maar er is geen bewijs voor specifieke aanvallen door Iran op tankers.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week"
+        },
+        {
+          "url": "https://www.imo.org/en/MediaCentre/PressBriefings/pages/IMO-Secretary-General-calls-for-enforcement-of-maritime-rules.aspx",
+          "title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+          "source_publication_date": null,
+          "text_excerpt": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz"
+        }
+      ]
+    },
+    "724ef67cb0d45f993994e5a9": {
+      "event_id": "724ef67cb0d45f993994e5a9",
+      "checked_at": "2026-11-24T01:27:36.222563Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De documenten geven aan dat duizenden commerciële schepen de Straat van Hormuz zijn gepasseerd, maar bieden geen bewijs voor een toename van aanvallen sinds het begin van de oorlog.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 1,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: HTTPError",
+        "document: HTTPError",
+        "document: HTTPError",
+        "document: HTTPError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4633061/centcom-commander-visits-strait-of-hormuz-during-milestone-week/",
+          "title": "CENTCOM Commander Visits Strait of Hormuz during Milestone Week > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Oct. 25, 2026",
+          "text_excerpt": "STRAIT OF HORMUZ — The commander of U.S. Central Command (CENTCOM) visited the Strait of Hormuz, Oct. 25, as U.S. forces reach the milestone of assisting Gulf partners in exporting more than 1.5 billion barrels of crude oil since summer."
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-21": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 5675
-    },
     "2026-11-22": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -4071,6 +4065,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 6288
+    },
+    "2026-11-24": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 2085
     }
   },
   "last_error": null
