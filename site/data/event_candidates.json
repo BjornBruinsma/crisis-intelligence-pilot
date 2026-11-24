@@ -1,30 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-24T13:30:25.716289Z",
-  "fingerprint": "6e617f0c7b684bd5da4f0975",
-  "status": "clustered",
-  "errors": [
-    "JSONDecodeError: Expecting value: line 159 column 21 (char 9032)"
-  ],
+  "last_attempt_utc": "2026-11-24T19:13:43.292687Z",
+  "fingerprint": "42bbd591a1be74b47d92238e",
+  "status": "complete",
+  "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 24,
-  "event_candidate_count": 23,
+  "event_candidate_count": 22,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
     "model_pair_proposals": 4,
-    "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 3,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "accepted_pair_connections": 2,
+    "rejected_pair_proposals": 2,
+    "multi_claim_groups": 2,
+    "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-24T01:27:14.919818Z",
+    "recorded_at": "2026-11-24T19:13:43.292687Z",
     "groups": [
       {
         "ids": [
@@ -39,20 +37,9 @@
       },
       {
         "ids": [
-          "dcfe9c1e6228af"
+          "5ad002ab6284ed"
         ],
-        "label_nl": "Claim: Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "e71596ea79f752"
-        ],
-        "label_nl": "Claim: Saudi-led forces strike Yemen port as Houthis warn airlines off the kingdom - Reuters",
+        "label_nl": "Claim: Qatar PM’s visit to Washington part of attempt to revive US-Iran ceasefire talks - Bangladesh Post",
         "actor": "",
         "action": "",
         "place": "",
@@ -83,25 +70,15 @@
       },
       {
         "ids": [
-          "83a916f4a98d7b"
+          "a5143cd0eb2362",
+          "d526ebd7e8aeb3"
         ],
-        "label_nl": "Claim: Gulf tensions threaten global energy and shipping - News of Bahrain",
+        "label_nl": "Claim: Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "dd1392117ea1ab"
-        ],
-        "label_nl": "Claim: Houthis threaten Saudi ports if Hodeidah is attacked - The Siasat Daily",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -116,21 +93,10 @@
       },
       {
         "ids": [
-          "1bc239531e1f44"
+          "1bc239531e1f44",
+          "b31e14151604c6"
         ],
         "label_nl": "Claim: Trump inclined to resume strikes on Iran after New Year if no deal reached",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "d22ec47b82c48f",
-          "0c9d7ab5292b4c"
-        ],
-        "label_nl": "Claim: Iran Strikes 3 Tankers In Strait Of Hormuz, Shows Off New Missile Launchers - New Telegraph",
         "actor": "",
         "action": "",
         "place": "",
@@ -139,9 +105,9 @@
       },
       {
         "ids": [
-          "11ea1a49a16290"
+          "d736a8db72ae19"
         ],
-        "label_nl": "Claim: Israel fears UN resolution protecting mediators could restrict its ability to assassinate negotiators - Middle East Monitor",
+        "label_nl": "Claim: Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National",
         "actor": "",
         "action": "",
         "place": "",
@@ -150,9 +116,9 @@
       },
       {
         "ids": [
-          "0f4405b361cf4f"
+          "dcfe9c1e6228af"
         ],
-        "label_nl": "Claim: Saudi coalition issues Hodeida evacuation warning, sparking Houthi threats - Edition.mv",
+        "label_nl": "Claim: Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News",
         "actor": "",
         "action": "",
         "place": "",
@@ -161,9 +127,9 @@
       },
       {
         "ids": [
-          "fd30f0d3d81bf6"
+          "368fcd77de868a"
         ],
-        "label_nl": "Claim: Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
+        "label_nl": "Claim: Brent drops to $88, WTI at $79: Why oil is sliding despite Iran’s tanker attacks - Gulf News",
         "actor": "",
         "action": "",
         "place": "",
@@ -172,9 +138,20 @@
       },
       {
         "ids": [
-          "d526ebd7e8aeb3"
+          "af8aaa509cc2c4"
         ],
-        "label_nl": "Claim: Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert - Gulf News",
+        "label_nl": "Claim: Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "12244e42747426"
+        ],
+        "label_nl": "Claim: Houthi Warnings Move Insurers and Airlines Without a Strike on Jeddah - https://houseofsaud.com/",
         "actor": "",
         "action": "",
         "place": "",
@@ -205,9 +182,9 @@
       },
       {
         "ids": [
-          "b31e14151604c6"
+          "d3fabdb63765a0"
         ],
-        "label_nl": "Claim: Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit",
+        "label_nl": "Claim: Iran Escalates Gulf Attacks as US Strikes Qeshm Island - Demokratis.co.id",
         "actor": "",
         "action": "",
         "place": "",
@@ -216,9 +193,9 @@
       },
       {
         "ids": [
-          "08d1274ced6c48"
+          "11ea1a49a16290"
         ],
-        "label_nl": "Claim: Saudi coalition and Houthis exchange threats to bomb key ports - Al Jazeera",
+        "label_nl": "Claim: Israel fears UN resolution protecting mediators could restrict its ability to assassinate negotiators - Middle East Monitor",
         "actor": "",
         "action": "",
         "place": "",
@@ -227,9 +204,9 @@
       },
       {
         "ids": [
-          "b9a5a4290d0f5b"
+          "fd30f0d3d81bf6"
         ],
-        "label_nl": "Claim: Oil prices set for third straight weekly decline on strong Middle East export flows - Yahoo Finance",
+        "label_nl": "Claim: Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
         "actor": "",
         "action": "",
         "place": "",
@@ -238,9 +215,9 @@
       },
       {
         "ids": [
-          "2f92a7530b44f3"
+          "c40f4125adaf38"
         ],
-        "label_nl": "Claim: Three-Week Crude Pullback Tests Fragile Persian Gulf Supply Gains - Hart Energy",
+        "label_nl": "Claim: Hormuz roiled, but oil didn't boil: What crude's plot twist means for India - The Economic Times",
         "actor": "",
         "action": "",
         "place": "",
@@ -249,15 +226,14 @@
       },
       {
         "ids": [
-          "c72ce900964c10",
-          "121147f4f37ed3"
+          "83a916f4a98d7b"
         ],
-        "label_nl": "Claim: Strait of Hormuz attacks have increased to highest level since Iran war began - ABC News - Breaking News, Latest News and Videos",
+        "label_nl": "Claim: Gulf tensions threaten global energy and shipping - News of Bahrain",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -269,53 +245,104 @@
         "place": "",
         "event_date": null,
         "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "b92ce8b0b5f50b"
+        ],
+        "label_nl": "Claim: Iran’s Army Orders Hormuz Closed Further Each Day Until Conditions Met - https://houseofsaud.com/",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "3fcbf54324a888"
+        ],
+        "label_nl": "Claim: Oil touches three-month lows as rising supply offsets Hormuz threat - Yahoo Finance",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       }
     ],
     "input_claim_ids": [
       "7b646e9047a13a",
-      "dcfe9c1e6228af",
-      "e71596ea79f752",
+      "5ad002ab6284ed",
       "dd1a408a51dac8",
       "868a4166aae228",
-      "83a916f4a98d7b",
-      "dd1392117ea1ab",
+      "a5143cd0eb2362",
       "a82ebb7b3814cf",
       "1bc239531e1f44",
-      "d22ec47b82c48f",
-      "11ea1a49a16290",
-      "0f4405b361cf4f",
-      "fd30f0d3d81bf6",
-      "d526ebd7e8aeb3",
+      "d736a8db72ae19",
+      "dcfe9c1e6228af",
+      "368fcd77de868a",
+      "af8aaa509cc2c4",
+      "12244e42747426",
       "5e0896f3a54f86",
       "ef8f55e79cc200",
-      "0c9d7ab5292b4c",
-      "b31e14151604c6",
-      "08d1274ced6c48",
-      "b9a5a4290d0f5b",
-      "2f92a7530b44f3",
-      "c72ce900964c10",
+      "d3fabdb63765a0",
+      "11ea1a49a16290",
+      "fd30f0d3d81bf6",
+      "c40f4125adaf38",
+      "83a916f4a98d7b",
       "3a865ee9c32af7",
-      "121147f4f37ed3"
+      "b92ce8b0b5f50b",
+      "b31e14151604c6",
+      "3fcbf54324a888",
+      "d526ebd7e8aeb3"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "36b38ce7eb10f11e30dead3b",
-      "label_nl": "Claim: هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
+      "id": "91949a3f1e30d8b09a66b2d1",
+      "label_nl": "Claim: Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id",
       "headline_claim_ids": [
-        "3a865ee9c32af7",
-        "d22ec47b82c48f"
+        "a5143cd0eb2362",
+        "d526ebd7e8aeb3"
       ],
       "headline_claims": [
-        "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
-        "Iran Strikes 3 Tankers In Strait Of Hormuz, Shows Off New Missile Launchers - New Telegraph"
+        "Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id",
+        "Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert - Gulf News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
-        "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5",
-        "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOXFObWFsbzRhQlNaOWhZRDFSQTctb0tFU0FhSnVfMF9PVE8zRVRqN2x1SDJxa2Y0MVpaTU9FQmQyVG1BdGllV2ZwMTlnUC1kelR4SGp0UWZHN0xjUlVMcUN0V1BRMkZmdzJjZ1F5QUprY3lQbTZlMUxDeS1ONTZaeTlKZFl4aEdsRG5LTW8zNXBKTVFwVDIzYnZBTkt4R3E1N0dHcw?oc=5"
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RY0ZLeDhpLXFkS19QODZHSWtfSE1Qa2RZcWgxQ08taF9KR010SkZ6dTdBSEhwblc3X2hha193OEdkQXhrcG44RGtIbHV5RlN2SjVQakhsVlpOVFJTb3BPd2t3TXFnUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWC12eVNzX3JDYnB5TGd1NWZkX3NmMUdEM3FZcHN3SEhZdVVPVkVJU19OTWdkSTJxOU1JSW05MnFhTmVrcVM5MlMtTWF4U25rOFk2cG5WT1JOUldWWEdINUtLdTFnWHg5cFNsWVBpc2FrbHhma0hIMzBoYWZENUs0UmZEdzQtMEJ5RnZwbHNFTzdnQ3VIbXBKdVFLc3hqbXJvQVlfckd2dVRfVVhKR1dVczAzN1ZfaEoyQ3djQnFTSTFZY3BhZk5Jc3VxQjlrc3libkhlVDh2MEJBY3EyX0hB0gHyAUFVX3lxTFBCdlZ4VHFmM0RWUU9BLU5SYVVaZG9WVi1zMU9VU2pZYmtDTGRXMjZjdjJCaGhSY1JHdnZkQi1pdnZ2STR6cHpjX0V1ekZKZVFkZ1ZCSU1DQkpEQjc5WWk2dlB4YmhvRm1Gc3dXWU5ZSDFXaldzT3R6SWY5MGZHQXVYWndJQ01SSGZkbFc2VDB4UVVCMHVwU3h5Y012STJHOEVxZFJWLXdKOEFIVHQ2Q1dpU2EtdFo5b0RPVXV1Q21pVHhtaUx2RU5NOWFhUzNQUkl4MWI5cEZsTUZ6WmowektjYnZQRV83NEk0aGNXVzJveXh3?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "db90573f1621a3fa8ae34fa2",
+      "label_nl": "Claim: Trump inclined to resume strikes on Iran after New Year if no deal reached",
+      "headline_claim_ids": [
+        "1bc239531e1f44",
+        "b31e14151604c6"
+      ],
+      "headline_claims": [
+        "Trump inclined to resume strikes on Iran after New Year if no deal reached",
+        "Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit"
+      ],
+      "related_news_links": [
+        "https://aa.com.tr/en/americas/trump-inclined-to-resume-strikes-on-iran-after-new-year-if-no-deal-reached/4133792",
+        "https://www.middleeastmonitor.com/20261122-trump-inclined-to-resume-strikes-on-iran-after-new-year-if-no-deal-reached/",
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94b0tDYVRLNXRfbFRlb3diNnRUNzUxOG0yN0FWZy11Q2lOd3VIUjJxeE13VUl3bXJrN0N3cm9zZHBickx2SGx0cmtLZmIyX0p0RUhiUQ?oc=5"
       ],
       "article_group_count": 2,
       "news_url_count": 3,
@@ -359,94 +386,16 @@
       "probability_estimate": null
     },
     {
-      "id": "7eb004b4bf49dbcebcbdc8c4",
-      "label_nl": "Claim: Saudi-led forces strike Yemen port as Houthis warn airlines off the kingdom - Reuters",
+      "id": "e9cbe31f4a89473a7e12b187",
+      "label_nl": "Claim: Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National",
       "headline_claim_ids": [
-        "e71596ea79f752"
+        "d736a8db72ae19"
       ],
       "headline_claims": [
-        "Saudi-led forces strike Yemen port as Houthis warn airlines off the kingdom - Reuters"
+        "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQUE1UEFGeklRZGtscWJhNkdxRWpyWHkwQ29IcVQ1Umc2VHlkWlJGZzZPTC00SFl2a3J0SXY3TGo0X0t2a3A5ckMzbmtZXy1mYzdoa0F5Vmo1TGFaU1RIbEZHak5iTi1oRXhWWF9CbWZ2QWFLRG1HSG5Rc1dSbHZlaGNNSDlvZ2RiekJzbnpqMC1aektLZU1MSHBWN25PYURzUGduTjhURQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "478263b4cff579f31aa30898",
-      "label_nl": "Claim: Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id",
-      "headline_claim_ids": [
-        "a5143cd0eb2362"
-      ],
-      "headline_claims": [
-        "Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RY0ZLeDhpLXFkS19QODZHSWtfSE1Qa2RZcWgxQ08taF9KR010SkZ6dTdBSEhwblc3X2hha193OEdkQXhrcG44RGtIbHV5RlN2SjVQakhsVlpOVFJTb3BPd2t3TXFnUQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "149800af18beb91f258420ea",
-      "label_nl": "Claim: US and Iran Exchange Strikes Near Hormuz as Brent Posts 3rd Weekly Loss - https://houseofsaud.com/",
-      "headline_claim_ids": [
-        "7a0ca6920abfb3"
-      ],
-      "headline_claims": [
-        "US and Iran Exchange Strikes Near Hormuz as Brent Posts 3rd Weekly Loss - https://houseofsaud.com/"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ocE40RXJTREQtMDJERUNYRlVaRkZMUTdpR05zSm5vYTZ6Q3VUZ1ZYamtlYWRKWlNrcnJvTHUxZk9PY1dObVpJajVCbE40VkYxNF92ZmRnYU1KOElnYlVMdkFhYTBQN2RGU1BxMWZtRDY?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "25f5e474f2d52b7f61fc405f",
-      "label_nl": "Claim: Gulf tensions threaten global energy and shipping - News of Bahrain",
-      "headline_claim_ids": [
-        "83a916f4a98d7b"
-      ],
-      "headline_claims": [
-        "Gulf tensions threaten global energy and shipping - News of Bahrain"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa1JQN041Q3dseml3WHlNYjZpaVY0V3VSek1JOEdxN3pfN1hnWWRFbE85QVZPSnhZTzRCMElXNDFRN1hXcTlDRzg1S3hwTWZYdjNPYndwZU8yajJ0MlhVTHRGYUVvcWExbjBVM0VMMlZYYlJwMkNCb0tLU0oya3JYbjh1OHJKUFVJcFc2TkZ2ZWhXNVdD?oc=5"
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXhnd0U5NHV1U0V6RmlPTGhnMlM3WFFQWWdJQjlTRFBkVUJreHQ3VVZKZnFtNmNpTGZucTZrbHRzZHVmd0JlN3ljLWlIWU8wWUJuZ0V1ZHBVT2FuYVVpUTJnQ1MzSkg3V3VQcFd3VkItQUNLTDJtM0ZORHBKbWJZUllENjdhZzZuSzR2T3ItTlBvRnhSQ09HTQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -490,16 +439,16 @@
       "probability_estimate": null
     },
     {
-      "id": "c3f9ff2c7bb7bb21014aef10",
-      "label_nl": "Claim: Trump Reports Surge in Iranian Missile and Drone Attacks - www.suaralandak.co.id",
+      "id": "63c13bc7120a9b2078c0eada",
+      "label_nl": "Claim: Iran Escalates Gulf Attacks as US Strikes Qeshm Island - Demokratis.co.id",
       "headline_claim_ids": [
-        "d8018a24d3c98a"
+        "d3fabdb63765a0"
       ],
       "headline_claims": [
-        "Trump Reports Surge in Iranian Missile and Drone Attacks - www.suaralandak.co.id"
+        "Iran Escalates Gulf Attacks as US Strikes Qeshm Island - Demokratis.co.id"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3TlBaV2hxakJ4TEVmMFI0WlFmM19OaUxuMVlyQThCcWZqRXJUaWdrNGVGTzNsbkRrWW5pSTdTYmlCcmg4UnRwQkgtYjh2YVBsbDVWeGpPYWlKc0lYYVNyUGppVFg4VFk?oc=5"
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JM1F0dmVLTFBCVElmVTNCckZZMnNMSnljSUV1cGFhRFFqQWpfY2MwOXNERUtFbHRRMDNtWktOeDFaYktQekFUZnMtbFJPOWgteW9TbzZxbHNjR1RXejFCeHhLU1hRQTg4MF8w?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -516,16 +465,16 @@
       "probability_estimate": null
     },
     {
-      "id": "0e533722b9b7f64cd1c7c654",
-      "label_nl": "Claim: Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert - Gulf News",
+      "id": "25f5e474f2d52b7f61fc405f",
+      "label_nl": "Claim: Gulf tensions threaten global energy and shipping - News of Bahrain",
       "headline_claim_ids": [
-        "d526ebd7e8aeb3"
+        "83a916f4a98d7b"
       ],
       "headline_claims": [
-        "Iran attacks on Gulf shipping hit highest levels since conflict began: Why Strait of Hormuz is on alert - Gulf News"
+        "Gulf tensions threaten global energy and shipping - News of Bahrain"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWC12eVNzX3JDYnB5TGd1NWZkX3NmMUdEM3FZcHN3SEhZdVVPVkVJU19OTWdkSTJxOU1JSW05MnFhTmVrcVM5MlMtTWF4U25rOFk2cG5WT1JOUldWWEdINUtLdTFnWHg5cFNsWVBpc2FrbHhma0hIMzBoYWZENUs0UmZEdzQtMEJ5RnZwbHNFTzdnQ3VIbXBKdVFLc3hqbXJvQVlfckd2dVRfVVhKR1dVczAzN1ZfaEoyQ3djQnFTSTFZY3BhZk5Jc3VxQjlrc3libkhlVDh2MEJBY3EyX0hB0gHyAUFVX3lxTFBCdlZ4VHFmM0RWUU9BLU5SYVVaZG9WVi1zMU9VU2pZYmtDTGRXMjZjdjJCaGhSY1JHdnZkQi1pdnZ2STR6cHpjX0V1ekZKZVFkZ1ZCSU1DQkpEQjc5WWk2dlB4YmhvRm1Gc3dXWU5ZSDFXaldzT3R6SWY5MGZHQXVYWndJQ01SSGZkbFc2VDB4UVVCMHVwU3h5Y012STJHOEVxZFJWLXdKOEFIVHQ2Q1dpU2EtdFo5b0RPVXV1Q21pVHhtaUx2RU5NOWFhUzNQUkl4MWI5cEZsTUZ6WmowektjYnZQRV83NEk0aGNXVzJveXh3?oc=5"
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa1JQN041Q3dseml3WHlNYjZpaVY0V3VSek1JOEdxN3pfN1hnWWRFbE85QVZPSnhZTzRCMElXNDFRN1hXcTlDRzg1S3hwTWZYdjNPYndwZU8yajJ0MlhVTHRGYUVvcWExbjBVM0VMMlZYYlJwMkNCb0tLU0oya3JYbjh1OHJKUFVJcFc2TkZ2ZWhXNVdD?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -542,19 +491,20 @@
       "probability_estimate": null
     },
     {
-      "id": "f945dcd7bd70d51775d7f2c9",
-      "label_nl": "Claim: Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit",
+      "id": "04ae2de0974f76bd01edcd1d",
+      "label_nl": "Claim: هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
       "headline_claim_ids": [
-        "b31e14151604c6"
+        "3a865ee9c32af7"
       ],
       "headline_claims": [
-        "Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit"
+        "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94b0tDYVRLNXRfbFRlb3diNnRUNzUxOG0yN0FWZy11Q2lOd3VIUjJxeE13VUl3bXJrN0N3cm9zZHBickx2SGx0cmtLZmIyX0p0RUhiUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
+        "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -674,33 +624,6 @@
       "probability_estimate": null
     },
     {
-      "id": "e6cdd85c0837641c8119880f",
-      "label_nl": "Claim: Trump inclined to resume strikes on Iran after New Year if no deal reached",
-      "headline_claim_ids": [
-        "1bc239531e1f44"
-      ],
-      "headline_claims": [
-        "Trump inclined to resume strikes on Iran after New Year if no deal reached"
-      ],
-      "related_news_links": [
-        "https://aa.com.tr/en/americas/trump-inclined-to-resume-strikes-on-iran-after-new-year-if-no-deal-reached/4133792",
-        "https://www.middleeastmonitor.com/20261122-trump-inclined-to-resume-strikes-on-iran-after-new-year-if-no-deal-reached/"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "b2087a8aeb9f3402ed902bc7",
       "label_nl": "Claim: Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News",
       "headline_claim_ids": [
@@ -768,6 +691,32 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "2fd8d121a6679e93ef158a6a",
+      "label_nl": "Claim: Houthi Warnings Move Insurers and Airlines Without a Strike on Jeddah - https://houseofsaud.com/",
+      "headline_claim_ids": [
+        "12244e42747426"
+      ],
+      "headline_claims": [
+        "Houthi Warnings Move Insurers and Airlines Without a Strike on Jeddah - https://houseofsaud.com/"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd3M5YVRHSWp0cVZhdlk3YmpWdUItWENkVFM0WC1pV2dUcjRZRm1RSmwyZ3Z4TlJCVmZaNWhyYlRCYjdnZG8tbmpyNTNtbGhJNDNrVmtnTkVoWnVpUS05M0xtMWlsY3ZtaDBpcDdQRUpqM3VWSzB2UEU1SFlua0oxeEt3?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -885,16 +834,42 @@
       "probability_estimate": null
     },
     {
-      "id": "cd9496d81af5cb1582ae0e77",
-      "label_nl": "Claim: Oil prices near three-month lows as rising supply offsets Hormuz threat - Yahoo Finance",
+      "id": "927a41b2f1cd41b6f1d2493f",
+      "label_nl": "Claim: Iran’s Army Orders Hormuz Closed Further Each Day Until Conditions Met - https://houseofsaud.com/",
       "headline_claim_ids": [
-        "678fd0f89a707a"
+        "b92ce8b0b5f50b"
       ],
       "headline_claims": [
-        "Oil prices near three-month lows as rising supply offsets Hormuz threat - Yahoo Finance"
+        "Iran’s Army Orders Hormuz Closed Further Each Day Until Conditions Met - https://houseofsaud.com/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR184MFAyM2tCU0RsVVp3YW9hMU8zM3pxUWVWTnl5aGZfRHdUUzVjQ2NmQ1Q2NG1VV3F4ZWxlTkJmMl9lU3lkcTd4cWIzdWpuQ21zRkpBMFQwbld2RmFCV0k2elhEb2lkSGRVRWp0N2lXdTlFbXFWeEd3OF9KQ3RPX1IxX1JSVUlFa1p1cw?oc=5"
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE12OFNmcUdGY2lVamxuVXVzcXV6clQ1Q1hEYl9hQzFwUU5wMkk1cGlTcm1QQl93NDZEZ1dmUHF1LThHRlJwcGdpeXo4S0RITHlnM0hyaU9haVRjSjRfSlBmYl9MWnozVXM2bmc?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "59cc401bd8fc1a942ab86b65",
+      "label_nl": "Claim: Oil touches three-month lows as rising supply offsets Hormuz threat - Yahoo Finance",
+      "headline_claim_ids": [
+        "3fcbf54324a888"
+      ],
+      "headline_claims": [
+        "Oil touches three-month lows as rising supply offsets Hormuz threat - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JQXRsRU8yTmp3NVhXZG01VjNITkFnc3VjcndlUm5NYnYtNnR2TWJfLWs0cWl6UUo2UWdIV1I3UkkwaG14ZEpsT2tvNUxlc2pTc21LU1M1VTlhUXYyeVpjVndYb1FCNUtVWEJfRVZ6RDJOMXBWQzJzNXZRTlJTdw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -921,8 +896,8 @@
       "total_tokens": 38026
     },
     "2026-11-24": {
-      "requests": 9,
-      "total_tokens": 15743
+      "requests": 12,
+      "total_tokens": 25489
     }
   }
 }

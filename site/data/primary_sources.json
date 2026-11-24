@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-11-24T13:30:25.645293Z",
+  "last_attempt_utc": "2026-11-24T19:13:43.214768Z",
   "description": "Official-source texts and links, not automatic verification of events",
   "sources": [
     {
@@ -7,7 +7,7 @@
       "authority": "US Central Command",
       "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-24T13:30:19.508266Z",
+      "retrieved_at": "2026-11-24T19:13:20.380656Z",
       "status": "ok",
       "title": "US Central Command",
       "passages": [
@@ -58,7 +58,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/iran",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-24T13:30:19.220988Z",
+      "retrieved_at": "2026-11-24T19:13:20.654280Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -170,7 +170,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-24T13:30:19.229602Z",
+      "retrieved_at": "2026-11-24T19:13:20.414496Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -271,11 +271,23 @@
       "authority": "US Department of State",
       "url": "https://travel.state.gov/_res/rss/TAsTWs.xml",
       "kind": "official_rss",
-      "retrieved_at": "2026-11-24T13:30:19.266922Z",
+      "retrieved_at": "2026-11-24T19:13:20.369556Z",
       "status": "ok",
       "title": "US travel advice RSS (filtered: Middle East)",
       "passages": [],
       "links": [
+        {
+          "title": "Afghanistan - Level 4: Do Not Travel",
+          "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.afg.html",
+          "published": "Tue, 24 Nov 2026",
+          "excerpt": "Do not travel due to crime , wrongful detention , health , kidnapping , natural disasters , terrorism , and unrest . Do not travel to Afghanistan for any reason. We urge American citizens in Afghanistan to leave immediately. The U.S. Embassy in Kabul suspended operations in 2021. The U.S. government cannot provide routine or emergency consular services to U.S. citizens in Afghanistan. The United S"
+        },
+        {
+          "title": "Egypt - Level 2: Exercise Increased Caution",
+          "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.egy.html",
+          "published": "Tue, 24 Nov 2026",
+          "excerpt": "Exercise increased caution in Egypt due to terrorism , crime , and health, landmines, and limited medical infrastructure in rural areas. Some areas have increased risk. Read the entire Travel Advisory. Crime Most crimes against foreigners are crimes of opportunity, like purse snatching and pickpocketing. Harassment of women, including foreigners, is a problem in Egypt. It can include vulgar commen"
+        },
         {
           "title": "Denmark - Level 2: Exercise Increased Caution",
           "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.dnk.html",
@@ -623,18 +635,6 @@
           "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mtq.html",
           "published": "Thu, 20 Aug 2026",
           "excerpt": "Exercise normal precaution in Martinique. Martinique is generally a safe destination for travelers. Martinique regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Martinique. Review our Travel Guidance for Martinique to learn how to prepare for a safe trip."
-        },
-        {
-          "title": "Panama - Level 2: Exercise Increased Caution",
-          "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pan.html",
-          "published": "Wed, 19 Aug 2026",
-          "excerpt": "Exercise increased caution in Panama due to crime. Some areas have increased risk. Read the entire travel advisory. U.S. government employees working in Panama need special authorization to travel to the Mosquito Gulf and the Darién Region due to safety risks. The U.S. government has limited ability to offer emergency services to U.S. citizens in these areas. Crime Crime occurs in Panama, includin"
-        },
-        {
-          "title": "Paraguay - Level 1: Exercise Normal Precautions",
-          "url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pry.html",
-          "published": "Wed, 19 Aug 2026",
-          "excerpt": "Exercise normal precaution in Paraguay due to crime. Paraguay is generally a safe destination for travelers. Some areas have increased crime risk. U.S. government employees working in Paraguay need special authorization to travel to some areas. U.S. government employees are prohibited from using municipal buses in Paraguay because of risk of robbery and assault. Review the Travel Guidances for Par"
         }
       ]
     },
@@ -643,7 +643,7 @@
       "authority": "International Maritime Organization",
       "url": "https://www.imo.org/en/mediacentre/pressbriefings/default.aspx",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-24T13:30:19.814936Z",
+      "retrieved_at": "2026-11-24T19:13:20.760047Z",
       "status": "ok",
       "title": "International Maritime Organization",
       "passages": [
@@ -701,9 +701,9 @@
       "authority": "Pakistan Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.pk/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-24T13:30:20.265906Z",
+      "retrieved_at": "2026-11-24T19:13:43.214161Z",
       "status": "error",
-      "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+      "error": "URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
       "passages": [],
       "links": []
     },
@@ -712,7 +712,7 @@
       "authority": "China Ministry of Foreign Affairs",
       "url": "https://www.fmprc.gov.cn/mfa_eng/index.html",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-24T13:30:20.114399Z",
+      "retrieved_at": "2026-11-24T19:13:21.392603Z",
       "status": "ok",
       "title": "China Ministry of Foreign Affairs",
       "passages": [],
@@ -772,7 +772,7 @@
       "authority": "US Treasury",
       "url": "https://home.treasury.gov/news/press-releases",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-24T13:30:19.427812Z",
+      "retrieved_at": "2026-11-24T19:13:20.576566Z",
       "status": "ok",
       "title": "US Treasury",
       "passages": [
@@ -847,7 +847,7 @@
       "authority": "US Energy Information Administration",
       "url": "https://www.eia.gov/outlooks/steo/report/energysecurity/article.php",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-24T13:30:19.662517Z",
+      "retrieved_at": "2026-11-24T19:13:20.791927Z",
       "status": "ok",
       "title": "US Energy Information Administration",
       "passages": [
@@ -954,7 +954,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/bahrain",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-24T13:30:19.730785Z",
+      "retrieved_at": "2026-11-24T19:13:21.324974Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1042,7 +1042,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-24T13:30:20.160122Z",
+      "retrieved_at": "2026-11-24T19:13:21.476225Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1128,7 +1128,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/qatar",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-24T13:30:19.951506Z",
+      "retrieved_at": "2026-11-24T19:13:21.483874Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1216,7 +1216,7 @@
       "authority": "UK Foreign, Commonwealth & Development Office",
       "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
       "kind": "official_advisory",
-      "retrieved_at": "2026-11-24T13:30:20.030819Z",
+      "retrieved_at": "2026-11-24T19:13:22.008863Z",
       "status": "ok",
       "title": "UK Foreign, Commonwealth & Development Office",
       "passages": [
@@ -1310,7 +1310,7 @@
       "authority": "United Arab Emirates Ministry of Foreign Affairs",
       "url": "https://www.mofa.gov.ae/en",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-24T13:30:25.626627Z",
+      "retrieved_at": "2026-11-24T19:13:23.893401Z",
       "status": "ok",
       "title": "United Arab Emirates Ministry of Foreign Affairs",
       "passages": [
@@ -1340,7 +1340,7 @@
       "authority": "Islamic Republic of Iran Ministry of Foreign Affairs",
       "url": "https://en.mfa.ir/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-24T13:30:20.896609Z",
+      "retrieved_at": "2026-11-24T19:13:25.728633Z",
       "status": "error",
       "error": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect",
       "passages": [],
@@ -1351,7 +1351,7 @@
       "authority": "Permanent Mission of Pakistan to the United Nations",
       "url": "https://pakun.org/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-24T13:30:20.568523Z",
+      "retrieved_at": "2026-11-24T19:13:22.169993Z",
       "status": "ok",
       "title": "Permanent Mission of Pakistan to the United Nations",
       "passages": [
@@ -1366,7 +1366,7 @@
       "authority": "Permanent Mission of China to the United Nations",
       "url": "https://un.china-mission.gov.cn/eng/fyrth/",
       "kind": "official_listing",
-      "retrieved_at": "2026-11-24T13:30:21.294869Z",
+      "retrieved_at": "2026-11-24T19:13:23.510782Z",
       "status": "ok",
       "title": "Permanent Mission of China to the United Nations",
       "passages": [
@@ -1499,7 +1499,7 @@
     }
   ],
   "errors": {
-    "pakistan_mofa": "URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "pakistan_mofa": "URLError: <urlopen error _ssl.c:994: The handshake operation timed out>",
     "iran_mfa": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
   }
 }
