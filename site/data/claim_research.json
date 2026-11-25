@@ -1,95 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-24T19:14:09.024036Z",
+  "last_attempt_utc": "2026-11-25T01:31:36.420513Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 22,
-  "active_checked": 3,
+  "active_total": 23,
+  "active_checked": 6,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 9,
-  "model_requests_today": 3,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "1b777df055618f93cc536b14": {
-      "event_id": "1b777df055618f93cc536b14",
-      "checked_at": "2026-11-11T13:24:57.777171Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De tekst vermeldt Houthi-aanvallen op verschillende locaties in Saoedi-Arabië, maar biedt geen specifieke bevestiging van schade aan een Aramco-gebouw.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "if advised to take shelter, stay indoors or find the nearest safe building or designated shelter. An interior stairwell or a room with as few external walls or windows as possible may provide additional protection. The greatest risk is from falling d"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
-        }
-      ]
-    },
-    "181e69a4804fb747bfd1cd75": {
-      "event_id": "181e69a4804fb747bfd1cd75",
-      "checked_at": "2026-11-09T07:40:02.139721Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/government/news/e3-leaders-declaration-on-the-situation-in-the-middle-east-declaration-des-dirigeants-des-e3-sur-la-situation-au-moyen-orient",
-          "original_document_title": "E3 leaders’ declaration on the situation in the Middle East / Declaration des dirigeants des E3 sur la situation au Moyen orient - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-09T07:39:58.659128Z",
-          "exact_quote": "the United States has conducted targeted military strikes against nuclear facilities in Fordow, Natanz and Isfahan.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Niet voldoende specifiek: De officiële publicatiedatum ontbreekt voor deze specifieke gebeurtenisclaim.",
-          "claim_validated_as_fact": false,
-          "specificity_check": "downgraded"
-        }
-      ],
-      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 5,
-      "search_errors": [
-        "document: ValueError",
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        },
-        {
-          "url": "https://www.gov.uk/government/news/e3-leaders-declaration-on-the-situation-in-the-middle-east-declaration-des-dirigeants-des-e3-sur-la-situation-au-moyen-orient",
-          "title": "E3 leaders’ declaration on the situation in the Middle East / Declaration des dirigeants des E3 sur la situation au Moyen orient - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Earlier today, the United States has conducted targeted military strikes against nuclear facilities in Fordow, Natanz and Isfahan. Our aim continues to be to prevent Iran from acquiring a nuclear weapon."
-        }
-      ]
-    },
     "06b48ade8f94e5366f568035": {
       "event_id": "06b48ade8f94e5366f568035",
       "checked_at": "2026-11-11T07:29:04.366323Z",
@@ -3430,7 +3350,7 @@
     },
     "7929cc830ed1d05c1d1c3049": {
       "event_id": "7929cc830ed1d05c1d1c3049",
-      "checked_at": "2026-11-24T01:27:36.222540Z",
+      "checked_at": "2026-11-25T01:31:36.420484Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3439,26 +3359,15 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/bahrain",
           "original_document_title": "Bahrain travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-24T01:27:24.170297Z",
+          "retrieved_at": "2026-11-25T01:31:31.552485Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten, maar bevestigt geen specifieke aanval op Amerikaanse bases in Bahrein.",
-          "claim_validated_as_fact": false
-        },
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-24T01:27:25.104968Z",
-          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage herhaalt de intentie van Iran, maar biedt geen bewijs voor een specifieke aanval op Amerikaanse bases.",
+          "reason_nl": "De passage geeft aan dat Iran van plan is om doelwitten te raken die met de VS en Israël verbonden zijn, maar bevestigt niet specifiek de aanval op Amerikaanse bases in Bahrein.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De documenten vermelden de intentie van Iran om Amerikaanse en Israëlische locaties te targeten, maar er is geen bevestiging van een specifieke aanval op bases in Bahrein.",
+      "summary_nl": "De tekst vermeldt de intentie van Iran om doelwitten te raken die met de VS en Israël verbonden zijn, maar biedt geen bevestiging van specifieke aanvallen op Amerikaanse bases in Bahrein.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -4025,14 +3934,88 @@
           "text_excerpt": "exchange your paper driving licence"
         }
       ]
+    },
+    "cdb16dbfb4d71c8fc9ababc7": {
+      "event_id": "cdb16dbfb4d71c8fc9ababc7",
+      "checked_at": "2026-11-25T01:31:36.420455Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-25T01:31:28.750753Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS en Israël, maar bevestigt niet specifiek de aanval op Qeshm Island.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële tekst bevestigt de intentie van Iran om doelwitten te raken die met de VS en Israël verbonden zijn, maar biedt geen specifieke details over de aanval op Qeshm Island.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 5,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/qatar",
+          "title": "Qatar travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
+    },
+    "6e0c05fcf1d66bd39d122d9d": {
+      "event_id": "6e0c05fcf1d66bd39d122d9d",
+      "checked_at": "2026-11-25T01:31:36.420477Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Model gaf geen bruikbare beoordeling.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/apply-blue-badge",
+          "title": "Apply for or renew a Blue Badge - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Apply for or renew a Blue Badge"
+        },
+        {
+          "url": "https://www.gov.uk/renew-driving-licence",
+          "title": "Renew your driving licence - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You must renew a photocard licence every 10 years - you’ll receive a reminder before your current licence ends."
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-22": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 5876
-    },
     "2026-11-23": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -4042,6 +4025,11 @@
       "claims_checked": 9,
       "model_requests": 3,
       "model_tokens": 4643
+    },
+    "2026-11-25": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1601
     }
   },
   "last_error": null
