@@ -1,140 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-25T07:38:50.940923Z",
+  "last_attempt_utc": "2026-11-25T13:38:08.333580Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 22,
-  "active_checked": 7,
+  "active_total": 24,
+  "active_checked": 8,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 9,
+  "model_requests_today": 3,
   "records": {
-    "533e456c6c3e0214bf634471": {
-      "event_id": "533e456c6c3e0214bf634471",
-      "checked_at": "2026-11-12T07:32:47.874607Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-12T07:32:41.855585Z",
-          "exact_quote": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
-          "claim_validated_as_fact": false,
-          "specificity_check": "downgraded"
-        }
-      ],
-      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: HTTPError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
-    "f46a294565a167f25da83486": {
-      "event_id": "f46a294565a167f25da83486",
-      "checked_at": "2026-11-10T01:15:46.108994Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-10T01:15:31.377279Z",
-          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Deze passage beschrijft de onvoorspelbaarheid van de situatie in het Midden-Oosten, maar biedt geen specifieke informatie over olieprijzen of Trump.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De teksten wijzen op een onvoorspelbare situatie in het Midden-Oosten, maar er zijn geen directe verwijzingen naar olieprijzen of Trump.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/guidance/classifying-toys-games-and-festive-articles-for-import-and-export",
-          "title": "Classifying toys and games for import and export - GOV.UKGOV.UK",
-          "source_publication_date": "2026-08-12T07:39:37Z",
-          "text_excerpt": "These goods are not classified under subheading 9503 00 30, which includes electric trains, including tracks, signals and other accessories."
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
-    "804ee6a03e44eb1a0867ea6a": {
-      "event_id": "804ee6a03e44eb1a0867ea6a",
-      "checked_at": "2026-11-10T01:15:46.109001Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De teksten vermelden aanvallen in de regio, maar bieden geen bevestiging van de specifieke militaire acties van de VS op Iran's Qeshm-eiland.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes",
-          "title": "Iran: country policy and information notes - GOV.UKGOV.UK",
-          "source_publication_date": "2026-10-21T13:43:42Z",
-          "text_excerpt": "Country policy and information note: military service, Iran, August 2026 (accessible)"
-        }
-      ]
-    },
     "c8926839f5f294d29e65c60f": {
       "event_id": "c8926839f5f294d29e65c60f",
       "checked_at": "2026-11-11T07:29:04.366329Z",
@@ -4036,6 +3911,126 @@
           "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
         }
       ]
+    },
+    "f0e0feb3b20ac91928a0f0d7": {
+      "event_id": "f0e0feb3b20ac91928a0f0d7",
+      "checked_at": "2026-11-25T13:38:08.333524Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-25T13:37:59.972886Z",
+          "exact_quote": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt dat de Houthis aanvallen hebben uitgevoerd op verschillende locaties in Saoedi-Arabië, maar specificeert geen aanvallen op een raffinaderij of Riyad.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële tekst bevestigt dat de Houthis aanvallen hebben uitgevoerd op verschillende locaties in Saoedi-Arabië, maar biedt geen specifieke details over de genoemde aanvallen op de raffinaderij of Riyad.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/sign-in-universal-credit",
+          "title": "Sign in to your Universal Credit account - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Manage an existing benefit, payment or claim"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
+        }
+      ]
+    },
+    "c8b3433b5fa8f3f91a02d998": {
+      "event_id": "c8b3433b5fa8f3f91a02d998",
+      "checked_at": "2026-11-25T13:38:08.333547Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "De gevonden tekst heeft geen relevante informatie over de waarschuwing van de VS aan burgers in Iran.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Your travel insurance could be invalidated if you travel against advice from the Foreign, Commonwealth & Development Office (FCDO)."
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/jordan",
+          "title": "Jordan travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Your travel insurance could be invalidated if you travel against advice from the Foreign, Commonwealth & Development Office (FCDO)."
+        }
+      ]
+    },
+    "c33d382b8b23af1c35ec7357": {
+      "event_id": "c33d382b8b23af1c35ec7357",
+      "checked_at": "2026-11-25T13:38:08.333553Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-25T13:38:02.649492Z",
+          "exact_quote": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage bevestigt dat de Houthis aanvallen hebben uitgevoerd op verschillende locaties in Saoedi-Arabië, maar biedt geen specifieke details over aanvallen op een raffinaderij of financieel district.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële tekst bevestigt dat de Houthis aanvallen hebben uitgevoerd op verschillende locaties in Saoedi-Arabië, maar biedt geen specifieke details over de aanvallen op de raffinaderij of het financiële district.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/sign-in-universal-credit",
+          "title": "Sign in to your Universal Credit account - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Manage an existing benefit, payment or claim"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -4050,9 +4045,9 @@
       "model_tokens": 4643
     },
     "2026-11-25": {
-      "claims_checked": 6,
-      "model_requests": 2,
-      "model_tokens": 3372
+      "claims_checked": 9,
+      "model_requests": 3,
+      "model_tokens": 5275
     }
   },
   "last_error": null

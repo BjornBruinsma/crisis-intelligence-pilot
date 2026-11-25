@@ -1,28 +1,28 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-25T07:38:25.825874Z",
-  "fingerprint": "e0d085bce54026f3f7fe5da3",
+  "last_attempt_utc": "2026-11-25T13:37:32.563855Z",
+  "fingerprint": "c70594a5c8770f7d07058b89",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 24,
-  "event_candidate_count": 22,
+  "input_candidate_count": 25,
+  "event_candidate_count": 24,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
-    "accepted_pair_connections": 2,
+    "model_pair_proposals": 3,
+    "accepted_pair_connections": 1,
     "rejected_pair_proposals": 2,
-    "multi_claim_groups": 2,
-    "claims_in_multi_groups": 4,
+    "multi_claim_groups": 1,
+    "claims_in_multi_groups": 2,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 2,
+    "auditor_approved_pairs": 1,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-25T07:38:25.825874Z",
+    "recorded_at": "2026-11-25T13:37:32.563855Z",
     "groups": [
       {
         "ids": [
@@ -48,9 +48,9 @@
       },
       {
         "ids": [
-          "63fd25dd5e2126"
+          "b830843748f31f"
         ],
-        "label_nl": "Claim: Day 271 | Trump faces pressure to renew Iran war as Tehran hardens its position - Roya News",
+        "label_nl": "Claim: Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National",
         "actor": "",
         "action": "",
         "place": "",
@@ -70,9 +70,9 @@
       },
       {
         "ids": [
-          "868a4166aae228"
+          "5e621c6ceec2ea"
         ],
-        "label_nl": "Claim: Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스",
+        "label_nl": "Claim: Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
@@ -93,9 +93,9 @@
       },
       {
         "ids": [
-          "a82ebb7b3814cf"
+          "bb46689e332d8e"
         ],
-        "label_nl": "Claim: Iran faces economic war harder than missiles: Is Tehran’s leadership beginning to crack? - Gulf News",
+        "label_nl": "Claim: Can Iran Withstand Trump’s Naval Blockade as Inflation and Food Prices Soar? - Modern Diplomacy",
         "actor": "",
         "action": "",
         "place": "",
@@ -115,9 +115,9 @@
       },
       {
         "ids": [
-          "7b646e9047a13a"
+          "1d6322eced692e"
         ],
-        "label_nl": "Claim: Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id",
+        "label_nl": "Claim: Iran says it will use 'all available means' against U.S. blockade - Inquisitr",
         "actor": "",
         "action": "",
         "place": "",
@@ -137,9 +137,20 @@
       },
       {
         "ids": [
-          "af8aaa509cc2c4"
+          "b908299af63856"
         ],
-        "label_nl": "Claim: Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow",
+        "label_nl": "Claim: US advises vigilance after Houthis escalate attacks - Arabian Gulf Business Insight | AGBI",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "868a4166aae228"
+        ],
+        "label_nl": "Claim: Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스",
         "actor": "",
         "action": "",
         "place": "",
@@ -159,9 +170,9 @@
       },
       {
         "ids": [
-          "5e0896f3a54f86"
+          "a82ebb7b3814cf"
         ],
-        "label_nl": "Claim: The most obvious cost of the US-Iran economic confrontation. - Vietnam.vn",
+        "label_nl": "Claim: Iran faces economic war harder than missiles: Is Tehran’s leadership beginning to crack? - Gulf News",
         "actor": "",
         "action": "",
         "place": "",
@@ -181,9 +192,9 @@
       },
       {
         "ids": [
-          "d736a8db72ae19"
+          "7b646e9047a13a"
         ],
-        "label_nl": "Claim: Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National",
+        "label_nl": "Claim: Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id",
         "actor": "",
         "action": "",
         "place": "",
@@ -203,6 +214,17 @@
       },
       {
         "ids": [
+          "922beb3873c53b"
+        ],
+        "label_nl": "Claim: US tells citizens to leave Iran immediately, warns hostilities could escalate fast - Saudi Gazette",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "368fcd77de868a"
         ],
         "label_nl": "Claim: Brent drops to $88, WTI at $79: Why oil is sliding despite Iran’s tanker attacks - Gulf News",
@@ -214,9 +236,9 @@
       },
       {
         "ids": [
-          "c40f4125adaf38"
+          "af8aaa509cc2c4"
         ],
-        "label_nl": "Claim: Hormuz roiled, but oil didn't boil: What crude's plot twist means for India - The Economic Times",
+        "label_nl": "Claim: Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow",
         "actor": "",
         "action": "",
         "place": "",
@@ -225,21 +247,31 @@
       },
       {
         "ids": [
-          "a5143cd0eb2362",
+          "5b072531651a07"
+        ],
+        "label_nl": "Claim: 'Big concern': How the Iran war and Strait of Hormuz closure could drive up prices for helium, fertilizer and other goods - ABC News - Breaking News, Latest News and Videos",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "a730892322351d"
+        ],
+        "label_nl": "Claim: Gulf States Brace for Prolonged Iran Conflict Strain - Wisevoter",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
           "3a865ee9c32af7"
         ],
-        "label_nl": "Claim: Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
-      },
-      {
-        "ids": [
-          "a30917a32c43bc"
-        ],
-        "label_nl": "Claim: Iran Threatens Escalation as Tankers Strike Mines in Hormuz - Demokratis.co.id",
+        "label_nl": "Claim: هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
         "actor": "",
         "action": "",
         "place": "",
@@ -248,20 +280,9 @@
       },
       {
         "ids": [
-          "b31e14151604c6"
+          "bda5cbd3ff6cc7"
         ],
-        "label_nl": "Claim: Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "fd30f0d3d81bf6"
-        ],
-        "label_nl": "Claim: Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
+        "label_nl": "Claim: Houthis Claim Attacks on Saudi Refinery, Financial District - Tempo.co English",
         "actor": "",
         "action": "",
         "place": "",
@@ -272,33 +293,136 @@
     "input_claim_ids": [
       "d3fabdb63765a0",
       "5ad002ab6284ed",
-      "63fd25dd5e2126",
+      "b830843748f31f",
       "dd1a408a51dac8",
-      "868a4166aae228",
+      "5e621c6ceec2ea",
       "f22e1fe08952fc",
-      "a82ebb7b3814cf",
+      "bb46689e332d8e",
       "1bc239531e1f44",
-      "7b646e9047a13a",
+      "1d6322eced692e",
       "dcfe9c1e6228af",
+      "b908299af63856",
       "c165b95768f29a",
-      "af8aaa509cc2c4",
+      "868a4166aae228",
       "8003b498412d67",
-      "5e0896f3a54f86",
+      "a82ebb7b3814cf",
       "ef8f55e79cc200",
-      "d736a8db72ae19",
+      "7b646e9047a13a",
       "11ea1a49a16290",
+      "922beb3873c53b",
       "368fcd77de868a",
-      "c40f4125adaf38",
-      "a5143cd0eb2362",
+      "af8aaa509cc2c4",
+      "5b072531651a07",
+      "a730892322351d",
       "3a865ee9c32af7",
-      "a30917a32c43bc",
-      "b31e14151604c6",
-      "fd30f0d3d81bf6"
+      "bda5cbd3ff6cc7"
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 0,
+  "direct_official_match_count": 4,
   "events": [
+    {
+      "id": "f0e0feb3b20ac91928a0f0d7",
+      "label_nl": "Claim: Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National",
+      "headline_claim_ids": [
+        "b830843748f31f"
+      ],
+      "headline_claims": [
+        "Middle East latest: Houthis claim attacks on refinery and Riyadh as Saudis strike Hodeidah port - The National"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcnZ5TGlIcndkLWs0YmFxMzl1Z1dkVlE2ODFrUnAzejJXNC1tY1AzR3hVTVJ6OW9hSnZIanJpTFZDUDhySXBVZHFicTMweEktY3E1SXBtQ0lvNlctbmlQak9XcjZRYTZGQVd6YTBNeXlpMUotVHB6TXc4NHBIVTJGVmRaUFA1b2trOWRINVV5UVNURi1ZLTJZRjdR?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_saudi:p7",
+        "exact_excerpt": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia",
+        "relation": "supports_specific_claim",
+        "reason_nl": "De passage ondersteunt de claim dat de Houthis aanvallen hebben uitgevoerd op locaties in Saoedi-Arabië.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "c8b3433b5fa8f3f91a02d998",
+      "label_nl": "Claim: US tells citizens to leave Iran immediately, warns hostilities could escalate fast - Saudi Gazette",
+      "headline_claim_ids": [
+        "922beb3873c53b"
+      ],
+      "headline_claims": [
+        "US tells citizens to leave Iran immediately, warns hostilities could escalate fast - Saudi Gazette"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcy1LX1pUek91MGYtbDMyS3l0bjBSd0JIY3ZaTjFSZDVKQ3JyY0R5RFhuazQ1T3ptemtWdi1XYjdscnR0UU9TTDY1eTNiaGVGT0JES3RoVDFtZW4zWFhySTg3bExpajhlT1kzVXJoR3pCMWpZaTVYTmdVc2M4WlhlN1puWTIwYXlYT1lwd0IzWElFRXA2QnF0NGY0UWtvVHJ6SXNWdGJxa1BNU0stb0duSGhUWmJTckxPbFQ1MGxZSlg4U0tadHhJZjF3?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
+        "authority": "US Department of State",
+        "evidence_id": "us_advisories:l11",
+        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting of American interests by Iran",
+        "relation": "supports_specific_claim",
+        "reason_nl": "De passage ondersteunt de claim dat de VS burgers adviseert om Iran onmiddellijk te verlaten.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "c33d382b8b23af1c35ec7357",
+      "label_nl": "Claim: Houthis Claim Attacks on Saudi Refinery, Financial District - Tempo.co English",
+      "headline_claim_ids": [
+        "bda5cbd3ff6cc7"
+      ],
+      "headline_claims": [
+        "Houthis Claim Attacks on Saudi Refinery, Financial District - Tempo.co English"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYWFyUnNvTE5vOTRVVkVxdTY2SUtVQnR1R0tlR0NjNEI4N1FrQklIYTY4YzhiZXJrN19td0dUaEZQaVM3bkVuUlIweE1uTnFQLXRiM1d0bGZPTlZKOU5BcnlwZ1g4aWdyLUI2SmFXTkJESVAtQ0NpUUxnQzNZdnphTDNEVks4ZFRCS2dQSG5ndURudWJ3?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_saudi:p7",
+        "exact_excerpt": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia",
+        "relation": "supports_specific_claim",
+        "reason_nl": "De passage ondersteunt de claim dat de Houthis aanvallen hebben uitgevoerd op Saoedi-Arabië.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
     {
       "id": "66c1407eae1fae93a52bb5ed",
       "label_nl": "Claim: Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online",
@@ -329,36 +453,6 @@
       "probability_estimate": null
     },
     {
-      "id": "4649bc4e113c0ae025d25a08",
-      "label_nl": "Claim: Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id",
-      "headline_claim_ids": [
-        "a5143cd0eb2362",
-        "3a865ee9c32af7"
-      ],
-      "headline_claims": [
-        "Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id",
-        "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RY0ZLeDhpLXFkS19QODZHSWtfSE1Qa2RZcWgxQ08taF9KR010SkZ6dTdBSEhwblc3X2hha193OEdkQXhrcG44RGtIbHV5RlN2SjVQakhsVlpOVFJTb3BPd2t3TXFnUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
-        "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5"
-      ],
-      "article_group_count": 2,
-      "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "63c13bc7120a9b2078c0eada",
       "label_nl": "Claim: Iran Escalates Gulf Attacks as US Strikes Qeshm Island - Demokratis.co.id",
       "headline_claim_ids": [
@@ -369,10 +463,12 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JM1F0dmVLTFBCVElmVTNCckZZMnNMSnljSUV1cGFhRFFqQWpfY2MwOXNERUtFbHRRMDNtWktOeDFaYktQekFUZnMtbFJPOWgteW9TbzZxbHNjR1RXejFCeHhLU1hRQTg4MF8w?oc=5",
-        "https://news.google.com/rss/articles/CBMibkFVX3lxTE40bER5XzVwSEFrTUhUY01XdHJaTjk4WWJyNWJGak92WGlMVkgzcElqTlE3WGQ5WmZiR2plbmFYZ1VPT29rVm5zVlpZTzhyUjNWVENJVUhmNkJOTjBDa001YndObGZfRV9hM204QUFR?oc=5"
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTQXNxV3pWWkxlWXFJanN5bDVHWDk4MmlBajJhOVZHemxFb0VFMGp6VDZnaHhNWEpsU0FJVlA0VkJHMVVjbmlETzNndHZqajdnUHRaN0pUMkNPYnQ5TzRFNUU2R0U?oc=5",
+        "https://news.google.com/rss/articles/CBMibkFVX3lxTE40bER5XzVwSEFrTUhUY01XdHJaTjk4WWJyNWJGak92WGlMVkgzcElqTlE3WGQ5WmZiR2plbmFYZ1VPT29rVm5zVlpZTzhyUjNWVENJVUhmNkJOTjBDa001YndObGZfRV9hM204QUFR?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rUHVQTVBXR1FGbm1vZVdhTjBxMlEySmNCLUNoeFhPVlJ6ZWZEd1ljRmgydHdoV04zYllRMk1nUndLT0dUWXlTaGxPMHBEYTUwQW9GdmpIQUNkY0k3MzJvX1F3NjFZajQ?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 4,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -386,17 +482,17 @@
       "probability_estimate": null
     },
     {
-      "id": "7929cc830ed1d05c1d1c3049",
-      "label_nl": "Claim: Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id",
+      "id": "59fb463a16b61f54964686f7",
+      "label_nl": "Claim: Iran says it will use 'all available means' against U.S. blockade - Inquisitr",
       "headline_claim_ids": [
-        "7b646e9047a13a"
+        "1d6322eced692e"
       ],
       "headline_claims": [
-        "Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id"
+        "Iran says it will use 'all available means' against U.S. blockade - Inquisitr"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xX0dtYlpzQ0VSR1ZqLWdHWHJCVm96N3hLN3dwc25lV2tyZjE2YWVSSVNkYkVWRW1tZ2VVNkJveHRqM3I3aFZacVlnQndPeTdUWUlBVmxqMllRRTZBcmE1YnN3?oc=5",
-        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzZ3lFaWFpcDlPSk54dWUtMGZYcTZLd0V2c05UQTJRVEU3YnVDdTNPNkc0LTRBTHFhYzFuM0NTQTlpSUgxVDFJRlBIWUtRaGVJY3hsNTFLVk5XeFhIVUlRQ0dBLWw1ZnM?oc=5"
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ncnV2ZDBxTHFMTU5kOXA1UEJBTnZ1ZGtmQUQ5ZW9ueTBSeE05QTQzTzlveFdwa0xUTEtrU2hVV3dMMGt5ZWlVRUNvbVp1WWtsZkFlQWhLSlF2dUdPcTJRT3Z3?oc=5",
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTktLdU1YVmxRUnlCdUNRZmlIdWloVW12TFNEZGVMdXhoWHdpWGdIMmpkMTJnNWdFdXh2WlhFYWNzckVtcFotcW9ya2JHd1VmLVY2b2hsTFdObno2Q0IxM3oyYWsySUszUEtiTHlEV3JOaW1ZbmJ3YUc4X3BndTRMbmJteXpGTG1VZDU3clloNWNtd3RXdEx5dVdQSlZ6TS14T0tpbUg2eXlZZ9IBrwFBVV95cUxObFRhRTR4SXZfbVZ4c0VMbnJvVVNZbFBjaGw5S29VUG1kcXRieXJjUEROZUoyQTRvSGFOeDdKNUpYbmN4UmZxcTAzNmZjOWR2SmJhVHVHTkxBbUJtc2hjT1NGOTZOUzhpbHZsQ0FKNWhQYkl1S0ZRcTdaTWMzU2N4QnBGV1cwOGpJNERSbmJwYzVNRERpb0JwTGlrUmp4LWczVXVxTXkzLXNRS05JNzBV?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 2,
@@ -466,19 +562,20 @@
       "probability_estimate": null
     },
     {
-      "id": "e9cbe31f4a89473a7e12b187",
-      "label_nl": "Claim: Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National",
+      "id": "7929cc830ed1d05c1d1c3049",
+      "label_nl": "Claim: Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id",
       "headline_claim_ids": [
-        "d736a8db72ae19"
+        "7b646e9047a13a"
       ],
       "headline_claims": [
-        "Middle East latest: Eleven injured in Houthi attack on Riyadh financial centre tower - The National"
+        "Iran Strikes US Bases in Bahrain as Gulf Tensions Escalate - cwibc.co.id"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXhnd0U5NHV1U0V6RmlPTGhnMlM3WFFQWWdJQjlTRFBkVUJreHQ3VVZKZnFtNmNpTGZucTZrbHRzZHVmd0JlN3ljLWlIWU8wWUJuZ0V1ZHBVT2FuYVVpUTJnQ1MzSkg3V3VQcFd3VkItQUNLTDJtM0ZORHBKbWJZUllENjdhZzZuSzR2T3ItTlBvRnhSQ09HTQ?oc=5"
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xX0dtYlpzQ0VSR1ZqLWdHWHJCVm96N3hLN3dwc25lV2tyZjE2YWVSSVNkYkVWRW1tZ2VVNkJveHRqM3I3aFZacVlnQndPeTdUWUlBVmxqMllRRTZBcmE1YnN3?oc=5",
+        "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzZ3lFaWFpcDlPSk54dWUtMGZYcTZLd0V2c05UQTJRVEU3YnVDdTNPNkc0LTRBTHFhYzFuM0NTQTlpSUgxVDFJRlBIWUtRaGVJY3hsNTFLVk5XeFhIVUlRQ0dBLWw1ZnM?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -492,19 +589,20 @@
       "probability_estimate": null
     },
     {
-      "id": "628979becec05d43f28e949b",
-      "label_nl": "Claim: Iran Threatens Escalation as Tankers Strike Mines in Hormuz - Demokratis.co.id",
+      "id": "04ae2de0974f76bd01edcd1d",
+      "label_nl": "Claim: هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
       "headline_claim_ids": [
-        "a30917a32c43bc"
+        "3a865ee9c32af7"
       ],
       "headline_claims": [
-        "Iran Threatens Escalation as Tankers Strike Mines in Hormuz - Demokratis.co.id"
+        "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2Q0ZseXRTSXVLRzBFWXNOcmgwUElJTnRSUkhCemZQUUZZTGZmalN3NVlmMkhuc3FKOFdDcmU3TkJWNTNKV2pFUXUwNVB0aTlKbUpLbnB4MnlISE9vUmR5M21nWG0xUVVhMGVydS10UjhQZTQ?oc=5"
+        "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
+        "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -518,16 +616,16 @@
       "probability_estimate": null
     },
     {
-      "id": "f945dcd7bd70d51775d7f2c9",
-      "label_nl": "Claim: Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit",
+      "id": "0fdc106c2e58110e085374c8",
+      "label_nl": "Claim: US advises vigilance after Houthis escalate attacks - Arabian Gulf Business Insight | AGBI",
       "headline_claim_ids": [
-        "b31e14151604c6"
+        "b908299af63856"
       ],
       "headline_claims": [
-        "Trump Warns of Early-2027 Military Strike on Iran if Talks Fail - bloomingbit"
+        "US advises vigilance after Houthis escalate attacks - Arabian Gulf Business Insight | AGBI"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94b0tDYVRLNXRfbFRlb3diNnRUNzUxOG0yN0FWZy11Q2lOd3VIUjJxeE13VUl3bXJrN0N3cm9zZHBickx2SGx0cmtLZmIyX0p0RUhiUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWTZKTTZYU0pUTURaRy1PZXE4VFFmZ2ZVYllSeVVnMi1pZTZneGNEY21XUE51QjdpN1pJdWM4Y0d1ZkVOdVVycWVjMXNkb2JxS0htbXJuX3dSdFlZX2NFQ0wzZUZnSTg5N2J5Z0dHRVR4ZFhUUVl4eEY2VTlQMHphS3ZJNjhTM1p5cl9wb2g4VDhpalkxSm91OA?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -536,10 +634,18 @@
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
-      "editorial_importance": "high",
+      "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
+      "primary_evidence": {
+        "official_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+        "authority": "UK Foreign, Commonwealth & Development Office",
+        "evidence_id": "uk_saudi:p7",
+        "exact_excerpt": "the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia",
+        "relation": "supports_specific_claim",
+        "reason_nl": "De passage ondersteunt de claim dat de Houthis hun aanvallen hebben opgevoerd.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -554,32 +660,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMTI3NFM5bllPQzd2YlV1MVVqY1VlY2JNMU1KTFY2cG9qclV0RnEyUC1sRnBVWEZRU2hnazFMalYzbEw2WG1zenR5SV9kOHRDSFZMbERXclZmcW9SRlg2Y3N1MjBESmgxQkRNZkFTQ2UtWW1hdzFHdHNHbE5NQUpzdXhHNV9nQWVsa0xZMkdZZ3ZjeXpfMV9UZUpfNDBiZUc2YlJVam9rVG1CcW5tZURkb3lBNTlzMW1ibEtPZg?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "ffff3beb499121e093fef867",
-      "label_nl": "Claim: Day 271 | Trump faces pressure to renew Iran war as Tehran hardens its position - Roya News",
-      "headline_claim_ids": [
-        "63fd25dd5e2126"
-      ],
-      "headline_claims": [
-        "Day 271 | Trump faces pressure to renew Iran war as Tehran hardens its position - Roya News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5TNkt3ZEszcl9MZjZZMExQS2d1MWFUdlZVWVMxcXBPRFRBcnRiWlZsck9SRHJCdGFjVEc2RlJFWmtBbmNMX1ctbA?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -624,16 +704,16 @@
       "probability_estimate": null
     },
     {
-      "id": "4d6dd05109d9a865a41a64c0",
-      "label_nl": "Claim: Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스",
+      "id": "4bdeb477a92377a8fe9876af",
+      "label_nl": "Claim: Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence",
       "headline_claim_ids": [
-        "868a4166aae228"
+        "5e621c6ceec2ea"
       ],
       "headline_claims": [
-        "Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스"
+        "Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xeFpPVFE4OVJidWlnX3BhXzBMa1BXTFd4M2dTSzFUY08tQjRVQ2NaYzVIc1M3TzlNdWxHLXVnVEFlODBNNGVRNk1VSXc3N3NoRHdBQkRpX2M?oc=5"
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjlLUzgzeUFrYmQzbU1ySm1pTHVIelFXeTVEdDVBendDY0I1NVFvandLclNKemJPMm5QRG9LSmF5NjNxNzllbDBlU2hjTXZ6SXNXZlJLa096cnN3MHBEME9GUENUdHQtSk03SFhtQ1BqSTMyMDBrWHVMMUtneTRGeF9wX1ZzTVlUeGYtTnRVZlNVY3Jvb0RSaHFrakNQTEYtcUVrSV8wb09HakZDN2c?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -650,16 +730,16 @@
       "probability_estimate": null
     },
     {
-      "id": "cf4f95346bc2733f5fcacc1a",
-      "label_nl": "Claim: Iran faces economic war harder than missiles: Is Tehran’s leadership beginning to crack? - Gulf News",
+      "id": "90953c5c4cfdd896b154f96b",
+      "label_nl": "Claim: Can Iran Withstand Trump’s Naval Blockade as Inflation and Food Prices Soar? - Modern Diplomacy",
       "headline_claim_ids": [
-        "a82ebb7b3814cf"
+        "bb46689e332d8e"
       ],
       "headline_claims": [
-        "Iran faces economic war harder than missiles: Is Tehran’s leadership beginning to crack? - Gulf News"
+        "Can Iran Withstand Trump’s Naval Blockade as Inflation and Food Prices Soar? - Modern Diplomacy"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZEpqeDd2bDFfd0otZlE4UnZIT3JlaXFXUGlyWjZWZU4zX3hWTjNvTU5TbDJkbjRfVjRlQW5OVHh2OXlPbGlfb19uRnJDbWZGQnpLRkdYeXdYOWhzRks3ckxTNkk4X2pKTXhwOHpRMUVpRTZBaTBXV3pGRVU0dk9QeFJYMG9KVUdkeVhDWUhPMkl5STV3VEp4Wk9lemUxajNHd0pDRF82THpDaVdMV0JOX2ljeDZpTzdyS002SWVoRDVkX0wwOTRNTWhtZUl4cW1nZVlTRWlRd9IB1wFBVV95cUxNZEpqeDd2bDFfd0otZlE4UnZIT3JlaXFXUGlyWjZWZU4zX3hWTjNvTU5TbDJkbjRfVjRlQW5OVHh2OXlPbGlfb19uRnJDbWZGQnpLRkdYeXdYOWhzRks3ckxTNkk4X2pKTXhwOHpRMUVpRTZBaTBXV3pGRVU0dk9QeFJYMG9KVUdkeVhDWUhPMkl5STV3VEp4Wk9lemUxajNHd0pDRF82THpDaVdMV0JOX2ljeDZpTzdyS002SWVoRDVkX0wwOTRNTWhtZUl4cW1nZVlTRWlRdw?oc=5"
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOM3FKZWNkSjRCMHpnTTAwbENmcXBWS2IzMjVWZGtyZmJhWUEtaENDd1VESGNmTFp4SGFURHRLWEhXakc4ZDNTODZwa1cyZUhXV09QNVl2bU1kYmhFaENFdERtY21iYV82eVpJc3VtUkI5aThmd1JFMUdncjJHUTdZc3pSTVpGa1pxYWthUjZYMVE5TEhjOVc4UkZlQ2JFUWVjTy1idEhQcU1NXzZtSWV4UF9YSQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -729,20 +809,19 @@
       "probability_estimate": null
     },
     {
-      "id": "68c6c9e2fa4386da4b56a361",
-      "label_nl": "Claim: Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow",
+      "id": "4d6dd05109d9a865a41a64c0",
+      "label_nl": "Claim: Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스",
       "headline_claim_ids": [
-        "af8aaa509cc2c4"
+        "868a4166aae228"
       ],
       "headline_claims": [
-        "Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow"
+        "Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTFR2RVJoYlJzTEp2eExrRzgzYjJZa0VZRmV6S0NhR0NBNlBOb3BObTFZMU8xa2JEQUxILVRkRW1ZSUhINlRGSTdXRHYtcjNCUFlaMUVJNk9hSHBsdDlJY3QtckxWWnhCajRCMmdJN1Q5X1pMaS1wSW82eEVESGJfeU9LSlVVa3o1RkhjNE9rU19QXzhh?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGVuaC1EYUNGRWN6YVM4cWhBU1VVTXhIanJWM2p4MDA3S3Z3bWJnOHhZVkNQcy13V09fLVFSQ0tyRmZPLVphM1NFUEpGR21sVWx1bGdrelp2R25XdW02VFZ4WWhpUVJWdm1rRG84aTlOOUxCN2NxbFV5cGZleEZVNWEyRUtsUDlSMG54M1F5cHlVU0FZN1E?oc=5"
+        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xeFpPVFE4OVJidWlnX3BhXzBMa1BXTFd4M2dTSzFUY08tQjRVQ2NaYzVIc1M3TzlNdWxHLXVnVEFlODBNNGVRNk1VSXc3N3NoRHdBQkRpX2M?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 2,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -756,16 +835,16 @@
       "probability_estimate": null
     },
     {
-      "id": "10cc0c6d19ba196d9f1a5e27",
-      "label_nl": "Claim: The most obvious cost of the US-Iran economic confrontation. - Vietnam.vn",
+      "id": "cf4f95346bc2733f5fcacc1a",
+      "label_nl": "Claim: Iran faces economic war harder than missiles: Is Tehran’s leadership beginning to crack? - Gulf News",
       "headline_claim_ids": [
-        "5e0896f3a54f86"
+        "a82ebb7b3814cf"
       ],
       "headline_claims": [
-        "The most obvious cost of the US-Iran economic confrontation. - Vietnam.vn"
+        "Iran faces economic war harder than missiles: Is Tehran’s leadership beginning to crack? - Gulf News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihgFBVV95cUxPckMxb2FaYmFyWTVHTEM2dkZJV090eTNnUGRzUTdZWG5CcXBPNFQxeTNZRC1YT1NrMjN3ZG50cW9CeUtYMGhJQnpMMUFQMThMemwyaklLNnBlQVlxRnk1NldTQ3I0TFlvdGo0WllxUUJKXzE1cEdZc1RQX2dzaFpNVll0OXFHZw?oc=5"
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZEpqeDd2bDFfd0otZlE4UnZIT3JlaXFXUGlyWjZWZU4zX3hWTjNvTU5TbDJkbjRfVjRlQW5OVHh2OXlPbGlfb19uRnJDbWZGQnpLRkdYeXdYOWhzRks3ckxTNkk4X2pKTXhwOHpRMUVpRTZBaTBXV3pGRVU0dk9QeFJYMG9KVUdkeVhDWUhPMkl5STV3VEp4Wk9lemUxajNHd0pDRF82THpDaVdMV0JOX2ljeDZpTzdyS002SWVoRDVkX0wwOTRNTWhtZUl4cW1nZVlTRWlRd9IB1wFBVV95cUxNZEpqeDd2bDFfd0otZlE4UnZIT3JlaXFXUGlyWjZWZU4zX3hWTjNvTU5TbDJkbjRfVjRlQW5OVHh2OXlPbGlfb19uRnJDbWZGQnpLRkdYeXdYOWhzRks3ckxTNkk4X2pKTXhwOHpRMUVpRTZBaTBXV3pGRVU0dk9QeFJYMG9KVUdkeVhDWUhPMkl5STV3VEp4Wk9lemUxajNHd0pDRF82THpDaVdMV0JOX2ljeDZpTzdyS002SWVoRDVkX0wwOTRNTWhtZUl4cW1nZVlTRWlRdw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -835,16 +914,43 @@
       "probability_estimate": null
     },
     {
-      "id": "7b46e4712ffd748cbf803391",
-      "label_nl": "Claim: Hormuz roiled, but oil didn't boil: What crude's plot twist means for India - The Economic Times",
+      "id": "68c6c9e2fa4386da4b56a361",
+      "label_nl": "Claim: Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow",
       "headline_claim_ids": [
-        "c40f4125adaf38"
+        "af8aaa509cc2c4"
       ],
       "headline_claims": [
-        "Hormuz roiled, but oil didn't boil: What crude's plot twist means for India - The Economic Times"
+        "Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQbHBIVTRzWS1QZmpKYXJSLWp2TDlWU0tlWHIwMWl6WG12bFhwQi1PUEdSODZhS19NUnRQQWxXMXotTURQVWg5ZHcydDFraXhSTG56a2dLLVgtOFBSTi1tempYcDhCcGE1SDV0MDlOVXc5LWxUVDFaZG5vZS0yVnlLR1d6WVBwSHhWUkt1U2k1all3TEhFTk43Smx5dkRWUnI3U1E2cDJKaXd3ZmdzR1BSXy1XOEpaaDJGVUU0c19BTkpwSENNVnlNOUQwcU9VaFFCUnRzVEVnQjFyNG8xc203ZEc1TWN5V1pkN3ZSRTVXNl9waFZrdWpybi1CYUZLdVotazU1V0p5ZFp0d0HSAZACQVVfeXFMTTdRdDRqQjhiSEFNMGtQVGZkeVRIYUFWeGhYaTFCSUtvZTRibXk5U0pFM3VmV3hka2p5ODJMUENIb3pkeno3RzdjV1NacWFmTGVfVXNGaTNTaWlOMEtMQ1NldU8wa1E2ZmxDaGFWeFU5ZlJ2Vl9jYWJHNWNoUWl5OXBIXzhDMDNfWUgxcUJCdl9WQ1V6R2pTcWJSaWxCN3BnNng2aEY0akppNnpYTEFXcG55OUVVN19HQm1EZGNuN0VzYXhIMm96OGVvR1VGakpxeFdhWWk0SlB0dzJGUXp4R1drX3gyVDRRVGs4NGpudExBNy13SFZaQjlsaFYyTmFzRTNEU0xmaWlzcktTSVNSLWs?oc=5"
+        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTFR2RVJoYlJzTEp2eExrRzgzYjJZa0VZRmV6S0NhR0NBNlBOb3BObTFZMU8xa2JEQUxILVRkRW1ZSUhINlRGSTdXRHYtcjNCUFlaMUVJNk9hSHBsdDlJY3QtckxWWnhCajRCMmdJN1Q5X1pMaS1wSW82eEVESGJfeU9LSlVVa3o1RkhjNE9rU19QXzhh?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGVuaC1EYUNGRWN6YVM4cWhBU1VVTXhIanJWM2p4MDA3S3Z3bWJnOHhZVkNQcy13V09fLVFSQ0tyRmZPLVphM1NFUEpGR21sVWx1bGdrelp2R25XdW02VFZ4WWhpUVJWdm1rRG84aTlOOUxCN2NxbFV5cGZleEZVNWEyRUtsUDlSMG54M1F5cHlVU0FZN1E?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "1b829e735f5f31cf363f91ec",
+      "label_nl": "Claim: 'Big concern': How the Iran war and Strait of Hormuz closure could drive up prices for helium, fertilizer and other goods - ABC News - Breaking News, Latest News and Videos",
+      "headline_claim_ids": [
+        "5b072531651a07"
+      ],
+      "headline_claims": [
+        "'Big concern': How the Iran war and Strait of Hormuz closure could drive up prices for helium, fertilizer and other goods - ABC News - Breaking News, Latest News and Videos"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWUEwbGQzcGczbVRKcXRoNHB3QmtLMENVMzFfd0xnWmN3aWRILU5CRTRWR0pFdnhQdGFsLXJwa01WR2N1S0JCQUxxdFRkRGZHaWFlakYxMk1YdDBCRDFXQjhDeFNMZmlyWnFsVjFaY21FZUdNdDg1RXdKM1JSb19jVVFTVTJFREFfRFN3TTRVbzNpY21mYXdZVmhwYl9wM0JrTGRvLUJ30gGrAUFVX3lxTE13aGdnRGlNem9jTGFaMTYwZjc3SVZ3bGFhYVhQVnVXVVJQZ2lzVHFqT3VONnBFbWpGVUw2VE52U0xSTmozSGJSM2d6dEF6Z2FiZjF3VWdMdHRUcWRYYjhKRjltNGVNeElDNGY2UVlvLVZRUkJrZGxvTERNRDF0MUk1dTRUWWFMNnpTWTM0b1BHU0JLeTBBZVJON2s2dE5jblB5Nzl5dEFiMnNPcw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -861,16 +967,16 @@
       "probability_estimate": null
     },
     {
-      "id": "ae4178cdd9013735b1152c1b",
-      "label_nl": "Claim: Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
+      "id": "7c659731b42554278aad214f",
+      "label_nl": "Claim: Gulf States Brace for Prolonged Iran Conflict Strain - Wisevoter",
       "headline_claim_ids": [
-        "fd30f0d3d81bf6"
+        "a730892322351d"
       ],
       "headline_claims": [
-        "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India"
+        "Gulf States Brace for Prolonged Iran Conflict Strain - Wisevoter"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijAJBVV95cUxQTU5YQWlmZzBFeFVvNjFqTEJuaGV4NWp2OUxqQzJJLXM3RXUtY0VpeTdpZkpaZ25HOTJlekZhSlJHODNYNG9iSk5hcWZ3VUo1RU9ORFdoRnIxcE5OcnR4YVJ2TjIwTnZ3cENjVDlKV3BtcTdCejY4Wi1vOVJ3ZUFXNDZZUDdpRGxRREFFN2hzZHBLenVfMGM2Zy0walExM3Fqa2xoOGUwQ3pKNXVtZkFLbWV2T01JME9INl9SYlVqN0l2a3V2V3pybDhnOU1TTVpYVzViSTI2WThqQjRkX3BySXdsVjBnWjF1OUxvVFB1a1hJX1pEN1I0YlpXc3Z3NU9SNW9vQ1k1aEt0TmxV0gGSAkFVX3lxTE1fQWR6NlFpendyQjA2a0NJVUdxanlVeV91b2VPOUtYLWxPN3ZMNXhFVUJTRXZGS3ZyLXRrajd6YkdnSXlXNG5tN0huOEpVazRzcW5MeGFheWQxLTJMYVlqOEpjV3MzaHNtN0Z3RnEwS1VNY1hzQm93V1cxbW13N0M0QU1hNEZTWnRCbTQ4SDN0OGlPa0swQzNoU0xxRl9mSDgxZXh4R2RHajQza0lDdDJrdUM2UnZNcVlWVWRuaExQckxvaWUzYUNPX096M2g3elNxUEM1cVJIMnZjYjlwd1BYd3pHd2kwOXBFaTdKby01T0V0VHhERjY3ZVFKajJkVmtZTlN3V0xMZHBXU2FmVDhacEE?oc=5"
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbDY3eTR1RTdrcXVaSnBxaUEzRk9ScXVRQTJiWHFFSnl1SnI2RVJJTWZpRG1ZbV9UbEVHWE9qZFNsNXM2WFJyWTNjbnJCODdXdFp3Y25XeWxuUXVvOEE1dFVndVdIS2p4XzZQeDN3VHBVQmN3cE5mX0ZXeTR3U01VTUU3ZV9HYTg?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -897,8 +1003,8 @@
       "total_tokens": 25489
     },
     "2026-11-25": {
-      "requests": 6,
-      "total_tokens": 15815
+      "requests": 9,
+      "total_tokens": 25433
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "last_attempt_utc": "2026-11-25T07:36:52.522316Z",
+  "last_attempt_utc": "2026-11-25T13:35:34.535286Z",
   "sources": {
     "google_news_rss": {
       "ok": 12,
@@ -13,43 +13,43 @@
   "profiles": {
     "military": {
       "status": "ok",
-      "articles": 25,
-      "new": 2
+      "articles": 53,
+      "new": 26
     },
     "diplomacy": {
       "status": "ok",
-      "articles": 20,
-      "new": 2
+      "articles": 19,
+      "new": 0
     },
     "government": {
       "status": "ok",
-      "articles": 3,
-      "new": 1
+      "articles": 7,
+      "new": 3
     },
     "markets": {
       "status": "ok",
-      "articles": 8,
-      "new": 2
+      "articles": 9,
+      "new": 1
     },
     "energy": {
       "status": "ok",
       "articles": 14,
-      "new": 0
+      "new": 2
     },
     "trade": {
       "status": "ok",
-      "articles": 15,
-      "new": 5
+      "articles": 13,
+      "new": 0
     },
     "business": {
       "status": "ok",
-      "articles": 1,
-      "new": 0
+      "articles": 2,
+      "new": 1
     },
     "economy": {
       "status": "ok",
-      "articles": 1,
-      "new": 0
+      "articles": 7,
+      "new": 3
     },
     "iran-fa": {
       "status": "ok",
@@ -58,22 +58,22 @@
     },
     "china-zh": {
       "status": "ok",
-      "articles": 51,
-      "new": 24
+      "articles": 52,
+      "new": 7
     },
     "pakistan-en": {
       "status": "ok",
-      "articles": 11,
-      "new": 0
+      "articles": 12,
+      "new": 2
     },
     "gulf-ar": {
       "status": "ok",
-      "articles": 63,
-      "new": 11
+      "articles": 28,
+      "new": 4
     },
     "gdelt-iran": {
       "status": "error",
-      "error": "HTTP 429 Too Many Requests",
+      "error": "URLError: <urlopen error timed out>",
       "articles": 0
     },
     "gdelt-hormuz": {
@@ -83,11 +83,11 @@
     }
   },
   "errors": {
-    "gdelt-iran": "HTTP 429 Too Many Requests",
+    "gdelt-iran": "URLError: <urlopen error timed out>",
     "gdelt-hormuz": "HTTP 429 Too Many Requests"
   },
-  "new_urls": 47,
-  "retained_urls": 5373,
+  "new_urls": 49,
+  "retained_urls": 5422,
   "queries_ok": 12,
   "queries_total": 14,
   "status": "partial"
