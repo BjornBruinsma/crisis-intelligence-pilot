@@ -1,64 +1,117 @@
 {
-  "generated_at": "2026-11-25T08:56:03.031522Z",
+  "generated_at": "2026-11-25T14:51:16.096648Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 6,
+  "candidate_count": 8,
   "recommendation_counts": {
+    "reserve": 2,
     "publish": 4,
-    "reserve": 1,
-    "reject": 1
+    "reject": 2
   },
   "stories": [
     {
-      "id": "4b2e508f3e9b75",
+      "id": "c831cec3bff8d7",
       "editorial_score": 90,
       "editorial_decision": "publish",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s what the sources show, based on official reports and independent media, about the birth of a blue macaw (“ararinha-azul”, *Cyanopsitta spixii*) at the São Paulo Zoo, what it means as a conservation outcome, and what remains as ongoing work:\n\n---\n\n## What Actually Happened\n\n**Confirmed facts / completed outcome:**\n\n- A female *ararinha-azul* named **Hope** was born on **October 18, 2026**, at the São Paulo Zoo. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n- This is **the first ever birth of a *Cyanopsitta spixii*** in a Brazilian zoo. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n- Hope weighed **12.4 grams** at birth. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n- Due to being improperly positioned in the egg and reaching the incubation limit, Hope required assistance from biologists to hatch (eclosion). ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n- Since hatching, she has been under continuous monitoring and receiving assisted feeding. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n\n**Conservation program context:**\n\n- The program is coordinated by the **Ministry of the Environment and Climate Change (MMA)** and **ICMBio** (Brazil’s Chico Mendes Institute for Biodiversity Conservation). ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n- The zoo developed (inaugurated in May 2024) a **Center of Conservation** for this species, covering about **900 m²**, with a capacity for up to **44 individuals**, including internal/external enclosures, an incubation and maternity area with environmental controls, veterinary facilities, etc. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n\n**Population numbers:**\n\n- With Hope’s birth, there are now **28 individuals** of *ararinha-azul* under human care at the São Paulo Zoo. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n- Globally, the known population under human care is about **330 individuals**, making those 28 at Zoo SP about **8.5%** of the ex situ (in human care) population. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n\n**Species status:**\n\n- *Cyanopsitta spixii* is classified as **Extinct in the Wild (EW)** by IUCN, and as **Critically Endangered** under Brazilian law. It has been absent from its natural habitat since around **2000**. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n\n---\n\n## What Has Not Yet Happened (or remains to be done)\n\n- **Reintroduction to natural habitat**: While the conservation program includes as a goal the reintroduction of the species into the wild, no such reintroduction has been carried out yet. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n- **A self-sustaining wild population** still does not exist, since the species is extinct in the wild. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n\n---\n\n## Sources & Verifications\n\n- **Primary / official source**: Announcement from ICMBio and MMA confirming the birth on October 18, naming of the chick, program details, and that this is the first zoo birth in Brazil. ([gov.br](https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai))  \n- **Media / independent reporting**: Folha de São Paulo, UOL, CNN Brasil, Agência Brasil and others corroborate the details (date, weight, assistance, population numbers) largely aligning with the official source. ([www1.folha.uol.com.br](https://www1.folha.uol.com.br/ambiente/2026/11/pela-1a-vez-ararinha-azul-nasce-em-zoologico-brasileiro.shtml?utm_source=openai))  \n\n---\n\n## Significance & Conservation Outcome (measured)\n\n- The birth of Hope is a **demonstrated conservation success**: first successful breeding of *ararinha-azul* within a Brazilian zoo under human care, confirming that the reproduction and hatching protocols in captivity currently can yield viable individuals. This is more than a pledge or plan—**a concrete result**.  \n- It contributes to the **ex situ population**, increasing both numbers and hope for genetic management.  \n\n---\n\nIf needed, I can also summarize expert commentary, risks (like genetic diversity, disease), or how this compares to similar species’ conservation efforts.",
+      "research_notes": "Here is a factual, sourced research note on what has *actually* happened in the news item “Breakthrough in brain-computer interface offers hope for depression treatment” (China, November 25, 2026):\n\n---\n\n### What was announced (“launch” / “plan” / “preliminary result”)\n\n- On **November 24, 2026**, Zhejiang University (浙大) and its partner institutions (南湖脑机交叉研究院, 脑机智能全国重点实验室, 杭州青石永隽医疗设备有限公司, and several affiliated hospitals) publicized a new **invasive brain-computer interface system** named *DeepAxtiv*, targeted at treatment-resistant depression (“难治性抑郁症”). ([news.sciencenet.cn](https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai))  \n- DeepAxtiv is described as integrating three technologies:  \n  1. *iTarget* – selecting personalized stimulation targets in the brain per patient,  \n  2. *iSense* – sensing internal brain activity to generate objective neurophysiological indicators of depressive states,  \n  3. *iAdapt* – dynamically optimizing the stimulation parameters (location, intensity, timing) in a closed-loop fashion to adapt as the patient’s brain state changes. ([news.sciencenet.cn](https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai))  \n\n---\n\n### What measurable outcomes have been obtained so far\n\n- **Clinical trial data**: So far, DeepAxtiv has been tested in *six* prospective (前瞻性) participants diagnosed with treatment-resistant depression. ([news.sciencenet.cn](https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai))  \n- **Response and remission rates**:  \n  - All 6 participants reached what is called “clinical response” (clinical effective standard) → 100% response rate. ([news.sciencenet.cn](https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai))  \n  - “Clinical remission” (symptom alleviation to a defined threshold) was achieved by **83%** of the participants. ([news.sciencenet.cn](https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai))  \n- **Speed of effect**: The time until effect (“起效窗口”) was between **1 to 8 weeks** for these participants. ([news.sciencenet.cn](https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai))  \n\n---\n\n### Comparisons to existing treatments / benchmarks\n\n- The press release/article contrasts DeepAxtiv with existing deep brain stimulation (DBS) for depression, noting that for conventional DBS:  \n  - The average response rate internationally is around **54%**, remission around **41%**,  \n  - And that conventional DBS often takes **1 to 2 years** to show full effect. ([news.sciencenet.cn](https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai))  \n\n---\n\n### Limitations / developmental status\n\n- The DeepAxtiv system is **not yet approved** for general clinical use; it remains in early‐stage trial / research phase. ([news.mydrivers.com](https://news.mydrivers.com/1/1168/1168565.htm?utm_source=openai))  \n- Sample size is very small (6 people published; some sources mention 7 evaluated for target-selection) — results may not generalize. ([eet-china.com](https://www.eet-china.com/news/202611132743.html?utm_source=openai))  \n- Long-term safety, durability of effect, potential adverse effects or relapse rates are **not yet fully known**. ([m.yicai.com](https://m.yicai.com/news/103454147.html?utm_source=openai))  \n\n---\n\n### (Estimated) scope\n\n- The reports say there are about **30 million** (国内约 3000 万) people in China suffering from treatment-resistant depression who might benefit from such treatments. ([news.sciencenet.cn](https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai))  \n\n---\n\n### Completed vs. Pledged\n\n- **Completed/measured outcome**: six patients in early clinical use were treated, showing 100% response, 83% remission, with effects in 1-8 weeks. ([news.sciencenet.cn](https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai))  \n- **Yet to happen/planned**:  \n  - Large-scale registration clinical trial planned for **2027**. ([news.mydrivers.com](https://news.mydrivers.com/1/1168/1168565.htm?utm_source=openai))  \n  - Approval process under medical device regulation still pending. ([m.yicai.com](https://m.yicai.com/news/103454147.html?utm_source=openai))  \n  - Widespread availability / standard clinical use not yet established. ([news.t0001.com](https://news.t0001.com/newsflash/202611/1466559.html?utm_source=openai))  \n\n---\n\n### Independent/verification sources\n\n- Reporting comes from multiple Chinese news outlets (Sciencenet / 中国科学报, 第一财经, 快科技, 网易). These appear to be repeating institutional press announcements, likely largely based on the same original source or press release from Zhejiang University and its partners. ([news.sciencenet.cn](https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai))  \n- An independent analysis in **第一财经** discusses both the potential and the caveats (sample size, long-term data, regulatory approvals) rather than uncritically repeating claims. ([m.yicai.com](https://m.yicai.com/news/103454147.html?utm_source=openai))  \n\n---\n\n### Summary / What is known vs what remains unproven\n\nWhat *is known*:\n\n- A new invasive brain-computer interface system, DeepAxtiv, has been developed in China and used in early (small) clinical trials on treatment-resistant depression.  \n- In these trials, results were very favorable: 100% of 6 patients responded; 83% achieved remission; effects began within 1-8 weeks.  \n\nWhat *is not yet proven* or remains uncertain:\n\n- Whether these results will hold in larger, multicenter trials.  \n- Long-term safety and durability.  \n- Side effects, relapse rates after stopping or reducing stimulation.  \n- Regulatory approval and availability to broader patient populations.  \n- Whether this represents a full “cure” or simply symptom control.\n\n---\n\nOverall: the story is *true in terms of a breakthrough announcement and some completed early-stage clinical results*, but the treatment is **not yet established** as a standard of care. Claims of “saving” 30 million people are projections/hope based on these early results, not evidence yet of widespread effectiveness.",
       "citations": [
         {
-          "title": "Nascimento inédito de ararinha-azul no Zoo de São Paulo marca avanço na conservação da espécie — Instituto Chico Mendes de Conservação da Biodiversidade",
-          "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/nascimento-inedito-de-ararinha-azul-no-zoo-de-sao-paulo-marca-avanco-na-conservacao-da-especie?utm_source=openai"
+          "title": "浙大发布用脑机接口治疗难治性抑郁症实现关键性突破—新闻—科学网",
+          "url": "https://news.sciencenet.cn/htmlnews/2026/11/575320.shtm?utm_source=openai"
         },
         {
-          "title": "Pela 1ª vez, ararinha-azul nasce em zoológico brasileiro - 24/11/2026 - Ambiente - Folha",
-          "url": "https://www1.folha.uol.com.br/ambiente/2026/11/pela-1a-vez-ararinha-azul-nasce-em-zoologico-brasileiro.shtml?utm_source=openai"
+          "title": "中国脑机接口突破！3000万难治性抑郁症有救了--快科技--科技改变未来",
+          "url": "https://news.mydrivers.com/1/1168/1168565.htm?utm_source=openai"
+        },
+        {
+          "title": "植入式脑机接口个性化治疗难治性抑郁症，IIT临床试验响应率100%-电子工程专辑",
+          "url": "https://www.eet-china.com/news/202611132743.html?utm_source=openai"
+        },
+        {
+          "title": "治疗难治性抑郁症，浙大脑机接口研究团队有了新突破",
+          "url": "https://m.yicai.com/news/103454147.html?utm_source=openai"
+        },
+        {
+          "title": "中国脑机接口突破3000万难治性抑郁症有救了_大广网",
+          "url": "https://news.t0001.com/newsflash/202611/1466559.html?utm_source=openai"
         }
       ],
       "fallback_error": "",
       "search_error": "",
-      "support": "supported",
-      "outcome_status": "completed",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
-      "significance": "high",
-      "verified_headline": "First blue macaw born in Brazilian zoo marks conservation success",
-      "verified_summary": "A blue macaw named Hope was born at the São Paulo Zoo, marking the first successful breeding of this endangered species in a Brazilian zoo. This event contributes positively to the conservation efforts for the species, which is extinct in the wild.",
-      "verification_note": "The birth of Hope is confirmed by multiple reliable sources, indicating a significant conservation achievement.",
-      "publish_recommendation": "publish"
+      "support": "partially_supported",
+      "outcome_status": "measured_progress",
+      "evidence_quality": "medium",
+      "independence": "likely_republication",
+      "significance": "medium",
+      "verified_headline": "New brain-computer interface shows promise for depression treatment",
+      "verified_summary": "Zhejiang University announced a new brain-computer interface, DeepAxtiv, showing a 100% response rate and 83% remission in six participants with treatment-resistant depression. However, it is still in early-stage trials and not yet approved for general use.",
+      "verification_note": "The treatment shows promising early results but is not yet established as a standard of care. Larger trials and regulatory approval are pending.",
+      "publish_recommendation": "reserve"
     },
     {
-      "id": "c812ff273dc88e",
+      "id": "5e33c2c42a9363",
       "editorial_score": 85,
       "editorial_decision": "publish",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a research note on the candidate news item:  \n\n---\n\n### What Happened (Primary Outcome)\n\n- The “Gongyang Rescue Team” (中国公羊救援队), a Chinese social emergency response organization, **passed** the United Nations’ International Search and Rescue Advisory Group (INSARAG) certification and evaluation test (IEC) on **November 23, 2026**. ([mem.gov.cn](https://www.mem.gov.cn/xw/bndt/202611/t20261125_740596.shtml?utm_source=openai))  \n- As a result, Gongyang Rescue Team now meets the **“medium-size urban search and rescue team”** standard under INSARAG. ([zjnews.zjol.com.cn](https://zjnews.zjol.com.cn/zjnews/202611/t20261124_32046225.shtml?utm_source=openai))  \n\n---\n\n### Key Details / Measured Facts\n\n- The certification is **not new or pledged**—it has been fully achieved and marked by a certificate-and-flag ceremony held in **Hangzhou** on November 23. ([mem.gov.cn](https://www.mem.gov.cn/xw/bndt/202611/t20261125_740596.shtml?utm_source=openai))  \n- Gongyang Rescue Team is the **first social (civil-society) emergency group (非政府／NGO） in China** to earn this certification. ([zjnews.zjol.com.cn](https://zjnews.zjol.com.cn/zjnews/202611/t20261124_32046225.shtml?utm_source=openai))  \n- It is the **fourth rescue team in China** overall to have passed an INSARAG IEC evaluation. ([zjnews.zjol.com.cn](https://zjnews.zjol.com.cn/zjnews/202611/t20261124_32046225.shtml?utm_source=openai))  \n\n---\n\n### Scope of the Test (What Was Evaluated)\n\n- The IEC evaluation for Gongyang Rescue Team included continuous work over about **36 hours** from November 21 to 22, involving:\n  - Arriving and clearance procedures at ports of entry (“通关”)\n  - Establishing base of operations  \n  - Coordination with on-site response bodies  \n  - Search and location  \n  - Structural collapse rescue (破拆营救)  \n  - Medical treatment  \n  - Withdrawal / evacuation  \n- They were assessed on five modules: **management, search, rescue, medical care**, and **logistics**. ([zjnews.zjol.com.cn](https://zjnews.zjol.com.cn/zjnews/202611/t20261124_32046225.shtml?utm_source=openai))  \n\n---\n\n### Context & Significance\n\n- INSARAG (International Search and Rescue Advisory Group) is a United Nations framework; its IEC (International External Certification) is considered the highest standard for urban search and rescue teams. ([zjnews.zjol.com.cn](https://zjnews.zjol.com.cn/zjnews/202611/t20261124_32046225.shtml?utm_source=openai))  \n- Before this certification, China had two INSARAG-certified “heavy” USAR (Urban Search and Rescue) teams: **China International Search and Rescue Team** (established 2001) and **China Search and Rescue Team** (established 2018). These teams had already achieved the highest level (“heavy”) certification and in some cases completed recertification. ([sciengine.com](https://www.sciengine.com/doi/pdf/F98F0536F0844EF4BDB6C3FC478F778A?utm_source=openai))  \n\n---\n\n### Caveats & What Is Not Yet Established\n\n- Gongyang Rescue Team’s certification is **medium-level**, not heavy — meaning the team is qualified for significant international deployment and rescue operations, but not under the “heavy” category (the highest standard) for the most complex collapse or disaster scenarios. ([zjnews.zjol.com.cn](https://zjnews.zjol.com.cn/zjnews/202611/t20261124_32046225.shtml?utm_source=openai))  \n- The certification covers competencies in simulated and evaluated drills; it does not (yet) imply that the team has already deployed internationally under that certification (though it has completed international rescue missions previously) to demonstrate performance under actual disaster conditions while under that particular INSARAG certification. ([zjnews.zjol.com.cn](https://zjnews.zjol.com.cn/zjnews/202611/t20261124_32046225.shtml?utm_source=openai))  \n\n---\n\n### Independent Corroboration\n\n- Source from **China’s Emergency Management Ministry** confirms all of the above, including certification level, date, and certification body. ([mem.gov.cn](https://www.mem.gov.cn/xw/bndt/202611/t20261125_740596.shtml?utm_source=openai))  \n- Local media (“杭州日报”/“杭州网”) reports — independent of the government ministry's announcement — provide full detail on the evaluation process, team size, historical rescue work of Gongyang Rescue Team, and note that it is the first NGO in China to pass this test. ([zjnews.zjol.com.cn](https://zjnews.zjol.com.cn/zjnews/202611/t20261124_32046225.shtml?utm_source=openai))  \n\n---\n\n### Summary\n\n- **Outcome**: Gongyang Rescue Team has been *certified* by INSARAG under the IEC process as a **medium urban search and rescue team**—completed, not merely pledged or planned.  \n- **Significance**: First Chinese NGO to reach this certification; China now has four ECM-certified USAR teams in total.  \n\n---\n\nIf you want, I can also try finding the full text of the INSARAG evaluation report or expert assessments for additional technical details.",
+      "research_notes": "Here is a factual research note on the claim: **“Moss-Based Solution Speeds Soil Recovery at South Korean Wildfire Site”**.\n\n---\n\n### What the announcement says (primary source)\n\nA Business Wire press release dated **November 25, 2026**, issued by Code of Nature, describes a project in the Gyeongpo district of Gangneung city, South Korea, where their *moss-based soil restoration solution* was applied to soil degraded by wildfire. ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai)) Key claimed outcomes at 13 months after treatment:\n\n- Soil organic matter rose from **0.21% to 1.85%**. ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai))  \n- Available phosphate “roughly tripled” (from ~10.65 mg/kg to ~33.4 mg/kg). ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai))  \n- Total nitrogen rose from ~0.008% to ~0.063%. ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai))  \n- Microbial activity over the first three months averaged **1.8×** the pre-restoration levels. ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai))  \n- The treatment was sprayed by drone in **August 2024** at the Gangneung site, which had been burned by wildfire in 2023. ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai))  \n\nThe \"moss-based solution\" is described to involve:\n\n- Moss spores (specifically *Ceratodon purpureus*, known as “fire moss”)  \n- Nutrients and beneficial microbes, including *Bacillus* strains ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai))  \n\nCode of Nature claims that this created conditions for vegetation to reestablish: improved over-ground cover, better soil physicochemical properties, measurable NDVI improvement, etc. ([c-of-n.com](https://www.c-of-n.com/en/mosby/projects/gyeongpo-wildfire?utm_source=openai))\n\n---\n\n### Verification / Independent sources\n\nI searched for independent scientific studies confirming this specific project or its outcomes; I found **no peer-reviewed article** published to date that independently confirms *all* the claimed figures (organic matter increase from 0.21% to 1.85%, specific nutrient increases, etc.) at the Gangneung wildfire site under Code of Nature.\n\nRelated studies exist of moss or biocrust applications (or natural moss development) improving soil properties in wildfire or degraded soils, but none reporting these exact results in this location with this technology.\n\nExamples:\n\n- A recent pot-experiment in reclaimed coastal soils in Taean, South Korea, found that living moss (“Hypnum plumaeforme, *Ceratodon purpureus*, Racomitrium lanuginosum”) increased organic matter, available phosphate, and CEC under controlled conditions over four weeks. But that is lab/pot-based, not field scale, and does *not* measure moss growth quantitatively. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/42449066/?utm_source=openai))  \n- Studies of natural moss biocrusts in Spain show that moss cover improves soil fertility, microbial biomass, and helps with soil stability. But these are different regions, different moss species, and natural/protected moss crusts rather than an engineered sprayed treatment. ([dspace.umh.es](https://dspace.umh.es/bitstream/11000/33652/1/1-s2.0-S030147972030222X-main.pdf?utm_source=openai))  \n\n---\n\n### Independent corroboration, context & caveats\n\n- The Code of Nature project page (\"Gangneung Gyeongpo Wildfire Soil Restoration Project\") reports some outcomes in summary form: “50% achieved over ground cover,” “improved NDVI by more than 20%,” and “improved soil physicochemical properties by more than …” but does *not* provide all detailed soil lab numbers in that summary. ([c-of-n.com](https://www.c-of-n.com/en/mosby/projects/gyeongpo-wildfire?utm_source=openai))  \n- The technology is listed in WIPO’s *Green Technology Book* under “Mosby” as **proven technology** for wildfire-damaged and other degraded soils. WIPO describes it similarly: moss spores in liquid form, nutrients, plant hormones, microbes, sprayed etc. ([wipo.int](https://www.wipo.int/edocs/pubdocs/en/wipo-pub-1080-2026-en-green-technology-book.pdf?utm_source=openai))  \n\n---\n\n### What we *know for sure*\n\n- The project is real: Code of Nature has implemented a sprayed moss-based treatment in **August 2024** at a wildfire-burned site in Gangneung / Gyeongpo, South Korea. ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai))  \n- Soil organic matter was measured rising from ~0.21% to ~1.85% over 13 months post-treatment. ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai))  \n- Nutrients (available phosphate) increased roughly three-fold; total nitrogen also increased substantially. ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai))  \n- They reported that microbial activity (average over first three months) rose to ~1.8× of pre-restoration. ([finance.yahoo.com](https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai))  \n\n---\n\n### Unverified or uncertain elements\n\n- So far, no independent peer-reviewed publication is confirmed that replicates or confirms all the detailed metrics for the Gangneung site (organic matter from 0.21% to 1.85%, etc.).  \n- The summary claims from Code of Nature’s own materials (NDVI improvements, over-ground cover etc.) are not backed by detailed data in independent sources.  \n- Longer-term outcomes (beyond 13 months) such as full vegetation recovery, ecosystem functionality, erosion rates etc. are not yet independently verified.  \n\n---\n\n### Conclusion\n\nThe story is **supported by a recent company-issued press release** which gives concrete measured outcomes from a wild-fire degraded site treated with a moss-based restoration solution. But these claims currently derive primarily from Code of Nature itself; independent, peer-reviewed validation of those exact figures is **not yet available**.\n\nIf you like, I can look up whether there are scientific articles in review (or preprint) that confirm the Gangneung project, or variants of it, so as to assess reliability.",
       "citations": [
         {
-          "title": "公羊救援队通过联合国国际救援队认证测评--中华人民共和国应急管理部",
-          "url": "https://www.mem.gov.cn/xw/bndt/202611/t20261125_740596.shtml?utm_source=openai"
+          "title": "Code of Nature's Moss-Based Solution Speeds Soil Recovery at South Korean Wildfire Site",
+          "url": "https://finance.yahoo.com/technology/articles/code-natures-moss-based-solution-140000416.html?utm_source=openai"
         },
         {
-          "title": "中国首支通过联合国INSARAG分级测评的社会应急力量 “中国公羊救援队”昨日获授牌",
-          "url": "https://zjnews.zjol.com.cn/zjnews/202611/t20261124_32046225.shtml?utm_source=openai"
+          "title": "Gangneung Gyeongpo Wildfire Soil Restoration Project | Mosby – Code of Nature | Code of Nature",
+          "url": "https://www.c-of-n.com/en/mosby/projects/gyeongpo-wildfire?utm_source=openai"
         },
         {
-          "title": "第 35 卷第 4 期",
-          "url": "https://www.sciengine.com/doi/pdf/F98F0536F0844EF4BDB6C3FC478F778A?utm_source=openai"
+          "title": "Ecological Potential of Moss Application for Soil Physicochemical Improvement in Reclaimed Coastal Lands.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42449066/?utm_source=openai"
+        },
+        {
+          "title": "The role of mosses in soil stability, fertility and microbiology six years after a post-fire salvage logging management",
+          "url": "https://dspace.umh.es/bitstream/11000/33652/1/1-s2.0-S030147972030222X-main.pdf?utm_source=openai"
+        },
+        {
+          "title": "Green Technology Book. Solutions for restoring climate-impacted ecosystems.",
+          "url": "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-1080-2026-en-green-technology-book.pdf?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "measured_progress",
+      "evidence_quality": "medium",
+      "independence": "single_source",
+      "significance": "medium",
+      "verified_headline": "Moss-Based Solution Improves Soil Recovery in South Korea",
+      "verified_summary": "A moss-based solution applied to wildfire-affected soil in South Korea showed measurable improvements in soil organic matter and nutrient levels over 13 months. However, independent verification of all claimed outcomes is still lacking.",
+      "verification_note": "The project shows promising results, but independent peer-reviewed validation of the specific metrics is not yet available.",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "d010952de808a0",
+      "editorial_score": 80,
+      "editorial_decision": "publish",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here is a factual research note on the event titled *“Successful rescue of hostages demonstrates effective security response”*, based on reports published on **25 November 2026** out of Colombia. The incident involves a hostage situation at a supermarket in Cartagena and the subsequent rescue operation.  \n\n---\n\n### What actually happened\n\n- **Location & time**: On **24 November 2026**, armed men attempted to rob an armored cash transport (vehicle de valores) in Cartagena, Colombia. When confronted by authorities, they escaped into the *Éxito* supermarket in the La Castellana neighborhood, taking customers and staff hostage. The crisis lasted approximately **16 to 18 hours**. ([eltelegrafo.com.ec](https://www.eltelegrafo.com.ec/noticias/internacionales/211/presidente-de-colombia-anuncia-rescate-de-rehenes-en-cartagena-tras-operativo-en-supermercado?utm_source=openai))\n\n- **Rescue operation**: In the early hours of **25 November 2026** (~1:30 a.m.), a joint operation by the National Police, the Military, and special forces freed all remaining hostages. The intervention followed failed negotiations wherein the captors refused to surrender. One of the captors was killed (described as “neutralized” or “abatido”) during the operation; several others were detained. ([eltelegrafo.com.ec](https://www.eltelegrafo.com.ec/noticias/internacionales/211/presidente-de-colombia-anuncia-rescate-de-rehenes-en-cartagena-tras-operativo-en-supermercado?utm_source=openai))\n\n- **Hostages & harms**: All hostages were rescued alive, described as “sanos y salvos” (safe and sound), according to both the President, Abelardo de la Espriella, and the Mayor of Cartagena, Dumek Turbay. There were no confirmed reports of hostage injuries in early accounts. ([eltelegrafo.com.ec](https://www.eltelegrafo.com.ec/noticias/internacionales/211/presidente-de-colombia-anuncia-rescate-de-rehenes-en-cartagena-tras-operativo-en-supermercado?utm_source=openai))\n\n- **Number of hostages**: About **30 people** were initially taken hostage; during the day, ten were released prior to the final intervention. Some reports say the total was about **20** at the moment of rescue. Discrepancies likely arise from releases and varying counts of staff vs. customers. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))\n\n---\n\n### Assessment of the sources\n\nThese details come from direct statements by Colombian government officials, including President Abelardo de la Espriella (who announced the outcome via video and social media), and local authorities, including the mayor of Cartagena. Independent international agencies (Reuters, Associated Press) reported largely consistent versions. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))\n\n---\n\n### Completed & measurable outcomes vs announcements\n\n- **Completed outcomes**:\n  - All hostages were rescued alive and unharmed, per official reports. ([eltelegrafo.com.ec](https://www.eltelegrafo.com.ec/noticias/internacionales/211/presidente-de-colombia-anuncia-rescate-de-rehenes-en-cartagena-tras-operativo-en-supermercado?utm_source=openai))  \n  - One captor was killed, others detained. ([eltelegrafo.com.ec](https://www.eltelegrafo.com.ec/noticias/internacionales/211/presidente-de-colombia-anuncia-rescate-de-rehenes-en-cartagena-tras-operativo-en-supermercado?utm_source=openai))  \n  - The operation was carried out by state security forces in an executed joint operation involving police, military, and specialized units. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))\n\n- **Announcements or plans**:\n  - Statements such as “this operation was absolutely impeccable” or “absolutely flawless” are descriptors from political leaders reflecting their view of the operation—not independently verified claims of performance quality. ([eltelegrafo.com.ec](https://www.eltelegrafo.com.ec/noticias/internacionales/211/presidente-de-colombia-anuncia-rescate-de-rehenes-en-cartagena-tras-operativo-en-supermercado?utm_source=openai))  \n  - Reports of exact numbers of hostage-takers, ransom demands, or specific breakdowns of freed hostages (employees vs customers) vary among sources and remain less precisely corroborated. Some initial demand figures reported via local media (“casi dos millones de dólares, vehículos blindados…”) have not been independently verified. ([amp.dw.com](https://amp.dw.com/es/presidente-de-colombia-anuncia-rescate-de-todos-los-rehenes-retenidos-en-un-supermercado-en-cartagena/a-80043212?utm_source=openai))\n\n---\n\n### Context & implications\n\n- The event reflects a **measured outcome**: a completed rescue with all hostages freed, as opposed to just a plan or pledge.  \n- It demonstrates that Colombian authorities conducted a coordinated security response—military, police, special units—which achieved its objective.  \n- The incident is noteworthy given ongoing security challenges in Colombia, especially as violent incidents and indictments of rebel or criminal activity have been spreading into urban areas. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))\n\n---\n\nIf you like, I can track the official government statement text or video for primary source verification.",
+      "citations": [
+        {
+          "title": "Presidente de Colombia anuncia rescate de rehenes en Cartagena tras operativo en supermercado",
+          "url": "https://www.eltelegrafo.com.ec/noticias/internacionales/211/presidente-de-colombia-anuncia-rescate-de-rehenes-en-cartagena-tras-operativo-en-supermercado?utm_source=openai"
+        },
+        {
+          "title": "Colombian security forces rescue hostages in supermarket siege | GMA News Online",
+          "url": "https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai"
+        },
+        {
+          "title": "Presidente de Colombia anuncia rescate de los rehenes",
+          "url": "https://amp.dw.com/es/presidente-de-colombia-anuncia-rescate-de-todos-los-rehenes-retenidos-en-un-supermercado-en-cartagena/a-80043212?utm_source=openai"
         }
       ],
       "fallback_error": "",
@@ -68,154 +121,187 @@
       "evidence_quality": "high",
       "independence": "multiple_independent",
       "significance": "high",
-      "verified_headline": "Gongyang Rescue Team certified by UN for disaster response",
-      "verified_summary": "The Gongyang Rescue Team has been certified by the UN's INSARAG as a medium urban search and rescue team, marking a significant achievement as the first Chinese NGO to receive this certification.",
-      "verification_note": "The certification is fully achieved, with independent sources confirming the details and significance of the Gongyang Rescue Team's accomplishment.",
+      "verified_headline": "Colombian authorities successfully rescue hostages from supermarket",
+      "verified_summary": "Colombian security forces rescued approximately 20 hostages from a supermarket in Cartagena after a 16 to 18-hour standoff. All hostages were reported safe and unharmed, with one captor killed during the operation.",
+      "verification_note": "The rescue operation involved coordinated efforts by police and military, with multiple independent sources confirming the successful outcome.",
+      "publish_recommendation": "publish"
+    },
+    {
+      "id": "7a77442f37c287",
+      "editorial_score": 80,
+      "editorial_decision": "publish",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here is a research note summarizing what has been verified about the event, with citations from primary and independent sources:\n\n---\n\n### What Happened\n\n- **Incident**: Armed men seized a supermarket in Cartagena, Colombia (Éxito branch in La Castellana), after a failed attempt to rob an armored vehicle. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n- They took hostages—initial reports say about **30 people**—including both customers and supermarket employees. ([abcnews.com](https://abcnews.com/International/30-hostages-rescued-after-standoff-colombia-president-officials/story?id=138436242&utm_source=openai))  \n- Over the course of about 17–18 hours, approximately **10 hostages** were released (including several elderly women) during negotiations before security forces entered the building. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n\n---\n\n### Measured Outcomes\n\n- All hostages were rescued alive during a joint operation by Colombia’s National Police and the military forces. ([amp.dw.com](https://amp.dw.com/en/colombian-security-forces-storm-supermarket-free-hostages/a-80043016?utm_source=openai))  \n- One of the captors was killed (“neutralized”) in the assault. ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai))  \n- Some hostages were released earlier, while the final rescue occurred after tactical teams stormed the supermarket. ([cbsnews.com](https://www.cbsnews.com/news/colombia-supermarket-siege-ends-security-forces-storm-scene/?utm_source=openai))  \n- The rescued hostages were described by officials, including the mayor of Cartagena, as “sanos y salvos” (“safe and sound”). ([20minutos.es](https://www.20minutos.es/internacional/rescatados-todos-los-rehenes-supermercado-colombia-tras-una-operacion-que-deja-un-secuestrador-muerto_7065325_0.html?utm_source=openai))  \n\n---\n\n### Assertions / Claims Pending Independent Verification\n\n- The number of hostages initially held: commonly reported as **about 30**, but some reports indicate “about 20” were inside at the moment of the assault. ([abcnews.com](https://abcnews.com/International/30-hostages-rescued-after-standoff-colombia-president-officials/story?id=138436242&utm_source=openai))  \n- Demands made by the captors—reports suggest they asked for approximately **US$2 million**, two armored vehicles, and safe passage to Barranquilla. These claims are reported by local media and authorities, but **not independently verified**. ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai))  \n\n---\n\n### Official Source / Primary Statements\n\n- President **Abelardo de la Espriella** announced via video and in statements that “all hostages were rescued” in the joint police-military operation, describing the operation as “absolutely flawless.” ([cbsnews.com](https://www.cbsnews.com/news/colombia-supermarket-siege-ends-security-forces-storm-scene/?utm_source=openai))  \n- The mayor of Cartagena confirmed all hostages were safe and undergoing medical checks. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n\n---\n\n### Summary\n\n- The event is **verified**: all hostages were rescued in Cartagena during a supermarket siege; one captor was killed; no major injuries to hostages have been reported in verified sources.\n- This is a **completed outcome** (the hostages are safe), not just a plan or pledge.\n- Some details (number of captors, demands) remain based on preliminary reports, not all independently confirmed.\n\n---\n\nIf you like, I can try to find any government or security forces reports (e.g. Ministry of Defense, Police) to confirm additional details.",
+      "citations": [
+        {
+          "title": "Colombian security forces rescue hostages in supermarket siege | GMA News Online",
+          "url": "https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai"
+        },
+        {
+          "title": "About 30 hostages rescued after standoff in Colombia, president and officials say - ABC News",
+          "url": "https://abcnews.com/International/30-hostages-rescued-after-standoff-colombia-president-officials/story?id=138436242&utm_source=openai"
+        },
+        {
+          "title": "Colombia: All hostages rescued from supermarket in Cartagena",
+          "url": "https://amp.dw.com/en/colombian-security-forces-storm-supermarket-free-hostages/a-80043016?utm_source=openai"
+        },
+        {
+          "title": "Colombia hostages rescued after forces storm Cartagena supermarket | AFP | JIJI PRESS",
+          "url": "https://jen.jiji.com/afp/20261125049622a/?utm_source=openai"
+        },
+        {
+          "title": "Colombia supermarket siege ends when security forces storm scene, rescue hostages - CBS News",
+          "url": "https://www.cbsnews.com/news/colombia-supermarket-siege-ends-security-forces-storm-scene/?utm_source=openai"
+        },
+        {
+          "title": "Rescatados todos los rehenes del supermercado de Colombia tras una operación que deja un secuestrador muerto",
+          "url": "https://www.20minutos.es/internacional/rescatados-todos-los-rehenes-supermercado-colombia-tras-una-operacion-que-deja-un-secuestrador-muerto_7065325_0.html?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "supported",
+      "outcome_status": "completed",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "high",
+      "verified_headline": "All hostages rescued in Cartagena supermarket siege",
+      "verified_summary": "All hostages were rescued alive during a joint operation by Colombia’s National Police and military forces in Cartagena. One captor was killed during the operation, and no major injuries to hostages have been reported.",
+      "verification_note": "The event is verified with multiple independent sources confirming the successful rescue of all hostages and the operation's completion.",
+      "publish_recommendation": "publish"
+    },
+    {
+      "id": "76927573c6234a",
+      "editorial_score": 90,
+      "editorial_decision": "reserve",
+      "search_backend": "responses_web_search",
+      "search_model": "gpt-6-luna",
+      "research_notes": "### Research note\n\n- **What happened:** On **October 19, 2026**, Informed Earth and Internews’ Earth Journalism Network announced **16 journalists selected** for a fellowship to report on CBD COP17 in Yerevan. The announcement says there were **more than 140 applications** and describes planned reporting support, briefings, and mentoring. ([informedstories.org](https://informedstories.org/en/informed-earth/updates/cbd-cop17-reporting-fellows/?utm_source=openai))\n- **What this establishes:** This is a **fellowship-selection and journalism-support announcement**—not evidence that the fellows achieved biodiversity targets or that nature conditions improved. COP17 itself took place in Yerevan **October 19–30, 2026**; the Convention on Biological Diversity independently confirms those dates. ([informedstories.org](https://informedstories.org/en/informed-earth/updates/cbd-cop17-reporting-fellows/?utm_source=openai))\n- **Source and date check:** The matching announcement I found is hosted by **Informed Earth**, in partnership with EJN; its headline differs slightly from the candidate headline. It is dated **October 19**, not **November 25, 2026**. The independent CBD source confirms the conference dates, but I found no independent source verifying the fellows’ selection. I can’t establish from the sources found whether other articles simply republish the announcement. ([informedstories.org](https://informedstories.org/en/informed-earth/updates/cbd-cop17-reporting-fellows/?utm_source=openai))",
+      "citations": [
+        {
+          "title": "16 Fellows to Cover Biodiversity Negotiations at CBD COP17 in Yerevan · Informed Earth",
+          "url": "https://informedstories.org/en/informed-earth/updates/cbd-cop17-reporting-fellows/?utm_source=openai"
+        }
+      ],
+      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 284. Please try again in 379ms. Visit https://platform.op",
+      "search_error": "",
+      "support": "unsupported",
+      "outcome_status": "announcement",
+      "evidence_quality": "medium",
+      "independence": "single_source",
+      "significance": "medium",
+      "verified_headline": "Biodiversity Fellows Selected for COP17 Reporting in Armenia",
+      "verified_summary": "Sixteen journalists have been selected for a fellowship to report on the CBD COP17 in Yerevan, Armenia. This announcement does not provide evidence of any achieved biodiversity targets or improvements in nature conditions.",
+      "verification_note": "The announcement of the fellowship does not confirm any positive environmental impact or measurable outcomes related to biodiversity targets.",
+      "publish_recommendation": "reject"
+    },
+    {
+      "id": "2e0aebda37fdb6",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here’s a factual research note on the event “Successful rescue operation of hostages shows effective response,” based on multiple sources with confirmation of what *actually happened* in Cartagena, Colombia.\n\n---\n\n### What Happened\n\n**Hostage Situation:**\n\n- On Tuesday, **November 24, 2026**, armed men stormed an Éxito supermarket in the La Castellana neighborhood of Cartagena, Colombia, after a failed attempt to hijack an armoured (cash-in-transit) vehicle. ([theguardian.com](https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket?utm_source=openai))  \n- Approximately **30 people** (employees and customers) were initially taken hostage. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n\n**Escalation & Negotiations:**\n\n- During the ~17- to 18-hour standoff, **10 hostages** (including several elderly women) were released following negotiations. ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai))  \n- The hostage-takers made substantial demands: reportedly nearly **2 million USD**, **two armoured vehicles**, and **safe passage** to the city of Barranquilla, about 130 km northeast of Cartagena. ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai))  \n\n---\n\n### The Rescue\n\n- Early on **Wednesday, November 25, 2026**, Colombian security forces (National Police and Armed Forces) launched a storming operation. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n- The assault ended the day-long siege. According to President **Abelardo de la Espriella**, **all remaining hostages were rescued alive**. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n- One hostage-taker was **killed** during the operation. ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai))  \n\n**Casualties among hostages:** None reported. All hostages “safe and sound” and reunited with families, pending medical checks. ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai))  \n\n---\n\n### Key Figures, Location & Timing\n\n| Detail | Information |\n|---|---|\n| Location | Éxito supermarket, La Castellana, Cartagena, Colombia |\n| Start time | Tuesday morning, November 24, 2026 (approx. 8:30 AM local) ([theguardian.com](https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket?utm_source=openai)) |\n| Duration | ~17-18 hours ([abcnews.com](https://abcnews.com/International/30-hostages-rescued-after-standoff-colombia-president-officials/story?id=138436242&utm_source=openai)) |\n| Number of hostages initially held | ~30 people ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai)) |\n| Number of hostages released before final assault | 10 released during negotiations ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai)) |\n| Outcome for rescuers | Operation succeeded without injuries to hostages; 1 captor killed ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai)) |\n\n---\n\n### Primary/Official Sources & Independent Confirmation\n\n- **Official/primary statements**: President Abelardo de la Espriella issued video statements and appeared on scene, stating that “through an extraordinary joint operation ... all the hostages were rescued.” ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai))  \n- Authorities also confirmed in official statements (from the Colombian defense ministry / police) that the captors rejected offers to surrender. ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai))  \n- **Independent journalism** (Reuters, AP, AFP, GMA, The Guardian, etc.) corroborates: number of hostages, nature of siege, demands, rescue outcome. ([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n\n---\n\n### Conclusion: Verified Outcome vs Announcements\n\nFrom source material, what is confirmed as completed:\n\n- All remaining hostages were rescued alive.  \n- One hostage-taker was killed.  \n- No hostage deaths or major injuries reported among the rescued.  \n\nWhat is not yet independently verified:\n\n- Precise identities of captors (beyond “common criminals”). ([jen.jiji.com](https://jen.jiji.com/afp/20261125049622a/?utm_source=openai))  \n- Whether all captors were captured or escaped. Some articles mention others were detained. ([abcnews.com](https://abcnews.com/International/30-hostages-rescued-after-standoff-colombia-president-officials/story?id=138436242&utm_source=openai))  \n\n---\n\nIf you like, I can also pull up any follow-up investigations (e.g. legal proceedings, who the captors were, etc.).",
+      "citations": [
+        {
+          "title": "Colombia’s president arrives at scene of supermarket hostage siege in tourist city | Colombia | The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket?utm_source=openai"
+        },
+        {
+          "title": "Colombian security forces rescue hostages in supermarket siege | GMA News Online",
+          "url": "https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai"
+        },
+        {
+          "title": "Colombia hostages rescued after forces storm Cartagena supermarket | AFP | JIJI PRESS",
+          "url": "https://jen.jiji.com/afp/20261125049622a/?utm_source=openai"
+        },
+        {
+          "title": "About 30 hostages rescued after standoff in Colombia, president and officials say - ABC News",
+          "url": "https://abcnews.com/International/30-hostages-rescued-after-standoff-colombia-president-officials/story?id=138436242&utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "supported",
+      "outcome_status": "completed",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "high",
+      "verified_headline": "Colombian forces successfully rescue hostages from supermarket siege",
+      "verified_summary": "Colombian security forces rescued all remaining hostages from a supermarket siege in Cartagena after a 17-18 hour standoff. No hostages were injured, and one hostage-taker was killed during the operation.",
+      "verification_note": "The rescue operation's success is confirmed by multiple independent sources, with all hostages reported safe and sound.",
       "publish_recommendation": "publish"
     },
     {
       "id": "4a3555fdb06175",
-      "editorial_score": 90,
+      "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a research note on the Cartagena, Colombia supermarket hostage event as of November 25, 2026 — what is known, what remains unconfirmed.\n\n---\n\n## What is widely reported\n\n- On **November 24, 2026**, armed men entered an Éxito supermarket in the La Castellana neighbourhood of Cartagena, Colombia, after their attempt to rob an armoured cash-transport vehicle failed. ([investing.com](https://www.investing.com/news/world-news/hostages-held-in-cartagena-colombia-supermarket-after-failed-armored-car-hijacking-5048878?utm_source=openai))\n\n- These attackers fled into the store and took hostages — reports initially estimated around **30 hostages**, including customers and supermarket workers. ([investing.com](https://www.investing.com/news/world-news/hostages-held-in-cartagena-colombia-supermarket-after-failed-armored-car-hijacking-5048878?utm_source=openai))\n\n- Some hostages were released during the day. Early reports specify **five elderly women** freed first. Later, about **10 to 15 people** were freed, though figures vary across sources. ([afp.com](https://www.afp.com/en/twenty-five-hostages-taken-botched-robbery-colombias-cartagena?utm_source=openai))\n\n- Colombian authorities, including President Abelardo de la Espriella, described the assailants as “common criminals” rather than members of guerrilla or paramilitary groups, attributing a botched robbery as the motive. ([afp.com](https://www.afp.com/en/gunmen-seize-dozens-hostages-colombia-supermarket-siege?utm_source=openai))\n\n- The situation led to a large security response: police, military special units, and snipers surrounded the store; nearby streets were sealed off; firepower deployed. Cartagena’s Rafael Núñez airport briefly suspended landings (about **45 minutes**) in response. ([investing.com](https://www.investing.com/news/world-news/hostages-held-in-cartagena-colombia-supermarket-after-failed-armored-car-hijacking-5048878?utm_source=openai))\n\n---\n\n## Claims of a completed rescue\n\n- Some reporting, notably from *Colombia Reports*, *Insight International*, and other sources, state that **all remaining hostages were rescued** after approximately **20 people** were liberated in a final clearance operation early on November 25. They claim one hostage-taker was killed and several others detained. ([colombiareports.com](https://colombiareports.com/colombias-special-forces-liberate-hostages-cartagena-supermarket/?utm_source=openai))\n\n---\n\n## What is *not* confirmed\n\n- There is **no confirmed primary source** from Colombian government or law enforcement that definitively states all hostages were rescued, or that the hostage takers were subdued in the manner some reports claim (e.g., one killed, others arrested). *(No official statement found, as of this writing.)* ([afp.com](https://www.afp.com/en/twenty-five-hostages-taken-botched-robbery-colombias-cartagena?utm_source=openai))\n\n- Conflicting numbers remain: while some sources say 30 were initially hostages, others cite 25, and estimates of how many were still inside range from about 20 to fewer. ([investing.com](https://www.investing.com/news/world-news/hostages-held-in-cartagena-colombia-supermarket-after-failed-armored-car-hijacking-5048878?utm_source=openai))\n\n- Claims about injuries, condition of hostages, or whether any police or bystanders were harmed are **unverified**. Some media reported denials of injuries; others did not have information. ([theoverlookednews.net](https://www.theoverlookednews.net/story/983-colombia-cartagena-exito-la-castellana-supermarket-hostages?utm_source=openai))\n\n---\n\n## Outcome as of latest reliable information (morning of Nov 25, 2026)\n\n- Security forces launched an operation early on **Wednesday, Nov 25**, around **1 AM** local time, reportedly storming the Éxito supermarket. Some reports say this ended the siege. ([theinsightinternational.com](https://theinsightinternational.com/colombia-cartagena-exito-hostages-rescued-special-forces-gunman-killed-november-25/?utm_source=openai))\n\n- One assailant was reportedly killed; four others detained, according to some sources. ([theinsightinternational.com](https://theinsightinternational.com/colombia-cartagena-exito-hostages-rescued-special-forces-gunman-killed-november-25/?utm_source=openai))\n\n- About **20 people** were reportedly freed in the final stage. However, this figure is not yet confirmed by all officials. ([colombiareports.com](https://colombiareports.com/colombias-special-forces-liberate-hostages-cartagena-supermarket/?utm_source=openai))\n\n- No credible evidence was found in the reviewed sources confirming that **every hostage** had been rescued alive and unharmed. ([theoverlookednews.net](https://www.theoverlookednews.net/story/983-colombia-cartagena-exito-la-castellana-supermarket-hostages?utm_source=openai))\n\n---\n\n## Assessment (measured outcome vs launch/announcement)\n\n- The story was first an ongoing hostage crisis — a **launch/announcement** of a security incident (armed hostage taking).\n\n- Reports evolved with **measured outcomes**: partial releases, government response, suspension of airport operations.\n\n- As of now, **claims** of a complete rescue are being made in some media outlets, but **lack strong, verified official confirmation**.\n\n---\n\nIf you like, I can check whether any **later** official statement (e.g. after Nov 25) confirms the full outcome. Would you prefer that?",
+      "research_notes": "Here is a factual research note on the reported hostage rescue in Cartagena, Colombia, based on multiple news sources. Unverified claims are noted; only confirmed outcomes are emphasized.\n\n---\n\n## What Happened\n\n- On **Tuesday, November 24, 2026**, armed men attempted to rob an armored vehicle transporting cash at a mall in Cartagena. When police responded, the suspects fled and took refuge in an Éxito supermarket located in the La Castellana neighborhood.([investing.com](https://www.investing.com/news/world-news/hostages-held-in-cartagena-colombia-supermarket-after-failed-armored-car-hijacking-5048878?utm_source=openai))  \n- They then held shoppers and employees—approximately **25–30 people**—hostage inside the store.([afp.com](https://www.afp.com/en/gunmen-seize-dozens-hostages-colombia-supermarket-siege?utm_source=openai))  \n- During the day-long standoff, **10 hostages** were released early, including several elderly women.([straitstimes.com](https://www.straitstimes.com/world/colombia-hostages-rescued-after-forces-storm-cartagena-supermarket?utm_source=openai))  \n\n---\n\n## Intervention & Outcome\n\n- In the **early hours of Wednesday, November 25, 2026**, a joint operation by the National Police and the Armed Forces stormed the supermarket and ended the siege.([arabnews.com](https://www.arabnews.com/world/colombia-hostages-rescued-after-forces-storm-cartagena-supermarket-3013959?utm_source=openai))  \n- **All remaining hostages** were rescued.([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n- One of the hostage-takers was killed.([arabnews.com](https://www.arabnews.com/world/colombia-hostages-rescued-after-forces-storm-cartagena-supermarket-3013959?utm_source=openai))  \n- Authorities stated the hostage-takers refused demands to surrender during negotiations.([arabnews.com](https://www.arabnews.com/world/colombia-hostages-rescued-after-forces-storm-cartagena-supermarket-3013959?utm_source=openai))  \n\n---\n\n## Details & Context\n\n- Initially ~30 people were taken, though counts vary: some reports say 25, others ~30.([investing.com](https://www.investing.com/news/world-news/hostages-held-in-cartagena-colombia-supermarket-after-failed-armored-car-hijacking-5048878?utm_source=openai))  \n- The captors reportedly made demands including nearly **US$2 million**, two armored vehicles, and safe passage to Barranquilla, though those demands have not been independently verified.([straitstimes.com](https://www.straitstimes.com/world/colombia-hostages-rescued-after-forces-storm-cartagena-supermarket?utm_source=openai))  \n- The president, Abelardo de la Espriella, called the operation a “flawless,” “extraordinary joint operation.”([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n- Airport operations in Cartagena were briefly disrupted—landings suspended for about 45 minutes at Rafael Núñez Airport.([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n\n---\n\n## Primary vs. Independent Sources\n\n- **Primary sources** include statements from President Abelardo de la Espriella, government agencies (National Police, Armed Forces), and official video or social media postings by those authorities.([arabnews.com](https://www.arabnews.com/world/colombia-hostages-rescued-after-forces-storm-cartagena-supermarket-3013959?utm_source=openai))  \n- **Independent sources** are news agencies reporting from the scene or quoting authorities, including AFP, Reuters, AP, CBS, The Guardian, GMA News, etc. These confirm the major facts: initial hostage-taking, standoff, rescue, one captor killed, full release of remaining hostages.([gmanetwork.com](https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai))  \n\n---\n\n## Verified Outcomes vs. Announcements/Claims\n\n| Verified outcome | Announcements / Claims |\n|---|---|\n| All hostages rescued. | Captors’ demands (US$2 million, armored vehicles, safe passage) still unverified. |\n| One hostage-taker killed. | Number of captors involved varies in reports, not confirmed. |\n| Initial ~30 people held; ~10 released earlier. | Identity of captors, their group affiliation, or how many involved remain partially unclear. |\n\n---\n\n## Conclusion\n\nThe event is *not* merely a pledge or plan; the hostage rescue is a completed action, confirmed by multiple independent sources. The key outcome—everyone held hostage being freed—has been achieved. While some details (like the exact demands and number of captors) remain less certain, the core facts are well-documented and verified.\n\nLet me know if you want further verification on any of the more uncertain claims (e.g. captors’ demands, identities).",
       "citations": [
         {
           "title": "Hostages held in Cartagena, Colombia supermarket after failed armored car hijacking By Reuters",
           "url": "https://www.investing.com/news/world-news/hostages-held-in-cartagena-colombia-supermarket-after-failed-armored-car-hijacking-5048878?utm_source=openai"
         },
         {
-          "title": "Twenty-five hostages taken in botched robbery in Colombia's Cartagena | AFP.com",
-          "url": "https://www.afp.com/en/twenty-five-hostages-taken-botched-robbery-colombias-cartagena?utm_source=openai"
-        },
-        {
           "title": "Gunmen seize dozens of hostages in Colombia supermarket siege | AFP.com",
           "url": "https://www.afp.com/en/gunmen-seize-dozens-hostages-colombia-supermarket-siege?utm_source=openai"
         },
         {
-          "title": "Colombia's special forces liberate hostages Cartagena supermarket - Colombia News",
-          "url": "https://colombiareports.com/colombias-special-forces-liberate-hostages-cartagena-supermarket/?utm_source=openai"
+          "title": "Colombia hostages rescued after forces storm Cartagena supermarket | The Straits Times",
+          "url": "https://www.straitstimes.com/world/colombia-hostages-rescued-after-forces-storm-cartagena-supermarket?utm_source=openai"
         },
         {
-          "title": "UPDATE: Cartagena Éxito hostage standoff goes on; reports put the number freed at 10 to 15 as Colombia’s president heads there · OVERLOOKED",
-          "url": "https://www.theoverlookednews.net/story/983-colombia-cartagena-exito-la-castellana-supermarket-hostages?utm_source=openai"
+          "title": "Arab News | Colombia hostages rescued after forces storm Cartagena supermarket",
+          "url": "https://www.arabnews.com/world/colombia-hostages-rescued-after-forces-storm-cartagena-supermarket-3013959?utm_source=openai"
         },
         {
-          "title": "Colombian special forces free Cartagena supermarket hostages, one gunman killed - The Insight International",
-          "url": "https://theinsightinternational.com/colombia-cartagena-exito-hostages-rescued-special-forces-gunman-killed-november-25/?utm_source=openai"
+          "title": "Colombian security forces rescue hostages in supermarket siege | GMA News Online",
+          "url": "https://www.gmanetwork.com/news/topstories/world/1010762/colombian-security-forces-rescue-hostages-in-supermarket-siege/story/?utm_source=openai"
         }
       ],
       "fallback_error": "",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "unclear",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "high",
-      "verified_headline": "Colombia supermarket hostages reportedly rescued after police operation",
-      "verified_summary": "On November 25, 2026, Colombian special forces reportedly stormed a supermarket in Cartagena, freeing hostages taken during a robbery attempt. However, confirmation of all hostages being rescued unharmed is still pending.",
-      "verification_note": "While reports indicate a rescue operation, the lack of official confirmation about the complete outcome and the condition of all hostages limits the support for the claim.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "3e1ef30cf07189",
-      "editorial_score": 90,
-      "editorial_decision": "reserve",
-      "search_backend": "responses_web_search",
-      "search_model": "gpt-6-luna",
-      "research_notes": "### Research note — Colombia, 25 November 2026\n\n- **What happened:** Armed men took hostages inside an Éxito supermarket in Cartagena on 24 November after a reported failed attempt to rob an armored cash vehicle. Colombian police and military forces entered the supermarket early on 25 November and rescued the remaining hostages. President Abelardo de la Espriella announced the rescue at about 1:30 a.m.; local reporting says those held were freed alive. This was a **completed rescue**, not just an announced operation. ([caracol.com.co](https://caracol.com.co/2026/11/25/rehenes-de-exito-cartagena-fueron-liberados-sanos-y-salvos-en-operativo-de-las-autoridades/))\n- **Figures and caveat:** Reports differ on the initial hostage count—around 25 to 30. About 10 had reportedly been released before the raid, and roughly 20 remained. Caracol reported one alleged captor killed, four arrested and one officer injured. ([caracol.com.co](https://caracol.com.co/2026/11/25/rehenes-de-exito-cartagena-fueron-liberados-sanos-y-salvos-en-operativo-de-las-autoridades/))\n- **Sources and independence:** Caracol carries the president’s first-party account; El Universal independently reported the release; Euronews also confirmed the outcome, citing AFP. Euronews’s report therefore is not wholly independent of AFP, and several reports repeat the president’s announcement. ([caracol.com.co](https://caracol.com.co/2026/11/25/rehenes-de-exito-cartagena-fueron-liberados-sanos-y-salvos-en-operativo-de-las-autoridades/))",
-      "citations": [
-        {
-          "title": "Rehenes de Éxito Cartagena fueron liberados sanos y salvos en operativo de las autoridades | Cartagena | Caracol Radio",
-          "url": "https://caracol.com.co/2026/11/25/rehenes-de-exito-cartagena-fueron-liberados-sanos-y-salvos-en-operativo-de-las-autoridades/"
-        }
-      ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 246. Please try again in 328ms. Visit https://platform.op",
       "search_error": "",
       "support": "supported",
       "outcome_status": "completed",
-      "evidence_quality": "medium",
+      "evidence_quality": "high",
       "independence": "multiple_independent",
       "significance": "high",
-      "verified_headline": "All hostages rescued from Cartagena supermarket by Colombian forces",
-      "verified_summary": "Colombian police and military successfully rescued hostages taken in a supermarket in Cartagena. Reports confirm that all remaining hostages were freed alive during the operation.",
-      "verification_note": "The rescue operation was completed successfully, with multiple sources confirming the outcome, though some reports are based on the president's announcement.",
+      "verified_headline": "Colombian forces successfully rescue hostages from supermarket standoff",
+      "verified_summary": "Colombian security forces rescued all remaining hostages from a supermarket standoff, confirming the successful intervention. One hostage-taker was killed during the operation.",
+      "verification_note": "The rescue operation is confirmed by multiple independent sources, detailing the successful release of hostages and the conclusion of the standoff.",
       "publish_recommendation": "publish"
     },
     {
-      "id": "3afe288e9c284a",
-      "editorial_score": 85,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a research note on the claim that “Africa’s Green Economy Summit unveils over US$500 million in investment opportunities”:\n\n---\n\n## What actually happened\n\n**Summit:** Africa’s Green Economy Summit (AGES), held in Cape Town, South Africa. ([wearevuka.com](https://wearevuka.com/press-release/protect-restore-and-invest-in-africas-natural-assets/?utm_source=openai))\n\n---\n\n## What is supported by sources\n\n1. **Project pipeline, not confirmed investments**  \n   - AGES 2026 presented a *project pipeline* of about **US$3.09 billion**, combining both early-stage MSMEs and large-scale infrastructure-stage opportunities. ([thehighstreetjournal.com](https://thehighstreetjournal.com/africas-green-economy-summit-unveils-3-09bn-climate-investment-pipeline/?utm_source=openai))  \n   - AGES 2026 also “facilitated 44 curated project pitches … representing an estimated **US$1.7 billion investment pipeline**,” and hosted 677 match-making meetings. ([africa.com](https://africa.com/africas-green-economy-summit-ages-2026-post-event-report-signals-shift-from-ambition-to-execution-in-africas-green-economy/?utm_source=openai))\n\n2. **Outcomes so far**  \n   - Known financing outcomes from AGES over its first four editions exceeded **US$25 million**, tied to more than 20 deals initiated. ([inafrika.co.tz](https://inafrika.co.tz/africa-green-economy-summit-impact-report-2026-12-billion-project-pipeline/?utm_source=openai))  \n   - Example: In 2024, four Nigerian renewable energy projects pitched through AGES (by North South Power) secured **US$600 million** in commitments. ([wearevuka.com](https://wearevuka.com/insights/energy-efficiency/600-million-renewable-energy-deal-underscores-africas-green-economy-summit-impact/?utm_source=openai))\n\n---\n\n## What is *not* supported (or contradicted)\n\n- There is **no credible source** confirming that AGES “unveiled over US$500 million in investment opportunities” in the phrasing of the candidate claim.  \n- Available reports point to much larger pipelines (US$1-3 billion) as opportunities being **presented**, rather than a US$500 million figure. ([za.linkedin.com](https://za.linkedin.com/company/africas-green-economy-summit?utm_source=openai))  \n- The US$600 million figure mentioned above is a specific case (four Nigerian energy projects) with confirmed interest—not a general summit-wide number equated to “over US$500 million” as the headline suggests. ([wearevuka.com](https://wearevuka.com/insights/energy-efficiency/600-million-renewable-energy-deal-underscores-africas-green-economy-summit-impact/?utm_source=openai))\n\n---\n\n## Assessment of the candidate claim\n\n- The claim “unveils over US$500 million in investment opportunities” appears **too modest** relative to reality: AGES’s pipelines are in the **billions** of US dollars, not hundreds of millions.  \n- It is also vague: Are “investment opportunities” just the sum of pitches? Are they already financed? Are they likely to translate into real investments? The sources indicate a distinction: pipelines are projections or deal flows, not committed or spent capital.  \n- Thus, the claim **misrepresents both scale and the nature of what was “unveiled”**.\n\n---\n\nIf you want, I can also try to track down whether any particular subset of AGES pipelines was for “over US$500 million”—for example, for specific sectors or countries.",
-      "citations": [
-        {
-          "title": "Protect, restore and invest in Africa’s natural assets | AGES Summit | Green Economy | VUKA Group",
-          "url": "https://wearevuka.com/press-release/protect-restore-and-invest-in-africas-natural-assets/?utm_source=openai"
-        },
-        {
-          "title": "Africa’s Green Economy Summit Unveils $3.09bn Climate Investment Pipeline | The High Street Journal",
-          "url": "https://thehighstreetjournal.com/africas-green-economy-summit-unveils-3-09bn-climate-investment-pipeline/?utm_source=openai"
-        },
-        {
-          "title": "Africa’s Green Economy Summit (AGES) 2026 Post Event Report Signals Shift from Ambition to Execution in Africa’s Green Economy - Africa.com",
-          "url": "https://africa.com/africas-green-economy-summit-ages-2026-post-event-report-signals-shift-from-ambition-to-execution-in-africas-green-economy/?utm_source=openai"
-        },
-        {
-          "title": "Africa Green Economy Summit: $12bn Project Pipeline",
-          "url": "https://inafrika.co.tz/africa-green-economy-summit-impact-report-2026-12-billion-project-pipeline/?utm_source=openai"
-        },
-        {
-          "title": "$600-Million renewable energy deal underscores Africa’s Green Economy Summit impact | Green Economy | VUKA Group",
-          "url": "https://wearevuka.com/insights/energy-efficiency/600-million-renewable-energy-deal-underscores-africas-green-economy-summit-impact/?utm_source=openai"
-        },
-        {
-          "title": "Africa's Green Economy Summit | LinkedIn",
-          "url": "https://za.linkedin.com/company/africas-green-economy-summit?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "unsupported",
-      "outcome_status": "unclear",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Africa’s Green Economy Summit presents significant investment pipeline",
-      "verified_summary": "The Africa’s Green Economy Summit revealed a project pipeline of approximately $3.09 billion, but did not confirm $500 million in specific investment opportunities. Previous financing outcomes exceeded $25 million from earlier summits.",
-      "verification_note": "The claim of unveiling over $500 million is unsupported; the summit presented larger pipelines without confirming specific investments.",
-      "publish_recommendation": "reject"
-    },
-    {
-      "id": "d333612eeaa0bd",
+      "id": "e9f47ebdeb0131",
       "editorial_score": 80,
       "editorial_decision": "reserve",
       "search_backend": "responses_web_search",
       "search_model": "gpt-6-luna",
-      "research_notes": "### Research note — 25 November 2026\n\n- **What happened:** On **Tuesday, 24 November**, more than **2,100 people** arrived at La Restinga, El Hierro, in a record one-day operation. EFE reports **15 cayucos**; its count, compiled from emergency services in La Restinga, includes **one person who died** and a baby born during the crossing. ([efe.com](https://efe.com/espana/2026-11-25/llegada-cayucos-a-el-hierro-martes/))\n- **Record claim:** EFE describes the total as the highest single-day figure recorded in Spain. It says this surpassed the previous record of **1,580 people on 14 November 2026**. ([efe.com](https://efe.com/espana/2026-11-25/llegada-cayucos-a-el-hierro-martes/))\n- **Cross-check:** Atlas’s 25 November report says more than 2,000 people were rescued and brought to port “yesterday.” EL PAÍS independently reports more than 2,100 arrivals, but gives **14 boats**, not 15; Euronews reports 15. The total is consistent across reports, while the boat count varies. ([atlas-news.com](https://www.atlas-news.com/sociedad/jornada-record-rescate-migrantes-aguas_3_02242808.html))\n- **Source note:** I found no direct Salvamento Marítimo release for the full-day total. EFE attributes its count to emergency-service figures; the other reports appear to rely on the same underlying operational tally. The discrepancy in boat counts should be retained rather than silently resolved.",
+      "research_notes": "**Research note — candidate not verified as stated**\n\n- I could not find an R7 report matching the headline about **Brazilian and Argentine firefighters jointly rescuing a baby**.\n- The closest match is a baby rescued from a building fire using a plastic bag and rope. R7 published its account on **August 16, 2026**; it describes neighbors carrying out the rescue, not firefighters from two countries. Band reported a similar rescue in **Manaus** on **August 10, 2026**, also attributing it to residents. These may be accounts of the same incident, so they should not be counted as independent confirmation of the candidate’s cross-border claim. ([record.r7.com](https://record.r7.com/domingo-espetacular/video/resgate-heroico-bebe-de-1-mes-e-salva-de-incendio-com-sacola-plastica-16082026/))\n- A separate report from **Puerto Iguazú, Argentina**, dated **November 9, 2026**, says local police and firefighters responded to a baby locked inside a car; it does not describe Brazilian firefighters or a rope rescue. ([h2foz.com.br](https://www.h2foz.com.br/argentina/resgate-bebe-preso-carro-argentina/))\n\n**Assessment:** The supplied date, **November 25, 2026**, and the Brazil–Argentina collaboration claim are unsupported by the sources found. The candidate may combine details from separate rescue reports.",
       "citations": [
         {
-          "title": "2.100 migrantes en El Hierro: nuevo récord de rescates en un día",
-          "url": "https://efe.com/espana/2026-11-25/llegada-cayucos-a-el-hierro-martes/"
+          "title": "Resgate heróico: bebê de 1 mês é salva de incêndio com sacola plástica – Record",
+          "url": "https://record.r7.com/domingo-espetacular/video/resgate-heroico-bebe-de-1-mes-e-salva-de-incendio-com-sacola-plastica-16082026/"
         },
         {
-          "title": "Jornada de récord de rescate de migrantes en aguas canarias",
-          "url": "https://www.atlas-news.com/sociedad/jornada-record-rescate-migrantes-aguas_3_02242808.html"
+          "title": "Policiais e bombeiros resgatam bebê preso em carro na Argentina",
+          "url": "https://www.h2foz.com.br/argentina/resgate-bebe-preso-carro-argentina/"
         }
       ],
-      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 244. Please try again in 326ms. Visit https://platform.op",
+      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 264. Please try again in 352ms. Visit https://platform.op",
       "search_error": "",
-      "support": "supported",
-      "outcome_status": "completed",
-      "evidence_quality": "medium",
+      "support": "unsupported",
+      "outcome_status": "unclear",
+      "evidence_quality": "low",
       "independence": "multiple_independent",
-      "significance": "high",
-      "verified_headline": "Record migrant rescues in Canary Islands on November 24",
-      "verified_summary": "On November 24, over 2,100 migrants were rescued in a record operation in the Canary Islands, surpassing the previous record of 1,580. Reports confirm the total across multiple independent sources.",
-      "verification_note": "The operation's scale is corroborated by multiple sources, indicating a significant humanitarian achievement.",
-      "publish_recommendation": "publish"
+      "significance": "medium",
+      "verified_headline": "Firefighters rescue baby, but cross-border claim unsupported",
+      "verified_summary": "Reports detail separate rescues involving a baby but do not confirm a joint operation by Brazilian and Argentine firefighters. The claims of cross-border cooperation remain unverified.",
+      "verification_note": "The candidate's claim of a joint rescue by firefighters from Brazil and Argentina is unsupported by available sources, which describe separate incidents.",
+      "publish_recommendation": "reject"
     }
   ],
   "pilot_note": "Live-web verification pilot; cited search evidence is re-evaluated by a separate verifier model."
