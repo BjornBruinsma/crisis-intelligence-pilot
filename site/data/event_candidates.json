@@ -1,46 +1,56 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-25T01:31:22.003371Z",
-  "fingerprint": "950e1eaeb7ccac7ac572df35",
+  "last_attempt_utc": "2026-11-25T07:38:25.825874Z",
+  "fingerprint": "e0d085bce54026f3f7fe5da3",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
   "input_candidate_count": 24,
-  "event_candidate_count": 23,
+  "event_candidate_count": 22,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 1,
-    "accepted_pair_connections": 1,
-    "rejected_pair_proposals": 0,
-    "multi_claim_groups": 1,
-    "claims_in_multi_groups": 2,
+    "model_pair_proposals": 4,
+    "accepted_pair_connections": 2,
+    "rejected_pair_proposals": 2,
+    "multi_claim_groups": 2,
+    "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
-    "auditor_approved_pairs": 1,
+    "auditor_approved_pairs": 2,
     "rule_rejected_pairs": 0,
     "unreviewed_pair_proposals": 0,
     "veto_examples": [],
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-25T01:31:22.003371Z",
+    "recorded_at": "2026-11-25T07:38:25.825874Z",
     "groups": [
       {
         "ids": [
-          "d3fabdb63765a0",
-          "a5143cd0eb2362"
+          "d3fabdb63765a0"
         ],
         "label_nl": "Claim: Iran Escalates Gulf Attacks as US Strikes Qeshm Island - Demokratis.co.id",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
           "5ad002ab6284ed"
         ],
         "label_nl": "Claim: Qatar PM’s visit to Washington part of attempt to revive US-Iran ceasefire talks - Bangladesh Post",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "63fd25dd5e2126"
+        ],
+        "label_nl": "Claim: Day 271 | Trump faces pressure to renew Iran war as Tehran hardens its position - Roya News",
         "actor": "",
         "action": "",
         "place": "",
@@ -71,14 +81,15 @@
       },
       {
         "ids": [
-          "8003b498412d67"
+          "f22e1fe08952fc",
+          "c165b95768f29a"
         ],
-        "label_nl": "Claim: Oil rebounds as Hormuz attacks renew supply fears - TradingView",
+        "label_nl": "Claim: Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -126,9 +137,9 @@
       },
       {
         "ids": [
-          "368fcd77de868a"
+          "af8aaa509cc2c4"
         ],
-        "label_nl": "Claim: Brent drops to $88, WTI at $79: Why oil is sliding despite Iran’s tanker attacks - Gulf News",
+        "label_nl": "Claim: Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow",
         "actor": "",
         "action": "",
         "place": "",
@@ -137,9 +148,9 @@
       },
       {
         "ids": [
-          "af8aaa509cc2c4"
+          "8003b498412d67"
         ],
-        "label_nl": "Claim: Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow",
+        "label_nl": "Claim: Oil rebounds as Hormuz attacks renew supply fears - TradingView",
         "actor": "",
         "action": "",
         "place": "",
@@ -192,9 +203,9 @@
       },
       {
         "ids": [
-          "fd30f0d3d81bf6"
+          "368fcd77de868a"
         ],
-        "label_nl": "Claim: Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
+        "label_nl": "Claim: Brent drops to $88, WTI at $79: Why oil is sliding despite Iran’s tanker attacks - Gulf News",
         "actor": "",
         "action": "",
         "place": "",
@@ -214,25 +225,15 @@
       },
       {
         "ids": [
-          "12244e42747426"
-        ],
-        "label_nl": "Claim: Houthi Warnings Move Insurers and Airlines Without a Strike on Jeddah - https://houseofsaud.com/",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
+          "a5143cd0eb2362",
           "3a865ee9c32af7"
         ],
-        "label_nl": "Claim: هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
+        "label_nl": "Claim: Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -258,20 +259,9 @@
       },
       {
         "ids": [
-          "3fcbf54324a888"
+          "fd30f0d3d81bf6"
         ],
-        "label_nl": "Claim: Oil touches three-month lows as rising supply offsets Hormuz threat - Yahoo Finance",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "83a916f4a98d7b"
-        ],
-        "label_nl": "Claim: Gulf tensions threaten global energy and shipping - News of Bahrain",
+        "label_nl": "Claim: Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
         "actor": "",
         "action": "",
         "place": "",
@@ -282,48 +272,77 @@
     "input_claim_ids": [
       "d3fabdb63765a0",
       "5ad002ab6284ed",
+      "63fd25dd5e2126",
       "dd1a408a51dac8",
       "868a4166aae228",
-      "8003b498412d67",
+      "f22e1fe08952fc",
       "a82ebb7b3814cf",
       "1bc239531e1f44",
       "7b646e9047a13a",
       "dcfe9c1e6228af",
-      "368fcd77de868a",
+      "c165b95768f29a",
       "af8aaa509cc2c4",
-      "a5143cd0eb2362",
+      "8003b498412d67",
       "5e0896f3a54f86",
       "ef8f55e79cc200",
       "d736a8db72ae19",
       "11ea1a49a16290",
-      "fd30f0d3d81bf6",
+      "368fcd77de868a",
       "c40f4125adaf38",
-      "12244e42747426",
+      "a5143cd0eb2362",
       "3a865ee9c32af7",
       "a30917a32c43bc",
       "b31e14151604c6",
-      "3fcbf54324a888",
-      "83a916f4a98d7b"
+      "fd30f0d3d81bf6"
     ]
   },
   "official_sources_available": 15,
   "direct_official_match_count": 0,
   "events": [
     {
-      "id": "cdb16dbfb4d71c8fc9ababc7",
-      "label_nl": "Claim: Iran Escalates Gulf Attacks as US Strikes Qeshm Island - Demokratis.co.id",
+      "id": "66c1407eae1fae93a52bb5ed",
+      "label_nl": "Claim: Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online",
       "headline_claim_ids": [
-        "d3fabdb63765a0",
-        "a5143cd0eb2362"
+        "f22e1fe08952fc",
+        "c165b95768f29a"
       ],
       "headline_claims": [
-        "Iran Escalates Gulf Attacks as US Strikes Qeshm Island - Demokratis.co.id",
-        "Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id"
+        "Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online",
+        "Crude Prices Rebound on Reports of Attacks on Tankers in the Strait of Hormuz - Yahoo Finance"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JM1F0dmVLTFBCVElmVTNCckZZMnNMSnljSUV1cGFhRFFqQWpfY2MwOXNERUtFbHRRMDNtWktOeDFaYktQekFUZnMtbFJPOWgteW9TbzZxbHNjR1RXejFCeHhLU1hRQTg4MF8w?oc=5",
-        "https://news.google.com/rss/articles/CBMibkFVX3lxTE40bER5XzVwSEFrTUhUY01XdHJaTjk4WWJyNWJGak92WGlMVkgzcElqTlE3WGQ5WmZiR2plbmFYZ1VPT29rVm5zVlpZTzhyUjNWVENJVUhmNkJOTjBDa001YndObGZfRV9hM204QUFR?oc=5",
-        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RY0ZLeDhpLXFkS19QODZHSWtfSE1Qa2RZcWgxQ08taF9KR010SkZ6dTdBSEhwblc3X2hha193OEdkQXhrcG44RGtIbHV5RlN2SjVQakhsVlpOVFJTb3BPd2t3TXFnUQ?oc=5"
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzZYQUZrSENSV0ZmYnZHRkFSaFZFTTlSbkVsN0ZKTFNqOFN2SmxyNEZLeTJJZDVKWDB5eXRoZFlGalNibjNoTVY3aHVxWWRESmg2d0Y3RUl6cDdUbXgzd3pCUURGMEdKSlpQZm05Y0xCQ0d6cHRsUzkzeVNOeWRKdW5xYWlZWjRIRjBRVTNsTVR3RGJ4UkF4TGl3?oc=5",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOXBQaDgtb3lVSU1uemdZN2dTZ004ZzlMRTJncjUxSlRGQTZBOHZyZHZFbFlwdXBkMWc5cTZ3QXk4azBMaGk2OGRxR0dqcTFfN0hNTTRSTGsxdXZRNGl4cmRDZ0FHUUtGYk9sTVAxaTFJX3hEaGFvUE8tcjZadjVCM1BIZHBmX0FBeHk5aENNd0NQR0U4TnpuMA?oc=5"
+      ],
+      "article_group_count": 2,
+      "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "4649bc4e113c0ae025d25a08",
+      "label_nl": "Claim: Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id",
+      "headline_claim_ids": [
+        "a5143cd0eb2362",
+        "3a865ee9c32af7"
+      ],
+      "headline_claims": [
+        "Iran Intensifies Strikes on Gulf Targets and Oil Tankers - Demokratis.co.id",
+        "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RY0ZLeDhpLXFkS19QODZHSWtfSE1Qa2RZcWgxQ08taF9KR010SkZ6dTdBSEhwblc3X2hha193OEdkQXhrcG44RGtIbHV5RlN2SjVQakhsVlpOVFJTb3BPd2t3TXFnUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
+        "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5"
       ],
       "article_group_count": 2,
       "news_url_count": 3,
@@ -340,19 +359,20 @@
       "probability_estimate": null
     },
     {
-      "id": "6e0c05fcf1d66bd39d122d9d",
-      "label_nl": "Claim: Oil rebounds as Hormuz attacks renew supply fears - TradingView",
+      "id": "63c13bc7120a9b2078c0eada",
+      "label_nl": "Claim: Iran Escalates Gulf Attacks as US Strikes Qeshm Island - Demokratis.co.id",
       "headline_claim_ids": [
-        "8003b498412d67"
+        "d3fabdb63765a0"
       ],
       "headline_claims": [
-        "Oil rebounds as Hormuz attacks renew supply fears - TradingView"
+        "Iran Escalates Gulf Attacks as US Strikes Qeshm Island - Demokratis.co.id"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQTlhX3d5Qkd3bV9hLVhobG5xN3FRVTktVHpOT1dEY004RC1NQmhrbFM1enJ3ZDN2UHlad3VRMEM3YXhab3RpMHFmVXRuRzNlaUFwX3pZTjZlWGgzVTQyb3Zja29LMzIxZ2g4clpjVHkzNVR1N0FaWTBCTkNSYkdtSGFfOFktdmZRNGFubjdTYlJVWDZFTGpPMFlUVlJqeWNCTkhCTHB3NXlUSnltWlFUTFFB?oc=5"
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JM1F0dmVLTFBCVElmVTNCckZZMnNMSnljSUV1cGFhRFFqQWpfY2MwOXNERUtFbHRRMDNtWktOeDFaYktQekFUZnMtbFJPOWgteW9TbzZxbHNjR1RXejFCeHhLU1hRQTg4MF8w?oc=5",
+        "https://news.google.com/rss/articles/CBMibkFVX3lxTE40bER5XzVwSEFrTUhUY01XdHJaTjk4WWJyNWJGak92WGlMVkgzcElqTlE3WGQ5WmZiR2plbmFYZ1VPT29rVm5zVlpZTzhyUjNWVENJVUhmNkJOTjBDa001YndObGZfRV9hM204QUFR?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -380,6 +400,32 @@
       ],
       "article_group_count": 1,
       "news_url_count": 2,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "6e0c05fcf1d66bd39d122d9d",
+      "label_nl": "Claim: Oil rebounds as Hormuz attacks renew supply fears - TradingView",
+      "headline_claim_ids": [
+        "8003b498412d67"
+      ],
+      "headline_claims": [
+        "Oil rebounds as Hormuz attacks renew supply fears - TradingView"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQTlhX3d5Qkd3bV9hLVhobG5xN3FRVTktVHpOT1dEY004RC1NQmhrbFM1enJ3ZDN2UHlad3VRMEM3YXhab3RpMHFmVXRuRzNlaUFwX3pZTjZlWGgzVTQyb3Zja29LMzIxZ2g4clpjVHkzNVR1N0FaWTBCTkNSYkdtSGFfOFktdmZRNGFubjdTYlJVWDZFTGpPMFlUVlJqeWNCTkhCTHB3NXlUSnltWlFUTFFB?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -446,33 +492,6 @@
       "probability_estimate": null
     },
     {
-      "id": "04ae2de0974f76bd01edcd1d",
-      "label_nl": "Claim: هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط",
-      "headline_claim_ids": [
-        "3a865ee9c32af7"
-      ],
-      "headline_claims": [
-        "هجوم على ناقلتي نفط في مضيق «هرمز» - الشرق الأوسط"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi8wJBVV95cUxNMnNLLXpVeF9VT1lUcnRSSlJ6RE5CZFJxZzg2Q2ZLUkFUWkpsaTlqa3pmOGVSUDB4ZEV0VVEyVTl5SjJkTVRWVE1iVEwxZFd2RUpUMXBHSHQ0cGloZDBzckZlUDROLWlSejJCRmUwdkRsN2RTU3JWNzNDbV9oQnQxQXRFaXBUOUhMTTdnUTgtNWw4eUNRdzF5a2g3MUNSN2VxWWV2cGlIMTdEcS0wY25qUDR0VWdFa1ptTnpHbzhvVmpsbjNXaktCRHBRWjlHYzJodFNmTTBBdVBFbDBUZHRRVkdnckNLd25PUkxtbE56aWN2U2stNTJjUjNUVE13UXdZZlJnZU8yc1lfN3ItazF4bTdRWkhlb21Ed2E5UXVFNWNzZWV1bm42c25mZ1FiT1pnSE1BbncwOHlDUTQ2VlpyNTg2ZnRGYUJFR1VnckdTT2ZKYV9iRmhUQXJXNzZoQlZya1FEY0twNlFBaW1aMlFWMWl1bw?oc=5",
-        "https://news.google.com/rss/articles/CBMipwNBVV95cUxNMDluellhWmx4a2l1ay03WDFQVEttal9QMXExRkF5WUhBaG5RRXU0UWRnYm5CdnJUYllrNjd5aXc2ZWZTMXZxWFBXQll6SzlzZ21EVkNZX0lJeE0xY2VxcXByZ2tzNThKcVJhd1E2ZmVUZzR1dWdpazBRVG5vV1labEs4N3RkM2ltaWVjeGNCbXZJRnFDQUpxbE5mYjdBNVZfck95TmNuVmxISWRlX3l2bDRzTlJhNDFLQm1ZM1pPOGRlRDFjUkpKMkpTR1lpNVdzU1dOMF9faXBDY0x0ZWVVdHY1N3A3RmNnUkFSQ1RROVNORzFYNlA4c1Y2blFtb1E5b0VFYk54QXVNSHJtajZlZnREMnZVb2UwU05aZ1ZrOVVyU3V6d3djcFFvdm9GNm16WjkzSEU4eXpBd29Fd3JiU2MtMUlZT3NBRE5tSGtqc3FFMWFZal92WFRqSk5YSTNkclg3LTU5aGpGbDZyOXNFdnJIY25jQzJ2U2RrVWx3ZHZ2eEw4UkN1SFdkdlR4R1pMSl9jOHpUWEdtMEQxTnUzZ1BQQXpuYjg?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "628979becec05d43f28e949b",
       "label_nl": "Claim: Iran Threatens Escalation as Tankers Strike Mines in Hormuz - Demokratis.co.id",
       "headline_claim_ids": [
@@ -525,32 +544,6 @@
       "probability_estimate": null
     },
     {
-      "id": "25f5e474f2d52b7f61fc405f",
-      "label_nl": "Claim: Gulf tensions threaten global energy and shipping - News of Bahrain",
-      "headline_claim_ids": [
-        "83a916f4a98d7b"
-      ],
-      "headline_claims": [
-        "Gulf tensions threaten global energy and shipping - News of Bahrain"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOa1JQN041Q3dseml3WHlNYjZpaVY0V3VSek1JOEdxN3pfN1hnWWRFbE85QVZPSnhZTzRCMElXNDFRN1hXcTlDRzg1S3hwTWZYdjNPYndwZU8yajJ0MlhVTHRGYUVvcWExbjBVM0VMMlZYYlJwMkNCb0tLU0oya3JYbjh1OHJKUFVJcFc2TkZ2ZWhXNVdD?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "4db199510dffe4089923bfac",
       "label_nl": "Claim: Qatar PM’s visit to Washington part of attempt to revive US-Iran ceasefire talks - Bangladesh Post",
       "headline_claim_ids": [
@@ -561,6 +554,32 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMTI3NFM5bllPQzd2YlV1MVVqY1VlY2JNMU1KTFY2cG9qclV0RnEyUC1sRnBVWEZRU2hnazFMalYzbEw2WG1zenR5SV9kOHRDSFZMbERXclZmcW9SRlg2Y3N1MjBESmgxQkRNZkFTQ2UtWW1hdzFHdHNHbE5NQUpzdXhHNV9nQWVsa0xZMkdZZ3ZjeXpfMV9UZUpfNDBiZUc2YlJVam9rVG1CcW5tZURkb3lBNTlzMW1ibEtPZg?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "ffff3beb499121e093fef867",
+      "label_nl": "Claim: Day 271 | Trump faces pressure to renew Iran war as Tehran hardens its position - Roya News",
+      "headline_claim_ids": [
+        "63fd25dd5e2126"
+      ],
+      "headline_claims": [
+        "Day 271 | Trump faces pressure to renew Iran war as Tehran hardens its position - Roya News"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5TNkt3ZEszcl9MZjZZMExQS2d1MWFUdlZVWVMxcXBPRFRBcnRiWlZsck9SRHJCdGFjVEc2RlJFWmtBbmNMX1ctbA?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -710,33 +729,6 @@
       "probability_estimate": null
     },
     {
-      "id": "4399b86d2834cc105b0906a8",
-      "label_nl": "Claim: Brent drops to $88, WTI at $79: Why oil is sliding despite Iran’s tanker attacks - Gulf News",
-      "headline_claim_ids": [
-        "368fcd77de868a"
-      ],
-      "headline_claims": [
-        "Brent drops to $88, WTI at $79: Why oil is sliding despite Iran’s tanker attacks - Gulf News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN2E5VGQyLWhPM0hmRlJxY2M1dDVpelg0M0NxWHF6ZDd6RVVmemFpejhPeFQtVld4NjJrdmtCV1ZHRHViYTlZeUhHNnkyeDRvc3o3ZzRSem1DelJxenlRaDg5STJ5UExRWXdJNTE1RVNabE1Sb0VoNzU4ZVJfU3NfSjU0a1BRVEJudHE1VGptTEdwNnI3R1pvbUhVQlJiYXczSW9FZl9Ud2lBMkd6WmE4ckN6c2NlSFZYY2VFcDNSZDdZZ9IB1AFBVV95cUxPSGFSYm42TDNWaXNZNzBNR1pYbDNzRzhPMlpTOURZeG1RQURZd2RiVmVMUU9DOUlKM2lITm1LY0ZEZlpNZU5NelFnWGI1WVEzcklXQXE4cnJCU1JIb3kxLXdGd2h1VmJiakJhSVEwZFhNenJkbUlPbmJfbEFSVkQzVlhZVHU1aXMyRkc0aUkyMHE5dGRmOHh2M1k2Mmd3SFpWUVlVaVNfU2VsUmRrcHdMUjNyTERyRlV1Z2ltejBkZDh1SmM5cGhuYTZXMjBuUjlJR1FkUQ?oc=5",
-        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSGFSYm42TDNWaXNZNzBNR1pYbDNzRzhPMlpTOURZeG1RQURZd2RiVmVMUU9DOUlKM2lITm1LY0ZEZlpNZU5NelFnWGI1WVEzcklXQXE4cnJCU1JIb3kxLXdGd2h1VmJiakJhSVEwZFhNenJkbUlPbmJfbEFSVkQzVlhZVHU1aXMyRkc0aUkyMHE5dGRmOHh2M1k2Mmd3SFpWUVlVaVNfU2VsUmRrcHdMUjNyTERyRlV1Z2ltejBkZDh1SmM5cGhuYTZXMjBuUjlJR1FkUdIB1AFBVV95cUxPSGFSYm42TDNWaXNZNzBNR1pYbDNzRzhPMlpTOURZeG1RQURZd2RiVmVMUU9DOUlKM2lITm1LY0ZEZlpNZU5NelFnWGI1WVEzcklXQXE4cnJCU1JIb3kxLXdGd2h1VmJiakJhSVEwZFhNenJkbUlPbmJfbEFSVkQzVlhZVHU1aXMyRkc0aUkyMHE5dGRmOHh2M1k2Mmd3SFpWUVlVaVNfU2VsUmRrcHdMUjNyTERyRlV1Z2ltejBkZDh1SmM5cGhuYTZXMjBuUjlJR1FkUQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
       "id": "68c6c9e2fa4386da4b56a361",
       "label_nl": "Claim: Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow",
       "headline_claim_ids": [
@@ -816,19 +808,20 @@
       "probability_estimate": null
     },
     {
-      "id": "ae4178cdd9013735b1152c1b",
-      "label_nl": "Claim: Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
+      "id": "4399b86d2834cc105b0906a8",
+      "label_nl": "Claim: Brent drops to $88, WTI at $79: Why oil is sliding despite Iran’s tanker attacks - Gulf News",
       "headline_claim_ids": [
-        "fd30f0d3d81bf6"
+        "368fcd77de868a"
       ],
       "headline_claims": [
-        "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India"
+        "Brent drops to $88, WTI at $79: Why oil is sliding despite Iran’s tanker attacks - Gulf News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijAJBVV95cUxQTU5YQWlmZzBFeFVvNjFqTEJuaGV4NWp2OUxqQzJJLXM3RXUtY0VpeTdpZkpaZ25HOTJlekZhSlJHODNYNG9iSk5hcWZ3VUo1RU9ORFdoRnIxcE5OcnR4YVJ2TjIwTnZ3cENjVDlKV3BtcTdCejY4Wi1vOVJ3ZUFXNDZZUDdpRGxRREFFN2hzZHBLenVfMGM2Zy0walExM3Fqa2xoOGUwQ3pKNXVtZkFLbWV2T01JME9INl9SYlVqN0l2a3V2V3pybDhnOU1TTVpYVzViSTI2WThqQjRkX3BySXdsVjBnWjF1OUxvVFB1a1hJX1pEN1I0YlpXc3Z3NU9SNW9vQ1k1aEt0TmxV0gGSAkFVX3lxTE1fQWR6NlFpendyQjA2a0NJVUdxanlVeV91b2VPOUtYLWxPN3ZMNXhFVUJTRXZGS3ZyLXRrajd6YkdnSXlXNG5tN0huOEpVazRzcW5MeGFheWQxLTJMYVlqOEpjV3MzaHNtN0Z3RnEwS1VNY1hzQm93V1cxbW13N0M0QU1hNEZTWnRCbTQ4SDN0OGlPa0swQzNoU0xxRl9mSDgxZXh4R2RHajQza0lDdDJrdUM2UnZNcVlWVWRuaExQckxvaWUzYUNPX096M2g3elNxUEM1cVJIMnZjYjlwd1BYd3pHd2kwOXBFaTdKby01T0V0VHhERjY3ZVFKajJkVmtZTlN3V0xMZHBXU2FmVDhacEE?oc=5"
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPN2E5VGQyLWhPM0hmRlJxY2M1dDVpelg0M0NxWHF6ZDd6RVVmemFpejhPeFQtVld4NjJrdmtCV1ZHRHViYTlZeUhHNnkyeDRvc3o3ZzRSem1DelJxenlRaDg5STJ5UExRWXdJNTE1RVNabE1Sb0VoNzU4ZVJfU3NfSjU0a1BRVEJudHE1VGptTEdwNnI3R1pvbUhVQlJiYXczSW9FZl9Ud2lBMkd6WmE4ckN6c2NlSFZYY2VFcDNSZDdZZ9IB1AFBVV95cUxPSGFSYm42TDNWaXNZNzBNR1pYbDNzRzhPMlpTOURZeG1RQURZd2RiVmVMUU9DOUlKM2lITm1LY0ZEZlpNZU5NelFnWGI1WVEzcklXQXE4cnJCU1JIb3kxLXdGd2h1VmJiakJhSVEwZFhNenJkbUlPbmJfbEFSVkQzVlhZVHU1aXMyRkc0aUkyMHE5dGRmOHh2M1k2Mmd3SFpWUVlVaVNfU2VsUmRrcHdMUjNyTERyRlV1Z2ltejBkZDh1SmM5cGhuYTZXMjBuUjlJR1FkUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSGFSYm42TDNWaXNZNzBNR1pYbDNzRzhPMlpTOURZeG1RQURZd2RiVmVMUU9DOUlKM2lITm1LY0ZEZlpNZU5NelFnWGI1WVEzcklXQXE4cnJCU1JIb3kxLXdGd2h1VmJiakJhSVEwZFhNenJkbUlPbmJfbEFSVkQzVlhZVHU1aXMyRkc0aUkyMHE5dGRmOHh2M1k2Mmd3SFpWUVlVaVNfU2VsUmRrcHdMUjNyTERyRlV1Z2ltejBkZDh1SmM5cGhuYTZXMjBuUjlJR1FkUdIB1AFBVV95cUxPSGFSYm42TDNWaXNZNzBNR1pYbDNzRzhPMlpTOURZeG1RQURZd2RiVmVMUU9DOUlKM2lITm1LY0ZEZlpNZU5NelFnWGI1WVEzcklXQXE4cnJCU1JIb3kxLXdGd2h1VmJiakJhSVEwZFhNenJkbUlPbmJfbEFSVkQzVlhZVHU1aXMyRkc0aUkyMHE5dGRmOHh2M1k2Mmd3SFpWUVlVaVNfU2VsUmRrcHdMUjNyTERyRlV1Z2ltejBkZDh1SmM5cGhuYTZXMjBuUjlJR1FkUQ?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 1,
+      "news_url_count": 2,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -868,42 +861,16 @@
       "probability_estimate": null
     },
     {
-      "id": "2fd8d121a6679e93ef158a6a",
-      "label_nl": "Claim: Houthi Warnings Move Insurers and Airlines Without a Strike on Jeddah - https://houseofsaud.com/",
+      "id": "ae4178cdd9013735b1152c1b",
+      "label_nl": "Claim: Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India",
       "headline_claim_ids": [
-        "12244e42747426"
+        "fd30f0d3d81bf6"
       ],
       "headline_claims": [
-        "Houthi Warnings Move Insurers and Airlines Without a Strike on Jeddah - https://houseofsaud.com/"
+        "Oil prices fall as global market selloff weighs on sentiment; Gulf attacks limit losses - The Times of India"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd3M5YVRHSWp0cVZhdlk3YmpWdUItWENkVFM0WC1pV2dUcjRZRm1RSmwyZ3Z4TlJCVmZaNWhyYlRCYjdnZG8tbmpyNTNtbGhJNDNrVmtnTkVoWnVpUS05M0xtMWlsY3ZtaDBpcDdQRUpqM3VWSzB2UEU1SFlua0oxeEt3?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "59cc401bd8fc1a942ab86b65",
-      "label_nl": "Claim: Oil touches three-month lows as rising supply offsets Hormuz threat - Yahoo Finance",
-      "headline_claim_ids": [
-        "3fcbf54324a888"
-      ],
-      "headline_claims": [
-        "Oil touches three-month lows as rising supply offsets Hormuz threat - Yahoo Finance"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMifkFVX3lxTE1JQXRsRU8yTmp3NVhXZG01VjNITkFnc3VjcndlUm5NYnYtNnR2TWJfLWs0cWl6UUo2UWdIV1I3UkkwaG14ZEpsT2tvNUxlc2pTc21LU1M1VTlhUXYyeVpjVndYb1FCNUtVWEJfRVZ6RDJOMXBWQzJzNXZRTlJTdw?oc=5"
+        "https://news.google.com/rss/articles/CBMijAJBVV95cUxQTU5YQWlmZzBFeFVvNjFqTEJuaGV4NWp2OUxqQzJJLXM3RXUtY0VpeTdpZkpaZ25HOTJlekZhSlJHODNYNG9iSk5hcWZ3VUo1RU9ORFdoRnIxcE5OcnR4YVJ2TjIwTnZ3cENjVDlKV3BtcTdCejY4Wi1vOVJ3ZUFXNDZZUDdpRGxRREFFN2hzZHBLenVfMGM2Zy0walExM3Fqa2xoOGUwQ3pKNXVtZkFLbWV2T01JME9INl9SYlVqN0l2a3V2V3pybDhnOU1TTVpYVzViSTI2WThqQjRkX3BySXdsVjBnWjF1OUxvVFB1a1hJX1pEN1I0YlpXc3Z3NU9SNW9vQ1k1aEt0TmxV0gGSAkFVX3lxTE1fQWR6NlFpendyQjA2a0NJVUdxanlVeV91b2VPOUtYLWxPN3ZMNXhFVUJTRXZGS3ZyLXRrajd6YkdnSXlXNG5tN0huOEpVazRzcW5MeGFheWQxLTJMYVlqOEpjV3MzaHNtN0Z3RnEwS1VNY1hzQm93V1cxbW13N0M0QU1hNEZTWnRCbTQ4SDN0OGlPa0swQzNoU0xxRl9mSDgxZXh4R2RHajQza0lDdDJrdUM2UnZNcVlWVWRuaExQckxvaWUzYUNPX096M2g3elNxUEM1cVJIMnZjYjlwd1BYd3pHd2kwOXBFaTdKby01T0V0VHhERjY3ZVFKajJkVmtZTlN3V0xMZHBXU2FmVDhacEE?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -930,8 +897,8 @@
       "total_tokens": 25489
     },
     "2026-11-25": {
-      "requests": 3,
-      "total_tokens": 7744
+      "requests": 6,
+      "total_tokens": 15815
     }
   }
 }

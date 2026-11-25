@@ -1,137 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-25T01:31:36.420513Z",
+  "last_attempt_utc": "2026-11-25T07:38:50.940923Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 23,
-  "active_checked": 6,
+  "active_total": 22,
+  "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
-    "06b48ade8f94e5366f568035": {
-      "event_id": "06b48ade8f94e5366f568035",
-      "checked_at": "2026-11-11T07:29:04.366323Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-11T07:28:57.732459Z",
-          "exact_quote": "the risk of sudden escalation is high.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage verwijst naar de onvoorspelbaarheid in de regio, maar ondersteunt de claim over olieprijzen niet specifiek.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De gevonden tekst wijst op een hoge risico op escalatie in de regio, maar biedt geen directe ondersteuning voor de claim over olieprijzen.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/guidance/classifying-toys-games-and-festive-articles-for-import-and-export",
-          "title": "Classifying toys and games for import and export - GOV.UKGOV.UK",
-          "source_publication_date": "2026-08-12T07:39:37Z",
-          "text_excerpt": "These goods are not classified under subheading 9503 00 30, which includes electric trains, including tracks, signals and other accessories."
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
-    "d5bc201af98d4fb3853ad662": {
-      "event_id": "d5bc201af98d4fb3853ad662",
-      "checked_at": "2026-11-09T13:27:26.458524Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "De gevonden teksten bieden geen relevante informatie over de claim van onderhandelingen tussen de VS en Iran.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/government/speeches/speech-by-sir-richard-moore-chief-of-sis-19-september-2025",
-          "title": "Speech by Sir Richard Moore, Chief of SIS, 19 September 2025 - GOV.UKGOV.UK",
-          "source_publication_date": "2025-09-19T00:00:00+01:00",
-          "text_excerpt": "Many people think that they know our most famous agents. But neither l, nor any other Chief will ever confirm their names. Indeed, because of our binding promise, most of our most consequential agents will travel through history faceless and nameless"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes",
-          "title": "Iran: country policy and information notes - GOV.UKGOV.UK",
-          "source_publication_date": "2026-10-21T13:43:42Z",
-          "text_excerpt": "To help us improve GOV.UK, we’d like to know more about your visit today. Please fill in this survey (opens in a new tab)."
-        }
-      ]
-    },
-    "b7cc232b5ea13baa7e2c540a": {
-      "event_id": "b7cc232b5ea13baa7e2c540a",
-      "checked_at": "2026-11-09T13:27:26.458530Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-09T13:27:22.726084Z",
-          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage beschrijft de onvoorspelbare situatie in het Midden-Oosten, maar ondersteunt niet specifiek de claim over Trump en nieuwe aanvallen op Iran.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De officiële tekst benadrukt de onvoorspelbaarheid in het Midden-Oosten, maar biedt geen directe bevestiging of ontkenning van de claim over Trump en aanvallen op Iran.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes",
-          "title": "Iran: country policy and information notes - GOV.UKGOV.UK",
-          "source_publication_date": "2026-10-21T13:43:42Z",
-          "text_excerpt": "Do not include personal or financial information like your National Insurance number or credit card details."
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
     "533e456c6c3e0214bf634471": {
       "event_id": "533e456c6c3e0214bf634471",
       "checked_at": "2026-11-12T07:32:47.874607Z",
@@ -4013,6 +3891,151 @@
           "text_excerpt": "You must renew a photocard licence every 10 years - you’ll receive a reminder before your current licence ends."
         }
       ]
+    },
+    "66c1407eae1fae93a52bb5ed": {
+      "event_id": "66c1407eae1fae93a52bb5ed",
+      "checked_at": "2026-11-25T07:38:50.940876Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de olieprijzen en aanvallen nabij Hormuz ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "To help us improve GOV.UK, we’d like to know more about your visit today. Please fill in this survey (opens in a new tab)."
+        },
+        {
+          "url": "https://www.gov.uk/change-driving-test",
+          "title": "Change your driving test appointment - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You can change more than one thing at the same time."
+        }
+      ]
+    },
+    "4649bc4e113c0ae025d25a08": {
+      "event_id": "4649bc4e113c0ae025d25a08",
+      "checked_at": "2026-11-25T07:38:50.940897Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4593050/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship/",
+          "original_document_title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_date": "Sept. 8, 2026",
+          "retrieved_at": "2026-11-25T07:38:40.414456Z",
+          "exact_quote": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship",
+          "relation": "related_only",
+          "older_document_than_claim": true,
+          "reason_nl": "Ouder document: toont geen bewijs van nieuwe gebeurtenis. De passage bevestigt dat de VS IRGC-tankers hebben vernietigd na aanvallen van Iran op een Amerikaanse oorlogsschip.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4591744/centcom-destroys-3-irgc-oil-tankers-after-iran-targets-2-us-navy-warships/",
+          "original_document_title": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_date": "Sept. 5, 2026",
+          "retrieved_at": "2026-11-25T07:38:40.691664Z",
+          "exact_quote": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships",
+          "relation": "related_only",
+          "older_document_than_claim": true,
+          "reason_nl": "Ouder document: toont geen bewijs van nieuwe gebeurtenis. Deze passage bevestigt dat CENTCOM drie IRGC-tankers heeft vernietigd na aanvallen van Iran op Amerikaanse oorlogsschepen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten bevestigen dat de VS meerdere IRGC-tankers hebben vernietigd na aanvallen van Iran op Amerikaanse oorlogsschepen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4593050/us-destroys-5-irgc-tankers-after-iran-targets-another-american-warship/",
+          "title": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Sept. 8, 2026",
+          "text_excerpt": "U.S. Destroys 5 IRGC Tankers After Iran Targets Another American Warship"
+        },
+        {
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4591744/centcom-destroys-3-irgc-oil-tankers-after-iran-targets-2-us-navy-warships/",
+          "title": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships > U.S. Central Command > U.S. Central Command (CENTCOM) Official Public Releases\r\nlock",
+          "source_publication_date": "Sept. 5, 2026",
+          "text_excerpt": "CENTCOM Destroys 3 IRGC Oil Tankers After Iran Targets 2 U.S. Navy Warships"
+        }
+      ]
+    },
+    "63c13bc7120a9b2078c0eada": {
+      "event_id": "63c13bc7120a9b2078c0eada",
+      "checked_at": "2026-11-25T07:38:50.940902Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-25T07:38:42.362282Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage vermeldt de intentie van Iran om doelen te raken die verband houden met de VS, maar bevestigt niet specifiek de aanvallen op Qeshm Island.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/qatar",
+          "original_document_title": "Qatar travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-25T07:38:44.868874Z",
+          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Ook deze passage bevestigt de intentie van Iran, maar biedt geen specifieke details over de aanvallen op Qeshm Island.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De officiële teksten vermelden de intenties van Iran om Amerikaanse en Israëlische doelen aan te vallen, maar geven geen specifieke details over de aanvallen op Qeshm Island.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 5,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/qatar",
+          "title": "Qatar travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -4027,9 +4050,9 @@
       "model_tokens": 4643
     },
     "2026-11-25": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 1601
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3372
     }
   },
   "last_error": null

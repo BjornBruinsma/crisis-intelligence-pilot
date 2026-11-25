@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-25T01:30:59.167397Z",
+  "last_attempt_utc": "2026-11-25T07:38:02.617131Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -8343,6 +8343,54 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-25T01:30:58.167178Z"
+    },
+    "63fd25dd5e2126": {
+      "id": "63fd25dd5e2126",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop suggereert dat Trump onder druk staat om de oorlog tegen Iran te vernieuwen nu Teheran zijn positie verhardt.",
+      "claimed_event_nl": "Trump zou onder druk staan om de oorlog tegen Iran te vernieuwen.",
+      "reason_nl": "Dit is relevant omdat het wijst op een mogelijke escalatie van het conflict met Iran.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-25T07:38:01.616890Z"
+    },
+    "f22e1fe08952fc": {
+      "id": "f22e1fe08952fc",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "market_move",
+      "summary_nl": "De kop meldt dat olieprijzen met meer dan 2% zijn gestegen door nieuwe aanvallen op scheepvaart nabij de Hormuzstraat.",
+      "claimed_event_nl": "Olieprijzen zouden zijn gestegen door aanvallen op schepen.",
+      "reason_nl": "Dit is relevant vanwege de impact op de olieprijzen en de wereldwijde economie.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-25T07:38:01.616913Z"
+    },
+    "c165b95768f29a": {
+      "id": "c165b95768f29a",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "market_move",
+      "summary_nl": "De kop geeft aan dat de olieprijzen zijn hersteld op basis van berichten over aanvallen op tankers in de Straat van Hormuz.",
+      "claimed_event_nl": "Olieprijzen zouden zijn hersteld door aanvallen op tankers.",
+      "reason_nl": "Dit is relevant vanwege de mogelijke economische gevolgen van deze aanvallen op de olievoorziening.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-25T07:38:01.616918Z"
     }
   },
   "usage_by_day": {
@@ -8355,8 +8403,8 @@
       "total_tokens": 7645
     },
     "2026-11-25": {
-      "requests": 1,
-      "total_tokens": 892
+      "requests": 2,
+      "total_tokens": 2043
     }
   }
 }
