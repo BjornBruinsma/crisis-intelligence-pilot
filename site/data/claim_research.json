@@ -1,139 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-26T01:31:26.829866Z",
+  "last_attempt_utc": "2026-11-26T16:56:51.091400Z",
   "status": "complete",
   "model": "gpt-4o-mini",
-  "active_total": 21,
-  "active_checked": 4,
+  "active_total": 22,
+  "active_checked": 6,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
-    "ea09b6bb60a2a62919ce369b": {
-      "event_id": "ea09b6bb60a2a62919ce369b",
-      "checked_at": "2026-11-10T13:17:44.850932Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Er zijn geen relevante passages gevonden die de claim over Iran's voorwaarden voor onderhandelingen ondersteunen of tegenspreken.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
-          "title": "Home Secretary unveils new rules for migrants settling in the UK - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Detailed guidance, regulations and rules"
-        },
-        {
-          "url": "https://www.gov.uk/universal-credit",
-          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Detailed guidance, regulations and rules"
-        }
-      ]
-    },
-    "a5e3df3985394e418de65740": {
-      "event_id": "a5e3df3985394e418de65740",
-      "checked_at": "2026-11-11T01:19:28.681189Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-11T01:19:21.595495Z",
-          "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intenties van Iran, maar ondersteunt niet specifiek de claim over Trump en olieprijzen.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De officiële tekst vermeldt de intenties van Iran om locaties te targeten die geassocieerd zijn met de VS en Israël, maar biedt geen directe bevestiging of ontkenning van de claim over Trump en olieprijzen.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/guidance/classifying-toys-games-and-festive-articles-for-import-and-export",
-          "title": "Classifying toys and games for import and export - GOV.UKGOV.UK",
-          "source_publication_date": "2026-08-12T07:39:37Z",
-          "text_excerpt": "These goods are not classified under subheading 9503 00 30, which includes electric trains, including tracks, signals and other accessories."
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
-    "4eba70a54447af3a928896b1": {
-      "event_id": "4eba70a54447af3a928896b1",
-      "checked_at": "2026-11-11T01:19:28.681219Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/syria",
-          "original_document_title": "Syria travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-11T01:19:24.442685Z",
-          "exact_quote": "the risk of sudden escalation is high",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage wijst op de hoge risico's in de regio, maar biedt geen specifieke bevestiging van een waarschuwing aan burgers in de VAE.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De officiële tekst benadrukt de hoge risico's van escalatie in het Midden-Oosten, maar biedt geen directe bevestiging van een waarschuwing aan burgers in de VAE.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/india",
-          "title": "India travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "FCDO advises against all travel to the Union Territory of Jammu and Kashmir (including Pahalgam, Gulmarg, Sonamarg, the city of Srinagar and the Jammu-Srinagar national highway), except for:"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/syria",
-          "title": "Syria travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
     "24d14207c9ca37a0d92c3d02": {
       "event_id": "24d14207c9ca37a0d92c3d02",
       "checked_at": "2026-11-12T07:32:47.874577Z",
@@ -4033,6 +3909,107 @@
           "text_excerpt": "Changes to accounts filing will be introduced in April 2028."
         }
       ]
+    },
+    "66745edad9534930d0255de8": {
+      "event_id": "66745edad9534930d0255de8",
+      "checked_at": "2026-11-26T16:56:51.091340Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante officiële teksten gevonden die de claim over de olieprijzen en de aanvallen op scheepvaart nabij Hormuz ondersteunen of tegenspreken.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/universal-credit",
+          "title": "Universal Credit: What Universal Credit is - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "To help us improve GOV.UK, we’d like to know more about your visit today. Please fill in this survey (opens in a new tab)."
+        },
+        {
+          "url": "https://www.gov.uk/change-driving-test",
+          "title": "Change your driving test appointment - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You can change more than one thing at the same time."
+        }
+      ]
+    },
+    "aae0c9f8bd2b6ba01e7686d7": {
+      "event_id": "aae0c9f8bd2b6ba01e7686d7",
+      "checked_at": "2026-11-26T16:56:51.091366Z",
+      "version": "official-original-document-v1",
+      "research_status": "primary_document_not_found",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 0,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": []
+    },
+    "eb9fad8ae6fb7d95d4196668": {
+      "event_id": "eb9fad8ae6fb7d95d4196668",
+      "checked_at": "2026-11-26T16:56:51.091370Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/kuwait",
+          "original_document_title": "Kuwait travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-26T16:56:48.364515Z",
+          "exact_quote": "the greatest risk is from falling debris caused by intercepts, and you are safest inside a secure structure.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "Deze passage verwijst naar de risico's van aanvallen, maar bevestigt niet specifiek de claim over de doden door een drone-aanval.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "Er is een relevante tekst gevonden die de risico's van aanvallen in het algemeen beschrijft, maar deze ondersteunt niet specifiek de claim over de doden van twee Italianen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/kuwait",
+          "title": "Kuwait travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "if advised to take shelter, stay indoors or find the nearest safe building or designated shelter. An interior stairwell or a room with as few external walls or windows as possible may provide additional protection. The greatest risk is from falling d"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/turkey",
+          "title": "Turkey travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "if advised to take shelter, stay indoors or find the nearest safe building or designated shelter. An interior stairwell or a room with as few external walls or windows as possible may provide additional protection. The greatest risk is from falling d"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -4047,9 +4024,9 @@
       "model_tokens": 5275
     },
     "2026-11-26": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 1493
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 2733
     }
   },
   "last_error": null
