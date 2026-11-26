@@ -1,17 +1,17 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-25T19:07:46.633144Z",
-  "fingerprint": "a3c9f5cba49b4ef292cbd53d",
+  "last_attempt_utc": "2026-11-26T01:31:09.481745Z",
+  "fingerprint": "93e54d519f77ce41699f6512",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
-  "input_candidate_count": 25,
-  "event_candidate_count": 23,
+  "input_candidate_count": 23,
+  "event_candidate_count": 21,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 3,
+    "model_pair_proposals": 4,
     "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 1,
+    "rejected_pair_proposals": 2,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-25T19:07:46.633144Z",
+    "recorded_at": "2026-11-26T01:31:09.481745Z",
     "groups": [
       {
         "ids": [
@@ -149,9 +149,9 @@
       },
       {
         "ids": [
-          "868a4166aae228"
+          "8033cf8c2bd51e"
         ],
-        "label_nl": "Claim: Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스",
+        "label_nl": "Claim: Oil futures: Crude rebounds as tanker attacks offset surplus fears - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
@@ -160,9 +160,9 @@
       },
       {
         "ids": [
-          "a82ebb7b3814cf"
+          "a730892322351d"
         ],
-        "label_nl": "Claim: Iran faces economic war harder than missiles: Is Tehran’s leadership beginning to crack? - Gulf News",
+        "label_nl": "Claim: Gulf States Brace for Prolonged Iran Conflict Strain - Wisevoter",
         "actor": "",
         "action": "",
         "place": "",
@@ -182,9 +182,9 @@
       },
       {
         "ids": [
-          "0bd2e33df9aed9"
+          "4fdb01a39b505e"
         ],
-        "label_nl": "Claim: On Cam: IRGC Blows Up Two More Vessels In Hormuz As Attacks Spike Dramatically - The Times of India",
+        "label_nl": "Claim: Another Tanker Goes Up In Flames In Hormuz, Iran Warns Ships After Alleged Mine Strike - The Times of India",
         "actor": "",
         "action": "",
         "place": "",
@@ -248,31 +248,9 @@
       },
       {
         "ids": [
-          "a730892322351d"
-        ],
-        "label_nl": "Claim: Gulf States Brace for Prolonged Iran Conflict Strain - Wisevoter",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
           "36c48732cde6f1"
         ],
         "label_nl": "Claim: ترمب يحدد هدفه بإيران وكاتس يلوح بالهجوم - جريدة الوطن السعودية",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "bda5cbd3ff6cc7"
-        ],
-        "label_nl": "Claim: Houthis Claim Attacks on Saudi Refinery, Financial District - Tempo.co English",
         "actor": "",
         "action": "",
         "place": "",
@@ -293,19 +271,17 @@
       "dcfe9c1e6228af",
       "922beb3873c53b",
       "4bafa0cdd9f491",
-      "868a4166aae228",
+      "8033cf8c2bd51e",
       "8003b498412d67",
-      "a82ebb7b3814cf",
+      "a730892322351d",
       "1bc239531e1f44",
-      "0bd2e33df9aed9",
+      "4fdb01a39b505e",
       "11ea1a49a16290",
       "63fd25dd5e2126",
       "36f434fc1e7eac",
       "af8aaa509cc2c4",
       "5b072531651a07",
-      "a730892322351d",
-      "36c48732cde6f1",
-      "bda5cbd3ff6cc7"
+      "36c48732cde6f1"
     ]
   },
   "official_sources_available": 15,
@@ -427,16 +403,16 @@
       "probability_estimate": null
     },
     {
-      "id": "12e838ef901028a0265f86e9",
-      "label_nl": "Claim: On Cam: IRGC Blows Up Two More Vessels In Hormuz As Attacks Spike Dramatically - The Times of India",
+      "id": "faf07ef5b260414ca106297d",
+      "label_nl": "Claim: Another Tanker Goes Up In Flames In Hormuz, Iran Warns Ships After Alleged Mine Strike - The Times of India",
       "headline_claim_ids": [
-        "0bd2e33df9aed9"
+        "4fdb01a39b505e"
       ],
       "headline_claims": [
-        "On Cam: IRGC Blows Up Two More Vessels In Hormuz As Attacks Spike Dramatically - The Times of India"
+        "Another Tanker Goes Up In Flames In Hormuz, Iran Warns Ships After Alleged Mine Strike - The Times of India"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZmhFc0RHM1pBZUlVNm1SdGl1SjliZGJQcnVIZXBYSXBHRk5ucVFSdnJqQm5mZkVFT2RaUDh5M0lkQUlUMlNic19VWk1Xa2dKWE9iVXZ3XzRqc1ZuMlJXX2lMR3had2FhRm13TGh2WW1PdkdINTYwVWticXpBN3N3NWY4QjBZVjVmZzE1aDZZd1k3NUFKSTRZRFBmNzdfR1ZvNElzR1dhamd0T2hYYkloOW9WclNjZHozVmxaT3RsMnFKeTc5V0NzRDBzU01LR1ROSXRycHF3dExYM0FsSDU4TVZSa2hJWmpOeTlqcDI3d9IB9AFBVV95cUxORFRqNDVxWU8ta1RHUW5oRGRObWVoLVFhUXpiSkNvZDRNYzczUWRhelBRUWR6dUN6XzhsRFVaTHdHZmNHT1luWENIbmVpMUxCYmNXU3UxUmNOSURvRmhTR2Y0VkRDV1FoRmQxV0dfbFpicXgwbVdsTkVfUHVDMGRieEZsSWxaYXRrRWRfVEtWR1h4QVcxQXRBN09JWG9sempMbG00U3o2SWlULTRlS1RlX3dxMHN4WFpFblhQaGxnUE1NX2h3Z0UwN3B3OTU5RVF0ejFBbVkyc1ljVnNlSlFTdEZFSWtCdzZaSGs4ZnQwaHlpQUE3?oc=5"
+        "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPbE9QRDRmR0FFdEFRbWo0UlVXV05xYkszeGtOSnNwd3luSC1aQU40T1htS0xoU1V6eC1PZ0NoT1pjSjIyUktBTktfWWdsanRULVdCX19wYndrOXgwMGxjb2ZoSkpleWxzaExnZlVEeHllRmI0LWRMQ2hOX0dMdG5GSjJOWWhRdjRsYVJXOEMwWndZZlZHdUc4REFXbTB4NGd5NGM0WmI5dl9YTG9nX1NqTENVWUozaEhYV0lhcUhUcy1aX0lxbXZWZWFIM3NLUVlSWGZtbkV0RVJYMG91OFZBUVJCbG0wQW1zWHZTdzduWlN6dGdUZHRtbXJB0gH_AUFVX3lxTFBXQ05uRWR4VHI2bGR5Mjdma0lKU29rUXpnTTR0MVg1N3pidzZDRnlmV2FXWUZsQm1RSkNBaEppalhLOG5vcWlaMTlQOGNTY2pvZzB6WVI2d3NLeDRQU0NRMVB5dnJzRWxwcVBKVGtHLThGMW01c08tMjFhb05LZzVuZk13cjJocnVOdDR3SVNXOHFlRllxaFV0NFB5Uzd0WnVZUnl2QncxcVRTTGJ4MnVFeGFMRXNrSkhjU3JuXzU4enNFbWhtb2JtbVVIQXoxZ3FhcGN2Q1RHWEN4bjM0SUFLUmw3S1Q1NWRIMEtiR0c2bURKd3hZdFo5Q1pRSGRfaw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -463,32 +439,6 @@
       ],
       "related_news_links": [
         "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5nZVMwbEE2N0hvajR0VFV2bE5nNHgxMFRZd0htb0lSem5fbER3UzUyQkYtTmZlVVVDLWFDVndMSXh4R25uazFwQ2ZHTjlvSHA4UDZZNNIBWEFVX3lxTE82MlZ5OTJpbXRlQTQ0YUtld2tncElZbWtlSE1FX0lMYTlMT3Q5Nk5hTHc5MzQzLTRGMXFGeTdWWE84eU5KVWNveFE2ak53UU5ISjBxd1dZRlQ?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "c33d382b8b23af1c35ec7357",
-      "label_nl": "Claim: Houthis Claim Attacks on Saudi Refinery, Financial District - Tempo.co English",
-      "headline_claim_ids": [
-        "bda5cbd3ff6cc7"
-      ],
-      "headline_claims": [
-        "Houthis Claim Attacks on Saudi Refinery, Financial District - Tempo.co English"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYWFyUnNvTE5vOTRVVkVxdTY2SUtVQnR1R0tlR0NjNEI4N1FrQklIYTY4YzhiZXJrN19td0dUaEZQaVM3bkVuUlIweE1uTnFQLXRiM1d0bGZPTlZKOU5BcnlwZ1g4aWdyLUI2SmFXTkJESVAtQ0NpUUxnQzNZdnphTDNEVks4ZFRCS2dQSG5ndURudWJ3?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -689,16 +639,16 @@
       "probability_estimate": null
     },
     {
-      "id": "4d6dd05109d9a865a41a64c0",
-      "label_nl": "Claim: Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스",
+      "id": "c6ece334ecd3f3d09f437cde",
+      "label_nl": "Claim: Oil futures: Crude rebounds as tanker attacks offset surplus fears - Quantum Commodity Intelligence",
       "headline_claim_ids": [
-        "868a4166aae228"
+        "8033cf8c2bd51e"
       ],
       "headline_claims": [
-        "Taking Advantage of the Hormuz Blockade... The 'Donroe Doctrine' Makes a Play for Energy Dominance [Global Report] - 파이낸셜뉴스"
+        "Oil futures: Crude rebounds as tanker attacks offset surplus fears - Quantum Commodity Intelligence"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xeFpPVFE4OVJidWlnX3BhXzBMa1BXTFd4M2dTSzFUY08tQjRVQ2NaYzVIc1M3TzlNdWxHLXVnVEFlODBNNGVRNk1VSXc3N3NoRHdBQkRpX2M?oc=5"
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbjE0aGU0NVpOQ1EzZ1lCcXMtSTlUWXZ1Vjd5Uzh3SWVtcERGR3ZLVGFCV09Qang3RWw3M0lXYnA5dlZINXpVakNIYjQ3eHR5T0l5Y3FKYnp5S3E0S25qSmN4djBicmdsUlk0Y05WM2VIVEY2N2o3Y1loT2lFUng1LUxBWmYyejc0RWFxMTMzNHNReXVzYURjdEtKNExvbVByWFUzcjdwakpkdU1w?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -715,16 +665,16 @@
       "probability_estimate": null
     },
     {
-      "id": "cf4f95346bc2733f5fcacc1a",
-      "label_nl": "Claim: Iran faces economic war harder than missiles: Is Tehran’s leadership beginning to crack? - Gulf News",
+      "id": "7c659731b42554278aad214f",
+      "label_nl": "Claim: Gulf States Brace for Prolonged Iran Conflict Strain - Wisevoter",
       "headline_claim_ids": [
-        "a82ebb7b3814cf"
+        "a730892322351d"
       ],
       "headline_claims": [
-        "Iran faces economic war harder than missiles: Is Tehran’s leadership beginning to crack? - Gulf News"
+        "Gulf States Brace for Prolonged Iran Conflict Strain - Wisevoter"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZEpqeDd2bDFfd0otZlE4UnZIT3JlaXFXUGlyWjZWZU4zX3hWTjNvTU5TbDJkbjRfVjRlQW5OVHh2OXlPbGlfb19uRnJDbWZGQnpLRkdYeXdYOWhzRks3ckxTNkk4X2pKTXhwOHpRMUVpRTZBaTBXV3pGRVU0dk9QeFJYMG9KVUdkeVhDWUhPMkl5STV3VEp4Wk9lemUxajNHd0pDRF82THpDaVdMV0JOX2ljeDZpTzdyS002SWVoRDVkX0wwOTRNTWhtZUl4cW1nZVlTRWlRd9IB1wFBVV95cUxNZEpqeDd2bDFfd0otZlE4UnZIT3JlaXFXUGlyWjZWZU4zX3hWTjNvTU5TbDJkbjRfVjRlQW5OVHh2OXlPbGlfb19uRnJDbWZGQnpLRkdYeXdYOWhzRks3ckxTNkk4X2pKTXhwOHpRMUVpRTZBaTBXV3pGRVU0dk9QeFJYMG9KVUdkeVhDWUhPMkl5STV3VEp4Wk9lemUxajNHd0pDRF82THpDaVdMV0JOX2ljeDZpTzdyS002SWVoRDVkX0wwOTRNTWhtZUl4cW1nZVlTRWlRdw?oc=5"
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbDY3eTR1RTdrcXVaSnBxaUEzRk9ScXVRQTJiWHFFSnl1SnI2RVJJTWZpRG1ZbV9UbEVHWE9qZFNsNXM2WFJyWTNjbnJCODdXdFp3Y25XeWxuUXVvOEE1dFVndVdIS2p4XzZQeDN3VHBVQmN3cE5mX0ZXeTR3U01VTUU3ZV9HYTg?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -897,39 +847,9 @@
       "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
-    },
-    {
-      "id": "7c659731b42554278aad214f",
-      "label_nl": "Claim: Gulf States Brace for Prolonged Iran Conflict Strain - Wisevoter",
-      "headline_claim_ids": [
-        "a730892322351d"
-      ],
-      "headline_claims": [
-        "Gulf States Brace for Prolonged Iran Conflict Strain - Wisevoter"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbDY3eTR1RTdrcXVaSnBxaUEzRk9ScXVRQTJiWHFFSnl1SnI2RVJJTWZpRG1ZbV9UbEVHWE9qZFNsNXM2WFJyWTNjbnJCODdXdFp3Y25XeWxuUXVvOEE1dFVndVdIS2p4XzZQeDN3VHBVQmN3cE5mX0ZXeTR3U01VTUU3ZV9HYTg?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-11-23": {
-      "requests": 12,
-      "total_tokens": 38026
-    },
     "2026-11-24": {
       "requests": 12,
       "total_tokens": 25489
@@ -937,6 +857,10 @@
     "2026-11-25": {
       "requests": 12,
       "total_tokens": 33634
+    },
+    "2026-11-26": {
+      "requests": 3,
+      "total_tokens": 8116
     }
   }
 }
