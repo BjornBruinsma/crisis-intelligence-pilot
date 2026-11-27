@@ -1,93 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-26T16:56:51.091400Z",
+  "last_attempt_utc": "2026-11-27T01:46:14.684159Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 22,
   "active_checked": 6,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 6,
-  "model_requests_today": 2,
+  "requests_today": 3,
+  "model_requests_today": 1,
   "records": {
-    "24d14207c9ca37a0d92c3d02": {
-      "event_id": "24d14207c9ca37a0d92c3d02",
-      "checked_at": "2026-11-12T07:32:47.874577Z",
-      "version": "official-original-document-v1",
-      "research_status": "documents_found_unassessed",
-      "verified_event": false,
-      "official_matches": [],
-      "summary_nl": "Geen relevante officiële tekst gevonden die de claim over de eisen van Teheran ondersteunt of weerlegt.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/government/news/home-secretary-unveils-new-rules-for-migrants-settling-in-the-uk",
-          "title": "Home Secretary unveils new rules for migrants settling in the UK - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Entering and staying in the UK"
-        },
-        {
-          "url": "https://www.gov.uk/government/publications/iran-country-policy-and-information-notes",
-          "title": "Iran: country policy and information notes - GOV.UKGOV.UK",
-          "source_publication_date": "2026-10-21T13:43:42Z",
-          "text_excerpt": "Entering and staying in the UK"
-        }
-      ]
-    },
-    "72e17e86f563c2b2b854dc21": {
-      "event_id": "72e17e86f563c2b2b854dc21",
-      "checked_at": "2026-11-12T13:27:29.577180Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/government/speeches/calling-for-full-respect-of-international-law-and-dialogue-in-the-middle-east",
-          "original_document_title": "Calling for full respect of international law and dialogue in the Middle East - GOV.UKGOV.UK",
-          "source_date": "2019-08-20T00:00:00+01:00",
-          "retrieved_at": "2026-11-12T13:27:24.039912Z",
-          "exact_quote": "the STENA IMPERO remains seized",
-          "relation": "related_only",
-          "older_document_than_claim": true,
-          "reason_nl": "Ouder document: toont geen bewijs van nieuwe gebeurtenis. De passage verwijst naar de inbeslagname van een tanker door Iran, wat gerelateerd is aan de context van aanvallen in de Straat van Hormuz, maar ondersteunt de specifieke claim niet.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De tekst verwijst naar de inbeslagname van een tanker door Iran, wat relevant is voor de context van de situatie in de Straat van Hormuz, maar niet direct de claim over de escalatie van aanvallen ondersteunt.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/government/speeches/calling-for-full-respect-of-international-law-and-dialogue-in-the-middle-east",
-          "title": "Calling for full respect of international law and dialogue in the Middle East - GOV.UKGOV.UK",
-          "source_publication_date": "2019-08-20T00:00:00+01:00",
-          "text_excerpt": "Secretary Pompeo mentioned that on 19 July, a British flag tanker, STENA IMPERO was boarded by Iranian forces while transiting through the Straits of Hormuz inside Omani territorial waters. The STENA IMPERO remains seized. As the Chef de Cabinet note"
-        },
-        {
-          "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
-          "title": "HMRC online services: sign in or set up an account: Sign in or set up an account - GOV.UK\nGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Policy papers and consultations Consultations and strategy"
-        }
-      ]
-    },
     "7317aacec4d022e1f553dbf0": {
       "event_id": "7317aacec4d022e1f553dbf0",
       "checked_at": "2026-11-11T13:24:57.777179Z",
@@ -3790,7 +3712,7 @@
     },
     "7d80968865127fb11e85a196": {
       "event_id": "7d80968865127fb11e85a196",
-      "checked_at": "2026-11-26T01:31:26.829810Z",
+      "checked_at": "2026-11-27T01:46:14.684102Z",
       "version": "official-original-document-v1",
       "research_status": "related_official_material",
       "verified_event": false,
@@ -3799,26 +3721,26 @@
           "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
           "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-26T01:31:18.737266Z",
+          "retrieved_at": "2026-11-27T01:46:06.971128Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS, maar bevestigt niet specifiek de aanval op Qeshm Island.",
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten, maar bevestigt niet specifiek de aanval op Qeshm Island.",
           "claim_validated_as_fact": false
         },
         {
           "source_url": "https://www.gov.uk/foreign-travel-advice/qatar",
           "original_document_title": "Qatar travel advice - GOV.UKGOV.UK",
           "source_date": null,
-          "retrieved_at": "2026-11-26T01:31:19.539907Z",
+          "retrieved_at": "2026-11-27T01:46:08.818334Z",
           "exact_quote": "Iran has stated its intention to target locations associated with the US and Israel",
           "relation": "related_only",
           "older_document_than_claim": false,
-          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS, maar bevestigt niet specifiek de aanval op Qeshm Island.",
+          "reason_nl": "De passage vermeldt de intentie van Iran om locaties te targeten, maar bevestigt niet specifiek de aanval op Qeshm Island.",
           "claim_validated_as_fact": false
         }
       ],
-      "summary_nl": "De documenten vermelden dat Iran van plan is locaties te targeten die geassocieerd zijn met de VS, maar er is geen specifieke bevestiging van een aanval op Qeshm Island.",
+      "summary_nl": "De documenten vermelden de intentie van Iran om locaties te targeten die geassocieerd zijn met de VS en Israël, maar er is geen specifieke bevestiging van de aanval op Qeshm Island.",
       "search_status": "ok",
       "search_providers": {
         "govuk_official_search": "ok",
@@ -4010,14 +3932,72 @@
           "text_excerpt": "if advised to take shelter, stay indoors or find the nearest safe building or designated shelter. An interior stairwell or a room with as few external walls or windows as possible may provide additional protection. The greatest risk is from falling d"
         }
       ]
+    },
+    "c2df83c4e995809d73d40ed3": {
+      "event_id": "c2df83c4e995809d73d40ed3",
+      "checked_at": "2026-11-27T01:46:14.684128Z",
+      "version": "official-original-document-v1",
+      "research_status": "primary_document_not_found",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "error"
+      },
+      "documents_fetched": 0,
+      "official_link_candidates": 0,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": []
+    },
+    "9a4d1f11d8a0b95c07736057": {
+      "event_id": "9a4d1f11d8a0b95c07736057",
+      "checked_at": "2026-11-27T01:46:14.684132Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-27T01:46:09.694921Z",
+          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage beschrijft de onvoorspelbaarheid van de situatie in het Midden-Oosten, maar biedt geen specifieke informatie over de olie-tanker verkeerssituatie.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De documenten benadrukken de onvoorspelbaarheid van de situatie in het Midden-Oosten, maar bieden geen specifieke details over de verkeerssituatie van olie-tankers door de Straat van Hormuz.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
+          "title": "HMRC online services: sign in or set up an account: Sign in or set up an account - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "You can access different services through:"
+        }
+      ]
     }
   },
   "usage_by_day": {
-    "2026-11-24": {
-      "claims_checked": 9,
-      "model_requests": 3,
-      "model_tokens": 4643
-    },
     "2026-11-25": {
       "claims_checked": 9,
       "model_requests": 3,
@@ -4027,6 +4007,11 @@
       "claims_checked": 6,
       "model_requests": 2,
       "model_tokens": 2733
+    },
+    "2026-11-27": {
+      "claims_checked": 3,
+      "model_requests": 1,
+      "model_tokens": 1368
     }
   },
   "last_error": null

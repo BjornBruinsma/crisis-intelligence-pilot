@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-26T16:56:04.962635Z",
+  "last_attempt_utc": "2026-11-27T01:45:34.107195Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -8855,13 +8855,73 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-26T16:56:03.962386Z"
+    },
+    "b428afbe46951c": {
+      "id": "b428afbe46951c",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat de olietankertraffic door de Straat van Hormuz bijna stil ligt door aanvallen die de wapenstilstand met Iran onder druk zetten.",
+      "claimed_event_nl": "Olietankertraffic door de Straat van Hormuz is bijna stilgevallen door aanvallen.",
+      "reason_nl": "Dit is relevant omdat het de stabiliteit van de olievoorziening en de regionale veiligheid beïnvloedt.",
+      "limitations_nl": "De claim is gebaseerd op niet-geverifieerde bronnen.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-27T01:45:33.106965Z"
+    },
+    "8309d09f8db568": {
+      "id": "8309d09f8db568",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat een Iraanse drone-aanval in Koeweit heeft geleid tot de dood van twee Italianen.",
+      "claimed_event_nl": "Iraanse drone-aanval in Koeweit heeft twee Italianen gedood.",
+      "reason_nl": "Dit is relevant vanwege de mogelijke escalatie van geweld in de regio en de impact op internationale betrekkingen.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-27T01:45:33.106990Z"
+    },
+    "d165d0ac43d155": {
+      "id": "d165d0ac43d155",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Iran nieuwe explosies van tankers rapporteert terwijl de aanvallen in de Straat van Hormuz toenemen.",
+      "claimed_event_nl": "Iran rapporteert nieuwe explosies van tankers door toenemende aanvallen.",
+      "reason_nl": "Dit is relevant omdat het de veiligheid van de scheepvaart en de olieprijzen kan beïnvloeden.",
+      "limitations_nl": "De claim is gebaseerd op niet-geverifieerde informatie.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-27T01:45:33.106994Z"
+    },
+    "c9dacd3fafa484": {
+      "id": "c9dacd3fafa484",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "neutral",
+      "kind": "event_claim",
+      "summary_nl": "De kop claimt dat Iran zegt dat de bemiddeling door Qatar en Pakistan in gesprekken met de VS doorgaat.",
+      "claimed_event_nl": "Iran zegt dat de bemiddeling door Qatar en Pakistan in gesprekken met de VS voortduurt.",
+      "reason_nl": "Dit is relevant voor de diplomatieke inspanningen in de regio, maar de impact is momenteel onduidelijk.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-27T01:45:33.106997Z"
     }
   },
   "usage_by_day": {
-    "2026-11-24": {
-      "requests": 6,
-      "total_tokens": 7645
-    },
     "2026-11-25": {
       "requests": 5,
       "total_tokens": 6733
@@ -8869,6 +8929,10 @@
     "2026-11-26": {
       "requests": 4,
       "total_tokens": 5306
+    },
+    "2026-11-27": {
+      "requests": 1,
+      "total_tokens": 1428
     }
   }
 }

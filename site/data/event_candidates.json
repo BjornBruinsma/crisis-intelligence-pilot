@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-26T16:56:09.768761Z",
-  "fingerprint": "9be054dd8b960538c078d3ce",
+  "last_attempt_utc": "2026-11-27T01:45:39.464077Z",
+  "fingerprint": "5958b6dcd9d7d55f3858f84a",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -9,9 +9,9 @@
   "event_candidate_count": 22,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 3,
+    "model_pair_proposals": 4,
     "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 1,
+    "rejected_pair_proposals": 2,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-26T16:56:09.768761Z",
+    "recorded_at": "2026-11-27T01:45:39.464077Z",
     "groups": [
       {
         "ids": [
@@ -71,9 +71,9 @@
       },
       {
         "ids": [
-          "5e621c6ceec2ea"
+          "b428afbe46951c"
         ],
-        "label_nl": "Claim: Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence",
+        "label_nl": "Claim: Oil Tanker Traffic Through Hormuz at Near Standstill as Attacks Strain Iran Truce - EnergyNow.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -148,9 +148,9 @@
       },
       {
         "ids": [
-          "8033cf8c2bd51e"
+          "5e621c6ceec2ea"
         ],
-        "label_nl": "Claim: Oil futures: Crude rebounds as tanker attacks offset surplus fears - Quantum Commodity Intelligence",
+        "label_nl": "Claim: Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
@@ -159,15 +159,14 @@
       },
       {
         "ids": [
-          "f22e1fe08952fc",
-          "c543a0a492e0d2"
+          "f22e1fe08952fc"
         ],
         "label_nl": "Claim: Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -182,25 +181,15 @@
       },
       {
         "ids": [
-          "e7ea0b4697c876"
-        ],
-        "label_nl": "Claim: 尽管霍尔木兹海峡对油轮的袭击不断升级，油价仍保持平稳 - 美国之音",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
+          "8309d09f8db568",
           "94cfe70ef3e401"
         ],
-        "label_nl": "Claim: Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National",
+        "label_nl": "Claim: 伊朗无人机袭击科威特，致两名意大利人丧生 - 华尔街日报中文网",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
       },
       {
         "ids": [
@@ -226,9 +215,20 @@
       },
       {
         "ids": [
-          "af8aaa509cc2c4"
+          "c543a0a492e0d2"
         ],
-        "label_nl": "Claim: Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow",
+        "label_nl": "Claim: Oil Prices Rise as Renewed Middle East Attacks Threaten Persian Gulf Supply Recovery - Yahoo Finance",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "d165d0ac43d155"
+        ],
+        "label_nl": "Claim: Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify - Crude Oil Prices Today | OilPrice.com",
         "actor": "",
         "action": "",
         "place": "",
@@ -259,9 +259,9 @@
       },
       {
         "ids": [
-          "b1a7e4094736fc"
+          "c9dacd3fafa484"
         ],
-        "label_nl": "Claim: From Kurdistan to the Caspian: Washington’s New Economic Blockade of Iran - Modern Ghana",
+        "label_nl": "Claim: Iran says Qatari, Pakistani mediation in talks with US continues - Middle East Monitor",
         "actor": "",
         "action": "",
         "place": "",
@@ -274,7 +274,7 @@
       "6c48c92fdd43e7",
       "162fe3e2a713e6",
       "dd1a408a51dac8",
-      "5e621c6ceec2ea",
+      "b428afbe46951c",
       "eff2c96a02c421",
       "bb46689e332d8e",
       "bbb3357f02565c",
@@ -282,18 +282,18 @@
       "5ad002ab6284ed",
       "b908299af63856",
       "c81e09c7aab1ab",
-      "8033cf8c2bd51e",
+      "5e621c6ceec2ea",
       "f22e1fe08952fc",
       "da19a4ecd91728",
-      "e7ea0b4697c876",
+      "8309d09f8db568",
       "94cfe70ef3e401",
       "dcfe9c1e6228af",
       "cdf8aeefcc5e14",
       "c543a0a492e0d2",
-      "af8aaa509cc2c4",
+      "d165d0ac43d155",
       "8003b498412d67",
       "8f66cffa823b52",
-      "b1a7e4094736fc"
+      "c9dacd3fafa484"
     ]
   },
   "official_sources_available": 15,
@@ -327,33 +327,25 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "Iran has stated its intention to target locations associated with the US and Israel, including, but not limited to, organisations, businesses, facilities, ",
-        "relation": "supports_specific_claim",
-        "reason_nl": "Deze passage ondersteunt de claim dat Iran zijn aanvallen in de Golf heeft opgevoerd, gericht op locaties die verband houden met de VS.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "66745edad9534930d0255de8",
-      "label_nl": "Claim: Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online",
+      "id": "c2df83c4e995809d73d40ed3",
+      "label_nl": "Claim: 伊朗无人机袭击科威特，致两名意大利人丧生 - 华尔街日报中文网",
       "headline_claim_ids": [
-        "f22e1fe08952fc",
-        "c543a0a492e0d2"
+        "8309d09f8db568",
+        "94cfe70ef3e401"
       ],
       "headline_claims": [
-        "Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online",
-        "Oil Prices Rise as Renewed Middle East Attacks Threaten Persian Gulf Supply Recovery - Yahoo Finance"
+        "伊朗无人机袭击科威特，致两名意大利人丧生 - 华尔街日报中文网",
+        "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzZYQUZrSENSV0ZmYnZHRkFSaFZFTTlSbkVsN0ZKTFNqOFN2SmxyNEZLeTJJZDVKWDB5eXRoZFlGalNibjNoTVY3aHVxWWRESmg2d0Y3RUl6cDdUbXgzd3pCUURGMEdKSlpQZm05Y0xCQ0d6cHRsUzkzeVNOeWRKdW5xYWlZWjRIRjBRVTNsTVR3RGJ4UkF4TGl3?oc=5",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ1NmZHdfOFowSUtoQzFYU2FCZ2s5dzdDRUh4SDYtU0pHaC1ONzRPd3d0RUJYeVFKdGpFMDNfTDlkQVd3UmhBdndib2JWU1g0RVBrOEE5YllNeDZLZnA3QUYxUTBHVFBYXzdGY1pjWkZfS05Wb3hVS3lHMktIY3MxbkVVcHB6Z0kyRWNWSHl5UWs?oc=5"
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYjRiQzdkcW5TSl91YkxFQWIxaThyejJCU293Y2dHLUhhcWx0cUFyX194WmdfcWNYZkJzQXB0TnA2NnduN0M3a09RamxOUDZ2Vk5jaXJrOUNuZXdFMk9kRlN1Ykl1a1J0U3doV2pabm41cEM3YkxJRnFGSXZfd2R0dFBvVTRrazhISkR2TjhvWQ?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjlZcjNRWExvSC0zaURTVmE2YjJuTHI5Z3ZQb3dxMGtCS09EMEVwNVc3T1hzTnZ5Z3czZGhqWDRNU2tNb1RTTFZOempjZHFKNE95SG54NjBGSlBHb2VqVlRqTTlwd3h0UUcyd3lGMDZuejRyamV5cmg5cVBlNlVZeVdNTDlyXzRhRjR1Qm1pbWI?oc=5"
       ],
       "article_group_count": 2,
       "news_url_count": 2,
@@ -364,30 +356,22 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others across the region against civilian and military infrastructure.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage verwijst naar aanvallen in de regio, maar biedt geen specifieke informatie over olieprijzen of de impact daarvan.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
     {
-      "id": "aae0c9f8bd2b6ba01e7686d7",
-      "label_nl": "Claim: Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance",
+      "id": "9a4d1f11d8a0b95c07736057",
+      "label_nl": "Claim: Oil Tanker Traffic Through Hormuz at Near Standstill as Attacks Strain Iran Truce - EnergyNow.com",
       "headline_claim_ids": [
-        "c81e09c7aab1ab"
+        "b428afbe46951c"
       ],
       "headline_claims": [
-        "Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance"
+        "Oil Tanker Traffic Through Hormuz at Near Standstill as Attacks Strain Iran Truce - EnergyNow.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ3lnVzA4RlRaOGkxUDRSNWlyR096S2xXd1IxV0dPMGRWLWFBX1dMbE5Xc2VQSFVXZ1NIalh3VFd2UWtkdV9tVExpWTBCWG5ZNGo5cEF2Y2ZrMEl1eWgwT3Y0M2EyaGl2dERpbG5ST1BnTHV5T25wNFo4Z3Z5WWJyOE9CM2Y4V2xYYXE4SlRadGs?oc=5"
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSUpxaG5ETU12d1BLVHVRRWp0dUczREEzR2JpU01zS1ItdTNpQjJtRDNvYUg0aDhvVk80dF9rMXlyVVlRcEZOZEJhWlhhZEdqZ2czTVhHYjl1RVYyZmZYcEpMLXhwMFp4b1FUd05SeG5TeUFyQ2h4Ny1vby1nVDFIMGJkRjNSZmt3X1lGOHlYU1ZqUlMwcHFwdlltUVRCX1BPMGVVRUJhYTF5cnBUVUJrODNn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -398,84 +382,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others across the region against civilian and military infrastructure.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage verwijst naar aanvallen in de regio, maar biedt geen specifieke informatie over olieprijzen of mijnaanvallen.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "eb9fad8ae6fb7d95d4196668",
-      "label_nl": "Claim: Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National",
-      "headline_claim_ids": [
-        "94cfe70ef3e401"
-      ],
-      "headline_claims": [
-        "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjlZcjNRWExvSC0zaURTVmE2YjJuTHI5Z3ZQb3dxMGtCS09EMEVwNVc3T1hzTnZ5Z3czZGhqWDRNU2tNb1RTTFZOempjZHFKNE95SG54NjBGSlBHb2VqVlRqTTlwd3h0UUcyd3lGMDZuejRyamV5cmg5cVBlNlVZeVdNTDlyXzRhRjR1Qm1pbWI?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/kuwait",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_kuwait:p1",
-        "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft een algemeen beeld van de onvoorspelbaarheid in het Midden-Oosten, maar bevestigt geen specifieke details over de aanval in Koeweit.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "6e0c05fcf1d66bd39d122d9d",
-      "label_nl": "Claim: Oil rebounds as Hormuz attacks renew supply fears - TradingView",
-      "headline_claim_ids": [
-        "8003b498412d67"
-      ],
-      "headline_claims": [
-        "Oil rebounds as Hormuz attacks renew supply fears - TradingView"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQTlhX3d5Qkd3bV9hLVhobG5xN3FRVTktVHpOT1dEY004RC1NQmhrbFM1enJ3ZDN2UHlad3VRMEM3YXhab3RpMHFmVXRuRzNlaUFwX3pZTjZlWGgzVTQyb3Zja29LMzIxZ2g4clpjVHkzNVR1N0FaWTBCTkNSYkdtSGFfOFktdmZRNGFubjdTYlJVWDZFTGpPMFlUVlJqeWNCTkhCTHB3NXlUSnltWlFUTFFB?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others across the region against civilian and military infrastructure.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage verwijst naar aanvallen in de regio, maar biedt geen specifieke informatie over olieprijzen of de impact daarvan.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -533,6 +441,144 @@
       "probability_estimate": null
     },
     {
+      "id": "aae0c9f8bd2b6ba01e7686d7",
+      "label_nl": "Claim: Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance",
+      "headline_claim_ids": [
+        "c81e09c7aab1ab"
+      ],
+      "headline_claims": [
+        "Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ3lnVzA4RlRaOGkxUDRSNWlyR096S2xXd1IxV0dPMGRWLWFBX1dMbE5Xc2VQSFVXZ1NIalh3VFd2UWtkdV9tVExpWTBCWG5ZNGo5cEF2Y2ZrMEl1eWgwT3Y0M2EyaGl2dERpbG5ST1BnTHV5T25wNFo4Z3Z5WWJyOE9CM2Y4V2xYYXE4SlRadGs?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "c72676b6c3b108e0143425be",
+      "label_nl": "Claim: Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online",
+      "headline_claim_ids": [
+        "f22e1fe08952fc"
+      ],
+      "headline_claims": [
+        "Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzZYQUZrSENSV0ZmYnZHRkFSaFZFTTlSbkVsN0ZKTFNqOFN2SmxyNEZLeTJJZDVKWDB5eXRoZFlGalNibjNoTVY3aHVxWWRESmg2d0Y3RUl6cDdUbXgzd3pCUURGMEdKSlpQZm05Y0xCQ0d6cHRsUzkzeVNOeWRKdW5xYWlZWjRIRjBRVTNsTVR3RGJ4UkF4TGl3?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "290b860a4a3995783f52c3fa",
+      "label_nl": "Claim: Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify - Crude Oil Prices Today | OilPrice.com",
+      "headline_claim_ids": [
+        "d165d0ac43d155"
+      ],
+      "headline_claims": [
+        "Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify - Crude Oil Prices Today | OilPrice.com"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxObXVCeG5tc1dtTi1CRVJxVEZ1dktYdHJ5cEN1LVhPUVoxTHJIWUhwYk5PbnQ4XzRhRHF3R0I5Wll4VlpmQlgwZGo0dDRXVkhJLWcxcFdrdmlEVjJaWDlRX1lYcU10VXZELUdiLTc2WnpyLW5kMzcyYjJlX1J3R2VvVTAzWnFxcVlMMl9DN0hKN3hoTG9NbjJhTE9EQVFzRU52NTlwaXNRSXpobkhwY3ZzN0lCeWJZV2o1WDBNNtIBwgFBVV95cUxNbnBHRGdlSTRjQnZhbk9RUEc4eXFpRTNYN1YwN2hleWwyVW02bVhJbjkyTWZPUUdsR2NEVFlZMmtjRzJEdlNnOGYzVEZvV1NPVi1hY3d2UGZoWENvTnNOcnRkZmFiMktaQ2ZNWDM2ZFk2LXotdWxsVEstVkQxNkZRRWgyNnlUR19aVm9JOE9jWmhzY1QtaEM1cXMzMk1PV3VmbkZkd1Y0ZkJvVUhhVlpwRk9XVVNpblJfY3RNck1hVTZEZw?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "6e0c05fcf1d66bd39d122d9d",
+      "label_nl": "Claim: Oil rebounds as Hormuz attacks renew supply fears - TradingView",
+      "headline_claim_ids": [
+        "8003b498412d67"
+      ],
+      "headline_claims": [
+        "Oil rebounds as Hormuz attacks renew supply fears - TradingView"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQTlhX3d5Qkd3bV9hLVhobG5xN3FRVTktVHpOT1dEY004RC1NQmhrbFM1enJ3ZDN2UHlad3VRMEM3YXhab3RpMHFmVXRuRzNlaUFwX3pZTjZlWGgzVTQyb3Zja29LMzIxZ2g4clpjVHkzNVR1N0FaWTBCTkNSYkdtSGFfOFktdmZRNGFubjdTYlJVWDZFTGpPMFlUVlJqeWNCTkhCTHB3NXlUSnltWlFUTFFB?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "a02a4ac97a1ebb0ea7ee6222",
+      "label_nl": "Claim: Riyadh drone strike and Saudi flight limits: what travelers face now - https://www.thetraveler.org/",
+      "headline_claim_ids": [
+        "162fe3e2a713e6"
+      ],
+      "headline_claims": [
+        "Riyadh drone strike and Saudi flight limits: what travelers face now - https://www.thetraveler.org/"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT2lIWnpzdnZXV3hqelQyLU9qbVd1eGRYX3dxTF9iQWhFT1Q3NWdVR05pc1ZldnVxaXJiakdYUHEtSjdmLWhqOW45bVFIbGNJcUNrZ1YyVGtZNzRueFBEcFMwaXE4ajZZVmw4N0VvdFJBYkpScGwxQUxoYmx3WWtBdlRXSEFJcUlvcXdnaUNtTjY3a0h2YTBvUDRsQ0U?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": {
+        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
+        "authority": "US Department of State",
+        "evidence_id": "us_advisories:l11",
+        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting of American interests",
+        "relation": "supports_specific_claim",
+        "reason_nl": "De passage bevestigt de risico's voor reizigers in Saudi-Arabië, wat relevant is voor de claim over drone-aanvallen.",
+        "automatic_match_only": true
+      },
+      "research_status": "potential_primary_text_match_needs_review",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "ec6757f535ad05a94c3a24bb",
       "label_nl": "Claim: Egyptian, Qatari leaders discuss regional tensions, Gaza ceasefire in Cairo talks - Middle East Monitor",
       "headline_claim_ids": [
@@ -553,16 +599,8 @@
       "event_date_if_stated": null,
       "editorial_importance": "medium",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/kuwait",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_kuwait:p1",
-        "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft een algemeen beeld van de onvoorspelbaarheid in het Midden-Oosten, maar bevestigt geen specifieke details over de gesprekken tussen Egyptische en Qatarese leiders.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -582,177 +620,6 @@
       ],
       "article_group_count": 1,
       "news_url_count": 3,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others across the region against civilian and military infrastructure.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage verwijst naar aanvallen in de regio, maar biedt geen specifieke informatie over olieprijzen of de impact daarvan.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "4bdeb477a92377a8fe9876af",
-      "label_nl": "Claim: Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence",
-      "headline_claim_ids": [
-        "5e621c6ceec2ea"
-      ],
-      "headline_claims": [
-        "Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjlLUzgzeUFrYmQzbU1ySm1pTHVIelFXeTVEdDVBendDY0I1NVFvandLclNKemJPMm5QRG9LSmF5NjNxNzllbDBlU2hjTXZ6SXNXZlJLa096cnN3MHBEME9GUENUdHQtSk03SFhtQ1BqSTMyMDBrWHVMMUtneTRGeF9wX1ZzTVlUeGYtTnRVZlNVY3Jvb0RSaHFrakNQTEYtcUVrSV8wb09HakZDN2c?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others across the region against civilian and military infrastructure.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage verwijst naar aanvallen in de regio, maar biedt geen specifieke informatie over olieprijzen of de impact daarvan.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "c6ece334ecd3f3d09f437cde",
-      "label_nl": "Claim: Oil futures: Crude rebounds as tanker attacks offset surplus fears - Quantum Commodity Intelligence",
-      "headline_claim_ids": [
-        "8033cf8c2bd51e"
-      ],
-      "headline_claims": [
-        "Oil futures: Crude rebounds as tanker attacks offset surplus fears - Quantum Commodity Intelligence"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbjE0aGU0NVpOQ1EzZ1lCcXMtSTlUWXZ1Vjd5Uzh3SWVtcERGR3ZLVGFCV09Qang3RWw3M0lXYnA5dlZINXpVakNIYjQ3eHR5T0l5Y3FKYnp5S3E0S25qSmN4djBicmdsUlk0Y05WM2VIVEY2N2o3Y1loT2lFUng1LUxBWmYyejc0RWFxMTMzNHNReXVzYURjdEtKNExvbVByWFUzcjdwakpkdU1w?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/iran",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_iran:p6",
-        "exact_excerpt": "There have been strikes and retaliatory attacks by Iran and others across the region against civilian and military infrastructure.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage verwijst naar aanvallen in de regio, maar biedt geen specifieke informatie over olieprijzen of de impact daarvan.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "b2087a8aeb9f3402ed902bc7",
-      "label_nl": "Claim: Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News",
-      "headline_claim_ids": [
-        "dcfe9c1e6228af"
-      ],
-      "headline_claims": [
-        "Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXBNY2dwblQ2ajRXOHZqQjJPOXVpTlRpLW80aFZackZ6UmJJeDRUWHFMOGNtMWZialgxa3JxU0hVMDRIODM4UWE1ZHBPenFZc1VtMzVLLVJxLVdycThvZjNSR2g5LTF3d1U1NFlJdkVXc1MtMjhLVHlxTG1uY2FUTjJFaDBWaDVONldTRnZRRktjRHFxU05hNFFPUXE0aVY4WWVRelZETnVLcU1qeTdJRDJQTGZFZnox?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/kuwait",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_kuwait:p1",
-        "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft een algemeen beeld van de onvoorspelbaarheid in het Midden-Oosten, maar bevestigt geen specifieke details over de gesprekken tussen JD Vance en Qatarese leiders.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "68c6c9e2fa4386da4b56a361",
-      "label_nl": "Claim: Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow",
-      "headline_claim_ids": [
-        "af8aaa509cc2c4"
-      ],
-      "headline_claims": [
-        "Hundreds of Ships Drop Anchor in Middle East Gulf, Data Shows - EnergyNow"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTFR2RVJoYlJzTEp2eExrRzgzYjJZa0VZRmV6S0NhR0NBNlBOb3BObTFZMU8xa2JEQUxILVRkRW1ZSUhINlRGSTdXRHYtcjNCUFlaMUVJNk9hSHBsdDlJY3QtckxWWnhCajRCMmdJN1Q5X1pMaS1wSW82eEVESGJfeU9LSlVVa3o1RkhjNE9rU19QXzhh?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGVuaC1EYUNGRWN6YVM4cWhBU1VVTXhIanJWM2p4MDA3S3Z3bWJnOHhZVkNQcy13V09fLVFSQ0tyRmZPLVphM1NFUEpGR21sVWx1bGdrelp2R25XdW02VFZ4WWhpUVJWdm1rRG84aTlOOUxCN2NxbFV5cGZleEZVNWEyRUtsUDlSMG54M1F5cHlVU0FZN1E?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "medium",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/kuwait",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_kuwait:p1",
-        "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft een algemeen beeld van de onvoorspelbaarheid in het Midden-Oosten, maar bevestigt geen specifieke details over de schepen in de Golf.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "a02a4ac97a1ebb0ea7ee6222",
-      "label_nl": "Claim: Riyadh drone strike and Saudi flight limits: what travelers face now - https://www.thetraveler.org/",
-      "headline_claim_ids": [
-        "162fe3e2a713e6"
-      ],
-      "headline_claims": [
-        "Riyadh drone strike and Saudi flight limits: what travelers face now - https://www.thetraveler.org/"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT2lIWnpzdnZXV3hqelQyLU9qbVd1eGRYX3dxTF9iQWhFT1Q3NWdVR05pc1ZldnVxaXJiakdYUHEtSjdmLWhqOW45bVFIbGNJcUNrZ1YyVGtZNzRueFBEcFMwaXE4ajZZVmw4N0VvdFJBYkpScGwxQUxoYmx3WWtBdlRXSEFJcUlvcXdnaUNtTjY3a0h2YTBvUDRsQ0U?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -844,6 +711,32 @@
       "probability_estimate": null
     },
     {
+      "id": "4bdeb477a92377a8fe9876af",
+      "label_nl": "Claim: Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence",
+      "headline_claim_ids": [
+        "5e621c6ceec2ea"
+      ],
+      "headline_claims": [
+        "Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjlLUzgzeUFrYmQzbU1ySm1pTHVIelFXeTVEdDVBendDY0I1NVFvandLclNKemJPMm5QRG9LSmF5NjNxNzllbDBlU2hjTXZ6SXNXZlJLa096cnN3MHBEME9GUENUdHQtSk03SFhtQ1BqSTMyMDBrWHVMMUtneTRGeF9wX1ZzTVlUeGYtTnRVZlNVY3Jvb0RSaHFrakNQTEYtcUVrSV8wb09HakZDN2c?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
       "id": "8bebdcd05a7d02fc6f496c1b",
       "label_nl": "Claim: Who Is Behind Repeated Fluctuations in Iran’s Currency Market? - نورنیوز",
       "headline_claim_ids": [
@@ -870,16 +763,42 @@
       "probability_estimate": null
     },
     {
-      "id": "aa390d2de75d2d688e75fe6e",
-      "label_nl": "Claim: 尽管霍尔木兹海峡对油轮的袭击不断升级，油价仍保持平稳 - 美国之音",
+      "id": "b2087a8aeb9f3402ed902bc7",
+      "label_nl": "Claim: Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News",
       "headline_claim_ids": [
-        "e7ea0b4697c876"
+        "dcfe9c1e6228af"
       ],
       "headline_claims": [
-        "尽管霍尔木兹海峡对油轮的袭击不断升级，油价仍保持平稳 - 美国之音"
+        "Report: JD Vance Meets with Qatari Leaders on Stalled Iran Negotiations - Breitbart News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaG1PcGYzVmR5UVd5aXBmbm5kZ3hfMnJJdGNFS1pONE1zaGRLNm8tTnR1VHRsZ0RWNFU1Sm55X0Y3RVhTQkIxM2NFR3IwR1JJancwcGpXU0o0VU1abTdkbnBpN0FZUThHWmtVRmcyQ0Z5bFZfYmdjS3RhVjRPNWh0ME02bnh1a3BRVDl4ZmFoOE5oZUl5dFFmOTc4eFE0SWtmVHVXZmM0al9XTjRXODU5RWtpMXp3VmNlS04yMtIBvwFBVV95cUxQY1lRTXZ0dFJCVXUwVFk0V2RJbEpaWk9EMmRWUTM0TWtqQU56ME1IUERKRG1MMmRsX2dfN01TTWZxbFpGVFJ0VE9wOGViMUI5S2F4NnpGM2t5SUpFWlhFY1FnU3hsTVNEZ2NZX2NqZnJZbERBeFdhcVYwRTZJUzJHT1lPSXJfTXFpeWhZeXMwLU5iVDNhakMxTWtlYm1CODdFWTRBQl9kZUNYMkVLYXhvSTlfbVRWbzRBVUdJLUZxdw?oc=5"
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaXBNY2dwblQ2ajRXOHZqQjJPOXVpTlRpLW80aFZackZ6UmJJeDRUWHFMOGNtMWZialgxa3JxU0hVMDRIODM4UWE1ZHBPenFZc1VtMzVLLVJxLVdycThvZjNSR2g5LTF3d1U1NFlJdkVXc1MtMjhLVHlxTG1uY2FUTjJFaDBWaDVONldTRnZRRktjRHFxU05hNFFPUXE0aVY4WWVRelZETnVLcU1qeTdJRDJQTGZFZnox?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "medium",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "f66c1ec7b24cd288eeaf3874",
+      "label_nl": "Claim: Oil Prices Rise as Renewed Middle East Attacks Threaten Persian Gulf Supply Recovery - Yahoo Finance",
+      "headline_claim_ids": [
+        "c543a0a492e0d2"
+      ],
+      "headline_claims": [
+        "Oil Prices Rise as Renewed Middle East Attacks Threaten Persian Gulf Supply Recovery - Yahoo Finance"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ1NmZHdfOFowSUtoQzFYU2FCZ2s5dzdDRUh4SDYtU0pHaC1ONzRPd3d0RUJYeVFKdGpFMDNfTDlkQVd3UmhBdndib2JWU1g0RVBrOEE5YllNeDZLZnA3QUYxUTBHVFBYXzdGY1pjWkZfS05Wb3hVS3lHMktIY3MxbkVVcHB6Z0kyRWNWSHl5UWs?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -922,16 +841,16 @@
       "probability_estimate": null
     },
     {
-      "id": "d20e73f590333ec48f135641",
-      "label_nl": "Claim: From Kurdistan to the Caspian: Washington’s New Economic Blockade of Iran - Modern Ghana",
+      "id": "653fe99305c89a2877f02184",
+      "label_nl": "Claim: Iran says Qatari, Pakistani mediation in talks with US continues - Middle East Monitor",
       "headline_claim_ids": [
-        "b1a7e4094736fc"
+        "c9dacd3fafa484"
       ],
       "headline_claims": [
-        "From Kurdistan to the Caspian: Washington’s New Economic Blockade of Iran - Modern Ghana"
+        "Iran says Qatari, Pakistani mediation in talks with US continues - Middle East Monitor"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR1FtUXZnWG1sb1NZOXAydmswY2xJQTJuY3NXWmg2ZXdVVUdsWkw2dEhlQ3JuT1I0cUFnWlNid3BaOHJhakZZVS0zVjU5d09WSnB0UHJpRGZUanNCaVU2aU9lOE93aTQzNEIzb1ROUjNCbFMzRk1LeURmRWN0R1ZuS2pLRVF5TVVvdUhNUEFfWERDVlgy0gGUAUFVX3lxTE5HUW1RdmdYbWxvU1k5cDJ2azBjbElBMm5jc1daaDZld1VVR2xaTDZ0SGVDcm5PUjRxQWdaU2J3cFo4cmFqRllVLTNWNTl3T1ZKcHRQcmlEZlRqc0JpVTZpT2U4T3dpNDM0QjNvVE5SM0JsUzNGTUt5RGZFY3RHVm5LaktFUXlNVW91SE1QQV9YRENWWDI?oc=5"
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMUlGbmpqRlRDeWo0dWpKWEZqLUd2RDhib0NpYUtaVXZWWEc5RHR5VnAtcFhYZk1aQVNuanpYLTJJQ2Vab3FBUEN3MVpJcVF0dEZCNldwQXU3VUQ2T2dfVkhibnFVUlU1NzV2cEZxTFRjSkQtdWdBMkFDQ0ZNdkdBbElmd0JiVS1ST1g5YWhRLXdvY2dEWWdvajZJRWFnZnhJX1VvVkRDc09nN1nSAbABQVVfeXFMTU1rOGxGekt5Z0lNNDAxcXJ4R0ZnNFlYbTZaZktzdUtnREFFYkt2dkF5Vm55OWFTVjlCQmJNYUdQSHp0NG56cXdoWVlwMGpRZ1ZKbDQtZU5kWGR0RlZfTU03TEZMQTNNMVlDdGpWOUhMYW9MRC0tR3FKanJjalVuNXROM0JGMUVTOHg2WW9DOHlVdldpZ2Z5cURMRHBjbkk2VXB1Y0wzRHo5Z1BDTWN3VU4?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -968,25 +887,13 @@
       "event_date_if_stated": null,
       "editorial_importance": "low",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-        "authority": "UK Foreign, Commonwealth & Development Office",
-        "evidence_id": "uk_uae:p1",
-        "exact_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-        "relation": "related_only",
-        "reason_nl": "Deze passage geeft een algemeen beeld van de onvoorspelbaarheid in het Midden-Oosten, maar bevestigt geen specifieke details over de situatie in de VAE.",
-        "automatic_match_only": true
-      },
-      "research_status": "related_official_material_only",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     }
   ],
   "usage_by_day": {
-    "2026-11-24": {
-      "requests": 12,
-      "total_tokens": 25489
-    },
     "2026-11-25": {
       "requests": 12,
       "total_tokens": 33634
@@ -994,6 +901,10 @@
     "2026-11-26": {
       "requests": 6,
       "total_tokens": 18394
+    },
+    "2026-11-27": {
+      "requests": 3,
+      "total_tokens": 9665
     }
   }
 }
