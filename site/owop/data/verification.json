@@ -1,11 +1,85 @@
 {
-  "generated_at": "2026-11-27T02:29:48.054380Z",
+  "generated_at": "2026-11-27T17:43:47.716594Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 0,
-  "recommendation_counts": {},
-  "stories": [],
+  "candidate_count": 2,
+  "recommendation_counts": {
+    "publish": 1,
+    "reserve": 1
+  },
+  "stories": [
+    {
+      "id": "146cf04b3ee864",
+      "editorial_score": 90,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here’s what I found, based on primary sources (mainly Syrian state media) and independent reports, about the reopening of two schools in Idlib:\n\n---\n\n## What was reported\n\n- Two schools—called *Holy Land Schools* (in Arabic “مدرستي الأرض المقدسة”)—in the Idlib countryside, specifically in the towns of **Quniya (القنية)** and **Al-Yacoubiyah (اليعقوبية)**, reopened on **Sunday, September 20, 2026** after rehabilitation works on their partially damaged buildings. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n- The reopening was part of restoring education services for children, especially as residents have been returning to areas affected by displacement. ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n- Attendance levels, grades served:\n  - Quniya school is for *first-cycle basic education* (generally younger students). ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n  - Al-Yacoubiyah school serves the *second cycle*. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n\n- Officials present at the ceremonies included:\n  - Raed al-Saleh, Minister of Emergency and Disaster Management ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n  - Hind Qabawat, Minister of Social Affairs and Labor ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n  - Mohammad Abdul Rahman, Governor of Idlib ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n  - Also present: the Vatican Ambassador Luigi Roberto Cona; the Custos of the Holy Land Francis Yelbo. ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n\n- The wider context:\n  - As of that academic year, Idlib province had **about 1,900 schools in operation**, including roughly **100 newly created or rehabilitated** schools. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n  - Total of **650 schools** had been restored and returned to service since “liberation” (i.e. regaining control) and more than **540,000 students** were being served, an increase of about **40,000** students coinciding with return of displaced families. ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n\n---\n\n## What is a measured outcome vs pledge, announcement, marketing\n\n- **Completed outcome**: The reopening of the two schools is a real event; both school buildings were rehabilitated to some degree and are in active use as of September 20, 2026. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n- **Supportive measurable outcomes**:  \n  - Number of schools restored in Idlib province: 650, serving over 540,000 students ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n  - Number of schools newly rehabilitated or established this academic year: ~100 ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n\n- **Announcements / pledges**:  \n  - Statements about ongoing rehabilitation work, plans to return more schools to service, continuing to support returning residents. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n  - Plans to restore the remaining 340 schools still needing rehabilitation in Idlib. ([sana.sy](https://sana.sy/governorates/edlib/2564403/?utm_source=openai))  \n\n---\n\n## Independent / third-party verification\n\n- IHH (a Turkish aid group) independently reported a similar but distinct event: on **November 27, 2026**, IHH reopened ***two war-damaged schools*** in Idlib—*Maarat Hurma School* and *Maarat al-Sin School*—after reconstruction, and said the facilities are expected to serve around **1,200 students**. ([dailysabah.com](https://www.dailysabah.com/turkiye/turkish-aid-group-restores-2-schools-in-syrias-idlib/news/amp?utm_source=openai))  \n- The schools in that IHH report are different schools (Maarat Hurma and Maarat al-Sin), not Quniya or Al-Yacoubiyah. So this is another example of schools reopening but *separate* from the September event. ([dailysabah.com](https://www.dailysabah.com/turkiye/turkish-aid-group-restores-2-schools-in-syrias-idlib/news/amp?utm_source=openai))  \n\n---\n\n## Assessment / Summary\n\n- The claim that *two schools reopened in Idlib after war recovery* refers to a real, completed event: Quniya (first-cycle) and Al-Yacoubiyah (second-cycle) schools reopened on **September 20, 2026**, following rehabilitation. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n- It is part of a broader measured recovery: hundreds of schools rehabilitated (650 in Idlib since “liberation”), thousands of students returning to schooling (over 540,000 in the province), with a measurable increase in student numbers (~40,000). ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n- There are also additional independent events of similar nature (e.g. by IHH) confirming that school reopening is ongoing in Idlib, though that supports the pattern rather than exactly the same two schools. ([dailysabah.com](https://www.dailysabah.com/turkiye/turkish-aid-group-restores-2-schools-in-syrias-idlib/news/amp?utm_source=openai))  \n\n---\n\nIf you like, I can track down eyewitness reports or student attendance data to further verify the impact.",
+      "citations": [
+        {
+          "title": "افتتاح مدرستي الأرض المقدسة في القنية واليعقوبية بريف إدلب بعد تأهيلهما",
+          "url": "https://sana.sy/governorates/edlib/2585529/?utm_source=openai"
+        },
+        {
+          "title": "Idlib schools reopen as education services return with families coming home",
+          "url": "https://sana.sy/en/syria/2344557/?utm_source=openai"
+        },
+        {
+          "title": "محافظ إدلب: ترميم 600 مدرسة واستعداد لافتتاح 50 أخرى في المحافظة خلال أيام",
+          "url": "https://sana.sy/governorates/edlib/2564403/?utm_source=openai"
+        },
+        {
+          "title": "Turkish aid group restores 2 schools in Syria’s Idlib | Daily Sabah",
+          "url": "https://www.dailysabah.com/turkiye/turkish-aid-group-restores-2-schools-in-syrias-idlib/news/amp?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "supported",
+      "outcome_status": "completed",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "high",
+      "verified_headline": "Two schools reopen in Idlib after rehabilitation efforts",
+      "verified_summary": "Two schools in Idlib, Quniya and Al-Yacoubiyah, reopened on September 20, 2026, after rehabilitation. This is part of a broader recovery effort, with 650 schools restored in the province serving over 540,000 students.",
+      "verification_note": "The reopening of the schools is a completed event supported by multiple sources, indicating significant recovery in education services in Idlib.",
+      "publish_recommendation": "publish"
+    },
+    {
+      "id": "6896037728daf5",
+      "editorial_score": 85,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here’s a research note on what can be confirmed to have actually *happened* with the news event “Australia sees record 5.5 GW in renewable FIDs year to date”:\n\n---\n\n## What “FID” Means\n\n- FID = Final Investment Decision. It refers to projects having reached a committed stage with financing in place (or equivalent), moving beyond planning toward construction.  \n- These figures are for “large-scale renewable generation” (solar/wind) projects in Australia. They are not pledges; they are measured commitments. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))\n\n---\n\n## What Happened: Key Facts\n\n1. **Record Annual Investment (to Date)**  \n   - In the first three quarters of 2026 (up to end-September), **projects totalling 5.0 GW** of large-scale renewable generation capacity reached FID. This already surpassed the previous annual record of 4.9 GW, which was set in 2018. ([cer.gov.au](https://cer.gov.au/document/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))  \n   - By **mid-November 2026**, additional investments pushed the year-to-date total up to **5.5 GW**. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))\n\n2. **Breakdown by Technology**  \n   - Of the 5.5 GW to mid-November, about **3.5 GW** is solar capacity. The rest is from wind. ([cer.gov.au](https://cer.gov.au/document/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))  \n   - In the September quarter alone (Q3 2026), about **2.1 GW** of new large-scale renewable capacity reached FID. This included **1.0 GW** from solar and **1.1 GW** from wind. ([cer.gov.au](https://cer.gov.au/document/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))\n\n3. **Support via Government Scheme (CIS)**  \n   - More than half of the generation capacity that reached FID by end of Q3 2026 has support under the *Capacity Investment Scheme* (CIS). CIS-supported projects are making up a substantial part of the FID activity. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))  \n   - Some of the solar and wind projects in Q3 (e.g. in Queensland) that reached FID are CIS-supported. ([now.solar](https://now.solar/2026/11/26/australia-sees-1-gw-of-solar-capacity-reach-fid-in-q3-pv-magazine-global/?utm_source=openai))\n\n4. **Outlook Revised**  \n   - Because of this strong investment activity, the Clean Energy Regulator (CER) has revised its forecast. Earlier (in Q4 2025), CER had projected 6–16 GW of large-scale renewable capacity to reach FID over 2026-27. Given that 5.5 GW has already occurred by mid-November 2026, the lower bound of that projection has been raised from **6 GW to 8 GW**, while keeping the upper bound at **16 GW**. ([cer.gov.au](https://cer.gov.au/document/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))\n\n---\n\n## What Was *Announced* vs What Is *Completed*\n\n- These are **projects that have reached FID**, meaning financing or equivalent commitment is secured. However, this does *not* mean all these projects are finished, fully built, or generating electricity. FID precedes construction, commissioning, and generation. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))  \n- There is a known lag between FID → construction → accreditation (e.g. under Australia’s Large-scale Renewable Energy Target, “LRET”) before generation begins. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))\n\n---\n\n## Sources\n\n- **Primary / Official Source**: The *Clean Energy Regulator (CER)* Quarterly Carbon Market Report, September Quarter 2026. This includes confirmed data on FIDs, capacity by technology, CIS involvement, and the year-to-date totals. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))  \n- **Independent Reporting**: Sources like *pv magazine Global* and *RenewEconomy* confirm and re report these CER findings, tightening in on details like the CIS-supported projects, solar/wind split, and the revised outlook. ([now.solar](https://now.solar/2026/11/26/australia-sees-1-gw-of-solar-capacity-reach-fid-in-q3-pv-magazine-global/?utm_source=openai))\n\n---\n\n## Summary\n\n- As of mid-November 2026, **5.5 GW** of large-scale renewable generation capacity in Australia has officially passed the FID milestone—a new record.  \n- Over 3.5 GW of that is solar. Wind contributes the remaining portion.  \n- More than half of the FID capacity is backed by the Capacity Investment Scheme (CIS), a government support program.  \n- The previous record was 4.9 GW (in 2018), but the first three quarters of 2026 alone already exceeded that, at 5.0 GW by end-Q3.  \n- CER has revised its forecast to expect at least **8 GW** of capacity reaching FID over 2026-27, up from the earlier lower estimate of 6 GW.  \n\n---\n\nIf you like, I can also pull together what specific projects are involved, where they are located, and when they are expected to come online.",
+      "citations": [
+        {
+          "title": "Quarterly Carbon Market Report September quarter 2026 | Clean Energy Regulator",
+          "url": "https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai"
+        },
+        {
+          "title": "# Large-scale renewable investment reaches a new annual record",
+          "url": "https://cer.gov.au/document/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai"
+        },
+        {
+          "title": "Australia sees 1 GW of solar capacity reach FID in Q3 – pv magazine Global | Solar Now",
+          "url": "https://now.solar/2026/11/26/australia-sees-1-gw-of-solar-capacity-reach-fid-in-q3-pv-magazine-global/?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "announcement",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "medium",
+      "verified_headline": "Australia achieves record 5.5 GW in renewable energy FIDs",
+      "verified_summary": "As of mid-November 2026, Australia has reached a record 5.5 GW of large-scale renewable energy projects that have passed the Final Investment Decision (FID) milestone. This surpasses the previous record of 4.9 GW set in 2018.",
+      "verification_note": "The claim is supported by multiple independent sources confirming the record FID figures, but these projects are not yet completed or generating electricity.",
+      "publish_recommendation": "reserve"
+    }
+  ],
   "pilot_note": "Live-web verification pilot; cited search evidence is re-evaluated by a separate verifier model."
 }
