@@ -1,161 +1,15 @@
 {
   "description": "Evidence trails for official-source claims; NOT objective event verification",
-  "last_attempt_utc": "2026-11-27T01:46:14.684159Z",
+  "last_attempt_utc": "2026-11-27T16:42:08.519108Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "active_total": 22,
-  "active_checked": 6,
+  "active_checked": 7,
   "direct_matches": 0,
   "contradictions": 0,
-  "requests_today": 3,
-  "model_requests_today": 1,
+  "requests_today": 6,
+  "model_requests_today": 2,
   "records": {
-    "7317aacec4d022e1f553dbf0": {
-      "event_id": "7317aacec4d022e1f553dbf0",
-      "checked_at": "2026-11-11T13:24:57.777179Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-11T13:24:52.115766Z",
-          "exact_quote": "the risk of sudden escalation is high",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage geeft aan dat er een hoog risico op escalatie is, maar bevestigt niet dat er geen aanvallen op Iran zullen plaatsvinden.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De tekst wijst op een hoog risico van escalatie in de regio, maar biedt geen directe bevestiging van de uitspraken van Trump over aanvallen op Iran.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        },
-        {
-          "url": "https://www.gov.uk/vehicle-tax",
-          "title": "Tax your vehicle - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "You might also need to show evidence of an MOT (it must be valid when the tax starts). For example, a screenshot of your vehicle’s MOT history or your MOT certificate, if you have one."
-        }
-      ]
-    },
-    "351d9a45643ac988892e2163": {
-      "event_id": "351d9a45643ac988892e2163",
-      "checked_at": "2026-11-12T01:27:36.512779Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-12T01:27:22.780511Z",
-          "exact_quote": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Niet voldoende specifiek: Algemeen reisadvies is geen directe bevestiging van een afzonderlijke gebeurtenis.",
-          "claim_validated_as_fact": false,
-          "specificity_check": "downgraded"
-        }
-      ],
-      "summary_nl": "Gerelateerd officieel materiaal gevonden, maar geen specifieke bevestiging van deze nieuwsclaim.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 4,
-      "search_errors": [
-        "document: ValueError"
-      ],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "Since 13 July, the Houthis (a military group in Yemen) have launched missiles and drones targeting several locations in Saudi Arabia. There is a heightened threat against airports, Saudi military and defence buildings, military bases, ports and energ"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "British nationals in, or planning to travel through, the Middle East should be prepared for possible flight cancellations, airspace closures, and travel disruptions. You should:"
-        }
-      ]
-    },
-    "4084f561e9a810955bce4f77": {
-      "event_id": "4084f561e9a810955bce4f77",
-      "checked_at": "2026-11-12T01:27:36.512793Z",
-      "version": "official-original-document-v1",
-      "research_status": "related_official_material",
-      "verified_event": false,
-      "official_matches": [
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-12T01:27:24.852693Z",
-          "exact_quote": "There have been strikes and retaliatory attacks by Iran and others across the region against civilian and US",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "De passage verwijst naar aanvallen in de regio, maar specificeert geen nieuwe Amerikaanse aanvallen in Iran.",
-          "claim_validated_as_fact": false
-        },
-        {
-          "source_url": "https://www.gov.uk/foreign-travel-advice/egypt",
-          "original_document_title": "Egypt travel advice - GOV.UKGOV.UK",
-          "source_date": null,
-          "retrieved_at": "2026-11-12T01:27:25.524467Z",
-          "exact_quote": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high.",
-          "relation": "related_only",
-          "older_document_than_claim": false,
-          "reason_nl": "Deze passage beschrijft de onvoorspelbare situatie in het Midden-Oosten, maar bevestigt geen specifieke Amerikaanse aanvallen.",
-          "claim_validated_as_fact": false
-        }
-      ],
-      "summary_nl": "De teksten beschrijven een onvoorspelbare situatie in het Midden-Oosten met aanvallen, maar bevestigen geen specifieke Amerikaanse luchtaanvallen in Iran.",
-      "search_status": "ok",
-      "search_providers": {
-        "govuk_official_search": "ok",
-        "bing_issuer_queries": "ok"
-      },
-      "documents_fetched": 2,
-      "official_link_candidates": 3,
-      "search_errors": [],
-      "ai_error": null,
-      "original_documents_retrieved": [
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
-          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        },
-        {
-          "url": "https://www.gov.uk/foreign-travel-advice/egypt",
-          "title": "Egypt travel advice - GOV.UKGOV.UK",
-          "source_publication_date": null,
-          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
-        }
-      ]
-    },
     "3b089ebe40cefdbc93da08f6": {
       "event_id": "3b089ebe40cefdbc93da08f6",
       "checked_at": "2026-11-12T01:27:36.512797Z",
@@ -3995,6 +3849,143 @@
           "text_excerpt": "You can access different services through:"
         }
       ]
+    },
+    "15e25b7baa727fe2a0443a66": {
+      "event_id": "15e25b7baa727fe2a0443a66",
+      "checked_at": "2026-11-27T16:42:08.519053Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "original_document_title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-27T16:42:00.008998Z",
+          "exact_quote": "the risk of sudden escalation is high.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar de onvoorspelbaarheid in de regio, maar ondersteunt niet specifiek de claim over de stijging van Brent Crude.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De documenten vermelden de dreiging van Houthi-aanvallen en de onvoorspelbaarheid in de regio, maar bieden geen bewijs voor de stijging van Brent Crude.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 3,
+      "search_errors": [],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/sign-in-universal-credit",
+          "title": "Sign in to your Universal Credit account - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "It might take a few days for your case manager or work coach to reply. You’ll usually get a text or email if your journal or to-do list is updated."
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
+          "title": "Saudi Arabia travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "In addition to the threat from Houthi attacks, the wider context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associat"
+        }
+      ]
+    },
+    "7353861c8ded2918930cc0b2": {
+      "event_id": "7353861c8ded2918930cc0b2",
+      "checked_at": "2026-11-27T16:42:08.519075Z",
+      "version": "official-original-document-v1",
+      "research_status": "documents_found_unassessed",
+      "verified_event": false,
+      "official_matches": [],
+      "summary_nl": "Er zijn geen relevante passages gevonden die de claim over de daling van olieprijzen na de aanval op een Saudische raffinaderij ondersteunen.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 6,
+      "search_errors": [
+        "document: ValueError",
+        "document: ValueError",
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/pay-self-assessment-tax-bill",
+          "title": "Pay your Self Assessment tax bill: Overview - GOV.UK\nGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "Online payment services may be slow during busy times. Check if there are any current problems or times they are not available."
+        },
+        {
+          "url": "https://www.gov.uk/change-driving-test",
+          "title": "Change your driving test appointment - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "How many times you can change your test"
+        }
+      ]
+    },
+    "5462ff40c7b39d5d2b892264": {
+      "event_id": "5462ff40c7b39d5d2b892264",
+      "checked_at": "2026-11-27T16:42:08.519081Z",
+      "version": "official-original-document-v1",
+      "research_status": "related_official_material",
+      "verified_event": false,
+      "official_matches": [
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "original_document_title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-27T16:42:02.872798Z",
+          "exact_quote": "the risk of sudden escalation is high.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage verwijst naar de onvoorspelbaarheid in de regio, maar ondersteunt niet specifiek de claim over de Amerikaanse aanvallen.",
+          "claim_validated_as_fact": false
+        },
+        {
+          "source_url": "https://www.gov.uk/foreign-travel-advice/qatar",
+          "original_document_title": "Qatar travel advice - GOV.UKGOV.UK",
+          "source_date": null,
+          "retrieved_at": "2026-11-27T16:42:03.386019Z",
+          "exact_quote": "the risk of sudden escalation is high.",
+          "relation": "related_only",
+          "older_document_than_claim": false,
+          "reason_nl": "De passage benadrukt de onvoorspelbaarheid van de situatie, maar biedt geen bewijs voor de specifieke claim over de Amerikaanse aanvallen.",
+          "claim_validated_as_fact": false
+        }
+      ],
+      "summary_nl": "De documenten benadrukken de onvoorspelbaarheid en risico's in de regio, maar bieden geen bewijs voor de Amerikaanse aanvallen op Qeshm Island.",
+      "search_status": "ok",
+      "search_providers": {
+        "govuk_official_search": "ok",
+        "bing_issuer_queries": "ok"
+      },
+      "documents_fetched": 2,
+      "official_link_candidates": 4,
+      "search_errors": [
+        "document: ValueError"
+      ],
+      "ai_error": null,
+      "original_documents_retrieved": [
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates",
+          "title": "United Arab Emirates travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        },
+        {
+          "url": "https://www.gov.uk/foreign-travel-advice/qatar",
+          "title": "Qatar travel advice - GOV.UKGOV.UK",
+          "source_publication_date": null,
+          "text_excerpt": "The context in the Middle East remains deeply unpredictable and the risk of sudden escalation is high. Since conflict began in early 2026, Iran has stated its intention to target locations associated with the US and Israel, including, but not limited"
+        }
+      ]
     }
   },
   "usage_by_day": {
@@ -4009,9 +4000,9 @@
       "model_tokens": 2733
     },
     "2026-11-27": {
-      "claims_checked": 3,
-      "model_requests": 1,
-      "model_tokens": 1368
+      "claims_checked": 6,
+      "model_requests": 2,
+      "model_tokens": 3358
     }
   },
   "last_error": null

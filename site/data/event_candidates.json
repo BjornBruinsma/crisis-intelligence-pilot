@@ -1,7 +1,7 @@
 {
   "description": "Unverified AI-grouped headline claims and exact official-source text matches",
-  "last_attempt_utc": "2026-11-27T01:45:39.464077Z",
-  "fingerprint": "5958b6dcd9d7d55f3858f84a",
+  "last_attempt_utc": "2026-11-27T16:41:49.881546Z",
+  "fingerprint": "06d9ada085234c46066acc43",
   "status": "complete",
   "errors": [],
   "model": "gpt-4o-mini",
@@ -9,9 +9,9 @@
   "event_candidate_count": 22,
   "clustering_method": "ai_pairwise_double_review",
   "clustering_metrics": {
-    "model_pair_proposals": 4,
+    "model_pair_proposals": 5,
     "accepted_pair_connections": 2,
-    "rejected_pair_proposals": 2,
+    "rejected_pair_proposals": 3,
     "multi_claim_groups": 2,
     "claims_in_multi_groups": 4,
     "all_input_ids_retained": true,
@@ -22,7 +22,7 @@
     "independent_auditor_ran": true
   },
   "last_successful_grouping": {
-    "recorded_at": "2026-11-27T01:45:39.464077Z",
+    "recorded_at": "2026-11-27T16:41:49.881546Z",
     "groups": [
       {
         "ids": [
@@ -60,9 +60,9 @@
       },
       {
         "ids": [
-          "dd1a408a51dac8"
+          "c81e09c7aab1ab"
         ],
-        "label_nl": "Claim: Oil holds in tight range as Gulf attacks sustain risk premium - The Express Tribune",
+        "label_nl": "Claim: Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance",
         "actor": "",
         "action": "",
         "place": "",
@@ -71,9 +71,9 @@
       },
       {
         "ids": [
-          "b428afbe46951c"
+          "c51bb864b4a1c3"
         ],
-        "label_nl": "Claim: Oil Tanker Traffic Through Hormuz at Near Standstill as Attacks Strain Iran Truce - EnergyNow.com",
+        "label_nl": "Claim: Brent Crude Rises 8.1% in 4 Days After Houthi Attacks on Saudi Refineries - https://houseofsaud.com/",
         "actor": "",
         "action": "",
         "place": "",
@@ -104,9 +104,9 @@
       },
       {
         "ids": [
-          "1d6322eced692e"
+          "0795228abeca2b"
         ],
-        "label_nl": "Claim: Iran says it will use 'all available means' against U.S. blockade - Inquisitr",
+        "label_nl": "Claim: US Strikes Qeshm Island as Maritime Attacks and Riyadh Missile Barrages Escalate Persian Gulf Crisis - The Daily Scrum News",
         "actor": "",
         "action": "",
         "place": "",
@@ -137,31 +137,32 @@
       },
       {
         "ids": [
-          "c81e09c7aab1ab"
-        ],
-        "label_nl": "Claim: Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "5e621c6ceec2ea"
-        ],
-        "label_nl": "Claim: Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
+          "c543a0a492e0d2",
           "f22e1fe08952fc"
         ],
-        "label_nl": "Claim: Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online",
+        "label_nl": "Claim: Oil Prices Rise as Renewed Middle East Attacks Threaten Persian Gulf Supply Recovery - Yahoo Finance",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+      },
+      {
+        "ids": [
+          "b428afbe46951c"
+        ],
+        "label_nl": "Claim: Oil Tanker Traffic Through Hormuz at Near Standstill as Attacks Strain Iran Truce - EnergyNow.com",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "5130257b620a5e"
+        ],
+        "label_nl": "Claim: Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns - Reuters",
         "actor": "",
         "action": "",
         "place": "",
@@ -181,15 +182,25 @@
       },
       {
         "ids": [
-          "8309d09f8db568",
-          "94cfe70ef3e401"
+          "ac4656b411679e"
         ],
-        "label_nl": "Claim: 伊朗无人机袭击科威特，致两名意大利人丧生 - 华尔街日报中文网",
+        "label_nl": "Claim: Middle East Tensions Escalate: Drone Strike in Kuwait Kills Two Italians as Houthis Hit Saudi Oil Refinery - jeevanutsahnews.in",
         "actor": "",
         "action": "",
         "place": "",
         "event_date": null,
-        "clustering_reason": "AI koppelde vergelijkbare nieuwsclaims; inhoud nog onbevestigd."
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
+      },
+      {
+        "ids": [
+          "05b82826fc9c9d"
+        ],
+        "label_nl": "Claim: Iran claims it recovered 2 oil tankers seized by US military - Middle East Monitor",
+        "actor": "",
+        "action": "",
+        "place": "",
+        "event_date": null,
+        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
       },
       {
         "ids": [
@@ -215,9 +226,9 @@
       },
       {
         "ids": [
-          "c543a0a492e0d2"
+          "683685722a35bb"
         ],
-        "label_nl": "Claim: Oil Prices Rise as Renewed Middle East Attacks Threaten Persian Gulf Supply Recovery - Yahoo Finance",
+        "label_nl": "Claim: Oil Rallies as Hormuz Mine Strikes Rattle Global Markets - Yahoo Finance",
         "actor": "",
         "action": "",
         "place": "",
@@ -226,20 +237,9 @@
       },
       {
         "ids": [
-          "d165d0ac43d155"
+          "5e621c6ceec2ea"
         ],
-        "label_nl": "Claim: Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify - Crude Oil Prices Today | OilPrice.com",
-        "actor": "",
-        "action": "",
-        "place": "",
-        "event_date": null,
-        "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld."
-      },
-      {
-        "ids": [
-          "8003b498412d67"
-        ],
-        "label_nl": "Claim: Oil rebounds as Hormuz attacks renew supply fears - TradingView",
+        "label_nl": "Claim: Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence",
         "actor": "",
         "action": "",
         "place": "",
@@ -259,9 +259,9 @@
       },
       {
         "ids": [
-          "c9dacd3fafa484"
+          "78e38a1994320c"
         ],
-        "label_nl": "Claim: Iran says Qatari, Pakistani mediation in talks with US continues - Middle East Monitor",
+        "label_nl": "Claim: مقتل عامل في هجوم على مصفاة جازان جنوبي السعودية وإيران تنفي مسؤوليتها عن مقتل إيطاليين في الكويت - France 24",
         "actor": "",
         "action": "",
         "place": "",
@@ -273,31 +273,31 @@
       "d3fabdb63765a0",
       "6c48c92fdd43e7",
       "162fe3e2a713e6",
-      "dd1a408a51dac8",
-      "b428afbe46951c",
+      "c81e09c7aab1ab",
+      "c51bb864b4a1c3",
       "eff2c96a02c421",
       "bb46689e332d8e",
       "bbb3357f02565c",
-      "1d6322eced692e",
+      "0795228abeca2b",
       "5ad002ab6284ed",
       "b908299af63856",
-      "c81e09c7aab1ab",
-      "5e621c6ceec2ea",
-      "f22e1fe08952fc",
+      "c543a0a492e0d2",
+      "b428afbe46951c",
+      "5130257b620a5e",
       "da19a4ecd91728",
-      "8309d09f8db568",
-      "94cfe70ef3e401",
+      "ac4656b411679e",
+      "05b82826fc9c9d",
       "dcfe9c1e6228af",
       "cdf8aeefcc5e14",
-      "c543a0a492e0d2",
-      "d165d0ac43d155",
-      "8003b498412d67",
+      "683685722a35bb",
+      "5e621c6ceec2ea",
+      "f22e1fe08952fc",
       "8f66cffa823b52",
-      "c9dacd3fafa484"
+      "78e38a1994320c"
     ]
   },
   "official_sources_available": 15,
-  "direct_official_match_count": 1,
+  "direct_official_match_count": 0,
   "events": [
     {
       "id": "7d80968865127fb11e85a196",
@@ -333,19 +333,19 @@
       "probability_estimate": null
     },
     {
-      "id": "c2df83c4e995809d73d40ed3",
-      "label_nl": "Claim: 伊朗无人机袭击科威特，致两名意大利人丧生 - 华尔街日报中文网",
+      "id": "66745edad9534930d0255de8",
+      "label_nl": "Claim: Oil Prices Rise as Renewed Middle East Attacks Threaten Persian Gulf Supply Recovery - Yahoo Finance",
       "headline_claim_ids": [
-        "8309d09f8db568",
-        "94cfe70ef3e401"
+        "c543a0a492e0d2",
+        "f22e1fe08952fc"
       ],
       "headline_claims": [
-        "伊朗无人机袭击科威特，致两名意大利人丧生 - 华尔街日报中文网",
-        "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National"
+        "Oil Prices Rise as Renewed Middle East Attacks Threaten Persian Gulf Supply Recovery - Yahoo Finance",
+        "Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYjRiQzdkcW5TSl91YkxFQWIxaThyejJCU293Y2dHLUhhcWx0cUFyX194WmdfcWNYZkJzQXB0TnA2NnduN0M3a09RamxOUDZ2Vk5jaXJrOUNuZXdFMk9kRlN1Ykl1a1J0U3doV2pabm41cEM3YkxJRnFGSXZfd2R0dFBvVTRrazhISkR2TjhvWQ?oc=5",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjlZcjNRWExvSC0zaURTVmE2YjJuTHI5Z3ZQb3dxMGtCS09EMEVwNVc3T1hzTnZ5Z3czZGhqWDRNU2tNb1RTTFZOempjZHFKNE95SG54NjBGSlBHb2VqVlRqTTlwd3h0UUcyd3lGMDZuejRyamV5cmg5cVBlNlVZeVdNTDlyXzRhRjR1Qm1pbWI?oc=5"
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ1NmZHdfOFowSUtoQzFYU2FCZ2s5dzdDRUh4SDYtU0pHaC1ONzRPd3d0RUJYeVFKdGpFMDNfTDlkQVd3UmhBdndib2JWU1g0RVBrOEE5YllNeDZLZnA3QUYxUTBHVFBYXzdGY1pjWkZfS05Wb3hVS3lHMktIY3MxbkVVcHB6Z0kyRWNWSHl5UWs?oc=5",
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzZYQUZrSENSV0ZmYnZHRkFSaFZFTTlSbkVsN0ZKTFNqOFN2SmxyNEZLeTJJZDVKWDB5eXRoZFlGalNibjNoTVY3aHVxWWRESmg2d0Y3RUl6cDdUbXgzd3pCUURGMEdKSlpQZm05Y0xCQ0d6cHRsUzkzeVNOeWRKdW5xYWlZWjRIRjBRVTNsTVR3RGJ4UkF4TGl3?oc=5"
       ],
       "article_group_count": 2,
       "news_url_count": 2,
@@ -362,16 +362,42 @@
       "probability_estimate": null
     },
     {
-      "id": "9a4d1f11d8a0b95c07736057",
-      "label_nl": "Claim: Oil Tanker Traffic Through Hormuz at Near Standstill as Attacks Strain Iran Truce - EnergyNow.com",
+      "id": "aae0c9f8bd2b6ba01e7686d7",
+      "label_nl": "Claim: Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance",
       "headline_claim_ids": [
-        "b428afbe46951c"
+        "c81e09c7aab1ab"
       ],
       "headline_claims": [
-        "Oil Tanker Traffic Through Hormuz at Near Standstill as Attacks Strain Iran Truce - EnergyNow.com"
+        "Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSUpxaG5ETU12d1BLVHVRRWp0dUczREEzR2JpU01zS1ItdTNpQjJtRDNvYUg0aDhvVk80dF9rMXlyVVlRcEZOZEJhWlhhZEdqZ2czTVhHYjl1RVYyZmZYcEpMLXhwMFp4b1FUd05SeG5TeUFyQ2h4Ny1vby1nVDFIMGJkRjNSZmt3X1lGOHlYU1ZqUlMwcHFwdlltUVRCX1BPMGVVRUJhYTF5cnBUVUJrODNn?oc=5"
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ3lnVzA4RlRaOGkxUDRSNWlyR096S2xXd1IxV0dPMGRWLWFBX1dMbE5Xc2VQSFVXZ1NIalh3VFd2UWtkdV9tVExpWTBCWG5ZNGo5cEF2Y2ZrMEl1eWgwT3Y0M2EyaGl2dERpbG5ST1BnTHV5T25wNFo4Z3Z5WWJyOE9CM2Y4V2xYYXE4SlRadGs?oc=5"
+      ],
+      "article_group_count": 1,
+      "news_url_count": 1,
+      "independent_source_confirmation_count": null,
+      "actor_if_stated": null,
+      "action_if_stated": null,
+      "place_if_stated": null,
+      "event_date_if_stated": null,
+      "editorial_importance": "high",
+      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
+      "verified_event": false,
+      "probability_estimate": null
+    },
+    {
+      "id": "15e25b7baa727fe2a0443a66",
+      "label_nl": "Claim: Brent Crude Rises 8.1% in 4 Days After Houthi Attacks on Saudi Refineries - https://houseofsaud.com/",
+      "headline_claim_ids": [
+        "c51bb864b4a1c3"
+      ],
+      "headline_claims": [
+        "Brent Crude Rises 8.1% in 4 Days After Houthi Attacks on Saudi Refineries - https://houseofsaud.com/"
+      ],
+      "related_news_links": [
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BM2FianQ0UlZrU3hJU09yWmtBUjlOWEJkN0lXVy1ib1dYTFdZdEZwTUVwcU1JWEtvUlg1U05qdS1ZcVpidFBaWnd5dmpmQzdrakN1MWlVNmgxUVV5TXdCMkgtT01zbWRGMGZTUGNTVHExN1RuTkhaaw?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -414,43 +440,16 @@
       "probability_estimate": null
     },
     {
-      "id": "59fb463a16b61f54964686f7",
-      "label_nl": "Claim: Iran says it will use 'all available means' against U.S. blockade - Inquisitr",
+      "id": "5462ff40c7b39d5d2b892264",
+      "label_nl": "Claim: US Strikes Qeshm Island as Maritime Attacks and Riyadh Missile Barrages Escalate Persian Gulf Crisis - The Daily Scrum News",
       "headline_claim_ids": [
-        "1d6322eced692e"
+        "0795228abeca2b"
       ],
       "headline_claims": [
-        "Iran says it will use 'all available means' against U.S. blockade - Inquisitr"
+        "US Strikes Qeshm Island as Maritime Attacks and Riyadh Missile Barrages Escalate Persian Gulf Crisis - The Daily Scrum News"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ncnV2ZDBxTHFMTU5kOXA1UEJBTnZ1ZGtmQUQ5ZW9ueTBSeE05QTQzTzlveFdwa0xUTEtrU2hVV3dMMGt5ZWlVRUNvbVp1WWtsZkFlQWhLSlF2dUdPcTJRT3Z3?oc=5",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTktLdU1YVmxRUnlCdUNRZmlIdWloVW12TFNEZGVMdXhoWHdpWGdIMmpkMTJnNWdFdXh2WlhFYWNzckVtcFotcW9ya2JHd1VmLVY2b2hsTFdObno2Q0IxM3oyYWsySUszUEtiTHlEV3JOaW1ZbmJ3YUc4X3BndTRMbmJteXpGTG1VZDU3clloNWNtd3RXdEx5dVdQSlZ6TS14T0tpbUg2eXlZZ9IBrwFBVV95cUxObFRhRTR4SXZfbVZ4c0VMbnJvVVNZbFBjaGw5S29VUG1kcXRieXJjUEROZUoyQTRvSGFOeDdKNUpYbmN4UmZxcTAzNmZjOWR2SmJhVHVHTkxBbUJtc2hjT1NGOTZOUzhpbHZsQ0FKNWhQYkl1S0ZRcTdaTWMzU2N4QnBGV1cwOGpJNERSbmJwYzVNRERpb0JwTGlrUmp4LWczVXVxTXkzLXNRS05JNzBV?oc=5"
-      ],
-      "article_group_count": 1,
-      "news_url_count": 2,
-      "independent_source_confirmation_count": null,
-      "actor_if_stated": null,
-      "action_if_stated": null,
-      "place_if_stated": null,
-      "event_date_if_stated": null,
-      "editorial_importance": "high",
-      "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": null,
-      "research_status": "no_matching_primary_evidence",
-      "verified_event": false,
-      "probability_estimate": null
-    },
-    {
-      "id": "aae0c9f8bd2b6ba01e7686d7",
-      "label_nl": "Claim: Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance",
-      "headline_claim_ids": [
-        "c81e09c7aab1ab"
-      ],
-      "headline_claims": [
-        "Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance"
-      ],
-      "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ3lnVzA4RlRaOGkxUDRSNWlyR096S2xXd1IxV0dPMGRWLWFBX1dMbE5Xc2VQSFVXZ1NIalh3VFd2UWtkdV9tVExpWTBCWG5ZNGo5cEF2Y2ZrMEl1eWgwT3Y0M2EyaGl2dERpbG5ST1BnTHV5T25wNFo4Z3Z5WWJyOE9CM2Y4V2xYYXE4SlRadGs?oc=5"
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPM2FtNEJSbjZmd1VQSk1Gc05kWkU2a2VGTEZGdERyMFMxWHltRDd0dFV4QkhleHhMSmUtS1hCRXVjN05OSnpXcmVyelpKSUw5ZlM5cTNDMHBwZ3NPUnljeWFFYWh0OXBzbUpsX1YwLUsxYmwwSTZxczg5T2R1dFdKNjJEYVR4aHM1Y1kxTW9VYmRFaGtjZmNQQ04wM05sMjhrZEJnVklPWFRITEcxOVZmZHhQbzdZMUlMRjltODdZZndFYVpyeEoycmt4TVFUMnFi?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -467,16 +466,16 @@
       "probability_estimate": null
     },
     {
-      "id": "c72676b6c3b108e0143425be",
-      "label_nl": "Claim: Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online",
+      "id": "9a4d1f11d8a0b95c07736057",
+      "label_nl": "Claim: Oil Tanker Traffic Through Hormuz at Near Standstill as Attacks Strain Iran Truce - EnergyNow.com",
       "headline_claim_ids": [
-        "f22e1fe08952fc"
+        "b428afbe46951c"
       ],
       "headline_claims": [
-        "Oil prices rebound more than 2% on fresh shipping attacks near Hormuz - Middle East Online"
+        "Oil Tanker Traffic Through Hormuz at Near Standstill as Attacks Strain Iran Truce - EnergyNow.com"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQXzZYQUZrSENSV0ZmYnZHRkFSaFZFTTlSbkVsN0ZKTFNqOFN2SmxyNEZLeTJJZDVKWDB5eXRoZFlGalNibjNoTVY3aHVxWWRESmg2d0Y3RUl6cDdUbXgzd3pCUURGMEdKSlpQZm05Y0xCQ0d6cHRsUzkzeVNOeWRKdW5xYWlZWjRIRjBRVTNsTVR3RGJ4UkF4TGl3?oc=5"
+        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSUpxaG5ETU12d1BLVHVRRWp0dUczREEzR2JpU01zS1ItdTNpQjJtRDNvYUg0aDhvVk80dF9rMXlyVVlRcEZOZEJhWlhhZEdqZ2czTVhHYjl1RVYyZmZYcEpMLXhwMFp4b1FUd05SeG5TeUFyQ2h4Ny1vby1nVDFIMGJkRjNSZmt3X1lGOHlYU1ZqUlMwcHFwdlltUVRCX1BPMGVVRUJhYTF5cnBUVUJrODNn?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -493,16 +492,16 @@
       "probability_estimate": null
     },
     {
-      "id": "290b860a4a3995783f52c3fa",
-      "label_nl": "Claim: Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify - Crude Oil Prices Today | OilPrice.com",
+      "id": "d21e6c6f49a7f6975d25dc20",
+      "label_nl": "Claim: Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns - Reuters",
       "headline_claim_ids": [
-        "d165d0ac43d155"
+        "5130257b620a5e"
       ],
       "headline_claims": [
-        "Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify - Crude Oil Prices Today | OilPrice.com"
+        "Brent settles higher as mine strikes, refinery attack stoke Middle East supply concerns - Reuters"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxObXVCeG5tc1dtTi1CRVJxVEZ1dktYdHJ5cEN1LVhPUVoxTHJIWUhwYk5PbnQ4XzRhRHF3R0I5Wll4VlpmQlgwZGo0dDRXVkhJLWcxcFdrdmlEVjJaWDlRX1lYcU10VXZELUdiLTc2WnpyLW5kMzcyYjJlX1J3R2VvVTAzWnFxcVlMMl9DN0hKN3hoTG9NbjJhTE9EQVFzRU52NTlwaXNRSXpobkhwY3ZzN0lCeWJZV2o1WDBNNtIBwgFBVV95cUxNbnBHRGdlSTRjQnZhbk9RUEc4eXFpRTNYN1YwN2hleWwyVW02bVhJbjkyTWZPUUdsR2NEVFlZMmtjRzJEdlNnOGYzVEZvV1NPVi1hY3d2UGZoWENvTnNOcnRkZmFiMktaQ2ZNWDM2ZFk2LXotdWxsVEstVkQxNkZRRWgyNnlUR19aVm9JOE9jWmhzY1QtaEM1cXMzMk1PV3VmbkZkd1Y0ZkJvVUhhVlpwRk9XVVNpblJfY3RNck1hVTZEZw?oc=5"
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWHpfX3p2RFoxU2l0SGZVbVdSejdGYkc0NFpERWlxVEtab0pQbGd1NUtqQ3c0cXprdWItUF9fRmVVVElET3BNbklnbElwaC1UZ0xoNnd4dE9Wb2dFVDFGN2JyQ3YyUVhfTWxsNGFWNFNURG5kX1pMdVBtb2QyLXFMaXZPM0ZPdGdud1hWdHFuTEpNQXBtdUh6RmpWcW1jelhTU0JHdmp3dWphb0hB?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -519,16 +518,16 @@
       "probability_estimate": null
     },
     {
-      "id": "6e0c05fcf1d66bd39d122d9d",
-      "label_nl": "Claim: Oil rebounds as Hormuz attacks renew supply fears - TradingView",
+      "id": "9dc9d4d6d7007398ed060617",
+      "label_nl": "Claim: Middle East Tensions Escalate: Drone Strike in Kuwait Kills Two Italians as Houthis Hit Saudi Oil Refinery - jeevanutsahnews.in",
       "headline_claim_ids": [
-        "8003b498412d67"
+        "ac4656b411679e"
       ],
       "headline_claims": [
-        "Oil rebounds as Hormuz attacks renew supply fears - TradingView"
+        "Middle East Tensions Escalate: Drone Strike in Kuwait Kills Two Italians as Houthis Hit Saudi Oil Refinery - jeevanutsahnews.in"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQTlhX3d5Qkd3bV9hLVhobG5xN3FRVTktVHpOT1dEY004RC1NQmhrbFM1enJ3ZDN2UHlad3VRMEM3YXhab3RpMHFmVXRuRzNlaUFwX3pZTjZlWGgzVTQyb3Zja29LMzIxZ2g4clpjVHkzNVR1N0FaWTBCTkNSYkdtSGFfOFktdmZRNGFubjdTYlJVWDZFTGpPMFlUVlJqeWNCTkhCTHB3NXlUSnltWlFUTFFB?oc=5"
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa0h0b3R0N1dzd2h0cEIyeWNvWXZ6REhxeGJEdFVvN2loR3hpeV9saVNCT3pYQXdQTVB1Z2JWOWJ0RnpPSXE0VmFhdWt5U195NXJhTEsyaktXb04tcEZIcmJDclk3QXgtZXFNTTVUZ3ZCMUE4ek1fYkxBNGtfRUFMbDlmOVVUUGF6VDJoUWs2YVlfdWQ5STZjc0xYZkFhSXBDYXQxRUI2UlZ1MFJ1M1ZkY3dCY1BkRzhZeTBv?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -545,16 +544,16 @@
       "probability_estimate": null
     },
     {
-      "id": "a02a4ac97a1ebb0ea7ee6222",
-      "label_nl": "Claim: Riyadh drone strike and Saudi flight limits: what travelers face now - https://www.thetraveler.org/",
+      "id": "f52df52f7f3e702664cc5320",
+      "label_nl": "Claim: Oil Rallies as Hormuz Mine Strikes Rattle Global Markets - Yahoo Finance",
       "headline_claim_ids": [
-        "162fe3e2a713e6"
+        "683685722a35bb"
       ],
       "headline_claims": [
-        "Riyadh drone strike and Saudi flight limits: what travelers face now - https://www.thetraveler.org/"
+        "Oil Rallies as Hormuz Mine Strikes Rattle Global Markets - Yahoo Finance"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT2lIWnpzdnZXV3hqelQyLU9qbVd1eGRYX3dxTF9iQWhFT1Q3NWdVR05pc1ZldnVxaXJiakdYUHEtSjdmLWhqOW45bVFIbGNJcUNrZ1YyVGtZNzRueFBEcFMwaXE4ajZZVmw4N0VvdFJBYkpScGwxQUxoYmx3WWtBdlRXSEFJcUlvcXdnaUNtTjY3a0h2YTBvUDRsQ0U?oc=5"
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQT2J6QVVkUlZOMlVjNW5NaVV2N0J6WjZFQk1wUGR2QkVaUm9FanpVUWlIeG5tdXBfMHRBbmdDVDdWWTNhVnpCSFRvQkRvUFhFMFhKakU2blNaR3daYXlNTWpjdHEwc3I0Y0RCai1EYkhPeVJBUElrNkdxTWcwRUp1Z3VhOWM4U05qaFV1Sm5ZNkFJQQ?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -563,18 +562,10 @@
       "action_if_stated": null,
       "place_if_stated": null,
       "event_date_if_stated": null,
-      "editorial_importance": "medium",
+      "editorial_importance": "high",
       "clustering_reason": "Eén afzonderlijke nieuwsclaim; geen samenvoeging voorgesteld.",
-      "primary_evidence": {
-        "official_url": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
-        "authority": "US Department of State",
-        "evidence_id": "us_advisories:l11",
-        "exact_excerpt": "Reconsider travel to Saudi Arabia due to risk of drone and missile targeting of American interests",
-        "relation": "supports_specific_claim",
-        "reason_nl": "De passage bevestigt de risico's voor reizigers in Saudi-Arabië, wat relevant is voor de claim over drone-aanvallen.",
-        "automatic_match_only": true
-      },
-      "research_status": "potential_primary_text_match_needs_review",
+      "primary_evidence": null,
+      "research_status": "no_matching_primary_evidence",
       "verified_event": false,
       "probability_estimate": null
     },
@@ -605,21 +596,19 @@
       "probability_estimate": null
     },
     {
-      "id": "562cbb789186122f5cfa353d",
-      "label_nl": "Claim: Oil holds in tight range as Gulf attacks sustain risk premium - The Express Tribune",
+      "id": "a02a4ac97a1ebb0ea7ee6222",
+      "label_nl": "Claim: Riyadh drone strike and Saudi flight limits: what travelers face now - https://www.thetraveler.org/",
       "headline_claim_ids": [
-        "dd1a408a51dac8"
+        "162fe3e2a713e6"
       ],
       "headline_claims": [
-        "Oil holds in tight range as Gulf attacks sustain risk premium - The Express Tribune"
+        "Riyadh drone strike and Saudi flight limits: what travelers face now - https://www.thetraveler.org/"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQmYxUVN2b2xKQ3ZhbmxoUTJabFZiT2RpRTdmVzkwUzFma0hFZGJ3X0d4a3BhQWhnU2R5WFhRRDJxUm9aaERiTzdVcWNqbGV2RjBGRTI5Z19yZmc0WlVQTXdWZjFyNFlNelBpNHlSS25VVm42T3FHVGJSdDY0RlotSlhhYUlMR2FFS2NmbmhPZ1B6alI4aW05OWs5VWx2MUtBMGRFbnJVTdIBpwFBVV95cUxQQmYxUVN2b2xKQ3ZhbmxoUTJabFZiT2RpRTdmVzkwUzFma0hFZGJ3X0d4a3BhQWhnU2R5WFhRRDJxUm9aaERiTzdVcWNqbGV2RjBGRTI5Z19yZmc0WlVQTXdWZjFyNFlNelBpNHlSS25VVm42T3FHVGJSdDY0RlotSlhhYUlMR2FFS2NmbmhPZ1B6alI4aW05OWs5VWx2MUtBMGRFbnJVTQ?oc=5",
-        "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMUJkdk02MlpxSVRTb3ZwX3hmaFd6c1RBdFBhb0ItMmowcHpDdzFnaDFoaWZiMWNUNXVlRDZKdWZVMlJrSUdEYmNmV1N4OWlBOC1Ib0dXZ3c3TlZxUy1BX1RRZURkOTl3Sk1zV1ViN0JnMG5YVURMZDZKcTljM0RpNWNlcFVtM0ZwUUFFLS1reDZLa3p0M1FCQ2p6TFBDTEHSAacBQVVfeXFMUEJmMVFTdm9sSkN2YW5saFEyWmxWYk9kaUU3Zlc5MFMxZmtIRWRid19HeGtwYUFoZ1NkeVhYUUQycVJvWmhEYk83VXFjamxldkYwRkUyOWdfcmZnNFpVUE13VmYxcjRZTXpQaTR5UktuVVZuNk9xR1RiUnQ2NEZaLUpYYWFJTEdhRUtjZm5oT2dQempSOGltOTlrOVVsdjFLQTBkRW5yVU0?oc=5",
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQkZ6X3VSZlAyQ2ppSkp0STBBVk1NMzkwXy1Ec1Z6ZEM3M284VjUtMExKU0xiM1ZxNjVMSHlseS1uRHY1NDhYd0xyaHlDYlFacmFaR2pQQkZtM2JLeTM3UFo4UjVjazZNRF9OQXY0aFBRWWFWNTduMlZTS1BBUDJvdHNLOEtNTWFaUkF2eA?oc=5"
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT2lIWnpzdnZXV3hqelQyLU9qbVd1eGRYX3dxTF9iQWhFT1Q3NWdVR05pc1ZldnVxaXJiakdYUHEtSjdmLWhqOW45bVFIbGNJcUNrZ1YyVGtZNzRueFBEcFMwaXE4ajZZVmw4N0VvdFJBYkpScGwxQUxoYmx3WWtBdlRXSEFJcUlvcXdnaUNtTjY3a0h2YTBvUDRsQ0U?oc=5"
       ],
       "article_group_count": 1,
-      "news_url_count": 3,
+      "news_url_count": 1,
       "independent_source_confirmation_count": null,
       "actor_if_stated": null,
       "action_if_stated": null,
@@ -711,16 +700,16 @@
       "probability_estimate": null
     },
     {
-      "id": "4bdeb477a92377a8fe9876af",
-      "label_nl": "Claim: Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence",
+      "id": "8bebdcd05a7d02fc6f496c1b",
+      "label_nl": "Claim: Who Is Behind Repeated Fluctuations in Iran’s Currency Market? - نورنیوز",
       "headline_claim_ids": [
-        "5e621c6ceec2ea"
+        "da19a4ecd91728"
       ],
       "headline_claims": [
-        "Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence"
+        "Who Is Behind Repeated Fluctuations in Iran’s Currency Market? - نورنیوز"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjlLUzgzeUFrYmQzbU1ySm1pTHVIelFXeTVEdDVBendDY0I1NVFvandLclNKemJPMm5QRG9LSmF5NjNxNzllbDBlU2hjTXZ6SXNXZlJLa096cnN3MHBEME9GUENUdHQtSk03SFhtQ1BqSTMyMDBrWHVMMUtneTRGeF9wX1ZzTVlUeGYtTnRVZlNVY3Jvb0RSaHFrakNQTEYtcUVrSV8wb09HakZDN2c?oc=5"
+        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQXpaYWo3WVBBT2JLdW01UVM4dnp5V05xTzVfTkVBTUYyMjZtUzQzZE5uSVVObEpxeS1VUnRzdVY5NU14WF9rUWhYRXYwWEk3ZlBYVnU4UWpYSGpPakR0a0lsSGtMT2V6RjNHU3Y2QUw2VVNnTEZvT0t6Qmd2d0w2djE2czR1aFVOb3lBN3g0dmN3dFl4aXF5SXF3?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -737,16 +726,16 @@
       "probability_estimate": null
     },
     {
-      "id": "8bebdcd05a7d02fc6f496c1b",
-      "label_nl": "Claim: Who Is Behind Repeated Fluctuations in Iran’s Currency Market? - نورنیوز",
+      "id": "7d24c0b8612cff51dc79509f",
+      "label_nl": "Claim: Iran claims it recovered 2 oil tankers seized by US military - Middle East Monitor",
       "headline_claim_ids": [
-        "da19a4ecd91728"
+        "05b82826fc9c9d"
       ],
       "headline_claims": [
-        "Who Is Behind Repeated Fluctuations in Iran’s Currency Market? - نورنیوز"
+        "Iran claims it recovered 2 oil tankers seized by US military - Middle East Monitor"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQXpaYWo3WVBBT2JLdW01UVM4dnp5V05xTzVfTkVBTUYyMjZtUzQzZE5uSVVObEpxeS1VUnRzdVY5NU14WF9rUWhYRXYwWEk3ZlBYVnU4UWpYSGpPakR0a0lsSGtMT2V6RjNHU3Y2QUw2VVNnTEZvT0t6Qmd2d0w2djE2czR1aFVOb3lBN3g0dmN3dFl4aXF5SXF3?oc=5"
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV0cwS1ptRnQzMFJjN0VnSE14VVk1UVNJRmtUXy1tS2t0Mjk0eFlveW9RNjcyVm56WE9lc0xtQjdPYUpCY2dDbXlSRjhRZFNBQ2w0eXQxOHJuZ2R1R21wZFM1LWJDd1NiSWxvUHdhSXJHTkJBNVY2bVhQVkw5OFVHQU5WNnI2MlNIMVRjTFFBT2cxdzZfb2tRTWExN29rMElDWFE4V2NhZ9IBrAFBVV95cUxOR2M4c0txMXVRVlo2b2FIZGdRTGZGMWFpVFRmY1dLaHVTdVBKdFNJbE9peDIxLUpoYjlKbzRXSFk3Ui1JSjhFZV9NNXh3UERyMUxTdmdWYkdGRDJzZ1RKQkgxX2RCT2VVR1I5eFdfZU9RWkx1ZVp6bEtvd0pacEFCejZvd0RnQUUxRkIxZjlvZzRNQ2Z4TkxDNWFLTFJ5SGVwcF9feFN1eE1keFVm?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -789,16 +778,16 @@
       "probability_estimate": null
     },
     {
-      "id": "f66c1ec7b24cd288eeaf3874",
-      "label_nl": "Claim: Oil Prices Rise as Renewed Middle East Attacks Threaten Persian Gulf Supply Recovery - Yahoo Finance",
+      "id": "4bdeb477a92377a8fe9876af",
+      "label_nl": "Claim: Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence",
       "headline_claim_ids": [
-        "c543a0a492e0d2"
+        "5e621c6ceec2ea"
       ],
       "headline_claims": [
-        "Oil Prices Rise as Renewed Middle East Attacks Threaten Persian Gulf Supply Recovery - Yahoo Finance"
+        "Oil futures: Crude off lows as tanker attacks offset glut forecasts - Quantum Commodity Intelligence"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ1NmZHdfOFowSUtoQzFYU2FCZ2s5dzdDRUh4SDYtU0pHaC1ONzRPd3d0RUJYeVFKdGpFMDNfTDlkQVd3UmhBdndib2JWU1g0RVBrOEE5YllNeDZLZnA3QUYxUTBHVFBYXzdGY1pjWkZfS05Wb3hVS3lHMktIY3MxbkVVcHB6Z0kyRWNWSHl5UWs?oc=5"
+        "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMjlLUzgzeUFrYmQzbU1ySm1pTHVIelFXeTVEdDVBendDY0I1NVFvandLclNKemJPMm5QRG9LSmF5NjNxNzllbDBlU2hjTXZ6SXNXZlJLa096cnN3MHBEME9GUENUdHQtSk03SFhtQ1BqSTMyMDBrWHVMMUtneTRGeF9wX1ZzTVlUeGYtTnRVZlNVY3Jvb0RSaHFrakNQTEYtcUVrSV8wb09HakZDN2c?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -841,16 +830,16 @@
       "probability_estimate": null
     },
     {
-      "id": "653fe99305c89a2877f02184",
-      "label_nl": "Claim: Iran says Qatari, Pakistani mediation in talks with US continues - Middle East Monitor",
+      "id": "b050925df2729c631e57f96d",
+      "label_nl": "Claim: مقتل عامل في هجوم على مصفاة جازان جنوبي السعودية وإيران تنفي مسؤوليتها عن مقتل إيطاليين في الكويت - France 24",
       "headline_claim_ids": [
-        "c9dacd3fafa484"
+        "78e38a1994320c"
       ],
       "headline_claims": [
-        "Iran says Qatari, Pakistani mediation in talks with US continues - Middle East Monitor"
+        "مقتل عامل في هجوم على مصفاة جازان جنوبي السعودية وإيران تنفي مسؤوليتها عن مقتل إيطاليين في الكويت - France 24"
       ],
       "related_news_links": [
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMUlGbmpqRlRDeWo0dWpKWEZqLUd2RDhib0NpYUtaVXZWWEc5RHR5VnAtcFhYZk1aQVNuanpYLTJJQ2Vab3FBUEN3MVpJcVF0dEZCNldwQXU3VUQ2T2dfVkhibnFVUlU1NzV2cEZxTFRjSkQtdWdBMkFDQ0ZNdkdBbElmd0JiVS1ST1g5YWhRLXdvY2dEWWdvajZJRWFnZnhJX1VvVkRDc09nN1nSAbABQVVfeXFMTU1rOGxGekt5Z0lNNDAxcXJ4R0ZnNFlYbTZaZktzdUtnREFFYkt2dkF5Vm55OWFTVjlCQmJNYUdQSHp0NG56cXdoWVlwMGpRZ1ZKbDQtZU5kWGR0RlZfTU03TEZMQTNNMVlDdGpWOUhMYW9MRC0tR3FKanJjalVuNXROM0JGMUVTOHg2WW9DOHlVdldpZ2Z5cURMRHBjbkk2VXB1Y0wzRHo5Z1BDTWN3VU4?oc=5"
+        "https://news.google.com/rss/articles/CBMiqwRBVV95cUxPaW1CTWRCaFI4Unp2Z2F4RndpMnZYb1BJWElUSElCcWk1bGRuNlNzeDFrdVphdkFVX3E4WDBsN1FSbUpDS0NnWkEweE1uWFhlLWc1MXRqOXVuVTZ0WW9kTzY3bVhRbWZ0MF9FYWh3NzNpYkxNU1cyNjdQby1vaks0M01SbWVUcGU2NG1Db0IzbEFNVnB1cGZhajJHcUpUWTJsOERLaEpSVWJ0OTVFbGRtQ2Q4VHpuZWRZSndlOEFlQS1vMzVMTC1oaE50VGdaRVZ1RmVhUF85STNGSjYyUGJuTjhZV3lPZS1pZW5RdEQ1ejdZdGVfcld1cGZkT2NGeGtvRDgxS0h5WW5HWHFUemJNeTE2Y3J4SDJwTXFrZGFHUncya09ERlo3RGJUQnJFUDh5ZWl5QnJBVl91Q0YxbXUzc2N2SlQwVjA0NVdjYXVYdzM3MWF3RDJub0lESkNMYUZ0WkpiN2t1TjVMZ2lob1FSdWZPMHc1SERwXzNkdDNqbzNOYjJpelhmVGNkOHBDWWdNVVFHSjNPVzFuLVA0Wm43Y1ZYN2FQaHR5YVN2RjBqb1VFbUduTUo1M2tSb2ZydkNPNEdncU5oaXRSdERNelQ1WTRSOV9JSUxMMTAybUFTSGk5YkhlQTFQalVMN0s2aDQxMUR3RERLcWFoWnhfdWlMSGNSWHVfNXNFVDd5RHk4cS11a1VoVEF0OW1IdGlaVlVyWkJabjVvOThsVGM?oc=5"
       ],
       "article_group_count": 1,
       "news_url_count": 1,
@@ -903,8 +892,8 @@
       "total_tokens": 18394
     },
     "2026-11-27": {
-      "requests": 3,
-      "total_tokens": 9665
+      "requests": 6,
+      "total_tokens": 18192
     }
   }
 }
