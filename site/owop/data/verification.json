@@ -1,96 +1,11 @@
 {
-  "generated_at": "2026-11-26T17:58:10.467023Z",
+  "generated_at": "2026-11-27T02:29:48.054380Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 2,
-  "recommendation_counts": {
-    "reserve": 2
-  },
-  "stories": [
-    {
-      "id": "2248598152f6ab",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a factual research note on the story “Low-dose radiation therapy: Spokane County health officer praises treatment that helped with the osteoarthritis in his knees,” based on reporting and published clinical data as of late November 2026. It separates what has been observed (measured outcomes) from what is proposed, and checks for primary—ideally peer-reviewed—sources.\n\n---\n\n## What the news reports claim and what has happened\n\n- According to an article published November 26, 2026, in *The Spokesman-Review*, Spokane County Health Officer Dr. Francisco Velázquez, aged 69, received low-dose radiation therapy (LDRT) for severe post-traumatic osteoarthritis in both knees, worsened over decades. ([spokesman.com](https://www.spokesman.com/stories/2026/nov/26/low-dose-radiation-therapy-spokane-county-health-o/?utm_source=openai))  \n- He reports that by his third treatment session he felt some relief; over time, his ability to flex both knees, ascend and descend stairs without stopping, and his pain have all improved. He estimates a **20–30% improvement** in going up/down stairs. ([spokesman.com](https://www.spokesman.com/stories/2026/nov/26/low-dose-radiation-therapy-spokane-county-health-o/?utm_source=openai))  \n- Velázquez says nearly a year after his last treatment the seasonal increases in pain (cold weather, shorter days) that he usually experiences did not occur this year—meaning his knee pain is “considerably better” than it was a decade ago. ([spokesman.com](https://www.spokesman.com/stories/2026/nov/26/low-dose-radiation-therapy-spokane-county-health-o/?utm_source=openai))  \n- The Spokesman-Review reporting also notes Velázquez tried many prior treatments—physical therapy (multiple times), cold/heat therapy, ultrasound, over-the-counter drugs, injectables—without sufficient long-term relief and was seeking alternatives short of knee replacement. He was not ready for surgery. ([spokesman.com](https://www.spokesman.com/stories/2026/nov/26/low-dose-radiation-therapy-spokane-county-health-o/?utm_source=openai))\n\n---\n\n## What the clinical evidence shows (outside of this personal case)\n\nMultiple recent studies provide measured data on LDRT for OA, especially knee osteoarthritis:\n\n1. **Integrated long-term randomized trial in Russia**  \n   - Nearly 300 patients followed for almost 12 years. Compared LDRT versus medication alone. ([eurekalert.org](https://www.eurekalert.org/news-releases/1145270?utm_source=openai))  \n   - Key outcomes for patients with Grade 2 knee OA:  \n     • Disability (government-certified) developed in **31%** of those who got radiation vs **61%** in medication-only group.  \n     • Knee replacement rates were **14%** vs **36%**, respectively. ([eurekalert.org](https://www.eurekalert.org/news-releases/1145270?utm_source=openai))  \n   - MRI scans over three years showed significantly less structural deterioration in the LDRT group. ([eurekalert.org](https://www.eurekalert.org/news-releases/1145270?utm_source=openai))\n\n2. **Scripps Clinic US retrospective study**  \n   - Between June 2024 and May 2025, 167 patients (184 joints) treated. Joints included knees, hands, hips, shoulders, feet/ankle. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC13576719/?utm_source=openai))  \n   - At first follow-up visit, **88%** of treated joints showed decreased pain. Mean pain scores dropped from about **6.31** (±2.07) pre-treatment to **2.51** (±2.80) post-treatment. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/42746544/?utm_source=openai))  \n   - Other outcomes: analgesic use declined, quality-of-life and daily function (ADL) improved significantly; no treatment-related toxicities grade 2 or higher reported. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC13576719/?utm_source=openai))\n\n3. **Retrospective cohort: 94 patients and 136 joints**  \n   - Treatments done between Jan 2023 and May 2025. Same-dose regimen (6 treatments of 0.5 Gy each, total ~3 Gy over ~2 weeks) similar to Scripps. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC13576712/?utm_source=openai))  \n   - Mean pain score dropped from **7.30 ± 1.90** to **2.58 ± 3.09**. About **79%** achieved a clinically meaningful pain reduction (≥2-point drop on numerical scale). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC13576712/?utm_source=openai))  \n   - Benefits reported across knees and other joints; little in the way of serious adverse effects. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC13576712/?utm_source=openai))\n\n4. **VA Evidence Synthesis / Systematic Review**  \n   - As of November 2026, the VA’s ESP report (Management Brief No. 257) reviewed 4 randomized controlled trials and 7 single-group studies (for knee OA, etc.), finding that LDRT *may* improve pain, joint symptoms, and physical function in knee OA, but evidence remains uncertain in many respects (strength, long-term safety, consistency). ([hsrd.research.va.gov](https://hsrd.research.va.gov/publications/management_briefs/default.cfm?ManagementBriefsMenu=eBrief-no257&eBriefTitle=Low-Dose+Radiation+Therapy+for+Treatment+of+Osteoarthritis%3A+A+Systematic+Review&utm_source=openai))  \n   - Adverse event reporting remains sparse. Optimal dosing and durability of effect unclear. ([hsrd.research.va.gov](https://hsrd.research.va.gov/publications/management_briefs/default.cfm?ManagementBriefsMenu=eBrief-no257&eBriefTitle=Low-Dose+Radiation+Therapy+for+Treatment+of+Osteoarthritis%3A+A+Systematic+Review&utm_source=openai))\n\n5. **Clinical Practice Guidelines (VA/DoD)**  \n   - June 2026 guideline reviewed the Van den Ende et al. (2020) RCT among others. No statistically significant differences in pain, function, or safety compared to sham in that trial. Based on that and other limited data, the guideline states there is *insufficient evidence* to recommend for or against LDRT for osteoarthritis of hip and knee. ([healthquality.va.gov](https://healthquality.va.gov/HEALTHQUALITY/guidelines/CD/OA/Osteoarthritis-CPG_2026-Guideline_final_20260618.pdf?utm_source=openai))\n\n---\n\n## What this particular case adds and what remains outstanding\n\n- **What has been measured in Dr. Velázquez:**  \n  • Subjective improvement (20–30%) in stair mobility by third treatment. ([spokesman.com](https://www.spokesman.com/stories/2026/nov/26/low-dose-radiation-therapy-spokane-county-health-o/?utm_source=openai))  \n  • Long-term subjective improvement sustained after nearly a year, both pain-wise and in avoiding usual seasonal pain spikes. ([spokesman.com](https://www.spokesman.com/stories/2026/nov/26/low-dose-radiation-therapy-spokane-county-health-o/?utm_source=openai))  \n  These are self-report and clinician observation; exact objective metrics (e.g., specific pain scores, imaging) aren’t presented for this individual.\n\n- **What remains incomplete or unverified in his case:**  \n  • No published peer-reviewed clinical-trial data exclusively on him. The news article doesn’t provide standardized quantitative scales, imaging, or long-term follow-up beyond his reporting.  \n  • Not clear if his improvement translates to slowing of structural disease progression (which the Russian long-term study suggests might occur in some patients). ([eurekalert.org](https://www.eurekalert.org/news-releases/1145270?utm_source=openai))\n\n---\n\n## Conclusion: What is established vs. what is proposed\n\n- It is **established** that Dr. Velázquez received LDRT and reported meaningful subjective improvements in knee pain, mobility (stairs etc.), and durable symptom relief (nearly a year) without surgery.  \n- It is **also established** by multiple published clinical studies (in the U.S. and elsewhere) that LDRT for knee OA has shown statistically significant pain reduction, improved function, reduced analgesic use, and possible delay in disability and knee replacement, with generally low adverse effects.  \n\n- What is **not yet established** (or remains provisional):  \n  • Whether LDRT reliably slows disease progression in all patients (beyond the Grade-2 subgroup in the Russian study).  \n  • Optimal dosing, long-term side effects (including cancer risk), and the durability of benefits over many years.  \n  • Whether it should replace standard care or be used mainly as adjunct or for those who refuse or delay surgery.  \n  • Guidelines have not yet endorsed LDRT definitively for routine use; VA/DoD guidelines say evidence is *insufficient* to make a recommendation for or against. ([healthquality.va.gov](https://healthquality.va.gov/HEALTHQUALITY/guidelines/CD/OA/Osteoarthritis-CPG_2026-Guideline_final_20260618.pdf?utm_source=openai))\n\n---\n\nIf you like, I can try to find the full clinical trial data for Dr. Velázquez’s specific case (imaging, exact pain scores, etc.), in case any academic or medical report was published.",
-      "citations": [
-        {
-          "title": "Low-dose radiation therapy: Spokane County health officer praises treatment that helped with the osteoarthritis in his knees",
-          "url": "https://www.spokesman.com/stories/2026/nov/26/low-dose-radiation-therapy-spokane-county-health-o/?utm_source=openai"
-        },
-        {
-          "title": "Low-dose radiation therapy may slow progression of knee osteoarthritis, long-term study indicates | EurekAlert!",
-          "url": "https://www.eurekalert.org/news-releases/1145270?utm_source=openai"
-        },
-        {
-          "title": "Low-Dose Radiation Therapy for Osteoarthritis: Analysis of Preliminary Outcomes at Scripps Clinic",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13576719/?utm_source=openai"
-        },
-        {
-          "title": "Low-Dose Radiation Therapy for Osteoarthritis: Analysis of Preliminary Outcomes at Scripps Clinic.",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42746544/?utm_source=openai"
-        },
-        {
-          "title": "Low-Dose Radiation Therapy (LDRT) for Osteoarthritis: A Retrospective Study of 94 Patients and 136 Joints Treated",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13576712/?utm_source=openai"
-        },
-        {
-          "title": "Management Briefs eBrief-no257 -- Low-Dose Radiation Therapy for Treatment of Osteoarthritis: A Systematic Review",
-          "url": "https://hsrd.research.va.gov/publications/management_briefs/default.cfm?ManagementBriefsMenu=eBrief-no257&eBriefTitle=Low-Dose+Radiation+Therapy+for+Treatment+of+Osteoarthritis%3A+A+Systematic+Review&utm_source=openai"
-        },
-        {
-          "title": "VA/DOD CLINICAL PRACTICE GUIDELINE FOR THE NON-SURGICAL MANAGEMENT OF HIP & KNEE OSTEOARTHRITIS",
-          "url": "https://healthquality.va.gov/HEALTHQUALITY/guidelines/CD/OA/Osteoarthritis-CPG_2026-Guideline_final_20260618.pdf?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "measured_progress",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Spokane Health Officer Reports Improvement from Low-Dose Radiation Therapy",
-      "verified_summary": "Dr. Francisco Velázquez experienced a 20-30% improvement in knee mobility and pain relief after low-dose radiation therapy for osteoarthritis. Clinical studies support LDRT's effectiveness in reducing pain and improving function in similar patients.",
-      "verification_note": "While Dr. Velázquez reports subjective improvements, the evidence from clinical studies indicates potential benefits of LDRT for osteoarthritis, though further research is needed for definitive conclusions.",
-      "publish_recommendation": "reserve"
-    },
-    {
-      "id": "d00b34248d31d6",
-      "editorial_score": 80,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a concise research note on the event “Cellular reprogramming as a conservation technology,” based on primary and independent sources:\n\n---\n\n## What the Event Is / What Was Announced\n\n- On **26 November 2026**, *Nature Reviews Molecular Cell Biology* published a **Comment article** titled *“Cellular reprogramming as a conservation technology”*, authored by Charles A. Emogor, Katsuhiko Hayashi, Thomas B. Hildebrandt, Timo N. Kohler, et al. ([nature.com](https://www.nature.com/articles/s41580-026-01053-0?utm_source=openai))  \n- The paper discusses the **promise and challenges** of using **induced pluripotent stem cells (iPSCs)** for conservation efforts, particularly for threatened species. ([nature.com](https://www.nature.com/articles/s41580-026-01053-0?utm_source=openai))  \n\n---\n\n## What Actually Happened\n\n- **This is an announcement / review, not a completed experiment or deployment** — the article outlines a vision and explores potential rather than reporting new, measured outcomes. ([nature.com](https://www.nature.com/articles/s41580-026-01053-0?utm_source=openai))  \n- It does **not** present new experimental data showing that cellular reprogramming has already been successfully used in conservation (in the wild, or on whole species) in a conservation-impacting way, but rather discusses how the technology could help, what the major technical, biological, and legal challenges are, and what is still unknown. ([nature.com](https://www.nature.com/articles/s41580-026-01053-0?utm_source=openai))  \n\n---\n\n## Key Details Mentioned\n\n- The authors observe that many species’ reproductive biology is still **unsolved**, meaning we don’t yet have the fundamental processes (e.g. generating viable gametes, or embryos) worked out for many threatened taxa. ([nature.com](https://www.nature.com/articles/s41580-026-01053-0?utm_source=openai))  \n- They also note that governance, ethical, and policy questions remain largely unanswered. ([nature.com](https://www.nature.com/articles/s41580-026-01053-0?utm_source=openai))  \n- A leading example cited: work on the white rhinoceros (particularly the northern white rhino) — where iPSCs and primordial germ cells have been generated in lab conditions in prior studies. These provide a proof of concept, but do **not yet** amount to established, scaled conservation technology. ([nature.com](https://www.nature.com/articles/s41580-026-01053-0?utm_source=openai))  \n\n---\n\n## Independent Corroboration / Supporting Sources\n\n- A prior news report from Cornell (2024) described research using stem cell technologies (iPSCs) to preserve genetic diversity of endangered species, including collecting tissue or sperm samples from living or recently deceased animals to derive iPSCs, but noted that only a very small number of species currently have embryo-based technologies operational. ([cals.cornell.edu](https://cals.cornell.edu/news/2024/10/cellular-reprogramming-game-changer-for-endangered-species?utm_source=openai))  \n- Another relevant study: “The reluctant blank slate: reprogramming elephant cells” (Nature Methods, June 2026) — reports that Asian elephant cells **can be reprogrammed** to pluripotency in laboratory conditions, though achieving this requires overcoming strong tumor-suppressive constraints. This provides concrete experimental evidence toward potential applications in conservation. ([nature.com](https://www.nature.com/articles/s41592-026-03144-4?utm_source=openai))  \n\n---\n\n## What We *Don't* Know / What’s Not Yet Done\n\n- No species has been rescued or restored in nature purely via cellular reprogramming as of this announcement.\n- Key steps like turning iPSCs into viable, reproductively competent gametes or embryos in many threatened taxa are still under development.\n- Regulatory and ethical frameworks for applying these technologies in wild populations are still largely theoretical.\n\n---\n\n## Conclusion\n\n“Cellular reprogramming as a conservation technology” is a **recently published commentary** (26 Nov 2026) that **lays out potential** and **ongoing challenges** for using technologies like iPSCs to aid conservation of threatened species. It is **not** a report of a completed conservation intervention via reprogramming, but rather a considered exploration of what might be possible in the near future.\n\n---\n\nIf you like, I can try to track down any specific ongoing projects applying this technology in the field (e.g. for particular species), to see how far “impact” has actually progressed.",
-      "citations": [
-        {
-          "title": "Cellular reprogramming as a conservation technology",
-          "url": "https://www.nature.com/articles/s41580-026-01053-0?utm_source=openai"
-        },
-        {
-          "title": "Cellular reprogramming: A game-changer for endangered species | CALS",
-          "url": "https://cals.cornell.edu/news/2024/10/cellular-reprogramming-game-changer-for-endangered-species?utm_source=openai"
-        },
-        {
-          "title": "The reluctant blank slate: reprogramming elephant cells",
-          "url": "https://www.nature.com/articles/s41592-026-03144-4?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "unsupported",
-      "outcome_status": "announcement",
-      "evidence_quality": "medium",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Cellular Reprogramming Explored for Conservation Technology",
-      "verified_summary": "A recent commentary discusses the potential of cellular reprogramming for conservation but does not report any completed interventions or measurable outcomes. Challenges remain in applying this technology effectively in the field.",
-      "verification_note": "The article outlines potential applications and challenges but lacks evidence of successful conservation outcomes from cellular reprogramming.",
-      "publish_recommendation": "reserve"
-    }
-  ],
+  "candidate_count": 0,
+  "recommendation_counts": {},
+  "stories": [],
   "pilot_note": "Live-web verification pilot; cited search evidence is re-evaluated by a separate verifier model."
 }
