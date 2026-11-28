@@ -1,6 +1,6 @@
 {
   "description": "AI classification based on unverified headlines only; NOT event verification or risk scoring",
-  "last_attempt_utc": "2026-11-27T16:41:36.613577Z",
+  "last_attempt_utc": "2026-11-28T01:28:45.177030Z",
   "status": "complete",
   "model": "gpt-4o-mini",
   "prompt_version": "headline-evaluation-v1",
@@ -9031,13 +9031,89 @@
       "model": "gpt-4o-mini",
       "prompt_version": "headline-evaluation-v1",
       "assessed_at": "2026-11-27T16:41:35.613370Z"
+    },
+    "08bf52c3946c52": {
+      "id": "08bf52c3946c52",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "event_claim",
+      "summary_nl": "Israël is verdeeld over de vraag of het Iran moet aanvallen zonder steun van de VS.",
+      "claimed_event_nl": "Israël overweegt een aanval op Iran zonder Amerikaanse steun.",
+      "reason_nl": "Dit is relevant omdat het de politieke dynamiek en mogelijke militaire acties in de regio beïnvloedt.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-28T01:28:44.176812Z"
+    },
+    "5268b4132a5b21": {
+      "id": "5268b4132a5b21",
+      "relevance": "relevant",
+      "importance": "high",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran zou zijn aanvallen in de Golf hebben opgevoerd te midden van een dreiging van een Amerikaanse blokkade.",
+      "claimed_event_nl": "Iran escaleert aanvallen in de Golf.",
+      "reason_nl": "Dit is relevant vanwege de mogelijke gevolgen voor de veiligheid van scheepvaart en regionale stabiliteit.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-28T01:28:44.176836Z"
+    },
+    "0ce4d8f1c7fcf4": {
+      "id": "0ce4d8f1c7fcf4",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "unclear",
+      "kind": "event_claim",
+      "summary_nl": "Pakistan en Turkije beloven Saudi-Arabië te verdedigen tegen aanvallen van Houthi's onder het Mecca-pact.",
+      "claimed_event_nl": "Pakistan en Turkije bieden militaire steun aan Saudi-Arabië.",
+      "reason_nl": "Dit is relevant omdat het de regionale veiligheid en samenwerking beïnvloedt.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-28T01:28:44.176840Z"
+    },
+    "5a8def58494367": {
+      "id": "5a8def58494367",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "escalation",
+      "kind": "event_claim",
+      "summary_nl": "Iran dreigt Amerikaanse technologiebedrijven in een militaire waarschuwing video.",
+      "claimed_event_nl": "Iran bedreigt Amerikaanse techbedrijven.",
+      "reason_nl": "Dit is relevant omdat het de spanningen tussen Iran en de VS kan verhogen.",
+      "limitations_nl": "De claim is niet onafhankelijk geverifieerd.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-28T01:28:44.176843Z"
+    },
+    "e5f63603b73ac8": {
+      "id": "e5f63603b73ac8",
+      "relevance": "relevant",
+      "importance": "medium",
+      "direction": "deescalation",
+      "kind": "event_claim",
+      "summary_nl": "Landen van het Mecca-pact veroordelen aanvallen van door Iran gesteunde Houthi's en beloven samenwerking.",
+      "claimed_event_nl": "Mecca-pact landen veroordelen Houthi-aanvallen en beloven samenwerking.",
+      "reason_nl": "Dit is relevant omdat het kan bijdragen aan regionale stabiliteit en samenwerking tegen gemeenschappelijke dreigingen.",
+      "limitations_nl": "De claim is gebaseerd op een enkele bron zonder onafhankelijke bevestiging.",
+      "verification_status": "not_verified_headlines_only",
+      "verified_event": false,
+      "model": "gpt-4o-mini",
+      "prompt_version": "headline-evaluation-v1",
+      "assessed_at": "2026-11-28T01:28:44.176845Z"
     }
   },
   "usage_by_day": {
-    "2026-11-25": {
-      "requests": 5,
-      "total_tokens": 6733
-    },
     "2026-11-26": {
       "requests": 4,
       "total_tokens": 5306
@@ -9045,6 +9121,10 @@
     "2026-11-27": {
       "requests": 3,
       "total_tokens": 4089
+    },
+    "2026-11-28": {
+      "requests": 1,
+      "total_tokens": 1579
     }
   }
 }
