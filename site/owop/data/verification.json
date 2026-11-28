@@ -1,38 +1,216 @@
 {
-  "generated_at": "2026-11-27T17:43:47.716594Z",
+  "generated_at": "2026-11-28T02:15:59.169859Z",
   "search_model": "gpt-5-search-api",
   "responses_search_model": "gpt-6-luna",
   "verify_model": "gpt-4o-mini",
   "ai_configured": true,
-  "candidate_count": 2,
+  "candidate_count": 6,
   "recommendation_counts": {
-    "publish": 1,
-    "reserve": 1
+    "reserve": 3,
+    "reject": 2,
+    "publish": 1
   },
   "stories": [
     {
-      "id": "146cf04b3ee864",
+      "id": "10cbde68af69da",
+      "editorial_score": 100,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here’s a factual research note on the claim “Over 23,000 hectares of forest restored in Yugra” (Ханты-Мансийский автономный округ — Югра), based on live sources as of late November 2026:\n\n---\n\n## What the Claim Is\n\nThe story reports that **over 23,000 hectares** of forest have been restored in Yugra in 2026. Key details include:\n\n- Restoration took place **on forest fund lands** between **May and early November** 2026 under the federal project *“Сохранение лесов”* (“Forest Conservation”) of the national project *“Ecological Well-Being”*. ([max.ru](https://max.ru/depnedraugra/AaIbMil4UC4?utm_source=openai))  \n- Of the total area restored, **20,000 hectares** recovered naturally; an additional **3,200 hectares** were reforested artificially. ([max.ru](https://max.ru/depnedraugra/AaIbMil4UC4?utm_source=openai))  \n- The “balance of loss and reproduction” of forests in the region was reported at **115%**, meaning that more area was restored than was lost (by harvesting, fire, disease, etc.). ([max.ru](https://max.ru/depnedraugra/AaIbMil4UC4?utm_source=openai))  \n- Some local breakdowns:  \n  - **Самаровское лесничество** (Samarovskoye forest district): over **11,000 hectares** restored.  \n  - **Советское лесничество** (Sovetskoye): about **4,000 hectares**.  \n  - **Октябрьское лесничество** (Oktyabrskoye): about **1,600 hectares**. ([sitv.ru](https://sitv.ru/arhiv/news/bolee-23-tysyach-gektarov-lesa-vosstanovili-v-yugre-za-god/?utm_source=openai))  \n\nAlso noted:  \n- Spring 2026: over **21,000 trees** planted as part of the “Сад памяти” (“Memory Garden”) campaign.  \n- Autumn 2026: over **5 million seedlings** planted in a “Сохраним лес” (“Let’s Save the Forest”) action involving forestry specialists, leaseholders, and mineral resource users. ([max.ru](https://max.ru/depnedraugra/AaIbMil4UC4?utm_source=openai))  \n\n---\n\n## Sources and Their Type\n\n- The primary source appears to be a **press release** by the *Департамент недропользования и природных ресурсов Югры* (Department of Subsoil Use and Natural Resources of Yugra), shared via their official MAX messenger channel. ([max.ru](https://max.ru/depnedraugra/AaIbMil4UC4?utm_source=openai))  \n- Independent regional media, e.g. *Surgut Inform-TV / Новости Сургута* (“News of Surgut­TV”) have reported the same numbers, citing statements from the same regional department and officials. ([sitv.ru](https://sitv.ru/arhiv/news/bolee-23-tysyach-gektarov-lesa-vosstanovili-v-yugre-za-god/?utm_source=openai))  \n\n---\n\n## Completed/Measured Outcomes vs. Plans or Pledges\n\nThese are **measured outcomes** (i.e. what has actually been completed), not just plans or projections, as of the reporting date:\n\n- The restoration work up to early November 2026 (and seasonal actions) is described in past tense: “restored …”, “renewed …”. ([sitv.ru](https://sitv.ru/arhiv/news/bolee-23-tysyach-gektarov-lesa-vosstanovili-v-yugre-za-god/?utm_source=openai))  \n- Specific hectares are given as achieved (e.g. 20,000 natural + 3,200 artificial = ~23,200 hectares). ([max.ru](https://max.ru/depnedraugra/AaIbMil4UC4?utm_source=openai))  \n\n---\n\n## Additional Context That Contrasts With the Claim\n\n- Earlier in 2026 (September), Yugra had **planned** to restore about **20,100 hectares** (13,000 natural, 7,000 artificial). That was a target under the same programs. ([ugra.aif.ru](https://ugra.aif.ru/incidents/v-yugre-vosstanovyat-bolee-20-tysyach-gektarov-lesa?from_inject=1&utm_source=openai))  \n- For **2025**, Yugra had restored over **26,000 hectares** of forest, exceeding targets. ([ugra-news.ru](https://ugra-news.ru/article/v_2025_godu_v_yugre_vosstanovili_bolee_26_tysyach_gektarov_lesa/?utm_source=openai))  \n\n---\n\n## Why Some Version Discrepancies Appear\n\n- The **23,000+ hectares** figure refers specifically to work done **between May and early November 2026**, i.e. a subset of the year. It is a **partial‐year result**, not the full‐year outcome. ([max.ru](https://max.ru/depnedraugra/AaIbMil4UC4?utm_source=openai))  \n- Earlier reports of targets/plans are used by some outlets (e.g. “restore over 20,000 hectares in 2026”) which are planning data. ([ugra.aif.ru](https://ugra.aif.ru/incidents/v-yugre-vosstanovyat-bolee-20-tysyach-gektarov-lesa?from_inject=1&utm_source=openai))  \n\n---\n\n## Verification Status & Reliability\n\n- The numbers are reported by the official regional department; there is **no independent scientific verification** cited in these sources, such as satellite imagery or audited field data, beyond the government's internal reporting.  \n- Media reports largely **repeat the department’s press release**; they do not appear to supply additional sources or challenge the claim.  \n\n---\n\n## Summary: What Actually Happened\n\n- As of **late November 2026**, Yugra has **restored over 23,000 hectares** of forest on forest fund lands, during forestry activities under national/federal projects.  \n- Of that, approx. **20,000 ha** were restored **naturally**, and **3,200 ha** through **artificial planting**.  \n- The restoration amount **exceeds** loss (harvest, damage, etc.) by 15% (i.e. balance of reproduction is 115%).  \n- The season of restoration was roughly **May to early November 2026**, with major citizen involvement in tree planting campaigns.  \n\n---\n\nIf you like, I can try to locate independent environmental or scientific confirmations (e.g. satellite or NGO reports) to cross-check these claims.",
+      "citations": [
+        {
+          "title": "🍃 В Югре в 2026 году восстановили леса на площади — Депнедра Югры в мессенджере MAX",
+          "url": "https://max.ru/depnedraugra/AaIbMil4UC4?utm_source=openai"
+        },
+        {
+          "title": "Более 23 тысяч гектаров леса восстановили в Югре за год -Новости Сургута",
+          "url": "https://sitv.ru/arhiv/news/bolee-23-tysyach-gektarov-lesa-vosstanovili-v-yugre-za-god/?utm_source=openai"
+        },
+        {
+          "title": "В Югре восстановят более 20 тысяч гектаров леса | АиФ Югра",
+          "url": "https://ugra.aif.ru/incidents/v-yugre-vosstanovyat-bolee-20-tysyach-gektarov-lesa?from_inject=1&utm_source=openai"
+        },
+        {
+          "title": "В 2025 году в Югре восстановили более 26 тысяч гектаров леса - UGRA-NEWS.RU",
+          "url": "https://ugra-news.ru/article/v_2025_godu_v_yugre_vosstanovili_bolee_26_tysyach_gektarov_lesa/?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "completed",
+      "evidence_quality": "medium",
+      "independence": "likely_republication",
+      "significance": "medium",
+      "verified_headline": "Forest Restoration Exceeds 23,000 Hectares in Yugra",
+      "verified_summary": "As of late November 2026, over 23,000 hectares of forest have been restored in Yugra, with 20,000 hectares recovering naturally and 3,200 hectares through artificial planting. The restoration exceeded losses by 15%.",
+      "verification_note": "The claim is based on government reports and local media, lacking independent verification. The restoration figures are substantial but represent a partial-year result.",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "1747d109ea9d01",
+      "editorial_score": 100,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here is a research-note on the candidate event (“Community clinic use rose and patient burden declined in China”) based on available evidence. I found no support for that claim in high-quality, original sources; in fact, most recent data point in the opposite direction.\n\n---\n\n## What I looked for\n\n- Any recent peer-reviewed or official data showing *increased* use of community clinics (or primary care) in China  \n- Evidence that patient burden (financial, travel, or other access burden) has *declined*  \n\n---\n\n## Key related studies & findings\n\n1. **China Family Panel Studies (CFPS), 2012-2022**  \n   - A longitudinal study of Chinese adults’ *usual source of care*. Measures whether people primarily use primary care, clinics, or hospitals. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/42287038/?utm_source=openai))  \n   - *Findings:* From 2012 to 2022, the proportion using primary care as their usual source **declined** from ~43.5 % to ~30.3 %, while hospital share **rose** from ~34.1 % to ~46.8 %.  \n   - Inflows into primary care (people starting to use it) dropped; outflows (people leaving primary care) increased. ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/42287038/?utm_source=openai))  \n\n   — This strongly contradicts “community clinic use rose.”\n\n2. **Village clinics in rural China (2011-2018)**  \n   - A nationally representative panel study of rural households and village clinics, with decomposition analysis. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10266832/?utm_source=openai))  \n   - *Findings:* Use of village clinics when ill **fell by 44 %** over this period. Outpatient services in county hospitals increased (~56 %), and self-treatment rose (~20 %). ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10266832/?utm_source=openai))  \n\n   — Again, the trend is away from lower-level community/village clinics, not toward them.\n\n3. **Equality & unmet needs (1993-2018)**  \n   - Household surveys (National Health Service Survey) track outpatient visits, hospital admissions, unmet needs due to financial burden, across urban/rural and income groups. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10204261/?utm_source=openai))  \n   - *Findings:* Overall outpatient visit rate dropped then recovered; hospitalizations increased; financial burden-related unmet need *declined*, as did unmet admission needs. ([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10204261/?utm_source=openai))  \n\n   — This indicates some reduction in “patient burden” (in terms of unable to afford treatment or unable to be admitted) over decades, but doesn’t clearly link to an increase in community clinic use.\n\n4. **Recent data from Henan Province (2014-2024)**  \n   - Time-series study examining recovery after COVID-19 disruptions. Looks at hospital vs township health centres (THCs) in outpatient visits. ([frontiersin.org](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1916015/full?utm_source=openai))  \n   - *Findings:* After COVID-19 restrictions eased, visits to township health centres significantly exceeded what would have been expected (~39-40 % higher than baseline in 2024), while hospital visits remained below expected levels. ([frontiersin.org](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1916015/full?utm_source=openai))  \n\n   — This suggests *increase* in use of primary-level THCs post-COVID in Henan, but measured relative to expected trends: it’s a partial recovery / upward shift, not necessarily a sustained nationwide “community clinic use rose” over long term, nor firm evidence of broadly declined burden.\n\n---\n\n## Assessment of the claim\n\n- The summary “Community clinic use rose and patient burden declined in China” is **not supported** by the major recent national studies. The strongest longitudinal data (CFPS, village clinics studies) show **declines** in primary care or community clinic usage from lower-level clinics, with shifting toward hospitals or self-treatment.  \n- “Patient burden” (especially financial unmet needs) has declined over longer periods (1990s-2018), particularly for hospital admissions, but evidence is mixed and often not specific to community clinics.  \n- More recent, more localized data (e.g. in Henan Province post-COVID) do show township health center visits exceeding expected levels, hinting at increased primary care use locally. But that’s not equivalent to national reversal of the overall decline.  \n\n---\n\n## Conclusion\n\n- **What actually seems to have happened:** In China, usage of lower-level/community/village clinics has generally *decreased* over roughly the past decade (e.g. 2011–2018; 2012–2022), with more people using hospitals or opting for self-treatment.  \n- Patient burden in terms of financial barriers and unmet needs has *decreased* over longer time-spans (1990s-2018) but with variation, and not necessarily directly tied to increased community clinic usage.\n\n- **What has *not* been demonstrated in reliable sources:** A national trend showing *community clinic use rose* in recent years, and that this rise has directly caused a *decline in patient burden.*\n\n---\n\nIf you want, I can try to find whether there is *any* credible recent evidence (2024–2026) that matches the claim more closely (community clinic usage up + patient burden reducing), in which case it might be more localized or policy specific. Do you want me to dig for that?",
+      "citations": [
+        {
+          "title": "[Associations of subjective perceptions and income change with transitions in usual source of care among Chinese residents: A study based on China Family Panel Studies].",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42287038/?utm_source=openai"
+        },
+        {
+          "title": "Explaining the Declining Utilization of Village Clinics in Rural China over Time: a Decomposition Approach",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10266832/?utm_source=openai"
+        },
+        {
+          "title": "Changes of equality of medical service utilization in China between 1993 and 2018: findings from six waves of nationwide household interview survey",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10204261/?utm_source=openai"
+        },
+        {
+          "title": "Unequal recovery of health facility visits in hospitals and township health centres after COVID-19 disruption in Henan Province, China, 2014–2024: a time-series study",
+          "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2026.1916015/full?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "unsupported",
+      "outcome_status": "unclear",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "high",
+      "verified_headline": "Community clinic use declined in China, patient burden mixed",
+      "verified_summary": "Recent studies indicate a decline in community clinic usage in China, with more patients opting for hospitals. While financial burden has decreased over time, it is not directly linked to increased community clinic use.",
+      "verification_note": "The claim of increased community clinic use and decreased patient burden is unsupported by recent studies, which show a decline in clinic usage and mixed results on patient burden.",
+      "publish_recommendation": "reject"
+    },
+    {
+      "id": "c508940dcfc3ec",
       "editorial_score": 90,
       "editorial_decision": "reserve",
       "search_backend": "chat_completions_search",
       "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s what I found, based on primary sources (mainly Syrian state media) and independent reports, about the reopening of two schools in Idlib:\n\n---\n\n## What was reported\n\n- Two schools—called *Holy Land Schools* (in Arabic “مدرستي الأرض المقدسة”)—in the Idlib countryside, specifically in the towns of **Quniya (القنية)** and **Al-Yacoubiyah (اليعقوبية)**, reopened on **Sunday, September 20, 2026** after rehabilitation works on their partially damaged buildings. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n- The reopening was part of restoring education services for children, especially as residents have been returning to areas affected by displacement. ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n- Attendance levels, grades served:\n  - Quniya school is for *first-cycle basic education* (generally younger students). ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n  - Al-Yacoubiyah school serves the *second cycle*. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n\n- Officials present at the ceremonies included:\n  - Raed al-Saleh, Minister of Emergency and Disaster Management ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n  - Hind Qabawat, Minister of Social Affairs and Labor ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n  - Mohammad Abdul Rahman, Governor of Idlib ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n  - Also present: the Vatican Ambassador Luigi Roberto Cona; the Custos of the Holy Land Francis Yelbo. ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n\n- The wider context:\n  - As of that academic year, Idlib province had **about 1,900 schools in operation**, including roughly **100 newly created or rehabilitated** schools. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n  - Total of **650 schools** had been restored and returned to service since “liberation” (i.e. regaining control) and more than **540,000 students** were being served, an increase of about **40,000** students coinciding with return of displaced families. ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n\n---\n\n## What is a measured outcome vs pledge, announcement, marketing\n\n- **Completed outcome**: The reopening of the two schools is a real event; both school buildings were rehabilitated to some degree and are in active use as of September 20, 2026. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n- **Supportive measurable outcomes**:  \n  - Number of schools restored in Idlib province: 650, serving over 540,000 students ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n  - Number of schools newly rehabilitated or established this academic year: ~100 ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n\n- **Announcements / pledges**:  \n  - Statements about ongoing rehabilitation work, plans to return more schools to service, continuing to support returning residents. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n  - Plans to restore the remaining 340 schools still needing rehabilitation in Idlib. ([sana.sy](https://sana.sy/governorates/edlib/2564403/?utm_source=openai))  \n\n---\n\n## Independent / third-party verification\n\n- IHH (a Turkish aid group) independently reported a similar but distinct event: on **November 27, 2026**, IHH reopened ***two war-damaged schools*** in Idlib—*Maarat Hurma School* and *Maarat al-Sin School*—after reconstruction, and said the facilities are expected to serve around **1,200 students**. ([dailysabah.com](https://www.dailysabah.com/turkiye/turkish-aid-group-restores-2-schools-in-syrias-idlib/news/amp?utm_source=openai))  \n- The schools in that IHH report are different schools (Maarat Hurma and Maarat al-Sin), not Quniya or Al-Yacoubiyah. So this is another example of schools reopening but *separate* from the September event. ([dailysabah.com](https://www.dailysabah.com/turkiye/turkish-aid-group-restores-2-schools-in-syrias-idlib/news/amp?utm_source=openai))  \n\n---\n\n## Assessment / Summary\n\n- The claim that *two schools reopened in Idlib after war recovery* refers to a real, completed event: Quniya (first-cycle) and Al-Yacoubiyah (second-cycle) schools reopened on **September 20, 2026**, following rehabilitation. ([sana.sy](https://sana.sy/governorates/edlib/2585529/?utm_source=openai))  \n- It is part of a broader measured recovery: hundreds of schools rehabilitated (650 in Idlib since “liberation”), thousands of students returning to schooling (over 540,000 in the province), with a measurable increase in student numbers (~40,000). ([sana.sy](https://sana.sy/en/syria/2344557/?utm_source=openai))  \n- There are also additional independent events of similar nature (e.g. by IHH) confirming that school reopening is ongoing in Idlib, though that supports the pattern rather than exactly the same two schools. ([dailysabah.com](https://www.dailysabah.com/turkiye/turkish-aid-group-restores-2-schools-in-syrias-idlib/news/amp?utm_source=openai))  \n\n---\n\nIf you like, I can track down eyewitness reports or student attendance data to further verify the impact.",
+      "research_notes": "Here’s a **research note** on the claim **“Biomes restoration in Brazil increases by 231.6% in five years”**, based on recent data. I have identified the primary source, verified actual outcomes vs. launch/plans, and noted which parts are new measured data vs. updated/mapped data.\n\n---\n\n### Key Finding (Measured Outcome)\n\n- According to the **Observatório da Restauração (OR)**, under the *Coalizão Brasil Clima, Florestas e Agricultura*, Brazil’s mapped area of **native vegetation restoration in progress** rose from approximately **79,000 hectares in 2021** to **262,000 hectares in 2026**. That is an increase of **231.6%** over five years. ([tmc.com.br](https://tmc.com.br/brasil/restauracao-de-biomas-no-brasil-mais-do-que-triplica-em-cinco-anos/?utm_source=openai))\n\n- From 2025 to 2026 specifically, the mapped area grew by **58,300 hectares**, a year-over-year increase of **29%**. ([tmc.com.br](https://tmc.com.br/brasil/restauracao-de-biomas-no-brasil-mais-do-que-triplica-em-cinco-anos/?utm_source=openai))\n\n---\n\n### Source & Credibility\n\n- **Primary Source**: The data comes from the **Observatório da Restauração (OR)**, from its **fourth edition**, published in **November 2026**. The OR is part of the **Coalizão Brasil Clima, Florestas e Agricultura**. ([exame.com](https://exame.com/esg/brasil-triplica-area-de-restauracao-florestal-e-novo-programa-mira-r-220-milhoes/?utm_source=openai))\n\n- The Coalizão website corroborates this, stating: *“Restauração no Brasil: área mapeada mais do que triplica em cinco anos e chega a 262 mil hectares”*. ([coalizaobr.com.br](https://coalizaobr.com.br/?utm_source=openai))\n\n---\n\n### Additional Context & Breakdown\n\n- **By biome**:\n  - *Mata Atlântica* leads in total area: **153,700 hectares**, about **58.7%** of Brazil’s total restoration efforts in this dataset. It increased by **22,800 hectares** (17%) from 2025 to 2026. ([tmc.com.br](https://tmc.com.br/brasil/restauracao-de-biomas-no-brasil-mais-do-que-triplica-em-cinco-anos/?utm_source=openai))\n  - *Amazônia* saw the fastest relative annual gain: **61%** increase in one year (39,600 → 63,800 hectares). ([tmc.com.br](https://tmc.com.br/brasil/restauracao-de-biomas-no-brasil-mais-do-que-triplica-em-cinco-anos/?utm_source=openai))\n  - *Cerrado* increased by 35% year-over-year, from 31,600 to 42,800 hectares. ([boca.com.br](https://boca.com.br/meio-ambiente/area-de-restauracao-no-brasil-cresce-2316-em-cinco-anos?utm_source=openai))\n  - *Caatinga, Pantanal and Pampa* together account for **less than 1%** of the mapped restoration area; the study attributes this mainly to *lack of available data* in those biomes. ([tmc.com.br](https://tmc.com.br/brasil/restauracao-de-biomas-no-brasil-mais-do-que-triplica-em-cinco-anos/?utm_source=openai))\n\n- **Restoration techniques & participation**:\n  - *Regeneração natural* (natural regeneration) is used in **46%** of all the mapped restoration area (~121,000 ha), and is especially predominant in the Amazon (73% there). ([tmc.com.br](https://tmc.com.br/brasil/restauracao-de-biomas-no-brasil-mais-do-que-triplica-em-cinco-anos/?utm_source=openai))\n  - Other techniques: *isolation* (blocking grazing, fire etc.), *plantio em área total* (full planting), etc. Distribution varies by biome & land type—e.g., in property lands vs. conservation units. ([tmc.com.br](https://tmc.com.br/brasil/restauracao-de-biomas-no-brasil-mais-do-que-triplica-em-cinco-anos/?utm_source=openai))\n\n- **Actors involved**:\n  - **Society civil** manages 90% of the mapped areas; executes 41% of projects. ([tmc.com.br](https://tmc.com.br/brasil/restauracao-de-biomas-no-brasil-mais-do-que-triplica-em-cinco-anos/?utm_source=openai))\n  - **Public sector** finances 52% of areas; **private sector** finances 22% of areas but executes 30%. ([observatoriosergipe.com.br](https://observatoriosergipe.com.br/noticias/areas-em-restauracao-no-brasil-crescem-231-6-em-cinco-anos-aponta-levantamento-f077bc2c1ae1?utm_source=openai))\n\n---\n\n### Caveats & Interpretations\n\n- The increase refers to **mapped & registered restoration efforts**, not necessarily the total actual restoration happening. The report notes that *some of the increase is due to projects that were already ongoing but had not been included in the previous mapping/database*. ([tmc.com.br](https://tmc.com.br/brasil/restauracao-de-biomas-no-brasil-mais-do-que-triplica-em-cinco-anos/?utm_source=openai))\n\n- The data does **not measure** outcomes in terms of ecological health, carbon capture, or biodiversity improvements—just the spatial extent of areas in restoration *process*.\n\n- Some geographic coverage is inconsistent—biomes like Caatinga, Pantanal and Pampa are underrepresented due to limited data availability. This suggests the totals might undercount actual restoration in those biomes. ([observatoriosergipe.com.br](https://observatoriosergipe.com.br/noticias/areas-em-restauracao-no-brasil-crescem-231-6-em-cinco-anos-aponta-levantamento-f077bc2c1ae1?utm_source=openai))\n\n---\n\n### Independent Reporting & Confirmation\n\n- Multiple independent media outlets (e.g., *Exame*, *Agência Brasil*) have reported these figures, largely repeating the data provided by the OR and the Coalizão. ([exame.com](https://exame.com/esg/brasil-triplica-area-de-restauracao-florestal-e-novo-programa-mira-r-220-milhoes/?utm_source=openai))\n\n- No contradictory data found to contradict the claim of 231.6%; no clear independent scientific peer-reviewed source yet provides alternative numbers that differ.\n\n---\n\n### Summary\n\n- **What happened**: The area of **registered native vegetation restoration in Brazil** rose by ~231.6% from 2021 to 2026, according to the latest measured data by the OR/Coalizão Brasil. The mapped area increased from ~79,000 to ~262,000 hectares.\n\n- **Verified?** Yes—based on OR’s national mapping and reporting.\n\n- **Is this completed restoration?** No—these are restoration *in process*; outcome metrics (e.g. biodiversity, carbon, maturity of vegetation) are not part of the metric reported.\n\n- **Announcement vs reality**: These are measured figures, not just a pledge. They reflect what has been documented on the ground (or via mapping/data collection), as of 2026.\n\n---\n\n### Implications (not evaluative, but factual)\n\n- Brazil is showing measurable growth in its restoration efforts, especially in Mata Atlântica and Amazônia biomes.\n\n- The reported increase helps monitor progress toward national/international environmental goals (e.g., Brazil’s restoration / deforestation commitments).\n\n- Gaps remain in data coverage (certain biomes underrepresented), and the fact that part of the increase comes from retrospective inclusion of older projects means that part of the growth is by updating the database, not only by new restoration activity.\n\n---\n\nIf you like, I can pull up the original OR report in full, with charts, dates, biogeographic maps, etc., to visualize how restoration is distributed.",
       "citations": [
         {
-          "title": "افتتاح مدرستي الأرض المقدسة في القنية واليعقوبية بريف إدلب بعد تأهيلهما",
-          "url": "https://sana.sy/governorates/edlib/2585529/?utm_source=openai"
+          "title": "Restauração de biomas no Brasil mais do que triplica",
+          "url": "https://tmc.com.br/brasil/restauracao-de-biomas-no-brasil-mais-do-que-triplica-em-cinco-anos/?utm_source=openai"
         },
         {
-          "title": "Idlib schools reopen as education services return with families coming home",
-          "url": "https://sana.sy/en/syria/2344557/?utm_source=openai"
+          "title": "Brasil triplica área de restauração florestal e novo programa mira R$ 220 milhões | Exame",
+          "url": "https://exame.com/esg/brasil-triplica-area-de-restauracao-florestal-e-novo-programa-mira-r-220-milhoes/?utm_source=openai"
         },
         {
-          "title": "محافظ إدلب: ترميم 600 مدرسة واستعداد لافتتاح 50 أخرى في المحافظة خلال أيام",
-          "url": "https://sana.sy/governorates/edlib/2564403/?utm_source=openai"
+          "title": "Coalizão Brasil Clima, Florestas e Agricultura",
+          "url": "https://coalizaobr.com.br/?utm_source=openai"
         },
         {
-          "title": "Turkish aid group restores 2 schools in Syria’s Idlib | Daily Sabah",
-          "url": "https://www.dailysabah.com/turkiye/turkish-aid-group-restores-2-schools-in-syrias-idlib/news/amp?utm_source=openai"
+          "title": "Área de restauração no Brasil cresce 231,6% em cinco anos",
+          "url": "https://boca.com.br/meio-ambiente/area-de-restauracao-no-brasil-cresce-2316-em-cinco-anos?utm_source=openai"
+        },
+        {
+          "title": "Áreas em restauração no Brasil crescem 231,6% em cinco…",
+          "url": "https://observatoriosergipe.com.br/noticias/areas-em-restauracao-no-brasil-crescem-231-6-em-cinco-anos-aponta-levantamento-f077bc2c1ae1?utm_source=openai"
+        }
+      ],
+      "fallback_error": "",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "measured_progress",
+      "evidence_quality": "high",
+      "independence": "multiple_independent",
+      "significance": "medium",
+      "verified_headline": "Brazil's biomes restoration area increases by 231.6% in five years",
+      "verified_summary": "Brazil's mapped area of native vegetation restoration rose from approximately 79,000 hectares in 2021 to 262,000 hectares in 2026, marking a 231.6% increase. This data reflects restoration efforts in progress, not completed restoration.",
+      "verification_note": "The increase is based on measured data from the Observatório da Restauração, but it does not assess ecological outcomes or biodiversity improvements.",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "d489efbca5d2df",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "responses_web_search",
+      "search_model": "gpt-6-luna",
+      "research_notes": "**Research note — correction:** The event appears to be the **temporary reopening of the Danube navigation channel near Paks**, not a reopening after flooding. The reported closure had lasted more than three months and was due to construction of a riverbed sill and unusually low water levels. An official navigation notice set a temporary traffic regime through **December 5, 2026**; independent Hungarian reporting says the temporary channel was **60 metres wide**, with downstream traffic starting **November 25** and two-way traffic allowed from **November 26**. More than 80 vessels were waiting to pass. ([pannonris.hu](https://pannonris.hu/pdf/117_Du_2026?utm_source=openai))\n\nThis was a **limited, temporary reopening**, not yet the full-width channel reopening: the water authority was reported as expecting to seek that around **December 20**, after construction. The claim that resumed shipping was aiding flood victims is unsupported by the sources reviewed; they describe drought/low water and construction, not flooding or flood recovery. ([24.hu](https://24.hu/tudomany/2026/11/27/duna-paks-jarhato-fenekkuszob-hajozas/?utm_source=openai))\n\n**Source note:** Several reports attribute their details to the same Hungarian water-authority announcement or the transport minister’s social-media post, so they should not be treated as separate confirmations. ([iho.hu](https://iho.hu/hirek/ujra-lehet-hajozni-a-dunan-paksnal-261126?utm_source=openai))",
+      "citations": [
+        {
+          "title": "# KÖZLEKEDÉSI ÉS BERUHÁZÁSI MINISZTÉRIUM",
+          "url": "https://pannonris.hu/pdf/117_Du_2026?utm_source=openai"
+        },
+        {
+          "title": "Három hónap után újra járható a Duna Paksnál | 24.hu",
+          "url": "https://24.hu/tudomany/2026/11/27/duna-paks-jarhato-fenekkuszob-hajozas/?utm_source=openai"
+        },
+        {
+          "title": "Újra lehet hajózni a Dunán Paksnál",
+          "url": "https://iho.hu/hirek/ujra-lehet-hajozni-a-dunan-paksnal-261126?utm_source=openai"
+        }
+      ],
+      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 244. Please try again in 326ms. Visit https://platform.op",
+      "search_error": "",
+      "support": "unsupported",
+      "outcome_status": "unclear",
+      "evidence_quality": "medium",
+      "independence": "likely_republication",
+      "significance": "medium",
+      "verified_headline": "Temporary reopening of Danube shipping channel near Paks",
+      "verified_summary": "The Danube navigation channel near Paks has temporarily reopened for shipping, allowing limited traffic. This reopening is due to construction and low water levels, not flooding recovery efforts.",
+      "verification_note": "The claim of aiding flood victims is unsupported; the reopening is linked to construction and drought conditions.",
+      "publish_recommendation": "reject"
+    },
+    {
+      "id": "c627f3a6c6bedf",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "responses_web_search",
+      "search_model": "gpt-6-luna",
+      "research_notes": "**Research note — partly verified; completion not established**\n\nThe candidate appears to concern the Suwannee River Water Management District’s proposed **Ogden Loop (Green)** conservation-easement acquisition in Columbia County, Florida. District records describe it as **about 451 acres**, not 426, and place it in the Ichetucknee Springshed. ([srwmd.org](https://srwmd.org/ArchiveCenter/ViewFile/Item/1714))\n\nA record of the District’s July 14, 2026 board action says the board approved authorization for a partnership acquisition from the Green Family. But District materials available in this search describe a contract and an expected closing—not a recorded closing—so they do **not** establish that the easement was completed. The 426-acre figure in the candidate headline is unsupported by the District documents reviewed. ([civiciq.com](https://civiciq.com/public-contract/suwannee-river-water-management-district-fl-green-family-facilities-2026-07-14?utm_source=openai))\n\nI did not locate the Lake City Reporter article or an independent report confirming the closing. **Bottom line:** acquisition authorization is supported; completed conservation protection is not verified here.",
+      "citations": [
+        {
+          "title": "AGENDA \nSUWANNEE RIVER WATER MANAGEMENT DISTRICT",
+          "url": "https://srwmd.org/ArchiveCenter/ViewFile/Item/1714"
+        },
+        {
+          "title": "Conservation Easement Acquisition With Green Family Approved | Civic IQ",
+          "url": "https://civiciq.com/public-contract/suwannee-river-water-management-district-fl-green-family-facilities-2026-07-14?utm_source=openai"
+        }
+      ],
+      "fallback_error": "RateLimitError: Error code: 429 - Rate limit reached for gpt-5-search-api in organization org-Q4QB9C28DqFQzywlTlW07Bb4 on tokens per min (TPM): Limit 45000, Used 45000, Requested 259. Please try again in 346ms. Visit https://platform.op",
+      "search_error": "",
+      "support": "partially_supported",
+      "outcome_status": "announcement",
+      "evidence_quality": "medium",
+      "independence": "single_source",
+      "significance": "medium",
+      "verified_headline": "District proposes acquisition of Green property for conservation",
+      "verified_summary": "The Suwannee River Water Management District has proposed acquiring a conservation easement on a property approximately 451 acres in size. However, the acquisition has not yet been completed.",
+      "verification_note": "The acquisition authorization is supported, but the completion of the conservation easement is not verified. The reported acreage also differs from district records.",
+      "publish_recommendation": "reserve"
+    },
+    {
+      "id": "7be9bcc046aab8",
+      "editorial_score": 80,
+      "editorial_decision": "reserve",
+      "search_backend": "chat_completions_search",
+      "search_model": "gpt-5-search-api",
+      "research_notes": "Here is a fact-check research note on the event “WSSC lifts water conservation request for Montgomery, Prince George’s counties,” based on original and secondary sources:\n\n---\n\n## What Happened\n\n- **Utility involved**: Washington Suburban Sanitary Commission (WSSC Water), which provides drinking water to 1.9 million customers in Montgomery and Prince George’s counties in Maryland. ([wsscwater.com](https://www.wsscwater.com/news/2026/november/final-update-830-am-friday-november-27-2026-essential-water-use-only-request?utm_source=openai))  \n- **The issue**: A major storm (Thanksgiving nor’easter) caused intermittent power disruptions at WSSC’s two water filtration plants—Potomac and Patuxent. ([baltimorechronicle.com](https://baltimorechronicle.com/baltimore/wssc-water-essential-use-only-request/?utm_source=openai))  \n- **Resulting action**: WSSC issued an “Essential Water Use Only” request at **2:30 PM on Thursday, November 26, 2026**, asking customers to sharply curtail water use (for example, avoid outdoor water use, limit dishwashing, laundry, toilet flushing) as a precaution while power was disrupted. Drinking water remained safe; no boil-water advisory was issued. ([world-today-journal.com](https://world-today-journal.com/wssc-water-conservation-request-use-water-only-for-essentials-until-power-stabilizes/?utm_source=openai))  \n\n---\n\n## Outcome / Resolution\n\n- **Lifting of the request**: The “Essential Water Use Only” request was lifted at **8:30 AM on Friday, November 27, 2026**. The request affected all 1.9 million WSSC customers in Montgomery and Prince George’s counties. ([wsscwater.com](https://www.wsscwater.com/news/2026/november/final-update-830-am-friday-november-27-2026-essential-water-use-only-request?utm_source=openai))  \n- **System status when lifted**: Both water filtration plants (Potomac and Patuxent) were producing safe, clean drinking water. The water treatment and distribution systems were operating normally. WSSC also noted that disruptions from the storm had diminished. ([wsscwater.com](https://www.wsscwater.com/news/2026/november/final-update-830-am-friday-november-27-2026-essential-water-use-only-request?utm_source=openai))  \n\n---\n\n## Sources & Verification\n\n- **Original / primary source**: WSSC’s own press release titled “Final Update – 8:30 a.m. Friday, November 27, 2026: Essential Water Use Only Request Lifted” from their official website. ([wsscwater.com](https://www.wsscwater.com/news/2026/november/final-update-830-am-friday-november-27-2026-essential-water-use-only-request?utm_source=openai))\n\n- **Independent reporting**: The Banner (regional news outlet) and NBC Washington both reported the lifting of the advisory, quoting WSSC and confirming the 8:30 AM time and 1.9 million customers affected. ([thebanner.com](https://www.thebanner.com/community/local-news/wssc-water-essential-water-request-storm-5TL6JWNZLBFT7NXXRMJVBKCW3Y/?utm_source=openai))  \n\n---\n\n## Completeness & Context\n\n- **Completed outcome**: Yes — the conservation request was lifted; there is a measurable resolution. City operations returned to normal water production and distribution.  \n- **What remains unknown**: No further forecast of possible renewed advisory (if power were to become unstable again), though WSSC said it would continue monitoring. ([baltimorechronicle.com](https://baltimorechronicle.com/baltimore/wssc-water-essential-use-only-request/?utm_source=openai))  \n\n---\n\n## Summary\n\nWSSC’s “Essential Water Use Only” request for Montgomery and Prince George’s counties—initially issued Thursday afternoon (November 26, 2026) due to storm-related power disruptions at major filtration plants—was lifted early the next morning (8:30 AM, Friday, November 27). The request had affected 1.9 million customers; by the time of lifting, both plants were operating normally, water production met demand, and the distribution system was restored. Drinking water remained safe; there was no boil-water advisory. The event is fully completed.",
+      "citations": [
+        {
+          "title": "*Final Update – 8:30 a.m. Friday, November 27, 2026* Essential Water Use Only Request Lifted | WSSC Water",
+          "url": "https://www.wsscwater.com/news/2026/november/final-update-830-am-friday-november-27-2026-essential-water-use-only-request?utm_source=openai"
+        },
+        {
+          "title": "WSSC Water Restriction: Essential Use Only Request Update",
+          "url": "https://baltimorechronicle.com/baltimore/wssc-water-essential-use-only-request/?utm_source=openai"
+        },
+        {
+          "title": "WSSC Water Conservation Request: Use Water Only for Essentials Until Power Stabilizes - World Today Journal",
+          "url": "https://world-today-journal.com/wssc-water-conservation-request-use-water-only-for-essentials-until-power-stabilizes/?utm_source=openai"
+        },
+        {
+          "title": "WSSC Water lifts essential-water-use-only request after storms - The Banner",
+          "url": "https://www.thebanner.com/community/local-news/wssc-water-essential-water-request-storm-5TL6JWNZLBFT7NXXRMJVBKCW3Y/?utm_source=openai"
         }
       ],
       "fallback_error": "",
@@ -42,43 +220,10 @@
       "evidence_quality": "high",
       "independence": "multiple_independent",
       "significance": "high",
-      "verified_headline": "Two schools reopen in Idlib after rehabilitation efforts",
-      "verified_summary": "Two schools in Idlib, Quniya and Al-Yacoubiyah, reopened on September 20, 2026, after rehabilitation. This is part of a broader recovery effort, with 650 schools restored in the province serving over 540,000 students.",
-      "verification_note": "The reopening of the schools is a completed event supported by multiple sources, indicating significant recovery in education services in Idlib.",
+      "verified_headline": "WSSC lifts water conservation request for Montgomery, Prince George's counties",
+      "verified_summary": "The Washington Suburban Sanitary Commission lifted its 'Essential Water Use Only' request after storm-related disruptions, indicating normal water production and distribution have resumed for 1.9 million customers.",
+      "verification_note": "The lifting of the water conservation request is confirmed by multiple independent sources, indicating a completed resolution with normal operations restored.",
       "publish_recommendation": "publish"
-    },
-    {
-      "id": "6896037728daf5",
-      "editorial_score": 85,
-      "editorial_decision": "reserve",
-      "search_backend": "chat_completions_search",
-      "search_model": "gpt-5-search-api",
-      "research_notes": "Here’s a research note on what can be confirmed to have actually *happened* with the news event “Australia sees record 5.5 GW in renewable FIDs year to date”:\n\n---\n\n## What “FID” Means\n\n- FID = Final Investment Decision. It refers to projects having reached a committed stage with financing in place (or equivalent), moving beyond planning toward construction.  \n- These figures are for “large-scale renewable generation” (solar/wind) projects in Australia. They are not pledges; they are measured commitments. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))\n\n---\n\n## What Happened: Key Facts\n\n1. **Record Annual Investment (to Date)**  \n   - In the first three quarters of 2026 (up to end-September), **projects totalling 5.0 GW** of large-scale renewable generation capacity reached FID. This already surpassed the previous annual record of 4.9 GW, which was set in 2018. ([cer.gov.au](https://cer.gov.au/document/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))  \n   - By **mid-November 2026**, additional investments pushed the year-to-date total up to **5.5 GW**. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))\n\n2. **Breakdown by Technology**  \n   - Of the 5.5 GW to mid-November, about **3.5 GW** is solar capacity. The rest is from wind. ([cer.gov.au](https://cer.gov.au/document/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))  \n   - In the September quarter alone (Q3 2026), about **2.1 GW** of new large-scale renewable capacity reached FID. This included **1.0 GW** from solar and **1.1 GW** from wind. ([cer.gov.au](https://cer.gov.au/document/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))\n\n3. **Support via Government Scheme (CIS)**  \n   - More than half of the generation capacity that reached FID by end of Q3 2026 has support under the *Capacity Investment Scheme* (CIS). CIS-supported projects are making up a substantial part of the FID activity. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))  \n   - Some of the solar and wind projects in Q3 (e.g. in Queensland) that reached FID are CIS-supported. ([now.solar](https://now.solar/2026/11/26/australia-sees-1-gw-of-solar-capacity-reach-fid-in-q3-pv-magazine-global/?utm_source=openai))\n\n4. **Outlook Revised**  \n   - Because of this strong investment activity, the Clean Energy Regulator (CER) has revised its forecast. Earlier (in Q4 2025), CER had projected 6–16 GW of large-scale renewable capacity to reach FID over 2026-27. Given that 5.5 GW has already occurred by mid-November 2026, the lower bound of that projection has been raised from **6 GW to 8 GW**, while keeping the upper bound at **16 GW**. ([cer.gov.au](https://cer.gov.au/document/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))\n\n---\n\n## What Was *Announced* vs What Is *Completed*\n\n- These are **projects that have reached FID**, meaning financing or equivalent commitment is secured. However, this does *not* mean all these projects are finished, fully built, or generating electricity. FID precedes construction, commissioning, and generation. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))  \n- There is a known lag between FID → construction → accreditation (e.g. under Australia’s Large-scale Renewable Energy Target, “LRET”) before generation begins. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))\n\n---\n\n## Sources\n\n- **Primary / Official Source**: The *Clean Energy Regulator (CER)* Quarterly Carbon Market Report, September Quarter 2026. This includes confirmed data on FIDs, capacity by technology, CIS involvement, and the year-to-date totals. ([cer.gov.au](https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai))  \n- **Independent Reporting**: Sources like *pv magazine Global* and *RenewEconomy* confirm and re report these CER findings, tightening in on details like the CIS-supported projects, solar/wind split, and the revised outlook. ([now.solar](https://now.solar/2026/11/26/australia-sees-1-gw-of-solar-capacity-reach-fid-in-q3-pv-magazine-global/?utm_source=openai))\n\n---\n\n## Summary\n\n- As of mid-November 2026, **5.5 GW** of large-scale renewable generation capacity in Australia has officially passed the FID milestone—a new record.  \n- Over 3.5 GW of that is solar. Wind contributes the remaining portion.  \n- More than half of the FID capacity is backed by the Capacity Investment Scheme (CIS), a government support program.  \n- The previous record was 4.9 GW (in 2018), but the first three quarters of 2026 alone already exceeded that, at 5.0 GW by end-Q3.  \n- CER has revised its forecast to expect at least **8 GW** of capacity reaching FID over 2026-27, up from the earlier lower estimate of 6 GW.  \n\n---\n\nIf you like, I can also pull together what specific projects are involved, where they are located, and when they are expected to come online.",
-      "citations": [
-        {
-          "title": "Quarterly Carbon Market Report September quarter 2026 | Clean Energy Regulator",
-          "url": "https://cer.gov.au/markets/reports-and-data/quarterly-carbon-market-reports/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai"
-        },
-        {
-          "title": "# Large-scale renewable investment reaches a new annual record",
-          "url": "https://cer.gov.au/document/quarterly-carbon-market-report-september-quarter-2026?utm_source=openai"
-        },
-        {
-          "title": "Australia sees 1 GW of solar capacity reach FID in Q3 – pv magazine Global | Solar Now",
-          "url": "https://now.solar/2026/11/26/australia-sees-1-gw-of-solar-capacity-reach-fid-in-q3-pv-magazine-global/?utm_source=openai"
-        }
-      ],
-      "fallback_error": "",
-      "search_error": "",
-      "support": "partially_supported",
-      "outcome_status": "announcement",
-      "evidence_quality": "high",
-      "independence": "multiple_independent",
-      "significance": "medium",
-      "verified_headline": "Australia achieves record 5.5 GW in renewable energy FIDs",
-      "verified_summary": "As of mid-November 2026, Australia has reached a record 5.5 GW of large-scale renewable energy projects that have passed the Final Investment Decision (FID) milestone. This surpasses the previous record of 4.9 GW set in 2018.",
-      "verification_note": "The claim is supported by multiple independent sources confirming the record FID figures, but these projects are not yet completed or generating electricity.",
-      "publish_recommendation": "reserve"
     }
   ],
   "pilot_note": "Live-web verification pilot; cited search evidence is re-evaluated by a separate verifier model."
